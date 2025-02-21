@@ -5,7 +5,7 @@ seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
 breadcrumb-title: 설명서
 recommendations: noCatalog
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: acea87211010e5ed2761de91cf9101813d4b9190
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
