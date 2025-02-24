@@ -2,9 +2,9 @@
 title: ' [!DNL Live Search] 시작'
 description: Adobe Commerce에서  [!DNL Live Search] 의 시스템 요구 사항 및 설치 단계에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 039f04814c4e0b0c31f160446c67b2689f687818
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3122'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 >[!NOTE]
 >
 >[!DNL Live Search] 3.0.2부터 [!DNL Catalog Service] 확장이 [!DNL Live Search] 설치와 함께 번들로 제공됩니다.
+
+>[!IMPORTANT]
+>
+>[!DNL Live Search] 4.0.0부터 검색 어댑터는 사용되지 않습니다. 앞으로는 보안 문제를 해결하기 위해 검색 어댑터만 업데이트됩니다.
 
 1. [cron jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
 
