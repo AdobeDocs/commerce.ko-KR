@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]  웹 사이�
 role: User
 level: Intermediate
 feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 95d86654ad185b2c37a59777a29f6de1b0091ad7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 0%
 * 관리자 내에 자체 포함
 
 ## 기능
-
->[!NOTE]
->
->여기에 언급된 기능 중 일부는 GA(General Availability) 릴리스에서 아직 제공되지 않을 수 있습니다.
 
 [!DNL Payment Services]은(는) 온라인 체크아웃(결제 및 환불부터 결제까지)을 위한 원스톱 샵입니다. 구매자에게 최상의 경험을 제공하기 위해 필요한 통찰력과 컨트롤을 제공하는 강력한 도구를 제공합니다.
 

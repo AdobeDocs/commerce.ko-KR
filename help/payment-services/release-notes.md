@@ -2,9 +2,9 @@
 title: '[!DNL Payment Services] 릴리스 정보'
 description: 모든 [!DNL Payment Services] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 feature: Payments, Release Notes
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 313d69a7f791153fd56a1492f9012776cea1f3df
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3392'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,24 @@ _2021년 6월 28일_
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-2761 --> 이제 열 설정 컨트롤을 사용하여 열을 표시하거나 숨김으로써 [주문 결제 상태 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) 및 [결제 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns)에 표시되는 데이터를 사용자 지정할 수 있습니다.
 
 +++
+
+## v2.10.3
+
+_2025년 2월 24일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-xxxx --> 전반적인 안정성과 성능이 향상되었습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-xxxx --> 일반 개선 및 최적화. v2.10.2에서 중요한 버그가 수정되었습니다.
+
+## v2.10.2
+
+_2025년 2월 21일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![알려진 문제](../assets/bug.svg)<!-- PAY-xxxx --> 안정성 및 성능에 영향을 줄 수 있는 중요한 버그가 포함되어 있습니다. Adobe에서는 이 버전(v2.10.2)을 사용하지 않고 v2.10.3으로 업그레이드하는 것이 좋습니다.
 
 ## v2.10.1
 
