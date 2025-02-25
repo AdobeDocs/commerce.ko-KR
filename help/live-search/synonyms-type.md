@@ -1,9 +1,10 @@
 ---
 title: 동의어 유형
 description: 단방향 및 양방향 [!DNL Live Search] 동의어는 키워드의 정의를 확장합니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f5522428-c7cc-4627-a09b-d9148918c127
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -38,10 +39,6 @@ a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on
 
 정지어는 동의어를 더 의미 있게 만드는 것이 아니라 반드시 처리해야 하는 데이터의 양을 늘린다.
 
-### 단일 단어 사용
-
-동의어 용어에 여러 단어가 들어 있으면 단어 사이에 공백이 있으면 별개의 동의어로 취급된다. 예를 들어 &quot;time piece&quot;를 &quot;watch&quot;의 동의어로 정의하는 경우 &quot;time&quot;과 &quot;piece&quot;는 별도의 동의어로 처리됩니다.
-
 ### 단수 및 복수의 사용
 
 단어의 단수 형태와 복수 형태를 모두 동의어로 정의할 필요는 없다. 카탈로그에 단수 용어와 복수 용어가 혼합되어 있는 경우 검색 결과 올바른 제품 세트를 찾습니다. 예를 들어 제품 이름에 &quot;pant&quot;라는 단어를 사용하고 쇼핑객이 &quot;pants&quot;를 검색하면 올바른 제품 세트가 반환되고 &quot;pant&quot;라는 단수가 제안으로 제공됩니다. 단수형인 &quot;바지&quot;는 패션 산업에서 종종 사용되며 때로는 소매업에서 사용되기도 하지만, 복수형인 &quot;바지&quot;가 일부 영역에서 더 일반적으로 사용됩니다. (&quot;바지&quot;라는 단어는 엄밀히 말하면 한쪽 다리를 덮는 의류의 부분을 말하는데, 이 때문에 양쪽 다리를 덮는 &quot;바지 한 벌&quot;이 필요합니다.)
@@ -49,3 +46,13 @@ a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on
 ### 일관성
 
 카탈로그에서 용어가 사용되는 방식을 일관하십시오. 사용량에 있어 지역적 차이가 있을 수 있으며 때로는 업계 내에서도 차이가 있을 수 있습니다.
+
+## 다중 단어 동의어 동작
+
+여러 단어 동의어의 경우, Commerce은 동의어를 구문으로 간주합니다. 예를 들어 양방향 동의어 **식사 테이블** ![양방향 선택기](assets/btn-two-way.png) **주방 테이블** ![양방향 선택기](assets/btn-two-way.png) **식사 테이블**&#x200B;을 만드는 경우 Commerce은 **식사 테이블** 또는 **주방 테이블** 또는 **식사 테이블**&#x200B;의 발생 시 검색 가능하도록 설정된 모든 필드를 검색합니다.
+
+동의어가 만들어지지 않고 쇼핑객이 **주방 테이블**&#x200B;을(를) 검색하는 경우, Commerce은 검색 가능한 필드의 어디에서나 다른 필드(예: 이름 필드의 **테이블**, 메타 키워드의 **주방**)에서 검색어를 찾습니다.
+
+동의어를 만든 후 검색 동작이 정확히 일치하는 구 **kitchen table**&#x200B;을(를) 찾도록 변경됩니다. 이렇게 하면 구문이 정확한 제품만 표시되므로 결과 수가 줄어들 수 있습니다.
+
+이전과 같이 용어를 개별적으로 검색하려는 경우 [지원 티켓을 만들 수 있습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide). 수요가 충분하면 Commerce은 향후 릴리스에서 이 기능을 제품에 추가하는 것을 고려합니다.

@@ -1,7 +1,8 @@
 ---
 title: 동의어 추가
 description: 검색 요청에 대한 응답을 향상시키려면  [!DNL Live Search] 동의어를 추가하십시오.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 2dc535ea-35a3-45a8-8171-901005223cc9
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -30,7 +31,6 @@ ht-degree: 0%
 1. 기본 **양방향** 옵션을 사용합니다.
 
    ![양방향 동의어 추가](assets/synonym-add-two-way.png)
-
 
 1. 일치시킬 **키워드** 용어 또는 구를 입력하십시오.
 1. 키워드에 동의어로 추가할 **Expansion** 용어를 입력하십시오. 쉼표로 여러 용어를 구분하십시오.

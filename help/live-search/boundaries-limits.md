@@ -2,9 +2,10 @@
 title: 경계 및 제한
 description: 비즈니스 요구 사항을 충족하도록  [!DNL Live Search] 의 경계 및 제한에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -64,7 +65,6 @@ ht-degree: 0%
 ## 동의어
 
 - [!DNL Live Search]은(는) 스토어 보기당 최대 200개의 [동의어](synonyms.md)를 관리할 수 있습니다.
-- 여러 단어 동의어가 항상 예상대로 작동하지 않을 수 있습니다. 이러한 동의어는 관련성에 부정적인 영향을 미칠 수 있으므로 프로덕션 환경에서 사용하기 전에 스테이징 환경에서 테스트해야 합니다.
 
 ## 카테고리 머천다이징
 

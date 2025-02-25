@@ -2,9 +2,10 @@
 title: '[!DNL Live Search] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Live Search] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Search, Release Notes
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -22,6 +23,10 @@ ht-degree: 0%
 ## 호스팅된 서비스 업데이트
 
 이 참고 사항에서는 버전 관리된 릴리스 외부에 게시된 업데이트 또는 호스팅된 서비스에 대한 개선 사항에 대해 설명합니다.
+
+_2025년 2월 20일_
+
+![새로 만들기](../assets/new.svg) Commerce에서 여러 단어 동의어를 지원합니다. [자세히 알아보기](synonyms-type.md#multi-word-synonym-behavior). 다중 단어 동의어에 대한 지원은 2월 20일 릴리스일 이후에만 가능합니다. 기존의 여러 단어 동의어가 작동하려면 전체 색인 재지정이 필요합니다. [지원 티켓을 만드는 중](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 요청할 수 있습니다.
 
 _2025년 1월 31일_
 
