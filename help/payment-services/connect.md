@@ -2,7 +2,8 @@
 title: 인스턴스 연결
 description: API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연결하고 구성에서 데이터 공간을 지정합니다.
 feature: Payments, Checkout, Configuration, Saas
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f2b3be02-e9dd-4bca-b9e4-c80a56bf8691
+source-git-commit: 16bd0e7ed1e8982e1571e2593115824a2004b7dc
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%
@@ -12,6 +13,8 @@ ht-degree: 0%
 # 인스턴스 연결
 
 [!DNL Payment Services]은(는) Commerce 서비스에서 구동되며 SaaS(Software as a Service)로 배포됩니다. API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연결하고 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html)를 사용하여 구성에 데이터 공간을 지정합니다. **이 연결을 한 번만 설정했습니다.**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447835)
 
 >[!INFO]
 >

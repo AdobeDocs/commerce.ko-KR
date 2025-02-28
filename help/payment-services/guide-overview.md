@@ -5,9 +5,10 @@ seo-title: Adobe Commerce Payments Services Guide
 seo-description: Describes how to use [!DNL Payment Services] with Adobe Commerce or [!DNL Magento Open Source].
 feature: Payments, Checkout
 recommendations: noCatalog
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: e27a259f-e72e-4d73-a103-59167638e582
+source-git-commit: 62b708f79ac011ef33b37f67384df7c94571ced2
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -42,6 +43,10 @@ ht-degree: 0%
 ## 지원
 
 정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 [!DNL Payment Services] 영업 담당자에게 문의하거나 [!DNL Payment Services] 홈에서 사용할 수 있는 리소스를 사용하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447836)
+
+올바른 [!DNL Payment Services] 옵션을 확인하려면 [가용성](overview.md#availability)을 참조하세요.
 
 * [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) - 기술 자료에서 [!DNL Payment Services] 관련 문제 해결 문서를 검색합니다.
 * [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Commerce 고객은 추가 지원을 받기 위해 티켓을 제출할 수 있습니다.

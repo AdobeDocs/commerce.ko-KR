@@ -4,9 +4,10 @@ description: ' [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]  웹 사이�
 role: User
 level: Intermediate
 feature: Payments, Checkout
-source-git-commit: 95d86654ad185b2c37a59777a29f6de1b0091ad7
+exl-id: 1d41f86a-f874-48df-9173-9cf9f07e6d79
+source-git-commit: 62b708f79ac011ef33b37f67384df7c94571ced2
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,12 @@ ht-degree: 0%
 
 릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하십시오.
 
+### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447811)
+
+[!DNL Payment Services] 확장 설정에 대한 자세한 내용은 [연결](connect.md)을 참조하세요.
+
 ### 허용된 신용 카드 및 통화
 
 [!DNL Payment Services]은(는) [ 사용 가능한 국가의 통화를 수락합니다](#availability). 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html)을 참조하세요.
@@ -71,9 +78,3 @@ PayPal이 지원하는 결제 방법을 보려면 해당 [결제 방법 설명�
 1. [!DNL Payment Services]을(를) 실시간 결제 모드로 활성화하여 실시간 결제 처리를 시작합니다.
 
 전체 지침을 받고 온보딩 프로세스를 시작하려면 [온보딩 [!DNL Payment Services]](onboard.md)을 참조하세요.
-
-## [!DNL Payment Services] 데모
-
-[!DNL Payment Services]에 대해 알아보려면 이 비디오 보기:
-
->[!VIDEO](https://video.tv.adobe.com/v/343990?quality=12)
