@@ -3,9 +3,10 @@ title: '[!DNL SaaS Data Export Extension] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Release Notes
 recommendations: noCatalog
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
+source-git-commit: 7e19d42f4e064cfc4efd7c275546725795b60310
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ ht-degree: 0%
 
 ## 현재 메이저 버전
 
+## 103.3.20 릴리스
+
+![해결](../assets/fix.svg) 카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->
+![수정](../assets/fix.svg) 스토어 보기 수가 많은 인스턴스에서 제품 재동기화 프로세스의 성능이 향상되었습니다. <!--MDEE-974-->
 
 ## 103.3.19 릴리스
 
