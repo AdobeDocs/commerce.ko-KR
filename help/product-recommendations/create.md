@@ -1,9 +1,10 @@
 ---
 title: 새 권장 사항 만들기
 description: 제품 추천 단위를 만드는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1d5f83c4-1613-4236-9d98-d455f45a47da
+source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -81,6 +82,10 @@ _추천 단위_
    * 나중에 추천 단위를 편집하려면 **초안으로 저장**. 초안 상태의 권장 사항 단위에 대한 페이지 유형 또는 권장 사항 유형은 수정할 수 없습니다.
 
    * 상점 첫 화면에서 추천 단위를 사용하려면 **활성화**&#x200B;하세요.
+
+>[!IMPORTANT]
+>
+>일부 브라우저는 제품 권장 사항이 예상대로 작동하지 않도록 하는 중요한 스크립트를 차단할 수 있습니다.
 
 ## 준비 지표
 
