@@ -2,9 +2,10 @@
 title: 로그 검토 및 문제 해결
 description: 데이터 내보내기 및 saas 내보내기 로그를 사용하여  [!DNL data export] 오류를 해결하는 방법에 대해 알아봅니다.
 feature: Services
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: d022756f-6e75-4c2a-9601-31958698dc43
+source-git-commit: 22c74c12ddfccdb4e6c4e02c3a15557e1020d5ef
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,8 +37,8 @@ Adobe Commerce 서비스에 대한 예상 데이터가 표시되지 않으면 �
    "feed": "<feed name>",
    "operation": "<executed operation>",
    "status": "<status of operation>",
-   "elapsed": "<time elaspsed from script run>",
-   "pid": "<proccess id who executed `operation`>",
+   "elapsed": "<time elapsed from script run>",
+   "pid": "<process id that executed `operation`>",
    "caller": "<who called this `operation`>"
 } [] []
 ```
@@ -50,10 +51,10 @@ Adobe Commerce 서비스에 대한 예상 데이터가 표시되지 않으면 �
 
 | 작업 | 설명 | 발신자 예 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| 전체 동기화 | 전체 동기화는 주어진 피드에 대해 모든 데이터를 수집하여 SaaS로 전송합니다. | `bin/magento saas:resync --feed=products` |
-| 부분 색인 재지정 | 부분 동기화는 지정된 피드에서 업데이트된 엔터티에 대해서만 데이터를 수집하여 SaaS로 보냅니다. 이 로그는 업데이트된 엔티티가 있는 경우에만 표시됩니다. | `bin/magento cron:run --group=index` |
+| 전체 동기화 | 지정된 피드에 대한 모든 데이터를 수집하여 SaaS로 보냅니다. | `bin/magento saas:resync --feed=products` |
+| 부분 색인 재지정 | 지정된 피드에서 업데이트된 엔터티에 대해서만 데이터를 수집하여 SaaS로 보냅니다. 이 로그는 업데이트된 엔티티가 있는 경우에만 표시됩니다. | `bin/magento cron:run --group=index` |
 | 실패한 항목 다시 시도 | Commerce 애플리케이션 또는 서버 오류로 인해 이전 동기화 작업이 실패한 경우 지정된 피드에 대한 항목을 SaaS에 다시 보냅니다. 이 로그는 실패한 항목이 있는 경우에만 존재합니다. | `bin/magento cron:run --group=saas_data_exporter`(&quot;*_data_exporter&quot; 크론 그룹) |
-| 전체 동기화(이전) | 레거시 내보내기 모드에서 지정된 피드에 대한 전체 동기화. | `bin/magento saas:resync --feed=categories` |
+| 전체 동기화(이전) | 기존 내보내기 모드에서 지정된 피드에 대한 모든 데이터를 수집하여 SaaS로 보냅니다. | `bin/magento saas:resync --feed=categories` |
 | 부분 색인 재지정(기존) | 레거시 내보내기 모드에서 지정된 피드에 대해 업데이트된 엔티티를 SaaS로 보냅니다. 이 로그는 업데이트된 엔티티가 있는 경우에만 표시됩니다. | `bin/magento cron:run --group=index` |
 | 부분 동기화(레거시) | 레거시 내보내기 모드에서 지정된 피드에 대해 업데이트된 엔티티를 SaaS로 보냅니다. 이 로그는 업데이트된 엔티티가 있는 경우에만 표시됩니다. | `bin/magento cron:run --group=saas_data_exporter`(&quot;*_data_exporter&quot; 크론 그룹) |
 
@@ -123,12 +124,12 @@ Adobe Commerce 로그를 New Relic에 저장하는 경우 구문 분석 규칙�
 
 ## 문제 해결
 
-Commerce Services에서 데이터가 누락되었거나 잘못된 경우 로그를 확인하여 Adobe Commerce 인스턴스에서 Commerce 서비스 플랫폼으로 동기화하는 동안 문제가 발생했는지 확인하십시오. 필요한 경우 확장 로깅을 사용하여 문제를 해결하기 위해 로그에 추가 정보를 추가합니다.
+Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그에서 Adobe Commerce에서 Commerce Services 플랫폼으로 동기화하는 동안 발생한 오류에 대한 메시지를 확인하십시오. 필요한 경우 확장 로깅을 사용하여 문제를 해결하기 위해 로그에 추가 정보를 추가합니다.
 
-- commerce-data-export-errors.log - 수집 단계에서 오류가 발생한 경우
-- saas-export-errors.log - 전송 단계 중 오류가 발생한 경우
+- 데이터 내보내기 오류 로그(`commerce-data-export-errors.log`)는 수집 단계 동안 발생하는 오류를 캡처합니다.
+- SaaS 내보내기 오류 로그(`saas-export-errors.log`)에서 전송 단계 중에 발생하는 오류를 캡처합니다.
 
-구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)을 제출하십시오.
+구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
 
 ### 카탈로그 동기화 문제 해결 {#resolvesync}
 
@@ -143,22 +144,15 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우 로그�
 
 #### 동기화가 실행되고 있지 않음
 
-동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.html) 문서를 참조하십시오.
+동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) 문서를 참조하십시오.
 
 #### 동기화 실패
 
-카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)을 제출하세요.
+카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 제출하세요.
 
 ## 확장된 로깅
 
-추가 로그 정보의 경우 환경 변수를 사용하여 추적 및 문제 해결을 위한 추가 데이터와 함께 로그를 확장할 수 있습니다.
-
-`var/log/` 디렉터리에 두 개의 로그 파일이 있습니다.
-
-- commerce-data-export-errors.log - 수집 단계에서 오류가 발생한 경우
-- saas-export-errors.log - 전송 단계 중 오류가 발생한 경우
-
-환경 변수를 사용하여 추적 및 문제 해결을 위한 추가 데이터와 함께 로그를 확장할 수 있습니다.
+환경 변수를 사용하여 추적 및 문제 해결을 위한 추가 데이터로 로그를 확장합니다. 다음 예와 같이 데이터 내보내기 CLI 명령을 실행할 때 명령줄에 환경 변수를 추가합니다.
 
 ### 피드 페이로드 확인
 
