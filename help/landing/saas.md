@@ -3,9 +3,10 @@ title: Commerce 서비스 커넥터
 description: 프로덕션 및 샌드박스 API 키를 사용하여 Adobe Commerce 또는 Magento Open Source 인스턴스를 서비스에 통합하는 방법을 알아봅니다.
 feature: Services, Saas
 role: Admin, User
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1aa6ba8b-be39-496e-b83d-a4a7db9f5dd8
+source-git-commit: 5e2c32b66407585317e22649184337e2aace9bad
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -96,6 +97,8 @@ ht-degree: 0%
 - 추가 테스트 데이터 공간을 요청하고 추가 데이터 공간에 대한 비즈니스 타당성을 나타내려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하십시오. 이 요청은 승인 대상이 됩니다.
 
 Adobe 결제 서비스를 사용하는 Magento Open Source 고객도 추가 데이터 공간을 요청할 수 있습니다. 테스트 데이터 공간을 요청하기 위해 [지원 요청](https://experienceleague.adobe.com/home?support-tab=home#support)을 제출하기 전에 결제 팀에 연락하여 추가 데이터 공간의 사전 승인을 받으십시오.
+
+여러 클라우드 프로젝트 또는 온-프레미스(라이브/프로덕션) 설치를 보유한 고객은 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하여 각 프로젝트 또는 인스턴스에 대한 추가 프로덕션 및 테스트 데이터 공간을 요청할 수도 있습니다.
 
 ### SaaS 프로젝트 선택 또는 만들기 {#createsaasenv}
 
