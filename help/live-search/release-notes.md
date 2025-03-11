@@ -3,9 +3,9 @@ title: '[!DNL Live Search] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Live Search] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: 81bde302463a70e41318b494565694929703dff9
+source-git-commit: eb016fa8e53cfb9d035d73979495171feccb764f
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,15 @@ _2024년 5월 31일_
 _2023년 10월 27일_
 
 ![새로 만들기](../assets/new.svg) 이제 [!DNL Live Search] PLP 위젯에서 색상 견본을 지원합니다.
+
+## [!DNL Live Search] 4.3.0
+
+_2025년 3월 11일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![수정](../assets/fix.svg) [!DNL Live Search]은(는) 이제 Adobe Commerce 2.4.8-beta2를 실행하는 설치에서 PHP 8.4를 지원합니다.
+![수정](../assets/fix.svg) 검색 어댑터가 `psr/http-message:2.0`과(와) 호환되지 않는 문제를 해결했습니다.
 
 ## [!DNL Live Search] 4.2.3
 
@@ -173,11 +182,9 @@ _2023년 11월 13일_
 
 업그레이드 후 변경 사항을 프로덕션에 푸시하기 전에 QA 또는 스테이징에서 업데이트된 구성을 테스트하십시오.
 
-## 이전 버전
-
 +++3.1.1 및 이전
 
-## [!DNL Live Search] 3.1.1
+### [!DNL Live Search] 3.1.1
 
 _2023년 9월 15일_
 
@@ -194,7 +201,7 @@ _2023년 9월 15일_
 ![새로 만들기](../assets/new.svg) 범주 미리 보기에는 선택한 범주만 표시됩니다.
 ![새로 만들기](../assets/new.svg) AEM CIF [팝오버 위젯](https://github.com/adobe/aem-cif-guides-venia/pull/319) 및 [PLP 위젯](https://github.com/adobe/aem-cif-guides-venia/pull/320) 구성 요소를 통해 AEM 사이트에서 [!DNL Live Search]을(를) 활용할 수 있습니다.
 
-### 업데이트
+#### 업데이트
 
 ![수정](../assets/fix.svg) 제품 및 가격 피드의 테이블 크기가 크게 줄었습니다. 표 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_prices`에 크기가 상당히 감소해야 합니다.
 ![수정](../assets/fix.svg) &#39;규칙&#39; 탭의 이름이 &#39;검색 규칙&#39;으로 바뀝니다.
@@ -206,23 +213,23 @@ _2023년 9월 15일_
 ![수정](../assets/fix.svg) &#39;순위 유형&#39;의 이름이 &#39;지능형 순위&#39;로 변경되었습니다.
 ![수정](../assets/fix.svg)작은 버그 수정
 
-## [!DNL Live Search] 3.1.0
+### [!DNL Live Search] 3.1.0
 
 _2023년 9월 1일_
 
 [!BADGE 지원됨]{type="정보" tooltip="지원됨"}
 
-### 업데이트
+#### 업데이트
 
-![수정](../assets/fix.svg) 제품 목록 위젯이 [카탈로그 서비스 API](https://developer.adobe.com/commerce/services/graphql/catalog-service/product-search/)를 사용하도록 업데이트되었습니다.
+![수정](../assets/fix.svg) 제품 목록 위젯이 [카탈로그 서비스 API](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/)를 사용하도록 업데이트되었습니다.
 
-## [!DNL Live Search] 3.0.2
+### [!DNL Live Search] 3.0.2
 
 _2023년 8월 7일_
 
 [!BADGE 지원됨]{type="정보" tooltip="지원됨"}
 
-### 새로운 기능
+#### 새로운 기능
 
 ![새로 만들기](../assets/new.svg) 다음 값이 `storeDetails` 개체에 추가되었습니다.
 
@@ -232,7 +239,7 @@ _2023년 8월 7일_
 - &quot;그리드 기본값의 페이지당 제품&quot;
 - 언어 저장
 
-### 업데이트
+#### 업데이트
 
 고급 데이터 검색을 지원하기 위해 ![수정](../assets/fix.svg) 카탈로그 서비스 모듈이 메타패키지에 추가되었습니다.
 ![수정](../assets/fix.svg) 제품 목록 페이지 위젯을 사용할 때 **내 계정** 페이지 탐색이 더 이상 사라지지 않습니다.
@@ -241,17 +248,17 @@ _2023년 8월 7일_
 
 프로덕션으로 푸시하기 전에 업그레이드 및 테스트하는 것이 좋습니다. 테스트 환경 결과를 확인한 후 사용량이 적은 시간 동안 프로덕션 환경을 업그레이드하는 것이 좋습니다.
 
-### 제한 사항
+#### 제한 사항
 
 라이브 검색 제품 목록 페이지 위젯을 사용하면 Google Tag Manager가 실패합니다. Google 태그 관리자가 필요한 경우 기본 검색 어댑터를 사용합니다.
 
-## [!DNL Live Search] 3.0.1
+### [!DNL Live Search] 3.0.1
 
 _2023년 3월 14일_
 
 [!BADGE 지원됨]{type="정보" tooltip="지원됨"}
 
-### 새로운 기능
+#### 새로운 기능
 
 규칙 미리 보기의 ![새](../assets/new.svg) 제품 항목 카드
 ![새로 만들기](../assets/new.svg) [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)
@@ -265,7 +272,7 @@ _2023년 3월 14일_
 ![새로 만들기](../assets/new.svg) [규칙에 대한 지능형 순위](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)
 ![신규](../assets/new.svg) [!DNL Live Search]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 `commerce-data-export`을(를) 버전 102.2.0+로 [업데이트](install.md#update)해야 합니다.
 
-### 업데이트
+#### 업데이트
 
 ![수정](../assets/fix.svg) 이제 규칙을 구성하면 위치가 고유하게 자동으로 정렬됩니다.
 ![수정](../assets/fix.svg) 기존 이벤트를 삭제하면 미리 보기가 업데이트됩니다.
@@ -273,7 +280,7 @@ _2023년 3월 14일_
 ![수정](../assets/fix.svg) &quot;Select Type&quot; 선택기를 제거합니다.
 ![수정](../assets/fix.svg) 저장하지 않은 규칙에 대해 새 &quot;편집 중&quot; 상태를 추가했습니다.
 
-### 수정 사항
+#### 수정 사항
 
 저장하는 동안 완료되지 않은 이벤트가 있는 경우 ![수정](../assets/fix.svg) 서버 오류를 해결했습니다.
 ![수정](../assets/fix.svg) 여러 이벤트가 있는 경우 특정 이벤트를 올바르게 삭제하는 문제를 해결했습니다
@@ -281,16 +288,14 @@ _2023년 3월 14일_
 ![수정](../assets/fix.svg) 세부 정보에서 두 번째 &quot;편집&quot; 클릭을 수정했습니다. [!DNL Live Search] 페이지를 다시 로드해야 합니다.
 ![수정](../assets/fix.svg) 동의어: 사용자가 입력을 클릭했을 때 필드에 포커스를 반환할 수 없는 문제가 해결되었습니다.
 ![수정](../assets/fix.svg) 기타 사소한 버그 수정 및 성능 업데이트
-
-
-![버그](../assets/bug.svg) - &quot;추천 항목&quot;의 순위는 라이브 검색 위젯 내에서만 지원됩니다. 기본 Luma 및 PWA 검색 기능에서는 지원되지 않습니다.
+![버그](../assets/bug.svg) - &quot;추천&quot;의 순위는 라이브 검색 위젯 내에서만 지원됩니다. 기본 Luma 및 PWA 검색 기능에서는 지원되지 않습니다.
 ![버그](../assets/bug.svg) - 사용자 지정 가격 특성 패싯이 Luma에서 올바르게 렌더링되지 않지만 API가 해당 패싯을 제대로 필터링합니다.
 
 이러한 기능에 액세스하려면 판매자가 [!DNL Live Search] 확장 버전 >= 3.0.1을 업그레이드해야 합니다.
 
 프로덕션으로 푸시하기 전에 업그레이드 및 테스트하는 것이 좋습니다. 테스트 환경 결과를 확인한 후 사용량이 적은 시간 동안 프로덕션 환경을 업그레이드하는 것이 좋습니다.
 
-## [!DNL Live Search] 2.0.5
+### [!DNL Live Search] 2.0.5
 
 [!BADGE 지원됨]{type="정보" tooltip="지원됨"}
 
