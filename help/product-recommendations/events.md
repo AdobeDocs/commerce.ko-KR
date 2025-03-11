@@ -2,7 +2,8 @@
 title: 데이터 수집
 description: 이벤트가  [!DNL Product Recommendations]에 대한 데이터를 수집하는 방법을 알아봅니다.
 feature: Services, Recommendations, Eventing
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
+source-git-commit: 94d2a9911ab10d164d75779d1f310e5bdf2aea74
 workflow-type: tm+mt
 source-wordcount: '1360'
 ht-degree: 0%
@@ -118,14 +119,14 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 | 권장 사항 유형 | 이벤트 | 페이지 |
 | --- | --- | --- |
 | 가장 많이 본 항목 | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 최다 구매 | `page-view`<br>`complete-checkout` | 장바구니/체크아웃 |
+| 최다 구매 | `page-view`<br>`place-order` | 장바구니/체크아웃 |
 | 장바구니에 가장 많이 추가됨 | `page-view`<br>`add-to-cart` | 제품 세부 사항 페이지<br>제품 목록 페이지<br>장바구니<br>위시리스트 |
 | 이 항목을 보고 다른 항목도 보았습니다. | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
 | 이 항목을 보고 다른 항목을 구입함 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지<br>장바구니/체크아웃 |
 | 구매, 구매 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
 | 트렌딩 | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
 | 전환: 구매로 보기 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 전환: 구매로 보기 | 제품 Recs | `page-view`<br>`complete-checkout` | 장바구니/체크아웃 |
+| 전환: 구매로 보기 | 제품 Recs | `page-view`<br>`place-order` | 장바구니/체크아웃 |
 | 전환: 장바구니로 보기 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
 | 전환: 장바구니로 보기 | 제품 Recs | `page-view`<br>`add-to-cart` | 제품 세부 사항 페이지<br>제품 목록 페이지<br>장바구니<br>위시리스트 |
 
