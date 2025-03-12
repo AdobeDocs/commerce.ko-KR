@@ -2,13 +2,13 @@
 title: '[!DNL Payment Services] 릴리스 정보'
 description: 모든 [!DNL Payment Services] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 feature: Payments, Release Notes
-source-git-commit: 313d69a7f791153fd56a1492f9012776cea1f3df
+exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
+source-git-commit: 0ad77dca302d467ad5f037f0cd567e18bd148af0
 workflow-type: tm+mt
-source-wordcount: '3392'
+source-wordcount: '3644'
 ht-degree: 0%
 
 ---
-
 
 # 릴리스 정보
 
@@ -89,6 +89,33 @@ _2021년 6월 28일_
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-2761 --> 이제 열 설정 컨트롤을 사용하여 열을 표시하거나 숨김으로써 [주문 결제 상태 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) 및 [결제 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns)에 표시되는 데이터를 사용자 지정할 수 있습니다.
 
 +++
+
+## v2.11.0
+
+_2025년 3월 13일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+
+![새로 만들기](../assets/new.svg)<!-- PAY-5938 --> 이제 [!DNL Payment Services]을(를) 통해 가맹점은 결제 설정을 관리하여 비즈니스의 유연성을 극대화할 수 있습니다. 이 버전은 판매자가 지원하는 지역 및 브랜드에 대해 [여러 PayPal 계정](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/settings#use-multiple-paypal-accounts)을 첨부하는 기능을 향상시킵니다. 우리 영업팀은 웹 사이트 및 스토어 보기 범위를 설정하기 위한 온보딩 링크를 제공할 수 있습니다.
+
+![새로 만들기](../assets/new.svg)<!-- PAY-5968 --> 이제 [!DNL Payment Services]에서 **PayPal 판매자 ID** 및 **PayPal 판매자 상태** 값으로 관리자 구성을 업데이트합니다. 이러한 값을 통해 가맹점은 PayPal 계정 상태를 더 잘 파악할 수 있습니다.
+
+![문제가 해결되었습니다](../assets/fix.svg)<!-- PAY-5816 --> 버전 v2.9.0의 모든 주문 배치에서 오류를 일으키는 문제를 해결하여 [!DNL Payment Services]의 정상적인 주문 기능을 복원했습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5825 --> Apple Pay 미니 카트에서 로그인한 고객에 대해 잘못된 예상 합계 URL을 사용하던 문제를 해결했습니다. 이제 [!DNL Payment Services]이(가) 정확한 전체 계산을 보장합니다.
+
+![문제 해결](../assets/fix.svg)<!-- PAY-5826 --> 견적 상태를 `inactive`(으)로 변경할 때 HTTP 500 오류가 발생하는 문제를 해결하여 주문 관리 안정성을 개선했습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5849 --> `LineItemProvider`에서 소수 자릿수가 1보다 작은 경우 예외를 throw하는 문제가 해결되었습니다. 이제 [!DNL Payment Services]이(가) 분수 수량을 더 잘 지원합니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5868 --> 체크아웃 중 기프트 카드 금액 오류를 해결했습니다. 이제 [!DNL Payment Services]은(는) 체크아웃 프로세스 중에 정확한 값을 보장합니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5911 --> [!DNL Payment Services]이(가) 아닌 온라인 결제 방법을 사용하여 주문한 주문에 대한 배송 생성 중 오류가 해결되어 전반적인 안정성이 향상되었습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5954 --> 이제 [!DNL Payment Services]에서 다른 신용 카드를 선택했을 때 Apple Pay에서 주문하지 못한 문제를 해결하여 더 원활한 체크아웃 환경을 제공합니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-5971 --> [!DNL Payment Services]은(는) Apple Pay가 실패하면 더 이상 고객을 주문 검토 페이지로 리디렉션하지 않으므로 불필요한 체크아웃 중단을 방지합니다.
 
 ## v2.10.3
 
