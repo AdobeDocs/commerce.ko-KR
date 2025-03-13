@@ -4,9 +4,10 @@ description: 설치 후 홈에서  [!DNL Payment Services] 을(를) 구성할 �
 role: Admin, User
 level: Intermediate
 feature: Payments, Checkout, Configuration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 793bc59d-1581-4c78-bafe-a43b9e5fb1bc
+source-git-commit: 00ba1ec70a3042780071003f5c0b8d1cc29c49ed
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -302,5 +303,7 @@ Apple Pay, Venmo 또는 PayPal PayLater 단추를 전환하는 등 _설정_&#x20
 [!UICONTROL Payment Services]에서 웹 사이트 수준의 **one** 판매자 계정 내에서 여러 PayPal 계정을 사용할 수 있습니다. 예를 들어, 여러 국가([다양한 통화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency) 사용)에서 스토어를 운영하거나 비즈니스의 일부에 Adobe Commerce을 사용하려고 하지만 _모두_&#x200B;는 사용하지 않으려는 경우, 판매자 계정을 설정하여 여러 PayPal 계정을 사용할 수 있습니다.
 
 웹 사이트, 스토어 및 스토어 보기의 계층 구조에 대한 자세한 내용은 [사이트, 스토어 및 보기 범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)를 참조하십시오.
+
+CLI를 통해 여러 PayPal 계정에 대한 범위를 구성하는 방법에 대한 자세한 내용은 [명령줄 구성](configure-cli.md#configure-scope-via-cli)을 참조하십시오.
 
 영업 사원은 판매자 계정에 대한 새 [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)을(를) 만들고 PayPal로 추가 사이트를 온보딩하여 표시되는 PayPal 단추가 사이트에 표시되도록 할 수 있습니다. 웹 사이트에서 여러 PayPal 계정을 사용하는 데 도움이 필요하면 영업 담당자에게 문의하십시오.

@@ -4,9 +4,10 @@ description: 설치 후 명령줄 인터페이스(CLI)를 사용하여  [!DNL Pa
 role: Admin, Developer
 level: Intermediate
 feature: Payments, Checkout, Configuration, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: bb59bd49-6ecd-4ef1-a6b9-e1e93db04bf6
+source-git-commit: 24622b8a20b8cd95e13a68df6e0929206ffbb06b
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,32 @@ bin/magento cron:run --group payment_services_data_export
 ```
 
 리인덱싱과 인덱서에 대한 자세한 내용은 개발자 설명서에서 [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) 항목을 참조하십시오.
+
+## CLI를 통해 범위 구성
+
+[!DNL Payment Services]을(를) 통해 판매자는 [여러 PayPal 계정](settings.md#use-multiple-paypal-accounts)을 사용할 수 있습니다. 이제 CLI를 통해 이러한 계정의 범위를 변경할 수 있습니다.
+
+범위를 `website` 수준으로 설정하려면 다음을 실행하십시오.
+
+```bash
+bin/magento config:set payment/payment_services/mba_scoping_level website
+```
+
+범위를 `store` 수준으로 설정하려면 다음을 사용합니다.
+
+```bash
+bin/magento config:set payment/payment_services/mba_scoping_level store
+```
+
+>[!TIP]
+>
+> 범위를 저장소 수준으로 변경하려면 [!DNL Payment Services] 영업 담당자에게 문의하십시오.
+
+범위를 변경하면 변경 사항을 표시하기 위해 캐시를 플러시합니다.
+
+```bash
+bin/magento cache:clean:payment_services_merchant_scopes
+```
 
 ## L2/L3 처리 구성
 

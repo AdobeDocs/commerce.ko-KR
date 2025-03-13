@@ -4,9 +4,10 @@ description: 설치 후 저장소 구성 시 [관리]에서  [!DNL Payment Servi
 role: Admin, User
 level: Intermediate
 feature: Payments, Checkout, Configuration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: a4da36e2-4316-42d5-ae30-cf078f440444
+source-git-commit: 24622b8a20b8cd95e13a68df6e0929206ffbb06b
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,7 @@ ht-degree: 0%
    >
    > Commerce 서비스 커넥터에서 데이터 공간 ID를 변경해야 하는 경우 [!DNL Payment Services] ID를 재설정해야 합니다. 샌드박스 또는 프로덕션 ID를 재설정하려면 **결제 서비스 ID 재설정**&#x200B;을 클릭하십시오. [!DNL Payment Services] ID를 재설정하는 경우 다시 온보딩해야 합니다.
 
+1. [!DNL Payment Services] 대시보드를 처음 방문하면 PayPal에서 **[!UICONTROL PayPal Merchant ID]** 및 **[!UICONTROL PayPal Merchant Status]** 값을 자동으로 제공합니다.
 1. **소프트 설명자**(스토어/브랜드/카탈로그를 구분할 고객 거래 은행 거래 명세서에 표시되는 사용자 지정 값)의 경우 텍스트 필드에 사용자 지정 텍스트(최대 22자)를 추가하여 `Soft descriptor` 또는 기존 값을 바꿉니다.
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL System]** > **[!UICONTROL Cache Management]**(으)로 이동한 다음 **[!UICONTROL Flush Cache]**&#x200B;을(를) 클릭하여 모든 잘못된 캐시를 새로 고칩니다.
@@ -48,6 +50,8 @@ ht-degree: 0%
 | [!UICONTROL Method] | 스토어 뷰 | 스토어에 대한 메서드 또는 환경을 설정합니다. 옵션: [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Payment Services Sandbox ID] | 스토어 뷰 | 샌드박스 온보딩 중 자동으로 생성되는 샌드박스 판매자 ID입니다. |
 | [!UICONTROL Payment Services Production ID] | 스토어 뷰 | 프로덕션(라이브) 온보딩 중에 자동으로 생성되는 프로덕션 판매자 ID입니다. |
+| [!UICONTROL PayPal Merchant ID] | 스토어 뷰 | PayPal 계정을 만들 때 생성된 고유한 PayPal 판매자 계정 ID입니다. |
+| [!UICONTROL PayPal Merchant Status] | 스토어 뷰 | PayPal 판매자 ID의 상태입니다. |
 | [!UICONTROL Soft Descriptor] | 웹 사이트 또는 스토어 보기 | 웹 사이트 및 스토어 보기에 부드러운 설명자를 추가하여 브랜드, 스토어 또는 제품 라인을 설명하는 고객 거래에 정보를 추가합니다. |
 
 ## [!UICONTROL Credit Card Fields]
