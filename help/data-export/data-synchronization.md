@@ -2,9 +2,10 @@
 title: SaaS 데이터 내보내기와 데이터 동기화
 description: ' [!DNL SaaS Data Export] 이(가) Adobe Commerce 인스턴스와 연결된 SaaS 서비스 간에 데이터를 수집하고 동기화하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
+source-git-commit: 55c433f36b122813e8fc9136a7efbb869246b7f5
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 - 관리자는 동기화 진행 상황을 보고 추적하고 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)에서 데이터에 대한 정보를 가져올 수 있습니다.
 
-- Commerce 애플리케이션 서버에 액세스할 수 있는 개발자, 시스템 통합자 또는 관리자는 Adobe Commerce 명령줄 도구(CLI)를 사용하여 동기화 프로세스 및 데이터 피드를 관리할 수 있습니다. [데이터 내보내기 명령 참조](data-export-cli-commands.md)를 참조하십시오.
+- Commerce 애플리케이션 서버에 액세스할 수 있는 개발자, 시스템 통합자 또는 관리자는 Adobe Commerce 명령줄 도구(CLI)를 사용하여 동기화 프로세스 및 데이터 피드를 관리할 수 있습니다. [Commerce CLI를 사용하여 동기화 작업 관리](data-export-cli-commands.md)를 참조하십시오.
 
 ### Commerce 애플리케이션 구성 확인
 

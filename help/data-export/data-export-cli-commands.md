@@ -1,33 +1,37 @@
 ---
-title: SaaS 데이터 내보내기 명령줄 인터페이스
+title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
+source-git-commit: 086a571b69e8ad76a912c339895409b0037642b9
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# SaaS 데이터 내보내기 명령줄 인터페이스 참조
+# Commerce CLI를 사용하여 피드 동기화
 
-개발자와 시스템 관리자는 [Adobe Commerce 명령줄 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)&#x200B;(CLI)를 사용하여 SaaS 데이터 내보내기를 위한 동기화 작업을 관리할 수 있습니다. `saas:resync` 명령이 `magento/saas-export` 패키지에 포함되어 있습니다.
+`magento/saas-export` 패키지의 `saas:resync` 명령을 사용하면 Adobe Commerce SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
 
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)이(가) 변경되었으며 데이터를 새 데이터 공간과 동기화해야 합니다.
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
+
+`var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.
 
 ## 초기 동기화
 
 >[!NOTE]
->라이브 검색 또는 제품 추천을 사용하는 경우 초기 동기화를 실행할 필요가 없습니다. 이 프로세스는 서비스를 Commerce 인스턴스에 연결한 후 자동으로 시작됩니다.
+>
+>라이브 검색 또는 제품 권장 사항이 활성화되면 초기 동기화가 자동으로 실행됩니다. 수동 명령은 필요하지 않습니다.
 
 명령줄에서 `saas:resync`을(를) 트리거할 때 카탈로그 크기에 따라 데이터를 업데이트하는 데 몇 분에서 몇 시간이 걸릴 수 있습니다.
 
 초기 동기화의 경우 Adobe에서는 다음 순서로 명령을 실행하는 것이 좋습니다.
 
-```bash
+```shell
 bin/magento saas:resync --feed productattributes
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed scopesCustomerGroup
@@ -39,84 +43,115 @@ bin/magento saas:resync --feed categories
 bin/magento saas:resync --feed categoryPermissions
 ```
 
-## 명령 예
+## CLI 명령을 사용하여 동기화
 
-`saas:resync` 명령을 사용하기 전에 [옵션 설명](#command-options)을 검토하십시오.
+`saas:resync` 명령은 다양한 동기화 작업을 지원합니다.
 
-- 엔티티 피드에 대해 전체 재동기화를 수행합니다.
+- SKU별 부분 동기화
+- 중단된 동기화 다시 시작
+- 동기화하지 않고 데이터 유효성 검사
 
-  ```
-  bin/magento saas:resync --feed='<FEED_NAME>' 1
-  ```
+사용 가능한 모든 옵션 보기:
 
-  이미 내보내기에 성공한 피드는 다시 동기화되지 않습니다.
+```shell
+bin/magento saas:resync --help
+```
 
-- 지정된 피드 및 정리 데이터를 완전히 다시 동기화합니다.
+예가 포함된 옵션 설명은 다음 섹션을 참조하십시오.
 
-  ```
-  bin/magento saas:resync --feed='FEED_NAME' --cleanup-feed
-  ```
-
-  [!DNL Data Space ID Cleanup] 작업을 수행한 후에만 사용합니다.
-
-- 즉시 피드를 내보내려면 피드 테이블에서 인덱스 데이터를 자르지 않고 연결된 Commerce 서비스에 모든 데이터를 다시 전송하십시오
-
-  ```
-   bin/magento saas:resync --feed='FEED_NAME' --no-reindex
-  ```
-
-- 사용 가능한 명령 및 옵션을 설명과 함께 나열합니다.
-
-  ```
-  bin/magento saas:resync --help
-  ```
-
-## 명령 옵션
-
-`saas:resync` 작업을 관리하는 데 다음 옵션을 사용할 수 있습니다.
 
 >[!NOTE]
 >
->`saas:resync` 명령은 또한 일괄 처리 크기를 늘리고 다중 스레드 처리를 추가하여 데이터 내보내기 명령을 개선하는 고급 옵션을 지원합니다. [내보내기 처리 사용자 지정](customize-export-processing.md)을 참조하세요.
+>내보내기 처리를 관리하는 고급 옵션에 대해서는 [내보내기 처리 사용자 지정](customize-export-processing.md)을 참조하십시오.
 
-### `feed`
+## `--by-ids`
 
-이 필수 옵션은 `products`과(와) 같이 다시 동기화할 피드 엔터티를 지정합니다.
+특정 엔티티를 해당 ID별로 부분적으로 다시 동기화합니다. `products`, `productAttributes` 및 `productOverrides` 피드를 지원합니다.
 
-`feed` 옵션 값에는 사용 가능한 엔터티 피드가 포함될 수 있습니다.
+기본적으로 엔티티는 제품 SKU로 지정됩니다. 대신 제품 ID를 사용하려면 `--id-type=ProductID`을(를) 사용하십시오.
 
-- `products`: 제품 데이터 피드
-- `productAttributes`: 제품 특성 데이터 피드
-- `categories`: 범주 데이터 피드
-- `variants`: 구성 가능한 제품 변형 데이터 피드
-- `prices`: 제품 가격 데이터 피드
-- `categoryPermissions`: 범주 권한 데이터 피드
-- `productOverrides`: 제품 권한 데이터 피드
-- `inventoryStockStatus`: 재고 재고 상태 데이터 피드
-- `scopesWebsite`: 스토어 및 스토어 보기 데이터 피드가 있는 웹 사이트
-- `scopesCustomerGroup`: 고객 그룹 데이터 피드
-- `orders`: 판매 주문 데이터 피드
+**예:**
 
-설치된 [Commerce 서비스](../landing/saas.md)에 따라 `saas:resync` 명령에 사용할 수 있는 다른 피드 집합이 있을 수 있습니다.
+```shell
+bin/magento saas:resync --feed='<FEED_NAME>' --by-ids='<SKU-1>,<SKU-2>,<SKU-3>'
 
-### `no-reindex`
+bin/magento saas:resync --feed='<FEED_NAME>' --by-ids='<ID-1>,<ID-2>,<ID-3>' --id-type='productId'
+```
 
-이 옵션은 다시 인덱싱하지 않고 기존 카탈로그 데이터를 [!DNL Commerce Services]에 다시 제출합니다. 이 옵션을 지정하지 않으면 명령은 데이터를 동기화하기 전에 전체 색인 재지정을 실행합니다.
+## `--cleanup-feed`
 
-이 옵션의 동작은 [레거시 또는 즉시 내보내기 모드](data-synchronization.md#synchronization-modes)에서 피드를 내보내는지에 따라 다릅니다
+데이터를 다시 인덱싱하여 SaaS로 보내기 전에 피드 인덱서 테이블을 정리합니다. `products`, `productOverrides` 및 `prices` 피드에서만 지원됩니다.
 
-- 기존 내보내기 피드의 경우 동기화 프로세스는 피드 테이블에서 인덱싱된 데이터를 잘라내지 않습니다. 대신 모든 데이터를 Adobe Commerce 서비스로 다시 보냅니다.
-- 즉시 내보내기 피드의 경우, 이 옵션이 지정된 경우 무시됩니다. 이러한 피드의 경우 재동기화 프로세스는 인덱스를 자르지 않고 이전에 실패한 업데이트 또는 항목만 재동기화합니다.
-
-### `cleanup`
-
-이 옵션은 동기화 전에 피드 인덱서 테이블을 정리합니다. 지정하면 SaaS 데이터 내보내기가 지정된 피드에 대해 전체 재동기화를 실행하고 피드 테이블의 기존 데이터를 모두 정리합니다.
-
-Adobe에서는 [!DNL Data Space ID Cleanup] 작업을 수행한 후에만 이 명령을 사용하는 것이 좋습니다.
-
->[!WARNING]
+>[!IMPORTANT]
 >
->**이 옵션을 정기적으로 사용하지 마십시오**. 이로 인해 Adobe Commerce 서비스에서 데이터 동기화 문제가 발생할 수 있습니다. 예를 들어 `cleanup` 옵션을 사용하는 경우 `delete product event`이(가) Adobe Commerce 서비스로 전파되지 않을 수 있습니다.
+>환경 정리 후에만 사용합니다. Commerce 서비스에서 데이터 동기화 문제를 일으킬 수 있습니다.
+
+**예:**
+
+```shell
+bin/magento saas:resync --feed='<FEED_NAME>' --cleanup-feed
+```
+
+## `--continue-resync`
+
+중단된 재동기화 작업을 다시 시작합니다. `products`, `productAttributes` 및 `productOverrides` 피드에서만 지원됩니다.
+
+**예:**
+
+```shell
+bin/magento saas:resync --feed='<FEED_NAME>' --continue-resync
+```
+
+## `--dry-run`
+
+SaaS에 제출하거나 피드 테이블에 저장하지 않고 피드 색인 재지정 프로세스를 실행합니다. 를 사용하여 데이터의 유효성을 검사합니다.
+
+페이로드를 `var/log/saas-export.log`에 저장하려면 `EXPORTER_EXTENDED_LOG=1` 환경 변수를 추가하십시오.
+
+**예:**
+
+```shell
+EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed='<FEED_NAME>' --dry-run
+```
+
+## `--feed`
+
+필수. 다시 동기화할 피드 엔티티를 지정합니다.
+
+사용 가능한 피드:
+
+- `categories`
+- `categoryPermissions`
+- `inventoryStockStatus`
+- `orders`
+- `prices`
+- `products`
+- `productAttributes`
+- `productOverrides`
+- `scopesWebsite`
+- `scopesCustomerGroup`
+- `variants`
+
+**예:**
+
+```shell
+bin/magento saas:resync --feed='<FEED_NAME>'
+```
+
+## `--no-reindex`
+
+리인덱싱하지 않고 기존 카탈로그 데이터를 [!DNL Commerce Services]에 다시 제출합니다. 제품 관련 피드에 대해서는 지원되지 않습니다.
+
+동작은 [내보내기 모드](data-synchronization.md#synchronization-modes)마다 다릅니다.
+
+- 레거시 모드: 자르지 않고 모든 데이터를 다시 제출합니다.
+- 즉시 모드: 옵션은 무시되며 업데이트/실패만 동기화합니다.
+
+**예:**
+
+```shell
+bin/magento saas:resync --feed='<FEED_NAME>' --no-reindex
+```
 
 ## 문제 해결
 
