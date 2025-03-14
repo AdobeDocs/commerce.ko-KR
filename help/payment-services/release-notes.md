@@ -3,9 +3,9 @@ title: '[!DNL Payment Services] 릴리스 정보'
 description: 모든 [!DNL Payment Services] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 feature: Payments, Release Notes
 exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
-source-git-commit: 0ad77dca302d467ad5f037f0cd567e18bd148af0
+source-git-commit: 0098e5bab2ea72f9abd7c846d49d5ee4d523ad73
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3681'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,14 @@ _2021년 6월 28일_
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-2761 --> 이제 열 설정 컨트롤을 사용하여 열을 표시하거나 숨김으로써 [주문 결제 상태 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) 및 [결제 보고서](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns)에 표시되는 데이터를 사용자 지정할 수 있습니다.
 
 +++
+
+## v2.11.1
+
+_2025년 3월 14일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![문제 해결](../assets/fix.svg)<!-- PAY-5849 --> 체크아웃 중에 [라인 항목](line-items.md)에 영향을 주는 문제를 해결했습니다. 이제 [!DNL Payment Services]이(가) **라인 항목**&#x200B;에 대한 체크아웃 프로세스 안정성을 개선했습니다. 유사한 문제가 발생하면 [!DNL Payment Services] 영업 담당자에게 지원을 요청하십시오.
 
 ## v2.11.0
 
