@@ -3,13 +3,13 @@ title: Adobe Commerce as a Cloud Service 개요
 description: Adobe Commerce as a Cloud Service의 주요 기능과 이점에 대해 알아보십시오.
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
-source-git-commit: 0a112b1dab0113eb910e2ecdcca21e7e2814e761
+exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
+source-git-commit: 27d08ed9c01923f2144b071ed7418a399b3126eb
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce as a Cloud Service 개요
 
@@ -83,10 +83,13 @@ Adobe은 통합 및 사용자 지정을 빌드하기 위한 다음 개발자 도
 
 ## Commerce 재단
 
-Commerce Foundation은 클라우드 기반 환경에서 Commerce 애플리케이션을 관리하기 위한 안전한 자동 호스팅 플랫폼과 셀프서비스 기능을 제공합니다. 주요 기능은 다음과 같습니다.
+Commerce Foundation은 클라우드 기반 환경에서 Commerce 애플리케이션을 관리하기 위한 안전한 자동 호스팅 플랫폼과 셀프서비스 기능을 제공합니다.
+
+주요 기능은 다음과 같습니다.
 
 - 간소화된 온보딩
 - 원활한 업그레이드
+- 타사 통합
 
 ### 간소화된 온보딩
 
@@ -103,6 +106,10 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 >[!NOTE]
 >
 >Adobe은 모든 업데이트에 대해 이전 버전과의 호환성을 보장합니다. 즉, 업데이트를 적용하면 [API 우선 확장성](https://developer.adobe.com/commerce/extensibility/) 모델을 준수하는 기존 기능이나 사용자 지정을 중단하지 않습니다.
+
+### 타사 통합
+
+개발자는 포괄적인 [GraphQL 및 REST API](https://developer.adobe.com/commerce/services/cloud/guides/)를 사용하여 Commerce Foundation을 타사 시스템과 통합하고 Commerce 기능을 확장할 수 있습니다.
 
 ## Experience Cloud 통합
 
