@@ -1,0 +1,96 @@
+---
+title: '[!DNL Adobe Commerce Optimizer]'
+description: 트래픽을 늘리고 참여도와 전환율을 높여 기존 전자 상거래 백엔드를 최적화할 수 있는 확장 가능한 카탈로그를 통해  [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 빠르고 성능이 뛰어난 상점 전면을 제공하는 방법에 대해 알아봅니다.
+hide: true
+recommendations: noCatalog
+source-git-commit: 6dd95d5c01bbe217decf3ee48a8ab2cee6167f47
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 0%
+
+---
+
+# [!DNL Adobe Commerce Optimizer]이란?
+
+[!DNL Adobe Commerce Optimizer]은(는) 고성능 상점을 통해 전자 상거래 경험을 향상시켜 유기적인 트래픽, 고객 참여 및 매출을 향상시킵니다.
+
+[!DNL Adobe Commerce Optimizer]을(를) 사용하여 다음을 수행할 수 있습니다.
+
+- 전체 상거래 스택을 다시 플랫폼화하지 않고 카탈로그를 확장하고 확장할 수 있습니다.
+- 모든 소스에서 카탈로그 데이터 수집.
+- 비즈니스 채널 및 정책을 정의합니다.
+- AI와 ML을 사용하여 개인화된 검색 및 권장 사항을 만듭니다.
+- 정확한 구현 및 문제 해결을 위해 동기화 상태 및 상점 이벤트 데이터를 포함한 중요한 제품 데이터 가용성을 확인합니다.
+
+>[!BEGINSHADEBOX]
+
+[!DNL Adobe Commerce Optimizer] 조기 액세스 프로그램에 참여하려면 [commerce-storefront-services@adobe.com](mailto:commerce-storefront-services@adobe.com)에 전자 메일 요청을 보내십시오.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Commerce Optimizer]에 대한 높은 수준의 개요를 보려면 다음 비디오를 시청하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
+
+## [!DNL Adobe Commerce Optimizer]을(를) 통해 가장 많은 혜택을 누리는 사람
+
+[!DNL Adobe Commerce Optimizer]은(는) 다음에 대한 것입니다.
+
+- 기존 백엔드 상거래 시스템을 유지하고 상점 경험만 변형하려는 판매자.
+- 서드파티 시스템에서 장바구니 및 체크아웃 라이프사이클을 관리하는 비즈니스.
+- 현재 Adobe Commerce을 사용하지 않는 AEM 고객은 제품 카탈로그를 관리하는 간단한 방법을 찾고 있습니다.
+
+## 둘러보기
+
+[!DNL Adobe Commerce Optimizer]을(를) 처음 실행하면 다음이 표시됩니다.
+
+>[!NOTE]
+>
+>이 이미지는 [!DNL Adobe Commerce Optimizer]의 모양이며 변경될 수 있는 예입니다.
+
+![[!DNL Adobe Commerce Optimizer] UI](assets/user-interface.png)
+
+>[!BEGINTABS]
+
+>[!TAB 홈]
+
+스토어에 대한 주요 지표 및 활동을 미리 봅니다.
+
+>[!TAB 머천다이징]
+
+제품 검색 및 추천을 통해 구매자를 위한 개인화된 경험을 만듭니다.
+
+- **제품 검색** - 사이트 검색 기능을 개선하여 전환율을 극대화하는 원활하고 효율적인 쇼핑객 경험을 제공합니다. 이것은 쇼핑객이 적시에 적절한 상품을 구매할 수 있도록 해줍니다.
+- **권장 사항** - 인공 지능 및 머신 러닝 알고리즘을 사용하여 집계된 방문자 데이터를 심층 분석합니다. 이 데이터를 카탈로그와 결합하면 매우 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다. 권장 사항은 &quot;이 제품을 본 고객이 본 항목&quot;과 같이 레이블이 있는 단위로 상점 전면에 표시됩니다. [!DNL Adobe Commerce Optimizer]에서 바로 권장 사항을 만들고, 관리하고, 배포할 수 있습니다.
+
+>[!TAB 카탈로그]
+
+채널 및 정책을 정의합니다. 카탈로그에는 제품 데이터가 포함될 뿐만 아니라 비즈니스 구조를 정의하는 데도 도움이 됩니다.
+
+- **채널** - 소매 구조를 의미 있는 비즈니스 그룹으로 정의할 수 있습니다. 예를 들어 자동차 산업의 딜러, 다중 브랜드 대기업의 자회사 또는 공급업체의 제조 위치가 이에 해당합니다.
+- **정책** - 채널 내에 포함된 데이터 액세스 필터. 정책은 올바른 콘텐츠를 올바른 대상으로 전송하는 데 도움이 됩니다. 예를 들어 실제 매장, 마켓플레이스, 광고 파이프라인(Google, Facebook, Instagram)이 판매됩니다.
+
+>[!TAB 데이터 인사이트]
+
+상점에 대한 제품 데이터의 가용성에 대한 중요한 통찰력을 확인하여 고객이 즉시 볼 수 있도록 합니다.
+
+- **데이터 동기화** - 해당 데이터 원본(PIM, ERP 등)에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 전송된 제품 데이터의 동기화 상태에 대한 개요를 표시합니다. 해당 제품 데이터가 **[!UICONTROL Catalog Service]**, **[!UICONTROL Product Discovery]** 및 **[!UICONTROL Recommendations]** 탭에 표시됩니다.
+- **이벤트** - 제품 검색 및 권장 사항을 지원하는 상점 이벤트 데이터를 표시합니다. **이벤트** 페이지에서 상인이 상점 이벤트 구현을 올바르게 했는지, 이벤트를 성공적으로 캡처하고 있는지 확인할 수 있습니다. 판매자는 이 페이지를 사용하여 잠재적인 문제를 식별하고 모든 이벤트 문제를 해결하기 위한 단계를 수행할 수 있습니다.
+
+>[!ENDTABS]
+
+## 주요 기능
+
+주요 기능은 다음과 같습니다.
+
+- **타사 카탈로그 수집** - 타사 소스(PIM, ERP 등)에서 카탈로그 데이터를 수집합니다. 카탈로그 데이터는 머천다이징 서비스 계층으로 직접 수집됩니다. 이 계층은 채널 및 정책(채널 및 정책)을 기반으로 하는 머천다이징 서비스라는 SaaS 구성 요소입니다.
+- **채널 및 정책을 기반으로 하는 머천다이징 서비스** - 이 솔루션은 [!DNL Adobe Commerce Optimizer]의 기본입니다. 채널 및 정책을 기반으로 하는 머천다이징 서비스는 확장성이 뛰어나고 유연한 카탈로그 데이터 모델로, 다중 브랜드, 다중 비즈니스 단위 및 다중 언어 사용 사례를 잠금 해제합니다. 이러한 머천다이징 서비스는 상인이 대규모로 카탈로그를 만들고 관리하는 데 사용할 수 있는 빌딩 블록을 제공합니다. [!DNL Adobe Commerce Optimizer] 내에서 비즈니스 목표를 가장 잘 정의하는 채널과 정책을 만들어 카탈로그를 관리할 수 있습니다. 또한 머천다이저는 제품 검색, 제품 추천 및 지능형 머천다이징을 사용하여 트래픽 및 참여를 유도하기 위해 개인화된 &#x200B; 경험&#x200B;을 제공할 수 있습니다. 채널 및 정책을 기반으로 하는 [머천다이징 서비스](https://experienceleague.adobe.com/en/docs/commerce/merchandising-services/overview)에 대해 자세히 알아보세요.
+- **성공 지표** - 상거래 이니셔티브의 성능에 대한 실시간 통찰력을 제공합니다. 특정 KPI의 이전 및 이후 결과를 보고 변경 사항의 영향을 평가하고 더 나은 결과를 위해 최적화할 수 있습니다.
+- **Edge Delivery에서 제공하는 Commerce storefront** - Edge 배달을 통해 제품 목록 페이지, 제품 세부 사항 페이지, 장바구니 및 체크아웃을 포함하여 통합 상거래 기능을 갖춘 사전 설치된 storefront 구성 요소를 사용하여 사이트를 빠르게 시작할 수 있습니다.
+- **타사 장바구니 및 체크아웃** - API Mesh 및 App Builder를 사용하여 타사 장바구니 및 체크아웃 시스템과 통합합니다.
+
+## 아키텍처
+
+다음 다이어그램은 카탈로그 데이터 수집부터 머천다이징 서비스, 상점, 타사 장바구니와의 통합 및 체크아웃 프로세스 간의 관계에 이르기까지 [!DNL Adobe Commerce Optimizer]의 기본 아키텍처를 설명합니다.
+
+![[!DNL Adobe Commerce Optimizer] 아키텍처](assets/architecture.png)
