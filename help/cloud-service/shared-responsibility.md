@@ -1,18 +1,20 @@
 ---
 title: 공동 책임
-description: Adobe Commerce as a Cloud Service 프로젝트와 관련된 각 당사자의 보안 책임에 대해 알아봅니다.
+description: ' [!DNL Adobe Commerce as a Cloud Service]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 role: Admin, Architect, Leader
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-
 # 공동 책임 보안 및 운영 모델
 
-Adobe Commerce as a Cloud Service은 공유 책임 보안 및 운영 모델을 사용하는 온디맨드 서비스입니다. 이러한 책임은 Adobe과 고객 간에 공유됩니다. 각 당사자는 Adobe Commerce 애플리케이션의 보안 및 운영에 대해 뚜렷한 책임을 부담합니다.
+{{accs-early-access}}
+
+[!DNL Adobe Commerce as a Cloud Service]은(는) 공유 권한 보안 및 운영 모델을 사용하는 온디맨드 서비스입니다. 이러한 책임은 Adobe과 고객 간에 공유됩니다. 각 당사자는 Adobe Commerce 애플리케이션의 보안 및 운영에 대해 뚜렷한 책임을 부담합니다.
 
 >[!BEGINSHADEBOX]
 
@@ -33,8 +35,8 @@ Adobe Commerce as a Cloud Service은 공유 책임 보안 및 운영 모델을 �
 | 백엔드 CDN WAF 규칙 정의 | RA | |
 | 백엔드 플랫폼 WAF 규칙 배포 | RA | |
 | 백엔드 CDN WAF 규칙 배포 | RA | |
-| Adobe Commerce as a Cloud Service의 핵심 버그 수정 | RA | I |
-| Adobe Commerce as a Cloud Service 인프라 패치 릴리스 | RA | |
+| [!DNL Adobe Commerce as a Cloud Service]의 핵심 버그 수정 | RA | I |
+| [!DNL Adobe Commerce as a Cloud Service] 인프라 패치 릴리스 중 | RA | |
 | 확장(인프라) | RA | |
 | 크기 조절(핵심 애플리케이션) | RA | |
 | 외부 애플리케이션 통합 | | RA |

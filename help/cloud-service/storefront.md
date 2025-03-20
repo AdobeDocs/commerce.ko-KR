@@ -1,16 +1,18 @@
 ---
 title: 상점 설정
-description: 스캐폴딩 도구를 실행하여 Adobe Commerce as a Cloud Service 상점 첫 페이지를 설정하는 방법을 알아봅니다.
+description: ' [!DNL Adobe Commerce as a Cloud Service] storefront를 설정하는 스캐폴딩 도구를 실행하는 방법에 대해 알아봅니다.'
 role: Developer
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-
 # 상점 설정
+
+{{accs-early-access}}
 
 다음 단계에서는 `aio commerce init` 명령을 사용하여 Edge Delivery에서 제공하는 Adobe Commerce Storefront를 빠르게 설정하는 방법을 보여 줍니다. 이 프로세스는 다음을 설정합니다.
 

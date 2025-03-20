@@ -1,18 +1,20 @@
 ---
 title: 사용 사례
-description: Adobe Commerce as a Cloud Service을 사용하여 실용적인 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.
+description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.'
 role: User, Leader
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
 
-
 # 사용 사례
 
-다음 사용 사례에서는 Adobe Commerce as a Cloud Service에서 지원하는 핵심 기능 및 비즈니스 시나리오를 보여 주므로 개발을 가속화하고 영향력이 큰 경험을 시작할 수 있습니다.
+{{accs-early-access}}
+
+다음 사용 사례에서는 [!DNL Adobe Commerce as a Cloud Service]이(가) 지원하는 핵심 기능 및 비즈니스 시나리오를 보여 주므로 개발을 가속화하고 영향력이 큰 경험을 시작할 수 있습니다.
 
 문제가 발생하면 [문제 해결](#troubleshooting) 섹션에서 지침을 확인하십시오.
 

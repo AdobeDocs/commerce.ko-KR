@@ -1,18 +1,20 @@
 ---
-title: Adobe Commerce as a Cloud Service 시작하기
-description: Adobe Commerce as a Cloud Service을 시작하는 방법을 알아봅니다.
+title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
+description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer, User
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-
 # 시작
 
-Adobe Commerce as a Cloud Service은 대부분의 구성을 즉시 제공합니다. 몇 가지 기본 설정 프로세스를 완료하면 스토어가 즉시 작동되고 실행됩니다. 이 안내서에서는 인스턴스를 만들고 작업하는 방법을 안내합니다.
+{{accs-early-access}}
+
+[!DNL Adobe Commerce as a Cloud Service]에서는 대부분의 구성을 즉시 제공합니다. 몇 가지 기본 설정 프로세스를 완료하면 스토어가 즉시 작동되고 실행됩니다. 이 안내서에서는 인스턴스를 만들고 작업하는 방법을 안내합니다.
 
 다음 사용자 유형에 대한 높은 수준의 워크플로 개요를 보려면 아래 탭을 클릭하십시오.
 
@@ -24,27 +26,27 @@ Adobe Commerce as a Cloud Service은 대부분의 구성을 즉시 제공합니�
 
 >[!TAB 관리자 및 판매자 워크플로]
 
-이 다이어그램은 관리자와 판매자가 Adobe Commerce as a Cloud Service 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/enterprise/admin-guide.html)를 참조하십시오.
+이 다이어그램은 관리자 및 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/enterprise/admin-guide.html)를 참조하십시오.
 
-![Adobe Commerce as a Cloud Service 판매자 흐름 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] 판매자 흐름 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
 
 >[!TAB 개발자 워크플로]
 
-이 다이어그램은 개발자가 App Builder을 사용하여 Adobe Commerce as a Cloud Service에 대한 통합을 만드는 방법에 대한 높은 수준의 개요를 제공합니다. 자세한 내용은 [API 설명서](https://developer.adobe.com/commerce/services/cloud/)를 참조하세요.
+이 다이어그램은 개발자가 App Builder을 사용하여 [!DNL Adobe Commerce as a Cloud Service]에 대한 통합을 만드는 방법에 대한 높은 수준의 개요를 제공합니다. 자세한 내용은 [API 설명서](https://developer.adobe.com/commerce/services/cloud/)를 참조하세요.
 
-![Adobe Commerce as a Cloud Service 개발자 흐름 다이어그램](./assets/developer-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] 개발자 흐름 다이어그램](./assets/developer-flow.svg){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## 인스턴스 만들기
 
-Adobe Commerce as a Cloud Service 인스턴스는 크레딧 기반 시스템을 사용합니다. 여러 인스턴스를 만들 수 있지만 각 인스턴스에는 상대적 크레딧이 필요합니다. 처음에 보유하고 있는 크레딧의 양은 구독에 따라 다릅니다.
+[!DNL Adobe Commerce as a Cloud Service]개의 인스턴스가 신용 기반 시스템을 사용합니다. 여러 인스턴스를 만들 수 있지만 각 인스턴스에는 상대적 크레딧이 필요합니다. 처음에 보유하고 있는 크레딧의 양은 구독에 따라 다릅니다.
 
 1. [Adobe Experience Cloud](https://experience-stage.adobe.com/) 계정에 로그인합니다.
 
 1. [!UICONTROL Quick access]에서 [!UICONTROL **Commerce**]&#x200B;을(를) 클릭하여 [!UICONTROL Commerce Cloud Manager]을(를) 엽니다.
 
-   [!UICONTROL Commerce Cloud Manager]에는 Adobe IMS 조직에서 사용할 수 있는 Adobe Commerce as a Cloud Service 인스턴스 목록이 표시됩니다.
+   [!UICONTROL Commerce Cloud Manager]에는 Adobe IMS 조직에서 사용할 수 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스 목록이 표시됩니다.
 
 1. 화면 오른쪽 상단에서 [!UICONTROL **인스턴스 추가**]&#x200B;를 클릭합니다.
 
@@ -62,7 +64,7 @@ Adobe Commerce as a Cloud Service 인스턴스는 크레딧 기반 시스템을 
 
 1. 인스턴스의 [!UICONTROL **환경 유형**]&#x200B;을(를) 선택하십시오. 다음 옵션 중에서 선택할 수 있습니다.
 
-   * [!UICONTROL **샌드박스**] - 디자인 및 테스트 목적에 적합. 샌드박스 환경을 사용하여 Adobe Commerce as a Cloud Service 여정을 시작해야 합니다.
+   * [!UICONTROL **샌드박스**] - 디자인 및 테스트 목적에 적합. 샌드박스 환경을 사용하여 [!DNL Adobe Commerce as a Cloud Service] 여정을 시작해야 합니다.
    * [!UICONTROL **프로덕션**] - 라이브 스토어 및 고객 응대 사이트용.
 
    >[!NOTE]
@@ -93,9 +95,9 @@ Adobe Commerce as a Cloud Service 인스턴스는 크레딧 기반 시스템을 
 
 ## 카탈로그 가져오기
 
-기본적으로 Adobe Commerce as a Cloud Service 인스턴스에는 제품 데이터가 포함되지 않습니다. 자체 카탈로그를 가져오기 전에 테스트 및 학습 목적으로 인스턴스를 만들 때 샘플 제품 데이터를 포함할 수 있는 옵션이 있습니다.
+기본적으로 [!DNL Adobe Commerce as a Cloud Service] 인스턴스에는 제품 데이터가 포함되지 않습니다. 자체 카탈로그를 가져오기 전에 테스트 및 학습 목적으로 인스턴스를 만들 때 샘플 제품 데이터를 포함할 수 있는 옵션이 있습니다.
 
-카탈로그를 Adobe Commerce as a Cloud Service에 가져오는 방법에는 두 가지가 있습니다.
+카탈로그를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 가져오는 방법에는 두 가지가 있습니다.
 
 * [**Commerce 관리자**](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
 * [**JSON API 가져오기**](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - 카탈로그 데이터를 프로그래밍 방식으로 가져올 수 있는 REST API입니다.
