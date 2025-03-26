@@ -3,9 +3,9 @@ title: SaaS 데이터 내보내기와 데이터 동기화
 description: ' [!DNL SaaS Data Export] 이(가) Adobe Commerce 인스턴스와 연결된 SaaS 서비스 간에 데이터를 수집하고 동기화하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
-source-git-commit: 55c433f36b122813e8fc9136a7efbb869246b7f5
+source-git-commit: 291babe5dbdabb7d626ae744335b94e44ba6a6f5
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ SaaS 데이터 내보내기 흐름의 주요 구성 요소는 다음과 같습�
 - Adobe Commerce에서 피드에 대한 데이터를 수집하고, 피드 항목을 조합하고, 업데이트를 수신하고, 피드 상태를 유지하는 SaaS 데이터 내보내기 모듈입니다.
 - 데이터를 내보내고, 라우팅을 구성하고, 연결된 서비스에 피드를 게시하는 SaaS 내보내기 모듈.
 - Adobe Commerce 서비스는 수신 피드의 유효성을 검사하고 연결된 서비스에 대한 업데이트를 지속하기 위해 데이터 수집 프로세스를 관리합니다.
+
+>[참고!]
+>
+>Adobe 원활한 예약을 보장하고 사이트 운영의 중단을 방지하려면 데이터 피드 동기화를 시작하기 전에 데이터 볼륨과 동기화 시간을 추정하는 것이 좋습니다. 이러한 예측은 초기 동기화 또는 대량 가격 변경과 같은 대규모 카탈로그 업데이트를 계획할 때 중요합니다. 자세한 내용은 [데이터 동기화에 대한 데이터 볼륨 및 전송 시간 예측](estimate-data-volume-sync-time.md)을 참조하세요.
 
 ## 동기화 모드
 
