@@ -1,9 +1,10 @@
 ---
 title: 규칙 추가
 description: 검색 머천다이징 규칙을 만드는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
+source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -151,6 +152,10 @@ ht-degree: 0%
    규칙이 *규칙* 작업 영역의 목록에 추가됩니다.
 
 1. 활성 규칙이 즉시 적용되지만, 상점 첫 화면의 캐시된 쿼리 결과가 새로 고쳐질 때까지 최대 15분 정도 기다려야 할 수 있습니다.
+
+>[!NOTE]
+>
+>기본 정렬 순서 &quot;정렬 기준: 가장 관련성&quot;을 선택하면 규칙 및 수동 등급 제품이 검색 결과에 적용됩니다. 쇼핑객이 정렬 순서를 이름별 또는 가격별 정렬과 같이 변경하는 경우, 규칙 및 수동 순위는 더 이상 적용되지 않습니다.
 
 ## 필드 설명
 

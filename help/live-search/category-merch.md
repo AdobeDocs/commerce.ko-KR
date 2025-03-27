@@ -2,9 +2,10 @@
 title: 카테고리 머천다이징
 description: 더 빠른 쇼핑 경험을 위해  [!DNL Live Search] 카테고리 머천다이징을 사용하십시오.
 gourl: ls_catalog_merchandising
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
+source-git-commit: e5e5443e0bdb12e4774856336157067b4ff6eb7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -140,3 +141,7 @@ ht-degree: 0%
 1. 수동 순위에서 **이벤트 선택** 메뉴를 클릭하고 관련 조건이 충족될 때 수행할 이벤트를 선택합니다.
 1. 영향을 줄 제품의 이름을 입력합니다. 입력할 때 제품이 권장됩니다.
 1. 여러 이벤트에 대해 조건이 충족될 때 트리거할 다른 이벤트를 선택합니다.
+
+>[!NOTE]
+>
+>특정 카테고리가 상점 첫 화면에서 열리고 해당 카테고리에 대한 규칙이 있는 경우 규칙이 적용됩니다. 카테고리 머천다이징 규칙의 경우 기본 정렬 순서는 &quot;정렬 기준: 위치&quot;입니다. 쇼핑객이 정렬 순서를 변경하면 모든 숨겨진 제품, 고정된 제품 및 숨겨진 제품이 더 이상 정렬되지 않습니다.
