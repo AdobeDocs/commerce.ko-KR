@@ -1,9 +1,10 @@
 ---
 title: '[!DNL Product Recommendations] Workspace'
 description: 제품 추천 성능을 구성, 관리 및 모니터링하는 방법에 대해 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: eaf1f0b2-9d9d-4069-8269-06f30166f788
+source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,19 @@ ht-degree: 0%
 
 ![권장 사항 작업 공간](assets/workspace.png)
 _권장 사항 Workspace_
+
+## 데이터 수집
+
+작업 영역의 각 기능 영역에 올바른 데이터가 포함되어 있는지 확인하려면 선택한 Storefront 구현을 기반으로 데이터 수집을 구성해야 합니다.
+
+1. Luma - 데이터 수집은 즉시 사용할 수 있습니다.
+1. Headless - 데이터 수집은 상점 구현에 따라 수동으로 구성해야 합니다.
+
+Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추가해야 하는 필수 이벤트에 대한 자세한 내용을 확인하십시오.
+
+- 제품 추천 대시보드에 대한 [필수 이벤트](events.md).
+- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/).
+- 이벤트 구조의 [예](https://github.com/adobe/commerce-events/tree/main/examples).
 
 ## 범위 설정
 
