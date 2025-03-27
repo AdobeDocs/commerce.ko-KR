@@ -3,9 +3,9 @@ title: 상점 설정
 description: ' [!DNL Adobe Commerce as a Cloud Service] storefront를 설정하는 스캐폴딩 도구를 실행하는 방법에 대해 알아봅니다.'
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: 7f7a674b856090bd02752a9e2ad29475b2b56fcf
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) - API, 이벤트, 런타임 함수 및 플러그인에 액세스할 수 있는 개발자 도구의 컬렉션으로, Adobe 애플리케이션용 프로젝트를 빌드하는 데 사용할 수 있습니다.
 * [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/) - 이벤트에 응답하고 클라우드에서 함수를 실행하는 사용자 지정 코드를 배포하기 위한 서버를 사용하지 않는 엔진입니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 `aio commerce init` 명령을 실행하기 전에 다음 필수 구성 요소를 완료해야 합니다.
 
@@ -102,13 +102,11 @@ ht-degree: 0%
 
 1. 만들려는 저장소의 이름을 입력합니다.
 
-1. 사용할 템플릿(예: `adobe-commerce/adobe-demo-store`)을 선택하십시오.
-
 1. 다음 옵션 중 하나를 선택합니다.
 
-   * **Adobe의 데모 인스턴스(기본 끝점)를 사용합니다** - Adobe의 예제 Commerce 인스턴스를 사용합니다.
+   * **데모 Adobe Commerce 테넌트 사용** - 데모 테넌트 사용
       * 이 옵션을 선택하면 브라우저 창에 AEM 코드 동기화 보트를 설치하라는 메시지가 표시됩니다. 생성한 저장소를 지정하고 보트를 승인해야 합니다. CLI로 돌아가서 `y`을(를) 입력하여 AEM 코드 동기화 보트 설치를 확인합니다.
-   * **사용 가능한 API 선택(Mesh -> SaaS)** - 선택한 조직에서 기존 Commerce 인스턴스를 선택합니다.
+   * **사용 가능한 Adobe Commerce 테넌트 선택** - 선택한 조직에서 기존 Commerce 테넌트를 선택합니다.
       * 이 옵션을 선택하는 경우 메쉬를 생성할 프로젝트와 작업 영역을 선택해야 합니다.
 
    >[!NOTE]
