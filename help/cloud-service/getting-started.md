@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: a1b825a819b25d9374eef169c633d54fb94ee26c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스가 신용 기반 시스템을 사용합니다. 여러 인스턴스를 만들 수 있지만 각 인스턴스에는 상대적 크레딧이 필요합니다. 처음에 보유하고 있는 크레딧의 양은 구독에 따라 다릅니다.
 
-1. [Adobe Experience Cloud](https://experience-stage.adobe.com/) 계정에 로그인합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com/) 계정에 로그인합니다.
 
 1. [!UICONTROL Quick access]에서 [!UICONTROL **Commerce**]&#x200B;을(를) 클릭하여 [!UICONTROL Commerce Cloud Manager]을(를) 엽니다.
 
