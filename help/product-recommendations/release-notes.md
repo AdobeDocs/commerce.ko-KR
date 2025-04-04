@@ -3,9 +3,9 @@ title: '[!DNL Product Recommendations] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Product Recommendations] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Recommendations, Release Notes
 exl-id: 37404605-5b62-4c71-90d1-4f09e6105c4b
-source-git-commit: 615fa2967680c16ec123d41c20019f72cfeddc60
+source-git-commit: ea7618805596ac4100f5080efe32793feea001df
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 _2025년 1월 31일_
 
-![새로 만들기](../assets/new.svg) 테스트 환경에서 쿼리되지 않은 카탈로그 데이터에 대한 새 데이터 보존 정책이 있습니다. [자세히 알아보기](overview.md#catalog-data-retention-policy).
+![새로 만들기](../assets/new.svg) 테스트 환경에서 쿼리되지 않은 카탈로그 데이터에 대한 새 데이터 보존 정책이 있습니다. [자세히 알아보기](overview.md#catalog-data-retention-policy)
 
 _2024년 6월 28일_
 
@@ -50,6 +50,16 @@ _2023년 4월 25일_
 
 ## 현재 메이저 버전
 
+### magento/product-recommendations 6.2.0
+
+_2025년 4월 4일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![새로 만들기](../assets/new.svg) `recommendations-admin-ui`에 대한 CDN URL을 `adobe.io` 도메인에 업데이트했습니다.
+
+### 이전 버전
+
 ### magento/product-recommendations 6.1.0
 
 _2025년 3월 11일_
@@ -57,8 +67,6 @@ _2025년 3월 11일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![새로 만들기](../assets/new.svg)에서 PHP 8.4 지원을 추가했습니다.
-
-### 이전 버전
 
 ### magento/product-recommendations 6.0.3
 
