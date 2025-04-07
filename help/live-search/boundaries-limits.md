@@ -3,9 +3,9 @@ title: 경계 및 제한
 description: 비즈니스 요구 사항을 충족하도록  [!DNL Live Search] 의 경계 및 제한에 대해 알아봅니다.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
+source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 - 기본 공유 카탈로그에 추가되지 않은 제품은 표시되지 않습니다.
 - [범주 권한](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions)을 사용하여 고객 그룹을 제한하려면 다음을 수행하십시오.
-   - 제품을 루트 범주에 할당해야 합니다.
+   - 제품을 루트 범주에 할당해야 합니다. (**참고:** SaaS 데이터 내보내기 확장을 버전 103.4.0+로 업데이트하여 이 제한을 제거할 수 있습니다. [데이터 내보내기 확장 관리](../data-export/manage-extension.md)를 참조하십시오.
    - &quot;로그인되지 않은&quot; 고객 그룹에는 &quot;허용&quot; 검색 권한이 부여되어야 합니다.
    - 제품을 &quot;로그인되지 않음&quot; 고객 그룹으로 제한하려면 각 범주로 이동하여 각 [고객 그룹](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)에 대한 권한을 설정합니다.
 - PWA Studio에서 PLP 위젯을 사용하는 B2B에 대한 기본 지원은 현재 지원되지 않습니다. 그러나 [API를 사용](install.md#pwa-support)하여 이 기능을 구현할 수 있습니다.

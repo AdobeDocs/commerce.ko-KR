@@ -2,7 +2,8 @@
 title: ' [!DNL Live Search] 시작'
 description: Adobe Commerce에서  [!DNL Live Search] 의 시스템 요구 사항 및 설치 단계에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: 039f04814c4e0b0c31f160446c67b2689f687818
+exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
+source-git-commit: 8ebb28641e8db3b88d8f9d818da6301558ed186b
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 0%
@@ -157,7 +158,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
    composer require magento/module-live-search-search-types:"^1.0.0-beta1"
    ```
 
-1. `composer.json` 및 `composer.lock` 파일에 대한 변경 내용을 커밋하고 클라우드 프로젝트에 푸시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension).
+1. `composer.json` 및 `composer.lock` 파일에 대한 변경 내용을 커밋하고 클라우드 프로젝트에 푸시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)
 
    이 베타는 관리자의 **[!UICONTROL Autocomplete]**, **[!UICONTROL Contains]** 및 **[!UICONTROL Starts with]**&#x200B;에 대한 **[!UICONTROL Search types]**&#x200B;개의 확인란을 추가합니다. 또한 이러한 새로운 검색 기능을 포함하도록 [`productSearch`](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/#filtering-using-search-capability) GraphQL API를 업데이트합니다.
 
@@ -470,7 +471,7 @@ Adobe에서는 SaaS API(특히 카탈로그 서비스 엔드포인트)를 직접
 
 ### Inventory management
 
-[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 `commerce-data-export`을(를) 버전 102.2.0+로 [업데이트](install.md#update)해야 합니다.
+[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 `commerce-data-export`을(를) 버전 102.2.0+로 [업데이트](install.md#updating-live-search)해야 합니다.
 
 [!DNL Live Search]은(는) Inventory management 내에서 제품을 사용할 수 있는지 여부를 나타내는 부울을 반환하지만, 재고가 있는 소스에 대한 정보는 포함하지 않습니다.
 
