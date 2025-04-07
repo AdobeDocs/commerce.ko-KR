@@ -3,9 +3,9 @@ title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-source-git-commit: a1b825a819b25d9374eef169c633d54fb94ee26c
+source-git-commit: 9b90e6f79a394ec0941c9e48aee3859f0bcdedd5
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 0%
 >[!ENDTABS]
 
 ## 인스턴스 만들기
+
+>[!NOTE]
+>
+>인스턴스를 만들려면 먼저 조직의 제품 관리자 또는 시스템 관리자가 사용자를 [!DNL Adobe Commerce as a Cloud Service] 제품의 사용자로 추가해야 합니다. 자세한 내용은 [사용자 및 관리자 추가](./user-management.md#add-users-and-admins)를 참조하십시오.
 
 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스가 신용 기반 시스템을 사용합니다. 여러 인스턴스를 만들 수 있지만 각 인스턴스에는 상대적 크레딧이 필요합니다. 처음에 보유하고 있는 크레딧의 양은 구독에 따라 다릅니다.
 

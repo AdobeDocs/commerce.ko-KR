@@ -5,10 +5,10 @@ breadcrumb-title: Cloud Service 안내서
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 306f735e8fe713ba236096ba605b911b41ce405e
+source-git-commit: d7c5498826ad1ffffeda0f60f3b99488cbd4aa8f
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 9%
+source-wordcount: '24'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 9%
 
 - [개요](overview.md)
 - [시작](getting-started.md)
+- [사용자 관리](user-management.md)
 - [상점 첫 화면](storefront.md)
 - [자산 관리](assets-management.md)
 - [사용 사례](use-cases.md)

@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 주요 기능 및 이
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: 25a0d658776ea95fcae07f6390abeeb559642613
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Commerce Foundation은 클라우드 기반 환경에서 Commerce 애플리케이
 
 ### 간소화된 온보딩
 
-Commerce Cloud Manager 셀프서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작할 수 있습니다. 머천다이징 서비스, Commerce Storefront 및 App Builder을 포함하여 필요한 모든 항목이 자동으로 구성되고 인스턴스와 통합됩니다.
+[!UICONTROL Commerce Cloud Manager] 셀프 서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작합니다. 머천다이징 서비스, Headless Commerce 인스턴스 및 App Builder을 포함하여 필요한 모든 것이 자동으로 구성되고 인스턴스와 통합됩니다.
 
 Commerce 인스턴스를 만들고 관리하는 방법은 [시작하기](getting-started.md)를 참조하세요.
 
