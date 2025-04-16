@@ -3,9 +3,9 @@ title: 사용 사례
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.'
 role: User, Leader
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: d5935f4d080c3be1f51bf8916575a3b2f357ee22
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 문제가 발생하면 [문제 해결](#troubleshooting) 섹션에서 지침을 확인하십시오.
 
-## 전제 조건
+## 사전 요구 사항
 
 이러한 사용 사례를 시도하기 전에 다음 사전 요구 사항을 완료해야 합니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 엽니다.
 
-1. 문서 작성을 엽니다. `https://da.live/#/<GitHub User Name>/<Repository Name>/main/da/index.md`(으)로 이동
+1. 상점 빌더를 엽니다. `https://da.live/#/<GitHub User Name>/<Repository Name>/main/da/index.md`(으)로 이동
 
 1. [!UICONTROL **인덱스**] 페이지를 엽니다.
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 화면에서 실험을 만들고 관리하여 다양한 콘텐츠 및 구성을 테스트할 수 있습니다.
 
-### 전제 조건
+### 사전 요구 사항
 
 * [AEM Sidekick 확장 설치](https://www.aem.live/docs/sidekick)
 
-1. 상점의 문서 작성 보기에서 인덱스 페이지를 선택하고 [!UICONTROL **복사**]&#x200B;를 클릭합니다.
+1. Storefront Builder에서 인덱스 페이지를 선택하고 [!UICONTROL **복사**]&#x200B;를 클릭합니다.
 
 1. [!UICONTROL **새로 만들기**] 단추를 클릭하고 [!UICONTROL **폴더**]&#x200B;를 선택하여 기본 폴더 아래에 [!UICONTROL **실험**] 폴더를 만듭니다.
 
@@ -147,7 +147,7 @@ Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 �
 
 이제 AEM Assets, Adobe Express 및 Firefly을 사용하여 간단한 자체 주도 워크플로우로 상점 앞에 표시되는 이미지를 빠르게 변경할 수 있습니다.
 
-### 전제 조건
+### 사전 요구 사항
 
 * AEM Assets, Adobe Express 및 Adobe Firefly에 대한 액세스 권한이 필요합니다.
 
