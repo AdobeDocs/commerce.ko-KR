@@ -3,9 +3,9 @@ title: '[!DNL Payment Services] 릴리스 정보'
 description: 모든 [!DNL Payment Services] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 feature: Payments, Release Notes
 exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
-source-git-commit: 0098e5bab2ea72f9abd7c846d49d5ee4d523ad73
+source-git-commit: 359143c4f48ff911d6dbe9105f364615525fab8c
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3971'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,15 @@ _2021년 6월 28일_
 
 +++
 
+>[!NOTE]
+>
+> 릴리스는 필요에 따라 새로운 기능 및 수정 사항을 제공하기 위해 자주 발생합니다. 릴리스 일정은 고정되어 있지 않습니다.
+
 ## v2.11.1
 
 _2025년 3월 14일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![문제 해결](../assets/fix.svg)<!-- PAY-5849 --> 체크아웃 중에 [라인 항목](line-items.md)에 영향을 주는 문제를 해결했습니다. 이제 [!DNL Payment Services]이(가) **라인 항목**&#x200B;에 대한 체크아웃 프로세스 안정성을 개선했습니다. 유사한 문제가 발생하면 [!DNL Payment Services] 영업 담당자에게 지원을 요청하십시오.
 
@@ -102,7 +106,7 @@ _2025년 3월 14일_
 
 _2025년 3월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5938 --> 이제 [!DNL Payment Services]을(를) 통해 가맹점은 결제 설정을 관리하여 비즈니스의 유연성을 극대화할 수 있습니다. 이 버전은 판매자가 지원하는 지역 및 브랜드에 대해 [여러 PayPal 계정](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/settings#use-multiple-paypal-accounts)을 첨부하는 기능을 향상시킵니다. 우리 영업팀은 웹 사이트 및 스토어 보기 범위를 설정하기 위한 온보딩 링크를 제공할 수 있습니다.
@@ -129,7 +133,7 @@ _2025년 3월 13일_
 
 _2025년 2월 24일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![해결된 문제](../assets/fix.svg)<!-- PAY-xxxx --> 전반적인 안정성과 성능이 향상되었습니다.
 
@@ -139,7 +143,7 @@ _2025년 2월 24일_
 
 _2025년 2월 21일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![알려진 문제](../assets/bug.svg)<!-- PAY-xxxx --> 안정성 및 성능에 영향을 줄 수 있는 중요한 버그가 포함되어 있습니다. Adobe에서는 이 버전(v2.10.2)을 사용하지 않고 v2.10.3으로 업그레이드하는 것이 좋습니다.
 
@@ -147,7 +151,7 @@ _2025년 2월 21일_
 
 _2025년 2월 5일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5813 --> Adobe Commerce 2.4.8 및 PHP 8.4에 대한 지원이 추가되었습니다.
 
@@ -155,7 +159,7 @@ _2025년 2월 5일_
 
 _2024년 12월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5873 --> [!DNL Payment Services]은(는) 이제 Adobe Commerce용 [Edge Delivery Services 상점](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)에서 [[!DNL Payment Services] 추가 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/payment-services/)를 지원합니다.
 
@@ -175,7 +179,7 @@ _2024년 12월 13일_
 
 _2024년 11월 7일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5629 --> [!DNL Payment Services]은(는) 이제 **업그레이드된 Apple Pay용 SDK URL**&#x200B;을(를) 지원하므로 Apple Pay를 사용하는 가맹점의 통합이 향상됩니다. 이 기능은 macOS 14 이상과 호환되므로 이전 버전의 macOS을 실행하는 장치에서는 이 기능이 표시되지 않습니다.
 
@@ -193,7 +197,7 @@ _2024년 11월 7일_
 
 _2024년 9월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg)<!-- PAY-5644 --> [!DNL Payment Services]에서 여러 범위를 사용할 때 SDK 매개 변수의 캐시 문제를 해결했습니다. 이제 SDK 구성이 단일 키 아래에 있는 대신 각 범위에 대해 별도로 캐시됩니다. 이렇게 하면 각 범위의 캐시가 독립적으로 무효화되므로 여러 범위를 관리할 때 안정성이 향상됩니다.
 
@@ -201,7 +205,7 @@ _2024년 9월 13일_
 
 _2024년 9월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5499 --> 이제 [!DNL Payment Services]은(는) Adobe Commerce에서 [추적 번호를 입력](track-shipment.md)할 때 PayPal에 추적 번호 정보를 보낼 수 있습니다.
 
@@ -215,7 +219,7 @@ _2024년 9월 13일_
 
 _2024년 8월 2일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-4844 --> [!DNL Payment Services]은(는) 이제 주문 수준](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/manage/line-items)에서 [라인 항목 데이터를 지원합니다. 이 기능을 사용하면 판매자가 제품 세부 정보, 수량, 가격(판매세, 할인 및 기타 관련 정보 포함) 등 주문에 있는 항목에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -235,7 +239,7 @@ _2024년 8월 2일_
 
 _2024년 6월 4일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![신규](../assets/new.svg)<!-- PAY-4877 --> [!DNL Payment Services]에서 [L2/L3 가격 기능을 지원합니다](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/levels-card-payment-transactions.html). 이 기능은 IC++ 가격이 활성화된 [!DNL Payment Services] 고객에게만 제공됩니다. [!DNL Payment Services]에 대한 L2/L3 처리 데이터를 사용하려면 [!DNL Payment Services] 계정 관리자에게 문의하십시오.
 
@@ -245,7 +249,7 @@ _2024년 6월 4일_
 
 _2024년 4월 23일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg)<!-- Issue PAY-5396 -->[!DNL Payment Services]은(는) 이제 Adobe Commerce 버전 2.4.7 이상의 `--db-prefix` 매개 변수에 대한 [Adobe Commerce 지침](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced#install-from-the-command-line)을 지원합니다.
 
@@ -253,7 +257,7 @@ _2024년 4월 23일_
 
 _2024년 4월 16일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg)<!-- Issue PAY-5106 --> PayPal과 Adobe Commerce 간 체크아웃 중에 주문 금액 합계를 잘못 채우는 문제를 해결했습니다. 이제 판매자는 주문 시 주문 금액 합계가 정확한지 확인할 수 있습니다.
 
@@ -261,7 +265,7 @@ _2024년 4월 16일_
 
 _2024년 4월 11일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue xxx --> Adobe Commerce 2.4.7에 대한 지원이 추가되었습니다.
 
@@ -269,7 +273,7 @@ _2024년 4월 11일_
 
 _2024년 4월 4일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg)<!-- PAY-5322 --> 최신 Adobe Commerce 릴리스의 PCI 호환성 문제를 해결했습니다. 이제 [!DNL Payment Services]이(가) 결제 옵션으로 Adobe Commerce의 요구 사항을 체크아웃하도록 조정되었습니다.
 
@@ -279,7 +283,7 @@ _2024년 4월 4일_
 
 _2024년 3월 20일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![신규](../assets/new.svg)<!-- PAY-4868 --> 가맹점은 관리자를 통해 [!DNL Payment Services]의 다른 결제 버튼과 마찬가지로 구매 경험 전체에서 [Google Pay를 구성](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/payments-options.html)할 수 있습니다.
 
@@ -293,7 +297,7 @@ _2024년 3월 20일_
 
 _2024년 3월 1일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5244 --> 비동기 체크 아웃 호환성을 수정했습니다.
 
@@ -303,7 +307,7 @@ _2024년 3월 1일_
 
 _2024년 2월 14일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5048 --> PHP 8.3에 대한 지원을 추가했습니다.
 
@@ -313,7 +317,7 @@ _2024년 2월 14일_
 
 _2024년 1월 26일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![REST/GraphQL 성능 문제를 수정](../assets/fix.svg)<!-- PAY-5183 -->했습니다. 이제 API를 통해 가져올 때 신용 카드 버튼이 렌더링됩니다.
 
@@ -321,7 +325,7 @@ _2024년 1월 26일_
 
 _2023년 12월 7일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5047 --> 이제 다음 위치에서 신용/직불 카드 브랜드 또는 결제 방법 유형을 사용할 수 있습니다.
 
@@ -333,7 +337,7 @@ _2023년 12월 7일_
 
 _2023년 12월 1일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-4381 --> [결제 서비스에서 이제 GraphQL 통합을 지원합니다](https://developer.adobe.com/commerce/webapi/graphql/payment-services/). PayPal 결제 단추, 호스트된 필드 및 Apple Pay에 대한 GraphQL 지원을 통해 [!DNL Payment Services]에서 이제 Headless Commerce 설정을 지원합니다.
 
@@ -341,7 +345,7 @@ _2023년 12월 1일_
 
 _2023년 9월 27일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![문제 해결](../assets/fix.svg)<!-- Issue PAY-4870 --> 확장 버전을 최신 릴리스로 보낼 때 Storefront에서 새 헤더 특성을 올바르게 잘못 입력한 문제가 수정되었습니다. 이전에는 Commerce 서비스 커넥터의 `1.3.0` 릴리스에서 [!DNL Payment Services] 확장에서 `User-Agent header`을(를) 확장할 수 없었습니다.
 
@@ -349,7 +353,7 @@ _2023년 9월 27일_
 
 _2023년 8월 30일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-4638 --> 자동화된 사기 방지 서비스를 제공하는 Signifyd](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/fraud-protection.html)와의 [통합을 추가했습니다.
 
@@ -365,7 +369,7 @@ _2023년 8월 30일_
 
 _2023년 6월 9일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue xxx --> Adobe Commerce 2.4.7-beta1에 대한 지원을 추가했습니다.
 
@@ -381,7 +385,7 @@ _2023년 6월 9일_
 
 _2023년 3월 10일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-4152 --> PHP 8.2 및 Adobe Commerce 2.4.6에 대한 지원이 추가되었습니다. PHP 7.x와 호환되지 않습니다.
 
@@ -389,7 +393,7 @@ _2023년 3월 10일_
 
 _2023년 3월 10일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg)<!-- Issue PAY-4226 --> 새 [!DNL Payment Services] 판매자가 관리자의 체크아웃을 사용하지 못하는 문제를 해결했습니다.[!DNL Payment Services]은(는) 이전에 새 고객에 존재하지 않는 Commerce 고객 ID를 사용하고 있었습니다.
 
@@ -401,7 +405,7 @@ _2023년 3월 10일_
 
 _2023년 2월 17일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-3540 --> 유럽 연합(EU)과 영국에서 거래하는 판매자를 위한 [PCI 3DS 준수 기능](security.md#3ds)을 추가했습니다. 구매자가 신용 카드 발급자를 인증해야 하는 이 추가 보안 계층은 온라인 사기 예방에 도움이 되며 유럽 연합(EU) 규정 준수 규칙의 일부로 필요합니다.
 
@@ -411,7 +415,7 @@ _2023년 2월 17일_
 
 _2023년 1월 29일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![문제 해결](../assets/fix.svg)<!-- Issue PAY-4110 --> 구매자가 제품 페이지, 미니 장바구니 및 장바구니의 결제 단추를 사용하여 주문하지 못하는 문제를 해결했습니다. 이제 구매자가 주문을 성공적으로 완료할 수 있습니다.
 
@@ -419,7 +423,7 @@ _2023년 1월 29일_
 
 _2023년 1월 25일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![해결된 문제](../assets/fix.svg)<!-- Issue PAY-4102 --> 이전 버전과 호환되지 않는 알려진 문제에 대한 수정 사항이 릴리스되었습니다. 이 릴리스에서는 서비스 ID 확장 버전을 최신 안정된 버전으로 잠가서 새 [!DNL Payment Services] 설치를 다시 사용하여 Commerce 서비스를 구성할 수 있습니다.
 
@@ -427,17 +431,17 @@ _2023년 1월 25일_
 
 _2022년 12월 22일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![문제 해결](../assets/fix.svg)<!-- Issue PAY-3992 --> 결제 방법이 거부되면 [!DNL Payment Services]에서 송장 발행을 개선했습니다.
 
-![해결된 문제](../assets/fix.svg)<!-- Issue PAY-3999 -->[!DNL Payment Services]는 이제 체크아웃 페이지에 대해 [체크아웃 실행](https://commercemarketplace.adobe.com/swissup-firecheckout.html){target=_blank} 사용자 지정 템플릿을 사용하는 가맹점에 대한 PayPal 결제 단추를 올바르게 표시합니다. 이전에는 미니마트에서 버튼이 간헐적으로 표시되었습니다.
+![해결된 문제](../assets/fix.svg)<!-- Issue PAY-3999 -->[!DNL Payment Services]는 이제 체크아웃 페이지에 대해 [Fire Checkout&#39;s](https://commercemarketplace.adobe.com/swissup-firecheckout.html){target=_blank} 사용자 지정 템플릿을 사용하여 가맹점에 대한 PayPal 결제 단추를 올바르게 표시합니다. 이전에는 미니마트에서 버튼이 간헐적으로 표시되었습니다.
 
 ## v1.5.1
 
 _2022년 11월 23일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-3923 -->[!DNL Payment Services]에서는 이제 요청이 사용하지 않는 끝점을 추적, 필터링 또는 사용하지 않도록 설정할 수 있도록 사용자 에이전트 헤더에 버전 번호를 포함합니다.
 
@@ -447,7 +451,7 @@ _2022년 11월 23일_
 
 _2022년 11월 18일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-3880 --> 이제 구매자는 체크아웃 중에 신용카드 정보를 [저장(저장)할 수 있습니다](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html) 나중에 같은 가맹점 계정 내의 같은 상점이나 다른 상점을 구매할 때 사용할 수 있습니다.
 
@@ -457,7 +461,7 @@ _2022년 11월 18일_
 
 _2022년 10월 14일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![수정](../assets/fix.svg)<!-- Issue PAY-3766 --> 고객의 결제 방법이 거부되면 표시되는 오류 메시지가 더 설명적입니다. 고객이 결제 정보를 다시 입력하고 다시 시도하거나 다른 결제 수단을 시도하거나 거래 거절에 대해 해당 은행에 문의하라고 조언한다.
 
@@ -465,7 +469,7 @@ _2022년 10월 14일_
 
 _2022년 9월 30일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![신규](../assets/new.svg)<!-- Issue PAY-784 -->[!DNL Payment Services]에는 [여러 PayPal 비즈니스 계정을 사용](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html#use-multiple-paypal-accounts)할 수 있도록 판매자 계정을 설정할 수 있는 기능이 포함됩니다. 이를 통해 판매자는 다양한 통화를 사용하여 여러 국가에서 스토어를 운영하거나 비즈니스의 일부로 Adobe Commerce을 사용할 수 있습니다.
 
@@ -479,7 +483,7 @@ _2022년 9월 30일_
 
 _2022년 9월 6일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![문제 해결](../assets/fix.svg)<!-- Issue PAY-3663 --> 이제 판매자의 스토어에서 비글로벌 통화로 승인된 주문을 캡처할 때 캡처 프로세스가 완료되고 오류가 표시되지 않습니다.
 
@@ -487,7 +491,7 @@ _2022년 9월 6일_
 
 _2022년 8월 9일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새](../assets/new.svg)<!-- Issue PAY-XX --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Magento Open Source] 버전 2.4.0에서 2.4.5](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)까지 지원됩니다. [!DNL Adobe Commerce] 
 
@@ -497,7 +501,7 @@ _2022년 8월 9일_
 
 _2022년 6월 29일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-x --> Apple Pay가 모바일 및 데스크톱의 Safari 브라우저 v15.5와 호환되지 않습니다. Safari 버전 15.5를 사용하는 경우 Apple Pay로 체크아웃을 완료할 수 없습니다.
 
@@ -515,7 +519,7 @@ _2022년 6월 29일_
 
 _2022년 3월 31일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새](../assets/new.svg)<!-- Issue PAY-2127 --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Magento Open Source] 버전 2.4.0에서 2.4.4](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)까지 지원됩니다. [!DNL Adobe Commerce] 
 
@@ -543,7 +547,7 @@ _2022년 3월 31일_
 
 _2021년 11월 29일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
 ![새](../assets/new.svg)<!-- Issue PAY-2127 --> 일반 가용성 릴리스—[[!DNL Payment Services]](https://commercemarketplace.adobe.com/magento-payment-services.html)은(는) 이제 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source] 버전 2.4.0에서 2.4.3-p1까지 지원됩니다.
 
