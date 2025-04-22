@@ -3,9 +3,9 @@ title: '[!DNL Live Search] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Live Search] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
+source-git-commit: 5c34bf61ee441ef20a680a4f071308d17379f49d
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 0%
 ## 호스팅된 서비스 업데이트
 
 이 참고 사항에서는 버전 관리된 릴리스 외부에 게시된 업데이트 또는 호스팅된 서비스에 대한 개선 사항에 대해 설명합니다.
+
+_2025년 4월 21일_
+
+![수정](../assets/fix.svg) 상위 범위와 동일한 제품이 결과에 포함되지 않도록 가격에 대한 범위 필터의 문제를 해결했습니다. 이 변경 사항은 패싯에 대해 가격 범위를 정의하는 방식에 맞춰 조정됩니다.
 
 _2025년 4월 3일_
 
@@ -82,7 +86,7 @@ _2023년 10월 27일_
 
 _2025년 3월 11일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) [!DNL Live Search]은(는) 이제 Adobe Commerce 2.4.8-beta2를 실행하는 설치에서 PHP 8.4를 지원합니다.
 ![수정](../assets/fix.svg) 검색 어댑터가 `psr/http-message:2.0`과(와) 호환되지 않는 문제를 해결했습니다.
@@ -91,7 +95,7 @@ _2025년 3월 11일_
 
 _2025년 2월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) 주문 세부 사항 페이지에 주문 번호, 날짜 및 **[!UICONTROL Reorder]** 단추가 없는 문제를 해결했습니다.
 
@@ -99,7 +103,7 @@ _2025년 2월 13일_
 
 _2025년 1월 6일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) Adobe Commerce 버전 2.4.5 및 이전 버전에서 `categoryList` GraphqL 쿼리에 오류가 발생하는 문제를 해결했습니다.
 
@@ -107,7 +111,7 @@ _2025년 1월 6일_
 
 _2024년 7월 31일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) 특정 스크립트가 체크아웃 페이지에서 로드되지 않는 문제를 해결했습니다.
 ![수정](../assets/fix.svg) `composer.json` 파일에서 종속성 버전을 수정했습니다.
@@ -116,7 +120,7 @@ _2024년 7월 31일_
 
 _2024년 5월 31일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) PLP 위젯 버전 2.0.0을 사용하도록 라이브 검색 확장 기능이 업데이트되었습니다.
 
@@ -124,7 +128,7 @@ _2024년 5월 31일_
 
 _2024년 5월 16일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ### 업데이트
 
@@ -134,7 +138,7 @@ _2024년 5월 16일_
 
 _2024년 3월 19일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ### 새로운 기능
 
@@ -145,7 +149,7 @@ _2024년 3월 19일_
 
 _2024년 2월 22일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ### 새로운 기능
 
@@ -161,7 +165,7 @@ _2024년 2월 22일_
 
 _2023년 11월 13일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ### 새로운 기능
 
@@ -192,7 +196,7 @@ _2023년 11월 13일_
 
 _2023년 9월 15일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) 새 범주 머천다이징 탭이 추가되었습니다. 이제 카테고리당 지능형 순위 및 수동 순위(고정, 증폭, 파기, 숨기기)를 추가할 수 있습니다.
 ![신규](../assets/new.svg) 사용자는 지능적 또는 수동 등급으로 하나의 범주 규칙을 추가할 수 있습니다.
@@ -221,7 +225,7 @@ _2023년 9월 15일_
 
 _2023년 9월 1일_
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 #### 업데이트
 
@@ -231,7 +235,7 @@ _2023년 9월 1일_
 
 _2023년 8월 7일_
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 #### 새로운 기능
 
@@ -260,7 +264,7 @@ _2023년 8월 7일_
 
 _2023년 3월 14일_
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 #### 새로운 기능
 
@@ -301,7 +305,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 2.0.5
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) - 네트워크 문제로 인해 SDK 리소스를 사용할 수 없으면 실시간 검색에서 오류가 발생합니다. 이 버그는 수정되었습니다.
 
@@ -311,7 +315,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 2.0.4
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) 실시간 검색은 이제 관리자의 &#39;재고 부족 제품 표시&#39; 설정에 의한 필터링을 지원합니다. &#39;재고 부족 제품 표시&#39;를 false로 설정하면 `inStock = true`이(가) 필터에 추가됩니다.
 ![수정](../assets/fix.svg) 성능을 개선하기 위해 &#39;제안&#39; 블록이 라이브 검색 팝업에서 제거되었습니다. 기능을 교체하려는 경우 데이터는 여전히 GraphQL을 통해 전달됩니다.
@@ -325,7 +329,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 2.0.3
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로운 ](../assets/new.svg) 라이브 검색은 이제 범주 권한, 공유 카탈로그 및 고객 그룹별 가격을 준수하여 B2B 기능을 지원합니다.
 
@@ -335,7 +339,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 2.0
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 다음과 같은 새로운 기능, 수정 사항 및 향상된 기능을 활용하려면 기존 [!DNL Live Search] 설치를 [!DNL Live Search] 2.0.0으로 업그레이드해야 합니다.
 
@@ -350,7 +354,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 1.3.1
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![수정](../assets/fix.svg) [사용자 지정 가격 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)이(가) [facet](facets-add.md)(으)로 구성된 경우 더 이상 오류를 반환하지 않습니다.
 ![수정](../assets/fix.svg) 사용 가능한 [통화 기호](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration#step-5-customize-currency-symbols-optional)&#x200B;(`data-currency-symbol`)가 없을 때 오류가 발생하는 문제를 해결했습니다.
@@ -358,7 +362,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 1.3.0
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![새로 만들기](../assets/new.svg) [성능](performance.md) 보고 대시보드는 쇼핑객이 사용하는 검색어에 insight을 제공합니다.
 ![새로 만들기](../assets/new.svg) [!DNL Live Search] [Storefront Events SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)에서는 이벤트 게시 및 구독 서비스와 지표가 있는 공통 데이터 레이어에 액세스할 수 있습니다.
@@ -369,7 +373,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 1.2.0
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![새로 만들기](../assets/new.svg) [[!DNL Storefront popover]](storefront-popover.md) 쇼핑객이 검색 상자에 쿼리를 입력할 때 추천 제품 및 상위 검색 결과의 썸네일 이미지를 표시합니다.
 ![새](../assets/new.svg) Commerce *관리자* 세션이 오랫동안 키보드를 사용하지 않는 동안에는 열려 있습니다.
@@ -382,7 +386,7 @@ _2023년 3월 14일_
 
 ### [!DNL Live Search] 1.1.0
 
-[!BADGE 지원됨]{type="정보" tooltip="지원됨"}
+[!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![버그](../assets/bug.svg) [!DNL Live Search] 서비스는 Adobe Commerce 설치의 [기본 통화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration)만 지원합니다.
 ![버그](../assets/bug.svg) 패싯을 추가할 때 `Update on Save`(으)로 설정하면 제품 특성 피드가 올바르게 업데이트되지 않습니다. 이 문제를 방지하려면 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)&#x200B;(으)로 이동하여 제품 특성 피드를 `Update by Schedule`(으)로 설정하십시오.

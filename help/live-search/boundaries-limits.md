@@ -3,9 +3,9 @@ title: 경계 및 제한
 description: 비즈니스 요구 사항을 충족하도록  [!DNL Live Search] 의 경계 및 제한에 대해 알아봅니다.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
+source-git-commit: eaea7d847be04956299a80ba3bccd90be527c482
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 - [!DNL Live Search] 필드 및 제품 목록 페이지 위젯에서는 [계층 가격 책정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier)이 지원되지 않습니다.
 - 제품 가격에는 부가가치세(VAT)가 포함되지 않습니다.
 - 컨텐츠 검색(CMS 페이지 및 블록)은 지원되지 않습니다.
-- 페이지 매김이 가능한 제품은 10k개로 제한됩니다. 이 제한을 늘릴 수 있지만 성능에 영향을 줄 수 있습니다. 카테고리 또는 검색 결과에 제품 수가 많아 쇼핑객이 페이지 매김을 깊게 사용하지 않아도 되는 경우 제품을 필터링할 수 있는 의미 있는 방법을 제공해야 합니다.
+- 페이지 번호를 지정할 수 있는 최대 결과 수는 10,000개입니다. 카테고리 또는 검색 결과에 많은 수의 제품이 포함되어 있는 경우 쇼핑객이 페이지 매김을 사용할 필요가 없도록 하려면 제품을 필터링할 수 있는 의미 있는 방법을 제공하십시오.
 - 설명 및 사용자 지정 속성을 포함하여 속성당 1MB의 하드 제한이 있습니다.
 - 검색 어댑터는 사용자 지정 소스 모델로 만들어져 패싯으로 사용되는 제품 속성을 지원하지 않습니다. 이 기능을 지원하려면 [제품 목록 페이지 위젯](plp-styling.md)을 사용해야 합니다.
 - 사용자 지정 제품 유형은 지원되지 않습니다.
