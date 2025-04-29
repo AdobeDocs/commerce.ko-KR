@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 주요 기능 및 이
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-source-git-commit: 25a0d658776ea95fcae07f6390abeeb559642613
+source-git-commit: 4cd5847eee52ff43e2fae27080a5971ceb939875
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -148,6 +148,5 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 | [콘텐츠 스테이징](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |
 | [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
 | [결제](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments) | [Adobe Commerce 결제 서비스](../payment-services/overview.md) | 사용 가능 | 안전하고 효율적인 거래를 용이하게 하는 통합 결제 서비스입니다. |
-| [공유된 카탈로그](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared) | [가격 인덱싱 서비스](../price-index/price-indexing.md) | 로드맵 | 가격 데이터를 분석하고 다양한 요인에 기초하여 상품에 대한 최적의 가격 전략을 제시한다. |
 | [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
 | [시각적 머천다이저](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |
