@@ -3,9 +3,9 @@ title: '[!DNL Live Search] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Live Search] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: 5c34bf61ee441ef20a680a4f071308d17379f49d
+source-git-commit: bf36d522b45218a10bde7a383feca99bdba62aa6
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 ## 호스팅된 서비스 업데이트
 
 이 참고 사항에서는 버전 관리된 릴리스 외부에 게시된 업데이트 또는 호스팅된 서비스에 대한 개선 사항에 대해 설명합니다.
+
+_2025년 4월 29일_
+
+![수정](../assets/fix.svg) [**성능**](./performance.md) 탭의 **CSV로 내보내기** 보고서에 날짜 범위에 지정된 모든 데이터가 포함되지 않는 문제를 해결했습니다.
+![수정](../assets/fix.svg) 검색 쿼리 필터를 사용한 경우 [머천다이징 규칙](./rules.md)을 저장할 수 없는 문제를 해결했습니다.
+![수정](../assets/fix.svg) [고정된 제품](./facets-manage.md#pinunpin-facet)이 결과 페이지의 맨 위에 나열되지 않는 문제를 해결했습니다.
 
 _2025년 4월 21일_
 
