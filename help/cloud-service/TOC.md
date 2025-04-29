@@ -5,10 +5,11 @@ breadcrumb-title: Cloud Service 안내서
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: d7c5498826ad1ffffeda0f60f3b99488cbd4aa8f
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 140bf38ffc42289772c8347db591edfbd6504ea7
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 16%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
