@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션'
-description: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 방법에 대해 알아봅니다.'
+title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
+description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
 source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt

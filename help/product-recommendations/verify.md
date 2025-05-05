@@ -48,7 +48,7 @@ Chrome용 [Snowploy Analytics 디버거 확장 설치](https://chrome.google.com
 
 1. **Event** 열에서 **구조화된 이벤트**&#x200B;를 선택합니다.
 
-1. **컨텍스트 데이터 _n_**이(가) 표시될 때까지 아래로 스크롤합니다.**스키마**에서 Storefront 인스턴스를 찾습니다.
+1. **컨텍스트 데이터 _n_**&#x200B;이(가) 표시될 때까지 아래로 스크롤합니다.**스키마**&#x200B;에서 Storefront 인스턴스를 찾습니다.
 
 1. [SaaS 데이터 공간 ID](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html)이(가) 올바르게 설정되어 있는지 확인하십시오.
 

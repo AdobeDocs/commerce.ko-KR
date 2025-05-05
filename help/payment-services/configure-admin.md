@@ -16,17 +16,17 @@ ht-degree: 0%
 
 관리자의 유용한 구성 옵션을 사용하여 필요에 맞게 [!DNL Payment Services]을(를) 사용자 지정할 수 있습니다.
 
-관리자의 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대해 [!DNL Payment Services]을(를) 구성할 때 해당 구성은 _[!UICONTROL General Configuration]_의_[!UICONTROL Method]_ 필드에 설정된 환경에만 적용됩니다. 구성 필드에서 변경한 내용은 _[!UICONTROL Method]_선택 항목을 전환하는 것과 관련이 없습니다. 메서드를 전환하는 경우 선택 항목이 재설정되지 않습니다.
+관리자의 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대해 [!DNL Payment Services]을(를) 구성할 때 해당 구성은 _[!UICONTROL General Configuration]_&#x200B;의_[!UICONTROL Method]_ 필드에 설정된 환경에만 적용됩니다. 구성 필드에서 변경한 내용은 _[!UICONTROL Method]_&#x200B;선택 항목을 전환하는 것과 관련이 없습니다. 메서드를 전환하는 경우 선택 항목이 재설정되지 않습니다.
 
 ## 일반 구성
 
-스토어와 _[!UICONTROL Merchant Location]_에 대해 [!DNL Payment Services]을(를) 사용하도록 설정하고_[!UICONTROL General Configuration]_ 섹션에서 샌드박스 테스트 또는 실시간 결제를 사용하도록 설정할 수 있습니다.
+스토어와 _[!UICONTROL Merchant Location]_&#x200B;에 대해 [!DNL Payment Services]을(를) 사용하도록 설정하고&#x200B;_[!UICONTROL General Configuration]_ 섹션에서 샌드박스 테스트 또는 실시간 결제를 사용하도록 설정할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL Merchant Location]_에서_[!UICONTROL Merchant Country]_ 필드를 설정합니다. _[!UICONTROL Merchant Country]_을(를) 지정하지 않으면 일반 구성의_[!UICONTROL Default Country]_&#x200B;이(가) 사용됩니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장하여_[!UICONTROL [!DNL Payment Services]]_ 섹션에 액세스합니다.
-1. _[!UICONTROL [!DNL Payment Services]]_섹션에서_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
+1. _[!UICONTROL Merchant Location]_&#x200B;에서&#x200B;_[!UICONTROL Merchant Country]_ 필드를 설정합니다. _[!UICONTROL Merchant Country]_&#x200B;을(를) 지정하지 않으면 일반 구성의&#x200B;_[!UICONTROL Default Country]_&#x200B;이(가) 사용됩니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장하여&#x200B;_[!UICONTROL [!DNL Payment Services]]_ 섹션에 액세스합니다.
+1. _[!UICONTROL [!DNL Payment Services]]_&#x200B;섹션에서&#x200B;_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
 1. **사용**&#x200B;의 경우 스토어에 대해 [!DNL Payment Services]을(를) 사용하려면 `Yes`(으)로 설정하십시오.
 1. **메서드**&#x200B;의 경우 스토어에 대해 [!DNL Payment Services]을(를) 테스트하는 경우 `Sandbox`(으)로 설정하고, 실시간 결제를 활성화할 준비가 된 경우 `Production`(으)로 설정하십시오.
 1. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas){target=_blank}를 설정하고 [!DNL Payment Services] 대시보드를 처음 방문하면 **[!UICONTROL Payment Services Sandbox ID]** 및 **[!UICONTROL Payment Services Production ID]** 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Credit Card Fields]_ 섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL Credit Card Fields]_ 섹션을 확장합니다.
 1. **[!UICONTROL Title]**&#x200B;의 경우 필요한 경우 체크아웃 중에 표시된 대로 결제 방법 이름을 변경하려면 텍스트를 입력하십시오.
 1. [결제 작업을 설정](production.md#set-payment-services-as-payment-method)하려면 **[!UICONTROL Authorize]** 또는 **승인 및 캡처**&#x200B;를 선택하십시오.
 1. 체크아웃 페이지에서 결제 방법의 우선 순위를 지정하려면 **[!UICONTROL Sort order]** 필드에 `Numeric Only` 값을 입력하십시오.
@@ -96,8 +96,8 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Apple Pay]_ 섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL Apple Pay]_ 섹션을 확장합니다.
 1. **[!UICONTROL Title]**&#x200B;의 경우 필요한 경우 체크아웃 중에 표시된 대로 결제 방법 이름을 변경하려면 텍스트를 입력하십시오.
 1. [결제 작업을 설정](production.md#set-payment-services-as-payment-method)하려면 **[!UICONTROL Authorize]** 또는 **[!UICONTROL Authorize and Capture]**&#x200B;을(를) 선택하십시오.
 1. 필요에 따라 다음 옵션에서 `Yes`을(를) 선택하여 Adobe Commerce에서 [!DNL Apple Pay] 옵션이 활성화된 위치를 지정하십시오.
@@ -130,8 +130,8 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Google Pay]_ 섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL Google Pay]_ 섹션을 확장합니다.
 1. (선택 사항) **[!UICONTROL Title]** 필드에 새 이름을 입력하여 체크아웃 중에 표시되는 결제 방법의 이름을 변경합니다.
 1. **[!UICONTROL Authorize]** 또는 **[!UICONTROL Authorize and Capture]**&#x200B;을(를) 선택하여 [결제 작업을 설정](production.md#set-payment-services-as-payment-method)합니다.
 1. 필요에 따라 다음 옵션에서 `Yes`을(를) 선택하여 Adobe Commerce에서 [!DNL Google Pay] 옵션이 활성화된 위치를 지정하십시오.
@@ -141,7 +141,7 @@ ht-degree: 0%
    * **[!UICONTROL Show Google Pay on cart page]**
 1. **[!UICONTROL 3D Secure authentication]**(기본적으로 `Off`)을(를) 사용하려면 `Always` 또는 `When required`을(를) 선택하십시오.
 1. 디버그 모드를 사용하려면 **[!UICONTROL Debug Mode]**&#x200B;에 대해 `Yes`을(를) 선택합니다(`No`이(가) 비활성화함).
-1. 필요에 따라 **[!UICONTROL Button Color]**, **[!UICONTROL Button Type]** 및 **[!UICONTROL Button Style]**&#x200B;을(를) 선택하여 _[!UICONTROL Google Pay]_단추의 모양을 구성합니다.
+1. 필요에 따라 **[!UICONTROL Button Color]**, **[!UICONTROL Button Type]** 및 **[!UICONTROL Button Style]**&#x200B;을(를) 선택하여 _[!UICONTROL Google Pay]_&#x200B;단추의 모양을 구성합니다.
 1. 높이를 설정하려면 **[!UICONTROL Button Style]**&#x200B;에 정의된 높이의 기본값을 사용합니다.
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]** 을(를) 클릭합니다.
 1. **[!UICONTROL System]** > **[!UICONTROL Cache Management]**(으)로 이동한 다음 **[!UICONTROL Flush Cache]**&#x200B;을(를) 클릭하여 모든 잘못된 캐시를 새로 고칩니다.
@@ -176,9 +176,9 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL PayPal payment buttons]_ 섹션을 확장합니다.
-1. 결제 방법 이름을 변경하려면 _[!UICONTROL Title]_필드를 편집합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL PayPal payment buttons]_ 섹션을 확장합니다.
+1. 결제 방법 이름을 변경하려면 _[!UICONTROL Title]_&#x200B;필드를 편집합니다.
 1. [결제 작업을 설정](production.md#set-payment-services-as-payment-method)하려면 **[!UICONTROL Authorize]** 또는 **[!UICONTROL Authorize and Capture]**&#x200B;을(를) 선택하십시오.
 1. 체크아웃 페이지에서 결제 방법의 우선 순위를 지정하려면 **[!UICONTROL Sort order]** 필드에 `Numeric Only` 값을 입력하십시오.
 1. [나중에 결제 메시지](payments-options.md#pay-later-button)를 활성화/비활성화하려면 **[!UICONTROL Display Pay Later Message]**&#x200B;에 대해 `Yes`/`No`을(를) 선택하십시오.
@@ -212,12 +212,12 @@ ht-degree: 0%
 
 ## 단추 스타일
 
-결제 버튼의 _[!UICONTROL Button style]_옵션을 구성할 수도 있습니다.
+결제 버튼의 _[!UICONTROL Button style]_&#x200B;옵션을 구성할 수도 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL [!DNL Payment Services]]_섹션에서_[!UICONTROL PayPal Smart Button Styling]_ 섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL [!DNL Payment Services]]_&#x200B;섹션에서&#x200B;_[!UICONTROL PayPal Smart Button Styling]_ 섹션을 확장합니다.
 1. 레이아웃을 설정하려면 **[!UICONTROL Layout]**&#x200B;에 대해 `Vertical` 또는 `Horizontal`을(를) 선택하십시오
 1. 색상을 설정하려면 **[!UICONTROL Color]**&#x200B;에서 사용 가능한 색상 중에서 선택하십시오.
 1. 모양을 설정하려면 **[!UICONTROL Shape]**&#x200B;에 대해 `Rectangular` 또는 `Pill`을(를) 선택하십시오.
@@ -227,7 +227,7 @@ ht-degree: 0%
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]** 을(를) 클릭합니다.
 1. **[!UICONTROL System]** > **[!UICONTROL Cache Management]**(으)로 이동한 다음 **[!UICONTROL Flush Cache]**&#x200B;을(를) 클릭하여 모든 잘못된 캐시를 새로 고칩니다.
 
-결제 서비스 홈의 설정](settings.md#button-style)에서 결제 단추 스타일 [을(를) 구성할 수도 있습니다.
+결제 서비스 홈의 설정[&#128279;](settings.md#button-style)에서 결제 단추 스타일 을(를) 구성할 수도 있습니다.
 
 ### 구성 옵션
 

@@ -175,7 +175,7 @@ _2024년 12월 13일_
 
 ![수정](../assets/fix.svg)<!-- PAY-5762 --> 주문이 PDP(제품 세부 사항 페이지)에서 시작된 경우 주문 검토 페이지에 쿠폰 코드가 적용되지 않는 문제를 해결했습니다.
 
-![수정](../assets/fix.svg)<!-- PAY-5792 --> [!DNL Payment Services]은(는) 이제 체크아웃 페이지](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)에 [저장된 카드에 대한 설명과 청구 주소를 표시하여 고객이 저장된 결제 방법을 보다 잘 알 수 있도록 합니다.
+![수정](../assets/fix.svg)<!-- PAY-5792 --> [!DNL Payment Services]은(는) 이제 체크아웃 페이지[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)에 저장된 카드에 대한 설명과 청구 주소를 표시하여 고객이 저장된 결제 방법을 보다 잘 알 수 있도록 합니다.
 
 ![수정](../assets/fix.svg)<!-- PAY-5793 --> [!DNL Payment Services]을(를) 사용하면 가맹점이 체크아웃 페이지에서 직접 저장된 카드의 청구 주소를 저장하여 정확하고 완전한 결제 정보를 보장할 수 있습니다.
 
@@ -225,7 +225,7 @@ _2024년 8월 2일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg)<!-- PAY-4844 --> [!DNL Payment Services]은(는) 이제 주문 수준](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/manage/line-items)에서 [라인 항목 데이터를 지원합니다. 이 기능을 사용하면 판매자가 제품 세부 정보, 수량, 가격(판매세, 할인 및 기타 관련 정보 포함) 등 주문에 있는 항목에 대한 자세한 정보를 볼 수 있습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-4844 --> [!DNL Payment Services]은(는) 이제 주문 수준[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/manage/line-items)에서 라인 항목 데이터를 지원합니다. 이 기능을 사용하면 판매자가 제품 세부 정보, 수량, 가격(판매세, 할인 및 기타 관련 정보 포함) 등 주문에 있는 항목에 대한 자세한 정보를 볼 수 있습니다.
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5380 --> [!DNL Payment Services]은(는) 더 쉽고 직관적인 온보딩 프로세스를 위해 판매자를 위한 [관리](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/configure-admin#general-configuration) 환경의 구성을 개선합니다. 이 기능을 사용하면 판매자가 [!DNL Payment Services] ID를 재설정할 수 있습니다.
 
@@ -359,7 +359,7 @@ _2023년 8월 30일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg)<!-- PAY-4638 --> 자동화된 사기 방지 서비스를 제공하는 Signifyd](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/fraud-protection.html)와의 [통합을 추가했습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-4638 --> 자동화된 사기 방지 서비스를 제공하는 Signifyd[&#128279;](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/fraud-protection.html)와의 통합을 추가했습니다.
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-3981 --> [Apple Pay를 PayPal 결제 단추 외부에 있는 별도의 결제 옵션으로 승격](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/payments-options.html?lang=en#apple-pay-button)하여 쇼핑객이 결제 옵션을 볼 수 있도록 하고 가맹점이 Apple Pay의 배치와 스타일을 제어할 수 있도록 합니다.
 

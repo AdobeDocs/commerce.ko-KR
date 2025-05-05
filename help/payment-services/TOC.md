@@ -19,13 +19,13 @@ ht-degree: 3%
 - [안내서 개요](guide-overview.md)
 - [ [!DNL Payment Services] 소개](overview.md)
 - [릴리스 정보](release-notes.md)
-- [!DNL Payment Services] {#get-started} 온보드
+- [!DNL Payment Services] 온보드 {#get-started}
    - [온보딩 개요](onboard.md)
    - [ [!DNL Payment Services] 확장 설치](install.md)
    - [인스턴스 연결](connect.md)
    - [테스트 샌드박스 설정](sandbox.md)
    - [프로덕션에 대해 활성화](production.md)
-- [!DNL Payment Services] {#configure} 구성
+- [!DNL Payment Services] 구성 {#configure}
    - [[!DNL Payment Services] 홈](payments-home.md)
    - [[!DNL Payment Services] 설정](settings.md)
    - [명령줄 구성](configure-cli.md)

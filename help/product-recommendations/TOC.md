@@ -16,7 +16,7 @@ ht-degree: 13%
 - [안내서 개요](guide-overview.md)
 - [ [!DNL Product Recommendations] 소개](overview.md)
 - [릴리스 정보](release-notes.md)
-- {#getting-started} 시작
+- 시작{#getting-started}
    - [온보딩](onboarding.md)
    - [구현 워크플로](implementation-workflow.md)
    - [Headless](headless.md)

@@ -1,6 +1,6 @@
 ---
 title: 체크인 경험 설정
-description: 픽업 주문 양식을 작성할 때 픽업 고객이 선택할 수 있는 자동차 제조 및 모델] 선택 사항을 구성합니다.
+description: 픽업 주문 양식을 작성할 때 픽업 고객이 선택할 수 있는 자동차 제조 및 모델&rbrack; 선택 사항을 구성합니다.
 role: Admin
 level: Intermediate
 source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1

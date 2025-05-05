@@ -48,7 +48,7 @@ ht-degree: 0%
 * 프랑스 (FR)
 * 영국 (UK)
 
-결제 서비스는 온보딩 중 [사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다](../payment-services/production.md#complete-merchant-onboarding).
+결제 서비스는 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
 
 릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하십시오.
 

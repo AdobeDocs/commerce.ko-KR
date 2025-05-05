@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL Payment Services](으)로 순서 만들기'
+title: ' [!DNL Payment Services] (으)로 순서 만들기'
 description: 관리자는 지원이 필요한 고객을 위해 상인이  [!DNL Payment Services] 직접 관리자로부터 주문을 사용하여 주문을 이행하는 기능을 제공합니다.
 feature: Payments, Checkout
 source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
@@ -22,5 +22,5 @@ ht-degree: 0%
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Orders]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Create New Order]**&#x200B;을(를) 클릭합니다.
 1. 주문에 필요한 섹션을 완료합니다([주문 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"}에 설명된 세부 정보).
-1. _[!UICONTROL Payment Method]_섹션에서 [!DNL Payment Services]을(를) 결제 방법으로 사용할 수 있어야 합니다.
+1. _[!UICONTROL Payment Method]_&#x200B;섹션에서 [!DNL Payment Services]을(를) 결제 방법으로 사용할 수 있어야 합니다.
 1. **[!UICONTROL Submit Order]**&#x200B;을(를) 클릭합니다.

@@ -48,7 +48,7 @@ EU 또는 영국 내에서 3DS 준수가 필요한 상인인 경우 [설정](set
 
 >[!MORELIKETHIS]
 >
-> * 자세한 내용은 ](settings.md#3ds) 설정의 [3DS를 참조하십시오.
+> * 자세한 내용은 [&#128279;](settings.md#3ds) 설정의 3DS를 참조하십시오.
 > * 3DS 테스트를 위한 특정 신용 카드에 대한 자세한 내용은 PayPal 개발자 설명서에서 [테스트 카드](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/)를 참조하십시오.
 
 ### 카드 보관

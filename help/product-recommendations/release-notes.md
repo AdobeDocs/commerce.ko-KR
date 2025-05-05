@@ -266,7 +266,7 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) 카탈로그 내보내기 중에 발생할 수 있는 &quot;제품 옵션 데이터를 검색할 수 없음&quot; 오류를 수정했습니다.
-![수정](../assets/fix.svg) 이제 _[!DNL Product Recommendations]_대시보드의_&#x200B;수입&#x200B;_열에 있는 통화 기호가 구성된 기본 통화를 올바르게 반영합니다.
+![수정](../assets/fix.svg) 이제 _[!DNL Product Recommendations]_&#x200B;대시보드의_&#x200B;수입&#x200B;_열에 있는 통화 기호가 구성된 기본 통화를 올바르게 반영합니다.
 
 ### magento/product-recommendations 3.0.4
 

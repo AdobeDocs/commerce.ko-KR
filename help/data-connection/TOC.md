@@ -25,7 +25,7 @@ ht-degree: 3%
    - [Commerce 데이터 수집을 위한 프로필 레코드 스키마 업데이트](profile-data.md)
    - [Commerce 데이터를 Adobe Experience Platform에 연결](connect-data.md)
    - [Adobe Experience Platform Mobile SDK과 Commerce 통합](mobile-sdk-epc.md)
-- {#event-forwarding} 데이터 캡처
+- 데이터 캡처{#event-forwarding}
    - [동작 이벤트](events.md)
    - [백오피스 이벤트](events-backoffice.md)
    - [프로필 레코드](events-profilerecord.md)

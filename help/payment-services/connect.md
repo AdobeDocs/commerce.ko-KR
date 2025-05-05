@@ -65,7 +65,7 @@ API 키가 손실된 경우 새 API 키 쌍은 관리자의 Commerce 서비스 �
 
    계정에 대해 Commerce 서비스를 아직 구성하지 않은 경우 이 옵션이 표시됩니다.
 
-   Commerce 서비스 커넥터를 구성하려면 관리자 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Commerce Services Connector]**의 구성 영역으로 이동됩니다.
+   Commerce 서비스 커넥터를 구성하려면 관리자 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Commerce Services Connector]**&#x200B;의 구성 영역으로 이동됩니다.
 
 1. Commerce 서비스를 구성하려면 [SaaS 구성](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#saasenv)에 설명된 단계를 수행합니다.
 

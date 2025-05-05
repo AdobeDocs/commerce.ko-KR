@@ -54,12 +54,12 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
+_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
-* 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
+* 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
+* 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 [!UICONTROL Transactions] 보고서의 데이터 원본을 선택하려면 다음을 수행하십시오.
@@ -84,14 +84,14 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**(으)로 이동합니다.
 1. **[!UICONTROL Filter]** 선택기를 클릭합니다.
-1. 선택한 주문 트랜잭션에 대한 보고서 결과를 보려면 _[!UICONTROL Transaction Result]_옵션을 전환하십시오.
-1. 거래에 사용된 결제 유형에 대한 보고서 결과를 보려면 _[!UICONTROL Payment Method]_옵션을 전환하십시오.
-1. 사용 가능한 경우 사용된 결제 유형에 대한 추가 정보를 보려면 _[!UICONTROL Payment Detail]_옵션을 전환하십시오.
+1. 선택한 주문 트랜잭션에 대한 보고서 결과를 보려면 _[!UICONTROL Transaction Result]_&#x200B;옵션을 전환하십시오.
+1. 거래에 사용된 결제 유형에 대한 보고서 결과를 보려면 _[!UICONTROL Payment Method]_&#x200B;옵션을 전환하십시오.
+1. 사용 가능한 경우 사용된 결제 유형에 대한 추가 정보를 보려면 _[!UICONTROL Payment Detail]_&#x200B;옵션을 전환하십시오.
 1. 해당 주문 금액 범위 내에서 보고서 결과를 보려면 _최소 주문 금액_ 또는 _최대 주문 금액_&#x200B;을 입력하십시오.
-1. 특정 트랜잭션을 검색하려면 _[!UICONTROL Order ID]_을(를) 입력하십시오.
-1. 특정 신용 카드 또는 직불 카드를 검색하려면 _[!UICONTROL Card Last Four]_을(를) 도입하십시오.
-1. 특정 고객의 모든 트랜잭션을 표시하려면 _[!UICONTROL Customer ID]_을(를) 입력하십시오.
-1. 해당 전자 메일에 대한 트랜잭션을 필터링하려면 _[!UICONTROL Customer Email]_을(를) 입력하십시오.
+1. 특정 트랜잭션을 검색하려면 _[!UICONTROL Order ID]_&#x200B;을(를) 입력하십시오.
+1. 특정 신용 카드 또는 직불 카드를 검색하려면 _[!UICONTROL Card Last Four]_&#x200B;을(를) 도입하십시오.
+1. 특정 고객의 모든 트랜잭션을 표시하려면 _[!UICONTROL Customer ID]_&#x200B;을(를) 입력하십시오.
+1. 해당 전자 메일에 대한 트랜잭션을 필터링하려면 _[!UICONTROL Customer Email]_&#x200B;을(를) 입력하십시오.
 1. 필터를 숨기려면 **[!UICONTROL Hide filters]**&#x200B;을(를) 클릭합니다.
 
 ### 열 표시 및 숨기기
@@ -106,7 +106,7 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 
 ### 보고서 데이터 업데이트
 
-트랜잭션 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_타임스탬프가 표시됩니다. 기본적으로 거래 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
+트랜잭션 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_&#x200B;타임스탬프가 표시됩니다. 기본적으로 거래 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
 
 보고서 데이터를 수동으로 새로 고쳐 최신 보고서 정보를 볼 수도 있습니다.
 

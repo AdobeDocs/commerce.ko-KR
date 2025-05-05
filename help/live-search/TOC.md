@@ -36,7 +36,7 @@ ht-degree: 11%
       - [동의어 유형](synonyms-type.md)
       - [동의어 추가](synonyms-add.md)
       - [동의어 관리](synonyms-manage.md)
-   - 머천다이징 {#rules} 검색
+   - 머천다이징 검색 {#rules}
       - [개요](rules.md)
       - [Workspace](rules-workspace.md)
       - [규칙 추가](rules-add.md)

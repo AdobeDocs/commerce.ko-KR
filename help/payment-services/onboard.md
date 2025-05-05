@@ -45,7 +45,7 @@ API 키를 만들거나 액세스하는 방법에 대한 자세한 내용은 [AP
 
 ## 온보딩 단계
 
-1. [확장 설치 [!DNL Payment Services] 2}.](install.md#get-payment-services)
+1. [확장 설치 [!DNL Payment Services] 2&rbrace;.](install.md#get-payment-services)
 1. [API 자격 증명 가져오기](connect.md#obtain-api-credentials).
 1. Commerce 서비스에 [인스턴스 연결](connect.md#configure-commerce-services). 이 연결은 Commerce 인스턴스당 한 번만 완료되어야 합니다.
 1. [PayPal 결제 처리 계정을 사용하여 샌드박스 서비스를 설정](sandbox.md#enable-sandbox-testing)(또는 다른 환경에서 기능을 테스트한 경우 [실시간 결제 활성화](sandbox.md#enable-live-payments))합니다.

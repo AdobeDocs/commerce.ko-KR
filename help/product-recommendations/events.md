@@ -90,7 +90,7 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->제품 추천 지표는 Luma 상점 전선에 최적화되어 있습니다. Storefront가 PWA Studio으로 구현된 경우 [PWA 설명서](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)를 참조하세요. React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하는 경우 Headless](headless.md) 환경에서 [제품 권장 사항을 통합하는 방법을 알아보세요.
+>제품 추천 지표는 Luma 상점 전선에 최적화되어 있습니다. Storefront가 PWA Studio으로 구현된 경우 [PWA 설명서](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)를 참조하세요. React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하는 경우 Headless[&#128279;](headless.md) 환경에서 제품 권장 사항을 통합하는 방법을 알아보세요.
 
 #### 필수 대시보드 이벤트
 
