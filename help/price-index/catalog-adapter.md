@@ -55,7 +55,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 확인하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
    git push origin <branch-name>
    ```
 
-   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
+   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
 
 >[!TAB 온-프레미스]
 

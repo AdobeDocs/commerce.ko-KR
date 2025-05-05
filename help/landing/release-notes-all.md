@@ -21,24 +21,24 @@ ht-degree: 0%
       <td><strong>Commerce 서비스</strong>
         <p>확장으로 사용할 수 있는 혁신적인 Commerce 서비스의 최신 개선 사항에 대해 알아봅니다.</p>
           <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/catalog-service/release-notes.html">[!DNL Catalog Service]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/live-search/release-notes.html">[!DNL Live Search]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/payment-services/release-notes.html">[!DNL Payment Services]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/product-recommendations/release-notes.html">제품 추천</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/catalog-service/release-notes.html?lang=ko">[!DNL Catalog Service]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/live-search/release-notes.html?lang=ko">[!DNL Live Search]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/payment-services/release-notes.html?lang=ko">[!DNL Payment Services]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/product-recommendations/release-notes.html?lang=ko">제품 추천</a></li>
           </ul>
         </td>
       <td><strong>통합 서비스</strong>
         <p>Commerce 서비스를 다른 서비스 및 Adobe 확장 및 제품과 연결할 수 있도록 하는 통합 서비스의 최신 개선 사항에 대해 알아봅니다.</p>
           <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html">[!DNL Data Connection]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html?lang=ko">[!DNL Data Connection]</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html">[!DNL Services Connector]</a></li>
           </ul>
       </td>
       <td><strong>데이터 서비스</strong>
         <p>Commerce 서비스에서 제품 데이터를 관리할 수 있도록 데이터 서비스의 최신 개선 사항에 대해 알아봅니다.</p>
           <ul>
-           <li><a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes">SaaS 데이터 내보내기 확장</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/data-services/catalog-sync.html">카탈로그 동기화</a></li>
+           <li><a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/release-notes">SaaS 데이터 내보내기 확장</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/data-services/catalog-sync.html?lang=ko">카탈로그 동기화</a></li>
           </ul>
       </td>
     </tr>

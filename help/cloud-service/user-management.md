@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
+>여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
 > 
-> [사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}을(를) 만들어 역할에 여러 사용자를 추가할 수도 있습니다. 그런 다음 [!UICONTROL **Adobe Commerce as a Cloud Service - 백엔드**] 제품을 사용자 그룹에 추가할 수 있습니다.
+> [사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}을(를) 만들어 역할에 여러 사용자를 추가할 수도 있습니다. 그런 다음 [!UICONTROL **Adobe Commerce as a Cloud Service - 백엔드**] 제품을 사용자 그룹에 추가할 수 있습니다.
 
 ## 역할 이해
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 * **사용자** - 사용자는 Commerce 관리자에 대한 관리자 액세스 권한이 있지만 Admin Console에서 제품 수준 액세스를 관리할 수 없습니다. [!DNL Commerce Cloud Manager]에서 [인스턴스 만들기](./getting-started.md#create-an-instance)에 크레딧을 사용할 수도 있습니다.
 
-* [**개발자**](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} 개발자는 사용자 권한이 있으며 Commerce 인스턴스에 개발자 사용자로 추가됩니다. 즉, [관리 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}, [이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} 및 [웹후크 만들기](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"}를 사용할 수 있습니다.
+* [**개발자**](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} 개발자는 사용자 권한이 있으며 Commerce 인스턴스에 개발자 사용자로 추가됩니다. 즉, [관리 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}, [이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} 및 [웹후크 만들기](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"}를 사용할 수 있습니다.
 
 * 관리자 - 세 가지 유형의 관리자가 있습니다.
-   * [시스템 관리자](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
-   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [!DNL Adobe Admin Console]에서 [제품에 대한 사용자, 역할 및 권한을 관리](#add-users-and-admins)하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
+   * [시스템 관리자](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
+   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [!DNL Adobe Admin Console]에서 [제품에 대한 사용자, 역할 및 권한을 관리](#add-users-and-admins)하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
    * [제품 프로필 관리자](#add-users-developers-and-product-profile-admins) - 제품 프로필 관리자는 Adobe Commerce 관리자에 액세스할 수 없지만 [!DNL Adobe Admin Console]에서 제품에 대한 사용자를 관리할 수 있습니다.
 
 Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용은 [사용자 권한](#user-permissions)을 참조하세요.

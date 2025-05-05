@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [데이터 연결 확장](overview.md)은(는) Commerce 데이터를 Experience Platform에 연결합니다. Experience Platform에서 사용할 데이터는 **경험 이벤트** 클래스에 속하는 시계열 데이터와 **개별 프로필** 클래스에 속하는 레코드 데이터의 두 가지 동작 유형으로 그룹화됩니다.
 
-Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#data-behaviors) 및 [클래스](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#class)에 대해 자세히 알아보세요.
+Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#data-behaviors) 및 [클래스](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#class)에 대해 자세히 알아보세요.
 
 ## 시계열 데이터
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Live Search]개 이벤트
 
-[!DNL Live Search]은(는) 이벤트를 사용하여 &quot;가장 많이 본 항목&quot; 및 &quot;이 항목을 보고 다른 항목을 본 항목&quot;과 같은 검색 알고리즘을 실행합니다. [Commerce 샘플 Luma 테마](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/themes/themes#the-default-theme)는 즉시 사용할 수 있는 이벤트이지만 Headless 및 기타 사용자 지정 구현은 자체 요구 사항에 맞게 이벤트를 구현해야 합니다.
+[!DNL Live Search]은(는) 이벤트를 사용하여 &quot;가장 많이 본 항목&quot; 및 &quot;이 항목을 보고 다른 항목을 본 항목&quot;과 같은 검색 알고리즘을 실행합니다. [Commerce 샘플 Luma 테마](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/design/themes/themes#the-default-theme)는 즉시 사용할 수 있는 이벤트이지만 Headless 및 기타 사용자 지정 구현은 자체 요구 사항에 맞게 이벤트를 구현해야 합니다.
 
 이 표에서는 [!DNL Live Search] [순위 전략](rules-add.md#intelligent-ranking)에서 사용하는 이벤트에 대해 설명합니다.
 
@@ -68,4 +68,4 @@ mse.publish.searchRequestSent("search-bar");
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.

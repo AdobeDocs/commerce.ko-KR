@@ -67,7 +67,7 @@ _2024년 5월 23일_
 
 ![수정](../assets/fix.svg) <!--DATA-5033-->옵션 값에 대한 `InStock` 플래그는 이제 제품 변형의 범위 `enabled` 상태를 고려합니다.
 
-![수정](../assets/fix.svg) <!--DATA-5888-->큰 숫자(최대 16자리)와 더 큰 소수점 이하 자릿수(최대 4자리)가 필요한 제품 가격에 대한 지원을 추가하십시오. 기존 카탈로그에 가격 구성 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)에서 또는 [Adobe Commerce 명령줄 인터페이스](../landing/catalog-sync.md#command-line-interface)를 사용하여 카탈로그 데이터를 다시 동기화하십시오.
+![수정](../assets/fix.svg) <!--DATA-5888-->큰 숫자(최대 16자리)와 더 큰 소수점 이하 자릿수(최대 4자리)가 필요한 제품 가격에 대한 지원을 추가하십시오. 기존 카탈로그에 가격 구성 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard)에서 또는 [Adobe Commerce 명령줄 인터페이스](../landing/catalog-sync.md#command-line-interface)를 사용하여 카탈로그 데이터를 다시 동기화하십시오.
 
 #### 알려진 제한 사항
 
@@ -101,7 +101,7 @@ _2024년 2월 22일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html)을(를) 사용할 수 있습니다. 이렇게 개조된 대시보드는 [!DNL Product Recommendations], [!DNL Live Search] 및 [!DNL Catalog Service]의 데이터 스트림에 대한 통찰력을 제공합니다. 이 기능에 대한 지원은 `catalog-service` 메타패키지의 v3.1.0에 도입되었습니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=ko)을(를) 사용할 수 있습니다. 이렇게 개조된 대시보드는 [!DNL Product Recommendations], [!DNL Live Search] 및 [!DNL Catalog Service]의 데이터 스트림에 대한 통찰력을 제공합니다. 이 기능에 대한 지원은 `catalog-service` 메타패키지의 v3.1.0에 도입되었습니다.
 
 ### V1.16 릴리스
 

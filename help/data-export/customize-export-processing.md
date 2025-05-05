@@ -63,7 +63,7 @@ bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 
 다중 스레딩을 사용하여 모든 데이터 내보내기 작업을 처리하기 위해 시스템 통합자나 개발자는 Commerce 애플리케이션 구성에서 각 피드에 대한 스레드 수와 배치 크기를 수정할 수 있습니다.
 
-이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
+이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
 
 **예: 제품 및 가격에 대한 다중 스레딩 구성**
 

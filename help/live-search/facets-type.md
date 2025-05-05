@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### Facet 레이블
 
-[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
+[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
 
 ### 정렬 유형
 

@@ -20,8 +20,8 @@ ht-degree: 0%
 
 제품 세부 사항 페이지에 표시할 세금을 구성해야 합니다.
 
-1. [세율 설정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html).
-1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
+1. [세율 설정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html?lang=ko).
+1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html?lang=ko#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
 
 제품 세부 사항 페이지를 확인하여 카탈로그 서비스가 작동하는지 확인하십시오.
 

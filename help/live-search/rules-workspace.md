@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 범위 설정
 
-Adobe Commerce 설치에 여러 저장소 보기가 포함된 경우 **범위**&#x200B;를 규칙이 적용되는 [저장소 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 설정하십시오.
+Adobe Commerce 설치에 여러 저장소 보기가 포함된 경우 **범위**&#x200B;를 규칙이 적용되는 [저장소 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 설정하십시오.
 
 ## 열 표시/숨기기
 

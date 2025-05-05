@@ -35,4 +35,4 @@ ht-degree: 3%
 - 사용 사례 {#use-cases}
    - [Adobe Journey Optimizer을 사용하여 포기한 장바구니 이메일 보내기](using-ajo.md)
    - [Commerce 이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기](create-audience.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

@@ -150,7 +150,7 @@ API 관련 예외가 방화벽 또는 캐시를 통해 캡처될 수 있도록 �
 
 >[!TIP]
 >
->Adobe Commerce 온-프레미스 설치의 경우 시스템 관리자에게 `var/log/walmart-bopis.log` 파일에 대한 로그 순환을 설정하여 크기를 최소화하도록 요청하세요. Adobe Commerce 온-프레미스 설치의 경우 _Adobe Commerce 설치 안내서_&#x200B;의 [로그 순환](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings)을 참조하십시오. 클라우드 인프라 프로젝트의 Adobe Commerce에 대해서는 [로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)를 참조하십시오.
+>Adobe Commerce 온-프레미스 설치의 경우 시스템 관리자에게 `var/log/walmart-bopis.log` 파일에 대한 로그 순환을 설정하여 크기를 최소화하도록 요청하세요. Adobe Commerce 온-프레미스 설치의 경우 _Adobe Commerce 설치 안내서_&#x200B;의 [로그 순환](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko#server-settings)을 참조하십시오. 클라우드 인프라 프로젝트의 Adobe Commerce에 대해서는 [로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)를 참조하십시오.
 
 <table>
 <thead>
@@ -355,7 +355,7 @@ Adobe Commerce 스토어에 대한 매장 내 픽업 및 홈 배송 옵션의 �
 
 >[!NOTE]
 >
->매장 내 배달 옵션 구성에 대한 자세한 내용은 _Adobe Commerce 사용 안내서_&#x200B;의 [매장 내 배달](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery)을 참조하세요.
+>매장 내 배달 옵션 구성에 대한 자세한 내용은 _Adobe Commerce 사용 안내서_&#x200B;의 [매장 내 배달](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery)을 참조하세요.
 
 
 ### 게재 방법 구성

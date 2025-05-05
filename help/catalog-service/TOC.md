@@ -25,5 +25,5 @@ ht-degree: 10%
    - [productSearch 쿼리](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/)
    - [refineProduct 쿼리](https://developer.adobe.com/commerce/services/graphql/catalog-service/refine-product/)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
 

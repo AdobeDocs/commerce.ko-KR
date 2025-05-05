@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![성능](assets/performance-unique-searches.png)
 
-데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html)를 참조하십시오.
+데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=ko)를 참조하십시오.
 
 >[!NOTE]
 >

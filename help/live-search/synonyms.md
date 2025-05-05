@@ -14,6 +14,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Live Search]이(가) 설치된 Adobe Commerce 설치의 경우, 마케팅 메뉴의 *SEO 및 검색* 섹션에 모두 표시되지만, 표준 Adobe Commerce [동의어 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#search-synonyms) 기능을 [!DNL Live Search] 동의어로 바꿉니다. [!DNL Live Search]을(를) 사용하는 경우 이 섹션의 지침을 따르십시오.
+>[!DNL Live Search]이(가) 설치된 Adobe Commerce 설치의 경우, 마케팅 메뉴의 *SEO 및 검색* 섹션에 모두 표시되지만, 표준 Adobe Commerce [동의어 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko#search-synonyms) 기능을 [!DNL Live Search] 동의어로 바꿉니다. [!DNL Live Search]을(를) 사용하는 경우 이 섹션의 지침을 따르십시오.
 
-[!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html)도 지원합니다.
+[!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)도 지원합니다.

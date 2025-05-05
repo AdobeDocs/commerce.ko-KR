@@ -24,7 +24,7 @@ ht-degree: 0%
 - 제품, 고객, 가격 및 배포 등 비즈니스를 반영하도록 제품 카탈로그를 설계하여 카탈로그 신디케이션의 잠금을 해제하고 올바른 콘텐츠를 전달하십시오.
 - 카탈로그 데이터를 빠르게 수집 및 업데이트하고 프로모션 및 캠페인 요구에 대한 업데이트를 상점 앞에 신속하게 전달합니다.
 - 원활한 제품 탐색 및 추천을 위해 Edge Delivery Services에서 제공하는 즉시 사용 가능하고 번개처럼 빠른 UI 구성 요소로 완벽한 등대 점수를 달성합니다.
-- Adobe의 확장성 아키텍처([App Builder](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-development))를 사용하여 최신 구성 가능한 아키텍처를 채택하여 Adobe의 [API Mesh](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)를 사용하여 제품 데이터를 가져오고 Headless 상거래 상점 전면을 강화합니다.
+- Adobe의 확장성 아키텍처([App Builder](https://experienceleague.adobe.com/ko/playlists/commerce-get-started-app-builder-development))를 사용하여 최신 구성 가능한 아키텍처를 채택하여 Adobe의 [API Mesh](https://experienceleague.adobe.com/ko/playlists/commerce-get-started-app-builder-and-api-mesh)를 사용하여 제품 데이터를 가져오고 Headless 상거래 상점 전면을 강화합니다.
 
 >[!INFO]
 >

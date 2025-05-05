@@ -143,11 +143,11 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
          </a>
       </div>

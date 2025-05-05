@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 저장된 결제 방법을 모두 보려면 왼쪽 탐색에서 **[!UICONTROL Stored Payment Methods]**(으)로 이동합니다.
 
-   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
+   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
 
 1. 고객이 **[!UICONTROL Add New Card]**&#x200B;을(를) 클릭하여 새 카드를 저장합니다.
 
@@ -72,10 +72,10 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 
 저장된 신용 카드를 사용하는 고객을 위해 관리자에서 주문을 생성하려면:
 
-1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html)합니다.
+1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=ko)합니다.
 1. _[!UICONTROL Payment & Shipping Information]_&#x200B;에서&#x200B;**[!UICONTROL Stored Cards]**&#x200B;을(를) 결제 방법으로 선택합니다.
 1. 원하는 저장된 신용 카드 결제 방법을 선택합니다.
-1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=en#step-3%3A-submit-the-order).
+1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=ko#step-3%3A-submit-the-order).
 
    ![고객을 위해 관리자의 저장된 신용 카드 사용](assets/admin-vaultedcard.png){width="600" zoomable="yes"}
 

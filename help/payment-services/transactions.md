@@ -131,9 +131,9 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 
 | 열 | 설명 |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce 주문 ID(성공적인 트랜잭션에 대한 값만 포함하며 거부된 트랜잭션에 대해서는 비어 있음)<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하세요. |
+| [!UICONTROL Order ID] | Commerce 주문 ID(성공적인 트랜잭션에 대한 값만 포함하며 거부된 트랜잭션에 대해서는 비어 있음)<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하세요. |
 | [!UICONTROL PayPal Transaction ID] | 결제 제공자가 제공한 거래 ID. 성공적인 거래에 대한 값만 포함되고 거부된 거래에 대한 대시가 포함됩니다. 이 ID를 클릭하여 PayPal 거래 세부 사항 페이지에 액세스할 수 있습니다. |
-| [!UICONTROL Customer ID] | 주문의 Commerce 고객 ID<br> <br>자세한 내용은 [고객 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"} 항목을 참조하십시오. |
+| [!UICONTROL Customer ID] | 주문의 Commerce 고객 ID<br> <br>자세한 내용은 [고객 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"} 항목을 참조하십시오. |
 | [!UICONTROL Transaction Date] | 트랜잭션 날짜 타임스탬프 |
 | [!UICONTROL Payment Method] | 브랜드 및 카드 유형에 대한 정보로 거래에 사용되는 결제 유형. 자세한 내용은 [카드 유형](https://developer.paypal.com/docs/api/orders/v2/#definition-card_type)을 참조하십시오. 결제 서비스 버전 1.6.0 이상에서 사용할 수 있습니다 |
 | [!UICONTROL Payment Detail] | 거래에 사용된 결제 유형에 대한 추가 정보를 제공합니다(사용 가능한 경우). |

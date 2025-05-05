@@ -78,9 +78,9 @@ Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화�
 
    ![규칙 작성](assets/build-rule.png)
 
-   **세그먼트 빌더** 작업 영역에서 대상자에 대한 규칙과 조건을 정의합니다&#x200B;. 이러한 규칙과 조건은 Commerce 스토어의 이벤트 및 프로필 데이터를 기반으로 하며 사용자가 대상자에 적합한지 여부를 결정하는 기준을 정의합니다. 예를 들어 특정 제품을 본 사용자 또는 특정 시간대 내에 구매한 사용자를 포함하는 규칙을 만들 수 있습니다. [세그먼트 빌더](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) 및 규칙과 조건에 대해 자세히 알아보세요.
+   **세그먼트 빌더** 작업 영역에서 대상자에 대한 규칙과 조건을 정의합니다&#x200B;. 이러한 규칙과 조건은 Commerce 스토어의 이벤트 및 프로필 데이터를 기반으로 하며 사용자가 대상자에 적합한지 여부를 결정하는 기준을 정의합니다. 예를 들어 특정 제품을 본 사용자 또는 특정 시간대 내에 구매한 사용자를 포함하는 규칙을 만들 수 있습니다. [세그먼트 빌더](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) 및 규칙과 조건에 대해 자세히 알아보세요.
 
-1. [이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events) 탭을 선택합니다.
+1. [이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#events) 탭을 선택합니다.
 
    ![이벤트 탭](assets/audience-events-tab.png)
 
@@ -108,7 +108,7 @@ Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화�
 
 >[!IMPORTANT]
 >
->[!DNL Commerce]을(를) 데이터를 수신할 수 있는 대상으로 아직 설정하지 않은 경우 [Adobe [!DNL Commerce] 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) 항목을 참조하십시오.
+>[!DNL Commerce]을(를) 데이터를 수신할 수 있는 대상으로 아직 설정하지 않은 경우 [Adobe [!DNL Commerce] 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) 항목을 참조하십시오.
 
 1. 대상자의 **세부 정보** 탭에서 **대상에 활성화**&#x200B;를 클릭합니다.
 
@@ -118,7 +118,7 @@ Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화�
 
 ## 3. 대상자 대시보드에서 대상자 보기
 
-[!DNL Commerce]에서 **Real-Time CDP 대상** 대시보드를 사용하여 [!DNL Commerce] 인스턴스에 대해 개인화할 수 있는 모든 [활성](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) 대상을 볼 수 있습니다.
+[!DNL Commerce]에서 **Real-Time CDP 대상** 대시보드를 사용하여 [!DNL Commerce] 인스턴스에 대해 개인화할 수 있는 모든 [활성](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) 대상을 볼 수 있습니다.
 
 **Real-Time CDP 대상** 대시보드에 액세스하려면 _관리자_ 사이드바로 이동한 다음 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**(으)로 이동하십시오.
 
@@ -131,9 +131,9 @@ Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화�
 이 섹션에서는 새 대상자를 기반으로 장바구니 가격 규칙을 만드는 방법을 보여줍니다.
 
 1. 새 대상이 **Real-Time CDP 대상** 대시보드에 표시되는지 확인하십시오.
-1. [장바구니 가격 규칙을 만듭니다](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create).
-1. 새 대상을 사용하여 장바구니 가격 규칙의 [조건을 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#use-real-time-cdp-audiences-to-set-a-condition)합니다.
-1. 제품을 장바구니에 추가할 때 수행할 작업을 [설정](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#step-3-define-the-actions)합니다.
+1. [장바구니 가격 규칙을 만듭니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create).
+1. 새 대상을 사용하여 장바구니 가격 규칙의 [조건을 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#use-real-time-cdp-audiences-to-set-a-condition)합니다.
+1. 제품을 장바구니에 추가할 때 수행할 작업을 [설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#step-3-define-the-actions)합니다.
 1. 장바구니 가격 규칙을 계속 구성합니다.
 1. 샌드박스 인스턴스의 고객 보기로 이동합니다.
 1. 대상을 기반으로 한 제품을 장바구니에 추가합니다. 장바구니 가격 규칙이 활성화되어 있습니다.

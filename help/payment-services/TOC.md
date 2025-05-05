@@ -50,4 +50,4 @@ ht-degree: 3%
 - 보안 및 규정 준수 {#security-compliance}
    - [보안](security.md)
    - [상당한 사기 방지](fraud-protection.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

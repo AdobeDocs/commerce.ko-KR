@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![확인하는 동안 오류 발생](assets/user-checkout-error.png "체크 아웃하는 동안 오류 발생"){width="600" zoomable="yes"}
 
-취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=en)의 관리자에 표시됩니다.
+취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=ko)의 관리자에 표시됩니다.
 
 ![주문 관리에서 주문 주석을 취소함](assets/admin-checkout-error.png "주문 관리에서 주문 주석을 취소함"){width="600" zoomable="yes"}
 

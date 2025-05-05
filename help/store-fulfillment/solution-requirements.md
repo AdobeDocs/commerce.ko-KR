@@ -26,9 +26,9 @@ ht-degree: 0%
 
 - [이행 릴리스 정보 저장](release-notes.md)
 
-- *Adobe Commerce 릴리스 정보*&#x200B;의 [Adobe Commerce 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html).
+- *Adobe Commerce 릴리스 정보*&#x200B;의 [Adobe Commerce 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ko).
 
-- *Adobe Commerce 설치 안내서*&#x200B;의 [Adobe Commerce 시스템 요구 사항](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html).
+- *Adobe Commerce 설치 안내서*&#x200B;의 [Adobe Commerce 시스템 요구 사항](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ko).
 
 
 ## 스토어 지원 앱 요구 사항

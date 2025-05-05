@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # 쿠키 제한 처리
 
-Adobe Commerce과 Magento Open Source 모두 데이터가 브라우저 쿠키에 저장되기 전에 동의를 요청합니다. 자세한 내용은 [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)를 참조하세요.
+Adobe Commerce과 Magento Open Source 모두 데이터가 브라우저 쿠키에 저장되기 전에 동의를 요청합니다. 자세한 내용은 [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)를 참조하세요.
 
 `magento/product-recommendations` 모듈을 프로덕션에 배포하면 상점 첫 화면에서 쇼핑객 상호 작용 이벤트를 수집하기 시작합니다. 이러한 이벤트에 대한 데이터는 브라우저 쿠키 또는 로컬 저장소에 저장될 수 있으므로, 이 기능은 구매자가 쿠키에 동의할 때까지 이벤트를 수집하지 않음으로써 쿠키 제한 모드를 지원합니다.
 

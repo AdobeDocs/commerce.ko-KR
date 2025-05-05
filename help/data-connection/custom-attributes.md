@@ -344,7 +344,7 @@ ComponentRegistrar::register(
 
 Experience Platform의 [!DNL Commerce] 스키마에서 새 사용자 지정 순서 특성을 수집할 수 있도록 하려면 이러한 사용자 지정 필드를 포함하도록 스키마를 확장해야 합니다.
 
-이러한 사용자 지정 필드를 포함하도록 기존 XDM 스키마를 확장하는 방법에 대해 알아보려면 Experience Platform 설명서의 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) 문서를 참조하십시오. 테넌트 ID 필드는 동적으로 생성되지만 필드 구조는 Experience Platform 설명서에 제공된 예와 유사해야 합니다.
+이러한 사용자 지정 필드를 포함하도록 기존 XDM 스키마를 확장하는 방법에 대해 알아보려면 Experience Platform 설명서의 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) 문서를 참조하십시오. 테넌트 ID 필드는 동적으로 생성되지만 필드 구조는 Experience Platform 설명서에 제공된 예와 유사해야 합니다.
 
 >[!IMPORTANT]
 >

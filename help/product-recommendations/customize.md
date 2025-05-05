@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ![배지 추가](assets/unit-custom.png)
 
-페이지에서 권장 사항 단위를 렌더링할 때 사용자 지정 제품 특성을 사용할 수 있도록 하려면 관리자의 [제품 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) 페이지에서 `Used in Product Listing` 속성을 `Yes`(으)로 설정하십시오.
+페이지에서 권장 사항 단위를 렌더링할 때 사용자 지정 제품 특성을 사용할 수 있도록 하려면 관리자의 [제품 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko) 페이지에서 `Used in Product Listing` 속성을 `Yes`(으)로 설정하십시오.
 
 이 속성이 설정되면 JSON 페이로드에는 속성 코드와 값의 배열이 포함된 `attributes` 개체가 포함됩니다. 그런 다음 앞에서 언급한 대로 특수 시각적 처리 또는 배지 추가와 같은 이러한 속성 값을 기반으로 사용자 지정 storefront 스타일을 적용할 수 있습니다.
 

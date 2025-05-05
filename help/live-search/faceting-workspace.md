@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 범위 설정
 
-Adobe Commerce 설치에 여러 스토어 보기가 포함된 경우 Facet 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
+Adobe Commerce 설치에 여러 스토어 보기가 포함된 경우 Facet 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
 
 ## 목록 필터링
 

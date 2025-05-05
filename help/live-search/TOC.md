@@ -46,4 +46,4 @@ ht-degree: 11%
    - [GraphQL](graphql.md)
    - [설정](settings.md)
 - [이벤트](events.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

@@ -18,4 +18,4 @@ ht-degree: 8%
 - 카탈로그 어댑터 {#catalog-adapter}
    - [개요](catalog-adapter.md)
    - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

@@ -15,14 +15,14 @@ ht-degree: 0%
 >
 >이 설명서는 초기 액세스 개발 상태의 제품에 대해 설명하고 일반 가용성을 위한 모든 기능을 반영하지는 않습니다.
 
-이 튜토리얼에서는 [!DNL Adobe Commerce Optimizer] 인스턴스의 데이터를 사용하는 강력하고, 확장 가능하며, 안전한 Adobe Commerce 상점 만들기를 위해 Edge Delivery Services에서 제공하는 [Commerce 상점 첫 페이지를 설정하고 사용하는 방법을 보여 줍니다.](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
+이 튜토리얼에서는 [!DNL Adobe Commerce Optimizer] 인스턴스의 데이터를 사용하는 강력하고, 확장 가능하며, 안전한 Adobe Commerce 상점 만들기를 위해 Edge Delivery Services에서 제공하는 [Commerce 상점 첫 페이지를 설정하고 사용하는 방법을 보여 줍니다.](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)
 
 
 ## 사전 요구 사항
 
 * 저장소를 만들 수 있고 로컬 개발용으로 구성된 GitHub 계정(github.com)이 있는지 확인합니다.
 
-* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started)를 검토하여 Adobe Edge Delivery Services용 Storefront 만들기와 관련된 기본 워크플로 및 용어를 숙지하십시오.
+* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=ko)를 검토하여 Adobe Edge Delivery Services용 Storefront 만들기와 관련된 기본 워크플로 및 용어를 숙지하십시오.
 * 개발 환경 설정
 
 
@@ -60,7 +60,7 @@ Edge Delivery Services 프로젝트에서 로컬로 [!DNL Adobe Commerce Optimiz
 
 >[!TIP]
 >
->이 설정은 [!DNL Adobe Commerce Optimizer] 및 Adobe Commerce Edge Delivery Service Storefront를 사용하여 개발하기 위한 것입니다. [!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
+>이 설정은 [!DNL Adobe Commerce Optimizer] 및 Adobe Commerce Edge Delivery Service Storefront를 사용하여 개발하기 위한 것입니다. [!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
 
 #### Sidekick 설치
 
@@ -71,7 +71,7 @@ Sidekick 브라우저 확장 프로그램을 설치하여 상점 첫 화면 컨�
 
 [!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만드는 Storefront는 Edge Delivery Services Storefront Boilerplate의 사용자 지정된 Adobe Commerce 버전을 사용하여 빌드되었습니다. 보일러판은 상점 건물을 짓는 시작점을 제공하는 파일 및 폴더 집합입니다.
 
-이 Storefront 설정 프로세스는 특히 [!DNL Adobe Commerce Optimizer] 프로젝트에 대해 사용자 지정됩니다. 흐름이 Edge Delivery Services Storefront의 표준 [Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) 설정에 대한 흐름과 다릅니다.
+이 Storefront 설정 프로세스는 특히 [!DNL Adobe Commerce Optimizer] 프로젝트에 대해 사용자 지정됩니다. 흐름이 Edge Delivery Services Storefront의 표준 [Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko) 설정에 대한 흐름과 다릅니다.
 
 >[!NOTE]
 >
@@ -96,8 +96,8 @@ Sidekick 브라우저 확장 프로그램을 설치하여 상점 첫 화면 컨�
 
 Adobe Commerce Storefront 설명서의 지침에 따라 Google Drive 또는 Sharepoint에 공유 콘텐츠 폴더를 추가하고 샘플 콘텐츠를 추가합니다. 샘플 콘텐츠에는 이미지, 텍스트 및 사이트를 구성하는 기타 에셋이 포함됩니다.
 
-* [Google 드라이브 또는 Sharepoint 폴더를 만들고 공유](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#create-and-share-folder)
-* [샘플 콘텐츠를 폴더에 로드](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#add-sample-content)합니다.
+* [Google 드라이브 또는 Sharepoint 폴더를 만들고 공유](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#create-and-share-folder)
+* [샘플 콘텐츠를 폴더에 로드](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#add-sample-content)합니다.
 
 ### 2단계: 코드 저장소 만들기
 
@@ -177,7 +177,7 @@ Edge Delivery Services + Adobe Commerce Boilerplate 템플릿을 사용하여 Gi
 
 1. 콘텐츠 URL을 가리키도록 storefront 구성 파일을 업데이트합니다.
 
-   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) 구성 파일을 엽니다.
+   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#vocabulary) 구성 파일을 엽니다.
 
       ```json
       mountpoints:
@@ -487,6 +487,6 @@ Storefront 구성 파일을 업데이트하고 로컬 개발 환경에서 변경
 
 >[!MORELIKETHIS]
 >
->* Adobe Commerce 백 엔드 없이 [!DNL Adobe Commerce Optimizer]을(를) 사용하려는 경우 [Adobe Experience Manager 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하여 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백 엔드 데이터와 통합하는 방법에 대해 자세히 알아보십시오.
+>* Adobe Commerce 백 엔드 없이 [!DNL Adobe Commerce Optimizer]을(를) 사용하려는 경우 [Adobe Experience Manager 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하여 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백 엔드 데이터와 통합하는 방법에 대해 자세히 알아보십시오.
 ></br></br>
->* Adobe Commerce 백엔드와 함께 [!DNL Adobe Commerce Optimizer]을(를) 사용하려면 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하여 콘텐츠를 업데이트하고 계정 관리, 체크아웃 및 기타 기능을 위해 Storefront 구성 요소를 구성하는 방법에 대해 알아보십시오.
+>* Adobe Commerce 백엔드와 함께 [!DNL Adobe Commerce Optimizer]을(를) 사용하려면 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하여 콘텐츠를 업데이트하고 계정 관리, 체크아웃 및 기타 기능을 위해 Storefront 구성 요소를 구성하는 방법에 대해 알아보십시오.

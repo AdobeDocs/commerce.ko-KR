@@ -39,13 +39,13 @@ ht-degree: 0%
 
 ## Commerce 상점 첫 화면
 
-Edge Delivery Services에서 제공하는 Adobe의 [Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront)을(를) 사용하여 Storefront Builder를 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
+Edge Delivery Services에서 제공하는 Adobe의 [Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront?lang=ko)을(를) 사용하여 Storefront Builder를 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
 
 Commerce Storefront는 GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 전체 헤드리스를 제공합니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts)을 참조하세요.
+>[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)을 참조하세요.
 
 ## 머천다이징 서비스 및 결제 서비스
 
@@ -60,7 +60,7 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
 
 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 강력한 DAM(디지털 에셋 관리) 시스템을 사용하여 에셋 관리를 간소화합니다. 또는 기본 mini-DAM은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
-자세한 내용은 [자산 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration)를 참조하세요.
+자세한 내용은 [자산 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration)를 참조하세요.
 
 ## 개발자 플랫폼
 
@@ -115,7 +115,7 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 
 ## Experience Cloud 통합
 
-[!DNL Adobe Commerce as a Cloud Service]은(는) 모든 Experience Cloud 솔루션과 통합되어 [규모에 맞게 개인화된 상거래 경험을 제공합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service]은(는) 모든 Experience Cloud 솔루션과 통합되어 [규모에 맞게 개인화된 상거래 경험을 제공합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [데이터 연결](../data-connection/overview.md)은(는) 다른 Adobe Digital Experience 제품과 함께 모든 채널에서 개인화된 쇼핑 경험을 만들 수 있도록 쇼핑객의 구매 행동에 대한 통찰력을 잠금 해제합니다.
 
@@ -139,14 +139,14 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 
 ## 새로운 기능 솔루션
 
-[관리 UI](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview)는 백엔드 저장소 작업, 인벤토리, 가격 책정, 프로모션 및 고객 상호 작용을 관리하는 기능에 액세스하기 위한 기본 인터페이스입니다. 그러나 [!DNL Adobe Commerce as a Cloud Service]은(는) Adobe Commerce on Cloud 및 온-프레미스 프로젝트에서 사용할 수 있는 잘 알려진 기능 중 일부를 대체하는 고유한 솔루션을 제공합니다. 다음 표에서는 [!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 있는 기능 및 대체 솔루션을 설명합니다.
+[관리 UI](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/guide-overview)는 백엔드 저장소 작업, 인벤토리, 가격 책정, 프로모션 및 고객 상호 작용을 관리하는 기능에 액세스하기 위한 기본 인터페이스입니다. 그러나 [!DNL Adobe Commerce as a Cloud Service]은(는) Adobe Commerce on Cloud 및 온-프레미스 프로젝트에서 사용할 수 있는 잘 알려진 기능 중 일부를 대체하는 고유한 솔루션을 제공합니다. 다음 표에서는 [!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 있는 기능 및 대체 솔루션을 설명합니다.
 
 | 기능 | 솔루션 | 가용성 | 세부 사항 |
 |---------|----------|--------------|--------|
-| [디지털 자산 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management) | [제품 비주얼](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) 또는 미니 DAM | 사용 가능 | 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 강력한 DAM(디지털 에셋 관리) 시스템입니다. 또는 mini-DAM은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다. |
-| [콘텐츠 관리 시스템(CMS)](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
-| [콘텐츠 스테이징](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |
-| [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
-| [결제](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments) | [Adobe Commerce 결제 서비스](../payment-services/overview.md) | 사용 가능 | 안전하고 효율적인 거래를 용이하게 하는 통합 결제 서비스입니다. |
-| [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
-| [시각적 머천다이저](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |
+| [디지털 자산 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management) | [제품 비주얼](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) 또는 미니 DAM | 사용 가능 | 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 강력한 DAM(디지털 에셋 관리) 시스템입니다. 또는 mini-DAM은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다. |
+| [콘텐츠 관리 시스템(CMS)](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/guide-overview) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
+| [콘텐츠 스테이징](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/staging/content-staging) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |
+| [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/guide-overview) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
+| [결제](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/payments) | [Adobe Commerce 결제 서비스](../payment-services/overview.md) | 사용 가능 | 안전하고 효율적인 거래를 용이하게 하는 통합 결제 서비스입니다. |
+| [URL 재작성](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [Commerce 상점](https://www.aem.live/) | 사용 가능 | 사용자가 문서 기반 작성을 사용하여 문서 및 웹 사이트 콘텐츠를 쉽게 만들고 관리할 수 있는 기본 CMS 또는 여러 플랫폼에서 보다 고급 컨텐츠 관리 및 사용자 지정을 사용할 수 있는 범용 편집기입니다. |
+| [시각적 머천다이저](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [카탈로그 서비스](../catalog-service/overview.md) | 로드맵 | Adobe Experience Platform에 연결되어 대형 카탈로그를 관리할 수 있는 카탈로그 관리 도구입니다. |

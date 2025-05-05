@@ -14,13 +14,13 @@ ht-degree: 0%
 
 다음은 [!DNL Data Connection] 확장을 설치할 때 사용할 수 있는 Commerce 동작 이벤트 목록입니다. 이러한 이벤트가 수집하는 데이터는 Adobe Experience Platform으로 전송됩니다. 또한 [사용자 지정 이벤트](custom-events.md)를 만들어 기본 제공되지 않은 추가 데이터를 수집할 수 있습니다.
 
-다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html)도 가져옵니다.
+다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=ko)도 가져옵니다.
 
 행동 이벤트는 사이트를 탐색할 때 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집합니다. 이러한 이벤트가 수집하는 데이터를 사용하여 특정 쇼핑객 집합을 대상으로 하는 프로모션 및 캠페인을 만들 수 있습니다.
 
 >[!NOTE]
 >
->모든 동작 이벤트에는 사용 가능한 경우 구매자 전자 메일 주소 및 ECID가 포함된 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) 필드가 포함됩니다.
+>모든 동작 이벤트에는 사용 가능한 경우 구매자 전자 메일 주소 및 ECID가 포함된 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=ko) 필드가 포함됩니다.
 
 ## Storefront 이벤트
 
@@ -38,7 +38,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.productListAdds` | 장바구니에 제품이 추가되었는지 보여 줍니다. 값이 `1`이면 제품이 추가되었음을 나타냅니다. |
@@ -72,7 +72,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.productListOpens` | 장바구니가 생성되었는지 보여 줍니다. 값 `1`은(는) 장바구니가 생성되었음을 나타냅니다. |
@@ -106,7 +106,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.productListRemovals` | 장바구니에서 제품이 제거되었는지 보여 줍니다. 값이 `1`이면 장바구니에서 제품이 제거되었음을 나타냅니다. |
@@ -140,7 +140,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.productListViews` | 제품 목록을 보았는지 여부를 나타냅니다. |
@@ -176,7 +176,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `web.webPageDetails.pageViews` | 페이지가 로드되었는지 보여 줍니다. `1`의 `value`은(는) 페이지가 로드되었음을 나타냅니다. |
@@ -201,7 +201,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.productViews` | 제품을 보았는지 보여 줍니다. |
@@ -234,7 +234,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.checkouts` | 체크아웃 프로세스 중에 작업이 발생했는지 보여 줍니다. |
@@ -268,7 +268,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.purchases` | 주문이 수락되었는지 여부를 나타냅니다. |
@@ -324,7 +324,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `person` | 개인 작업자, 연락처 또는 소유자입니다. |
@@ -357,7 +357,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `userAccount` | 고객 충성도 세부 정보, 환경 설정, 로그인 프로세스 및 기타 계정 환경 설정을 나타냅니다. |
@@ -384,7 +384,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `person` | 개인 작업자, 연락처 또는 소유자입니다. |
@@ -417,7 +417,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `person` | 개인 작업자, 연락처 또는 소유자입니다. |
@@ -456,7 +456,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `searchRequest` | 검색 요청이 전송되었는지 보여 줍니다. |
@@ -493,7 +493,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `searchResponse` | 검색 응답이 수신되었는지 여부를 나타냅니다. |
@@ -515,7 +515,7 @@ Storefront 이벤트는 사이트에서 구매자의 상호 작용에서 데이�
 
 ![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 `experience-platform-connector-b2b` 확장을 [설치](install.md#install-the-b2b-extension)해야 합니다.
 
-B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
+B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=ko) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
 
 ### createRequisitionList
 
@@ -529,7 +529,7 @@ B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/doc
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.requisitionListOpens` | 새 구매요청 목록의 초기화를 나타냅니다. |
@@ -555,7 +555,7 @@ B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/doc
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.requisitionListAdds` | 구매요청 목록에 하나 이상의 제품을 추가함을 나타냅니다. |
@@ -591,7 +591,7 @@ B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/doc
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.requsitionListRemovals` | 구매요청 목록에서 하나 이상의 제품이 제거되었음을 나타냅니다. |
@@ -627,7 +627,7 @@ B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/doc
 
 | 필드 | 설명 |
 |---|---|
-| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html)이(가) 있습니다. |
+| `channel` | 데이터 소스에 대한 정보를 포함합니다. `_id`과(와) `_type`에 모두 [네임스페이스가 지정된 값](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=ko)이(가) 있습니다. |
 | `channel._id` | 채널의 고유 식별자입니다(예: `"https://ns.adobe.com/xdm/channels/web"`). |
 | `channel._type` | `"https://ns.adobe.com/xdm/channel-types/web"`과(와) 같은 채널 데이터의 소스를 식별합니다. |
 | `commerce.requisitionListDeletes` | 구매요청 목록이 삭제되었음을 나타냅니다. |

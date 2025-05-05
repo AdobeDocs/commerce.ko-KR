@@ -16,7 +16,7 @@ ht-degree: 0%
 
 다음 단계에서는 `aio commerce init` 명령을 사용하여 Edge Delivery에서 제공하는 Adobe Commerce Storefront를 빠르게 설정하는 방법을 보여 줍니다. 이 프로세스는 다음을 설정합니다.
 
-* [Edge Delivery Services에서 제공하는 Commerce 상점](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) - Adobe의 Edge Delivery Services에서 제공하는 성능이 뛰어나고 확장 가능하며 안전한 상점.
+* [Edge Delivery Services에서 제공하는 Commerce 상점](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko) - Adobe의 Edge Delivery Services에서 제공하는 성능이 뛰어나고 확장 가능하며 안전한 상점.
 * [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/) - 개발자가 여러 데이터 소스를 하나의 GraphQL 엔드포인트로 결합할 수 있는 API 플랫폼입니다. API Mesh는 단일 게이트웨이를 통해 Adobe API로 서드파티 API를 조정합니다. 단일 GraphQL 엔드포인트에 대한 하나의 쿼리는 여러 소스의 결과를 반환할 수 있습니다.
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) - API, 이벤트, 런타임 함수 및 플러그인에 액세스할 수 있는 개발자 도구의 컬렉션으로, Adobe 애플리케이션용 프로젝트를 빌드하는 데 사용할 수 있습니다.
 * [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/) - 이벤트에 응답하고 클라우드에서 함수를 실행하는 사용자 지정 코드를 배포하기 위한 서버를 사용하지 않는 엔진입니다.
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## `aio commerce init` 명령 실행
 
-다음 명령을 실행하면 Commerce 상점 첫 화면의 스캐폴딩이 생성됩니다. 이 스캐폴딩은 상점을 구축하고 이해할 수 있는 좋은 출발점을 제공합니다. Storefront 작업에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
+다음 명령을 실행하면 Commerce 상점 첫 화면의 스캐폴딩이 생성됩니다. 이 스캐폴딩은 상점을 구축하고 이해할 수 있는 좋은 출발점을 제공합니다. Storefront 작업에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
 
 
 1. `init` 명령 실행:
@@ -121,4 +121,4 @@ ht-degree: 0%
    * 상점 미리 보기: `https://main--<repo name>--<username or org>.aem.page/`
    * 로컬에서 실행: `aio commerce:dev`
 
-상점을 사용자 지정하려면 [Adobe Commerce 상점 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하세요.
+상점을 사용자 지정하려면 [Adobe Commerce 상점 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하세요.

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### [!DNL Magento Open Source]에서 크론 구성
 
-[!DNL Magento Open Source]에서 `BY SCHEDULE` 인덱스 모드를 사용하려면 cron을 구성해야 합니다. [cron 구성 및 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하세요.
+[!DNL Magento Open Source]에서 `BY SCHEDULE` 인덱스 모드를 사용하려면 cron을 구성해야 합니다. [cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하세요.
 
 ### 인덱서 설정
 
@@ -48,13 +48,13 @@ bin/magento indexer:set-mode schedule sales_order_data_exporter sales_order_stat
 >
 >명령에 인덱서를 지정하지 않으면 모든 인덱서가 동일한 값으로 업데이트됩니다. 특정 인덱서를 변경하려면 해당 인덱서를 명령에 나열해야 합니다.
 
-인덱서의 모드를 수동으로 변경하는 방법에 대한 자세한 내용은 개발자 설명서에서 [인덱서 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers){target="_blank"}을(를) 참조하십시오. 관리에서 변경하는 방법에 대해 알아보려면 핵심 사용 안내서의 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode){target="_blank"}를 참조하십시오.
+인덱서의 모드를 수동으로 변경하는 방법에 대한 자세한 내용은 개발자 설명서에서 [인덱서 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers){target="_blank"}을(를) 참조하십시오. 관리에서 변경하는 방법에 대해 알아보려면 핵심 사용 안내서의 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management#change-the-index-mode){target="_blank"}를 참조하십시오.
 
 ### 수동으로 데이터 다시 인덱싱
 
-데이터가 자동으로 발생할 때까지 기다리지 않고 수동으로 데이터를 다시 인덱싱할 수 있습니다. 자세한 내용은 [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers){target="_blank"}의 [인덱스 다시 지정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){target="_blank"}을 참조하십시오.
+데이터가 자동으로 발생할 때까지 기다리지 않고 수동으로 데이터를 다시 인덱싱할 수 있습니다. 자세한 내용은 [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers){target="_blank"}의 [인덱스 다시 지정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){target="_blank"}을 참조하십시오.
 
-`BY SCHEDULE` 모드가 설정되면 시스템이 변경된 엔터티를 추적하고 cron 작업이 설정된 일정에 따라 해당 엔터티의 인덱스를 업데이트합니다. cron 작업을 사용하여 인덱싱을 수동으로 트리거하는 방법에 대해 알아보려면 [명령줄에서 cron 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#config-cli-cron-group-run)&#x200B;([cron 구성 및 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs))을 참조하십시오.
+`BY SCHEDULE` 모드가 설정되면 시스템이 변경된 엔터티를 추적하고 cron 작업이 설정된 일정에 따라 해당 엔터티의 인덱스를 업데이트합니다. cron 작업을 사용하여 인덱싱을 수동으로 트리거하는 방법에 대해 알아보려면 [명령줄에서 cron 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#config-cli-cron-group-run)&#x200B;([cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs))을 참조하십시오.
 
 ### 재인덱싱된 데이터를 결제 서비스로 보내기
 
@@ -88,7 +88,7 @@ cron이 구성 및 설치된 경우 보고서에 필요한 모든 데이터가 �
 bin/magento cron:run --group payment_services_data_export
 ```
 
-리인덱싱과 인덱서에 대한 자세한 내용은 개발자 설명서에서 [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) 항목을 참조하십시오.
+리인덱싱과 인덱서에 대한 자세한 내용은 개발자 설명서에서 [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers) 항목을 참조하십시오.
 
 ## CLI를 통해 범위 구성
 

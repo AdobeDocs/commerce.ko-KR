@@ -25,11 +25,11 @@ PWA Studio을 사용하여 상점 전면이 구현된 경우 [PWA 설명서](htt
 
 [!DNL Product Recommendations]을(를) 위한 데이터 수집에는 PII(개인 식별 정보)가 포함되지 않습니다. 또한 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)을 참조하세요.
 
-데이터 동기화에 대한 자세한 내용은 [!DNL Product Recommendations]명의 사용자가 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html)를 참조할 수 있습니다.
+데이터 동기화에 대한 자세한 내용은 [!DNL Product Recommendations]명의 사용자가 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=ko)를 참조할 수 있습니다.
 
 ## 제품 권장 사항 대 제품 관계
 
-온라인 쇼핑의 변화무쌍한 복잡성을 고려할 때, 상점에 가장 적합한 것은 종종 여러 주요 기술의 조합입니다. [!DNL Product Recommendations]과(와) [제품 관계](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html)를 모두 사용하면 제품을 홍보할 때 보다 유연하게 대처할 수 있습니다. Adobe Sensei 기반의 [!DNL Product Recommendations]을(를) 활용하여 규모에 맞게 권장 사항을 지능적으로 자동화할 수 있습니다. 그런 다음 수동으로 개입하여 대상 쇼핑객 세그먼트에 특정 권장 사항이 적용되는지 확인하거나 특정 비즈니스 목표를 충족해야 하는 경우 [관련 제품 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html)을 활용할 수 있습니다.
+온라인 쇼핑의 변화무쌍한 복잡성을 고려할 때, 상점에 가장 적합한 것은 종종 여러 주요 기술의 조합입니다. [!DNL Product Recommendations]과(와) [제품 관계](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html?lang=ko)를 모두 사용하면 제품을 홍보할 때 보다 유연하게 대처할 수 있습니다. Adobe Sensei 기반의 [!DNL Product Recommendations]을(를) 활용하여 규모에 맞게 권장 사항을 지능적으로 자동화할 수 있습니다. 그런 다음 수동으로 개입하여 대상 쇼핑객 세그먼트에 특정 권장 사항이 적용되는지 확인하거나 특정 비즈니스 목표를 충족해야 하는 경우 [관련 제품 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html?lang=ko)을 활용할 수 있습니다.
 
 제품 권장 사항을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -47,4 +47,4 @@ PWA Studio을 사용하여 상점 전면이 구현된 경우 [PWA 설명서](htt
 
 테스트 환경에서 카탈로그 데이터에 대한 쿼리를 90일 연속 제출하지 않으면 카탈로그 데이터가 최대 절전 모드로 설정되고 쿼리에 대해 데이터가 반환되지 않습니다. 프로덕션 환경의 카탈로그 데이터는 이 정책의 영향을 받지 않습니다.
 
-테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Product Recommendations] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Product Recommendations] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.

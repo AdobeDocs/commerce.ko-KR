@@ -18,19 +18,19 @@ ht-degree: 0%
 ![해결된 문제](../assets/fix.svg) 수정 사항 및 개선 사항
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
-릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)를 참조하세요.
+릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko)를 참조하세요.
 
-이 확장을 지원하는 Adobe Commerce 버전을 알아보려면 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하세요.
+이 확장을 지원하는 Adobe Commerce 버전을 알아보려면 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)을 참조하세요.
 
 ## v1.5.0
 
 *2023년 8월 3일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}[Adobe Commerce 2.4.4 ~ 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)&#x200B;(2.4.6-p1, 2.4.5-p3 및 2.4.4-p4 보안 패치 릴리스 포함)
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}[Adobe Commerce 2.4.4 ~ 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)&#x200B;(2.4.6-p1, 2.4.5-p3 및 2.4.4-p4 보안 패치 릴리스 포함)
 
 이번 릴리스에는 다음 업데이트가 포함됩니다.
 
-![새로운 기능](../assets/fix.svg) [Adobe Commerce 보안 패치 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html) 2.4.6-p1, 2.4.5-p3 및 2.4.4-p4를 지원하도록 확장을 업데이트했습니다.
+![새로운 기능](../assets/fix.svg) [Adobe Commerce 보안 패치 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html?lang=ko) 2.4.6-p1, 2.4.5-p3 및 2.4.4-p4를 지원하도록 확장을 업데이트했습니다.
 
 ![새로 만들기](../assets/new.svg)<!-- WMTP-918 --> 판매 전자 메일에 대한 [비동기 전송](sales-emails.md) 구성 옵션에 대한 지원을 추가했습니다. 버전 1.5.0으로 업그레이드하는 판매자는 즉시(기본값) 또는 비동기적으로 이메일을 보낼 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
-![새로 만들기](../assets/fix.svg) [!DNL Store Fulfillment]이(가) 이제 [호환 [!DNL Adobe Commerce] 2.4.4에서 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)입니다.
+![새로 만들기](../assets/fix.svg) [!DNL Store Fulfillment]이(가) 이제 [호환 [!DNL Adobe Commerce] 2.4.4에서 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)입니다.
 
 
 ## v1.3.0
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 이번 릴리스에는 다음 업데이트가 포함됩니다.
 
-![새로 만들기](../assets/fix.svg) [!DNL Store Fulfillment]이(가) 이제 [호환 [!DNL Adobe Commerce] 2.4.4에서 2.4.5](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)됩니다.
+![새로 만들기](../assets/fix.svg) [!DNL Store Fulfillment]이(가) 이제 [호환 [!DNL Adobe Commerce] 2.4.4에서 2.4.5](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)됩니다.
 
 
 ## v1.1.0

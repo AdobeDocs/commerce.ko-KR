@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # [!DNL Storefront Popover]
 
-[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) 상자에 입력하면 상점 앞에 [!DNL popover]이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
+[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=ko#quick-search) 상자에 입력하면 상점 앞에 [!DNL popover]이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
 
 [!DNL Live Search]이(가) 2자 이상의 쿼리에 대한 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. &quot;입력할 때 검색&quot; 쿼리의 문자 수는 구성할 수 없습니다.
 
-기본적으로 [!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html)을 지원합니다.
+기본적으로 [!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)을 지원합니다.
 
 ![[!DNL Live Search popover]](assets/storefront-search-as-you-type.png)
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## [!DNL Popover] 페이지 크기
 
-[!DNL popover]의 페이지 크기는 자동 완성된 제품의 몇 줄을 반환할지 결정합니다. 실시간 검색을 설치하는 동안 `page_size` 값이 [카탈로그 검색](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html) - `Autocomplete Limit` 설정의 현재 값으로 변경됩니다.
+[!DNL popover]의 페이지 크기는 자동 완성된 제품의 몇 줄을 반환할지 결정합니다. 실시간 검색을 설치하는 동안 `page_size` 값이 [카탈로그 검색](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html?lang=ko) - `Autocomplete Limit` 설정의 현재 값으로 변경됩니다.
 
 기본적으로 카탈로그 검색 - 자동 완성 제한 값은 8행(또는 행)으로 설정됩니다. [!DNL popover]의 페이지 크기를 변경하려면 다음을 수행하십시오.
 
@@ -120,7 +120,7 @@ Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 �
 
 ## [!DNL popover] 사용 안 함
 
-[!DNL popover]을(를) 사용하지 않도록 설정하고 표준 [빠른 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) 기능을 복원하려면 다음 명령을 입력하십시오.
+[!DNL popover]을(를) 사용하지 않도록 설정하고 표준 [빠른 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=ko#quick-search) 기능을 복원하려면 다음 명령을 입력하십시오.
 
 ```bash
 bin/magento module:disable Magento_LiveSearchStorefrontPopover

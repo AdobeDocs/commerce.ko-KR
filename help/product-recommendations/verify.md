@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # 이벤트 컬렉션 확인
 
-`magento/product-recommendations` 모듈을 [설치 및 구성](install-configure.md)한 후 동작 데이터가 Adobe Commerce으로 전송되고 있는지 확인할 수 있습니다. Chrome에서 사용할 수 있는 개발자 도구를 사용하거나 Snowploy Chrome 확장을 설치할 수 있습니다. 추가 도움이 필요한 경우 지원 기술 자료에서 [문제 해결 [!DNL Product Recommendations] 모듈](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.html)을 참조하세요.
+`magento/product-recommendations` 모듈을 [설치 및 구성](install-configure.md)한 후 동작 데이터가 Adobe Commerce으로 전송되고 있는지 확인할 수 있습니다. Chrome에서 사용할 수 있는 개발자 도구를 사용하거나 Snowploy Chrome 확장을 설치할 수 있습니다. 추가 도움이 필요한 경우 지원 기술 자료에서 [문제 해결 [!DNL Product Recommendations] 모듈](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.html?lang=ko)을 참조하세요.
 
 ## Chrome에서 개발자 도구를 사용하여 확인
 
@@ -50,7 +50,7 @@ Chrome용 [Snowploy Analytics 디버거 확장 설치](https://chrome.google.com
 
 1. **컨텍스트 데이터 _n_**&#x200B;이(가) 표시될 때까지 아래로 스크롤합니다.**스키마**&#x200B;에서 Storefront 인스턴스를 찾습니다.
 
-1. [SaaS 데이터 공간 ID](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html)이(가) 올바르게 설정되어 있는지 확인하십시오.
+1. [SaaS 데이터 공간 ID](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html?lang=ko)이(가) 올바르게 설정되어 있는지 확인하십시오.
 
 ![Snowploy 필터](assets/snowplow-filter.png)
 _Snowploy 필터_
@@ -61,8 +61,8 @@ _Snowploy 필터_
 
 ## 이벤트가 올바르게 실행되는지 확인
 
-지표에 사용된 이벤트가 올바로 실행되는지 확인하려면 Snowflow Analytics 디버거에서 `impression-render`, `view` 및 `rec-click` 이벤트를 찾으십시오. [전체 이벤트 목록](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html)을 참조하세요.
+지표에 사용된 이벤트가 올바로 실행되는지 확인하려면 Snowflow Analytics 디버거에서 `impression-render`, `view` 및 `rec-click` 이벤트를 찾으십시오. [전체 이벤트 목록](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html?lang=ko)을 참조하세요.
 
 >[!NOTE]
 >
-> [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 기본적으로 동작 데이터가 수집됩니다.
+> [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 기본적으로 동작 데이터가 수집됩니다.

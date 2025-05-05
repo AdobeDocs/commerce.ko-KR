@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](https://experienceleague.adobe.com/docs/commerce/payment-services/get-started/production.html#set-payment-services-as-payment-method)&#x200B;(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
+>지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](https://experienceleague.adobe.com/docs/commerce/payment-services/get-started/production.html?lang=ko#set-payment-services-as-payment-method)&#x200B;(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
 
 ## 지급액 데이터 시각화 보기
 
@@ -154,7 +154,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 | [!UICONTROL Code] | 대변(*CR*) 또는 차변(*DR*)을 나타내는 거래 코드 |
 | [!UICONTROL Reference ID] | 이 이벤트와 관련된 원래 거래 ID |
 | [!UICONTROL Invoice] | 거래의 송장 ID(주문당 하나) |
-| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
+| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
 | [!UICONTROL Commerce trans] | Commerce 거래 ID |
 | [!UICONTROL Pay method] | 신용 카드 유형—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* 및 관련 카드 공급자(예: *Visa* 또는 *MasterCard*) |
 | [!UICONTROL TRANS AMT] | 거래 금액 |

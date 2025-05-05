@@ -34,7 +34,7 @@ Store Fulfillment for Adobe Commerce by Walmart Commerce Technologies는 [!DNL C
 
 * 구성, 그룹화, 번들 및 가상 등 대부분의 제품 유형 지원
 
-* [[!DNL Adobe Commerce] Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/basics/sources-stocks)와 통합
+* [[!DNL Adobe Commerce] Inventory management](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/basics/sources-stocks)와 통합
 
 * ERP, OMS, WMS와 같은 POS(Point of Sale) 판매업체 재고 관리 시스템과 통합
 
@@ -76,6 +76,6 @@ iOS 및 Android 디바이스용 스토어 지원 앱은 [!DNL Walmart Commerce T
 
 >[!TIP]
 >
-> 스토어 이행 솔루션에 대한 빠른 데모는 _Adobe Commerce 비디오 및 튜토리얼_&#x200B;에서 사용할 수 있는 [스토어 이행 개요](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/orders/store-fulfillment.html)를 참조하십시오.
+> 스토어 이행 솔루션에 대한 빠른 데모는 _Adobe Commerce 비디오 및 튜토리얼_&#x200B;에서 사용할 수 있는 [스토어 이행 개요](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/orders/store-fulfillment.html?lang=ko)를 참조하십시오.
 
 

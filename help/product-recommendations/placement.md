@@ -59,4 +59,4 @@ _검색 결과 상단에 추천_
 | 제품 세부 사항 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구입함<br>비슷한 항목 추가<br>트렌드<br>시각적 유사성 |
 | 장바구니 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
 | 확인 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
-| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
+| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=ko) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |

@@ -76,7 +76,7 @@ ht-degree: 0%
 
 #### 클라우드 인프라
 
-클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html#enable_eventing).
+클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html?lang=ko#enable_eventing).
 
 ```bash
 stage:
@@ -164,4 +164,4 @@ composer update magento/experience-platform-connector-b2b --with-dependencies
 
 ## [!DNL Data Connection] 확장 제거 {#uninstall}
 
-[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html)을 참조하세요.
+[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=ko)을 참조하세요.

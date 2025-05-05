@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Experience Platform 태그를 사용하여 Commerce 데이터 수집
 
-[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
+[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html?lang=ko)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
 
 ![[!DNL Data Connection] 확장 데이터 흐름](assets/tags-data-flow.png)
 태그가 있는 _[!DNL Data Connection]확장 데이터 흐름_
@@ -33,15 +33,15 @@ Commerce 이벤트 데이터를 수집하려면:
 
 Commerce 상점 데이터를 Adobe Experience Platform에 매핑하려면 Adobe Experience Platform 태그 내에서 다음을 구성 및 설치합니다.
 
-1. Adobe Experience Platform 데이터 수집에서 [태그 속성을 설정합니다](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html).
+1. Adobe Experience Platform 데이터 수집에서 [태그 속성을 설정합니다](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=ko).
 
 1. **작성**&#x200B;에서 **확장**&#x200B;을 선택하고 다음 확장을 설치하고 구성합니다.
 
-   - [Adobe 클라이언트 데이터 레이어](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html)
+   - [Adobe 클라이언트 데이터 레이어](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html?lang=ko)
 
-   - [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)
+   - [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko)
 
-1. 개발 환경에 [태그 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)
+1. 개발 환경에 [태그 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko)
 
 1. 특정 이벤트에 대한 데이터 요소 및 규칙을 구성하려면 아래의 **이벤트 매핑** 단계를 따르십시오.
 
@@ -57,7 +57,7 @@ Commerce 상점 데이터를 Adobe Experience Platform에 매핑하려면 Adobe 
 
 Adobe Experience Platform 태그의 데이터 요소와 규칙을 Adobe Commerce 관련 이벤트 데이터로 업데이트할 때 수행해야 하는 몇 가지 일반적인 단계가 있습니다.
 
-예를 들어 Adobe Commerce `signOut` 이벤트를 Adobe Experience Platform 태그에 추가하겠습니다. 설정한 특정 값을 제외하고 태그에 추가하는 모든 Adobe Commerce 이벤트에 적용되는 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html#data-element) 및 [규칙](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html#create-a-rule)을 추가하는 방법에 대해 아래에 설명된 단계를 설명합니다.
+예를 들어 Adobe Commerce `signOut` 이벤트를 Adobe Experience Platform 태그에 추가하겠습니다. 설정한 특정 값을 제외하고 태그에 추가하는 모든 Adobe Commerce 이벤트에 적용되는 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=ko#data-element) 및 [규칙](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=ko#create-a-rule)을 추가하는 방법에 대해 아래에 설명된 단계를 설명합니다.
 
 1. 데이터 요소 만들기:
 
@@ -1411,7 +1411,7 @@ return IdentityMap;
 
 ## 동의 설정
 
-Adobe Commerce에 [!DNL Data Connection] 확장을 설치하면 기본적으로 데이터 수집 동의가 활성화됩니다. [`mg_dnt` 쿠키](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)를 통해 옵트아웃을 관리합니다. `mg_dnt`을(를) 사용하여 동의를 관리하도록 선택한 경우 여기에 설명된 단계를 따를 수 있습니다. [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html)에는 동의 관리에 대한 몇 가지 추가 옵션이 있습니다.
+Adobe Commerce에 [!DNL Data Connection] 확장을 설치하면 기본적으로 데이터 수집 동의가 활성화됩니다. [`mg_dnt` 쿠키](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)를 통해 옵트아웃을 관리합니다. `mg_dnt`을(를) 사용하여 동의를 관리하도록 선택한 경우 여기에 설명된 단계를 따를 수 있습니다. [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html?lang=ko)에는 동의 관리에 대한 몇 가지 추가 옵션이 있습니다.
 
 1. `mg_dnt` 쿠키에 대한 **핵심 사용자 지정 코드** 데이터 요소(`%do not track cookie%`)를 만듭니다.
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 * [**결제 옵션**](payments-options.md)—스토어(또는 여러 스토어) 고객이 사용할 수 있는 방법을 사용자 지정하려면 결제 옵션을 설정합니다.
 * **현금 흐름 관리 재무 보고** - [결제 세부 정보](order-payment-status.md)를 주문과 동기화하여 처리된 거래량, 결제 잔액, [결제](payouts.md) 및 세부 [거래 수준 보고](transactions.md)를 통해 재무 조정 및 거래 가시성을 최대한 확보합니다.
 * **투명한 가격 책정**—가격은 명확하고 선결적입니다. 현재 표시되는 값은 다음과 같습니다.
-* **효율적인 체크아웃 환경** - [카드 보관](vaulting.md) 및 [즉시 구매](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html)&#x200B;(Adobe Commerce의 경우 기본적으로 활성화됨) 기능을 사용하여 빠르고 간단한 체크아웃에 대한 장벽을 제거하고 단골 고객을 만드십시오.
+* **효율적인 체크아웃 환경** - [카드 보관](vaulting.md) 및 [즉시 구매](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html?lang=ko)&#x200B;(Adobe Commerce의 경우 기본적으로 활성화됨) 기능을 사용하여 빠르고 간단한 체크아웃에 대한 장벽을 제거하고 단골 고객을 만드십시오.
 
 ## 가용성
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 결제 서비스는 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
 
-릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하십시오.
+릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ko) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하십시오.
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 허용된 신용 카드 및 통화
 
-[!DNL Payment Services]은(는) [ 사용 가능한 국가의 통화를 수락합니다](#availability). 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html)을 참조하세요.
+[!DNL Payment Services]은(는) [ 사용 가능한 국가의 통화를 수락합니다](#availability). 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=ko)을 참조하세요.
 
 PayPal이 지원하는 통화를 확인하려면 [지원되는 통화 설명서](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/)를 참조하세요.
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 여러 웹 사이트 및 범위 구성
 
-여러 웹 사이트, 스토어 및 스토어 보기에 맞게 몇 가지 요소에 대해 [범위](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)를 설정할 수 있습니다.
+여러 웹 사이트, 스토어 및 스토어 보기에 맞게 몇 가지 요소에 대해 [범위](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)를 설정할 수 있습니다.
 
-- 범위당 [재고 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)
+- 범위당 [재고 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/stocks/stocks-manage)
 
 - 범위당 [!DNL Delivery Methods] 관리
 

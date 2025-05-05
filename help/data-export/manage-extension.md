@@ -38,4 +38,4 @@ bin/magento module:disable Magento_CategoryPermissionDataExporter Magento_SaaSCa
    composer require magento/module-saas-price:103.3.1 --with-all-dependencies
    ```
 
-Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. _Adobe Commerce on Cloud Infrastructure Guide_&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)를 참조하십시오.
+Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. _Adobe Commerce on Cloud Infrastructure Guide_&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)를 참조하십시오.
