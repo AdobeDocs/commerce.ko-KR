@@ -44,7 +44,7 @@ ht-degree: 0%
 
 정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 [!DNL Payment Services] 영업 담당자에게 문의하거나 [!DNL Payment Services] 홈에서 사용할 수 있는 리소스를 사용하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447836)
+>[!VIDEO](https://video.tv.adobe.com/v/3448234?captions=kor)
 
 올바른 [!DNL Payment Services] 옵션을 확인하려면 [가용성](overview.md#availability)을 참조하세요.
 
