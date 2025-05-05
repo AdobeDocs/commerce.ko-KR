@@ -2,9 +2,9 @@
 title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: 6f578dfaf3d3e77d7b541714de613025b8c789a4
+source-git-commit: 8233b2e184c8af293ffc41cb22e085388cf18049
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
+- Sync data to a new data space after changing the [SaaS Data Space ID](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.
@@ -68,7 +68,7 @@ bin/magento saas:resync --help
 
 특정 엔티티를 해당 ID별로 부분적으로 다시 동기화합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions` 피드를 지원합니다.
 
-기본적으로 엔티티는 제품 SKU별로 쉼표로 구분된 목록으로 지정됩니다. 대신 제품 ID를 사용하려면 `--id-type=ProductID` 옵션을 추가하십시오.
+기본적으로 `--by-ids` 옵션을 사용하는 경우 제품 SKU 값을 사용하여 값을 지정합니다. 대신 제품 ID를 사용하려면 `--id-type=ProductID` 옵션을 추가하십시오.
 
 **예:**
 
@@ -81,13 +81,13 @@ bin/magento saas:resync --feed= products --by-ids='1,2,3' --id-type='productId'
 
 ## `--cleanup-feed`
 
-데이터를 다시 인덱싱하여 SaaS로 보내기 전에 피드 인덱서 테이블에서 피드 테이블을 정리합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
+Clean up the feed indexer table before reindexing and sending data to SaaS. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
 
 `--dry-run` 옵션과 함께 사용하는 경우 작업은 모든 항목에 대해 시험 실행 다시 동기화 작업을 수행합니다.
 
 >[!IMPORTANT]
 >
->환경을 정리한 후에만 사용하거나 `--dry-run` 옵션과 함께 사용합니다. 다른 경우에 사용되는 경우 정리 작업을 수행하면 데이터가 손실되고 Adobe Commerce에서 삭제해야 하는 항목이 SaaS 데이터 공간에서 삭제되지 않는 데이터 동기화 문제가 발생합니다.
+>환경을 정리한 후에만 사용하거나 `--dry-run` 옵션과 함께 사용합니다. If used in other cases, the cleanup operation can cause data loss and data sync issues.
 
 **예:**
 
@@ -124,7 +124,7 @@ EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed products --dry-run
 **예:**
 
 ```shell
-EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed products --dry-run --by-ids='1,2,3'
+EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed products --dry-run --by-ids='ADB102,ADB111,ADB112'
 ```
 
 ### 모든 피드 항목 테스트
