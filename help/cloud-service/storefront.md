@@ -3,9 +3,9 @@ title: 상점 설정
 description: ' [!DNL Adobe Commerce as a Cloud Service] storefront를 설정하는 스캐폴딩 도구를 실행하는 방법에 대해 알아봅니다.'
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-source-git-commit: 7f7a674b856090bd02752a9e2ad29475b2b56fcf
+source-git-commit: 022e3474b8f2839d2501c46def21733a8d4ad9cc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 다음 단계에서는 `aio commerce init` 명령을 사용하여 Edge Delivery에서 제공하는 Adobe Commerce Storefront를 빠르게 설정하는 방법을 보여 줍니다. 이 프로세스는 다음을 설정합니다.
 
-* [Edge Delivery Services에서 제공하는 Commerce 상점](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko) - Adobe의 Edge Delivery Services에서 제공하는 성능이 뛰어나고 확장 가능하며 안전한 상점.
+* [Edge Delivery Services에서 제공하는 Commerce 상점](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) - Adobe의 Edge Delivery Services에서 제공하는 성능이 뛰어나고 확장 가능하며 안전한 상점.
 * [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/) - 개발자가 여러 데이터 소스를 하나의 GraphQL 엔드포인트로 결합할 수 있는 API 플랫폼입니다. API Mesh는 단일 게이트웨이를 통해 Adobe API로 서드파티 API를 조정합니다. 단일 GraphQL 엔드포인트에 대한 하나의 쿼리는 여러 소스의 결과를 반환할 수 있습니다.
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) - API, 이벤트, 런타임 함수 및 플러그인에 액세스할 수 있는 개발자 도구의 컬렉션으로, Adobe 애플리케이션용 프로젝트를 빌드하는 데 사용할 수 있습니다.
 * [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/) - 이벤트에 응답하고 클라우드에서 함수를 실행하는 사용자 지정 코드를 배포하기 위한 서버를 사용하지 않는 엔진입니다.
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## `aio commerce init` 명령 실행
 
-다음 명령을 실행하면 Commerce 상점 첫 화면의 스캐폴딩이 생성됩니다. 이 스캐폴딩은 상점을 구축하고 이해할 수 있는 좋은 출발점을 제공합니다. Storefront 작업에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+다음 명령을 실행하면 Commerce 상점 첫 화면의 스캐폴딩이 생성됩니다. 이 스캐폴딩은 상점을 구축하고 이해할 수 있는 좋은 출발점을 제공합니다. Storefront 작업에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
 
 
 1. `init` 명령 실행:
@@ -108,6 +108,7 @@ ht-degree: 0%
       * 이 옵션을 선택하면 브라우저 창에 AEM 코드 동기화 보트를 설치하라는 메시지가 표시됩니다. 생성한 저장소를 지정하고 보트를 승인해야 합니다. CLI로 돌아가서 `y`을(를) 입력하여 AEM 코드 동기화 보트 설치를 확인합니다.
    * **사용 가능한 Adobe Commerce 테넌트 선택** - 선택한 조직에서 기존 Commerce 테넌트를 선택합니다.
       * 이 옵션을 선택하는 경우 메쉬를 생성할 프로젝트와 작업 영역을 선택해야 합니다.
+   * **자체 Adobe Commerce 테넌트 API URL을 제공** - 조기 액세스 프로그램 참가자인 경우 이 옵션을 선택합니다. Adobe 온보딩 이메일에 제공된 API URL을 입력합니다.
 
    >[!NOTE]
    >
@@ -121,4 +122,4 @@ ht-degree: 0%
    * 상점 미리 보기: `https://main--<repo name>--<username or org>.aem.page/`
    * 로컬에서 실행: `aio commerce:dev`
 
-상점을 사용자 지정하려면 [Adobe Commerce 상점 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하세요.
+상점을 사용자 지정하려면 [Adobe Commerce 상점 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하세요.
