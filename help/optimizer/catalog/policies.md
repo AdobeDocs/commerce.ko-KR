@@ -3,9 +3,10 @@ title: 정책
 description: 정책을 사용하여 채널 내의 데이터를 필터링하여 데이터를 올바른 대상으로 전송하는 방법에 대해 알아봅니다.
 hide: true
 recommendations: noCatalog
-source-git-commit: 425c801a852de566120504563e256b0351df588e
+exl-id: 05bbad1a-d612-41a4-9575-543f507089c3
+source-git-commit: a731d978aa180633431b0dd9dde5439c286461a2
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -32,12 +33,12 @@ ht-degree: 0%
 |---|---|---|
 | **특성** | 필터링에 사용되는 제품 속성입니다. | `part_category` |
 | **연산자** | 속성에 적용되는 조건입니다. | `IN`, `EQUALS`, `CONTAINS` |
-| **값 원본** | 값이 `STATIC`인지 `TRIGGER`인지를 지정합니다. | `STATIC` |
+| **값 원본** | 값이 `STATIC`인지 `TRIGGER`인지를 지정합니다. | `STATIC` [자세히 알아보기](#value-source-types) |
 | **값** | 조건을 충족하는 특정 값. | `brakes, suspension` |
 
 ### 예
 
-특성 `part_category`, 연산자 `IN` 및 값 `brakes, suspension`이(가) 포함된 필터를 사용하면 브레이크 및 일시 중단으로 분류된 제품만 정책에 포함됩니다.
+`part_category` 특성, `IN`의 연산자 및 값이 `brakes, suspension`인 필터를 사용하면 값이 `brake` 또는 `suspension`인 `part_category` 특성이 있는 제품만 정책에 의해 필터링되어 표시됩니다.
 
 ### 값 소스 유형
 

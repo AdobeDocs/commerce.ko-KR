@@ -3,9 +3,10 @@ title: ' [!DNL Adobe Commerce Optimizer] 시작'
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 hide: true
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
+source-git-commit: ac79c8aa43ced017743fbef1f181b4eaf8e0a754
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 >[!TAB Administrator and merchant workflow]
 
-This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/kr/enterprise/admin-guide.html) for more information about administrator workflows.
+This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for more information about administrator workflows.
 
 NEED DIAGRAM
 
@@ -50,6 +51,10 @@ NEED DIAGRAM
 | [!DNL Adobe Commerce Optimizer] UI | `https://experience.adobe.com/#/@commerceprojectbeacon/commerce-optimizer-studio?tenant=<tenantId>` | <br>1에서 카탈로그를 관리하기 위해 Commerce Optimizer UI에 액세스하십시오. 머천다이징 규칙(제품 검색, 제품 권장 사항).<br>2. 카탈로그 관리(채널 및 정책 생성).<br>3. 데이터 인사이트(카탈로그 데이터 수집 상태 보기). |
 | Storefront API | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/graphql` | Edge Delivery Services에서 제공하는 Commerce 상점 설정에 필요한 API에 액세스합니다. |
 | 카탈로그 데이터 수집 API | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/v1/catalog/<entity>` | 카탈로그 데이터를 수집하는 데 필요한 API에 액세스합니다. |
+
+>[!NOTE]
+>
+>Storefront 설정 및 카탈로그 수집에 필요한 API에 대한 자세한 내용은 [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog/)를 참조하세요.
 
 조기 액세스 참가자는 IMS 토큰과 함께 [!DNL Adobe Commerce Optimizer]에 로그인하거나 API를 호출할 수 있는 보안 링크가 포함된 전자 메일을 받게 됩니다.
 

@@ -2,9 +2,10 @@
 title: 경계 및 제한
 description: 비즈니스 요구 사항을 충족하도록  [!DNL Adobe Commerce Optimizer] 의 경계 및 제한에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: 45a43fe2ada206515c512a04aa6e9072e08844cc
+exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -28,10 +29,7 @@ ht-degree: 0%
 
 ## 가격
 
-- 가격표의 최대 개수는 3만 장이다. 가격 장부의 기본 계층 번호는 100을 초과할 수 없으며 (가격 장부의 수) x (채널의 수)가 100보다 작거나 같아야 하는 규칙을 따라야 합니다.
-- 보장된 가격 피드 수집 비율은 분당 5000개의 레코드입니다.
-- 단일 가격 기록에는 10개 이상의 할인이 있을 수 없습니다.
-- 일일 가격 업데이트의 기본 횟수는 5,000,000번입니다.
+- 가격 장부의 최대 개수는 1,000개입니다.
 
 ## 검색 및 상점
 
@@ -53,6 +51,6 @@ ht-degree: 0%
 - 제품 검색의 경우 속성 기반 머천다이징 및 가격 설정이 지원되지 않습니다.
 - 권장 사항:
 
-   - ACO는 EA에 대해 _최근에 본 항목_ 권장 사항 유형을 지원합니다.
+   - [!DNL Adobe Commerce Optimizer]은(는) 조기 액세스를 위해 _최근에 본 항목_ 권장 사항 유형을 지원합니다.
    - 카테고리 또는 속성 포함 또는 제외를 지원하지 않습니다.
    - [!DNL Adobe Commerce Optimizer]에서 권장 사항을 미리 볼 수 없습니다.

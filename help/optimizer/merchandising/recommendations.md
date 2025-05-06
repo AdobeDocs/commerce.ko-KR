@@ -2,9 +2,10 @@
 title: 권장 사항
 description: 권장 사항은 전환을 늘리고, 매출을 증대하며, 쇼핑객 참여를 촉진하는 데 사용할 수 있는 강력한 마케팅 도구입니다.
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: 04228203-37a3-4535-ad61-d5e586e57d63
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -31,3 +32,11 @@ ht-degree: 0%
 - 기존 권장 사항을 [편집](../../product-recommendations/edit.md)합니다.
 
 권장 사항 상점 첫 화면 구성 요소를 사용하여 상점 첫 화면에 이러한 제품 권장 사항을 표시할 수 있습니다.
+
+## 제한 사항
+
+다음은 조기 액세스를 위한 권장 사항에 대한 제한 사항입니다.
+
+- [!DNL Adobe Commerce Optimizer]은(는) _최근에 본 항목_ 권장 사항 유형을 지원합니다.
+- 카테고리 또는 속성 포함 또는 제외를 지원하지 않습니다.
+- [!DNL Adobe Commerce Optimizer]에서 권장 사항을 미리 볼 수 없습니다.

@@ -4,9 +4,10 @@ description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 채널 및 
 hide: true
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -78,7 +79,7 @@ Carvelo는 서로 다른 대리점(Akbridge, Kingsbluff 및 Celport)을 통해 �
 궁극적으로 Carvelo는 두 가지 주요 목표를 가지고 있습니다.
 
 1. 세 브랜드 모두에 걸쳐 모든 SKU를 포함하는 &quot;글로벌&quot; 웹 사이트를 유지하십시오.
-1. 대리점이 각 대리점의 고유 SKU 가시성 및 각 SKU에 대한 가격을 기반으로 자체 상점 전면을 설정할 수 있는 경로를 제공합니다.
+1. 대리점이 각 대리점의 고유 SKU 가시성 및 각 SKU에 대한 가격을 기반으로 자체 상점 전면을 설정할 수 있는 경로를 제공합니다. 모두 단일 기본 카탈로그를 사용하는 동안 카탈로그 중복을 제거합니다.
 
 >[!ENDSHADEBOX]
 
@@ -269,12 +270,14 @@ Celport 채널 및 관련 정책을 만든 후 다음 단계는 새 Celport 카�
    - `ac-environment-id`: `"Fwus6kdpvYCmeEdcCX7PZg"`
    - `ac-price-book-id`: `"west_coast_inc"`
 
-   +++
++++
 
 1. `ac-channel-id` 값을 이전에 복사한 Celport 채널 ID로 바꿉니다.
-1. 필요한 경우 `ac-environment-id` 값을 [!DNL Adobe Commerce Optimizer] 인스턴스의 테넌트 ID로 바꾸십시오. ID는 조기 액세스 프로그램에 대한 온보딩 이메일이나 Adobe 계정 담당자에게 문의하여 찾을 수 있습니다.
+1. `ac-environment-id` 값을 [!DNL Adobe Commerce Optimizer] 인스턴스의 테넌트 ID로 바꾸십시오. ID는 조기 액세스 프로그램에 대한 온보딩 이메일이나 Adobe 계정 담당자에게 문의하여 찾을 수 있습니다.
 
-   `commerce-endpoint` 값이 [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 GraphQL 끝점과 일치하는지 확인하십시오.
+   >[!IMPORTANT]
+   >
+   >`commerce-endpoint` 값이 [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 GraphQL 끝점과 일치하는지 확인하십시오. 시작 이메일에 제공됩니다.
 
 1. `ac-price-book-id` 값을 `"east_coast_inc"`(으)로 바꿉니다.
 1. 파일을 저장합니다.
@@ -317,7 +320,7 @@ Celport 채널 및 관련 정책을 만든 후 다음 단계는 새 Celport 카�
 
       파일을 저장하면 로컬 상점 미리 보기가 자동으로 업데이트됩니다.
 
-   1. 검색 기능을 사용하여 타이어 부품을 찾아 브라우저의 변경 사항을 미리 봅니다 .
+   1. 검색 기능을 사용하여 타이어 부품을 찾아 브라우저의 변경 사항을 미리 봅니다.
 
       사용 가능한 다양한 부품 유형을 확인하고 Kingsbluff 채널에 할당된 가격을 확인합니다.
 

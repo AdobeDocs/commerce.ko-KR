@@ -2,9 +2,10 @@
 title: 제품 검색
 description: Product Discovery는 빠르고 관련성이 높으며 직관적인 검색 환경을 제공합니다.
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: b9429ccb-947b-462c-8b34-63fb53d015f6
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -37,3 +38,7 @@ ht-degree: 0%
 - [동의어](../../live-search/synonyms.md)
 - [머천다이징 검색](../../live-search/rules.md)
 - [설정](../../live-search/settings.md)
+
+## 제한 사항
+
+제품 검색의 경우 속성 기반 머천다이징 및 가격 설정이 지원되지 않습니다.
