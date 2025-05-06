@@ -2,9 +2,11 @@
 title: '[!DNL Page Builder] 통합'
 description: Page Builder에서  [!DNL Product Recommendations] 단위를 사용하는 방법을 알아봅니다.
 feature: Services, Recommendations, Page Builder
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 001e8e1d-3590-4b44-b5f8-dd8b9b61f370
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---

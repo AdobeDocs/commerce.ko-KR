@@ -3,16 +3,17 @@ title: 설치 및 구성
 description: ' [!DNL Product Recommendations]을(를) 설치, 업데이트 및 제거하는 방법을 알아봅니다.'
 role: Admin, Developer
 exl-id: 2e7f6454-d4cb-44bc-982f-354a179e8e59
-source-git-commit: a3c20f64c9a18e97b6c0cbc36a246e5c30f67341
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 설치 및 구성
 
-상점 및 관리자에 [!DNL Product Recommendations]을(를) 배포하려면 모듈을 설치하고 [Commerce 서비스 커넥터](../landing/saas.md)를 구성해야 합니다. 업데이트가 릴리스되면 설치를 최신 버전으로 쉽게 업데이트할 수 있습니다.
+Deploying [!DNL Product Recommendations] to your storefront and Admin requires that you install the module and configure the [Commerce Services Connector](../landing/saas.md). As updates are released, you can easily update the installation with the latest version.
 
 - [설치](#install)
 - [구성](#configure)
@@ -21,13 +22,13 @@ ht-degree: 0%
 
 ## [!DNL Product Recommendations] 설치 {#install}
 
-[!DNL Product Recommendations] 모듈은 독립 실행형 메타패키지이므로 Adobe Commerce보다 업데이트가 더 자주 릴리스됩니다. 최신 버그 수정 및 기능을 확인하려면 [릴리스 정보](release-notes.md)를 참조하세요.
+Because the [!DNL Product Recommendations] module is a stand-alone metapackage, updates are released more frequently than Adobe Commerce. 최신 버그 수정 및 기능을 확인하려면 [릴리스 정보](release-notes.md)를 참조하세요.
 
 >[!IMPORTANT]
 >
->제품 추천을 사용할 올바른 [자격](../landing/saas.md#credentials)이 있는지 확인하십시오.
+>Make sure you have the correct [entitlements](../landing/saas.md#credentials) to use Product Recommendations.
 
-작성기를 사용하여 `magento/product-recommendations` 모듈 설치:
+Install the `magento/product-recommendations` module with Composer:
 
 ```bash
 composer require magento/product-recommendations
@@ -41,7 +42,7 @@ Page Builder용 [!DNL Product Recommendations]은(는) 선택적 모듈이며 �
 composer require magento/module-page-builder-product-recommendations
 ```
 
-페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
+페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
 
 자세한 지침은 [페이지 빌더 콘텐츠로 사용 [!DNL Product Recommendations] 을 참조하세요](page-builder.md).
 
@@ -59,25 +60,25 @@ composer require magento/module-visual-product-recommendations
 
    이 연결을 구성하면 Commerce 인스턴스, 카탈로그 서비스 및 기타 지원 서비스 간에 데이터를 동기화하고 통신할 수 있습니다. 데이터 동기화는 [SaaS 데이터 내보내기 확장](../data-export/overview.md)에서 처리됩니다.
 
-1. 카탈로그 내보내기가 올바르게 실행되도록 하려면 [cron](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 작업과 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)가 실행 중이며 `Product Feed` 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오.
+1. To ensure that catalog export can run correctly, confirm that the [cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) jobs and the [indexers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) are running and the `Product Feed` indexer is set to `Update by Schedule`.
 
-Commerce 응용 프로그램을 Commerce 서비스에 연결하고 [SaaS 데이터 공간](../landing/saas.md#saas-configuration)을 지정하면 카탈로그 동기화가 시작됩니다. 그런 다음 동작 데이터가 상점 앞으로 전송되고 있는지 [확인](verify.md)할 수 있습니다.
+After you successfully link the Commerce application to Commerce Services and specify the [SaaS Data Space](../landing/saas.md#saas-configuration), the catalog sync begins. You can then [verify](verify.md) that behavioral data is being sent to your storefront.
 
-## 데이터 동기화 모니터링 및 문제 해결
+## Monitor and troubleshoot data synchronization
 
-Commerce 관리에서 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard)를 사용하여 동기화 프로세스를 모니터링할 수 있습니다. [Commerce CLI](../data-export/data-export-cli-commands.md#troubleshooting) 및 로그를 사용하여 프로세스를 관리하고 문제를 해결하십시오.
+From the Commerce Admin, you can monitor the synchronization process using the [Data Management Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard). Use the [Commerce CLI](../data-export/data-export-cli-commands.md#troubleshooting) and logs to manage and troubleshoot the process.
 
-그런 다음 동작 데이터가 상점 앞으로 전송되고 있는지 [확인](verify.md)할 수 있습니다.
+You can then [verify](verify.md) that behavioral data is being sent to your storefront.
 
-## [!DNL Product Recommendations] 설치 업데이트 {#update}
+## Update your [!DNL Product Recommendations] installation {#update}
 
-모든 Adobe Commerce과 마찬가지로 [!DNL Product Recommendations]도 설치 및 업데이트를 위해 작성기를 사용합니다. `magento/product-recommendations` 모듈을 업데이트하려면 다음을 실행하십시오.
+Like all of Adobe Commerce, [!DNL Product Recommendations] uses Composer for installation and updates. `magento/product-recommendations` 모듈을 업데이트하려면 다음을 실행하십시오.
 
 ```bash
 composer update magento/product-recommendations --with-dependencies
 ```
 
-5.0에서 6.0으로 등 주요 버전으로 업데이트하려면 프로젝트의 루트 `composer.json` 파일을 편집해야 합니다. 최신 버전에 대한 정보는 [릴리스 정보](release-notes.md)를 참조하세요. 예를 들어 기본 `composer.json` 파일을 열고 `magento/product-recommendations` 모듈을 검색해 보겠습니다.
+To update to a major version, such as from 5.0 to 6.0, you must edit the root `composer.json` file for your project. (See the [release notes](release-notes.md) for information about the latest version.) For example, let&#39;s open the main `composer.json` file and search for the `magento/product-recommendations` module:
 
 ```json
 "require": {
@@ -87,7 +88,7 @@ composer update magento/product-recommendations --with-dependencies
 }
 ```
 
-주요 버전을 `5.0`에서 `6.0`(으)로 변경해 보겠습니다.
+Let&#39;s bump the major version from `5.0` to `6.0`:
 
 ```json
 "require": {
@@ -117,6 +118,6 @@ composer update --with-dependencies magento/product-recommendations magento/modu
 
 방화벽을 통해 제품 권장 사항을 허용하려면 `commerce.adobe.io`을(를) 허용 목록에 추가하십시오.
 
-## [!DNL Product Recommendations] 제거 {#uninstall}
+## Uninstall [!DNL Product Recommendations] {#uninstall}
 
-필요한 경우 제품 권장 사항 모듈을 [제거](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)할 수 있습니다.
+If necessary, you can [uninstall](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) the product-recommendations module.
