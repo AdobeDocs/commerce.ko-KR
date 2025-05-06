@@ -103,7 +103,7 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
          </a>
       </div>
       <p>
@@ -144,11 +144,11 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
          </a>
       </div>

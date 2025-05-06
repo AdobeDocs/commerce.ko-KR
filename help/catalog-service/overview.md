@@ -85,6 +85,6 @@ Since Catalog Service operates as a service, integrators do not need to be conce
 
 ## 구현
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 설치 프로세스를 수행하려면 [Commerce 서비스 커넥터](../landing/saas.md)를 구성해야 합니다. 그런 다음 시스템 통합자는 [!DNL Catalog Service] 쿼리를 통합하기 위해 상점 코드를 업데이트합니다. 모든 [!DNL Catalog Service] 쿼리가 GraphQL 게이트웨이로 라우팅됩니다. 온보딩 프로세스 중에 URL이 제공됩니다.

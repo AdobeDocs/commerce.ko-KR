@@ -3,7 +3,7 @@ title: 설치 및 구성
 description: ' [!DNL Product Recommendations]을(를) 설치, 업데이트 및 제거하는 방법을 알아봅니다.'
 role: Admin, Developer
 exl-id: 2e7f6454-d4cb-44bc-982f-354a179e8e59
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
 workflow-type: tm+mt
 source-wordcount: '582'
@@ -42,7 +42,7 @@ Page Builder용 [!DNL Product Recommendations]은(는) 선택적 모듈이며 �
 composer require magento/module-page-builder-product-recommendations
 ```
 
-페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
+페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
 
 자세한 지침은 [페이지 빌더 콘텐츠로 사용 [!DNL Product Recommendations] 을 참조하세요](page-builder.md).
 
@@ -60,13 +60,13 @@ composer require magento/module-visual-product-recommendations
 
    이 연결을 구성하면 Commerce 인스턴스, 카탈로그 서비스 및 기타 지원 서비스 간에 데이터를 동기화하고 통신할 수 있습니다. 데이터 동기화는 [SaaS 데이터 내보내기 확장](../data-export/overview.md)에서 처리됩니다.
 
-1. To ensure that catalog export can run correctly, confirm that the [cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) jobs and the [indexers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) are running and the `Product Feed` indexer is set to `Update by Schedule`.
+1. To ensure that catalog export can run correctly, confirm that the [cron](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) jobs and the [indexers](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers) are running and the `Product Feed` indexer is set to `Update by Schedule`.
 
 After you successfully link the Commerce application to Commerce Services and specify the [SaaS Data Space](../landing/saas.md#saas-configuration), the catalog sync begins. You can then [verify](verify.md) that behavioral data is being sent to your storefront.
 
 ## Monitor and troubleshoot data synchronization
 
-From the Commerce Admin, you can monitor the synchronization process using the [Data Management Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard). Use the [Commerce CLI](../data-export/data-export-cli-commands.md#troubleshooting) and logs to manage and troubleshoot the process.
+From the Commerce Admin, you can monitor the synchronization process using the [Data Management Dashboard](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard). Use the [Commerce CLI](../data-export/data-export-cli-commands.md#troubleshooting) and logs to manage and troubleshoot the process.
 
 You can then [verify](verify.md) that behavioral data is being sent to your storefront.
 
@@ -120,4 +120,4 @@ composer update --with-dependencies magento/product-recommendations magento/modu
 
 ## Uninstall [!DNL Product Recommendations] {#uninstall}
 
-If necessary, you can [uninstall](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) the product-recommendations module.
+If necessary, you can [uninstall](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) the product-recommendations module.
