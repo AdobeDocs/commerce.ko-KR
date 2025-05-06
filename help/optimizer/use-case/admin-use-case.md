@@ -270,7 +270,7 @@ Celport 채널 및 관련 정책을 만든 후 다음 단계는 새 Celport 카�
    - `ac-environment-id`: `"Fwus6kdpvYCmeEdcCX7PZg"`
    - `ac-price-book-id`: `"west_coast_inc"`
 
-+++
+   +++
 
 1. `ac-channel-id` 값을 이전에 복사한 Celport 채널 ID로 바꿉니다.
 1. `ac-environment-id` 값을 [!DNL Adobe Commerce Optimizer] 인스턴스의 테넌트 ID로 바꾸십시오. ID는 조기 액세스 프로그램에 대한 온보딩 이메일이나 Adobe 계정 담당자에게 문의하여 찾을 수 있습니다.
