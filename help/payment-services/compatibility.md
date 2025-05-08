@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 
->[!VIDEO](https://video.tv.adobe.com/v/3447811)
+>[!VIDEO](https://video.tv.adobe.com/v/3447925?captions=kor)
 
 [!DNL Payment Services] 확장 설정에 대한 자세한 내용은 [연결](connect.md)을 참조하세요.
 
