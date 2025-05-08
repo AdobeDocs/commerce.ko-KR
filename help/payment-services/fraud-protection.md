@@ -3,8 +3,9 @@ title: 상당한 사기 방지
 description: Signifyd를 사용하여  [!DNL Payment Services] 에 대한 자동 사기 방지 기능을 활성화합니다.
 role: Admin, User
 level: Intermediate
-feature: Payments, Checkout, Configuration, Security
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+feature: Payments, Checkout, Configuration, Security, Paas, Saas
+exl-id: 440296bb-a6ff-408b-8195-3027916e4f84
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -40,12 +41,12 @@ Signifyd는 주문에 대해 일부 조치를 취하므로 [!DNL Payment Service
 
 이러한 구성 옵션은 결제 서비스 및 Signifyd 통합과 호환되지 않습니다.
 
-* [!DNL Payment Services]이(가) `Authorize` 결제 작업 _과(와)_(으)로 구성된 경우 _[!UICONTROL Decline Guarantees]_&#x200B;옵션이&#x200B;**신용 메모 만들기**(으)로 설정된 Signifyd는 `PostAuth` 모드에 있습니다.
+* [!DNL Payment Services]이(가) `Authorize` 결제 작업 _과(와)_(으)로 구성된 경우 _[!UICONTROL Decline Guarantees]_옵션이&#x200B;**신용 메모 만들기**(으)로 설정된 Signifyd는 `PostAuth` 모드에 있습니다.
 
   이유: [!DNL Payment Services]에서 Signify가 환불을 시도하는 인증 트랜잭션을 만듭니다.
 
 
-* [!DNL Payment Services]이(가) `Authorize and Capture` 결제 동작 _을(를) 사용하여 구성되었습니다._ Signifyd는 `PostAuth` 모드에 있습니다. _[!UICONTROL Decline Guarantees]_&#x200B;옵션은&#x200B;**주문 취소**(으)로 설정되어 있습니다.
+* [!DNL Payment Services]이(가) `Authorize and Capture` 결제 동작 _을(를) 사용하여 구성되었습니다._ Signifyd는 `PostAuth` 모드에 있습니다. _[!UICONTROL Decline Guarantees]_옵션은&#x200B;**주문 취소**(으)로 설정되어 있습니다.
 
   이유: [!DNL Payment Services]은(는) Signifyd가 무효화하려고 시도하는 캡처 트랜잭션을 만듭니다.
 

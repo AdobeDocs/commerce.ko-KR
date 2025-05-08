@@ -1,8 +1,9 @@
 ---
 title: 테스트 및 유효성 검사
 description: 테스트와 유효성 검사를 통해  [!DNL Payment Services] 함수가 예상대로 작동하는지 확인하고 고객에게 최상의 결제 옵션을 제공합니다
-feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 95b4615e-73b0-41e8-83e2-e65a0b22f10f
+feature: Payments, Checkout, Paas, Saas
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 샌드박스 환경에서 [!DNL Payment Services]을(를) 테스트하는 것은 중요한 유효성 검사 단계입니다. 실제 은행과 판매자가 아니라 PayPal 샌드박스에만 연결된 시뮬레이션된 환경입니다.
 
 1. [신용 카드 필드](payments-options.md#credit-card-fields) 또는 [PayPal 결제 단추](payments-options.md#paypal-smart-buttons)를 사용하여 스토어에서 성공적으로 체크아웃하세요. 테스트를 위해 가짜 신용 카드를 사용하는 방법에 대한 자세한 내용은 [자격 증명 테스트](#testing-credentials)를 참조하십시오.
-1. 결제 액션이 [을(를) `Authorize and Capture`](onboard.md#set-payment-services-as-payment-method)(으)로 설정한 경우, [환불](refunds.md) 또는 [무효](voids.md)를 방금 완료된 주문을 캡처합니다. 결제 작업이 `Authorize and Capture` 대신 `Authorize`(으)로 설정된 경우 주문에 대해 [송장을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"}할 수도 있습니다.
+1. 결제 액션이 [을(를) `Authorize and Capture`](onboard.md#set-payment-services-as-payment-method)(으)로 설정한 경우, [환불](refunds.md) 또는 [무효](voids.md)를 방금 완료된 주문을 캡처합니다. 결제 작업이 `Authorize and Capture` 대신 `Authorize`(으)로 설정된 경우 주문에 대해 [송장을 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"}할 수도 있습니다.
 1. 24~48시간 내에 [지급 보고서](payouts.md)에서 거래 및 기타 정보를 봅니다.
 1. [주문 결제 상태 보고서](order-payment-status.md)에서 주문 세부 사항을 확인하세요.
 

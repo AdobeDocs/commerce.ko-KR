@@ -6,9 +6,9 @@ index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: eba63e5a0086689ae254545c1ad9a1430fc8a524
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 3%
 # Commerce용 [!DNL Payment Services] {#payment-services}
 
 - [안내서 개요](guide-overview.md)
-- [ [!DNL Payment Services] 소개](overview.md)
+- [ [!DNL Payment Services] 소개](introduction.md)
+- [ [!DNL Payment Services]에 대한 호환성](compatibility.md)
 - [릴리스 정보](release-notes.md)
 - [!DNL Payment Services] 온보드 {#get-started}
    - [온보딩 개요](onboard.md)
@@ -41,8 +42,8 @@ ht-degree: 3%
       - [빈 공간](voids.md)
    - [관리자에서 주문 만들기](create-order.md)
    - [ [!DNL Payment Services]에서 배송 추적](track-shipment.md)
-- Financial Reporting {#reporting}
-   - [거래 보고서](transactions.md)
+- 재무 보고 {#financial-reports}
+   - [보고](reporting.md)
    - [주문 결제 상태 보고서](order-payment-status.md)
    - [지급 보고서](payouts.md)
    - [사용 가능한 데이터](data.md)
@@ -50,4 +51,4 @@ ht-degree: 3%
 - 보안 및 규정 준수 {#security-compliance}
    - [보안](security.md)
    - [상당한 사기 방지](fraud-protection.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

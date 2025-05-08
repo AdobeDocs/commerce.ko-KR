@@ -3,8 +3,9 @@ title: 주문 결제 상태 보고서
 description: 주문 결제 상태 보고서를 사용하여 주문 결제 상태를 확인하고 잠재적 문제를 식별합니다.
 role: User
 level: Intermediate
-feature: Payments, Checkout, Orders
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 192e47b9-d52b-4dcf-a720-38459156fda4
+feature: Payments, Checkout, Orders, Paas, Saas
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 주문 결제 상태 보고서
 
-[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]은(는) 스토어의 [거래](transactions.md), 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
+[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]은(는) 스토어의 [거래](reporting.md), 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
 
 두 가지 주문 결제 상태 보고 보기를 사용하여 주문의 결제 상태를 신속하게 볼 수 있습니다.
 
@@ -105,7 +106,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 이 프로세스가 예상대로 작동하는지 확인하려면 판매자는 새 cron 작업을 구성해야 합니다. 작업이 자동으로 실행되도록 구성되면 판매자의 다른 개입이 필요하지 않습니다.
 
-[cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)을 참조하십시오. 구성하고 나면 새 작업이 30분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다.
+[cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)을 참조하십시오. 구성하고 나면 새 작업이 30분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다.
 
 가맹점은 주문 결제 상태 보고서 보기를 통해 업데이트된 결제 상태를 확인할 수 있습니다.
 
@@ -113,11 +114,11 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 [!DNL Payment Services]은(는) 주문 데이터를 사용하여 다른 원본(PayPal 포함)의 결제 데이터와 결합하여 의미 있고 유용한 보고서를 제공합니다.
 
-주문 데이터를 내보내고 결제 서비스에서 유지합니다. [주문 상태를 변경 또는 추가](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-status#custom-order-status)하거나 [스토어 보기를 편집](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-views#edit-a-store-view), [스토어](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/store-details#store-information) 또는 웹 사이트 이름을 편집하면 해당 데이터가 결제 데이터와 결합되고 주문 결제 상태 보고서는 결합된 정보로 채워집니다.
+주문 데이터를 내보내고 결제 서비스에서 유지합니다. [주문 상태를 변경 또는 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#custom-order-status)하거나 [스토어 보기를 편집](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-views#edit-a-store-view), [스토어](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#store-information) 또는 웹 사이트 이름을 편집하면 해당 데이터가 결제 데이터와 결합되고 주문 결제 상태 보고서는 결합된 정보로 채워집니다.
 
 이 프로세스에는 두 가지 단계가 있습니다.
 
-1. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에 구성된 방법에 따라 인덱스가 `ON SAVE`(주문 정보 또는 저장소 정보가 변경될 때마다) 또는 `BY SCHEDULE`(사전 구성된 cron 일정에 따라)의 데이터를 변경합니다.
+1. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)에 구성된 방법에 따라 인덱스가 `ON SAVE`(주문 정보 또는 저장소 정보가 변경될 때마다) 또는 `BY SCHEDULE`(사전 구성된 cron 일정에 따라)의 데이터를 변경합니다.
 
    기본적으로 데이터 인덱싱이 `ON SAVE`에 발생합니다. 즉, 순서, 주문 상태, 스토어 보기, 스토어 또는 웹 사이트의 변경 사항이 있을 때마다 다시 인덱싱 프로세스가 즉시 발생합니다.
 
@@ -133,7 +134,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 기본적으로 리인덱싱은 `ON SAVE` 모드에서 수행되지만 `BY SCHEDULE` 모드에서 인덱싱하는 것이 좋습니다. `BY SCHEDULE` 인덱스는 1분의 cron 일정에 따라 실행되며 변경된 데이터는 데이터 변경 후 2분 이내에 주문 상태 보고서에 표시됩니다. 이러한 예약된 리인덱싱은 특히 들어오는 주문량이 많은 경우 각 주문이 아닌 일정에 따라 발생하므로 스토어에 대한 부담을 줄이는 데 도움이 됩니다.
 
-관리자[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—을(를) 변경할 수 있습니다.
+관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—[을(를) 변경할 수 있습니다.
 
 데이터 내보내기를 구성하는 방법은 [명령줄 구성](configure-cli.md#configure-data-export)을 참조하세요.
 
@@ -143,18 +144,18 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
+_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
-* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
+* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
+* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 [!UICONTROL Order Payment Status] 보고서의 데이터 원본을 선택하려면 다음을 수행하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > **[!UICONTROL Orders]** > **[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Data source]_&#x200B;선택기 필터를 클릭하고&#x200B;**[!UICONTROL Live]**&#x200B;또는&#x200B;**[!UICONTROL Sandbox]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Data source]_선택기 필터를 클릭하고&#x200B;**[!UICONTROL Live]**또는&#x200B;**[!UICONTROL Sandbox]**을(를) 선택합니다.
 
    선택한 데이터 소스를 기반으로 보고서 결과가 재생성됩니다.
 
@@ -163,7 +164,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 주문 결제 상태 보고서 보기에서 특정 날짜를 선택하여 보려는 상태 결과의 시간대를 사용자 정의할 수 있습니다. 기본적으로 30일의 주문 결제 상태가 그리드에 표시됩니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Order dates]_&#x200B;일정 선택기 필터를 클릭합니다.
+1. _[!UICONTROL Order dates]_일정 선택기 필터를 클릭합니다.
 1. 적용 가능한 날짜 범위를 선택합니다.
 1. 그리드에서 지정한 일자에 대한 주문 지급 상태를 조회합니다.
 
@@ -174,7 +175,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**(으)로 이동합니다.
 1. **[!UICONTROL Filter]** 선택기를 클릭합니다.
 1. _결제 상태_ 옵션을 전환하여 선택한 주문 결제 상태에 대한 보고서 결과만 표시합니다.
-1. _[!UICONTROL Min Order Amount]_&#x200B;또는 _[!UICONTROL Max Order Amount_]을(를) 입력하여 주문 금액 범위 내에서 보고서 결과를 봅니다.
+1. _[!UICONTROL Min Order Amount]_또는 _[!UICONTROL Max Order Amount_]을(를) 입력하여 주문 금액 범위 내에서 보고서 결과를 봅니다.
 1. 필터를 숨기려면 **[!UICONTROL Hide filters]**&#x200B;을(를) 클릭합니다.
 
 ### 열 표시 및 숨기기
@@ -207,7 +208,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 
 ### 보고서 데이터 업데이트
 
-주문 결제 상태 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_&#x200B;타임스탬프가 표시됩니다. 기본적으로 주문 결제 상태 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
+주문 결제 상태 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_타임스탬프가 표시됩니다. 기본적으로 주문 결제 상태 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
 
 주문 지급 상태 보고서 데이터를 수동으로 새로 고쳐 최신 보고서 정보를 볼 수도 있습니다.
 
@@ -244,10 +245,10 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 
 | 열 | 설명 |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce 주문 ID<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하세요. |
+| [!UICONTROL Order ID] | Commerce 주문 ID<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하십시오. |
 | [!UICONTROL Order Date] | 주문 날짜 타임스탬프 |
 | [!UICONTROL Authorized Date] | 결제 권한 부여의 날짜 타임스탬프 |
-| [!UICONTROL Order Status] | 현재 Commerce [주문 상태](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-status){target="_blank"} |
+| [!UICONTROL Order Status] | 현재 Commerce [주문 상태](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status){target="_blank"} |
 | [!UICONTROL Invoiced] | 주문 *[!UICONTROL No]*, *[!UICONTROL Partial]* 또는 *[!UICONTROL Yes]*&#x200B;의 송장 상태 |
 | [!UICONTROL Shipped] | 주문 배송 상태—*[!UICONTROL No]*, *[!UICONTROL Partial]* 또는 *[!UICONTROL Yes]* |
 | [!UICONTROL Order Amt] | 총 주문 금액 |

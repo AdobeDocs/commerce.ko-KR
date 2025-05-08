@@ -1,9 +1,10 @@
 ---
 title: 보안 및 규정 준수
 description: 사이트에 대한 보안 및 규정 준수 요구 사항을 검토합니다.
+exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
-redirect_from: https://experienceleague.adobe.com/docs/commerce/payment-services/security.html
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html
+source-git-commit: 9f7690ae325853b9b4a590b3d1cd538909a26462
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -18,15 +19,15 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]은(는) 여러 보안 기능을 지원합니다.
 
-보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security){target="_blank"}을(를) 참조하십시오.
+보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"}을 참조하십시오.
 
 ## PCI 준수
 
 PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제를 받는 사업자를 위한 일련의 요구 사항을 수립했습니다. 고객 신용카드 정보를 취급하는 가맹점은 안전한 환경 유지와 더불어 몇 가지 표준 가이드라인을 준수할 책임이 있다.
 
-자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
+자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
 
-가맹점은 카드 소지자 데이터에 대한 보안을 평가하기 위한 자체 유효성 검사 도구인 [SAQ(자체 평가 설문)](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}을(를) 완료할 수 있습니다.
+가맹점은 카드 소지자 데이터에 대한 보안을 평가하는 자체 유효성 검사 도구인 [SAQ(자체 평가 설문)](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}을(를) 완료할 수 있습니다.
 
 ### 신용 카드 필드
 
@@ -48,7 +49,7 @@ EU 또는 영국 내에서 3DS 준수가 필요한 상인인 경우 [설정](set
 
 >[!MORELIKETHIS]
 >
-> * 자세한 내용은 [&#128279;](settings.md#3ds) 설정의 3DS를 참조하십시오.
+> * 자세한 내용은 ](settings.md#3ds) 설정의 [3DS를 참조하십시오.
 > * 3DS 테스트를 위한 특정 신용 카드에 대한 자세한 내용은 PayPal 개발자 설명서에서 [테스트 카드](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/)를 참조하십시오.
 
 ### 카드 보관

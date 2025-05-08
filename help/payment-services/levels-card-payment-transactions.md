@@ -2,41 +2,44 @@
 title: 레벨 2 및 레벨 3 처리
 description: ' [!DNL Payment Services] 거래 내의 카드 결제 처리 수준입니다.'
 role: Admin
-feature: Payments
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+feature: Payments, Paas, Saas
+exl-id: db8993fe-dd6f-48b5-9e7b-69a0f2e08552
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # 레벨 2 및 레벨 3 처리
 
-[!DNL Payment Services]을(를) 통해 사용할 수 있는 세 가지 수준의 카드 처리가 있습니다.
+[!DNL Payment Services]은(는) 상인이 결제 거래를 최적화하고 교환 수수료를 낮출 수 있도록 고급 카드 처리 기능을 제공합니다. 각각 다른 거래 데이터 요구 사항을 가진 세 가지 수준의 카드 처리를 사용할 수 있습니다.
 
-* 레벨 1이 가장 일반적이고, 필요한 정보가 적기 때문에 일반적으로 기업 및 구매 신용카드와 관련된 레벨 2 또는 레벨 3 데이터로 처리된 거래에 비해 높은 교환 수수료가 발생합니다.
+## 처리 수준별 데이터 요구 사항
 
-* 레벨 2 및 레벨 3을 사용하면 [!DNL Payment Services]에서 트랜잭션에 대한 자세한 정보를 보낼 수 있으므로 IC++(Interchange Plus) 가격 책정 시 구매 카드나 법인 카드 트랜잭션을 많이 수락하는 [!DNL Payment Services]명의 고객이 낮은 처리 속도를 받을 수 있습니다. 거래가 유효하다면, 카드 네트워크 요건에 따라, 판매자는 특정 거래에 대해 더 낮은 처리율을 받을 수 있다.
-
->[!NOTE]
->
->레벨 2 및 레벨 3 가격은 비자 및 마스터 카드 거래에 대해서만 적용됩니다. American Express는 레벨 2 가격만 제공합니다. Discover는 레벨 2와 레벨 3 가격을 제공하지 않습니다. 자세한 내용은 PayPal 개발자 설명서에서 [결제 처리](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank}를 참조하십시오.
-
-[IC란++? 참조자세한 내용은 PayPal 개발자 설명서의 ](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank}을 참조하십시오.
-
-레벨 2 및 레벨 3 처리 데이터를 사용하면 프로세서 위험을 줄이고 유용한 측면을 제공하는 구매에 대한 추가 세부 정보를 제공하는 경우 판매자가 IC++ 가격을 낮출 수 있습니다.
-
-* 대규모 고객은 이 처리 데이터를 제공하여 비용을 줄일 수 있습니다.
-
-* 주문 정보가 많을수록 고객이 사기 상황에 처할 가능성이 적다.
-
-그러나 Visa 및 Mastercard와 같은 카드 네트워크는 최종적으로 트랜잭션이 레벨 2 또는 레벨 3 처리에 적합한지 여부를 결정합니다.
-
-* 레벨 2 데이터에는 주문에 대한 세액이나 고객 코드 또는 PO 번호와 같은 추가 정보가 포함됩니다.
-
-* 레벨 3 데이터는 판매에 대한 보다 자세한 정보이므로 레벨 2에 비해 훨씬 낮은 교환 비율에 대한 자격을 얻습니다. 레벨 3 데이터에는 구매 품목, 구매 단위 수량, 주문 품목에 대한 UOM 및 기타 특정 상세내역에 대한 설명과 같은 정보가 포함됩니다.
+![트랜잭션 보고서](assets/level-processing-details.png){width="500" zoomable="yes"}
 
 [!DNL Payment Services]에서 이 데이터를 수집하고 결제 거래에 대한 자세한 보고를 제공합니다.
+
+## 카드 네트워크별 사용 가능한 처리 수준
+
+![카드 세부 정보](assets/cards-details-level-processing.png){width="500" zoomable="yes"}
+
+자세한 내용은 PayPal 개발자 설명서에서 [결제 처리](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank}를 참조하십시오.
+
+### 레벨 1
+
+레벨 1이 가장 일반적이고, 필요한 정보가 적기 때문에 일반적으로 기업 및 구매 신용카드와 관련된 레벨 2 또는 레벨 3 데이터로 처리된 거래에 비해 높은 교환 수수료가 발생합니다.
+
+### 레벨 2 및 레벨 3
+
+Interchange Plus(IC++)의 [!DNL Payment Services] 가맹점은 카드 네트워크에 추가 거래 세부 정보를 제공하고 특정 자격 기준을 충족하는 경우 레벨 2/레벨 3 처리 자격을 얻을 수 있습니다. 이러한 수준은 상당한 구매 또는 법인 카드 볼륨을 처리하는 가맹점에 특히 유용합니다. 그 결과 상당한 비용 절감이 발생할 수 있기 때문입니다. 자세한 레벨 2 또는 레벨 3 데이터를 제공하면 다음과 같은 작업을 수행할 수 있습니다.
+
+* 처리 비용 절감 및 전체 비용 최적화
+* 사기 방지, 프로세서 위험 감소
+* 트랜잭션 보안 강화
+
+[IC란++? 참조자세한 내용은 PayPal 개발자 설명서의 ](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank}을 참조하십시오.
 
 ## [!DNL Payment Services]의 레벨 2 및 레벨 3 카드 결제 거래
 

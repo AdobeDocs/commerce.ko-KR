@@ -1,9 +1,10 @@
 ---
 title: ' [!DNL Payment Services]에 대한 라인 항목'
 description: ' [!DNL Payment Services] 의 라인 항목 및 판매자 대시보드에서 라인 항목을 보는 방법에 대해 알아봅니다.'
-feature: Payments
+feature: Payments, Paas, Saas
 role: User
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f690ff94-f83d-4525-9d52-1dea25a71060
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 이 기능은 [!DNL Payment Services]에 대해 기본적으로 활성화되어 있습니다. 라인 품목을 조회하려면
 
-1. [PayPal 판매자 대시보드로 이동](https://www.paypal.com/merchant/){target=_blank}.
+1. [PayPal 판매자 대시보드](https://www.paypal.com/merchant/){target=_blank}(으)로 이동합니다.
 
 1. **활동** > **모든 트랜잭션**&#x200B;을 클릭합니다.
 
@@ -126,7 +127,7 @@ ht-degree: 0%
 
 ## 라인 항목 관리
 
-Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
+Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
 
 > 판매자 대시보드 뷰에 반올림 문제가 있는 라인 항목의 예
 

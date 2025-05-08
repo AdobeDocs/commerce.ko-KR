@@ -2,9 +2,9 @@
 title: 재무 보고
 description: '[!DNL Payment Services]은(는) 스토어의 주문과 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.'
 role: User
-feature: Payments, Checkout
+feature: Payments, Checkout, Paas, Saas
 level: Intermediate
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
