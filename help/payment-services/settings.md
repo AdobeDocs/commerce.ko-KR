@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Payment Services] 홈에서 유용한 설정을 사용하여 필요에 맞게 [!DNL Payment Services]을(를) 사용자 지정할 수 있습니다.
 
-[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대해 [!DNL Payment Services]을(를) 구성하려면 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하십시오. 이러한 구성 옵션은 [_일반_ 구성 옵션](#configure-general-settings)의 _[!UICONTROL Payment mode]_필드에 설정된 환경에만 적용됩니다.
+[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대해 [!DNL Payment Services]을(를) 구성하려면 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하십시오. 이러한 구성 옵션은 [_일반_ 구성 옵션](#configure-general-settings)의 _[!UICONTROL Payment mode]_&#x200B;필드에 설정된 환경에만 적용됩니다.
 
 다중 스토어 또는 레거시 구성에 대해서는 [관리에서 구성](configure-admin.md)을 참조하십시오.
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
    ![React 설정 보기](assets/react-settings-view.png){width="500" zoomable="yes"}
 
-   _[!UICONTROL General]_섹션에는 [!DNL Payment Services]을(를) 결제 방법으로 활성화하는 데 사용되는 설정이 포함되어 있습니다.
+   _[!UICONTROL General]_&#x200B;섹션에는 [!DNL Payment Services]을(를) 결제 방법으로 활성화하는 데 사용되는 설정이 포함되어 있습니다.
 
-1. 스토어의 결제 방법으로 [!DNL Payment Services]을(를) 사용하려면 _[!UICONTROL General]_섹션에서&#x200B;**[!UICONTROL Enable Payment Services as payment method]**을(를) `Yes`(으)로 전환합니다.
+1. 스토어의 결제 방법으로 [!DNL Payment Services]을(를) 사용하려면 _[!UICONTROL General]_&#x200B;섹션에서&#x200B;**[!UICONTROL Enable Payment Services as payment method]**&#x200B;을(를) `Yes`(으)로 전환합니다.
 
 1. 스토어에 대해 [!DNL Payment Services]을(를) 계속 테스트하는 경우 **결제 모드**&#x200B;를 `Sandbox`(으)로 설정하십시오. 실시간 결제를 사용할 준비가 되었으면 `Production`(으)로 설정하십시오.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ### 신용 카드 필드
 
-_[!UICONTROL Credit Card Fields]_설정은 신용 카드 또는 직불 카드 결제 방법을 위한 간단하고 안전한 체크아웃 옵션을 제공합니다.
+_[!UICONTROL Credit Card Fields]_&#x200B;설정은 신용 카드 또는 직불 카드 결제 방법을 위한 간단하고 안전한 체크아웃 옵션을 제공합니다.
 
 자세한 내용은 [결제 옵션](payments-options.md#credit-card-fields)을 참조하세요.
 
@@ -138,7 +138,7 @@ Paypal을 통해 [Apple Pay 자체 등록을 완료](https://developer.paypal.co
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 1. **[!UICONTROL Scope]** 드롭다운 메뉴에서 결제 방법을 사용할 스토어 보기를 선택합니다.
-1. **[!UICONTROL Apple Pay]** 섹션에서 _[!UICONTROL Checkout title]_필드의 값을 편집하여 체크아웃 중에 표시되는 결제 방법 이름을 변경합니다.
+1. **[!UICONTROL Apple Pay]** 섹션에서 _[!UICONTROL Checkout title]_&#x200B;필드의 값을 편집하여 체크아웃 중에 표시되는 결제 방법 이름을 변경합니다.
 1. [결제 작업을 설정](production.md#set-payment-services-as-payment-method)하려면 **[!UICONTROL Payment action]**&#x200B;을(를) `Authorize` 또는 `Authorize and Capture`(으)로 전환하십시오.
 1. 체크아웃 페이지에서 Apple Pay를 활성화하거나 비활성화하려면 **[!UICONTROL Show Apple Pay on checkout page]** 선택기를 전환하십시오.
 1. 제품 세부 사항 페이지에서 Apple Pay를 활성화하거나 비활성화하려면 **[!UICONTROL Show Apple Pay on product detail page]** 선택기를 전환하십시오.
@@ -205,8 +205,8 @@ PayPal 결제 버튼 결제 옵션을 활성화하고 구성할 수 있습니다
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: 텍스트 필드 |
 | [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
-| [!UICONTROL Show PayPal buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | 스토어 뷰 | 미니 장바구니 미리 보기에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show PayPal buttons on cart page] | 스토어 뷰 | 장바구니 페이지에서 [!DNL PayPal payment buttons]을(를) 사용하거나 사용하지 않도록 설정합니다. 옵션: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show PayPal Pay Later button] | 스토어 뷰 | 지급 버튼이 표시되는 나중에 지급 옵션 표시를 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Off] / [!UICONTROL On] |
@@ -218,7 +218,7 @@ PayPal 결제 버튼 결제 옵션을 활성화하고 구성할 수 있습니다
 
 ### 단추 스타일
 
-결제 버튼의 _[!UICONTROL Button style]_옵션을 구성할 수도 있습니다.
+결제 버튼의 _[!UICONTROL Button style]_&#x200B;옵션을 구성할 수도 있습니다.
 
 1. **[!UICONTROL Layout]**&#x200B;을(를) 변경하려면 `Vertical` 또는 `Horizontal`을(를) 선택하십시오.
 
@@ -242,7 +242,7 @@ PayPal 결제 버튼 결제 옵션을 활성화하고 구성할 수 있습니다
 
 1. [캐시를 플러시합니다](#flush-the-cache).
 
-관리자](configure-admin.md#configure-paypal-smart-buttons) 또는 여기 [!DNL Payment Services Home]의 레거시 구성에서 결제 단추 스타일 [을(를) 구성할 수 있습니다. PayPal 결제 단추 스타일에 대한 자세한 내용은 [PayPal의 단추 스타일 가이드](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/)를 참조하세요.
+관리자[&#128279;](configure-admin.md#configure-paypal-smart-buttons) 또는 여기 [!DNL Payment Services Home]의 레거시 구성에서 결제 단추 스타일 을(를) 구성할 수 있습니다. PayPal 결제 단추 스타일에 대한 자세한 내용은 [PayPal의 단추 스타일 가이드](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/)를 참조하세요.
 
 #### 구성 옵션
 

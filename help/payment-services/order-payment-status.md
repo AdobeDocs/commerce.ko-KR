@@ -134,7 +134,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 기본적으로 리인덱싱은 `ON SAVE` 모드에서 수행되지만 `BY SCHEDULE` 모드에서 인덱싱하는 것이 좋습니다. `BY SCHEDULE` 인덱스는 1분의 cron 일정에 따라 실행되며 변경된 데이터는 데이터 변경 후 2분 이내에 주문 상태 보고서에 표시됩니다. 이러한 예약된 리인덱싱은 특히 들어오는 주문량이 많은 경우 각 주문이 아닌 일정에 따라 발생하므로 스토어에 대한 부담을 줄이는 데 도움이 됩니다.
 
-관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—[을(를) 변경할 수 있습니다.
+관리자[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—을(를) 변경할 수 있습니다.
 
 데이터 내보내기를 구성하는 방법은 [명령줄 구성](configure-cli.md#configure-data-export)을 참조하세요.
 
@@ -144,18 +144,18 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
+_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 [!DNL Payment Services]을(를) 사용하는 스토어에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에 대한 보고서 정보를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
-* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
+* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
+* 라이브 모드에서 [!DNL Payment Services]을(를) 사용하는 저장소(하나 또는 여러 개)가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 [!UICONTROL Order Payment Status] 보고서의 데이터 원본을 선택하려면 다음을 수행하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > **[!UICONTROL Orders]** > **[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Data source]_선택기 필터를 클릭하고&#x200B;**[!UICONTROL Live]**또는&#x200B;**[!UICONTROL Sandbox]**을(를) 선택합니다.
+1. _[!UICONTROL Data source]_&#x200B;선택기 필터를 클릭하고&#x200B;**[!UICONTROL Live]**&#x200B;또는&#x200B;**[!UICONTROL Sandbox]**&#x200B;을(를) 선택합니다.
 
    선택한 데이터 소스를 기반으로 보고서 결과가 재생성됩니다.
 
@@ -164,7 +164,7 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 주문 결제 상태 보고서 보기에서 특정 날짜를 선택하여 보려는 상태 결과의 시간대를 사용자 정의할 수 있습니다. 기본적으로 30일의 주문 결제 상태가 그리드에 표시됩니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Order dates]_일정 선택기 필터를 클릭합니다.
+1. _[!UICONTROL Order dates]_&#x200B;일정 선택기 필터를 클릭합니다.
 1. 적용 가능한 날짜 범위를 선택합니다.
 1. 그리드에서 지정한 일자에 대한 주문 지급 상태를 조회합니다.
 
@@ -175,7 +175,7 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**(으)로 이동합니다.
 1. **[!UICONTROL Filter]** 선택기를 클릭합니다.
 1. _결제 상태_ 옵션을 전환하여 선택한 주문 결제 상태에 대한 보고서 결과만 표시합니다.
-1. _[!UICONTROL Min Order Amount]_또는 _[!UICONTROL Max Order Amount_]을(를) 입력하여 주문 금액 범위 내에서 보고서 결과를 봅니다.
+1. _[!UICONTROL Min Order Amount]_&#x200B;또는 _[!UICONTROL Max Order Amount_]을(를) 입력하여 주문 금액 범위 내에서 보고서 결과를 봅니다.
 1. 필터를 숨기려면 **[!UICONTROL Hide filters]**&#x200B;을(를) 클릭합니다.
 
 ### 열 표시 및 숨기기
@@ -208,7 +208,7 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 
 ### 보고서 데이터 업데이트
 
-주문 결제 상태 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_타임스탬프가 표시됩니다. 기본적으로 주문 결제 상태 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
+주문 결제 상태 보고서 보기에는 보고서 정보가 마지막으로 업데이트된 시간을 보여 주는 _[!UICONTROL Last updated]_&#x200B;타임스탬프가 표시됩니다. 기본적으로 주문 결제 상태 보고서 데이터는 3시간마다 자동으로 새로 고쳐집니다.
 
 주문 지급 상태 보고서 데이터를 수동으로 새로 고쳐 최신 보고서 정보를 볼 수도 있습니다.
 

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Payment Services]은(는) 온보딩 중 [사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다](../payment-services/production.md#complete-merchant-onboarding).
+> [!DNL Payment Services]은(는) 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 

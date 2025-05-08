@@ -29,8 +29,8 @@ ht-degree: 0%
 
    관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
 
-1. _[!UICONTROL General Configuration]_에서&#x200B;**[!UICONTROL Enable]**을(를) `Yes`(으)로 설정합니다.
-1. _[!UICONTROL Credit Card Fields]_과(와)_[!UICONTROL PayPal payment buttons]_ 모두에 대해 **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
+1. _[!UICONTROL General Configuration]_&#x200B;에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL Credit Card Fields]_&#x200B;과(와)_[!UICONTROL PayPal payment buttons]_ 모두에 대해 **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 설정 | 설명 |
    |---|---|
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 
-   _[!UICONTROL Live onboarding]_단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
+   _[!UICONTROL Live onboarding]_&#x200B;단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
 
    이 텍스트 상자에는 온보딩을 완료하기 위해 PayPal을 사용하여 이메일 주소를 확인하라는 메시지가 표시될 수도 있습니다.
 
@@ -155,7 +155,7 @@ _프로덕션 판매자 ID_&#x200B;이(가) 자동으로 생성되고 [구성](c
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 1. 홈에서 페이지의 오른쪽 상단에 있는 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [홈](payments-home.md)을 참조하세요.
-1. _[!UICONTROL General Configuration]_섹션에서&#x200B;**[!UICONTROL Payment mode]**을(를) `Production`(으)로 설정합니다.
+1. _[!UICONTROL General Configuration]_&#x200B;섹션에서&#x200B;**[!UICONTROL Payment mode]**&#x200B;을(를) `Production`(으)로 설정합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. [캐시를 지웁니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 

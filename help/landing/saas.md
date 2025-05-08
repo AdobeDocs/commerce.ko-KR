@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 데이터 충돌을 방지하려면 프로덕션 [!DNL Commerce] 설치에서만 **프로덕션 SaaS 데이터 공간**을 사용하십시오. 그렇지 않으면 테스트 데이터로 프로덕션 사이트 데이터를 오염시켜 배포가 지연될 위험이 있습니다. 예를 들어 스테이징 URL과 같은 스테이징 데이터에서 프로덕션 제품 데이터를 실수로 덮어쓸 수 있습니다.
+> 데이터 충돌을 방지하려면 프로덕션 [!DNL Commerce] 설치에서만 **프로덕션 SaaS 데이터 공간**&#x200B;을 사용하십시오. 그렇지 않으면 테스트 데이터로 프로덕션 사이트 데이터를 오염시켜 배포가 지연될 위험이 있습니다. 예를 들어 스테이징 URL과 같은 스테이징 데이터에서 프로덕션 제품 데이터를 실수로 덮어쓸 수 있습니다.
 > 이 경우 데이터 정리를 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)하십시오.
 
 ### SaaS 데이터 공간 프로비저닝
@@ -115,7 +115,7 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
    [!DNL Commerce] 구성에 **[!UICONTROL Commerce Services Connector]** 섹션이 표시되지 않으면 원하는 [[!DNL Commerce] 서비스](#availableservices)에 대한 [!DNL Commerce] 모듈을 설치하십시오. 또한 `magento/module-services-id` 패키지가 설치되어 있는지 확인하십시오.
 
-1. _[!UICONTROL Sandbox API Keys]_및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
+1. _[!UICONTROL Sandbox API Keys]_&#x200B;및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
 
    - 비공개 키에는 키 시작 부분의 `----BEGIN PRIVATE KEY---` 및 키 끝 부분의 `----END PRIVATE KEY----`이(가) 포함되어야 합니다.
    - 실제 키의 사본이 없는 경우 계정 소유자에게 요청한 다음 값을 구성에 연결합니다.
