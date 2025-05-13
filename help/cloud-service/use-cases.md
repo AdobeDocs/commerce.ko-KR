@@ -3,9 +3,9 @@ title: 사용 사례
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.'
 role: User, Leader
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-source-git-commit: d5935f4d080c3be1f51bf8916575a3b2f357ee22
+source-git-commit: f01e9ae84830ab265c8b6557ec81e5594179fb10
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ### 결제 서비스 활성화
 
-1. Commerce 관리자에서 [!UICONTROL **설정**] > [!UICONTROL **결제 방법**]&#x200B;으로 이동합니다.
+1. Commerce 관리에서 [!UICONTROL **스토어**] > [!UICONTROL Settings] > [!UICONTROL **구성**] > [!UICONTROL **결제 방법**]&#x200B;으로 이동합니다.
 
 1. [!UICONTROL **일반 구성**] 섹션에서 `Payment Services Sandbox ID` 및 `Payment Services Sandbox Key`을(를) 입력하십시오. [샌드박스 온보딩](../payment-services/sandbox.md#sandbox-onboarding)에 설명된 단계를 따라 이러한 ID를 가져올 수 있습니다
 
@@ -199,7 +199,7 @@ Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 �
 
 #### Commerce AEM Assets에 이미지 추가
 
-1. AEM as a Cloud Service의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 **Assets** > **파일** > **Commerce**&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. AEM as a Cloud Service의 [탐색 패널](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 **Assets** > **파일** > **Commerce**&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![상거래 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -249,7 +249,7 @@ Adobe Commerce의 변형 생성 은 생성 AI를 활용하여 고품질 콘텐�
 
 ### 텍스트 생성
 
-1. [유니버설 편집기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
+1. [유니버설 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
 
 1. 편집할 텍스트 블록을 선택합니다.
 
@@ -263,7 +263,7 @@ Adobe Commerce의 변형 생성 은 생성 AI를 활용하여 고품질 콘텐�
 
 ### 컨텐츠 및 이미지 생성
 
-1. [변형 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
+1. [변형 생성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
 
 1. [!UICONTROL **영웅 배너**] 템플릿을 선택하십시오.
 
