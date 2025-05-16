@@ -274,7 +274,7 @@ storefront 표준 코드 루트 디렉터리에 있는 기본 구성 파일(`con
 
    자세한 내용은 [Sidekick 라이브러리 설명서](https://www.aem.live/docs/sidekick-library)를 참조하세요.
 
-+++
+   +++
 
 1. `url` 키 값을 GitHub 저장소의 값으로 업데이트합니다.
 
@@ -314,7 +314,7 @@ storefront 표준 코드 루트 디렉터리에 있는 기본 구성 파일(`con
    }
    ```
 
-+++
+   +++
 
 1. 파일을 저장합니다.
 
