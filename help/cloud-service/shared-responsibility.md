@@ -3,7 +3,7 @@ title: 공동 책임
 description: ' [!DNL Adobe Commerce as a Cloud Service]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 role: Admin, Architect, Leader
 exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
 workflow-type: tm+mt
 source-wordcount: '343'
