@@ -32,12 +32,12 @@ ht-degree: 0%
 
 | 안내서 | 설명 |
 |------ | ----------- |
-| [Adobe Commerce 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce.html) | Adobe Commerce 및 Magento Open Source 모두에 대한 판매자 중심 설명서 |
+| [Adobe Commerce 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce.html?lang=ko) | Adobe Commerce 및 Magento Open Source 모두에 대한 판매자 중심 설명서 |
 | [Adobe Commerce 2.4 개발자 안내서](https://developer.adobe.com/commerce/docs) | Adobe Commerce 또는 Magento Open Source을 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서 |
 
 ## 지원
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-* [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-tickets){target="_blank"} - [!DNL Product Recommendations] 관련 문제 해결 문서를 참조하십시오.
-* [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket){target="_blank"}—추가 지원을 받으려면 티켓을 제출하세요.
+* [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-tickets){target="_blank"} - [!DNL Product Recommendations] 관련 문제 해결 문서를 참조하십시오.
+* [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket){target="_blank"}—추가 지원을 받으려면 티켓을 제출하세요.
