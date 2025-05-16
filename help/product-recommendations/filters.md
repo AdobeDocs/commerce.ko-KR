@@ -42,7 +42,7 @@ Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 �
 
 ### 범주
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 카테고리를 기반으로 제품을 필터링합니다. 범주 필터는 직접 범주 할당 및 해당 하위 범주를 사용합니다. 예를 들어 `Gear` 범주에 대한 제외 조건을 활성화하면 `Gear`에 할당된 제품과 `Gear/Bags` 또는 `Gear/Fitness Equipment`과(와) 같은 모든 하위 범주가 제외됩니다. 범주의 포함 필터에 대해서도 마찬가지입니다. 예를 들어 범주 `Gear`에 대한 포함 조건을 활성화하면 `Gear`에 할당된 제품과 `Gear/Bags` 또는 `Gear/Fitness Equipment`과(와) 같은 모든 하위 범주가 포함됩니다.
 
@@ -50,7 +50,7 @@ Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 �
 
 >[!NOTE]
 >
->B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html)를 준수합니다.
+>B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko)를 준수합니다.
 
 Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다음 카테고리 필터 구성을 사용하는 것을 권장합니다.
 
@@ -72,23 +72,23 @@ Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다�
 
 ### 유형
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 제품 유형에 따른 필터는 특정 유형의 모든 제품을 포함하거나 제외합니다. 지원되는 형식에는 _simple_, _configurable_, _virtual_, _downloadable_ 또는 _기프트 카드_&#x200B;가 있습니다. _번들_, _그룹화됨_ 및 사용자 지정 제품 유형은 지원되지 않습니다.
 
 ### 가시성
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 가시성을 기준으로 제품을 필터링합니다(예: _카탈로그_, _검색_ 또는 둘 다).
 
 ### 가격
 
-제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 구매자가 이용할 수 있는 할인 또는 특별 가격이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)을 반영합니다.
+제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 구매자가 이용할 수 있는 할인 또는 특별 가격이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 반영합니다.
 
 ### 재고 상태
 
 다음 제외 필터를 사용하여 재고 상태에 따라 제품을 필터링할 수 있습니다.
 
 - 품절 - (제외만 해당) 품절된 제품을 제외합니다.
-- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html)의 _X만 남은 임계값_ 값을 기반으로 합니다.
+- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html?lang=ko)의 _X만 남은 임계값_ 값을 기반으로 합니다.

@@ -3,7 +3,7 @@ title: 카테고리 머천다이징
 description: 더 빠른 쇼핑 경험을 위해  [!DNL Live Search] 카테고리 머천다이징을 사용하십시오.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 59aa4ae67a1a8a853b72d78cd65a6cc44a6bc662
 workflow-type: tm+mt
 source-wordcount: '1118'
