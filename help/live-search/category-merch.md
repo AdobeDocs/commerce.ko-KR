@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 비디오는 카테고리 머천다이징에 대해 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424617)
+>[!VIDEO](https://video.tv.adobe.com/v/3448858?captions=kor)
 
 이 기능은 **마케팅** > SEO 및 검색 > **[!DNL Live Search]** > **카테고리 머천다이징**&#x200B;의 관리자에서 액세스할 수 있습니다.
 
