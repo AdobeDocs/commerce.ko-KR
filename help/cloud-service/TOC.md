@@ -5,11 +5,10 @@ breadcrumb-title: Cloud Service 안내서
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 140bf38ffc42289772c8347db591edfbd6504ea7
+source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +16,7 @@ ht-degree: 13%
 # [!DNL Adobe Commerce as a Cloud Service] {#cloud-service}
 
 - [개요](overview.md)
+- [기능 비교](feature-comparison.md)
 - [시작](getting-started.md)
 - [사용자 관리](user-management.md)
 - [상점 첫 화면](storefront.md)
