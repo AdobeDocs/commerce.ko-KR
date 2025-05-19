@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 5e5b3340f45b5db7a6a01ed1b89c42f6399f66b9
+source-git-commit: 1b3af0084d622d544cad5f144d3cd7bd8191814c
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,14 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 103.4.4 릴리스
+
+![새로 만들기](../assets/new.svg) `cleanup-feed` 인수를 `saas:resync` CLI 명령에 추가할 때 표시되는 경고 메시지가 추가되었습니다. `--cleanup-feed` 옵션은 환경 정리 후나 `--dry-run` 옵션과 같은 특정 시나리오에서만 주의해서 사용해야 합니다. 다른 경우에 사용하면 데이터가 손실되고 동기화 문제가 발생할 수 있습니다. <!--MDEE-1047-->
+![수정](../assets/fix.svg) 추적 가능성을 개선하기 위해 서버 응답에서 `x-request-id`을(를) 추가했습니다. <!--MDEE-1041-->
+![수정](../assets/fix.svg) 전체 피드 배치에 대해 동기화 상태가 저장되지 않아 다시 동기화되지 않는 문제를 해결했습니다. <!--MDEE-1049-->
+![수정](../assets/fix.svg) 한 피드에 오류가 있는 경우 동기화 중에 피드 배치의 모든 피드를 건너뛰는 문제를 해결했습니다. <!--MDEE-976-->
+![수정](../assets/fix.svg) 범주 권한 인덱서에서 차원에 대한 지원이 추가되었습니다. <!--MDEE-654-->
 
 ## 103.4.3 릴리스
 
