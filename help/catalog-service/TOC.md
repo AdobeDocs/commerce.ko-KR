@@ -22,6 +22,6 @@ ht-degree: 12%
    - [카탈로그 서비스 및 API 메쉬](mesh.md)
    - [사용 사례: 과세 가격 표시](taxes.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
 
 
