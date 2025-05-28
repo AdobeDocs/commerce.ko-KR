@@ -5,10 +5,10 @@ breadcrumb-title: '[!DNL Catalog Service] 안내서'
 hide: true
 role: Admin
 feature: Services, Catalog Service
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 3d76363c2dcbd65a5b54b2b958e23e495460d26d
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 10%
 - [안내서 개요](guide-overview.md)
 - [ [!DNL Catalog Service] 소개](overview.md)
 - [온보딩 및 설치](installation.md)
-- [카탈로그 서비스 및 API 메쉬](mesh.md)
-- [API Mesh를 사용하여 세금 가격 표시](taxes.md)
-- GraphQL 쿼리 {#graphql}
-   - [범주 쿼리](https://developer.adobe.com/commerce/services/graphql/catalog-service/categories/)
-   - [제품 쿼리](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/)
-   - [productSearch 쿼리](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/)
-   - [refineProduct 쿼리](https://developer.adobe.com/commerce/services/graphql/catalog-service/refine-product/)
+- [카탈로그 데이터 검색](graphql-queries.md)
+- 다른 애플리케이션과 통합 {#integration}
+   - [카탈로그 서비스 및 API 메쉬](mesh.md)
+   - [사용 사례: 과세 가격 표시](taxes.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+
 
