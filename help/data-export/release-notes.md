@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 1b3af0084d622d544cad5f144d3cd7bd8191814c
+source-git-commit: c9a87df4aa64081b51fd52d84d97fe3949045e31
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 103.4.5 릴리스
+
+![새로 만들기](../assets/new.svg) SaaS 데이터 내보내기가 이제 Adobe Commerce `giftcard` 제품 형식을 지원합니다. 데이터 피드에서 기프트 카드 제품을 제품 특성 유형이 `ac_giftcard`인 간단한 제품으로 내보냅니다. <!--MDEE-1042-->
+![수정](../assets/fix.svg) 데이터 내보내기 오류 보고가 개선되었습니다. 이제 로그에는 오류를 더 쉽게 디버깅하고 추적할 수 있도록 원본 기술 세부 정보를 포함하여 더 자세한 오류 메시지가 포함됩니다. <!--MDEE-1064-->
 
 ## 103.4.4 릴리스
 
