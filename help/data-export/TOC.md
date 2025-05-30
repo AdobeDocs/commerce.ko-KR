@@ -24,4 +24,4 @@ ht-degree: 5%
    - [SaaS 데이터 내보내기 피드 확장 및 사용자 지정](extensibility-and-customizations.md)
    - [제품 속성을 동적으로 추가](add-attribute-dynamically.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
