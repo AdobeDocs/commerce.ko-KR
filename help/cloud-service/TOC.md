@@ -1,14 +1,13 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce as a Cloud Service] 안내서'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
-breadcrumb-title: Cloud Service 안내서
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '23'
+ht-degree: 26%
 
 ---
 

@@ -1,14 +1,13 @@
 ---
 user-guide-title: '[!DNL Catalog Service] 안내서'
 user-guide-description: 이 안내서에서는 Adobe Commerce용  [!DNL Catalog Service] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
-breadcrumb-title: '[!DNL Catalog Service] 안내서'
 hide: true
 role: Admin
 feature: Services, Catalog Service
-source-git-commit: 3d76363c2dcbd65a5b54b2b958e23e495460d26d
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +21,6 @@ ht-degree: 12%
    - [카탈로그 서비스 및 API 메쉬](mesh.md)
    - [사용 사례: 과세 가격 표시](taxes.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
 
 

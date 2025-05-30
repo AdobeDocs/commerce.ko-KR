@@ -1,12 +1,11 @@
 ---
-title: 서비스 설명서
+title: 서비스 안내서 홈
 description: Commerce SaaS 서비스에 대한 Adobe Commerce 제품 설명서 찾아보기
 seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
-breadcrumb-title: 설명서
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
+source-git-commit: 2b948cd07020b1f53616fe201dcc5781ca2f9bcc
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -103,7 +102,7 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
          </a>
       </div>
       <p>
@@ -144,11 +143,11 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
          </a>
       </div>

@@ -1,13 +1,12 @@
 ---
 user-guide-title: '[!DNL Product Recommendations] 안내서'
 user-guide-description: 이 안내서에서는 Adobe Commerce에서  [!DNL Product Recommendations] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
-breadcrumb-title: '[!DNL Product Recommendations] 안내서'
 role: Admin
 feature: Services, Recommendations
-source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 13%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 13%
 - [안내서 개요](guide-overview.md)
 - [ [!DNL Product Recommendations] 소개](overview.md)
 - [릴리스 정보](release-notes.md)
-- 시작{#getting-started}
+- 시작 {#getting-started}
    - [온보딩](onboarding.md)
    - [구현 워크플로](implementation-workflow.md)
    - [Headless](headless.md)
@@ -37,4 +36,4 @@ ht-degree: 13%
    - [확인](verify.md)
    - [사용자 지정](customize.md)
    - [쿠키 제한 처리](setting-cookie.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

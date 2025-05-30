@@ -1,15 +1,14 @@
 ---
 user-guide-title: '[!DNL Store FulFillment Guide]'
 user-guide-description: Adobe Commerce 스토어를 위한 스토어 이행 기능의 설치, 구성 및 사용에 대한 자세한 정보입니다.
-breadcrumb-title: Adobe Commerce용 스토어 이행
 index: true
 feature: Shipping/Delivery
 role: Admin, User
 recommendations: noDisplay
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 8%
    - [저장소 이행 연결](connect-set-up-service.md)
    - [테스트 및 배포](test-and-deploy.md)
 - [구성 개요](service-config-settings-overview.md)
-- 저장소 구성 {#store-configuration}
+- 구성 저장 {#store-configuration}
    - [일반 구성](enable-general.md)
    - [영업 이메일 템플릿](sales-emails.md)
    - [판매점(출처)](merchant-store-configuration.md)
