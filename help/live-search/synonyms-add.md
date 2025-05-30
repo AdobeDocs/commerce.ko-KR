@@ -2,23 +2,23 @@
 title: 동의어 추가
 description: 검색 요청에 대한 응답을 향상시키려면  [!DNL Live Search] 동의어를 추가하십시오.
 exl-id: 2dc535ea-35a3-45a8-8171-901005223cc9
-source-git-commit: 81bde302463a70e41318b494565694929703dff9
+source-git-commit: 6dcfd0a54e6a6814b7f5708e0c221452b8af4537
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # 동의어 추가
 
-[!DNL Live Search] 동의어의 선별된 목록을 추가하여 고객 참여를 늘리십시오. [!DNL Live Search]에서 `Data Space ID`당 최대 200개의 동의어를 관리할 수 있습니다.
+[!DNL Live Search] 동의어의 선별된 목록을 추가하여 고객 참여를 늘리십시오. [!DNL Live Search]은(는) 스토어 보기당 최대 200개의 동의어를 관리할 수 있습니다.
 
 ![[!DNL Live Search] 동의어](assets/synonym-workspace.png)
 
 ## 1단계: 동의어 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 여러 스토어의 경우 동의어 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
+1. 여러 스토어의 경우 동의어 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
 1. **동의어** 탭을 클릭합니다.
 1. **동의어 추가** 단추를 클릭합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    ![양방향 동의어 예제](assets/synonym-add-two-way-example.png)
 
-1. 완료되면 **저장**&#x200B;을 클릭하세요.
+1. 완료되면 **저장**을 클릭하세요.
 동의어 집합은 각 용어 사이에 양방향 화살표가 있는 목록에 나타나며, 이 화살표는 각 용어가 상호 교환 가능하다는 것을 의미합니다.
 
    ![양방향 동의어](assets/synonym-two-way.png)
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    이 예에서 키워드는 &quot;pants&quot;이고 단방향 확장 용어 &quot;capris, peddle-pushers&quot;는 각각 &quot;pants&quot;의 하위 집합이지만 특정 의미가 있습니다.
 
-1. 완료되면 **저장**&#x200B;을 클릭하세요.
+1. 완료되면 **저장**을 클릭하세요.
 동의어 집합은 확장 용어에서 키워드로 가리키는 단방향 화살표와 함께 목록에 표시되어 용어가 키워드의 하위 집합임을 나타냅니다. 더하기 기호는 각 확장 항을 구분합니다.
 
    ![단방향 동의어](assets/synonym-one-way.png)
