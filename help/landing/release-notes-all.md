@@ -31,7 +31,7 @@ ht-degree: 0%
         <p>Commerce 서비스를 다른 서비스 및 Adobe 확장 및 제품과 연결할 수 있도록 하는 통합 서비스의 최신 개선 사항에 대해 알아봅니다.</p>
           <ul>
             <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html?lang=ko">[!DNL Data Connection]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html">[!DNL Services Connector]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html?lang=ko">[!DNL Services Connector]</a></li>
           </ul>
       </td>
       <td><strong>데이터 서비스</strong>
