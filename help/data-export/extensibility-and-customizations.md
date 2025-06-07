@@ -2,9 +2,10 @@
 title: SaaS 데이터 내보내기 피드 데이터 확장 및 사용자 지정
 description: ' [!DNL SaaS Data Export] 피드 데이터를 확장하고 사용자 지정하는 방법을 알아봅니다.'
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
+source-git-commit: ac6c690f87e3df2ac4997d80453028829be8e657
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 0%
 
 ### Adobe Commerce에 속성 추가
 
-Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식으로 사용자 지정 PHP 모듈을 사용하여 특성을 정의하고 Adobe Commerce을 업데이트할 수 있습니다. 속성 및 필요한 모든 메타데이터를 추가할 수 있으므로 제품 속성을 추가하는 가장 간단한 방법입니다. 새 속성 및 해당 메타데이터 속성은 다음에 예약된 동기화 중에 자동으로 SaaS 서비스로 내보내집니다.
+Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식으로 사용자 지정 PHP 모듈을 사용하여 특성을 정의하고 Adobe Commerce을 업데이트할 수 있습니다. 속성과 필요한 모든 메타데이터를 한 번에 추가할 수 있으므로 Commerce 관리자의 속성을 추가하는 것이 가장 간단한 방법입니다. 새 속성 및 해당 메타데이터 속성은 다음에 예약된 동기화 중에 자동으로 SaaS 서비스로 내보내집니다.
 
 #### 관리에서 제품 속성 만들기
 
@@ -58,19 +59,19 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 1. 필요에 따라 속성 집합에 속성을 추가합니다.
 
-*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
+*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
 
 #### 프로그래밍 방식으로 제품 특성 만들기
 
 `DataPatchInterface`을(를) 구현하는 데이터 패치를 만들어 프로그래밍 방식으로 제품 특성을 추가하고 생성자 내에서 `EavSetup Factory` 클래스의 복사본을 인스턴스화하여 특성 옵션을 구성합니다.
 
-특성 옵션을 정의할 때 `type`, `label` 및 `input`을(를) 제외한 모든 특성 매개 변수는 선택 사항입니다. 다음 추가 옵션 및 기본 설정과 다른 옵션을 정의합니다.
+특성 옵션을 정의할 때 `type`, `label` 및 `input`을(를) 제외한 모든 특성 매개 변수는 선택 사항입니다. 다음 추가 매개 변수와 기본 설정과 다른 매개 변수를 정의합니다.
 
-- `user_defined` = `1`을(를) 설정하여 데이터를 동기화하는 동안 속성을 Storefront 서비스로 내보내야 합니다.
-- 제품 목록 데이터베이스 쿼리 내에서 특성에 액세스할 수 있도록 하려면 `used_in_product_listing` = `1`을(를) 설정합니다.
+- **`user_defined`=`1`**—데이터를 동기화하는 동안 특성을 상점 서비스로 내보냅니다.
+- **`used_in_product_listing`=`1`**—제품 목록 데이터베이스 쿼리 내에서 특성에 액세스할 수 있도록 설정합니다.
 
 데이터 패치 만들기에 대한 자세한 내용은 *PHP 개발자 안내서*&#x200B;에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)을 참조하십시오.
 
 ### 제품 속성을 동적으로 추가
 
-새 Eav 특성을 도입하지 않고 제품 특성을 동적으로 만드는 방법에 대한 자세한 내용은 [특성을 동적으로 추가](add-attribute-dynamically.md)를 참조하십시오.
+새 EAV 특성을 도입하지 않고 제품 특성을 동적으로 만드는 방법에 대한 자세한 내용은 [특성을 동적으로 추가](add-attribute-dynamically.md)를 참조하십시오.
