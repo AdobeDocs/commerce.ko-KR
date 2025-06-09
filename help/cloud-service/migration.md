@@ -2,7 +2,7 @@
 title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
 description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Architect
 source-git-commit: 395def94181016b12a00ce675bb15ef6c8f10309
 workflow-type: tm+mt
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * [Adobe Commerce on Cloud Services 아키텍처](./overview.md) - 플랫폼 아키텍처 및 현재 Adobe Commerce 인스턴스와 어떻게 다른지 검토하십시오.
    * [Adobe Commerce 확장성 프레임워크](https://developer.adobe.com/commerce/extensibility/) - 현재 사용자 지정 내용을 전환하는 방법을 식별합니다.
-   * [Edge Delivery에서 제공하는 Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/) - 권장 Storefront 솔루션을 검토하십시오.
+   * [Edge Delivery에서 제공하는 Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) - 권장 Storefront 솔루션을 검토하십시오.
 
 1. 사용자 정의 호환성 감사:
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 다음 GraphQL 기반 상점 중 하나를 설정합니다.
 
-   * [Commerce 상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
+   * [Commerce 상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)
    * [PWA Studio을 사용하여 사용자 지정 GraphQL 기반 상점을 만드십시오](https://developer.adobe.com/commerce/pwa-studio/)
 
 1. 이전 Commerce 인스턴스에서 ACCS로 데이터를 마이그레이션합니다.
