@@ -29,7 +29,7 @@ ht-degree: 0%
 1. _[!UICONTROL [!DNL Payment Services]]_&#x200B;섹션에서&#x200B;_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
 1. **사용**&#x200B;의 경우 스토어에 대해 [!DNL Payment Services]을(를) 사용하려면 `Yes`(으)로 설정하십시오.
 1. **메서드**&#x200B;의 경우 스토어에 대해 [!DNL Payment Services]을(를) 테스트하는 경우 `Sandbox`(으)로 설정하고, 실시간 결제를 활성화할 준비가 된 경우 `Production`(으)로 설정하십시오.
-1. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank}를 설정하고 [!DNL Payment Services] 대시보드를 처음 방문하면 **[!UICONTROL Payment Services Sandbox ID]** 및 **[!UICONTROL Payment Services Production ID]** 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
+1. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank}를 설정하고 [!DNL Payment Services] 대시보드를 처음 방문하면 **[!UICONTROL Payment Services Sandbox ID]** 및 **[!UICONTROL Payment Services Production ID]** 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
 
    >[!WARNING]
    >
@@ -80,7 +80,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 신용 카드 필드를 활성화 또는 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](vaulting.md)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
@@ -114,7 +114,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 [!DNL Apple Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL Apple Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -151,7 +151,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에 이 결제 옵션에 대해 표시되는 텍스트 레이블을 지정합니다. 옵션: `[!UICONTROL text field]` |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: `[!UICONTROL Authorize]` / `[!UICONTROL Authorize and Capture]` |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: `[!UICONTROL Authorize]` / `[!UICONTROL Authorize and Capture]` |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 [!DNL Google Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL Google Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -199,7 +199,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: 텍스트 필드 |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Display Pay Later Message] | 웹 사이트 | 장바구니, 제품 페이지, 미니 장바구니에서, 그리고 체크아웃 흐름 동안 나중에 결제 메시지를 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Show buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Show buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
