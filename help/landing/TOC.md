@@ -4,10 +4,10 @@ user-guide-description: Adobe Commerce 및 Magento Open Source에 확장 기능�
 role: Admin, Leader, User
 feature: Integration, Personalization, Services, Saas
 recommendations: noDisplay
-source-git-commit: 2b948cd07020b1f53616fe201dcc5781ca2f9bcc
+source-git-commit: 468994935eb35fda7880351e4e313b6fd54dc0a0
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '55'
+ht-degree: 36%
 
 ---
 
@@ -18,20 +18,16 @@ ht-degree: 37%
    - [릴리스 정보](/help/landing/release-notes-all.md)
 - [제품 솔루션](product-solutions.md)
 - Commerce 서비스 {#commerce-services}
-   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)
-   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)
-   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ko)
-   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)
+   - [[!DNL Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)
+   - [[!DNL Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview)
+   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)
+   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 - 통합 서비스 {#integration-services}
-   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html?lang=ko)
+   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html)
    - [서비스 커넥터](/help/landing/saas.md)
 - 데이터 도구 {#data-services}
-   - [SaaS 데이터 내보내기](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html?lang=ko)
-   - [SaaS 가격 인덱싱](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html?lang=ko)
+   - [SaaS 데이터 내보내기](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
+   - [SaaS 가격 인덱싱](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html)
    - [카탈로그 동기화](/help/landing/catalog-sync.md)
-
-
-
-
-
-
