@@ -2,7 +2,7 @@
 title: 설정
 description: ' [!DNL Product Recommendations] 데이터 소스를 변경하는 방법과 시각적 권장 사항을 활성화하는 방법을 알아봅니다.'
 exl-id: fe37624d-c53e-40cd-b182-10f62cba74c0
-source-git-commit: c11e3fbc871600f413867e0c5c0b75ad705cf115
+source-git-commit: fe5f864262478d1f9e205f2cd275452594cf4675
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->REST를 통해 제품 추천을 사용할 때 `alternateEnvironmentId` 매개 변수를 사용하여 다른 데이터 공간을 지정할 수 있습니다. [GraphQL](https://developer.adobe.com/commerce/services/graphql/recommendations/recommendations/)를 통해 제품 권장 사항을 사용할 때는 이 매개 변수를 사용할 수 없습니다.
+>REST를 통해 제품 추천을 사용할 때 `alternateEnvironmentId` 매개 변수를 사용하여 다른 데이터 공간을 지정할 수 있습니다. [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/product-recommendations/queries/recommendations/)를 통해 제품 권장 사항을 사용할 때는 이 매개 변수를 사용할 수 없습니다.
 
 ## 권장 사항 소스 선택
 

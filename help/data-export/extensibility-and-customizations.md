@@ -3,7 +3,7 @@ title: SaaS 데이터 내보내기 피드 데이터 확장 및 사용자 지정
 description: ' [!DNL SaaS Data Export] 피드 데이터를 확장하고 사용자 지정하는 방법을 알아봅니다.'
 role: Admin, Developer
 exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
-source-git-commit: ac6c690f87e3df2ac4997d80453028829be8e657
+source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Commerce Data Export] 확장을 사용하면 [!DNL Commerce] 응용 프로그램에서 Live Search, Catalog Service 및 Product Recommendations와 같은 Commerce 서비스로 데이터를 내보낼 수 있습니다. 필요한 경우 피드 데이터를 확장 및 사용자 정의하여 추가 속성 데이터를 포함하거나 수집된 데이터를 수정할 수 있습니다.
 
-특성 데이터를 추가한 후 storefront 서비스를 위한 GraphQL 스키마의 [특성 필드](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#productviewattribute-type)에서 액세스할 수 있습니다.
+특성 데이터를 추가한 후 storefront 서비스를 위한 GraphQL 스키마의 [특성 필드](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type)에서 액세스할 수 있습니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## Adobe Commerce에 제품 속성 추가
 
-개발자는 다음 방법 중 하나를 사용하여 [제품 특성 필드](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#output-fields)에서 액세스할 수 있는 제품 특성을 추가할 수 있습니다.
+개발자는 다음 방법 중 하나를 사용하여 [제품 특성 필드](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#output-fields)에서 액세스할 수 있는 제품 특성을 추가할 수 있습니다.
 
 - Commerce 상점 서비스로 내보낸 `products` 피드 데이터에 포함할 특성을 Adobe Commerce에 추가합니다.
 - 플러그인을 사용하여 피드 동기화 프로세스 중에 속성을 동적으로 추가합니다.
@@ -59,7 +59,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 1. 필요에 따라 속성 집합에 속성을 추가합니다.
 
-*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
+*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
 
 #### 프로그래밍 방식으로 제품 특성 만들기
 

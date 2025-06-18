@@ -4,7 +4,7 @@ description: Adobe Commerce용 [!DNL Catalog Service]은(는) 기본 Adobe Comme
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
-source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
+source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe Commerce 확장용 [!DNL Catalog Service]은(는) 다음을 포함하여 �
 * 제품 비교 페이지
 * 장바구니, 주문 및 위시리스트 페이지와 같이 제품 데이터를 렌더링하는 다른 모든 페이지
 
-The [!DNL Catalog Service] uses [GraphQL](https://graphql.org/) to request and receive catalog data including products, product attributes, inventory, and prices. GraphQL is a query language that a frontend client uses to communicate with the application programming interface (API) defined on a backend such as Adobe Commerce. GraphQL is a popular method of communication because it is lightweight and allows a system integrator to specify the contents and order of each response.
+[!DNL Catalog Service]은(는) [GraphQL](https://graphql.org/)을(를) 사용하여 제품, 제품 특성, 재고 및 가격을 포함한 카탈로그 데이터를 요청하고 받습니다. GraphQL은 프론트엔드 클라이언트가 Adobe Commerce과 같은 백엔드에 정의된 API(애플리케이션 프로그래밍 인터페이스)와 통신하는 데 사용하는 쿼리 언어입니다. GraphQL은 가볍고 시스템 통합자가 각 응답의 내용과 순서를 지정할 수 있으므로 널리 사용되는 통신 방법입니다.
 
 Adobe Commerce에는 두 개의 GraphQL 시스템이 있습니다. 핵심 GraphQL 시스템은 구매자가 제품, 고객 계정, 장바구니, 체크아웃 등을 포함한 다양한 유형의 페이지와 상호 작용할 수 있도록 광범위한 쿼리(읽기 작업)와 변형(쓰기 작업)을 제공합니다. 하지만 제품 정보를 반환하는 쿼리는 속도에 최적화되지 않습니다. 서비스 GraphQL 시스템은 제품 및 관련 정보에 대한 쿼리만 수행할 수 있습니다. 이러한 쿼리는 유사한 핵심 쿼리보다 성능이 뛰어납니다.
 
@@ -47,11 +47,11 @@ Adobe Commerce에는 두 개의 GraphQL 시스템이 있습니다. 핵심 GraphQ
 
 ## 아키텍처 세부 정보
 
-The following sections describe some of the differences between the two GraphQL systems.
+다음 섹션에서는 두 GraphQL 시스템 간의 몇 가지 차이점에 대해 설명합니다.
 
-### Schema management
+### 스키마 관리
 
-Since Catalog Service operates as a service, integrators do not need to be concerned about the underlying version of Commerce. The syntax of the queries is the same for all versions. In addition, the schema is consistent for all merchants. 이러한 일관성을 통해 모범 사례를 보다 쉽게 설정하고 상점 위젯의 재사용을 크게 늘릴 수 있습니다.
+Catalog Service는 서비스로 작동하므로 통합자는 Commerce의 기본 버전에 대해 신경쓰지 않아도 됩니다. 쿼리의 구문은 모든 버전에 대해 동일합니다. 또한 스키마는 모든 판매자에 대해 일관됩니다. 이러한 일관성을 통해 모범 사례를 보다 쉽게 설정하고 상점 위젯의 재사용을 크게 늘릴 수 있습니다.
 
 ### 제품 유형 단순화
 
@@ -65,7 +65,7 @@ Since Catalog Service operates as a service, integrators do not need to be conce
 
 #### 제품 보기 속성
 
-단순 제품과 복합 제품 모두 상점에 표시할 수 있는 고객 정의 속성이 있습니다. 이러한 특성은 [ProductViewAttributes](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#productviewattribute-type)&#x200B;(으)로 반환됩니다. Adobe Commerce에서 사용 가능한 속성은 제품을 만들 때 정의됩니다. Adobe Commerce 백엔드에서 또는 프로그래밍 방식으로 특성을 추가할 수 있습니다. [SaaS 데이터 내보내기 피드 데이터 확장 및 사용자 지정](../data-export/extensibility-and-customizations.md)을 참조하세요.
+단순 제품과 복합 제품 모두 상점에 표시할 수 있는 고객 정의 속성이 있습니다. 이러한 특성은 [ProductViewAttributes](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type)&#x200B;(으)로 반환됩니다. Adobe Commerce에서 사용 가능한 속성은 제품을 만들 때 정의됩니다. Adobe Commerce 백엔드에서 또는 프로그래밍 방식으로 특성을 추가할 수 있습니다. [SaaS 데이터 내보내기 피드 데이터 확장 및 사용자 지정](../data-export/extensibility-and-customizations.md)을 참조하세요.
 
 >[!TIP]
 >
@@ -85,6 +85,6 @@ Since Catalog Service operates as a service, integrators do not need to be conce
 
 ## 구현
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 설치 프로세스를 수행하려면 [Commerce 서비스 커넥터](../landing/saas.md)를 구성해야 합니다. 그런 다음 시스템 통합자는 [!DNL Catalog Service] 쿼리를 통합하기 위해 상점 코드를 업데이트합니다. 모든 [!DNL Catalog Service] 쿼리가 GraphQL 게이트웨이로 라우팅됩니다. 온보딩 프로세스 중에 URL이 제공됩니다.
