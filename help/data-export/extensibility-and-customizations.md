@@ -59,7 +59,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 1. 필요에 따라 속성 집합에 속성을 추가합니다.
 
-*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
+*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
 
 #### 프로그래밍 방식으로 제품 특성 만들기
 
