@@ -106,5 +106,5 @@ assetPath,commerce:positions{{Number: multi}},commerce:isCommerce{{String}},comm
 >[!MORELIKETHIS]
 >
 > [일괄 가져오기 도구 비디오 데모](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
-> > [팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
-> > [API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집
+> &#x200B;> [팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+> &#x200B;> [API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집
