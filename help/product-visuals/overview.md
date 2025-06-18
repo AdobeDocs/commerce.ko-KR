@@ -56,7 +56,7 @@ Adobe Commerce 및 제품 시각화 통합은 에셋 관리 워크플로를 자�
 
 이 비디오를 통해 Adobe Commerce과 AEM Assets이 함께 콘텐츠 워크플로를 간소화하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447891?captions=kor)
 
 ## 다음 단계
 
