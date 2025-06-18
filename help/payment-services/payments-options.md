@@ -3,9 +3,9 @@ title: 결제 옵션
 description: 스토어 고객이 사용할 수 있는 방법을 사용자 지정하려면 결제 옵션을 설정하십시오.
 exl-id: 95e648e6-6cb8-4226-b5ea-e1857212f20a
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 0d00ce6e5291b3753cb7e2ee9e8af262b2c8894f
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,10 @@ ht-degree: 0%
 미니카트의 ![Apple 결제 단추](assets/applepay-button.png){width="500" zoomable="yes"}
 
 사용하도록 설정하면 제품 페이지, 미니 장바구니, 장바구니 및 체크아웃 보기에서 [!DNL Apple Pay] 단추가 표시됩니다. 저장소 구성 또는 확장의 홈에서 [!DNL Apple Pay]을(를) 구성할 수 있습니다.
+
+>[!NOTE]
+>
+>  Apple Pay 도메인 인증 인증서는 이미 결제 서비스 코드에 포함되어 있습니다. `/.well-known/apple-developer-merchantid-domain-association` 경로가 200 응답 코드를 반환하는지 확인하십시오. **Apple Pay 도메인 확인** 인증서에 대한 자세한 내용은 [Apple Pay와 통합에 대한 PayPal 개발자 설명서](https://developer.paypal.com/docs/checkout/apm/apple-pay/#download-and-host-sandbox-domain-association-file)를 참조하십시오.
 
 자세한 내용은 [설정](settings.md#apple-pay)을 참조하세요.
 
@@ -123,14 +127,14 @@ PayPal 직불 또는 신용 카드 버튼은 체크아웃 페이지에서 볼 �
 
 1. 스토어가 [프로덕션 모드](settings.md#enable-payment-services)에 있는지 확인하십시오.
 1. 설정에서 [원하는 PayPal 결제 단추를 구성하십시오](settings.md#payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
+1. _[!UICONTROL Payment buttons]_섹션에서&#x200B;**[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)**옵션을_&#x200B;끄기&#x200B;_합니다.
 
 **기존 신용 카드 공급자 _및_ PayPal 결제 단추**&#x200B;로 결제를 캡처하려면:
 
 1. 스토어가 [프로덕션 모드](settings.md#enable-payment-services)에 있는지 확인하십시오.
 1. [원하는 PayPal 결제 단추를 구성하십시오](settings.md#payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
-1. _[!UICONTROL Credit card fields]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)**&#x200B;옵션을_&#x200B;해제&#x200B;_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=ko#payments)을 사용하세요.
+1. _[!UICONTROL Payment buttons]_섹션에서&#x200B;**[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)**옵션을_&#x200B;끄기&#x200B;_합니다.
+1. _[!UICONTROL Credit card fields]_섹션에서&#x200B;**[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)**옵션을_&#x200B;해제&#x200B;_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments)을 사용하세요.
 
 ## 체크아웃 옵션
 
