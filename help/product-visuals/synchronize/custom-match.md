@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 제품 시각적 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 제공되는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 제품 시각적 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 제공되는 에셋을 개발할 수 있도록 지원합니다.
 
 ## 사용자 지정 자동 일치 구성
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -144,4 +144,4 @@ GET https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-to
 
 >[!TIP]
 >
-> `asset_roles` 키에서 `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다.
+> `asset_roles` 키에서 `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다.

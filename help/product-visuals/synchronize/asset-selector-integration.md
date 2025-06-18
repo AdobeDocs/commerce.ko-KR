@@ -22,7 +22,7 @@ AEM Admin에서 AEM Assets 프로젝트에 대한 IMS 클라이언트 ID를 구�
 
 >[!NOTE]
 >
-> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 *AEM as a Cloud Service 사용 안내서*&#x200B;의 [Micro-Frontend 자산 선택기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}를 참조하십시오.
+> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 *AEM as a Cloud Service 사용 안내서*&#x200B;의 [Micro-Frontend 자산 선택기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}를 참조하십시오.
 
 ## 주요 이점
 

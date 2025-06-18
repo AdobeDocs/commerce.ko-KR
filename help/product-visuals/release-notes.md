@@ -20,7 +20,7 @@ ht-degree: 0%
 
 일반 기능 릴리스 버전 외부에서 릴리스된 기능 변경 및 수정 사항에 대해서는 _호스팅된 서비스 업데이트_ 섹션을 검토하십시오.
 
-예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
+예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
 
 ## 호스팅된 서비스 업데이트
 
