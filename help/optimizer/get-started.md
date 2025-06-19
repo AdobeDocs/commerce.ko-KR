@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 �
 hide: true
 recommendations: noCatalog
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: ac79c8aa43ced017743fbef1f181b4eaf8e0a754
+source-git-commit: 9c3f5d1d5e7fd57d2306502d654a854bc5c66c71
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 >[!TAB Administrator and merchant workflow]
 
-This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/kr/enterprise/admin-guide.html) for more information about administrator workflows.
+This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for more information about administrator workflows.
 
 NEED DIAGRAM
 
 >[!TAB Developer workflow]
 
-This diagram provides a high-level overview of how developers create integrations for [!DNL Adobe Commerce Optimizer] using App Builder. See the [API documentation](https://developer.adobe.com/commerce/services/cloud/) for more information.
+This diagram provides a high-level overview of how developers create integrations for [!DNL Adobe Commerce Optimizer] using App Builder. See the [API documentation](https://developer.adobe.com/commerce/webapi/rest/) for more information.
 
 NEED DIAGRAM
 
