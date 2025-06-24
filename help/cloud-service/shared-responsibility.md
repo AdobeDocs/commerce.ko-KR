@@ -3,8 +3,8 @@ title: 공동 책임
 description: ' [!DNL Adobe Commerce as a Cloud Service]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 role: Admin, Architect, Leader
 exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: a06d64566fda76c0527aabfa9e8fdf27e7c149ca
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # 공동 책임 보안 및 운영 모델
-
-{{accs-early-access}}
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 공유 권한 보안 및 운영 모델을 사용하는 온디맨드 서비스입니다. 이러한 책임은 Adobe과 고객 간에 공유됩니다. 각 당사자는 Adobe Commerce 애플리케이션의 보안 및 운영에 대해 뚜렷한 책임을 부담합니다.
 
