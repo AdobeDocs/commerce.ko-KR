@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX &quot;필수 구성 요소&quot;]
 >
-사용자 관리에 다음 프로비저닝이 필요합니다.
+>사용자 관리에 다음 프로비저닝이 필요합니다.
 
 - [!DNL Adobe Commerce Optimizer]에 대해 IMS 조직이 프로비저닝됨
 - 시스템 또는 제품 관리자 역할이 있는 동일한 IMS 조직의 Adobe Experience Cloud 계정
