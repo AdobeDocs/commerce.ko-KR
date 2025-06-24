@@ -25,4 +25,4 @@ ht-degree: 13%
 - 마이그레이션 {#migration}
    - [개요](migration/overview.md)
    - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)

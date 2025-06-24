@@ -2,7 +2,7 @@
 title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
 description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Architect
 source-git-commit: 8b492853442dc64eb9e9592bdf2b695f65d625b8
 workflow-type: tm+mt
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **주요 차이점**
 
-* [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **PaaS(현재)**: 판매자가 Adobe의 호스팅 환경 내에서 애플리케이션 코드, 업그레이드, 패치, 인프라 구성을 관리합니다. 서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility).
-* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
+* [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **PaaS(현재)**: 판매자가 Adobe의 호스팅 환경 내에서 애플리케이션 코드, 업그레이드, 패치, 인프라 구성을 관리합니다. 서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility).
+* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
 
 **아키텍처 의미**
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 **새로운 도구 및 개념**
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) 및 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
 * [Commerce Cloud 관리자](../getting-started.md#create-an-instance)를 사용한 셀프서비스 프로비저닝
 
 ## 마이그레이션 경로
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 * **카탈로그 데이터 동기화**: Adobe Commerce PaaS 인스턴스가 제품 및 카탈로그 데이터를 기존 Adobe Commerce 카탈로그 SaaS 서비스에 계속 동기화하는지 확인하십시오. 일반적으로 PaaS 인스턴스 내에서 설정된 커넥터 또는 모듈을 사용합니다. 카탈로그 SaaS 서비스는 검색 및 머천다이징 기능에 대한 신뢰할 수 있는 소스로 유지되며, PaaS 백엔드에서 데이터를 가져옵니다.
 * **최적화를 위한 API Mesh**: Headless 상점(Edge Delivery Services의) 및 기타 서비스가 카탈로그 SaaS 서비스의 데이터를 직접 사용할 수 있지만 Adobe에서는 API Mesh(App Builder 내)를 사용하는 것이 좋습니다. GraphQL API Mesh는 카탈로그 SaaS 서비스의 API를 PaaS 백엔드의 다른 필요한 API와 통합할 수 있습니다(예: 카탈로그 SaaS 서비스에 완전히 복제되지 않은 트랜잭션 데이터베이스 또는 사용자 지정 제품 속성의 실시간 인벤토리 확인). 또한 중앙 집중식 캐싱, 인증 및 응답 변환이 가능합니다.
-* **라이브 검색 및 제품 권장 사항 통합**: 라이브 검색 및 제품 권장 사항 SaaS 서비스를 구성하여 기존 Adobe Commerce 카탈로그 SaaS 서비스에서 직접 [카탈로그 데이터 수집](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data)하고, PaaS 백엔드에서 다시 채웁니다.
+* **라이브 검색 및 제품 권장 사항 통합**: 라이브 검색 및 제품 권장 사항 SaaS 서비스를 구성하여 기존 Adobe Commerce 카탈로그 SaaS 서비스에서 직접 [카탈로그 데이터 수집](https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#configure-the-data)하고, PaaS 백엔드에서 다시 채웁니다.
 
 **이점**: 기존 및 운영 카탈로그 SaaS 서비스와 PaaS 백엔드와의 통합 파이프라인을 활용하여 헤드리스 상점 및 고급 SaaS 머천다이징 기능에 대한 더 빠른 경로를 제공합니다. 하지만 기본 카탈로그 데이터 소스에 대한 PaaS 백엔드에 대한 종속성을 유지하며 새로운 구성 가능한 카탈로그 데이터 모델에 내재된 다중 소스 집계 기능을 제공하지 않습니다. 이 옵션은 더 완전한 구성 가능한 아키텍처를 향한 유효한 디딤돌입니다.
 
