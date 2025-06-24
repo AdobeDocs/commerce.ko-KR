@@ -4,10 +4,10 @@ user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud 
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: c820fa2995486027a1c048da21dc9db6f9cbb85c
+source-git-commit: 3f3d87585378d334d90c9dc1bdcb67a9cd00eff6
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -22,5 +22,7 @@ ht-degree: 12%
 - [자산 관리](assets-management.md)
 - [사용 사례](use-cases.md)
 - [공동 책임](shared-responsibility.md)
-- [마이그레이션](migration.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- 마이그레이션 {#migration}
+   - [개요](migration/overview.md)
+   - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
