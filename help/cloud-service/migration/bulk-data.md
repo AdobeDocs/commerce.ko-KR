@@ -1,6 +1,6 @@
 ---
 title: 대량 데이터 마이그레이션 도구
-description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service](으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
+description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service] (으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Architect
 source-git-commit: bc8011189a46ccab986b22020881c808da6ee2cd
