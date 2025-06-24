@@ -1,22 +1,28 @@
 ---
 title: 머천다이징 개요
-description: 제품 검색 및 추천을 통해 쇼핑객을 위한 개인화된 경험을 만드는 방법을 알아봅니다.
-hide: true
+description: ' [!DNL Adobe Commerce Optimizer]의 머천다이징 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 356b10704c9e7c7329d3e9c0e10baa15d5142ec0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # 머천다이징
 
->[!NOTE]
->
->이 설명서는 초기 액세스 개발 중인 제품에 대해 설명하며 일반 공급을 위한 모든 기능을 반영하지는 않습니다.
+이 섹션에서는 제품 검색 및 추천을 통해 쇼핑객을 위한 개인화된 경험을 만드는 방법을 알아봅니다.
 
-제품 검색 및 추천을 통해 쇼핑객을 위한 개인화된 경험을 만들기
+## 제품 검색
 
-- **제품 검색** - 사이트 검색 기능을 향상시켜 전환율을 극대화하는 원활하고 효율적인 쇼핑객 경험을 보장합니다. 이를 통해 판매자는 쇼핑객이 적시에 올바른 제품을 얻을 수 있도록 할 수 있습니다.
-- **&#x200B;**&#x200B;추천 - 인공 인텔리전스 및 기계 학습 알고리즘을 사용하여 집계된 방문자 데이터에 대한 심층 분석을 수행합니다. 이 데이터를 카탈로그와 결합하면 매우 매력적이고 관련성이 높으며 개인화된 경험 결과를 얻을 수 있습니다. 추천 사항은 상점 전면에 &quot;이 제품을 본 고객도 보았습니다&quot;와 같은 레이블이 있는 단위로 표시됩니다. 에서 [!DNL Adobe Commerce Optimizer]직접 권장 사항을 생성, 관리 및 배포할 수 있습니다.
+제품 검색 기능은 사이트 검색 기능을 향상시켜 전환율을 극대화하는 원활하고 효율적인 고객 경험을 제공합니다. 이를 통해 머천다이저는 쇼핑객들이 적시에 적절한 제품을 구매할 수 있도록 할 수 있습니다.
+
+제품 검색을 사용하여 패싯, 규칙 및 동의어를 다음과 같이 설정합니다.
+
+- 의미 있는 검색 경험을 만들어 쇼핑객과 구매자가 가능한 한 적은 노력으로 원하는 것을 찾을 수 있도록 지원합니다.
+- 세션 내 구매자 행동에 대응하여 검색 결과를 AI에서 제공하는 동적 팩팅 및 재순위를 활용하십시오.
+
+## 권장 사항
+
+권장 사항은 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 방문자 데이터를 심층 분석합니다. 이 데이터를 카탈로그와 결합하면 매우 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다. 권장 사항은 &quot;이 제품을 본 고객이 본 항목&quot;과 같이 레이블이 있는 단위로 상점 전면에 표시됩니다. [!DNL Adobe Commerce Optimizer]에서 바로 권장 사항을 만들고, 관리하고, 배포할 수 있습니다.

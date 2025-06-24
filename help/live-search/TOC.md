@@ -3,7 +3,7 @@ user-guide-title: '[!DNL Live Search] 안내서'
 user-guide-description: 이 안내서에서는 Adobe Commerce에서  [!DNL Live Search] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
 role: Admin
 feature: Services, Search
-source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
+source-git-commit: 36c4abbc15f3e9eaabfeb93ac24660461c8bad9c
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 10%
@@ -45,4 +45,4 @@ ht-degree: 10%
    - [GraphQL](graphql.md)
    - [설정](settings.md)
 - [이벤트](events.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
