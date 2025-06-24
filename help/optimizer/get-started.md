@@ -3,7 +3,7 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
 workflow-type: tm+mt
 source-wordcount: '753'
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 관리자는 조직의 인스턴스 설정, 사용자, 그룹 및 권한을 관리합니다.
 
-- **[Adobe Admin Console에 액세스](https://helpx.adobe.com/enterprise/admin-guide.html)** - 전체 조직에서 Adobe 권한을 관리합니다. 귀하 또는 조직의 제품 관리자 또는 시스템 관리자가 [!DNL Adobe Commerce Optimizer] 제품에 사용자를 추가하는 방법에 대해 알아보려면 [사용자 관리](./user-management.md)를 참조하세요.
+- **[Adobe Admin Console에 액세스](https://helpx.adobe.com/kr/enterprise/admin-guide.html)** - 전체 조직에서 Adobe 권한을 관리합니다. 귀하 또는 조직의 제품 관리자 또는 시스템 관리자가 [!DNL Adobe Commerce Optimizer] 제품에 사용자를 추가하는 방법에 대해 알아보려면 [사용자 관리](./user-management.md)를 참조하세요.
 
 - **인스턴스 만들기** - [!DNL Adobe Commerce Optimizer] 인스턴스가 크레딧 기반 시스템을 사용합니다. 각 인스턴스에 하나의 해당하는 크레딧이 필요한 여러 샌드박스 및 프로덕션 인스턴스를 만들 수 있습니다. 처음에 보유하고 있는 크레딧의 양은 구독에 따라 다릅니다. [자세히 알아보기](#create-an-instance)
 

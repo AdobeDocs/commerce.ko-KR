@@ -1,7 +1,7 @@
 ---
 title: 성공 지표 보고서
 description: 성공 지표 보고서 페이지는 insight을  [!DNL Adobe Commerce Optimizer] 스토어의 주요 성능 지표에 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: b462980c12342ae2fe6d24272c56c6a9d9b21989
 workflow-type: tm+mt
 source-wordcount: '418'

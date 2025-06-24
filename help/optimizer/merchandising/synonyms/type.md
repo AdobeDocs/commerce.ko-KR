@@ -1,7 +1,7 @@
 ---
 title: 동의어 유형
 description: ' [!DNL Adobe Commerce Optimizer]의 여러 가지 동의어 유형에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 3131cc27a25d1bf958071b973f1d4bf1a68be152
 workflow-type: tm+mt
 source-wordcount: '354'
@@ -35,4 +35,4 @@ ht-degree: 0%
 
 동의어를 만든 후 검색 동작이 정확히 일치하는 구 **kitchen table**&#x200B;을(를) 찾도록 변경됩니다. 이렇게 하면 구문이 정확한 제품만 표시되므로 결과 수가 줄어들 수 있습니다.
 
-이전과 같이 용어를 개별적으로 검색하려는 경우 [지원 티켓을 만들 수 있습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide). 수요가 충분하면 [!DNL Adobe Commerce Optimizer]은(는) 향후 릴리스에서 이 기능을 제품에 추가하는 것을 고려합니다.
+이전과 같이 용어를 개별적으로 검색하려는 경우 [지원 티켓을 만들 수 있습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide). 수요가 충분하면 [!DNL Adobe Commerce Optimizer]은(는) 향후 릴리스에서 이 기능을 제품에 추가하는 것을 고려합니다.
