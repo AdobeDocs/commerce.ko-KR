@@ -2,7 +2,8 @@
 title: 제품 속성을 동적으로 추가
 description: 데이터 동기화 프로세스 중에 사용자 지정 제품 속성을 데이터 내보내기 피드에 동적으로 추가하는 방법을 알아봅니다.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: d5ed7497-4be1-440a-a567-81b64fdc54fc
+source-git-commit: bf45670a0bc5fb02dd229a9e3d7af7f2676c5a1f
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -48,28 +49,39 @@ ht-degree: 0%
           * @return array
           * @throws \Zend_Db_Statement_Exception
           */
-         public function afterGet(Attributes $subject, array $result, $arguments): array
-         {
-              $productIds = \array_column($arguments, 'productId');
+          public function afterGet(Attributes $subject, array $result, $arguments): array
+          {
+              $additionalAttributes = [];
+              $attributeCode = 'customer_attribute';
+              foreach ($result as $product) {
+                  if (!isset($product['productId']) || !isset($product['storeViewCode'])) {
+                      continue;
+                  }
+                  // HINT: if needed, do filtration by "storeViewCode" and or "productId"
    
-              foreach ($productIds as $productId) {
-                    $result[] = [
-                         'productId' => $productId,
-                         // "storeViewCode" must be specified for products where the customer attribute value should be set
-                         'storeViewCode' => 'default',
-                         'attributes' => [
-                              // specify the customer attribute code
-                              'attributeCode' => 'customer_attribute',
-                              // provide single or multiple values for the attribute
-                              'value' => [
-                                    rand(41,43)
-                              ]
-                         ]
-                    ];
+                  $productId = $product['productId'];
+                  $storeViewCode = $product['storeViewCode'];
+   
+                  $newKey = \implode('-', [$product['storeViewCode'], $product['productId'], $attributeCode]);
+                  if (isset($additionalAttributes[$newKey])) {
+                      continue;
+                  }
+                  $additionalAttributes[$newKey] = [
+                      'productId' => $productId,
+                      'storeViewCode' => $storeViewCode,
+                      'attributes' => [
+                          'attributeCode' => $attributeCode,
+                          // provide single or multiple values for the attribute
+                          'value' => [
+                              rand(1, 42)
+                          ]
+                      ]
+                  ];
+   
               }
    
-              return $result;
-         }
+              return array_merge($result, $additionalAttributes);
+          }
     }
    ```
 
@@ -116,6 +128,7 @@ ht-degree: 0%
          {
               $result[] = [
                 'id' => '123',
+                // provide storeCode, websiteCode and storeViewCode applicable for your AC instance
                 'storeCode' => 'default',
                 'websiteCode' => 'base',
                 'storeViewCode' => 'default',
