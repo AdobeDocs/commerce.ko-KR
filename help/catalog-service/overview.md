@@ -125,7 +125,7 @@ Catalog Service는 서비스로 작동하므로 통합자는 Commerce의 기본 
 
 구현 프로세스에는 다음이 포함됩니다.
 
-1. [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[카탈로그 서비스 설치 및 구성](installation.md)**—카탈로그 서비스 확장을 설치 및 구성하고 [!DNL Commerce Services Connector]을(를) 사용하여 SaaS 연결을 설정합니다.
+1. [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[카탈로그 서비스 설치 및 구성](installation.md)**—카탈로그 서비스 확장을 설치 및 구성하고 [!DNL Commerce Services Connector]을(를) 사용하여 SaaS 연결을 설정합니다.
 2. **상점 코드 업데이트**: Catalog Service GraphQL 쿼리를 프론트엔드에 통합합니다.
 3. **쿼리 라우팅**: 모든 카탈로그 서비스 쿼리는 GraphQL 게이트웨이(온보딩 중에 제공된 URL)를 통해 이동합니다.
 4. **데이터 동기화 모니터링 및 문제 해결**: 향상된 성능을 확인하고 결과를 모니터링합니다.
