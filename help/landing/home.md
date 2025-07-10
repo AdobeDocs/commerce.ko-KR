@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: 526d15950fe77ac8c384d1fd670394695a824260
+source-git-commit: 525ad18961f46379360049b1bf49c18b208bf051
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -51,20 +51,17 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="../product-visuals/overview.md">
-      <img alt="비주얼" src="../assets/icons/images.svg" width="40">
+      <a href="../catalog-service/overview.md">
+      <img alt="연결된 서비스에 대한 카탈로그 데이터" src="../assets/icons/DataBook.svg" width="40">
       </a>
       <div>
-         <a href="../product-visuals/overview.md">
-         <strong>제품 시각화</strong>
+         <a href="../catalog-service/overview.md">
+         <strong>카탈로그 서비스</strong>
          </a>
       </div>
       <p>
-         <em>리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 시스템을 사용하여 디지털 에셋 관리를 간소화합니다.</em>
+         <em>성능을 높이고 확장성을 개선하며 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.</em>
       </p>
-   </td>
-   <td valign="top">
-      <!-- Empty cell to maintain table structure -->
    </td>
 </tr>
 <tr style="border: 0;">
@@ -95,19 +92,6 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="../catalog-service/overview.md">
-      <img alt="연결된 서비스에 대한 카탈로그 데이터" src="../assets/icons/DataBook.svg" width="40">
-      </a>
-      <div>
-         <a href="../catalog-service/overview.md">
-         <strong>카탈로그 서비스</strong>
-         </a>
-      </div>
-      <p>
-         <em>성능을 높이고 확장성을 개선하며 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.</em>
-      </p>
-   </td>
-   <td valign="top">
       <a href="../payment-services/guide-overview.md">
       <img alt="신용 카드 결제" src="../assets/icons/CreditCard.svg" width="40">
       </a>
@@ -133,7 +117,7 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </a>
       <div>
          <a href="../data-connection/overview.md">
-         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
          </a>
       </div>
       <p>
@@ -146,11 +130,24 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+         <strong>Commerce 서비스 커넥터</strong> [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
          </a>
       </div>
       <p>
          <em>Adobe Commerce과 연결된 서비스 간에 보안 통신을 사용하도록 인증을 구성하십시오. 각 환경에 대해 Commerce 서비스 데이터 저장소에 대한 데이터 공간 ID를 지정하십시오.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../aem-assets-integration/overview.md">
+      <img alt="비주얼" src="../assets/icons/images.svg" width="40">
+      </a>
+      <div>
+          <a href="../aem-assets-integration/overview.md">
+         <strong>AEM Assets 통합</strong>
+         </a>
+      </div>
+      <p>
+         <em>리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 시스템을 사용하여 디지털 에셋 관리를 간소화합니다.</em>
       </p>
    </td>
 </tr>
@@ -187,11 +184,11 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
          </a>
       </div>
