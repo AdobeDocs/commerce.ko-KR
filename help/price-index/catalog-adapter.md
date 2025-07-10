@@ -3,9 +3,10 @@ title: 카탈로그 어댑터 확장
 description: 카탈로그 어댑터를 사용하여 Commerce 서비스의 가격 렌더링
 seo-title: Catalog Adapter Extension
 seo-description: Using Catalog Adapter to render prices from Commerce Services
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: e42101fa-9c30-482c-a649-44dc35376abb
+source-git-commit: 74f6cb64724194651c4eeb538c0c69142b01ac5d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 0%
 ## 요구 사항
 
 - Adobe Commerce 2.4.4+
-- 다음 Commerce 서비스 중 하나가 설치되어 있습니다.
+- Adobe Commerce 환경에는 다음 Commerce 서비스 중 하나가 활성화 및 구성되어 있어야 합니다.
 
    - [라이브 검색](../live-search/install.md)
    - [제품 추천](../product-recommendations/install-configure.md)
@@ -55,7 +56,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 [Adobe Commerce on Cloud Infrastructure 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)의 _CLI로 분기 관리_&#x200B;를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 확인하십시오.
 
@@ -85,7 +86,7 @@ ht-degree: 0%
    git push origin <branch-name>
    ```
 
-   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
+   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
 
 >[!TAB 온-프레미스]
 
@@ -165,5 +166,4 @@ composer require magento/module-price-indexer-disabler
 - 필수 서비스(라이브 검색, 제품 추천, 카탈로그 서비스)가 설치된 Headless Commerce 인스턴스가 있는 판매자
 - 기본 Adobe Commerce 제품 가격 인덱서에 의존하지 않음
 
-1. [!DNL Catalog Adapter] 패키지에서 `magento/module-price-indexer-disabler` 모듈을 설치합니다.
-
+1. `magento/module-price-indexer-disabler` 패키지에서 [!DNL Catalog Adapter] 모듈을 설치합니다.
