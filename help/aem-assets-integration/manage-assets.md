@@ -79,7 +79,7 @@ Adobe Commerce은 Adobe Experience Manager(AEM) 도구 세트를 사용하지 �
 
 >[!TIP]
 >
-> [DA.live(문서 작성)](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/#dalive-document-authoring){target=_blank}에서는 데이터를 보강하는 자산 선택기도 제공합니다.
+> [DA.live(문서 작성)](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=ko#dalive-document-authoring){target=_blank}에서는 데이터를 보강하는 자산 선택기도 제공합니다.
 
 ## 제품 비디오
 
@@ -149,7 +149,7 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 계속합니다.
 
-   범주 만들기에 대한 자세한 내용은 [Commerce 카탈로그 관리 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)에서 **범주 콘텐츠 완료**&#x200B;를 참조하십시오.
+   범주 만들기에 대한 자세한 내용은 [Commerce 카탈로그 관리 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)에서 **범주 콘텐츠 완료**&#x200B;를 참조하십시오.
 
 ## 에셋 업데이트
 
@@ -157,6 +157,6 @@ AEM Assets에서 에셋을 업데이트하고 승인하면 자동 일치 기능�
 
 자세한 내용은 다음 AEM Assets 설명서를 참조하십시오.
 
-* [디지털 자산 재처리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+* [디지털 자산 재처리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-* [자산 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+* [자산 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)

@@ -20,11 +20,11 @@ AEM Admin에서 AEM Assets 프로젝트에 대한 IMS 클라이언트 ID를 구�
 
 * 브랜드 및 캠페인 지침에 맞게 범주 이미지를 간편하게 관리할 수 있습니다.
 * [!BADGE Paa만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} 시각적으로 풍부한 콘텐츠를 위해 페이지 빌더에서 직접 자산을 할당합니다.
-* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 시각적으로 풍부한 콘텐츠를 제공하기 위해 Edge Delivery Services에서 제공하는 Commerce Storefront에서 직접 Assets을 할당합니다.
+* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 시각적으로 풍부한 콘텐츠를 제공하기 위해 Edge Delivery Services에서 제공하는 Commerce Storefront에서 직접 Assets을 할당합니다.
 
 >[!NOTE]
 >
-> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 [AEM as a Cloud Service 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}의 *Micro-Frontend 자산 선택기*&#x200B;를 참조하십시오.
+> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 [AEM as a Cloud Service 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}의 *Micro-Frontend 자산 선택기*&#x200B;를 참조하십시오.
 
 ## 주요 이점
 

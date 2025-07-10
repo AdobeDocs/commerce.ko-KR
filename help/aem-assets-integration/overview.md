@@ -34,11 +34,11 @@ AEM Assets 통합은 자산 관리 워크플로우를 자동화하여 이 문제
 
 >[!TAB 제품 시각화]
 
-Adobe Commerce, AEM Assets에서 제공하는 제품 비주얼 및 [!BADGE AEM Dynamic Media]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}에 대한 [SaaS 전용](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)활성 라이선스([!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]에서 바로 사용 가능).
+Adobe Commerce, AEM Assets에서 제공하는 제품 비주얼 및 [!BADGE AEM Dynamic Media]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}에 대한 [SaaS 전용](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)활성 라이선스([!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]에서 바로 사용 가능).
 
 >[!TAB AEM Assets]
 
-Adobe Commerce, Adobe Experience Manager Assets 및 [!BADGE AEM Dynamic Media]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}에 대한 [SaaS 전용](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)활성 라이선스
+Adobe Commerce, Adobe Experience Manager Assets 및 [!BADGE AEM Dynamic Media]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}에 대한 [SaaS 전용](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)활성 라이선스
 
 [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} Adobe Commerce 2.4.5+
 
@@ -46,11 +46,11 @@ Adobe Commerce, Adobe Experience Manager Assets 및 [!BADGE AEM Dynamic Media]{t
 
 * Composer 2.x
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Adobe Experience Manager이 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)와(과) 함께 프로비저닝되었습니다.
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Adobe Experience Manager이 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)와(과) 함께 프로비저닝되었습니다.
 
 >[!ENDTABS]
 
-통합을 구성하는 Adobe Commerce 사용자는 AEM Assets 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)에 액세스할 수 있어야 합니다.
+통합을 구성하는 Adobe Commerce 사용자는 AEM Assets 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)에 액세스할 수 있어야 합니다.
 
 >[!BEGINSHADEBOX]
 
@@ -62,7 +62,7 @@ Adobe Commerce, Adobe Experience Manager Assets 및 [!BADGE AEM Dynamic Media]{t
 
 ![확인](assets/icon-check.png) **Adobe 관리 지원 모델**-지원 및 문제 해결은 Adobe에서 직접 처리하므로 안심하고 문제를 해결할 수 있습니다.
 
-![확인](assets/icon-check.png) **Adobe Storefront Builder 기능**-DAM(디지털 에셋 관리) 솔루션을 사용하면 [Storefront Builder](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/#userlabs-commerce-genai-product-visuals)에서 이미지, 비디오 및 기타 미디어와 같은 에셋을 사용할 수 있습니다.
+![확인](assets/icon-check.png) **Adobe Storefront Builder 기능**-DAM(디지털 에셋 관리) 솔루션을 사용하면 [Storefront Builder](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=ko#userlabs-commerce-genai-product-visuals)에서 이미지, 비디오 및 기타 미디어와 같은 에셋을 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -82,4 +82,4 @@ Experience Manager Assets과 Commerce 통합을 활성화하는 3단계 프로�
 
 ## 지원
 
-정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)을 만들어 추가 도움을 받으십시오.
+정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)을 만들어 추가 도움을 받으십시오.
