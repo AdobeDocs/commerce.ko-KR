@@ -20,7 +20,7 @@ ht-degree: 35%
 - Commerce 서비스 {#commerce-services}
    - [[!DNL Commerce as a Cloud Service]](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview)
    - [[!DNL Commerce Optimizer]](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview)
-   - [[!DNL AEM Assets Integration]](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview)
+   - [[!DNL AEM Assets Integration]](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/overview)
    - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)
    - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)
    - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ko)
