@@ -3,9 +3,9 @@ title: 데이터 수집
 description: 이벤트가  [!DNL Product Recommendations]에 대한 데이터를 수집하는 방법을 알아봅니다.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: 94d2a9911ab10d164d75779d1f310e5bdf2aea74
+source-git-commit: fe96b2922583c0fcb0fcadbdacead6267806f44b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/overview.md) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/hipaa-readiness.md#installation)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services)을 참조하세요.
 
 ## 데이터 유형 및 이벤트
 
@@ -88,9 +88,11 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 | `rec-click` | 쇼핑객이 추천 단위에서 제품을 클릭합니다. |
 | `view` | 페이지 아래로 스크롤하는 것처럼 추천 단위가 적어도 50% 이상 볼 수 있게 되면 전송됩니다. 예를 들어 추천 단위에 두 개의 줄이 있는 경우 한 줄과 두 번째 줄의 한 픽셀이 쇼핑객에게 표시되면 `view` 이벤트가 전송됩니다. 쇼핑객이 페이지를 위아래로 여러 번 스크롤하는 경우 `view` 이벤트가 쇼핑객이 페이지에서 전체 추천 단위를 다시 볼 수 있는 횟수만큼 전송됩니다. |
 
->[!NOTE]
->
->제품 추천 지표는 Luma 상점 전선에 최적화되어 있습니다. Storefront가 PWA Studio으로 구현된 경우 [PWA 설명서](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)를 참조하세요. React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하는 경우 Headless[&#128279;](headless.md) 환경에서 제품 권장 사항을 통합하는 방법을 알아보세요.
+제품 추천 지표는 Luma 상점 첫 번째 면에 최적화되어 있지만 다른 상점 첫 번째 구현과도 작동합니다.
+
+- [Edge Delivery 상점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/)
+- [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
+- [사용자 지정 프런트 텐트(React, Vue JS)](headless.md)
 
 #### 필수 대시보드 이벤트
 
@@ -138,4 +140,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
