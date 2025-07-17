@@ -90,7 +90,7 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 제품 추천 지표는 Luma 상점 첫 번째 면에 최적화되어 있지만 다른 상점 첫 번째 구현과도 작동합니다.
 
-- [Edge Delivery 상점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/)
+- [Edge Delivery 상점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/?lang=ko)
 - [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
 - [사용자 지정 프런트 텐트(React, Vue JS)](headless.md)
 
@@ -140,4 +140,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
