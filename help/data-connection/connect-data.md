@@ -2,16 +2,17 @@
 title: Commerce 데이터를 Adobe Experience Platform에 연결
 description: Commerce 데이터를 Adobe Experience Platform에 연결하는 방법을 알아봅니다.
 feature: Personalization, Integration, Configuration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 8ba33277-38a5-45af-86e0-906cfb3b998d
+source-git-commit: 5f7565f5bb80fcc65cbbcdc31c5c3b12fed4e5ee
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
 
 # Commerce 데이터를 Adobe Experience Platform에 연결
 
-[!DNL Data Connection] 확장을 설치하면 Commerce _관리자_&#x200B;의 **서비스** 아래의 **시스템** 메뉴에 두 개의 새 구성 페이지가 나타납니다.
+[!DNL Data Connection] 확장을 설치하면 Commerce **관리자**&#x200B;의 **서비스** 아래의 _시스템_ 메뉴에 두 개의 새 구성 페이지가 나타납니다.
 
 - Commerce 서비스 커넥터
 - [!DNL Data Connection]
@@ -34,7 +35,7 @@ Commerce 서비스 커넥터를 구성한 후 [!DNL Data Connection] 확장을 �
 
 ### 서비스 계정 및 자격 증명 세부 정보 추가
 
-[주문 내역 데이터](#send-historical-order-data) 또는 [고객 프로필 데이터](#send-customer-profile-data)를 수집하여 전송하려는 경우 서비스 계정 및 자격 증명 세부 정보를 추가해야 합니다. 또한 [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=ko) 확장을 구성하는 경우 다음 단계를 완료해야 합니다.
+[주문 내역 데이터](#send-historical-order-data) 또는 [고객 프로필 데이터](#send-customer-profile-data)를 수집하여 전송하려는 경우 서비스 계정 및 자격 증명 세부 정보를 추가해야 합니다. 또한 [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) 확장을 구성하는 경우 다음 단계를 완료해야 합니다.
 
 상점 또는 백오피스 데이터만 수집하여 보내는 경우 [일반](#general) 섹션으로 건너뛸 수 있습니다.
 
@@ -42,23 +43,25 @@ Commerce 서비스 커넥터를 구성한 후 [!DNL Data Connection] 확장을 �
 
 Experience Platform API를 호출할 수 있도록 Commerce을 인증하는 프로젝트를 Adobe Developer Console에서 만듭니다.
 
-프로젝트를 만들려면 [Experience Platform API 인증 및 액세스](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko) 자습서에 설명된 단계를 따르십시오.
+프로젝트를 만들려면 [Experience Platform API 인증 및 액세스](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html) 자습서에 설명된 단계를 따르십시오.
 
 튜토리얼을 진행할 때 프로젝트에 다음과 같은 사항이 있는지 확인합니다.
 
-- 다음 [제품 프로필](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#select-product-profiles)에 액세스: **기본 프로덕션 모든 액세스** 및 **AEP 기본 모든 액세스**.
-- 올바른 [역할 및 권한이 구성되었습니다](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#assign-api-to-a-role).
+- 다음 [제품 프로필](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-product-profiles)에 액세스: **기본 프로덕션 모든 액세스** 및 **AEP 기본 모든 액세스**.
+- 올바른 [역할 및 권한이 구성되었습니다](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#assign-api-to-a-role).
 - JSON 웹 토큰(JWT)을 서버 간 인증 방법으로 사용하려는 경우 개인 키도 업로드해야 합니다.
 
 이 단계의 결과 다음 단계에서 사용하는 구성 파일이 만들어집니다.
 
 #### 2단계: 구성 파일 다운로드
 
-[작업 영역 구성 파일](https://developer.adobe.com/commerce/extensibility/events/project-setup/#download-the-workspace-configuration-file)을 다운로드합니다. 이 파일의 내용을 복사하여 Commerce 관리자의 **서비스 계정/자격 증명 세부 정보** 페이지에 붙여넣습니다.
+[작업 영역 구성 파일](https://developer.adobe.com/commerce/extensibility/events/project-setup/#download-the-workspace-configuration-file)을 다운로드합니다. `<workspace-name>.json` 파일에는 Commerce 관리자의 **서비스 계정/자격 증명 세부 정보** 페이지에 입력해야 하는 모든 값이 포함되어 있습니다.
+
+![[!DNL Data Connection] 관리자 구성](./assets/epc-admin-config.png){width="700" zoomable="yes"}
 
 1. Commerce 관리에서 **스토어** > 설정 > **구성** > **서비스** > **[!DNL Data Connection]**(으)로 이동합니다.
 
-1. **Adobe Developer 인증 유형** 메뉴에서 구현한 서버 간 인증 방법을 선택합니다. Adobe에서는 OAuth를 사용하는 것이 좋습니다. JWT는 더 이상 사용되지 않습니다. [자세히 알아보기](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. **Adobe Developer 인증 유형** 메뉴에서 구현한 서버 간 인증 방법을 선택합니다. Adobe에서는 OAuth를 사용하는 것이 좋습니다. JWT는 더 이상 사용되지 않습니다. [자세히 알아보기](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
 
 1. (JWT만 해당) `private.key` 파일의 내용을 복사하여 **클라이언트 암호** 필드에 붙여넣습니다. 다음 명령을 사용하여 내용을 복사합니다.
 
@@ -66,11 +69,9 @@ Experience Platform API를 호출할 수 있도록 Commerce을 인증하는 프�
    cat config/private.key | pbcopy
    ```
 
-   `private.key` 파일에 대한 자세한 내용은 [서비스 계정(JWT) 인증](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/)을 참조하십시오.
+   [ 파일에 대한 자세한 내용은 ](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/)서비스 계정(JWT) 인증`private.key`을 참조하십시오.
 
-1. `<workspace-name>.json` 파일의 내용을 **서비스 계정/자격 증명 세부 정보** 필드에 복사합니다.
-
-   ![[!DNL Data Connection] 관리자 구성](./assets/epc-admin-config.png){width="700" zoomable="yes"}
+1. `<workspace-name>.json` 파일의 내용을 **서비스 계정/자격 증명 세부 정보** 필드(예: `"client_id"`, `"client_secrets"`, `"technical_account_email"`, `"technical_account_id"` 등)에 복사합니다.
 
 1. **구성 저장**&#x200B;을 클릭합니다.
 
@@ -86,7 +87,7 @@ Experience Platform API를 호출할 수 있도록 Commerce을 인증하는 프�
 
 1. **범위** 드롭다운에서 컨텍스트를 **웹 사이트**(으)로 설정합니다.
 
-1. (선택 사항) 이미 사이트에 [AEP Web SDK(alloy)](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 배포한 경우 확인란을 활성화하고 AEP Web SDK의 이름을 추가합니다. 그렇지 않으면 이러한 필드를 비워 두고 [!DNL Data Connection] 확장에서 자동으로 배포합니다.
+1. (선택 사항) 이미 사이트에 [AEP Web SDK(alloy)](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)을 배포한 경우 확인란을 활성화하고 AEP Web SDK의 이름을 추가합니다. 그렇지 않으면 이러한 필드를 비워 두고 [!DNL Data Connection] 확장에서 자동으로 배포합니다.
 
    >[!NOTE]
    >
@@ -116,9 +117,9 @@ Adobe Commerce 인스턴스가 데이터 수집을 시작할 수 있는지 확�
 
    >[!NOTE]
    >
-   >**이전 사무실 이벤트**&#x200B;를 선택하면 모든 이전 사무실 데이터가 Experience Platform Edge로 전송됩니다. 쇼핑객이 데이터 수집을 옵트아웃하는 경우 Experience Platform에서 쇼핑객의 개인 정보 보호 기본 설정을 명시적으로 설정해야 합니다. 이는 컬렉터가 이미 구매자 환경 설정에 따라 동의를 처리하는 상점 이벤트와는 다릅니다. Experience Platform에서 쇼핑객 개인 정보 기본 설정을 설정하는 방법에 대해 [자세히](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset.html?lang=ko)알아보세요.
+   >**이전 사무실 이벤트**&#x200B;를 선택하면 모든 이전 사무실 데이터가 Experience Platform Edge로 전송됩니다. 쇼핑객이 데이터 수집을 옵트아웃하는 경우 Experience Platform에서 쇼핑객의 개인 정보 보호 기본 설정을 명시적으로 설정해야 합니다. 이는 컬렉터가 이미 구매자 환경 설정에 따라 동의를 처리하는 상점 이벤트와는 다릅니다. Experience Platform에서 쇼핑객 개인 정보 기본 설정을 설정하는 방법에 대해 [자세히](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset.html)알아보세요.
 
-1. (자체 AEP Web SDK을 사용하는 경우 이 단계를 건너뜁니다.) Adobe Experience Platform에서 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#create)하거나 컬렉션에 사용할 기존 데이터 스트림을 선택하십시오. **데이터 스트림 ID** 필드에 해당 데이터 스트림 ID를 입력합니다.
+1. (자체 AEP Web SDK을 사용하는 경우 이 단계를 건너뜁니다.) Adobe Experience Platform에서 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)하거나 컬렉션에 사용할 기존 데이터 스트림을 선택하십시오. **데이터 스트림 ID** 필드에 해당 데이터 스트림 ID를 입력합니다.
 
 1. Commerce 데이터를 포함할 **데이터 세트 ID**&#x200B;를 입력하십시오. 데이터 세트 ID 찾기:
 
@@ -126,7 +127,7 @@ Adobe Commerce 인스턴스가 데이터 수집을 시작할 수 있는지 확�
    1. 데이터 스트림과 연결된 데이터 세트를 엽니다.
    1. 오른쪽 창에서 데이터 세트에 대한 세부 정보를 봅니다. 데이터 세트 ID를 복사합니다.
 
-1. [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html?lang=ko) 작업에 따라 일정에 따라 백 오피스 이벤트 데이터를 업데이트하려면 `Sales Orders Feed` 인덱스를 `Update by Schedule`(으)로 변경해야 합니다.
+1. [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 작업에 따라 일정에 따라 백 오피스 이벤트 데이터를 업데이트하려면 `Sales Orders Feed` 인덱스를 `Update by Schedule`(으)로 변경해야 합니다.
 
    1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**(으)로 이동합니다.
 
@@ -134,7 +135,7 @@ Adobe Commerce 인스턴스가 데이터 수집을 시작할 수 있는지 확�
 
    1. **[!UICONTROL Actions]**&#x200B;을(를) `Update by Schedule`(으)로 설정합니다.
 
-   1. 백 오피스 데이터를 처음 활성화하는 경우 다음 명령을 실행하여 다시 인덱싱하고 재동기화를 트리거합니다. [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html?lang=ko) 작업이 올바르게 설정된 경우 이후의 재동기화가 자동으로 수행됩니다.
+   1. 백 오피스 데이터를 처음 활성화하는 경우 다음 명령을 실행하여 다시 인덱싱하고 재동기화를 트리거합니다. [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 작업이 올바르게 설정된 경우 이후의 재동기화가 자동으로 수행됩니다.
 
       ```bash
       bin/magento index:reindex sales_order_data_exporter_v2
@@ -163,7 +164,7 @@ Adobe Commerce 인스턴스가 데이터 수집을 시작할 수 있는지 확�
 
 Experience Platform에 보낼 수 있는 프로필 데이터에는 프로필 레코드와 시계열 프로필 이벤트의 두 가지 유형이 있습니다.
 
-프로필 레코드에는 쇼핑객이 Commerce 인스턴스에서 쇼핑객 이름과 같은 프로필을 만들 때 저장되는 데이터가 포함됩니다. 스키마와 데이터 세트가 [올바르게 구성](profile-data.md)되면 프로필 레코드가 Experience Platform으로 전송되고 Adobe의 프로필 관리 및 세분화 서비스 [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html#?lang=ko)로 전달됩니다.
+프로필 레코드에는 쇼핑객이 Commerce 인스턴스에서 쇼핑객 이름과 같은 프로필을 만들 때 저장되는 데이터가 포함됩니다. 스키마와 데이터 세트가 [올바르게 구성](profile-data.md)되면 프로필 레코드가 Experience Platform으로 전송되고 Adobe의 프로필 관리 및 세분화 서비스 [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html)로 전달됩니다.
 
 시계열 프로필 이벤트에는 사이트에서 계정을 생성, 편집 또는 삭제하는 경우와 같이 쇼퍼의 프로필 정보에 대한 데이터가 포함됩니다. 프로필 이벤트 데이터가 Experience Platform으로 전송되면 다른 DX 제품에서 사용할 수 있는 데이터 세트에 상주합니다.
 
@@ -183,7 +184,7 @@ Real-Time CDP에서 프로필 레코드를 사용할 수 있도록 하는 데 �
 
 >[!TIP]
 >
->Experience Platform에 프로필 데이터가 표시되지 않으면 [Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported)에서 문제 해결 제안을 확인하십시오.
+>Experience Platform에 프로필 데이터가 표시되지 않으면 [Commerce 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported)에서 문제 해결 제안을 확인하십시오.
 
 #### 필드 설명
 
@@ -202,7 +203,7 @@ Commerce이 이미 이전 주문 데이터를 수집하는 동안 해당 데이�
 
 이 비디오를 통해 이전 주문에 대해 자세히 알아본 후 다음 단계를 완료하여 이전 주문 수집을 구현합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450234?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424672)
 
 #### 주문 동기화 서비스 설정
 
@@ -210,13 +211,13 @@ Commerce이 이미 이전 주문 데이터를 수집하는 동안 해당 데이�
 
 1. 서비스 계정 및 자격 증명 세부 정보를 [제공](#add-service-account-and-credential-details)했는지 확인하세요.
 
-1. [RabbitMQ를 사용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq.html?lang=ko)합니다.
+1. [RabbitMQ를 사용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq.html)합니다.
 
    >[!NOTE]
    >
    >RabbitMQ는 Commerce 버전 2.4.7 이상에 대해 이미 설정되었지만 소비자를 활성화해야 합니다.
 
-1. `CRON_CONSUMERS_RUNNER` 환경 변수를 사용하여 `.magento.env.yaml`에서 cron 작업별로 메시지 큐 소비자를 사용하도록 설정하십시오.
+1. `.magento.env.yaml` 환경 변수를 사용하여 `CRON_CONSUMERS_RUNNER`에서 cron 작업별로 메시지 큐 소비자를 사용하도록 설정하십시오.
 
    ```yaml
       stage:
@@ -227,7 +228,7 @@ Commerce이 이미 이전 주문 데이터를 수집하는 동안 해당 데이�
 
    >[!NOTE]
    >
-   >사용 가능한 모든 구성 옵션에 대해 알아보려면 [변수 배포 설명서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko#cron_consumers_runner)를 참조하세요.
+   >사용 가능한 모든 구성 옵션에 대해 알아보려면 [변수 배포 설명서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#cron_consumers_runner)를 참조하세요.
 
 주문 동기화 서비스를 사용하면 **[!UICONTROL [!DNL Data Connection]]** 페이지에서 이전 주문 날짜 범위를 지정할 수 있습니다.
 
@@ -265,7 +266,7 @@ Experience Platform으로 전송할 과거 주문의 날짜 범위를 지정합�
 
 >[!IMPORTANT]
 >
->**데이터 수집** 탭에서 [지정한](#data-collection) 데이터 스트림 ID가 사용자 지정 특성을 수집하기 위해 스키마에 연결된 ID와 일치하는지 확인하십시오.
+>[데이터 수집](#data-collection) 탭에서 **지정한** 데이터 스트림 ID가 사용자 지정 특성을 수집하기 위해 스키마에 연결된 ID와 일치하는지 확인하십시오.
 
 주문에 대한 사용자 지정 특성을 만들어 Experience Platform으로 보낼 때 Commerce의 특성 이름은 Experience Platform의 [!DNL Commerce] 스키마에 있는 특성 이름과 일치해야 합니다. 일치하지 않을 경우 차이점을 확인하기 어려울 수 있습니다. 이름이 일치하지 않으면 **사용자 지정 순서 특성** 표를 통해 문제를 해결할 수 있습니다.
 
@@ -273,7 +274,7 @@ Experience Platform으로 전송할 과거 주문의 날짜 범위를 지정합�
 
 테이블에서 사용자 지정 속성 이름 옆에 녹색 확인 표시가 표시되지 않으면 소스의 속성 이름이 일치하지 않음을 나타냅니다. 한 소스에서 속성 이름을 수정하고 녹색 확인 표시가 나타나 이름이 일치함을 나타냅니다.
 
-- Experience Platform의 스키마에서 특성 이름이 업데이트된 경우 Experience Platform 스키마 변경을 트리거하려면 **데이터 사용자 지정** 탭에 구성을 저장해야 합니다. 이 변경 사항은 **[!UICONTROL Refresh]** 단추를 클릭할 때 **사용자 지정 순서 특성** 표에 반영됩니다.
+- Experience Platform의 스키마에서 특성 이름이 업데이트된 경우 Experience Platform 스키마 변경을 트리거하려면 **데이터 사용자 지정** 탭에 구성을 저장해야 합니다. 이 변경 사항은 **단추를 클릭할 때**&#x200B;사용자 지정 순서 특성&#x200B;**[!UICONTROL Refresh]** 표에 반영됩니다.
 - 특성 이름이 [!DNL Commerce]에서 업데이트된 경우 **사용자 지정 순서 특성** 테이블에서 이름을 업데이트하려면 순서 이벤트를 생성해야 합니다. 변경사항은 약 60분 후에 반영될 예정입니다.
 
 [사용자 지정 특성을 설정](custom-attributes.md)하는 방법에 대해 자세히 알아보세요.
@@ -289,7 +290,7 @@ Experience Platform으로 전송할 과거 주문의 날짜 범위를 지정합�
 
 ## 이벤트 데이터 수집 확인
 
-Commerce 스토어에서 데이터가 수집되고 있는지 확인하려면 [Adobe Experience Platform 디버거](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko)를 사용하여 Commerce 사이트를 검사하십시오. 데이터가 수집되고 있는지 확인한 후 만든 [데이터 집합](overview.md#prerequisites)에서 데이터를 반환하는 쿼리를 실행하여 상점 및 백 오피스 이벤트 데이터가 가장자리에 표시되는지 확인할 수 있습니다.
+Commerce 스토어에서 데이터가 수집되고 있는지 확인하려면 [Adobe Experience Platform 디버거](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)를 사용하여 Commerce 사이트를 검사하십시오. 데이터가 수집되고 있는지 확인한 후 만든 [데이터 집합](overview.md#prerequisites)에서 데이터를 반환하는 쿼리를 실행하여 상점 및 백 오피스 이벤트 데이터가 가장자리에 표시되는지 확인할 수 있습니다.
 
 1. Experience Platform의 왼쪽 탐색에서 **쿼리**&#x200B;를 선택하고 [!UICONTROL Create Query]을(를) 클릭합니다.
 
@@ -311,11 +312,11 @@ Commerce 스토어에서 데이터가 수집되고 있는지 확인하려면 [Ad
 
 이 예제에서는 [`commerce.productListAdds`](events.md#addtocart), [`commerce.productViews`](events.md#productpageview), [`web.webpagedetails.pageViews`](events.md#pageview) 등의 이벤트 데이터가 표시됩니다. 이 보기를 통해 Commerce 데이터가 에지에 도달했는지 확인할 수 있습니다.
 
-결과가 예상과 다른 경우 데이터 세트를 열고 실패한 일괄 처리 가져오기를 찾습니다. [일괄 가져오기 문제 해결](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/troubleshooting.html?lang=ko)에 대해 자세히 알아보세요.
+결과가 예상과 다른 경우 데이터 세트를 열고 실패한 일괄 처리 가져오기를 찾습니다. [일괄 가져오기 문제 해결](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/troubleshooting.html)에 대해 자세히 알아보세요.
 
 ### 프로필 데이터가 Experience Platform에 표시되는지 확인
 
-Experience Platform에 프로필 데이터가 표시되지 않으면 [Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported)에서 문제 해결 제안을 확인하십시오.
+Experience Platform에 프로필 데이터가 표시되지 않으면 [Commerce 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported)에서 문제 해결 제안을 확인하십시오.
 
 ## 다음 단계
 
