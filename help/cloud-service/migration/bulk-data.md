@@ -1,15 +1,15 @@
 ---
 title: 대량 데이터 마이그레이션 도구
-description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service] (으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service](으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Architect
-source-git-commit: bc8011189a46ccab986b22020881c808da6ee2cd
+exl-id: 81522de9-df54-4651-b8ed-58956376af86
+source-git-commit: 8bf8eb58aa9c1ae965f4bbf5a2987fb22f004769
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # 대량 데이터 마이그레이션 도구
 
@@ -39,8 +39,8 @@ ht-degree: 0%
 
 대량 데이터 마이그레이션 도구의 가용성은 다음과 같습니다.
 
-- **2025년 7월 중순** - 대량 데이터 마이그레이션 도구에 액세스하려면 지원 티켓을 제출하십시오.
-- **2025년 8월 중순** - 대량 데이터 마이그레이션 도구는 공개적으로 사용할 수 있으며 이 페이지에서 액세스할 수 있습니다.
+- **2025년 3분기** - 대량 데이터 마이그레이션 도구에 액세스하려면 지원 티켓을 제출하십시오.
+- **2025년 3분기** - 대량 데이터 마이그레이션 도구는 공개적으로 사용할 수 있으며 이 페이지에서 액세스할 수 있습니다.
 
 ## 대상 환경 만들기
 
@@ -63,7 +63,7 @@ ht-degree: 0%
       - IMS URL - 기본 URL. 예: `https://ims-na1.adobelogin.com/`.
       - IMS 조직 ID
 
-   IMS 범위 및 기타 값의 경우 [Adobe Developer Console](https://developer.adobe.com/console/)의 프로젝트 내에 있는 **자격 증명** 섹션에서 OAuth 유형을 선택하십시오. 추출 도구에 포함된 `.example.env` 파일에 자세한 정보가 제공됩니다.
+   IMS 범위 및 기타 값의 경우 **Adobe Developer Console**&#x200B;의 프로젝트 내에 있는 [자격 증명](https://developer.adobe.com/console/) 섹션에서 OAuth 유형을 선택하십시오. 추출 도구에 포함된 `.example.env` 파일에 자세한 정보가 제공됩니다.
 
 ### 데이터 추출
 
