@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 597cdd929f7abed24a68f1347a214b46664b1c75
+source-git-commit: 6876a5fbde2b3292cd788a50d104083cf51109ed
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 103.4.7 릴리스
+
+![수정](../assets/fix.svg) 제품에 대한 범주 권한을 저장한 오래된 테이블을 제거했습니다. <!--MDEE-1065-->
 
 ## 103.4.6 릴리스
 
@@ -52,7 +56,7 @@ ht-degree: 0%
 
 ## 103.4.2 릴리스
 
-![수정](../assets/fix.svg) `EXPORTER_EXTENDED_LOG=1` 환경 변수와 함께 `saas:resync --dry-run` 명령을 사용하여 테스트 다시 동기화를 실행할 때 `saas-export.log`에서 엔터티 페이로드를 수집하는 기능이 추가되었습니다. <!--MDEE-1023-->
+![수정](../assets/fix.svg) `saas-export.log` 환경 변수와 함께 `saas:resync --dry-run` 명령을 사용하여 테스트 다시 동기화를 실행할 때 `EXPORTER_EXTENDED_LOG=1`에서 엔터티 페이로드를 수집하는 기능이 추가되었습니다. <!--MDEE-1023-->
 
 ## 103.4.1 릴리스
 
@@ -74,7 +78,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 ## 103.3.20 릴리스
 
-![해결](../assets/fix.svg) 카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->
+![해결](../assets/fix.svg) 카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `BulkException`에서 추적 불가능한 `cron.log` 오류를 해결했습니다.<!--MDEE-966-->
 ![수정](../assets/fix.svg) 스토어 보기 수가 많은 인스턴스에서 제품 재동기화 프로세스의 성능이 향상되었습니다. <!--MDEE-974-->
 
 ## 103.3.19 릴리스
