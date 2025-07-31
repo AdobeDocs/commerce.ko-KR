@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 036e04a02edadf4b8a48fc38e784d9dde734ba45
+source-git-commit: f1861e890ec661d441b6f2c9b0c0cd54b4c20ece
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 시작하기 전에 다음을 확인하십시오.
 
-- [!DNL Adobe Commerce Optimizer]개의 권한을 가진 **Adobe Experience Cloud 계정**
+- **개의 권한을 가진** Adobe Experience Cloud 계정[!DNL Adobe Commerce Optimizer]
 - 인스턴스를 만들고 사용자를 관리하기 위한 **조직 관리자 액세스**
 - **GitHub 계정**(샘플 데이터 및 상점 개발용)
 - 전자 상거래 개념의 **기본 이해**
@@ -109,7 +109,11 @@ ht-degree: 0%
 
 1. 인스턴스에 액세스:
 
-   인스턴스 이름을 클릭하여 [!DNL Adobe Commerce Optimizer] 응용 프로그램을 엽니다.
+   인스턴스 이름을 클릭하여 [!DNL Adobe Commerce Optimizer] 응용 프로그램을 엽니다. 응용 프로그램 내에서 페이지 상단의 드롭다운을 사용하여 다른 [!DNL Adobe Commerce Optimizer] 인스턴스 간에 전환할 수 있습니다.
+
+   ![인스턴스 전환기](./assets/context-switcher.png){zoomable="yes"}
+
+   표시된 모든 인스턴스가 동일한 조직에 속합니다. 인스턴스 간에 전환하여 각 인스턴스에 대한 데이터 및 설정(예: 샌드박스와 프로덕션 환경 간)을 볼 수 있습니다.
 
 1. 인스턴스 세부 사항 가져오기:
    - 인스턴스 이름 옆에 있는 정보 아이콘을 클릭합니다.
@@ -186,5 +190,5 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

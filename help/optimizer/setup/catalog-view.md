@@ -3,11 +3,11 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: f67a5327b742338655b0f7ffa4076a174219f711
+source-git-commit: 2e47c770d204c9c7f959893704dd0ebcc6ac792a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 - 제품 필터를 정의하기 위해 [정책을 만듦](policies.md)
 
-- [가격 책자 설정](pricebooks.md) 가격 책정
+- 가격 책자 [수집됨](pricebooks.md)
 
 1. 왼쪽 메뉴에서 _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 
@@ -49,14 +49,16 @@ ht-degree: 0%
 1. 카탈로그 보기 세부 사항을 구성합니다.
 
    - **이름** - 카탈로그 보기의 이름을 입력합니다(예: `Celport`)&#x200B;.
-   - **카탈로그 원본** - 카탈로그 원본(로케일)을 추가합니다(예: `en-US`). **enter**&#x200B;을 누릅니다.
+   - **카탈로그 원본** - 카탈로그 원본(로케일)을 선택합니다(예: `en-US`).
    - **정책**—드롭다운을 사용하여 관련 정책을 선택합니다. 예를 들어 &quot;Brand&quot;, &quot;Model&quot;입니다. &#x200B;이미 [정책을 만들었는지](policies.md)확인하십시오.
 
 1. 가격 장부를 선택하여 카탈로그 뷰에 연결합니다.
 
-1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 연결된 가격표 및 정책으로 카탈로그 보기를 만듭니다.
+   - **사용 가능한 가격 장부를 모두 사용**-이 옵션은 사용 가능한 가격 장부에서 가격 데이터를 가져옵니다.
+   - **선택한 가격 장부만 허용**-이 옵션은 카탈로그 보기에 사용할 특정 가격 장부를 선택할 수 있는 **허용된 가격 장부 추가** 대화 상자를 표시합니다.
+   - **가격 책정 사용 안 함**-지금은 이 옵션을 사용할 수 없습니다.
 
-   **[!UICONTROL Add]** 단추가 활성화되지 않은 경우 [카탈로그 원본] 필드에 커서를 놓고 **Enter**&#x200B;를 눌러 카탈로그 원본이 제대로 추가되었는지 확인하십시오&#x200B;.
+1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 연결된 가격표 및 정책으로 카탈로그 보기를 만듭니다.
 
 카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다&#x200B;.
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 ### 작동 방법
 
 **1. 데이터 수집**
-PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서비스 프레임워크에 수집됩니다. 각 SKU에는 카탈로그 보기, 정책 및 로케일에 매핑되는 로케일 정보와 제품 특성이 포함되어 있습니다. 데이터 수집에 대한 자세한 내용은 [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog)를 참조하세요.
+PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서비스 프레임워크에 수집됩니다. 각 SKU에는 카탈로그 보기, 정책 및 로케일에 매핑되는 로케일 정보와 제품 특성이 포함되어 있습니다. 데이터 수집에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
 
 **2. 통합 기본 카탈로그**
 수집된 데이터는 카탈로그 서비스 데이터 파이프라인에 통합 기본 카탈로그를 만듭니다. 이 단일 소스는 여러 사업부에서 데이터 중복을 제거합니다.
@@ -80,7 +82,7 @@ PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서�
 여러 카탈로그 보기는 서로 다른 비즈니스 단위를 나타냅니다(예: &quot;Texas Retail&quot;, &quot;Texas Retail Seasonal&quot;). 카탈로그 보기에서 로케일, 정책 및 가격 책자를 공유하여 유연성을 높일 수 있습니다.
 
 **4. 다중 채널 게재**
-필터링된 카탈로그 데이터는 Edge Delivery Services 상점, 마켓 플레이스, 광고 플랫폼 및 사용자 지정 마이크로 상점 등 다양한 대상에 제공됩니다. 카탈로그 데이터 배달에 대한 자세한 내용은 [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog)를 참조하세요.
+필터링된 카탈로그 데이터는 Edge Delivery Services 상점, 마켓 플레이스, 광고 플랫폼 및 사용자 지정 마이크로 상점 등 다양한 대상에 제공됩니다. 카탈로그 데이터 배달에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
 
 ### 주요 구성 요소
 
@@ -126,4 +128,4 @@ PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서�
 
 >[!INFO]
 >
->카탈로그 데이터 수집 및 배달에 대한 자세한 내용은 [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog)를 참조하세요.
+>카탈로그 데이터 수집 및 배달에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.

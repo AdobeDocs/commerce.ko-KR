@@ -3,10 +3,11 @@ title: Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례
 description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 카탈로그 보기 및 정책을 사용하여 카탈로그를 관리하는 방법과 카탈로그 구성에 따라 상점을 설정하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 474426ef1f99eed8d2c1b5d736332aaa666872fa
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
+source-git-commit: 5c745a8b6b3c289cb52ad7756ec521b0df96c053
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ ht-degree: 0%
 - **사용자 권한**
    - Adobe Admin Console에 대한 관리자 액세스
    - 계정 설정에 대해서는 [사용자 관리](../user-management.md)를 참조하십시오.
-   - 액세스 권한이 없는 경우 Adobe 계정 담당자에게 문의하거나 [조기 액세스 프로그램 양식](https://experienceleague.adobe.com/go/aco-early-access-program)을 작성하십시오.
+   - 액세스 권한이 없는 경우 Adobe 계정 담당자에게 문의하십시오.
 
 - **샘플 데이터**
    - 인스턴스에 로드된 Carvelo 자동차 카탈로그 데이터
@@ -46,7 +47,7 @@ ht-degree: 0%
 
 ## 시작하겠습니다.
 
-이 사용 사례에서는 다음 작업을 수행합니다.
+이 사용 사례에서는 다음을 사용하여 작업합니다.
 
 1. [!DNL Adobe Commerce Optimizer] UI - 카탈로그 보기 및 정책을 설정하여 Carvelo 사용 사례에 대한 복잡한 카탈로그 작동 설정을 관리합니다.
 
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=ko) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
+> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
 
 ### 주요 ‌ 사항
 
@@ -117,7 +118,7 @@ Carvelo는 서로 다른 대리점(Arkbridge, Kingsbluff 및 Celport)을 통해 
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce Optimizer] UI의 주요 구성 요소에 대한 자세한 내용은 [개요](../overview.md) 문서를 참조하세요.
+>[ UI의 주요 구성 요소에 대한 자세한 내용은 ](../overview.md)개요[!DNL Adobe Commerce Optimizer] 문서를 참조하세요.
 
 왼쪽 탐색에서 _스토어 설정_ 섹션을 확장하고 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다. Arkbridge 및 Kingsbluff 대리점에는 이미 카탈로그 보기가 생성되었습니다.
 
@@ -127,7 +128,7 @@ Carvelo는 서로 다른 대리점(Arkbridge, Kingsbluff 및 Celport)을 통해 
 >
 >지금은 **전역** 카탈로그 보기를 무시할 수 있습니다.
 
-카탈로그 보기 세부 사항을 검토하려면 정보 아이콘을 클릭합니다.
+정보 아이콘을 클릭하여 카탈로그 보기 세부 사항을 검토합니다.
 
 Arkbridge에는 다음 정책이 있습니다.
 
@@ -156,7 +157,7 @@ Carvelo의 상거래 관리자는 *East Coast Inc* 회사에 속하는 *Celport*
 1. Celport에서 브레이크 및 일시 중단 부품만 판매하도록 *Celport 부품 범주*&#x200B;라는 새 정책을 만듭니다.
 1. Celport 상점에 대한 새 카탈로그 보기를 만듭니다.
 
-   이 카탈로그 보기는 새로 만든 정책 *Celport 부품 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` 가격 설명서를 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
+   이 카탈로그 보기는 새로 만든 정책 *Celport 부품 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` 가격표를 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
 1. 만든 Celport 카탈로그 보기의 데이터를 사용하도록 commerce storefront 구성을 업데이트합니다.
 
 이 섹션이 끝나면 Celport가 가동되어 Carvelo의 제품을 판매할 준비를 갖추게 됩니다.
@@ -228,17 +229,13 @@ Celport 판매자가 판매하는 SKU(브레이크 및 서스펜션 부품 포�
 1. 카탈로그 보기 세부 정보 입력:
 
    - **이름** = *Celport*
-   - **카탈로그 원본** = *en-US*(Enter 키 누름)
+   - **카탈로그 원본** = *en-US*
    - **정책**(드롭다운 사용) = *East Coast Inc 브랜드*; *Celport 일부 범주*; *브랜드*; *모델*                          
 1. 카탈로그 보기를 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다.
 
    ![업데이트된 카탈로그 보기 목록](../assets/updated-catalog-view-list.png)
-
-   >[!NOTE]
-   >
-   >**[!UICONTROL Add]** 단추가 파란색이 아닌 경우 커서를 **[!UICONTROL Catalog sources]** 섹션에 놓고 **enter**&#x200B;를 눌러 카탈로그 원본을 선택했는지 확인하십시오.
 
 1. Celport 카탈로그 보기 ID를 가져옵니다.
 
@@ -371,9 +368,9 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 
    ![브레이크 제품 목록 페이지](../assets/brakes-listing-page.png)
 
-   가격 정보로 제품 상세내역을 조회하고 제품 가격 정보를 확인하려면 브레이크 부품 이미지를 누릅니다.
+   가격 정보로 제품 세부 사항을 보고 제품 가격 정보를 확인하려면 브레이크 부품 이미지를 클릭하십시오.
 
-1. [!DNL Adobe Commerce Optimizer] 인스턴스의 사용 사례 데이터에서 사용할 수 있는 또 다른 파트 카테고리인 `tires`을(를) 검색합니다.
+1. `tires` 인스턴스의 사용 사례 데이터에서 사용할 수 있는 또 다른 파트 카테고리인 [!DNL Adobe Commerce Optimizer]을(를) 검색합니다.
 
    ![헤더가 잘못된 Storefront 구성](../assets/storefront-configuration-with-incorrect-headers.png)
 
@@ -403,7 +400,7 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 
 **문제:** 저장 단추가 활성화되지 않음
 
-- **해결 방법:** 정책 이름을 입력하고 모든 필수 필드를 완료하십시오
+- **해결 방법:** 정책 이름을 입력하고 모든 필수 필드를 완료했는지 확인하십시오.
 
 **문제:** 필터가 예상대로 작동하지 않음
 
@@ -415,10 +412,6 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 
 - **해결 방법:** 연결된 모든 정책이 사용하도록 설정되어 있고 올바르게 구성되어 있는지 확인하십시오.
 
-**문제:** 추가 단추가 파란색이 아닙니다.
-
-- **해결 방법:** 필드에 커서를 놓고 Enter 키를 눌러 카탈로그 원본을 선택하십시오
-
 ### Storefront 구성 문제
 
 **문제:** Storefront가 로드되지 않음
@@ -427,7 +420,7 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 
 **문제:** 표시되는 제품 없음
 
-- **해결 방법:** 가격 장부 ID가 Adobe Commerce Optimizer 인스턴스에서 사용 가능한 ID와 일치하는지 확인하십시오
+- **해결 방법:** 가격 장부 ID가 Adobe Commerce Optimizer 인스턴스에서 사용할 수 있는 ID와 일치하는지 확인하십시오
 
 **문제:** 검색 결과 없음
 
@@ -451,7 +444,5 @@ Adobe Commerce Optimizer에 대해 계속 배우려면:
 - 쇼핑 경험을 개인화하려면 [머천다이징 기능](../merchandising/overview.md)을 살펴보세요.
 - [고급 정책 구성](../setup/policies.md)에 대해 알아보기
 - 다른 대리점에 대해 [추가 카탈로그 보기](../setup/catalog-view.md)를 설정합니다.
-- 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/)를 검토하십시오.
-- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko) 보기
-
-
+- 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 검토하십시오.
+- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) 보기
