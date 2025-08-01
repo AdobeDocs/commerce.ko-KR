@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: f1861e890ec661d441b6f2c9b0c0cd54b4c20ece
+source-git-commit: f920cfe7cd433e85f343fefe1062a1972e5e5e5f
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 0%
 인스턴스를 만든 후:
 
 1. Commerce Cloud 관리자에서 [인스턴스 관리](#manage-an-instance).
-1. [카탈로그 보기 가이드](./setup/catalog-view.md)를 사용하여 카탈로그 보기 및 정책을 설정합니다.
 1. [사용자 관리 가이드](./user-management.md)를 사용하여 사용자 액세스를 구성하십시오.
 
 ### 3단계. 샘플 데이터 추가(선택 사항)
@@ -146,15 +145,12 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 
 1. GitHub 저장소에 액세스:
    - [샘플 카탈로그 데이터 수집 리포지토리](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)를 방문하십시오.
-   - 저장소의 README 파일에 있는 설치 지침을 따릅니다.
 
-2. 수집 실행:
-   - 제공된 스크립트를 사용하여 샘플 데이터를 Adobe Commerce Optimizer 스테이징 환경으로 로드합니다.
-   - 데이터가 [데이터 동기화](./setup/data-sync.md) 페이지에 표시되는지 확인하십시오.
+1. 저장소의 README 파일에 있는 설치 지침을 따릅니다.
 
-3. 정리(선택 사항):
-
-   샘플 데이터 로더 소스 코드에 포함된 `reset.js` 스크립트를 사용하여 샘플 데이터를 제거합니다.
+   - 데이터 수집 구성 및 실행
+   - 샘플 데이터를 사용하여 카탈로그 정책 및 보기 구성
+   - 샘플 데이터 정리(선택 사항)
 
 ## 다음 단계
 
@@ -190,5 +186,5 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
