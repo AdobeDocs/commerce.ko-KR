@@ -1,7 +1,7 @@
 ---
 title: 검색 성능
 description: 검색 성능 페이지에서는 insight에 쇼핑객이 사용하는 검색어를 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
 source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
 source-git-commit: b0ce0a399e89baaeabe87c53d069df866378f8c8
 workflow-type: tm+mt
@@ -186,5 +186,5 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
