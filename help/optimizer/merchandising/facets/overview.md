@@ -1,10 +1,11 @@
 ---
 title: 패싯 개요
 description: ' [!DNL Adobe Commerce Optimizer] 의 패싯과 패싯이 검색 결과를 개선하는 방법에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
+source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -29,12 +30,14 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 
 ## 기본 속성 값
 
-다음 [제품 특성](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#operation/createProductMetadata)은(는) [!DNL Adobe Commerce Optimizer]에서 사용되며 기본적으로 활성화되어 있습니다.
+다음 제품 특성은 [!DNL Adobe Commerce Optimizer]에서 사용되며 기본적으로 활성화되어 있습니다.
 
 | 속성 | 설명 | 속성 |
 |---|---|---|
 | 정렬 가능 | 제품 목록에서 정렬에 사용됨 | `price` |
 | 검색 가능 | 검색에 사용 | `price` <br />`sku`<br />`name` |
+
+제품 특성 및 해당 속성에 대한 자세한 내용은 [데이터 수집 메타데이터 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata)를 참조하세요.
 
 ## 기본 비시스템 속성 속성
 

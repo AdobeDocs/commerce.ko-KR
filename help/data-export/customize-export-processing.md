@@ -2,9 +2,10 @@
 title: SaaS 데이터 내보내기 성능 향상
 description: 다중 스레드 데이터 내보내기 모드를 사용하여 Commerce Services의 SaaS 데이터 내보내기 성능을 향상시키는 방법에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
+source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Adobe에서는 일반적으로 Commerce 판매자의 동기화 요구 사항을 
 
 >[!NOTE]
 >
->Adobe은 다중 스레드 처리를 사용할 때 주의할 것을 권장합니다. 이 기능은 아직 개선 중인 조기 액세스 기능입니다. 성능 향상을 위해 다중 스레딩을 구성하는 경우 포함된 Adobe Commerce 서비스 가드레일을 트리거하여 데이터 수집 중 시스템 오용을 방지할 수 있습니다. 이러한 가드레일은 사용자가 시스템을 오버로드할 수 있는 동기화 변경 사항을 트리거하지 못하도록 제한합니다. 보호 기능이 트리거되면 요청이 차단되고 시스템에서 429 오류를 반환합니다. 이러한 오류가 발생하면 구성을 조정하고 지원 티켓을 제출하여 도움을 받으십시오.
+>Adobe은 다중 스레드 처리를 사용할 때 주의할 것을 권장합니다. 성능 향상을 위해 다중 스레딩을 구성하는 경우 포함된 Adobe Commerce 서비스 가드레일을 트리거하여 데이터 수집 중 시스템 오용을 방지할 수 있습니다. 이러한 가드레일은 사용자가 시스템을 오버로드할 수 있는 동기화 변경 사항을 트리거하지 못하도록 제한합니다. 보호 기능이 트리거되면 요청이 차단되고 시스템에서 429 오류를 반환합니다. 이러한 오류가 발생하면 구성을 조정하고 지원 티켓을 제출하여 도움을 받으십시오.
 
 ## 다중 스레딩 구성
 
@@ -63,7 +64,7 @@ bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 
 다중 스레딩을 사용하여 모든 데이터 내보내기 작업을 처리하기 위해 시스템 통합자나 개발자는 Commerce 애플리케이션 구성에서 각 피드에 대한 스레드 수와 배치 크기를 수정할 수 있습니다.
 
-이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
+이러한 변경 내용은 구성 파일 [의 ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)시스템 섹션`app/etc/config.php`에 사용자 지정 값을 추가하여 적용할 수 있습니다.
 
 **예: 제품 및 가격에 대한 다중 스레딩 구성**
 

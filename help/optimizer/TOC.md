@@ -4,7 +4,7 @@ user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 �
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: d74665a7f321394c88acc243217aa2adbd290064
+source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 10%
@@ -57,4 +57,4 @@ ht-degree: 10%
 - [설정](settings.md)
 - 사용 사례 {#use-case}
    - [Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례](./use-case/admin-use-case.md)
-- [개발자 안내서](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
+- [개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)

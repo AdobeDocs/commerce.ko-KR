@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: f920cfe7cd433e85f343fefe1062a1972e5e5e5f
+source-git-commit: b0ce0a399e89baaeabe87c53d069df866378f8c8
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 | 작업 | 설명 | 링크 |
 |---|---|---|
 | **Developer Console 액세스** | 프로젝트 만들기 및 자격 증명 생성 | [Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
-| **카탈로그 데이터 수집** | 기존 시스템에서 제품 데이터 가져오기 | [데이터 수집 API](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/using-the-api/) |
+| **카탈로그 데이터 수집** | 기존 시스템에서 제품 데이터 가져오기 | [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) |
 | **Storefront 설정** | Edge Delivery Services 상점 구성 | [Storefront 설치](./storefront.md) |
 
 ### 머천다이저 작업
@@ -143,14 +143,14 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 
 **샘플 데이터 로드:**
 
-1. GitHub 저장소에 액세스:
-   - [샘플 카탈로그 데이터 수집 리포지토리](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)를 방문하십시오.
+1. [샘플 카탈로그 데이터 수집](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion) GitHub 저장소에 액세스합니다.
 
-1. 저장소의 README 파일에 있는 설치 지침을 따릅니다.
+1. 저장소의 README 파일에 있는 설치 지침에 따라 다음 작업을 완료합니다.
 
-   - 데이터 수집 구성 및 실행
-   - 샘플 데이터를 사용하여 카탈로그 정책 및 보기 구성
-   - 샘플 데이터 정리(선택 사항)
+   - 환경 설정
+   - 데이터 수집 프로세스 완료
+   - 샘플 데이터를 사용하여 카탈로그 보기 및 정책 만들기
+   - [데이터 동기화](./setup/data-sync.md) 페이지에서 카탈로그 서비스 데이터를 확인하여 데이터 수집을 확인합니다
 
 ## 다음 단계
 
@@ -185,6 +185,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 
 ### 도움말 보기
 
-- **개발자 리소스**: [개발자 설명서](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
+- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
