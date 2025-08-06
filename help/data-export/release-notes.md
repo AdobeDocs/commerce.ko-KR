@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 6876a5fbde2b3292cd788a50d104083cf51109ed
+source-git-commit: d859da62f54cf9a86a57d34d5f74aae972dc99be
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 103.4.8 릴리스
+
+![새로 만들기](../assets/new.svg) 가격 피드에 계층 가격 정보가 추가되었습니다. <!--MDEE-1070-->
+![수정](../assets/fix.svg) 이제 데이터 내보내기 확장은 웹 사이트 범위 번들 선택 가격을 올바르게 내보내 &quot;카탈로그 가격 범위&quot; 구성에 따라 상점 가격이 정확한 값을 반영하도록 합니다.<!--MDEE-1115-->
+![수정](../assets/fix.svg) 이전에는 임계값 구성으로 Inventory management(다중 소스 Inventory management)를 사용할 때 제품이 잘못된 `lowStock=true` 상태로 동기화되었습니다. 이 문제는 정확한 낮은 재고 보고를 위해 해결되었습니다.<!--MDEE-1113-->
 
 ## 103.4.7 릴리스
 
