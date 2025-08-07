@@ -37,7 +37,7 @@ ht-degree: 0%
 ## 1단계: Experience Platform 스키마 구성
 
 1. Adobe Experience Platform에 로그인하고 Commerce 스키마를 선택합니다.
-1. 루트 수준에서 [사용자 지정 ID 필드 추가](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups):
+1. 루트 수준에서 [사용자 지정 ID 필드 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups):
    - `hashedPID`(문자열) - 기본 ID 해시
    - `hashedSID`(문자열) - 보조 ID 해시
    - `primaryID`(문자열) - 기본 ID 필드 이름
