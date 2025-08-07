@@ -1,18 +1,23 @@
 ---
-title: 사용자 지정 순서 속성 추가
+title: 주문에 사용자 지정 속성 추가
 description: 백 오피스 데이터에 사용자 정의 주문 속성을 추가하고 이러한 속성을 Experience Platform으로 전송하는 방법을 알아봅니다.
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: dcd0b9e7-8d36-4bde-b226-ac19e83f00e4
+source-git-commit: 5b1387e18e059c938aca600cc31951a3f5289e7e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '602'
 ht-degree: 2%
 
 ---
 
-# 사용자 지정 순서 속성 추가
+# 주문에 사용자 지정 속성 추가
 
 이 문서에서는 백 오피스 이벤트에 사용자 지정 특성을 추가하는 방법에 대해 알아봅니다. 사용자 지정 속성을 사용하면 풍부한 데이터 통찰력을 캡처하여 분석을 향상시키고 나아가 쇼핑객을 위한 개인화된 경험을 만들 수 있습니다.
+
+>[!NOTE]
+>
+>프로필에 [사용자 지정 ID를 추가](custom-identities.md)하는 방법에 대해 알아봅니다.
 
 사용자 지정 속성은 다음 두 가지 수준에서 지원됩니다.
 
@@ -35,7 +40,7 @@ ht-degree: 2%
 
 ## 1단계: 디렉토리 구조 생성
 
-1. [!DNL Commerce] 설치에서 `app/code` 디렉터리로 이동하여 모듈 디렉터리를 만듭니다. 예: `Magento/AepCustomAttributes`. 이 디렉터리에는 사용자 지정 특성에 필요한 파일이 포함되어 있습니다.
+1. `app/code` 설치에서 [!DNL Commerce] 디렉터리로 이동하여 모듈 디렉터리를 만듭니다. 예: `Magento/AepCustomAttributes`. 이 디렉터리에는 사용자 지정 특성에 필요한 파일이 포함되어 있습니다.
 1. 모듈 디렉터리에 `etc`(이)라는 하위 디렉터리를 만듭니다. `etc` 디렉터리에 `module.xml`, `query.xml`, `di.xml` 및 `et_schema.xml` 파일이 있습니다.
 
 ## 2단계: 종속성 및 설정 버전 정의
@@ -296,7 +301,7 @@ class OrderItemCustomAttribute
 
 ## 10단계: ProductContext 클래스 정의
 
-`ProductContext` 클래스를 정의하는 `ProductContext.php`이라는 파일을 만듭니다. For example:
+`ProductContext.php` 클래스를 정의하는 `ProductContext`이라는 파일을 만듭니다. For example:
 
 ```php
 <?php>
@@ -344,7 +349,7 @@ ComponentRegistrar::register(
 
 Experience Platform의 [!DNL Commerce] 스키마에서 새 사용자 지정 순서 특성을 수집할 수 있도록 하려면 이러한 사용자 지정 필드를 포함하도록 스키마를 확장해야 합니다.
 
-이러한 사용자 지정 필드를 포함하도록 기존 XDM 스키마를 확장하는 방법에 대해 알아보려면 Experience Platform 설명서의 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) 문서를 참조하십시오. 테넌트 ID 필드는 동적으로 생성되지만 필드 구조는 Experience Platform 설명서에 제공된 예와 유사해야 합니다.
+이러한 사용자 지정 필드를 포함하도록 기존 XDM 스키마를 확장하는 방법에 대해 알아보려면 Experience Platform 설명서의 [UI에서 스키마 만들기 및 편집](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) 문서를 참조하십시오. 테넌트 ID 필드는 동적으로 생성되지만 필드 구조는 Experience Platform 설명서에 제공된 예와 유사해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -364,7 +369,7 @@ Experience Platform의 [!DNL Commerce] 스키마에서 새 사용자 지정 순�
 
 ### 문제 해결
 
-**[!UICONTROL Data Customization]** 탭에 `No custom order attributes found.` 메시지가 표시되면 다음을 확인하십시오.
+`No custom order attributes found.` 탭에 **[!UICONTROL Data Customization]** 메시지가 표시되면 다음을 확인하십시오.
 
 1. [Data Connector 확장](overview.md#prerequisites)을 사용하도록 설정하기 위한 필수 구성 요소를 완료했습니다.
 1. [사용자 지정 순서 특성](#add-custom-order-attributes)을 구성했습니다.
