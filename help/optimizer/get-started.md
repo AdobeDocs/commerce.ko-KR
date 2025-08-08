@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: b0ce0a399e89baaeabe87c53d069df866378f8c8
+source-git-commit: ee11900f0ddf77a8cb7df7d5ae378924bdf1f2d7
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 - **개의 권한을 가진** Adobe Experience Cloud 계정[!DNL Adobe Commerce Optimizer]
 - 인스턴스를 만들고 사용자를 관리하기 위한 **조직 관리자 액세스**
-- **GitHub 계정**(샘플 데이터 및 상점 개발용)
+- 샘플 데이터 및 상점 개발 로드용 **GitHub 계정**
 - 전자 상거래 개념의 **기본 이해**
 
 ## 빠른 시작 안내서
@@ -76,6 +76,7 @@ ht-degree: 0%
 |---|---|---|
 | **사용자 관리** | 사용자, 개발자 및 관리자 추가 | [사용자 관리](./user-management.md) |
 | **인스턴스 만들기** | 샌드박스 및 프로덕션 환경 설정 | [인스턴스 만들기](#create-an-instance) |
+| **인스턴스 관리** | 상태를 확인하고 인스턴스 이름 및 설명을 업데이트하며 애플리케이션 및 API 액세스에 대한 키 URL을 가져옵니다. | [인스턴스 관리](#manage-instances) |
 | **액세스 구성** | 카탈로그 보기 및 정책 설정 | [카탈로그 보기](./setup/catalog-view.md) |
 
 ### 개발자 작업
@@ -86,7 +87,7 @@ ht-degree: 0%
 |---|---|---|
 | **Developer Console 액세스** | 프로젝트 만들기 및 자격 증명 생성 | [Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
 | **카탈로그 데이터 수집** | 기존 시스템에서 제품 데이터 가져오기 | [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) |
-| **Storefront 설정** | Edge Delivery Services 상점 구성 | [Storefront 설치](./storefront.md) |
+| **상점 설치** | Edge Delivery Services 상점 구성 | [Storefront 설치](./storefront.md) |
 
 ### 머천다이저 작업
 
@@ -100,36 +101,61 @@ ht-degree: 0%
 
 ## 인스턴스 관리
 
+Commerce Cloud 관리자에서 인스턴스를 관리합니다.
+
+>[!NOTE]
+>
+>모든 Adobe Commerce Optimizer 사용자가 Cloud Manager에 액세스할 수 있는 것은 아닙니다. 액세스는 사용자 계정에 할당된 역할 및 권한에 따라 다릅니다.
+
 1. [Adobe Experience Cloud](https://experience.adobe.com/)에 로그인합니다.
 
 1. Commerce Cloud Manager 열기:
+
    - **빠른 액세스**&#x200B;에서 **Commerce**&#x200B;을(를) 클릭합니다.
    - 사용 가능한 인스턴스를 봅니다.
 
-1. 인스턴스에 액세스:
+### 인스턴스 검색 및 필터링
 
-   인스턴스 이름을 클릭하여 [!DNL Adobe Commerce Optimizer] 응용 프로그램을 엽니다. 응용 프로그램 내에서 페이지 상단의 드롭다운을 사용하여 다른 [!DNL Adobe Commerce Optimizer] 인스턴스 간에 전환할 수 있습니다.
+로그인 후 대시보드에는 조직에서 사용할 수 있는 모든 Commerce 제품 인스턴스가 표시됩니다.
+제품 열은 인스턴스가 프로비저닝되는 Commerce 애플리케이션을 나타냅니다.
+
+필터 및 검색 옵션을 사용하여 특정 인스턴스를 신속하게 찾을 수 있습니다. 만든 데이터, 지역, 만든 사람, 제품 유형, 환경 및 상태별로 검색할 수 있습니다.
+
+### [!DNL Adobe Commerce Optimizer] 응용 프로그램 액세스
+
+앱이 열려 있으면 샌드박스와 프로덕션과 같은 환경 간을 쉽게 전환하여 Commerce Cloud Manager로 돌아가지 않고도 각 환경에 대한 데이터와 설정을 볼 수 있습니다.
+
+1. Commerce Cloud 관리자에서 인스턴스 이름을 클릭하여 [!DNL Adobe Commerce Optimizer] 응용 프로그램을 엽니다.
+
+1. 응용 프로그램을 종료하지 않고 [!DNL Adobe Commerce Optimizer]개 인스턴스 간에 전환합니다.
+
+   인스턴스 드롭다운에는 조직에서 사용 가능한 모든 Optimizer 인스턴스가 나열됩니다. 보려는 인스턴스를 선택합니다.
 
    ![인스턴스 전환기](./assets/context-switcher.png){zoomable="yes"}
 
-   표시된 모든 인스턴스가 동일한 조직에 속합니다. 인스턴스 간에 전환하여 각 인스턴스에 대한 데이터 및 설정(예: 샌드박스와 프로덕션 환경 간)을 볼 수 있습니다.
+### 인스턴스 세부 사항을 가져옵니다**
 
-1. 인스턴스 세부 사항 가져오기:
-   - 인스턴스 이름 옆에 있는 정보 아이콘을 클릭합니다.
-   - GraphQL 끝점, 데이터 수집을 위한 Catalog Service 끝점 및 인스턴스 ID(`tenant ID`)를 참고하십시오.
+인스턴스 이름 옆에 있는 정보 아이콘을 클릭하여 인스턴스 세부 사항을 확인합니다.
 
-   ![인스턴스 세부 정보](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
+![인스턴스 세부 정보](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
 
-   프론트엔드 애플리케이션 및 백엔드 시스템과 통합하려면 엔드포인트 및 인스턴스 ID(테넌트 ID) 세부 정보가 필요합니다. [!DNL Adobe Commerce Optimizer] 응용 프로그램에 액세스하기 위한 URL도 여기에 제공됩니다.
+다음 주요 정보를 참고하십시오.
 
-   모든 Adobe Commerce Optimizer 사용자가 Cloud Manager 및 인스턴스 세부 사항에 액세스할 수 있는 것은 아닙니다. 액세스는 사용자 계정에 할당된 역할 및 권한에 따라 다릅니다. 액세스 권한이 없는 경우 조직 관리자에게 문의하여 인스턴스 세부 정보를 얻으십시오.
+- 머천다이징 API를 사용하여 Commerce 카탈로그 데이터를 검색하는 **GraphQL 끝점**
+- REST API를 사용한 데이터 수집을 위한 **카탈로그 서비스 끝점**
+- **응용 프로그램에 액세스하기 위한** Commerce Optimizer URL[!DNL Adobe Commerce Optimizer]
+- **인스턴스 ID** 인스턴스를 식별하는 고유한 테넌트 ID입니다.
 
-1. 인스턴스 이름 및 설명 편집:
-   - 인스턴스 이름 옆에 있는 **편집** 아이콘을 클릭합니다.
-   - 필요에 따라 이름과 설명을 업데이트합니다.
-   - **저장**&#x200B;을 클릭합니다.
+끝점 및 인스턴스 ID 세부 정보는 API 액세스를 구성하고 프론트엔드 애플리케이션 및 백엔드 시스템과 통합하는 데 필요합니다.
+인스턴스 세부 정보에 대한 액세스 권한이 없는 경우 조직 관리자에게 문의하여 값을 얻으십시오.
 
-   검색 및 필터 옵션을 사용하여 특정 인스턴스를 빠르게 찾을 수도 있습니다.
+### 인스턴스 이름 및 설명 편집
+
+필요에 따라 인스턴스 이름과 설명을 업데이트합니다.
+
+1. 인스턴스 이름 옆에 있는 **편집** 아이콘을 클릭합니다.
+1. 필요에 따라 **인스턴스 이름** 및 **설명**&#x200B;을 업데이트하십시오.
+1. **저장**&#x200B;을 클릭합니다.
 
 ## 샘플 데이터 추가
 
@@ -186,5 +212,5 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
