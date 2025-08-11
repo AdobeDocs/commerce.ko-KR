@@ -159,7 +159,7 @@ _2024년 5월 16일_
 
 ### 업데이트
 
-![수정](../assets/fix.svg) 범주의 [`productSearch` 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath``categoryList` GraphQL 쿼리를 수정했습니다.
+![수정](../assets/fix.svg) 범주의 [`productSearch` 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath` `categoryList` GraphQL 쿼리를 수정했습니다.
 
 ## [!DNL Live Search] 4.1.1
 
