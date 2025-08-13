@@ -3,11 +3,11 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: 2e47c770d204c9c7f959893704dd0ebcc6ac792a
+source-git-commit: ff53f84b4ab7cfb219aae0e29cc35b23d0f6601b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,43 @@ ht-degree: 0%
 카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다&#x200B;.
 
 이러한 단계를 완료하면 이제 선택한 소스 및 정책을 기반으로 제품 및 가격을 표시하도록 카탈로그 보기가 구성됩니다.
+
+## 카탈로그 보기 관리
+
+다음 지침에 따라 기존 카탈로그 보기의 속성을 업데이트하거나 봅니다.
+
+### 카탈로그 보기 편집
+
+1. *카탈로그 보기* 작업 영역에서 편집할 표의 카탈로그 보기를 찾은 다음 **...**&#x200B;을 클릭하여 작업 메뉴를 엽니다.
+1. 카탈로그 보기 편집기에 액세스하려면 **편집**&#x200B;을 클릭하세요.
+1. 필요에 따라 이름, 카탈로그 소스, 정책 및 가격 장부 정보를 업데이트합니다.
+1. 변경 사항을 저장합니다.
+
+### 카탈로그 보기 삭제
+
+1. *카탈로그 보기* 작업 영역에서 편집할 표에서 카탈로그 보기를 찾은 다음 **...**&#x200B;을 클릭하여 작업 메뉴를 엽니다.
+1. **삭제**&#x200B;를 클릭합니다.
+
+   확인 대화 상자가 나타나면 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+
+### 세부 정보 보기
+
+이 옵션을 사용하면 *카탈로그 보기* 테이블에 있는 동안 모든 카탈로그 보기 매개 변수를 빠르게 볼 수 있습니다.
+
+*카탈로그 보기* 작업 공간에서 편집할 표의 카탈로그 보기를 찾은 다음 ![정보 아이콘](../assets/info-icon.png)을 클릭합니다.
+
+![카탈로그 보기 세부 정보](../assets/catalog-view-details.png)
+
+여기에서 카탈로그 보기 구성 세부 사항(예:
+
+- ID 보기
+- 이름
+- 카탈로그 소스
+- 정책
+- 만든 날짜
+- 데이터 수정됨
+
+Storefront를 설정하거나 데이터 수집 API를 사용할 때 이러한 구성 설정 중 일부가 필요합니다.
 
 ## 아키텍처 개요
 
