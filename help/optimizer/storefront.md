@@ -2,29 +2,30 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: 7ff78711972cbd73fc75f7523d8ac734081dbe10
+source-git-commit: 475706df971e75091ee72e89d64088fa56aec4dd
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
 
 # 상점 설정
 
->[!NOTE]
+이 튜토리얼에서는 [ 인스턴스의 데이터를 사용하는 강력하고 확장 가능한 보안 Commerce 스토어프런트를 만들기 위해 ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)Edge Delivery Services에서 제공하는 Adobe Commerce Storefront[!DNL Adobe Commerce Optimizer]를 설정하고 사용하는 방법에 대한 자세한 지침을 제공합니다.
+
+
+>[!TIP]
 >
->이 설명서는 초기 액세스 개발 상태의 제품에 대해 설명하고 일반 가용성을 위한 모든 기능을 반영하지는 않습니다.
-
-이 튜토리얼에서는 [ 인스턴스의 데이터를 사용하는 강력하고, 확장 가능하며, 안전한 Adobe Commerce 상점 만들기를 위해 Edge Delivery Services에서 제공하는 ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)Commerce 상점[!DNL Adobe Commerce Optimizer]을(를) 설정하고 사용하는 방법을 보여 줍니다.
-
+>Site Creator 도구를 사용하여 Storefront 코드 저장소 및 문서 작성 환경을 설정하여 Storefront 설정 프로세스를 빠르게 추적합니다.
+>>자동으로 표시됩니다. 그런 다음 이러한 지침을 사용하여 상점 만들기 방법을 이해하고 사용 가능한 구성 요소에 대해 자세히 알아볼 수 있습니다.
 
 ## 사전 요구 사항
 
 * 저장소를 만들 수 있고 로컬 개발용으로 구성된 GitHub 계정(github.com)이 있는지 확인합니다.
 
-* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=ko)를 검토하여 Adobe Edge Delivery Services에서 Commerce Storefront를 개발하는 개념과 워크플로에 대해 알아봅니다.
+* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started)를 검토하여 Adobe Edge Delivery Services에서 Commerce Storefront를 개발하는 개념과 워크플로에 대해 알아봅니다.
 * 개발 환경 설정
 
 
@@ -60,7 +61,7 @@ NVM(Node Version Manager) 및 필요한 Node.js 버전(22.13.1 LTS)을 설치합
 
 >[!TIP]
 >
->[!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
+>[!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
 
 #### Sidekick 설치
 
@@ -68,7 +69,7 @@ Sidekick 브라우저 확장 프로그램을 설치하여 콘텐츠를 편집하
 
 ## 상점 만들기
 
-[!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만든 Storefront는 Edge Delivery Services Storefront 보일러플레이트에 사용자 지정된 버전의 Adobe Commerce을 사용합니다. 보일러판은 상점 개발의 시작점을 제공하는 파일 및 폴더 집합입니다. 이 설정 프로세스는 [Edge Delivery Services Storefront의 Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)에 대한 표준 설정 프로세스와 다릅니다.
+[!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만든 Storefront는 Edge Delivery Services Storefront 보일러플레이트에 사용자 지정된 버전의 Adobe Commerce을 사용합니다. 보일러판은 상점 개발의 시작점을 제공하는 파일 및 폴더 집합입니다. 이 설정 프로세스는 [Edge Delivery Services Storefront의 Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)에 대한 표준 설정 프로세스와 다릅니다.
 
 >[!NOTE]
 >
@@ -107,7 +108,6 @@ Edge Delivery Services + Adobe Commerce Boilerplate 템플릿을 사용하여 �
 1. 다음 세부 정보를 사용하여 구성 양식을 작성합니다.
 
    * **저장소 템플릿**—`hlxsites/aem-boilerplate-commerce`(기본값).
-   * **모든 분기 포함**—모든 분기를 포함하는 옵션을 선택합니다.
    * **소유자**—조직 또는 계정입니다(필수).
    * **저장소 이름**—새 저장소의 고유한 이름입니다(필수).
    * **설명**—저장소에 대한 간략한 설명입니다(선택 사항).
@@ -145,12 +145,6 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 
 1. 터미널 또는 IDE에서 저장소를 엽니다.
 
-1. `aco` 분기 체크 아웃
-
-   ```bash
-   git checkout aco
-   ```
-
 1. `default-fstab.yaml` 파일을 `fstab.yaml`에 복사하여 구성 파일을 만듭니다.
 
    ```bash
@@ -159,7 +153,7 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 
 1. storefront 구성 파일에서 마운트 지점을 업데이트하여 콘텐츠 URL을 가리킵니다.
 
-   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#vocabulary) 구성 파일을 엽니다.
+   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) 구성 파일을 엽니다.
 
       ```yaml
       mountpoints:
@@ -192,47 +186,39 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 >
 >브라우저에 [Sidekick 확장](https://www.aem.live/docs/sidekick#installation)을 설치했는지 확인하십시오.
 
-1. `tools/sidekick/config.json` 파일을 엽니다.
+1. 새 디렉터리 `tools/sidekick`을(를) 만듭니다.
+
+   ```shell
+   mkdir tools/sidekick
+   ```
+
+1. 루트 디렉터리의 `demo-sidekick.json` 파일을 `tools/sidekick` 디렉터리로 복사하고 이름을 `config.json`(으)로 바꾸십시오.
+
+   ```shell
+   cp demo-sidekick.json tools/sidekick/config.json
+   ```
+
+1. 사이트에 대한 Sidekick 구성을 사용자 지정합니다.
+
+   `tools/sidekick/` 디렉터리에서 `config.json` 파일을 편집합니다.
 
    +++Sidekick 구성 파일
 
    ```json
    {
-     "project": "Boilerplate",
-     "plugins": [
-       {
-         "id": "cif",
-         "title": "Commerce",
-         "environments": [
-           "edit"
-         ],
-         "url": "https://main--{SITE}--{ORG}.aem.live/tools/picker/dist/index.html",
-         "isPalette": true,
-         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
-       },
-       {
-         "id": "personalisation",
-         "title": "Personalisation",
-         "environments": [
-           "edit"
-         ],
-         "url": "https://main--{SITE}--{ORG}.aem.live/tools/segments/dist/index.html",
-         "isPalette": true,
-         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
-       }
-     ]
+     "project": "My Project",
+     "editUrlLabel": "Document Authoring",
+     "editUrlPattern": "https://da.live/edit#/{{org}}/{{site}}{{pathname}}"
    }
    ```
 
-   자세한 내용은 [Sidekick 라이브러리 설명서](https://www.aem.live/docs/sidekick-library)를 참조하세요.
-
-   +++
-
 1. `url` 키 값을 GitHub 저장소의 값으로 업데이트합니다.
 
-   * `{ORG}` 문자열을 저장소의 조직 또는 사용자 이름으로 바꾸십시오.
+   * `{{ORG}}` 문자열을 저장소의 조직 또는 사용자 이름으로 바꾸십시오.
 
-   * `{SITE}` 문자열을 저장소 이름으로 바꾸기
+   * `{{SITE}}` 문자열을 저장소 이름으로 바꿉니다.
+
+   * `pathname` 변수가 시스템에 의해 채워집니다.
 
    +++업데이트된 구성 파일의 예
 
@@ -240,29 +226,9 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 
    ```json
    {
-     "project": "Boilerplate",
-     "plugins": [
-       {
-         "id": "cif",
-         "title": "Commerce",
-         "environments": [
-           "edit"
-         ],
-         "url": "https://main--aco-storefront--early-adopter.aem.live/tools/picker/dist/index.html",
-         "isPalette": true,
-         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
-       },
-       {
-         "id": "personalisation",
-         "title": "Personalisation",
-         "environments": [
-           "edit"
-         ],
-         "url": "https://main--aco-storefront--early-adopter.aem.live/tools/segments/dist/index.html",
-         "isPalette": true,
-         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
-       }
-     ]
+     "project": "My Project",
+     "editUrlLabel": "Document Authoring",
+     "editUrlPattern": "https://da.live/edit#/aco-storefront/early-adopter{{pathname}}"
    }
    ```
 
@@ -284,8 +250,8 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 
    ```bash
    git status
-   On branch aco
-   Your branch is up to date with 'origin/aco'.
+   On branch main
+   Your branch is up to date with 'origin/main'.
    
    Changes to be committed:
     (use "git restore --staged <file>..." to unstage)
@@ -293,16 +259,16 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
         modified:   tools/sidekick/config.json
    ```
 
-1. 변경 내용을 `aco` 분기에 커밋합니다.
+1. 변경 사항을 커밋합니다.
 
    ```bash
    git commit -m "Update storefront boilerplate for Adobe Commerce Optimizer"
    ```
 
-1. `main` 분기의 보일러판을 `aco` 분기의 변경 내용으로 덮어씁니다.
+1. 변경 사항을 적용합니다.
 
    ```bash
-   git push origin aco:main -f
+   git push
    ```
 
 ### 5단계: AEM 코드 동기화 앱 추가
@@ -327,7 +293,7 @@ AEM 코드 동기화 GitHub 앱을 저장소에 추가하여 저장소를 Edge D
 
 사이트 작성자 도구를 사용하여 `https://da.live`에 호스팅된 문서 작성 환경에서 상점 콘텐츠를 만들고 초기화합니다. 이 도구는 샘플 컨텐츠를 문서 작성 환경으로 가져오고 샘플 컨텐츠의 모든 문서에 대한 컨텐츠 미리 보기 및 게시 프로세스를 완료합니다. 샘플 콘텐츠에는 페이지 레이아웃, 배너, 레이블 및 상점을 채울 기타 요소가 포함됩니다.
 
-1. [사이트 작성자 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 엽니다.
+1. [사이트 작성자 도구 열기](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)
 
 1. 저장소 구성:
 
@@ -474,4 +440,4 @@ Storefront 구성 파일을 업데이트하고 로컬 개발 환경에서 변경
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
