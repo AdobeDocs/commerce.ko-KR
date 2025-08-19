@@ -1,13 +1,13 @@
 ---
 user-guide-title: '[!DNL Payment Services] 안내서'
-user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 스토어의  [!DNL Payment Services] 설치 및 구성에 대한 자세한 정보를 제공합니다.
+user-guide-description: 이 안내서에서는  [!DNL Payment Services] 또는 [!DNL Adobe Commerce] 스토어의  [!DNL Magento Open Source] 설치 및 구성에 대한 자세한 정보를 제공합니다.
 index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
-source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,8 @@ ht-degree: 2%
    - [프로덕션에 대해 활성화](production.md)
 - [!DNL Payment Services] 구성 {#configure}
    - [[!DNL Payment Services] 홈](payments-home.md)
-   - [[!DNL Payment Services] 설정](settings.md)
+   - [[!DNL Payment Services] 구성](configure-admin.md)
    - [명령줄 구성](configure-cli.md)
-   - [이전 구성](configure-admin.md)
    - [테스트 및 유효성 검사](test-validate.md)
 - 결제 및 체크아웃 {#payments-checkout}
    - [결제 옵션](payments-options.md)
@@ -50,4 +49,4 @@ ht-degree: 2%
 - 보안 및 규정 준수 {#security-compliance}
    - [보안](security.md)
    - [상당한 사기 방지](fraud-protection.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

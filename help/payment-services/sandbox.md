@@ -3,7 +3,7 @@ title: 테스트 샌드박스 설정
 description: PayPal 샌드박스 계정을 사용하여 테스트 모드에서  [!DNL Payment Services] 을(를) 사용합니다.
 exl-id: 99c14b4e-e6cf-48f9-9546-5c0d5c71464d
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -29,7 +29,7 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
       샌드박스 PayPal 온보딩 프로세스 중에 PayPal 샌드박스 계정을 만든 경우 [온보딩 샌드박스를 재설정](#reset-your-sandbox-account)해야 합니다. 그렇지 않으면 이메일을 확인할 수 없습니다.
 
    1. **[!UICONTROL Business]**&#x200B;을(를) 계정 유형으로 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-   1. _[!UICONTROL Sandbox Accounts]_&#x200B;섹션에서 만든 샌드박스 계정에 대한&#x200B;_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
+   1. _[!UICONTROL Sandbox Accounts]_섹션에서 만든 샌드박스 계정에 대한_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
    1. **[!UICONTROL View/edit account]**&#x200B;을(를) 클릭합니다.
 
       ![PayPal - 샌드박스 계정 보기/편집](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}
@@ -41,7 +41,7 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
    [!DNL Payment Services]에 대한 샌드박스 온보딩을 아직 완료하지 않은 경우 이 옵션이 표시됩니다.
 
-   샌드박스 판매자 ID가 자동으로 생성되고 [설정](settings.md)에 채워집니다. 이 ID를 변경하거나 변경하지 마십시오.
+   샌드박스 판매자 ID가 자동으로 생성되고 [설정](configure-admin.md)에 채워집니다. 이 ID를 변경하거나 변경하지 마십시오.
 
    결제 수락을 시작하기 위해 PayPal 계정을 연결할 수 있는 PayPal 창이 나타납니다.
 
@@ -59,7 +59,7 @@ PayPal 샌드박스 온보딩이 승인되면 결제 시스템이 현재 샌드�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
+>[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
 
 ### 샌드박스 계정 재설정
 

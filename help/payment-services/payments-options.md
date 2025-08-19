@@ -3,9 +3,9 @@ title: 결제 옵션
 description: 스토어 고객이 사용할 수 있는 방법을 사용자 지정하려면 결제 옵션을 설정하십시오.
 exl-id: 95e648e6-6cb8-4226-b5ea-e1857212f20a
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 0d00ce6e5291b3753cb7e2ee9e8af262b2c8894f
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Payment Services]은(는) 운영하는 국가에 따라 **고급**(전체 지원) 및 **표준**(빠른 체크아웃) 결제 옵션과 온보딩 흐름을 제공합니다.
 
-* **고급** - 현재 [완전히 지원되는 국가](../payment-services/introduction.md#availability)에서 사용 가능한 모든 [결제 옵션](../payment-services/payments-options.md)을 사용할 수 있습니다. 실시간 결제를 활성화하려면 온보딩 중에 [고급 온보딩 옵션](../payment-services/production.md#advanced-onboarding)을 선택하세요.
+* **고급** - 현재 [완전히 지원되는 국가](../payment-services/payments-options.md)에서 사용 가능한 모든 [결제 옵션](../payment-services/introduction.md#availability)을 사용할 수 있습니다. 실시간 결제를 활성화하려면 온보딩 중에 [고급 온보딩 옵션](../payment-services/production.md#advanced-onboarding)을 선택하세요.
 
 * **표준** - 일부 결제 옵션(빠른 체크아웃)(PayPal 신용 카드 및 직불 카드)은 사용 가능한 다른 지원 국가에서 사용할 수 있습니다. 이 온보딩 옵션에는 [신용 카드 필드](#credit-card-fields) 및 [Apple 결제](#apple-pay-button)를 사용할 수 없습니다. 실시간 결제를 사용하려면 온보딩 중에 [표준 온보딩 옵션](../payment-services/production.md#standard-onboarding)을 선택하세요.
 
@@ -45,6 +45,22 @@ ht-degree: 0%
 
 ## [!UICONTROL Digital Wallets]
 
+### [!DNL Fastlane] 단추
+
+[!DNL Fastlane]은(는) 빠르고 안전하며 번거롭지 않은 온라인 결제 방법을 제공합니다. **게스트 체크아웃**&#x200B;을 수행하는 동안 향후에 더욱 빠른 구매를 위해 카드와 배송 세부 정보를 안전하게 저장할 수 있습니다.
+
+* **인증된 쇼핑객을 즉시 액세스**: 수백만 명의 재방문 고객을 인식하여 몇 초 만에 원활한 결제를 수행할 수 있습니다.
+* **매출 증대**: 더 완료된 구매를 통해 전환율과 인증률을 향상시킵니다.
+* **체크아웃 가속화**: 암호가 없는 보안 로그인 경험과의 마찰을 줄이십시오.
+
+[!DNL Fastlane]이(가) 활성화되면 기본적으로 [!UICONTROL Credit Card Fields] 옵션이 비활성화됩니다.
+
+>[!NOTE]
+>
+> 현재 Fastlane은 미국 상인에게만 지원되므로 [!UICONTROL 3D Secure authentication]은(는) 현재 지원되지 않습니다.
+
+자세한 내용은 [Fastlane by PayPal](https://www.paypal.com/us/fastlane){target=_blank} 항목을 참조하십시오.
+
 ### [!DNL Apple Pay] 단추
 
 [!DNL Apple Pay]을(를) 사용하면 판매자는 Safari(판매자 계정당 최대 99개 도메인)에서 안전하고 간소화된 체크아웃 경험을 제공하여 전환을 늘릴 수 있습니다. [!DNL Apple Pay] 단추는 고객의 iOS 또는 macOS 장치에서 저장된 결제, 연락처 및 배송 세부 정보를 자동으로 채워 한 번 누르기 빠른 체크아웃 환경을 제공합니다.
@@ -55,9 +71,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->  Apple Pay 도메인 인증 인증서는 이미 결제 서비스 코드에 포함되어 있습니다. `/.well-known/apple-developer-merchantid-domain-association` 경로가 200 응답 코드를 반환하는지 확인하십시오. **Apple Pay 도메인 확인** 인증서에 대한 자세한 내용은 [Apple Pay와 통합에 대한 PayPal 개발자 설명서](https://developer.paypal.com/docs/checkout/apm/apple-pay/#download-and-host-sandbox-domain-association-file)를 참조하십시오.
+>  Apple Pay 도메인 인증 인증서는 이미 결제 서비스 코드에 포함되어 있습니다. `/.well-known/apple-developer-merchantid-domain-association` 경로가 200 응답 코드를 반환하는지 확인하십시오. [Apple Pay 도메인 확인](https://developer.paypal.com/docs/checkout/apm/apple-pay/#download-and-host-sandbox-domain-association-file) 인증서에 대한 자세한 내용은 **Apple Pay와 통합에 대한 PayPal 개발자 설명서**&#x200B;를 참조하십시오.
 
-자세한 내용은 [설정](settings.md#apple-pay)을 참조하세요.
+자세한 내용은 [설정](configure-admin.md#apple-pay)을 참조하세요.
 
 ### [!DNL Google Pay] 단추
 
@@ -79,7 +95,7 @@ ht-degree: 0%
 
 ![PayPal 단추](assets/paypal-button.png){width="350" zoomable="yes"}
 
-저장소 구성 또는 [!DNL Payment Services] 홈에서 [!UICONTROL PayPal payment buttons]을(를) 구성할 수 있습니다. 자세한 내용은 [설정](settings.md#payment-buttons)을 참조하세요.
+저장소 구성 또는 [!UICONTROL PayPal payment buttons] 홈에서 [!DNL Payment Services]을(를) 구성할 수 있습니다.
 
 PayPal의 [결제 방법 설명서](https://developer.paypal.com/docs/checkout/payment-methods/)에서 국가별 결제 방법의 사용 가능 여부에 대해 알아보세요.
 
@@ -109,9 +125,15 @@ PayPal 직불 또는 신용 카드 버튼은 체크아웃 페이지에서 볼 �
 
 제품 페이지, 미니 장바구니, 장바구니 및 체크아웃 보기에서 [!DNL Pay Later] 단추를 볼 수 있습니다.
 
-[PayPal의 나중에 결제 방법 설명서](https://developer.paypal.com/docs/checkout/pay-later/us/)에서 나중에 결제 방법에 대한 정보를 확인하세요. **국가 또는 지역** 드롭다운을 사용하여 관심 지역을 선택하십시오.
+PayPal 개발자 설명서에서 [나중에 결제 오퍼](https://developer.paypal.com/docs/checkout/pay-later/us/)에 대한 정보를 참조하십시오. **국가 또는 지역** 드롭다운을 사용하여 관심 지역을 선택하십시오.
 
-[설정](settings.md#payment-buttons) 구성을 업데이트하여 [!DNL Pay Later] 메시지를 사용하지 않도록 설정하거나 사용하도록 설정하는 방법에 대해 알아봅니다.
+[!DNL Pay Later]설정[ 구성을 업데이트하여 ](configure-admin.md#pay-later-button) 메시지를 사용하지 않도록 설정하거나 사용하도록 설정하는 방법에 대해 알아봅니다.
+
+##### 선택 사항입니다. 나중에 결제 메시지 구성
+
+**나중에 결제**&#x200B;에 대한 [메시지 구성](configure-admin.md#pay-later-button)을 통해 판매자는 이 결제 옵션의 기본 스타일을 수정할 수 있습니다. **[!UICONTROL Display Pay Later Message]**&#x200B;설정`Yes` 구성에서 [을(를) ](configure-admin.md#pay-later-button)(으)로 설정하면 **[!UICONTROL Configure Messaging]**&#x200B;의 스타일을 설정할 수 있도록 **[!UICONTROL PayPal Pay Later messaging]** 모달 단추가 표시됩니다.
+
+![나중에 결제 메시지](assets/pay-later-messaging.png){width="500" zoomable="yes"}
 
 ### PayPal 결제 버튼만 사용
 
@@ -125,16 +147,16 @@ PayPal 직불 또는 신용 카드 버튼은 체크아웃 페이지에서 볼 �
 
 **PayPal 결제 버튼(_PayPal 신용카드 결제 옵션 없음_)을 사용하여 _전용_으로 결제 캡처**:
 
-1. 스토어가 [프로덕션 모드](settings.md#enable-payment-services)에 있는지 확인하십시오.
-1. 설정에서 [원하는 PayPal 결제 단추를 구성하십시오](settings.md#payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
+1. 스토어가 [프로덕션 모드](configure-admin.md#enable-payment-services)에 있는지 확인하십시오.
+1. 설정에서 [원하는 PayPal 결제 단추를 구성하십시오](configure-admin.md#payment-buttons).
+1. _섹션에서_ 옵션을 **[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#payment-buttons)**&#x200B;끄기&#x200B;_[!UICONTROL Payment buttons]_합니다.
 
 **기존 신용 카드 공급자 _및_ PayPal 결제 단추**&#x200B;로 결제를 캡처하려면:
 
-1. 스토어가 [프로덕션 모드](settings.md#enable-payment-services)에 있는지 확인하십시오.
-1. [원하는 PayPal 결제 단추를 구성하십시오](settings.md#payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
-1. _[!UICONTROL Credit card fields]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)**&#x200B;옵션을_&#x200B;해제&#x200B;_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=ko#payments)을 사용하세요.
+1. 스토어가 [프로덕션 모드](configure-admin.md#enable-payment-services)에 있는지 확인하십시오.
+1. [원하는 PayPal 결제 단추를 구성하십시오](configure-admin.md#payment-buttons).
+1. _섹션에서_ 옵션을 **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)**&#x200B;끄기&#x200B;_[!UICONTROL Payment buttons]_합니다.
+1. _섹션에서_ 옵션을 **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)**&#x200B;해제&#x200B;_[!UICONTROL Credit card fields]_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments)을 사용하세요.
 
 ## 체크아웃 옵션
 

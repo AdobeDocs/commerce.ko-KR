@@ -4,9 +4,9 @@ description: ' [!DNL Payment Services] 거래 내의 카드 결제 처리 수준
 role: Admin
 feature: Payments, Paas, Saas
 exl-id: db8993fe-dd6f-48b5-9e7b-69a0f2e08552
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 레벨 2 및 레벨 3 처리
 
 [!DNL Payment Services]은(는) 상인이 결제 거래를 최적화하고 교환 수수료를 낮출 수 있도록 고급 카드 처리 기능을 제공합니다. 각각 다른 거래 데이터 요구 사항을 가진 세 가지 수준의 카드 처리를 사용할 수 있습니다.
+
+>[!CAUTION]
+>
+> [Fastlane](payments-options.md#fastlane-button) 주문에는 레벨 2/레벨 3 데이터, 라인 항목 및 금액 분류가 포함되지 않습니다.
 
 ## 처리 수준별 데이터 요구 사항
 
