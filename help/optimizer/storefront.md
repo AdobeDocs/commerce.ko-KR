@@ -2,30 +2,30 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: 475706df971e75091ee72e89d64088fa56aec4dd
+source-git-commit: 2b35e822e192bdac316379f55c3bc924d62ca008
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
 
 # 상점 설정
 
-이 튜토리얼에서는 [ 인스턴스의 데이터를 사용하는 강력하고 확장 가능한 보안 Commerce 스토어프런트를 만들기 위해 ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)Edge Delivery Services에서 제공하는 Adobe Commerce Storefront[!DNL Adobe Commerce Optimizer]를 설정하고 사용하는 방법에 대한 자세한 지침을 제공합니다.
+이 튜토리얼에서는 [ 인스턴스의 데이터를 사용하는 강력하고 확장 가능한 보안 Commerce 스토어프런트를 만들기 위해 ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)Edge Delivery Services에서 제공하는 Adobe Commerce Storefront[!DNL Adobe Commerce Optimizer]를 설정하고 사용하는 방법에 대한 자세한 지침을 제공합니다.
 
 
 >[!TIP]
 >
 >Site Creator 도구를 사용하여 Storefront 코드 저장소 및 문서 작성 환경을 설정하여 Storefront 설정 프로세스를 빠르게 추적합니다.
->&#x200B;>자동으로 표시됩니다. 그런 다음 이러한 지침을 사용하여 상점 만들기 방법을 이해하고 사용 가능한 구성 요소에 대해 자세히 알아볼 수 있습니다.
+>>자동으로 표시됩니다. 그런 다음 이러한 지침을 사용하여 상점 만들기 방법을 이해하고 사용 가능한 구성 요소에 대해 자세히 알아볼 수 있습니다.
 
 ## 사전 요구 사항
 
 * 저장소를 만들 수 있고 로컬 개발용으로 구성된 GitHub 계정(github.com)이 있는지 확인합니다.
 
-* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=ko)를 검토하여 Adobe Edge Delivery Services에서 Commerce Storefront를 개발하는 개념과 워크플로에 대해 알아봅니다.
+* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started)를 검토하여 Adobe Edge Delivery Services에서 Commerce Storefront를 개발하는 개념과 워크플로에 대해 알아봅니다.
 * 개발 환경 설정
 
 
@@ -61,7 +61,7 @@ NVM(Node Version Manager) 및 필요한 Node.js 버전(22.13.1 LTS)을 설치합
 
 >[!TIP]
 >
->[!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
+>[!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
 
 #### Sidekick 설치
 
@@ -69,7 +69,7 @@ Sidekick 브라우저 확장 프로그램을 설치하여 콘텐츠를 편집하
 
 ## 상점 만들기
 
-[!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만든 Storefront는 Edge Delivery Services Storefront 보일러플레이트에 사용자 지정된 버전의 Adobe Commerce을 사용합니다. 보일러판은 상점 개발의 시작점을 제공하는 파일 및 폴더 집합입니다. 이 설정 프로세스는 [Edge Delivery Services Storefront의 Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)에 대한 표준 설정 프로세스와 다릅니다.
+[!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만든 Storefront는 Edge Delivery Services Storefront 보일러플레이트에 사용자 지정된 버전의 Adobe Commerce을 사용합니다. 보일러판은 상점 개발의 시작점을 제공하는 파일 및 폴더 집합입니다. 이 설정 프로세스는 [Edge Delivery Services Storefront의 Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)에 대한 표준 설정 프로세스와 다릅니다.
 
 >[!NOTE]
 >
@@ -80,9 +80,9 @@ Sidekick 브라우저 확장 프로그램을 설치하여 콘텐츠를 편집하
 [!DNL Adobe Commerce Optimizer]에서 사용할 상점 전면을 설정하려면 다음 단계를 따르십시오.
 
 1. **[코드 리포지토리 만들기](#step-1-create-site-code-repository)**-Adobe Commerce + Edge Delivery Services boilerplate 템플릿에서 GitHub 리포지토리를 만듭니다. 소스 저장소의 모든 분기를 포함합니다.
-1. **[Storefront Boilerplate 업데이트](#step-2-update-the-storefront-boilerplate)** - `aco` 분기에서 사용자 지정 Boilerplate 템플릿을 업데이트하여 콘텐츠 폴더를 Storefront에 연결합니다.
-1. **[변경 내용 배포](#step-3-deploy-changes)**-`main` 분기의 코드를 `aco` 분기의 업데이트된 코드로 덮어씁니다.
-1. **[CodeSync 앱을 추가](#step-5-add-the-aem-code-sync-app)**-저장소를 Edge Delivery 서비스에 연결합니다. 소스 코드 사용자 지정을 완료하고 코드를 `main` 분기에 푸시할 때까지 코드 동기화 앱을 연결하지 마십시오.
+1. **[Storefront Boilerplate 업데이트](#step-2-update-the-storefront-boilerplate)**-콘텐츠 폴더를 Storefront에 연결하려면 사용자 지정 Boilerplate 템플릿을 업데이트하십시오.
+1. **[변경 내용 배포](#step-3-deploy-changes)**-Commit 및 GitHub에 Boilerplate 사용자 지정을 푸시하여 변경 내용을 적용합니다.
+1. **[CodeSync 앱을 추가](#step-5-add-the-aem-code-sync-app)**-저장소를 Edge Delivery 서비스에 연결합니다. 소스 코드 사용자 지정을 완료하고 GitHub 저장소에 코드를 푸시할 때까지 코드 동기화 앱을 연결하지 마십시오.
 1. **[콘텐츠 추가](#step-6-add-content)**-데모 콘텐츠 복제 도구를 사용하여 `https://da.live`에 호스팅된 문서 작성 환경에서 상점 콘텐츠를 만들고 초기화합니다.
 1. **[데모 사이트 미리 보기](#step-7-preview-demo-site)**-상점 사이트에 연결하여 [!DNL Adobe Commerce Optimizer] 데모 인스턴스에서 샘플 콘텐츠 및 데이터를 확인합니다.
 1. **[로컬 환경에서 개발](#step-8-develop-in-your-local-environment)**-필요한 종속성을 설치합니다. 로컬 개발 서버를 시작하고 Adobe에서 제공한 [!DNL Adobe Commerce Optimizer] 인스턴스에 연결하도록 Storefront 구성을 업데이트합니다.
@@ -153,7 +153,7 @@ Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보�
 
 1. storefront 구성 파일에서 마운트 지점을 업데이트하여 콘텐츠 URL을 가리킵니다.
 
-   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#vocabulary) 구성 파일을 엽니다.
+   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) 구성 파일을 엽니다.
 
       ```yaml
       mountpoints:
@@ -440,4 +440,4 @@ Storefront 구성 파일을 업데이트하고 로컬 개발 환경에서 변경
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
