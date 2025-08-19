@@ -3,11 +3,11 @@ title: Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례
 description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 카탈로그 보기 및 정책을 사용하여 카탈로그를 관리하는 방법과 카탈로그 구성에 따라 상점을 설정하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
-source-git-commit: 1ab7ee5673f261b43db25caf0ad340a0fd9e3341
+source-git-commit: e5844cad1d666a81042db64e51e124e6444d19ac
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=ko) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
+> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
 
 ### 주요 ‌ 사항
 
@@ -185,11 +185,12 @@ Celport 판매자가 판매하는 SKU(브레이크 및 서스펜션 부품 포�
    - **특성** = *part_category*
    - **연산자** = **IN**
    - **값 Source** = **정적**
-   - **값** = *브레이크*, *일시 중단*
+   - **값** = *브레이크*
+   - **값** = *일시 중단*
 
    >[!IMPORTANT]
    >
-   >지정한 속성 이름이 카탈로그의 SKU 속성 이름과 정확히 일치하는지 확인합니다.
+   >각 속성 값을 별도로 입력해야 합니다. 값을 입력한 후 **Enter**&#x200B;를 눌러 필터 구성에 추가합니다. 그런 다음 다음 다음 값을 입력합니다. 모든 값은 카탈로그의 SKU 속성 이름과 정확히 일치해야 합니다.
 
    STATIC과 TRIGGER 값 원본의 차이에 대한 자세한 내용은 [값 원본 형식](../setup/policies.md#value-source-types)을 참조하세요.
 
@@ -230,7 +231,8 @@ Celport 판매자가 판매하는 SKU(브레이크 및 서스펜션 부품 포�
 
    - **이름** = *Celport*
    - **카탈로그 원본** = *en-US*
-   - **정책**(드롭다운 사용) = *East Coast Inc 브랜드*; *Celport 일부 범주*; *브랜드*; *모델*                          
+   - **정책**(드롭다운 사용) = *East Coast Inc 브랜드*; *Celport 일부 범주*; *브랜드*; *모델*
+                         
 1. 카탈로그 보기를 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다.
@@ -445,4 +447,4 @@ Adobe Commerce Optimizer에 대해 계속 배우려면:
 - [고급 정책 구성](../setup/policies.md)에 대해 알아보기
 - 다른 대리점에 대해 [추가 카탈로그 보기](../setup/catalog-view.md)를 설정합니다.
 - 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 검토하십시오.
-- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko) 보기
+- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) 보기
