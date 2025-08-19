@@ -27,7 +27,7 @@ ht-degree: 0%
 
    하나 이상의 웹 사이트에 대한 결제 방법으로 [!DNL Payment Services]을(를) 아직 구성하지 않은 경우 이 옵션이 표시됩니다.
 
-   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
+   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
 
 1. _[!UICONTROL General Configuration]_&#x200B;에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 1. **[!UICONTROL Payment Action]**&#x200B;과(와) _[!UICONTROL Credit Card Fields]_&#x200B;모두에 대해&#x200B;_[!UICONTROL PayPal payment buttons]_&#x200B;을(를) 다음 중 하나로 설정합니다.
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Go to Payment Services]** 홈으로 돌아가려면 [!DNL Payment Services]을(를) 클릭하십시오.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=ko).
 
    모든 구성 변경 후 지우기를 수행해야 합니다.
 
@@ -157,7 +157,7 @@ _프로덕션 판매자 ID_&#x200B;이(가) 자동으로 생성되고 [구성](c
 1. 홈에서 페이지의 오른쪽 상단에 있는 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [홈](payments-home.md)을 참조하세요.
 1. _[!UICONTROL General Configuration]_&#x200B;섹션에서&#x200B;**[!UICONTROL Payment mode]**&#x200B;을(를) `Production`(으)로 설정합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >
