@@ -29,7 +29,7 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
       샌드박스 PayPal 온보딩 프로세스 중에 PayPal 샌드박스 계정을 만든 경우 [온보딩 샌드박스를 재설정](#reset-your-sandbox-account)해야 합니다. 그렇지 않으면 이메일을 확인할 수 없습니다.
 
    1. **[!UICONTROL Business]**&#x200B;을(를) 계정 유형으로 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-   1. _[!UICONTROL Sandbox Accounts]_섹션에서 만든 샌드박스 계정에 대한_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
+   1. _[!UICONTROL Sandbox Accounts]_&#x200B;섹션에서 만든 샌드박스 계정에 대한&#x200B;_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
    1. **[!UICONTROL View/edit account]**&#x200B;을(를) 클릭합니다.
 
       ![PayPal - 샌드박스 계정 보기/편집](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}

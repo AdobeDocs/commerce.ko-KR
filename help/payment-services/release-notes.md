@@ -107,9 +107,9 @@ _2025년 8월 20일_
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-6022 --> [Fastlane](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options)은(는) 게스트 체크아웃 중에 더 빠른 구매를 제공합니다.
 
-![새로 만들기](../assets/new.svg)<!-- PAY-6168 -->에서 [`addProductsToNewCart`에 ](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/mutations/)[!DNL Payment Services] 돌연변이를 추가하여 더 원활한 전환과 더 나은 장바구니 재사용을 가능하게 했습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-6168 -->에서 [`addProductsToNewCart`에 ](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/mutations/) [!DNL Payment Services] 돌연변이를 추가하여 더 원활한 전환과 더 나은 장바구니 재사용을 가능하게 했습니다.
 
-![새로 만들기](../assets/new.svg)<!-- PAY-6169 --> 견적 수명 주기 관리를 개선하기 위해 [`setCartAsInactive`에 ](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/mutations/)[!DNL Payment Services] 돌연변이를 추가했습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-6169 --> 견적 수명 주기 관리를 개선하기 위해 [`setCartAsInactive`에 ](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/mutations/) [!DNL Payment Services] 돌연변이를 추가했습니다.
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-6227 --> PayPal을 사용하여 체크아웃할 때 [!DNL Payment Services]에서 더 빠른 구매 프로세스를 위해 주문 확인 팝업을 건너뜁니다.
 
