@@ -2,21 +2,21 @@
 title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: 8233b2e184c8af293ffc41cb22e085388cf18049
+source-git-commit: 0f1d55f81cb030d218f0aa8dfa2af4dfd8f640c1
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
 # Commerce CLI를 사용하여 피드 동기화
 
-`magento/saas-export` 패키지의 `saas:resync` 명령을 사용하면 Adobe Commerce SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
+`saas:resync` 패키지의 `magento/saas-export` 명령을 사용하면 Adobe Commerce SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
 
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- Sync data to a new data space after changing the [SaaS Data Space ID](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.
@@ -81,13 +81,13 @@ bin/magento saas:resync --feed= products --by-ids='1,2,3' --id-type='productId'
 
 ## `--cleanup-feed`
 
-Clean up the feed indexer table before reindexing and sending data to SaaS. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
+데이터를 리인덱싱하여 SaaS로 보내기 전에 피드 인덱서 테이블을 정리합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
 
 `--dry-run` 옵션과 함께 사용하는 경우 작업은 모든 항목에 대해 시험 실행 다시 동기화 작업을 수행합니다.
 
 >[!IMPORTANT]
 >
->환경을 정리한 후에만 사용하거나 `--dry-run` 옵션과 함께 사용합니다. If used in other cases, the cleanup operation can cause data loss and data sync issues.
+>환경을 정리한 후에만 사용하거나 `--dry-run` 옵션과 함께 사용합니다. 다른 경우에 사용되는 경우 정리 작업으로 인해 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
 
 **예:**
 
@@ -109,7 +109,7 @@ bin/magento saas:resync --feed productAttributes --continue-resync
 
 SaaS에 피드를 제출하지 않고 피드 테이블에 저장하지 않고 피드 색인 재지정 프로세스를 실행합니다. 이 옵션은 데이터 세트와 관련된 문제를 식별하는 데 유용합니다.
 
-페이로드를 `var/log/saas-export.log`에 저장하려면 `EXPORTER_EXTENDED_LOG=1` 환경 변수를 추가하십시오.
+페이로드를 `EXPORTER_EXTENDED_LOG=1`에 저장하려면 `var/log/saas-export.log` 환경 변수를 추가하십시오.
 
 **예:**
 
@@ -145,7 +145,6 @@ bin/magento saas:resync --feed products --dry-run --cleanup-feed
 
 - `categories`
 - `categoryPermissions`
-- `inventoryStockStatus`
 - `orders`
 - `prices`
 - `products`
@@ -154,6 +153,10 @@ bin/magento saas:resync --feed products --dry-run --cleanup-feed
 - `scopesWebsite`
 - `scopesCustomerGroup`
 - `variants`
+
+>[!NOTE]
+>
+>사용 중인 환경에서 사용할 수 있는 피드는 Adobe Commerce 환경에 설치된 모듈에 따라 다를 수 있습니다.
 
 **예:**
 
@@ -178,7 +181,7 @@ bin/magento saas:resync --feed productAttributes --no-reindex
 
 ## `--id-type=ProductId`
 
-기본적으로 `--by-ids` 옵션과 함께 `saas:resync feed` 명령을 사용할 때 지정된 엔터티는 제품 SKU에서 지정됩니다. 제품 ID별로 엔터티를 지정하려면 `--id-type=ProductId` 옵션을 사용하십시오.
+기본적으로 `saas:resync feed` 옵션과 함께 `--by-ids` 명령을 사용할 때 지정된 엔터티는 제품 SKU에서 지정됩니다. 제품 ID별로 엔터티를 지정하려면 `--id-type=ProductId` 옵션을 사용하십시오.
 
 ```shell
 bin/magento saas:resync --feed products --by-ids='1,2,3' --id-type='productId'
