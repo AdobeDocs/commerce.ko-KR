@@ -2,10 +2,10 @@
 title: 온보딩
 description: ' [!DNL Product Recommendations]에서 요구 사항 및 지원되는 플랫폼에 대해 알아봅니다.'
 exl-id: 7b8a1117-b6d5-4e5d-bb97-09f76a024cbd
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7d5e3faeef2fb16779d1558027a0b76ff3fe3a38
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 - [구현 워크플로](implementation-workflow.md)
 - [설치 및 구성](install-configure.md)
 - [설정](settings.md)
-- [확인](verify.md)
+- [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)
 - [스테이징 환경](staging-environment.md)
 
 ## 요구 사항
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]을(를) 페이지 빌더 콘텐츠 형식으로 페이지에 추가할 수 있습니다. 제품 권장 사항에 Page Builder 지원을 추가하려면 [설치 및 구성](install-configure.md)을 참조하세요.
 
-[!DNL Page Builder] 콘텐츠에 [!DNL Product Recommendations]을(를) 추가하는 방법에 대한 지침은 [[!DNL Page Builder] 통합](page-builder.md)을 참조하세요.
+[[!DNL Page Builder]  콘텐츠에 ](page-builder.md)을(를) 추가하는 방법에 대한 지침은 [!DNL Product Recommendations]통합[!DNL Page Builder]을 참조하세요.
 
 ### SaaS 가격 인덱싱
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### B2B 지원 {#b2bsupport}
 
-B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 준수하여 이 기능을 [지원](release-notes.md)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
+B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](release-notes.md), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)을 준수하여 이 기능을 [지원](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
 
 >[!NOTE]
 >

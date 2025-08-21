@@ -2,9 +2,9 @@
 title: 설정
 description: ' [!DNL Product Recommendations] 데이터 소스를 변경하는 방법과 시각적 권장 사항을 활성화하는 방법을 알아봅니다.'
 exl-id: fe37624d-c53e-40cd-b182-10f62cba74c0
-source-git-commit: fe5f864262478d1f9e205f2cd275452594cf4675
+source-git-commit: 7d5e3faeef2fb16779d1558027a0b76ff3fe3a38
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 제품 권장 사항 데이터의 소스를 변경하려면 사용할 동작 데이터가 있는 SaaS 데이터 공간을 선택합니다. 시작하기 전에 다음을 확인하십시오.
 
-- Storefront 데이터 수집은 프로덕션 환경에 대해 [구성 및 활성화](install-configure.md)되어야 하며 동작 데이터가 Adobe Commerce으로 전송되고 있는지 [확인](verify.md)되어야 합니다.
+- Storefront 데이터 수집은 프로덕션 환경에 대해 [구성 및 활성화](install-configure.md)되어야 하며 동작 데이터가 Adobe Commerce으로 전송되고 있는지 [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)되어야 합니다.
 - 비프로덕션 환경 카탈로그는 기본적으로 프로덕션 카탈로그와 동일해야 합니다. 유사한 카탈로그를 사용하면 반환된 제품 추천 단위가 프로덕션 단위의 추천 단위와 거의 비슷하게 모방됩니다.
 
 1. 비프로덕션 Adobe Commerce 환경의 관리자에 로그인합니다.
