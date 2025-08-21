@@ -35,7 +35,7 @@ ht-degree: 1%
 
 속도, 관련성 및 사용 편의성에 중점을 둔 [!DNL Live Search]은(는) 쇼핑객과 판매자 모두에게 게임 체인저입니다. 다음 비디오를 시청한 다음 상점 앞에서 [!DNL Live Search]을(를) 간단히 둘러보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452576?learn=on&captions=kor)
 
 Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
 
