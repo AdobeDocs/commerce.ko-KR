@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)를 Commerce 모바일 앱과 통합하면 판매자가 Commerce [이벤트 데이터](events.md)를 Experience Platform Edge로 보낼 수 있습니다.
 
-에지에서 Commerce 이벤트 데이터를 사용할 수 있으면 다른 Adobe Experience Cloud 애플리케이션에서 액세스할 수 있습니다. 예를 들어 데이터를 사용하여 Real-Time CDP에서 대상을 만든 다음 [해당 대상을 사용](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html)하여 Commerce 모바일 앱을 개인화할 수 있습니다.
+에지에서 Commerce 이벤트 데이터를 사용할 수 있으면 다른 Adobe Experience Cloud 애플리케이션에서 액세스할 수 있습니다. 예를 들어 데이터를 사용하여 Real-Time CDP에서 대상을 만든 다음 [해당 대상을 사용](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=ko)하여 Commerce 모바일 앱을 개인화할 수 있습니다.
 
 ## 구성
 
@@ -27,7 +27,7 @@ Commerce과 함께 Adobe Experience Platform Mobile SDK을 사용하려면 Exper
 
 ### Experience Platform
 
-1. [모바일 앱의 Adobe Experience Cloud 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)를 검토하여 모바일 앱 기능에 대해 알아봅니다.
+1. [모바일 앱의 Adobe Experience Cloud 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)를 검토하여 모바일 앱 기능에 대해 알아봅니다.
 
 1. Experience Platform에서 SDK을 [설치 및 구성](https://developer.adobe.com/client-sdks/documentation/getting-started/)합니다.
 
@@ -163,4 +163,4 @@ Experience Platform에 대한 SDK 구성을 완료한 후 SDK 구성을 Commerce
 
 ## 다음 단계
 
-모바일 Commerce 앱에서 Real-Time CDP 대상자를 검색하여 장바구니 가격 규칙, 동적 블록 및 관련 제품 규칙을 알리는 방법에 대해 알아보려면 [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk)을(를) 참조하십시오.
+모바일 Commerce 앱에서 Real-Time CDP 대상자를 검색하여 장바구니 가격 규칙, 동적 블록 및 관련 제품 규칙을 알리는 방법에 대해 알아보려면 [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=ko#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk)을(를) 참조하십시오.

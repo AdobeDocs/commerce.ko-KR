@@ -24,9 +24,9 @@ ht-degree: 1%
 
 [!DNL Data Connection] 확장에서 사용하는 확장과 관련된 기능 변경 및 수정 사항에 대해서는 **지원되는 서비스 업데이트**&#x200B;를 참조하십시오.
 
-릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)를 참조하세요.
+릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule)를 참조하세요.
 
-개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
+개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability).
 
 ## 지원되는 서비스 업데이트
 

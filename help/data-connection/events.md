@@ -15,13 +15,13 @@ ht-degree: 0%
 
 다음은 [!DNL Data Connection] 확장을 설치할 때 사용할 수 있는 Commerce 동작 이벤트 목록입니다. 이러한 이벤트가 수집하는 데이터는 Adobe Experience Platform으로 전송됩니다. 또한 [사용자 지정 이벤트](custom-events.md)를 만들어 기본 제공되지 않은 추가 데이터를 수집할 수 있습니다.
 
-다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html)도 가져옵니다.
+다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=ko)도 가져옵니다.
 
 행동 이벤트는 사이트를 탐색할 때 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집합니다. 이러한 이벤트가 수집하는 데이터를 사용하여 특정 쇼핑객 집합을 대상으로 하는 프로모션 및 캠페인을 만들 수 있습니다.
 
 >[!NOTE]
 >
->모든 동작 이벤트에는 사용 가능한 경우 구매자 전자 메일 주소 및 ECID가 포함된 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) 필드가 포함됩니다.
+>모든 동작 이벤트에는 사용 가능한 경우 구매자 전자 메일 주소 및 ECID가 포함된 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=ko) 필드가 포함됩니다.
 
 ## Storefront 이벤트
 
@@ -47,6 +47,6 @@ storefront 이벤트에 대한 자세한 내용은 [개발자 설명서](https:/
 
 ![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 [ 확장을 ](install.md#install-the-b2b-extension)설치`experience-platform-connector-b2b`해야 합니다.
 
-B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
+B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=ko) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
 
 B2B 이벤트에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#data-connection)를 참조하세요.

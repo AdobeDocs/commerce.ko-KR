@@ -15,7 +15,7 @@ ht-degree: 0%
 
 사용자 정의 및 Headless 통합자는 제안된 구현으로 이 Luma 및 PWA 지침을 참조해야 합니다. 제품 권장 사항을 Headless 솔루션에 구현하는 방법은 여러 가지가 있으며 이 설명서는 모든 시나리오를 다루지 않습니다. 통합자는 해당 구현에 대한 이벤트, 설계 및 테스트를 다룹니다.
 
-[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
+[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html?lang=ko)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
 
 >[!NOTE]
 >
