@@ -35,4 +35,4 @@ ht-degree: 12%
    - [데이터 수집](events.md)
    - [사용자 지정](customize.md)
    - [쿠키 제한 처리](setting-cookie.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
