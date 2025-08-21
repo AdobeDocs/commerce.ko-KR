@@ -3,16 +3,18 @@ title: 데이터 수집
 description: 이벤트가  [!DNL Product Recommendations]에 대한 데이터를 수집하는 방법을 알아봅니다.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: fe96b2922583c0fcb0fcadbdacead6267806f44b
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
 
 # 데이터 수집
 
-[[!DNL Product Recommendations]](install-configure.md) 또는 [[!DNL Live Search]](../live-search/install.md)과(와) 같은 SaaS 기반 Adobe Commerce 기능을 설치하고 구성하면 모듈이 동작 데이터 수집을 상점 앞에 배포합니다. 이 메커니즘은 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집하고 [!DNL Product Recommendations]을(를) 실행합니다. 예를 들어 `view` 이벤트는 `Viewed this, viewed that` 권장 사항 유형을 계산하는 데 사용되고 `place-order` 이벤트는 `Bought this, bought that` 권장 사항 유형을 계산하는 데 사용됩니다.
+[[!DNL Product Recommendations]](install-configure.md)을(를) 설치하고 구성할 때 모듈은 동작 데이터 수집을 상점 앞에 배포합니다. 이 메커니즘은 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집하고 [!DNL Product Recommendations]을(를) 실행합니다. 예를 들어 `view` 이벤트는 `Viewed this, viewed that` 권장 사항 유형을 계산하는 데 사용되고 `place-order` 이벤트는 `Bought this, bought that` 권장 사항 유형을 계산하는 데 사용됩니다.
+
+[ 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
 
 >[!NOTE]
 >
@@ -77,61 +79,6 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 - `Conversion (view to purchase)`
 - `Conversion (view to cart)`
 
-### 이벤트
-
-[Adobe Commerce Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/#quick-start)는 Storefront에 배포된 모든 이벤트를 나열합니다. 해당 목록에 [!DNL Product Recommendations]과(와) 관련된 이벤트의 하위 집합이 있습니다. 이러한 이벤트는 쇼핑객이 상점 위의 추천 단위와 상호 작용할 때 데이터를 수집하여 지표에 권한을 부여하여 추천의 실적을 분석합니다.
-
-| 이벤트 | 설명 |
-| --- | --- |
-| `impression-render` | 페이지에서 추천 단위가 렌더링될 때 전송됩니다. 페이지에 두 개의 추천 단위(구매, 보기)가 있으면 두 개의 `impression-render` 이벤트가 전송됩니다. 이 이벤트는 노출 지표를 추적하는 데 사용됩니다. |
-| `rec-add-to-cart-click` | 쇼핑객이 추천 단위에서 항목에 대한 **장바구니에 추가** 단추를 클릭합니다. |
-| `rec-click` | 쇼핑객이 추천 단위에서 제품을 클릭합니다. |
-| `view` | 페이지 아래로 스크롤하는 것처럼 추천 단위가 적어도 50% 이상 볼 수 있게 되면 전송됩니다. 예를 들어 추천 단위에 두 개의 줄이 있는 경우 한 줄과 두 번째 줄의 한 픽셀이 쇼핑객에게 표시되면 `view` 이벤트가 전송됩니다. 쇼핑객이 페이지를 위아래로 여러 번 스크롤하는 경우 `view` 이벤트가 쇼핑객이 페이지에서 전체 추천 단위를 다시 볼 수 있는 횟수만큼 전송됩니다. |
-
-제품 추천 지표는 Luma 상점 첫 번째 면에 최적화되어 있지만 다른 상점 첫 번째 구현과도 작동합니다.
-
-- [Edge Delivery 상점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/?lang=ko)
-- [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
-- [사용자 지정 프런트 텐트(React, Vue JS)](headless.md)
-
-#### 필수 대시보드 이벤트
-
-[[!DNL Product Recommendations] 대시보드](workspace.md)를 채우려면 다음 이벤트가 필요합니다.
-
-| 대시보드 열 | 이벤트 | 조인 필드 |
-| ---------------- | --------- | ----------- |
-| 노출 횟수 | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render` | `unitId` |
-| 보기 | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-unit-view` | `unitId` |
-| 클릭수 | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click` | `unitId` |
-| 매출 | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click`, `place-order` | `unitId`, `sku`, `parentSku` |
-| LT 수익 | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click`, `place-order` | `unitId`, `sku`, `parentSku` |
-| CTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
-| vCTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-unit-view`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
-
-다음 이벤트는 제품 추천에만 해당되지 않지만, Adobe Sensei에서 쇼핑객 데이터를 올바르게 해석하는 데 필요합니다.
-
-- `view`
-- `add-to-cart`
-- `place-order`
-
-#### 권장 사항 유형
-
-이 표에서는 각 권장 사항 유형에서 사용하는 이벤트에 대해 설명합니다.
-
-| 권장 사항 유형 | 이벤트 | 페이지 |
-| --- | --- | --- |
-| 가장 많이 본 항목 | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 최다 구매 | `page-view`<br>`place-order` | 장바구니/체크아웃 |
-| 장바구니에 가장 많이 추가됨 | `page-view`<br>`add-to-cart` | 제품 세부 사항 페이지<br>제품 목록 페이지<br>장바구니<br>위시리스트 |
-| 이 항목을 보고 다른 항목도 보았습니다. | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 이 항목을 보고 다른 항목을 구입함 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지<br>장바구니/체크아웃 |
-| 구매, 구매 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 트렌딩 | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 전환: 구매로 보기 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 전환: 구매로 보기 | 제품 Recs | `page-view`<br>`place-order` | 장바구니/체크아웃 |
-| 전환: 장바구니로 보기 | 제품 Recs | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
-| 전환: 장바구니로 보기 | 제품 Recs | `page-view`<br>`add-to-cart` | 제품 세부 사항 페이지<br>제품 목록 페이지<br>장바구니<br>위시리스트 |
-
 #### 주의 사항
 
 - 광고 차단기 및 개인 정보 설정을 사용하면 이벤트가 캡처되지 않을 수 있으며, 이로 인해 참여 및 매출 [지표](workspace.md#column-descriptions)이(가) 제대로 보고되지 않을 수 있습니다. 또한 페이지 또는 네트워크 문제로 인해 일부 이벤트가 전송되지 않을 수 있습니다.
@@ -140,4 +87,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.

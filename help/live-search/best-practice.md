@@ -2,9 +2,10 @@
 title: '[!DNL Live Search] 모범 사례'
 description: 스토어에서  [!DNL Live Search] 을(를) 구현하기 위한 모범 사례를 알아봅니다.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f7700339-fb13-42fe-a249-17cd4ba36e1b
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 - 검색 규칙은 인기, 새 도착, 프로모션 기준 또는 비즈니스 요구 사항을 충족하는 기타 머천다이징 전략에 따라 특정 제품의 가시성을 높일 수 있으므로 중요합니다.
 - 패싯된 탐색을 사용하면 고객이 검색을 구체화하고 관련 결과를 빠르게 얻을 수 있습니다.
 
-[!DNL Live Search]을(를) 관리하려면 Adobe [!DNL Commerce] 관리자의 **마케팅** > *SEO 및 검색* > **[!DNL Live Search]**(으)로 이동하세요. 
+[!DNL Live Search]을(를) 관리하려면 Adobe **관리자의**&#x200B;마케팅&#x200B;*>* SEO 및 검색&#x200B;**[!DNL Live Search]** > [!DNL Commerce]&#x200B;(으)로 이동하세요. 
 
 ## 검색 기능 최적화
 
@@ -100,7 +101,7 @@ Facet에 대해 자세히 알아보기:
 
 항상 검색 리디렉션을 테스트하여 제대로 작동하는지, 가장 관련성이 높은 페이지로 연결되는지 확인하십시오. 지속적으로 성능을 모니터링하고 필요에 따라 조정합니다.
 
-[검색 리디렉션을 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
+[검색 리디렉션을 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
 
 ## 검색 결과 관련성 개선
 
@@ -128,7 +129,7 @@ Facet에 대해 자세히 알아보기:
 - 관련성을 손상시키지 않고 수익 마진이 더 높은 제품의 우선 순위를 약간 지정합니다.
 - 판매 중인 제품 또는 특별 프로모션의 일부를 강조하십시오.
 - 판촉 기간 중 일자 범위를 사용하여 판촉 또는 판매 기간 중 검색 규칙을 자동으로 설정합니다.
-- &quot;추천&quot;, &quot;가장 많이 본 항목&quot; 등과 같은 [지능형 순위](rules-add.md#intelligent-ranking)를 사용하는 개별 구매자 행동을 기반으로 검색 결과를 사용자 지정합니다. 구매자 행동을 맞춤화하려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](events.md)해야 합니다.
+- &quot;추천&quot;, &quot;가장 많이 본 항목&quot; 등과 같은 [지능형 순위](rules-add.md#intelligent-ranking)를 사용하는 개별 구매자 행동을 기반으로 검색 결과를 사용자 지정합니다. 구매자 행동을 맞춤화하려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)해야 합니다.
 
 검색 규칙에 대해 자세히 알아보기:
 
@@ -139,7 +140,7 @@ Facet에 대해 자세히 알아보기:
    - [만들기](rules-add.md)
    - [편집, 보기, 삭제](rules-manage.md)
 - 데이터 수집
-   - [[!DNL Live Search]개 이벤트](events.md)
+   - [[!DNL Live Search] 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)
    - [Adobe Commerce 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/)
    - [GitHub Commerce 이벤트](https://github.com/adobe/commerce-events/tree/main/examples) 
 
@@ -154,7 +155,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 
@@ -195,4 +196,4 @@ Facet에 대해 자세히 알아보기:
 - 인기 검색어와 제품 데이터를 분석하여 중요한 키워드를 식별합니다. 이러한 키워드로 제품 검색 가능한 속성을 최적화하여 검색 관련성을 개선합니다.
 - 정기적으로 결과 데이터를 분석하여 변화하는 트렌드, 구매자 선호도 및 행동을 파악하고, 상위 검색어를 식별하고, 문제를 감지합니다. 이 피드백 루프를 사용하여 검색 규칙 및 제품 오퍼링을 지속적으로 구체화하고 개선하십시오
 
-[!DNL Live Search] 보고서에서 올바른 데이터를 가져오려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](events.md)해야 합니다.
+[!DNL Live Search] 보고서에서 올바른 데이터를 가져오려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)해야 합니다.

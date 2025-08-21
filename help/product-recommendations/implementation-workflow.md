@@ -1,7 +1,8 @@
 ---
 title: 구현 워크플로
 description: 상점 첫 화면에서  [!DNL Product Recommendations] 을(를) 성공적으로 구현하는 단계에 대해 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 4a784d04-8be6-473f-afb3-264af06c850a
+source-git-commit: a3e19940e2a3d8a240bb17703cfdd9903df311aa
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -26,9 +27,9 @@ ht-degree: 0%
 
 1. **프로덕션에 데이터 수집 배포**
 
-   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe Sensei에서 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](verify.md)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
+   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe Sensei에서 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](staging-environment.md#fetch-recommendations-from-production-environment-recommended)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
 
-   프로덕션에 데이터 수집을 배포하려면 [API 키](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](install-configure.md)해야 합니다.
+   프로덕션에 데이터 수집을 배포하려면 [API 키](install-configure.md)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)해야 합니다.
 
    >[!TIP]
    >
@@ -42,7 +43,7 @@ ht-degree: 0%
    >
    > 템플릿을 사용자 정의하여 스타일시트를 지정하고 페이지에서 권장 사항 단위가 나타나는 위치를 덮어쓰는 등의 작업을 수행할 수 있습니다.
 
-   이 단계를 완료하는 방법은 개발자 설명서에서 [사용자 지정](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html?lang=ko)을 참조하십시오.
+   이 단계를 완료하는 방법은 개발자 설명서에서 [사용자 지정](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html)을 참조하십시오.
 
 1. **비프로덕션 환경에서 권장 사항 테스트**
 

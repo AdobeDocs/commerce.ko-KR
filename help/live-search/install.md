@@ -3,10 +3,10 @@ title: ' [!DNL Live Search] 시작'
 description: Adobe Commerce에서  [!DNL Live Search] 의 시스템 요구 사항 및 설치 단계에 대해 알아봅니다.
 role: Admin, Developer
 exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: b1cf82f09c934dd585c350f82cbf258d8c1d002c
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3151'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
 - [!DNL Live Search] 3.0.2부터 [!DNL Catalog Service] 확장이 설치와 함께 번들로 제공됩니다.
 
-- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)에서 _OpenSearch로 마이그레이션_&#x200B;을 참조하십시오.
+- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)에서 _OpenSearch로 마이그레이션_&#x200B;을 참조하십시오.
 
 ## 지원되는 플랫폼
 
@@ -66,7 +66,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
 새 Commerce 인스턴스에 [!DNL Live Search]을(를) 설치하는 경우 다음 지침을 따르십시오.
 
-1. [cron jobs](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
+1. [cron jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
 
 1. 작성기를 사용하여 라이브 검색 모듈을 프로젝트에 추가합니다.
 
@@ -94,7 +94,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
    bin/magento setup:upgrade
    ```
 
-1. 다음 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)가 &quot;일정별 업데이트&quot;로 설정되어 있는지 확인하십시오.
+1. 다음 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)가 &quot;일정별 업데이트&quot;로 설정되어 있는지 확인하십시오.
 
    - 제품 피드
    - 제품 변형 피드
@@ -111,7 +111,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
 기존 Commerce 인스턴스에 [!DNL Live Search]을(를) 설치하는 경우 다음 지침을 따르십시오.
 
-1. [cron jobs](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
+1. [cron jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
 
 1. 작성기를 사용하여 라이브 검색 모듈을 프로젝트에 추가합니다.
 
@@ -139,7 +139,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
    bin/magento setup:upgrade
    ```
 
-1. 다음 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)가 &quot;일정별 업데이트&quot;로 설정되어 있는지 확인하십시오.
+1. 다음 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)가 &quot;일정별 업데이트&quot;로 설정되어 있는지 확인하십시오.
 
    - 제품 피드
    - 제품 변형 피드
@@ -204,7 +204,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
 이러한 새 조건은 검색 결과를 구체화하기 위한 검색 쿼리 필터링 메커니즘을 향상시킵니다. 이러한 새 조건은 기본 검색 쿼리에 영향을 주지 않습니다.
 
-검색 결과 페이지에서 이러한 새 조건을 구현할 수 있습니다. 예를 들어, 쇼핑객이 검색 결과를 더 구체화할 수 있는 페이지에 새 섹션을 추가할 수 있습니다. 구매자가 &quot;제조업체&quot;, &quot;부품 번호&quot; 및 &quot;설명&quot;과 같은 특정 제품 속성을 선택할 수 있도록 할 수 있습니다. 여기에서 `contains` 또는 `startsWith` 조건을 사용하여 해당 특성 내에서 검색합니다. 검색 가능한 [특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types) 목록은 관리 안내서를 참조하십시오.
+검색 결과 페이지에서 이러한 새 조건을 구현할 수 있습니다. 예를 들어, 쇼핑객이 검색 결과를 더 구체화할 수 있는 페이지에 새 섹션을 추가할 수 있습니다. 구매자가 &quot;제조업체&quot;, &quot;부품 번호&quot; 및 &quot;설명&quot;과 같은 특정 제품 속성을 선택할 수 있도록 할 수 있습니다. 여기에서 `contains` 또는 `startsWith` 조건을 사용하여 해당 특성 내에서 검색합니다. 검색 가능한 [특성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types) 목록은 관리 안내서를 참조하십시오.
 
 1. Beta를 설치하려면 프로젝트에 다음 종속성을 추가하십시오.
 
@@ -212,11 +212,11 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
    composer require magento/module-live-search-search-types:"^1.0.0-beta1"
    ```
 
-1. `composer.json` 및 `composer.lock` 파일에 대한 변경 내용을 커밋하고 클라우드 프로젝트에 푸시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)
+1. `composer.json` 및 `composer.lock` 파일에 대한 변경 내용을 커밋하고 클라우드 프로젝트에 푸시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)
 
    이 베타는 관리자의 **[!UICONTROL Search types]**, **[!UICONTROL Autocomplete]** 및 **[!UICONTROL Contains]**&#x200B;에 대한 **[!UICONTROL Starts with]**&#x200B;개의 확인란을 추가합니다. 또한 이러한 새로운 검색 기능을 포함하도록 [`productSearch`](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) GraphQL API를 업데이트합니다.
 
-1. 관리에서 [제품 특성을 검색 가능하게 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)하고 해당 특성에 대한 검색 기능을 지정하십시오(예: **포함**(기본값) 또는 **다음으로 시작**). **포함**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정하고 **다음으로 시작**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정할 수 있습니다. Beta의 경우 관리자가 이 제한을 적용하지 않지만 API 검색에 적용된다는 점에 유의하십시오.
+1. 관리에서 [제품 특성을 검색 가능하게 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)하고 해당 특성에 대한 검색 기능을 지정하십시오(예: **포함**(기본값) 또는 **다음으로 시작**). **포함**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정하고 **다음으로 시작**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정할 수 있습니다. Beta의 경우 관리자가 이 제한을 적용하지 않지만 API 검색에 적용된다는 점에 유의하십시오.
 
    ![검색 기능 지정](./assets/search-filters-admin.png)
 
@@ -262,7 +262,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 ### 동기화 진행 상황 모니터링
 
-동기화 진행률을 모니터링하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard)를 사용하십시오. 이 대시보드는 상점 첫 화면에서 제품 데이터의 가용성에 대한 중요한 통찰력을 제공하여 고객에게 즉시 표시되도록 합니다.
+동기화 진행률을 모니터링하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)를 사용하십시오. 이 대시보드는 상점 첫 화면에서 제품 데이터의 가용성에 대한 중요한 통찰력을 제공하여 고객에게 즉시 표시되도록 합니다.
 
 ![데이터 관리 대시보드](assets/data-management-dashboard.png)
 
@@ -285,12 +285,12 @@ bin/magento saas:resync --feed categoryPermissions
   >
   >`table does not exist` 오류가 발생하면 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes` 테이블에서 항목을 찾습니다. 이 테이블 이름은 [!DNL Live Search] 버전 4.2.1 이전 버전에서 사용됩니다.
 
-- 기본 쿼리와 함께 [GraphQL 플레이그라운드](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/graphql)를 사용하여(자세한 내용은 [GraphQL 참조](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) 참조) 다음을 확인하십시오.
+- 기본 쿼리와 함께 [GraphQL 플레이그라운드](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/graphql)를 사용하여(자세한 내용은 [GraphQL 참조](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) 참조) 다음을 확인하십시오.
 
    - 반환된 제품 수는 스토어 보기에 예상되는 값과 비슷합니다.
    - Facet이 반환됩니다.
 
-추가 도움말은 지원 기술 자료에서 [[!DNL Live Search] 동기화되지 않은 카탈로그](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)를 참조하십시오.
+추가 도움말은 지원 기술 자료에서 [[!DNL Live Search] 동기화되지 않은 카탈로그](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)를 참조하십시오.
 
 ## &#x200B;5. 데이터 구성
 
@@ -310,7 +310,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 이 구성을 변경하면 `Page cache is invalidated` 메시지가 나타납니다. 변경 사항을 저장하려면 Magento 캐시를 플러시해야 합니다.
 
-1. 다음 중 하나를 수행하여 [캐시 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management) 페이지에 액세스합니다.
+1. 다음 중 하나를 수행하여 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) 페이지에 액세스합니다.
 
    - 작업 영역 위의 메시지에서 **[!UICONTROL Cache Management]** 링크를 클릭합니다.
    - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.
@@ -321,7 +321,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 ### 범주 할당
 
-[!DNL Live Search]에서 반환된 제품은 [category](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/categories)에 할당되어야 합니다. 예를 들어 Luma에서 제품은 &quot;남성&quot;, &quot;여성&quot; 및 &quot;톱니바퀴&quot;와 같은 범주에 배치됩니다. 또한 하위 카테고리는 &quot;Tops&quot;, &quot;Bottom&quot; 및 &quot;Watches&quot;에 대해 설정됩니다. 이러한 범주 할당은 필터링 시 세부기간을 개선합니다.
+[!DNL Live Search]에서 반환된 제품은 [category](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories)에 할당되어야 합니다. 예를 들어 Luma에서 제품은 &quot;남성&quot;, &quot;여성&quot; 및 &quot;톱니바퀴&quot;와 같은 범주에 배치됩니다. 또한 하위 카테고리는 &quot;Tops&quot;, &quot;Bottom&quot; 및 &quot;Watches&quot;에 대해 설정됩니다. 이러한 범주 할당은 필터링 시 세부기간을 개선합니다.
 
 ## &#x200B;6. 연결 테스트
 
@@ -341,8 +341,8 @@ bin/magento saas:resync --feed categoryPermissions
 
 사이트에 배포된 Storefront 이벤트가 작동하는지 확인합니다. 이 검사는 Headless 구현에 특히 중요합니다.
 
-- [에 필요한 ](events.md)이벤트[!DNL Live Search]을(를) 검토하십시오.
-- [[!DNL Live Search] 대시보드](performance.md)에 비프로덕션 환경의 데이터가 표시되는지 확인하십시오.
+- [에 필요한 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)이벤트[!DNL Live Search]을(를) 검토하십시오.
+- [실시간 검색 대시보드](performance.md)에 비프로덕션 환경의 데이터가 표시되는지 확인하십시오.
 - [이벤트 컬렉션 확인](../product-recommendations/verify.md). 이 페이지가 [!DNL Product Recommendations] 안내서에 있는 동안 확인 단계는 [!DNL Live Search]에도 적용됩니다.
 
 ## &#x200B;8. 상점용 사용자 지정
@@ -405,7 +405,7 @@ composer update magento/live-search --with-dependencies
 
 ## [!DNL Live Search]을(를) 제거하는 중
 
-[!DNL Live Search]을(를) 제거하려면 [모듈 제거](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)를 참조하세요.
+[!DNL Live Search]을(를) 제거하려면 [모듈 제거](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)를 참조하세요.
 
 ## 패키지 [!DNL Live Search]개
 
@@ -414,7 +414,7 @@ composer update magento/live-search --with-dependencies
 | 패키지 | 설명 |
 |--- |--- |
 | `module-live-search` | 상인이 페이스팅, 동의어, 쿼리 규칙 등에 대한 검색 설정을 구성할 수 있도록 하고 읽기 전용 GraphQL 플레이그라운드에 액세스하여 *관리자*&#x200B;의 쿼리를 테스트할 수 있도록 합니다. |
-| `module-live-search-adapter` | Storefront에서 [!DNL Live Search] 서비스로 검색 요청을 라우팅하고 Storefront에서 결과를 렌더링합니다. <br />- 범주 찾아보기 - 상점 [위쪽 탐색](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-top)에서 검색 서비스로 요청을 라우팅합니다.<br />- 전역 검색 - [빠른 검색](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search) 필드에서 [!DNL Live Search] 서비스로 요청을 라우팅합니다. 빠른 검색 필드는 상점 첫 페이지의 오른쪽 상단에 있습니다. |
+| `module-live-search-adapter` | Storefront에서 [!DNL Live Search] 서비스로 검색 요청을 라우팅하고 Storefront에서 결과를 렌더링합니다. <br />- 범주 찾아보기 - 상점 [위쪽 탐색](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top)에서 검색 서비스로 요청을 라우팅합니다.<br />- 전역 검색 - [빠른 검색](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) 필드에서 [!DNL Live Search] 서비스로 요청을 라우팅합니다. 빠른 검색 필드는 상점 첫 페이지의 오른쪽 상단에 있습니다. |
 | `module-live-search-storefront-popover` | &quot;입력할 때 검색&quot; 팝오버는 표준 빠른 검색을 대체하며 상위 검색 결과의 데이터 및 썸네일을 반환합니다. |
 
 ## [!DNL Live Search]개의 종속성
@@ -525,7 +525,7 @@ Adobe에서는 SaaS API(특히 카탈로그 서비스 엔드포인트)를 직접
 
 ### Inventory management
 
-[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#updating-live-search)업데이트`commerce-data-export`해야 합니다.
+[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#updating-live-search)업데이트`commerce-data-export`해야 합니다.
 
 [!DNL Live Search]은(는) Inventory management 내에서 제품을 사용할 수 있는지 여부를 나타내는 부울을 반환하지만, 재고가 있는 소스에 대한 정보는 포함하지 않습니다.
 
@@ -562,7 +562,7 @@ composer require magento/module-data-services-graphql
 
 ### B2B 지원
 
-[!DNL Live Search]은(는) 추가 [제한](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/guide-overview)과 함께 [B2B 기능](boundaries-limits.md#b2b-and-category-permissions)을 지원합니다.
+[!DNL Live Search]은(는) 추가 [제한](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)과 함께 [B2B 기능](boundaries-limits.md#b2b-and-category-permissions)을 지원합니다.
 
 ### PWA 지원
 
@@ -594,4 +594,4 @@ PWA Studio에서 [!DNL Live Search]을(를) 사용하려면 통합자도 다음�
 
 ### 쿠키
 
-[!DNL Live Search]은(는) 기본 기능의 일부로 사용자 상호 작용 데이터를 수집하며 쿠키는 이 데이터를 저장하는 데 사용됩니다. 사용자 정보를 수집할 때 사용자는 쿠키를 저장하는 데 동의해야 합니다. [!DNL Live Search] 및 [!DNL Product Recommendations]이(가) 데이터 스트림을 공유하므로 동일한 쿠키 메커니즘이 사용됩니다. 자세한 내용은 [쿠키 제한 처리](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/setting-cookie)를 참조하세요.
+[!DNL Live Search]은(는) 기본 기능의 일부로 사용자 상호 작용 데이터를 수집하며 쿠키는 이 데이터를 저장하는 데 사용됩니다. 사용자 정보를 수집할 때 사용자는 쿠키를 저장하는 데 동의해야 합니다. [!DNL Live Search] 및 [!DNL Product Recommendations]이(가) 데이터 스트림을 공유하므로 동일한 쿠키 메커니즘이 사용됩니다. 자세한 내용은 [쿠키 제한 처리](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)를 참조하세요.

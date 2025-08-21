@@ -2,7 +2,7 @@
 title: Headless
 description: Headless 상점 앞에서  [!DNL Product Recommendations] 을(를) 통합하는 방법을 알아봅니다.
 exl-id: c40dac31-f87e-402a-ba50-e8aa4c1d66aa
-source-git-commit: fe5f864262478d1f9e205f2cd275452594cf4675
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Headless
 
-[PWA Studio](https://developer.adobe.com/commerce/pwa-studio/) 또는 React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하여 Headless Storefront에서 [!DNL Product Recommendations]을(를) 통합할 수 있습니다.
+[!DNL Product Recommendations]PWA Studio[ 또는 React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하여 Headless Storefront에서 ](https://developer.adobe.com/commerce/pwa-studio/)을(를) 통합할 수 있습니다.
 
 사용자 정의 및 Headless 통합자는 제안된 구현으로 이 Luma 및 PWA 지침을 참조해야 합니다. 제품 권장 사항을 Headless 솔루션에 구현하는 방법은 여러 가지가 있으며 이 설명서는 모든 시나리오를 다루지 않습니다. 통합자는 해당 구현에 대한 이벤트, 설계 및 테스트를 다룹니다.
 
-[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html?lang=ko)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
+[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Headless 상점 앞에서 [!DNL Product Recommendations]을(를) 통합하려면
 
 다음 워크플로에 설명된 대로 사용 가능한 SDK를 사용하여 이러한 작업을 모두 수행할 수 있습니다.
 
-1. [!DNL Product Recommendations] 모듈을 [설치](install-configure.md)합니다.
+1. [ 모듈을 ](install-configure.md)설치[!DNL Product Recommendations]합니다.
 
-1. [Adobe Commerce Storefront Event SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)을(를) 설치하고 사용하여 [동작 이벤트](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html?lang=ko)을(를) 실행합니다.
+1. [Adobe Commerce Storefront Event SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)을(를) 설치하고 사용하여 [동작 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)을(를) 실행합니다.
 
    [!DNL Product Recommendations]개의 결과를 반환하는 데 필요한 최소 이벤트:
 

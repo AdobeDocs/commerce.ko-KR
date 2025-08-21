@@ -3,9 +3,9 @@ title: ' [!DNL Live Search]이란?'
 description: Adobe Commerce의 [!DNL Live Search]는 빠르고, 관련성이 높고, 직관적인 검색 경험을 제공합니다.
 recommendations: noCatalog
 exl-id: 15399216-6a96-4d0b-bbc1-293190cb9e14
-source-git-commit: d07f36a71247a96bc2dd950867c2862205238d88
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
 
 속도, 관련성 및 사용 편의성에 중점을 둔 [!DNL Live Search]은(는) 쇼핑객과 판매자 모두에게 게임 체인저입니다. 다음 비디오를 시청한 다음 상점 앞에서 [!DNL Live Search]을(를) 간단히 둘러보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452576?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
-Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
+Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
 
 ### 입력할 때 검색
 
-[!DNL Live Search]이(가) 쇼핑객이 [검색](storefront-popover.md) 상자에 쿼리를 입력할 때 [팝오버](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
+[!DNL Live Search]이(가) 쇼핑객이 [검색](storefront-popover.md) 상자에 쿼리를 입력할 때 [팝오버](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
 
 [!DNL Live Search]이(가) 둘 이상의 문자에 대한 &quot;입력한 대로 검색&quot; 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. 쿼리의 문자 수를 구성할 수 없습니다. 팝오버에는 `name`, `sku` 및 `category_ids` 필드가 포함됩니다.
 
@@ -81,7 +81,7 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 ### 검색어 지원
 
-[!DNL Live Search]이(가) Commerce [검색어 리디렉션](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)을 지원합니다. 예를 들어 &quot;배송비&quot;와 같은 용어를 검색하여 배송비 페이지로 바로 이동할 수 있습니다.
+[!DNL Live Search]이(가) Commerce [검색어 리디렉션](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms)을 지원합니다. 예를 들어 &quot;배송비&quot;와 같은 용어를 검색하여 배송비 페이지로 바로 이동할 수 있습니다.
 
 ## 라이브 검색 구성 요소
 
@@ -95,10 +95,10 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 ## 이벤트
 
-[!DNL Live Search]은(는) [이벤트](events.md)를 사용하여 [지능형 머천다이징](category-merch.md) 및 [성능](performance.md) 대시보드를 계산합니다. 이벤트에는 기본 구현이 제공됩니다. 헤드리스 상점 첫 화면의 이벤트는 수동으로 활성화해야 합니다.
+[!DNL Live Search]은(는) [이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)를 사용하여 [지능형 머천다이징](category-merch.md) 및 [성능](performance.md) 대시보드를 계산합니다. 이벤트에는 기본 구현이 제공됩니다. 헤드리스 상점 첫 화면의 이벤트는 수동으로 활성화해야 합니다.
 
 ## 카탈로그 데이터 보존 정책
 
 테스트 환경에서 카탈로그 데이터에 대한 검색 쿼리를 90일 연속 제출하지 않으면 카탈로그 데이터가 최대 절전 모드로 설정되고 검색 쿼리에 대해 데이터가 반환되지 않습니다. 프로덕션 환경의 카탈로그 데이터는 이 정책의 영향을 받지 않습니다.
 
-테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.

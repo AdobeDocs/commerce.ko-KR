@@ -2,9 +2,9 @@
 title: 새 권장 사항 만들기
 description: 제품 추천 단위를 만드는 방법을 알아봅니다.
 exl-id: 1d5f83c4-1613-4236-9d98-d455f45a47da
-source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ _추천 단위_
 
 1. _관리자_ 사이드바에서 **마케팅** > _프로모션_ > **제품 추천**(으)로 이동하여 _제품 추천_ 작업 영역을 표시합니다.
 
-1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
+1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
 
    >[!NOTE]
    >
-   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
+   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
 
 1. **추천 만들기**&#x200B;를 클릭합니다.
 
@@ -38,14 +38,14 @@ _추천 단위_
 
    >[!NOTE]
    >
-   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
+   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
 
    * 홈 페이지
    * 범주
    * 제품 세부 사항
    * 장바구니
    * 확인
-   * [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)
+   * [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)
 
    각 페이지 유형에 대해 최대 5개의 활성 권장 사항 단위를 만들고, 페이지 빌더에 대해 최대 25개의 활성 권장 사항 단위를 만들 수 있습니다. 제한에 도달하면 페이지 유형이 회색으로 표시됩니다.
 
@@ -172,7 +172,7 @@ _권장 사항 유형_
 * **정적 기반** - 표시 가능한 제품에 대한 카탈로그 데이터가 누락되어 이러한 지표의 비율이 낮을 수 있습니다. 예상보다 낮은 경우 전체 동기화를 통해 이 문제를 해결할 수 있습니다.
 * **동적 기반** - 동적 기반 지표에 대한 낮은 비율은 다음 원인으로 인해 발생할 수 있습니다.
 
-   * 각 권장 사항 유형(requestId, 제품 컨텍스트 등)에 필요한 [storefront 이벤트](events.md)에 필드가 누락되었습니다.
+   * 각 권장 사항 유형(requestId, 제품 컨텍스트 등)에 필요한 [storefront 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)에 필드가 누락되었습니다.
    * 스토어의 트래픽이 낮아서 우리가 받는 행동 이벤트의 양이 적습니다.
    * 매장 내 여러 상품에 걸친 다양한 상점 행동 이벤트가 낮습니다. 예를 들어 대부분의 경우 제품을 보거나 구매하는 비율이 10%만 되어도 각 준비 지표는 낮습니다.
 

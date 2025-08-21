@@ -1,9 +1,10 @@
 ---
 title: 권장 사항 유형
 description: 사이트의 다양한 페이지에 배포할 수 있는 권장 사항에 대해 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: bbb290b0-b50b-43d9-bf71-1813298d5f39
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Adobe Commerce은 사이트의 다양한 페이지에 배포할 수 있는 대�
 
 >[!NOTE]
 >
->이 문서에 설명된 이벤트에 대한 자세한 내용은 [events](events.md)를 참조하십시오.
+>이 문서에 설명된 이벤트에 대한 자세한 내용은 개발자 설명서에서 [storefront events](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)를 참조하십시오.
 
 ## 개인화됨 {#personalized}
 

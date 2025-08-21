@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Adobe Commerce의  [!DNL Data Connection] 확장에 대한 최신 릴리스 정보입니다.
 feature: Personalization, Integration, Release Notes
 exl-id: f3b92632-947d-40cd-89b7-24ed0680be51
-source-git-commit: 43020e33ce57861cf586ace12a0832b24c23872d
+source-git-commit: 90fcaa2cdd7c869ceddaeea7525cac00a41d94c5
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 [!DNL Data Connection] 확장에서 사용하는 확장과 관련된 기능 변경 및 수정 사항에 대해서는 **지원되는 서비스 업데이트**&#x200B;를 참조하십시오.
 
-릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule)를 참조하세요.
+릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)를 참조하세요.
 
-개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability).
+개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## 지원되는 서비스 업데이트
 
@@ -46,12 +46,12 @@ _2024년 8월 2일_
 
 _2024년 1월 24일_
 
-![새로 만들기](../assets/new.svg) - B2B 판매자에 대해 `data-services-b2b`deleteRequisitionList[라는 새 구매요청 이벤트를 포함하도록 ](events.md#deleterequisitionlist) 확장을 업데이트했습니다.
+![새로 만들기](../assets/new.svg) - B2B 판매자에 대해 `data-services-b2b`(이)라는 새 요청 이벤트를 포함하도록 `deleteRequisitionList` 확장을 업데이트했습니다.
 
 _2023년 11월 16일_
 
 ![수정](../assets/fix.svg) - 배송 주소가 여러 개인 주문을 했을 때 오류 메시지가 잘못 표시되는 문제를 해결했습니다.
-![수정](../assets/fix.svg) - 스토어 보기에서 통화를 전환한 후 [ 이벤트 필드가 가격을 전환하지 않는 ](events.md#productpageview)productPageView`productListItems.priceTotal` 이벤트의 문제를 해결했습니다.
+![수정](../assets/fix.svg) - 스토어 보기에서 통화를 전환한 후 `productPageView` 이벤트 필드가 가격을 전환하지 않는 `productListItems.priceTotal` 이벤트 문제를 해결했습니다.
 ![수정](../assets/fix.svg) - 가맹점이 스토어 보기를 전환할 때 통화 코드가 업데이트되지 않는 `productListItems` 이벤트 필드의 문제를 해결했습니다.
 
 _2023년 10월 10일_
@@ -59,11 +59,11 @@ _2023년 10월 10일_
 ![새로 만들기](../assets/new.svg) - 새 주문 상태 이벤트 추가: [인보이스 발행 주문](events-backoffice.md#orderinvoiced), [주문 항목 반환이 시작됨](events-backoffice.md#orderitemsreturninitiated), [주문 항목 반환이 완료됨](events-backoffice.md#orderitemreturncompleted).
 ![수정](../assets/fix.svg) - 캐시를 새로 고친 후 통화 구성 변경 내용이 이벤트에 반영되지 않는 문제를 해결했습니다.
 ![수정](../assets/fix.svg) - 비동기 주문 배치가 활성화된 경우 주문 확인 메시지가 표시되지 않는 경우 오류가 수정되었습니다.
-![새로 만들기](../assets/new.svg) - 범주 보기 페이지에서 간단한 제품에 대한 [addToRequisitionList](events.md#addtorequisitionlist) 이벤트에 데이터가 추가되었습니다.
-![수정](../assets/fix.svg) - 주문 확인 페이지에서 제품을 추가할 때 `selectedOptions`addToRequisitionList[ 이벤트의 ](events.md#addtorequisitionlist) 데이터에서 문제가 해결되었습니다.
-![새로 만들기](../assets/new.svg) - 범주 보기 페이지에서 제품이 구매요청 목록에 추가되면 [addToRequisitionList](events.md#addtorequisitionlist) 이벤트에 제품 데이터가 추가되었습니다.
-![새로 만들기](../assets/new.svg) - 구성 가능한 제품이 제품 보기 페이지의 구매요청 목록에 추가되면 [addToRequisitionList](events.md#addtorequisitionlist) 이벤트가 추가되었습니다.
-![새로 만들기](../assets/new.svg) - 구매요청 목록에서 제품 수량이 증가 또는 감소될 때 [addToRequisitionList](events.md#addtorequisitionlist) 및 [removeFromRequisitionList](events.md#removefromrequisitionlist) 이벤트가 추가되었습니다.
+![새로 만들기](../assets/new.svg) - 범주 보기 페이지에서 간단한 제품에 대한 데이터를 `addToRequisitionList` 이벤트에 추가했습니다.
+![수정](../assets/fix.svg) - 주문 확인 페이지에서 제품을 추가할 때 `selectedOptions` 이벤트의 `addToRequisitionList` 데이터 문제를 해결했습니다.
+![새로 만들기](../assets/new.svg) - 범주 보기 페이지의 구매요청 목록에 제품이 추가되면 `addToRequisitionList` 이벤트에 제품 데이터가 추가되었습니다.
+![새로 만들기](../assets/new.svg) - 구성 가능한 제품이 제품 보기 페이지의 구매요청 목록에 추가되면 `addToRequisitionList` 이벤트가 추가되었습니다.
+![새로 만들기](../assets/new.svg) - 구매요청 목록에서 제품 수량이 증가 및/또는 감소할 때 `addToRequisitionList` 및 `removeFromRequisitionList` 이벤트가 추가되었습니다.
 
 _2023년 6월 10일_
 
@@ -141,7 +141,7 @@ _2024년 6월 5일_
 [!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
 
 ![수정](../assets/fix.svg) - [내역 동기화](connect-data.md#specify-order-history-date-range)를 시작할 때 잘못된 날짜 형식이 사용되는 문제가 해결되었습니다.
-![수정](../assets/fix.svg) - Adobe Commerce 2.4.7에서 [startCheckout](events.md#startcheckout) 이벤트가 전송되지 않는 문제가 해결되었습니다.
+![수정](../assets/fix.svg) - Adobe Commerce 2.4.7에서 `startCheckout` 이벤트가 전송되지 않는 문제가 해결되었습니다.
 
 ## 3.1.1
 
