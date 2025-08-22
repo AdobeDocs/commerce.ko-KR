@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 주요 기능 및 이
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User, Leader
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 8fc46b0b93ac5102477f33bf2a8ae70a7acaf85d
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 31d1f1fe784247d6db8a26f8a9e6ae0291e416b5
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -21,46 +21,34 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
   <tr>
-    <td>
-      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
-        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;">✓</span>
-      </span>
-      <strong>Commerce 상점</strong>
+    <td align="left">
+      <img src="../assets/icon-checkmark-circle-outline.svg" alt="확인 표시" align="center"> <strong>Commerce 상점</strong>
     </td>
-    <td>
+    <td align="left">
       쇼핑객이 제품을 검색하고 구매하는 고객 대면 인터페이스
     </td>
   </tr>
   <tr>
-    <td>
-      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
-        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;">✓</span>
-      </span>
-      <strong>머천다이징 서비스</strong>
+    <td align="left">
+      <img src="../assets/icon-checkmark-circle-outline.svg" alt="확인 표시" align="center"> <strong>머천다이징 서비스</strong>
     </td>
-    <td>
+    <td align="left">
       제품 카탈로그, 가격 및 재고를 관리하는 백엔드 서비스
     </td>
   </tr>
   <tr>
-    <td>
-      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
-        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;">✓</span>
-      </span>
-      <strong>제품 시각화</strong>
+    <td align="left">
+      <img src="../assets/icon-checkmark-circle-outline.svg" alt="확인 표시" align="center"> <strong>제품 시각화</strong>
     </td>
-    <td>
+    <td align="left">
       제품 이미지 및 미디어를 위한 디지털 자산 관리
     </td>
   </tr>
   <tr>
-    <td>
-      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
-        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;">✓</span>
-      </span>
-      <strong>개발자 플랫폼</strong>
+    <td align="left">
+      <img src="../assets/icon-checkmark-circle-outline.svg" alt="확인 표시" align="center"> <strong>개발자 플랫폼</strong>
     </td>
-    <td>
+    <td align="left">
       사용자 정의 기능 구축을 위한 핵심 개발 도구 및 API
     </td>
   </tr>
@@ -70,7 +58,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service] 아키텍처에 대한 간략한 소개는 다음 비디오를 참조하십시오. 아키텍처를 설명하는 다이어그램은 비디오 아래에 제공됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443274?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 이 다이어그램은 [!DNL Adobe Commerce as a Cloud Service]과(와) 모든 Adobe Experience Cloud 솔루션 간의 데이터 흐름을 보여 줍니다.
 
@@ -78,13 +66,13 @@ ht-degree: 0%
 
 ## Commerce 상점 첫 화면
 
-Edge Delivery Services에서 제공하는 Adobe의 [Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront?lang=ko)을(를) 사용하여 Storefront Builder를 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
+Edge Delivery Services에서 제공하는 Adobe의 [Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront)을(를) 사용하여 Storefront Builder를 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
 
 Commerce Storefront는 GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 전체 헤드리스를 제공합니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)을 참조하세요.
+>[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts)을 참조하세요.
 
 ## 머천다이징 서비스 및 결제 서비스
 
@@ -109,11 +97,11 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
 
 다음 비교는 콘텐츠 공급망 요구 사항에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-  <tr style="border: none;">
-    <td style="width: 45%; vertical-align: top; border: 2px solid #e0e0e0; padding: 20px; background: #fafafa;">
-      <p style="color: #d32f2f; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; margin-top: 0;">AEM Assets 기반 제품 비주얼</h3>
-      <ul style="margin: 0; padding-left: 20px;">
+<table>
+  <tr>
+    <td align="left">
+      <strong>AEM Assets에서 제공하는 제품 비주얼</strong>
+      <ul>
         <li>자동화된 통합 제품 이미지 및 비디오 DAM(Digital Asset Manager)</li>
         <li>이미지 크기 조정, 자르기 및 변환</li>
         <li>고속 이미지 및 비디오 전송</li>
@@ -123,12 +111,13 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
         <li>통합 에셋 선택기</li>
       </ul>
     </td>
-    <td style="width: 10%; text-align: center; vertical-align: middle; font-size: 98px; color: #d32f2f; font-weight: bold;">
-      ›
+    <td align="center">
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <img src="../assets/icon-double-chevron-right.svg" alt="펼침" width="100">
     </td>
-    <td style="width: 45%; vertical-align: top; border: 2px solid #e0e0e0; padding: 20px; background: #fafafa;">
-      <p style="color: #d32f2f; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; margin-top: 0;">AEM Assets</h3>
-      <ul style="margin: 0; padding-left: 20px;">
+    <td align="left">
+      <strong>AEM Assets</strong>
+      <ul>
         <li>제품 비주얼의 모든 기능</li>
         <li>전체 마케팅 디지털 자산 관리자(DAM)</li>
         <li>사용자 무제한(사용자당 지불)</li>
@@ -139,19 +128,16 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
           <li>3D 모델 지원 및 몰입형 콘텐츠</li>
           <li>PDF 지원</li>
           <li>AI 기반 스마트 자르기</li>
-         <li>동적 이미지 템플릿</li>
-        <li>스마트 태그 지정</li>
-        <li>자산 성능 추적 및 분석</li>
+          <li>동적 이미지 템플릿</li>
+          <li>스마트 태그 지정</li>
+          <li>자산 성능 추적 및 분석</li>
         </ul>
       </ul>
     </td>
   </tr>
-</table>
-
-<table style="width: 100%; margin: 20px 0;">
-  <tr>
-    <td style="background: #f5f5f5; padding: 15px; text-align: center; font-weight: bold;">
-      Adobe 브랜드 통합을 통해 오퍼링 간에 손쉽게 마이그레이션할 수 있습니다.
+    <tr>
+    <td align="center" colspan="3">
+      <strong>서비스 간에 쉽게 마이그레이션할 수 있도록 Adobe 브랜드 통합을 사용할 수 있습니다.</strong>
     </td>
   </tr>
 </table>
@@ -211,7 +197,7 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 
