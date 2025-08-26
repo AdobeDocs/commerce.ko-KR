@@ -3,7 +3,8 @@ title: 이벤트 개요
 description: ' [!DNL Adobe Commerce Optimizer] 이(가) 검색 및 권장 사항을 개선하는 데 사용하는 이벤트에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-source-git-commit: 356b10704c9e7c7329d3e9c0e10baa15d5142ec0
+exl-id: c102c558-a680-4622-80f0-6e5c34d497e9
+source-git-commit: 7a77cc79be9b6f835668b394909ea2325b642b03
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -173,4 +174,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 ## 지원
 
-데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
+데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
