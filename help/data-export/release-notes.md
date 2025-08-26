@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: fa3900de75ae36a3efccc7791b6345875b46148f
+source-git-commit: 728be19f73f19d9e229ae38fd5c171df74b963fb
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 103.4.10 릴리스
 
-![수정](../assets/fix.svg) 동적으로 만든 일부 특성에 대해 잘못된 형식(`text` 대신 `OBJECT`)이 반환되는 문제를 해결했습니다. 이제 올바른 유형 정보가 일관되게 반환되므로 수동으로 다시 동기화하거나 해결할 필요가 없습니다.<!--MDEE-1131-->
+![수정](../assets/fix.svg) 동적으로 만든 일부 특성에 대해 잘못된 유형(`text` 대신 `OBJECT`)이 반환되는 문제를 해결했습니다. 이제 올바른 유형 정보가 일관되게 반환되므로 수동으로 다시 동기화하거나 해결할 필요가 없습니다.<!--MDEE-1131-->
 ![수정](../assets/fix.svg) LowStock 인벤토리 공급자의 오류로 인해 부분 동기화 중 제품 데이터 수집이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항을 통해 제품 데이터를 안정적으로 내보내고 LowStock 관련 오류로 인해 제품 ID를 건너뛸 수 없습니다.<!--MDEE-1132-->
 
 ## 103.4.9 릴리스
