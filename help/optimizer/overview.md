@@ -2,11 +2,11 @@
 title: Adobe Commerce Optimizer란?
 description: ' [!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: 877f3c377715f204904eefe3b93d796084721aa7
+source-git-commit: 69c752322b01985a2eb55de69d4736d75f6bd60a
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer]에 대한 높은 수준의 개요를 보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450470?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## [!DNL Adobe Commerce Optimizer]을(를) 통해 가장 많은 혜택을 누리는 사람
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 주요 기능은 다음과 같습니다.
 
-- **타사 카탈로그 수집** - 타사 소스(기존 Commerce 카탈로그, PIM, ERP 등)에서 카탈로그 데이터를 수집합니다. 카탈로그 데이터는 머천다이징 서비스 계층으로 직접 수집됩니다. 이 계층은 카탈로그 보기 및 정책(카탈로그 보기 및 정책)을 기반으로 하는 머천다이징 서비스라는 SaaS 구성 요소입니다.
+- **타사 카탈로그 수집** - 타사 소스(기존 Commerce 카탈로그, PIM, ERP 등)에서 카탈로그 데이터를 수집합니다. 카탈로그 데이터는 머천다이징 서비스 계층으로 직접 수집됩니다. 이 계층은 카탈로그 보기 및 정책으로 구동되는 머천다이징 서비스라는 SaaS 구성 요소입니다.
 - **카탈로그 보기 및 정책을 기반으로 하는 머천다이징 서비스** - 이 솔루션은 [!DNL Adobe Commerce Optimizer]의 기본입니다. 카탈로그 보기 및 정책 기반의 머천다이징 서비스는 확장성이 뛰어나고 유연한 카탈로그 데이터 모델로, 다중 브랜드, 다중 비즈니스 단위 및 다중 언어 사용 사례를 잠금 해제합니다. 이러한 머천다이징 서비스는 상인이 대규모로 카탈로그를 만들고 관리하는 데 사용할 수 있는 빌딩 블록을 제공합니다. [!DNL Adobe Commerce Optimizer] 내에서 비즈니스 목표를 가장 잘 정의하는 카탈로그 보기 및 정책을 만들어 카탈로그를 관리할 수 있습니다. 또한 머천다이저는 제품 검색, 권장 사항 및 지능형 머천다이징을 사용하여 트래픽 및 참여를 유도하는 개인화된 &#x200B; 경험을 제공할 수 있습니다.
 - **이전 및 이후 지표** - 상거래 이니셔티브의 성능에 대한 실시간 통찰력을 제공합니다. 특정 KPI의 이전 및 이후 결과를 보고 변경 사항의 영향을 평가하고 더 나은 결과를 위해 최적화할 수 있습니다. PDF에서 결과를 내보낼 수 있습니다.
 - **Edge Delivery에서 제공하는 Commerce storefront** - Edge 배달을 통해 제품 목록 페이지, 제품 세부 사항 페이지, 장바구니 및 체크아웃을 포함하여 통합 상거래 기능을 갖춘 사전 설치된 storefront 구성 요소를 사용하여 사이트를 빠르게 시작할 수 있습니다.
