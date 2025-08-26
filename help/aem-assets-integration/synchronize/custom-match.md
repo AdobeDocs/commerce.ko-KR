@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
 
 ## 사용자 지정 자동 일치 구성
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -176,6 +176,6 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 업데이트된 자산 ID를 나타냅니다. |
-| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
+| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, ](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
 | `asset_format` | 문자열 | 에셋에 사용할 수 있는 형식을 제공합니다. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 문자열 | 자산의 위치를 표시합니다. |
