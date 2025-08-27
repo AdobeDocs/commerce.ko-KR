@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 7a77cc79be9b6f835668b394909ea2325b642b03
+source-git-commit: 15a708db9a9a31798877ea3a400d5a9f6f930bda
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -38,24 +38,24 @@ ht-degree: 0%
    ![인스턴스 만들기](./assets/create-aco-instance.png){width="60%" zoomable="yes"}
 
 1. 인스턴스 설정 구성:
-   - **이름**: 설명하는 이름(예: &quot;내 회사 샌드박스&quot;)
+   - **인스턴스 이름**: 수사적 이름(예: &quot;내 회사 샌드박스&quot;)
    - **설명**: 목적에 대한 간략한 설명
-   - **지역**: 선호하는 지역을 선택하세요.
    - **환경 유형**: 테스트를 위해 **샌드박스** 환경으로 시작
+   - **지역**: 선호하는 지역을 선택하세요.
 
 1. **인스턴스 추가**&#x200B;를 클릭합니다.
 
-   Cloud Manager이 업데이트되어 새 인스턴스가 포함됩니다. 액세스 및 관리에 대한 자세한 내용은 [인스턴스 관리](#manage-an-instance)를 참조하십시오.
+   Cloud Manager이 업데이트되어 새 인스턴스가 포함됩니다. 액세스 및 관리에 대한 자세한 내용은 [인스턴스 관리](#manage-instances)를 참조하십시오.
 
 >[!NOTE]
 >
->샌드박스 인스턴스는 북미 지역으로 제한됩니다. 생성 후에는 영역을 변경할 수 없습니다.
+>북미 지역에서만 샌드박스 환경을 만들 수 있습니다. 인스턴스가 생성되면 영역을 변경할 수 없습니다.
 
 ### 2단계. 환경 설정
 
 인스턴스를 만든 후:
 
-1. Commerce Cloud 관리자에서 [인스턴스 관리](#manage-an-instance).
+1. Commerce Cloud 관리자에서 [인스턴스 관리](#manage-instances).
 1. [사용자 관리 가이드](./user-management.md)를 사용하여 사용자 액세스를 구성하십시오.
 
 ### 3단계. 샘플 데이터 추가(선택 사항)
@@ -217,6 +217,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

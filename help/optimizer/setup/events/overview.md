@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce Optimizer] 이(가) 검색 및 권장 사항
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: c102c558-a680-4622-80f0-6e5c34d497e9
-source-git-commit: 7a77cc79be9b6f835668b394909ea2325b642b03
+source-git-commit: 15a708db9a9a31798877ea3a400d5a9f6f930bda
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 | 장바구니에 가장 많이 추가됨 | `page-view`<br>`add-to-cart` | 제품 세부 사항 페이지<br>제품 목록 페이지<br>장바구니<br>위시리스트 |
 | 이 항목을 보고 다른 항목도 보았습니다. | `page-view`<br>`product-view` | 제품 세부 사항 페이지 |
 
-### 필수 대시보드 이벤트
+#### 필수 대시보드 이벤트
 
 일부 이벤트는 [검색 성능 대시보드](../../manage-results/search-performance.md)를 채우는 데 필요합니다.
 
@@ -174,4 +174,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 ## 지원
 
-데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
+데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
