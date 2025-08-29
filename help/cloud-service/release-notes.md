@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce as a Cloud Service] 릴리스 정보'
 description: ' [!DNL Adobe Commerce as a Cloud Service]의 최신 기능 및 개선 사항에 대해 알아봅니다.'
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 776b2a2e2db649d126fdc67639c784ad3f1be576
 workflow-type: tm+mt
 source-wordcount: '126'
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 릴리스 정보
 
-다음 릴리스 노트에는 [!DNL Adobe Commerce as a Cloud Service]에 대한 업데이트가 포함되어 있습니다. 다른 제품에 대한 릴리스 정보는 [Adobe Commerce Optimizer](../optimizer/release-notes.md) 또는 [Adobe Commerce 온-프레미스 및 Adobe Commerce on Cloud](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)를 참조하세요.
+다음 릴리스 노트에는 [!DNL Adobe Commerce as a Cloud Service]에 대한 업데이트가 포함되어 있습니다. 다른 제품에 대한 릴리스 정보는 [Adobe Commerce Optimizer](../optimizer/release-notes.md) 또는 [Adobe Commerce 온-프레미스 및 Adobe Commerce on Cloud](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하세요.
 
 ## 2025년 8월
 
