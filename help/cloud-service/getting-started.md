@@ -3,10 +3,10 @@ title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: d8c0cf5f54a8518b033013cdb24b25f8ff363f02
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: a070fa6ba000e1b101deb3f0a96e53c5f2ece9a4
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!TAB 관리자 및 판매자 워크플로]
 
-이 다이어그램은 관리자 및 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+이 다이어그램은 관리자 및 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/enterprise/admin-guide.html)를 참조하십시오.
 
 ![[!DNL Adobe Commerce as a Cloud Service] 판매자 흐름 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -93,13 +93,24 @@ ht-degree: 0%
 >
 >REST 및 GraphQL 엔드포인트와 관리 URL을 포함하여 인스턴스에 대한 정보를 보려면 인스턴스 이름 옆에 있는 정보 아이콘을 클릭합니다.
 
+관리자 및 엔드포인트의 기본 URL은 지역 및 환경에 따라 다르며, 다음 패턴을 사용합니다.
+
+* 관리자
+   * 북미 프로덕션 관리자: `https://na1.admin.commerce.adobe.com`
+   * 북미 샌드박스 관리자: `https://na1-sandbox.admin.commerce.adobe.com`
+   * 유럽 프로덕션 관리자: `https://eu1.admin.commerce.adobe.com`
+* REST 및 GraphQL
+   * 북미 생산 GraphQL: `https://na1.api.commerce.adobe.com`
+   * 북미 샌드박스 GraphQL: `https://na1-sandbox.api.commerce.adobe.com`
+   * 유럽 프로덕션 GraphQL: `https://eu1.api.commerce.adobe.com`
+
 ## 카탈로그 가져오기
 
 기본적으로 [!DNL Adobe Commerce as a Cloud Service] 인스턴스에는 제품 데이터가 포함되지 않습니다. 자체 카탈로그를 가져오기 전에 테스트 및 학습 목적으로 인스턴스를 만들 때 샘플 제품 데이터를 포함할 수 있는 옵션이 있습니다.
 
 카탈로그를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 가져오는 방법에는 두 가지가 있습니다.
 
-* [**Commerce 관리자**](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
+* [**Commerce 관리자**](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
 * [**JSON API 가져오기**](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - 카탈로그 데이터를 프로그래밍 방식으로 가져올 수 있는 REST API입니다.
 
 <!-- TODO
