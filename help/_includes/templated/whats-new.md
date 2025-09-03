@@ -1,5 +1,5 @@
 ---
-source-git-commit: 757c1f430346ef82cba0f708cdd17580d8e6dba9
+source-git-commit: c7c9c19936ed1db8e262daaf391bd2d168b91741
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 3%
@@ -23,12 +23,12 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>주요 업데이트 PR #197에 새로운 기능 누락: JavaScript에 할당된 "scaffold 제거"(https://git.corp.adobe.com/AdobeDocs/commerce.en/pull/197)</p>
+      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
 </td>
       <td>
         주요 업데이트
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/bf3954af26fba0aa943261a0673166c0537e692e">커밋</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bf3954af26fba0aa943261a0673166c0537e692e">커밋</a></td>
     </tr>
   </tbody>
 </table>
@@ -45,12 +45,12 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>새 주제 PR에 새로운 항목 누락: #158사용자 정의 ID에 대한 새 주제 추가"가 emarr(https://git.corp.adobe.com/AdobeDocs/commerce.en/pull/158)에 할당됨</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
 </td>
       <td>
         새 주제
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/403b15368c52f3965e65a9175c82c2f6cd1773bb">커밋</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/403b15368c52f3965e65a9175c82c2f6cd1773bb">커밋</a></td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +72,7 @@ ht-degree: 3%
       <td>
         피드백
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/ad0c36006a01491aee1ca1643c6a3ab63f39f7e4">커밋</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ad0c36006a01491aee1ca1643c6a3ab63f39f7e4">커밋</a></td>
     </tr>
   </tbody>
 </table>
