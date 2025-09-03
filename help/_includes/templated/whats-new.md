@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
+      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
 </td>
       <td>
         새 주제
