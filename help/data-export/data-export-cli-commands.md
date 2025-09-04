@@ -16,7 +16,7 @@ ht-degree: 0%
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.

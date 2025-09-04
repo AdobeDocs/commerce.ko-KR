@@ -25,4 +25,4 @@ ht-degree: 4%
    - [제품 속성을 동적으로 추가](add-attribute-dynamically.md)
    - [세금 클래스, 속성 세트 및 재고 메타데이터 추가](add-tax-attribute-set-inventory-attributes.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

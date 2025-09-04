@@ -39,4 +39,4 @@ bin/magento module:disable Magento_CategoryPermissionDataExporter Magento_SaaSCa
    composer require magento/commerce-data-export:103.4.11 --with-all-dependencies
    ```
 
-Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. [Adobe Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)에서 _확장 업그레이드_&#x200B;를 참조하십시오.
+Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. [Adobe Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)에서 _확장 업그레이드_&#x200B;를 참조하십시오.
