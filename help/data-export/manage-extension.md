@@ -3,7 +3,7 @@ title: '[!DNL Manage the Data Export extension]'
 description: ' [!DNL Data Export] 확장을 업그레이드하고 필요하지 않은 데이터 내보내기 서비스를 제거하거나 사용하지 않도록 설정하는 방법을 알아봅니다.'
 role: Admin, Developer
 exl-id: 94702995-d272-47b9-9560-198eee3250a6
-source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
+source-git-commit: c7a08cabe07ec94e31e9f4c27448ee0862e62cf2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -36,7 +36,7 @@ bin/magento module:disable Magento_CategoryPermissionDataExporter Magento_SaaSCa
 1. 명령줄에서 Composer를 사용하여 모듈을 업데이트합니다.
 
    ```bash
-   composer require magento/module-saas-price:103.3.1 --with-all-dependencies
+   composer require magento/commerce-data-export:103.4.11 --with-all-dependencies
    ```
 
-Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. _Adobe Commerce on Cloud Infrastructure Guide_&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)를 참조하십시오.
+Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. [Adobe Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)에서 _확장 업그레이드_&#x200B;를 참조하십시오.

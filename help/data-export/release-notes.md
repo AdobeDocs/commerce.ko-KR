@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 728be19f73f19d9e229ae38fd5c171df74b963fb
+source-git-commit: 6abfeca68ab67fb11493f78440e09408479e1535
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 103.4.11 릴리스
+
+![새로 만들기](../assets/new.svg) [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+제품 피드에 Commerce 제품 구성의 세금 클래스, 속성 세트 및 재고 데이터를 포함하도록 추가 제품 속성에 대한 지원을 추가했습니다. 제품 내보내기 피드에 이러한 속성을 포함하려는 고객은 추가 제품 속성 모듈을 Adobe Commerce 프로젝트에 추가해야 합니다. [세금 클래스, 특성 집합 및 재고 특성 추가](add-tax-attribute-set-inventory-attributes.md)를 참조하십시오.<!--MDEE-1135-->
+![수정](../assets/fix.svg) 전체 제품 색인 중에 오류가 발생한 경우 삭제된 제품 업데이트에 대해 잘못 동기화되는 문제를 해결했습니다. 이제 인덱싱 프로세스 중에 오류가 발생하더라도 모든 제품 삭제가 올바르게 동기화됩니다. <!--MDEE-1144-->
 
 ## 103.4.10 릴리스
 

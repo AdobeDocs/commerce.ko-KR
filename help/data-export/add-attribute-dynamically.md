@@ -3,7 +3,7 @@ title: 제품 속성을 동적으로 추가
 description: 데이터 동기화 프로세스 중에 사용자 지정 제품 속성을 데이터 내보내기 피드에 동적으로 추가하는 방법을 알아봅니다.
 role: Admin, Developer
 exl-id: d5ed7497-4be1-440a-a567-81b64fdc54fc
-source-git-commit: bf45670a0bc5fb02dd229a9e3d7af7f2676c5a1f
+source-git-commit: 37d5699315e34f1504602090fae5201ee51cf470
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 제품 속성 추가
 
-`Magento\CatalogDataExporter\Model\Provider\Product\Attributes` 클래스에 `customer_attribute`을(를) 추가하는 플러그인을 만듭니다.
+`customer_attribute` 클래스에 `Magento\CatalogDataExporter\Model\Provider\Product\Attributes`을(를) 추가하는 플러그인을 만듭니다.
 
 1. 플러그인을 정의하려면 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)을(를) 업데이트하십시오.
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 다음 공급자 `\Magento\CatalogDataExporter\Model\Provider\ProductMetadata`에 대한 플러그인을 만드십시오.
 
-   필수 필드가 필요하면 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`의 `ProductAttributeMetadata`을(를) 확인하십시오.
+   필수 필드가 필요하면 `ProductAttributeMetadata`의 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`을(를) 확인하십시오.
 
    ```php
     <?php
@@ -176,3 +176,4 @@ ht-degree: 0%
    ```
    bin/magento saas:resync --feed=productattributes
    ```
+
