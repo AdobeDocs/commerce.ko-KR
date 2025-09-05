@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 쿠키 제한 처리
 
-Adobe Commerce과 Magento Open Source 모두 데이터가 브라우저 쿠키에 저장되기 전에 동의를 요청합니다. 자세한 내용은 [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)를 참조하세요.
+Adobe Commerce과 Magento Open Source 모두 데이터가 브라우저 쿠키에 저장되기 전에 동의를 요청합니다. 자세한 내용은 [쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)를 참조하세요.
 
 ## 제품 권장 사항이 쿠키 제한을 처리하는 방법
 
