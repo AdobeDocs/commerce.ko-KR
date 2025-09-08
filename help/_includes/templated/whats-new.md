@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>선택적 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
+      <td><p>선택적 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
 </td>
       <td>
         새 주제
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
+      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
 </td>
       <td>
         새 주제
