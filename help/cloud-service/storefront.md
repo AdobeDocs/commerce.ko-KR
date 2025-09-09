@@ -3,8 +3,8 @@ title: 상점 설정
 description: ' [!DNL Adobe Commerce as a Cloud Service] storefront를 설정하는 스캐폴딩 도구를 실행하는 방법에 대해 알아봅니다.'
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: b0d492ffab2dcf5742772d02bed026e241ac43cd
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 408f28bdc20708022c8eca0fbfea4adb17014bf7
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Edge Delivery Services for Adobe Commerce as a Cloud Service(SaaS)에서 제공하는 Adobe Commerce Storefront를 설정하려면 다음 단계를 사용하십시오.
 
-사용자 지정이 가능하고 자세한 설명을 보려면 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)를 참조하세요.
+사용자 지정이 가능하고 자세한 설명을 보려면 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)를 참조하세요.
 
 1. [사이트 작성자 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 엽니다.
 
@@ -45,4 +45,4 @@ Edge Delivery Services for Adobe Commerce as a Cloud Service(SaaS)에서 제공�
 * Storefront에서 콘텐츠 및 데이터를 관리하고 표시하는 방법에 대한 자세한 내용은 [Storefront 콘텐츠 업데이트](./use-cases.md#update-storefront-content)를 참조하십시오.
 * 상황별 실험 기능에 대한 자세한 내용은 [상황별 실험](./use-cases.md#contextual-experimentation)을 참조하세요.
 * 생성 AI를 사용하여 고품질 콘텐츠 생성을 자동화하는 방법에 대한 자세한 내용은 [변형 생성](./use-cases.md#generate-variations)을 참조하십시오.
-* 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+* 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
