@@ -1,8 +1,9 @@
 ---
 title: 설정
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 설정을 구성합니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: 6ac223de-8e03-4842-8b67-92ce321d323d
+source-git-commit: 652681cc9aef416040ccd470d04bf2540fe97262
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 가격 범위 그룹의 수와 가격 값이 이들 그룹 간에 분배되는 방법을 지정할 수 있습니다. 각 가격대는 이전 그룹과 하나씩 겹칩니다. 예를 들어 간격이 20인 5개의 그룹은 0-20, 20-40, 40-60, 60-80 및 >80의 가격 범위를 생성합니다. 카탈로그에 정의된 모든 범위를 채울 제품이 충분하지 않은 경우 사용 가능한 그룹의 표시가 적절하게 조정됩니다. 예: 0-20, 60-80, >80.
 
 1. **설정** 작업 영역에서 **[!UICONTROL Search]**&#x200B;을(를) 선택한 다음 **가격 결정**&#x200B;에서 다음을 수행합니다.
-   - 사용할 수 있는 **선택 항목 수** 또는 가격 그룹화를 입력하십시오. 최대 50개의 가격 그룹화를 정의할 수 있습니다.
+   - 사용할 수 있는 **선택 항목 수** 또는 가격 그룹화를 입력하십시오. 최대 100개의 가격 그룹화를 정의할 수 있습니다.
    - **간격 값** 또는 각 그룹의 가격 범위를 입력하십시오. 최대값은 40,000,000입니다.
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 |--- |--- |
-| 선택 항목 수 | 상점 첫 화면에서 검색 필터로 사용할 수 있는 가격 범위 그룹화 수를 지정합니다. 기본값: 8, 최대값: 50 |
+| 선택 항목 수 | 상점 첫 화면에서 검색 필터로 사용할 수 있는 가격 범위 그룹화 수를 지정합니다. 기본값: 8, 최대값: 100 |
 | 간격 값 | 각 그룹의 가격 범위 간격을 지정합니다. 예를 들어 간격 값이 20인 5개의 선택 항목을 선택하면 0-20, 20-40, 40-60, 60-80 및 >80의 5개 그룹이 생성됩니다. 기본값: 5, 최대값: 40,000,000 |
 
 ## 언어
