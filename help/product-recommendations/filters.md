@@ -48,7 +48,7 @@ Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 �
 
 >[!NOTE]
 >
->B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html)를 준수합니다.
+>B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko)를 준수합니다.
 
 Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다음 카테고리 필터 구성을 사용하는 것을 권장합니다.
 
@@ -78,11 +78,11 @@ Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다�
 
 ### 가격
 
-제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 구매자가 이용할 수 있는 할인 또는 특별 가격이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)을 반영합니다.
+제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 구매자가 이용할 수 있는 할인 또는 특별 가격이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 반영합니다.
 
 ### 재고 상태
 
 다음 제외 필터를 사용하여 재고 상태에 따라 제품을 필터링할 수 있습니다.
 
 - 품절 - (제외만 해당) 품절된 제품을 제외합니다.
-- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 _재고 구성_&#x200B;의 [X만 남은 임계값](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html) 값을 기반으로 합니다.
+- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 _재고 구성_&#x200B;의 [X만 남은 임계값](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html?lang=ko) 값을 기반으로 합니다.
