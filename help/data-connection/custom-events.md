@@ -4,10 +4,10 @@ description: Adobe Commerce 데이터를 다른 Adobe DX 제품에 연결하기 
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
-source-git-commit: 81fbcde11da6f5d086c2b94daeffeec60a9fdbcc
+source-git-commit: 25d796da49406216f26d12e3b1be01902dfe9302
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
@@ -73,16 +73,26 @@ Experience Platform Edge에서:
 
 ## 이벤트 재정의 처리(사용자 지정 속성)
 
-표준 이벤트에 대한 속성 재정의는 Experience Platform에 대해서만 지원됩니다. 사용자 지정 데이터는 Commerce 대시보드 및 지표 추적기로 전달되지 않습니다.
+`customContext`이(가) 있는 모든 이벤트 집합의 경우 수집기는 이벤트 페이로드의 필드를 `custom context`의 필드에서 재정의하거나 확장합니다. 재정의에 대한 사용 사례는 개발자가 이미 지원되는 이벤트에서 페이지의 다른 부분에 의해 설정된 컨텍스트를 재사용하고 확장하려는 경우입니다.
 
-`customContext`이(가) 있는 모든 이벤트에 대해 수집기는 관련 컨텍스트에 설정된 필드를 `customContext`의 필드와 조인합니다. 재정의에 대한 사용 사례는 개발자가 이미 지원되는 이벤트에서 페이지의 다른 부분에 의해 설정된 컨텍스트를 재사용하고 확장하려는 경우입니다.
+이벤트 재정의는 Experience Platform으로 전달할 때만 적용됩니다. Adobe Commerce 및 Sensei 분석 이벤트에는 적용되지 않습니다. Adobe Commerce 이벤트 수집기 [README](https://github.com/adobe/commerce-events/blob/e34bcfc0deca8d5ac1f9310fc1ee4c1becf4ffbb/packages/storefront-events-collector/README.md)에서 추가 정보를 제공합니다.
 
-### 예
+>[!NOTE]
+>
+>Experience Platform 이벤트 페이로드에서 사용자 지정 속성으로 `productListItems`을(를) 보강할 때 SKU를 사용하여 제품을 일치시키십시오. 이 요구 사항은 `product-page-view`개 이벤트에는 적용되지 않습니다.
 
-Adobe Commerce Events SDK을 통해 재정의가 게시된 제품 보기:
+### 사용
 
 ```javascript
-mse.publish.productPageView({
+const mse = window.magentoStorefrontEvents;
+
+mse.publish.productPageView(customCtx);
+```
+
+### 예제 1 - `productCategories` 추가
+
+```javascript
+magentoStorefrontEvents.publish.productPageView({
     productListItems: [
         {
             productCategories: [
@@ -97,45 +107,11 @@ mse.publish.productPageView({
 });
 ```
 
-Experience Platform Edge에서:
+### 예제 2 - 이벤트를 게시하기 전에 사용자 지정 컨텍스트 추가
 
 ```javascript
-{
-  xdm: {
-    eventType: 'commerce.productViews',
-    identityMap: {
-      ECID: [
-        {
-          id: 'ecid1234',
-          primary: true,
-        }
-      ]
-    },
-    commerce: {
-      productViews: {
-        value : 1,
-      }
-    },
-    productListItems: [{
-        SKU: "1234",
-        name: "leora summer pants",
-        productCategories: [{
-            categoryID: "cat_15",
-            categoryName: "summer pants",
-            categoryPath: "pants/mens/summer",
-        }],
-    }],
-  }
-}
-```
+const mse = window.magentoStorefrontEvents;
 
-Luma 기반 스토어:
-
-Luma 기반 스토어에서 게시 이벤트는 기본적으로 구현됩니다. 따라서 `customContext`을(를) 확장하여 사용자 지정 데이터를 설정할 수 있습니다.
-
-For example:
-
-```javascript
 mse.context.setCustom({
   productListItems: [
     {
@@ -149,9 +125,56 @@ mse.context.setCustom({
     },
   ],
 });
+
+mse.publish.productPageView();
 ```
 
-사용자 지정 데이터 처리에 대한 자세한 내용은 [사용자 지정 이벤트 재정의](https://github.com/adobe/commerce-events/blob/main/examples/events/custom-event-override.md)를 참조하십시오.
+### 예제 3 - 게시자의 사용자 지정 컨텍스트 세트는 Adobe 클라이언트 데이터 레이어에 이전에 설정된 사용자 지정 컨텍스트를 덮어씁니다.
+
+이 예제에서 `pageView` 이벤트는 **필드에**&#x200B;사용자 지정 페이지 이름 2`web.webPageDetails.name`을 갖게 됩니다.
+
+```javascript
+const mse = window.magentoStorefrontEvents;
+
+mse.context.setCustom({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name 1'
+    },
+  },
+});
+
+mse.publish.pageView({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name 2'
+    },
+  },
+});
+```
+
+### 예제 4 - 여러 제품이 있는 이벤트가 있는 `productListItems`에 사용자 지정 컨텍스트 추가
+
+```javascript
+const mse = window.magentoStorefrontEvents;
+
+mse.context.setCustom({
+  productListItems: [
+    {
+      SKU: "24-WB01", //Match SKU to override correct product in event payload
+      productCategory: "Hand Bag", //Custom attribute added to event payload
+      name: "Strive Handbag (CustomName)" //Override existing attribute with custom value in event payload
+    },
+    {
+      SKU: "24-MB04",
+      productCategory: "Backpack Bag",
+      name: "Strive Backpack (CustomName)"
+    },
+  ],
+});
+
+mse.publish.shoppingCartView();
+```
 
 >[!NOTE]
 >
