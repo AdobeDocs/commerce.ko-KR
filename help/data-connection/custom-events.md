@@ -4,9 +4,9 @@ description: Adobe Commerce 데이터를 다른 Adobe DX 제품에 연결하기 
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
-source-git-commit: 25d796da49406216f26d12e3b1be01902dfe9302
+source-git-commit: 4e8cf0ad3f8f94d4f59bc8d78a44f4b3e86cbc3e
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ const mse = window.magentoStorefrontEvents;
 mse.publish.productPageView(customCtx);
 ```
 
-### 예제 1 - `productCategories` 추가
+### 예 1
+
+이 예제에서는 이벤트를 게시할 때 사용자 지정 컨텍스트를 추가합니다.
 
 ```javascript
 magentoStorefrontEvents.publish.productPageView({
@@ -107,7 +109,9 @@ magentoStorefrontEvents.publish.productPageView({
 });
 ```
 
-### 예제 2 - 이벤트를 게시하기 전에 사용자 지정 컨텍스트 추가
+### 예제 2
+
+이 예제에서는 이벤트를 게시하기 전에 사용자 지정 컨텍스트를 추가합니다.
 
 ```javascript
 const mse = window.magentoStorefrontEvents;
@@ -129,7 +133,9 @@ mse.context.setCustom({
 mse.publish.productPageView();
 ```
 
-### 예제 3 - 게시자의 사용자 지정 컨텍스트 세트는 Adobe 클라이언트 데이터 레이어에 이전에 설정된 사용자 지정 컨텍스트를 덮어씁니다.
+### 예제 3
+
+이 예제는 게시자에서 사용자 지정 컨텍스트를 설정하고 Adobe 클라이언트 데이터 레이어에 이전에 설정된 사용자 지정 컨텍스트를 덮어씁니다.
 
 이 예제에서 `pageView` 이벤트는 **필드에**&#x200B;사용자 지정 페이지 이름 2`web.webPageDetails.name`을 갖게 됩니다.
 
@@ -153,7 +159,9 @@ mse.publish.pageView({
 });
 ```
 
-### 예제 4 - 여러 제품이 있는 이벤트가 있는 `productListItems`에 사용자 지정 컨텍스트 추가
+### 예제 4
+
+이 예제에서는 여러 제품이 있는 `productListItems` 이벤트에 사용자 지정 컨텍스트를 추가합니다.
 
 ```javascript
 const mse = window.magentoStorefrontEvents;
@@ -174,6 +182,22 @@ mse.context.setCustom({
 });
 
 mse.publish.shoppingCartView();
+```
+
+Luma 기반 스토어:
+
+Luma 기반 저장소는 기본적으로 게시 이벤트를 구현하므로 `customContext`을(를) 확장하여 사용자 지정 데이터를 설정할 수 있습니다.
+
+For example:
+
+```javascript
+mse.context.setCustom({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name'
+    },
+  },
+});
 ```
 
 >[!NOTE]
