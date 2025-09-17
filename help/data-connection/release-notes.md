@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Adobe Commerce의  [!DNL Data Connection] 확장에 대한 최신 릴리스 정보입니다.
 feature: Personalization, Integration, Release Notes
 exl-id: f3b92632-947d-40cd-89b7-24ed0680be51
-source-git-commit: 90fcaa2cdd7c869ceddaeea7525cac00a41d94c5
+source-git-commit: 9c10aecb303dd09a85bdafa93d791d30611ec8b2
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 [!DNL Data Connection] 확장에서 사용하는 확장과 관련된 기능 변경 및 수정 사항에 대해서는 **지원되는 서비스 업데이트**&#x200B;를 참조하십시오.
 
-릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule)를 참조하세요.
+릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)를 참조하세요.
 
-개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability).
+개발자 설명서를 참조하여 [이 모듈을 지원하는 Commerce 버전을 알아보세요](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## 지원되는 서비스 업데이트
 
@@ -81,6 +81,14 @@ _2022년 10월 12일_
 ![새로 만들기](../assets/new.svg) - [AEM 상점](overview.md#aem-support)에 대한 지원이 추가되었습니다.
 
 +++
+
+## 3.4.0
+
+_2025년 9월 16일_
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
+
+![새로 만들기](../assets/new.svg) [!DNL Data Connection]은(는) 이제 제한을 사용하도록 설정할 때 쿠키/로컬 저장소에 데이터 수집 및 저장을 금지하여 쿠키 제한 모드를 완전히 준수합니다.
 
 ## 3.3.0
 
