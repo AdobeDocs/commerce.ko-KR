@@ -2,16 +2,16 @@
 title: 패싯
 description: '[!DNL Live Search] 패싯은 여러 차원의 특성 값을 검색 기준으로 사용합니다.'
 exl-id: d036265e-1868-461d-ab4c-7f469b1c6f5b
-source-git-commit: 31223f4196187e4960c5bec0e90aa55cc4e0ac9a
+source-git-commit: 269f68868f5df14b1ca3709c01f6c17e6775df05
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # 패싯
 
-페이스팅은 속성 값의 여러 차원을 검색 기준으로 사용하는 고성능 필터링 방법입니다. 패싯된 검색은 비슷하지만 표준 [계층화된 탐색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=ko)보다 훨씬 &quot;스마트합니다. 사용 가능한 필터 목록은 검색 결과에서 반환된 제품의 [필터링 가능한 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=ko#filterable-attributes)에 의해 결정됩니다.
+페이스팅은 속성 값의 여러 차원을 검색 기준으로 사용하는 고성능 필터링 방법입니다. 패싯된 검색은 비슷하지만 표준 [계층화된 탐색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html)보다 훨씬 &quot;스마트합니다. 사용 가능한 필터 목록은 검색 결과에서 반환된 제품의 [필터링 가능한 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#filterable-attributes)에 의해 결정됩니다.
 
 [!DNL Live Search]은(는) `productSearch`과(와) 관련된 얼굴 및 기타 데이터를 반환하는 [!DNL Live Search] 쿼리를 사용합니다. 코드 예는 개발자 설명서에서 [`productSearch` 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/)를 참조하십시오.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 카테고리를 패싯으로 정의하는 경우 패싯에는 카테고리와 하위 카테고리가 표시됩니다.
+>제품 범주를 패싯으로 정의하는 경우 패싯에는 범주와 하위 범주의 `url_path`이(가) 표시됩니다.
 >
 >![범주 패싯](assets/facet-category.png)
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 | 설정 | 설명 |
 |--- |--- |
-| [범주 표시 설정](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html?lang=ko) | 앵커 - `Yes` |
-| [특성 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko) | [카탈로그 입력 형식](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html?lang=ko) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch`(위젯 전용), `Text swatch`(위젯 전용) |
+| [범주 표시 설정](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html) | 앵커 - `Yes` |
+| [특성 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) | [카탈로그 입력 형식](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch`(위젯 전용), `Text swatch`(위젯 전용) |
 | 속성 storefront 속성 | 검색 결과 계층 탐색 - `Yes`에 사용 |
 
 ## Facet 집계
@@ -51,7 +51,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 
 ## 기본 속성 값
 
-다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)상점 속성[!DNL Live Search]이 있습니다.
+다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)상점 속성[!DNL Live Search]이 있습니다.
 
 | 속성 | Storefront 속성 | 속성 |
 |---|---|---|
