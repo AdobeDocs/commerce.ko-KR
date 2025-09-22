@@ -2,9 +2,9 @@
 title: 라이브 검색 설정
 description: ' [!DNL Live Search] 작업 영역은 검색 성능을 구성, 관리 및 모니터링하는 데 사용됩니다.'
 exl-id: 07c32b26-3fa4-4fae-afba-8a10866857c3
-source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
+source-git-commit: bb212bf88ba7bad3deb2d2d699124413f4dd76ff
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1068'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ### 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Live Search]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Live Search]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 범위 설정
 
-처음에는 모든 [ 설정의 ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)범위[!DNL Live Search]이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 **저장소 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)를 설정합니다.
+처음에는 모든 [ 설정의 ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)범위[!DNL Live Search]이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 **저장소 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)를 설정합니다.
 
 ## 메뉴 옵션
 
@@ -50,7 +50,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 속성을 검색 가능한 것으로 설정
 
-고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
+고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
 
 속성을 검색할 수 있도록 허용하려면 다음 단계를 완료하십시오.
 
@@ -60,7 +60,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
    ![Workspace](assets/attribute-searchable.png)
 
-[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html?lang=ko#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
+[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
 
 다음 속성은 항상 검색할 수 있습니다.
 
@@ -69,6 +69,10 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 - `categories`
 
 [Facet](facets.md)은(는) 필터링 가능하도록 [!DNL Live Search]에 정의된 제품 특성입니다. 필터링 가능한 특성을 [!DNL Live Search]에서 패싯으로 설정할 수 있지만 한 번에 검색할 수 있는 패싯 수에 대한 [제한](boundaries-limits.md)이 있습니다.
+
+>[!NOTE]
+>
+>제품 특성 구성에 필수 속성이 있는 경우에만 제품 특성을 필터링할 수 있습니다. *검색에 사용 = 예*, *검색 결과에 사용 계층 탐색=예* 및 *계층 탐색에 사용=필터링 가능(결과 포함)*. 이러한 속성이 누락된 경우 Facet 구성에 속성이 표시되지 않습니다. 구성 지침은 [패싯 추가](facets-add.md#add-a-facet)를 참조하십시오.
 
 [동의어](synonyms.md)은(는) 사용자가 올바른 제품을 사용하도록 안내하기 위해 정의할 수 있는 용어입니다. 바지를 찾는 사용자들은 &quot;바지&quot; 또는 &quot;바지&quot;를 타이핑할 수 있습니다. 이러한 검색어가 사용자에게 &quot;바지&quot; 결과를 가져오도록 동의어를 설정할 수 있습니다.
 
@@ -105,4 +109,4 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ### 검색어
 
-[!DNL Live Search]은(는) Luma 및 기타 php 기반 테마와 같이 Adobe Commerce이 라우팅을 처리하는 구현에서 [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)을 지원합니다.
+[!DNL Live Search]은(는) Luma 및 기타 php 기반 테마와 같이 Adobe Commerce이 라우팅을 처리하는 구현에서 [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html)을 지원합니다.
