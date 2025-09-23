@@ -3,9 +3,9 @@ title: '[!DNL Live Search] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Live Search] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: a7fecafe005c68c58a3491a2aad206d16d6d621b
+source-git-commit: ac1f3497292cc586810eb44a408f7d4d7088a96d
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 0%
 # [!DNL Live Search] 릴리스 정보
 
 이 릴리스 노트는 [!DNL Live Search]의 최신 버전에 대해 설명합니다.
-현재 주요 릴리스 버전에 대한 지원이 제공됩니다. 이전 버전에 대한 릴리스 노트는 참조를 위해 제공됩니다.
+
+최신 릴리스 버전에 대한 지원이 제공됩니다. 이전 버전에 대한 릴리스 노트는 참조를 위해 제공됩니다.
 업데이트에는 다음이 포함됩니다.
 
 새 기능 ![개](../assets/new.svg)개
@@ -40,7 +41,7 @@ _2025년 4월 3일_
 
 _2025년 2월 20일_
 
-![새로 만들기](../assets/new.svg) Commerce에서 여러 단어 동의어를 지원합니다. [자세히 알아보기](synonyms-type.md#multi-word-synonym-behavior). 다중 단어 동의어에 대한 지원은 2월 20일 릴리스일 이후에만 가능합니다. 기존의 여러 단어 동의어가 작동하려면 전체 색인 재지정이 필요합니다. [지원 티켓을 만드는 중](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 요청할 수 있습니다.
+![새로 만들기](../assets/new.svg) Commerce에서 여러 단어 동의어를 지원합니다. [자세히 알아보기](synonyms-type.md#multi-word-synonym-behavior). 다중 단어 동의어에 대한 지원은 2월 20일 릴리스일 이후에만 가능합니다. 기존의 여러 단어 동의어가 작동하려면 전체 색인 재지정이 필요합니다. [지원 티켓을 만드는 중](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 요청할 수 있습니다.
 
 _2025년 1월 31일_
 
@@ -167,7 +168,7 @@ _2024년 5월 16일_
 
 ### 업데이트
 
-![수정](../assets/fix.svg) 범주의 [`productSearch` 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath` `categoryList` GraphQL 쿼리를 수정했습니다.
+![수정](../assets/fix.svg) 범주의 [`productSearch` 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath``categoryList` GraphQL 쿼리를 수정했습니다.
 
 ## [!DNL Live Search] 4.1.1
 
@@ -188,7 +189,7 @@ _2024년 2월 22일_
 
 ### 새로운 기능
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard)을(를) 사용할 수 있습니다. 이렇게 개조된 대시보드는 [!DNL Product Recommendations], [!DNL Live Search] 및 [!DNL Catalog Service]의 데이터 스트림에 대한 통찰력을 제공합니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)을(를) 사용할 수 있습니다. 이렇게 개조된 대시보드는 [!DNL Product Recommendations], [!DNL Live Search] 및 [!DNL Catalog Service]의 데이터 스트림에 대한 통찰력을 제공합니다.
 
 ### 업데이트
 
@@ -304,7 +305,7 @@ _2023년 3월 14일_
 #### 새로운 기능
 
 규칙 미리 보기의 ![새](../assets/new.svg) 제품 항목 카드
-![새로 만들기](../assets/new.svg) [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)
+![새로 만들기](../assets/new.svg) [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)
 ![새로 만들기](../assets/new.svg) [범주 필터링 옵션](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#facets)
 ![새로 만들기](../assets/new.svg) 고정 이벤트를 만들기 위해 끌어서 놓는 기능을 추가했습니다
 새 Pin 동작 ![새로 만들기](../assets/new.svg):
@@ -312,8 +313,8 @@ _2023년 3월 14일_
 - 상단에 고정 - 제품을 첫 번째 위치에 배치합니다.
 - 맨 아래에 고정 - 제품을 결과의 맨 아래에 배치합니다.
 - 한 번의 클릭으로 이벤트 고정 해제
-![새로 만들기](../assets/new.svg) [규칙에 대한 지능형 순위](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/rules/rules-add)
-![신규](../assets/new.svg) [!DNL Live Search]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#update)업데이트`commerce-data-export`해야 합니다.
+![새로 만들기](../assets/new.svg) [규칙에 대한 지능형 순위](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)
+![신규](../assets/new.svg) [!DNL Live Search]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#update)업데이트`commerce-data-export`해야 합니다.
 
 #### 업데이트
 
@@ -383,7 +384,7 @@ _2023년 3월 14일_
 ![새로 만들기](../assets/new.svg) [[!DNL storefront popover]](overview.md)관리자&#x200B;*에서*의 사용 가능한 줄 수를 구성할 수 있습니다.
 ![에 대해 ](../assets/new.svg)새[ Beta ](https://developer.adobe.com/commerce/pwa-studio/)PWA[!DNL Live Search]이(가) 지원됩니다.
 ![새로 만들기](../assets/new.svg) [!DNL Live Search] 설치 프로세스가 고급 프로세스 변경 내용으로 업데이트됩니다.
-![수정](../assets/fix.svg) [고급 검색](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search) 링크가 상점 바닥글에서 제거되었습니다.
+![수정](../assets/fix.svg) [고급 검색](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) 링크가 상점 바닥글에서 제거되었습니다.
 ![버그](../assets/bug.svg) 다음 제품 특성은 PWA의 베타 릴리스와 관련하여 사용할 때 [Commerce GraphQL API](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)에서 지원되지 않습니다. `description`, `name`, `short_description`
 ![버그](../assets/bug.svg) [!DNL Live Search]용 PWA 베타 릴리스는 [이벤트 처리](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)를 지원하지 않습니다.
 
@@ -391,9 +392,9 @@ _2023년 3월 14일_
 
 [!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![수정](../assets/fix.svg) [사용자 지정 가격 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types)이(가) [facet](facets-add.md)(으)로 구성된 경우 더 이상 오류를 반환하지 않습니다.
-![수정](../assets/fix.svg) 사용 가능한 [통화 기호](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration#step-5-customize-currency-symbols-optional)&#x200B;(`data-currency-symbol`)가 없을 때 오류가 발생하는 문제를 해결했습니다.
-사용 가능한 경우 ![수정](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md)에 [특별 가격](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-special)&#x200B;(최소 최종 가격)이 표시됩니다.
+![수정](../assets/fix.svg) [사용자 지정 가격 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)이(가) [facet](facets-add.md)(으)로 구성된 경우 더 이상 오류를 반환하지 않습니다.
+![수정](../assets/fix.svg) 사용 가능한 [통화 기호](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration#step-5-customize-currency-symbols-optional)&#x200B;(`data-currency-symbol`)가 없을 때 오류가 발생하는 문제를 해결했습니다.
+사용 가능한 경우 ![수정](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md)에 [특별 가격](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-special)&#x200B;(최소 최종 가격)이 표시됩니다.
 
 ### [!DNL Live Search] 1.3.0
 
@@ -402,9 +403,9 @@ _2023년 3월 14일_
 ![새로 만들기](../assets/new.svg) [성능](performance.md) 보고 대시보드는 쇼핑객이 사용하는 검색어에 insight을 제공합니다.
 ![새로 만들기](../assets/new.svg) [!DNL Live Search] [Storefront Events SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)에서는 이벤트 게시 및 구독 서비스와 지표가 있는 공통 데이터 레이어에 액세스할 수 있습니다.
 ![수정](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md)에 가시성을 제어하는 `active` 컨테이너에 대한 새 `.search-autocomplete` 클래스가 있습니다.
-![수정](../assets/fix.svg) 상점 첫 화면에서 [검색어](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms) 바닥글 링크가 제거되고 해당 캐시가 [!DNL Live Search] 설치에 사용할 수 없습니다.
+![수정](../assets/fix.svg) 상점 첫 화면에서 [검색어](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms) 바닥글 링크가 제거되고 해당 캐시가 [!DNL Live Search] 설치에 사용할 수 없습니다.
 검색 어댑터용 ![버그](../assets/bug.svg) 패치가 중복 제품을 처리합니다.
-![버그](../assets/bug.svg) [!DNL Live Search]은(는) 다중(가상) [재고](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/sources/sources-manage)가 있는 [단일 소스](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/stocks/stocks-manage)&#x200B;(실제) 인벤토리 위치를 지원합니다. 지금은 여러 인벤토리 소스가 지원되지 않습니다.
+![버그](../assets/bug.svg) [!DNL Live Search]은(는) 다중(가상) [재고](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-manage)가 있는 [단일 소스](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)&#x200B;(실제) 인벤토리 위치를 지원합니다. 지금은 여러 인벤토리 소스가 지원되지 않습니다.
 
 ### [!DNL Live Search] 1.2.0
 
@@ -423,8 +424,8 @@ _2023년 3월 14일_
 
 [!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![버그](../assets/bug.svg) [!DNL Live Search] 서비스는 Adobe Commerce 설치의 [기본 통화](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration)만 지원합니다.
-![버그](../assets/bug.svg) 패싯을 추가할 때 `Update on Save`(으)로 설정하면 제품 특성 피드가 올바르게 업데이트되지 않습니다. 이 문제를 방지하려면 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)&#x200B;(으)로 이동하여 제품 특성 피드를 `Update by Schedule`(으)로 설정하십시오.
+![버그](../assets/bug.svg) [!DNL Live Search] 서비스는 Adobe Commerce 설치의 [기본 통화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration)만 지원합니다.
+![버그](../assets/bug.svg) 패싯을 추가할 때 `Update on Save`(으)로 설정하면 제품 특성 피드가 올바르게 업데이트되지 않습니다. 이 문제를 방지하려면 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)&#x200B;(으)로 이동하여 제품 특성 피드를 `Update by Schedule`(으)로 설정하십시오.
 ![버그](../assets/bug.svg) [!DNL Live Search] 동의어는 저장소 보기별로 정의되지만, 현재 웹 사이트별로 저장되고 `environmentId`과(와) `storeViewCode`의 조합으로 식별됩니다. 따라서 Adobe Commerce 설치 내의 모든 웹 사이트 및 스토어 보기는 동의어를 공유합니다. 저장소 보기에 대해 가장 최근에 생성된 동의어 집합이 우선합니다.
 ![버그](../assets/bug.svg) 동의어 용어에 여러 단어가 포함된 경우 각 단어는 별도의 동의어로 처리됩니다. 예를 들어 &quot;time piece&quot;를 &quot;watch&quot;의 동의어로 정의하면 &quot;time&quot;과 &quot;piece&quot;는 모두 watch의 동의어로 처리됩니다.
 
@@ -435,5 +436,5 @@ _2023년 3월 14일_
 자세한 내용은 다음을 참조하십시오.
 
 - [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs)
-- [Adobe Commerce 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce)
+- [Adobe Commerce 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce)
 - [[!DNL Live Search] 마켓플레이스](https://commercemarketplace.adobe.com/magento-live-search.html)
