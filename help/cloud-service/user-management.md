@@ -2,11 +2,11 @@
 title: 사용자 관리
 description: ' [!DNL Adobe Commerce as a Cloud Service]에서 사용자를 관리하는 방법을 알아봅니다.'
 exl-id: 9bc80fe6-6dfd-4bb3-8dc5-d5efd8a8d90c
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Admin
-source-git-commit: 492a22cd1fd8a63d3f4e55a3ddb81621439b624b
+source-git-commit: 00d31ca7e4e81ecbc34373ce95b1256a7ae012db
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
+>여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
 > 
-> [사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}을 만들어 역할에 여러 사용자를 추가할 수도 있습니다. 그런 다음 [!UICONTROL **Adobe Commerce - Commerce Cloud 관리자**] 제품을 사용자 그룹에 추가할 수 있습니다.
+> [사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}을 만들어 역할에 여러 사용자를 추가할 수도 있습니다. 그런 다음 [!UICONTROL **Adobe Commerce - Commerce Cloud 관리자**] 제품을 사용자 그룹에 추가할 수 있습니다.
 
 ## 역할 이해
 
@@ -29,16 +29,24 @@ ht-degree: 0%
 
 * **사용자** - 사용자는 Commerce 관리자에 대한 관리자 액세스 권한이 있지만 Admin Console에서 제품 수준 액세스를 관리할 수 없습니다. [에서 ](./getting-started.md#create-an-instance)인스턴스 만들기[!DNL Commerce Cloud Manager]에 크레딧을 사용할 수도 있습니다.
 
-* [**개발자**](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} 개발자는 사용자 권한이 있으며 Commerce 인스턴스에 개발자 사용자로 추가됩니다. 즉, [관리 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}, [이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} 및 [웹후크 만들기](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"}를 사용할 수 있습니다.
+  >[!NOTE]
+  >
+  >개발자 및 관리자를 포함한 모든 Commerce 사용자에게도 사용자 역할이 할당되어야 합니다. 기본 Commerce 권한에 필요합니다.
+
+* [**개발자**](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} 개발자는 사용자 권한이 있으며 Commerce 인스턴스에 개발자 사용자로 추가됩니다. 즉, [관리 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}, [이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} 및 [웹후크 만들기](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"}를 사용할 수 있습니다.
 
 * 관리자 - 세 가지 유형의 관리자가 있습니다.
-   * [시스템 관리자](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
-   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 ](#add-users-and-admins)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
-   * [제품 프로필 관리자](#add-users-developers-and-product-profile-admins) - 제품 프로필 관리자는 Adobe Commerce 관리자에 액세스할 수 없지만 [!DNL Adobe Admin Console]에서 제품에 대한 사용자를 관리할 수 있습니다.
+   * [시스템 관리자](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
+   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 ](#add-users)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
+   * [제품 프로필 관리자](#add-developers-and-product-profile-admins) - 제품 프로필 관리자는 Adobe Commerce 관리자에 액세스할 수 없지만 [!DNL Adobe Admin Console]에서 제품에 대한 사용자를 관리할 수 있습니다.
 
 Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용은 [사용자 권한](#user-permissions)을 참조하세요.
 
 ## 제품 관리자 추가
+
+>[!NOTE]
+>
+>제품 관리자로 추가하기 전에 제품 관리자에게 [사용자 역할](#add-users)을 할당하십시오. 기본 Commerce 권한에 사용자 역할이 필요합니다.
 
 1. https://adminconsole.adobe.com으로 이동한 다음 Adobe ID으로 로그인합니다.
 
@@ -54,9 +62,9 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 1. 관리자로 추가할 사용자의 사용자 이름 또는 전자 메일 주소를 입력하고 [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
-## 사용자, 개발자 및 제품 프로필 관리자 추가
+## 사용자 추가
 
-다음 지침은 [!DNL Commerce Cloud Manager] 및 Commerce 관리자에 사용자 및 개발자를 추가하는 방법에 대한 정보를 제공합니다. [!DNL Commerce Cloud Manager] 인터페이스를 사용하면 Commerce 인스턴스를 만들고 관리할 수 있습니다.
+다음 지침은 [!DNL Commerce Cloud Manager] 및 Commerce 관리자에 사용자를 추가하는 방법에 대한 정보를 제공합니다. [!DNL Commerce Cloud Manager] 인터페이스를 사용하면 Commerce 인스턴스를 만들고 관리할 수 있습니다. 이 프로세스는 개발자 및 관리자를 포함한 모든 사용자에게 필요합니다.
 
 >[!NOTE]
 >
@@ -72,15 +80,23 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 1. [!UICONTROL **기본 - Cloud Manager**] 제품 프로필을 클릭합니다.
 
-1. [!UICONTROL **사용자**], [!UICONTROL **개발자**] 또는 [!UICONTROL **관리자**] 탭을 선택하고 [!UICONTROL **사용자 추가**] 또는 [!UICONTROL **개발자 추가**] 또는 [!UICONTROL **관리자 추가**]&#x200B;를 클릭합니다.
-
-   >[!NOTE]
-   >
-   >이 화면에서 추가된 관리자는 [제품 프로필 관리자](#understanding-roles)이며 Commerce 관리자에 대한 액세스 권한이 없습니다.
+1. [!UICONTROL **사용자**] 탭을 선택하고 [!UICONTROL **사용자 추가**]&#x200B;를 클릭합니다.
 
    ![탭 선택](./assets/tab-select.png){width=600 zoomable="yes"}
 
 1. 관리자로 추가할 사용자의 사용자 이름 또는 전자 메일 주소를 입력하고 [!UICONTROL **저장**]&#x200B;을 클릭합니다.
+
+### 개발자 및 제품 프로필 관리자 추가
+
+개발자 및 제품 프로필 관리자를 추가하려면 [사용자 추가](#add-users) 프로세스를 반복하되, [!UICONTROL **사용자**] 탭 대신 [!UICONTROL **개발자**] 또는 [!UICONTROL **관리자**] 탭을 선택하십시오.
+
+>[!NOTE]
+>
+>제품 프로필 관리자는 Commerce 관리자에 액세스할 수 없습니다. 자세한 내용은 [역할 이해](#understanding-roles)를 참조하세요.
+>
+>개발자를 개발자로 추가하기 전에 개발자에게 사용자 역할을 할당하십시오. 기본 Commerce 권한에 사용자 역할이 필요합니다.
+
+![탭 선택](./assets/tab-select.png){width=600 zoomable="yes"}
 
 ## 역할 리소스
 
@@ -141,17 +157,17 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 [!DNL Adobe Experience Manager Assets] 및 [!DNL Product Visuals powered by AEM Assets] 사용자에게는 다음 설정이 필요합니다.
 
-계정에 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service)에 대한 액세스 권한이 있고 사용자가 [과(와) 함께 ](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/overview){target="_blank"}AEM Assets[!DNL Adobe Commerce as a Cloud Service]의 고급 기능에 액세스할 수 있도록 허용하려면 다음 프로세스를 사용하십시오.
+계정에 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)에 대한 액세스 권한이 있고 사용자가 [과(와) 함께 ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview){target="_blank"}AEM Assets[!DNL Adobe Commerce as a Cloud Service]의 고급 기능에 액세스할 수 있도록 허용하려면 다음 프로세스를 사용하십시오.
 
 >[!NOTE]
 >
->적절한 자산 권한이 없는 사용자는 [!DNL AEM Assets]AI 이미지 생성[, ](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}생성된 변형[ 등과 같은 ](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"}의 고급 기능에 액세스할 수 없습니다.
+>적절한 자산 권한이 없는 사용자는 [!DNL AEM Assets]AI 이미지 생성[, ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}생성된 변형[ 등과 같은 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"}의 고급 기능에 액세스할 수 없습니다.
 
 >[!TIP]
 >
->여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
+>여러 사용자를 동시에 추가하려면 [일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행할 수 있습니다.
 >
->[사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}을 만들어 역할에 여러 사용자를 추가할 수도 있습니다. [!UICONTROL **Adobe Experience Manager as a Cloud Service - Cloud Manager**] 제품을 사용자 그룹에 추가할 수 있습니다.
+>[사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}을 만들어 역할에 여러 사용자를 추가할 수도 있습니다. [!UICONTROL **Adobe Experience Manager as a Cloud Service - Cloud Manager**] 제품을 사용자 그룹에 추가할 수 있습니다.
 
 1. https://adminconsole.adobe.com으로 이동한 다음 Adobe ID으로 로그인합니다.
 
@@ -178,7 +194,7 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
    >[!NOTE]
    >
-   >이러한 권한이 AEM Assets에 대한 액세스에 미치는 영향에 대한 자세한 내용은 [Cloud Manager 제품 프로필](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles#cloud-manager-product-profiles){target="_blank"}을 참조하세요.
+   >이러한 권한이 AEM Assets에 대한 액세스에 미치는 영향에 대한 자세한 내용은 [Cloud Manager 제품 프로필](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles#cloud-manager-product-profiles){target="_blank"}을 참조하세요.
 
 1. [!UICONTROL **적용**]&#x200B;을 클릭합니다.
 
@@ -196,15 +212,15 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 1. [!UICONTROL **Cloud Manager**] 페이지에서 [!UICONTROL **프로그램 추가**]&#x200B;를 클릭하여 시작합니다.
 
-1. [새 프로그램을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/create-program){target="_blank"}.
+1. [새 프로그램을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/create-program){target="_blank"}.
 
-1. [새 환경을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/onboarding-screens-cloud/creating-an-environment){target="_blank"}.
+1. [새 환경을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/onboarding-screens-cloud/creating-an-environment){target="_blank"}.
 
 1. 환경을 만든 후 [Admin Console](https://adminconsole.adobe.com){target="_blank"}(으)로 돌아가서 [!UICONTROL **Adobe Experience Manager as a Cloud Service**]&#x200B;을(를) 선택하십시오.
 
 1. 이제 새 제품 프로필이 표시됩니다. `- author -`이(가) 포함된 항목을 선택하십시오. 예: `<environment-name> - author - <program-id> - <environment-id>`.
 
-1. [제품 프로필에 사용자 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-manager/content/requirements/users-and-roles){target="_blank"}.
+1. [제품 프로필에 사용자 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/requirements/users-and-roles){target="_blank"}.
 
-* [Commerce 메타데이터를 지원하도록 AEM Assets 구성](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem)
-* [자산 동기화를 위해 AEM Assets과 Commerce 통합](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization)
+* [Commerce 메타데이터를 지원하도록 AEM Assets 구성](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem)
+* [자산 동기화를 위해 AEM Assets과 Commerce 통합](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)
