@@ -45,7 +45,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
 높은 수준에서 [!DNL Live Search]을(를) 온보딩하려면 다음을 수행해야 합니다.
 
-1. [ 확장을 ](#1-install-the-live-search-extension)설치[!DNL Live Search]
+1. [&#x200B; 확장을 &#x200B;](#1-install-the-live-search-extension)설치[!DNL Live Search]
 1. API 키 [구성](#2-configure-api-keys)
 1. 카탈로그 데이터 [동기화](#3-sync-your-catalog-data)
 1. 카탈로그 데이터를 내보냈는지 [확인](#4-verify-that-the-data-was-exported)
@@ -218,15 +218,15 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 
    ![검색 기능 지정](./assets/search-filters-admin.png)
 
-1. 새로운 [ 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대해 알아보려면 `contains`개발자 설명서`startsWith`를 참조하십시오.
+1. 새로운 [&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대해 알아보려면 `contains`개발자 설명서`startsWith`를 참조하십시오.
 
 ### 필드 설명
 
 | 필드 | 설명 |
 |--- |--- |
-| `Autocomplete` | 기본적으로 활성화되고 수정할 수 없습니다. `Autocomplete`에서는 `contains`검색 필터[에서 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering)을(를) 사용할 수 있습니다. `contains`의 검색 쿼리가 자동 완성 형식 검색 응답을 반환합니다. Adobe에서는 일반적으로 50자를 초과하는 설명 필드에 대해 이 유형의 검색을 사용하는 것이 좋습니다. |
-| `Contains` | 자동 완성 검색 대신 &quot;문자열에 포함된 텍스트&quot; 검색을 true로 설정합니다. `contains`검색 필터[에서 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability)을(를) 사용합니다. 자세한 내용은 [제한](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations)을 참조하세요. |
-| `Starts with` | 특정 값으로 시작하는 쿼리 문자열입니다. `startsWith`검색 필터[에서 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability)을(를) 사용합니다. |
+| `Autocomplete` | 기본적으로 활성화되고 수정할 수 없습니다. `Autocomplete`에서는 `contains`검색 필터[에서 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering)을(를) 사용할 수 있습니다. `contains`의 검색 쿼리가 자동 완성 형식 검색 응답을 반환합니다. Adobe에서는 일반적으로 50자를 초과하는 설명 필드에 대해 이 유형의 검색을 사용하는 것이 좋습니다. |
+| `Contains` | 자동 완성 검색 대신 &quot;문자열에 포함된 텍스트&quot; 검색을 true로 설정합니다. `contains`검색 필터[에서 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability)을(를) 사용합니다. 자세한 내용은 [제한](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations)을 참조하세요. |
+| `Starts with` | 특정 값으로 시작하는 쿼리 문자열입니다. `startsWith`검색 필터[에서 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability)을(를) 사용합니다. |
 
 ## &#x200B;2. API 키 구성
 
@@ -339,7 +339,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 사이트에 배포된 Storefront 이벤트가 작동하는지 확인합니다. 이 검사는 Headless 구현에 특히 중요합니다.
 
-- [에 필요한 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)이벤트[!DNL Live Search]을(를) 검토하십시오.
+- [에 필요한 &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)이벤트[!DNL Live Search]을(를) 검토하십시오.
 - [실시간 검색 대시보드](performance.md)에 비프로덕션 환경의 데이터가 표시되는지 확인하십시오.
 - [이벤트 컬렉션 확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/).
 
@@ -523,7 +523,7 @@ Adobe에서는 SaaS API(특히 카탈로그 서비스 엔드포인트)를 직접
 
 ### Inventory management
 
-[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#updating-live-search)업데이트`commerce-data-export`해야 합니다.
+[!DNL Live Search]은(는) Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 &#x200B;](install.md#updating-live-search)업데이트`commerce-data-export`해야 합니다.
 
 [!DNL Live Search]은(는) Inventory management 내에서 제품을 사용할 수 있는지 여부를 나타내는 부울을 반환하지만, 재고가 있는 소스에 대한 정보는 포함하지 않습니다.
 
