@@ -1,7 +1,7 @@
 ---
-source-git-commit: 130bf80114ce8b699457b752f93b489e9a401e83
+source-git-commit: 8ba935c4e8c39f0897bf2c031ff07be178b2a91d
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">사용자 관리</a>를 사용하려면 모든 개발자와 제품 관리자가 먼저 사용자 역할을 추가해야 합니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">사용자 관리</a>를 사용하려면 모든 개발자와 제품 관리자가 먼저 사용자 역할을 추가해야 합니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>결제 서비스 v2.12.2에 대해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/release-notes">릴리스 정보</a>를 게시했습니다.</p>
+      <td><p>결제 서비스 v2.12.2에 대해 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes">릴리스 정보</a>를 게시했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>AEM Assets as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">사용자 관리</a> 페이지에 Adobe Commerce 설정 정보를 추가했습니다.</p>
+      <td><p>AEM Assets as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">사용자 관리</a> 페이지에 Adobe Commerce 설정 정보를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -75,7 +75,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/acce1aad405e74b1171faddf7f0d6681bd0a048d">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/getting-started">시작</a> 페이지에 역할 기반 작업 및 워크플로 정보를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started">시작</a> 페이지에 역할 기반 작업 및 워크플로 정보를 추가했습니다.</p>
 </td>
       <td>
         새 주제
@@ -97,7 +97,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>선택적 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
+      <td><p>선택적 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
 </td>
       <td>
         새 주제
@@ -119,56 +119,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
+      <td><p>이제 CLI를 사용하지 않고 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront">사이트 작성자 도구</a>를 사용하여 Storefront를 설정할 수 있습니다.</p>
 </td>
       <td>
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bf3954af26fba0aa943261a0673166c0537e692e">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025년 8월 7일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/data-connection/customize-data/custom-identities">사용자 지정 특성을 프로필에 추가</a>하는 방법에 대한 주제를 추가했습니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/403b15368c52f3965e65a9175c82c2f6cd1773bb">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025년 8월 6일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service Storefront 스캐폴더를 사용한 후 storefront 구성을 위한 확장된 지침을 추가합니다.</p>
-</td>
-      <td>
-        피드백
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ad0c36006a01491aee1ca1643c6a3ab63f39f7e4">커밋</a></td>
     </tr>
   </tbody>
 </table>
