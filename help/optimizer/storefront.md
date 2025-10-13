@@ -2,442 +2,240 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: 2b35e822e192bdac316379f55c3bc924d62ca008
+source-git-commit: c00cb55bd7b61d6506ee8b9b81d28118c1adde00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # 상점 설정
 
-이 튜토리얼에서는 [ 인스턴스의 데이터를 사용하는 강력하고 확장 가능한 보안 Commerce 스토어프런트를 만들기 위해 ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)Edge Delivery Services에서 제공하는 Adobe Commerce Storefront[!DNL Adobe Commerce Optimizer]를 설정하고 사용하는 방법에 대한 자세한 지침을 제공합니다.
+이 안내서에서는 Adobe Edge Delivery Services를 사용하여 [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 상점 전면을 설정하는 과정을 안내합니다. 상점에는 상용 코드, 샘플 콘텐츠 및 제품 세부 사항 페이지와 제품 검색(검색 및 필터링)에 대한 지원이 포함되어 있습니다.
 
-
->[!TIP]
->
->Site Creator 도구를 사용하여 Storefront 코드 저장소 및 문서 작성 환경을 설정하여 Storefront 설정 프로세스를 빠르게 추적합니다.
->&#x200B;>자동으로 표시됩니다. 그런 다음 이러한 지침을 사용하여 상점 만들기 방법을 이해하고 사용 가능한 구성 요소에 대해 자세히 알아볼 수 있습니다.
+**완료 예상 시간:** 30~45분
 
 ## 사전 요구 사항
 
-* 저장소를 만들 수 있고 로컬 개발용으로 구성된 GitHub 계정(github.com)이 있는지 확인합니다.
+* 저장소를 만들 수 있고 로컬 개발용으로 구성된 **GitHub 계정**(github.com)
+* 샘플 데이터와 구성된 카탈로그 보기 및 정책이 있는 **[!DNL Adobe Commerce Optimizer]인스턴스**
+   * 설치 지침은 [샘플 데이터 추가](get-started.md#add-sample-data)를 참조하십시오.
 
-* Adobe Commerce Storefront 설명서의 [개요](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=ko)를 검토하여 Adobe Edge Delivery Services에서 Commerce Storefront를 개발하는 개념과 워크플로에 대해 알아봅니다.
-* 개발 환경 설정
+### 필수 인스턴스 데이터
 
+시작하기 전에 [!DNL Adobe Commerce Optimizer] 인스턴스에서 다음 정보를 수집합니다.
 
-### 개발 환경 설정
-
-Edge Delivery Services에서 [!DNL Adobe Commerce Optimizer] 상점을 개발하고 테스트하는 데 필요한 Node.js 및 Sidekick 브라우저 확장 기능을 설치하십시오.
-
-#### Node.js 설치
-
-NVM(Node Version Manager) 및 필요한 Node.js 버전(22.13.1 LTS)을 설치합니다.
-
-1. NVM(노드 버전 관리자)을 설치합니다.
-
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-   ```
-
-1. Node.js 및 NPM을 설치합니다. 자세한 내용은 [Node.js](https://nodejs.org/en/)를 참조하십시오.
-
-   ```bash
-   nvm install 22
-   ```
-
-   ```bash
-   npm install -g npm
-   ```
-
-1. 설치를 확인합니다.
-
-   ```bash
-   npm -v
-   ```
-
->[!TIP]
->
->[!DNL Adobe Commerce Optimizer] 솔루션 확장 및 사용자 정의를 위한 추가 리소스는 [App Builder for Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 및 [API Mesh for Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh)를 통해 사용할 수 있습니다. 액세스 및 사용 정보는 Adobe 계정 담당자에게 문의하십시오.
-
-#### Sidekick 설치
-
-Sidekick 브라우저 확장 프로그램을 설치하여 콘텐츠를 편집하고 미리 보고 상점 앞에 게시할 수 있습니다. [Sidekick 설치 지침](https://www.aem.live/docs/sidekick#installation)을 참조하세요.
-
-## 상점 만들기
-
-[!DNL Adobe Commerce Optimizer] 프로젝트에 대해 만든 Storefront는 Edge Delivery Services Storefront 보일러플레이트에 사용자 지정된 버전의 Adobe Commerce을 사용합니다. 보일러판은 상점 개발의 시작점을 제공하는 파일 및 폴더 집합입니다. 이 설정 프로세스는 [Edge Delivery Services Storefront의 Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)에 대한 표준 설정 프로세스와 다릅니다.
+* **테넌트 ID**(인스턴스 ID라고도 함)
+   * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
+* 인스턴스의 **GraphQL 끝점**
+   * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
+* 글로벌 카탈로그 보기의 **카탈로그 보기 ID**
+   * [카탈로그 세부 정보 페이지](./setup/catalog-view.md#manage-catalog-view)에서 사용 가능
+* 카탈로그 보기용 **Source 로케일**
+   * 샘플 데이터의 기본값은 `en_US`입니다.
 
 >[!NOTE]
 >
->이 자습서에서는 macOS, Chrome 및 Visual Studio 코드를 개발 환경으로 사용합니다. 화면이 캡처되고 해당 설정이 지침에 반영됩니다. 다른 운영 체제, 브라우저 및 코드 편집기를 사용할 수 있지만 표시되는 UI와 수행하는 단계가 그에 따라 달라집니다.
+>체험판 액세스 고객은 인스턴스가 생성될 때 받은 시작 이메일에서 GraphQL 엔드포인트를 찾을 수 있습니다. 체험판 인스턴스는 샘플 데이터, 카탈로그 보기 및 정책으로 사전 구성됩니다.
 
-### 워크플로우 개요
+## 단계 설정
 
-[!DNL Adobe Commerce Optimizer]에서 사용할 상점 전면을 설정하려면 다음 단계를 따르십시오.
+1. **[Storefront 프로젝트 만들기](#create-your-storefront-project)** - [Site Creator 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 사용하여 표준 코드, 샘플 콘텐츠 및 구성 파일로 새 Storefront 프로젝트를 만듭니다.
 
-1. **[코드 리포지토리 만들기](#step-1-create-site-code-repository)**-Adobe Commerce + Edge Delivery Services boilerplate 템플릿에서 GitHub 리포지토리를 만듭니다. 소스 저장소의 모든 분기를 포함합니다.
-1. **[Storefront Boilerplate 업데이트](#step-2-update-the-storefront-boilerplate)**-콘텐츠 폴더를 Storefront에 연결하려면 사용자 지정 Boilerplate 템플릿을 업데이트하십시오.
-1. **[변경 내용 배포](#step-3-deploy-changes)**-Commit 및 GitHub에 Boilerplate 사용자 지정을 푸시하여 변경 내용을 적용합니다.
-1. **[CodeSync 앱을 추가](#step-5-add-the-aem-code-sync-app)**-저장소를 Edge Delivery 서비스에 연결합니다. 소스 코드 사용자 지정을 완료하고 GitHub 저장소에 코드를 푸시할 때까지 코드 동기화 앱을 연결하지 마십시오.
-1. **[콘텐츠 추가](#step-6-add-content)**-데모 콘텐츠 복제 도구를 사용하여 `https://da.live`에 호스팅된 문서 작성 환경에서 상점 콘텐츠를 만들고 초기화합니다.
-1. **[데모 사이트 미리 보기](#step-7-preview-demo-site)**-상점 사이트에 연결하여 [!DNL Adobe Commerce Optimizer] 데모 인스턴스에서 샘플 콘텐츠 및 데이터를 확인합니다.
-1. **[로컬 환경에서 개발](#step-8-develop-in-your-local-environment)**-필요한 종속성을 설치합니다. 로컬 개발 서버를 시작하고 Adobe에서 제공한 [!DNL Adobe Commerce Optimizer] 인스턴스에 연결하도록 Storefront 구성을 업데이트합니다.
-1. **[다음 단계](#next-steps)**-상점에서의 콘텐츠 및 데이터 관리 및 표시에 대해 자세히 알아봅니다.
+1. **[Storefront 구성을 사용자 지정](#customize-the-storefront-configuration)**-저장소의 `config.json` 파일을 업데이트하여 [!DNL Adobe Commerce Optimizer] 인스턴스에 연결합니다.
 
+1. **[설정 확인](#verify-your-setup)**(10분)
+   * 상점가 사이트 미리 보기
+   * 제품 세부 사항 페이지 및 검색 기능 테스트
 
-### 1단계: 사이트 코드 저장소 만들기
+## Storefront 프로젝트 만들기
 
-Edge Delivery Services + Adobe Commerce Boilerplate 템플릿을 사용하여 상점용 사이트 보일러플레이트 코드에 대한 GitHub 리포지토리를 만듭니다.
+사이트 작성자 도구는 다음 구성 요소로 전체 Storefront 프로젝트를 만듭니다.
 
-1. GitHub 계정에 로그인합니다.
+* **사이트**: 표준 서식 컨텐츠가 포함된 Storefront 랜딩 페이지
+* **코드**: 표준 서식 소스 파일이 있는 리포지토리
+* **콘텐츠**: 사이트 콘텐츠 파일이 있는 문서 작성 환경
+* **Commerce 구성**: 인스턴스별 구성에 대한 `config.json` 파일
 
-1. [aem-boilerplate-commerce](https://github.com/hlxsites/aem-boilerplate-commerce) GitHub 저장소로 이동합니다.
-
-1. **이 템플릿 사용**&#x200B;을 선택한 다음 드롭다운 메뉴에서 **새 저장소 만들기**&#x200B;를 선택합니다.
-
-   ![[!DNL Create github repo from storefront boilerplate template]](./assets/storefront-create-github-repo.png){width="700" zoomable="yes"}
-
-   저장소 구성 페이지가 표시됩니다.
-
-   ![[!DNL Configure github repo to pull all branches from boilerplate repo]](./assets/storefront-configure-github-repo.png){width="700" zoomable="yes"}
-
-1. 다음 세부 정보를 사용하여 구성 양식을 작성합니다.
-
-   * **저장소 템플릿**—`hlxsites/aem-boilerplate-commerce`(기본값).
-   * **소유자**—조직 또는 계정입니다(필수).
-   * **저장소 이름**—새 저장소의 고유한 이름입니다(필수).
-   * **설명**—저장소에 대한 간략한 설명입니다(선택 사항).
-   * **공개 또는 비공개**—Adobe에서는 공개(기본값)를 권장합니다.
-
-1. **저장소 만들기**&#x200B;를 선택합니다.
-
-   몇 분 후에 새 저장소가 열립니다.
-
-   GitHub 사용자 인터페이스에 표시되는 가져오기 요청 알림을 무시합니다.
-
-### 2단계: 상점 보일러판 업데이트
-
-Storefront 보일러플레이트 코드를 업데이트하려면 다음 정보가 필요합니다.
-
-* **2단계의 GitHub 저장소 URL**— `github.com/{ORG}/{SITE}`
-
-   * `{ORG}`은(는) 저장소의 조직 이름 또는 사용자 이름입니다.
-
-   * `{SITE}`은(는) 내 저장소 이름입니다.
-
-* **1단계의 콘텐츠 폴더 URL**— `https://drive.google.com/drive/folders/{YOUR_FOLDER_ID}`
-
-  `{YOUR_FOLDER_ID}`은(는) 샘플 콘텐츠 데이터로 만든 폴더의 ID입니다.
-
-#### 저장소를 문서 작성 환경에 연결합니다.
-
-1. 로컬 컴퓨터에 저장소를 복제합니다.
-
-   ```bash
-   git clone https://github.com/{ORG}/{SITE}.git
-   ```
-
-   저장소를 복제할 때 오류가 발생하면 GitHub 설명서의 [복제 오류 문제 해결](https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors)을 참조하십시오.
-
-1. 터미널 또는 IDE에서 저장소를 엽니다.
-
-1. `default-fstab.yaml` 파일을 `fstab.yaml`에 복사하여 구성 파일을 만듭니다.
-
-   ```bash
-   cp default-fstab.yaml fstab.yaml
-   ```
-
-1. storefront 구성 파일에서 마운트 지점을 업데이트하여 콘텐츠 URL을 가리킵니다.
-
-   1. [fstab.yaml](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko#vocabulary) 구성 파일을 엽니다.
-
-      ```yaml
-      mountpoints:
-        /:
-          url: https://content.da.live/{org}/{site}/
-          type: markup
-      
-      folders:
-       /products/: /products/default
-      ```
-
-   1. `{ORG}` 및 `{SITE}` 문자열을 상용구 코드용으로 만든 GitHub 저장소의 값으로 바꿉니다.
-
-      예를 들어 업데이트된 코드는 다음과 같아야 합니다.
-
-      ```yaml
-      mountpoints:
-        /:
-          url: https://content.da.live/owner-name/aco-storefront/
-          type: markup
-      ```
-
-   1. 파일을 저장합니다.
-
-#### Sidekick 확장 구성
-
-1. Sidekick 확장에 대한 프로젝트 구성을 추가합니다. 이 구성을 통해 Sidekick에서 Storefront 프로젝트의 콘텐츠를 관리할 수 있습니다.
-
->[!NOTE]
->
->브라우저에 [Sidekick 확장](https://www.aem.live/docs/sidekick#installation)을 설치했는지 확인하십시오.
-
-1. 새 디렉터리 `tools/sidekick`을(를) 만듭니다.
-
-   ```shell
-   mkdir tools/sidekick
-   ```
-
-1. 루트 디렉터리의 `demo-sidekick.json` 파일을 `tools/sidekick` 디렉터리로 복사하고 이름을 `config.json`(으)로 바꾸십시오.
-
-   ```shell
-   cp demo-sidekick.json tools/sidekick/config.json
-   ```
-
-1. 사이트에 대한 Sidekick 구성을 사용자 지정합니다.
-
-   `tools/sidekick/` 디렉터리에서 `config.json` 파일을 편집합니다.
-
-   +++Sidekick 구성 파일
-
-   ```json
-   {
-     "project": "My Project",
-     "editUrlLabel": "Document Authoring",
-     "editUrlPattern": "https://da.live/edit#/{{org}}/{{site}}{{pathname}}"
-   }
-   ```
-
-1. `url` 키 값을 GitHub 저장소의 값으로 업데이트합니다.
-
-   * `{{ORG}}` 문자열을 저장소의 조직 또는 사용자 이름으로 바꾸십시오.
-
-   * `{{SITE}}` 문자열을 저장소 이름으로 바꿉니다.
-
-   * `pathname` 변수가 시스템에 의해 채워집니다.
-
-   +++업데이트된 구성 파일의 예
-
-   GitHub 저장소 이름이 `aco-storefront`이고 조직이 `early-adopter`인 경우 업데이트된 URL은 다음과 같이 표시됩니다.
-
-   ```json
-   {
-     "project": "My Project",
-     "editUrlLabel": "Document Authoring",
-     "editUrlPattern": "https://da.live/edit#/aco-storefront/early-adopter{{pathname}}"
-   }
-   ```
-
-   +++
-
-1. 파일을 저장합니다.
-
-### 3단계: 변경 사항 배포
-
-사용자 지정된 Storefront Boilerplate 코드를 사용하려면 `main` 분기의 코드를 업데이트로 덮어씁니다.
-
-1. 편집기 또는 IDE에서 업데이트한 파일을 커밋하고 저장합니다.
-
-   ```bash
-   git add .
-   ```
-
-1. 업데이트된 두 파일을 커밋하고 있는지 확인합니다.
-
-   ```bash
-   git status
-   On branch main
-   Your branch is up to date with 'origin/main'.
-   
-   Changes to be committed:
-    (use "git restore --staged <file>..." to unstage)
-        new file:   fstab1.yaml
-        modified:   tools/sidekick/config.json
-   ```
-
-1. 변경 사항을 커밋합니다.
-
-   ```bash
-   git commit -m "Update storefront boilerplate for Adobe Commerce Optimizer"
-   ```
-
-1. 변경 사항을 적용합니다.
-
-   ```bash
-   git push
-   ```
-
-### 5단계: AEM 코드 동기화 앱 추가
-
-AEM 코드 동기화 GitHub 앱을 저장소에 추가하여 저장소를 Edge Delivery 서비스에 연결합니다.
-
->[!IMPORTANT]
->
->업데이트된 상용구 코드를 GitHub 저장소의 주 분기에 업로드하기 전까지는 코드 동기화 앱을 연결하지 마십시오.
-
-1. [AEM 코드 동기화 앱](https://github.com/apps/aem-code-sync) 구성 페이지를 엽니다.
-
-1. **구성**&#x200B;을 선택한 다음 만든 리포지토리가 포함된 **조직** 또는 **계정**&#x200B;을(를) 사용하여 인증합니다.
-
-1. 양식에서 **저장소만 선택**&#x200B;을 선택한 다음 만든 저장소를 선택합니다.
-
-1. **설치**&#x200B;를 선택하여 저장소에 AEM 코드 동기화 앱을 추가합니다.
-
-   앱이 성공적으로 설치되었다는 메시지가 표시됩니다.
-
-### 6단계: 콘텐츠 추가
-
-사이트 작성자 도구를 사용하여 `https://da.live`에 호스팅된 문서 작성 환경에서 상점 콘텐츠를 만들고 초기화합니다. 이 도구는 샘플 컨텐츠를 문서 작성 환경으로 가져오고 샘플 컨텐츠의 모든 문서에 대한 컨텐츠 미리 보기 및 게시 프로세스를 완료합니다. 샘플 콘텐츠에는 페이지 레이아웃, 배너, 레이블 및 상점을 채울 기타 요소가 포함됩니다.
+### 1단계: 프로젝트 생성
 
 1. [사이트 작성자 도구 열기](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)
 
-1. 저장소 구성:
+   ![[!DNL Site Creator tool]](./assets/storefront-setup-site-creator.png){width="700" zoomable="yes"}
 
-   * **[!UICONTROL Use Existing Repository]**&#x200B;을(를) 선택합니다.
-   * Storefront 표준 프로젝트에 대한 **[!UICONTROL Organization/Username]**&#x200B;을(를) 입력하십시오.
-   * **[!UICONTROL Repository Name]** 입력.
+1. **새 사이트 만들기(코드 및 콘텐츠)**&#x200B;를 선택합니다.
 
-1. **사이트 만들기**&#x200B;를 선택하여 콘텐츠를 가져오고 미리 보고 문서 작성 환경에 게시합니다.
+1. 사이트 구성을 완료합니다.
 
-   ![[!DNL AEM demo content clone tool]](./assets/storefront-edit-initial-content.png){width="700" zoomable="yes"}
+   * **GitHub 조직/사용자 이름**: GitHub 사용자 이름 또는 조직 이름을 입력하십시오.
+   * **사이트 이름**: 상점 이름을 설명하는 이름을 선택하세요.
+   * **Commerce GraphQL 끝점(선택 사항)**: [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 GraphQL 끝점을 입력합니다.
 
-   사이트가 만들어지면 [!UICONTROL Edit content] 및 [!UICONTROL View Site] 섹션의 링크를 사용하여 데모 스토어프런트를 탐색할 수 있습니다.
+1. **사이트 만들기**&#x200B;를 클릭하여 Storefront 상용구 코드를 사용하여 GitHub 리포지토리를 만듭니다.
 
-   콘텐츠 및 사이트에 대한 기본 링크는 다음 형식을 따릅니다.
+   저장소가 생성되면 사이트 생성자가 업데이트하고 코드 동기화 앱을 설치하라는 메시지를 표시합니다.
 
-   * **루트 콘텐츠 폴더**— `https://da.live/#/{ORG}/{SITE}`
-   * **사이트 미리 보기**—   `https://main--{SITE}--{ORG}.aem.page/`
-   * **사이트 프로덕션:**— `https:/main--{SITE}--{ORG}.ae.live/`
+### 2단계: 코드 동기화 앱 설치
 
-1. 콘텐츠를 보려면 루트 콘텐츠 폴더 링크를 여십시오.
+1. 새 탭에서 코드 동기화 설치 관리자를 열려면 **[!UICONTROL Install AEM Code Sync App]**&#x200B;을(를) 클릭하십시오.
 
-   ![[!DNL Storefront Document Author environment]](./assets/storefront-document-author-environment.png){width="700" zoomable="yes"}
+1. 코드 동기화 앱을 구성합니다.
+   * GitHub 조직을 선택한 다음 **[!UICONTROL Configure]**&#x200B;을(를) 클릭합니다.
+   * 코드 동기화 인터페이스에서 **[!UICONTROL Only select repositories]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Select repositories]** 메뉴를 클릭한 다음 만든 상점 코드 저장소를 선택합니다.
+   * 저장소를 등록하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
-   >[!TIP]
-   >
-   >측면 탐색에서 [!UICONTROL **학습**] 및 [!UICONTROL **검색**] 링크를 사용하여 사이트 및 사이트 콘텐츠 관리를 위한 학습 리소스에 액세스합니다.
+1. 사이트 작성자가 열려 있는 브라우저 창으로 돌아가서 **사이트 만들기**&#x200B;를 클릭합니다.
 
-### 7단계: 데모 사이트 미리보기
+   사이트 작성자는 Storefront Boilerplate 콘텐츠를 문서 작성 환경에 복사합니다. 이 프로세스는 1~2분 정도 소요됩니다.
 
-샘플 콘텐츠와 Adobe Commerce Optimizer 데모 인스턴스의 데이터가 모두 올바르게 표시되는지 확인합니다.
+### 3단계: 프로젝트 링크 저장
 
-* **샘플 콘텐츠**&#x200B;는 문서 작성 환경의 콘텐츠 폴더에서 제공됩니다. 여기에는 사이트의 페이지 레이아웃, 배너 및 레이블이 포함됩니다.
-* **샘플 데이터**&#x200B;는 [!DNL Adobe Commerce Optimizer] 데모 인스턴스에서 제공됩니다. 데이터에는 제품 특성, 이미지, 제품 설명 및 Storefront 구성 파일 `config.json`에 지정된 헤더 값을 기반으로 채워진 가격이 포함된 제품 데이터가 포함됩니다.
+1. 사이트 세부 정보 섹션에서 상점 프로젝트 링크를 검토하십시오.
 
-#### 사이트에 연결하여 샘플 콘텐츠 및 데이터 보기
+   ![[!DNL Storefront setup complete]](./assets/storefront-setup-complete.png){width="700" zoomable="yes"}
 
-1. `https://main--{SITE}--{ORG}.aem.live`(으)로 이동하여 사이트를 봅니다.
+   이러한 링크를 사용하여 상점 코드, 콘텐츠 및 구성을 관리하십시오.
 
-   `{ORG}` 및 `{SITE}`을(를) 상용구 저장소의 조직 및 이름으로 바꾸십시오.
+1. 나중에 참조할 수 있도록 다음 링크를 복사하고 저장하십시오. **[!UICONTROL Copy]을(를) 클릭하십시오.
+
+## 상점 구성
+
+[!DNL Adobe Commerce Optimizer] 인스턴스에 연결하려면 Storefront 구성을 업데이트하십시오.
+
+1. 이전에 저장한 링크를 사용하여 구성 관리자를 엽니다.
+
+   `https://da.live/sheet#/<username or org>/<repo name>/config.json`
+
+1. 구성에서 `cs`(카탈로그 서비스) 섹션을 찾습니다.
+
+1. 자리 표시자 값을 인스턴스에 대한 값으로 바꿉니다. [필수 구성 요소](#prerequisites)를 참조하십시오.
+
+   ```json
+   "cs": {
+      "AC-View-ID": "{catalogViewId}",
+      "AC-Environment-ID": "{tenantId}",
+      "AC-Source-Locale": "en_US"
+   }
+   ```
+
+1. 구성 파일을 저장합니다.
+
+>[!NOTE]
+>
+>구성 변경 사항이 적용되는 데 몇 분 정도 걸릴 수 있습니다. 데이터가 즉시 표시되지 않으면 2~3분 정도 기다린 후 문제를 해결하십시오.
+
+## 설정 확인
+
+[!DNL Adobe Commerce Optimizer] 인스턴스에 제대로 연결되어 있는지 확인하려면 Storefront를 테스트하십시오.
+
+### 1단계: 상점 홈페이지 보기
+
+1. 라이브 미리보기 URL로 이동합니다.
+
+   `https://main--{SITE}--{ORG}.aem.live`
+
+   `{ORG}` 및 `{SITE}`을(를) GitHub 조직 및 사이트 이름으로 바꾸십시오.
+
+1. **성공 기준**: 표준 컨텐츠가 포함된 상점 홈 페이지가 표시됩니다.
 
    ![[!DNL ACO storefront site with boilerplate]](./assets/aco-storefront-site-boilerplate.png){width="700" zoomable="yes"}
 
-   페이지가 404를 반환하는 경우 다음을 확인하십시오.
+### 2단계: 제품 세부 사항 페이지 테스트
 
-   * [`fstab.yaml` 파일의 탑재 지점이 올바른 콘텐츠 URL을 가리킵니다](#link-the-repository-to-the-document-author-environment): `https://content.da.live/{ORG}/{SITE}/`
-   * [GitHub 저장소에 연결하도록 코드 동기화 앱을 구성했습니다](#step-5%3A-add-the-aem-code-sync-app).
-   * [데모 콘텐츠 복제 도구를 사용하여 문서 작성 환경에 콘텐츠를 게시했습니다](#step-6%3A-add-content-documents-for-your-storefront).
+기본 제품 세부 사항 페이지를 보고 제품 데이터가 올바르게 로드되는지 확인하십시오.
 
+1. 샘플 제품 페이지로 이동합니다.
+   `https://main--{SITE}--{ORG}.aem.live/products/placeholder/{sku}`
 
-1. Commerce Optimizer 기본 인스턴스에서 제공하는 샘플 카탈로그 데이터를 봅니다.
+   샘플 데이터의 SKU를 사용합니다. 예:
+   `https://main--{SITE}--{ORG}.aem.live/products/placeholder/aur-flu-tir-std-2017`
 
-   1. storefront 헤더에서 돋보기를 클릭하여 `tires`을(를) 검색합니다.
+   기본 상점의 경우 경로에서 `placeholder` 값을 사용하여 제품을 볼 수 있습니다. Storefront 맞춤화를 시작하면 Storefront 코드를 맞춤화하여 카탈로그에 정의된 제품 경로를 기반으로 제품 세부 사항 페이지에 대한 경로를 설정할 수 있습니다.
 
-      ![[!DNL View product list page]](./assets/storefront-site-with-aco-data.png){width="675" zoomable="yes"}
+   >[!TIP]
+   >
+   >[ 인스턴스의 ](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
 
-   1. 검색 결과 페이지를 보려면 **Enter**&#x200B;를 누르십시오.
+1. **성공 기준**: 페이지가 표시되어야 합니다.
+   * 제품 이름, 설명 및 가격
+   * 제품 이미지
+   * 장바구니에 추가 기능
+   * [!DNL Adobe Commerce Optimizer] 인스턴스에서 검색된 데이터
 
-      ![[!DNL View search results page]](./assets/storefront-with-aco-search-results-page.png){width="675" zoomable="yes"}
+   ![[!DNL Default product detail page showing a product from the sample data]](./assets/storefront-boilerplate-product-page.png){width="700" zoomable="yes"}
 
-      검색 결과 페이지 구성 요소는 `search` 콘텐츠 문서에 의해 정의됩니다. 검색 결과 데이터는 `config.json`의 Storefront 구성을 기반으로 채워집니다.
+### 3단계: 기본 검색 기능 테스트
 
-   1. 페이지에서 타이어 제품을 선택하여 제품 세부 사항 페이지를 봅니다.
+검색 및 필터링을 포함한 기본 제품 기능을 테스트합니다.
 
-      ![[!DNL View product details page]](./assets/storefront-with-aco-pdp-page.png){width="675" zoomable="yes"}
+1. 상점 첫 페이지의 머리글에서 돋보기 아이콘을 클릭합니다.
 
-      제품 세부 정보 페이지 구성 요소는 `default` 폴더의 `product` 콘텐츠 문서에 의해 정의됩니다.
+1. 검색 문자열 `tires`을(를) 입력하고 **Enter**&#x200B;를 누릅니다.
 
-### 8단계: 로컬 환경에서 개발
+1. **성공 기준**: 다음이 표시됩니다.
+   * 타이어 제품이 포함된 검색 결과 페이지
+   * 사이드바의 필터링 옵션
+   * 이미지 및 가격 정보가 포함된 제품 목록
 
-이 섹션에서는 로컬 개발 환경에서 Storefront 구성을 업데이트합니다.
+   ![[!DNL View search results page]](./assets/storefront-with-aco-search-results-page.png){width="675" zoomable="yes"}
 
-* Adobe에서 제공한 [!DNL Adobe Commerce Optimizer] 인스턴스의 GraphQL 끝점에 연결하도록 Storefront 구성을 업데이트합니다.
-* 헤더 값을 업데이트하여 인스턴스에서 데이터를 검색합니다.
+1. 타이어 제품을 클릭하면 상세 페이지가 표시됩니다.
 
-#### 로컬 개발 시작
+   ![[!DNL View product details page]](./assets/storefront-with-aco-pdp-page.png){width="675" zoomable="yes"}
 
-1. IDE에서 주 분기를 체크아웃하고 원격 분기의 마지막 커밋으로 재설정합니다.
+## 문제 해결
 
-   ```bash
-   git checkout main
-   git reset --hard origin/main
-   ```
+설치하는 동안 문제가 발생하면 웹 페이지 관리자 콘솔을 사용하여 오류를 확인합니다. 또한 브라우저 캐시를 지우거나 다른 브라우저를 사용해 보십시오.
 
-1. 필요한 종속성을 설치합니다.
+다음 지침을 사용하여 일반적인 문제를 확인하십시오.
 
-   ```bash
-   npm install
-   ```
+### 일반적인 문제
 
-1. 로컬 개발 서버를 시작합니다.
+| 문제 | 증상 | 솔루션 |
+|-------|----------|----------|
+| **코드 동기화 설치 실패** | 코드 동기화 설정을 완료할 수 없음 | <ul><li>GitHub 조직에 대한 관리자 액세스 권한이 있는지 확인하십시오.</li><li>조직 대신 개인 저장소를 사용해 보십시오.</li><li>GitHub 권한을 확인하고 다시 시도하십시오.</li></ul> |
+| **사이트가 로드되지 않음** | 404 또는 연결 오류 | <ul><li>사이트 URL 형식 확인: `https://main--{SITE}--{ORG}.aem.live`</li><li>코드 동기화 앱이 제대로 설치되었는지 확인합니다.</li><li>저장소가 공용인지 또는 올바르게 구성되었는지 확인합니다.</li></ul> |
+| **제품 데이터가 표시되지 않음** | 제품 페이지에 자리 표시자 또는 오류가 표시됨 | <ul><li>`config.json`에서 구성 값 확인</li><li>[!DNL Adobe Commerce Optimizer] 인스턴스에서 [데이터 동기화] 페이지에서 샘플 제품이 로드되었는지 확인합니다. 사용할 수 있는 제품이 없는 경우 샘플 데이터를 다시 로드하거나 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request)를 사용하여 제품을 추가하십시오. 구성 변경 사항이 반영될 때까지 몇 분 정도 기다립니다.</li><li>[ 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details)products 쿼리`config.json`를 사용하여 제품 세부 정보를 검색해 보십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li></ul> |
+| **검색 결과 없음** | 빈 검색 결과 페이지 | <ul><li>[ 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search)productSearch 쿼리`config.json`를 사용하여 제품 검색 결과를 검색할 수 있는지 확인하십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li><li>`config.json` 파일의 카탈로그 보기 ID가 [!DNL Adobe Commerce Optimizer]의 카탈로그 보기 ID와 일치하는지 확인하십시오.</li><li>Adobe Commerce Optimizer에서 storefront 헤더 구성에서 사용한 정책, 로케일 및 가격 장부의 구성을 확인합니다.</li><li>[특성 메타데이터 설정](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)이 검색에 대해 올바르게 설정되어 있는지 확인하십시오.</li></ul> |
 
-   ```bash
-   npm start
-   ```
+### 유효성 검사 목록
 
-   `http://localhost:3000`의 브라우저에 보일러판 상점 첫 페이지가 표시됩니다.
+다음 단계를 진행하기 전에 다음을 확인하여 상점이 올바르게 작동하는지 확인하십시오.
 
-   ![[!DNL Configure github repo to pull all branches from boilerplate repo]](./assets/aco-storefront-local-dev-env.png){width="700" zoomable="yes"}
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치함<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) Storefront 홈 페이지가 오류 없이 로드됨<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 하나 이상의 제품 세부 정보 페이지에 전체 정보가 표시됨<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 검색 기능이 관련 결과를 반환함<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 제품 이미지가 올바르게 로드됨<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치함<br>
 
+### 도움말 보기
 
-#### Storefront 구성 업데이트
+문제가 지속되는 경우:
 
-Storefront 구성 파일을 업데이트하고 로컬 개발 환경에서 변경 사항을 미리 봅니다.
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/) 검토
+* [Adobe Commerce Optimizer 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)를 확인하세요.
+* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) 방문
 
-1. IDE에서 Adobe에서 제공한 [!DNL Adobe Commerce Optimizer] 인스턴스에 연결하도록 Storefront 구성을 업데이트합니다.
+## 다음 단계
 
-   1. `config.json` 파일을 엽니다.
+상점을 설정하고 확인한 후 다음을 수행할 수 있습니다.
 
-   1. [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 끝점을 사용하여 다음 값을 업데이트합니다.
+1. **[Sidekick 설치](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - 웹 사이트에서 직접 콘텐츠를 편집하고 미리 보고 게시하기 위한 브라우저 확장 기능
 
-      * **`commerce-endpoint`**-기존 값을 끝점 URL로 바꿉니다.
+2. **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - 로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
 
-        ```json
-        "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{tenantId}/graphql"
-        ```
+### 학습 및 탐색
 
-      * **`ac-environment-id`** - 기존 값을 끝점 URL의 테넌트 ID로 바꿉니다.
+* **[엔드 투 엔드 사용 사례 완료](./use-case/admin-use-case.md)** - [!DNL Adobe Commerce Optimizer]을(를) 사용한 상점 설정 및 카탈로그 관리에 대해 자세히 알아보기
 
-        ```json
-        "ac-environment-id": "{tenantId}"
-        ```
+* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - 고급 설정 및 구성 옵션 알아보기
 
-   1. 파일을 저장합니다.
-
-      로컬 미리보기가 제대로 작동하는 경우 업데이트가 로컬 상점 앞에 적용됩니다.
-
-1. 사이트를 확인하여 구성 변경 결과를 확인합니다.
-
-   1. 브라우저에서 `http://localhost:3000`(으)로 이동하여 페이지를 새로 고칩니다.
-
-   1. storefront 헤더에서 돋보기를 클릭하여 `tires`을(를) 검색합니다.
-
-      ![타이어 검색](./assets/storefront-header-empty-search-list.png){width="675" zoomable="yes"}
-
-   1. 검색 결과 페이지를 표시하려면 **Enter**&#x200B;를 누르십시오.
-
-      ![헤더 값이 잘못된 빈 검색 결과](./assets/storefront-configuration-with-incorrect-headers.png){width="675" zoomable="yes"}
-
-      storefront 구성 파일의 헤더 값은 기본 인스턴스를 기반으로 하므로 검색은 결과를 반환하지 않습니다. 이제 구성이 제공된 [!DNL Adobe Commerce Optimizer] 인스턴스를 가리키므로 해당 값이 잘못되었습니다.
-
-### 다음 단계
-
-상점에서 콘텐츠 및 데이터를 관리하고 표시하는 방법에 대한 자세한 내용은 [상점 및 카탈로그 관리자 엔드 투 엔드 사용 사례](./use-case/admin-use-case.md)를 참조하세요.
+* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
