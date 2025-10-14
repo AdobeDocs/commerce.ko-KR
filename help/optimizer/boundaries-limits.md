@@ -2,10 +2,11 @@
 title: 경계 및 제한
 description: ' [!DNL Adobe Commerce Optimizer]의 경계 및 제한에 대해 알아봅니다.'
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 553490762ef10e43ccce1654acec59aeb83bb5f9
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
+source-git-commit: 1eb95f26a196ad4e66cbc980c7f8a41cae950cb6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## 카탈로그
 
-- 카탈로그 수집의 보장 비율은 1000개 제품/분 및 5000개 가격/분입니다.
+- 카탈로그 수집의 보장 비율은 1,000개 제품/분 및 5,000개 가격/분입니다.
 - 하루 제품 업데이트의 기본 수는 1,000,000개입니다.
 - 단일 인스턴스에 허용되는 총 SKU 수는 250,000개입니다. 
 - 카탈로그 소스의 최대 수는 50개입니다.
@@ -34,11 +35,11 @@ ht-degree: 0%
 - 검색 가능한 속성의 최대 수는 200개입니다.
 - 정렬 가능한 속성의 최대 수는 50개입니다.
 - 최대 패싯 수는 100개입니다. 모든 면은 필터링 가능한 속성이어야 합니다.
-- 단일 Facet Cat이 반환하는 최대 옵션 수는 100개이며, 지원 요청당 늘릴 수 있습니다.
+- 단일 패싯이 반환할 수 있는 최대 옵션 수는 100개이며, 지원 요청당 늘릴 수 있습니다.
 
 ## 카탈로그 보기 및 정책
 
-- 테넌트당 최대 카탈로그 보기 수는 1000개입니다.
+- 테넌트당 최대 카탈로그 보기 수는 1,000개입니다.
 - 하나의 카탈로그 보기에 할당된 최대 정책 수는 10개입니다.
 - 정책에 사용되는 최대 속성 값 수는 100개입니다. 
 

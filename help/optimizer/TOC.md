@@ -4,10 +4,10 @@ user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 �
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: a1872e89625c0c2f78e25ebe9a91cc5bca1f44f6
+source-git-commit: b524c75b59984ddfa63ce133a917b9891dd6719f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -58,4 +58,7 @@ ht-degree: 12%
 - [설정](settings.md)
 - 사용 사례 {#use-case}
    - [Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례](./use-case/admin-use-case.md)
-- [개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)
+- 개발자 리소스 {#developer}
+   - [Salesforce Commerce 커넥터](./developer/salesforce-connector.md)
+   - [데이터 수집 REST API 참조](https://developer.adobe.com/commerce/services/reference/rest/)
+   - [머천다이징 GraphQL API 참조](https://developer.adobe.com/commerce/services/reference/graphql/)
