@@ -142,7 +142,7 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
   </tr>
 </table>
 
-AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법에 대한 자세한 내용은 ](../aem-assets-integration/overview.md)AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하십시오.
+AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법에 대한 자세한 내용은 &#x200B;](../aem-assets-integration/overview.md)AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하십시오.
 
 ## 개발자 플랫폼
 
