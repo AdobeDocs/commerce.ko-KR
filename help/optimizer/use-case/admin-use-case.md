@@ -118,7 +118,7 @@ Carvelo는 서로 다른 대리점(Arkbridge, Kingsbluff 및 Celport)을 통해 
 
 >[!NOTE]
 >
->[ UI의 주요 구성 요소에 대한 자세한 내용은 ](../overview.md)개요[!DNL Adobe Commerce Optimizer] 문서를 참조하세요.
+>[&#x200B; UI의 주요 구성 요소에 대한 자세한 내용은 &#x200B;](../overview.md)개요[!DNL Adobe Commerce Optimizer] 문서를 참조하세요.
 
 왼쪽 탐색에서 _스토어 설정_ 섹션을 확장하고 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다. Arkbridge 및 Kingsbluff 대리점에는 이미 카탈로그 보기가 생성되었습니다.
 

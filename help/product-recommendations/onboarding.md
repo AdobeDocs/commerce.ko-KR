@@ -38,7 +38,7 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]을(를) 페이지 빌더 콘텐츠 형식으로 페이지에 추가할 수 있습니다. 제품 권장 사항에 Page Builder 지원을 추가하려면 [설치 및 구성](install-configure.md)을 참조하세요.
 
-[[!DNL Page Builder]  콘텐츠에 ](page-builder.md)을(를) 추가하는 방법에 대한 지침은 [!DNL Product Recommendations]통합[!DNL Page Builder]을 참조하세요.
+[[!DNL Page Builder]  콘텐츠에 &#x200B;](page-builder.md)을(를) 추가하는 방법에 대한 지침은 [!DNL Product Recommendations]통합[!DNL Page Builder]을 참조하세요.
 
 ### SaaS 가격 인덱싱
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 기본 가격 장부는 자체 통화 및 모든 하위 가격 장부를 정의합니다. 하위 가격 장부는 이 통화를 상속하며 재정의할 수 없습니다.
 
-Price Book API를 사용하여 [의 가격 장부를 만들고, 업데이트하고, 삭제하는 방법은 ](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
+Price Book API를 사용하여 [의 가격 장부를 만들고, 업데이트하고, 삭제하는 방법은 &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
 
 ## 주요 개념
 

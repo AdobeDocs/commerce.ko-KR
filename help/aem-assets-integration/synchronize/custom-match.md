@@ -176,6 +176,6 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 업데이트된 자산 ID를 나타냅니다. |
-| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, ](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
+| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
 | `asset_format` | 문자열 | 에셋에 사용할 수 있는 형식을 제공합니다. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 문자열 | 자산의 위치를 표시합니다. |

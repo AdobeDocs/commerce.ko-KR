@@ -45,7 +45,7 @@ storefront 이벤트에 대한 자세한 내용은 [개발자 설명서](https:/
 
 ## B2B 이벤트
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 [ 확장을 ](install.md#install-the-b2b-extension)설치`experience-platform-connector-b2b`해야 합니다.
+![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 [&#x200B; 확장을 &#x200B;](install.md#install-the-b2b-extension)설치`experience-platform-connector-b2b`해야 합니다.
 
 B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=ko) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
 

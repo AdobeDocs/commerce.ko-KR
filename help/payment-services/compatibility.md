@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ### 허용된 신용 카드 및 통화
 
-[!DNL Payment Services]은(는) [ 사용 가능한 국가의 통화를 수락합니다](#availability). 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=ko)을 참조하십시오.
+[!DNL Payment Services]은(는) [&#x200B; 사용 가능한 국가의 통화를 수락합니다](#availability). 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=ko)을 참조하십시오.
 
 PayPal 제품 및 서비스에서 사용할 수 있는 통화 및 결제 방법에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 

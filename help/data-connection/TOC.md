@@ -20,7 +20,7 @@ ht-degree: 2%
 - [Commerce Services에서 개인 정보 요청을 처리하는 방법](handle-privacy-request.md)
 - [릴리스 정보](release-notes.md)
 - 기본 사항 {#fundamentals}
-   - [ [!DNL Data Connection] 확장 설치](install.md)
+   - [&#x200B; [!DNL Data Connection] 확장 설치](install.md)
    - [Adobe Experience Platform에 연결](connect-data.md)
    - [Commerce 데이터 유형](data-ingestion.md)
    - [시계열 이벤트 스키마 업데이트](update-xdm.md)

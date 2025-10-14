@@ -14,9 +14,9 @@ ht-degree: 10%
 # Adobe Commerce용 [!DNL Catalog Service] {#catalog-service}
 
 - [안내서 개요](guide-overview.md)
-- [ [!DNL Catalog Service] 소개](overview.md)
+- [&#x200B; [!DNL Catalog Service] 소개](overview.md)
 - [설치](installation.md)
-- [ [!DNL Catalog Service] 시작](get-started.md)
+- [&#x200B; [!DNL Catalog Service] 시작](get-started.md)
 - [카탈로그 데이터 검색](graphql-queries.md)
 - 다른 애플리케이션과 통합 {#integration}
    - [카탈로그 서비스 및 API 메쉬](mesh.md)

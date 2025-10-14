@@ -133,7 +133,7 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 
 1. 업데이트할 범주를 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;을 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;을 확장합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 범주와 연결된 *이미지 필드*&#x200B;를 찾습니다.
 

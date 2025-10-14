@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Payment Services] 홈에서 유용한 설정을 사용하여 필요에 맞게 [!DNL Payment Services]을(를) 사용자 지정할 수 있습니다.
 
-[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대해 [!DNL Magento Open Source]을(를) 구성하려면 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하십시오. 이러한 구성 옵션은 _[!UICONTROL Payment mode]_&#x200B;일반[_ 구성 옵션&#x200B;_의 ](#configure-general-settings) 필드에 설정된 환경에만 적용됩니다.
+[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대해 [!DNL Magento Open Source]을(를) 구성하려면 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하십시오. 이러한 구성 옵션은 _[!UICONTROL Payment mode]_&#x200B;일반[_ 구성 옵션&#x200B;_의 &#x200B;](#configure-general-settings) 필드에 설정된 환경에만 적용됩니다.
 
 다중 스토어 또는 레거시 구성에 대해서는 [관리에서 구성](configure-admin.md)을 참조하십시오.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 스토어에 대해 [!DNL Payment Services]을(를) 계속 테스트하는 경우 **결제 모드**&#x200B;를 `Sandbox`(으)로 설정하십시오. 실시간 결제를 사용할 준비가 되었으면 `Production`(으)로 설정하십시오.
 
-1. **[!UICONTROL Payment Services Sandbox ID]** Commerce 서비스 커넥터&#x200B;**[!UICONTROL Payment Services Production ID]**&#x200B;를 설정하고 [ 대시보드를 처음 방문하면 ](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} 및 [!DNL Payment Services] 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
+1. **[!UICONTROL Payment Services Sandbox ID]** Commerce 서비스 커넥터&#x200B;**[!UICONTROL Payment Services Production ID]**&#x200B;를 설정하고 [&#x200B; 대시보드를 처음 방문하면 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} 및 [!DNL Payment Services] 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
 
    >[!WARNING]
    >
@@ -244,7 +244,7 @@ PayPal 결제 버튼 결제 옵션을 활성화하고 구성할 수 있습니다
 
 1. [캐시를 플러시합니다](#flush-the-cache).
 
-관리자[ 또는 여기 ](configure-admin.md#configure-paypal-smart-buttons)의 레거시 구성에서 결제 단추 스타일 [!DNL Payment Services Home]을(를) 구성할 수 있습니다. PayPal 결제 단추 스타일에 대한 자세한 내용은 [PayPal의 단추 스타일 가이드](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/)를 참조하세요.
+관리자[&#x200B; 또는 여기 &#x200B;](configure-admin.md#configure-paypal-smart-buttons)의 레거시 구성에서 결제 단추 스타일 [!DNL Payment Services Home]을(를) 구성할 수 있습니다. PayPal 결제 단추 스타일에 대한 자세한 내용은 [PayPal의 단추 스타일 가이드](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/)를 참조하세요.
 
 #### 구성 옵션
 

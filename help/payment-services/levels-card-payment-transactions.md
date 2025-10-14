@@ -43,7 +43,7 @@ Interchange Plus(IC++)의 [!DNL Payment Services] 가맹점은 카드 네트워�
 * 사기 방지, 프로세서 위험 감소
 * 트랜잭션 보안 강화
 
-[IC란++? 참조자세한 내용은 PayPal 개발자 설명서의 ](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank}을 참조하십시오.
+[IC란++? 참조자세한 내용은 PayPal 개발자 설명서의 &#x200B;](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank}을 참조하십시오.
 
 ## [!DNL Payment Services]의 레벨 2 및 레벨 3 카드 결제 거래
 

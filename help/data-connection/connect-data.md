@@ -69,7 +69,7 @@ Experience Platform API를 호출할 수 있도록 Commerce을 인증하는 프�
    cat config/private.key | pbcopy
    ```
 
-   [ 파일에 대한 자세한 내용은 ](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/)서비스 계정(JWT) 인증`private.key`을 참조하십시오.
+   [&#x200B; 파일에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/)서비스 계정(JWT) 인증`private.key`을 참조하십시오.
 
 1. `<workspace-name>.json` 파일의 내용을 **서비스 계정/자격 증명 세부 정보** 필드(예: `"client_id"`, `"client_secrets"`, `"technical_account_email"`, `"technical_account_id"` 등)에 복사합니다.
 

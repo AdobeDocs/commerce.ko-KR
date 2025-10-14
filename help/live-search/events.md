@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # [!DNL Live Search]개 이벤트
 
-[ 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)개발자 설명서[!DNL Live Search]를 참조하세요.
+[&#x200B; 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)개발자 설명서[!DNL Live Search]를 참조하세요.

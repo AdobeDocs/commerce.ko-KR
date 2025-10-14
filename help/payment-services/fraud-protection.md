@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 상당한 사기 방지
 
-[!DNL Payment Services]Signifyd 확장[을(를) 사용하여 ](https://commercemarketplace.adobe.com/signifyd-module-connect.html)에 대해 자동 사기 방지 기능을 활성화할 수 있습니다.
+[!DNL Payment Services]Signifyd 확장[을(를) 사용하여 &#x200B;](https://commercemarketplace.adobe.com/signifyd-module-connect.html)에 대해 자동 사기 방지 기능을 활성화할 수 있습니다.
 
 Adobe Commerce은 Signifyd 버전 5.4.0 이상을 지원합니다. [!DNL Payment Services]은(는) 사전 인증 및 사후 인증 Signifyd 흐름을 지원합니다.
 

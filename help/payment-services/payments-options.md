@@ -127,11 +127,11 @@ PayPal 직불 또는 신용 카드 버튼은 체크아웃 페이지에서 볼 �
 
 PayPal 개발자 설명서에서 [나중에 결제 오퍼](https://developer.paypal.com/docs/checkout/pay-later/us/)에 대한 정보를 참조하십시오. **국가 또는 지역** 드롭다운을 사용하여 관심 지역을 선택하십시오.
 
-[!DNL Pay Later]설정[ 구성을 업데이트하여 ](configure-admin.md#pay-later-button) 메시지를 사용하지 않도록 설정하거나 사용하도록 설정하는 방법에 대해 알아봅니다.
+[!DNL Pay Later]설정[&#x200B; 구성을 업데이트하여 &#x200B;](configure-admin.md#pay-later-button) 메시지를 사용하지 않도록 설정하거나 사용하도록 설정하는 방법에 대해 알아봅니다.
 
 ##### 선택 사항입니다. 나중에 결제 메시지 구성
 
-**나중에 결제**&#x200B;에 대한 [메시지 구성](configure-admin.md#pay-later-button)을 통해 판매자는 이 결제 옵션의 기본 스타일을 수정할 수 있습니다. **[!UICONTROL Display Pay Later Message]**&#x200B;설정`Yes` 구성에서 [을(를) ](configure-admin.md#pay-later-button)(으)로 설정하면 **[!UICONTROL Configure Messaging]**&#x200B;의 스타일을 설정할 수 있도록 **[!UICONTROL PayPal Pay Later messaging]** 모달 단추가 표시됩니다.
+**나중에 결제**&#x200B;에 대한 [메시지 구성](configure-admin.md#pay-later-button)을 통해 판매자는 이 결제 옵션의 기본 스타일을 수정할 수 있습니다. **[!UICONTROL Display Pay Later Message]**&#x200B;설정`Yes` 구성에서 [을(를) &#x200B;](configure-admin.md#pay-later-button)(으)로 설정하면 **[!UICONTROL Configure Messaging]**&#x200B;의 스타일을 설정할 수 있도록 **[!UICONTROL PayPal Pay Later messaging]** 모달 단추가 표시됩니다.
 
 ![나중에 결제 메시지](assets/pay-later-messaging.png){width="500" zoomable="yes"}
 

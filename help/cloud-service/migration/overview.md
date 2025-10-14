@@ -69,7 +69,7 @@ ht-degree: 0%
 
 표에서 알 수 있듯이 각 마이그레이션에 대한 완화 기능은 다음과 같이 구성됩니다.
 
-* **데이터 마이그레이션**—기존 인스턴스에서 [(으)로 데이터를 마이그레이션하기 위해 제공된 ](./bulk-data.md)마이그레이션 도구[!DNL Adobe Commerce as a Cloud Service]를 사용합니다.
+* **데이터 마이그레이션**—기존 인스턴스에서 [(으)로 데이터를 마이그레이션하기 위해 제공된 &#x200B;](./bulk-data.md)마이그레이션 도구[!DNL Adobe Commerce as a Cloud Service]를 사용합니다.
 * **Storefront** - Edge Delivery에서 제공하는 기존 Commerce Storefront 및 Headless Storefront는 완화가 필요하지 않지만 Luma Storefront는 Edge Delivery에서 제공하는 Commerce Storefront로 마이그레이션해야 합니다. PWA Studio 스토어프론트를 Edge Delivery에서 제공하는 Commerce 스토어프론트로 마이그레이션하거나 현재 상태로 유지할 수 있습니다. Adobe은 storefront 마이그레이션을 지원하는 가속기를 제공합니다.
 * **[API Mesh](https://developer.adobe.com/graphql-mesh-gateway)**—새 Mesh를 만들거나 기존 Mesh를 수정합니다. Adobe은 이 프로세스를 지원하기 위해 사전 구성된 메쉬를 제공합니다.
 * **통합**—모든 통합은 [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) 또는 [[!DNL Adobe Commerce as a Cloud Service] REST API](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)를 활용해야 합니다.

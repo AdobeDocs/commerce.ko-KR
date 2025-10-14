@@ -54,8 +54,8 @@ retailer이 달성한 글로벌 다중 브랜드 의류:
 시작하기 전에 다음을 확인하십시오.
 
 - Real-Time CDP을 사용할 수 있도록 프로비저닝되었습니다. 확실하지 않은 경우 프로젝트 및 환경을 관리하는 시스템 통합자나 개발 팀에 문의하십시오.
-- [에서 ](install.md) 확장을 [설치](connect-data.md) 및 [!DNL Data Connection]구성[!DNL Commerce]했습니다.
-- [ 이벤트 데이터가 Experience Platform Edge에 도착하는 것을 ](connect-data.md#confirm-that-event-data-is-collected)확인[!DNL Commerce]했습니다.
+- [에서 &#x200B;](install.md) 확장을 [설치](connect-data.md) 및 [!DNL Data Connection]구성[!DNL Commerce]했습니다.
+- [&#x200B; 이벤트 데이터가 Experience Platform Edge에 도착하는 것을 &#x200B;](connect-data.md#confirm-that-event-data-is-collected)확인[!DNL Commerce]했습니다.
 
 ### &#x200B;1. 대상자 만들기
 

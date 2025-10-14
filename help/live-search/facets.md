@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >![범주 패싯](assets/facet-category.png)
 
-[의 패싯 요구 사항에 대한 자세한 내용은 ](./boundaries-limits.md#facets)경계 및 제한[!DNL Live Search]을 참조하세요.
+[의 패싯 요구 사항에 대한 자세한 내용은 &#x200B;](./boundaries-limits.md#facets)경계 및 제한[!DNL Live Search]을 참조하세요.
 
 경합할 속성이 많은 경우 속성을 하나의 &quot;meta-attribute&quot;로 결합하는 것이 좋습니다. 예를 들어, 신발은 일반적으로 숫자 크기를 가지지만 셔츠는 일반적으로 &quot;S/M/L/XL&quot; 크기를 갖습니다. 이 두 가지 유형의 크기를 하나의 검색 가능한 속성으로 결합할 수 있습니다.
 
@@ -51,7 +51,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 
 ## 기본 속성 값
 
-다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)상점 속성[!DNL Live Search]이 있습니다.
+다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)상점 속성[!DNL Live Search]이 있습니다.
 
 | 속성 | Storefront 속성 | 속성 |
 |---|---|---|

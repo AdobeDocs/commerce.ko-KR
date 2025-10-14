@@ -72,8 +72,8 @@ _2023년 6월 10일_
 
 _2023년 3월 30일_
 
-![새로 만들기](../assets/new.svg) - B2B 판매자에 대한 `data-services-b2b`구매요청 목록 이벤트[를 포함하는 ](events.md#b2b-events)(이)라는 확장이 추가되었습니다.
-![새로 만들기](../assets/new.svg) - `uniqueIdentifier`검색[ 이벤트에 ](events.md#search-events) 필드를 추가했습니다. 이 새 필드를 사용하면 판매자가 검색 요청과 검색 응답을 상호 참조할 수 있습니다.
+![새로 만들기](../assets/new.svg) - B2B 판매자에 대한 `data-services-b2b`구매요청 목록 이벤트[를 포함하는 &#x200B;](events.md#b2b-events)(이)라는 확장이 추가되었습니다.
+![새로 만들기](../assets/new.svg) - `uniqueIdentifier`검색[&#x200B; 이벤트에 &#x200B;](events.md#search-events) 필드를 추가했습니다. 이 새 필드를 사용하면 판매자가 검색 요청과 검색 응답을 상호 참조할 수 있습니다.
 
 _2022년 10월 12일_
 
@@ -104,7 +104,7 @@ _2025년 1월 17일_
 
 [!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) - 상인이 [ 백 오피스 이벤트 데이터를 Experience Platform과 공유하고 HIPAA 준수를 유지할 수 있도록 ](hipaa-readiness.md)HIPAA 지원 확장[!DNL Data Connection]을 [!DNL Commerce]에 추가했습니다.
+![새로 만들기](../assets/new.svg) - 상인이 [&#x200B; 백 오피스 이벤트 데이터를 Experience Platform과 공유하고 HIPAA 준수를 유지할 수 있도록 &#x200B;](hipaa-readiness.md)HIPAA 지원 확장[!DNL Data Connection]을 [!DNL Commerce]에 추가했습니다.
 ![수정](../assets/fix.svg) - [!DNL Data Connection] 확장에서 `eventForwarding` 데이터를 덮어쓰고 모든 고객에 대해 `HIPAA` 플래그를 설정하는 문제가 해결되었습니다. 이제 확장은 HIPAA 고객에 대한 플래그만 설정합니다.
 
 ## 3.2.0
@@ -114,7 +114,7 @@ _2024년 10월 7일_
 [!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) - 백 오피스 데이터에 대한 [사용자 지정 순서 특성](custom-attributes.md)을(를) 만드는 기능이 추가되었습니다.
-![새로 만들기](../assets/new.svg) - [에 구성되어 Experience Platform으로 전송된 사용자 지정 특성을 보는 데 도움이 되는 새 ](connect-data.md#data-customization)사용자 지정 순서 특성[!DNL Commerce] 테이블을 추가했습니다.
+![새로 만들기](../assets/new.svg) - [에 구성되어 Experience Platform으로 전송된 사용자 지정 특성을 보는 데 도움이 되는 새 &#x200B;](connect-data.md#data-customization)사용자 지정 순서 특성[!DNL Commerce] 테이블을 추가했습니다.
 ![새로 만들기](../assets/new.svg) - [프로필 레코드 수집 및 보내기](connect-data.md#send-customer-profile-data) 및 데이터를 Experience Platform에 보내는 기능이 추가되었습니다.
 
 ## 3.2.0-베타3
@@ -189,7 +189,7 @@ _2023년 10월 10일_
 주요 버전 릴리스입니다. 프로젝트의 루트 작성기.json 파일을 [편집](install.md#update-the-data-connection)합니다.
 
 ![새로 만들기](../assets/new.svg) - [내역 주문 보내기](connect-data.md#send-historical-order-data) 데이터 및 상태를 Experience Platform에 대한 일반 가용성.
-![새로 만들기](../assets/new.svg) - [ 확장을 ](connect-data.md#connect-commerce-data-to-adobe-experience-platform)구성[!DNL Data Connection]할 때 OAuth 2.0에 대한 지원이 추가되었습니다.
+![새로 만들기](../assets/new.svg) - [&#x200B; 확장을 &#x200B;](connect-data.md#connect-commerce-data-to-adobe-experience-platform)구성[!DNL Data Connection]할 때 OAuth 2.0에 대한 지원이 추가되었습니다.
 ![새로 만들기](../assets/new.svg) - Adobe Commerce 2.4.3에 대한 지원이 종료되었습니다.
 
 ## 2.3.0
