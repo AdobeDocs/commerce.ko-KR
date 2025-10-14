@@ -53,7 +53,7 @@ _2025년 1월 31일_
 
 _2024년 9월 19일_
 
-고급 검색 기능인 ![ 및 ](../assets/new.svg)을(를) 사용한 계층화된 검색에 대한 `startsWith`새로운`contains` Beta 릴리스. [자세히 알아보기](workspace.md#layered-search-and-expansion-of-search-types)
+고급 검색 기능인 ![&#x200B; 및 &#x200B;](../assets/new.svg)을(를) 사용한 계층화된 검색에 대한 `startsWith`새로운`contains` Beta 릴리스. [자세히 알아보기](workspace.md#layered-search-and-expansion-of-search-types)
 
 _2024년 9월 4일_
 
@@ -104,8 +104,8 @@ _2025년 10월 9일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-고급 검색 기능인 ![ 및 ](../assets/new.svg)을(를) 사용한 계층화된 검색에 대한 `startsWith`새로운`contains` GA 릴리스. [자세히 알아보기](workspace.md#layered-search-and-expansion-of-search-types).
-![수정](../assets/fix.svg) `ProductInterface`Live Search[ 서비스의 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 개체가 더 이상 사용되지 않습니다. 대신 카탈로그 서비스의 `ProductView` 개체를 사용하십시오.
+고급 검색 기능인 ![&#x200B; 및 &#x200B;](../assets/new.svg)을(를) 사용한 계층화된 검색에 대한 `startsWith`새로운`contains` GA 릴리스. [자세히 알아보기](workspace.md#layered-search-and-expansion-of-search-types).
+![수정](../assets/fix.svg) `ProductInterface`Live Search[&#x200B; 서비스의 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 개체가 더 이상 사용되지 않습니다. 대신 카탈로그 서비스의 `ProductView` 개체를 사용하십시오.
 
 ## [!DNL Live Search] 4.5.0
 
@@ -181,7 +181,7 @@ _2024년 5월 16일_
 
 ### 업데이트
 
-![수정](../assets/fix.svg) 범주의 [`productSearch` 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath``categoryList` GraphQL 쿼리를 수정했습니다.
+![수정](../assets/fix.svg) 범주의 [`productSearch` 및 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-by-categories)을(를) 기반으로 올바르게 필터링하도록 `categoryPath` `categoryList` GraphQL 쿼리를 수정했습니다.
 
 ## [!DNL Live Search] 4.1.1
 
@@ -327,7 +327,7 @@ _2023년 3월 14일_
 - 맨 아래에 고정 - 제품을 결과의 맨 아래에 배치합니다.
 - 한 번의 클릭으로 이벤트 고정 해제
 ![새로 만들기](../assets/new.svg) [규칙에 대한 지능형 순위](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)
-![신규](../assets/new.svg) [!DNL Live Search]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 ](install.md#update)업데이트`commerce-data-export`해야 합니다.
+![신규](../assets/new.svg) [!DNL Live Search]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 &#x200B;](install.md#update)업데이트`commerce-data-export`해야 합니다.
 
 #### 업데이트
 
@@ -380,7 +380,7 @@ _2023년 3월 14일_
 
 [!BADGE 지원됨]{type="Informative" tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로운 ](../assets/new.svg) 라이브 검색은 이제 범주 권한, 공유 카탈로그 및 고객 그룹별 가격을 준수하여 B2B 기능을 지원합니다.
+![새로운 &#x200B;](../assets/new.svg) 라이브 검색은 이제 범주 권한, 공유 카탈로그 및 고객 그룹별 가격을 준수하여 B2B 기능을 지원합니다.
 
 이러한 기능에 액세스하려면 판매자가 [!DNL Live Search] 확장 버전 >= 2.0.3을 업그레이드해야 합니다.
 
@@ -395,7 +395,7 @@ _2023년 3월 14일_
 ![새로 만들기](../assets/new.svg) [!DNL Live Search]은(는) 이제 Adobe Commerce 2.4.4를 실행하는 설치에서 PHP 8.1을 지원합니다.
 ![새로 만들기](../assets/new.svg) 설치하는 동안 사용하지 않도록 설정된 모듈 목록에 `Magento_ElasticsearchCatalogPermissionsGraphQl` 모듈이 추가됩니다.
 ![새로 만들기](../assets/new.svg) [[!DNL storefront popover]](overview.md)관리자&#x200B;*에서*의 사용 가능한 줄 수를 구성할 수 있습니다.
-![에 대해 ](../assets/new.svg)새[ Beta ](https://developer.adobe.com/commerce/pwa-studio/)PWA[!DNL Live Search]이(가) 지원됩니다.
+![에 대해 &#x200B;](../assets/new.svg)새[&#x200B; Beta &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)PWA[!DNL Live Search]이(가) 지원됩니다.
 ![새로 만들기](../assets/new.svg) [!DNL Live Search] 설치 프로세스가 고급 프로세스 변경 내용으로 업데이트됩니다.
 ![수정](../assets/fix.svg) [고급 검색](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) 링크가 상점 바닥글에서 제거되었습니다.
 ![버그](../assets/bug.svg) 다음 제품 특성은 PWA의 베타 릴리스와 관련하여 사용할 때 [Commerce GraphQL API](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)에서 지원되지 않습니다. `description`, `name`, `short_description`
