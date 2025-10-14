@@ -3,8 +3,8 @@ title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 061b976872fae614cf1fb3db5aaabd9ffdc5e0f9
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 911d984efa9587c0154db3ab97f6136bf6c34166
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 다음 구성 요소로 구성됩니다.
 
-* **[Adobe Experience Cloud](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 &#x200B;](https://experience.adobe.com/) 제품에 대한 중앙 진입점
+* **[Adobe Experience Cloud](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 ](https://experience.adobe.com/) 제품에 대한 중앙 진입점
    * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
 * **[Commerce Cloud 관리자](https://experience.adobe.com/#/commerce/cloud-service)** - 인스턴스 만들기 및 관리, API URL 액세스 및 Commerce 관리자
 * **[Adobe Admin Console](https://adminconsole.adobe.com/)** - 사용자 및 역할 관리
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!TAB 시스템 관리자 및 판매자 워크플로]
 
-이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/enterprise/admin-guide.html)를 참조하십시오.
 
 ![[!DNL Adobe Commerce as a Cloud Service] 판매자 흐름 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -96,7 +96,6 @@ ht-degree: 0%
 | 사용 사례 살펴보기 | 실용적인 비즈니스 시나리오 및 워크플로 알아보기 | [사용 사례](./use-cases.md) |
 | 카탈로그 가져오기 | 제품 데이터를 플랫폼으로 가져오는 방법에 대해 알아봅니다 | [카탈로그 가져오기](#import-your-catalog) |
 | AEM Assets 및 제품 비주얼에 액세스 (선택 사항) | AEM Assets 및 제품 비주얼을 사용하려면 experience manager에 액세스하십시오 | [Experience Manager 인터페이스에 액세스](./user-management.md#access-the-experience-manager-interface) |
-
 
 >[!TAB 개발자]
 
@@ -198,7 +197,7 @@ ht-degree: 0%
 
 카탈로그를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 가져오는 방법에는 두 가지가 있습니다.
 
-* [**Commerce 관리자**](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
+* [**Commerce 관리자**](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
 * [**JSON API 가져오기**](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - 카탈로그 데이터를 프로그래밍 방식으로 가져올 수 있는 REST API입니다.
 
 ### 상점 배치
@@ -209,4 +208,4 @@ ht-degree: 0%
 
 * [릴리스 정보](release-notes.md)
 * [마이그레이션 안내서](migration/overview.md)
-* [Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+* [Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
