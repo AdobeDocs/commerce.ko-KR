@@ -131,7 +131,7 @@ ht-degree: 0%
 1. 양식을 작성합니다.
 1. 영업팀 직원이 연락을 드릴 것입니다.
 
-또는 [business.adobe.com](https://business.adobe.com/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
+또는 [business.adobe.com](https://business.adobe.com/kr/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
 
 >[!IMPORTANT]
 >
