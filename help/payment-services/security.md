@@ -3,10 +3,10 @@ title: 보안 및 규정 준수
 description: 사이트에 대한 보안 및 규정 준수 요구 사항을 검토합니다.
 exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
-redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html?lang=ko
-source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
+redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html
+source-git-commit: 999407f00b118441abe39209a15f587ec73fa75d
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]은(는) 여러 보안 기능을 지원합니다.
 
-보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security){target="_blank"}을 참조하십시오.
+보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"}을 참조하십시오.
 
 ## PCI 준수
 
 PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제를 받는 사업자를 위한 일련의 요구 사항을 수립했습니다. 고객 신용카드 정보를 취급하는 가맹점은 안전한 환경 유지와 더불어 몇 가지 표준 가이드라인을 준수할 책임이 있다.
 
-자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
+자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
 
 가맹점은 카드 소지자 데이터에 대한 보안을 평가하는 자체 유효성 검사 도구인 [SAQ(자체 평가 설문)](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}을(를) 완료할 수 있습니다.
 
@@ -39,17 +39,17 @@ PCI 3D Secure(3DS)는 온라인 신용 카드 구매 시 신용 카드 발급자
 
 [!UICONTROL Payment Services]은(는) 가맹점이 EU 규정을 준수할 수 있도록 하고 고객 및 가맹점의 사기 행위로부터 고객을 보호할 수 있는 3DS 기능을 제공합니다.
 
-EU 또는 영국 내에서 3DS 준수가 필요한 판매자인 경우 `Off`구성 관리자[에서 수동으로 3DS(기본적으로 &#x200B;](configure-admin.md#credit-card-fields)임)를 켜야 합니다.
+EU 또는 영국 내에서 3DS 준수가 필요한 판매자인 경우 `Off`구성 관리자[에서 수동으로 3DS(기본적으로 ](configure-admin.md#credit-card-fields)임)를 켜야 합니다.
 
 >[!IMPORTANT]
 >
 >3DS 요건은 회사 및 카드 소유자의 은행이 [유럽 경제 지역](https://www.efta.int/eea)&#x200B;(EEA) 및 영국에 있는 거래에 적용됩니다. 미국 상인은 3DS를 필요로 하지 않지만, 원할 경우 거래에 사용할 수 있습니다.
 
-판매자/점포 직원이 구매자를 위해 발주한 주문은 3DS 준수 조치로 구성되지 않는다.
+상인이나 점포직원이 구매자에게 발주한 주문은 3DS 준수 조치로 구성되지 않는다. 그러나 카드 발급자에 3DS가 필요한 경우 [!UICONTROL Payment Services] 구성에 관계없이 이 단계를 건너뛸 수 없습니다.
 
 >[!MORELIKETHIS]
 >
-> * 자세한 내용은 [&#x200B; 설정의 &#x200B;](configure-admin.md#3ds)3DS를 참조하십시오.
+> * 자세한 내용은 [ 설정의 ](configure-admin.md#3ds)3DS를 참조하십시오.
 > * 3DS 테스트를 위한 특정 신용 카드에 대한 자세한 내용은 PayPal 개발자 설명서에서 [테스트 카드](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/)를 참조하십시오.
 
 ### 카드 보관
