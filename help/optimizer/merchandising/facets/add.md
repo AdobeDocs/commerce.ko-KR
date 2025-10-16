@@ -1,9 +1,9 @@
 ---
 title: 패싯 만들기 및 관리
 description: ' [!DNL Adobe Commerce Optimizer]에서 패싯을 추가하고 관리하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d6b7ff1f-a9b8-4fb8-8bd3-b3596695045c
-source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
+source-git-commit: dc751a54c654980a29606c85cdd1cd3324973aab
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
    패싯이 *동적 패싯* 목록의 맨 아래에 추가되고 *변경 사항 게시* 단추를 사용할 수 있습니다.
 
-1. 추가할 패싯을 찾을 수 없는 경우 [메타데이터 API](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)를 사용하여 `searchable` 매개 변수를 설정하십시오.
+1. 추가할 패싯을 찾을 수 없는 경우 [메타데이터 API](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)를 사용하여 `filterable` 매개 변수를 설정하십시오.
 
-   `"searchable": true`
+   `"filterable": true`
 
    다음에 카탈로그를 [!DNL Adobe Commerce Optimizer]과(와) 동기화할 때 Facet을 상점 앞에서 사용할 수 있게 됩니다. 패싯을 두 시간 후에 사용할 수 없으면 [데이터 동기화](../../setup/data-sync.md)를 참조하세요.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 목록에서 패싯을 찾고 (![추가 선택기](../../assets/btn-more.png)) 추가 선택기를 클릭합니다.
 1. **삭제**&#x200B;를 클릭합니다.
-1. 확인 메시지가 표시되면 **패싯 삭제**&#x200B;를 클릭합니다.
+1. 확인 메시지가 표시되면 **패싯 삭제**를 클릭합니다.
 Facet은 변경 사항이 게시된 후 상점 첫 화면에서 제거됩니다.
 
 ## 변경 사항 게시
