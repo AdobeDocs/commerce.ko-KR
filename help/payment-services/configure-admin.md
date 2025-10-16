@@ -29,7 +29,7 @@ ht-degree: 0%
 1. _[!UICONTROL [!DNL Payment Services]]_&#x200B;섹션에서&#x200B;_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
 1. **사용**&#x200B;의 경우 스토어에 대해 `Yes`을(를) 사용하려면 [!DNL Payment Services]&#x200B;(으)로 설정하십시오.
 1. **메서드**&#x200B;의 경우 스토어에 대해 `Sandbox`을(를) 테스트하는 경우 [!DNL Payment Services]&#x200B;(으)로 설정하고, 실시간 결제를 활성화할 준비가 된 경우 `Production`(으)로 설정하십시오.
-1. **[!UICONTROL Payment Services Sandbox ID]** Commerce 서비스 커넥터&#x200B;**[!UICONTROL Payment Services Production ID]**&#x200B;를 설정하고 [&#x200B; 대시보드를 처음 방문하면 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} 및 [!DNL Payment Services] 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
+1. **[!UICONTROL Payment Services Sandbox ID]** Commerce 서비스 커넥터&#x200B;**[!UICONTROL Payment Services Production ID]**&#x200B;를 설정하고 [&#x200B; 대시보드를 처음 방문하면 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} 및 [!DNL Payment Services] 값이 자동으로 채워집니다. 이렇게 하여 샌드박스 및/또는 프로덕션 환경에 대한 온보딩을 완료합니다. 이 값은 SaaS ID를 [!DNL Payment Services]에 연결합니다.
 
    >[!WARNING]
    >
@@ -80,7 +80,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 신용 카드 필드를 활성화 또는 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](vaulting.md)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
@@ -121,7 +121,7 @@ ht-degree: 0%
 |---|---|---|
 | [!UICONTROL Enable Fastlane] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL Fastlane]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 기본값은 `Credit Card (via Fastlane)`입니다. 옵션: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL 3D Secure authentication] | 스토어 뷰 | Fastlane에 대한 [3D 보안 인증](security.md#3ds)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Enable messaging] | 스토어 뷰 | Adobe Commerce에서 체크아웃하는 동안 [!UICONTROL Fastlane] 브랜딩을 사용할지 여부를 지정하십시오. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -194,7 +194,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 [!DNL Apple Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL Apple Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -231,7 +231,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에 이 결제 옵션에 대해 표시되는 텍스트 레이블을 지정합니다. 옵션: `[!UICONTROL text field]` |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html). 옵션: `[!UICONTROL Authorize]` / `[!UICONTROL Authorize and Capture]` |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko). 옵션: `[!UICONTROL Authorize]` / `[!UICONTROL Authorize and Capture]` |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 체크아웃 페이지에서 [!DNL Google Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Sort order] | 스토어 뷰 | 체크아웃 페이지에서 지정된 결제 방법에 대한 정렬 순서. `Numeric Only` 값 |
 | [!UICONTROL Show buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL Google Pay]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -282,7 +282,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: 텍스트 필드 |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Display Pay Later Message] | 웹 사이트 | 장바구니, 제품 페이지, 미니 장바구니에서, 그리고 체크아웃 흐름 중에 PayPal 나중에 결제 메시지를 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Configure Messaging] | 스토어 뷰 | PayPal Pay Later 메시징 스타일을 수정합니다. 옵션: `[!UICONTROL Product page]` / `[!UICONTROL Cart]` |
 | [!UICONTROL Show buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
@@ -332,7 +332,7 @@ Apple Pay, Venmo 또는 PayPal PayLater 단추를 전환하는 등 _설정_&#x20
 
 캐시 관리 테이블의 캐시 유형이 `INVALIDATED` 상태인 경우 저장소에 해당 항목에 대한 최신 구성이 표시되지 않을 수 있습니다. 최신 구성을 표시하도록 저장소를 업데이트하려면 캐시를 플러시하십시오.
 
-저장소에 올바른 구성이 표시되는지 확인하려면 주기적으로 [캐시를 플러시](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management)합니다.
+저장소에 올바른 구성이 표시되는지 확인하려면 주기적으로 [캐시를 플러시](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management)합니다.
 
 ## 카드 보관
 
@@ -354,11 +354,11 @@ Apple Pay, Venmo 또는 PayPal PayLater 단추를 전환하는 등 _설정_&#x20
 
 ## 여러 PayPal 계정 사용
 
-[!UICONTROL Payment Services]에서 웹 사이트 수준의 **one** 판매자 계정 내에서 여러 PayPal 계정을 사용할 수 있습니다. 예를 들어, 여러 국가([다양한 통화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency) 사용)에서 스토어를 운영하거나 비즈니스의 일부에 Adobe Commerce을 사용하려고 하지만 _모두_&#x200B;는 사용하지 않으려는 경우, 판매자 계정을 설정하여 여러 PayPal 계정을 사용할 수 있습니다.
+[!UICONTROL Payment Services]에서 웹 사이트 수준의 **one** 판매자 계정 내에서 여러 PayPal 계정을 사용할 수 있습니다. 예를 들어, 여러 국가([다양한 통화](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/currency/currency) 사용)에서 스토어를 운영하거나 비즈니스의 일부에 Adobe Commerce을 사용하려고 하지만 _모두_&#x200B;는 사용하지 않으려는 경우, 판매자 계정을 설정하여 여러 PayPal 계정을 사용할 수 있습니다.
 
-웹 사이트, 스토어 및 스토어 보기의 계층 구조에 대한 자세한 내용은 [사이트, 스토어 및 보기 범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)를 참조하십시오.
+웹 사이트, 스토어 및 스토어 보기의 계층 구조에 대한 자세한 내용은 [사이트, 스토어 및 보기 범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)를 참조하십시오.
 
 CLI를 통해 여러 PayPal 계정에 대한 범위를 구성하는 방법에 대한 자세한 내용은 [명령줄 구성](configure-cli.md#configure-scope-via-cli)을 참조하십시오.
 
-영업 사원은 판매자 계정에 대한 새 [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)을(를) 만들고 PayPal로 추가 사이트를 온보딩하여 표시되는 PayPal 단추가 사이트에 표시되도록 할 수 있습니다. 영업 담당자에게 문의
+영업 사원은 판매자 계정에 대한 새 [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)을(를) 만들고 PayPal로 추가 사이트를 온보딩하여 표시되는 PayPal 단추가 사이트에 표시되도록 할 수 있습니다. 영업 담당자에게 문의
 웹 사이트에서 여러 PayPal 계정을 사용하는 데 도움이 되는 담당자.

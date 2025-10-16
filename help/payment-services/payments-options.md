@@ -156,7 +156,7 @@ PayPal 개발자 설명서에서 [나중에 결제 오퍼](https://developer.pay
 1. 스토어가 [프로덕션 모드](configure-admin.md#enable-payment-services)에 있는지 확인하십시오.
 1. [원하는 PayPal 결제 단추를 구성하십시오](configure-admin.md#payment-buttons).
 1. _섹션에서_ 옵션을 **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)**&#x200B;끄기&#x200B;_[!UICONTROL Payment buttons]_&#x200B;합니다.
-1. _섹션에서_ 옵션을 **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)**&#x200B;해제&#x200B;_[!UICONTROL Credit card fields]_&#x200B;하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments)을 사용하세요.
+1. _섹션에서_ 옵션을 **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)**&#x200B;해제&#x200B;_[!UICONTROL Credit card fields]_&#x200B;하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=ko#payments)을 사용하세요.
 
 ## 체크아웃 옵션
 
