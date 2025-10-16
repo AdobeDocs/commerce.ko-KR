@@ -16,7 +16,7 @@ ht-degree: 0%
 
 관리자의 유용한 구성 옵션을 사용하여 필요에 맞게 [!DNL Payment Services]을(를) 사용자 지정할 수 있습니다.
 
-관리자의 [!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대해 [!DNL Magento Open Source]을(를) 구성할 때 해당 구성은 _[!UICONTROL Method]_&#x200B;의_[!UICONTROL General Configuration]_ 필드에 설정된 환경에만 적용됩니다. 구성 필드에서 변경한 내용은 _[!UICONTROL Method]_&#x200B;선택 항목을 전환하는 것과 관련이 없습니다. 메서드를 전환하는 경우 선택 항목이 재설정되지 않습니다.
+관리자의 [!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대해 [!DNL Magento Open Source]을(를) 구성할 때 해당 구성은 _[!UICONTROL Method]_&#x200B;의&#x200B;_[!UICONTROL General Configuration]_ 필드에 설정된 환경에만 적용됩니다. 구성 필드에서 변경한 내용은 _[!UICONTROL Method]_&#x200B;선택 항목을 전환하는 것과 관련이 없습니다. 메서드를 전환하는 경우 선택 항목이 재설정되지 않습니다.
 
 ## 일반 구성
 
