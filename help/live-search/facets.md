@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >![범주 패싯](assets/facet-category.png)
 
-[의 패싯 요구 사항에 대한 자세한 내용은 ](./boundaries-limits.md#facets)경계 및 제한[!DNL Live Search]을 참조하세요.
+[의 패싯 요구 사항에 대한 자세한 내용은 &#x200B;](./boundaries-limits.md#facets)경계 및 제한[!DNL Live Search]을 참조하세요.
 
 경합할 속성이 많은 경우 속성을 하나의 &quot;meta-attribute&quot;로 결합하는 것이 좋습니다. 예를 들어, 신발은 일반적으로 숫자 크기를 가지지만 셔츠는 일반적으로 &quot;S/M/L/XL&quot; 크기를 갖습니다. 이 두 가지 유형의 크기를 하나의 검색 가능한 속성으로 결합할 수 있습니다.
 
