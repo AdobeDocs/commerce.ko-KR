@@ -101,7 +101,7 @@ Facet에 대해 자세히 알아보기:
 
 항상 검색 리디렉션을 테스트하여 제대로 작동하는지, 가장 관련성이 높은 페이지로 연결되는지 확인하십시오. 지속적으로 성능을 모니터링하고 필요에 따라 조정합니다.
 
-[검색 리디렉션을 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
+[검색 리디렉션을 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
 
 ## 검색 결과 관련성 개선
 
@@ -155,7 +155,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 
