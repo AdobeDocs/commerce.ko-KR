@@ -3,9 +3,9 @@ title: 정확하고 관련 있는 컨텐츠 유지
 description: 전자 상거래 플랫폼은 가장 중요한 참여 채널 중 하나입니다. 자산 관리 시스템에서 원활한 업데이트를 보장하면 상거래 상점 전면이 항상 최신 제품 정보를 표시할 수 있습니다.
 feature: CMS, Media, Integration
 exl-id: 2c749e84-fcc4-4bf9-90b2-87438329889e
-source-git-commit: 6640635fca5c53fe4b06b9bbb3120fffc46cb0b8
+source-git-commit: 141f2291d1ead324a159053145e92ee7d4237a7d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ AEM Assets 통합은 **관리자**&#x200B;에서 또는 **API**&#x200B;을(를) 
 * 자산 생성으로 카탈로그 변경이 지연되지 않으므로 새 제품 관리에 대한 민첩성이 향상되므로 제품 업데이트가 빠르게 유지됩니다.
 
 * 자동화는 효율성과 정확성을 향상시켜 제품 데이터와 관련 컨텐츠 간의 불일치를 줄입니다.
+
+>[!NOTE]
+>
+> PaaS 및 SaaS의 CSV 제품 가져오기는 업데이트 이벤트를 트리거하지 않습니다. 카탈로그 가져오기 및 업데이트에 API를 사용하십시오.
 
 ## AEM Assets 수명주기 변경 사항
 
