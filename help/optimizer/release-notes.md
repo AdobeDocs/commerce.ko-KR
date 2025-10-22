@@ -3,7 +3,7 @@ title: 릴리스 정보
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 최신 릴리스 정보입니다.'
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
