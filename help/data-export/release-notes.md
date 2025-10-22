@@ -4,7 +4,7 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 9cca531a5f50850366a1c942fcda71eacecef5d0
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 103.4.14 릴리스
 
-![수정](../assets/fix.svg) [&#x200B; 테이블이 없으면 &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
+![수정](../assets/fix.svg) [ 테이블이 없으면 ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
 
 ## 103.4.13 릴리스
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 103.4.11 릴리스
 
-![새로 만들기](../assets/new.svg) [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+![새로 만들기](../assets/new.svg) [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 제품 피드에 Commerce 제품 구성의 세금 클래스, 속성 세트 및 재고 데이터를 포함하도록 추가 제품 속성에 대한 지원을 추가했습니다. 제품 내보내기 피드에 이러한 속성을 포함하려는 고객은 추가 제품 속성 모듈을 Adobe Commerce 프로젝트에 추가해야 합니다. [세금 클래스, 특성 집합 및 재고 특성 추가](add-tax-attribute-set-inventory-attributes.md)를 참조하십시오.<!--MDEE-1135-->
 ![수정](../assets/fix.svg) 전체 제품 색인 중에 오류가 발생한 경우 삭제된 제품 업데이트에 대해 잘못 동기화되는 문제를 해결했습니다. 이제 인덱싱 프로세스 중에 오류가 발생하더라도 모든 제품 삭제가 올바르게 동기화됩니다. <!--MDEE-1144-->
 
@@ -218,14 +218,18 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 ![새로 만들기](../assets/new.svg) 피드를 즉시 내보내는 크론 작업이 `*_feed_resend_failed_items`(으)로 이름이 변경되었습니다.
 
 ![새로 만들기](../assets/new.svg) 즉각적인 내보내기 피드, 인덱서 보기 ID 및 변경 로그 테이블의 이름이 변경되었습니다.
+
 - 피드 테이블(및 인덱서 보기 ID):
+
    - `catalog_data_exporter_products` -> `cde_products_feed`
    - `catalog_data_exporter_product_attributes` -> `cde_product_attributes_feed`
    - `catalog_data_exporter_categories` -> `cde_categories_feed`
    - `catalog_data_exporter_product_prices` -> `cde_product_prices_feed`
    - `catalog_data_exporter_product_variants` -> `cde_product_variants_feed`
    - `inventory_data_exporter_stock_status` -> `inventory_data_exporter_stock_status_feed`
+
 - 로그 테이블 이름 변경 - 피드 테이블과 동일한 이름 지정 패턴을 따르지만 로그 테이블 이름 변경에는 `_cl` 접미사가 추가됩니다.  예: `catalog_data_exporter_products_cl`-> `cde-products_feed_cl`
+
 이러한 엔티티를 참조하는 사용자 지정 코드가 있는 경우 코드가 계속 제대로 작동하도록 참조를 새 이름으로 업데이트하십시오.
 
 ![수정](../assets/fix.svg) 필요한 피드에 대해서만 피드 데이터의 `modified_at` 필드를 설정합니다.

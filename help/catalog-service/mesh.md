@@ -4,7 +4,7 @@ description: Adobe Commerce용 [!DNL API Mesh]은(는) 공통 GraphQL 끝점을 
 role: Admin, Developer
 feature: Services, API Mesh, Catalog Service
 exl-id: 903f4f96-6dba-4c45-8106-76d9845544ec
-source-git-commit: ca0b2b2a158b9a376724b30c80a6bf9a60e3d1ba
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## API Mesh 연결 및 구성.
 
-1. _API Mesh 개발자 안내서_&#x200B;의 [Mesh 만들기](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/)에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
+1. [API Mesh 개발자 안내서](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/)의 _Mesh 만들기_&#x200B;에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
 
    API Mesh를 처음 사용하는 경우 [시작 프로세스](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)를 완료한 후 메쉬를 만드십시오.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
    }
    ```
 
-1. [Adobe I/O Extensible CLI](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli)를 사용하여 `CommerceCatalogServiceGraph` 소스를 메쉬에 추가하십시오.
+1. `CommerceCatalogServiceGraph`Adobe I/O Extensible CLI[를 사용하여 ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli) 소스를 메쉬에 추가하십시오.
 
    ```bash
    aio api-mesh source install "CommerceCatalogServiceGraph" -f variables.json
@@ -50,7 +50,7 @@ API Mesh를 사용하면 외부 데이터 소스를 사용하여 Adobe Commerce 
 ### 계층 가격 활성화
 
 이 예에서는 API Mesh를 사용하여 Adobe Commerce에서 계층 가격을 활성화합니다.
-`name `, `endpoint` 및 `x-api-key` 값을 바꿉니다.
+`name`, `endpoint` 및 `x-api-key` 값을 바꿉니다.
 
 ```json
 {
@@ -165,7 +165,7 @@ query {
 
 ### 엔티티 ID 가져오기
 
-이 메쉬는 ProductView 인터페이스에 `entityId`을(를) 추가합니다. `name `, `endpoint` 및 `x-api-key` 값을 바꿉니다.
+이 메쉬는 ProductView 인터페이스에 `entityId`을(를) 추가합니다. `name`, `endpoint` 및 `x-api-key` 값을 바꿉니다.
 
 ```json
 {

@@ -1,9 +1,9 @@
 ---
 title: 패싯 개요
 description: ' [!DNL Adobe Commerce Optimizer] 의 패싯과 패싯이 검색 결과를 개선하는 방법에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
-source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 | 고리 | 예 |
 | 색상 | 예 |
 | 비용 | 예 |
-| eco_collection |
+| eco_collection |  |
 | 성별 | 예 |
 | 제조업체 | 예 |
 | 재질 | 예 |

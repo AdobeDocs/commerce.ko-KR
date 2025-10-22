@@ -3,8 +3,8 @@ title: 사용 사례
 description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.'
 role: User, Leader
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 47eb8ee55bb093767f76aa23df8bb347ee280aae
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -156,7 +156,7 @@ Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 �
 
 1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목 SKU 또는 제품 코드를 확인합니다.
 
-1. [!UICONTROL AEM Assets]Adobe Experience Cloud[에서 선택하여 &#x200B;](https://experience.adobe.com/#/home)을(를) 엽니다.
+1. [!UICONTROL AEM Assets]Adobe Experience Cloud[에서 선택하여 ](https://experience.adobe.com/#/home)을(를) 엽니다.
 
    ![aem 자산](./assets/select-aem-assets.png){width="600" zoomable="yes"}
 
@@ -198,7 +198,7 @@ Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 �
 
 #### Commerce AEM Assets에 이미지 추가
 
-1. AEM as a Cloud Service의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 **Assets** > **파일** > **Commerce**&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. AEM as a Cloud Service의 [탐색 패널](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 **Assets** > **파일** > **Commerce**&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![상거래 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -248,7 +248,7 @@ Adobe Commerce의 변형 생성 은 생성 AI를 활용하여 고품질 콘텐�
 
 ### 텍스트 생성
 
-1. [유니버설 편집기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
+1. [유니버설 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
 
 1. 편집할 텍스트 블록을 선택합니다.
 
@@ -262,7 +262,7 @@ Adobe Commerce의 변형 생성 은 생성 AI를 활용하여 고품질 콘텐�
 
 ### 컨텐츠 및 이미지 생성
 
-1. [변형 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
+1. [변형 생성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
 
 1. [!UICONTROL **영웅 배너**] 템플릿을 선택하십시오.
 
@@ -290,30 +290,36 @@ Adobe Commerce의 변형 생성 은 생성 AI를 활용하여 고품질 콘텐�
 이러한 자습서를 시도할 때 직면하는 문제를 해결하려면 다음 제안을 사용하십시오.
 
 * 명령 또는 플래그에 대한 지침이 필요한 경우:
+
    1. 사용 가능한 모든 명령과 플래그를 보려면 `aio --help`을(를) 실행하십시오.
    1. 특정 명령의 경우 `--help` 플래그를 사용하십시오. For example:
       * `aio console --help`
       * `aio commerce –help`
 
 * 잘못된 로그인 문제가 발생하는 경우:
-   1. `aio config clear ` 실행.
-   1. `aio auth login –-force ` 실행.
+
+   1. `aio config clear` 실행.
+   1. `aio auth login –-force` 실행.
    1. 브라우저에서 로그인합니다.
    1. 프로필을 선택합니다.
    1. 계속하려면 터미널로 다시 전환하십시오.
 
 * `init` 명령이 실패한 경우:
+
    1. `aio api-mesh delete` 실행.
    1. `aio commerce init` 다시 실행
 
 * `init` 명령을 실행하기 전에 잘못된 조직, 프로젝트 또는 작업 영역을 선택한 경우:
+
    1. `aio console org select` 실행.
    1. `aio console project select` 실행.
    1. `aio console workspace select` 실행.
 
 * 잘못된 테넌트 선택이 있는 경우:
+
    1. **Ctrl-C**&#x200B;을 눌러 현재 CLI 실행을 취소합니다.
    1. `aio commerce init` 실행.
 
 * 잘못된 API Mesh 설치가 발생하는 경우:
+
    * `aio api-mesh update mesh-config.json` 실행.
