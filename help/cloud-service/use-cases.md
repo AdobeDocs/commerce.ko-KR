@@ -156,7 +156,7 @@ Adobe Commerce의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 �
 
 1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목 SKU 또는 제품 코드를 확인합니다.
 
-1. [!UICONTROL AEM Assets]Adobe Experience Cloud[에서 선택하여 ](https://experience.adobe.com/#/home)을(를) 엽니다.
+1. [!UICONTROL AEM Assets]Adobe Experience Cloud[에서 선택하여 &#x200B;](https://experience.adobe.com/#/home)을(를) 엽니다.
 
    ![aem 자산](./assets/select-aem-assets.png){width="600" zoomable="yes"}
 

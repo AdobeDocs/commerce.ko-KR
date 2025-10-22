@@ -33,7 +33,7 @@ ht-degree: 0%
    }
    ```
 
-1. `CommerceCatalogServiceGraph`Adobe I/O Extensible CLI[를 사용하여 ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli) 소스를 메쉬에 추가하십시오.
+1. `CommerceCatalogServiceGraph`Adobe I/O Extensible CLI[를 사용하여 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli) 소스를 메쉬에 추가하십시오.
 
    ```bash
    aio api-mesh source install "CommerceCatalogServiceGraph" -f variables.json

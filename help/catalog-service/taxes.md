@@ -111,7 +111,7 @@ ht-degree: 0%
 * `ComplexProductView` 및 `SimpleProductView` 형식을 `priceWithTaxes`(이)라는 새 필드로 확장합니다.
 * 새 필드에 대한 사용자 지정 해결 프로그램을 추가합니다.
 
-[ 파일을 사용하여 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1)create 명령`mesh.json`으로 메쉬를 만듭니다.
+[&#x200B; 파일을 사용하여 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1)create 명령`mesh.json`으로 메쉬를 만듭니다.
 
 ### GraphQL 쿼리
 

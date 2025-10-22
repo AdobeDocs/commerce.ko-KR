@@ -177,7 +177,7 @@ _2023년 3월 28일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) [`products`](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/) 쿼리에 견본을 추가했습니다.
-![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 ](mesh.md)을(를) 가져오는 기능을 추가했습니다.
+![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 &#x200B;](mesh.md)을(를) 가져오는 기능을 추가했습니다.
 
 ### V1.5 릴리스
 
