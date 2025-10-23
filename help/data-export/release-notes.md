@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 103.4.14 릴리스
 
-![수정](../assets/fix.svg) [ 테이블이 없으면 ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
+![수정](../assets/fix.svg) [&#x200B; 테이블이 없으면 &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
 
 ## 103.4.13 릴리스
 
