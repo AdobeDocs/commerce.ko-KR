@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 103.4.15 릴리스
 
-![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 [Commerce 관리 안내서](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html)의 *데이터 피드 동기화 상태 모니터링*&#x200B;을 참조하십시오. <!--MDEE-954-->
+![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 [Commerce 관리 안내서](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)의 *데이터 피드 동기화 상태 모니터링*&#x200B;을 참조하십시오. <!--MDEE-954-->
 
 ## 103.4.14 릴리스
 
