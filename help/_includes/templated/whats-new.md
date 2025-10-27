@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Admin Console에서 ID 관리 및 SSO(Single Sign-On)를 구성하는 방법에 대한 정보를 포함하도록 다음 주제를 업데이트했습니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">Adobe Commerce as a Cloud Service 사용자 및 Identity Management</a><br />- <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/user-management">Adobe Commerce Optimizer: 사용자 및 Identity Management</a></p>
+      <td><p>Adobe Admin Console에서 ID 관리 및 SSO(Single Sign-On)를 구성하는 방법에 대한 정보를 포함하도록 다음 주제를 업데이트했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">Adobe Commerce as a Cloud Service 사용자 및 Identity Management</a><br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/user-management">Adobe Commerce Optimizer: 사용자 및 Identity Management</a></p>
 </td>
       <td>
         피드백, 기술
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>사용자를 추가하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">사용자 관리</a> 단계를 업데이트했습니다.</p>
+      <td><p>사용자를 추가하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">사용자 관리</a> 단계를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>사이트 생성자 도구를 사용하여 Storefront 프로젝트를 만들고, Storefront 구성을 사용자 정의하고, 기본 제품 세부 정보 및 제품 검색 결과 페이지를 확인하여 사이트 및 카탈로그 데이터를 확인하는 지침을 제공하도록 Adobe Commerce Optimizer의 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/storefront">Storefront 설정 안내서</a>를 업데이트했습니다.</p>
+      <td><p>사이트 생성자 도구를 사용하여 Storefront 프로젝트를 만들고, Storefront 구성을 사용자 정의하고, 기본 제품 세부 정보 및 제품 검색 결과 페이지를 확인하여 사이트 및 카탈로그 데이터를 확인하는 지침을 제공하도록 Adobe Commerce Optimizer의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/storefront">Storefront 설정 안내서</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">사용자 관리</a>를 사용하려면 모든 개발자와 제품 관리자가 먼저 사용자 역할을 추가해야 합니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">사용자 관리</a>를 사용하려면 모든 개발자와 제품 관리자가 먼저 사용자 역할을 추가해야 합니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -111,7 +111,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>결제 서비스 v2.12.2에 대해 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes">릴리스 정보</a>를 게시했습니다.</p>
+      <td><p>결제 서비스 v2.12.2에 대해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/release-notes">릴리스 정보</a>를 게시했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -133,7 +133,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>AEM Assets as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management">사용자 관리</a> 페이지에 Adobe Commerce 설정 정보를 추가했습니다.</p>
+      <td><p>AEM Assets as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management">사용자 관리</a> 페이지에 Adobe Commerce 설정 정보를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -141,7 +141,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/acce1aad405e74b1171faddf7f0d6681bd0a048d">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started">시작</a> 페이지에 역할 기반 작업 및 워크플로 정보를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/getting-started">시작</a> 페이지에 역할 기반 작업 및 워크플로 정보를 추가했습니다.</p>
 </td>
       <td>
         새 주제
@@ -163,7 +163,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>선택적 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
+      <td><p>선택적 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes">추가 제품 특성 모듈</a>에 대한 설명서를 추가했습니다. 이 모듈이 Adobe Commerce 환경에 설치되면 데이터 내보내기 프로세스에서 세금 클래스, 특성 집합 및 인벤토리 메타데이터를 Commerce 제품 구성에서 <code class="language-plaintext highlighter-rouge">products</code> 및 <code class="language-plaintext highlighter-rouge">product attributes</code> 피드로 자동으로 내보냅니다.</p>
 </td>
       <td>
         새 주제
