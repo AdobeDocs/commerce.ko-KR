@@ -3,7 +3,7 @@ title: '[!DNL Live Search] 모범 사례'
 description: 스토어에서  [!DNL Live Search] 을(를) 구현하기 위한 모범 사례를 알아봅니다.
 role: Admin, Developer
 exl-id: f7700339-fb13-42fe-a249-17cd4ba36e1b
-source-git-commit: 4ba9734946f551784cd429ffa7cb23358f0f9710
+source-git-commit: 4634df5ef5421275d44a6a3419a4f55c11e4be45
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 제품 특성을 패싯으로 설정하려면 다음 [속성이 설정되어야 합니다](facets-add.md#step-1-add-a-facet).
 
-- **[!UICONTROL Use in Search]** -  `No`
+- **[!UICONTROL Use in Search]** -  `Yes`
 - **[!UICONTROL Use in Layered Navigation]** -  `Filterable (with results)`
 - **[!UICONTROL Use in Search Results Layered Navigation]** -  `Yes`
 
@@ -101,7 +101,7 @@ Facet에 대해 자세히 알아보기:
 
 항상 검색 리디렉션을 테스트하여 제대로 작동하는지, 가장 관련성이 높은 페이지로 연결되는지 확인하십시오. 지속적으로 성능을 모니터링하고 필요에 따라 조정합니다.
 
-[검색 리디렉션을 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
+[검색 리디렉션을 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms)하는 방법을 알아보세요.
 
 ## 검색 결과 관련성 개선
 
@@ -155,7 +155,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 

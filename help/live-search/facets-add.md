@@ -2,9 +2,9 @@
 title: 패싯 추가
 description: 필터링 가능한 제품 특성을  [!DNL Live Search] 패싯으로 추가하는 방법에 대해 알아봅니다.
 exl-id: 80559107-2b2d-411f-8c32-99ff024e7a09
-source-git-commit: 053533bc5f3f990ce8219f1e0c7c4930b28f0cd5
+source-git-commit: 15afc6fcd1e6783640dc3980ee06290e017abf37
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 1. 추가하려는 패싯을 찾을 수 없는 경우 **스토어** > 특성 > **제품**(으)로 이동하여 특성에 패싯으로 사용할 [필수 속성](facets.md)이 있는지 확인하십시오. 필요한 경우 속성에 대해 다음 Storefront 속성을 업데이트합니다.
 
-   * 검색에 사용 - `No`
-   * 검색 결과 계층 탐색 - `Yes`에 사용
-   * 계층화된 탐색에서 사용 - `Filterable (with results)`
+   * **[!UICONTROL Use in Search]** -  `Yes`
+   * **[!UICONTROL Use in Layered Navigation]** -  `Filterable (with results)`
+   * **[!UICONTROL Use in Search Results Layered Navigation]** -  `Yes`
 
 1. 메시지가 표시되면 캐시를 새로 고칩니다.
 
