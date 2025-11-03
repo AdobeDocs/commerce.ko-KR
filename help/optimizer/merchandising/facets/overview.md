@@ -1,7 +1,7 @@
 ---
 title: 패싯 개요
 description: ' [!DNL Adobe Commerce Optimizer] 의 패싯과 패싯이 검색 결과를 개선하는 방법에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
 source-git-commit: b786a8675625dc969b9542b4b4f716de5342c1af
 workflow-type: tm+mt

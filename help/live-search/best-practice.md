@@ -137,7 +137,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 

@@ -25,7 +25,7 @@ ht-degree: 0%
 ![수정](../assets/fix.svg) 수정 사항 및 개선 사항
 ![버그](../assets/bug.svg) 알려진 문제
 
-개발자 설명서를 참조하여 [제품 지원에 대해 알아보세요](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
+개발자 설명서를 참조하여 [제품 지원에 대해 알아보세요](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability).
 
 ## 호스팅된 서비스 업데이트
 
@@ -165,7 +165,7 @@ _2023년 3월 20일_
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.6을 지원하도록 [!DNL Product Recommendations]을(를) 업데이트했습니다.
 ![새로 만들기](../assets/new.svg) 주요 버전 릴리스입니다. 프로젝트의 루트 [&#x200B; 파일을 &#x200B;](install-configure.md#update)편집`composer.json`합니다.
-![새로 만들기](../assets/new.svg) [!DNL Product Recommendations]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 &#x200B;](install-configure.md#update)업데이트`commerce-data-export`해야 합니다.
+![새로 만들기](../assets/new.svg) [!DNL Product Recommendations]은(는) 이제 Commerce(이전에는 Multi-Source Inventory 또는 MSI로 알려짐)에서 전체 [Inventory management](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/introduction) 기능을 지원합니다. 전체 지원을 활성화하려면 종속성 모듈 [을(를) 버전 102.2.0+로 &#x200B;](install-configure.md#update)업데이트`commerce-data-export`해야 합니다.
 
 ### magento/제품 권장 사항 4.0.1
 
@@ -202,7 +202,7 @@ _2023년 3월 20일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![새로 추가](../assets/new.svg) [에 &#x200B;](onboarding.md#b2bsupport)B2B 지원[!DNL Product Recommendations]이 추가됨
-Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로그 데이터 동기화](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync)에 새 피드를 추가했습니다.
+Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로그 데이터 동기화](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/data-services/catalog-sync)에 새 피드를 추가했습니다.
 
 ### magento/product-recommendations 3.3.3
 
@@ -242,7 +242,7 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![새로 만들기](../assets/new.svg) Magento 서비스의 이름이 [Commerce 서비스](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)&#x200B;(으)로 변경되었으며 관리자의 사용성이 개선되었습니다.
+![새로 만들기](../assets/new.svg) Magento 서비스의 이름이 [Commerce 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)&#x200B;(으)로 변경되었으며 관리자의 사용성이 개선되었습니다.
 
 ### magento/product-recommendations 3.2.4
 
@@ -263,7 +263,7 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
 ![새로 만들기](../assets/new.svg)이(가) 만들 때 [추천 결과를 미리 보기](create.md)하는 기능을 추가했습니다. 이렇게 하려면 모듈을 최신 버전으로 업데이트해야 할 수 있습니다.
-![새로 만들기](../assets/new.svg) 관리자가 카탈로그 동기화 프로세스를 [모니터링 및 관리](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync)하는 기능을 추가했습니다.
+![새로 만들기](../assets/new.svg) 관리자가 카탈로그 동기화 프로세스를 [모니터링 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/data-services/catalog-sync)하는 기능을 추가했습니다.
 ![새로 만들기](../assets/new.svg) 권장 사항에 표시되는 제품을 제어하기 위해 [필터](filters.md)을 추가했습니다.
 ![새로 만들기](../assets/new.svg)에서 [시각적 유사성](type.md#visualsim) 권장 사항 형식을 추가했습니다.
 
@@ -277,7 +277,7 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![새로 만들기](../assets/new.svg) 명령줄을 통해 카탈로그를 SaaS 서비스에 [다시 동기화](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync)하는 기능이 추가되었습니다.
+![새로 만들기](../assets/new.svg) 명령줄을 통해 카탈로그를 SaaS 서비스에 [다시 동기화](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/data-services/catalog-sync)하는 기능이 추가되었습니다.
 ![새로 만들기](../assets/new.svg) 데이터베이스 테이블 접두사에 대한 지원을 추가했습니다.
 ![수정](../assets/fix.svg) PHP 7.1 지원을 제거함
 
@@ -346,7 +346,7 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![새](../assets/new.svg) 페이지 빌더 지원. 페이지 빌더 통합을 사용하면 페이지 빌더가 작성한 콘텐츠의 임의 위치에 권장 사항 단위를 정확하고 세분화하여 배치할 수 있습니다. 머리글과 추천 단위 자체의 스타일을 지정할 수도 있습니다. 자세한 내용을 보려면 [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)&#x200B;(으)로 이동하십시오.
+![새](../assets/new.svg) 페이지 빌더 지원. 페이지 빌더 통합을 사용하면 페이지 빌더가 작성한 콘텐츠의 임의 위치에 권장 사항 단위를 정확하고 세분화하여 배치할 수 있습니다. 머리글과 추천 단위 자체의 스타일을 지정할 수도 있습니다. 자세한 내용을 보려면 [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)&#x200B;(으)로 이동하십시오.
 
 ### magento/제품 권장 사항 2.0.0
 
@@ -361,4 +361,4 @@ Commerce ![새로 만들기](../assets/new.svg) 명령줄을 통해 [카탈로�
 [!DNL Product Recommendations] 및 [!DNL Product Recommendations] 개발에 대해 자세히 알아보려면:
 
 * [사용 안내서](overview.md)
-* [개발자 설명서](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/development-overview)
+* [개발자 설명서](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/development-overview)
