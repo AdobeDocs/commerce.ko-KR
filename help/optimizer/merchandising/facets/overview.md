@@ -48,7 +48,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 - 쇼핑객이 검색 결과 내에서 검색할 수 있도록 활성화합니다.
 - 계층화된 검색의 두 번째 레이어에서 `startsWith` 및 `contains` 검색 색인을 사용하여 결과를 세분화합니다.
 
-고급 검색 기능은 특정 연산자를 사용하여 `filter` 쿼리[`productSearch`의 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 매개 변수를 통해 구현됩니다.
+고급 검색 기능은 특정 연산자를 사용하여 `filter` 쿼리[`productSearch`의 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 매개 변수를 통해 구현됩니다.
 
 - **계층화된 검색** - 다른 검색 컨텍스트에서 검색 - 이 기능을 사용하면 검색 쿼리에 대해 최대 두 개의 계층을 검색할 수 있습니다. For example:
 
@@ -77,7 +77,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 
 1. **포함**(기본값) 또는 **다음으로 시작**&#x200B;과 같이 해당 특성에 대한 검색 기능을 지정하십시오. **포함**&#x200B;에 대해 최대 6개의 특성을 지정하고 **다음으로 시작**&#x200B;에 대해 최대 6개의 특성을 지정할 수 있습니다. 또한 **Contains** 인덱싱의 경우 문자열 길이는 50자 이하로 제한됩니다.
 
-1. 새로운 [ 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Commerce Optimizer] API 호출을 업데이트하는 방법에 대한 예는 `contains`개발자 설명서`startsWith`를 참조하십시오.
+1. 새로운 [&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Commerce Optimizer] API 호출을 업데이트하는 방법에 대한 예는 `contains`개발자 설명서`startsWith`를 참조하십시오.
 
    검색 결과 페이지에서 이러한 새 조건을 구현할 수 있습니다. 예를 들어, 쇼핑객이 검색 결과를 더 구체화할 수 있는 페이지에 새 섹션을 추가할 수 있습니다. 구매자가 &quot;제조업체&quot;, &quot;부품 번호&quot; 및 &quot;설명&quot;과 같은 특정 제품 속성을 선택할 수 있도록 할 수 있습니다. 여기에서 `contains` 또는 `startsWith` 조건을 사용하여 해당 특성 내에서 검색합니다.
 
