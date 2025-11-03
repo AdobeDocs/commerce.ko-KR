@@ -1,20 +1,19 @@
 ---
 title: '[!DNL Storefront Popover]'
 description: ' [!DNL Live Search storefront popover] 은(는) 추천 제품 및 썸네일을 동적으로 반환합니다.'
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 240a5333-15e9-4178-ba3c-ae6c62c2238c
+source-git-commit: f96e7d8d2a31d5e0f49bd3ac2da320313908a868
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # [!DNL Storefront Popover]
 
-[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=ko#quick-search) 상자에 입력하면 상점 앞에 [!DNL popover]이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
+[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [!DNL popover]검색[ 상자에 입력하면 상점 앞에 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search)이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
 
 [!DNL Live Search]이(가) 2자 이상의 쿼리에 대한 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. &quot;입력할 때 검색&quot; 쿼리의 문자 수는 구성할 수 없습니다.
-
-기본적으로 [!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)을 지원합니다.
 
 ![[!DNL Live Search popover]](assets/storefront-search-as-you-type.png)
 
@@ -24,7 +23,7 @@ ht-degree: 0%
 
 ## [!DNL Popover] 페이지 크기
 
-[!DNL popover]의 페이지 크기는 자동 완성된 제품의 몇 줄을 반환할지 결정합니다. 실시간 검색을 설치하는 동안 `page_size` 값이 [카탈로그 검색](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html?lang=ko) - `Autocomplete Limit` 설정의 현재 값으로 변경됩니다.
+[!DNL popover]의 페이지 크기는 자동 완성된 제품의 몇 줄을 반환할지 결정합니다. 실시간 검색을 설치하는 동안 `page_size` 값이 [카탈로그 검색](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html) - `Autocomplete Limit` 설정의 현재 값으로 변경됩니다.
 
 기본적으로 카탈로그 검색 - 자동 완성 제한 값은 8행(또는 행)으로 설정됩니다. [!DNL popover]의 페이지 크기를 변경하려면 다음을 수행하십시오.
 
@@ -52,14 +51,14 @@ ht-degree: 0%
 
 ## 컨테이너 가시성
 
-`.livesearch.popover-container`의 상위 구성 요소는 `.search-autocomplete`입니다.  `.active` 클래스는 컨테이너의 가시성을 나타냅니다. [!DNL popover]이(가) 열려 있으면 `.active` 클래스가 조건부로 추가됩니다.
+`.livesearch.popover-container`의 상위 구성 요소는 `.search-autocomplete`입니다.  `.active` 클래스는 컨테이너의 가시성을 나타냅니다. `.active`이(가) 열려 있으면 [!DNL popover] 클래스가 조건부로 추가됩니다.
 
 ```css
 .search-autocomplete.active   /* visible */
 .search-autocomplete          /* not visible */
 ```
 
-Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 안내서](https://developer.adobe.com/commerce/frontend-core/guide/)의 [CSS(Cascading Style Sheet)](https://developer.adobe.com/commerce/frontend-core/guide/css/)을 참조하세요.
+Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 안내서](https://developer.adobe.com/commerce/frontend-core/guide/css/)의 [CSS(Cascading Style Sheet)](https://developer.adobe.com/commerce/frontend-core/guide/)을 참조하세요.
 
 ## 클래스 선택기
 
@@ -106,7 +105,7 @@ Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 �
 
 ## 수정된 테마로 작업 {#working-with-modified-theme}
 
-*Luma*&#x200B;에서 필요한 파일을 상속하는 사용자 지정된 [테마](https://developer.adobe.com/commerce/frontend-core/guide/themes/)와 함께 [!DNL storefront popover]을(를) 사용할 수 있습니다. `Magento_Search` 모듈의 `header-wrapper`에 있는 `top.search` 블록은 수정하지 않아야 합니다.
+[!DNL storefront popover]Luma[에서 필요한 파일을 상속하는 사용자 지정된 ](https://developer.adobe.com/commerce/frontend-core/guide/themes/)테마&#x200B;*와 함께*&#x200B;을(를) 사용할 수 있습니다. `top.search` 모듈의 `header-wrapper`에 있는 `Magento_Search` 블록은 수정하지 않아야 합니다.
 
 ```html
 <referenceContainer name="header-wrapper">
@@ -120,7 +119,7 @@ Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 �
 
 ## [!DNL popover] 사용 안 함
 
-[!DNL popover]을(를) 사용하지 않도록 설정하고 표준 [빠른 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=ko#quick-search) 기능을 복원하려면 다음 명령을 입력하십시오.
+[!DNL popover]을(를) 사용하지 않도록 설정하고 표준 [빠른 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) 기능을 복원하려면 다음 명령을 입력하십시오.
 
 ```bash
 bin/magento module:disable Magento_LiveSearchStorefrontPopover
@@ -128,4 +127,4 @@ bin/magento module:disable Magento_LiveSearchStorefrontPopover
 
 ## Headless 구현
 
-Headless 구현의 경우 [npm 패키지](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils)를 사용하여 [!DNL Live Search popover]을(를) 설치할 수 있습니다.
+Headless 구현의 경우 [!DNL Live Search popover]npm 패키지[를 사용하여 ](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils)을(를) 설치할 수 있습니다.

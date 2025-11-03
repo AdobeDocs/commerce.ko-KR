@@ -2,9 +2,9 @@
 title: 라이브 검색 설정
 description: ' [!DNL Live Search] 작업 영역은 검색 성능을 구성, 관리 및 모니터링하는 데 사용됩니다.'
 exl-id: 07c32b26-3fa4-4fae-afba-8a10866857c3
-source-git-commit: 4634df5ef5421275d44a6a3419a4f55c11e4be45
+source-git-commit: a22a57f52503811a3a3e9294174a6626c5630b79
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ### 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Live Search]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Live Search]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 범위 설정
 
-처음에는 모든 [&#x200B; 설정의 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)범위[!DNL Live Search]이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 **저장소 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)를 설정합니다.
+처음에는 모든 [ 설정의 ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)범위[!DNL Live Search]이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 **저장소 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)를 설정합니다.
 
 ## 메뉴 옵션
 
@@ -45,12 +45,12 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 | [동의어](synonyms.md) | 쇼핑객이 카탈로그에 있는 것과 다른 제품을 찾는 데 사용할 수 있는 단어를 포함하도록 검색 범위를 확장하십시오. |
 | [머천다이징 검색](rules.md) | 예약된 작업을 트리거하는 논리 규칙으로 검색 환경을 구성합니다. 비즈니스 목표를 지원하기 위해 검색 결과를 보정하기 위해 제품을 증폭, 매몰, 고정 또는 숨깁니다. |
 | [카테고리 머천다이징](category-merch.md) | 카테고리 수준에서 규칙 및 지능형 머천다이징을 적용합니다. |
-| [GraphQL](graphql.md) | 저장소 관리자에 로그인한 개발자는 실제 카탈로그 데이터로 쿼리를 작성하고 테스트할 수 있습니다. 자세한 내용을 보려면 [&#x200B; 개발자 설명서에서 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)GraphQL 개요[!DNL Live Search]로 이동하십시오. |
+| [GraphQL](graphql.md) | 저장소 관리자에 로그인한 개발자는 실제 카탈로그 데이터로 쿼리를 작성하고 테스트할 수 있습니다. 자세한 내용을 보려면 [ 개발자 설명서에서 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)GraphQL 개요[!DNL Live Search]로 이동하십시오. |
 | [설정](settings.md) | 가격 패싯 값을 상점 가격 범위별로 그룹화하는 방법을 결정하고 색인화 언어를 설정합니다. |
 
 ## 속성을 검색 가능한 것으로 설정
 
-고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
+고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
 
 속성을 검색할 수 있도록 허용하려면 다음 단계를 완료하십시오.
 
@@ -58,7 +58,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 1. 검색할 특성을 선택하십시오(예: `color`).
 1. **Storefront 속성**&#x200B;을(를) 선택하고 **검색에 사용**&#x200B;을(를) `yes`(으)로 설정합니다.
 
-[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html?lang=ko#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
+[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
 
 다음 속성은 항상 검색할 수 있습니다.
 
@@ -79,7 +79,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 - 쇼핑객이 검색 결과 내에서 검색할 수 있도록 활성화합니다.
 - 계층화된 검색의 두 번째 레이어에서 `startsWith` 및 `contains` 검색 색인을 사용하여 결과를 세분화합니다.
 
-고급 검색 기능은 특정 연산자를 사용하여 `filter` 쿼리[`productSearch`의 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 매개 변수를 통해 구현됩니다.
+고급 검색 기능은 특정 연산자를 사용하여 `filter` 쿼리[`productSearch`의 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) 매개 변수를 통해 구현됩니다.
 
 - **계층화된 검색** - 다른 검색 컨텍스트에서 검색 - 이 기능을 사용하면 검색 쿼리에 대해 최대 두 개의 계층을 검색할 수 있습니다. For example:
 
@@ -103,15 +103,15 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 #### 구현
 
-1. 관리에서 [제품 특성을 검색 가능하도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)합니다.
+1. 관리에서 [제품 특성을 검색 가능하도록 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)합니다.
 
-   검색 가능한 [특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types) 목록을 확인하세요.
+   검색 가능한 [특성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types) 목록을 확인하세요.
 
 1. **포함**(기본값) 또는 **다음으로 시작**&#x200B;과 같이 해당 특성에 대한 검색 기능을 지정하십시오. **포함**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정하고 **다음으로 시작**&#x200B;에 대해 최대 6개의 특성을 사용할 수 있도록 지정할 수 있습니다. 또한 **Contains** 인덱싱의 경우 문자열 길이는 50자 이하로 제한됩니다.
 
    ![검색 기능 지정](./assets/search-filters-admin.png)
 
-1. 새로운 [&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대한 예는 `contains`개발자 설명서`startsWith`를 참조하십시오.
+1. 새로운 [ 및 ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대한 예는 `contains`개발자 설명서`startsWith`를 참조하십시오.
 
    검색 결과 페이지에서 이러한 새 조건을 구현할 수 있습니다. 예를 들어, 쇼핑객이 검색 결과를 더 구체화할 수 있는 페이지에 새 섹션을 추가할 수 있습니다. 구매자가 &quot;제조업체&quot;, &quot;부품 번호&quot; 및 &quot;설명&quot;과 같은 특정 제품 속성을 선택할 수 있도록 할 수 있습니다. 여기에서 `contains` 또는 `startsWith` 조건을 사용하여 해당 특성 내에서 검색합니다.
 
@@ -180,13 +180,9 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 | 구성 > 판매 > 세금 > 가격 표시 설정 > 카탈로그에 제품 가격 표시 | 카탈로그에 게시된 제품 가격에 세금이 포함되는지 또는 제외되는지 여부를 결정하거나 두 가지 버전의 가격을 표시합니다(하나는 세금이 포함됨). |  |
 | 스토어 > 구성 > 카탈로그 > 상점 > 제품 목록 정렬 기준 | 검색 결과 목록의 정렬 순서를 결정합니다. | [!DNL Live Search] [제품 목록 페이지 위젯](plp-styling.md)에 적용되지 않음 |
 
-### 검색어
-
-[!DNL Live Search]은(는) Luma 및 기타 php 기반 테마와 같이 Adobe Commerce이 라우팅을 처리하는 구현에서 [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)을 지원합니다.
-
 ## 기본 속성 값
 
-다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)상점 속성[!DNL Live Search]이 있습니다.
+다음 제품 특성에는 [에서 사용하고 기본적으로 활성화된 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)상점 속성[!DNL Live Search]이 있습니다.
 
 | 속성 | Storefront 속성 | 속성 |
 |---|---|---|

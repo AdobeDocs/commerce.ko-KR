@@ -1,9 +1,10 @@
 ---
 title: 동의어
 description: '[!DNL Live Search] 동의어는 카탈로그의 단어와 다른 단어로 쿼리를 확장합니다.'
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 4aa731b0-b922-476b-a311-5c400f31f749
+source-git-commit: f96e7d8d2a31d5e0f49bd3ac2da320313908a868
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Live Search]이(가) 설치된 Adobe Commerce 설치의 경우, 마케팅 메뉴의 *SEO 및 검색* 섹션에 모두 표시되지만, 표준 Adobe Commerce [동의어 검색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko#search-synonyms) 기능을 [!DNL Live Search] 동의어로 바꿉니다. [!DNL Live Search]을(를) 사용하는 경우 이 섹션의 지침을 따르십시오.
-
-[!DNL Live Search]은(는) [검색어 리디렉션](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=ko)도 지원합니다.
+>[!DNL Live Search]이(가) 설치된 Adobe Commerce 설치의 경우, 마케팅 메뉴의 [!DNL Live Search]SEO 및 검색[ 섹션에 모두 표시되지만, 표준 Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#search-synonyms)동의어 검색&#x200B;*기능을* 동의어로 바꿉니다. [!DNL Live Search]을(를) 사용하는 경우 이 섹션의 지침을 따르십시오.

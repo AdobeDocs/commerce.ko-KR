@@ -1,11 +1,11 @@
 ---
 title: 검색 성능
 description: 검색 성능 페이지에서는 insight에 쇼핑객이 사용하는 검색어를 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
-source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
+source-git-commit: c9fc68fb54f66b6d471295c6d68f09404a7ac17a
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1837'
 ht-degree: 0%
 
 ---
@@ -136,3 +136,41 @@ ht-degree: 0%
 | 결과 없음 | 결과를 반환하지 않는 검색 쿼리와 지정된 날짜 범위 동안 사용한 횟수를 나열합니다. 보고서 제한: 상위 500개 용어 |
 | 인기 있는 결과 | 지정된 날짜 범위 동안 가장 많은 보기를 받은 제품의 이름을 나열합니다. 방문 빈도가 높은 결과는 노출 횟수만을 기반으로 계산되며 생성된 클릭 수 또는 매출의 영향을 받지 않습니다. 보고서 제한: 상위 500개 용어 |
 | 고유 검색 | 지정된 날짜 범위 동안 사용된 고유한 검색 쿼리를 나열합니다. 보고서 데이터는 고유 검색 스냅샷 데이터와 동일한 방식으로 계산됩니다. 쇼핑객이 동일한 검색 쿼리를 두 번 입력했지만 한 시간 이상 차이가 나는 경우 검색은 두 개의 고유한 검색으로 간주됩니다. 보고서 제한: 상위 500개 용어 |
+
+## 기본 비시스템 속성 속성
+
+다음 표에서는 비시스템 속성의 기본 검색 및 필터링 가능한 속성을 보여 줍니다. *검색에 사용* 특성 속성을 `Yes`(으)로 설정하면 [!DNL Adobe Commerce Optimizer]에서 특성을 검색할 수 있습니다.
+
+| 속성 코드 | 검색 가능 |
+|--- |--- |
+| 활동 | 예 |
+| attributes_brand | 예 |
+| 브랜드 | 예 |
+| 기후 | 예 |
+| 고리 | 예 |
+| 색상 | 예 |
+| 비용 | 예 |
+| eco_collection |  |
+| 성별 | 예 |
+| 제조업체 | 예 |
+| 재질 | 예 |
+| 목적 | 예 |
+| strap_bags | 예 |
+| style_general | 예 |
+
+## 기본 시스템 속성 속성
+
+다음 표에서는 시스템 속성의 기본 검색 및 필터링 가능한 속성을 보여 줍니다.
+
+| 속성 코드 | 검색 가능 |
+|--- |--- |
+| allow_open_amount | 예 |
+| 설명 | 예 |
+| 이름 | 예 |
+| 가격 | 예 |
+| short_description | 예 |
+| sku | 예 |
+| 상태 | 예 |
+| tax_class_id | 예 |
+| url_key | 예 |
+| 두께 | 예 |

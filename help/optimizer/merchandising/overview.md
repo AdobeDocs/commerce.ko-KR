@@ -2,9 +2,9 @@
 title: 머천다이징 개요
 description: ' [!DNL Adobe Commerce Optimizer]의 머천다이징 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cc0f280c-3934-47ca-b5dc-d83023d8e2be
-source-git-commit: 17d1872321e664ca58a702b0948fd5e6d2f33202
+source-git-commit: 5f6c7e68d330a063fbdb2fce1aeb86a08cf25a80
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -30,4 +30,4 @@ Product Discovery는 머천다이저에 쇼핑 환경을 선별하고 최적화�
 
 권장 사항은 인공 지능과 머신 러닝을 사용하여 상점 전반의 집계된 방문자 행동과 제품 상호 작용을 분석합니다. [!DNL Adobe Commerce Optimizer]은(는) 이 행동 데이터를 제품 카탈로그와 결합하여 쇼핑객 참여를 강화하고 전환을 늘리는 고도로 개인화된 관련 제품 제안을 제공합니다.
 
-권장 사항은 &quot;이 제품을 본 고객이 본 항목&quot;과 같이 레이블이 지정된 단위로 상점 전면에 표시됩니다. 이러한 유닛은 쇼핑 여정 전체에 전략적으로 배치 할 수 있습니다. 머천다이저로서 이러한 추천 단위를 [!DNL Adobe Commerce Optimizer] 내에서 직접 쉽게 만들고, 관리하고, 배포하여 판촉 목표, 교차 판매 전략 및 개인화된 경험을 지원할 수 있습니다.
+권장 사항은 &quot;이 제품을 본 고객도 본 적이 있습니다.&quot;와 같이 레이블이 지정된 단위로 상점 전면에 표시됩니다. 이러한 유닛은 쇼핑 여정 전체에 전략적으로 배치 할 수 있습니다. 머천다이저로서 이러한 추천 단위를 [!DNL Adobe Commerce Optimizer] 내에서 직접 쉽게 만들고, 관리하고, 배포하여 판촉 목표, 교차 판매 전략 및 개인화된 경험을 지원할 수 있습니다.
