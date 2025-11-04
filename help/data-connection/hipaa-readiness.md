@@ -43,7 +43,7 @@ Adobe [!DNL Commerce]용 의료 서비스 추가 기능을 구입한 경우 [HIP
 
 [스키마에 대한 데이터 사용 레이블 관리](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/labels) 자습서의 단계에 따라 [!DNL Commerce] 스키마에 레이블을 적용하는 방법을 알아보십시오.
 
-[ 스키마의 필드에 적용할 수 있는 사용 가능한 레이블에 대한 자세한 내용은 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#sensitive)중요 레이블의 용어집[!DNL Commerce]을 참조하세요. 예를 들어 레이블 `RHD`은(는) Adobe에서 계약상 업로드할 수 있는 PHI(보호 상태 정보) 또는 환자에 대한 정보를 식별합니다.
+[&#x200B; 스키마의 필드에 적용할 수 있는 사용 가능한 레이블에 대한 자세한 내용은 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#sensitive)중요 레이블의 용어집[!DNL Commerce]을 참조하세요. 예를 들어 레이블 `RHD`은(는) Adobe에서 계약상 업로드할 수 있는 PHI(보호 상태 정보) 또는 환자에 대한 정보를 식별합니다.
 
 [!DNL Commerce] 데이터가 중요 데이터로 레이블이 지정되면 정책 위반을 구성하는 데이터 작업을 방지하기 위해 정책을 적용할 수 있습니다. Experience Platform의 [정책 적용](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)에 대해 자세히 알아보세요.
 
