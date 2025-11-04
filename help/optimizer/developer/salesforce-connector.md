@@ -2,9 +2,9 @@
 title: Salesforce Commerce 커넥터
 description: 카탈로그 데이터를 동기화하고 비즈니스 작업을 지원하기 위해 커넥터를 구현하고 사용자 지정하기 위해 Salesforce Commerce B2C를  [!DNL Commerce Optimizer SFCC Connector] 과(와) 통합하는 시작점을 제공하는  [!DNL Adobe Commerce Optimizer] 에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: f3da99ec4d2c518748d0911d6cf5d2d89ab45a47
+source-git-commit: fc6f8566a1932e830a37bcfa32cd1c4168c67c68
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Salesforce Commerce Connector]을(를) 통해 Salesforce Commerce Cloud B2C에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 카탈로그 데이터를 원활하게 전송하고 관리할 수 있습니다. 두 플랫폼 간에 브리지를 제공하여 제품 정보, 가격 및 업데이트를 재구성하지 않고 동기화 상태로 유지합니다.
 
 즉시 사용 가능한 이 커넥터는 안정적인 데이터 동기화 기능과 비즈니스 요구 사항에 맞게 워크플로우를 사용자 지정할 수 있는 유연성을 제공합니다.
+
+전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
 
 ## 주요 기능
 
@@ -87,7 +89,6 @@ Salesforce Commerce B2C 현지화 기능 활용:
 * **ACO SFCC 스타터 키트 App Builder 응용 프로그램** - SFCC와 Adobe Commerce Optimizer 간의 데이터 동기화를 처리하는 서버리스 기능을 제공합니다.
 * **사용자 지정 SFCC 카트리지** - 데이터 추출에 필요한 API로 Salesforce Commerce Cloud 인스턴스를 확장하는 필수 카트리지.
 * **관리 UI** - 동기화 상태를 모니터링하고 커넥터 작업을 관리하기 위한 웹 인터페이스입니다.
-
 
 ### 동기화 프로세스
 
