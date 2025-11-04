@@ -3,7 +3,7 @@ title: 데이터 수집
 description: 이벤트가  [!DNL Product Recommendations]에 대한 데이터를 수집하는 방법을 알아봅니다.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
+source-git-commit: d770d4d99802f7ecf6e395518dfc9aeaac9aa130
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [[!DNL Product Recommendations]](install-configure.md)을(를) 설치하고 구성할 때 모듈은 동작 데이터 수집을 상점 앞에 배포합니다. 이 메커니즘은 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집하고 [!DNL Product Recommendations]을(를) 실행합니다. 예를 들어 `view` 이벤트는 `Viewed this, viewed that` 권장 사항 유형을 계산하는 데 사용되고 `place-order` 이벤트는 `Bought this, bought that` 권장 사항 유형을 계산하는 데 사용됩니다.
 
-[&#x200B; 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
+[ 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 데이터 유형 및 이벤트
 
@@ -87,4 +87,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
