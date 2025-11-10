@@ -1,11 +1,11 @@
 ---
 title: 검색 성능
 description: 검색 성능 페이지에서는 insight에 쇼핑객이 사용하는 검색어를 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
-source-git-commit: c9fc68fb54f66b6d471295c6d68f09404a7ac17a
+source-git-commit: c408f3de4e3b980545a655e2f6040187f00bc571
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 검색 결과의 관련성과 유효성을 결정하는 몇 가지 주요 요소는 다음과 같습니다.
 
 - 잘 구조화된 제품 데이터는 검색 알고리즘이 제품을 쿼리에 효과적으로 일치시킬 수 있도록 해줍니다. 낮은 품질의 제품 데이터는 관련성이 낮은 검색 결과를 초래합니다. 머천다이징 전략의 성공에 직접 영향을 주려면 다음을 수행하십시오.
-   - 해당 가중치를 사용하여 올바른 [특성을 검색 가능](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)으로 설정합니다.
+   - 해당 가중치를 사용하여 올바른 [특성을 검색 가능](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)으로 설정합니다.
    - 해당 속성 내의 데이터가 관련성이 있는지 확인하십시오.
 - 잘 설계된 검색 경험은 고객과 신뢰를 쌓고, 필요한 것을 찾을 것이라는 자신감을 심어줍니다.
 - 검색 규칙은 인기, 새 도착, 프로모션 기준 또는 비즈니스 요구 사항을 충족하는 기타 머천다이징 전략에 따라 특정 제품의 가시성을 높일 수 있으므로 중요합니다.
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ## 검색 결과 관련성 개선
 
-검색 결과 관련성을 향상시키려면 유효한 [검색 규칙](../merchandising/rules/overview.md)을 구현하고 제품 메타데이터를 사용하여 정확하고 자세한 [특성을 검색할 수 있습니다](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata).
+검색 결과 관련성을 향상시키려면 유효한 [검색 규칙](../merchandising/rules/overview.md)을 구현하고 제품 메타데이터를 사용하여 정확하고 자세한 [특성을 검색할 수 있습니다](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
 
 ### 이미지
 
@@ -110,16 +110,11 @@ ht-degree: 0%
 
 ### 제품 메타데이터 활용
 
-정확하고 자세한 제품 [특성이 검색 가능한](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)&#x200B;(으)로 설정되어 있는지 확인하십시오. SKU, 이름 및 카테고리 속성은 기본적으로 검색할 수 있으며 검색에서 제외할 수 없습니다. 최상의 결과를 얻으려면 SKU에 공백을 사용하지 마십시오.
+정확하고 자세한 제품 [특성이 검색 가능한 것으로 설정되어 있고 할당된 가중치가 있는지](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)확인하십시오. SKU, 이름 및 카테고리 속성은 기본적으로 검색할 수 있으며 검색에서 제외할 수 없습니다. 최상의 결과를 얻으려면 SKU에 공백을 사용하지 마십시오.
 
 검색 관련성을 높이려면 검색 가능한 각 속성에 가중치를 할당합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시되어야 합니다. 관련성을 기준으로 정렬하는 것은 검색 가중치와 같은 여러 기준의 영향을 받습니다. 이는 경우에 따라 검색 가중치가 낮은 속성이 검색 가중치가 높은 속성보다 더 많은 관련성을 가질 수 있음을 의미합니다. 다른 기준에는 특정 속성의 일치 수, 검색된 검색어의 위치 및 검색어 전후의 전체 텍스트 구조가 포함될 수 있습니다.
 
 각 제품에 검색 가능한 각 속성 내에 관련 콘텐츠가 있는지 확인합니다. 검색 결과 관련성을 감소시킬 수 있는 콘텐츠로 대량의 콘텐츠가 있는 경우 속성을 검색 가능으로 설정하지 않는 것이 좋습니다.
-
-검색할 제품 속성에 대해 자세히 알아보십시오.
-
-- [검색 가능한 특성을 설정합니다](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)
-- [속성에 가중치 할당](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)
 
 ## 필드 설명
 
