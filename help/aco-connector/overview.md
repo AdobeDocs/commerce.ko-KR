@@ -129,11 +129,11 @@ Adobe Developer 콘솔에서 새 개발자 프로젝트를 만들어 API 자격 
 
 Adobe Commerce Optimizer 인스턴스 세부 사항에서 다음 값을 저장합니다.
 
-* **인스턴스 ID - **Adobe Commerce Optimizer 인스턴스의 고유 식별자입니다. 테넌트 ID라고도 합니다.
+* **인스턴스 ID - &#x200B;** Adobe Commerce Optimizer 인스턴스의 고유 식별자입니다. 테넌트 ID라고도 합니다.
 
   Adobe Commerce Optimizer 인스턴스에 액세스하려면 URL에서 인스턴스 ID를 가져옵니다. 예를 들어 URL `https://na1-sandbox.admin.commerce.adobe.com/1234567890abcdef`에서 인스턴스 ID는 `1234567890abcdef`입니다.
 
-* **지역—**Adobe Commerce Optimizer 샌드박스 인스턴스가 호스팅되는 지역입니다.
+* **지역—**&#x200B;Adobe Commerce Optimizer 샌드박스 인스턴스가 호스팅되는 지역입니다.
 
   Adobe Commerce Optimizer URL에서 지역을 가져옵니다. 예를 들어 URL `https://na1-sandbox.admin.commerce.adobe.com/1234567890abcdef`에서 영역은 `na1`입니다.
 
@@ -171,7 +171,7 @@ Commerce 관리 및 Commerce Optimizer 모두에서 데이터 동기화를 확�
 
 1. 카탈로그 데이터가 Commerce에서 Commerce Optimizer으로 흐르고 있는지 확인합니다.
 
-   Commerce 관리자에서 [!UICONTROL Data Feed Sync Status]** > [!UICONTROL System] > [!UICONTROL Data Transfer]을(를) 선택하여 **[!UICONTROL Data Feed Sync Status]** 페이지를 엽니다.
+   Commerce 관리자에서 [!UICONTROL Data Feed Sync Status] **&#x200B; > [!UICONTROL System] > [!UICONTROL Data Transfer]을(를) 선택하여 &#x200B;** [!UICONTROL Data Feed Sync Status]** 페이지를 엽니다.
 
    ![피드 항목 상태를 보고하는 데이터 피드 동기화 상태 페이지](./assets/data-feed-sync-status.png)
 
@@ -229,7 +229,7 @@ GraphQL 요청이 EDS(Edge Delivery Services) 상점 첫 화면에서 Adobe Comm
 
    **옵션 1: CORS 헤더를 추가할 수 있도록 Adobe Commerce 기반에 대한 PHP 사용자 지정 모듈을 구현합니다&#x200B;.**
 
-   **옵션 2: 타사 커뮤니티 모듈 graycore/magento2-cors 설치{1&#x200B;} -** Adobe Commerce 상점[ 설명서에서 ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/)CORS 설정&#x200B;*을(를) 참조하십시오.*
+   **옵션 2: 타사 커뮤니티 모듈 graycore/magento2-cors 설치{1&#x200B;} -** Adobe Commerce 상점[&#x200B; 설명서에서 &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/)CORS 설정&#x200B;*을(를) 참조하십시오.*
 
 1. 클라우드 인스턴스 `app.yaml` 환경 구성 파일의 Commerce에 다음 CORS 변수를 추가합니다.
 
