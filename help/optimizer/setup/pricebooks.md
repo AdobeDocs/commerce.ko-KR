@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Commerce Optimizer에 가격 장부 추가
 
-Price Book API를 사용하여 Commerce Optimizer에 가격 장부를 추가합니다. [의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 ](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
+Price Book API를 사용하여 Commerce Optimizer에 가격 장부를 추가합니다. [의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
 
 ## Commerce Optimizer에서 가격 장부 보기
 
