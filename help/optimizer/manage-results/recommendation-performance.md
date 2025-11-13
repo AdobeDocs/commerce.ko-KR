@@ -1,10 +1,11 @@
 ---
 title: 권장 사항 성능
 description: 권장 사항 성능 페이지는 insight에 제품 권장 사항이 얼마나 잘 수행되고 있는지 알려줍니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
+source-git-commit: 0eea4658d554f2913c7c2d25e0c0753f22016aaa
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -27,14 +28,11 @@ ht-degree: 0%
 
 ## 보고서 보기
 
-달력을 클릭하고 다음 중 하나를 수행합니다.
+**[!UICONTROL Date Range]**&#x200B;을(를) 클릭하고 다음 범위 중 하나를 선택합니다.
 
-- 단일 날짜를 지정하려면 달력에서 날짜를 두 번 클릭합니다.
-- 날짜 범위를 지정하려면 달력에서 첫 번째 날짜와 마지막 날짜를 클릭합니다.
+![권장 사항 날짜 범위](../assets/rec-perf-date-range.png)
 
->[!NOTE]
->
->날짜 범위는 1년을 초과할 수 없습니다.
+권장 사항 테이블이 업데이트되어 해당 날짜 범위에 대한 지표를 표시합니다.
 
 ## 표 맞춤화
 
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | 제어 | 설명 |
 |---|---|
-| ![일정 선택기](../assets/icon-calendar.png) | 지표 계산에 사용되는 시간 범위를 결정합니다. |
+| ![날짜 범위](../assets/rec-perf-date-range.png) | 지표 계산에 사용되는 시간 범위를 결정합니다. |
 | ![열 선택기](../assets/icon-show-hide-columns.png) | 권장 사항 테이블에 나타나는 열을 결정합니다. |
 | 추천 만들기 | [새 권장 사항 만들기](../merchandising/recommendations/create.md) 페이지를 엽니다. |
 
