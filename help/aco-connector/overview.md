@@ -1,13 +1,13 @@
 ---
-title: Commerce용 Adobe Commerce Optimizer 커넥터
+title: Adobe Commerce Optimizer 커넥터
 description: Commerce 클라우드 또는 온프레미스 프로젝트에서 Adobe Commerce Optimizer으로 데이터를 연결하는 방법에 대해 알아봅니다
 feature: Personalization, Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 hidefromtoc: true
 hide: true
-source-git-commit: 36cfafff243a2310a17a2c9ec8a00f10403bc133
+source-git-commit: 1654aede42cf53b2dffe2965680f122d7c247234
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -49,24 +49,24 @@ Commerce 관리자로부터 Commerce 서비스(라이브 검색 및 제품 권�
 
 ## 통합 사용 요구 사항
 
-* Adobe Commerce 2.4.5+
+* Adobe Commerce 2.4.7+
 
-   * PHP 8.1, 8.2, 8.3 또는 8.4
+   * PHP 8.2, 8.3 또는 8.4
    * Composer 2.x
 
 * 프로비저닝된 샌드박스 인스턴스가 있는 Adobe Commerce Optimizer 라이센스.
 
 * 작성기를 사용하여 Commerce Connector 메타패키지를 다운로드하려면 [repo.magento.com](https://repo.magento.com)에 액세스하십시오.
 
-* [Adobe Commerce Optimizer 샌드박스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance)에 대한 관리자 액세스 권한.
+* [Adobe Commerce Optimizer 샌드박스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance)에 대한 관리자 액세스 권한.
 
 통합을 구성하는 Adobe Commerce 사용자에게는 다음이 있어야 합니다.
 
 * Adobe Commerce 관리자에 대한 관리자 액세스 권한.
 
-* [Adobe Commerce 응용 프로그램 서버에 대한 명령줄 액세스](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/user-access).
+* [Adobe Commerce 응용 프로그램 서버에 대한 명령줄 액세스](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* Adobe Commerce Optimizer 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
+* Adobe Commerce Optimizer 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
 
 ## 시작
 
@@ -106,9 +106,9 @@ Adobe Commerce Connector Composer 메타패키지는 Adobe Commerce Optimizer에
 >
 >자세한 확장 설치 지침은 다음 안내서를 참조하십시오.
 >
->[클라우드 인프라에서 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>[클라우드 인프라에서 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 >
->[확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
+>[확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Commerce Optimizer 연결 구성에 필요한 값 가져오기
 
@@ -116,9 +116,9 @@ Adobe Commerce Connector Composer 메타패키지는 Adobe Commerce Optimizer에
 
 >[!NOTE]
 >
->Commerce Optimizer 인스턴스가 배포된 IMS 조직에 App Builder 개발자 프로젝트가 이미 있는 경우 해당 프로젝트의 OAUTH-서버 간 자격 증명에서 필요한 API 자격 증명과 조직 ID를 가져올 수 있습니다.
+>Commerce Optimizer 인스턴스가 배포된 IMS 조직의 데이터 수집 API로 개발자 프로젝트를 이미 구성한 경우 해당 프로젝트의 OAUTH-서버 간 자격 증명에서 필요한 API 자격 증명과 조직 ID를 가져올 수 있습니다.
 
-Adobe Developer 콘솔에서 새 개발자 프로젝트를 만들어 API 자격 증명을 가져와 Commerce과 Commerce Optimizer 인스턴스 간의 통합을 구성합니다. 자세한 내용은 개발자 설명서에서 [App Builder 프로젝트 만들기](https://developer.adobe.com/commerce/extensibility/events/project-setup/)를 참조하십시오.
+Adobe Developer 콘솔에서 새 개발자 프로젝트를 만들어 Adobe Commerce Optimizer 수집 API 자격 증명을 가져와 Commerce 인스턴스와 Commerce Optimizer 인스턴스 간의 통합을 구성합니다. 자세한 내용은 [머천다이징 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication/#obtain-ims-credentials)에서 *IMS 자격 증명 가져오기*&#x200B;를 참조하십시오.
 
 프로젝트를 만든 후 [OAUTH 서버 간 자격 증명] 페이지에서 다음 값을 저장합니다.
 
@@ -130,11 +130,11 @@ Adobe Developer 콘솔에서 새 개발자 프로젝트를 만들어 API 자격 
 
 Adobe Commerce Optimizer 인스턴스 세부 사항에서 다음 값을 저장합니다.
 
-* **인스턴스 ID - &#x200B;** Adobe Commerce Optimizer 인스턴스의 고유 식별자입니다. 테넌트 ID라고도 합니다.
+* **인스턴스 ID - **Adobe Commerce Optimizer 인스턴스의 고유 식별자입니다. 테넌트 ID라고도 합니다.
 
   Adobe Commerce Optimizer 인스턴스에 액세스하려면 URL에서 인스턴스 ID를 가져옵니다. 예를 들어 URL `https://na1-sandbox.admin.commerce.adobe.com/1234567890abcdef`에서 인스턴스 ID는 `1234567890abcdef`입니다.
 
-* **지역—**&#x200B;Adobe Commerce Optimizer 샌드박스 인스턴스가 호스팅되는 지역입니다.
+* **지역—**Adobe Commerce Optimizer 샌드박스 인스턴스가 호스팅되는 지역입니다.
 
   Adobe Commerce Optimizer URL에서 지역을 가져옵니다. 예를 들어 URL `https://na1-sandbox.admin.commerce.adobe.com/1234567890abcdef`에서 영역은 `na1`입니다.
 
@@ -150,7 +150,7 @@ Adobe Commerce Optimizer 인스턴스 세부 사항에서 다음 값을 저장�
 
    ![Adobe Commerce Optimizer 구성 페이지](../assets/aco-connector-config-page.png)
 
-1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 Commerce 스테이징 환경에 연결합니다.
+1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 Commerce 스테이징 환경에 연결합니다.
 
 1. 다음 Commerce CLI 명령을 실행하여 통합을 구성하고 자리 표시자 값을 Commerce Optimizer 프로젝트에 대한 값으로 바꿉니다.
 
@@ -166,13 +166,13 @@ bin/magento aco:config:init --org_id=<<your_org_id>> --tenant_id=<<your_tenant_i
 
 Commerce 관리 및 Commerce Optimizer 모두에서 데이터 동기화를 확인할 수 있습니다.
 
-* **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.md)**&#x200B;에는 Commerce에서 Adobe Commerce Optimizer으로의 카탈로그 데이터 동기화 진행 상황이 표시됩니다.
+* **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.md)**&#x200B;에는 Commerce에서 Adobe Commerce Optimizer으로의 카탈로그 데이터 동기화 진행 상황이 표시됩니다.
 
-* Adobe Commerce Optimizer의 **[[!UICONTROL Data Sync]페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)**&#x200B;은(는) Commerce 인스턴스에서 전송된 카탈로그 데이터를 표시합니다.
+* Adobe Commerce Optimizer의 **[[!UICONTROL Data Sync]페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)**&#x200B;은(는) Commerce 인스턴스에서 전송된 카탈로그 데이터를 표시합니다.
 
 1. 카탈로그 데이터가 Commerce에서 Commerce Optimizer으로 흐르고 있는지 확인합니다.
 
-   Commerce 관리자에서 [!UICONTROL Data Feed Sync Status] **&#x200B; > [!UICONTROL System] > [!UICONTROL Data Transfer]을(를) 선택하여 &#x200B;** [!UICONTROL Data Feed Sync Status]** 페이지를 엽니다.
+   Commerce 관리자에서 [!UICONTROL Data Feed Sync Status]** > [!UICONTROL System] > [!UICONTROL Data Transfer]을(를) 선택하여 **[!UICONTROL Data Feed Sync Status]** 페이지를 엽니다.
 
    ![피드 항목 상태를 보고하는 데이터 피드 동기화 상태 페이지](./assets/data-feed-sync-status.png)
 
@@ -204,19 +204,19 @@ bin/magento indexer:reindex" catalog indexer re-index CLI command to start PaaS 
 
 ## Adobe Commerce Optimizer 스토어 구성
 
-카탈로그 보기 및 정책을 만들어 Adobe Commerce Optimizer 스토어를 구성합니다&#x200B;. Adobe Commerce Optimizer 안내서에서 [카탈로그 보기 만들기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view)를 참조하십시오.
+카탈로그 보기 및 정책을 만들어 Adobe Commerce Optimizer 스토어를 구성합니다&#x200B;. Adobe Commerce Optimizer 안내서에서 [카탈로그 보기 만들기](../optimizer/setup/catalog-view.md)를 참조하십시오.
 
 가격 장부는 Adobe Commerce 고객 그룹에서 자동으로 생성됩니다.
 
 ## Edge Delivery Services에서 Commerce 상점 설정
 
-이 섹션에서는 Commerce 상점 설정에 필요한 단계에 대한 높은 수준의 개요를 제공합니다. 자세한 내용은 [Adobe Commerce 상점]&#x200B;(https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) 설명서 사이트에서 확인할 수 있습니다.
+이 섹션에서는 Commerce 상점 설정에 필요한 단계에 대한 높은 수준의 개요를 제공합니다. 자세한 내용은 [Adobe Commerce 상점]&#x200B;(https://experienceleague.adobe.com/developer/commerce/storefront/) 설명서 사이트에서 확인할 수 있습니다.
 
 1. [사이트 작성자 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 사용하여 Adobe Commerce Storefront 보일러플레이트를 복제하고 EDS에 배포합니다.
 
-1. [로컬 개발 환경을 설정합니다](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#set-up-local-environment).
+1. [로컬 개발 환경을 설정합니다](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment).
 
-1. [GraphQL Storefront 호환성 패키지 설치](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/?lang=ko)&#x200B;.
+1. [GraphQL Storefront 호환성 패키지 설치](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/)&#x200B;.
 
 1. [클라우드 환경에서 Commerce 인스턴스에 대한 CORS 헤더를 구성합니다](#configure-cors-headers-for-commerce-instance).
 
@@ -224,35 +224,24 @@ bin/magento indexer:reindex" catalog indexer re-index CLI command to start PaaS 
 
 ### Commerce 인스턴스에 대한 CORS 헤더 구성
 
-GraphQL 요청이 EDS(Edge Delivery Services) 상점 첫 화면에서 Adobe Commerce 온 클라우드 또는 온프레미스 환경으로 전달되도록 하려면 다음 옵션 중 하나를 사용하여 특정 CORS(원본 간 리소스 공유) 헤더를 Adobe Commerce GraphQL 종단점에 추가합니다&#x200B;.
-
-1. Adobe Commerce GraphQL 종단점에 CORS(원본 간 리소스 공유) 헤더를 추가합니다&#x200B;.
-
-   **옵션 1: CORS 헤더를 추가할 수 있도록 Adobe Commerce 기반에 대한 PHP 사용자 지정 모듈을 구현합니다&#x200B;.**
-
-   **옵션 2: 타사 커뮤니티 모듈 graycore/magento2-cors 설치{1&#x200B;} -** Adobe Commerce 상점[&#x200B; 설명서에서 &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/?lang=ko)CORS 설정&#x200B;*을(를) 참조하십시오.*
-
-1. 클라우드 인스턴스 `app.yaml` 환경 구성 파일의 Commerce에 다음 CORS 변수를 추가합니다.
-
-   * `CONFIG__DEFAULT__WEB__GRAPHQL__CORS_ALLOWED_HEADERS: *`
-   * `CONFIG__DEFAULT__WEB__GRAPHQL__CORS_ALLOWED_ORIGINS: *`
+GraphQL 요청이 EDS(Edge Delivery Services) 상점 첫 화면에서 Adobe Commerce 온 클라우드 또는 온프레미스 환경으로 오도록 하려면 특정 CORS(원본 간 리소스 공유) 헤더를 Adobe Commerce GraphQL 끝점에 추가합니다&#x200B;. 지침은 [Adobe Commerce 상점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/) 설명서의 *CORS 설정*&#x200B;을 참조하십시오.
 
 ### Storefront를 Commerce 데이터 소스에 연결
 
 Storefront 보일러플레이트 코드에 대한 GitHub 저장소에서 다음 매개 변수로 storefront 구성 파일 `config.json`을(를) 업데이트합니다.
 
-* `"commerce-core-endpoint": "Commerce cloud instance GraphQL endpoint"`
+* `"commerce-core-endpoint": "Commerce cloud instance GraphQL endpoint"`(예: `https://{{your store}}/graphql`).
 
-* `"commerce-endpoint": "Commerce Optimizer instance GraphQL endpoint"` - [Commerce Optimizer 인스턴스 세부 정보 페이지에서 이 값을 가져옵니다{2&#x200B;}](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/get-started#get-instance-details)
+* `"commerce-endpoint": "Commerce Optimizer instance GraphQL endpoint"`(예: `https://na1-sandbox.api.commerce.adobe.com/{{instanceId}}/v1/catalog&#x200B;`).
 
-* `"AC-Environment-Id": "Customer organization ID"` - [Commerce 클라우드 프로젝트에서 이 값 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/overview#project-overview)
+* `"AC-Environment-Id": "Customer organization ID"` - [Commerce 클라우드 프로젝트](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/overview#project-overview)에서 이 값을 가져옵니다.
 
-* `"AC-View-ID": "Catalog view ID in Commerce Optimizer Admin"` - Adobe Commerce Optimizer 관리자로부터 이 값을 가져옵니다.
+* `"AC-View-ID": "Catalog view ID in Commerce Optimizer Admin"` - Adobe Commerce Optimizer의 [카탈로그 보기 세부 정보](../optimizer/setup/catalog-view.md#view-details)에서 이 값을 가져옵니다.
 
-* `"AC-Price-Book-ID": "base::b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"` — Adobe Commerce Optimizer 관리자로부터 이 값을 가져옵니다&#x200B;.
+* `"AC-Price-Book-ID": "base::b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"` — Adobe Commerce Optimizer의 [카탈로그 보기 세부 정보](../optimizer/setup/catalog-view.md#view-details)에 있는 할당된 가격 장부 목록에서 이 값을 가져옵니다.
 
-* `"AC-Source-Locale": "Catalog source – Store View code from Commerce cloud instance"`
+* `"AC-Source-Locale": "catalogSource"`— Commerce 상점 전망과 연결된 원본을 지정하여 상점 전망에 연결합니다. Adobe Commerce Optimizer의 [데이터 동기화](../optimizer/setup/data-sync.md) 페이지에서 사용 가능한 소스를 볼 수 있습니다.
 
-자세한 내용은 [Adobe Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko) 설명서의 *Storefront 구성*&#x200B;을 참조하십시오.
+자세한 내용은 [Adobe Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/) 설명서의 *Storefront 구성*&#x200B;을 참조하십시오.
 
 
