@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 성능
 description: 권장 사항 성능 페이지는 insight에 제품 권장 사항이 얼마나 잘 수행되고 있는지 알려줍니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
-source-git-commit: 0eea4658d554f2913c7c2d25e0c0753f22016aaa
+source-git-commit: 177ebffe0295fdc87b6f4a60473ebfda6bea0f01
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,15 @@ ht-degree: 0%
 
 ![권장 사항 성능](../assets/rec-performance.png){zoomable="yes"}
 
-## **카탈로그 보기** 선택
-
-권장 사항이 적용되는 [카탈로그 보기](../setup/catalog-view.md)를 선택하십시오.
-
-![카탈로그 보기](../assets/catalog-view.png)
-
 ## 보고서 보기
 
-**[!UICONTROL Date Range]**&#x200B;을(를) 클릭하고 다음 범위 중 하나를 선택합니다.
+1. 권장 사항이 적용되는 **과(와) 같은**&#x200B;카탈로그 원본`en-US`을(를) 선택하십시오.
 
-![권장 사항 날짜 범위](../assets/rec-perf-date-range.png)
+1. **[!UICONTROL Date Range]**&#x200B;을(를) 클릭하고 다음 범위 중 하나를 선택합니다.
 
-권장 사항 테이블이 업데이트되어 해당 날짜 범위에 대한 지표를 표시합니다.
+   ![권장 사항 날짜 범위](../assets/rec-perf-date-range.png)
+
+   권장 사항 테이블이 업데이트되어 해당 날짜 범위에 대한 지표를 표시합니다.
 
 ## 표 맞춤화
 
@@ -46,14 +42,6 @@ ht-degree: 0%
    - 표시되는 열을 숨기려면 확인 표시가 있는 열 이름을 클릭합니다.
 
    선택한 열만 포함하도록 테이블이 새로 고쳐집니다.
-
-## 필터 설정
-
-필터 아이콘을 클릭하여 권장 사항 성능 작업 영역에서 지표를 필터링합니다.
-
-![지표 필터링](../assets/rec-filters.png)
-
-각 필터에 대해 여러 값을 구성할 수 있습니다. 각 필터에 대한 설명은 아래 [표](#column-descriptions)을 참조하세요.
 
 ## 세부 정보 보기
 
