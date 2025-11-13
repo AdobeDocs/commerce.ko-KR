@@ -2,7 +2,7 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
 source-git-commit: d6d559728361f4421829f34818aa368eac407225
 workflow-type: tm+mt
@@ -218,26 +218,26 @@ ht-degree: 0%
 
 문제가 지속되는 경우:
 
-* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/) 검토
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) 검토
 * [Adobe Commerce Optimizer 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)를 확인하세요.
-* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) 방문
+* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview) 방문
 
 ## 다음 단계
 
 상점을 설정하고 확인한 후 다음을 수행할 수 있습니다.
 
-1. **[Sidekick 설치](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - 웹 사이트에서 직접 콘텐츠를 편집하고 미리 보고 게시하기 위한 브라우저 확장 기능
+1. **[Sidekick 설치](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#install-and-configure-sidekick)** - 웹 사이트에서 직접 콘텐츠를 편집하고 미리 보고 게시하기 위한 브라우저 확장 기능
 
-2. **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - 로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
+2. **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#set-up-local-environment)** - 로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
 
 ### 학습 및 탐색
 
 * **[엔드 투 엔드 사용 사례 완료](./use-case/admin-use-case.md)** - [!DNL Adobe Commerce Optimizer]을(를) 사용한 상점 설정 및 카탈로그 관리에 대해 자세히 알아보기
 
-* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - 고급 설정 및 구성 옵션 알아보기
+* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko)** - 고급 설정 및 구성 옵션 알아보기
 
-* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
+* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko)** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
