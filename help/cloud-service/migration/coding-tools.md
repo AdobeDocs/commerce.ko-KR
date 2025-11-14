@@ -1,13 +1,13 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+source-git-commit: 9382ce8f139f9d2f4ec1732c0d83b466cd54fa37
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,19 @@ Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 
 
    다음 파일이 작업 공간에 추가됩니다.
 
+   **커서**
+
    * MCP 구성: `.cursor/mcp.json`
    * 규칙 디렉터리: `.cursor/rules/`
 
+   **Copilot**
+
+   * MCP 구성: `.vscode/mcp.json`
+   * 규칙 디렉터리: `.github/copilot-instructions.md`
+
 ## 설치 후 구성
+
+### 커서
 
 1. Cursor IDE를 다시 시작하여 새 MCP 도구 및 구성을 로드합니다.
 
@@ -119,6 +128,45 @@ Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 
    Server: commerce-extensibility
    Configuration: Automatically configured via .cursor/mcp.json
    ```
+
+1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
+
+```terminal
+What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
+```
+
+### 부조종사
+
+1. Visual Studio 코드를 다시 시작하여 새 MCP 도구 및 구성을 로드합니다.
+
+1. `copilot-instructions.md` 파일이 `.github` 폴더에 있는지 확인하여 설치를 확인합니다.
+
+1. MCP 서버 활성화:
+
+   * 왼쪽 사이드바의 활동 표시줄에서 **확장** 아이콘을 클릭하거나 **Cmd+Shift+X**(macOs) 또는 **Ctrl+Shift+X**(Windows 및 Linux)를 사용하여 확장 패널을 엽니다.
+   * **MCP 서버 - 설치됨**&#x200B;을 클릭합니다.
+   * **commerce-extensibility MCP 서버** 옆에 있는 톱니바퀴 아이콘을 클릭하고 서버가 중지된 경우 **서버 시작**&#x200B;을 선택합니다.
+   * 톱니바퀴 아이콘을 다시 클릭하고 **출력 표시**&#x200B;를 선택합니다.
+
+1. 서버 상태를 확인합니다. `MCP:commerce-extensibility` 출력은 다음과 일치해야 합니다.
+
+   ```terminal
+   2025-11-13 12:58:50.652 [info] Starting server commerce-extensibility
+   2025-11-13 12:58:50.652 [info] Connection state: Starting
+   2025-11-13 12:58:50.652 [info] Starting server from LocalProcess extension host
+   2025-11-13 12:58:50.657 [info] Connection state: Starting
+   2025-11-13 12:58:50.657 [info] Connection state: Running
+   
+   (...)
+   
+   2025-11-13 12:58:50.753 [info] Discovered 10 tools
+   ```
+
+1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
+
+```terminal
+What are the differences between Adobe Commerce PaaS and SaaS when configuring a webhook that activates an App Builder runtime action?
+```
 
 ## 샘플 프롬프트
 
@@ -174,7 +222,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
