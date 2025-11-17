@@ -1,6 +1,6 @@
 ---
 title: 데이터 동기화
-description: Commerce 데이터 원본에서  [!DNL Adobe Commerce Optimizer](으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
+description: Commerce 데이터 원본에서  [!DNL Adobe Commerce Optimizer] (으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
 role: Admin, Developer
 recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
