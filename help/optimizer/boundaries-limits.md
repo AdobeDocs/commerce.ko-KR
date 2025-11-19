@@ -2,11 +2,11 @@
 title: 경계 및 제한
 description: ' [!DNL Adobe Commerce Optimizer]의 경계 및 제한에 대해 알아봅니다.'
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
-source-git-commit: 1eb95f26a196ad4e66cbc980c7f8a41cae950cb6
+source-git-commit: 41eae72cbd01f0e0f2c4a6cf028a2a11c79921ad
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ ht-degree: 0%
 
 - 카테고리 또는 속성 포함 또는 제외를 지원하지 않습니다.
 - [!DNL Adobe Commerce Optimizer]에서 권장 사항을 미리 볼 수 없습니다.
+- 최대 50개의 활성 권장 사항 단위를 만들 수 있습니다.
