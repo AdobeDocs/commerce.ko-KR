@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 만들기 및 관리
 description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
-source-git-commit: 0b8e0222a1de1c425964f9f54294d7e0435a26d8
+source-git-commit: 41eae72cbd01f0e0f2c4a6cf028a2a11c79921ad
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,10 @@ _추천 단위_
    - 상점 첫 화면에서 추천 단위를 사용하려면 **활성화**&#x200B;하세요.
 
 1. 메시지가 표시되면 권장 사항 ID를 복사합니다. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면의 추천 드롭인에서 사용 중인 추천 단위를 식별합니다.
+
+>[!NOTE]
+>
+> 최대 50개의 활성 권장 사항 단위를 만들 수 있습니다.
 
 >[!IMPORTANT]
 >
