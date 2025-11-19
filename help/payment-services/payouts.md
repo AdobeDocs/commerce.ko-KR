@@ -5,7 +5,7 @@ role: User
 level: Intermediate
 exl-id: f3f99474-cd28-4c8f-b0ea-dca8e014b108
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: a0f9ddbf3d0f291855cb51fd70a782c48b8efc6c
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 지급 보고서
 
-[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]은(는) 스토어의 거래, 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
+[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source]은(는) 스토어의 거래, 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
 
 사용 가능한 두 가지 지급 보고 보기를 통해 모든 지급 횟수에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html?lang=ko#set-payment-services-as-payment-method)&#x200B;(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
+>지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#set-payment-services-as-payment-method)&#x200B;(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
 
 ## 지급액 데이터 시각화 보기
 
@@ -37,7 +37,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![관리자의 페이아웃 데이터 시각화](assets/payouts-report.png){width="800" zoomable="yes"}
 
-자세한 표 형식 [지급 보고서 보기](#payouts-report-view)(으)로 이동하려면 **[!UICONTROL View Report]**&#x200B;을(를) 클릭하십시오.
+자세한 표 형식 **[!UICONTROL View Report]**&#x200B;지급 보고서 보기[(으)로 이동하려면 ](#payouts-report-view)을(를) 클릭하십시오.
 
 ### 트랜잭션 일정 사용자 지정
 
@@ -81,7 +81,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 >[!NOTE]
 >
->이 표에 표시된 데이터는 기본적으로 `TRANS DATE`을(를) 사용하여 내림차순(`DESC`)으로 정렬됩니다. `TRANS DATE`은(는) 트랜잭션이 시작된 날짜와 시간입니다.
+>이 표에 표시된 데이터는 기본적으로 `DESC`을(를) 사용하여 내림차순(`TRANS DATE`)으로 정렬됩니다. `TRANS DATE`은(는) 트랜잭션이 시작된 날짜와 시간입니다.
 
 ### 데이터 소스 선택
 
@@ -89,12 +89,12 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
+_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
-* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
+* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
+* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 주문 지급 상태 보고서에 대한 데이터 출처를 선택하려면
@@ -117,7 +117,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 지급 보고서 보기에서 특정 날짜를 입력하거나 날짜 선택기에서 날짜 범위를 선택하여 보려는 지급 거래에 대한 기간을 사용자 정의할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Transaction dates]_&#x200B;일정 선택기 필터를 클릭합니다.
+1. _[!UICONTROL Transaction dates]_일정 선택기 필터를 클릭합니다.
 1. 적용 가능한 날짜 범위를 선택합니다.
 1. 그리드에서 지정된 날짜에 대한 지급 상태를 봅니다.
 
@@ -137,7 +137,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**(으)로 이동합니다.
 1. [트랜잭션에 대한 날짜 범위 일정 사용자 지정](#customize-transactions-timeframe).
-1. _다운로드_(![다운로드 아이콘](assets/icon-download.png){width="20" zoomable="yes"}) 아이콘을 클릭합니다.
+1. _다운로드_( ![다운로드 아이콘](assets/icon-download.png){width="20" zoomable="yes"} ) 아이콘을 클릭합니다.
 
 지급 트랜잭션은 .csv 형식으로 다운로드됩니다.
 
@@ -155,7 +155,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 | [!UICONTROL Code] | 대변(*CR*) 또는 차변(*DR*)을 나타내는 거래 코드 |
 | [!UICONTROL Reference ID] | 이 이벤트와 관련된 원래 거래 ID |
 | [!UICONTROL Invoice] | 거래의 송장 ID(주문당 하나) |
-| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
+| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
 | [!UICONTROL Commerce trans] | Commerce 거래 ID |
 | [!UICONTROL Pay method] | 신용 카드 유형—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* 및 관련 카드 공급자(예: *Visa* 또는 *MasterCard*) |
 | [!UICONTROL TRANS AMT] | 거래 금액 |
