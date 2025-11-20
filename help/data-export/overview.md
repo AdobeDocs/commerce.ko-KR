@@ -25,9 +25,9 @@ SaaS 데이터 내보내기는 PHP 확장으로 제공됩니다. 데이터 동�
 
 - **관리자 또는 명령줄에서 수동 동기화**
 
-   - Commerce 관리자의 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 동기화 상태를 그래픽으로 표시합니다. 대시보드를 사용하여 모든 피드의 전체 다시 동기화(_전체 동기화_)를 수행할 수 있습니다. 그러나 Adobe은 Adobe Commerce을 Commerce 서비스에 처음 연결할 때만 전체 동기화를 수행하는 것이 좋습니다. [동기화 프로세스](data-synchronization.md)를 참조하십시오.
+   - Commerce 관리자의 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 동기화 상태를 그래픽으로 표시합니다. 대시보드를 사용하여 모든 피드의 전체 다시 동기화(_전체 동기화_)를 수행할 수 있습니다. 그러나 Adobe은 Adobe Commerce을 Commerce 서비스에 처음 연결할 때만 전체 동기화를 수행하는 것이 좋습니다. [동기화 프로세스](data-synchronization.md)를 참조하십시오.
 
-   - [Adobe Commerce 명령줄 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)&#x200B;(CLI)는 특정 피드를 동기화하는 명령을 제공하며 피드 처리를 사용자 지정하는 추가 옵션을 포함합니다.
+   - [Adobe Commerce 명령줄 도구](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/config-cli)&#x200B;(CLI)는 특정 피드를 동기화하는 명령을 제공하며 피드 처리를 사용자 지정하는 추가 옵션을 포함합니다.
 
 - **cron 작업과 자동 동기화**
 

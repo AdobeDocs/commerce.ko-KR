@@ -113,11 +113,11 @@ Adobe Commerce 및 Magento Open Source용 [!DNL Payment Services]은(는) Commer
 
 >[!MORELIKETHIS]
 >
-> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 판매자 중심의 설명서
-> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source]을(를) 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서입니다.
+> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko) - [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 판매자 중심의 설명서
+> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko) - [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source]을(를) 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서입니다.
 > * [릴리스 정보](release-notes.md) - 예정된 릴리스, 제품 세부 정보 및 [!DNL Payment Services] 확장을 지원하는 Adobe Commerce 버전에 대해 자세히 알아봅니다.
-> * [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)—기술 자료에서 [!DNL Payment Services] 관련 문제 해결 문서를 검색합니다.
-> * [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Commerce 고객은 추가 지원을 받기 위해 티켓을 제출할 수 있습니다.
+> * [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ko)—기술 자료에서 [!DNL Payment Services] 관련 문제 해결 문서를 검색합니다.
+> * [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket) - Commerce 고객은 추가 지원을 받기 위해 티켓을 제출할 수 있습니다.
 
 ## 지원
 
