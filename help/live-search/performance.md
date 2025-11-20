@@ -1,7 +1,8 @@
 ---
 title: 성능
-description: ' [!DNL Live Search] 성능 작업 영역에서는 쇼핑객이 사용하는 검색어에 대한 통찰력을 제공합니다.'
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+description: ' [!DNL Live Search] 성능 작업 영역에서는 쇼핑객이 사용하는 검색어에 insight을 제공합니다.'
+exl-id: 07a63df8-b981-4913-841a-7e81ec634281
+source-git-commit: ae672ed3f2693e2f14e8c7f379e59ef117a34fc3
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -10,7 +11,7 @@ ht-degree: 0%
 
 # 성능
 
-*성능* 작업 영역에서는 쇼핑객이 사용하는 검색어에 대한 통찰력을 제공합니다. 이 정보는 트렌드를 식별하고 클릭스루를 늘리고 전환율을 향상시키는 데 사용할 수 있습니다. 성능 작업 영역에서는 특정 날짜 범위에 대한 검색 지표 스냅숏을 제공하며 다음 보고서를 포함합니다.
+*성능* 작업 영역에서는 쇼핑객이 사용하는 검색어에 insight을 제공합니다. 이 정보는 트렌드를 식별하고 클릭스루를 늘리고 전환율을 향상시키는 데 사용할 수 있습니다. 성능 작업 영역에서는 특정 날짜 범위에 대한 검색 지표 스냅숏을 제공하며 다음 보고서를 포함합니다.
 
 * 고유 검색
 * 결과 없음
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ![성능](assets/performance-unique-searches.png)
 
-데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=ko)를 참조하십시오.
+데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html)를 참조하십시오.
 
 >[!NOTE]
 >
