@@ -37,7 +37,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![관리자의 페이아웃 데이터 시각화](assets/payouts-report.png){width="800" zoomable="yes"}
 
-자세한 표 형식 **[!UICONTROL View Report]**&#x200B;지급 보고서 보기[(으)로 이동하려면 ](#payouts-report-view)을(를) 클릭하십시오.
+자세한 표 형식 **[!UICONTROL View Report]**&#x200B;지급 보고서 보기[(으)로 이동하려면 &#x200B;](#payouts-report-view)을(를) 클릭하십시오.
 
 ### 트랜잭션 일정 사용자 지정
 
@@ -89,12 +89,12 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
+_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
-* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
+* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
+* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 주문 지급 상태 보고서에 대한 데이터 출처를 선택하려면
@@ -117,7 +117,7 @@ _[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 �
 지급 보고서 보기에서 특정 날짜를 입력하거나 날짜 선택기에서 날짜 범위를 선택하여 보려는 지급 거래에 대한 기간을 사용자 정의할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Transaction dates]_일정 선택기 필터를 클릭합니다.
+1. _[!UICONTROL Transaction dates]_&#x200B;일정 선택기 필터를 클릭합니다.
 1. 적용 가능한 날짜 범위를 선택합니다.
 1. 그리드에서 지정된 날짜에 대한 지급 상태를 봅니다.
 
