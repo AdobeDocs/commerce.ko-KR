@@ -1,6 +1,6 @@
 ---
 title: 카탈로그 동기화
-description: ' [!DNL Commerce] 서버에서  [!DNL Commerce Services](으)로 제품 데이터를 내보내는 방법에 대해 알아봅니다.'
+description: ' [!DNL Commerce] 서버에서  [!DNL Commerce Services] (으)로 제품 데이터를 내보내는 방법에 대해 알아봅니다.'
 feature: Catalog Management, Data Import/Export, Catalog Service
 exl-id: 99f96b93-b036-490c-8c57-40463a0de365
 source-git-commit: ae672ed3f2693e2f14e8c7f379e59ef117a34fc3
