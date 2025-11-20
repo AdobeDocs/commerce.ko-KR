@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 다음 구성 요소로 구성됩니다.
 
-* **[Adobe Experience Cloud](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 ](https://experience.adobe.com/) 제품에 대한 중앙 진입점
+* **[Adobe Experience Cloud](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 &#x200B;](https://experience.adobe.com/) 제품에 대한 중앙 진입점
    * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
 * **[Commerce Cloud 관리자](https://experience.adobe.com/#/commerce/cloud-service)** - 인스턴스 만들기 및 관리, API URL 액세스 및 Commerce 관리자
 * **[Adobe Admin Console](https://adminconsole.adobe.com/)** - 사용자 및 역할 관리

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads) 및 [REST](https://developer.adobe.com/commerce/webapi/rest/modules/s3-uploads)에서 사전 서명된 URL을 사용하여 협상 가능한 견적 첨부 파일뿐만 아니라 고객 및 고객 주소와 연결된 파일 및 이미지를 Amazon S3에 업로드하고 검색하는 기능이 추가되었습니다. REST를 사용하면 카테고리 이미지를 업로드할 수도 있습니다. <!-- CCSAAS-3250 -->
 
-* 고객을 만들고 업데이트하기 위해 `POST /V1/customers`REST API`PUT /V1/customers/{customerId}`에 [ 및 ](https://developer.adobe.com/commerce/webapi/rest/reference/) 끝점을 추가했습니다. 이러한 엔드포인트는 관리자 권한이 필요합니다. <!-- CCSAAS-3112 -->
+* 고객을 만들고 업데이트하기 위해 `POST /V1/customers`REST API`PUT /V1/customers/{customerId}`에 [&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/reference/) 끝점을 추가했습니다. 이러한 엔드포인트는 관리자 권한이 필요합니다. <!-- CCSAAS-3112 -->
 
 * 쇼핑객 전자 메일 주소와 OTP(일회용 암호)가 필요한 [`exchangeOtpForCustomerToken` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/exchange-otp-customer-token/)을(를) 추가하고 고객 토큰을 교환으로 받았습니다. 이 돌연변이는 일반적으로 고객이 이메일 또는 전화로 전송된 OTP를 사용하여 인증해야 하는 시나리오에서 사용됩니다.
 
