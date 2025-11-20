@@ -24,11 +24,11 @@ _추천 단위_
 
 1. _관리자_ 사이드바에서 **마케팅** > _프로모션_ > **제품 추천**(으)로 이동하여 _제품 추천_ 작업 영역을 표시합니다.
 
-1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
+1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
 
    >[!NOTE]
    >
-   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
+   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
 
 1. **추천 만들기**&#x200B;를 클릭합니다.
 
@@ -38,14 +38,14 @@ _추천 단위_
 
    >[!NOTE]
    >
-   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
+   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
 
    * 홈 페이지
    * 범주
    * 제품 세부 사항
    * 장바구니
    * 확인
-   * [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)
+   * [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)
 
    각 페이지 유형에 대해 최대 50개의 활성 권장 사항 단위를 만들 수 있습니다. 제한에 도달하면 페이지 유형이 회색으로 표시됩니다.
 
