@@ -23,15 +23,15 @@ ht-degree: 11%
 
 | 안내서 | 설명 |
 |------ | ----------- |
-| [Adobe Commerce 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce.html?lang=ko) | Adobe Commerce 및 Magento Open Source 모두에 대한 판매자 중심 설명서 |
+| [Adobe Commerce 2.4 사용 안내서](https://experienceleague.adobe.com/docs/commerce.html) | Adobe Commerce 및 Magento Open Source 모두에 대한 판매자 중심 설명서 |
 | [Adobe Commerce 2.4 개발자 안내서](https://developer.adobe.com/commerce/docs) | Adobe Commerce 또는 Magento Open Source을 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서 |
 
 ## 지원
 
-[온보딩 프로세스](https://experienceleague.adobe.com/docs/commerce/catalog-service/installation.html?lang=ko)는 [!DNL Catalog Service] 기능을 설정하고 활성화하는 데 필요한 단계를 안내하도록 설계되었습니다.
+[온보딩 프로세스](https://experienceleague.adobe.com/docs/commerce/catalog-service/installation.html)는 [!DNL Catalog Service] 기능을 설정하고 활성화하는 데 필요한 단계를 안내하도록 설계되었습니다.
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-* 문제 해결 문서를 보려면 [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ko)를 참조하세요.
-* [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket) - 추가 지원을 받으려면 티켓을 제출하세요.
+* 문제 해결 문서를 보려면 [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)를 참조하세요.
+* [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - 추가 지원을 받으려면 티켓을 제출하세요.
 * Adobe Commerce 엔지니어링 팀에 참여하고 SaaS 상점 서비스 사용자를 [#storefront-services](https://magentocommeng.slack.com/archives/C03HVPG8RS4) 공용 Slack 채널에서 최신 상태로 유지하십시오.
