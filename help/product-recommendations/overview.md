@@ -43,7 +43,7 @@ PWA Studio을 사용하여 상점 전면이 구현된 경우 [PWA 설명서](htt
 
 [!DNL Product Recommendations]에 대해 알아보려면 이 비디오 보기:
 
->[!VIDEO](https://video.tv.adobe.com/v/343991?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449965?captions=kor&quality=12)
 
 ## 카탈로그 데이터 보존 정책
 
