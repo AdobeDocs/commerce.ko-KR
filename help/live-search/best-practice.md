@@ -3,9 +3,9 @@ title: '[!DNL Live Search] 모범 사례'
 description: 스토어에서  [!DNL Live Search] 을(를) 구현하기 위한 모범 사례를 알아봅니다.
 role: Admin, Developer
 exl-id: f7700339-fb13-42fe-a249-17cd4ba36e1b
-source-git-commit: a22a57f52503811a3a3e9294174a6626c5630b79
+source-git-commit: f966a3f6f59c28e9f394d5eb7e41aaef1a992fec
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,7 @@ Facet에 대해 자세히 알아보기:
 - 관련성을 손상시키지 않고 수익 마진이 더 높은 제품의 우선 순위를 약간 지정합니다.
 - 판매 중인 제품 또는 특별 프로모션의 일부를 강조하십시오.
 - 판촉 기간 중 일자 범위를 사용하여 판촉 또는 판매 기간 중 검색 규칙을 자동으로 설정합니다.
+- 항상 &quot;규칙 테스트&quot; 패널을 사용하여 지능형 등급 전략이 다양한 쿼리의 실제 검색 결과에 미치는 영향을 미리 보십시오.
 - &quot;추천&quot;, &quot;가장 많이 본 항목&quot; 등과 같은 [지능형 순위](rules-add.md#intelligent-ranking)를 사용하는 개별 구매자 행동을 기반으로 검색 결과를 사용자 지정합니다. 구매자 행동을 맞춤화하려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)해야 합니다.
 
 검색 규칙에 대해 자세히 알아보기:
@@ -137,7 +138,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 
