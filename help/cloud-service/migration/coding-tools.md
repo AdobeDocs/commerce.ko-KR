@@ -1,13 +1,13 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 9382ce8f139f9d2f4ec1732c0d83b466cd54fa37
+source-git-commit: 0e76dee3b33ca7906b22d33d15c6c75ca1c391ef
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,16 @@ Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 
 
    * MCP 구성: `.vscode/mcp.json`
    * 규칙 디렉터리: `.github/copilot-instructions.md`
+
+>[!NOTE]
+>
+>프로젝트를 배포하기 전에 다음 구성 작업을 완료해야 합니다.
+>
+>* Adobe I/O CLI를 사용하여 [Adobe Developer Console](https://developer.adobe.com/console)에 로그인합니다.
+>* App Builder 프로젝트를 만듭니다([프로젝트 설정](https://developer.adobe.com/commerce/extensibility/events/project-setup) 참조).
+>* `.env` 파일에서 환경 변수를 설정합니다.
+>
+>이러한 구성 단계를 수동으로 완료하거나 AI 코딩 도구를 활용하여 프로세스를 안내할 수 있습니다. 자세한 구성 지침은 [통합 만들기](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/)를 참조하십시오.
 
 ## 설치 후 구성
 
@@ -222,7 +232,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
