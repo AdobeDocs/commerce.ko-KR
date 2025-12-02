@@ -1,13 +1,13 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 0e76dee3b33ca7906b22d33d15c6c75ca1c391ef
+source-git-commit: b62dafbf381eb11501c901d6e8d6ad3da972a307
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
 
 ## 사전 요구 사항
 
-* 코딩 에이전트(예: [Cursor](https://cursor.com/download)&#x200B;(권장), [Github Copilot](https://github.com/features/copilot), [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) 또는 [클라우드 코드](https://www.claude.com/product/claude-code))
+* 다음 코딩 에이전트 중 하나:
+   * [커서](https://cursor.com/download)&#x200B;(권장)
+   * [Github Copilot](https://github.com/features/copilot)
+   * [Google Gemini CLI](https://github.com/google-gemini/gemini-cli)
+   * [클라우드 코드](https://www.claude.com/product/claude-code)
 * [Node.js](https://nodejs.org/en/download): LTS 버전
 * 패키지 관리자: [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 또는 [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 * [Git](https://github.com/git-guides/install-git): 리포지토리 복제 및 버전 제어용
@@ -118,6 +122,33 @@ Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 
 
 ## 설치 후 구성
 
+### [!DNL Adobe I/O CLI]에 로그인
+
+[!DNL Adobe I/O CLI]을(를) 설치한 후 MCP 서버를 사용하려면 언제든지 로그인해야 합니다.
+
+```bash
+aio auth login
+```
+
+로그인했는지 확인하려면 다음 명령을 실행합니다.
+
+```bash
+aio where
+```
+
+문제가 발생하면 로그아웃했다가 다시 로그인하십시오.
+
+```bash
+aio auth logout
+aio auth login
+```
+
+>[!NOTE]
+>
+>MCP 서버의 일부 기능은 로그인하지 않고 작동하지만 RAG(Retrieval-Augmented Generation) 서비스는 작동하지 않습니다. RAG 서비스는 AI 코딩 에이전트에게 전체 Adobe Commerce 설명서 세트에 대한 실시간 액세스를 제공하여 최신 Commerce 개발 사례, API 및 아키텍처 패턴을 기반으로 질문에 답변하고 코드를 생성할 수 있도록 합니다.
+>
+>향후 릴리스에서는 RAG 서비스를 다른 도구를 설치하지 않고도 독립적으로 액세스할 수 있습니다.
+
 ### 커서
 
 1. Cursor IDE를 다시 시작하여 새 MCP 도구 및 구성을 로드합니다.
@@ -174,9 +205,9 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
 
-```terminal
-What are the differences between Adobe Commerce PaaS and SaaS when configuring a webhook that activates an App Builder runtime action?
-```
+   ```terminal
+   What are the differences between Adobe Commerce PaaS and SaaS when configuring a webhook that activates an App Builder runtime action?
+   ```
 
 ## 샘플 프롬프트
 
@@ -189,6 +220,14 @@ Order ID -> orderID
 Order Total -> total
 Customer Email ID -> emailID
 Payment Type -> pType
+```
+
+## 프롬프트 명령
+
+메시지를 표시하는 것 외에도 `/search-commerce-docs` 명령을 사용하여 에이전트와의 대화에서 설명서를 검색할 수 있습니다. For example:
+
+```text
+/search-commerce-docs "How do I subscribe to Commerce events?"
 ```
 
 ## 우수 사례
@@ -232,7 +271,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
@@ -274,6 +313,10 @@ Create a detailed implementation plan for this complex development.
 * 여러 구성 요소 간 테스트
 
 ### MCP 도구 사용
+
+>[!NOTE]
+>
+>MCP 도구를 사용하기 전에 [Adobe I/O CLI에 로그인했는지 확인](#log-in-to-the-adobe-io-cli)하세요.
 
 툴은 기본적으로 MCP 툴로 설정되지만 특정 상황에서는 CLI 명령을 대신 사용할 수도 있습니다. MCP 도구 사용을 확인하려면 프롬프트에서 명시적으로 요청하십시오.
 
