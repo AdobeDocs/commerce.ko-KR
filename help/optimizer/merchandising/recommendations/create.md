@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 만들기 및 관리
 description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
-source-git-commit: 41eae72cbd01f0e0f2c4a6cf028a2a11c79921ad
+source-git-commit: 032a19183b79cea1bfe27e8a4e20c60ba5ac6b8b
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -161,11 +161,9 @@ _권장 사항 유형_
 
 ## 권장 사항 미리보기
 
->[!IMPORTANT]
->
->이 기능은 아직 사용할 수 없습니다.
-
 _권장 제품 미리 보기_ 패널은 항상 권장 구성 단위가 상점 앞에 배포될 때 권장 구성 단위에 나타날 수 있는 샘플 제품군을 사용하여 사용할 수 있습니다.
+
+![권장 사항 미리 보기](../../assets/rec-preview.png)
 
 비프로덕션 환경에서 작업할 때 권장 사항을 테스트하려면 다른 소스에서 권장 사항 데이터를 가져올 수 있습니다. 이를 통해 판매자는 규칙을 실험하고 프로덕션에 배포하기 전에 권장 사항을 미리 볼 수 있습니다.
 
