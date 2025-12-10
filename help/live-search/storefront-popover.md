@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!DNL Storefront Popover]
 
-[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [!DNL popover]검색[ 상자에 입력하면 상점 앞에 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search)이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
+[!DNL Live Search]이(가) [설치됨](install.md)인 경우 쇼핑객이 [!DNL popover]검색[&#x200B; 상자에 입력하면 상점 앞에 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search)이(가) 표시됩니다. 각 문자를 입력하면 상위 검색 결과의 추천 제품 및 썸네일 이미지로 [!DNL popover]이(가) 업데이트됩니다.
 
 [!DNL Live Search]이(가) 2자 이상의 쿼리에 대한 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. &quot;입력할 때 검색&quot; 쿼리의 문자 수는 구성할 수 없습니다.
 
@@ -105,7 +105,7 @@ Storefront 요소 스타일에 대한 자세한 내용은 [Frontend 개발자 �
 
 ## 수정된 테마로 작업 {#working-with-modified-theme}
 
-[!DNL storefront popover]Luma[에서 필요한 파일을 상속하는 사용자 지정된 ](https://developer.adobe.com/commerce/frontend-core/guide/themes/)테마&#x200B;*와 함께*&#x200B;을(를) 사용할 수 있습니다. `top.search` 모듈의 `header-wrapper`에 있는 `Magento_Search` 블록은 수정하지 않아야 합니다.
+[!DNL storefront popover]Luma[에서 필요한 파일을 상속하는 사용자 지정된 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/themes/)테마&#x200B;*와 함께*&#x200B;을(를) 사용할 수 있습니다. `top.search` 모듈의 `header-wrapper`에 있는 `Magento_Search` 블록은 수정하지 않아야 합니다.
 
 ```html
 <referenceContainer name="header-wrapper">
@@ -127,4 +127,4 @@ bin/magento module:disable Magento_LiveSearchStorefrontPopover
 
 ## Headless 구현
 
-Headless 구현의 경우 [!DNL Live Search popover]npm 패키지[를 사용하여 ](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils)을(를) 설치할 수 있습니다.
+Headless 구현의 경우 [!DNL Live Search popover]npm 패키지[를 사용하여 &#x200B;](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils)을(를) 설치할 수 있습니다.
