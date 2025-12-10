@@ -3,9 +3,9 @@ title: 통합 구성
 description: Adobe Commerce 프로젝트와 Experience Manager Assets 프로젝트를 연결하여 이 두 시스템 간에 에셋을 동기화하는 방법에 대해 알아봅니다.
 feature: CMS, Media
 exl-id: 3533d010-926f-4d78-935c-98a9b7040d27
-source-git-commit: 86e8876af21da3df0ec5e940113f19593b2f6d0a
+source-git-commit: 6cd37fda03bb51a1375b0e9dc542f9e02d3c6e54
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Commerce을 AEM Assets 인스턴스에 연결하고 에셋 동기화를 위한 �
 
 AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자산을 동기화하기 위한 일치 규칙을 선택합니다.
 
-* **[!UICONTROL Match by product SKU]** - 에셋이 올바른 제품과 연결되어 있는지 확인하기 위해 에셋 메타데이터의 SKU와 [Commerce 제품 SKU](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/glossary#sku)가 일치하는 기본 규칙입니다.
+* **[!UICONTROL Match by product SKU]** - 에셋이 올바른 제품과 연결되어 있는지 확인하기 위해 에셋 메타데이터의 SKU와 [Commerce 제품 SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku)가 일치하는 기본 규칙입니다.
 
 * **[!UICONTROL Custom match]** - 사용자 지정 일치 논리가 필요한 더 복잡한 시나리오 또는 특정 비즈니스 요구 사항에 대한 일치 규칙. 사용자 지정 일치를 구현하려면 Adobe Developer App Builder에서 자산과 제품의 일치 방법을 정의하는 사용자 지정 코드를 개발해야 합니다. 자세한 내용은 곧 제공될 예정입니다.
 
@@ -28,7 +28,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 * [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce 패키지를 설치하여](configure-commerce.md) 확장을 추가하고 확장을 사용하는 데 필요한 자격 증명과 연결을 생성합니다.
 
-* [Dynamic Media Open API 활성화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) 주제에 설명된 단계를 따릅니다. 지원 팀에 대한 다음 정보를 포함하십시오.
+* [Dynamic Media Open API 활성화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) 주제에 설명된 단계를 따릅니다. 지원 팀에 대한 다음 정보를 포함하십시오.
 
    * **[!UICONTROL AEM Program ID]**
    * **[!UICONTROL Adobe Commerce URL]**
@@ -37,7 +37,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 ## 연결 구성
 
-1. [AEM Assets 작성 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) 프로젝트 및 환경 ID를 가져옵니다.
+1. [AEM Assets 작성 환경](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) 프로젝트 및 환경 ID를 가져옵니다.
 
    1. AEM Cloud Manager을 열고 **[!UICONTROL Assets]**&#x200B;을(를) 선택합니다.
 
@@ -48,6 +48,10 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
    1. **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
       ![AEM Assets 통합을 통해 통합 사용](../assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+>[!INFO]
+>
+> AEM Assets 통합은 글로벌(기본) 범위에서만 구성을 지원합니다. 웹 사이트 수준 구성은 지원되지 않습니다. 웹 사이트 수준에서 통합을 구성하려고 하면 시스템이 웹 사이트 수준 설정을 무시하고 대신 전역 구성 값을 사용합니다.
 
 1. AEM Assets 환경 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]**&#x200B;을(를) 입력하십시오.
 
@@ -67,10 +71,10 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 1. **[!UICONTROL Asset matching rule]** 드롭다운에서 자산 동기화에 대한 자산 일치 규칙 중 하나를 선택합니다.
 
-   * **[!UICONTROL Match by SKU]**&#x200B;기본 자동 일치[에 대해 &#x200B;](../synchronize/default-match.md)을(를) 선택하십시오.
-   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 &#x200B;](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
+   * **[!UICONTROL Match by SKU]**&#x200B;기본 자동 일치[에 대해 ](../synchronize/default-match.md)을(를) 선택하십시오.
+   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 ](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
 
-1. 기본적으로 [&#x200B; 필드 &#x200B;](configure-aem.md#configure-metadata)에 Commerce 제품 SKU에 대해 정의된 **[!UICONTROL Match by product SKU attribute name]** AEM Assets 메타데이터 필드 이름`commerce:skus`을(를) 추가합니다.
+1. 기본적으로 [ 필드 ](configure-aem.md#configure-metadata)에 Commerce 제품 SKU에 대해 정의된 **[!UICONTROL Match by product SKU attribute name]** AEM Assets 메타데이터 필드 이름`commerce:skus`을(를) 추가합니다.
 
 1. 업데이트를 적용하고 자산 동기화를 시작하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 선택하십시오.
 
@@ -95,7 +99,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 관리자는 해당 소유자에게 사용 가능한 이미지를 표시하지만 나머지 이미지는 회색으로 표시되며 **hidden** 레이블과 함께 표시됩니다.
 
-이미지 표시 동작에 대한 자세한 내용은 [이미지 세부 정보 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} 항목을 참조하십시오.
+이미지 표시 동작에 대한 자세한 내용은 [이미지 세부 정보 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} 항목을 참조하십시오.
 
 >[!TIP]
 >

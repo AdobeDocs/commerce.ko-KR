@@ -3,9 +3,9 @@ title: AEM Assets 프로젝트 구성
 description: 통합에 필요한 메타데이터를 추가하여 Adobe Commerce과 AEM Assets 간에 매끄러운 에셋 동기화를 활성화합니다.
 feature: CMS, Media, Integration
 exl-id: a5d2cbab-5ea1-446b-8ab2-2c638128a40c
-source-git-commit: 995fb071953ddad6cb2076207910679905bb0347
+source-git-commit: 6cd37fda03bb51a1375b0e9dc542f9e02d3c6e54
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Adobe은 AEM as a Cloud Service 환경 구성에 Commerce 네임스페이스 및
 
 `commerce-assets` 패키지를 AEM Assets as a Cloud Service AEM 환경에 배포하려면 다음 리소스와 권한이 필요합니다.
 
-* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Assets Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
+* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Assets Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
 
-* [로컬 AEM 개발 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) 및 AEM 로컬 개발 프로세스에 익숙합니다.
+* [로컬 AEM 개발 환경](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) 및 AEM 로컬 개발 프로세스에 익숙합니다.
 
 * [AEM 프로젝트 구조](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 및 Cloud Manager을 사용하여 사용자 지정 콘텐츠 패키지를 배포하는 방법을 이해합니다.
 
@@ -61,11 +61,11 @@ Adobe은 AEM as a Cloud Service 환경 구성에 Commerce 네임스페이스 및
 
 1. GitHub에서 [AEM Commerce 상용구](https://github.com/ankumalh/assets-commerce)에서 코드를 다운로드합니다.
 
-1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 사용자 지정 코드를 AEM Assets 환경 구성에 Maven 패키지로 설치하거나 코드를 기존 프로젝트 구성에 수동으로 복사합니다.
+1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 사용자 지정 코드를 AEM Assets 환경 구성에 Maven 패키지로 설치하거나 코드를 기존 프로젝트 구성에 수동으로 복사합니다.
 
 1. 변경 사항을 커밋하고 로컬 개발 분기를 Cloud Manager Git 저장소로 푸시합니다.
 
-1. AEM Cloud Manager에서 [코드를 배포하여 AEM 환경을 업데이트합니다](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+1. AEM Cloud Manager에서 [코드를 배포하여 AEM 환경을 업데이트합니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## 선택 사항입니다. 메타데이터 프로필 구성
 
@@ -122,13 +122,13 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_&#x200B;탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 
 #### Commerce 에셋 소스 폴더에 메타데이터 프로필 적용
 
-1. [!UICONTROL &#x200B; Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
+1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
 
 1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
@@ -141,3 +141,5 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
 ## 다음 단계
 
 [!BADGE Paa만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce 패키지 설치](configure-commerce.md)
+
+**Commerce Storefront 구성**—Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하려면 [EDS AEM Assets 구성](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/) 주제에 설명된 storefront 구성을 완료하십시오.
