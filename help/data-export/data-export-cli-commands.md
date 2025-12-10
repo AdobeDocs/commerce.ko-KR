@@ -2,7 +2,7 @@
 title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: 37d5699315e34f1504602090fae5201ee51cf470
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.

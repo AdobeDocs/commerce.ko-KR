@@ -2,7 +2,7 @@
 title: '[!DNL Product Recommendations] Workspace'
 description: 제품 추천 성능을 구성, 관리 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: eaf1f0b2-9d9d-4069-8269-06f30166f788
-source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 범위 설정
 
-처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 설정하십시오.
+처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 설정하십시오.
 
 ## 지표 날짜 범위 설정
 

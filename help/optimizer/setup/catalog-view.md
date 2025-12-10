@@ -3,9 +3,9 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: ff53f84b4ab7cfb219aae0e29cc35b23d0f6601b
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Storefront를 설정하거나 데이터 수집 API를 사용할 때 이러한 �
 
 ![[!DNL Merchandising Services] 아키텍처](../assets/merchandising-svcs-architecture.png)
 
-### 작동 방법
+### 작동 방식
 
 **1. 데이터 수집**
 PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서비스 프레임워크에 수집됩니다. 각 SKU에는 카탈로그 보기, 정책 및 로케일에 매핑되는 로케일 정보와 제품 특성이 포함되어 있습니다. 데이터 수집에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
@@ -148,7 +148,7 @@ PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서�
 
 ## 사용 사례
 
-### 멀티브랜드 대기업
+### 멀티브랜드 복합 기업
 
 **과제**: 여러 브랜드, 국가 및 언어 관리<br>
 **솔루션**: 각 브랜드/지역 조합에 대한 카탈로그 보기가 있는 단일 카탈로그
@@ -158,7 +158,7 @@ PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서�
 **과제**: 같은 제품이지만 가격이 다른 3,000개의 딜러<br>
 **솔루션**: 판매자별 카탈로그 보기 및 가격 책자가 있는 카탈로그 1개
 
-### 다중 위치 Retailer
+### 다중 위치 retailer
 
 **과제**: 위치별로 다른 가격 및 인벤토리<br>
 **솔루션**: 지역별 정책이 있는 위치 기반 카탈로그 보기

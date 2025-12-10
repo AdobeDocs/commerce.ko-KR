@@ -2,7 +2,7 @@
 title: 규칙 추가
 description: 검색 머천다이징 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
-source-git-commit: 0b8ab786bb6ec333337dc114de214b6d8e4df427
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '2046'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 ## 규칙 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 규칙이 적용되는 **스토어 보기**&#x200B;를 식별하도록 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 설정하십시오.
+1. 규칙이 적용되는 **스토어 보기**&#x200B;를 식별하도록 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)를 설정하십시오.
 1. **머천다이징 검색** 작업 영역을 클릭합니다.
 1. **규칙 추가**&#x200B;를 클릭하여 규칙 편집기를 시작합니다.
 
@@ -50,14 +50,14 @@ ht-degree: 0%
 
    ![규칙 - 단순](assets/rule-simple-test.png)
 
-1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**&#x200B;을 누르십시오.
+1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**을 누르십시오.
 처음에 테스트 창은 조건 검색 상자에서 쿼리를 렌더링합니다. 하지만 이제 테스트 쿼리 상자에서 쿼리를 렌더링하고 있습니다. 테스트 창은 한 번에 하나의 쿼리만 렌더링합니다.
 1. 결과가 마음에 들면 *조건* 검색 상자의 텍스트를 업데이트하세요. 그런 다음 페이지의 아무 곳이나 클릭하여 테스트 창의 결과를 업데이트합니다.
 1. 하나의 조건으로 간단한 규칙을 만들려면 3단계: [이벤트 추가](#events)(으)로 이동합니다.
 
 ### 여러 조건
 
-1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**&#x200B;를 클릭하십시오.
+1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**를 클릭하십시오.
 규칙에는 최대 10개의 조건이 있을 수 있습니다. 두 조건을 결합하는 논리 연산자는 현재 *일치* 설정을 기반으로 합니다. 기본적으로 *일치*&#x200B;은(는) `All`이고 논리 연산자는 `AND`입니다.
 
 1. 두 번째 조건을 선택하고 필요한 쿼리 텍스트를 입력합니다.
