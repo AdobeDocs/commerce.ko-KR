@@ -75,4 +75,4 @@ ht-degree: 0%
 ## 카테고리 머천다이징 및 카테고리 제품 할당
 
 [!DNL Live Search]을(를) 통해 범주를 기준으로 필터링할 수 있습니다. 자세한 내용은 [카테고리 머천다이징](category-merch.md)을 참조하세요.
-하지만 Adobe Commerce에서는 [범주 제품 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)을 사용하여 가상 범주를 만들 수 있습니다. 이 유형의 범주는 런타임에 빌드되며 범주 데이터베이스에 없습니다. 따라서 [!DNL Live Search]은(는) 이 범주 형식을 읽거나 사용할 수 없습니다.
+하지만 Adobe Commerce에서는 [범주 제품 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=ko)을 사용하여 가상 범주를 만들 수 있습니다. 이 유형의 범주는 런타임에 빌드되며 범주 데이터베이스에 없습니다. 따라서 [!DNL Live Search]은(는) 이 범주 형식을 읽거나 사용할 수 없습니다.

@@ -35,7 +35,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 범위 설정
 
-처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 설정하십시오.
+처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 설정하십시오.
 
 ## 지표 날짜 범위 설정
 

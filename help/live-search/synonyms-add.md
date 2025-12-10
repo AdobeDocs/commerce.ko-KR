@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 1단계: 동의어 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 여러 스토어의 경우 동의어 설정이 적용되는 **스토어 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)를 설정합니다.
+1. 여러 스토어의 경우 동의어 설정이 적용되는 **스토어 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 설정합니다.
 1. **동의어** 탭을 클릭합니다.
 1. **동의어 추가** 단추를 클릭합니다.
 
