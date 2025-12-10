@@ -1,13 +1,13 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: f31cd10da7e3daec06a777a065c08d14d39046c5
+source-git-commit: 8f7b5536388e8f4cb1e763b430bdca8644d1da5c
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1849'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,14 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
    npm install -g @adobe/aio-cli
    ```
 
-1. [Adobe I/O CLI Commerce 플러그인 설치](https://github.com/adobe-commerce/aio-cli-plugin-commerce):
+1. 다음 플러그인을 설치합니다.
+
+   * [Adobe I/O CLI Commerce](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [Adobe I/O CLI 런타임](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [App Builder CLI](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
-   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce
+   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
 1. Commerce [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)를 복제합니다.
@@ -271,7 +275,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유

@@ -4,9 +4,9 @@ description: 등급 확장 랩에 대한 사전 요구 사항을 알아봅니다
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: e153e974be1dc5ec8ff2eff8d699ce87ef6708dc
+source-git-commit: fda04de3301a305c897c34d3dd0166d50fc3c12a
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >이 자습서에서 사용되는 AI 도구는 현재 Beta에 있으며 버그 또는 기타 문제를 포함할 수 있습니다.
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 &#x200B;](./ratings-extension.md)을(를) 사용하는 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 ](./ratings-extension.md)을(를) 사용하는 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## Adobe Commerce as a Cloud Service 사전 요구 사항
 
@@ -27,10 +27,10 @@ ht-degree: 0%
   npm install -g @adobe/aio-cli
   ```
 
-* Commerce 플러그인 설치
+* [Adobe I/O CLI Commerce](https://github.com/adobe-commerce/aio-cli-plugin-commerce), [Adobe I/O CLI 런타임](https://github.com/adobe/aio-cli-plugin-runtime) 및 [App Builder CLI](https://github.com/adobe/aio-cli-plugin-app-dev) 플러그인을 설치하십시오.
 
   ```bash
-  aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce
+  aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
   ```
 
 * [Cursor](https://cursor.com/download)&#x200B;(권장)과 같은 AI 지원 IDE를 다운로드하거나, Claude Code, Gemini CLI 또는 Copilot과 같은 다른 IDE도 지원되지만 프롬프트와 자습서의 다른 단계를 수정해야 할 수 있습니다.
@@ -169,6 +169,12 @@ EVENT_PREFIX=test
 
 ```bash
 aio console workspace download workspace.json
+```
+
+작업 영역 구성 파일을 `scripts` 디렉터리에 복사합니다.
+
+```bash
+cp workspace.json scripts/
 ```
 
 ### 로컬 작업 영역을 원격 작업 영역에 연결
