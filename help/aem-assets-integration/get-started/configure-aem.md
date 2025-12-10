@@ -122,13 +122,13 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_&#x200B;탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 
 #### Commerce 에셋 소스 폴더에 메타데이터 프로필 적용
 
-1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
+1. [!UICONTROL &#x200B; Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
 
 1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
