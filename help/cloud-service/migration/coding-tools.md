@@ -1,11 +1,11 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 8f7b5536388e8f4cb1e763b430bdca8644d1da5c
+source-git-commit: d0b9fd3ebbf0c88abbbf12821c5c4825ffcf10f0
 workflow-type: tm+mt
 source-wordcount: '1849'
 ht-degree: 0%
@@ -72,7 +72,7 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
 
 설치 프로세스에서 구성 옵션을 묻는 메시지가 표시됩니다. 설치 위치에 대해 &quot;현재 디렉토리&quot;를 선택하여 현재 작업공간에 도구를 설치합니다.
 
-```terminal
+```plain
 ? Where would you like to setup the tools?
 ❯ Current directory
   New directory
@@ -80,7 +80,7 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
 
 Adobe 코딩 에이전트를 선택할 때는 최상의 개발 환경을 위해 `Cursor`을(를) 선택하는 것이 좋습니다.
 
-```terminal
+```plain
 ? Which coding agent would you like to use?
 ❯ Cursor
   Copilot
@@ -90,7 +90,7 @@ Adobe 코딩 에이전트를 선택할 때는 최상의 개발 환경을 위해 
 
 Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 사용하는 것이 좋습니다.
 
-```terminal
+```plain
 ? Which package manager would you like to use?
 ❯ npm
   yarn
@@ -168,7 +168,7 @@ aio auth login
 
 1. 서버 상태 확인 - Commerce 확장성 MCP 서버가 다음과 같이 표시되어야 합니다.
 
-   ```terminal
+   ```plain
    Status: Connected/Active
    Server: commerce-extensibility
    Configuration: Automatically configured via .cursor/mcp.json
@@ -176,7 +176,7 @@ aio auth login
 
 1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
 
-```terminal
+```plain
 What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
 ```
 
@@ -195,7 +195,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 1. 서버 상태를 확인합니다. `MCP:commerce-extensibility` 출력은 다음과 일치해야 합니다.
 
-   ```terminal
+   ```plain
    2025-11-13 12:58:50.652 [info] Starting server commerce-extensibility
    2025-11-13 12:58:50.652 [info] Connection state: Starting
    2025-11-13 12:58:50.652 [info] Starting server from LocalProcess extension host
@@ -209,7 +209,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
 
-   ```terminal
+   ```plain
    What are the differences between Adobe Commerce PaaS and SaaS when configuring a webhook that activates an App Builder runtime action?
    ```
 
@@ -217,7 +217,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 다음 샘플 프롬프트는 주문이 있을 때 알림을 전송하는 확장을 만듭니다.
 
-```terminal
+```plain
 Implement an Adobe Commerce SaaS extension that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
 
 Order ID -> orderID
@@ -230,7 +230,7 @@ Payment Type -> pType
 
 메시지를 표시하는 것 외에도 `/search-commerce-docs` 명령을 사용하여 에이전트와의 대화에서 설명서를 검색할 수 있습니다. For example:
 
-```text
+```plain
 /search-commerce-docs "How do I subscribe to Commerce events?"
 ```
 
@@ -275,7 +275,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
@@ -304,7 +304,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 여러 런타임 작업, 접점 또는 통합이 포함된 복잡한 개발의 경우 AI 도구에서 세부 구현 계획을 생성하도록 명시적으로 요청합니다. [2단계](#protocol)에서 여러 구성 요소가 포함된 높은 수준의 계획이 표시되면 이를 관리 가능한 작업으로 분류하기 위한 자세한 구현 계획을 요청하십시오.
 
-```terminal
+```plain
 Create a detailed implementation plan for this complex development.
 ```
 
@@ -326,7 +326,7 @@ Create a detailed implementation plan for this complex development.
 
 CLI 명령이 사용되고 있고 MCP 도구를 대신 사용하려면 다음 프롬프트를 사용하십시오.
 
-```terminal
+```plain
 Use only MCP tools and not CLI commands
 ```
 
@@ -346,7 +346,7 @@ AI 도구로 인해 발생하는 불필요한 복잡성에 의문을 제기하�
 
 단순 읽기 전용 끝점에 대해 불필요한 파일이 추가되면(`validator.js`, `transformer.js`, `sender.js`) 다음 프롬프트를 사용하십시오.
 
-```terminal
+```plain
 Why do we need these files for a simple read-only endpoint?
 Perform a root cause analysis before adding complexity
 Verify if simpler solutions exist
@@ -402,47 +402,47 @@ Verify if simpler solutions exist
 
 **런타임 동작 테스트**:
 
-```terminal
+```plain
 Help me test the customer-created runtime action running locally
 ```
 
 **디버그 실패**:
 
-```terminal
+```plain
 Why did the subscription-updated runtime action activation fail?
 ```
 
 **로그 확인**:
 
-```terminal
+```plain
 Help me check the logs for the last stock-monitoring runtime action invocation
 ```
 
 **테스트 페이로드 만들기**:
 
-```terminal
+```plain
 Generate test data for this Commerce event
 ```
 
-```terminal
+```plain
 Create a test payload for the customer_save_after event
 ```
 
 **런타임 끝점 찾기**:
 
-```terminal
+```plain
 What's the URL for this deployed action?
 ```
 
 **인증 처리**:
 
-```terminal
+```plain
 How do I authenticate with this external API?
 ```
 
 **문제 해결**:
 
-```terminal
+```plain
 Help me debug why this action is returning 500 errors
 ```
 
@@ -477,19 +477,19 @@ Help me debug why this action is returning 500 errors
 
 주요 변경 사항 후 도구를 활용하여 고립된 작업을 정리합니다. AI 툴링이 정리 프로세스를 체계적으로 처리할 수 있도록 하면 고립된 작업을 효율적으로 식별하고 상태를 확인하고 수동 개입 없이 안전하게 제거할 수 있습니다.
 
-```terminal
+```plain
 Help me identify and clean up orphaned runtime actions
 ```
 
 AI 도구를 요청하여 배포된 작업 나열 및 사용하지 않은 작업 식별
 
-```terminal
+```plain
 List all deployed actions and identify which ones are no longer needed
 ```
 
 적절한 명령을 사용하여 AI 도구로 분리된 작업을 제거하도록 합니다.
 
-```terminal
+```plain
 Remove the orphaned actions that are no longer part of the current implementation
 ```
 

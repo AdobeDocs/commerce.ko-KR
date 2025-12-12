@@ -4,7 +4,7 @@ description: 등급 확장 랩에 대한 사전 요구 사항을 알아봅니다
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: fda04de3301a305c897c34d3dd0166d50fc3c12a
+source-git-commit: d0b9fd3ebbf0c88abbbf12821c5c4825ffcf10f0
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >이 자습서에서 사용되는 AI 도구는 현재 Beta에 있으며 버그 또는 기타 문제를 포함할 수 있습니다.
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 &#x200B;](./ratings-extension.md)을(를) 사용하는 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 ](./ratings-extension.md)을(를) 사용하는 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## Adobe Commerce as a Cloud Service 사전 요구 사항
 
@@ -127,7 +127,7 @@ cp env.dist .env
 
 텍스트 편집기에서 `.env` 파일을 열고 다음 OAuth 자격 증명을 추가합니다.
 
-```text
+```plain
 OAUTH_CLIENT_ID=
 OAUTH_CLIENT_SECRET=
 OAUTH_TECHNICAL_ACCOUNT_ID=
@@ -143,7 +143,7 @@ OAUTH_ORG_ID=
 
 `.env` 파일에 다음 Commerce 인스턴스 세부 정보를 추가합니다.
 
-```text
+```plain
 COMMERCE_BASE_URL=
 COMMERCE_GRAPHQL_ENDPOINT=
 ```
@@ -159,7 +159,7 @@ COMMERCE_GRAPHQL_ENDPOINT=
 
 이벤트 접두사에 대한 임시 값을 설정합니다.
 
-```text
+```plain
 EVENT_PREFIX=test
 ```
 
@@ -331,7 +331,7 @@ Check that the MCP server is running correctly:
 1. Look for an indicator showing the MCP server is connected. This indicator is typically located in the chat interface.
 1. Try entering a prompt like the following:
 
-   ```text
+   ```plain
    Search the storefront docs for information about slots
    ```
 
