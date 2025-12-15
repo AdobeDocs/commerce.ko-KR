@@ -1,7 +1,7 @@
 ---
 title: 영업 기회
 description: 스마트 데이터 기반 사이트 개선을 위해 Adobe Sites Optimizer과의 통합을 통해 트래픽, 참여 및 전환을 늘릴 수 있는 기회를 식별합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 7f7b4a3c866c453d9722b708a0ed4e1b601c8e8e
 workflow-type: tm+mt
 source-wordcount: '1349'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영업 기회란 무엇입니까?
 
-[기회](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview)는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home)에서 제공합니다.
+[기회](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview)는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home)에서 제공합니다.
 
 ## 주요 기능
 
@@ -176,7 +176,7 @@ Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 �
 
 ## Sites Optimizer에 대해 자세히 알아보기
 
-Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
+Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
 
 추가 리소스:
 

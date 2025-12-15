@@ -3,7 +3,7 @@ title: 카탈로그 계층
 description: 카탈로그 레이어를 통해 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정하여 언제든지 안전하게 사용자 정의하고 변경 사항을 되돌리는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 4a904527af172a5e35b87410135d55484d07ad84
 workflow-type: tm+mt
 source-wordcount: '1207'
