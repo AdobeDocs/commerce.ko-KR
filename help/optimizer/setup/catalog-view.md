@@ -3,11 +3,11 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: 769aafeb261d978623e68c466888924c92632883
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,11 @@ ht-degree: 0%
 
 카탈로그 보기를 만들기 전에 다음을 확인하십시오.
 
-- 제품 필터를 정의하기 위해 [정책을 만듦](policies.md)
+- [제품 필터를 정의하는 정책을 만들었습니다](policies.md).
 
-- 가격 책자 [수집됨](pricebooks.md)
+- [정의된 카탈로그 계층](catalog-layer.md)을(를) 사용하여 제품의 변형을 정의합니다.
+
+- 가격 책자 [수집됨](pricebooks.md).
 
 1. 왼쪽 메뉴에서 _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 
@@ -50,6 +52,7 @@ ht-degree: 0%
 
    - **이름** - 카탈로그 보기의 이름을 입력합니다(예: `Celport`)&#x200B;.
    - **카탈로그 원본** - 카탈로그 원본(로케일)을 선택합니다(예: `en-US`).
+   - **카탈로그 계층**-수집된 계층 및 우선 순위를 검토합니다.
    - **정책**—드롭다운을 사용하여 관련 정책을 선택합니다. 예를 들어 &quot;Brand&quot;, &quot;Model&quot;입니다. &#x200B;이미 [정책을 만들었는지](policies.md)확인하십시오.
 
 1. 가격 장부를 선택하여 카탈로그 뷰에 연결합니다.
@@ -63,6 +66,20 @@ ht-degree: 0%
 카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다&#x200B;.
 
 이러한 단계를 완료하면 이제 선택한 소스 및 정책을 기반으로 제품 및 가격을 표시하도록 카탈로그 보기가 구성됩니다.
+
+## 카탈로그 레이어
+
+카탈로그 레이어를 사용하면 원본 소스 데이터를 변경하지 않고 카탈로그 보기 내에서 제품 데이터를 수정할 수 있습니다. 레이어는 기본 카탈로그 위에 레이어를 만들어 이름, 설명, 이미지, 링크 및 메타데이터와 같은 특정 제품 속성에 변경 사항을 적용합니다. 원본 제품 데이터는 그대로 유지되므로 언제든지 제품을 안전하게 사용자 정의하고 변경 사항을 되돌릴 수 있습니다.
+
+카탈로그 레이어의 일반적인 사용 사례는 다음과 같습니다.
+
+- **SEO 최적화** - [Sites Optimizer](../manage-results/opportunities.md)의 AI 권장 사항을 기반으로 제품 메타 제목과 설명을 무시합니다.
+- **시즌 캠페인**—프로모션을 위해 제품 이름, 설명 또는 이미지를 일시적으로 업데이트
+- **지역 사용자 지정** - 지리적 위치 또는 언어에 따라 다른 제품 정보를 표시합니다.
+- **A/B 테스트** - 다른 제품 프레젠테이션을 테스트하여 전환율을 최적화합니다.
+- **다중 브랜드 관리** - 다양한 브랜드 카탈로그 보기에 대해 제품 특성을 사용자 지정합니다.
+
+카탈로그 계층 만들기, 관리 및 우선 순위를 지정하는 방법에 대한 자세한 내용은 [카탈로그 계층](catalog-layer.md)을 참조하세요.
 
 ## 카탈로그 보기 관리
 
@@ -166,3 +183,9 @@ PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서�
 >[!INFO]
 >
 >카탈로그 데이터 수집 및 배달에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
+
+## 다음과 같음
+
+- [카탈로그 계층](catalog-layer.md) - 원본 원본을 변경하지 않고 제품 데이터를 수정하는 방법에 대해 알아봅니다.
+- [정책](policies.md) - 카탈로그 보기에서 제품을 필터링하는 정책을 만듭니다.
+- [가격 장부](pricebooks.md) - 다양한 고객 세그먼트에 대한 가격 구조를 관리합니다.
