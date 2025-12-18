@@ -93,7 +93,7 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
 
 또는 [!DNL Adobe Commerce as a Cloud Service] 내의 기본 기능은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
-AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법에 대한 자세한 내용은 ](../aem-assets-integration/overview.md)AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
+AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법에 대한 자세한 내용은 &#x200B;](../aem-assets-integration/overview.md)AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
 
 ### 제품 시각화 또는 AEM Assets
 
