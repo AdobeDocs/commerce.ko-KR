@@ -1,7 +1,7 @@
 ---
 title: 설명서 RAG 서비스
 description: Adobe Commerce 개발을 위해 AI 기반 설명서 검색 서비스를 사용하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
@@ -30,9 +30,9 @@ RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Comm
 
 | 범주 | 색인 | 포함된 콘텐츠 | 키워드 |
 |-------|---------|---------|------------------------|
-| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
+| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
 | [확장성](https://developer.adobe.com/commerce/extensibility/) | commerce-extensibility-docs | Webhooks, 이벤트, 확장, 통합 | webhook, 이벤트, 확장, API mesh, GraphQL |
-| [Commerce](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
+| [Commerce](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
 | [App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, 런타임 작업, UI 확장 | 앱 빌더, 런타임 작업, React Spectrum |
 
 인덱스 선택에 대한 자세한 내용은 [자동 인덱스 선택](#automatic-index-selection-recommended) 및 [명시적 인덱스 선택](#explicit-index-selection)을 참조하세요.
