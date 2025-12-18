@@ -27,4 +27,4 @@ ht-degree: 5%
    - [사용자 지정 자동 일치](synchronize/custom-match.md)
    - [수동 자산 선택](synchronize/asset-selector-integration.md)
 - [미디어 유형 및 사용 사례](manage-assets.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
