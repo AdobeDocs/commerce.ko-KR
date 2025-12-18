@@ -1,13 +1,13 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: c160632905631949c9503ceaf896b47e7a71fe55
+source-git-commit: d2f2563a1f3a656d7bfaa12a0c3ca2b828e7fc33
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
 * [Git](https://github.com/git-guides/install-git): 리포지토리 복제 및 버전 제어용
 
 ## 설치
+
+>[!NOTE]
+>
+>전체 AI 코딩 도구 패키지가 아닌 설명서 RAG 서비스만 설치하려면 [설명서 RAG 서비스](./doc-rag.md)를 참조하십시오.
 
 1. 전체적으로 최신 [Adobe I/O CLI](https://github.com/adobe/aio-cli)를 설치합니다.
 
@@ -151,7 +155,7 @@ aio auth login
 >
 >MCP 서버의 일부 기능은 로그인하지 않고 작동하지만 RAG(Retrieval-Augmented Generation) 서비스는 작동하지 않습니다. RAG 서비스는 AI 코딩 에이전트에게 전체 Adobe Commerce 설명서 세트에 대한 실시간 액세스를 제공하여 최신 Commerce 개발 사례, API 및 아키텍처 패턴을 기반으로 질문에 답변하고 코드를 생성할 수 있도록 합니다.
 >
->향후 릴리스에서는 RAG 서비스를 다른 도구를 설치하지 않고도 독립적으로 액세스할 수 있습니다.
+>RAG 서비스를 독립적으로 설치하려면 [설명서 RAG 서비스](./doc-rag.md)를 참조하세요.
 
 ### 커서
 
@@ -275,7 +279,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
