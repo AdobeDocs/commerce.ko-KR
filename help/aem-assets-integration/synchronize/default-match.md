@@ -42,7 +42,7 @@ Commerce용 AEM Assets 통합은 **[!UICONTROL Match by product SKU]** AEM Asset
    >
    > 자산이 여러 제품에 사용되는 경우 연결된 각 SKU에 대한 메타데이터를 구성합니다.
 
-1. `Basic` 탭에서 _[!UICONTROL Review Status]_필드의 기본값을 `approved`(으)로 설정합니다.
+1. `Basic` 탭에서 _[!UICONTROL Review Status]_&#x200B;필드의 기본값을 `approved`(으)로 설정합니다.
 
    ![예제 메타데이터](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 
