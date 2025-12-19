@@ -28,4 +28,4 @@ Edge Delivery Services에서 제공하는 Commerce storefront에서 통합을 �
 
 Commerce 드롭인에서 `commerce-assets-enabled` 구성을 자동으로 감지하고 그에 따라 이미지 처리를 조정합니다.
 
-Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하는 방법에 대한 자세한 내용은 [Adobe Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/) 설명서의 *AEM Assets 통합* 주제에 설명된 Storefront 구성을 완료하십시오.
+Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하는 방법에 대한 자세한 내용은 [Adobe Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=ko) 설명서의 *AEM Assets 통합* 주제에 설명된 Storefront 구성을 완료하십시오.

@@ -28,7 +28,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 * [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce 패키지를 설치하여](configure-commerce.md) 확장을 추가하고 확장을 사용하는 데 필요한 자격 증명과 연결을 생성합니다.
 
-* [Dynamic Media Open API 활성화](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) 주제에 설명된 단계를 따릅니다. 지원 팀에 대한 다음 정보를 포함하십시오.
+* [Dynamic Media Open API 활성화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) 주제에 설명된 단계를 따릅니다. 지원 팀에 대한 다음 정보를 포함하십시오.
 
    * **[!UICONTROL AEM Program ID]**
    * **[!UICONTROL Adobe Commerce URL]**
@@ -37,7 +37,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 ## 연결 구성
 
-1. [AEM Assets 작성 환경](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) 프로젝트 및 환경 ID를 가져옵니다.
+1. [AEM Assets 작성 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) 프로젝트 및 환경 ID를 가져옵니다.
 
    1. AEM Cloud Manager을 열고 **[!UICONTROL Assets]**&#x200B;을(를) 선택합니다.
 
@@ -72,7 +72,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 1. **[!UICONTROL Asset matching rule]** 드롭다운에서 자산 동기화에 대한 자산 일치 규칙 중 하나를 선택합니다.
 
    * **[!UICONTROL Match by SKU]**&#x200B;기본 자동 일치[에 대해 &#x200B;](../synchronize/default-match.md)을(를) 선택하십시오.
-   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 &#x200B;](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
+   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 &#x200B;](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
 
 1. 기본적으로 [&#x200B; 필드 &#x200B;](configure-aem.md#configure-metadata)에 Commerce 제품 SKU에 대해 정의된 **[!UICONTROL Match by product SKU attribute name]** AEM Assets 메타데이터 필드 이름`commerce:skus`을(를) 추가합니다.
 
@@ -99,7 +99,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 관리자는 해당 소유자에게 사용 가능한 이미지를 표시하지만 나머지 이미지는 회색으로 표시되며 **hidden** 레이블과 함께 표시됩니다.
 
-이미지 표시 동작에 대한 자세한 내용은 [이미지 세부 정보 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} 항목을 참조하십시오.
+이미지 표시 동작에 대한 자세한 내용은 [이미지 세부 정보 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} 항목을 참조하십시오.
 
 >[!TIP]
 >
@@ -127,7 +127,7 @@ AEM Assets as a Cloud Service 프로젝트가 [사용자 지정 도메인 이름
 
 ## 다음 단계
 
-* **Commerce 상점 첫 화면 구성**—Edge Delivery Services에서 제공하는 Commerce 상점 첫 화면의 AEM Assets을 사용하려면 [Adobe Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/)의 *AEM Assets 통합* 주제에 설명된 상점 첫 화면 구성을 완료하십시오.
+* **Commerce 상점 첫 화면 구성**—Edge Delivery Services에서 제공하는 Commerce 상점 첫 화면의 AEM Assets을 사용하려면 [Adobe Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=ko)의 *AEM Assets 통합* 주제에 설명된 상점 첫 화면 구성을 완료하십시오.
 
 * Adobe Commerce과 AEM Assets 통합 간에 [일치하는 규칙](../synchronize/default-match.md)을(를) 설정합니다.
 
