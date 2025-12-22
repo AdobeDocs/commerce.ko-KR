@@ -2,9 +2,9 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: d6d559728361f4421829f34818aa368eac407225
+source-git-commit: e46c55cba21501c6fa12db6c130493b99de0e4da
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 글로벌 카탈로그 보기의 **카탈로그 보기 ID**
    * [카탈로그 세부 정보 페이지](./setup/catalog-view.md#manage-catalog-view)에서 사용 가능
 * 카탈로그 보기용 **Source 로케일**
-   * 샘플 데이터의 기본값은 `en_US`입니다.
+   * 샘플 데이터의 기본값은 `en-US`입니다.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
    ```json
    "cs": {
       "AC-View-ID": "{catalogViewId}",
-      "AC-Source-Locale": "en_US",
+      "AC-Source-Locale": "en-US",
       "AC-Price-Book-ID": "{priceBookId}"
    }
    ```
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >[&#x200B; 인스턴스의 &#x200B;](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
+   >[ 인스턴스의 ](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
 
 1. **성공 기준**: 페이지가 표시되어야 합니다.
    * 제품 이름, 설명 및 가격
@@ -200,8 +200,8 @@ ht-degree: 0%
 |-------|----------|----------|
 | **코드 동기화 설치 실패** | 코드 동기화 설정을 완료할 수 없음 | <ul><li>GitHub 조직에 대한 관리자 액세스 권한이 있는지 확인하십시오.</li><li>조직 대신 개인 저장소를 사용해 보십시오.</li><li>GitHub 권한을 확인하고 다시 시도하십시오.</li></ul> |
 | **사이트가 로드되지 않음** | 404 또는 연결 오류 | <ul><li>사이트 URL 형식 확인: `https://main--{SITE}--{ORG}.aem.live`</li><li>코드 동기화 앱이 제대로 설치되었는지 확인합니다.</li><li>저장소가 공용인지 또는 올바르게 구성되었는지 확인합니다.</li></ul> |
-| **제품 데이터가 표시되지 않음** | 제품 페이지에 자리 표시자 또는 오류가 표시됨 | <ul><li>`config.json`에서 구성 값 확인</li><li>[!DNL Adobe Commerce Optimizer] 인스턴스에서 [데이터 동기화] 페이지에서 샘플 제품이 로드되었는지 확인합니다. 사용할 수 있는 제품이 없는 경우 샘플 데이터를 다시 로드하거나 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request)를 사용하여 제품을 추가하십시오. 구성 변경 사항이 반영될 때까지 몇 분 정도 기다립니다.</li><li>[&#x200B; 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details)products 쿼리`config.json`를 사용하여 제품 세부 정보를 검색해 보십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li></ul> |
-| **검색 결과 없음** | 빈 검색 결과 페이지 | <ul><li>[&#x200B; 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search)productSearch 쿼리`config.json`를 사용하여 제품 검색 결과를 검색할 수 있는지 확인하십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li><li>`config.json` 파일의 카탈로그 보기 ID가 [!DNL Adobe Commerce Optimizer]의 카탈로그 보기 ID와 일치하는지 확인하십시오.</li><li>Adobe Commerce Optimizer에서 storefront 헤더 구성에서 사용한 정책, 로케일 및 가격 장부의 구성을 확인합니다.</li><li>[특성 메타데이터 설정](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)이 검색에 대해 올바르게 설정되어 있는지 확인하십시오.</li></ul> |
+| **제품 데이터가 표시되지 않음** | 제품 페이지에 자리 표시자 또는 오류가 표시됨 | <ul><li>`config.json`에서 구성 값 확인</li><li>[!DNL Adobe Commerce Optimizer] 인스턴스에서 [데이터 동기화] 페이지에서 샘플 제품이 로드되었는지 확인합니다. 사용할 수 있는 제품이 없는 경우 샘플 데이터를 다시 로드하거나 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request)를 사용하여 제품을 추가하십시오. 구성 변경 사항이 반영될 때까지 몇 분 정도 기다립니다.</li><li>[ 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details)products 쿼리`config.json`를 사용하여 제품 세부 정보를 검색해 보십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li></ul> |
+| **검색 결과 없음** | 빈 검색 결과 페이지 | <ul><li>[ 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search)productSearch 쿼리`config.json`를 사용하여 제품 검색 결과를 검색할 수 있는지 확인하십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li><li>`config.json` 파일의 카탈로그 보기 ID가 [!DNL Adobe Commerce Optimizer]의 카탈로그 보기 ID와 일치하는지 확인하십시오.</li><li>Adobe Commerce Optimizer에서 storefront 헤더 구성에서 사용한 정책, 로케일 및 가격 장부의 구성을 확인합니다.</li><li>[특성 메타데이터 설정](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)이 검색에 대해 올바르게 설정되어 있는지 확인하십시오.</li></ul> |
 
 ### 유효성 검사 목록
 
@@ -218,26 +218,26 @@ ht-degree: 0%
 
 문제가 지속되는 경우:
 
-* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) 검토
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/) 검토
 * [Adobe Commerce Optimizer 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)를 확인하세요.
-* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview) 방문
+* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) 방문
 
 ## 다음 단계
 
 상점을 설정하고 확인한 후 다음을 수행할 수 있습니다.
 
-1. **[Sidekick 설치](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#install-and-configure-sidekick)** - 웹 사이트에서 직접 콘텐츠를 편집하고 미리 보고 게시하기 위한 브라우저 확장 기능
+1. **[Sidekick 설치](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - 웹 사이트에서 직접 콘텐츠를 편집하고 미리 보고 게시하기 위한 브라우저 확장 기능
 
-2. **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#set-up-local-environment)** - 로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
+2. **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - 로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
 
 ### 학습 및 탐색
 
 * **[엔드 투 엔드 사용 사례 완료](./use-case/admin-use-case.md)** - [!DNL Adobe Commerce Optimizer]을(를) 사용한 상점 설정 및 카탈로그 관리에 대해 자세히 알아보기
 
-* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko)** - 고급 설정 및 구성 옵션 알아보기
+* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - 고급 설정 및 구성 옵션 알아보기
 
-* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko)** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
+* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)를 참조하십시오.
