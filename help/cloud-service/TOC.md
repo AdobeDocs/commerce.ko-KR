@@ -3,10 +3,10 @@ user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 8aa8a4f3eb6a1f8120bae15715cfb2c52de2dc02
+source-git-commit: 991a8683b9a333d2699f1ef22f3dc54d7b401573
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 10%
 - [시작](getting-started.md)
 - [사용자 및 ID 관리](user-management.md)
 - [상점 첫 화면](storefront.md)
-- [자산 관리](assets-management.md)
 - [사용 사례](use-cases.md)
 - [공동 책임](shared-responsibility.md)
 - 마이그레이션 {#migration}
@@ -30,4 +29,4 @@ ht-degree: 10%
    - [등급 확장 튜토리얼 사전 요구 사항](tutorials/tutorial-prerequisites.md)
    - [등급 확장 튜토리얼](tutorials/ratings-extension.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

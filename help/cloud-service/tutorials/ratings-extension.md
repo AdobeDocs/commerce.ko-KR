@@ -1,12 +1,14 @@
 ---
 title: 등급 확장 튜토리얼
 description: App Builder 및 AI 지원 개발 도구를 사용하여 Adobe Commerce as a Cloud Service에 대한 제품 등급 확장을 빌드하는 방법을 알아봅니다.
+feature: App Builder, Cloud
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: c160632905631949c9503ceaf896b47e7a71fe55
+source-git-commit: 4ca909c2f8f95fbc404ce6a745d769958b2c01f4
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -39,29 +41,29 @@ git --version
 bash --version
 ```
 
-이전 명령 중 필요한 결과를 반환하지 않는 명령이 있는 경우 [필수 구성 요소](tutorial-prerequisites.md)에서 자세한 내용을 확인하십시오.
+이전 명령 중 예상한 결과를 반환하지 않는 명령이 있는 경우 [필수 구성 요소](tutorial-prerequisites.md)를 참조하십시오.
 
 ## 확장 개발
 
-이 섹션에서는 AI 지원 개발 도구를 사용하여 Adobe Commerce as a Cloud Service에 대한 등급 확장을 개발하는 프로세스를 안내합니다.
+이 섹션에서는 AI 지원 개발 도구를 사용하여 Adobe Commerce as a Cloud Service에 대한 등급 확장 프로그램을 개발하는 방법을 안내합니다.
 
 1. **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]**(으)로 이동하여 `commerce-extensibility` 도구 집합이 오류 없이 활성화되었는지 확인합니다. 오류가 표시되면 도구 세트를 끄고 켜십시오.
 
-   ![커서 설정](../assets/cursor-settings.png){width="600" zoomable="yes"}
+   ![MCP commerce-extensibility 도구 집합을 표시하는 커서 IDE 설정](../assets/cursor-settings.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >AI 지원 개발 도구를 사용하여 작업할 때 에이전트가 생성하는 코드 및 응답에는 자연스러운 변형이 있을 것입니다.
+   >AI 지원 개발 도구를 사용하여 작업할 때 에이전트가 생성하는 코드 및 응답에서 자연스러운 변형을 예상하십시오.
    >코드에 문제가 발생하면 언제든지 에이전트에게 디버그를 지원하도록 요청할 수 있습니다.
 
 1. 커서 컨텍스트에 추가된 설명서가 있는 경우 이를 비활성화합니다.
 
    - [!UICONTROL **커서**] > [!UICONTROL **설정**] > [!UICONTROL **커서 설정**] > [!UICONTROL **색인화 및 문서**]&#x200B;(으)로 이동하여 나열된 문서를 삭제합니다.
 
-   ![설명서 비활성화](../assets/disable-documentation.png){width="600" zoomable="yes"}
+   ![설명서 목록이 비어 있는 커서 인덱싱 및 문서 설정](../assets/disable-documentation.png){width="600" zoomable="yes"}
 
 1. 제품 등급 확장에 대한 코드를 생성합니다.
-   - 커서 채팅 창에서 **에이전트** 모드를 선택하십시오.
+   - 커서 채팅 창에서 [!UICONTROL **에이전트**] 모드를 선택합니다.
    - 다음 프롬프트를 입력합니다.
 
    ```shell-session
@@ -80,9 +82,9 @@ bash --version
 
 1. 에이전트의 질문에 정확하게 답변하여 최상의 코드를 생성할 수 있도록 도와줍니다.
 
-   ![커서에 프롬프트 입력](../assets/enter-prompt.png){width="600" zoomable="yes"}
+   ![확장 프롬프트가 입력된 에이전트 모드의 커서 채팅 창](../assets/enter-prompt.png){width="600" zoomable="yes"}
 
-   ![에이전트가 명확한 질문을 합니다](../assets/agent-questions.png){width="600" zoomable="yes"}
+   ![확장 요구 사항에 대한 명확한 질문을 묻는 AI 에이전트](../assets/agent-questions.png){width="600" zoomable="yes"}
 
 1. 다음 예제 텍스트를 사용하여 무작위 등급 데이터를 설정하려면 에이전트의 질문에 응답하십시오.
 
@@ -90,7 +92,7 @@ bash --version
    Yes, this headless extension is for Adobe Commerce as a Cloud Service storefront,
    but we do not need any authentication for the GET API because guest users should be able to use it on the storefront.
    
-   This extension will be called directly from the storefront, no async invocation, such as events or webhooks, is required.
+   This extension is called directly from the storefront, no async invocation, such as events or webhooks, is required.
    
    Start with just the GET API for now, we will implement other CRUD operations at a later time.
    
@@ -102,7 +104,7 @@ bash --version
 
    에이전트에서 구현에 대한 신뢰할 수 있는 원본 역할을 하는 `requirements.md` 파일을 만듭니다.
 
-   ![요구 사항 파일을 만들었습니다](../assets/requirements-file.png){width="600" zoomable="yes"}
+   ![구현 세부 정보가 있는 AI 에이전트가 만든 Requirements.md 파일](../assets/requirements-file.png){width="600" zoomable="yes"}
 
 1. `requirements.md` 파일을 검토하고 계획을 확인합니다.
 
@@ -112,11 +114,11 @@ bash --version
 
    에이전트는 필요한 코드를 생성하고 다음 단계와 함께 자세한 요약을 제공합니다.
 
-   ![아키텍처 계획](../assets/architecture-planning.png){width="600" zoomable="yes"}
+   등급 API에 대한 ![AI 에이전트 2단계 아키텍처 계획](../assets/architecture-planning.png){width="600" zoomable="yes"}
 
-   ![코드 생성 요약](../assets/code-generation-summary.png){width="600" zoomable="yes"}
+   ![생성된 코드 파일 및 구조 요약](../assets/code-generation-summary.png){width="600" zoomable="yes"}
 
-   ![다음 단계](../assets/next-steps.png){width="600" zoomable="yes"}
+   ![테스트 및 배포에 대한 다음 단계를 제공하는 AI 에이전트](../assets/next-steps.png){width="600" zoomable="yes"}
 
 ### 로컬 테스트
 
@@ -128,9 +130,9 @@ bash --version
 
 1. 에이전트의 지침을 따라 API가 로컬에서 작동하는지 확인합니다.
 
-   ![로컬 테스트](../assets/local-testing.png){width="600" zoomable="yes"}
+   ![로컬 API 테스트를 위한 AI 에이전트 지침](../assets/local-testing.png){width="600" zoomable="yes"}
 
-   ![로컬 테스트 결과](../assets/local-testing-1.png){width="600" zoomable="yes"}
+   ![cURL을 사용하여 성공적인 로컬 API 테스트 결과를 보여 주는 터미널](../assets/local-testing-1.png){width="600" zoomable="yes"}
 
 ### 확장 배포
 
@@ -142,19 +144,19 @@ bash --version
 
    에이전트는 배포 전에 배포 전 준비 상태 평가를 수행합니다.
 
-   ![배포 전 평가](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
+   ![AI 에이전트 배포 전 준비 상태 평가 검사 목록](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
 
 1. 평가 결과가 확실하면 에이전트에게 배포를 진행하도록 지시합니다.
 
    에이전트는 MCP 툴킷을 사용하여 자동으로 확인, 빌드 및 배포합니다.
 
-   ![배포](../assets/deployment-process.png){width="600" zoomable="yes"}
+   ![MCP 도구 키트 확인 빌드 및 배포 프로세스](../assets/deployment-process.png){width="600" zoomable="yes"}
 
 ### 배포 후
 
 API를 상점 앞에 통합하기 전에 테스트할 수 있습니다. 에이전트는 새 작업의 위치와 테스트 전략을 제공해야 합니다.
 
-![전략 테스트](../assets/testing-strategy.png){width="600" zoomable="yes"}
+![작업 URL 및 테스트 명령을 배포한 AI 에이전트 테스트 전략](../assets/testing-strategy.png){width="600" zoomable="yes"}
 
 터미널에서 cURL을 사용하여 API를 수동으로 테스트할 수도 있습니다.
 
@@ -162,7 +164,7 @@ API를 상점 앞에 통합하기 전에 테스트할 수 있습니다. 에이�
 curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=TEST-SKU-123"
 ```
 
-![cURL 테스트](../assets/curl-test.png){width="600" zoomable="yes"}
+![터미널에서 배포된 등급 API의 성공적인 cURL 테스트를 표시](../assets/curl-test.png){width="600" zoomable="yes"}
 
 ### Edge Delivery Services과 통합
 
@@ -172,9 +174,9 @@ curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=T
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md
 ```
 
-![서비스 계약](../assets/create-contract.png){width="600" zoomable="yes"}
+![AI 에이전트가 storefront 통합을 위한 서비스 계약 파일을 만드는 중](../assets/create-contract.png){width="600" zoomable="yes"}
 
-![서비스 계약 세부 정보](../assets/contract.png){width="600" zoomable="yes"}
+![끝점 및 응답 세부 정보가 있는 등급 API 계약 Markdown 파일](../assets/contract.png){width="600" zoomable="yes"}
 <!-- 
 Return to the terminal and run the following command in the `extension` folder to copy the file to the `storefront` folder:
 
@@ -246,7 +248,7 @@ This section teaches you how to implement real storefront features and communica
    You should see the following changes in your development environment and browser:
 
    * A product rating "component" is automatically created.
-   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=ko).
+   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots).
    * Stars display with proper fill proportions based on mock rating values.
 
 ![Product Ratings Implementation](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}

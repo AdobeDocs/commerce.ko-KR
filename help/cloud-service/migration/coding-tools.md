@@ -1,22 +1,24 @@
 ---
 title: 확장을 위한 AI 코딩 도구
 description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+feature: App Builder, Cloud
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: d2f2563a1f3a656d7bfaa12a0c3ca2b828e7fc33
+source-git-commit: 991a8683b9a333d2699f1ef22f3dc54d7b401573
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
 
 # 확장을 위한 AI 코딩 도구
 
-[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션할 때 AI 코딩 도구를 사용하여 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL Adobe Developer App Builder] 확장으로 변환할 수 있습니다. 새 [!DNL App Builder] 확장을 만드는 데도 사용할 수 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션할 때 AI 코딩 도구를 사용하여 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL Adobe Developer App Builder] 확장으로 변환할 수 있습니다. 이러한 도구를 사용하여 새 [!DNL App Builder] 확장을 만들 수도 있습니다.
 
-AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
+AI 코딩 도구는 다음과 같은 이점을 제공합니다.
 
 * **향상된 개발 워크플로**: 통합 Adobe Commerce 개발 도구.
 * **AI 기반 지원**: 컨텍스트 인식 코드 생성 및 디버깅.
@@ -74,7 +76,7 @@ AI 코딩 도구를 사용하면 다음과 같은 이점이 있습니다.
    aio commerce extensibility tools-setup
    ```
 
-설치 프로세스에서 구성 옵션을 묻는 메시지가 표시됩니다. 설치 위치에 대해 &quot;현재 디렉토리&quot;를 선택하여 현재 작업공간에 도구를 설치합니다.
+설정 프로세스에서는 구성 옵션을 묻는 메시지가 표시됩니다. 설치 위치에 대해 &quot;현재 디렉토리&quot;를 선택하여 현재 작업공간에 도구를 설치합니다.
 
 ```shell-session
 ? Where would you like to setup the tools?
@@ -130,7 +132,7 @@ Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 
 
 ## 설치 후 구성
 
-### [!DNL Adobe I/O CLI]에 로그인
+### Adobe I/O CLI에 로그인
 
 [!DNL Adobe I/O CLI]을(를) 설치한 후 MCP 서버를 사용하려면 언제든지 로그인해야 합니다.
 
@@ -193,9 +195,9 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 1. MCP 서버 활성화:
 
    * 왼쪽 사이드바의 활동 표시줄에서 **확장** 아이콘을 클릭하거나 **Cmd+Shift+X**(macOs) 또는 **Ctrl+Shift+X**(Windows 및 Linux)를 사용하여 확장 패널을 엽니다.
-   * **MCP 서버 - 설치됨**&#x200B;을 클릭합니다.
-   * **commerce-extensibility MCP 서버** 옆에 있는 톱니바퀴 아이콘을 클릭하고 서버가 중지된 경우 **서버 시작**&#x200B;을 선택합니다.
-   * 톱니바퀴 아이콘을 다시 클릭하고 **출력 표시**&#x200B;를 선택합니다.
+   * [!UICONTROL **MCP 서버 - 설치됨**]&#x200B;을 클릭합니다.
+   * [!UICONTROL **commerce-extensibility MCP 서버**] 옆에 있는 톱니바퀴 아이콘을 클릭하고 서버가 중지된 경우 [!UICONTROL **서버 시작**]&#x200B;을 선택합니다.
+   * 톱니바퀴 아이콘을 다시 클릭하고 [!UICONTROL **출력 표시**]&#x200B;를 선택합니다.
 
 1. 서버 상태를 확인합니다. `MCP:commerce-extensibility` 출력은 다음과 일치해야 합니다.
 
@@ -279,7 +281,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
@@ -326,7 +328,7 @@ Create a detailed implementation plan for this complex development.
 >
 >MCP 도구를 사용하기 전에 [Adobe I/O CLI에 로그인했는지 확인](#log-in-to-the-adobe-io-cli)하세요.
 
-툴은 기본적으로 MCP 툴로 설정되지만 특정 상황에서는 CLI 명령을 대신 사용할 수도 있습니다. MCP 도구 사용을 확인하려면 프롬프트에서 명시적으로 요청하십시오.
+이 툴은 기본적으로 MCP 툴로 설정되지만 특정 상황에서는 CLI 명령을 대신 사용할 수도 있습니다. MCP 도구를 사용하려면 프롬프트에서 명시적으로 요청하십시오.
 
 CLI 명령이 사용되고 있고 MCP 도구를 대신 사용하려면 다음 프롬프트를 사용하십시오.
 
@@ -346,7 +348,7 @@ CLI 명령은 다음과 같은 경우에 사용할 수 있습니다.
 
 ### 개발
 
-AI 도구로 인해 발생하는 불필요한 복잡성에 의문을 제기하는 것이 중요하다.
+AI 도구로 생성된 불필요한 복잡성에 의문을 제기하십시오.
 
 단순 읽기 전용 끝점에 대해 불필요한 파일이 추가되면(`validator.js`, `transformer.js`, `sender.js`) 다음 프롬프트를 사용하십시오.
 
@@ -466,7 +468,7 @@ Help me debug why this action is returning 500 errors
 
 #### 점진적으로 배포
 
-개발 속도를 높이기 위해 수정된 작업만 배포합니다. 이렇게 하면 기존 기능이 손상될 위험이 줄어들고 변경 사항에 대한 피드백이 빨라집니다. 또한 기존 기능을 손상시킬 위험도 줄어듭니다.
+개발 속도를 높이기 위해 수정된 작업만 배포합니다. 이 접근 방식은 기존 기능을 손상시킬 위험을 줄이고 변경 사항에 대한 보다 빠른 피드백을 제공합니다.
 
 * MCP 도구를 사용하여 특정 작업 배포
 
@@ -479,7 +481,7 @@ Help me debug why this action is returning 500 errors
 
 #### 런타임 정리
 
-주요 변경 사항 후 도구를 활용하여 고립된 작업을 정리합니다. AI 툴링이 정리 프로세스를 체계적으로 처리할 수 있도록 하면 고립된 작업을 효율적으로 식별하고 상태를 확인하고 수동 개입 없이 안전하게 제거할 수 있습니다.
+주요 변경 사항 후 도구를 활용하여 고립된 작업을 정리합니다. AI 툴링이 정리 프로세스를 체계적으로 처리하도록 합니다. 고립된 작업을 효율적으로 식별하고 상태를 확인하며 수동 개입 없이 안전하게 제거할 수 있습니다.
 
 ```shell-session
 Help me identify and clean up orphaned runtime actions
@@ -520,7 +522,7 @@ Remove the orphaned actions that are no longer part of the current implementatio
 
 ## 피해야 할 사항
 
-AI 코딩 도구를 사용할 때는 다음과 같은 안티 패턴을 피해야 합니다.
+AI 코딩 도구를 사용할 때 다음과 같은 안티 패턴을 사용하지 마십시오.
 
 * **설명 단계를 건너뛰지 마십시오** - 구현 전에 항상 1단계가 완료되었는지 확인하십시오.
 * **각 기능 후에 테스트를 건너뛰지 마십시오** - 증분 테스트, 모든 작업이 완료될 때까지 기다리지 마십시오.

@@ -3,11 +3,12 @@ title: '[!DNL Adobe Commerce as a Cloud Service] 개요'
 description: ' [!DNL Adobe Commerce as a Cloud Service]의 주요 기능 및 이점에 대해 알아봅니다.'
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
+level: Beginner
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: d46526db56dad08a8f865664c92d1214bbf063d8
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 3fe22d47b6fd6cf1077cbd4644ffad08f55826ca
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Commerce as a Cloud Service] 개요
 
-[!DNL Adobe Commerce as a Cloud Service]은(는) 기업이 디지털 운영을 제공하고 빠르게 확장하고 혁신을 가속화할 수 있도록 함으로써 유연성, 확장성 및 효율성을 제공합니다. Adobe의 클라우드 기반 인프라는 트래픽, 주문 및 카탈로그 관리에 대한 최대 수요를 충족하도록 리소스를 자동으로 조정합니다.
+[!DNL Adobe Commerce as a Cloud Service]은(는) 기업이 혁신을 가속화하면서 디지털 운영을 제공하고 빠르게 확장할 수 있도록 함으로써 유연성, 확장성 및 효율성을 제공합니다. Adobe의 클라우드 기반 인프라는 트래픽, 주문 및 카탈로그 관리에 대한 최대 수요를 충족하도록 리소스를 자동으로 조정합니다.
 
 다음 표에는 [!DNL Adobe Commerce as a Cloud Service]을(를) 지원하는 제품이 강조 표시되어 있습니다.
 
@@ -58,21 +59,21 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service] 아키텍처에 대한 간략한 소개는 다음 비디오를 참조하십시오. 아키텍처를 설명하는 다이어그램은 비디오 아래에 제공됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443274?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 이 다이어그램은 [!DNL Adobe Commerce as a Cloud Service]과(와) 모든 Adobe Experience Cloud 솔루션 간의 데이터 흐름을 보여 줍니다.
 
-![[!DNL Adobe Commerce as a Cloud Service] 아키텍처 다이어그램](./assets/data-flow.svg){zoomable="yes"}
+![개 솔루션과 [!DNL Adobe Commerce as a Cloud Service] 통합을 보여 주는 [!DNL Adobe Experience Cloud]데이터 흐름 다이어그램](./assets/data-flow.svg){zoomable="yes"}
 
 ## Commerce 상점 첫 화면
 
-Edge Delivery Services에서 제공하는 Adobe의 [Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront?lang=ko)을(를) 사용하여 Storefront Builder를 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
+[[!DNL Commerce Storefront]에서 제공하는 Adobe의 ](https://experienceleague.adobe.com/developer/commerce/storefront)[!DNL Edge Delivery Services]을(를) 사용하여 [!DNL Storefront Builder]을(를) 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
 
-Commerce Storefront는 GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 전체 헤드리스를 제공합니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
+[!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)을 참조하세요.
+>[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 전환에 대한 지침은 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts)을 참조하세요.
 
 ## 머천다이징 서비스 및 결제 서비스
 
@@ -83,26 +84,26 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
 - [카탈로그 서비스](../catalog-service/guide-overview.md) - 성능을 향상시키고, 확장성을 개선하고, 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.
 - [결제 서비스](../payment-services/guide-overview.md)—무이자 결제 할부, 결제 처리, 주문 및 청구서에 대한 단일 보기를 포함한 다양한 결제 방법을 제공하여 고객 만족도를 높입니다.
 
-## AEM Assets 기반 제품 비주얼
+## [!DNL Product Visuals powered by AEM Assets]
 
-제품 비주얼은 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 디지털 에셋 관리(DAM) 시스템을 사용하여 에셋 관리를 간소화하는 데 도움이 됩니다.
+제품 비주얼은 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 DAM(디지털 에셋 관리) 시스템을 사용하여 에셋 관리를 간소화하는 데 도움이 됩니다.
 
-이 통합을 통해 제품 이미지 또는 마케팅 컨텐츠와 같은 디지털 에셋이 SKU 또는 기타 주요 속성을 기반으로 Adobe Commerce의 제품 및 카테고리를 비롯한 적절한 머천다이징 엔티티에 동적으로 연결됩니다.
+이러한 통합을 통해 제품 이미지 또는 마케팅 컨텐츠와 같은 디지털 에셋이 SKU 또는 기타 주요 속성을 기반으로 Adobe Commerce의 제품 및 카테고리를 비롯한 적절한 머천다이징 엔티티에 동적으로 연결할 수 있습니다.
 
-제품 비주얼은 [!DNL Adobe Commerce as a Cloud Service]에서 즉시 사용할 수 있으며 AEM Assets의 일부 기능을 제공합니다.
+[!DNL Product Visuals]은(는) [!DNL Adobe Commerce as a Cloud Service]에서 즉시 사용할 수 있으며 [!DNL AEM Assets]에서 일부 기능을 제공합니다.
 
 또는 [!DNL Adobe Commerce as a Cloud Service] 내의 기본 기능은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
-AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법에 대한 자세한 내용은 &#x200B;](../aem-assets-integration/overview.md)AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
+[을(를) ](../aem-assets-integration/overview.md)과(와) 통합하는 방법에 대한 자세한 내용은 [!DNL Product Visuals powered by AEM Assets]AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
 
-### 제품 시각화 또는 AEM Assets
+### [!DNL Product Visuals] 또는 [!DNL AEM Assets]
 
 다음 비교는 supply chain에 필요한 콘텐츠에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
 <table>
   <tr>
     <td align="left">
-      <strong>AEM Assets에서 제공하는 제품 비주얼</strong>
+      <strong>[!DNL Product Visuals powered by AEM Assets]</strong>
       <ul>
         <li>자동화된 통합 제품 이미지 및 비디오 DAM(Digital Asset Manager)</li>
         <li>이미지 크기 조정, 자르기 및 변환</li>
@@ -146,10 +147,10 @@ AEM Assets에서 제공하는 제품 비주얼을 [과(와) 통합하는 방법�
 
 ## 개발자 플랫폼
 
-Adobe은 개발자에게 Commerce Foundation 기능을 확장하고 타사 시스템(예: CRM, ERPS 및 PIMS)과 통합하는 애플리케이션을 빌드하는 포괄적인 확장 지점 및 도구를 제공합니다. 이러한 도구를 사용하면 다음과 같은 방법으로 플랫폼의 TCO를 절감할 수 있습니다.
+Adobe은 개발자에게 Commerce Foundation 기능을 확장하고 타사 시스템(예: CRM, ERP 및 PIM)과 통합하는 애플리케이션을 빌드하는 포괄적인 확장 지점 및 도구를 제공합니다. 이러한 도구를 사용하면 다음과 같은 방법으로 플랫폼의 TCO를 절감할 수 있습니다.
 
 - **확장성**—핵심 소프트웨어와 별도로 응용 프로그램을 확장할 수 있으므로 효율성이 향상되고 업그레이드가 간단해집니다.
-- **격리**-격리된 환경은 개발자가 코어 릴리스에 의존하지 않고 임의로 확장을 업그레이드하거나 수정할 수 있음을 의미합니다.
+- **격리**—격리된 환경은 개발자가 코어 릴리스에 의존하지 않고 임의로 확장을 업그레이드하거나 수정할 수 있음을 의미합니다.
 - **기술 독립성**-개발자는 필요에 맞는 기술 스택과 코딩 언어를 선택할 수 있습니다.
 
 >[!TIP]
@@ -167,7 +168,7 @@ Adobe은 통합 및 사용자 지정을 빌드하기 위한 다음 개발자 도
 
 ## Commerce 재단
 
-Commerce Foundation은 클라우드 기반 환경에서 Commerce 애플리케이션을 관리하기 위한 안전한 자동 호스팅 플랫폼과 셀프서비스 기능을 제공합니다.
+[!DNL Commerce Foundation]은(는) 클라우드 기반 환경에서 Commerce 애플리케이션을 관리하기 위한 안전한 자동 호스팅 플랫폼과 셀프서비스 기능을 제공합니다.
 
 주요 기능은 다음과 같습니다.
 
@@ -177,7 +178,7 @@ Commerce Foundation은 클라우드 기반 환경에서 Commerce 애플리케이
 
 ### 간소화된 온보딩
 
-[!UICONTROL Commerce Cloud Manager] 셀프 서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작합니다. 머천다이징 서비스, Headless Commerce 인스턴스 및 App Builder을 포함하여 필요한 모든 것이 자동으로 구성되고 인스턴스와 통합됩니다.
+[!UICONTROL Commerce Cloud Manager] 셀프 서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작합니다. 머천다이징 서비스, Headless Commerce 인스턴스 및 [!DNL App Builder]을(를) 포함하여 필요한 모든 항목이 자동으로 구성되어 인스턴스와 통합됩니다.
 
 Commerce 인스턴스를 만들고 관리하는 방법은 [시작하기](getting-started.md)를 참조하세요.
 
@@ -193,11 +194,11 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 
 ### 타사 통합
 
-개발자는 포괄적인 [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/) 및 [REST API](https://developer.adobe.com/commerce/webapi/rest/)를 사용하여 Commerce Foundation을 타사 시스템과 통합하고 Commerce 기능을 확장할 수 있습니다.
+개발자는 포괄적인 [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/) 및 [REST API](https://developer.adobe.com/commerce/webapi/rest/)를 사용하여 [!DNL Commerce Foundation]을(를) 서드파티 시스템과 통합하고 Commerce 기능을 확장할 수 있습니다.
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 

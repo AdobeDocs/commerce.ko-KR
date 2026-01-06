@@ -1,19 +1,21 @@
 ---
 title: 대량 데이터 마이그레이션 도구
-description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service] (으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+description: Bulk Data Migration Tool을 사용하여 Cloud 인스턴스의 기존 Adobe Commerce에서  [!DNL Adobe Commerce as a Cloud Service](으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
+feature: Cloud
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
+level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+source-git-commit: 06bdcfbff5d376064b18bdab3945e7609075b8bc
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # 대량 데이터 마이그레이션 도구
 
-벌크 데이터 마이그레이션 도구는 PaaS에서 SaaS 환경으로 안전하고 효율적으로 데이터를 마이그레이션할 수 있는 분산 아키텍처를 따릅니다. 이 도구는 솔루션 구현자가 기존 PaaS(Adobe Commerce on Cloud Instance)에서 SaaS([!DNL Adobe Commerce as a Cloud Service])로 데이터를 마이그레이션하도록 설계되었습니다. 마이그레이션 프로세스에 대한 자세한 내용은 [마이그레이션 개요](./overview.md)를 참조하십시오.
+벌크 데이터 마이그레이션 도구는 PaaS에서 SaaS 환경으로 안전하고 효율적으로 데이터를 마이그레이션할 수 있는 분산 아키텍처를 따릅니다. 이 도구는 솔루션 구현자가 기존 PaaS(Adobe Commerce on Cloud Instance)에서 SaaS([!DNL Adobe Commerce as a Cloud Service])로 데이터를 마이그레이션하도록 도와줍니다. 마이그레이션 프로세스에 대한 자세한 내용은 [마이그레이션 개요](./overview.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 다음 이미지는 대량 데이터 마이그레이션 도구를 사용하기 위한 아키텍처 및 주요 구성 요소에 대해 자세히 설명합니다.
 
-![대량 데이터 마이그레이션 도구 아키텍처](../assets/bulk-data-diagram.png)
+![PaaS에서 SaaS로의 데이터 흐름을 보여주는 대량 데이터 마이그레이션 도구 아키텍처 다이어그램](../assets/bulk-data-diagram.png){zoomable="yes"}
 
 ## 마이그레이션 워크플로
 
@@ -44,13 +46,13 @@ ht-degree: 0%
 
 ## 대상 환경 만들기
 
-솔루션 구현자(SI)는 마이그레이션을 위한 대상 환경을 만듭니다. 이 환경은 소스 인스턴스에서 마이그레이션된 데이터를 저장하는 데 사용됩니다.
+솔루션 구현자(SI)는 마이그레이션을 위한 대상 환경을 만듭니다. 이 환경은 소스 인스턴스에서 마이그레이션된 데이터를 저장합니다.
 
 먼저 [새  [!DNL Adobe Commerce as a Cloud Service] (SaaS) 인스턴스를 만듭니다](../getting-started.md#create-an-instance).
 
 ### 추출 도구 구성
 
-추출 도구는 소스 인스턴스에서 데이터를 추출하는 데 사용됩니다.
+추출 도구를 사용하여 소스 인스턴스에서 데이터를 추출합니다.
 
 1. Adobe에서 제공한 링크에서 추출 도구를 다운로드합니다.
 1. 추출 도구에서 다음 환경 변수를 설정합니다.

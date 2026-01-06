@@ -1,12 +1,14 @@
 ---
 title: 등급 확장 튜토리얼 사전 요구 사항
 description: 등급 확장 랩에 대한 사전 요구 사항을 알아봅니다.
+feature: App Builder, Cloud
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: c160632905631949c9503ceaf896b47e7a71fe55
+source-git-commit: 4ca909c2f8f95fbc404ce6a745d769958b2c01f4
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 0%
 >
 >이 자습서에서 사용되는 AI 도구는 현재 Beta에 있으며 버그 또는 기타 문제를 포함할 수 있습니다.
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 &#x200B;](./ratings-extension.md)을(를) 사용하는 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 ](./ratings-extension.md) 튜토리얼에 대한 필수 구성 요소 및 설정 단계가 나열됩니다.
 
 ## Adobe Commerce as a Cloud Service 사전 요구 사항
 
@@ -48,15 +50,15 @@ ht-degree: 0%
 1. [!UICONTROL **프로젝트 제목**] 및 [!UICONTROL **앱 이름**]&#x200B;을 입력하십시오.
 1. **[!UICONTROL Include Runtime]** 확인란이 표시되어 있는지 확인하십시오.
 
-   ![App Builder 템플릿으로 프로젝트 만들기](../assets/app-builder-template.png){width="600" zoomable="yes"}
+   ![App Builder 템플릿을 사용하여 Adobe Developer Console 프로젝트 만들기](../assets/app-builder-template.png){width="600" zoomable="yes"}
 
-1. **저장**&#x200B;을 클릭합니다.
+1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
 #### 작업 공간에 API 추가
 
 1. [!UICONTROL **단계**] 작업 영역을 클릭한 다음 각 API에 대해 다음 단계를 반복합니다.
 
-   ![작업 영역에 추가된 API](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
+   ![API에 대한 서비스 추가 옵션을 사용하여 작업 영역 준비](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **서비스 추가**]&#x200B;를 클릭하고 [!UICONTROL **API**]&#x200B;을(를) 선택합니다.
 
@@ -74,7 +76,7 @@ ht-degree: 0%
 
 1. 모든 API가 작업 공간에 추가될 때까지 이전 단계를 반복합니다.
 
-   ![작업 영역에 추가된 API](../assets/apis-added.png){width="600" zoomable="yes"}
+   ![모든 필수 API를 표시하는 Workspace이 추가되었습니다](../assets/apis-added.png){width="600" zoomable="yes"}
 
 ### Adobe I/O CLI 구성
 
@@ -104,7 +106,7 @@ ht-degree: 0%
    aio console workspace select
    ```
 
-   ![CLI 구성](../assets/cli-configuration.png){width="600" zoomable="yes"}
+   ![터미널(Adobe I/O CLI 조직 프로젝트 및 작업 영역 선택 표시](../assets/cli-configuration.png){width="600" zoomable="yes"})
 
 ### 통합 시작 키트 복제
 
@@ -115,7 +117,7 @@ git clone https://github.com/adobe/commerce-integration-starter-kit.git extensio
 cd extension
 ```
 
-![시작 키트 복제](../assets/clone-starter-kit.png){width="600" zoomable="yes"}
+![Commerce 통합 시작 키트에 대한 git clone 명령을 표시하는 터미널 출력](../assets/clone-starter-kit.png){width="600" zoomable="yes"}
 
 ### .env 파일 만들기
 
@@ -137,7 +139,7 @@ OAUTH_ORG_ID=
 
 작업 영역에서 **[!UICONTROL Credential details]** 탭을 클릭하여 [Developer Console](https://developer.adobe.com/)의 **[!UICONTROL OAuth Server-to-Server]** 페이지에서 이러한 값을 복사할 수 있습니다.
 
-![OAuth 자격 증명](../assets/oauth-credentials.png){width="600" zoomable="yes"}
+Adobe Developer Console의 ![OAuth 서버 간 자격 증명 페이지](../assets/oauth-credentials.png){width="600" zoomable="yes"}
 
 #### Commerce 구성 추가
 
@@ -185,7 +187,7 @@ cp workspace.json scripts/
 aio app use workspace.json -m
 ```
 
-![작업 영역에 연결](../assets/connect-workspace.png){width="600" zoomable="yes"}
+![터미널에서 aio 앱 사용 명령을 사용하여 작업 영역 연결에 성공했음을 보여 줍니다](../assets/connect-workspace.png){width="600" zoomable="yes"}
 
 ### 확장성 AI 도구 설치
 
@@ -201,7 +203,7 @@ aio app use workspace.json -m
    aio commerce extensibility tools-setup
    ```
 
-   ![AI 도구 설치](../assets/install-ai-tools.png){width="600" zoomable="yes"}
+   ![AI 확장성 도구 설정 명령 출력을 표시하는 터미널](../assets/install-ai-tools.png){width="600" zoomable="yes"}
 <!--
 ## Storefront prerequisites
 
