@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 최신 기능 및 개
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
 source-git-commit: 1ce3b6b6b94b1b4e94c0d34c081dec2884d7f0f8
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 릴리스 정보
 
-다음 릴리스 노트에는 [!DNL Adobe Commerce as a Cloud Service]에 대한 업데이트가 포함되어 있습니다. 다른 제품에 대한 릴리스 정보는 [Adobe Commerce Optimizer](../optimizer/release-notes.md) 또는 [Adobe Commerce 온-프레미스 및 Adobe Commerce on Cloud](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)를 참조하세요.
+다음 릴리스 노트에는 [!DNL Adobe Commerce as a Cloud Service]에 대한 업데이트가 포함되어 있습니다. 다른 제품에 대한 릴리스 정보는 [Adobe Commerce Optimizer](../optimizer/release-notes.md) 또는 [Adobe Commerce 온-프레미스 및 Adobe Commerce on Cloud](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하세요.
 
 [!DNL Adobe Commerce as a Cloud Service]에는 머천다이징 서비스, 결제 서비스 및 확장성 릴리스의 최신 버전이 포함되어 있습니다. 다음 링크를 사용하여 각각에 대한 릴리스 정보를 보십시오.
 
@@ -49,6 +49,6 @@ ht-degree: 0%
 
 #### 사용자 지정 순서 속성
 
-* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
+* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
 
 >[!ENDSHADEBOX]

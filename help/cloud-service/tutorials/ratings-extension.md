@@ -248,7 +248,7 @@ This section teaches you how to implement real storefront features and communica
    You should see the following changes in your development environment and browser:
 
    * A product rating "component" is automatically created.
-   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots).
+   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=ko).
    * Stars display with proper fill proportions based on mock rating values.
 
 ![Product Ratings Implementation](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}
