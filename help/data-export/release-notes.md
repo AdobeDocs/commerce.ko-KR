@@ -4,9 +4,9 @@ description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 �
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: f945cb34e57a6c51e308d05944821e37e1a4c7d4
+source-git-commit: 029cbbf75a21ba68f9829d5755a40a610d34d479
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1962'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,24 @@ ht-degree: 0%
 
 ## 현재 메이저 버전
 
+## 103.4.17 릴리스   
+
+![수정](../assets/fix.svg) 더 이상 필요하지 않은 `magento/module-data-exporter` 종속성을 제거하기 위해 데이터 내보내기 확장(`magento/module-analytics`)을 업데이트했습니다.<!--MDEE-1260--> 
+![수정](../assets/fix.svg) 제품의 계층 가격을 업데이트해도 이전 값이 제거되지 않아 계층 가격 항목이 중복되거나 오래된 문제가 해결되었습니다. 이제 업데이트 후 현재 계층 가격만 표시됩니다. <!--MDEE-1157-->  
+![수정](../assets/fix.svg) $0 가격 또는 100% 할인된 제품이 상점 앞에 무료로 표시되지 않는 문제를 해결했습니다. Storefront 및 장바구니 가격은 이제 일관적입니다. <!--MDEE-1159-->  
+![수정](../assets/fix.svg) Symfony 7.4 LTS 호환성이 향후 업그레이드 및 통합을 지원하기 위해 데이터 내보내기 확장에 추가되었습니다. <!--MDEE-1272-->   
+
+## 103.4.16 릴리스   
+
+![수정](../assets/fix.svg) 여러 인덱서에서 ActionInterface 구현이 누락되어 설치 또는 업그레이드 중에 특정 인덱서가 `Update On Schedule` 모드로 전환되지 않는 문제를 해결했습니다. 이 수정 사항을 통해 인덱서 관련 오류가 발생하지 않고 확장 프로그램을 성공적으로 설치 및 업그레이드할 수 있습니다. <!--MDEE-1235-->
+
 ## 103.4.15 릴리스
 
-![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 [Commerce 관리 안내서](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)의 *데이터 피드 동기화 상태 모니터링*&#x200B;을 참조하십시오. <!--MDEE-954-->
+![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 [Commerce 관리 안내서](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html)의 *데이터 피드 동기화 상태 모니터링*&#x200B;을 참조하십시오. <!--MDEE-954-->
 
 ## 103.4.14 릴리스
 
-![수정](../assets/fix.svg) [&#x200B; 테이블이 없으면 &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
+![수정](../assets/fix.svg) [ 테이블이 없으면 ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항으로 인해 안정적인 리인덱싱이 가능하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류가 발생하지 않습니다.&quot; <!--MDEE-1175-->
 
 ## 103.4.13 릴리스
 
@@ -47,7 +58,7 @@ ht-degree: 0%
 
 ## 103.4.11 릴리스
 
-![새로 만들기](../assets/new.svg) [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+![새로 만들기](../assets/new.svg) [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 제품 피드에 Commerce 제품 구성의 세금 클래스, 속성 세트 및 재고 데이터를 포함하도록 추가 제품 속성에 대한 지원을 추가했습니다. 제품 내보내기 피드에 이러한 속성을 포함하려는 고객은 추가 제품 속성 모듈을 Adobe Commerce 프로젝트에 추가해야 합니다. [세금 클래스, 특성 집합 및 재고 특성 추가](add-tax-attribute-set-inventory-attributes.md)를 참조하십시오.<!--MDEE-1135-->
 ![수정](../assets/fix.svg) 전체 제품 색인 중에 오류가 발생한 경우 삭제된 제품 업데이트에 대해 잘못 동기화되는 문제를 해결했습니다. 이제 인덱싱 프로세스 중에 오류가 발생하더라도 모든 제품 삭제가 올바르게 동기화됩니다. <!--MDEE-1144-->
 
