@@ -5,8 +5,8 @@ feature: Cloud, Integration
 role: Admin, Developer, User
 level: Beginner
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 3fe22d47b6fd6cf1077cbd4644ffad08f55826ca
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: f71795ab6a10a28e6352d7adfcffd11a40e8ef67
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 다음 구성 요소로 구성됩니다.
 
-* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 &#x200B;](https://experience.adobe.com/) 제품에 대한 중앙 진입점
+* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 ](https://experience.adobe.com/) 제품에 대한 중앙 진입점
    * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
 * **[[!DNL Commerce Cloud Manager]](https://experience.adobe.com/#/commerce/cloud-service)** - 인스턴스 만들기 및 관리, API URL 액세스 및 Commerce 관리자
 * **[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/)** - 사용자 및 역할 관리
 * **Commerce 관리자** - 제품, 주문, 고객 및 스토어 구성 관리
 * **[Storefront powered by [!DNL Edge Delivery Services]](./storefront.md)** - 판매자와 개발자를 위한 탁월한 속도, SEO 및 사용자 경험을 제공하는 구성 가능한 고성능 시스템을 사용하여 고객 중심의 Storefront를 만들고 사용자 지정합니다.
-* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - [!DNL App Builder]통합 스타터 키트[&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) [[!DNL API Mesh]와 같은 다른 확장성 도구와 함께 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/)을(를) 사용하여 사용자 지정 통합을 빌드합니다.
+* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - [!DNL App Builder]통합 스타터 키트[ 및 ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)[[!DNL API Mesh]와 같은 다른 확장성 도구와 함께 ](https://developer.adobe.com/graphql-mesh-gateway/)을(를) 사용하여 사용자 지정 통합을 빌드합니다.
 
 ## 설정 및 관리
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!TAB 시스템 관리자 및 판매자 워크플로]
 
-이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/enterprise/admin-guide.html)를 참조하십시오.
 
 ![Adobe Commerce as a Cloud Service에 대한 시스템 관리자 및 판매자 워크플로 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -172,6 +172,8 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 1. [!UICONTROL **인스턴스 추가**]&#x200B;를 클릭합니다.
 
+{{aem-assets-instance-mapping}}
+
 ### 인스턴스 액세스
 
 인스턴스를 만든 후에는 [!UICONTROL Commerce Cloud Manager]에서 액세스할 수 있습니다.
@@ -205,15 +207,15 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 카탈로그를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 가져오는 방법에는 두 가지가 있습니다.
 
-* [**Commerce 관리자**](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
+* [**Commerce 관리자**](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
 * [**JSON API 가져오기**](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - 카탈로그 데이터를 프로그래밍 방식으로 가져올 수 있는 REST API입니다.
 
 ### 상점 배치
 
-인스턴스를 만들었으므로 [에서 제공하는 &#x200B;](storefront.md)상점 설치[!DNL Edge Delivery Services]를 준비했습니다.
+인스턴스를 만들었으므로 [에서 제공하는 ](storefront.md)상점 설치[!DNL Edge Delivery Services]를 준비했습니다.
 
 ## 추가 리소스
 
 * [릴리스 정보](release-notes.md)
 * [마이그레이션 안내서](migration/overview.md)
-* [Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+* [Commerce 상점 첫 화면 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
