@@ -158,13 +158,13 @@ ht-degree: 0%
 
 1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목 SKU 또는 제품 코드를 확인합니다.
 
-1. [!DNL AEM Assets]Adobe Experience Cloud[에서 선택하여 ](https://experience.adobe.com/#/home)을(를) 엽니다.
+1. [!DNL AEM Assets]Adobe Experience Cloud[에서 선택하여 &#x200B;](https://experience.adobe.com/#/home)을(를) 엽니다.
 
    ![[!DNL AEM Assets] 인터페이스를 표시하는 [!DNL Adobe Experience Cloud] 선택기](./assets/select-aem-assets.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **Assets**]&#x200B;을(를) 클릭합니다.
 
-   ![ 인터페이스의 [!DNL AEM Assets]Assets 탐색 옵션](./assets/click-assets.png){width="600" zoomable="yes"}
+   ![&#x200B; 인터페이스의 [!DNL AEM Assets]Assets 탐색 옵션](./assets/click-assets.png){width="600" zoomable="yes"}
 
 1. **SKU** 또는 **제품 코드**&#x200B;로 항목을 검색합니다.
 
@@ -200,13 +200,13 @@ ht-degree: 0%
 
 #### [!DNL Commerce AEM Assets]에 이미지 추가
 
-1. [의 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)탐색 패널[!DNL AEM as a Cloud Service]에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. [의 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)탐색 패널[!DNL AEM as a Cloud Service]에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![제품 이미지가 있는 [!DNL AEM Assets]의 Commerce 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **속성**]&#x200B;을 클릭합니다.
 
-   ![ 도구 모음의 [!DNL AEM Assets]속성 단추](./assets/properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 도구 모음의 [!DNL AEM Assets]속성 단추](./assets/properties.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **Commerce**] 탭을 선택합니다.
 

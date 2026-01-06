@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >이 자습서에서 사용되는 AI 도구는 현재 Beta에 있으며 버그 또는 기타 문제를 포함할 수 있습니다.
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 ](./ratings-extension.md) 튜토리얼에 대한 필수 구성 요소 및 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 &#x200B;](./ratings-extension.md) 튜토리얼에 대한 필수 구성 요소 및 설정 단계가 나열됩니다.
 
 ## Adobe Commerce as a Cloud Service 사전 요구 사항
 

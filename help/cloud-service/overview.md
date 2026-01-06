@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## Commerce 상점 첫 화면
 
-[[!DNL Commerce Storefront]에서 제공하는 Adobe의 ](https://experienceleague.adobe.com/developer/commerce/storefront)[!DNL Edge Delivery Services]을(를) 사용하여 [!DNL Storefront Builder]을(를) 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
+[[!DNL Commerce Storefront]에서 제공하는 Adobe의 &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront) [!DNL Edge Delivery Services]을(를) 사용하여 [!DNL Storefront Builder]을(를) 통해 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들 수 있습니다.
 
 [!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
@@ -94,7 +94,7 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
 
 또는 [!DNL Adobe Commerce as a Cloud Service] 내의 기본 기능은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
-[을(를) ](../aem-assets-integration/overview.md)과(와) 통합하는 방법에 대한 자세한 내용은 [!DNL Product Visuals powered by AEM Assets]AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
+[을(를) &#x200B;](../aem-assets-integration/overview.md)과(와) 통합하는 방법에 대한 자세한 내용은 [!DNL Product Visuals powered by AEM Assets]AEM Assets 통합[!DNL Adobe Commerce as a Cloud Service] 안내서를 참조하세요.
 
 ### [!DNL Product Visuals] 또는 [!DNL AEM Assets]
 
