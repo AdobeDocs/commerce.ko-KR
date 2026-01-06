@@ -23,13 +23,13 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 다음 구성 요소로 구성됩니다.
 
-* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 ](https://experience.adobe.com/) 제품에 대한 중앙 진입점
+* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - [!DNL Adobe Commerce]experience.adobe.com[의 모든 &#x200B;](https://experience.adobe.com/) 제품에 대한 중앙 진입점
    * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
 * **[[!DNL Commerce Cloud Manager]](https://experience.adobe.com/#/commerce/cloud-service)** - 인스턴스 만들기 및 관리, API URL 액세스 및 Commerce 관리자
 * **[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/)** - 사용자 및 역할 관리
 * **Commerce 관리자** - 제품, 주문, 고객 및 스토어 구성 관리
 * **[Storefront powered by [!DNL Edge Delivery Services]](./storefront.md)** - 판매자와 개발자를 위한 탁월한 속도, SEO 및 사용자 경험을 제공하는 구성 가능한 고성능 시스템을 사용하여 고객 중심의 Storefront를 만들고 사용자 지정합니다.
-* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - [!DNL App Builder]통합 스타터 키트[ 및 ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)[[!DNL API Mesh]와 같은 다른 확장성 도구와 함께 ](https://developer.adobe.com/graphql-mesh-gateway/)을(를) 사용하여 사용자 지정 통합을 빌드합니다.
+* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - [!DNL App Builder]통합 스타터 키트[&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) [[!DNL API Mesh]와 같은 다른 확장성 도구와 함께 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/)을(를) 사용하여 사용자 지정 통합을 빌드합니다.
 
 ## 설정 및 관리
 
@@ -212,7 +212,7 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 ### 상점 배치
 
-인스턴스를 만들었으므로 [에서 제공하는 ](storefront.md)상점 설치[!DNL Edge Delivery Services]를 준비했습니다.
+인스턴스를 만들었으므로 [에서 제공하는 &#x200B;](storefront.md)상점 설치[!DNL Edge Delivery Services]를 준비했습니다.
 
 ## 추가 리소스
 
