@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 기여자 안내서 설명서
 
-[기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
+[기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하세요.
 
 ## 질문이 있습니까?
 
@@ -54,11 +54,11 @@ Adobe CLA를 한 번만 제출하면 됩니다. 이전에 제출한 적이 있�
 
 ## 보안 문제
 
-보안 문제를 보고하려면 [보안 전문가에게 문제를 제출하세요](https://helpx.adobe.com/security/alertus.html).
+보안 문제를 보고하려면 [보안 전문가에게 문제를 제출하세요](https://helpx.adobe.com/kr/security/alertus.html).
 
 ## 새로운 기능
 
-변경 사항으로 인해 강조 표시해야 하는 새로운 주제, 중요한 업데이트 또는 수정 사항이 있는 경우 끌어오기 요청 본문에서 바로 [새로운 기능 섹션](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home#whats-new)에 간단한 설명을 추가할 수 있습니다.
+변경 사항으로 인해 강조 표시해야 하는 새로운 주제, 중요한 업데이트 또는 수정 사항이 있는 경우 끌어오기 요청 본문에서 바로 [새로운 기능 섹션](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home#whats-new)에 간단한 설명을 추가할 수 있습니다.
 
 새로운 기능 강조 표시를 추가하려면:
 
@@ -102,4 +102,4 @@ Adobe CLA를 한 번만 제출하면 됩니다. 이전에 제출한 적이 있�
 1. `whatsnew` 파트는 `whatsnew` 태그에서 시작하여 끌어오기 요청 본문의 맨 끝에 있어야 합니다.
 1. 변경 사항에 대한 설명에는 작업 링크가 포함되어야 합니다. 링크가 올바르고 의도한 주제로 이어졌는지 확인하십시오. 새로운 항목인 경우 끌어오기 요청을 병합하고 새 항목을 게시한 후 링크가 작동하는지 확인하십시오. 끌어오기 요청이 병합된 후에 링크를 수정해도 됩니다.
 
-예를 들어, 저장소에서 닫힌 끌어오기 요청을 검색하여 기존 하이라이트의 서식을 확인하고, 이를 [새로운 기능 섹션](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home#whats-new)과 비교하여 설명서에 어떻게 표시되는지 확인하십시오.
+예를 들어, 저장소에서 닫힌 끌어오기 요청을 검색하여 기존 하이라이트의 서식을 확인하고, 이를 [새로운 기능 섹션](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home#whats-new)과 비교하여 설명서에 어떻게 표시되는지 확인하십시오.
