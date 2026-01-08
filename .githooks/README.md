@@ -1,7 +1,7 @@
 ---
-source-git-commit: 39977196f322cac571ecdb0219f006970aff3575
+source-git-commit: e97db43bcd167acc5d537a6c53479923fd761cc9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ bundle exec rake images:optimize path=../path/to/images
 
 ## 구성
 
-후크는 구성 파일 `_jekyll/.image_optim`을(를) 사용하여 최적화 설정을 사용자 지정합니다.
+후크는 구성 파일 `_jekyll/.image_optim.yml`을(를) 사용하여 최적화 설정을 사용자 지정합니다.
 
 - **PNG**: `advpng`, `optipng` 및 `pngquant` 사용
 - **JPEG**: `jhead`, `jpegoptim` 및 `jpegtran` 사용
@@ -120,12 +120,12 @@ bundle exec rake images:optimize path=../path/to/images
 ### 최적화 실패
 
 - `bundle install` 디렉터리에서 `_jekyll`이(가) 실행되었는지 확인
-- `image_optim` 및 `image_optim_pack`개의 GEMS가 설치되어 있는지 확인
-- `.image_optim` 구성 파일 검토
+- `adobe-comdox-exl-rake-tasks` gem이 설치되어 있는지 확인합니다(`image_optim` 제공).
+- `.image_optim.yml` 구성 파일 검토
 
 ### 성능 문제
 
-- `_jekyll/.image_optim`에서 스레드 수 조정
+- `_jekyll/.image_optim.yml`에서 스레드 수 조정
 - 자세한 오류 정보를 보려면 `DEBUG=1` 환경 변수를 설정하십시오.
 
 ## 작동 방식
