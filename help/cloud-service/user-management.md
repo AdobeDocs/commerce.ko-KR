@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]에 사용할 수 있는 역할은 다음과 같습니다. 이러한 역할을 보거나 편집하려면 Commerce 관리에서 [!UICONTROL **시스템**] > [!UICONTROL **권한**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동합니다.
 
-* **사용자** - 사용자는 Commerce 관리자에 대한 관리자 액세스 권한이 있지만 Admin Console에서 제품 수준 액세스를 관리할 수 없습니다. [에서 ](./getting-started.md#create-an-instance)인스턴스 만들기[!DNL Commerce Cloud Manager]에 크레딧을 사용할 수도 있습니다.
+* **사용자** - 사용자는 Commerce 관리자에 대한 관리자 액세스 권한이 있지만 Admin Console에서 제품 수준 액세스를 관리할 수 없습니다. [에서 &#x200B;](./getting-started.md#create-an-instance)인스턴스 만들기[!DNL Commerce Cloud Manager]에 크레딧을 사용할 수도 있습니다.
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 * 관리자 - 세 가지 유형의 관리자가 있습니다.
    * [시스템 관리자](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
-   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 ](#add-users)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
+   * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 &#x200B;](#add-users)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
    * [제품 프로필 관리자](#add-developers-and-product-profile-admins) - 제품 프로필 관리자는 Adobe Commerce 관리자에 액세스할 수 없지만 [!DNL Adobe Admin Console]에서 제품에 대한 사용자를 관리할 수 있습니다.
 
 Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용은 [사용자 권한](#user-permissions)을 참조하세요.
@@ -225,11 +225,11 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 [!DNL Adobe Experience Manager Assets] 및 [!DNL Product Visuals powered by AEM Assets] 사용자에게는 다음 설정이 필요합니다.
 
-계정에 [[!DNL Adobe Experience Manager as a Cloud Service]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)에 대한 액세스 권한이 있고 사용자가 [[!DNL AEM Assets]과(와) 함께 ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview){target="_blank"}[!DNL Adobe Commerce as a Cloud Service]의 고급 기능에 액세스할 수 있도록 허용하려면 다음 프로세스를 완료하십시오.
+계정에 [[!DNL Adobe Experience Manager as a Cloud Service]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)에 대한 액세스 권한이 있고 사용자가 [[!DNL AEM Assets]과(와) 함께 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview){target="_blank"}[!DNL Adobe Commerce as a Cloud Service]의 고급 기능에 액세스할 수 있도록 허용하려면 다음 프로세스를 완료하십시오.
 
 >[!NOTE]
 >
->적절한 자산 권한이 없는 사용자는 [!DNL AEM Assets]AI 이미지 생성[, ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}생성된 변형[ 등과 같은 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"}의 고급 기능에 액세스할 수 없습니다.
+>적절한 자산 권한이 없는 사용자는 [!DNL AEM Assets]AI 이미지 생성[, &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}생성된 변형[&#x200B; 등과 같은 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"}의 고급 기능에 액세스할 수 없습니다.
 
 >[!TIP]
 >
@@ -274,7 +274,7 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 ## Experience Manager 인터페이스 액세스
 
-사용자를 [!DNL AEM Assets]에 추가한 후 [!DNL Experience Manager]https://experience.adobe.com/[(으)로 이동하여 ](https://experience.adobe.com/){target="_blank"} 인터페이스에 액세스할 수 있습니다.
+사용자를 [!DNL AEM Assets]에 추가한 후 [!DNL Experience Manager]https://experience.adobe.com/[(으)로 이동하여 &#x200B;](https://experience.adobe.com/){target="_blank"} 인터페이스에 액세스할 수 있습니다.
 
 1. [!UICONTROL **빠른 액세스**] 섹션에서 [!UICONTROL **Experience Manager**]&#x200B;을 클릭하거나 [!UICONTROL **Experience Manager**]&#x200B;이 표시되지 않는 경우 [!UICONTROL **모두 보기**]&#x200B;를 클릭하십시오. 그런 다음 [!UICONTROL **Cloud Manager**]&#x200B;을 클릭하거나 직접 [https://my.cloudmanager.adobe.com](https://my.cloudmanager.adobe.com){target="_blank"}(으)로 이동합니다.
 
@@ -291,7 +291,7 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 1. [제품 프로필에 사용자 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/requirements/users-and-roles){target="_blank"}.
 
 * Commerce 메타데이터를 지원하려면 [구성 [!DNL AEM Assets] 을(를)](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem)
-* 자산 동기화를 위해 [Commerce과 통합 [!DNL AEM Assets] ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)
+* 자산 동기화를 위해 [Commerce과 통합 [!DNL AEM Assets] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)
 
 {{aem-assets-instance-mapping}}
 
