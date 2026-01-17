@@ -62,7 +62,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 ### Google reCAPTCHA Enterprise 지원
 
-[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
+[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
 
 ### 인스턴스별 관리자 액세스
 
