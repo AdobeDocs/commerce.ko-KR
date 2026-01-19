@@ -21,7 +21,7 @@ ht-degree: 0%
 
 일반 기능 릴리스 버전 외부에서 릴리스된 기능 변경 및 수정 사항에 대해서는 _호스팅된 서비스 업데이트_ 섹션을 검토하십시오.
 
-예정된 릴리스, 제품 지원 및 [!DNL Payment Services] 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
+예정된 릴리스, 제품 지원 및 [!DNL Payment Services] 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
 
 ## 호스팅된 서비스 업데이트
 
@@ -169,7 +169,7 @@ _2025년 8월 20일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg)<!-- PAY-6022 --> [Fastlane](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options)은(는) 게스트 체크아웃 중에 더 빠른 구매를 제공합니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-6022 --> [Fastlane](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options)은(는) 게스트 체크아웃 중에 더 빠른 구매를 제공합니다.
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-6168 -->에서 [`addProductsToNewCart`에 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/mutations/) [!DNL Payment Services] 돌연변이를 추가하여 더 원활한 전환과 더 나은 장바구니 재사용을 가능하게 했습니다.
 
@@ -177,7 +177,7 @@ _2025년 8월 20일_
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-6227 --> PayPal을 사용하여 체크아웃할 때 [!DNL Payment Services]에서 더 빠른 구매 프로세스를 위해 주문 확인 팝업을 건너뜁니다.
 
-![새로 만들기](../assets/new.svg)<!-- PAY-6234 --> [나중에 지불](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options) 결제 옵션에 대한 새 기능을 추가했습니다. 이제 BNPL 메시징 구성기를 통해 고객 체크아웃 페이지에 나중에 결제 BNPL 메시지를 보다 유연하게 표시할 수 있습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-6234 --> [나중에 지불](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options) 결제 옵션에 대한 새 기능을 추가했습니다. 이제 BNPL 메시징 구성기를 통해 고객 체크아웃 페이지에 나중에 결제 BNPL 메시지를 보다 유연하게 표시할 수 있습니다.
 
 ![해결된 문제](../assets/fix.svg)<!-- PAY-5505 --> 이제 [!DNL Payment Services]은(는) 제품 페이지에서 Google Pay 또는 PayPal 팝업이 닫히면 견적을 비활성으로 설정합니다.
 
@@ -312,7 +312,7 @@ _2024년 8월 2일_
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-5380 --> [!DNL Payment Services]은(는) 더 쉽고 직관적인 온보딩 프로세스를 위해 판매자를 위한 [관리](configure-admin.md#general-configuration) 환경의 구성을 개선합니다. 이 기능을 사용하면 판매자가 [!DNL Payment Services] ID를 재설정할 수 있습니다.
 
-![새로 만들기](../assets/new.svg)<!-- PAY-5255 --> [!DNL Payment Services]에 [결제 실패 알림](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails)이 포함되어 있습니다. 이 기능은 가맹점에 결제 실패에 대한 거의 실시간으로 알림을 제공하므로 구매자에게 연락하여 주문을 절약하고 문제 해결을 잠재적으로 개선할 수 있습니다.
+![새로 만들기](../assets/new.svg)<!-- PAY-5255 --> [!DNL Payment Services]에 [결제 실패 알림](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails)이 포함되어 있습니다. 이 기능은 가맹점에 결제 실패에 대한 거의 실시간으로 알림을 제공하므로 구매자에게 연락하여 주문을 절약하고 문제 해결을 잠재적으로 개선할 수 있습니다.
 
 ![수정](../assets/fix.svg)<!-- PAY-5469 --> **Google 결제 팝업이 Safari에 의해 차단되는 문제를 해결했습니다**. 이제 쇼핑객은 Safari에서 Google 결제 거래를 완료할 수 있습니다.
 
@@ -338,7 +338,7 @@ _2024년 4월 23일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![수정](../assets/fix.svg)<!-- Issue PAY-5396 -->[!DNL Payment Services]은(는) 이제 Adobe Commerce 버전 2.4.7 이상의 [&#x200B; 매개 변수에 대한 `--db-prefix`Adobe Commerce 지침](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced#install-from-the-command-line)을 지원합니다.
+![수정](../assets/fix.svg)<!-- Issue PAY-5396 -->[!DNL Payment Services]은(는) 이제 Adobe Commerce 버전 2.4.7 이상의 [&#x200B; 매개 변수에 대한 `--db-prefix`Adobe Commerce 지침](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced#install-from-the-command-line)을 지원합니다.
 
 ## v2.4.3
 
@@ -418,7 +418,7 @@ _2023년 12월 7일_
 
 - 상점 첫 화면의 고객 주문 페이지
 - 구매자에게 전송된 주문 확인 이메일
-- Commerce 관리자의 [주문 세부 사항 보기](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#view-an-order)에서.
+- Commerce 관리자의 [주문 세부 사항 보기](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html?lang=ko#view-an-order)에서.
 
 ## v2.3.0
 
@@ -542,7 +542,7 @@ _2022년 11월 18일_
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-3880 --> 이제 구매자는 체크아웃 중에 신용카드 정보를 [저장(저장)할 수 있습니다](vaulting.md) 나중에 같은 가맹점 계정 내의 같은 상점이나 다른 상점을 구매할 때 사용할 수 있습니다.
 
-![신규](../assets/new.svg)<!-- Issue PAY-3950 --> 상인이 이제 상점에 대해 [즉시 구매 Commerce 기능](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html)을 사용하도록 설정하여 쇼핑객이 체크아웃을 신속하게 할 수 있도록 할 수 있습니다([저장된 신용 카드 정보](vaulting.md) 사용).
+![신규](../assets/new.svg)<!-- Issue PAY-3950 --> 상인이 이제 상점에 대해 [즉시 구매 Commerce 기능](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html?lang=ko)을 사용하도록 설정하여 쇼핑객이 체크아웃을 신속하게 할 수 있도록 할 수 있습니다([저장된 신용 카드 정보](vaulting.md) 사용).
 
 ## v1.4.1
 
@@ -580,7 +580,7 @@ _2022년 8월 9일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
-![새](../assets/new.svg)<!-- Issue PAY-XX --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Adobe Commerce] 버전 2.4.0에서 2.4.5 [!DNL Magento Open Source] 까지 지원됩니다.](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)
+![새](../assets/new.svg)<!-- Issue PAY-XX --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Adobe Commerce] 버전 2.4.0에서 2.4.5 [!DNL Magento Open Source] 까지 지원됩니다.](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability)
 
 ![해결된 문제](../assets/fix.svg)<!-- Issue PAY-x --> 이제 Apple Pay가 모바일과 데스크탑에서 Safari 브라우저 v15.5와 호환됩니다.
 
@@ -600,7 +600,7 @@ _2022년 6월 29일_
 
 ![해결된 문제](../assets/fix.svg)<!-- Issue PAY-3338 PAY-2502 --> Commerce 서비스 자격 증명이 잘못된 경우[!DNL Payment Services]이제 관리자의 [!DNL Payment Services] 홈에서 자격 증명 오류를 표시하여 사용자에게 알립니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-0 --> [!DNL Payment Services]이(가) `commerce-data-export` v101.20 이상과 호환되지 않으므로 [[!DNL Channel manager] 확장](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html)과 호환되지 않습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-0 --> [!DNL Payment Services]이(가) `commerce-data-export` v101.20 이상과 호환되지 않으므로 [[!DNL Channel manager] 확장](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html?lang=ko)과 호환되지 않습니다.
 
 ## v1.1.0
 
@@ -608,7 +608,7 @@ _2022년 3월 31일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.0 이상
 
-![새](../assets/new.svg)<!-- Issue PAY-2127 --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Adobe Commerce] 버전 2.4.0에서 2.4.4 [!DNL Magento Open Source] 까지 지원됩니다.](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)
+![새](../assets/new.svg)<!-- Issue PAY-2127 --> 일반 가용성 릴리스—[!DNL Payment Services]은(는) 이제 [및 [!DNL Adobe Commerce] 버전 2.4.0에서 2.4.4 [!DNL Magento Open Source] 까지 지원됩니다.](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability)
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-2682 --> 이제 캐나다 상인이 [!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source] 확장을 사용할 수 있습니다. 가맹점은 [프랑스어](introduction.md?lang=fr#accepted-credit-cards-and-currencies) 또는 [영어](introduction.md#accepted-credit-cards-and-currencies)로 결제 구성을 볼 수 있습니다.
 
@@ -628,7 +628,7 @@ _2022년 3월 31일_
 
 ![해결된 문제](../assets/fix.svg)<!-- Issue PAY-2561 --> 이전에 제거한 제품이 _주문 검토_ 페이지의 장바구니에 표시되지 않습니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2842 --> 샌드박스 환경에서 결제를 처리할 때 신용 카드 거래 테스트 [PayPal로 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html)할 수 있습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2842 --> 샌드박스 환경에서 결제를 처리할 때 신용 카드 거래 테스트 [PayPal로 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=ko)할 수 있습니다.
 
 ## v1.0.0
 
@@ -652,8 +652,8 @@ _2021년 11월 29일_
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-1443 --> [&#x200B; 확장에 대한 PayPal 결제 단추 및 신용 카드 필드를 &#x200B;](payments-options.md)사용자 지정[!DNL Payment Services]할 수 있습니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2473 --> 확장을 설치하는 동안 [잘못된 작성기 키](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html)를 사용하면 사용자가 올바른 [을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)인증`MAGEID`할 수 없습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2473 --> 확장을 설치하는 동안 [잘못된 작성기 키](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=ko)를 사용하면 사용자가 올바른 [을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)인증`MAGEID`할 수 없습니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2474 --> [!DNL Payment Services]개의 보고서 [을(를) 즉시 동기화할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html).
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2474 --> [!DNL Payment Services]개의 보고서 [을(를) 즉시 동기화할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=ko).
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2475 --> 온보딩 중에 해당 계정을 만든 경우 [에 대한 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)PayPal 샌드박스 계정[!DNL Payment Services]을(를) 확인할 수 없습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2475 --> 온보딩 중에 해당 계정을 만든 경우 [에 대한 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=ko)PayPal 샌드박스 계정[!DNL Payment Services]을(를) 확인할 수 없습니다.
