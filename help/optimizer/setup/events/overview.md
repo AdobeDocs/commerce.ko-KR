@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce Optimizer] 이(가) 검색 및 권장 사항
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: c102c558-a680-4622-80f0-6e5c34d497e9
-source-git-commit: 15a708db9a9a31798877ea3a400d5a9f6f930bda
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 - **행동** - 제품 보기, 장바구니에 추가된 항목, 구매 등 사이트에 대한 쇼핑객 참여의 데이터.
 - **카탈로그** - 이름, 가격, 가용성 등의 제품 메타데이터입니다.
 
-Adobe Sensei은 행동 및 카탈로그 데이터를 집계하여 각 권장 사항 유형에 대한 권장 사항을 생성합니다. 그런 다음 Recommendations 서비스는 이러한 권장 사항을 권장 제품 _items_&#x200B;을(를) 포함하는 위젯 형태로 상점 앞에 배포합니다.
+Adobe AI는 행동 및 카탈로그 데이터를 집계하여 각 권장 사항 유형에 대한 권장 사항을 생성합니다. 그런 다음 Recommendations 서비스는 이러한 권장 사항을 권장 제품 _items_&#x200B;을(를) 포함하는 위젯 형태로 상점 앞에 배포합니다.
 
 일부 추천 유형은 구매자의 행동 데이터를 사용하여 머신 러닝 모델을 교육하여 개인화된 추천을 구축합니다. 다른 권장 사항 유형은 카탈로그 데이터만 사용하며 동작 데이터는 사용하지 않습니다. 사이트에서 권장 사항 사용을 빠르게 시작하려면 `More like this` 권장 사항 유형을 사용할 수 있습니다.
 
@@ -86,7 +86,7 @@ Adobe Sensei은 행동 및 카탈로그 데이터를 집계하여 각 권장 사
 
 행동 데이터를 사용하는 권장 사항 유형은 언제 사용할 수 있습니까? 상황에 따라 다릅니다. 이를 _콜드 스타트_ 문제라고 합니다.
 
-_콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리는 시간을 나타냅니다. 권장 사항의 경우, 이는 Adobe Sensei이 사이트에 권장 사항 단위를 배포하기 전에 머신 러닝 모델을 교육할 충분한 데이터를 수집할 때까지 기다리는 것을 의미합니다. 모델에 데이터가 많을수록 권장 사항이 더 정확하고 유용합니다. 데이터 수집은 라이브 사이트에서 수행되므로 이 프로세스를 일찍 시작하는 것이 가장 좋습니다.
+_콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리는 시간을 나타냅니다. 권장 사항의 경우, 이는 사이트에 권장 사항 단위를 배포하기 전에 Adobe AI가 충분한 데이터를 수집하여 머신 러닝 모델을 교육할 때까지 기다린다는 것을 의미합니다. 모델에 데이터가 많을수록 권장 사항이 더 정확하고 유용합니다. 데이터 수집은 라이브 사이트에서 수행되므로 이 프로세스를 일찍 시작하는 것이 가장 좋습니다.
 
 다음 표에서는 각 권장 사항 유형에 대해 충분한 데이터를 수집하는 데 걸리는 시간에 대한 일반적인 지침을 제공합니다.
 
@@ -148,7 +148,7 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 | CTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
 | vCTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-unit-view`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
 
-다음 이벤트는 Recommendations에만 해당되지 않지만 Adobe Sensei에서 쇼핑객 데이터를 올바르게 해석하는 데 필요합니다.
+다음 이벤트는 Recommendations에만 해당되지 않지만, Adobe AI가 쇼핑객 데이터를 올바르게 해석하는 데 필요합니다.
 
 - `view`
 - `add-to-cart`
@@ -174,4 +174,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 ## 지원
 
-데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
+데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.

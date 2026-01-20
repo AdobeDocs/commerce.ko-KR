@@ -2,7 +2,7 @@
 title: 구현 워크플로
 description: 상점 첫 화면에서  [!DNL Product Recommendations] 을(를) 성공적으로 구현하는 단계에 대해 알아봅니다.
 exl-id: 4a784d04-8be6-473f-afb3-264af06c850a
-source-git-commit: a3e19940e2a3d8a240bb17703cfdd9903df311aa
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]은(는) 동작 데이터와 카탈로그 데이터를 모두 사용합니다.
 
-- 행동 - 제품 보기, 장바구니에 추가한 항목 및 구매와 같이, 사이트에 대한 쇼핑객 참여의 데이터. Adobe Commerce 및 Adobe Sensei은 개인 식별 정보를 수집하지 않습니다.
+- 행동 - 제품 보기, 장바구니에 추가한 항목 및 구매와 같이, 사이트에 대한 쇼핑객 참여의 데이터. Adobe Commerce 및 Adobe AI는 개인 식별 정보를 수집하지 않습니다.
 
 - 카탈로그 - 이름, 가격 및 가용성과 같은 제품 메타데이터.
 
-`magento/product-recommendations module`을(를) 설치하면 Adobe Sensei에서 동작 및 카탈로그 데이터를 집계하고 각 권장 사항 유형에 대해 [!DNL Product Recommendations]을(를) 만듭니다. 그런 다음 [!DNL Product Recommendations] 서비스는 이러한 권장 사항을 상점 앞에 배포합니다. 상점에서 제품 권장 사항을 구현하는 데 도움이 되도록 하려면 다음 워크플로를 사용하십시오.
+`magento/product-recommendations module`을(를) 설치하면 Adobe AI가 동작 및 카탈로그 데이터를 집계하고 각 권장 사항 유형에 대해 [!DNL Product Recommendations]을(를) 만듭니다. 그런 다음 [!DNL Product Recommendations] 서비스는 이러한 권장 사항을 상점 앞에 배포합니다. 상점에서 제품 권장 사항을 구현하는 데 도움이 되도록 하려면 다음 워크플로를 사용하십시오.
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 1. **프로덕션에 데이터 수집 배포**
 
-   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe Sensei에서 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](staging-environment.md#fetch-recommendations-from-production-environment-recommended)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
+   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe AI가 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](staging-environment.md#fetch-recommendations-from-production-environment-recommended)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
 
-   프로덕션에 데이터 수집을 배포하려면 [API 키](install-configure.md)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)해야 합니다.
+   프로덕션에 데이터 수집을 배포하려면 [API 키](install-configure.md)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)해야 합니다.
 
    >[!TIP]
    >
@@ -43,7 +43,7 @@ ht-degree: 0%
    >
    > 템플릿을 사용자 정의하여 스타일시트를 지정하고 페이지에서 권장 사항 단위가 나타나는 위치를 덮어쓰는 등의 작업을 수행할 수 있습니다.
 
-   이 단계를 완료하는 방법은 개발자 설명서에서 [사용자 지정](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html?lang=ko)을 참조하십시오.
+   이 단계를 완료하는 방법은 개발자 설명서에서 [사용자 지정](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html)을 참조하십시오.
 
 1. **비프로덕션 환경에서 권장 사항 테스트**
 

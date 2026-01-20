@@ -3,8 +3,8 @@ title: 카테고리 머천다이징
 description: 더 빠른 쇼핑 경험을 위해  [!DNL Live Search] 카테고리 머천다이징을 사용하십시오.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 59aa4ae67a1a8a853b72d78cd65a6cc44a6bc662
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 비디오는 카테고리 머천다이징에 대해 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448858?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424617)
 
 이 기능은 **마케팅** > SEO 및 검색 > **[!DNL Live Search]** > **카테고리 머천다이징**&#x200B;의 관리자에서 액세스할 수 있습니다.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 순위 전략
 * 상속된 순위
 * 마지막으로 업데이트됨
-* 작업
+* 액션
 
 범주별 검색 필드에서 범주나 하위 범주를 검색할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 카테고리 머천다이징에서는 [개별 제품](rules-workspace.md)과(와) 동일한 순위 유형을 사용합니다.
 등급에는 지능과 수동, 이렇게 두 가지 유형이 있습니다.
 
-**지능형 순위**&#x200B;은(는) [Adobe Sensei](https://www.adobe.com/sensei.html)의 상점 행동 데이터 분석을 활용하여 특정 알고리즘으로 선택한 범주 내의 모든 제품을 정렬합니다. 지능형 등급을 선택하면 Adobe Sensei이 지속적으로 기본 데이터를 재분석하므로 제품의 특정 순서는 시간이 지남에 따라 변경될 것으로 예상됩니다. 예를 들어 상위 트렌드 제품은 쇼퍼 환경 설정이 변경될 때 시간이 지남에 따라 자동으로 변경됩니다.
+**지능형 등급**&#x200B;은(는) [Adobe AI](https://business.adobe.com/ai.html)의 상점 행동 데이터 분석을 활용하여 특정 알고리즘을 통해 선택한 범주 내의 모든 제품을 정렬합니다. 지능형 등급을 선택하면 지속적으로 Adobe AI가 기본 데이터를 재분석하므로 시간이 지남에 따라 구체적인 제품 순서가 변경될 것으로 예상됩니다. 예를 들어 상위 트렌드 제품은 쇼퍼 환경 설정이 변경될 때 시간이 지남에 따라 자동으로 변경됩니다.
 지능형 순위 방법은 다음과 같습니다.
 
 * 가장 많이 구매함: 이전 7일 동안 쇼핑객이 구매한 빈도별로 제품을 평가합니다.

@@ -3,7 +3,7 @@ title: 데이터 수집
 description: 이벤트가  [!DNL Product Recommendations]에 대한 데이터를 수집하는 방법을 알아봅니다.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: d770d4d99802f7ecf6e395518dfc9aeaac9aa130
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [[!DNL Product Recommendations]](install-configure.md)을(를) 설치하고 구성할 때 모듈은 동작 데이터 수집을 상점 앞에 배포합니다. 이 메커니즘은 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집하고 [!DNL Product Recommendations]을(를) 실행합니다. 예를 들어 `view` 이벤트는 `Viewed this, viewed that` 권장 사항 유형을 계산하는 데 사용되고 `place-order` 이벤트는 `Bought this, bought that` 권장 사항 유형을 계산하는 데 사용됩니다.
 
-[&#x200B; 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
+[ 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/hipaa-readiness.md#installation) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/overview.md)을 설치한 경우 [!DNL Product Recommendations]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Product Recommendations]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 데이터 유형 및 이벤트
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 - **행동** - 제품 보기, 장바구니에 추가된 항목, 구매 등 사이트에 대한 쇼핑객 참여의 데이터.
 - **카탈로그** - 이름, 가격, 가용성 등의 제품 메타데이터입니다.
 
-`magento/product-recommendations` 모듈을 설치하면 Adobe Sensei에서 동작 및 카탈로그 데이터를 집계하여 각 권장 사항 유형에 대한 제품 권장 사항을 만듭니다. 그런 다음 제품 추천 서비스는 이러한 추천을 권장 제품 _items_&#x200B;을(를) 포함하는 위젯 형태로 상점 앞에 배포합니다.
+`magento/product-recommendations` 모듈을 설치하면 Adobe AI가 동작 및 카탈로그 데이터를 집계하여 각 권장 사항 유형에 대한 제품 권장 사항을 만듭니다. 그런 다음 제품 추천 서비스는 이러한 추천을 권장 제품 _items_&#x200B;을(를) 포함하는 위젯 형태로 상점 앞에 배포합니다.
 
 일부 추천 유형은 구매자의 행동 데이터를 사용하여 머신 러닝 모델을 교육하여 개인화된 추천을 구축합니다. 다른 권장 사항 유형은 카탈로그 데이터만 사용하며 동작 데이터는 사용하지 않습니다. 사이트에서 제품 추천 사용을 빠르게 시작하려면 다음과 같은 카탈로그 전용 추천 유형을 사용할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 행동 데이터를 사용하는 권장 사항 유형은 언제 사용할 수 있습니까? 상황에 따라 다릅니다. 이를 _콜드 스타트_ 문제라고 합니다.
 
-_콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리는 시간을 나타냅니다. 제품 추천의 경우, 이는 Adobe Sensei이 사이트에 추천 단위를 배포하기 전에 머신 러닝 모델을 교육할 충분한 데이터를 수집할 때까지 대기하는 것을 의미합니다. 모델에 데이터가 많을수록 권장 사항이 더 정확하고 유용합니다. 데이터 수집은 라이브 사이트에서 수행되므로 `magento/production-recommendations` 모듈을 설치하고 설정하여 이 프로세스를 일찍 시작하는 것이 좋습니다.
+_콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리는 시간을 나타냅니다. 제품 추천의 경우, 이는 Adobe AI가 사이트에 추천 단위를 배포하기 전에 머신 러닝 모델을 교육할 충분한 데이터를 수집할 때까지 대기하는 것을 의미합니다. 모델에 데이터가 많을수록 권장 사항이 더 정확하고 유용합니다. 데이터 수집은 라이브 사이트에서 수행되므로 `magento/production-recommendations` 모듈을 설치하고 설정하여 이 프로세스를 일찍 시작하는 것이 좋습니다.
 
 다음 표에서는 각 권장 사항 유형에 대해 충분한 데이터를 수집하는 데 걸리는 시간에 대한 일반적인 지침을 제공합니다.
 
@@ -87,4 +87,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=ko)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
