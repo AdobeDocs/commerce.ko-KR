@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 자격 증명 {#apikey}
 
-프로덕션 및 샌드박스 API 키는 [!DNL Commerce]라이선스 소유자[의 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/onboarding) 계정에서 생성됩니다. Commerce 계정은 고유한 [!DNL Commerce] ID(MageID)로 식별됩니다. 판매자 조직의 라이선스 소유자는 계정이 양호한 경우 제품 추천 또는 라이브 검색과 같은 서비스에 대한 API 키를 생성할 수 있습니다.
+프로덕션 및 샌드박스 API 키는 [!DNL Commerce]라이선스 소유자[의 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/onboarding) 계정에서 생성됩니다. Commerce 계정은 고유한 [!DNL Commerce] ID(MageID)로 식별됩니다. 판매자 조직의 라이선스 소유자는 계정이 양호한 경우 제품 추천 또는 라이브 검색과 같은 서비스에 대한 API 키를 생성할 수 있습니다.
 
 라이선스 소유자를 대신하여 프로젝트 및 환경을 관리하는 시스템 통합자 또는 개발 팀과 &quot;필요한 정보&quot;에 따라 키를 공유할 수 있습니다. 라이선스 소유자가 [!DNL Shared Access]을(를) 부여한 개발자는 해당 계정의 [!DNL Switch Accounts] 드롭다운에 판매자의 조직이 있더라도 해당 사용자를 대신하여 키를 생성할 수 없습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ### 프로덕션 및 샌드박스 API 키 생성 {#genapikey}
 
-1. [!DNL Commerce]https://account.magento.com[에서 ](https://account.magento.com/customer/account/login){:target="_blank"} 계정에 로그인합니다.
+1. [!DNL Commerce]https://account.magento.com[에서 &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"} 계정에 로그인합니다.
 
 1. **Magento** 탭에서 사이드바의 **API 포털**&#x200B;을 선택합니다.
 
@@ -116,13 +116,13 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
 >[!NOTE]
 >
-> **[!UICONTROL Commerce Services Connector]** 구성에 [!DNL Commerce] 섹션이 표시되지 않으면 원하는 [!DNL Commerce]서비스[[!DNL Commerce] 에 대한 ](#availableservices) 모듈을 설치해야 합니다.
+> **[!UICONTROL Commerce Services Connector]** 구성에 [!DNL Commerce] 섹션이 표시되지 않으면 원하는 [!DNL Commerce]서비스[[!DNL Commerce] 에 대한 &#x200B;](#availableservices) 모듈을 설치해야 합니다.
 
 1. _관리자_ 사이드바에서 **시스템** > 서비스 > **Commerce 서비스 커넥터**(으)로 이동합니다.
 
-   **[!UICONTROL Commerce Services Connector]** 구성에 [!DNL Commerce] 섹션이 표시되지 않으면 원하는 [!DNL Commerce]서비스[[!DNL Commerce] 에 대한 ](#availableservices) 모듈을 설치하십시오. 또한 `magento/module-services-id` 패키지가 설치되어 있는지 확인하십시오.
+   **[!UICONTROL Commerce Services Connector]** 구성에 [!DNL Commerce] 섹션이 표시되지 않으면 원하는 [!DNL Commerce]서비스[[!DNL Commerce] 에 대한 &#x200B;](#availableservices) 모듈을 설치하십시오. 또한 `magento/module-services-id` 패키지가 설치되어 있는지 확인하십시오.
 
-1. _[!UICONTROL Sandbox API Keys]_및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
+1. _[!UICONTROL Sandbox API Keys]_&#x200B;및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
 
    - 비공개 키에는 키 시작 부분의 `----BEGIN PRIVATE KEY---` 및 키 끝 부분의 `----END PRIVATE KEY----`이(가) 포함되어야 합니다.
    - 실제 키의 사본이 없는 경우 계정 소유자에게 요청한 다음 값을 구성에 연결합니다.

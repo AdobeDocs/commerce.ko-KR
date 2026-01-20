@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [[!DNL Product Recommendations]](install-configure.md)을(를) 설치하고 구성할 때 모듈은 동작 데이터 수집을 상점 앞에 배포합니다. 이 메커니즘은 쇼핑객으로부터 익명으로 처리된 행동 데이터를 수집하고 [!DNL Product Recommendations]을(를) 실행합니다. 예를 들어 `view` 이벤트는 `Viewed this, viewed that` 권장 사항 유형을 계산하는 데 사용되고 `place-order` 이벤트는 `Bought this, bought that` 권장 사항 유형을 계산하는 데 사용됩니다.
 
-[ 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
+[&#x200B; 이벤트가 수집하는 동작 데이터에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)개발자 설명서[!DNL Product Recommendations]를 참조하세요.
 
 >[!NOTE]
 >
