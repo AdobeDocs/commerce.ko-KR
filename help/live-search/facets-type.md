@@ -14,7 +14,7 @@ ht-degree: 0%
 [!DNL Live Search]은(는) 다양한 패싯 유형을 사용하며 관련성이 있을 때만 *필터* 목록에 표시됩니다. 사용 가능한 패싯 목록은 반환된 제품에 따라 변경됩니다. 다음은 프레젠테이션과 동작에 영향을 주는 특성입니다.
 
 * 고정 패싯 - 가장 일반적으로 사용되는 패싯을 목록의 맨 위에 고정할 수 있습니다. 나머지 패싯은 고정된 패싯 다음에 *정렬 형식* 순서로 나열됩니다.
-* 동적 패싯 - [Adobe AI](https://business.adobe.com/ai.html)가 제품 집합 및 쿼리와 가장 관련이 있는 제품 특성입니다. 이 계산은 전체 카탈로그의 속성 메타데이터를 고려하고 쿼리 시간에 쿼리에 가장 적합한 패싯을 결정합니다.
+* 동적 패싯 - [Adobe AI](https://business.adobe.com/kr/ai.html)가 제품 집합 및 쿼리와 가장 관련이 있는 제품 특성입니다. 이 계산은 전체 카탈로그의 속성 메타데이터를 고려하고 쿼리 시간에 쿼리에 가장 적합한 패싯을 결정합니다.
 
   >[!NOTE]
   >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ### Facet 레이블
 
-[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
+[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
 
 ### 정렬 유형
 
