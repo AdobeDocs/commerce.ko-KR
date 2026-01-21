@@ -2,7 +2,7 @@
 title: 벌크 데이터 마이그레이션 도구
 description: 벌크 데이터 마이그레이션 도구를 사용하여 기존 Adobe Systems Commerce on Cloud 인스턴스 데이터를 마이그레이션하는 [!DNL Adobe Commerce as a Cloud Service] 방법을 알아봅니다.
 feature: Cloud
-badgeSaas: label="SaaS만 해당" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Systems Commerce as a Cloud Service 및 Adobe Systems Commerce Optimizer 프로젝트에만 적용됩니다(Adobe Systems 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만 해당" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Systems Commerce as a Cloud Service 및 Adobe Systems Commerce Optimizer 프로젝트에만 적용됩니다(Adobe Systems 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
