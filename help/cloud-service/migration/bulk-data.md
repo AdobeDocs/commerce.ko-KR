@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 대량 데이터 마이그레이션 도구
 
-대량 데이터 마이그레이션 도구 PaaS에서 SaaS 환경으로 안전하고 효율적인 데이터 마이그레이션을 가능하게 하는 분산 아키텍처를 따릅니다. 이 도구는 솔루션 구현자가 기존 Adobe Systems Commerce on Cloud 인스턴스(PaaS)에서 SaaS로 데이터를 마이그레이션하는 데 [!DNL Adobe Commerce as a Cloud Service] 도움이 됩니다. 마이그레이션 프로세스에 대한 자세한 내용은 마이그레이션 개요를[ 참조하세요](./overview.md).
+대량 데이터 마이그레이션 도구 PaaS에서 SaaS 환경으로 안전하고 효율적인 데이터 마이그레이션을 가능하게 하는 분산 아키텍처를 따릅니다. 이 도구는 솔루션 구현자가 기존 Adobe Systems Commerce on Cloud 인스턴스(PaaS)에서 SaaS로 데이터를 마이그레이션하는 데 [!DNL Adobe Commerce as a Cloud Service] 도움이 됩니다. 마이그레이션 프로세스에 대한 자세한 내용은 마이그레이션 개요를[&#x200B; 참조하세요](./overview.md).
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 0%
       - IMS URL - 기본 URL입니다. 예를 들어, `https://ims-na1.adobelogin.com/`.
       - IMS 조직 ID
 
-   IMS 범위 및 기타 값의 경우 Adobe Systems 개발자 콘솔&#x200B;**에서 프로젝트**&#x200B;내의 자격 증명[ 섹션에서 OAuth 유형을 ](https://developer.adobe.com/console/)선택합니다. 자세한 정보는 추출 도구 중에 포함된 파일에서 확인할 `.example.env` 수 있습니다.
+   IMS 범위 및 기타 값의 경우 Adobe Systems 개발자 콘솔&#x200B;**에서 프로젝트**&#x200B;내의 자격 증명[&#x200B; 섹션에서 OAuth 유형을 &#x200B;](https://developer.adobe.com/console/)선택합니다. 자세한 정보는 추출 도구 중에 포함된 파일에서 확인할 `.example.env` 수 있습니다.
 
 ### 데이터 Extract
 
