@@ -2,11 +2,11 @@
 title: Adobe Commerce Optimizer란?
 description: ' [!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: 8cf3e66641cf4bbc6db1da1dec14f7aaa291d6fe
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer]에 대한 높은 수준의 개요를 보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450470?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## [!DNL Adobe Commerce Optimizer]을(를) 통해 가장 많은 혜택을 누리는 사람
 
@@ -84,6 +84,10 @@ ht-degree: 0%
 - **이전 및 이후 지표** - 상거래 이니셔티브의 성능에 대한 실시간 통찰력을 제공합니다. 특정 KPI의 이전 및 이후 결과를 보고 변경 사항의 영향을 평가하고 더 나은 결과를 위해 최적화할 수 있습니다. PDF에서 결과를 내보낼 수 있습니다.
 - **Edge Delivery에서 제공하는 Commerce storefront** - Edge 배달을 통해 제품 목록 페이지, 제품 세부 사항 페이지, 장바구니 및 체크아웃을 포함하여 통합 상거래 기능을 갖춘 사전 설치된 storefront 구성 요소를 사용하여 사이트를 빠르게 시작할 수 있습니다.
 - **타사 장바구니 및 체크아웃** - API Mesh 및 App Builder를 사용하여 타사 장바구니 및 체크아웃 시스템과 통합합니다.
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce Optimizer] 기능에 대한 시스템 경계 및 라이선스를 이해하려면 [제한 및 경계](boundaries-limits.md) 항목을 참조하십시오.
 
 ## 아키텍처
 
