@@ -5,7 +5,7 @@ feature: Storefront
 role: Developer
 level: Beginner
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 0cd9749574460374a8fe875f1eff54f2a4a8d614
 workflow-type: tm+mt
 source-wordcount: '250'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Storefront]&#x200B;(SaaS)에 대해 [!DNL Edge Delivery Services]에서 제공하는 [!DNL Adobe Commerce as a Cloud Service]을(를) 설정하려면 다음 단계를 완료하십시오.
 
-사용자 지정이 가능하고 자세한 설명은 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)를 참조하세요.
+사용자 지정이 가능하고 자세한 설명은 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)를 참조하세요.
 
 1. [사이트 작성자 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 엽니다.
 
@@ -47,5 +47,5 @@ ht-degree: 0%
 * [Storefront 콘텐츠 업데이트](./use-cases.md#update-storefront-content)—Storefront의 콘텐츠 및 데이터를 관리하고 표시합니다.
 * [상황별 실험](./use-cases.md#contextual-experimentation)—상점에서의 실험을 만들고 관리합니다.
 * [변형 생성](./use-cases.md#generate-variations) - 생성 AI를 사용하여 고품질 콘텐츠 생성을 자동화합니다.
-* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/) - 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 정보를 가져옵니다.
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) - 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 정보를 가져옵니다.
 * [구성 서비스](https://www.aem.live/docs/config-service-setup)—저장소 구성을 `config.json`에서 리디렉션 구성 및 오버레이와 같은 고급 사용 사례를 지원하는 구성 서비스를 사용하도록 마이그레이션하는 방법에 대해 알아봅니다.
