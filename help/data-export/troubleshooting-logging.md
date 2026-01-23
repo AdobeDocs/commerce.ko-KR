@@ -3,7 +3,7 @@ title: 로그 검토 및 문제 해결
 description: 데이터 내보내기 및 saas 내보내기 로그를 사용하여  [!DNL data export] 오류를 해결하는 방법에 대해 알아봅니다.
 feature: Services
 exl-id: d022756f-6e75-4c2a-9601-31958698dc43
-source-git-commit: 22c74c12ddfccdb4e6c4e02c3a15557e1020d5ef
+source-git-commit: a1afed7b635a2b05c5c0e0d1c9bf4a07fc5eef31
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Adobe Commerce 서비스에 대한 예상 데이터가 표시되지 않으면 �
 - **`"processed: 200"`**&#x200B;은(는) 200개 항목이 처리되었음을 나타냅니다.
 - **`"synced: 100"`**&#x200B;은(는) 100개의 항목이 SaaS로 전송되었음을 나타냅니다. `"synced"`은(는) `"processed"`과(와) 같지 않아야 합니다. 예를 들면 다음과 같습니다.
    - **`"synced" < "processed"`**&#x200B;은(는) 피드 테이블이 이전에 동기화된 버전과 비교하여 항목의 변경 사항을 감지하지 못했음을 의미합니다. 이러한 항목은 동기화 작업 중에 무시됩니다.
-   - 동일한 엔터티 id(예: `Product ID`)의 **`"synced" > "processed"`**&#x200B;에 다른 범위의 값이 여러 개 있을 수 있습니다. 예를 들어 하나의 제품을 5개의 웹 사이트에 할당할 수 있습니다. 이 경우 &quot;1개의 처리된&quot; 항목과 &quot;5개의 동기화된&quot; 항목이 있을 수 있습니다.
+   - 동일한 엔터티 id(예: **`"synced" > "processed"`**)의 `Product ID`에 다른 범위의 값이 여러 개 있을 수 있습니다. 예를 들어 하나의 제품을 5개의 웹 사이트에 할당할 수 있습니다. 이 경우 &quot;1개의 처리된&quot; 항목과 &quot;5개의 동기화된&quot; 항목이 있을 수 있습니다.
 
 +++ **예: 가격 피드에 대한 전체 재동기화 로그**
 
@@ -116,7 +116,7 @@ Adobe Commerce 로그를 New Relic에 저장하는 경우 구문 분석 규칙�
 
    - **규칙 구문 분석**
 
-     `\[%{DATA:timestamp}\] report.%{DATA:logLevel} %{GREEDYDATA:feed:json}`
+     `\[%{DATA:timestamp}\] report.%{DATA:logLevel}: %{GREEDYDATA:feed:json}`
 
 이 예에서는 특정 피드 유형, 작업 등을 기준으로 New Relic 로그를 쿼리할 수 있는 규칙을 추가합니다.
 
@@ -129,7 +129,7 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그
 - 데이터 내보내기 오류 로그(`commerce-data-export-errors.log`)는 수집 단계 동안 발생하는 오류를 캡처합니다.
 - SaaS 내보내기 오류 로그(`saas-export-errors.log`)에서 전송 단계 중에 발생하는 오류를 캡처합니다.
 
-구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
+구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
 
 ### 카탈로그 동기화 문제 해결 {#resolvesync}
 
@@ -144,11 +144,11 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그
 
 #### 동기화가 실행되고 있지 않음
 
-동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) 문서를 참조하십시오.
+동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) 문서를 참조하십시오.
 
 #### 동기화 실패
 
-카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 제출하세요.
+카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 제출하세요.
 
 ## 확장된 로깅
 
