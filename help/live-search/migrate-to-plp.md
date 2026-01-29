@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # 검색 어댑터에서 PLP 위젯으로 마이그레이션
 
-검색 어댑터는 [ 4.0.0부터 ](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]이며 보안 업데이트만 받습니다. [PLP(제품 목록 페이지) 위젯](plp-styling.md)은(는) 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 이 안내서는 마이그레이션이 간단한 경우와 추가 작업이 필요한 경우를 이해하는 데 도움이 됩니다.
+검색 어댑터는 [&#x200B; 4.0.0부터 &#x200B;](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]이며 보안 업데이트만 받습니다. [PLP(제품 목록 페이지) 위젯](plp-styling.md)은(는) 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 이 안내서는 마이그레이션이 간단한 경우와 추가 작업이 필요한 경우를 이해하는 데 도움이 됩니다.
 
 ## 사전 요구 사항
 

@@ -54,7 +54,7 @@ PLP 위젯의 기본 기능 외에도 다음과 같은 기능을 포함하도록
 - 다중 언어 지원
 - 가격 슬라이더
 
-위의 기능을 처리하기 위해 PLP 위젯을 사용자 정의하는 방법에 대한 자세한 내용은 다음 `storefront-product-listing-page`repository[의 ](https://github.com/adobe/storefront-product-listing-page/) 추가 정보를 참조하십시오. 이 저장소의 추가 정보는 PLP 위젯을 사용자 정의하고 이러한 사용자 정의를 사이트에 배포하는 방법에 대한 예를 제공합니다.
+위의 기능을 처리하기 위해 PLP 위젯을 사용자 정의하는 방법에 대한 자세한 내용은 다음 `storefront-product-listing-page`repository[의 &#x200B;](https://github.com/adobe/storefront-product-listing-page/) 추가 정보를 참조하십시오. 이 저장소의 추가 정보는 PLP 위젯을 사용자 정의하고 이러한 사용자 정의를 사이트에 배포하는 방법에 대한 예를 제공합니다.
 
 >[!WARNING]
 >

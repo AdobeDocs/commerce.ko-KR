@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 일반
 
-- 검색 어댑터는 [ 4.0.0부터 ](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]됩니다. PLP(제품 목록 페이지) 위젯은 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 검색 어댑터는 보안 관련 업데이트만 받습니다. PLP 위젯으로 마이그레이션하는 방법에 대한 자세한 내용은 [마이그레이션 안내서](migrate-to-plp.md)를 참조하십시오.
-- [이(가) 설치되어 있고 상점 바닥글의 고급 검색 링크가 제거되면 ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search)고급 검색[!DNL Live Search] 모듈이 비활성화됩니다.
-- [ 필드 및 제품 목록 페이지 위젯에서는 ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier)계층 가격 책정[!DNL Live Search]이 지원되지 않습니다.
+- 검색 어댑터는 [&#x200B; 4.0.0부터 &#x200B;](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]됩니다. PLP(제품 목록 페이지) 위젯은 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 검색 어댑터는 보안 관련 업데이트만 받습니다. PLP 위젯으로 마이그레이션하는 방법에 대한 자세한 내용은 [마이그레이션 안내서](migrate-to-plp.md)를 참조하십시오.
+- [이(가) 설치되어 있고 상점 바닥글의 고급 검색 링크가 제거되면 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search)고급 검색[!DNL Live Search] 모듈이 비활성화됩니다.
+- [&#x200B; 필드 및 제품 목록 페이지 위젯에서는 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier)계층 가격 책정[!DNL Live Search]이 지원되지 않습니다.
 - 제품 가격에는 부가가치세(VAT)가 포함되어 있지만 [!DNL Live Search]에서는 VAT를 별도의 값으로 표시할 수 없습니다.
 - 컨텐츠 검색(CMS 페이지 및 블록)은 지원되지 않습니다.
 - 페이지 번호를 지정할 수 있는 최대 결과 수는 10,000개입니다. 카테고리 또는 검색 결과에 많은 수의 제품이 포함되어 있는 경우 쇼핑객이 페이지 매김을 사용할 필요가 없도록 하려면 제품을 필터링할 수 있는 의미 있는 방법을 제공하십시오.
