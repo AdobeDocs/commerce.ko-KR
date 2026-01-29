@@ -319,7 +319,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 
 **옵션 3: GTM을 Adobe Analytics으로 바꾸기**
 
-- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
+- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/kr/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
 - 지침은 고객 엔지니어링 팀에 문의하십시오.
 
 **문의할 사람**: GTM 호환성 업데이트 또는 고객 엔지니어링 지원에 대한 지원 티켓을 제출합니다.
@@ -444,7 +444,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 - 헤드리스 또는 PWA 구현
 - 사용자 지정 이벤트 추적
 
-Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)를 참조하세요.
+Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)를 참조하세요.
 
 ## FAQ
 

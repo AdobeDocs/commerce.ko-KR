@@ -46,4 +46,4 @@ ht-degree: 9%
    - [GraphQL](graphql.md)
    - [설정](settings.md)
 - [개발자 안내서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
