@@ -2,9 +2,9 @@
 title: 제품 목록 페이지 위젯
 description: ' [!DNL Live Search Product Listing Page Widget] 사용 및 스타일링'
 exl-id: 50ba8046-869a-4071-b3a3-a6392544c07b
-source-git-commit: 7684d5cded63f2b0805ee307dff77932607c47eb
+source-git-commit: c0a6f038d2528a67da6f1bb4f5e5bb140afc7dfc
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,14 @@ ht-degree: 0%
 
 새 설치에 대해 [!DNL Live Search] PLP 위젯이 기본적으로 활성화됩니다.
 
-[!DNL Live Search]을(를) 업그레이드하고 있으며 PLP 위젯이 이미 꺼져 있는 경우 그대로 유지됩니다. 켜려면:
+[!DNL Live Search]을(를) 업그레이드하고 있으며 PLP 위젯이 이미 꺼져 있는 경우 그대로 유지됩니다.
+
+>[!NOTE]
+>
+>더 이상 사용되지 않는 검색 어댑터에서 마이그레이션하는 경우 시나리오, 사전 요구 사항 및 단계별 지침에 대한 자세한 지침은 [마이그레이션 안내서](migrate-to-plp.md)를 참조하십시오.
+
+PLP 위젯을 켜려면 다음을 수행합니다.
+
 1. → Adobe Commerce 관리자에서 저장소 설정 → 구성으로 이동합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL Live Search]** > **[!UICONTROL Storefront Features]**&#x200B;을(를) 클릭합니다.
 1. [!UICONTROL Storefront Features] 섹션을 클릭합니다.
@@ -47,7 +54,7 @@ PLP 위젯의 기본 기능 외에도 다음과 같은 기능을 포함하도록
 - 다중 언어 지원
 - 가격 슬라이더
 
-위의 기능을 처리하기 위해 PLP 위젯을 사용자 정의하는 방법에 대한 자세한 내용은 다음 `storefront-product-listing-page`repository[의 &#x200B;](https://github.com/adobe/storefront-product-listing-page/) 추가 정보를 참조하십시오. 이 저장소의 추가 정보는 PLP 위젯을 사용자 정의하고 이러한 사용자 정의를 사이트에 배포하는 방법에 대한 예를 제공합니다.
+위의 기능을 처리하기 위해 PLP 위젯을 사용자 정의하는 방법에 대한 자세한 내용은 다음 `storefront-product-listing-page`repository[의 ](https://github.com/adobe/storefront-product-listing-page/) 추가 정보를 참조하십시오. 이 저장소의 추가 정보는 PLP 위젯을 사용자 정의하고 이러한 사용자 정의를 사이트에 배포하는 방법에 대한 예를 제공합니다.
 
 >[!WARNING]
 >

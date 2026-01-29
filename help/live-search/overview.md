@@ -3,9 +3,9 @@ title: ' [!DNL Live Search]이란?'
 description: Adobe Commerce의 [!DNL Live Search]는 빠르고, 관련성이 높고, 직관적인 검색 경험을 제공합니다.
 recommendations: noCatalog
 exl-id: 15399216-6a96-4d0b-bbc1-293190cb9e14
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: c0a6f038d2528a67da6f1bb4f5e5bb140afc7dfc
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
 
 속도, 관련성 및 사용 편의성에 중점을 둔 [!DNL Live Search]은(는) 쇼핑객과 판매자 모두에게 게임 체인저입니다. 다음 비디오를 시청한 다음 상점 앞에서 [!DNL Live Search]을(를) 간단히 둘러보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452576?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
-Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
+Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
 
 ### 입력할 때 검색
 
-[!DNL Live Search]이(가) 쇼핑객이 [검색](storefront-popover.md) 상자에 쿼리를 입력할 때 [팝오버](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
+[!DNL Live Search]이(가) 쇼핑객이 [검색](storefront-popover.md) 상자에 쿼리를 입력할 때 [팝오버](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
 
 [!DNL Live Search]이(가) 둘 이상의 문자에 대한 &quot;입력한 대로 검색&quot; 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. 쿼리의 문자 수를 구성할 수 없습니다. 팝오버에는 `name`, `sku` 및 `category_ids` 필드가 포함됩니다.
 
@@ -83,7 +83,7 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 - [!DNL Live Search] [팝오버 위젯](storefront-popover.md)은(는) 검색 결과가 포함된 검색 필드 아래에서 열리는 상자입니다.
 - [제품 목록 페이지 위젯](plp-styling.md)(PLP)은 패싯 및 동의어 지원과 함께 검색 가능한 제품 목록 페이지를 제공합니다. 위젯은 라이브 검색 4.0.0+에 설치되고 활성화되며 검색 어댑터를 대체합니다.
-- (**사용하지 않음**) 검색 어댑터는 PLP 위젯의 전조이며 라이브 검색 &lt; 4.0.0과 함께 설치되었습니다. 4.0.0 이전 버전의 라이브 검색 을 사용하는 경우 Commerce에서 업그레이드하여 PLP 위젯 기능과 향후 개선 사항의 이점을 얻을 수 있습니다. 앞으로는 보안 문제를 해결하기 위해 검색 어댑터만 업데이트됩니다.
+- (**사용하지 않음**) 검색 어댑터는 PLP 위젯의 전조이며 라이브 검색 &lt; 4.0.0과 함께 설치되었습니다. 4.0.0 이전 버전의 라이브 검색 을 사용하는 경우 Commerce에서 업그레이드하여 PLP 위젯 기능과 향후 개선 사항의 이점을 얻을 수 있습니다. 앞으로는 보안 문제를 해결하기 위해 검색 어댑터만 업데이트됩니다. PLP 위젯으로 마이그레이션하는 방법에 대한 자세한 내용은 [마이그레이션 안내서](migrate-to-plp.md)를 참조하십시오.
 
 ## [!DNL Live Search] 작업 영역
 
@@ -97,4 +97,4 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 테스트 환경에서 카탈로그 데이터에 대한 검색 쿼리를 90일 연속 제출하지 않으면 카탈로그 데이터가 최대 절전 모드로 설정되고 검색 쿼리에 대해 데이터가 반환되지 않습니다. 프로덕션 환경의 카탈로그 데이터는 이 정책의 영향을 받지 않습니다.
 
-테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
