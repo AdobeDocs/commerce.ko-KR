@@ -1,7 +1,7 @@
 ---
-source-git-commit: e97db43bcd167acc5d537a6c53479923fd761cc9
+source-git-commit: 65313a91d28d199c142e33f9b77b7e59bbb512ac
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## 후크가 수행하는 작업
 
-- **스테이징된 이미지 파일 자동 감지**(PNG, JPG, JPEG, GIF, SVG)
+- **스테이징된 이미지 파일(PNG, JPG, JPEG, GIF)**&#x200B;개 자동 감지
 - **`image_optim`**&#x200B;을(를) 실행하여 이미지 압축 및 최적화
 - **최적화된 이미지 다시 스테이징** 자동
 - **커밋된 모든 이미지가 올바르게 최적화되었는지 확인**
@@ -85,11 +85,11 @@ Image optimization complete!
 ## 이미지 지침
 
 - **PNG**: 스크린샷 및 UI 요소에 사용합니다(자동으로 최적화됨).
-- **SVG**: 아이콘 및 간단한 그래픽에 사용(기본적으로 최적화는 비활성화됨)
 - **JPEG**: 사진에 사용(자동으로 최적화됨)
 - **GIF**: 애니메이션에 사용(자동으로 최적화됨)
+- **SVG**: 아이콘 및 단순 그래픽(후크에서 처리하지 않음, 그대로 커밋)에 사용합니다.
 
-사전 커밋 후크는 커밋 시 모든 이미지를 자동으로 최적화합니다.
+사전 커밋 후크는 커밋 시 PNG, JPEG 및 GIF 이미지를 자동으로 최적화합니다.
 
 ## 수동 최적화
 
@@ -107,7 +107,7 @@ bundle exec rake images:optimize path=../path/to/images
 - **PNG**: `advpng`, `optipng` 및 `pngquant` 사용
 - **JPEG**: `jhead`, `jpegoptim` 및 `jpegtran` 사용
 - **GIF**: `gifsicle` 사용
-- **SVG**: SVG 최적화는 기본적으로 비활성화되어 있습니다(복잡한 벡터 그래픽과 애니메이션을 나눌 수 있음).
+- **SVG**: 처리되지 않음(벡터 그래픽과 애니메이션을 유지하기 위해 검색에서 제외)
 
 ## 문제 해결
 
@@ -141,7 +141,7 @@ bundle exec rake images:optimize path=../path/to/images
 - **PNG**(`.png`) - 무손실 및 손실 압축
 - **JPEG**(`.jpg`, `.jpeg`) - 메타데이터 정리 시 손실 압축
 - **GIF**(`.gif`) - 애니메이션 및 정적 최적화
-- **SVG**(`.svg`) - 벡터 최적화(기본적으로 비활성화됨)
+- **SVG**(`.svg`) - 후크에서 처리되지 않음(품질을 유지하기 위해 있는 그대로 커밋)
 
 ## 우수 사례
 
