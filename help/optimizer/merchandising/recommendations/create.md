@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 만들기 및 관리
 description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
 source-git-commit: ca0e786da6d23364d27d69ccf0fc5ded1f39f46e
 workflow-type: tm+mt
@@ -65,7 +65,7 @@ _추천 단위_
 
 1. **권장 사항 ID** 섹션에서 ID를 복사합니다.
 
-1. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면에서 [권장 사항 드롭인](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/blocks/product-recommendations/)을 구성하세요.
+1. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면에서 [권장 사항 드롭인](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/blocks/product-recommendations/?lang=ko)을 구성하세요.
 
 ## 기존 권장 사항 관리
 
