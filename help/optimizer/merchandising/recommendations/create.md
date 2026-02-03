@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 만들기 및 관리
 description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: ca0e786da6d23364d27d69ccf0fc5ded1f39f46e
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ _추천 단위_
 
    - 상점 첫 화면에서 추천 단위를 사용하려면 **활성화**&#x200B;하세요.
 
-1. 메시지가 표시되면 권장 사항 ID를 복사합니다. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면의 추천 드롭인에서 사용 중인 추천 단위를 식별합니다.
+   권장 사항이 권장 사항 작업 영역에 표시됩니다. 상점 첫 화면에서 권장 사항을 사용하려면 [권장 사항 ID](#get-recommendation-id)를 찾아야 합니다.
 
 >[!NOTE]
 >
@@ -50,6 +50,22 @@ _추천 단위_
 >[!IMPORTANT]
 >
 >일부 브라우저는 권장 사항이 예상대로 작동하지 않도록 하는 중요한 스크립트를 차단할 수 있습니다.
+
+## 권장 사항 ID 가져오기
+
+권장 사항을 만든 후 상점 첫 화면에서 권장 사항 단위를 구현하려면 해당 ID를 검색해야 합니다.
+
+1. **권장 사항** 페이지에서 권장 사항을 선택합니다.
+
+1. 권장 사항 이름 옆에 있는 정보 아이콘(![정보 아이콘](../../assets/info-icon.png))을 클릭합니다.
+
+   **추천 단위 세부 정보** 페이지가 표시됩니다.
+
+   ![권장 사항 ID 가져오기](../../assets/get-rec-id.png)
+
+1. **권장 사항 ID** 섹션에서 ID를 복사합니다.
+
+1. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면에서 [권장 사항 드롭인](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/blocks/product-recommendations/)을 구성하세요.
 
 ## 기존 권장 사항 관리
 
