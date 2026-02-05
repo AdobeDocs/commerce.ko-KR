@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 최신 기능 및 개
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
 source-git-commit: 454f8f03250691ceb650893bb0b8cfda6e2204c8
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)를 참조하십시오.
+>Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
 ## 2026년 2월 {#latest}
 
@@ -79,28 +79,28 @@ ht-degree: 0%
 
 B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
-* 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
+* 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
 
-   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
-   * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
-   * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
-   * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
-   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
+   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
+   * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
+   * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
+   * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
+   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=ko)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
 
 * B2B Storefront 호환성 패키지를 출시했습니다. 이 패키지는 B2B 시스템의 개발을 개선하는 데 도움이 되도록 [!DNL Adobe Commerce] B2B GraphQL 스키마를 향상시킵니다.
 
 <!-- 
-* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
+* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
 
-* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
+* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/?lang=ko). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
 
 ### 외부 배송 추적기에 대한 클릭 가능한 링크
 
-[사용자 지정 추적 URL을 사용](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls)하여 쇼핑객 전자 메일에 포함된 배송 추적 번호를 일반 텍스트에서 클릭 가능한 링크로 변환합니다. 이 기능은 USPS, UPS, FedEx 및 DHL에서 지원됩니다. <!-- See PR #716 in commerce-admin -->
+[사용자 지정 추적 URL을 사용](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls)하여 쇼핑객 전자 메일에 포함된 배송 추적 번호를 일반 텍스트에서 클릭 가능한 링크로 변환합니다. 이 기능은 USPS, UPS, FedEx 및 DHL에서 지원됩니다. <!-- See PR #716 in commerce-admin -->
 
 ### Google reCAPTCHA Enterprise 지원
 
-[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
+[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
 
 ### 인스턴스별 관리자 액세스
 
@@ -116,7 +116,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 ### 카탈로그 가격 규칙에 대한 계층 가격 책정
 
-이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules)을 사용하여 계층화된 가격 할인과 카탈로그 규칙 할인을 결합할 수 있습니다. 이 향상된 기능을 통해 판촉 할인을 동시에 적용하면서 대량 구매에 대한 보람을 제공하는 보다 역동적이고 경쟁력 있는 가격 전략을 만들 수 있습니다. 따라서 고객을 유치하고 주문 가치를 높이며 전환을 유도하는 유연성이 향상됩니다.<!-- See PR #708 in commerce-admin -->
+이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules)을 사용하여 계층화된 가격 할인과 카탈로그 규칙 할인을 결합할 수 있습니다. 이 향상된 기능을 통해 판촉 할인을 동시에 적용하면서 대량 구매에 대한 보람을 제공하는 보다 역동적이고 경쟁력 있는 가격 전략을 만들 수 있습니다. 따라서 고객을 유치하고 주문 가치를 높이며 전환을 유도하는 유연성이 향상됩니다.<!-- See PR #708 in commerce-admin -->
 
 ### 개선 사항 및 버그 수정
 
@@ -156,6 +156,6 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 #### 사용자 지정 순서 속성
 
-* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
+* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
 
 >[!ENDSHADEBOX]
