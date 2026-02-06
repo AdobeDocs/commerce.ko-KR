@@ -62,10 +62,10 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 1. **[!UICONTROL Asset matching rule]** 드롭다운에서 자산 동기화에 대한 자산 일치 규칙 중 하나를 선택합니다.
 
-   * **[!UICONTROL Match by SKU]**&#x200B;기본 자동 일치[에 대해 ](../synchronize/default-match.md)을(를) 선택하십시오.
-   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 ](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
+   * **[!UICONTROL Match by SKU]**&#x200B;기본 자동 일치[에 대해 &#x200B;](../synchronize/default-match.md)을(를) 선택하십시오.
+   * **[!UICONTROL Custom match]**&#x200B;사용자 지정 자동 일치[에 대해 &#x200B;](../synchronize/custom-match.md)을(를) 선택하십시오([Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) 필요).
 
-1. 기본적으로 [ 필드 ](configure-aem.md#configure-metadata)에 Commerce 제품 SKU에 대해 정의된 **[!UICONTROL Match by product SKU attribute name]** AEM Assets 메타데이터 필드 이름`commerce:skus`을(를) 추가합니다.
+1. 기본적으로 [&#x200B; 필드 &#x200B;](configure-aem.md#configure-metadata)에 Commerce 제품 SKU에 대해 정의된 **[!UICONTROL Match by product SKU attribute name]** AEM Assets 메타데이터 필드 이름`commerce:skus`을(를) 추가합니다.
 
 1. 업데이트를 적용하고 자산 동기화를 시작하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 선택하십시오.
 

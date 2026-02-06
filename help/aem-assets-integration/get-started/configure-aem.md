@@ -16,7 +16,7 @@ AEM Assets을 Commerce용 DAM(디지털 에셋 관리 시스템)으로 사용하
 
 다음 단계를 완료하여 AEM 작성 환경에서 Commerce 에셋을 관리하는 데 필요한 패키지 코드 및 메타데이터로 AEM Assets 프로젝트를 구성합니다.
 
-1. [에 대해 알아보기 ](#aem-commerce-assets-commerce-package-contents)
+1. [에 대해 알아보기 &#x200B;](#aem-commerce-assets-commerce-package-contents)
 
 1. [설치 단계를 완료하여 Commerce 메타데이터를 지원하도록 AEM Assets 프로젝트를 구성합니다](#step-1-install-the-assets-commerce-package)
 
@@ -173,13 +173,13 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 _[!UICONTROL Review Status]_&#x200B;탭의 `Basic` 필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 
 ### Commerce 에셋 소스 폴더에 메타데이터 프로필 적용
 
-1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
+1. [!UICONTROL &#x200B; Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
 
 1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
