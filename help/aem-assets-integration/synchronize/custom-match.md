@@ -3,16 +3,16 @@ title: 사용자 지정 자동 일치
 description: 사용자 지정 자동 일치가 복잡한 일치 논리를 사용하는 판매자나 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에 의존하는 판매자에게 특히 유용한 방법에 대해 알아봅니다.
 feature: CMS, Media, Integration
 exl-id: e7d5fec0-7ec3-45d1-8be3-1beede86c87d
-source-git-commit: ee1dd902a883e5653a9fb8764fac708975c37091
+source-git-commit: dfc4aaf1f780eb4a57aa4b624325fa24e571017d
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 1%
+source-wordcount: '432'
+ht-degree: 0%
 
 ---
 
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
 
 ## 사용자 지정 자동 일치 구성
 
@@ -22,9 +22,99 @@ ht-degree: 1%
 
 1. 이 일치 규칙을 선택하면 관리자가 사용자 지정 일치 논리에 필요한 **인증 매개 변수** 및 **끝점**&#x200B;을 구성하기 위한 추가 필드를 표시합니다.
 
+### workspace.json
+
+**[!UICONTROL Adobe I/O Workspace Configuration]** 필드를 사용하면 App Builder `workspace.json` 구성 파일을 가져와서 사용자 지정 Matcher를 간소화할 수 있습니다.
+
+`workspace.json`Adobe Developer Console[에서 ](https://developer.adobe.com/console) 파일을 다운로드할 수 있습니다. 파일에는 App Builder 작업 공간에 대한 모든 자격 증명과 구성 세부 정보가 포함되어 있습니다.
+
++++예 `workspace.json`
+
+```json
+{
+  "project": {
+    "id": "project_id",
+    "name": "project_name",
+    "title": "title_name",
+    "org": {
+      "id": "id",
+      "name": "Organization_name",
+      "ims_org_id": "ims_id"
+    },
+    "workspace": {
+      "id": "workspace_id",
+      "name": "workspace_name_id",
+      "title": "workspace_title_id",
+      "action_url": "https://action_url.net",
+      "app_url": "https://app_url.net",
+      "details": {
+        "credentials": [
+          {
+            "id": "credential_id",
+            "name": "credential_name_id",
+            "integration_type": "oauth_server_to_server",
+            "oauth_server_to_server": {
+              "client_id": "client_id",
+              "client_secrets": ["secret"],
+              "technical_account_email": "xx@technical_account_email.com",
+              "technical_account_id": "technical_account_id",
+              "scopes": [
+                "AdobeID",
+                "openid",
+                "read_organizations",
+                "additional_info.projectedProductContext",
+                "additional_info.roles",
+                "adobeio_api",
+                "read_client_secret",
+                "manage_client_secrets"
+              ]
+            }
+          }
+        ],
+        "services": [
+          {
+            "code": "AdobeIOManagementAPISDK",
+            "name": "I/O Management API"
+          }
+        ],
+        "runtime": {
+          "namespaces": [
+            {
+              "name": "namespace_name",
+              "auth": "example_auth"
+            }
+          ]
+        },
+        "events": {
+          "registrations": []
+        },
+        "mesh": {}
+      }
+    }
+  }
+}
+```
+
++++
+
+1. App Builder 프로젝트의 `workspace.json` 파일을 **[!UICONTROL Adobe I/O Workspace Configuration]** 필드로 끌어서 놓습니다. 또는 를 클릭하여 파일을 찾아 선택할 수 있습니다.
+
+![Workspace 구성](../assets/workspace-configuration.png){width="600" zoomable="yes"}
+
+1. 시스템은 자동으로 다음을 수행합니다.
+
+   * JSON 구조의 유효성을 검사합니다
+   * OAuth 자격 증명 추출 및 채우기
+   * 작업 공간에 대해 사용 가능한 런타임 작업을 가져옵니다.
+   * **[!UICONTROL Product to Asset URL]** 및 **[!UICONTROL Asset to Product URL]** 필드에 드롭다운 옵션을 채웁니다.
+
+1. 드롭다운 메뉴에서 각 플로우에 대한 적절한 런타임 작업을 선택합니다.
+
+1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
+
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -176,6 +266,6 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 업데이트된 자산 ID를 나타냅니다. |
-| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
+| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
 | `asset_format` | 문자열 | 에셋에 사용할 수 있는 형식을 제공합니다. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 문자열 | 자산의 위치를 표시합니다. |

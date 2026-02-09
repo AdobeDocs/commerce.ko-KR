@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: 36843b05936532860f6a67bd8ab7fcb874d13a8a
+source-git-commit: dfc4aaf1f780eb4a57aa4b624325fa24e571017d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 일반 기능 릴리스 버전 외부에서 릴리스된 기능 변경 및 수정 사항에 대해서는 _호스팅된 서비스 업데이트_ 섹션을 검토하십시오.
 
-예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
+예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
 
 ## 호스팅된 서비스 업데이트
 
@@ -30,13 +30,21 @@ ht-degree: 0%
 
 _2025년 9월 11일_
 
-![새 문제](../assets/new.svg) [사용자 지정 자동 일치](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다.
+![새 문제](../assets/new.svg) [사용자 지정 자동 일치](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다.
 
 _2025년 2월 11일_
 
 ![새 문제](../assets/new.svg) 이제 판매자는 제품 및 범주에 대한 이미지를 동기화할 수 있습니다.
 
 +++
+
+## v1.2.13
+
+_2026년 2월 10일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![새 문제](../assets/new.svg)<!-- Issue ACCS-171 --> **[!UICONTROL Adobe I/O Workspace Configuration]**&#x200B;사용자 지정 일치[ 설정을 간소화하는 ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 필드를 추가했습니다. 이제 판매자는 App Builder `workspace.json` 파일을 업로드하여 OAuth 자격 증명 및 런타임 작업 끝점을 자동으로 채울 수 있습니다.
 
 ## v1.2.12
 
@@ -98,7 +106,7 @@ _2025년 10월 17일_
 
 ![문제가 해결되었습니다](../assets/fix.svg)<!-- Issue ACAP-1155 --> 사용자 지정 특성의 전반적인 안정성이 개선되었습니다. 이제 비동기 API를 사용할 때 사용자 지정 특성이 올바르게 업데이트됩니다.
 
-![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1074 --> 이제 기본 링크 URL이 정의된 경우 [제품-자산 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls#configure-the-base-url){target=_blank}가 실패하지 않습니다.
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1074 --> 이제 기본 링크 URL이 정의된 경우 [제품-자산 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls#configure-the-base-url){target=_blank}가 실패하지 않습니다.
 
 ## v1.2.3
 
@@ -122,9 +130,9 @@ _2025년 8월 7일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-1018 --> 이제 상인은 관리자로부터 Assets 통합을 구성할 때 [시각화 소유자](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization){target=_blank}를 선택하여 이미지 및 미디어 에셋의 소스를 선택할 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1018 --> 이제 상인은 관리자로부터 Assets 통합을 구성할 때 [시각화 소유자](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization){target=_blank}를 선택하여 이미지 및 미디어 에셋의 소스를 선택할 수 있습니다.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-1078 --> [사용자 지정 자동 일치](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다. 이 변경 사항으로 고유한 일치 논리를 구현하여 특정 `productSku`과(와) 연결된 모든 자산을 반환할 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1078 --> [사용자 지정 자동 일치](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다. 이 변경 사항으로 고유한 일치 논리를 구현하여 특정 `productSku`과(와) 연결된 모든 자산을 반환할 수 있습니다.
 
 ## v1.1.2
 
@@ -140,7 +148,7 @@ _2025년 4월 23일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization#optional-configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization#optional-configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
 
 ![문제를 해결했습니다](../assets/fix.svg)<!-- Issue ACAP-987 --> AEM Assets 동기화 프로세스에 대한 전체 로그를 개선했습니다.
 
@@ -150,7 +158,7 @@ _2025년 3월 12일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization)가 필요합니다.
+![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)가 필요합니다.
 
 ## v1.0.20
 
