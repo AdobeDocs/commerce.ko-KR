@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adobe I/O Workspace Configuration]** 필드를 사용하면 App Builder `workspace.json` 구성 파일을 가져와서 사용자 지정 Matcher를 간소화할 수 있습니다.
 
-`workspace.json`Adobe Developer Console[에서 ](https://developer.adobe.com/console) 파일을 다운로드할 수 있습니다. 파일에는 App Builder 작업 공간에 대한 모든 자격 증명과 구성 세부 정보가 포함되어 있습니다.
+`workspace.json`Adobe Developer Console[에서 &#x200B;](https://developer.adobe.com/console) 파일을 다운로드할 수 있습니다. 파일에는 App Builder 작업 공간에 대한 모든 자격 증명과 구성 세부 정보가 포함되어 있습니다.
 
 +++예 `workspace.json`
 
@@ -266,6 +266,6 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 업데이트된 자산 ID를 나타냅니다. |
-| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
+| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
 | `asset_format` | 문자열 | 에셋에 사용할 수 있는 형식을 제공합니다. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 문자열 | 자산의 위치를 표시합니다. |
