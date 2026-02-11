@@ -13,7 +13,7 @@ ht-degree: 11%
 # Commerce용 [!DNL Product Recommendations] {#product-recommendations}
 
 - [안내서 개요](guide-overview.md)
-- [ [!DNL Product Recommendations] 소개](overview.md)
+- [&#x200B; [!DNL Product Recommendations] 소개](overview.md)
 - [릴리스 정보](release-notes.md)
 - [경계 및 제한](boundaries-limits.md)
 - 시작 {#getting-started}
