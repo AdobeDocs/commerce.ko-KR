@@ -17,10 +17,10 @@ ht-degree: 0%
 
 - **제품 유형** - 지원되는 제품 유형은 _단순_, _구성_, _가상_, _다운로드 가능_ 및 _기프트 카드_&#x200B;입니다. _번들_, _그룹화됨_ 및 사용자 지정 제품 유형은 지원되지 않습니다. 카탈로그에 지원되지 않는 제품 유형이 많이 포함된 경우 낮은 [준비 점수](create.md#readiness-indicators)를 기대할 수 있습니다. [제품 유형별 필터링](filters.md#type)을 참조하세요.
 - 공백이 있는 **SKU** - 공백이 포함된 SKU는 권장 사항 관련성을 줄일 수 있으므로 가능한 한 피해야 합니다.
-- **장바구니 페이지** - 장바구니에 제품을 추가한 후 바로 장바구니 페이지를 표시하도록 스토어가 [구성되어 있으면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration). [권장 사항 만들기](create.md)를 참조하세요.
+- **장바구니 페이지** - 장바구니에 제품을 추가한 후 바로 장바구니 페이지를 표시하도록 스토어가 [구성되어 있으면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration). [권장 사항 만들기](create.md)를 참조하세요.
 - **하위 제품** - 구성 가능한 제품의 하위 제품(가시성 _개별적으로 표시되지 않음_)이 권장 단위에 표시되지 않습니다. 구성 가능한 (상위) 제품만 나타날 수 있습니다. [제품 필터링](filters.md#product)을 참조하세요.
 - **비활성화되거나 개별적으로 표시되지 않는 제품** - 비활성화되거나 개별적으로 표시되지 않는 제품은 권장 사항에 표시할 수 없으며 제품 필터에서 선택할 수 없습니다.
-- 시작 날짜와 종료 날짜가 포함된 **특별 가격** - [특별 가격](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-special)은(는) 추천 단위에서 지원되지 않습니다. 특별 가격이 있는 제품은 권장 사항에 표시될 수 있지만 단위에 특별 가격, 시작 날짜 또는 종료 날짜가 표시되지 않습니다. 구매자는 제품 페이지를 열 때까지 일반 가격(또는 카탈로그/가격 피드에서 제공한 기타 가격 데이터)을 확인합니다.
+- 시작 날짜와 종료 날짜가 포함된 **특별 가격** - [특별 가격](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-special)은(는) 추천 단위에서 지원되지 않습니다. 특별 가격이 있는 제품은 권장 사항에 표시될 수 있지만 단위에 특별 가격, 시작 날짜 또는 종료 날짜가 표시되지 않습니다. 구매자는 제품 페이지를 열 때까지 일반 가격(또는 카탈로그/가격 피드에서 제공한 기타 가격 데이터)을 확인합니다.
 
 ## 추천 단위
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
 ## 문제 해결
 
-카탈로그 동기화에 대한 도움말, 표시되지 않는 권장 사항 또는 기타 일반적인 문제를 보려면 [Commerce 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)를 검색하거나 [지원](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하세요.
+카탈로그 동기화에 대한 도움말, 표시되지 않는 권장 사항 또는 기타 일반적인 문제를 보려면 [Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)를 검색하거나 [지원](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하세요.
