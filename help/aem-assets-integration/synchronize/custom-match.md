@@ -3,16 +3,16 @@ title: 사용자 지정 자동 일치
 description: 사용자 지정 자동 일치가 복잡한 일치 논리를 사용하는 판매자나 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에 의존하는 판매자에게 특히 유용한 방법에 대해 알아봅니다.
 feature: CMS, Media, Integration
 exl-id: e7d5fec0-7ec3-45d1-8be3-1beede86c87d
-source-git-commit: dfc4aaf1f780eb4a57aa4b624325fa24e571017d
+source-git-commit: 6e8d266aeaec4d47b82b0779dfc3786ccaa7d83a
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
 
 ## 사용자 지정 자동 일치 구성
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adobe I/O Workspace Configuration]** 필드를 사용하면 App Builder `workspace.json` 구성 파일을 가져와서 사용자 지정 Matcher를 간소화할 수 있습니다.
 
-`workspace.json`Adobe Developer Console[에서 &#x200B;](https://developer.adobe.com/console) 파일을 다운로드할 수 있습니다. 파일에는 App Builder 작업 공간에 대한 모든 자격 증명과 구성 세부 정보가 포함되어 있습니다.
+`workspace.json`Adobe Developer Console[에서 ](https://developer.adobe.com/console) 파일을 다운로드할 수 있습니다. 파일에는 App Builder 작업 공간에 대한 모든 자격 증명과 구성 세부 정보가 포함되어 있습니다.
 
 +++예 `workspace.json`
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 #### 사용 예
 
-```bash
+```javascript
 const { Core } = require('@adobe/aio-sdk')
 
 async function main(params) {
@@ -140,8 +140,11 @@ async function main(params) {
     // ...
     // End of your matching logic
 
+    // Set skip to true if the mapping hasn't changed
+    const skipSync = false;
+
     return {
-        statusCode: 500,
+        statusCode: 200,
         body: {
             asset_id: params.assetId,
             product_matches: [
@@ -150,7 +153,8 @@ async function main(params) {
                     asset_roles: ["thumbnail", "image", "swatch_image", "small_image"],
                     asset_position: 1
                 }
-            ]
+            ],
+            skip: skipSync
         }
     };
 }
@@ -160,7 +164,7 @@ exports.main = main;
 
 **요청**
 
-```bash
+```text
 POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-product
 ```
 
@@ -171,21 +175,28 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-
 
 **응답**
 
-```bash
+```json
 {
   "asset_id": "{ASSET_ID}",
   "product_matches": [
     {
       "product_sku": "{PRODUCT_SKU_1}",
-      "asset_roles": ["thumbnail","image"]
+      "asset_roles": ["thumbnail", "image"]
     },
     {
       "product_sku": "{PRODUCT_SKU_2}",
       "asset_roles": ["thumbnail"]
     }
-  ]
+  ],
+  "skip": false
 }
 ```
+
+| 매개 변수 | 데이터 유형 | 설명 |
+| --- | --- | --- |
+| `asset_id` | 문자열 | 일치하는 자산 ID입니다. |
+| `product_matches` | 배열 | 자산과 연결된 제품 목록입니다. |
+| `skip` | 부울 | (선택 사항) `true`일 때 규칙 엔진은 이 자산에 대한 동기화를 건너뜁니다(제품 매핑 업데이트 없음). `false`을(를) 생략하면 일반 처리가 실행됩니다. [동기화 처리 건너뛰기](#skip-sync-processing)를 참조하십시오. |
 
 ### App Builder 제품-에셋 URL 끝점
 
@@ -193,7 +204,7 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-
 
 #### 사용 예
 
-```bash
+```javascript
 const { Core } = require('@adobe/aio-sdk')
 
 async function main(params) {
@@ -204,8 +215,11 @@ async function main(params) {
     // ...
     // End of your matching logic
 
+    // Set skip to true if the mapping hasn't changed
+    const skipSync = false;
+
     return {
-        statusCode: 500,
+        statusCode: 200,
         body: {
             product_sku: params.productSku,
             asset_matches: [
@@ -215,7 +229,8 @@ async function main(params) {
                     asset_format: "image", // can be "image" or "video"
                     asset_position: 1
                 }
-            ]
+            ],
+            skip: skipSync
         }
     };
 }
@@ -225,7 +240,7 @@ exports.main = main;
 
 **요청**
 
-```bash
+```text
 POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-to-asset
 ```
 
@@ -236,36 +251,44 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 
 **응답**
 
-```bash
+```json
 {
   "product_sku": "{PRODUCT_SKU}",
   "asset_matches": [
     {
       "asset_id": "{ASSET_ID_1}",
-      "asset_roles": ["thumbnail","image"],
+      "asset_roles": ["thumbnail", "image"],
       "asset_position": 1,
-      "asset_format": image
+      "asset_format": "image"
     },
     {
       "asset_id": "{ASSET_ID_2}",
-      "asset_roles": ["thumbnail"]
+      "asset_roles": ["thumbnail"],
       "asset_position": 2,
-      "asset_format": image     
+      "asset_format": "image"
     }
-  ]
+  ],
+  "skip": false
 }
 ```
 
 | 매개 변수 | 데이터 유형 | 설명 |
 | --- | --- | --- |
-| `productSKU` | 문자열 | 업데이트된 제품 SKU를 나타냅니다. |
-| `asset_matches` | 문자열 | 특정 제품 SKU와 연결된 모든 자산을 반환합니다. |
+| `product_sku` | 문자열 | 일치하는 제품 SKU입니다. |
+| `asset_matches` | 배열 | 제품과 연계된 자산 목록. |
+| `skip` | 부울 | (선택 사항) `true`일 때 규칙 엔진은 이 제품에 대한 동기화를 건너뜁니다(자산 매핑 업데이트 없음). `false`을(를) 생략하면 일반 처리가 실행됩니다. [동기화 처리 건너뛰기](#skip-sync-processing)를 참조하십시오. |
 
 `asset_matches` 매개 변수에는 다음 특성이 포함되어 있습니다.
 
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
-| `asset_id` | 문자열 | 업데이트된 자산 ID를 나타냅니다. |
-| `asset_roles` | 문자열 | 사용 가능한 모든 자산 역할을 반환합니다. [, &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
-| `asset_format` | 문자열 | 에셋에 사용할 수 있는 형식을 제공합니다. 가능한 값은 `image` 및 `video`입니다. |
-| `asset_position` | 문자열 | 자산의 위치를 표시합니다. |
+| `asset_id` | 문자열 | 에셋 ID입니다. |
+| `asset_roles` | 배열 | 자산 역할. [, ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles), `thumbnail` 및 `image`과(와) 같이 지원되는 `small_image`Commerce 자산 역할`swatch_image`을(를) 사용합니다. |
+| `asset_format` | 문자열 | 에셋 포맷. 가능한 값은 `image` 및 `video`입니다. |
+| `asset_position` | 숫자 | 제품 갤러리에서 에셋의 위치입니다. |
+
+## 동기화 처리 건너뛰기
+
+`skip` 매개 변수를 사용하면 사용자 지정 선택기가 특정 에셋 또는 제품에 대한 동기화 처리를 우회할 수 있습니다.
+
+App Builder 응용 프로그램이 응답에서 `"skip": true`을(를) 반환하면 규칙 엔진은 해당 에셋 또는 제품에 대한 Commerce에 업데이트 또는 제거 API 요청을 보내지 않습니다. 이 최적화는 불필요한 API 호출을 줄이고 성능을 향상시킵니다.
