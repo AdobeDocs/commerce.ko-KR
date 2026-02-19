@@ -60,7 +60,7 @@ _2026년 2월 10일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACCS-171 --> **[!UICONTROL Adobe I/O Workspace Configuration]**&#x200B;사용자 지정 일치[ 설정을 간소화하는 ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 필드를 추가했습니다. 이제 판매자는 App Builder `workspace.json` 파일을 업로드하여 OAuth 자격 증명 및 런타임 작업 끝점을 자동으로 채울 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACCS-171 --> **[!UICONTROL Adobe I/O Workspace Configuration]**&#x200B;사용자 지정 일치[&#x200B; 설정을 간소화하는 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 필드를 추가했습니다. 이제 판매자는 App Builder `workspace.json` 파일을 업로드하여 OAuth 자격 증명 및 런타임 작업 끝점을 자동으로 채울 수 있습니다.
 
 ## v1.2.12
 
