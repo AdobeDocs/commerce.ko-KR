@@ -1,22 +1,22 @@
 ---
-title: 확장을 위한 AI 코딩 도구
-description: Commerce App Builder 확장을 만드는 AI 도구를 사용하는 방법을 알아봅니다.
+title: Adobe Commerce App Builder용 AI 코딩 개발자 도구
+description: Commerce App Builder 애플리케이션을 만드는 데 AI 도구를 사용하는 방법을 알아봅니다.
 feature: App Builder, Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 991a8683b9a333d2699f1ef22f3dc54d7b401573
+source-git-commit: 5d4726f7191f74507524667555ab46838bb2407a
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
 
-# 확장을 위한 AI 코딩 도구
+# Adobe Commerce App Builder용 AI 코딩 개발자 도구
 
-[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션할 때 AI 코딩 도구를 사용하여 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL Adobe Developer App Builder] 확장으로 변환할 수 있습니다. 이러한 도구를 사용하여 새 [!DNL App Builder] 확장을 만들 수도 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션할 때 AI 코딩 도구를 사용하여 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL Adobe Developer App Builder] 응용 프로그램으로 변환할 수 있습니다. 이러한 도구를 사용하여 새 [!DNL App Builder] 응용 프로그램을 만들 수도 있습니다.
 
 AI 코딩 도구는 다음과 같은 이점을 제공합니다.
 
@@ -25,10 +25,26 @@ AI 코딩 도구는 다음과 같은 이점을 제공합니다.
 * **Commerce 관련 기능**: Adobe Commerce App Builder 개발을 위한 특수 도구입니다.
 * **자동화된 워크플로**: 개발 및 배포 프로세스가 간소화되었습니다.
 
+AI 코딩 도구를 설치하면 다음에 액세스할 수 있습니다.
+
+* 규칙 - 애플리케이션 개발을 안내하고 알리기 위해 설계된 Adobe Commerce 및 App Builder 관련 규칙 세트입니다.
+* 개발자 MCP 서버
+* App Builder 서버
+
+## 최신 버전으로 업데이트 중
+
+[AI 코딩 개발자 도구를 설치](#installation)한 후 다음 명령을 실행하여 최신 버전으로 업데이트할 수 있습니다.
+
+```bash
+aio commerce extensibility tools-setup
+```
+
+이렇게 하면 도구가 최신 버전으로 업데이트됩니다.
+
 ## 사전 요구 사항
 
 * 다음 코딩 에이전트 중 하나:
-   * [커서](https://cursor.com/download)&#x200B;(권장)
+   * [커서](https://cursor.com/download)
    * [Github Copilot](https://github.com/features/copilot)
    * [Google Gemini CLI](https://github.com/google-gemini/gemini-cli)
    * [클라우드 코드](https://www.claude.com/product/claude-code)
@@ -84,7 +100,7 @@ AI 코딩 도구는 다음과 같은 이점을 제공합니다.
   New directory
 ```
 
-Adobe 코딩 에이전트를 선택할 때는 최상의 개발 환경을 위해 `Cursor`을(를) 선택하는 것이 좋습니다.
+선호하는 코딩 에이전트를 선택합니다.
 
 ```shell-session
 ? Which coding agent would you like to use?
@@ -221,10 +237,10 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 ## 샘플 프롬프트
 
-다음 샘플 프롬프트는 주문이 있을 때 알림을 전송하는 확장을 만듭니다.
+다음 샘플 프롬프트는 주문이 있을 때 알림을 전송하는 애플리케이션을 만듭니다.
 
 ```shell-session
-Implement an Adobe Commerce SaaS extension that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
+Implement an Adobe Commerce SaaS application that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
 
 Order ID -> orderID
 Order Total -> total
@@ -281,14 +297,14 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
 
 * **입증된 패턴**: 시작 키트는 Adobe의 모범 사례 및 아키텍처 결정을 구현합니다.
 * **개발 속도 향상**: 보일러판 및 구성에 소요되는 시간 단축
-* **일관성**: 확장이 설정된 규칙을 따르는지 확인합니다.
+* **일관성**: 응용 프로그램이 설정된 규칙을 따르는지 확인합니다.
 * **유지 관리**: 표준 패턴을 따르는 경우 유지 관리 및 업데이트가 더 쉬워집니다
 * **설명서**: 시작 키트에 예제와 설명서가 함께 제공됩니다
 * **커뮤니티 지원**: 표준 접근 방식을 사용할 때 보다 쉽게 도움말을 확인할 수 있습니다.
@@ -297,7 +313,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 ### 프로토콜
 
-다음 4상 프로토콜은 규칙 시스템에 의해 자동으로 시행된다. 확장을 개발할 때 도구는 이 프로토콜을 자동으로 따라야 합니다.
+다음 4상 프로토콜은 규칙 시스템에 의해 자동으로 시행된다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따라야 합니다.
 
 * 1단계: 요구 사항 분석 및 설명
    * 질문을 명확히 하는 경우 완전한 답변을 제공합니다.
@@ -314,7 +330,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 Create a detailed implementation plan for this complex development.
 ```
 
-복잡한 Adobe Commerce 확장에는 다음과 같은 사항이 자주 포함됩니다.
+복잡한 Adobe Commerce 애플리케이션에는 다음과 같은 것들이 종종 포함됩니다.
 
 * 여러 런타임 작업
 * 여러 터치포인트에서 이벤트 구성
@@ -529,3 +545,31 @@ AI 코딩 도구를 사용할 때 다음과 같은 안티 패턴을 사용하지
 * **근본 원인 분석 없이 복잡성을 추가하지 마십시오** - 불필요한 파일 추가에 대해 질문하고 적절한 조사를 요청하십시오.
 * **실제 데이터 테스트 없이 성공을 선언하지 마십시오** - 항상 경계 사례뿐만 아니라 실제 데이터로 테스트하십시오.
 * **런타임 정리를 잊지 마십시오** - 주요 변경 사항 후 항상 분리된 작업을 정리합니다.
+
+## 피드백 제공
+
+AI 코딩 도구에 대한 피드백을 제공하는 데 관심이 있는 개발자는 `/feedback` 명령을 사용할 수 있습니다.
+
+이 명령을 사용하면 텍스트 피드백을 제공하고 로그를 Adobe에 보낼 수 있습니다. 보내는 모든 로그는 개인 또는 개인 정보를 제거하기 위해 정리됩니다.
+
+>[!TIP]
+>
+>사용자 경험은 사용 중인 IDE에 따라 약간 달라집니다. 다음 프로세스에서는 Cursor의 경험을 설명합니다.
+
+1. 에이전트에 `/feedback`을(를) 입력하고 `commerce-extensibility/feedback` 명령을 선택합니다.
+
+1. IDE의 맨 위에 표시되는 **피드백** 필드에 도구 모음에 대한 피드백을 제공하고 **Enter** 키를 누릅니다.
+
+   ![커서 피드백 명령 입력 필드](../assets/feedback-response.png){width="600" zoomable="yes"}
+
+1. **로컬로 저장** 필드에 `yes` 또는 `no`을(를) 입력하고 **Enter**&#x200B;를 눌러 로그의 로컬 복사본을 저장할지 여부를 표시합니다.
+
+   ![커서 피드백 명령 로컬 필드 저장](../assets/feedback-save.png){width="600" zoomable="yes"}
+
+   **예**&#x200B;를 선택한 경우 피드백을 보낸 후 `chats` 폴더의 로그를 검토할 수 있습니다.
+
+1. `commerce-extensibility/feedback` 명령이 에이전트의 채팅 입력 필드에 나타납니다. **Enter**&#x200B;를 누르거나 **보내기**&#x200B;를 클릭하여 Adobe으로 피드백을 보냅니다.
+
+>[!NOTE]
+>
+>`/feedback` 명령이 표시되지 않으면 [최신 버전으로 업데이트](#updating-to-the-latest-version)해야 할 수 있습니다.
