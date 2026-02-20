@@ -4,23 +4,23 @@ user-guide-description: 이 안내서에서는 Adobe Commerce용  [!DNL Data Con
 role: Admin
 feature: Personalization, Integration
 recommendations: noDisplay
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: d079ba51ede5272059fa6ac9d4176d484266ba21
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 60a8e8f5cedff0c6fa56c563807b9604e3ae1d21
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 2%
+source-wordcount: '138'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Commerce용 [!DNL Data Connection] 확장 {#data-connection}
 
-- [안내서 개요](overview.md)
+- [[!DNL Data Connection] 소개](overview.md)
 - [Commerce 서비스에 대한 HIPAA 준비](hipaa-readiness.md)
 - [Commerce Services에서 개인 정보 요청을 처리하는 방법](handle-privacy-request.md)
 - [릴리스 정보](release-notes.md)
 - 기본 사항 {#fundamentals}
-   - [&#x200B; [!DNL Data Connection] 확장 설치](install.md)
+   - [ [!DNL Data Connection] 확장 설치](install.md)
    - [Adobe Experience Platform에 연결](connect-data.md)
    - [Commerce 데이터 유형](data-ingestion.md)
    - [시계열 이벤트 스키마 업데이트](update-xdm.md)
@@ -38,4 +38,4 @@ ht-degree: 2%
 - 사용 사례 {#use-cases}
    - [Adobe Journey Optimizer을 사용하여 포기한 장바구니 이메일 보내기](using-ajo.md)
    - [Commerce 이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기](create-audience.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
