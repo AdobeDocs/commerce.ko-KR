@@ -1,25 +1,19 @@
 ---
-title: 등급 확장 튜토리얼 사전 요구 사항
+title: 자습서 사전 요구 사항
 description: 등급 확장 랩에 대한 사전 요구 사항을 알아봅니다.
 feature: App Builder, Cloud
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4ca909c2f8f95fbc404ce6a745d769958b2c01f4
+source-git-commit: 68e34cecbc1b16194ccc2e0296c2d66f37855b7c
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
-# 등급 확장 튜토리얼 사전 요구 사항(Beta)
+# 자습서 사전 요구 사항
 
->[!NOTE]
->
->이 자습서에서 사용되는 AI 도구는 현재 Beta에 있으며 버그 또는 기타 문제를 포함할 수 있습니다.
-
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[과 같은 &#x200B;](./ratings-extension.md) 튜토리얼에 대한 필수 구성 요소 및 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[ 및 ](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 ](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## Adobe Commerce as a Cloud Service 사전 요구 사항
 
@@ -108,16 +102,27 @@ ht-degree: 0%
 
    ![터미널(Adobe I/O CLI 조직 프로젝트 및 작업 영역 선택 표시](../assets/cli-configuration.png){width="600" zoomable="yes"})
 
-### 통합 시작 키트 복제
+### 시작 키트 복제
 
-Commerce 통합 시작 키트 저장소를 복제하고 프로젝트를 준비합니다.
+빌드하고 있는 확장에 대해 다음 Commerce 스타터 키트 저장소 중 하나를 복제하고 프로젝트를 준비합니다.
+
+통합 시작 키트:
 
 ```bash
 git clone https://github.com/adobe/commerce-integration-starter-kit.git extension
 cd extension
 ```
 
-![Commerce 통합 시작 키트에 대한 git clone 명령을 표시하는 터미널 출력](../assets/clone-starter-kit.png){width="600" zoomable="yes"}
+체크아웃 스타터 키트:
+
+```bash
+git clone https://github.com/adobe/commerce-checkout-starter-kit.git extension
+cd extension
+```
+
+>[!BEGINTABS]
+
+>[!TAB 통합 시작 키트]
 
 ### .env 파일 만들기
 
@@ -189,9 +194,26 @@ aio app use workspace.json -m
 
 ![터미널에서 aio 앱 사용 명령을 사용하여 작업 영역 연결에 성공했음을 보여 줍니다](../assets/connect-workspace.png){width="600" zoomable="yes"}
 
+>[!TAB 체크아웃 시작 키트]
+
+### 로컬 작업 영역을 원격 작업 영역에 연결
+
+로컬 프로젝트를 원격 작업 영역에 연결합니다. 프로젝트 루트(`extension` 폴더)에서 다음을 실행합니다.
+
+```bash
+aio app use --merge
+```
+
+메시지가 표시되면 Adobe I/O CLI를 구성할 때 선택한 조직, 프로젝트 및 작업 영역을 사용하는 옵션을 선택합니다. 이렇게 하면 앱에 작업 영역 구성이 기록되므로 배포 및 로컬 개발에서 해당 작업 영역을 사용할 수 있습니다.
+
+![터미널에서 aio 앱 사용 명령을 사용하여 작업 영역 연결에 성공했음을 보여 줍니다](../assets/connect-workspace.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
 ### 확장성 AI 도구 설치
 
-`commerce-extensibility-tools` 패키지를 포함하도록 Cursor 규칙 파일 및 MCP 구성을 업데이트합니다.
+이 프로세스는 MCP 구성(`.<agent>/mcp.json`), 스킬 디렉터리(`.<agent>/skills/`)를 만들고 프로젝트 루트에 `AGENTS.md`을(를) 추가합니다. 스타터 키트, 코딩 에이전트 및 패키지 관리자를 선택하라는 메시지가 표시됩니다.
+
 
 1. 다음 명령을 사용하여 `extension` 폴더에서 AI 지원 개발 도구를 설정합니다.
 
@@ -204,6 +226,15 @@ aio app use workspace.json -m
    ```
 
    ![AI 확장성 도구 설정 명령 출력을 표시하는 터미널](../assets/install-ai-tools.png){width="600" zoomable="yes"}
+
+1. 설치가 완료되면 코딩 에이전트를 다시 시작하여 새 MCP 도구 및 기술을 로드할 수 있습니다. 이제 사용자 환경에서 Commerce App Builder 도구를 사용할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >Starter Kit에 대한 스킬이 없다는 경고가 표시되면 문제가 발생했습니다. Starter Kit가 복제된 위치가 아닌 폴더에서 설정이 실행되었기 때문일 수 있습니다. `aio commerce extensibility tools-setup` 폴더(시작 키트 프로젝트 루트)에서 `extension`을(를) 실행하고 메시지가 표시되면 적절한 시작 키트를 선택합니다.
+
+   ![AI 확장성 도구를 표시하는 터미널(체크아웃 시작 키트를 선택함)](../assets/tools-setup-checkout.png){width="600" zoomable="yes"}
+
 <!--
 ## Storefront prerequisites
 

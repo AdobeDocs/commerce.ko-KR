@@ -3,10 +3,10 @@ user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: c2d8adefb2d60da5ee251208e2350b6f0c1524b4
+source-git-commit: 52a3e1dcc10f478677764e058ceee494b45dadd4
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -22,14 +22,16 @@ ht-degree: 11%
 - [공동 책임](shared-responsibility.md)
 - 마이그레이션 {#migration}
    - [개요](migration/overview.md)
-   - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
-   - [코딩 툴](migration/coding-tools.md)
+   - 마이그레이션 도구 {#migration-tools}
+      - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
+      - [코딩 툴](migration/coding-tools.md)
    - [설명서 RAG 서비스](migration/doc-rag.md)
 - 튜토리얼 {#tutorials}
-   - [등급 확장 튜토리얼 사전 요구 사항](tutorials/tutorial-prerequisites.md)
+   - [자습서 사전 요구 사항](tutorials/tutorial-prerequisites.md)
    - [등급 확장 튜토리얼](tutorials/ratings-extension.md)
+   - [배송 방법 확장 튜토리얼](tutorials/shipping-method-extension.md)
 - 스키마 {#schemas}
    - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

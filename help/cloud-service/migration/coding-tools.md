@@ -2,14 +2,12 @@
 title: Adobe Commerce App Builder용 AI 코딩 개발자 도구
 description: Commerce App Builder 애플리케이션을 만드는 데 AI 도구를 사용하는 방법을 알아봅니다.
 feature: App Builder, Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 5d4726f7191f74507524667555ab46838bb2407a
+source-git-commit: 4e3f593ead4b0e32bdf474498421b20475dcbe52
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ AI 코딩 도구는 다음과 같은 이점을 제공합니다.
 
 AI 코딩 도구를 설치하면 다음에 액세스할 수 있습니다.
 
-* 규칙 - 애플리케이션 개발을 안내하고 알리기 위해 설계된 Adobe Commerce 및 App Builder 관련 규칙 세트입니다.
+* 스킬 - 애플리케이션 개발을 안내하고 알리도록 설계된 Adobe Commerce 및 App Builder 관련 스킬 세트입니다.
 * 개발자 MCP 서버
 * App Builder 서버
 
@@ -43,11 +41,16 @@ aio commerce extensibility tools-setup
 
 ## 사전 요구 사항
 
-* 다음 코딩 에이전트 중 하나:
+* 다음과 같이 [에이전트 기술](https://agentskills.io/home#adoption)을 지원하는 모든 코딩 에이전트.
+
    * [커서](https://cursor.com/download)
-   * [Github Copilot](https://github.com/features/copilot)
-   * [Google Gemini CLI](https://github.com/google-gemini/gemini-cli)
    * [클라우드 코드](https://www.claude.com/product/claude-code)
+   * [GitHub Copilot](https://github.com/features/copilot)
+   * [Windsurf](https://windsurf.com)
+   * [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+   * [OpenAI 코드](https://openai.com/index/introducing-codex/)
+   * [Cline](https://cline.bot)
+
 * [Node.js](https://nodejs.org/en/download): LTS 버전
 * 패키지 관리자: [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 또는 [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 * [Git](https://github.com/git-guides/install-git): 리포지토리 복제 및 버전 제어용
@@ -74,11 +77,19 @@ aio commerce extensibility tools-setup
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Commerce [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)를 복제합니다.
+1. 다음 중 하나를 복제합니다.
 
-   ```bash
-   git clone git@github.com:adobe/commerce-integration-starter-kit.git
-   ```
+   * Commerce [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration) - 백 오피스 통합 구축용.
+
+     ```bash
+     git clone git@github.com:adobe/commerce-integration-starter-kit.git
+     ```
+
+   * 결제, 배송 및 세금을 포함한 체크아웃 환경을 구축하거나 확장하기 위한 Commerce [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/).
+
+     ```bash
+     git clone git@github.com:adobe/commerce-checkout-starter-kit.git
+     ```
 
 1. Starter Kit 디렉토리로 이동합니다.
 
@@ -92,49 +103,45 @@ aio commerce extensibility tools-setup
    aio commerce extensibility tools-setup
    ```
 
-설정 프로세스에서는 구성 옵션을 묻는 메시지가 표시됩니다. 설치 위치에 대해 &quot;현재 디렉토리&quot;를 선택하여 현재 작업공간에 도구를 설치합니다.
+   설정 프로세스에서는 구성 옵션을 묻는 메시지가 표시됩니다. 화면의 지침에 따라 설치를 완료합니다. 선택한 디렉터리에 도구가 설치됩니다.
 
-```shell-session
-? Where would you like to setup the tools?
-❯ Current directory
-  New directory
-```
+   * 프로젝트에 사용할 스타터 키트를 선택합니다.
 
-선호하는 코딩 에이전트를 선택합니다.
+     ```shell-session
+     ? Which starter kit would you like to use?
+     ❯ Integration starter kit
+        Checkout starter kit
+     ```
 
-```shell-session
-? Which coding agent would you like to use?
-❯ Cursor
-  Copilot
-  Gemini CLI
-  Claude Code
-```
+   * 선호하는 코딩 에이전트를 선택합니다. 40개 이상의 코딩 에이전트가 지원되지만 기본 에이전트가 표시되지 않으면 `Other` 옵션을 사용하여 모든 코딩 에이전트에 기술을 설치할 수 있습니다. 기술을 구성하는 방법에 대한 지침은 코딩 에이전트의 설명서를 참조하십시오.
 
-Adobe 패키지 관리자를 선택할 때는 일관성을 위해 `npm`을(를) 사용하는 것이 좋습니다.
+     ```shell-session
+     ? Which coding agent would you like to install skills for?
+     ❯ Cursor
+        Claude Code
+        GithubCopilot
+        Windsurf
+        Gemini CLI
+        OpenAI Codex
+        Cline
+        ...
+     ```
 
-```shell-session
-? Which package manager would you like to use?
-❯ npm
-  yarn
-```
+   * 설치 프로그램이 NPM 또는 Yarn이 설치되어 있는지 감지하고 자동으로 적절한 선택을 수행합니다. Adobe 패키지 관리자를 설치하지 않은 경우 패키지 관리자를 선택하라는 메시지가 표시됩니다. 일관성을 위해 `npm`을(를) 사용하는 것이 좋습니다.
+
+     ```shell-session
+     ? Which package manager would you like to use?
+     ❯ npm
+        yarn
+     ```
 
 1. 코딩 도구를 성공적으로 설치한 후 설치 프로세스는 다음을 구성합니다.
 
    * Adobe Commerce 개발을 위한 MCP 서버 통합
-   * 향상된 개발 경험을 위한 커서 IDE 규칙
+   * 향상된 개발 환경을 위한 [에이전트 기술](#skills)
    * Commerce 전용 개발 도구 및 워크플로
 
-   다음 파일이 작업 공간에 추가됩니다.
-
-   **커서**
-
-   * MCP 구성: `.cursor/mcp.json`
-   * 규칙 디렉터리: `.cursor/rules/`
-
-   **Copilot**
-
-   * MCP 구성: `.vscode/mcp.json`
-   * 규칙 디렉터리: `.github/copilot-instructions.md`
+   이제 스킬 및 MCP 도구가 설치되었습니다. 기술과 MCP 도구가 보이지 않는다면 코딩 에이전트를 다시 시작하십시오.
 
 >[!NOTE]
 >
@@ -179,7 +186,7 @@ aio auth login
 
 1. Cursor IDE를 다시 시작하여 새 MCP 도구 및 구성을 로드합니다.
 
-1. 규칙이 `.cursor/rules/` 폴더 아래에 있는지 확인하여 설치를 확인합니다.
+1. `.cursor/skills/` 폴더 아래에 스킬이 있는지 확인하여 설치를 확인합니다.
 
 1. MCP 서버 활성화:
 
@@ -198,9 +205,9 @@ aio auth login
 
 1. 다음 프롬프트를 사용하여 에이전트가 MCP 서버를 사용하는지 확인하십시오. 그렇지 않은 경우, 에이전트에게 사용 가능한 MCP 도구를 사용하도록 명시적으로 요청하십시오.
 
-```shell-session
-What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
-```
+   ```shell-session
+   What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
+   ```
 
 ### 부조종사
 
@@ -237,7 +244,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 ## 샘플 프롬프트
 
-다음 샘플 프롬프트는 주문이 있을 때 알림을 전송하는 애플리케이션을 만듭니다.
+다음 샘플 프롬프트는 통합 스타터 키트를 사용하여 주문이 있을 때 알림을 전송하는 애플리케이션을 만듭니다.
 
 ```shell-session
 Implement an Adobe Commerce SaaS application that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
@@ -248,6 +255,19 @@ Customer Email ID -> emailID
 Payment Type -> pType
 ```
 
+다음 샘플 프롬프트는 체크아웃 스타터 키트를 사용하여 사용자 정의 배송 방법을 제공하는 응용 프로그램을 만듭니다.
+
+```shell-session
+Implement an Adobe Commerce SaaS application that provides custom shipping methods.
+The extension should:
+1. Return shipping options based on the destination postal code
+2. If postal code is in California, add an "Express California" option for $15
+3. If postal code is outside US, add an "International Standard" option for $25
+4. The carrier code should be "MYSHIP"
+```
+
+
+
 ## 프롬프트 명령
 
 메시지를 표시하는 것 외에도 `/search-commerce-docs` 명령을 사용하여 에이전트와의 대화에서 설명서를 검색할 수 있습니다. For example:
@@ -256,9 +276,31 @@ Payment Type -> pType
 /search-commerce-docs "How do I subscribe to Commerce events?"
 ```
 
+## 스킬
+
+코딩 에이전트와 채팅하면 스킬이 자동으로 호출되지만 다음 명령을 사용하여 스킬을 수동으로 호출할 수도 있습니다.
+
+* `/architect` - [!DNL App Builder] 및 선택한 시작 키트를 사용하여 Adobe Commerce 확장을 위한 아키텍처를 디자인합니다. 통합 계획, 이벤트 선택, 데이터 흐름 디자인 또는 아키텍처 결정 시 사용합니다.
+* `/developer` - [!DNL App Builder] 패턴과 파일 구조에 따라 Adobe Commerce 확장을 구현합니다. 코드를 생성하거나 구성 파일을 업데이트하거나 런타임 작업을 구현할 때 사용합니다.
+* `/devops-engineer` - [!DNL App Builder] 확장을 배포하고 작동합니다. 애플리케이션 배포, 환경 구성, 배포 문제 해결, CI/CD 설정 또는 온보딩 오류 해결 시 를 사용합니다.
+* `/product-manager` - Adobe Commerce 확장에 대한 요구 사항을 수집하고 문서화합니다. 새 프로젝트를 시작하거나, 허용 기준을 정의하거나, 비즈니스 목표를 명확하게 하거나, `REQUIREMENTS.md` 설명서를 만들 때 사용합니다.
+* `/technical-writer` - [!DNL App Builder] 응용 프로그램에 대한 포괄적인 설명서를 만듭니다. `README.md`, 사용 안내서, API 설명서, 변경 내용 또는 설명서 완결성을 확인할 때 사용합니다.
+* `/tester` - [!DNL App Builder] 응용 프로그램에 대한 포괄적인 테스트를 만듭니다. 단위 테스트, 통합 테스트, 보안 유효성 검사 또는 코드 품질 및 적용 범위를 보장할 때 사용합니다.
+* `/tutor`(실험) - 명확한 설명과 예제를 통해 [!DNL Adobe Commerce] 응용 프로그램 개발 개념을 교육합니다. [!DNL App Builder]을(를) 학습하거나, 이벤트를 이해하거나, 개발 패턴에 대한 지침이 필요한 경우 사용합니다.
+
 ## 우수 사례
 
 Adobe은 AI 코딩 도구를 사용할 때 다음 모범 사례를 권장합니다.
+
+### 플랜 모드
+
+코딩 에이전트와 채팅할 때 **플랜** 모드를 선택하여 프로젝트에 대한 세부 구현 계획을 만들어야 합니다.
+
+**계획** 모드를 선택하는 방법은 사용 중인 에이전트에 따라 다릅니다. 자세한 내용은 에이전트의 설명서를 참조하십시오. For example:
+
+* [커서](https://cursor.com/docs/agent/modes)
+* [클라우드 코드](https://code.claude.com/docs/en/common-workflows#when-to-use-plan-mode)
+* [Gemini CLI](https://geminicli.com/docs/cli/plan-mode/)
 
 ### 체크리스트
 
@@ -296,8 +338,9 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 시작하려면 다음 리소스를 참조하십시오.
 
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [체크아웃 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
@@ -313,7 +356,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 ### 프로토콜
 
-다음 4상 프로토콜은 규칙 시스템에 의해 자동으로 시행된다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따라야 합니다.
+다음 4단계 프로토콜은 설치된 스킬에 의해 자동으로 적용됩니다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따라야 합니다.
 
 * 1단계: 요구 사항 분석 및 설명
    * 질문을 명확히 하는 경우 완전한 답변을 제공합니다.
