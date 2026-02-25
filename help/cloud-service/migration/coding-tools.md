@@ -2,7 +2,7 @@
 title: Adobe Commerce App Builder용 AI 코딩 개발자 도구
 description: Commerce App Builder 애플리케이션을 만드는 데 AI 도구를 사용하는 방법을 알아봅니다.
 feature: App Builder, Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 source-git-commit: 4e3f593ead4b0e32bdf474498421b20475dcbe52
@@ -340,7 +340,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [체크아웃 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 응용 프로그램](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
