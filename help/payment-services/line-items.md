@@ -29,9 +29,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Sales]**(으)로 이동하여 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
 
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Line Items]_ 섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL Line Items]_ 섹션을 확장합니다.
 
 1. **[!UICONTROL Line Items Enabled]**&#x200B;의 경우 `Yes`을(를) 선택하여 활성화하거나(기본값) `No`을(를) 선택하여 라인 항목을 비활성화하십시오.
 
