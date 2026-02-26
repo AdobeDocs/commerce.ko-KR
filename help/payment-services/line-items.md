@@ -4,9 +4,9 @@ description: ' [!DNL Payment Services] 의 라인 항목 및 판매자 대시보
 feature: Payments, Paas, Saas
 role: User
 exl-id: f690ff94-f83d-4525-9d52-1dea25a71060
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 6727102c54e0ac81df289ecd66ec61156662b8b9
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,29 @@ ht-degree: 0%
 
 이 정보는 고객 서비스, 주문 관리 및 적절한 청구에 유용합니다.
 
-이 기능은 [!DNL Payment Services]에 대해 기본적으로 활성화되어 있습니다. 라인 품목을 조회하려면
+## 라인 항목 구성
+
+줄 항목은 [!DNL Payment Services]에 대해 기본적으로 활성화되어 있습니다. 구성하려면:
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+
+1. **[!UICONTROL Sales]**(으)로 이동하여 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
+
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
+
+1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Line Items]_ 섹션을 확장합니다.
+
+1. **[!UICONTROL Line Items Enabled]**&#x200B;의 경우 `Yes`을(를) 선택하여 활성화하거나(기본값) `No`을(를) 선택하여 라인 항목을 비활성화하십시오.
+
+1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
+
+>[!IMPORTANT]
+>
+> 주문에 사용자 지정 수수료(예: 취급 수수료)를 추가하는 타사 확장이 있는 경우 라인 항목을 비활성화해야 할 수 있습니다. [!DNL Payment Services]은(는) 표준 Commerce 주문 구성 요소(항목, 세금, 배송 및 할인)를 기반으로 라인 항목을 계산합니다. [!DNL Payment Services]이(가) 인식하지 못하는 타사 요금은 라인 항목 총계와 주문 총계가 일치하지 않아 체크아웃이 완료되지 않을 수 있습니다.
+
+## 라인 항목 보기
+
+라인 품목을 조회하려면
 
 1. [PayPal 판매자 대시보드](https://www.paypal.com/merchant/){target=_blank}(으)로 이동합니다.
 
@@ -127,7 +149,7 @@ ht-degree: 0%
 
 ## 라인 항목 관리
 
-Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
+Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
 
 > 판매자 대시보드 뷰에 반올림 문제가 있는 라인 항목의 예
 
