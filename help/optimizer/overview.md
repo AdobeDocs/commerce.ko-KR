@@ -2,11 +2,11 @@
 title: Adobe Commerce Optimizer란?
 description: ' [!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: 8cf3e66641cf4bbc6db1da1dec14f7aaa291d6fe
+source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer]에 대한 높은 수준의 개요를 보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450470?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## [!DNL Adobe Commerce Optimizer]을(를) 통해 가장 많은 혜택을 누리는 사람
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 - 기존 백엔드 상거래 시스템을 유지하고 상점 경험만 변형하려는 판매자.
 - 서드파티 시스템에서 장바구니 및 체크아웃 라이프사이클을 관리하는 비즈니스.
-- 타사 상거래 엔진에서 제품 카탈로그를 관리하는 간단한 방법을 원하는 AEM 고객.
+- [AEM 고객](setup/product-visuals.md) 서드파티 상거래 엔진에서 제품 카탈로그를 관리하는 간단한 방법을 찾고 있습니다.
 
 ## 둘러보기
 
@@ -69,6 +69,7 @@ ht-degree: 0%
 카탈로그 보기 및 정책을 정의합니다. 카탈로그에는 제품 데이터가 포함될 뿐만 아니라 비즈니스 구조를 정의하는 데도 도움이 됩니다. 또한 상점에 대한 제품 데이터의 가용성에 대한 중요한 통찰력을 볼 수 있으므로 쇼핑객에게 즉시 표시될 수 있습니다.
 
 - **카탈로그 보기** - 소매 구조를 의미 있는 비즈니스 그룹으로 정의하는 데 도움이 됩니다. 예를 들어 자동차 산업의 딜러, 다중 브랜드 대기업의 자회사 또는 공급업체의 제조 위치가 이에 해당합니다.
+- **카탈로그 계층** - 원본 데이터를 변경하지 않고 제품 데이터를 수정합니다. 제품 이미지에 AEM Assets을 사용하는 경우 [제품 시각화](setup/product-visuals.md)를 통해 AEM-Assets 레이어가 적용됩니다. 자세한 내용은 [카탈로그 계층](setup/catalog-layer.md)을 참조하세요.
 - **정책** - 카탈로그 보기 내에 포함된 데이터 액세스 필터입니다. 정책은 올바른 콘텐츠를 올바른 대상으로 전송하는 데 도움이 됩니다. 예를 들어 실제 매장, 마켓플레이스, 광고 파이프라인(Google, Facebook, Instagram)이 판매됩니다.
 - **데이터 동기화** - 해당 데이터 원본(PIM, ERP 등)에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 전송된 제품 데이터의 동기화 상태에 대한 개요를 표시합니다. 해당 제품 데이터가 **[!UICONTROL Catalog Service]**, **[!UICONTROL Search]** 및 **[!UICONTROL Recommendations]** 탭에 표시됩니다.
 - **이벤트** - 제품 검색 및 권장 사항을 지원하는 상점 이벤트 데이터를 표시합니다. **이벤트** 페이지에서 판매자가 상점 이벤트 구현을 올바르게 했는지, 이벤트를 성공적으로 캡처하고 있는지 확인할 수 있습니다. 판매자는 이 페이지를 사용하여 잠재적인 문제를 식별하고 모든 이벤트 문제를 해결하기 위한 단계를 수행할 수 있습니다.

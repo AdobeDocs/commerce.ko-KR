@@ -3,10 +3,10 @@ title: 카탈로그 계층
 description: 카탈로그 레이어를 통해 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정하여 언제든지 안전하게 사용자 정의하고 변경 사항을 되돌리는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 4a904527af172a5e35b87410135d55484d07ad84
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 1. **필드 처리**—다른 필드 형식이 다르게 처리됩니다.
 
-   - **필드 재정의** - 이름, 설명 및 메타 제목과 같은 텍스트 필드는 레이어에 정의된 값으로 대체되며 우선 순위가 높은 레이어가 우선합니다.
-   - **필드 병합** - 이미지, 링크 및 특성과 같은 배열 필드가 여러 계층에서 결합되어 통합된 응답을 제공합니다.
+   * **필드 재정의** - 이름, 설명 및 메타 제목과 같은 텍스트 필드는 레이어에 정의된 값으로 대체되며 우선 순위가 높은 레이어가 우선합니다.
+   * **필드 병합** - 이미지, 링크 및 특성과 같은 배열 필드가 여러 계층에서 결합되어 통합된 응답을 제공합니다.
 
 1. **우선 순위 확인**—순서 필드에 따라 우선 순위가 결정됩니다. 여러 레이어가 동일한 필드를 수정할 때 순서 번호가 낮은 레이어의 우선순위가 더 높습니다(예: 순서 1이 가장 높음).
 
@@ -36,11 +36,50 @@ ht-degree: 0%
 
 카탈로그 계층은 일반적으로 다음에 사용됩니다.
 
-- **SEO 최적화** - [Sites Optimizer](../manage-results/opportunities.md)의 AI 권장 사항을 기반으로 제품 메타 제목과 설명을 무시합니다.
-- **시즌 캠페인** - 소스 데이터를 변경하지 않고 프로모션용 제품 이름, 설명 또는 이미지를 일시적으로 업데이트합니다.
-- **지역 사용자 지정** - 지리적 위치 또는 언어에 따라 다른 제품 정보를 표시합니다.
-- **A/B 테스트** - 다른 제품 프레젠테이션을 테스트하여 전환율을 최적화합니다.
-- **다중 브랜드 관리** - 다양한 브랜드 카탈로그 보기에 대해 제품 특성을 사용자 지정합니다.
+* **SEO 최적화** - [Sites Optimizer](../manage-results/opportunities.md)의 AI 권장 사항을 기반으로 제품 메타 제목과 설명을 무시합니다.
+* **시즌 캠페인** - 소스 데이터를 변경하지 않고 프로모션용 제품 이름, 설명 또는 이미지를 일시적으로 업데이트합니다.
+* **지역 사용자 지정** - 지리적 위치 또는 언어에 따라 다른 제품 정보를 표시합니다.
+* **A/B 테스트** - 다른 제품 프레젠테이션을 테스트하여 전환율을 최적화합니다.
+* **다중 브랜드 관리** - 다양한 브랜드 카탈로그 보기에 대해 제품 특성을 사용자 지정합니다.
+* **제품 시각화** - 기본 카탈로그 위에 레이어로 AEM Assets의 제품 이미지를 적용합니다.
+
+## AEM-Assets 레이어
+
+[제품 시각화](product-visuals.md)를 사용하도록 설정하면 AEM Assets 통합에서 AEM Assets 콘텐츠 전용 카탈로그 레이어를 자동으로 만들고 관리합니다. 기본 레이어 이름은 `AEM-Assets`이지만 [AEM Assets 통합에서 온보딩](../../aem-assets-integration/get-started/configure-aco.md) 중에 사용자 지정 이름을 지정할 수 있습니다.
+
+이 레이어에는 AEM Assets에서 동기화된 제품 이미지가 포함되어 있습니다. 다른 카탈로그 계층과 마찬가지로 [제품 계층 API](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}를 통해 채워집니다. Assets 통합 서비스는 AEM 에셋 메타데이터와 게재 URL을 API 형식으로 변환하고 AEM Assets에서 에셋이 승인되면 데이터를 자동으로 전송합니다.
+
+통합은 테넌트당 하나의 소스(하나의 로케일 + 하나의 레이어)를 지원합니다.
+
+>[!CAUTION]
+>
+> 카탈로그 보기에 AEM-Assets 레이어를 할당합니다. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
+
+### AEM-Assets 레이어 작동 방식
+
+1. **자동 만들기**: [!DNL Commerce Optimizer] 인스턴스에 대해 AEM Assets 통합이 구성되면 레이어가 만들어집니다.
+
+1. **이미지 동기화**: AEM Assets에서 자산이 승인되면 Assets 통합 서비스는 자산 데이터를 변환하고 제품 계층 API를 통해 `AEM-Assets` 계층을 업데이트합니다.
+
+1. **레이어 할당**: AEM Assets 이미지를 표시할 카탈로그 보기에 `AEM-Assets` 레이어를 할당합니다.
+
+### 카탈로그 보기에 AEM-Assets 레이어 할당
+
+상점에 AEM Assets 이미지를 표시하려면 다음 작업을 수행하십시오.
+
+1. _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
+
+1. 레이어를 적용할 카탈로그 보기를 선택합니다.
+
+1. 카탈로그 레이어 섹션에서 **AEM-Assets** 레이어를 찾습니다.
+
+1. 이 카탈로그 보기에 대해 활성화하려면 레이어를 활성화합니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 변경 내용을 적용합니다.
+
+할당되면 상점 API(카탈로그 서비스, 라이브 검색, 제품 추천 및 상점 GraphQL API)는 기본 카탈로그 이미지와 제품에 대한 AEM Assets 이미지를 모두 반환합니다.
+
+제품 시각적 개체 구성에 대한 자세한 내용은 [AEM Assets을 사용한 제품 시각적 개체](product-visuals.md)를 참조하십시오.
 
 ## 데이터 수집을 통해 카탈로그 레이어 추가
 
@@ -52,8 +91,8 @@ ht-degree: 0%
 
 **필수 구성 요소:**
 
-- 데이터 수집 서비스에 액세스할 권한이 있는 API 자격 증명
-- 기본 카탈로그에 이미 존재하는 제품 SKU
+* 데이터 수집 서비스에 액세스할 권한이 있는 API 자격 증명
+* 기본 카탈로그에 이미 존재하는 제품 SKU
 
 **단계:**
 
@@ -63,7 +102,7 @@ ht-degree: 0%
 
 1. 카탈로그 보기 구성을 확인하여 레이어가 성공적으로 수집되었는지 확인합니다.
 
-자세한 API 사양 및 페이로드 예는 개발자 설명서에서 [제품 계층](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers)을 참조하십시오.
+자세한 API 사양 및 페이로드 예는 개발자 설명서에서 [제품 계층](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}을 참조하십시오.
 
 ## UI에서 수동으로 카탈로그 레이어 추가
 
@@ -91,10 +130,10 @@ ht-degree: 0%
 
 1. 레이어 속성을 구성합니다.
 
-   - **레이어 이름**—레이어 목적을 식별하려면 수사적 이름을 입력하십시오.
-   - **제품**—이 레이어가 적용되는 제품을 선택합니다.
-   - **특성**—수정할 제품 특성(이름, 설명, 이미지, 메타 태그 등)을 선택합니다.
-   - **값**—선택한 각 특성에 새 값을 입력합니다.
+   * **레이어 이름**—레이어 목적을 식별하려면 수사적 이름을 입력하십시오.
+   * **제품**—이 레이어가 적용되는 제품을 선택합니다.
+   * **특성**—수정할 제품 특성(이름, 설명, 이미지, 메타 태그 등)을 선택합니다.
+   * **값**—선택한 각 특성에 새 값을 입력합니다.
 
 1. 레이어를 만들려면 **저장**&#x200B;을 클릭합니다.
 
@@ -134,14 +173,14 @@ ht-degree: 0%
 
 1. 활성화 토글을 클릭하여 레이어를 활성화하거나 비활성화합니다.
 
-   - **활성** - 레이어가 제품 데이터에 적용됩니다.
-   - **비활성** - 레이어가 유지되지만 제품 데이터에는 적용되지 않습니다.
+   * **활성** - 레이어가 제품 데이터에 적용됩니다.
+   * **비활성** - 레이어가 유지되지만 제품 데이터에는 적용되지 않습니다.
 
 1. 변경 사항은 즉시 상점 앞에 적용됩니다.
 
 **레이어를 삭제하려면:**
 
-데이터 수집 API를 사용하여 [카탈로그 계층을 삭제](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers)합니다.
+데이터 수집 API를 사용하여 [카탈로그 계층을 삭제](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers){target=_blank}합니다.
 
 ## 레이어 우선 순위 관리
 
@@ -149,11 +188,11 @@ ht-degree: 0%
 
 **우선 순위 이해:**
 
-- 각 계층에는 주문 번호(1, 2, 3 등)가 지정됩니다.
-- 순서 1은 우선 순위가 가장 높으며 다른 모든 레이어를 무시합니다.
-- 여러 레이어가 동일한 필드를 수정할 때 번호가 낮은 레이어가 우선합니다
-- 우선 순위는 재정의 필드(이름, 설명, 메타 태그)에만 적용됩니다.
-- 필드 병합(이미지, 링크, 속성)은 모든 레이어의 데이터를 결합합니다
+* 각 계층에는 주문 번호(1, 2, 3 등)가 지정됩니다.
+* 순서 1은 우선 순위가 가장 높으며 다른 모든 레이어를 무시합니다.
+* 여러 레이어가 동일한 필드를 수정할 때 번호가 낮은 레이어가 우선합니다
+* 우선 순위는 재정의 필드(이름, 설명, 메타 태그)에만 적용됩니다.
+* 필드 병합(이미지, 링크, 속성)은 모든 레이어의 데이터를 결합합니다
 
 **계층 우선 순위를 다시 정렬하려면:**
 
@@ -177,19 +216,20 @@ ht-degree: 0%
 
 카탈로그 레이어를 사용하여 작업할 때 다음 권장 사항을 따르십시오.
 
-- **설명적인 이름 사용**—레이어 이름을 명확하게 지정하여 용도를 나타내십시오(예: &quot;Holiday 2025 Campaign&quot; 또는 &quot;SEO 최적화 - 제품 페이지&quot;).
+* **설명적인 이름 사용**—레이어 이름을 명확하게 지정하여 용도를 나타내십시오(예: &quot;Holiday 2025 Campaign&quot; 또는 &quot;SEO 최적화 - 제품 페이지&quot;).
 
-- **레이어 제한** - 시스템이 여러 레이어를 지원하지만 너무 많이 사용하면 성능에 영향을 줄 수 있습니다. 가능한 경우 레이어를 통합합니다.
+* **레이어 제한** - 시스템이 여러 레이어를 지원하지만 너무 많이 사용하면 성능에 영향을 줄 수 있습니다. 가능한 경우 레이어를 통합합니다.
 
 <!--- **Test before activating**—Always preview layer effects before activating them on your live storefront. !!!REMOVE IF PREVIEW NOT AVAILABLE FOR GA!!!-->
 
-- **문서 우선 순위 논리** - 의도하지 않은 재정의를 방지하기 위해 우선 순위를 두어야 하는 계층을 추적합니다.
+* **문서 우선 순위 논리** - 의도하지 않은 재정의를 방지하기 위해 우선 순위를 두어야 하는 계층을 추적합니다.
 
-- **Sites Optimizer 레이어 검토** - Sites Optimizer에서 자동 고침을 사용하면 시스템에서 가장 높은 우선 순위의 레이어를 만듭니다. AI 권장 사항을 무시할 수 있는 수동 레이어를 추가할 때는 주의하십시오. [Sites Optimizer](../manage-results/opportunities.md) 사용에 대해 자세히 알아보세요.
+* **Sites Optimizer 레이어 검토** - Sites Optimizer에서 자동 고침을 사용하면 시스템에서 가장 높은 우선 순위의 레이어를 만듭니다. AI 권장 사항을 무시할 수 있는 수동 레이어를 추가할 때는 주의하십시오. [Sites Optimizer](../manage-results/opportunities.md) 사용에 대해 자세히 알아보세요.
 
-- **성능 모니터링**—제품 페이지가 느리게 로드되는 경우 레이어 구성을 검토하고 레이어를 통합하는 것이 좋습니다.
+* **성능 모니터링**—제품 페이지가 느리게 로드되는 경우 레이어 구성을 검토하고 레이어를 통합하는 것이 좋습니다.
 
 ## 다음과 같음
 
-- [카탈로그 보기](catalog-view.md) - 서로 다른 상점에 대한 카탈로그 보기 구성
-- [기회](../manage-results/opportunities.md) - 카탈로그 레이어를 사용한 AI 기반 최적화에 대해 알아봅니다.
+* [카탈로그 보기](catalog-view.md) - 서로 다른 상점에 대한 카탈로그 보기 구성
+* [제품 시각화](product-visuals.md) - 제품 이미지에 AEM Assets 사용
+* [기회](../manage-results/opportunities.md) - 카탈로그 레이어를 사용한 AI 기반 최적화에 대해 알아봅니다.
