@@ -3,7 +3,7 @@ title: AEM Assets을 사용한 제품 시각화
 description: ' [!DNL Adobe Commerce Optimizer]에서 제품 이미지에 AEM Assets을 사용하는 방법에 대해 알아봅니다.'
 feature: CMS, Media, Configuration, Integration
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -56,7 +56,7 @@ AEM Assets의 이미지는 다음 소스 구성을 사용하는 카탈로그 레
 
 ## 설정
 
-통합을 사용하려면 [&#x200B; 및 AEM Assets 세부 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)지원 티켓을 만들기[!DNL Commerce Optimizer]하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
+통합을 사용하려면 [&#x200B; 및 AEM Assets 세부 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)지원 티켓을 만들기[!DNL Commerce Optimizer]하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
 
 온보딩 정보는 [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md)을 참조하십시오.
 
