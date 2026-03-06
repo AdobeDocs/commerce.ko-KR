@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 모범 사례
 description: 사이트의 다양한 페이지에 권장 사항을 배치할 수 있는 위치와 각 권장 사항 유형에 자주 사용되는 레이블에 대한 권장 사항을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 08d7aeff-8b86-4fa3-93e6-4b72dc1ab117
 source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt

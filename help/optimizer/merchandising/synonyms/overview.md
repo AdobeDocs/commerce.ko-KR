@@ -1,7 +1,7 @@
 ---
 title: 동의어 개요
 description: ' [!DNL Adobe Commerce Optimizer] 의 동의어와 검색 결과를 개선하는 방법에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 9efa7b7b-4559-4e23-8858-d2f5da90455b
 source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt

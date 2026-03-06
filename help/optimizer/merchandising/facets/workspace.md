@@ -1,7 +1,7 @@
 ---
 title: 패싯 Workspace
 description: ' [!DNL Adobe Commerce Optimizer]에서 Facet 작업 영역을 사용하는 방법에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: bd977769-6565-48ca-b5aa-963a217df3ea
 source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt

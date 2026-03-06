@@ -15,7 +15,7 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 
 즉시 사용 가능한 이 커넥터는 안정적인 데이터 동기화 기능과 비즈니스 요구 사항에 맞게 워크플로우를 사용자 지정할 수 있는 유연성을 제공합니다.
 
-전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
+전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
 
 ## 주요 기능
 
