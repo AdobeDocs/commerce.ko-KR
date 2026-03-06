@@ -22,7 +22,7 @@ ht-degree: 0%
 
 - **관리자** - 세 가지 유형의 관리자 역할이 있습니다.
    - [시스템 관리자](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Adobe Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
-   - [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 ](#add-users-and-admins)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]할 수 있습니다.
+   - [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 &#x200B;](#add-users-and-admins)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]할 수 있습니다.
    - [제품 프로필 관리자](#add-users-developers-and-product-profile-admins) - 제품 프로필 관리자는 [!DNL Adobe Admin Console]의 제품에 대한 사용자를 관리할 수 있습니다.
 
 ## 제품 관리자 추가

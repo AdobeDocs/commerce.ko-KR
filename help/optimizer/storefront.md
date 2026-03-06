@@ -123,7 +123,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >가격 장부 ID를 찾으려면 [의 ](./setup/catalog-view.md)카탈로그 보기 구성 세부 정보[!DNL Adobe Commerce Optimizer]에서 할당된 가격 장부를 확인하십시오. 가격 장부가 지정되지 않은 경우 구성 파일에서 이 헤더를 제거할 수 있습니다. 가격 장부가 카탈로그 보기에 할당되면 다시 추가합니다.
+   >가격 장부 ID를 찾으려면 [의 &#x200B;](./setup/catalog-view.md)카탈로그 보기 구성 세부 정보[!DNL Adobe Commerce Optimizer]에서 할당된 가격 장부를 확인하십시오. 가격 장부가 지정되지 않은 경우 구성 파일에서 이 헤더를 제거할 수 있습니다. 가격 장부가 카탈로그 보기에 할당되면 다시 추가합니다.
 
 1. 구성 파일을 저장합니다.
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >[ 인스턴스의 ](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
+   >[&#x200B; 인스턴스의 &#x200B;](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
 
 1. **성공 기준**: 페이지가 표시되어야 합니다.
    * 제품 이름, 설명 및 가격

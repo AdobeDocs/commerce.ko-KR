@@ -46,7 +46,7 @@ ht-degree: 0%
 권장 사항을 생성하는 데 필요한 이벤트 데이터가 충분하지 않은 경우 시스템에서 다음을 수행할 수 있습니다.
 
 - 추천 단위에 대해 빈 결과를 반환합니다.
-- 개인화된 권장 사항을 아직 사용할 수 없을 때 [ 제품을 표시하는 것과 같이 ](../../setup/events/overview.md#backup-recommendations)백업 권장 사항`Most viewed`을 트리거합니다.
+- 개인화된 권장 사항을 아직 사용할 수 없을 때 [&#x200B; 제품을 표시하는 것과 같이 &#x200B;](../../setup/events/overview.md#backup-recommendations)백업 권장 사항`Most viewed`을 트리거합니다.
 - 권장 사항 단위에 [구성됨](create.md)보다 적은 수의 제품을 표시하십시오.
 
 ## 개인화됨 {#personalized}

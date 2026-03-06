@@ -56,7 +56,7 @@ AEM Assets의 이미지는 다음 소스 구성을 사용하는 카탈로그 레
 
 ## 설정
 
-통합을 사용하려면 [ 및 AEM Assets 세부 정보를 사용하여 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)지원 티켓을 만들기[!DNL Commerce Optimizer]하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
+통합을 사용하려면 [&#x200B; 및 AEM Assets 세부 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)지원 티켓을 만들기[!DNL Commerce Optimizer]하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
 
 온보딩 정보는 [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md)을 참조하십시오.
 

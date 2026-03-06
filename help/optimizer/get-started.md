@@ -66,7 +66,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] 설정 및 관리는 세 가지 주요 역할에 의존합니다. 각 역할에는 다음과 같은 특정 작업과 책임이 있습니다.
 
-관리자, 개발자 및 사용자 작업을 표시하는 ![ 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
+관리자, 개발자 및 사용자 작업을 표시하는 ![&#x200B; 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
 
 ### 관리자 작업
 
