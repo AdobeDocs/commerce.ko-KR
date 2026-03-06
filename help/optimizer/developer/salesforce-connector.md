@@ -2,24 +2,24 @@
 title: Salesforce Commerce 커넥터
 description: 카탈로그 데이터를 동기화하고 비즈니스 작업을 지원하기 위해 커넥터를 구현하고 사용자 지정하기 위해 Salesforce Commerce B2C를  [!DNL Commerce Optimizer SFCC Connector] 과(와) 통합하는 시작점을 제공하는  [!DNL Adobe Commerce Optimizer] 에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Optimizer용 Salesforce Commerce 커넥터
+# [!DNL Adobe Commerce Optimizer]용 Salesforce Commerce 커넥터
 
 Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Salesforce Commerce Connector]을(를) 통해 Salesforce Commerce Cloud B2C에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 카탈로그 데이터를 원활하게 전송하고 관리할 수 있습니다. 두 플랫폼 간에 브리지를 제공하여 제품 정보, 가격 및 업데이트를 재구성하지 않고 동기화 상태로 유지합니다.
 
 즉시 사용 가능한 이 커넥터는 안정적인 데이터 동기화 기능과 비즈니스 요구 사항에 맞게 워크플로우를 사용자 지정할 수 있는 유연성을 제공합니다.
 
-전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
+전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
 
 ## 주요 기능
 
-* **카탈로그 데이터 동기화:** 상점 및 경험 기반 응용 프로그램을 최신 상태로 유지하기 위해 Salesforce Commerce B2C에서 Adobe Commerce Optimizer으로 제품 데이터(변형, 가격 장부 및 구조 포함)를 푸시합니다.
+* **카탈로그 데이터 동기화:** 상점 및 경험 기반 응용 프로그램을 최신 상태로 유지하기 위해 Salesforce Commerce B2C의 제품 데이터(변형, 가격 장부 및 구조 포함)를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 푸시합니다.
 * **가격 동기화:** Salesforce Commerce B2C에서 직접 가격 데이터를 가져오고 관리합니다.
 * **여러 데이터 형식을 지원합니다.** 제품, 가격 및 카탈로그 구조를 동기화하여 복잡한 머천다이징 구성을 반영합니다.
 
@@ -86,7 +86,7 @@ Salesforce Commerce B2C 현지화 기능 활용:
 
 [!DNL Commerce Optimizer SFCC Connector]은(는) 다음과 같은 몇 가지 주요 구성 요소로 구성됩니다.
 
-* **ACO SFCC 스타터 키트 App Builder 응용 프로그램** - SFCC와 Adobe Commerce Optimizer 간의 데이터 동기화를 처리하는 서버리스 기능을 제공합니다.
+* **ACO SFCC Starter Kit App Builder 응용 프로그램**-SFCC와 [!DNL Adobe Commerce Optimizer] 간의 데이터 동기화를 처리하는 서버리스 함수를 제공합니다.
 * **사용자 지정 SFCC 카트리지** - 데이터 추출에 필요한 API로 Salesforce Commerce Cloud 인스턴스를 확장하는 필수 카트리지.
 * **관리 UI** - 동기화 상태를 모니터링하고 커넥터 작업을 관리하기 위한 웹 인터페이스입니다.
 
@@ -106,7 +106,7 @@ Salesforce Commerce B2C 현지화 기능 활용:
 
 ### 데이터 매핑 및 속성
 
-* **검색 가능한 특성:** Salesforce Commerce B2C는 UI를 통해 API에 표시되지 않는 검색 가능한 특성을 설정합니다. [[!DNL Catalog Data Ingestion metadata APIs]](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata)을(를) 사용하여 Adobe Commerce Optimizer에서 이러한 검색 가능한 특성을 수동으로 구성하십시오.
+* **검색 가능한 특성:** Salesforce Commerce B2C는 UI를 통해 API에 표시되지 않는 검색 가능한 특성을 설정합니다. [[!DNL Catalog Data Ingestion metadata APIs]](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata)을(를) 사용하여 [!DNL Adobe Commerce Optimizer]에서 검색 가능한 특성을 수동으로 구성하십시오.
 * **특성 매핑:** 비즈니스 요구 사항에 따라 [!DNL Commerce Optimizer] 메타데이터에 대한 Salesforce Commerce B2C 제품 특성 매핑을 계획합니다.
 * **기본 검색 가능한 필드:** 커넥터는 기본적으로 코어 특성(`name`, `description`, `ID`)을 자동으로 검색합니다.
 
@@ -127,7 +127,7 @@ Salesforce Commerce B2C 현지화 기능 활용:
 주요 기능은 다음과 같습니다.
 
 * **동기화 상태 추적:** 모든 동기화 작업의 상태 및 타임스탬프를 모니터링합니다.
-* **연결 유효성 검사:** Salesforce Commerce Cloud과 Adobe Commerce Optimizer 모두에 대한 연결을 테스트합니다.
+* **연결 유효성 검사:** Salesforce Commerce Cloud 및 [!DNL Adobe Commerce Optimizer]에 대한 연결을 테스트합니다.
 * **제품 데이터 유효성 검사:** 동기화된 제품 데이터가 상점 앞에 올바르게 표시되는지 확인하십시오.
 * **오류 로깅 및 문제 해결:** 문제 해결을 위한 오류 로그는 App Builder CLI를 통해 액세스할 수 있습니다.
 * **상태 관리:** 동기화 진행 상황을 추적하고 기본 제공 상태 관리와의 충돌을 방지합니다.
@@ -138,10 +138,10 @@ Salesforce Commerce B2C 현지화 기능 활용:
 
 * **[ACO SFCC 시작 키트](https://github.com/adobe-commerce/aco-sfcc-starter-kit)** - 기본 커넥터 응용 프로그램 및 설명서.
 * **[ACO SFCC 카트리지](https://github.com/adobe-commerce/aco-sfcc-cartridges)** - API 통합에 필요한 SFCC 카트리지.
-* **[ACO TypeScript SDK](https://github.com/adobe-commerce/aco-ts-sdk)** - Adobe Commerce Optimizer 통합용 SDK.
+* **[ACO TypeScript SDK](https://github.com/adobe-commerce/aco-ts-sdk)** - [!DNL Adobe Commerce Optimizer] 통합을 위한 SDK.
 
 이러한 저장소는 커넥터를 구현하고 사용자 정의하기 위한 전체 소스 코드, 자세한 설명서 및 예를 제공합니다.
 
 ## 다음 단계
 
-Salesforce Commerce Cloud 데이터를 Adobe Commerce Optimizer과 통합할 준비가 되셨습니까? 먼저 [ACO SFCC 시작 키트 저장소](https://github.com/adobe-commerce/aco-sfcc-starter-kit)에서 자세한 구현 안내서를 검토하고 필요한 필수 구성 요소가 있는지 확인하십시오.
+Salesforce Commerce Cloud 데이터를 [!DNL Adobe Commerce Optimizer]과(와) 통합할 준비가 되셨습니까? 먼저 [ACO SFCC 시작 키트 저장소](https://github.com/adobe-commerce/aco-sfcc-starter-kit)에서 자세한 구현 안내서를 검토하고 필요한 필수 구성 요소가 있는지 확인하십시오.

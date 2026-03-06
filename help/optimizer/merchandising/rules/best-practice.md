@@ -2,11 +2,11 @@
 title: 머천다이징 규칙 모범 사례
 description: 스토어에서 머천다이징 규칙을 구현하기 위한 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cc8d0879-c253-4ad4-8e7d-e066dff9112d
-source-git-commit: f966a3f6f59c28e9f394d5eb7e41aaef1a992fec
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: 성공 지표
 description: 성공 지표는 insight을  [!DNL Adobe Commerce Optimizer] 스토어의 주요 성능 지표에 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7202a531-fec3-4698-89b9-6bdbcc37015e
-source-git-commit: 4e85d70dc1b099a5b40a807a76ca589aa9a28f07
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2594'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ Total Revenue = Sum of (Product Base Price × Quantity) for all completed orders
 
 - 선택한 날짜 범위 동안 완료된 모든 주문.
 - 기본 제품 가격에 구매 수량을 곱한 값입니다.
-- Commerce Optimizer에서 추적한 모든 판매 채널의 매출입니다.
+- [!DNL Adobe Commerce Optimizer]이(가) 추적한 모든 판매 채널의 매출입니다.
 
 **중요 정보:**
 

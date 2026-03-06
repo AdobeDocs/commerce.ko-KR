@@ -2,14 +2,14 @@
 title: Facet 모범 사례
 description: 스토어에서 패싯을 구현하기 위한 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 3131cc27a25d1bf958071b973f1d4bf1a68be152
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: b9da6853-c846-4267-8dee-17abc034ead0
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
-
 
 # Facet 모범 사례
 

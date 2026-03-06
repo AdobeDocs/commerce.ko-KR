@@ -3,11 +3,11 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: 769aafeb261d978623e68c466888924c92632883
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 머천다이징 서비스에 대한 카탈로그 보기
 
-카탈로그 보기는 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성할 수 있도록 하는 Adobe Commerce Optimizer 머천다이징 서비스의 기반입니다. 이 유연한 데이터 모델은 운영 효율성을 유지하면서 다중 브랜드, 다중 비즈니스 단위 및 다국어 시나리오를 지원합니다.
+카탈로그 보기는 [!DNL Adobe Commerce Optimizer] 머천다이징 서비스의 기반이며 이를 통해 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성할 수 있습니다. 이 유연한 데이터 모델은 운영 효율성을 유지하면서 다중 브랜드, 다중 비즈니스 단위 및 다국어 시나리오를 지원합니다.
 
 ## 카탈로그 보기란 무엇입니까?
 
@@ -31,6 +31,16 @@ ht-degree: 0%
 - 판매자 카탈로그 보기에는 특정 판매자가 사용할 수 있는 제품만 표시될 수 있습니다
 - 지역 카탈로그 보기에는 지역 고유의 제품 및 가격이 표시될 수 있습니다
 - 브랜드 카탈로그 보기에는 특정 브랜드의 제품만 표시될 수 있습니다
+
+### 카탈로그 보기 및 카탈로그 소스
+
+다음은 카탈로그 뷰와 카탈로그 소스의 차이점입니다.
+
+- **카탈로그 보기** - 특정 비즈니스 요구에 대해 구성된 카탈로그 보기. 카탈로그 보기를 만들 때 사용할 카탈로그 원본(또는 로케일)을 선택한 다음 [정책](policies.md)을 추가하여 표시되는 제품을 필터링하고 [가격 장부](pricebooks.md)를 연결하여 가격을 제어합니다. 단일 카탈로그 원본이 많은 카탈로그 보기 기능을 제공할 수 있습니다(예: 다른 브랜드 또는 지역에 대해 별도의 카탈로그 보기가 있는 하나의 `en-US` 원본). 카탈로그 보기를 *방법*(으)로 간주하면 해당 데이터를 상점, 채널 또는 대상에 노출할 수 있습니다.
+
+- **카탈로그 원본** - 제품 정보를 제공하는 기본 데이터 컨텍스트입니다. 카탈로그 원본은 일반적으로 로케일(예: `en-US`, `fr-CA`) 또는 PIM 또는 ERP와 같은 외부 시스템입니다. [!DNL Adobe Commerce Optimizer]은(는) 하나 이상의 카탈로그 원본에서 통합 기본 카탈로그로 제품 데이터를 수집합니다. 카탈로그 원본을 원시 카탈로그 데이터의 원본 *위치*(으)로 간주합니다.
+
+요약하면 **카탈로그 원본**&#x200B;은 가져오는 데이터 컨텍스트이고, **카탈로그 보기**&#x200B;은(는) 쇼핑객 또는 채널에게 제공하는 필터링되고, 가격이 책정되고, 구성된 컨텍스트입니다.
 
 ## 카탈로그 보기 만들기
 
@@ -66,6 +76,14 @@ ht-degree: 0%
 카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다&#x200B;.
 
 이러한 단계를 완료하면 이제 선택한 소스 및 정책을 기반으로 제품 및 가격을 표시하도록 카탈로그 보기가 구성됩니다.
+
+### 권장 사항 및 제품 검색 규칙에 대한 카탈로그 보기 지정
+
+>[!IMPORTANT]
+>
+>이 기능은 현재 베타 버전입니다.
+
+[추천 단위를 만들기](../merchandising/recommendations/create.md) 또는 [머천다이징 규칙](../merchandising/rules/add.md)할 때 카탈로그 보기를 지정할 수 있습니다.
 
 ## 카탈로그 레이어
 

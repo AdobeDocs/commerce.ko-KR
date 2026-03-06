@@ -3,11 +3,11 @@ title: 가격 장부
 description: ' [!DNL Adobe Commerce Optimizer]에서 가격 장부를 관리하는 방법을 알아보세요.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: a1849830-3d0e-4df9-ab73-380659c3f9dc
-source-git-commit: 1c720bc3ba755639eff2f17912fb3a3446e367f6
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 기본 가격 장부는 자체 통화 및 모든 하위 가격 장부를 정의합니다. 하위 가격 장부는 이 통화를 상속하며 재정의할 수 없습니다.
 
-## Commerce Optimizer에 가격 장부 추가
+## [!DNL Adobe Commerce Optimizer]에 가격표 추가
 
-Price Book API를 사용하여 Commerce Optimizer에 가격 장부를 추가합니다. [의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
+Price Book API를 사용하여 [!DNL Adobe Commerce Optimizer]에 Price Book을 추가합니다. [의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 ](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
 
-## Commerce Optimizer에서 가격 장부 보기
+## [!DNL Adobe Commerce Optimizer]에서 가격 장부 보기
 
-가격 장부를 Commerce Optimizer으로 수집한 후 **카탈로그 보기** 페이지에서 가격 장부 목록과 해당 ID를 볼 수 있습니다.
+가격표를 [!DNL Adobe Commerce Optimizer]에 수집하면 **카탈로그 보기** 페이지에서 가격표 목록과 해당 ID를 볼 수 있습니다.
 
 1. _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 

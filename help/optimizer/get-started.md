@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: c27b2a8c7dffdcc5d5195cf809d5b475f3e01059
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] 설정 및 관리는 세 가지 주요 역할에 의존합니다. 각 역할에는 다음과 같은 특정 작업과 책임이 있습니다.
 
-![관리자, 개발자 및 사용자 작업을 표시하는 Adobe Commerce Optimizer 설정에 대한 역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
+관리자, 개발자 및 사용자 작업을 표시하는 ![ 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
 
 ### 관리자 작업
 
@@ -105,7 +105,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 >[!NOTE]
 >
->모든 Adobe Commerce Optimizer 사용자가 Cloud Manager에 액세스할 수 있는 것은 아닙니다. 액세스는 사용자 계정에 할당된 역할 및 권한에 따라 다릅니다.
+>모든 [!DNL Adobe Commerce Optimizer]명의 사용자가 Cloud Manager에 액세스할 수 있는 것은 아닙니다. 액세스는 사용자 계정에 할당된 역할 및 권한에 따라 다릅니다.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/)에 로그인합니다.
 
@@ -133,13 +133,13 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
    인스턴스 드롭다운에는 조직에서 사용 가능한 모든 Optimizer 인스턴스가 나열됩니다. 보려는 인스턴스를 선택합니다.
 
-   Adobe Commerce Optimizer 환경 선택을 위한 ![인스턴스 전환기 드롭다운](./assets/context-switcher.png){zoomable="yes"}
+   ![개 환경 선택을 위한 [!DNL Adobe Commerce Optimizer]인스턴스 전환기 드롭다운](./assets/context-switcher.png){zoomable="yes"}
 
 ### 인스턴스 세부 사항 가져오기
 
 인스턴스 이름 옆에 있는 정보 아이콘을 클릭하여 인스턴스 세부 사항을 확인합니다.
 
-끝점 및 인스턴스 ID를 보여 주는 ![Adobe Commerce Optimizer 인스턴스 세부 정보 패널](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
+끝점 및 인스턴스 ID를 표시하는 ![[!DNL Adobe Commerce Optimizer] 인스턴스 세부 정보 패널](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
 
 다음 주요 정보를 참고하십시오.
 
@@ -217,6 +217,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

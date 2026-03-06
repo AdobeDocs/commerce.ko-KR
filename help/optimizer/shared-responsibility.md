@@ -2,10 +2,11 @@
 title: 공동 책임
 description: ' [!DNL Adobe Commerce Optimizer]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 role: Admin, Architect, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 7c407bfc2becfb0ba6babe5958bcb790c178f406
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+exl-id: 9e09790f-832d-43ab-b2df-6389ad52b43d
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -43,12 +44,12 @@ ht-degree: 0%
 | 백엔드 CDN 지원 | RA |  |
 | 백엔드 DNS 공급자 가져오기 | RA | |
 | 프로덕션 및 샌드박스 환경 프로비저닝 | A | R |
-| Adobe Commerce Optimizer용 Dynamics 액세스 | R | C |
+| [!DNL Adobe Commerce Optimizer]용 Dynamics 액세스 | R | C |
 | 백엔드 고객 보안 문제 해결 | RA | I |
 | 백엔드 CDN 보안 문제 해결 | RA | |
 | Adobe의 보안 조사 지원(스캔/감사) | RA | |
 | PCI ASV 스캔 수행 | RA | I |
-| Adobe Commerce Optimizer 인프라 PCI 스캔 수정 | R | |
+| [!DNL Adobe Commerce Optimizer] 인프라 PCI 검사 수정 중 | R | |
 | OS 및 플랫폼 비밀 관리 | RA | |
 | 백엔드 보안 로그 모니터링 | RA | |
 | 고객 지원 및 액세스 제어 | A | R |
@@ -56,5 +57,5 @@ ht-degree: 0%
 | 연간 재해 복구 계획 테스트 및 문서화 | RA | |
 | 디버깅 및 문제 격리 | R | R |
 | 디버깅 및 문제 격리 프로세스를 적시에 지원 | R | R |
-| Adobe Commerce Optimizer에 업데이트 및 패치 설치 | RA | I |
-| 핵심 Adobe Commerce Optimizer 애플리케이션 품질 | RA | |
+| [!DNL Adobe Commerce Optimizer]에 업데이트 및 패치 설치 | RA | I |
+| 핵심 [!DNL Adobe Commerce Optimizer] 응용 프로그램 품질 | RA | |

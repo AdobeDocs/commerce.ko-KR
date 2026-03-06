@@ -1,25 +1,25 @@
 ---
 title: 동의어 만들기 및 관리
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 동의어를 만들고 관리하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d2982a0b-e7df-44e6-b3c9-9b4328635d38
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # 동의어 만들기
 
-[!DNL Adobe Commerce Optimizer] 동의어의 선별된 목록을 추가하여 고객 참여를 늘리십시오. 스토어당 최대 200개의 동의어를 추가할 수 있습니다.
+[!DNL Adobe Commerce Optimizer] 동의어의 선별된 목록을 추가하여 고객 참여를 늘리십시오. 카탈로그 소스당 최대 200개의 동의어를 추가할 수 있습니다.
 
 ![동의어 Workspace](../../assets/synonym-workspace.png)
 
 ## 1단계: 동의어 추가
 
 1. 왼쪽 레일에서 _머천다이징_ > **동의어**(으)로 이동합니다.
-1. **[!UICONTROL Add synonyms]** 단추를 클릭합니다.
+1. **[!UICONTROL Create synonyms]** 단추를 클릭합니다.
 
 ## 2단계: 유형별 동의어 정의
 
@@ -27,31 +27,25 @@ ht-degree: 0%
 
 ### 양방향 동의어
 
-1. 기본 **양방향** 옵션을 사용합니다.
-
-   ![양방향 동의어 추가](../../assets/synonym-add-two-way.png)
-
 1. 일치시킬 **키워드** 용어 또는 구를 입력하십시오.
 1. 키워드에 동의어로 추가할 **Expansion** 용어를 입력하십시오. 쉼표로 여러 용어를 구분하십시오.
 이 예에서 일치시킬 키워드는 &quot;pants&quot;이고 확장 용어 세트는 &quot;bars, slacks&quot;입니다.
 
-   ![양방향 동의어 예제](../../assets/synonym-add-two-way-example.png)
+   ![양방향 동의어](../../assets/synonym-add-two-way.png)
 
 1. 완료되면 **저장**&#x200B;을 클릭하세요.
 
    동의어 집합은 각 용어 사이에 양방향 화살표가 있는 목록에 나타나며, 이 화살표는 각 용어가 상호 교환 가능하다는 것을 의미합니다.
 
-   ![양방향 동의어](../../assets/synonym-two-way.png)
+   ![양방향 동의어 예제](../../assets/synonym-add-two-way-example.png)
 
 ### 단방향 동의어
 
 1. **단방향** 동의어 유형을 클릭합니다.
 
-   ![단방향 동의어 추가](../../assets/synonym-add-one-way.png)
-
 1. **키워드** 및 **확장** 용어를 입력하십시오. 쉼표로 여러 용어를 구분하십시오.
 
-   ![단방향 동의어 예제](../../assets/synonym-add-one-way-example.png)
+   ![단방향 동의어](../../assets/synonym-add-one-way.png)
 
    이 예에서 키워드는 &quot;pants&quot;이고 단방향 확장 용어 &quot;capris, peddle-pushers&quot;는 각각 &quot;pants&quot;의 하위 집합이지만 특정 의미가 있습니다.
 
@@ -59,7 +53,7 @@ ht-degree: 0%
 
    동의어 집합은 확장 용어에서 키워드로 가리키는 단방향 화살표와 함께 목록에 표시되어 용어가 키워드의 하위 집합임을 나타냅니다. 더하기 기호는 각 확장 항을 구분합니다.
 
-   ![단방향 동의어](../../assets/synonym-one-way.png)
+   ![단방향 동의어 예제](../../assets/synonym-add-one-way-example.png)
 
 ## 3단계: 변경 사항 게시
 
@@ -94,7 +88,7 @@ ht-degree: 0%
 
 1. 편집할 동의어를 찾은 다음 **자세히**(...) 옵션을 클릭합니다.
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**을 클릭합니다.
 키워드는 목록의 첫 번째 용어이며 각 용어는 쉼표로 구분됩니다. 키워드 및 확장 용어는 업데이트할 수 있지만 동의어의 유형은 변경할 수 없습니다.
 1. 편집할 항목을 클릭합니다. 그런 다음 필요에 따라 텍스트를 업데이트합니다.
 

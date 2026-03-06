@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 성능
 description: 권장 사항 성능 페이지는 insight에 제품 권장 사항이 얼마나 잘 수행되고 있는지 알려줍니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: 9cb231055df45bbfcff3303c6e1c257c883cb852
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 0%
 
 ## 보고서 보기
 
-1. 권장 사항이 적용되는 **과(와) 같은**&#x200B;카탈로그 원본`en-US`을(를) 선택하십시오.
+1. 권장 사항이 적용되는 **카탈로그 보기**(예: *모든 보기*)를 선택하십시오.
+
+   권장 사항에서 [카탈로그 보기](#select-catalog-view)에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL Date Range]**&#x200B;을(를) 클릭하고 다음 범위 중 하나를 선택합니다.
 
    ![권장 사항 날짜 범위](../assets/rec-perf-date-range.png)
 
-   권장 사항 테이블이 업데이트되어 해당 날짜 범위에 대한 지표를 표시합니다.
+   권장 사항 테이블이 업데이트되어 해당 날짜 범위 및 카탈로그 보기에 대한 지표를 표시합니다.
 
 ## 표 맞춤화
 
@@ -60,6 +62,7 @@ ht-degree: 0%
 | ![날짜 범위](../assets/rec-perf-date-range.png) | 지표 계산에 사용되는 시간 범위를 결정합니다. |
 | ![열 선택기](../assets/icon-show-hide-columns.png) | 권장 사항 테이블에 나타나는 열을 결정합니다. |
 | 추천 만들기 | [새 권장 사항 만들기](../merchandising/recommendations/create.md) 페이지를 엽니다. |
+| [카탈로그 보기](#select-catalog-view) | 선택한 카탈로그 보기에 적용되는 권장 사항만 표시하도록 테이블을 필터링하려면 카탈로그 보기를 선택하십시오. 이 선택 항목은 새 권장 사항을 [만들기](../merchandising/recommendations/create.md)할 때도 카탈로그 보기로 사용됩니다. 옵션은 *모든 보기* 또는 특정 [카탈로그 보기](../setup/catalog-view.md)입니다. |
 
 ## 열 설명
 
@@ -80,3 +83,34 @@ ht-degree: 0%
 | 가시성 | 보기에 등록하는 추천 단위의 백분율입니다. |
 | CTR | (클릭스루 비율) 클릭을 등록하는 추천에 대한 단위 노출 횟수의 백분율입니다. CTR은 장치가 쇼핑객 보기에 들어오지 않더라도 모든 노출을 계산합니다. 추천 단위를 보지 않으면 클릭되지 않을 가능성이 높습니다. 그러나 보이지 않는 노출은 CTR 점수로 계산되어 전체 CTR 비율을 감소시킵니다. |
 | vCTR | (조회 클릭스루 비율) 조회 가능한 노출 횟수(쇼핑객 화면에 실제로 표시된 권장 사항)에만 기반한 클릭 수를 측정하므로 쇼핑객 참여를 보다 정확하게 측정할 수 있습니다. |
+
+## 카탈로그 보기 선택
+
+>[!IMPORTANT]
+>
+>이 기능은 현재 베타 버전입니다.
+
+**[!UICONTROL Catalog view]**&#x200B;권장 사항&#x200B;**페이지의** 선택기는 다음 두 가지 작업을 수행합니다.
+
+1. **테이블을 필터링합니다** - 선택한 카탈로그 보기에 적용되는 권장 사항(및 해당 지표)만 표시합니다.
+1. **새 권장 사항에 대한 범위를 설정합니다** - 권장 사항을 [만들기](../merchandising/recommendations/create.md)할 때 선택한 카탈로그 보기가 장치의 범위로 사용됩니다. 옵션은 *모든 보기* 또는 특정 [카탈로그 보기](../setup/catalog-view.md)입니다.
+
+   - **모든 보기** - 권장 사항은 모든 카탈로그 보기에 적용됩니다(제품 가용성은 여전히 보기별로 필터링됨).
+   - **카탈로그 보기** - 권장 사항은 선택한 카탈로그 보기(예: 한 개의 상점, 언어 또는 브랜드)에만 적용됩니다.
+
+각 권장 사항에 대한 카탈로그 보기를 지정하여 다음을 수행할 수 있습니다.
+
+- 모든 카탈로그 보기(전역) 또는 하나의 카탈로그 보기에 대한 권장 사항을 구성합니다.
+- [만들기](../merchandising/recommendations/create.md) 권장 사항 페이지에서 카탈로그 보기로 제품을 미리 보고 필터링합니다.
+- 각 상점에서 사용할 수 있는 제품만 표시합니다.
+- 카탈로그 보기별 지표 및 상점 행동을 봅니다.
+
+### 카탈로그 보기가 제품을 필터링하는 방법
+
+제품 가용성은 **모든 보기** 선택 아래의 추천 단위에 대해서도 카탈로그 보기별로 적용됩니다. 권장 사항 단위에서 설정한 [포함 또는 제외 필터](../merchandising/recommendations/filters.md)와 함께 작동합니다.
+
+**예: 모든 보기 선택 아래에 포함 필터가 있는 권장 사항**
+
+- **모든 보기** 권장 사항에는 SKU: SKU_ABC, SKU_CDE, SKU_XYZ가 포함됩니다.
+- **카탈로그 보기: Kingsbluff**&#x200B;에서 SKU_ABC 또는 SKU_CDE를 판매할 수 없습니다. **표시:** SKU_XYZ 및 Kingsbluff에 유효한 다른 SKU.
+- **카탈로그 보기: Arkbridge**&#x200B;은(는) 포함된 SKU를 판매할 수 없습니다. **표시:** Arkbridge에서 허용하는 SKU만. 사용할 수 있는 항목이 없으면 추천 단위가 해당 상점 앞에 표시되지 않습니다.

@@ -1,13 +1,13 @@
 ---
 title: 데이터 동기화
-description: Commerce 데이터 원본에서  [!DNL Adobe Commerce Optimizer] (으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
+description: Commerce 데이터 원본에서  [!DNL Adobe Commerce Optimizer](으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
-source-git-commit: e2c3c8a225b2c56985ba48c7efc9ae2c2d059b2e
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 | [!DNL Catalog Service] | [!DNL Catalog Service]에 대해 동기화된 제품의 최신 동기화 업데이트, 받은 총 제품, 검색 필드 및 테이블을 표시합니다. |
 | 제품 검색 | 최신 동기화 업데이트, 받은 총 제품 수, 검색 필드 및 검색을 위해 동기화된 제품 표를 표시합니다. |
 | 권장 사항 | 최신 동기화 업데이트, 받은 총 제품 수, 검색 필드 및 Recommendations에 대해 동기화된 제품 표를 표시합니다. |
-| 지난 3시간 동안 받은 제품 | 지난 3시간 동안 카탈로그 소스에서 Adobe Commerce Optimizer으로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. |
-| 카탈로그의 총 제품 수 | Adobe Commerce Optimizer에서 사용할 수 있는 총 카탈로그 제품 수를 반영합니다. |
-| 동기화된 제품 | Adobe Commerce Optimizer에 동기화된 제품에 대한 세부 정보를 제공합니다. 기본적으로 이 테이블은 &#39;최근 업데이트&#39;별로 정렬됩니다. 특정 제품을 찾으려면 **[!UICONTROL Search by Name or SKU]** 필드를 사용하십시오. |
+| 지난 3시간 동안 받은 제품 | 지난 3시간 내에 카탈로그 원본에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. |
+| 카탈로그의 총 제품 수 | [!DNL Adobe Commerce Optimizer]에서 사용할 수 있는 총 카탈로그 제품 수를 반영합니다. |
+| 동기화된 제품 | [!DNL Adobe Commerce Optimizer]에 동기화된 제품에 대한 세부 정보를 제공합니다. 기본적으로 이 테이블은 &#39;최근 업데이트&#39;별로 정렬됩니다. 특정 제품을 찾으려면 **[!UICONTROL Search by Name or SKU]** 필드를 사용하십시오. |
 
 ## 동기화된 제품 목록
 
