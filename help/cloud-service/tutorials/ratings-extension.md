@@ -303,7 +303,7 @@ Storefront 통합을 시작하기 전에 다음을 확인하십시오.
    개발 환경 및 브라우저에 다음과 같은 변경 사항이 표시됩니다.
 
    * 제품 등급 구성 요소는 자동으로 만들어집니다.
-   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
+   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=ko)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
    * 별은 API의 등급 값에 따라 적절한 채우기 비율로 표시됩니다.
 
    ![제품 제목 아래에 통합된 별점을 표시하는 제품 세부 정보 페이지](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}
