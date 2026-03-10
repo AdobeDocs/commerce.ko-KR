@@ -2,9 +2,9 @@
 title: Commerce Optimizer용 AEM Assets 구성
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 AEM Assets 통합을 구성하는 방법을 알아봅니다.'
 feature: CMS, Media, Configuration, Integration
-source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
+source-git-commit: 7f0970648663331fea2af19b981c4fd3b3aedcaa
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Commerce(PaaS) 또는 Adobe Commerce as a Cloud Service(ACCS)와 달리 [!
 
 ## 온보딩
 
-[!DNL Commerce Optimizer]과(와) AEM Assets 통합을 온보딩하려면 [지원 티켓을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)해야 합니다.
+[!DNL Commerce Optimizer]과(와) AEM Assets 통합을 온보딩하려면 [지원 티켓을 만들기](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)해야 합니다.
 
 Adobe 지원에서는 티켓의 정보를 사용하여 테넌트를 Assets 통합 서비스에 등록하고 통합을 구성합니다.
 
@@ -61,8 +61,6 @@ Adobe 지원에서 티켓을 처리하면 통합이 구성되고 테넌트가 As
 온보딩이 완료되면:
 
 1. **Assets Integration Service에 등록**: [!DNL Commerce Optimizer] 테넌트가 [!DNL Adobe Commerce Optimizer] 테넌트 ID, AEM 프로그램 ID, AEM 환경 ID 및 테넌트를 사용하여 Assets Integration Service에 등록되었습니다.
-
-1. **인증 설정**: 보안 통신을 위해 [!DNL Commerce Optimizer]과(와) Assets 통합 서비스 간에 IMS 서비스 토큰 인증이 구성되었습니다.
 
 1. **이벤트 구독**: Assets Integration Service는 다음을 구독합니다.
 
@@ -115,7 +113,7 @@ AEM Assets의 제품 이미지에 Commerce 메타데이터를 추가합니다.
 
 >[!CAUTION]
 >
-> `AEM-Assets`카탈로그 보기[에 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
+> `AEM-Assets`카탈로그 보기[에 ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
 
 ## 동기화
 
