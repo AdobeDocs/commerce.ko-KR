@@ -39,7 +39,7 @@ Adobe Commerce(PaaS) 또는 Adobe Commerce as a Cloud Service(ACCS)와 달리 [!
 
 ## 온보딩
 
-[!DNL Commerce Optimizer]과(와) AEM Assets 통합을 온보딩하려면 [지원 티켓을 만들기](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)해야 합니다.
+[!DNL Commerce Optimizer]과(와) AEM Assets 통합을 온보딩하려면 [지원 티켓을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)해야 합니다.
 
 Adobe 지원에서는 티켓의 정보를 사용하여 테넌트를 Assets 통합 서비스에 등록하고 통합을 구성합니다.
 
@@ -113,7 +113,7 @@ AEM Assets의 제품 이미지에 Commerce 메타데이터를 추가합니다.
 
 >[!CAUTION]
 >
-> `AEM-Assets`카탈로그 보기[에 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
+> `AEM-Assets`카탈로그 보기[에 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
 
 ## 동기화
 
