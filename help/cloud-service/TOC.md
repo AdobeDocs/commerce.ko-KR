@@ -33,6 +33,6 @@ ht-degree: 10%
 - 스키마 {#schemas}
    - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
-- [비디오 자습서](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
+- [비디오 자습서](https://experienceleague.adobe.com/ko/playlists/accs-getting-started-product-overview){target="_blank"}
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
