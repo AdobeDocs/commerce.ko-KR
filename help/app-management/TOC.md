@@ -17,4 +17,4 @@ ht-degree: 7%
 - 앱 관리 {#manage-app}
    - [앱 관리](manage-app.md)
    - [문제 해결](troubleshooting.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
