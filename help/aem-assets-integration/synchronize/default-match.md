@@ -3,9 +3,9 @@ title: 기본 자동 일치
 description: 기본 자동 일치 규칙을 사용하여 Adobe Commerce과 AEM Assets 통합 간에 매끄럽게 동기화하여 자산이 올바른 머천다이징 엔티티에 자동으로 연결되는 방법에 대해 알아봅니다.
 feature: CMS, Media, Integration
 exl-id: 8a18639b-f508-456e-8d22-18e3e0fdd515
-source-git-commit: d426c7878f7a66fe1047673be7c5bf65ae1949a7
+source-git-commit: a0eaaf0de53962b37c7b52f3e7e13aac4c62e372
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Commerce용 AEM Assets 통합은 **[!UICONTROL Match by product SKU]** AEM Asset
 
 **[!UICONTROL Match by product SKU]** 일치 규칙이 Commerce 관리자에 구성된 경우 Commerce 자산 파일은 각 파일에 대해 구성된 자산 메타데이터를 기반으로 AEM Assets에서 Commerce 프로젝트로 자동으로 동기화됩니다. **AEM Assets 작성자** 환경의 AEM **Commerce** 탭에서 메타데이터를 구성합니다.
 
+1. AEM Assets 작성자 인스턴스를 엽니다(URL은 Adobe Commerce과 동일한 IMS 조직의 프로젝트에 대해 프로비저닝됨).
+
+1. 기본 탐색 화면에서 **Assets**&#x200B;를 클릭하여 DAM(디지털 자산 관리) 인터페이스에 액세스합니다.
+
 1. AEM Assets에서 `Eligible for Commerce` 필드를 `Yes`(으)로 설정하여 이미지 메타데이터를 업데이트하여 Adobe Commerce 연결을 추가합니다.
 
    ![예제 메타데이터](../assets/metadata-commerce-yes.png){width="600" zoomable="yes"}
@@ -42,7 +46,7 @@ Commerce용 AEM Assets 통합은 **[!UICONTROL Match by product SKU]** AEM Asset
    >
    > 자산이 여러 제품에 사용되는 경우 연결된 각 SKU에 대한 메타데이터를 구성합니다.
 
-1. `Basic` 탭에서 _[!UICONTROL Review Status]_&#x200B;필드의 기본값을 `approved`(으)로 설정합니다.
+1. `Basic` 탭에서 _[!UICONTROL Review Status]_필드의 기본값을 `approved`(으)로 설정합니다.
 
    ![예제 메타데이터](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 
