@@ -2,7 +2,7 @@
 title: 앱 관리
 description: App Builder 애플리케이션을 Commerce 인스턴스와 연결, 구성 및 연결 해제합니다.
 feature: App Builder, Extensibility, Integration
-source-git-commit: ab635fecb7b82294bd4a4fd045ed71931e9d265d
+source-git-commit: 4a5174d074a020f6199ed121e0289939612bc5c2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 App Manager는 App Builder 애플리케이션을 Commerce 인스턴스와 연결합니다. 구성 양식은 앱의 스키마를 기반으로 동적으로 렌더링되므로 사용자 지정 관리자 UI 개발이 필요하지 않습니다. App Manager는 Commerce이 자동으로 생성하는 양식을 통해 설정을 구성합니다.
 
-![앱 관리](assets/app-management-ui.png){width="500" zoomable="yes"}
+![앱 관리](assets/app-management-view.png){width="500" zoomable="yes"}
 
 ## 사전 요구 사항
 
@@ -30,7 +30,7 @@ App Manager는 App Builder 애플리케이션을 Commerce 인스턴스와 연결
 
 이 비디오를 통해 앱을 Commerce 인스턴스와 연결하고 설정을 구성하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478962?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3478944)
 
 ## 앱 연결
 
