@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 사용자 권한 및 IMS
 
-**IMS**(Adobe Identity Management 시스템)이 인증 계층입니다. Adobe Commerce as a Cloud Service의 경우 IMS 인증은 기본적으로 관리자에서 활성화됩니다. Adobe Commerce on cloud 또는 온-프레미스의 경우 IMS는 선택 사항입니다.[Commerce에 대해 IMS를 사용하도록 설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-config.html){target=_blank}에서는 향상된 구성 UI(자산 선택기, 자동으로 채워진 드롭다운)를 제공하지만, **프로그램 ID** 및 **환경 ID**&#x200B;를 수동으로 입력하여 IMS 없이 통합을 구성할 수 있습니다.
+**IMS**(Adobe Identity Management 시스템)이 인증 계층입니다. Adobe Commerce as a Cloud Service의 경우 IMS 인증은 기본적으로 관리자에서 활성화됩니다. Adobe Commerce on cloud 또는 온-프레미스의 경우 IMS는 선택 사항입니다.[Commerce에 대해 IMS를 사용하도록 설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-config.html?lang=ko){target=_blank}에서는 향상된 구성 UI(자산 선택기, 자동으로 채워진 드롭다운)를 제공하지만, **프로그램 ID** 및 **환경 ID**&#x200B;를 수동으로 입력하여 IMS 없이 통합을 구성할 수 있습니다.
 
 IMS를 사용할 때도 AEM Assets 통합에는 특정 **Adobe Admin Console 제품 프로필**&#x200B;이 필요합니다. Commerce 관리에서 통합을 구성하는 사용자는 **AEM Assets DM OpenAPI 사용자 - 게재** 제품 프로필 또는 **작성자** 제품 프로필이 대체 항목으로 필요합니다. 이는 사용자의 IMS 조직에서 Admin Console 제품 프로필을 통해 제어되며 다음을 활성화합니다.
 
@@ -54,7 +54,7 @@ IMS 인증은 기본적으로 활성화되어 있습니다. 사용자에게 AEM 
 
 >[!NOTE]
 >
-> Commerce 및 AEM Assets에도 사용자를 추가해야 합니다. 전체 설정에 대해서는 [사용자 및 Identity Management](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management#add-a-user-to-aem-assets-or-product-visuals){target=_blank} 안내서에서 _AEM Assets 또는 제품 비주얼에 사용자 추가_&#x200B;를 참조하십시오.
+> Commerce 및 AEM Assets에도 사용자를 추가해야 합니다. 전체 설정에 대해서는 [사용자 및 Identity Management](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management#add-a-user-to-aem-assets-or-product-visuals){target=_blank} 안내서에서 _AEM Assets 또는 제품 비주얼에 사용자 추가_&#x200B;를 참조하십시오.
 
 ![AEM Assets 게재용 Admin Console 제품 프로필](../assets/aem-assets-delivery-product-profile.png){width="600" zoomable="yes"}
 
@@ -66,9 +66,9 @@ IMS 인증은 기본적으로 활성화되어 있습니다. 사용자에게 AEM 
 
 자산 선택기 및 자동 채워진 구성 필드(프로그램 ID, 환경 ID, 도메인 매핑)를 사용하려면 다음을 수행하십시오.
 
-1. Commerce 관리자가 IMS 인증을 사용하고 사용자의 Admin Console 제품 프로필을 읽을 수 있도록 [Commerce에 대해 Adobe IMS를 사용](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-config.html){target=_blank}합니다.
+1. Commerce 관리자가 IMS 인증을 사용하고 사용자의 Admin Console 제품 프로필을 읽을 수 있도록 [Commerce에 대해 Adobe IMS를 사용](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-config.html?lang=ko){target=_blank}합니다.
 
-1. 자산 선택기에 대한 사용자 지정 IMS 클라이언트 ID를 요청하려면 [지원 티켓을 엽니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases).
+1. 자산 선택기에 대한 사용자 지정 IMS 클라이언트 ID를 요청하려면 [지원 티켓을 엽니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases).
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com/)에서 사용자를 **AEM Assets DM OpenAPI 사용자 - 배달** 제품 프로필에 추가하거나 사용자에게 Admin Console에 AEM 배달 제품 프로필이 없는 경우 **작성자** 제품 프로필(예: `<environment-name> - author - <program-id> - <environment-id>`)에 대체 항목으로 추가합니다.
 
@@ -80,5 +80,5 @@ IMS가 없어도 Commerce 관리자에서 프로그램 ID와 환경 ID를 수동
 
 * [AEM Assets 통합에 대한 IMS 사용자 권한 구성](setup-synchronization.md) - Commerce을 AEM Assets에 연결하고 일치하는 규칙을 구성합니다.
 * [수동 자산 선택](../synchronize/asset-selector-integration.md) - 범주 이미지 및 페이지 빌더에 자산 선택기를 사용합니다.
-* [AEM Assets 또는 제품 비주얼에 사용자 추가](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management#add-a-user-to-aem-assets-or-product-visuals){target=_blank} - ACCS의 경우 먼저 Commerce 및 AEM Cloud Manager(비즈니스 소유자, 배포 관리자)에 사용자를 추가하십시오. **AEM Assets DM OpenAPI 사용자 - 게재** 프로필(또는 **작성자** 프로필을 대체 프로필)은 자산 선택기와 자동 채우기 기능에 대한 추가 요구 사항입니다.
-* [팀원을 AEM 배달 계층에 할당](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem#add-team-members){target=_blank}. 게재 액세스를 위한 AEM 설명서.
+* [AEM Assets 또는 제품 비주얼에 사용자 추가](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management#add-a-user-to-aem-assets-or-product-visuals){target=_blank} - ACCS의 경우 먼저 Commerce 및 AEM Cloud Manager(비즈니스 소유자, 배포 관리자)에 사용자를 추가하십시오. **AEM Assets DM OpenAPI 사용자 - 게재** 프로필(또는 **작성자** 프로필을 대체 프로필)은 자산 선택기와 자동 채우기 기능에 대한 추가 요구 사항입니다.
+* [팀원을 AEM 배달 계층에 할당](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem#add-team-members){target=_blank}. 게재 액세스를 위한 AEM 설명서.
