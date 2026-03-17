@@ -3,9 +3,9 @@ title: 수동 자산 선택
 description: Commerce Admin에 통합된 AEM Asset Selector를 통해 마케터와 머천다이저가 AEM Assets에서 Adobe Commerce으로 이미지를 쉽게 추가하여 에셋 관리를 간소화하는 방법을 살펴볼 수 있습니다.
 feature: CMS, Media, Integration
 exl-id: 3c1f906f-3ec3-4eac-a47e-b21792767359
-source-git-commit: a0eaaf0de53962b37c7b52f3e7e13aac4c62e372
+source-git-commit: 0fd98bf86555c914f7a5b1e177c31c37764dbf84
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 **AEM 자산 선택기**&#x200B;를 사용하면 마케터와 머천다이저가 AEM Assets에서 Adobe Commerce으로 이미지를 쉽게 추가하여 자산 관리 프로세스를 간소화할 수 있습니다. 이 방법을 사용하면 자산 선택을 [!DNL DAM (Digital Asset Management system)]에서 검토 및 승인된 것으로 제한하여 브랜드 일관성과 규정 준수를 보장할 수 있습니다.
 
-AEM Admin에서 AEM Assets 프로젝트에 대한 IMS 클라이언트 ID를 구성한 경우 **Commerce 자산 선택기**&#x200B;를 사용할 수 있습니다. [AEM 자산 선택기 구성](#configure-the-aem-asset-selector-in-adobe-commerce)을 참조하십시오.
+AEM 프로젝트에 대한 IMS 클라이언트 ID가 Commerce 관리자에 구성되어 있고 사용자에게 필요한 **권한 및 IMS 인증**&#x200B;이 있는 경우 [AEM Assets 자산 선택기](../get-started/permissions.md)를 사용할 수 있습니다. [AEM 자산 선택기 구성](#configure-the-aem-asset-selector-in-adobe-commerce)을 참조하십시오.
 
 **AEM 자산 선택기** 통합이 구성되면 마케터와 머천다이저는 다음을 수행할 수 있습니다.
 
 * 브랜드 및 캠페인 지침에 맞게 범주 이미지를 간편하게 관리할 수 있습니다.
 * [!BADGE Paa만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} 시각적으로 풍부한 콘텐츠를 위해 페이지 빌더에서 직접 자산을 할당합니다.
-* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 시각적으로 보강된 콘텐츠를 위해 Assets에서 제공하는 Commerce Storefront에서 직접 Edge Delivery Services을 할당합니다.
+* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 시각적으로 보강된 콘텐츠를 위해 Assets에서 제공하는 Commerce Storefront에서 직접 Edge Delivery Services을 할당합니다.
 
 >[!NOTE]
 >
-> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 [AEM as a Cloud Service 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}의 *Micro-Frontend 자산 선택기*&#x200B;를 참조하십시오.
+> AEM 자산 선택기는 AEM Assets과 작성 애플리케이션을 통합하기 위한 AEM 자산 프론트엔드 구성 요소입니다. 이 구성 요소에 대한 자세한 내용은 [AEM as a Cloud Service 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank}의 *Micro-Frontend 자산 선택기*&#x200B;를 참조하십시오.
 
 ## 주요 이점
 
@@ -44,7 +44,7 @@ AEM Asset Selector를 Adobe Commerce 관리 패널에 포함하면 다음과 같
 
 1. Commerce 관리자에서 **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
-1. **[!UICONTROL IMS Client ID]** 필드를 입력합니다.
+1. **[!UICONTROL IMS Client ID]** 필드를 입력합니다. 필요한 권한과 이 ID를 얻는 방법에 대해서는 [사용자 권한 및 IMS](../get-started/permissions.md)를 참조하십시오.
 
 1. 구성을 **저장**&#x200B;합니다.
 
