@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2f5e9411fe47c9cc1d00396059b2ba67ebe88ca3
+source-git-commit: 8cb851a8d85634d61853d91911f91096273eedb0
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>AEM Assets에서 제품 자산을 구성하는 사용자를 위한 명확한 탐색 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/manage-assets">Commerce 미디어 자산 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/default-match">기본 자동 일치</a>를 업데이트했습니다.</p>
+      <td><p>AEM Assets에서 제품 자산을 구성하는 사용자를 위한 명확한 탐색 지침과 함께 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/manage-assets">Commerce 미디어 자산 관리</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/default-match">기본 자동 일치</a>를 업데이트했습니다.</p>
 </td>
       <td>
         기술
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>v1.3.4로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 릴리스 정보</a> 업데이트: 구성 UI에서 Adobe Commerce 2.4.9-beta1 및 PHP 8.5 지원 및 도메인 매핑 자동 채우기.</p>
+      <td><p>v1.3.4로 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 릴리스 정보</a> 업데이트: 구성 UI에서 Adobe Commerce 2.4.9-beta1 및 PHP 8.5 지원 및 도메인 매핑 자동 채우기.</p>
 </td>
       <td>
         기술
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>프로덕션 환경에 대한 최신 릴리스로 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>프로덕션 환경에 대한 최신 릴리스로 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -75,7 +75,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/dd9b660729f7c8616347d3222fdfb3b83a774e56">커밋</a></td>
     </tr>
     <tr>
-      <td><p>앱 관리 및 Commerce 인스턴스와 App Builder 애플리케이션을 연결, 구성 및 관리하는 방법을 소개하는 새 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview">앱 관리</a> 설명서 안내서를 추가했습니다.</p>
+      <td><p>앱 관리 및 Commerce 인스턴스와 App Builder 애플리케이션을 연결, 구성 및 관리하는 방법을 소개하는 새 <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview">앱 관리</a> 설명서 안내서를 추가했습니다.</p>
 </td>
       <td>
         새 주제
@@ -97,12 +97,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/tutorials/ratings-extension">등급 자습서</a>에 storefront 통합을 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/ratings-extension">등급 자습서</a>에 storefront 통합을 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.ko-KR/pull/15">끌어오기 요청</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/pull/15">끌어오기 요청</a></td>
     </tr>
   </tbody>
 </table>
@@ -119,7 +119,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>일반 가용성 릴리스용 <a href="https://experienceleague-review.corp.adobe.com/docs/commerce/aco-optimizer-connector/overview.html">Adobe Commerce Optimizer Connector v1.0.9 설명서</a>를 게시했습니다.</p>
+      <td><p>일반 가용성 릴리스용 <a href="https://experienceleague.adobe.com/docs/commerce/aco-optimizer-connector/overview.html">Adobe Commerce Optimizer Connector v1.0.9 설명서</a>를 게시했습니다.</p>
 </td>
       <td>
         주요 업데이트, 새로운 주제, 기술
@@ -127,7 +127,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/216958e287993d1a212fb59fdaa8e2ba3e931b97">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 릴리스로 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 릴리스로 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -149,7 +149,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>일반적인 구성 문제의 실제 사례 3개와 검색 관련성을 개선하기 위한 문제 해결 검사 목록을 포함하여 검색 가능한 특성을 선택하는 방법에 대한 포괄적인 지침으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice#leverage-product-metadata">라이브 검색 모범 사례</a>를 업데이트했습니다.</p>
+      <td><p>일반적인 구성 문제의 실제 사례 3개와 검색 관련성을 개선하기 위한 문제 해결 검사 목록을 포함하여 검색 가능한 특성을 선택하는 방법에 대한 포괄적인 지침으로 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/best-practice#leverage-product-metadata">라이브 검색 모범 사례</a>를 업데이트했습니다.</p>
 </td>
       <td>
         피드백
@@ -157,7 +157,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/f55cbabdc50af4e38b57ece217e5133d1f3fada8">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas#delapikey">Commerce 서비스 커넥터</a> 설명서에 API 키를 삭제하는 방법에 대한 지침을 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#delapikey">Commerce 서비스 커넥터</a> 설명서에 API 키를 삭제하는 방법에 대한 지침을 추가했습니다.</p>
 </td>
       <td>
         피드백
@@ -165,7 +165,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a12a0bca1d4a7f3b9350c704275a9e3128fa2b37">커밋</a></td>
     </tr>
     <tr>
-      <td><p>AEM Assets과 Adobe Commerce Optimizer의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aco">통합</a>에 대한 새 주제를 추가했습니다.</p>
+      <td><p>AEM Assets과 Adobe Commerce Optimizer의 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aco">통합</a>에 대한 새 주제를 추가했습니다.</p>
 </td>
       <td>
         새 주제
@@ -187,7 +187,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>카탈로그 구성을 자동으로 가져오지 않는다는 중요한 메모로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/migration-tools/bulk-data#catalog-data-ingestion">대량 데이터 마이그레이션 도구</a>을(를) 업데이트했습니다.</p>
+      <td><p>카탈로그 구성을 자동으로 가져오지 않는다는 중요한 메모로 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/migration-tools/bulk-data#catalog-data-ingestion">대량 데이터 마이그레이션 도구</a>을(를) 업데이트했습니다.</p>
 </td>
       <td>
         피드백
@@ -195,7 +195,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1ac84e8f10f61a6b8f995f348d4872773d2890e8">커밋</a></td>
     </tr>
     <tr>
-      <td><p>유럽 시장에 대한 대체 결제 방법(APM), 빠른 체크아웃 단추 및 구매자 국가 샌드박스 구성을 포함하여 v2.14.0 릴리스 설명서와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/release-notes">결제 서비스</a>를 업데이트했습니다.</p>
+      <td><p>유럽 시장에 대한 대체 결제 방법(APM), 빠른 체크아웃 단추 및 구매자 국가 샌드박스 구성을 포함하여 v2.14.0 릴리스 설명서와 함께 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes">결제 서비스</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트, 새 주제
@@ -217,7 +217,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>이제 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/coding-tools">Adobe Commerce App Builder용 AI 코딩 개발자 도구</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/tutorials/ratings-extension">등급 확장 자습서</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/tutorials/shipping-method-extension">배송 방법 확장 자습서</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/tutorials/tutorial-prerequisites">자습서 사전 요구 사항</a> 페이지를 사용할 수 있습니다.</p>
+      <td><p>이제 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/coding-tools">Adobe Commerce App Builder용 AI 코딩 개발자 도구</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/ratings-extension">등급 확장 자습서</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/shipping-method-extension">배송 방법 확장 자습서</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/tutorial-prerequisites">자습서 사전 요구 사항</a> 페이지를 사용할 수 있습니다.</p>
 </td>
       <td>
         새 주제
@@ -239,7 +239,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>프로덕션 환경에 대한 최신 릴리스로 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>프로덕션 환경에 대한 최신 릴리스로 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -261,7 +261,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service(ACCS) 사용자를 위한 새로운 자습서 비디오로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/overview">AEM Assets 통합 개요</a>를 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service(ACCS) 사용자를 위한 새로운 자습서 비디오로 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview">AEM Assets 통합 개요</a>를 업데이트했습니다.</p>
 </td>
       <td>
         피드백, 주요 업데이트
@@ -269,7 +269,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1cef99b8284aef05e34ab8ca65b776492ec5bee7">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 릴리스로 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 릴리스로 업데이트했습니다.</p>
 </td>
       <td>
         피드백, 주요 업데이트
@@ -291,7 +291,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match"> 동기화 매개 변수를 지원하여 </a>사용자 지정 자동 일치<code class="language-plaintext highlighter-rouge">skip</code>을 업데이트했습니다. 매핑이 변경되지 않은 경우 사용자 지정 matcher가 동기화 처리를 무시하도록 허용합니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match"> 동기화 매개 변수를 지원하여 </a>사용자 지정 자동 일치<code class="language-plaintext highlighter-rouge">skip</code>을 업데이트했습니다. 매핑이 변경되지 않은 경우 사용자 지정 matcher가 동기화 처리를 무시하도록 허용합니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -313,7 +313,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/release-notes">카탈로그 서비스 릴리스 정보</a>에 대한 주요 업데이트: 소개 재구성, Storefront 카탈로그 서비스 릴리스 v1.46-v1.36 및 GA 추가, GraphQL 예제(특성 필터링, 계층 가격 책정, 제품 계층, recommendationsByUnitIds 등)를 통한 기능 설명 확장 및 이전 버전을 현재 서식 및 링크와 정렬했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/catalog-service/release-notes">카탈로그 서비스 릴리스 정보</a>에 대한 주요 업데이트: 소개 재구성, Storefront 카탈로그 서비스 릴리스 v1.46-v1.36 및 GA 추가, GraphQL 예제(특성 필터링, 계층 가격 책정, 제품 계층, recommendationsByUnitIds 등)를 통한 기능 설명 확장 및 이전 버전을 현재 서식 및 링크와 정렬했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -335,7 +335,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>요구 사항을 명확히 하고 메타데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/migrate-data">CLI 명령 설명서</a>를 추가하여 AEM Assets 통합 설명서를 개선합니다.</p>
+      <td><p>요구 사항을 명확히 하고 메타데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/migrate-data">CLI 명령 설명서</a>를 추가하여 AEM Assets 통합 설명서를 개선합니다.</p>
 </td>
       <td>
         피드백
@@ -357,7 +357,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>제품 권장 사항에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/boundaries-limits">경계 및 제한</a>을 추가하고, 지원되는 제품 유형, 특별 가격 제한, 단위 및 필터 제한, 미리 보기/API/쿠키 동작 및 관련 제한을 문서화합니다.</p>
+      <td><p>제품 권장 사항에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/boundaries-limits">경계 및 제한</a>을 추가하고, 지원되는 제품 유형, 특별 가격 제한, 단위 및 필터 제한, 미리 보기/API/쿠키 동작 및 관련 제한을 문서화합니다.</p>
 </td>
       <td>
         피드백, 새 주제
@@ -365,7 +365,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2b850e32660f1a8540bb6a024f3617994b6c13f6">커밋</a></td>
     </tr>
     <tr>
-      <td><p>새로운 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options#paypal-payment-buttons">서버측 배달 콜백</a> 섹션에 연결할 수 있도록 v2.12.0 PAY-6227 항목을 개선하여 이 기능을 통해 어떻게 더 빠른 체크아웃 프로세스가 가능한지를 명확히 했습니다.</p>
+      <td><p>새로운 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options#paypal-payment-buttons">서버측 배달 콜백</a> 섹션에 연결할 수 있도록 v2.12.0 PAY-6227 항목을 개선하여 이 기능을 통해 어떻게 더 빠른 체크아웃 프로세스가 가능한지를 명확히 했습니다.</p>
 </td>
       <td>
         피드백
@@ -387,7 +387,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2월 프로덕션에 대한 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>2월 프로덕션에 대한 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -409,7 +409,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>AEM Assets 통합 v1.2.13은 사용자 지정 선택기 설정을 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">Adobe I/O Workspace 구성</a>을 추가합니다. 자동 유효성 검사 및 자격 증명 추출을 위해 App Builder <code class="language-plaintext highlighter-rouge">workspace.json</code>을(를) 업로드하거나 수동으로 구성할 수 있습니다. v1.2.13용 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">릴리스 정보</a> 및 업데이트된 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 일치</a> 안내서를 참조하십시오.</p>
+      <td><p>AEM Assets 통합 v1.2.13은 사용자 지정 선택기 설정을 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match">Adobe I/O Workspace 구성</a>을 추가합니다. 자동 유효성 검사 및 자격 증명 추출을 위해 App Builder <code class="language-plaintext highlighter-rouge">workspace.json</code>을(를) 업로드하거나 수동으로 구성할 수 있습니다. v1.2.13용 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes">릴리스 정보</a> 및 업데이트된 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 일치</a> 안내서를 참조하십시오.</p>
 </td>
       <td>
         주요 업데이트
@@ -431,7 +431,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/release-notes">Adobe Commerce SaaS 데이터 내보내기 버전 103.4.19</a>에 대한 릴리스 정보가 추가되었습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes">Adobe Commerce SaaS 데이터 내보내기 버전 103.4.19</a>에 대한 릴리스 정보가 추가되었습니다.</p>
 </td>
       <td>
         기술
@@ -453,7 +453,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2026년 2월 샌드박스 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">Adobe Commerce as a Cloud Service 릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>2026년 2월 샌드박스 릴리스의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">Adobe Commerce as a Cloud Service 릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -475,7 +475,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/release-notes">Adobe Commerce SaaS 데이터 내보내기 버전 103.4.18</a>에 대한 릴리스 정보가 추가되었습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes">Adobe Commerce SaaS 데이터 내보내기 버전 103.4.18</a>에 대한 릴리스 정보가 추가되었습니다.</p>
 </td>
       <td>
         기술
@@ -497,7 +497,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Commerce 고객이 Commerce 관리자의 피드 동기화 상태 페이지에서 데이터 피드 내보내기를 모니터링하고 문제를 해결하는 방법을 정리했습니다. 데이터 내보내기 가이드의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization#view-and-manage-the-synchronization-process">동기화 프로세스 보기 및 관리</a>를 참조하십시오.</p>
+      <td><p>Commerce 고객이 Commerce 관리자의 피드 동기화 상태 페이지에서 데이터 피드 내보내기를 모니터링하고 문제를 해결하는 방법을 정리했습니다. 데이터 내보내기 가이드의 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization#view-and-manage-the-synchronization-process">동기화 프로세스 보기 및 관리</a>를 참조하십시오.</p>
 </td>
       <td>
         기술
@@ -519,7 +519,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>새 인프라, 운영 기능 및 마켓플레이스 정보를 포함하여 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/feature-comparison">기능 비교 페이지</a>에 정보가 추가되었습니다.</p>
+      <td><p>새 인프라, 운영 기능 및 마켓플레이스 정보를 포함하여 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/feature-comparison">기능 비교 페이지</a>에 정보가 추가되었습니다.</p>
 </td>
       <td>
         피드백
@@ -541,7 +541,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>더 이상 사용되지 않는 검색 어댑터에서 전환하는 고객에 대한 자세한 마이그레이션 시나리오, 단계별 절차, 역할 기반 지침 및 문제 해결을 포함하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/migrate-to-plp">검색 어댑터에서 PLP 위젯으로 마이그레이션</a> 안내서를 추가했습니다.</p>
+      <td><p>더 이상 사용되지 않는 검색 어댑터에서 전환하는 고객에 대한 자세한 마이그레이션 시나리오, 단계별 절차, 역할 기반 지침 및 문제 해결을 포함하는 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/migrate-to-plp">검색 어댑터에서 PLP 위젯으로 마이그레이션</a> 안내서를 추가했습니다.</p>
 </td>
       <td>
         피드백, 주요 업데이트, 새로운 주제
@@ -563,7 +563,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/storefront">Adobe Commerce Optimizer</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/storefront">Adobe Commerce as a Cloud Service</a>에 대한 Storefront 설정 가이드가 업데이트되어 Edge Delivery Services이 Storefront 표준 저장소에서 <code class="language-plaintext highlighter-rouge">config.json</code> 파일 대신 구성 서비스를 사용하도록 Commerce Storefront 구성을 마이그레이션하는 방법에 대한 정보를 포함합니다. Adobe에서는 구성 서비스를 사용하여 Edge Delivery Services에 배포된 상점 전선에 대한 구성을 관리하는 것이 좋습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/storefront">Adobe Commerce Optimizer</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront">Adobe Commerce as a Cloud Service</a>에 대한 Storefront 설정 가이드가 업데이트되어 Edge Delivery Services이 Storefront 표준 저장소에서 <code class="language-plaintext highlighter-rouge">config.json</code> 파일 대신 구성 서비스를 사용하도록 Commerce Storefront 구성을 마이그레이션하는 방법에 대한 정보를 포함합니다. Adobe에서는 구성 서비스를 사용하여 Edge Delivery Services에 배포된 상점 전선에 대한 구성을 관리하는 것이 좋습니다.</p>
 </td>
       <td>
         피드백, 기술
@@ -629,7 +629,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes#latest">릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest">릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -651,7 +651,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>라이선스 제한 및 시스템 경계를 설명하고 제한 설명을 추가하고 용량 계획 및 성능 문제를 방지하기 위한 지침을 포함하도록 Adobe Commerce Optimizer에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a> 항목을 업데이트했습니다.</p>
+      <td><p>라이선스 제한 및 시스템 경계를 설명하고 제한 설명을 추가하고 용량 계획 및 성능 문제를 방지하기 위한 지침을 포함하도록 Adobe Commerce Optimizer에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a> 항목을 업데이트했습니다.</p>
 </td>
       <td>
         피드백, 기술
