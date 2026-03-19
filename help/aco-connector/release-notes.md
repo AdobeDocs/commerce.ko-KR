@@ -2,14 +2,14 @@
 title: '[!DNL Adobe Commerce Optimizer Connector] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Adobe Commerce Optimizer Connector] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Catalog Service, Release Notes
-source-git-commit: dc5bd916b93789b4a25f0bc16a40fdfc6604c6ea
+source-git-commit: 4da2776c561d88b5343442df84b691cb857fada3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Optimizer 릴리스 노트
+# Adobe Commerce Optimizer Connector 릴리스 노트
 
 이 릴리스 노트는 [!DNL Adobe Commerce Optimizer Connector]에 대한 모든 릴리스를 설명하며 다음을 포함합니다.
 
