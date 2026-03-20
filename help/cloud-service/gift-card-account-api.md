@@ -3,7 +3,7 @@ title: 기프트 카드 계정 REST 엔드포인트
 description: 기프트 카드 계정 REST API를 사용하여  [!DNL Adobe Commerce as a Cloud Service]에서 프로그래밍 방식으로 기프트 카드 계정을 만들고, 업데이트하고, 삭제하고, 쿼리하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 level: Experienced
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 160180d9d779514f6faee3c7de46531ebf191c7d
 workflow-type: tm+mt
 source-wordcount: '807'

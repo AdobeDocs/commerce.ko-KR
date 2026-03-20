@@ -3,7 +3,7 @@ title: REST를 통한 이메일 트리거
 description: ' [!DNL Adobe Commerce as a Cloud Service]에 대한 템플릿 ID, 수신자 이메일 및 템플릿 변수를 지정하여 REST API를 사용하여 요청 시 트랜잭션 이메일을 트리거하는 방법에 대해 알아봅니다.'
 role: Admin
 level: Experienced
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 9661e368f7a0dc85edcd3e52a67ae2a98355d8b5
 workflow-type: tm+mt
 source-wordcount: '523'

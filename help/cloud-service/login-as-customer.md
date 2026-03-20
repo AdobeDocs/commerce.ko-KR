@@ -3,7 +3,7 @@ title: 일회성 코드를 사용하여 고객으로 로그인
 description: ' [!DNL Adobe Commerce as a Cloud Service]에서 고객 OTC로 로그인 기능을 사용하여 고객 인증을 위한 일회용 코드를 생성하는 방법을 알아봅니다.'
 role: Admin
 level: Intermediate
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 160180d9d779514f6faee3c7de46531ebf191c7d
 workflow-type: tm+mt
 source-wordcount: '860'
