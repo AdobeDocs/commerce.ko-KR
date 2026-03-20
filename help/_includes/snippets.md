@@ -1,7 +1,7 @@
 ---
-source-git-commit: a89282dde7bc6221e8fca79af19ac388e010a143
+source-git-commit: 25e92d9418c5b0ac331e8aab2e13330f52ca85bb
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,25 @@ ht-degree: 0%
 <table style="table-layout:fixed">
   <tr>
     <td style="vertical-align: middle;"><a href="https://developer.adobe.com/commerce/webapi/"><img alt="Developers" src="../assets/icons/developers.svg" /> <strong>Developers</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
     <td style="vertical-align: middle;"><a href="../cloud-service/overview.md"><img alt="Merchants" src="../assets/icons/merchants.svg" /> <strong>Merchants</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/?lang=ko"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
   </tr>
 </table>
 
 >[!ENDSHADEBOX]
 -->
+
+## ACCS 샌드박스 전용 실험 기능 {#accs-sandbox-experimental}
+
+>[!IMPORTANT]
+>
+>이 기능은 실험적이며 [!DNL Adobe Commerce as a Cloud Service]의 샌드박스 환경에서만 사용할 수 있습니다.
+>
+>이 기능은 예고 없이 변경될 수 있습니다.
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
 
 ## AEM Assets 인스턴스 매핑 {#aem-assets-instance-mapping}
 
@@ -41,7 +51,7 @@ ht-degree: 0%
 
 Adobe Commerce ID 관리 및 인증은 Adobe Admin Console을 통해 Adobe Identity Management System(IMS)에서 관리합니다.
 
-Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 [Enterprise Admin Console](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) 설명서의 *ID 및 SSO 설정*&#x200B;을 참조하십시오.
+Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 [Enterprise Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 설명서의 *ID 및 SSO 설정*&#x200B;을 참조하십시오.
 
 ## ACCS 서비스 및 확장성 릴리스 정보 {#accs-release}
 
@@ -51,4 +61,4 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 
 | 서비스 | 확장성 | 상점 첫 화면 |
 | --- | --- | --- |
-| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko)</li></ul> |
+| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/)</li></ul> |
