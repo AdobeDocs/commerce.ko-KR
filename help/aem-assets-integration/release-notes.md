@@ -46,7 +46,7 @@ _2026년 3월 11일_
 
 ![새 문제](../assets/new.svg)<!-- Issue PAY-1041 --> Adobe Commerce 2.4.9-beta1 및 PHP 8.5에 대한 지원을 추가했습니다.
 
-![새 문제](../assets/new.svg)<!-- Issue ACCS-169 --> **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} 필드가 이제 [사용자의 IMS 세션](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank}을 기준으로 드롭다운으로 자동 채워집니다.
+![새 문제](../assets/new.svg)<!-- Issue ACCS-169 --> **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} 필드가 이제 [사용자의 IMS 세션](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank}을 기준으로 드롭다운으로 자동 채워집니다.
 
 ## v1.2.14
 
