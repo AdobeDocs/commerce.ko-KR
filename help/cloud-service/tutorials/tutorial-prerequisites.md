@@ -398,7 +398,7 @@ aio app use --merge
 
 * [Google Chrome](https://www.google.com/chrome/) - 상점 첫 화면 테스트에 필요
 
-* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"}의 단계를 따릅니다.
+* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#link-repo-to-commerce-data){target="_blank"}의 단계를 따릅니다.
 
 ### Storefront 리포지토리 복제
 
