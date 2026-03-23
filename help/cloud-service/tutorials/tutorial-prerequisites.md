@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 자습서 사전 요구 사항
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[ 및 ](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 ](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[&#x200B; 및 &#x200B;](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 &#x200B;](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## 일반 사전 요구 사항
 
@@ -390,7 +390,7 @@ aio app use --merge
 
 이 섹션에서는 [등급 확장 튜토리얼](./ratings-extension.md) 및 기타 storefront 튜토리얼을 위해 스토어프론트를 수동으로 구성하는 방법에 대해 설명합니다.
 
-상점을 자동으로 구성하려면 `app-setup`자동 설정[ 섹션에 설명된 ](#automated-setup) 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
+상점을 자동으로 구성하려면 `app-setup`자동 설정[&#x200B; 섹션에 설명된 &#x200B;](#automated-setup) 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
 
 ### 사전 요구 사항
 
