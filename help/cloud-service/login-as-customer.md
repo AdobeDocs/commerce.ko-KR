@@ -3,10 +3,10 @@ title: 일회성 코드를 사용하여 고객으로 로그인
 description: ' [!DNL Adobe Commerce as a Cloud Service]에서 고객 OTC로 로그인 기능을 사용하여 고객 인증을 위한 일회용 코드를 생성하는 방법을 알아봅니다.'
 role: Admin
 level: Intermediate
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 160180d9d779514f6faee3c7de46531ebf191c7d
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 2de1006ad3cee936d114bcf1b9a98b43a54d8c76
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->생성된 일회용 코드 OTC는 기본적으로 30초 동안 유효하며 한 번 사용 후 무효화됩니다. TTL은 `customer/otp/ttl_seconds` 설정을 사용하여 CPS를 통해 구성할 수 있습니다.
+>생성된 일회용 코드 OTC는 기본적으로 30초 동안 유효하며 한 번 사용 후 무효화됩니다. [지원 티켓](https://experienceleague.adobe.com/home?support-tab=home#support)을 제출하여 TTL을 구성할 수 있습니다.
 
 일회용 코드가 생성되면 상점으로 이동하여 다음 자격 증명을 사용하여 로그인하면 일회용 코드를 사용할 수 있습니다.
 
