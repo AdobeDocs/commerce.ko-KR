@@ -7,16 +7,16 @@ feature-set: Commerce
 role: Developer
 level: Intermediate
 type: Tutorial
-source-git-commit: 1848c9dda4a1976e1bccb4d1f9d5a2e21540fc0b
+source-git-commit: 0ece7b58bdafd664297cbdee809c53ef2389fb12
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
 
 # 자습서 사전 요구 사항
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[&#x200B; 및 &#x200B;](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 &#x200B;](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[ 및 ](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 ](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## 일반 사전 요구 사항
 
@@ -54,6 +54,125 @@ ht-degree: 0%
   ```bash
   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
   ```
+
+[!DNL Adobe I/O CLI] 및 필요한 플러그인을 설치한 후 확장성 작업 영역을 설정하십시오. Adobe에서는 가장 빠른 경험을 위해 자동화된 설정을 사용하는 것이 좋습니다.
+
+* **[자동화된 설정](#automated-setup)(권장)** — 단일 명령을 실행하여 작업 영역을 자동으로 구성합니다.
+* **[수동 설정](#manual-setup)** - 단계별 지침에 따라 각 구성 요소를 개별적으로 구성합니다.
+
+### 자동화된 설정(권장) {#automated-setup}
+
+>[!TIP]
+>
+>자동 설정에 문제가 발생하면 아래의 [수동 설정](#manual-setup) 단계를 따르십시오.
+
+`app-setup` 명령은 [!DNL Adobe Developer Console] 프로젝트 만들기, 필수 API 추가, [!DNL Adobe I/O CLI] 구성, 스타터 키트 복제, 로컬 작업 영역 연결 및 확장성 AI 도구 설치를 포함한 작업 영역 설정 프로세스를 자동화합니다.
+
+`app-setup` 명령은 다음 단계를 안내합니다.
+
+* 필요한 API를 사용하여 [!DNL Adobe Developer Console] 프로젝트 선택 또는 만들기
+* 조직, 프로젝트 및 작업 영역과 함께 [!DNL Adobe I/O CLI] 구성
+* 적절한 시작 키트 복제 및 프로젝트 설정
+* 환경 구성 및 로컬 작업 영역을 원격 작업 영역에 연결
+* Commerce 확장성 도구 및 코딩 에이전트 기술 설치
+
+다음 명령을 실행하고 대화식 프롬프트를 따릅니다.
+
+```bash
+aio commerce extensibility app-setup
+```
+
+명령이 완료된 후 프로젝트 디렉터리로 이동하고 코딩 에이전트를 다시 시작하여 새 MCP 도구 및 기술을 로드합니다. 자습서에 상점 첫 페이지가 필요한 경우 명령을 다시 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
+
+다음 설치 예는 체크아웃 스타터 키트에 대한 대화식 프롬프트 및 출력을 보여줍니다.
+
++++설치 예(체크아웃 스타터 키트)
+
+```shell-session
+aio commerce extensibility app-setup
+
+🚀 Adobe Commerce Extensibility App Setup
+
+✔ Logged in
+📁 Working directory: /Users/username/projects/my-commerce-project
+
+✔ Which starter kit would you like to use? Checkout Starter Kit
+✔ Enter a name for your project directory: my-extension
+✔ Which coding agent would you like to install the skills for? Cursor
+
+📦 Cloning Checkout Starter Kit...
+   ✔ Repository cloned
+   Using npm (package-lock.json found)
+   ✔ Dependencies installed
+
+📋 Current Adobe I/O Console configuration:
+   Org: My Organization (1234567)
+   Project: My Commerce Project (1234567890123456789)
+   Workspace: Stage (9876543210987654321)
+✔ Do you want to continue with this configuration? (Answer "No" to select a different org/project/workspace)
+No
+
+🔧 Selecting Adobe I/O Console org, project, and workspace...
+
+? Select Org: My Organization
+Org selected My Organization
+You are currently in:
+1. Org: My Organization
+2. Project: <no project selected>
+3. Workspace: <no workspace selected>
+
+? Select Project: My Commerce Project
+Project selected : My Commerce Project
+You are currently in:
+1. Org: My Organization
+2. Project: My Commerce Project
+3. Workspace: <no workspace selected>
+
+? Select Workspace: Stage
+Workspace selected Stage
+You are currently in:
+1. Org: My Organization
+2. Project: My Commerce Project
+3. Workspace: Stage
+
+✅ Console configured:
+   Org: My Organization
+   Project: My Commerce Project
+   Workspace: Stage
+
+🔐 Configuring workspace credentials and services...
+   ✔ Workspace configuration loaded
+   ✔ OAuth server-to-server credentials already configured
+   ✔ All required services available in organization
+   ✔ Subscribed to: Adobe Commerce as a Cloud Service
+
+📋 Configuring Checkout Starter Kit...
+   Creating .env from env.dist...
+✔ Select tenant (type to search) My Commerce Instance:
+https://<region>.api.commerce.adobe.com/<tenant-id>/graphql
+   ✔ Commerce instance configured
+✔ Enter the event prefix for your workspace: my-prefix
+   ✔ Workspace IDs configured
+   ✔ OAuth credentials configured
+   ✔ Checkout Starter Kit configured
+
+🔧 Installing Commerce Extensibility tools and agent skills...
+   ✔ Commerce Extensibility tools installed
+
+🎉 App setup complete!
+
+📁 Project directory: /Users/username/projects/my-commerce-project/my-extension
+
+Next steps:
+   1. cd into your project directory
+   2. Restart your coding agent to load the Commerce Extensibility tools and skills
+```
+
++++
+
+### 수동 설정 {#manual-setup}
+
+다음 섹션에서는 확장성 작업 영역의 각 구성 요소를 수동으로 설정하는 방법을 설명합니다. 수동 구성을 선호하거나 [자동화된 설정](#automated-setup)에 문제가 있는 경우 다음 단계를 따르십시오.
 
 ### Adobe Developer Console 사전 요구 사항
 
@@ -267,20 +386,26 @@ aio app use --merge
 
    ![AI 확장성 도구를 표시하는 터미널(체크아웃 시작 키트를 선택함)](../assets/tools-setup-checkout.png){width="600" zoomable="yes"}
 
-## Storefront 사전 요구 사항
+## Storefront 수동 설정
+
+이 섹션에서는 [등급 확장 튜토리얼](./ratings-extension.md) 및 기타 storefront 튜토리얼을 위해 스토어프론트를 수동으로 구성하는 방법에 대해 설명합니다.
+
+상점을 자동으로 구성하려면 `app-setup`자동 설정[ 섹션에 설명된 ](#automated-setup) 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
+
+### 사전 요구 사항
 
 다음 항목은 [등급 확장 자습서](./ratings-extension.md#connect-to-the-storefront)의 [storefront](./ratings-extension.md) 섹션을 완료하고 스토어에서 제품 등급을 표시하는 데 필요합니다.
 
 * [Google Chrome](https://www.google.com/chrome/) - 상점 첫 화면 테스트에 필요
 
-* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#link-repo-to-commerce-data){target="_blank"}의 단계를 따릅니다.
+* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"}의 단계를 따릅니다.
 
 ### Storefront 리포지토리 복제
 
 터미널을 열고 저장소를 복제합니다.
 
 ```bash
-git clone --branch agentic-dev https://github.com/hlxsites/aem-boilerplate-commerce.git storefront
+git clone https://github.com/hlxsites/aem-boilerplate-commerce.git storefront
 cd storefront
 ```
 
@@ -294,7 +419,9 @@ npm install
 
 ### Storefront AI 도구 설치
 
-`storefront` 폴더에서 AI 지원 개발 도구를 설정합니다. 보일러플레이트 프로젝트의 루트에서 다음 명령을 실행합니다.
+`storefront` 폴더에서 AI 지원 개발 도구를 설정합니다.
+
+보일러플레이트 프로젝트의 루트에서 다음 명령을 실행합니다. 이 명령은 `@adobe-commerce/commerce-extensibility-tools` 패키지를 개발 종속성으로 설치하고 기술 파일을 에이전트의 기술 디렉터리에 복사하고 에이전트가 Commerce 설명서 검색 도구에 액세스할 수 있도록 MCP(Model Context Protocol)를 구성합니다.
 
 ```bash
 aio commerce extensibility tools-setup
@@ -305,5 +432,3 @@ aio commerce extensibility tools-setup
 1. **시작 키트 선택** — **AEM Boilerplate Commerce 선택**.
 
 1. **코딩 에이전트 선택** - 지원되는 에이전트 목록에서 에이전트를 선택합니다.
-
-이 명령은 `@adobe-commerce/commerce-extensibility-tools` 패키지를 개발 종속성으로 설치하고 기술 파일을 에이전트의 기술 디렉터리에 복사하고 에이전트가 Commerce 설명서 검색 도구에 액세스할 수 있도록 MCP(Model Context Protocol)를 구성합니다.
