@@ -17,8 +17,8 @@ ht-degree: 0%
 ## 일반
 
 - 검색 어댑터는 [&#x200B; 4.0.0부터 &#x200B;](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]됩니다. PLP(제품 목록 페이지) 위젯은 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 검색 어댑터는 보안 관련 업데이트만 받습니다. PLP 위젯으로 마이그레이션하는 방법에 대한 자세한 내용은 [마이그레이션 안내서](migrate-to-plp.md)를 참조하십시오.
-- [이(가) 설치되어 있고 상점 바닥글의 고급 검색 링크가 제거되면 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search)고급 검색[!DNL Live Search] 모듈이 비활성화됩니다.
-- [&#x200B; 필드 및 제품 목록 페이지 위젯에서는 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier)계층 가격 책정[!DNL Live Search]이 지원되지 않습니다.
+- [이(가) 설치되어 있고 상점 바닥글의 고급 검색 링크가 제거되면 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search)고급 검색[!DNL Live Search] 모듈이 비활성화됩니다.
+- [&#x200B; 필드 및 제품 목록 페이지 위젯에서는 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-tier)계층 가격 책정[!DNL Live Search]이 지원되지 않습니다.
 - 제품 가격에는 부가가치세(VAT)가 포함되어 있지만 [!DNL Live Search]에서는 VAT를 별도의 값으로 표시할 수 없습니다.
 - 컨텐츠 검색(CMS 페이지 및 블록)은 지원되지 않습니다.
 - 페이지 번호를 지정할 수 있는 최대 결과 수는 10,000개입니다. 카테고리 또는 검색 결과에 많은 수의 제품이 포함되어 있는 경우 쇼핑객이 페이지 매김을 사용할 필요가 없도록 하려면 제품을 필터링할 수 있는 의미 있는 방법을 제공하십시오.
@@ -29,7 +29,7 @@ ht-degree: 0%
 - [개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations)에 설명된 대로 일부 제한 사항이 있는 &quot;다음으로 시작&quot; 또는 &quot;포함&quot; 조건을 사용하여 결과를 필터링할 수 있습니다.
 - 지난 해 내에서만 성과 지표를 추적할 수 있습니다.
 - 검색 쿼리에 여러 단어가 포함되어 있는 경우 단어 사이에 공백이 있으면 해당 단어가 별도의 검색어로 처리됩니다. 여러 단어 검색 쿼리를 처리하려면 [동의어](./synonyms.md)를 사용하십시오.
-- [!DNL Live Search]은(는) 기본적으로 [검색어 리디렉션](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms)을 지원하지 않습니다. Fastly 또는 다른 사용자 지정 구성을 사용하여 리디렉션을 구현합니다.
+- [!DNL Live Search]은(는) 기본적으로 [검색어 리디렉션](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)을 지원하지 않습니다. Fastly 또는 다른 사용자 지정 구성을 사용하여 리디렉션을 구현합니다.
 
 ## 색인화
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 ## 패싯
 
 - 정의된 필터링 가능한 속성 집합에서 최대 100개의 속성을 패싯으로 구성할 수 있습니다.
-- Facet 내에서 최대 100개의 버킷이 반환될 수 있습니다. 100개가 넘는 버킷을 반환해야 하는 경우 [지원 티켓을 만드십시오](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide). 그러면 Adobe에서 성능에 대한 영향을 분석하고 환경에 대한 이 제한을 늘릴 수 있는지 확인할 수 있습니다.
+- Facet 내에서 최대 100개의 버킷이 반환될 수 있습니다. 100개가 넘는 버킷을 반환해야 하는 경우 [지원 티켓을 만드십시오](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide). 그러면 Adobe에서 성능에 대한 영향을 분석하고 환경에 대한 이 제한을 늘릴 수 있는지 확인할 수 있습니다.
 - 동적 패싯은 큰 인덱스와 순서가 높은 인덱스에서 성능 문제를 일으킬 수 있습니다. 동적 패싯을 만들어 성능 저하 또는 페이지가 시간 초과 오류와 함께 로드되지 않은 것을 발견한 경우 패싯을 고정으로 변경하여 성능 문제가 해결되는지 확인하십시오.
 - 재고 상태(`quantity_and_stock_status`)는 패싯으로 지원되지 않습니다. `inStock: 'true'`을(를) 사용하여 재고 제품을 필터링할 수 있습니다. 이는 `LiveSearchAdapter` 관리자의 &quot;재고 부족 제품 표시&quot;가 &quot;True&quot;로 설정된 경우 [!DNL Commerce] 모듈에서 즉시 지원됩니다.
 - 날짜 유형 속성은 패싯으로 지원되지 않습니다.
@@ -84,12 +84,12 @@ ht-degree: 0%
 ## B2B 및 범주 권한
 
 - 기본 공유 카탈로그에 추가되지 않은 제품은 표시되지 않습니다.
-- [범주 권한](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions)을 사용하여 고객 그룹을 제한하려면 다음을 수행하십시오.
+- [범주 권한](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/category-permissions)을 사용하여 고객 그룹을 제한하려면 다음을 수행하십시오.
    - 제품을 루트 범주에 할당해야 합니다. (**참고:** SaaS 데이터 내보내기 확장을 버전 103.4.0+로 업데이트하여 이 제한을 제거할 수 있습니다. [데이터 내보내기 확장 관리](../data-export/manage-extension.md)를 참조하십시오.
    - &quot;로그인되지 않은&quot; 고객 그룹에는 &quot;허용&quot; 검색 권한이 부여되어야 합니다.
-   - 제품을 &quot;로그인되지 않음&quot; 고객 그룹으로 제한하려면 각 범주로 이동하여 각 [고객 그룹](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)에 대한 권한을 설정합니다.
+   - 제품을 &quot;로그인되지 않음&quot; 고객 그룹으로 제한하려면 각 범주로 이동하여 각 [고객 그룹](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)에 대한 권한을 설정합니다.
 - PWA Studio에서 PLP 위젯을 사용하는 B2B에 대한 기본 지원은 현재 지원되지 않습니다. 그러나 [API를 사용](install.md#pwa-support)하여 이 기능을 구현할 수 있습니다.
-- [!DNL Live Search]의 범주 패싯에 특정 [고객 그룹](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)에 표시할 수 없는 범주가 표시될 수 있습니다.
+- [!DNL Live Search]의 범주 패싯에 특정 [고객 그룹](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)에 표시할 수 없는 범주가 표시될 수 있습니다.
 - [!DNL Live Search]에서는 최대 1,000개의 고객 그룹을 지원할 수 있습니다.
 
 ## [!DNL Storefront popover]
@@ -104,8 +104,8 @@ ht-degree: 0%
 
 [!DNL Live Search]의 일반적인 문제를 해결하는 데 대한 도움말을 보려면 다음 기술 자료를 참조하십시오.
 
-- [[!DNL Live Search] 카탈로그가 동기화되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) - Adobe Commerce 스토어와 Live Search 서비스 간에 제품 카탈로그 데이터가 올바르게 동기화되지 않는 경우 솔루션을 제공합니다. 이 문서에서는 동기화 상태를 확인하고, 동기화 오류를 식별하며, 데이터 동기화 문제를 해결하는 방법에 대해 설명합니다.
-- [[!DNL Live Search] 대시보드 및 검색 결과 순위가 잘못됨](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect) - 실시간 검색 대시보드에 표시된 검색 결과 또는 성능 지표가 예상대로 표시되지 않는 문제를 해결합니다. 이 문서에서는 순위 불일치 및 대시보드 데이터 불일치를 해결하는 방법에 대해 설명합니다.
-- [[!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted) - 패싯 값이 알파벳순이 아닌 예기치 않은 순서로 표시되는 문제를 해결합니다. 이 문서에서는 상점 첫 화면에서 패싯 정렬 동작을 구성하고 수정하는 단계를 제공합니다.
+- [[!DNL Live Search] 카탈로그가 동기화되지 않음](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) - Adobe Commerce 스토어와 Live Search 서비스 간에 제품 카탈로그 데이터가 올바르게 동기화되지 않는 경우 솔루션을 제공합니다. 이 문서에서는 동기화 상태를 확인하고, 동기화 오류를 식별하며, 데이터 동기화 문제를 해결하는 방법에 대해 설명합니다.
+- [[!DNL Live Search] 대시보드 및 검색 결과 순위가 잘못됨](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect) - 실시간 검색 대시보드에 표시된 검색 결과 또는 성능 지표가 예상대로 표시되지 않는 문제를 해결합니다. 이 문서에서는 순위 불일치 및 대시보드 데이터 불일치를 해결하는 방법에 대해 설명합니다.
+- [[!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted) - 패싯 값이 알파벳순이 아닌 예기치 않은 순서로 표시되는 문제를 해결합니다. 이 문서에서는 상점 첫 화면에서 패싯 정렬 동작을 구성하고 수정하는 단계를 제공합니다.
 
-추가 지원이 필요한 경우 [지원](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하십시오.
+추가 지원이 필요한 경우 [지원](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하십시오.
