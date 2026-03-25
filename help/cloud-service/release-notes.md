@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ### 일회용 코드를 사용하여 고객으로 로그인
 
-이제 관리자는 [ 및 REST API를 통해 고객 가장에 대해 ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer)일회성 코드[!DNL Commerce Admin]을(를) 생성할 수 있습니다. `generateCustomerToken` 또는 `exchangeOtpForCustomerToken` GraphQL 돌연변이를 통해 일회성 코드를 고객 액세스 토큰으로 교환할 수 있으므로 판매자 지원 쇼핑 시나리오에 대해 암호 없는 &quot;고객으로 로그인&quot; 흐름이 가능합니다. <!-- ACCS-404 -->
+이제 관리자는 [&#x200B; 및 REST API를 통해 고객 가장에 대해 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer)일회성 코드[!DNL Commerce Admin]을(를) 생성할 수 있습니다. `generateCustomerToken` 또는 `exchangeOtpForCustomerToken` GraphQL 돌연변이를 통해 일회성 코드를 고객 액세스 토큰으로 교환할 수 있으므로 판매자 지원 쇼핑 시나리오에 대해 암호 없는 &quot;고객으로 로그인&quot; 흐름이 가능합니다. <!-- ACCS-404 -->
 
 API를 사용하여 이 기능을 구현하는 방법에 대한 지침은 [REST API](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) 및 [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/) 설명서를 참조하십시오.
 
@@ -179,7 +179,7 @@ mutation {
 
 ### 관리를 통해 App Builder 앱 관리에 액세스
 
-이제 [!DNL Commerce Admin]에 Commerce 인스턴스와 연결된 [개의 앱을 관리하기 위한 통합 셸인 ](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"}앱 관리[!DNL App Builder]에 연결되는 메뉴 항목이 포함되어 있습니다. 이 추가는 최신 관리 UI SDK 업데이트를 통해 제공됩니다. <!-- CEXT-5755 -->
+이제 [!DNL Commerce Admin]에 Commerce 인스턴스와 연결된 [개의 앱을 관리하기 위한 통합 셸인 &#x200B;](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"}앱 관리[!DNL App Builder]에 연결되는 메뉴 항목이 포함되어 있습니다. 이 추가는 최신 관리 UI SDK 업데이트를 통해 제공됩니다. <!-- CEXT-5755 -->
 
 ### 요청 엔티티 생성 제한 변경
 
@@ -330,11 +330,11 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 ### 인스턴스별 관리자 액세스
 
-이제 Admin Console에서 [사용자에게 개별 ](./user-management.md#add-users) 인스턴스에 액세스 권한을 할당[!DNL Adobe Commerce as a Cloud Service]할 수 있습니다. <!-- CCSAAS-4337 --><!-- See PR #332 -->
+이제 Admin Console에서 [사용자에게 개별 &#x200B;](./user-management.md#add-users) 인스턴스에 액세스 권한을 할당[!DNL Adobe Commerce as a Cloud Service]할 수 있습니다. <!-- CCSAAS-4337 --><!-- See PR #332 -->
 
 ### 가시성
 
-[!DNL App Builder]을(를) 사용하면 이제 자동으로 사용할 수 있는 [!DNL Adobe Commerce as a Cloud Service]OpenTelemetry observability[을(를) 사용하여 ](https://developer.adobe.com/commerce/extensibility/observability/) 인스턴스에 대한 더 깊은 가시성을 얻을 수 있습니다. OpenTelemetry는 성능 모니터링, 문제 해결 속도 향상 및 상점 최적화에 도움이 되는 지표, 로그 및 추적을 제공합니다. 이 기능을 통해 시스템 상태에 대한 사전 예방적 통찰력을 확보하고 고객의 안정성을 향상시킬 수 있습니다.
+[!DNL App Builder]을(를) 사용하면 이제 자동으로 사용할 수 있는 [!DNL Adobe Commerce as a Cloud Service]OpenTelemetry observability[을(를) 사용하여 &#x200B;](https://developer.adobe.com/commerce/extensibility/observability/) 인스턴스에 대한 더 깊은 가시성을 얻을 수 있습니다. OpenTelemetry는 성능 모니터링, 문제 해결 속도 향상 및 상점 최적화에 도움이 되는 지표, 로그 및 추적을 제공합니다. 이 기능을 통해 시스템 상태에 대한 사전 예방적 통찰력을 확보하고 고객의 안정성을 향상시킬 수 있습니다.
 
 >[!NOTE]
 >
@@ -374,7 +374,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 * [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads) 및 [REST](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/s3-uploads)에서 사전 서명된 URL을 사용하여 협상 가능한 견적 첨부 파일뿐만 아니라 고객 및 고객 주소와 연결된 파일 및 이미지를 Amazon S3에 업로드하고 검색하는 기능이 추가되었습니다. REST를 사용하면 카테고리 이미지를 업로드할 수도 있습니다. <!-- CCSAAS-3250 -->
 
-* 고객을 만들고 업데이트하기 위해 `POST /V1/customers`REST API`PUT /V1/customers/{customerId}`에 [ 및 ](https://developer.adobe.com/commerce/webapi/rest/reference/) 끝점을 추가했습니다. 이러한 엔드포인트는 IMS 인증을 필요로 합니다. <!-- CCSAAS-3112 -->
+* 고객을 만들고 업데이트하기 위해 `POST /V1/customers`REST API`PUT /V1/customers/{customerId}`에 [&#x200B; 및 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/reference/) 끝점을 추가했습니다. 이러한 엔드포인트는 IMS 인증을 필요로 합니다. <!-- CCSAAS-3112 -->
 
 * 쇼핑객 전자 메일 주소와 OTP(일회용 암호)가 필요한 [`exchangeOtpForCustomerToken` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/exchange-otp-customer-token/)을(를) 추가하고 고객 토큰을 교환으로 받았습니다. 이 돌연변이는 일반적으로 고객이 이메일 또는 전화로 전송된 OTP를 사용하여 인증해야 하는 시나리오에서 사용됩니다.
 
