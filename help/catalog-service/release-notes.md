@@ -37,13 +37,13 @@ ht-degree: 0%
 
 _2025년 2월 19일_
 
-![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;[용 ](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6933-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6933-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.47 릴리스
 
 _2025년 2월 12일_
 
-![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점[용 ](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6949-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6949-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.46 릴리스
 
@@ -460,7 +460,7 @@ _2023년 3월 28일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) [`products`](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/) 쿼리에 견본을 추가했습니다.
-![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 ](mesh.md)을(를) 가져오는 기능을 추가했습니다.
+![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 &#x200B;](mesh.md)을(를) 가져오는 기능을 추가했습니다.
 
 ### v1.5 릴리스
 
