@@ -3,9 +3,9 @@ title: '[!DNL Commerce Storefront Catalog Service Release Notes]'
 description: Adobe Commerce의  [!DNL Catalog Service] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Catalog Service, Release Notes
 exl-id: 74f2e46a-5592-4857-a6d7-b95b85d8b4cc
-source-git-commit: 9ba7a964243c616cc7e40fb180a855b839cd4597
+source-git-commit: 20ef635da00fb12b2efd5c1397f3d2de109d47fe
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 _2025년 2월 19일_
 
-![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6933-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;[용 ](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6933-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.47 릴리스
 
 _2025년 2월 12일_
 
-![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6949-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점[용 ](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6949-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.46 릴리스
 
@@ -111,7 +111,7 @@ _2025년 11월 3일_
 - 레이어 마스크로 필드 수준 무시 제어
 - 프리미엄, 시즌 및 모바일에 최적화된 콘텐츠 레이어 지원
 
-  레이어는 기존 `products` 쿼리를 사용하여 검색되고, 요청 헤더에서 서버측에 적용되며, 스키마 변경이 필요하지 않습니다. [Adobe Commerce Optimizer 안내서](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-layer)에서 _카탈로그 계층_&#x200B;을 참조하세요.
+  레이어는 기존 `products` 쿼리를 사용하여 검색되고, 요청 헤더에서 서버측에 적용되며, 스키마 변경이 필요하지 않습니다. [Adobe Commerce Optimizer 안내서](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-layer)에서 _카탈로그 계층_&#x200B;을 참조하세요.
 
 ![수정](../assets/fix.svg) 이제 상위 제품에 가격표가 없을 때 그룹화된 제품에 대해 쿼리할 수 있습니다. 하위 제품은 고유한 표시 역할을 반환합니다.<!--DATA-6779-->
 
@@ -222,7 +222,7 @@ _2025년 7월 15일_
 
 _2025년 6월 20일_
 
-![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
+![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
 
 ![새로 만들기](../assets/new.svg) **대/소문자를 구분하지 않는 키**—쿼리의 키 조회는 이제 대/소문자를 구분하지 않으므로 키 대/소문자에서 오류가 줄어듭니다. <!--DATA-6494, DCAT-2495-->
 
@@ -351,7 +351,7 @@ _2024년 5월 23일_
 
 ![수정](../assets/fix.svg) <!--DATA-5033-->옵션 값에 대한 `InStock` 플래그는 이제 제품 변형의 범위 `enabled` 상태를 따릅니다.
 
-![수정](../assets/fix.svg) <!--DATA-5888-->최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../landing/catalog-sync.md#command-line-interface)에서 다시 동기화하십시오.
+![수정](../assets/fix.svg) <!--DATA-5888-->최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../landing/catalog-sync.md#command-line-interface)에서 다시 동기화하십시오.
 
 #### 알려진 제한 사항
 
@@ -385,7 +385,7 @@ _2024년 2월 22일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
 
 ### v1.16 릴리스
 
@@ -460,7 +460,7 @@ _2023년 3월 28일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) [`products`](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/) 쿼리에 견본을 추가했습니다.
-![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 &#x200B;](mesh.md)을(를) 가져오는 기능을 추가했습니다.
+![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 ](mesh.md)을(를) 가져오는 기능을 추가했습니다.
 
 ### v1.5 릴리스
 
@@ -554,7 +554,7 @@ _2025년 10월 14일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) **데이터 서비스 업그레이드**—`magento/data-services` 종속성이 ^8.0.0으로 업데이트되었습니다. 업그레이드하기 전에 8.x 호환성에 대한 환경 및 사용자 지정 데이터 서비스 API 사용을 확인하십시오.
-ea
+
 ![새로 만들기](../assets/new.svg) 3.3.0 릴리스에 대한 버전 및 메타데이터를 업데이트했습니다.
 
 ### v3.2.0 릴리스
@@ -577,6 +577,20 @@ _2024년 1월 26일_
 - 카탈로그 동기화와 관련된 관리 UI 및 구성에 대한 **카탈로그 동기화 관리자** `magento/module-catalog-sync-admin`.
 
 ![새로 만들기](../assets/new.svg) 버전 및 3.1.0 릴리스의 메타데이터를 업데이트했습니다.
+
+## 카탈로그 서비스 설치 관리자
+
+설치 관리자는 카탈로그 서비스 확장과 함께 제공되며 카탈로그 서비스가 Commerce 스택과 일치하도록 설치 및 환경 검사를 처리합니다.
+
+- **Adobe Commerce as a Cloud Service** 고객의 경우 최신 설치 관리자 버전이 환경에 설치되어 있습니다.
+
+- **클라우드 인프라의 Adobe Commerce** 또는 **온-프레미스**&#x200B;의 경우 설치 관리자를 [카탈로그 서비스 메타패키지](#catalog-service-metapackage)와(과) 함께 맞추세요. `magento/catalog-service-installer`을(를) 업그레이드할 때마다 또는 이 릴리스 노트에서 새 PHP 버전에 대한 지원과 같이 필요한 변경 내용을 설명하는 경우 작성기를 사용하여 `magento/catalog-service`을(를) 업그레이드하세요. 이렇게 하면 실행 중인 카탈로그 서비스 버전과 설치 도구가 호환됩니다.
+
+### v1.0.6 릴리스
+
+_2026년 3월 25일_
+
+![새로 만들기](../assets/new.svg) **PHP 8.5**—카탈로그 서비스가 PHP 8.5에서 작동할 때 호환성을 보장합니다.
 
 ## 관련 설명서
 
