@@ -5,7 +5,7 @@ feature-set: Commerce
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
 source-git-commit: 9eebdd86f0bdeb11a9150fc088e9b4075b7a61df
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)를 참조하십시오.
+>Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
 ## 2026년 4월 {#latest}
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ### 음수 값을 지원하는 숫자 제품 속성 만들기
 
-새 `numeric` [제품 특성 입력 형식](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)을(를) 사용하면 판매자는 음수 값을 지원하는 10진수 특성을 만들 수 있습니다. <!-- ACCS-600 -->
+새 `numeric` [제품 특성 입력 형식](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types)을(를) 사용하면 판매자는 음수 값을 지원하는 10진수 특성을 만들 수 있습니다. <!-- ACCS-600 -->
 
 ### 하나의 GraphQL 요청에서 여러 양식에 대한 쿼리 reCAPTCHA 구성
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ### 일회용 코드를 사용하여 고객으로 로그인
 
-이제 관리자는 [&#x200B; 및 REST API를 통해 고객 가장에 대해 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer)일회성 코드[!DNL Commerce Admin]을(를) 생성할 수 있습니다. `generateCustomerToken` 또는 `exchangeOtpForCustomerToken` GraphQL 돌연변이를 통해 일회성 코드를 고객 액세스 토큰으로 교환할 수 있으므로 판매자 지원 쇼핑 시나리오에 대해 암호 없는 &quot;고객으로 로그인&quot; 흐름이 가능합니다. <!-- ACCS-404 -->
+이제 관리자는 [&#x200B; 및 REST API를 통해 고객 가장에 대해 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer)일회성 코드[!DNL Commerce Admin]을(를) 생성할 수 있습니다. `generateCustomerToken` 또는 `exchangeOtpForCustomerToken` GraphQL 돌연변이를 통해 일회성 코드를 고객 액세스 토큰으로 교환할 수 있으므로 판매자 지원 쇼핑 시나리오에 대해 암호 없는 &quot;고객으로 로그인&quot; 흐름이 가능합니다. <!-- ACCS-404 -->
 
 API를 사용하여 이 기능을 구현하는 방법에 대한 지침은 [REST API](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) 및 [GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/) 설명서를 참조하십시오.
 
@@ -92,7 +92,7 @@ API를 사용하여 이 기능을 구현하는 방법에 대한 지침은 [REST 
 
 ### 제품 속성을 통해 PDF 및 기타 파일 업로드
 
-새 &quot;file&quot; [특성 입력 형식](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)을(를) 사용하면 PDF와 같은 파일을 개별 제품에 업로드할 수 있는 특성 집합을 만들 수 있습니다. [!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL _카탈로그_] > [!UICONTROL **제품 파일 특성**]&#x200B;으로 이동하여 허용되는 파일 확장명과 최대 파일 크기를 구성할 수 있습니다. <!-- ACCS-535, ACCS-565 -->
+새 &quot;file&quot; [특성 입력 형식](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types)을(를) 사용하면 PDF와 같은 파일을 개별 제품에 업로드할 수 있는 특성 집합을 만들 수 있습니다. [!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL _카탈로그_] > [!UICONTROL **제품 파일 특성**]&#x200B;으로 이동하여 허용되는 파일 확장명과 최대 파일 크기를 구성할 수 있습니다. <!-- ACCS-535, ACCS-565 -->
 
 ### 회사 사용자 지정 속성 구성
 
@@ -103,7 +103,7 @@ API를 사용하여 이 기능을 구현하는 방법에 대한 지침은 [REST 
 
 ### GraphQL을 통해 가격 및 주식 알림 구독
 
-이제 EDS 상점 전면이 [가격 및 재고 알림](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup)과(와) 함께 작동합니다. <!-- ACCS-334 -->
+이제 EDS 상점 전면이 [가격 및 재고 알림](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup)과(와) 함께 작동합니다. <!-- ACCS-334 -->
 
 또한 가격 및 재고 경고를 구독하거나 구독 취소하는 몇 가지 새로운 GraphQL 돌연변이가 있습니다.
 
@@ -222,7 +222,7 @@ mutation {
 
 ### 요청 엔티티 생성 제한 변경
 
-기존에는 홈페이지, 스토어, 스토어 조회수 제한이 50개로 제한됐다. 필요한 경우 [지원 요청](https://experienceleague.adobe.com/home?support-tab=home#support)을 제출하여 이러한 제한을 수정할 수 있습니다. <!-- ACCS-398 -->
+기존에는 홈페이지, 스토어, 스토어 조회수 제한이 50개로 제한됐다. 필요한 경우 [지원 요청](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)을 제출하여 이러한 제한을 수정할 수 있습니다. <!-- ACCS-398 -->
 
 ### 구조화된 오류 코드로 상점 인증 메시지 사용자 지정
 
@@ -230,7 +230,7 @@ mutation {
 
 ### 장바구니 및 위시리스트 비활동에 대한 자동 이메일 미리 알림 보내기
 
-[전자 메일 미리 알림 모듈](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)&#x200B;(`Magento_Reminder`)이(가) 이제 [!DNL Adobe Commerce as a Cloud Service]에서 활성 상태이므로 가맹점은 장바구니 및 위시리스트 비활성에 따라 고객에게 전자 메일을 트리거하는 자동화된 미리 알림 규칙을 만들 수 있습니다. <!-- CCSAAS-4597 -->
+[전자 메일 미리 알림 모듈](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)&#x200B;(`Magento_Reminder`)이(가) 이제 [!DNL Adobe Commerce as a Cloud Service]에서 활성 상태이므로 가맹점은 장바구니 및 위시리스트 비활성에 따라 고객에게 전자 메일을 트리거하는 자동화된 미리 알림 규칙을 만들 수 있습니다. <!-- CCSAAS-4597 -->
 
 ### 범주 삭제 이벤트 웹후크 구독
 
@@ -238,7 +238,7 @@ mutation {
 
 ### 등록된 이메일과 함께 수행한 게스트 주문 추적
 
-새로운 선택적 저장소 수준 구성을 사용하면 등록된 고객 계정과 일치하는 이메일 주소를 사용하여 주문한 경우 고객이 수행한 게스트 주문을 [추적](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-guest#allow-guest-order-access-for-registered-emails)할 수 있습니다. <!-- ACCS-289 -->
+새로운 선택적 저장소 수준 구성을 사용하면 등록된 고객 계정과 일치하는 이메일 주소를 사용하여 주문한 경우 고객이 수행한 게스트 주문을 [추적](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-guest#allow-guest-order-access-for-registered-emails)할 수 있습니다. <!-- ACCS-289 -->
 
 ### 개선 사항 및 버그 수정
 
@@ -296,15 +296,15 @@ mutation {
 
 * 배송 주소 사용자 지정 특성을 포함하도록 [배송 웹후크 페이로드](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/shipping-use-cases/#payload)를 프로세스 외부에서 개선했습니다. 이 변경으로 판매자는 사용자 정의 배송 방법을 구현할 수 있습니다. <!-- ACCS-235 -->
 
-* [고객](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/customer-reports), [마케팅](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/marketing-reports), [제품](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/product-reports) 및 [판매](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/sales-reports)에 대한 보고서를 포함하는 관리 보고서에 대한 액세스 권한을 추가했습니다. <!-- CCSAAS-3085 -->
+* [고객](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/customer-reports), [마케팅](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/marketing-reports), [제품](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/product-reports) 및 [판매](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/sales-reports)에 대한 보고서를 포함하는 관리 보고서에 대한 액세스 권한을 추가했습니다. <!-- CCSAAS-3085 -->
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 없는 보고서는 PaaS로만 레이블 지정([!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."})됩니다.
+>[!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 없는 보고서는 PaaS로만 레이블 지정([!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."})됩니다.
 
 ### REST API를 통해 사용자 지정 송장 금액 캡처
 
-이제 Invoice API가 확장 특성을 사용하여 [사용자 지정 캡처 양](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)을 지원합니다. <!-- ACCS-186, ACCS-197, ACCS-143 -->
+이제 Invoice API가 확장 특성을 사용하여 [사용자 지정 캡처 양](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)을 지원합니다. <!-- ACCS-186, ACCS-197, ACCS-143 -->
 
 >[!NOTE]
 >
@@ -344,28 +344,28 @@ mutation {
 
 B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
-* 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
+* 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
 
-   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
-   * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
-   * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
-   * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
-   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
+   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
+   * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
+   * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
+   * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
+   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=ko)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
 
 * B2B Storefront 호환성 패키지를 출시했습니다. 이 패키지는 B2B 시스템의 개발을 개선하는 데 도움이 되도록 [!DNL Adobe Commerce] B2B GraphQL 스키마를 향상시킵니다.
 
 <!-- 
-* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
+* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
 
-* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
+* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/?lang=ko). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
 
 ### 외부 배송 추적기에 대한 클릭 가능한 링크
 
-[사용자 지정 추적 URL을 사용](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls)하여 쇼핑객 전자 메일에 포함된 배송 추적 번호를 일반 텍스트에서 클릭 가능한 링크로 변환합니다. 이 기능은 USPS, UPS, FedEx 및 DHL에서 지원됩니다. <!-- See PR #716 in commerce-admin -->
+[사용자 지정 추적 URL을 사용](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls)하여 쇼핑객 전자 메일에 포함된 배송 추적 번호를 일반 텍스트에서 클릭 가능한 링크로 변환합니다. 이 기능은 USPS, UPS, FedEx 및 DHL에서 지원됩니다. <!-- See PR #716 in commerce-admin -->
 
 ### Google reCAPTCHA Enterprise 지원
 
-[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
+[!DNL Adobe Commerce as a Cloud Service] 상점이 이제 [reCAPTCHA Enterprise](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise)을(를) 지원합니다. 이 기능은 적응형 위험 분석 및 머신 러닝을 사용하여 인간 사용자를 자동화된 봇과 정확하게 구별하여 고급 봇 보호를 제공합니다. 사이트 보안을 강화하고 사기 행위를 방지하며 스팸 및 남용을 줄여 신뢰할 수 있는 쇼핑 경험을 유지합니다. <!-- CCSAAS-4242 -->
 
 ### 인스턴스별 관리자 액세스
 
@@ -381,7 +381,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 ### 카탈로그 가격 규칙에 대한 계층 가격 책정
 
-이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules)을 사용하여 계층화된 가격 할인과 카탈로그 규칙 할인을 결합할 수 있습니다. 이 향상된 기능을 통해 보다 역동적이고 경쟁력 있는 가격 전략을 수립하고 일괄 구매에 대한 보상을 제공하는 동시에 판촉 할인을 적용할 수 있습니다. 따라서 고객을 유치하고 주문 가치를 높이며 전환을 유도하는 유연성이 향상됩니다.<!-- See PR #708 in commerce-admin -->
+이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules)을 사용하여 계층화된 가격 할인과 카탈로그 규칙 할인을 결합할 수 있습니다. 이 향상된 기능을 통해 보다 역동적이고 경쟁력 있는 가격 전략을 수립하고 일괄 구매에 대한 보상을 제공하는 동시에 판촉 할인을 적용할 수 있습니다. 따라서 고객을 유치하고 주문 가치를 높이며 전환을 유도하는 유연성이 향상됩니다.<!-- See PR #708 in commerce-admin -->
 
 ### 개선 사항 및 버그 수정
 
@@ -421,6 +421,6 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 #### 사용자 지정 순서 속성
 
-* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
+* 이제 관리자 사용자는 관리 패널의 [순서 보기], [편집] 및 [만들기] 화면에서 직접 [사용자 지정 순서 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)을 보고 편집할 수 있습니다. 이 향상된 기능은 GraphQL을 통해 만들어진 사용자 지정 주문 데이터의 관리를 개선합니다. <!-- CEXT-5044 -->
 
 >[!ENDSHADEBOX]
