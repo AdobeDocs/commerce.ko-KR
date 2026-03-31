@@ -2,9 +2,9 @@
 title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: a05f716200fbf2af74b8488ae66053a56e7037a0
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.
@@ -85,9 +85,9 @@ bin/magento saas:resync --feed= products --by-ids='1,2,3' --id-type='productId'
 
 `--dry-run` 옵션과 함께 사용하는 경우 작업은 모든 항목에 대해 시험 실행 다시 동기화 작업을 수행합니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
->환경을 정리한 후에만 사용하거나 `--dry-run` 옵션과 함께 사용합니다. 다른 경우에 사용되는 경우 정리 작업으로 인해 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
+>`cleanup-feed` 옵션과 함께 resync 명령을 사용하면 로컬 피드 내보내기 상태가 지워지고 동기화되지 않을 수 있습니다. 예를 들어, Adobe Commerce의 엔티티 삭제는 연결된 Commerce 서비스에 반영되지 않거나, Adobe Commerce에서 삭제되거나 업데이트되었더라도 오래된 엔티티가 원격 Commerce 서비스 인덱스에 남아 있을 수 있습니다. 이 옵션은 SaaS 데이터 공간 정리 후와 같이 전체 환경 재빌드에만 사용합니다.
 
 **예:**
 
@@ -139,7 +139,7 @@ bin/magento saas:resync --feed products --dry-run --cleanup-feed
 
 ## `--feed`
 
-필수. 다시 동기화할 피드 엔티티를 지정합니다.
+필수 여부. 다시 동기화할 피드 엔티티를 지정합니다.
 
 사용 가능한 피드:
 
