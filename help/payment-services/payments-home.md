@@ -40,14 +40,14 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 
 ## 홈
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 | 필드 | 설명 |
 |---|---|
 | [!UICONTROL Orders] | 이러한 보고서를 사용하면 주문 결제 상태를 빠르게 조회하고 잠재적인 문제를 식별할 수 있습니다. |
 | [!UICONTROL Payouts] | 지급 보고서는 종합적인 지급 정보를 한눈에 표시하므로, 지급 금액, 처리 수량 및 재무 조정을 위한 거래 수준에 대한 상세한 보고를 완전히 투명하게 확인할 수 있습니다. |
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 | 필드 | 설명 |
 |---|---|
