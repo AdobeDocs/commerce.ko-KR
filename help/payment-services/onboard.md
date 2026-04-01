@@ -1,13 +1,13 @@
 ---
 title: 온보딩 [!DNL Payment Services] 흐름
-description: 몇 가지 온보딩 단계를 완료하여 인스턴스를  [!DNL Payment Services] 기능과 연결하십시오.
+description: PaaS, 온-프레미스 및 SaaS에 대한 샌드박스 및 프로덕션 단계를 사용하여 Adobe Commerce 배포에 대한 온보딩을 완료하여  [!DNL Payment Services] 에 인스턴스를 연결합니다.
 role: User
 level: Intermediate
 exl-id: 1ee8c660-0941-4378-a1d7-ae45de3de211
 feature: Payments, Checkout, Integration, Paas, Saas
-source-git-commit: 999407f00b118441abe39209a15f587ec73fa75d
+source-git-commit: 2c6c812fd25feecfe5133d6623a1c814003d579c
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ ht-degree: 0%
 **버전 v2.4.7에 대한 온보딩 단계+ 1부: 샌드박스**
 
 1. Commerce 서비스에 [인스턴스 연결](connect.md#configure-commerce-services). 이 연결은 Commerce 인스턴스당 한 번만 완료되어야 합니다. [!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."}
-1. [PayPal 결제 처리 계정을 사용하여 샌드박스 서비스를 설정](sandbox.md#enable-sandbox-testing)(또는 다른 환경에서 기능을 테스트한 경우 [실시간 결제 활성화](sandbox.md#enable-live-payments))합니다.
+1. [샌드박스 서비스 설정](sandbox.md#enable-sandbox-testing)
 1. [샌드박스](sandbox.md#test-in-sandbox-environment) 환경에서 결제를 테스트합니다.
 
-[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/kr/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB 프로덕션]
 
@@ -80,10 +80,10 @@ ht-degree: 0%
 1. 필요한 경우 [확장 [!DNL Payment Services] 설치](install.md#get-payment-services)하세요.
 1. [API 자격 증명 가져오기](connect.md#obtain-api-credentials).
 1. Commerce 서비스에 [인스턴스 연결](connect.md#configure-commerce-services). 이 연결은 Commerce 인스턴스당 한 번만 완료되어야 합니다.
-1. [PayPal 결제 처리 계정을 사용하여 샌드박스 서비스를 설정](sandbox.md#enable-sandbox-testing)(또는 다른 환경에서 기능을 테스트한 경우 [실시간 결제 활성화](sandbox.md#enable-live-payments))합니다.
+1. [샌드박스 서비스 설정](sandbox.md#enable-sandbox-testing)
 1. [샌드박스](sandbox.md#test-in-sandbox-environment) 환경에서 결제를 테스트합니다.
 
-[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/kr/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB 프로덕션]
 
@@ -110,8 +110,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-> * [문제 해결 [!DNL Payment Services] 설치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=ko)
-> * [PayPal 샌드박스 계정이 확인되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=ko)
-> * [지연 [!DNL Payment Services] 보고서 데이터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=ko)
-> * [샌드박스 환경에서 결제를 처리할 때 PayPal로 신용 카드 테스트 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=ko)
-> * [확장 사용 안 함 [!DNL Payment Services] 확장 사용 안 함](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1)
+> * [문제 해결 [!DNL Payment Services] 설치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=en)
+> * [PayPal 샌드박스 계정이 확인되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)
+> * [지연 [!DNL Payment Services] 보고서 데이터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html)
+> * [샌드박스 환경에서 결제를 처리할 때 PayPal로 신용 카드 테스트 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=en)
+> * [확장 사용 안 함 [!DNL Payment Services] 확장 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1)
