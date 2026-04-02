@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여  [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+source-git-commit: e15624322fabb89d0b618f9d6c689445a7c448df
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -35,20 +35,69 @@ ht-degree: 0%
 
 ## 필터 유형
 
-![필터](../../assets/rec-conditions.png)
+각 필터 유형은 제품 및 가격과 같은 카탈로그의 다양한 측면을 타깃팅하므로 단위에 적합한 제품을 좁히거나 넓힐 수 있습니다. 머천다이징 목표와 일치하는 유형을 선택한 다음 필요에 따라 포함 및 제외 조건을 결합합니다. 아래 하위 섹션에서는 각 유형의 작동 방식과 [!DNL Adobe Commerce Optimizer]이(가) 해당 유형을 적용하는 방법을 설명합니다.
+
+>[!NOTE]
+>
+>**포함** 필터와 일치하는 제품만 추천할 수 있으며 **제외** 필터와 일치하는 제품은 모두 제거됩니다.
+
+### 가격
+
+>[!IMPORTANT]
+>
+>다음 기능은 Beta 버전입니다.
+
+가격 필터링은 권장 단위가 렌더링되는 상점 앞에 할당된 상점 **활성 가격 책**&#x200B;에 대해 각 제품의 **최종 계산된 가격**&#x200B;을 사용합니다. 이 값은 장부 가격에만 적용되는 것이 아니라 해당 가격 장부에 정의된 할인, 프로모션 및 특별 가격을 반영합니다. 평가는 해당 점포의 가격대만을 사용하며, 다른 점포나 가격대에는 적용되지 않습니다. 카탈로그와 [가격 장부](../../setup/pricebooks.md) 설정을 사용하여 가격 장부가 상점 앞에 매핑되는 방식을 구성합니다.
+
+#### 포함 및 제외 규칙의 가격 사용 방법
+
+- **포함 규칙** - 최종 가격 **정의된 포함 조건 모두와 일치**&#x200B;하는 제품만 사용할 수 있습니다. 여기에는 활성화된 모든 포함 필터(예: 가격 범위와 기타 포함 규칙)가 포함됩니다.
+- **제외 규칙** - 최종 가격 **정의된** 제외 조건과 일치하는 제품은 추천에서 제거됩니다.
+
+**표시된 가격** - 추천 단위 내 제품에 표시된 가격은 해당 상점의 가격책과 동일한 **최종 가격**&#x200B;이므로 쇼핑객이 보는 가격은 필터링에 사용된 값과 일치합니다.
+
+#### 가격 필터 설정
+
+1. 추천 단위를 [만들거나 편집](create.md)하는 동안 **[!UICONTROL Filter products]**&#x200B;을(를) 엽니다(또는 단위 워크플로에서 _필터_ 단계로 이동).
+1. 가격 범위의 제품만 허용할지 또는 범위 내의 제품을 차단할지 여부에 따라 **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭을 선택합니다. 각 탭의 배지는 활성화된 해당 유형의 필터 수를 보여줍니다.
+1. 왼쪽 목록에서 **[!UICONTROL Price]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Enable filter]**&#x200B;을(를) 켭니다.
+
+   가격 값은 페이지에 표시된 대로 **웹 사이트의 기본 통화**&#x200B;를 사용합니다.
+
+1. **[!UICONTROL Include products based on]** 탭에서 **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭에서 이와 동등한 컨트롤을 열고 **[!UICONTROL Set price range]**&#x200B;을(를) 선택합니다.
+1. 통화 기호 옆에 있는 필드를 사용하여 선택적 **[!UICONTROL Min price]** 및/또는 **[!UICONTROL Max price]**&#x200B;을(를) 설정합니다. 금액을 입력하거나 **-** 및 **+** 컨트롤을 사용하여 값을 조정할 수 있습니다. 최소값 또는 최대값이 필요하지 않으면 바인드를 비워 둡니다. 범위는 상점의 활성 가격 장부에 대한 각 제품의 최종 계산된 가격과 비교됩니다.
+1. 권장 사항 단위 구성을 완료하고 일반적인 방법으로 저장하거나 게시하여 필터가 적용됩니다.
+
+![가격 필터](../../assets/filter-price.png)
 
 ### 제품
 
-제품 필터는 권장 사항에 표시할 적격 또는 부적격 제품을 지정합니다. 비활성화되거나 개별적으로 표시되지 않는 제품은 권장 사항에 표시되지 않으므로 선택할 수 없습니다.
+제품 필터는 **SKU**&#x200B;별로 개별 카탈로그 항목을 타깃팅합니다. 하나 이상의 SKU를 추가하여 해당 제품(**포함**)만 허용하거나 차단(**제외**)합니다. **[!UICONTROL Filter products]**&#x200B;가격 필터[와 동일한 ](#price) 페이지를 사용합니다. 비활성화된 제품 또는 추천 단위에서 개별적으로 보이지 않는 제품은 표시해서는 안 됩니다. 이러한 제품은 필터에 관계없이 상점 앞에 표시되지 않습니다.
+
+#### 제품 필터 설정
+
+1. 추천 단위를 [만들거나 편집](create.md)하는 동안 **[!UICONTROL Filter products]**&#x200B;을(를) 엽니다(또는 단위 워크플로에서 _필터_ 단계로 이동).
+1. **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭을 선택합니다. 각 탭의 배지는 활성화된 해당 유형의 필터 수를 보여줍니다.
+1. 왼쪽 목록에서 **[!UICONTROL Product]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Enable filter]**&#x200B;을(를) 켭니다.
+
+   오른쪽 패널 머리글은 탭(예: **[!UICONTROL Product inclusions]** 또는 제외에 해당)을 반영합니다.
+
+1. **[!UICONTROL Product SKU]**&#x200B;에서 SKU를 입력하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 을 반복하여 SKU를 더 추가합니다.
+
+   **[!UICONTROL Product SKUs]**&#x200B;에서 각 SKU는 이동식 태그로 표시됩니다. 태그에서 **X**&#x200B;을(를) 클릭하여 해당 SKU를 제거하거나 **[!UICONTROL Clear All]**&#x200B;을(를) 클릭하여 목록에서 모든 SKU를 제거합니다.
+
+1. 권장 사항 단위 구성을 완료하고 일반적인 방법으로 저장하거나 게시하여 필터가 적용됩니다.
+
+**포함**&#x200B;의 경우 SKU가 나열된(그리고 다른 활성화된 포함 필터를 충족하는) 제품만 추천할 수 있습니다. **제외**&#x200B;의 경우, SKU가 나열되어 있는 제품은 그렇지 않더라도 권장되지 않습니다.
+
+![제품 필터](../../assets/filter-product.png)
 
 >[!NOTE]
 >
 >구성 가능한 제품의 하위 제품은 _개별적으로 표시되지 않음_&#x200B;의 가시성을 가지므로 추천 단위에 표시되지 않습니다.
 
-<!--### Price
-
-A filter based on the product price uses the final price to perform the comparison. The final price includes any discounts or special pricing available to anonymous shoppers.
-
-### Attribute
+<!--### Attribute
 
 You can filter products based on attribute criteria, including attribute values. Selected values use OR logic to either include or exclude products when any of the specified values are found.-->
