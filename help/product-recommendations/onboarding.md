@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >**제품 권장 사항은 HIPAA를 사용할 수 있는 서비스가 아닙니다.** HIPAA 지원 서비스를 사용하거나 PHI(보호 상태 정보)를 처리하는 Adobe Commerce 구현에서는 제품 권장 사항을 활성화하거나 사용하지 마십시오. 제품 권장 사항은 현재 비 HIPAA 준비로 분류된 Commerce SaaS 서비스의 일부입니다.
 >
->HIPAA가 준비된 Adobe Commerce 기능 및 PHI와 함께 사용하지 말아야 하는 서비스에 대한 자세한 내용은 [Adobe Commerce의 HIPAA 준비](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) 및 [작업](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/operations#adobe-commerce-services)을 참조하십시오.
+>HIPAA가 준비된 Adobe Commerce 기능 및 PHI와 함께 사용하지 말아야 하는 서비스에 대한 자세한 내용은 [Adobe Commerce의 HIPAA 준비](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) 및 [작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/operations#adobe-commerce-services)을 참조하십시오.
 
 [!DNL Product Recommendations]에 대한 온보딩 프로세스는 서버의 명령줄에 액세스해야 하며 다음 단계로 구성됩니다. 명령줄 작업에 익숙하지 않은 경우 개발자 또는 시스템 통합자에게 도움을 요청하십시오.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### B2B 지원 {#b2bsupport}
 
-B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](release-notes.md), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)을 준수하여 이 기능을 [지원](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
+B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](release-notes.md), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko)을 준수하여 이 기능을 [지원](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
 
 >[!NOTE]
 >
