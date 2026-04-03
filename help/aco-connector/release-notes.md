@@ -23,7 +23,7 @@ ht-degree: 0%
 
 _2026년 4월 2일_
 
-![새로 만들기](../assets/new.svg) **`saas:resync` 명령에 범주 피드에 대한 지원이 추가되었습니다. **-이제 `saas:resync` CLI 명령을 사용하여 최신 범주 데이터를 쉽게 새로 고치고 볼 수 있습니다.
+![새로 만들기](../assets/new.svg) **`saas:resync` 명령에 범주 피드에 대한 지원이 추가되었습니다. &#x200B;**-이제 `saas:resync` CLI 명령을 사용하여 최신 범주 데이터를 쉽게 새로 고치고 볼 수 있습니다.
 
 ```terminal
 bin/magento saas:resync --feed=categories
