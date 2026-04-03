@@ -2,7 +2,7 @@
 title: 상점 설정
 description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법에 대해 알아봅니다.'
 role: Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
 source-git-commit: b6f7286f223c6253ab9edbead63a4bc4a9baddfe
 workflow-type: tm+mt
@@ -57,7 +57,7 @@ ht-degree: 0%
 * **사이트**: 표준 서식 컨텐츠가 포함된 Storefront 랜딩 페이지
 * **코드**: 표준 서식 소스 파일이 있는 리포지토리
 * **콘텐츠**: 사이트 콘텐츠 파일이 있는 문서 작성 환경
-* **Commerce 구성**: 인스턴스별 구성의 경우 [Commerce 상점 구성](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/){target="_blank"}
+* **Commerce 구성**: 인스턴스별 구성의 경우 [Commerce 상점 구성](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko){target="_blank"}
 
 ### 1단계: 프로젝트 생성
 
@@ -218,25 +218,25 @@ ht-degree: 0%
 
 문제가 지속되는 경우:
 
-* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/){target="_blank"} 검토
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko){target="_blank"} 검토
 * [Adobe Commerce Optimizer 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/){target="_blank"}를 확인하세요.
-* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview){target="_blank"} 방문
+* [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview){target="_blank"} 방문
 
 ## 다음 단계
 
-* **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment){target="_blank"}**—로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
-* **[범용 편집기 사용](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/quick-start/universal-editor/){target="_blank"}**-범용 편집기를 사용하면 렌더링된 페이지의 컨텍스트에서 상점 콘텐츠를 편집할 수 있습니다. 그런 다음 콘텐츠는 로컬라이제이션, 벌크 게시, 스냅샷 등과 같은 대부분의 콘텐츠 오케스트레이션 앱을 사용할 수 있는 DA.live(문서 작성) 프로젝트에 저장됩니다.
+* **[로컬 개발 환경 설정](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#set-up-local-environment){target="_blank"}**—로컬 환경을 만들어 상점 코드 및 콘텐츠를 사용자 지정합니다.
+* **[범용 편집기 사용](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/quick-start/universal-editor/?lang=ko){target="_blank"}**-범용 편집기를 사용하면 렌더링된 페이지의 컨텍스트에서 상점 콘텐츠를 편집할 수 있습니다. 그런 다음 콘텐츠는 로컬라이제이션, 벌크 게시, 스냅샷 등과 같은 대부분의 콘텐츠 오케스트레이션 앱을 사용할 수 있는 DA.live(문서 작성) 프로젝트에 저장됩니다.
 
 ### 학습 및 탐색
 
 * **[엔드 투 엔드 사용 사례 완료](./use-case/admin-use-case.md)** - [!DNL Adobe Commerce Optimizer]을(를) 사용한 상점 설정 및 카탈로그 관리에 대해 자세히 알아봅니다.
 
-* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/){target="_blank"}**—고급 설정 및 구성 옵션에 대해 알아봅니다.
+* **[Storefront 사용자 지정 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko){target="_blank"}**—고급 설정 및 구성 옵션에 대해 알아봅니다.
 
-* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/){target="_blank"}** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
+* **[Commerce 드롭인을 사용하여 Storefront 경험을 사용자 지정](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko){target="_blank"}** 미리 빌드된 구성 요소를 추가하여 Storefront 경험을 개선합니다.
 
 * **Storefront 구성 서비스로 마이그레이션**—초기 Storefront를 만든 후 구성을 마이그레이션하여 Repoless 구성 및 오버레이와 같은 고급 사용 사례를 지원하는 구성 서비스를 사용할 수 있습니다. 자세한 내용은 Adobe Experience Manager의 [구성 서비스](https://www.aem.live/docs/config-service-setup){target="_blank"} 설명서를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
-> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/){target="_blank"}를 참조하십시오.
+> 사이트 콘텐츠를 업데이트하고 Adobe Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 내용은 [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko){target="_blank"}를 참조하십시오.
