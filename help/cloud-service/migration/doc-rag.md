@@ -1,13 +1,13 @@
 ---
 title: 설명서 RAG 서비스
 description: Adobe Commerce 개발을 위해 AI 기반 설명서 검색 서비스를 사용하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 28396828516645abec3b42a2c6874afe9134dfb8
+source-git-commit: 6c7055be007d75ff4cf3673da9938d9d79779aef
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 이 RAG는 Adobe Commerce에 대한 질문을 할 수 있는 IDE 인터페이스를 제공하며 애플리케이션 개발 및 기타 마이그레이션 작업에 대한 모범 사례를 조언할 수 있습니다.
 
-RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Commerce 확장성 도구](./coding-tools.md) MCP(Model Context Protocol) 서버의 일부입니다.
+RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Commerce 확장성 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"} MCP(Model Context Protocol) 서버의 일부입니다.
 
 ## 사용 가능한 설명서
 
 다음 표에서는 RAG 서비스에서 현재 인덱싱되는 설명서와 관련 인덱스 검색을 트리거하는 데 사용할 수 있는 키워드에 대해 설명합니다. 포함된 설명서는 RAG 서비스를 개발함에 따라 계속 확장될 예정입니다.
 
-| 범주 | 색인 | 포함된 콘텐츠 | 키워드 |
+| 카테고리 | 색인 | 포함된 콘텐츠 | 키워드 |
 |-------|---------|---------|------------------------|
-| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
+| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
 | [확장성](https://developer.adobe.com/commerce/extensibility/) | commerce-extensibility-docs | Webhooks, 이벤트, 확장, 통합 | webhook, 이벤트, 확장, API mesh, GraphQL |
-| [Commerce](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
+| [Commerce](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
 | [App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, 런타임 작업, UI 확장 | 앱 빌더, 런타임 작업, React Spectrum |
 
 인덱스 선택에 대한 자세한 내용은 [자동 인덱스 선택](#automatic-index-selection-recommended) 및 [명시적 인덱스 선택](#explicit-index-selection)을 참조하세요.
@@ -46,7 +46,7 @@ RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Comm
 * **로컬 실행** - 모든 도구는 컴퓨터에서 로컬로 실행됩니다.
 * **보안 통신** - 문서 검색에서 토큰 유효성 검사와 함께 HTTPS를 사용합니다.
 
-프로덕션 끝점은 [Azure Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview)에 의해 보호되며, 다음 보호가 포함됩니다.
+프로덕션 끝점은 [Azure Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview)에 의해 보호되며, 여기에는 다음 보호가 포함됩니다.
 
 * Microsoft 기본 RuleSet 2.1 및 Bot Manager RuleSet 1.0이 포함된 웹 애플리케이션 방화벽(WAF)
 * 미국 수출 금지 지역 (쿠바, 이란, 북한, 시리아, 크림, 루한스크, 도네츠크)
@@ -187,7 +187,7 @@ RAG 서비스를 사용하려면 `/search-commerce-docs` Cursor 명령을 수동
 
 ## 사용자 지정 전면 도어 엔드포인트
 
-기본적으로 설명서 검색은 WAF 보호 기능을 사용하여 프로덕션 [Azure Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) 끝점을 사용합니다. 테스트 또는 개발 목적으로 `FRONT_DOOR_URL` 환경 변수로 재정의할 수 있습니다.
+기본적으로 문서 검색은 WAF 보호를 사용하여 프로덕션 [Azure 전면](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) 끝점을 사용합니다. 테스트 또는 개발 목적으로 `FRONT_DOOR_URL` 환경 변수로 재정의할 수 있습니다.
 
 사용자 지정 끝점을 사용하려면 이 끝점을 커서 MCP 구성에 추가하십시오.
 
