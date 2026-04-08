@@ -1,7 +1,7 @@
 ---
 title: 규칙 만들기 및 관리
 description: 검색, 기본 제품 목록 및 범주 페이지에 대한 머천다이징 규칙을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
 source-git-commit: 0d1ebaddada8be82645164368ebfbb6dd0a569cd
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >카탈로그 보기가 현재 [베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta)에 있습니다. Beta 참가자는 새 카탈로그 보기 범위를 활용하려면 기존 머천다이징 규칙을 다시 만들어야 합니다.
+   >카탈로그 보기가 현재 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta)에 있습니다. Beta 참가자는 새 카탈로그 보기 범위를 활용하려면 기존 머천다이징 규칙을 다시 만들어야 합니다.
 
 1. **[!UICONTROL Create rule]**&#x200B;을(를) 클릭하여 규칙 편집기를 시작합니다.
 
