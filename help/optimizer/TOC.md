@@ -4,7 +4,7 @@ user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 �
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: e5cb31d0daec30b78cebf4173b72a556e7a92dd2
+source-git-commit: 67e254242d93c6f05d4c204cbc39e50116605c6b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 11%
@@ -13,12 +13,11 @@ ht-degree: 11%
 
 # [!DNL Adobe Commerce Optimizer] {#optimizer}
 
-- [&#x200B; [!DNL Adobe Commerce Optimizer]이란?](overview.md)
+- [ [!DNL Adobe Commerce Optimizer]이란?](overview.md)
 - [시작](get-started.md)
 - [사용자 및 ID 관리](user-management.md)
 - [공동 책임](shared-responsibility.md)
 - [제한 및 경계](boundaries-limits.md)
-- [릴리스 정보](release-notes.md)
 - 결과 관리 {#manage-results}
    - [영업 기회](./manage-results/opportunities.md)
    - [성공 지표](./manage-results/success-metrics.md)
@@ -66,4 +65,4 @@ ht-degree: 11%
 - 개발자 리소스 {#developer}
    - [개발자 안내서 및 API 참조](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce 커넥터](./developer/salesforce-connector.md)
-
+- [릴리스 정보](release-notes.md)
