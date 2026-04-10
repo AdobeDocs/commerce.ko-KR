@@ -3,7 +3,7 @@ title: 릴리스 정보
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 최신 릴리스 정보입니다.'
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 source-git-commit: d0967674d05018f13dc6c8a562005d65d44e42ab
 workflow-type: tm+mt
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 | 확장성 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 | 확장성 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 | 확장성 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 | 확장성 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
 
 >[!ENDSHADEBOX]
 
@@ -144,6 +144,6 @@ ht-degree: 0%
 
 | 확장성 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
 
 >[!ENDSHADEBOX]
