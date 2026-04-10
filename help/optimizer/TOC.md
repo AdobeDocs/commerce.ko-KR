@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # [!DNL Adobe Commerce Optimizer] {#optimizer}
 
-- [ [!DNL Adobe Commerce Optimizer]이란?](overview.md)
+- [&#x200B; [!DNL Adobe Commerce Optimizer]이란?](overview.md)
 - [시작](get-started.md)
 - [사용자 및 ID 관리](user-management.md)
 - [공동 책임](shared-responsibility.md)
