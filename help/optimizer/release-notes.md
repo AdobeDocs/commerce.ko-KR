@@ -3,12 +3,12 @@ title: 릴리스 정보
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 최신 릴리스 정보입니다.'
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
-source-git-commit: d0967674d05018f13dc6c8a562005d65d44e42ab
+source-git-commit: a42f6b3348eed476095c6d9777ac9486579fe6ea
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
@@ -22,21 +22,15 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-### 카탈로그 규칙
+### 카탈로그 규칙(베타)
 
 이제 머천다이징 규칙에 [카테고리 규칙](./merchandising/rules/add.md)이 포함되어 있으므로, 검색에 대해 동일한 지능형 순위 및 수동 작업(고정, 증폭, 매몰)을 사용하여 하나 이상의 카테고리를 타깃팅하고 카테고리 페이지의 제품 순서를 제어할 수 있습니다.
 
-### 가격 필터
+### 가격 필터(베타)
 
 권장 사항 필터는 이제 제품의 최소 및 최대 가격 범위를 설정하는 데 사용할 수 있는 [가격 필터](./merchandising/recommendations/filters.md#price)를 지원합니다.
 
-### 추가 릴리스 정보
-
-[!DNL Adobe Commerce Optimizer]은(는) AEM Assets 통합, Commerce Optimizer 커넥터 및 [!DNL Adobe Commerce Storefront]의 최신 릴리스에서 작동합니다. 각 영역에 대한 릴리스 정보를 보려면 다음 링크를 사용하십시오.
-
-| 확장성 | 상점 첫 화면 |
-| --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+{{aco-release}}
 
 >[!ENDSHADEBOX]
 
@@ -46,15 +40,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
+### 머천다이징 규칙 및 권장 사항에 대한 카탈로그 보기(베타)
+
 [추천 단위를 만들기](./merchandising/recommendations/create.md) 또는 [머천다이징 규칙](./merchandising/rules/add.md)할 때 카탈로그 보기를 지정하는 기능이 추가되었습니다.
 
-### 추가 릴리스 정보
-
-[!DNL Adobe Commerce Optimizer]은(는) AEM Assets 통합, Commerce Optimizer 커넥터 및 [!DNL Adobe Commerce Storefront]의 최신 릴리스에서 작동합니다. 각 영역에 대한 릴리스 정보를 보려면 다음 링크를 사용하십시오.
-
-| 확장성 | 상점 첫 화면 |
-| --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+{{aco-release}}
 
 >[!ENDSHADEBOX]
 
@@ -72,13 +62,7 @@ ht-degree: 0%
 
 레이어 우선 순위 관리 및 Adobe Sites Optimizer 자동 수정 기능과의 통합을 포함하여 소스 데이터를 변경하지 않고 제품 데이터를 수정할 수 있도록 [카탈로그 레이어](./setup/catalog-layer.md)가 추가되었습니다.
 
-### 추가 릴리스 정보
-
-[!DNL Adobe Commerce Optimizer]은(는) AEM Assets 통합, Commerce Optimizer 커넥터 및 [!DNL Adobe Commerce Storefront]의 최신 릴리스에서 작동합니다. 각 영역에 대한 릴리스 정보를 보려면 다음 링크를 사용하십시오.
-
-| 확장성 | 상점 첫 화면 |
-| --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+{{aco-release}}
 
 >[!ENDSHADEBOX]
 
@@ -111,13 +95,7 @@ ht-degree: 0%
 
 이제 새로운 카테고리 REST API를 사용할 수 있으므로 관리자와 개발자는 탐색과 제품 그룹화를 위해 여러 카테고리 트리를 프로그래밍 방식으로 만들고, 업데이트하고, 관리할 수 있습니다. API는 글로벌 및 채널별 구성을 모두 지원하며 최대 10,000개의 카테고리 트리와 트리당 500개의 카테고리를 지원하는 높은 확장성을 위해 설계되었습니다. 자세한 내용은 [머천다이징 서비스 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#categories)의 _범주_&#x200B;을 참조하십시오.<!--DCAT-2649-->
 
-### 추가 릴리스 정보
-
-[!DNL Adobe Commerce Optimizer]은(는) AEM Assets 통합, Commerce Optimizer 커넥터 및 [!DNL Adobe Commerce Storefront]의 최신 릴리스에서 작동합니다. 각 영역에 대한 릴리스 정보를 보려면 다음 링크를 사용하십시오.
-
-| 확장성 | 상점 첫 화면 |
-| --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+{{aco-release}}
 
 >[!ENDSHADEBOX]
 
@@ -138,12 +116,6 @@ ht-degree: 0%
 
 ![인스턴스 만들기](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
 
-### 추가 릴리스 정보
-
-[!DNL Adobe Commerce Optimizer]은(는) AEM Assets 통합, Commerce Optimizer 커넥터 및 [!DNL Adobe Commerce Storefront]의 최신 릴리스에서 작동합니다. 각 영역에 대한 릴리스 정보를 보려면 다음 링크를 사용하십시오.
-
-| 확장성 | 상점 첫 화면 |
-| --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+{{aco-release}}
 
 >[!ENDSHADEBOX]
