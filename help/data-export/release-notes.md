@@ -62,7 +62,7 @@ _2026년 2월 6일_
 
 _2026년 2월 2일_
 
-![수정](../assets/fix.svg) 업데이트 중에 항목 배치가 허용된 한도를 초과하여 데이터를 `items_limit_exceeded`Commerce 서비스[ 또는 ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)Adobe Commerce Optimizer[과(와) 동기화할 때 ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) 오류가 발생하는 문제를 해결했습니다. <!--MDEE-1264-->
+![수정](../assets/fix.svg) 업데이트 중에 항목 배치가 허용된 한도를 초과하여 데이터를 `items_limit_exceeded`Commerce 서비스[&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)Adobe Commerce Optimizer[과(와) 동기화할 때 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) 오류가 발생하는 문제를 해결했습니다. <!--MDEE-1264-->
 
 ![수정](../assets/fix.svg) 번들 제품 옵션 수집 중에 실패한 항목을 등록하는 논리를 추가하여 제품 데이터 내보내기의 안정성을 개선했습니다. <!--CCSAAS-4458-->
 
@@ -96,7 +96,7 @@ _2025년 10월 22일_
 
 _2025년 10월 10일_
 
-![수정](../assets/fix.svg) [ 테이블이 없으면 ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항은 안정적인 리인덱싱을 보장하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류를 방지합니다. <!--MDEE-1175-->
+![수정](../assets/fix.svg) [&#x200B; 테이블이 없으면 &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)mview 인덱서`cde_product_overrides_feed_cl` 작업이 실패할 수 있는 문제를 해결했습니다. 이 수정 사항은 안정적인 리인덱싱을 보장하며 다중 테넌트 환경에서 이 테이블과 관련된 작업 오류를 방지합니다. <!--MDEE-1175-->
 
 ### 103.4.13 릴리스
 
@@ -225,7 +225,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 _2025년 2월 28일_
 
-![카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 ](../assets/fix.svg)에서 추적 불가능한 `BulkException` 오류를 해결했습니다.`cron.log`<!--MDEE-966-->
+![카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 &#x200B;](../assets/fix.svg)에서 추적 불가능한 `BulkException` 오류를 해결했습니다.`cron.log`<!--MDEE-966-->
 
 ![수정](../assets/fix.svg) 스토어 보기 수가 많은 인스턴스에서 제품 재동기화 프로세스의 성능을 개선했습니다. <!--MDEE-974-->
 
