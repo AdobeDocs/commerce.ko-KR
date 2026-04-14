@@ -3,11 +3,11 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+source-git-commit: aac6efa53d7a8b2907fcbe8d3b97cc38e7178aa5
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] 설정 및 관리는 세 가지 주요 역할에 의존합니다. 각 역할에는 다음과 같은 특정 작업과 책임이 있습니다.
 
-관리자, 개발자 및 사용자 작업을 표시하는 ![&#x200B; 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
+관리자, 개발자 및 사용자 작업을 표시하는 ![ 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
 
 ### 관리자 작업
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 | 작업 | 설명 | 링크 |
 |---|---|---|
 | **Developer Console 액세스** | 프로젝트 만들기 및 자격 증명 생성 | [Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
-| **카탈로그 데이터 수집** | 기존 시스템에서 제품 데이터 가져오기 | [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) |
+| **카탈로그 데이터 수집** | 기존 시스템에서 제품 데이터 가져오기 | Adobe Commerce Optimizer으로 직접 데이터를 수집하려면 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/){target="_blank"}를 참조하십시오.<br><br>클라우드나 온-프레미스 환경 또는 기타 타사 시스템의 Commerce에서 데이터를 수집하려면 [통합](./integrations/integrations-overview.md){target="_blank"} 항목을 참조하세요. |
 | **상점 설치** | Edge Delivery Services 상점 구성 | [Storefront 설치](./storefront.md) |
 
 ### 머천다이저 작업
@@ -217,6 +217,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
