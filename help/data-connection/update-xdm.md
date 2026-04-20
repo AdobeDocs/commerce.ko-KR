@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Commerce 데이터 수집을 위한 시계열 이벤트 스키마 업데이트
 
-[ 확장을 사용하기 위한 ](overview.md#onboarding-steps)온보딩 단계[!DNL Data Connection] 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
+[&#x200B; 확장을 사용하기 위한 &#x200B;](overview.md#onboarding-steps)온보딩 단계[!DNL Data Connection] 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
 
 이 문서에서는 Adobe Commerce 이벤트에서 제공한 다음 시계열 데이터를 성공적으로 수집하기 위해 스키마에 포함해야 하는 필드 그룹을 제공합니다.
 

@@ -41,7 +41,7 @@ ht-degree: 0%
    - `magento/module-experience-connector-admin-graph-ql`
    - `magento/module-experience-connector-aep-integration`
 
-1. (선택 사항) [!DNL Live Search]검색 이벤트[를 구성하는 ](events.md#search-events) 데이터를 포함하려면 [[!DNL Live Search]](../live-search/install.md) 확장을 설치하십시오.
+1. (선택 사항) [!DNL Live Search]검색 이벤트[를 구성하는 &#x200B;](events.md#search-events) 데이터를 포함하려면 [[!DNL Live Search]](../live-search/install.md) 확장을 설치하십시오.
 
 1. (선택 사항) [구매요청 이벤트](events.md#b2b-events)를 구성하는 B2B 데이터를 포함하려면 [B2B 확장](#install-the-b2b-extension)을 설치하십시오.
 

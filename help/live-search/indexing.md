@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 클라이언트 검색
 
-[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [!DNL Live Search]상점 속성[을(를) 사용하여 ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes)에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
+[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [!DNL Live Search]상점 속성[을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes)에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
 
 인덱스 메타데이터는 인덱싱 파이프라인에 저장되고 검색 서비스에서 액세스할 수 있습니다.
 

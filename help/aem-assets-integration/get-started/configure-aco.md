@@ -113,7 +113,7 @@ AEM Assets의 제품 이미지에 Commerce 메타데이터를 추가합니다.
 
 >[!CAUTION]
 >
-> `AEM-Assets`카탈로그 보기[에 ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
+> `AEM-Assets`카탈로그 보기[에 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) 레이어를 할당하세요. 레이어를 할당하지 않으면 예기치 않게 제품 이미지 데이터를 덮어쓸 수 있습니다.
 
 ## 동기화
 
