@@ -3,7 +3,8 @@ title: ' [!DNL Data Connection] 설치'
 description: Adobe Commerce에서  [!DNL Data Connection] 확장을 설치, 업데이트 및 제거하는 방법을 알아봅니다.
 role: Admin, Developer
 feature: Install
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 853ef2d1-85cb-41a8-9b07-887a758ed401
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 
 # [!DNL Data Connection] 설치
 
-확장을 설치하기 전에 [필수 구성 요소를 검토하십시오](overview.md#prereqs).
+확장을 설치하기 전에 [필수 구성 요소를 검토하십시오](overview.md#prerequisites).
 
 ## 확장 설치
 
-[!DNL Data Connection] 확장은 [Adobe 마켓플레이스](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html)에서 사용할 수 있습니다. 서버의 명령줄에서 이 확장을 설치하면 Adobe Commerce 설치에 [서비스](../landing/saas.md)(으)로 연결됩니다. 프로세스가 완료되면 **[!DNL Data Connection]** 및 **Commerce 서비스 커넥터**&#x200B;가 Commerce _관리_&#x200B;의 **서비스** 아래의 **시스템** 메뉴에 나타납니다.
+[!DNL Data Connection] 확장은 [Adobe 마켓플레이스](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html)에서 사용할 수 있습니다. 서버의 명령줄에서 이 확장을 설치하면 Adobe Commerce 설치에 [서비스](../landing/saas.md)(으)로 연결됩니다. 프로세스가 완료되면 **[!DNL Data Connection]** 및 **Commerce 서비스 커넥터**&#x200B;가 Commerce **관리**&#x200B;의 **서비스** 아래의 _시스템_ 메뉴에 나타납니다.
 
 ![[!DNL Data Connection] 확장 관리자 보기](assets/epc-adminui.png)
 
@@ -40,7 +41,7 @@ ht-degree: 0%
    - `magento/module-experience-connector-admin-graph-ql`
    - `magento/module-experience-connector-aep-integration`
 
-1. (선택 사항) [검색 이벤트](events.md#search-events)를 구성하는 [!DNL Live Search] 데이터를 포함하려면 [[!DNL Live Search]](../live-search/install.md) 확장을 설치하십시오.
+1. (선택 사항) [!DNL Live Search]검색 이벤트[를 구성하는 ](events.md#search-events) 데이터를 포함하려면 [[!DNL Live Search]](../live-search/install.md) 확장을 설치하십시오.
 
 1. (선택 사항) [구매요청 이벤트](events.md#b2b-events)를 구성하는 B2B 데이터를 포함하려면 [B2B 확장](#install-the-b2b-extension)을 설치하십시오.
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 #### 클라우드 인프라
 
-클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html?lang=ko#enable_eventing).
+클라우드 인프라의 Adobe Commerce에서 `ENABLE_EVENTING`에서 `.magento.env.yaml` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html#enable_eventing)
 
 ```bash
 stage:
@@ -164,4 +165,4 @@ composer update magento/experience-platform-connector-b2b --with-dependencies
 
 ## [!DNL Data Connection] 확장 제거 {#uninstall}
 
-[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=ko)을 참조하세요.
+[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html)을 참조하세요.

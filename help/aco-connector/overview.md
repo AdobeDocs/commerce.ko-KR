@@ -2,8 +2,8 @@
 title: Adobe Commerce Optimizer 커넥터
 description: Commerce 클라우드 또는 온프레미스 프로젝트에서 Adobe Commerce Optimizer으로 데이터를 연결하는 방법에 대해 알아봅니다
 feature: Personalization, Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 11bb5df2488a017065db44504f35612fe54e284c
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Commerce에서 Commerce Optimizer으로 데이터를 내보낼 때:
 
 * **Commerce 카탈로그 데이터를[!DNL Adobe Commerce Optimizer]**(으)로 내보내기 - 가격 및 가격 장부 데이터를 웹 사이트 및 고객 그룹 수준에서 내보냅니다. 제품 및 제품 특성 데이터를 `store view` 수준에서 내보냅니다. 기본적으로 모든 Commerce 범위(웹 사이트 및 스토어 보기)에 대해 카탈로그 데이터 동기화가 활성화됩니다.
 
-  이 워크플로를 사용하려면 `adobe-commerce/commerce-data-export-aco-adapter` PHP 확장을 설치하고 내보내기 구성을 검토한 다음 Commerce 관리자의 Commerce과 Commerce Optimizer 간 통합을 사용하도록 설정하십시오. 자세한 지침은 [시작하기](#get-started)를 참조하세요.
+  이 워크플로를 사용하려면 `adobe-commerce/commerce-data-export-aco-adapter` PHP 확장을 설치하고 내보내기 구성을 검토한 다음 Commerce 관리자의 Commerce과 Commerce Optimizer 간 통합을 사용하도록 설정하십시오. 자세한 지침은 [시작하기](get-started.md)를 참조하세요.
 
 * **Commerce 웹 사이트를 매핑하고 보기 데이터를 저장하여[!DNL Adobe Commerce Optimizer]**(으)로 내보내기
 

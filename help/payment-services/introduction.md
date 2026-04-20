@@ -1,16 +1,16 @@
 ---
 title: ' [!DNL Payment Services] 소개'
-description: ' [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]  웹 사이트를 위한 턴키로서  [!DNL Payment Services] 강력하고 안전한 결제 처리 솔루션을 설치하고 사용하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Payment Services] 및 [!DNL Adobe Commerce]  웹 사이트를 위한 턴키로서  [!DNL Magento Open Source] 강력하고 안전한 결제 처리 솔루션을 설치하고 사용하는 방법에 대해 알아봅니다.'
 role: User
 level: Intermediate
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+exl-id: 191467ab-4c5e-4df1-b423-7a470a4910ea
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Payment Services] 소개
 
@@ -52,4 +52,4 @@ Adobe Commerce 및 Magento Open Source용 [!DNL Payment Services]은(는) Commer
 
 >[!NOTE]
 >
-> 여기에 언급된 기능 중 일부는 아직 시장에서 제공되지 않을 수 있습니다. 자세한 내용은 [호환성](compatibility.md)을 참조하십시오.
+> 여기에 언급된 기능 중 일부는 아직 시장에서 제공되지 않을 수 있습니다. 자세한 내용은 [호환성](compatibility.md#standard-vs-advanced-payment-services-experience)을 참조하십시오.

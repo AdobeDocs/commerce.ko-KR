@@ -2,7 +2,7 @@
 title: 패싯 추가
 description: 필터링 가능한 제품 특성을  [!DNL Live Search] 패싯으로 추가하는 방법에 대해 알아봅니다.
 exl-id: 80559107-2b2d-411f-8c32-99ff024e7a09
-source-git-commit: 15afc6fcd1e6783640dc3980ee06290e017abf37
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 메시지가 표시되면 캐시를 새로 고칩니다.
 
-   다음에 카탈로그를 [!DNL Live Search]과(와) 동기화할 때 Facet을 상점 앞에서 사용할 수 있게 됩니다. 패싯을 두 시간 후에 사용할 수 없으면 [카탈로그 데이터 동기화](install.md#synchronize-catalog-data)를 참조하세요.
+   다음에 카탈로그를 [!DNL Live Search]과(와) 동기화할 때 Facet을 상점 앞에서 사용할 수 있게 됩니다. 패싯을 두 시간 후에 사용할 수 없으면 [카탈로그 데이터 동기화](install.md#sync)를 참조하세요.
 
 ## 2단계: 면 속성 편집(선택 사항)
 
@@ -57,7 +57,8 @@ ht-degree: 0%
 
 1. 패싯이 완료되면 **변경 내용 게시**&#x200B;를 클릭합니다.
 1. 패싯이 스토어에 나타날 때까지 기다립니다.
-2시간 후에도 패싯을 사용할 수 없는 경우 설치 지침에서 [내보내기 확인](install.md#synchronize-catalog-data)을 참조하십시오.
+
+   2시간 후에도 패싯을 사용할 수 없는 경우 설치 지침에서 [내보내기 확인](install.md#sync)을 참조하십시오.
 
 ## 필드 설명
 

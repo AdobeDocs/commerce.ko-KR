@@ -1,9 +1,9 @@
 ---
 title: 머천다이징 규칙
 description: '[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 논리와 작업을 결합하여 검색 결과, 기본 제품 목록 및 범주 페이지를 표시합니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f2a9b5e8-d23d-4855-b424-ca6b40e057df
-source-git-commit: 8abc0593c166a2dd861cfb78674918de1d0744de
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 여러 규칙이 있는 우선 순위
 
-다음은 **검색 규칙** 및 지정된 검색에 대해 상호 작용하는 방식에 적용됩니다. **카테고리 규칙**&#x200B;은(는) 카테고리별로 적용됩니다. 검색 및 기본 규칙과 함께 적용되는 방법은 [규칙 만들기 및 관리](add.md#category-rules)를 참조하십시오.
+다음은 **검색 규칙** 및 지정된 검색에 대해 상호 작용하는 방식에 적용됩니다. **카테고리 규칙**&#x200B;은(는) 카테고리별로 적용됩니다. 검색 및 기본 규칙과 함께 적용되는 방법은 [규칙 만들기 및 관리](add.md)를 참조하십시오.
 
 한 번에 하나의 검색 규칙만 검색어에 적용됩니다.
 검색 구문에 적용할 수 있는 규칙이 여러 개 있는 경우 이러한 모든 규칙이 적용됩니다. sku1을 늘리는 `rule 1`과(와) 같은 SKU를 숨기는 `rule 2` 사이의 충돌이 있는 경우 가장 최근에 적용된 규칙(`rule 2`)이 우선합니다.

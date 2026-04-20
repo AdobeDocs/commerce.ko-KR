@@ -3,9 +3,9 @@ title: Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례
 description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 카탈로그 보기 및 정책을 사용하여 카탈로그를 관리하는 방법과 카탈로그 구성에 따라 상점을 설정하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
-source-git-commit: 9cb231055df45bbfcff3303c6e1c257c883cb852
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=ko) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
+> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
 
 ### 주요 ‌ 사항
 
@@ -110,7 +110,7 @@ Carvelo는 서로 다른 대리점(Arkbridge, Kingsbluff 및 Celport)을 통해 
 
 ## &#x200B;1. [!DNL Adobe Commerce Optimizer] 인스턴스에 액세스
 
-샘플 데이터로 사전 구성된 Commerce Optimizer 애플리케이션의 URL로 이동합니다. Commerce Cloud Manager에서 Commerce Optimizer 프로젝트에 대한 인스턴스 세부 정보에서 URL을 찾거나 시스템 관리자로부터 얻을 수 있습니다. ([인스턴스 액세스](../get-started.md#access-an-instance)를 참조하십시오.)
+샘플 데이터로 사전 구성된 Commerce Optimizer 애플리케이션의 URL로 이동합니다. Commerce Cloud Manager에서 Commerce Optimizer 프로젝트에 대한 인스턴스 세부 정보에서 URL을 찾거나 시스템 관리자로부터 얻을 수 있습니다. ([인스턴스 액세스](../get-started.md#access-the-adobe-commerce-optimizer-application)를 참조하십시오.)
 
 [!DNL Adobe Commerce Optimizer]을(를) 실행하면 다음이 표시됩니다.
 
@@ -118,7 +118,7 @@ Carvelo는 서로 다른 대리점(Arkbridge, Kingsbluff 및 Celport)을 통해 
 
 >[!NOTE]
 >
->[&#x200B; UI의 주요 구성 요소에 대한 자세한 내용은 &#x200B;](../overview.md)개요[!DNL Adobe Commerce Optimizer] 문서를 참조하세요.
+>[ UI의 주요 구성 요소에 대한 자세한 내용은 ](../overview.md)개요[!DNL Adobe Commerce Optimizer] 문서를 참조하세요.
 
 왼쪽 탐색에서 _스토어 설정_ 섹션을 확장하고 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다. Arkbridge 및 Kingsbluff 대리점에는 이미 카탈로그 보기가 생성되었습니다.
 
@@ -157,7 +157,7 @@ Carvelo의 상거래 관리자는 *East Coast Inc* 회사에 속하는 *Celport*
 1. Celport에서 브레이크 및 일시 중단 부품만 판매하도록 *Celport 부품 범주*&#x200B;라는 새 정책을 만듭니다.
 1. Celport 상점에 대한 새 카탈로그 보기를 만듭니다.
 
-   이 카탈로그 보기는 새로 만든 정책 *Celport 부품 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` 가격표를 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
+   이 카탈로그 보기는 새로 만든 정책 *Celport 일부 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` Price Book을 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
 1. 만든 Celport 카탈로그 보기의 데이터를 사용하도록 commerce storefront 구성을 업데이트합니다.
 
 이 섹션이 끝나면 Celport가 가동되어 Carvelo의 제품을 판매할 준비를 갖추게 됩니다.
@@ -257,7 +257,7 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
 
 ## &#x200B;3. 상점 업데이트
 
-이 자습서의 마지막 부분에는 새 Celport 카탈로그에 데이터를 전달하기 위해 [이미 만든](#prerequisite)의 상점 전면을 업데이트하는 작업이 포함됩니다. 이 섹션에서는 storefront 구성 파일의 카탈로그 보기 ID를 Celport용 카탈로그 보기 ID로 바꿉니다.
+이 자습서의 마지막 부분에는 새 Celport 카탈로그에 데이터를 전달하기 위해 [이미 만든](#prerequisites)의 상점 전면을 업데이트하는 작업이 포함됩니다. 이 섹션에서는 storefront 구성 파일의 카탈로그 보기 ID를 Celport용 카탈로그 보기 ID로 바꿉니다.
 
 1. 로컬 개발 환경에서 Storefront 보일러플레이트 구성 파일로 GitHub 리포지토리를 복제한 폴더를 엽니다.
 
@@ -447,4 +447,4 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 - [고급 정책 구성](../setup/policies.md)에 대해 알아보기
 - 다른 대리점에 대해 [추가 카탈로그 보기](../setup/catalog-view.md)를 설정합니다.
 - 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 검토하십시오.
-- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko) 보기
+- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) 보기

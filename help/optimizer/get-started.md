@@ -3,9 +3,9 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: aac6efa53d7a8b2907fcbe8d3b97cc38e7178aa5
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] 설정 및 관리는 세 가지 주요 역할에 의존합니다. 각 역할에는 다음과 같은 특정 작업과 책임이 있습니다.
 
-관리자, 개발자 및 사용자 작업을 표시하는 ![&#x200B; 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
+관리자, 개발자 및 사용자 작업을 표시하는 ![ 설정에 대한 [!DNL Adobe Commerce Optimizer]역할 기반 워크플로](./assets/high-level-workflow.png){zoomable="yes"}
 
 ### 관리자 작업
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | 작업 | 설명 | 링크 |
 |---|---|---|
 | **사용자 관리** | 사용자, 개발자 및 관리자 추가 | [사용자 관리](./user-management.md) |
-| **인스턴스 만들기** | 샌드박스 및 프로덕션 환경 설정 | [인스턴스 만들기](#create-an-instance) |
+| **인스턴스 만들기** | 샌드박스 및 프로덕션 환경 설정 | [인스턴스 만들기](#step-1-create-an-instance) |
 | **인스턴스 관리** | 상태를 확인하고 인스턴스 이름 및 설명을 업데이트하며 애플리케이션 및 API 액세스에 대한 키 URL을 가져옵니다. | [인스턴스 관리](#manage-instances) |
 | **액세스 구성** | 카탈로그 보기 및 정책 설정 | [카탈로그 보기](./setup/catalog-view.md) |
 
@@ -217,6 +217,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

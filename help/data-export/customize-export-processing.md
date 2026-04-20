@@ -3,7 +3,7 @@ title: SaaS 데이터 내보내기 성능 향상
 description: 다중 스레드 데이터 내보내기 모드를 사용하여 Commerce Services의 SaaS 데이터 내보내기 성능을 향상시키는 방법에 대해 알아봅니다.
 role: Admin, Developer
 exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
-source-git-commit: 9b28da0bf861a266e9d679ba59470f46d9a89c1c
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe에서는 일반적으로 Commerce 판매자의 동기화 요구 사항을 
 
 ## 다중 스레딩 구성
 
-다중 스레드 모드는 모든 [동기화 메서드](data-synchronization.md#synchronization-process)(전체 동기화, 부분 동기화 및 실패한 항목 동기화)에 대해 지원됩니다. 다중 스레딩을 구성하려면 동기화 중에 사용할 스레드 수와 배치 크기를 지정합니다.
+다중 스레드 모드는 모든 [동기화 메서드](data-synchronization.md#view-and-manage-the-synchronization-process)(전체 동기화, 부분 동기화 및 실패한 항목 동기화)에 대해 지원됩니다. 다중 스레딩을 구성하려면 동기화 중에 사용할 스레드 수와 배치 크기를 지정합니다.
 
 - `thread-count`은(는) 엔터티를 처리하기 위해 활성화된 스레드 수입니다. 기본 `thread-count`은(는) `1`입니다.
 - `batch-size`은(는) 하나의 반복에서 처리되는 엔터티 수입니다. 기본 `batch-size`은(는) 가격 피드를 제외한 모든 피드에 대한 `100`개 레코드입니다. 가격 피드의 경우 기본값은 `500`개 레코드입니다.
@@ -64,7 +64,7 @@ bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 
 다중 스레딩을 사용하여 모든 데이터 내보내기 작업을 처리하기 위해 시스템 통합자나 개발자는 Commerce 애플리케이션 구성에서 각 피드에 대한 스레드 수와 배치 크기를 수정할 수 있습니다.
 
-이러한 변경 내용은 구성 파일 [의 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)시스템 섹션`app/etc/config.php`에 사용자 지정 값을 추가하여 적용할 수 있습니다.
+이러한 변경 내용은 구성 파일 [의 ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)시스템 섹션`app/etc/config.php`에 사용자 지정 값을 추가하여 적용할 수 있습니다.
 
 **예: 제품 및 가격에 대한 다중 스레딩 구성**
 

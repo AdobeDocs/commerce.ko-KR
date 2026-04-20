@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: d7a4c87f-33cb-446a-b442-3cdf05b518a2
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: e4aede88f8470f79e5987afcb7311bf6ef44c16e
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -26,7 +26,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 
 >[!TAB Adobe Commerce as a Cloud Service 및 Commerce Optimizer]
 
-온보딩을 완료할 때까지 **[!UICONTROL Home]**&#x200B;에 **[!UICONTROL ACCS Onboarding Required]**&#x200B;이(가) 표시됩니다. 알림은 [샌드박스 서비스 설정](sandbox.md#enable-sandbox-testing)(테스트 PayPal 처리 계정 사용) 또는 [라이브 결제 활성화](production.md#enable-live-payments)(다른 환경에서 이미 테스트한 경우)로 연결됩니다.
+온보딩을 완료할 때까지 **[!UICONTROL Home]**&#x200B;에 **[!UICONTROL ACCS Onboarding Required]**&#x200B;이(가) 표시됩니다. 알림은 [샌드박스 서비스 설정](sandbox.md#sandbox-onboarding)(테스트 PayPal 처리 계정 사용) 또는 [라이브 결제 활성화](production.md#enable-live-payments)(다른 환경에서 이미 테스트한 경우)로 연결됩니다.
 
 결제 서비스 홈에서 ![ACCS 온보딩 필요](assets/payment-services-home-accs-onboarding.png){width="700" zoomable="yes"}
 
@@ -40,14 +40,14 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 
 ## 홈
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 | 필드 | 설명 |
 |---|---|
 | [!UICONTROL Orders] | 이러한 보고서를 사용하면 주문 결제 상태를 빠르게 조회하고 잠재적인 문제를 식별할 수 있습니다. |
 | [!UICONTROL Payouts] | 지급 보고서는 종합적인 지급 정보를 한눈에 표시하므로, 지급 금액, 처리 수량 및 재무 조정을 위한 거래 수준에 대한 상세한 보고를 완전히 투명하게 확인할 수 있습니다. |
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 | 필드 | 설명 |
 |---|---|

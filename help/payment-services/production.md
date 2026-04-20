@@ -3,7 +3,7 @@ title: 프로덕션에  [!DNL Payment Services] 사용
 description: 프로덕션에 대해  [!DNL Payment Services] 을(를) 활성화하여 온보딩 프로세스를 완료합니다.
 exl-id: 3b1269e8-127b-47f8-9738-9722a5737c63
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 ## [!DNL Payment Services]을(를) 결제 방법으로 설정
 
-[Commerce 서비스를 구성](connect.md#configure-commerce-services)하고 [샌드박스 테스트](sandbox.md#enable-sandbox-testing) 또는 [라이브 결제](#enable-live-payments)를 사용하도록 설정한 후에는 [!DNL Payment Services]을(를) 결제 방법으로 설정해야 합니다.
+[Commerce 서비스를 구성](connect.md#configure-commerce-services)하고 [샌드박스 테스트](sandbox.md#sandbox-onboarding) 또는 [라이브 결제](#enable-live-payments)를 사용하도록 설정한 후에는 [!DNL Payment Services]을(를) 결제 방법으로 설정해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 1. **[!UICONTROL Enable Payment Services]**&#x200B;을(를) 클릭합니다.
 
    하나 이상의 웹 사이트에 대한 결제 방법으로 [!DNL Payment Services]을(를) 아직 구성하지 않은 경우 이 옵션이 표시됩니다.
 
-   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
+   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
 
-1. _[!UICONTROL General Configuration]_&#x200B;에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
-1. **[!UICONTROL Payment Action]**&#x200B;과(와) _[!UICONTROL Credit Card Fields]_&#x200B;모두에 대해&#x200B;_[!UICONTROL PayPal payment buttons]_&#x200B;을(를) 다음 중 하나로 설정합니다.
+1. _[!UICONTROL General Configuration]_에서&#x200B;**[!UICONTROL Enable]**을(를) `Yes`(으)로 설정합니다.
+1. **[!UICONTROL Payment Action]**&#x200B;과(와) _[!UICONTROL Credit Card Fields]_모두에 대해_[!UICONTROL PayPal payment buttons]_&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 설정 | 설명 |
    |---|---|
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Go to Payment Services]** 홈으로 돌아가려면 [!DNL Payment Services]을(를) 클릭하십시오.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=ko).
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
 
    모든 구성 변경 후 지우기를 수행해야 합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. _국가 선택_ 모달에서 운영 중인 국가를 선택합니다.
 
-   결제 서비스는 현재 [5개국](../payment-services/introduction.md#availability)의 모든 결제 옵션을 완벽하게 지원합니다. 결제 서비스는 국가 목록에 표시된 다른 모든 국가에 대해 빠른 체크아웃 기능(결제 옵션의 하위 집합)을 제공합니다.
+   결제 서비스는 현재 [5개국](compatibility.md#compatibility.md#standard-vs-advanced-payment-services-experience)의 모든 결제 옵션을 완벽하게 지원합니다. 결제 서비스는 국가 목록에 표시된 다른 모든 국가에 대해 빠른 체크아웃 기능(결제 옵션의 하위 집합)을 제공합니다.
 
    목록에서 선택한 국가에 따라 결제 옵션이 결정되며, 온보딩 플로우([고급](#advanced-onboarding)(전체 지원) 또는 [표준](#standard-onboarding)(빠른 체크아웃))를 사용할 수 있습니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ### 고급 온보딩
 
-이 온보딩 플로우는 [완전히 지원되는 국가](../payment-services/introduction.md#availability)의 판매자에 대해 사용할 수 있습니다.
+이 온보딩 플로우는 [완전히 지원되는 국가](compatibility.md#accepted-credit-cards-and-currencies)의 판매자에 대해 사용할 수 있습니다.
 
 국가를 선택한 후:
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### 표준 온보딩
 
-이 표준 온보딩 플로우는 [빠른 체크아웃 지원](../payment-services/introduction.md#availability)이 제공되는 국가의 상인에 대해 사용할 수 있습니다.
+이 표준 온보딩 플로우는 [빠른 체크아웃 지원](compatibility.md#accepted-credit-cards-and-currencies)이 제공되는 국가의 상인에 대해 사용할 수 있습니다.
 
 국가를 선택한 후:
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 
-   _[!UICONTROL Live onboarding]_&#x200B;단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
+   _[!UICONTROL Live onboarding]_단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
 
    이 텍스트 상자에는 온보딩을 완료하기 위해 PayPal을 사용하여 이메일 주소를 확인하라는 메시지가 표시될 수도 있습니다.
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 1. 양식을 작성합니다.
 1. 영업팀 직원이 연락을 드릴 것입니다.
 
-또는 [business.adobe.com](https://business.adobe.com/kr/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
+또는 [business.adobe.com](https://business.adobe.com/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -155,9 +155,9 @@ _프로덕션 판매자 ID_&#x200B;이(가) 자동으로 생성되고 [구성](c
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 1. 홈에서 페이지의 오른쪽 상단에 있는 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [홈](payments-home.md)을 참조하세요.
-1. _[!UICONTROL General Configuration]_&#x200B;섹션에서&#x200B;**[!UICONTROL Payment mode]**&#x200B;을(를) `Production`(으)로 설정합니다.
+1. _[!UICONTROL General Configuration]_섹션에서&#x200B;**[!UICONTROL Payment mode]**을(를) `Production`(으)로 설정합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >
