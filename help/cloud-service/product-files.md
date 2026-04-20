@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Commerce as a Cloud Service]의 파일 형식 제품 
 feature: Catalog Management, Products, Integration
 role: Admin, Developer
 level: Intermediate
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '607'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 제품에 파일 추가
 
-[!DNL Adobe Commerce as a Cloud Service]은(는) 판매자가 PDF, 설명서, 인증서 및 데이터 시트와 같은 파일을 제품에 직접 첨부할 수 있도록 하는 &quot;파일&quot; [제품 특성 입력 유형](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types){target="_blank"}을 지원합니다. 파일은 Amazon S3 미디어 저장소에 저장되며 GraphQL을 사용하는 상점 또는 REST API를 사용하는 통합을 통해 액세스할 수 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]은(는) 판매자가 PDF, 설명서, 인증서 및 데이터 시트와 같은 파일을 제품에 직접 첨부할 수 있도록 하는 &quot;파일&quot; [제품 특성 입력 유형](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types){target="_blank"}을 지원합니다. 파일은 Amazon S3 미디어 저장소에 저장되며 GraphQL을 사용하는 상점 또는 REST API를 사용하는 통합을 통해 액세스할 수 있습니다.
 
 파일을 제품 파일 속성에 업로드하는 방법에는 세 가지가 있습니다.
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 파일을 업로드하기 전에 파일 속성을 만들고 속성 세트에 지정해야 합니다.
 
-* [파일 특성을 만듭니다](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} - **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) **[!UICONTROL File]**(으)로 설정합니다.
+* [파일 특성을 만듭니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} - **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) **[!UICONTROL File]**(으)로 설정합니다.
 
-* [특성을 특성 집합에 할당](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets#create-an-attribute-set){target="_blank"} - 새 파일 특성을 원하는 그룹으로 끌어 옵니다.
+* [특성을 특성 집합에 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-sets#create-an-attribute-set){target="_blank"} - 새 파일 특성을 원하는 그룹으로 끌어 옵니다.
 
-* [제품 파일 특성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes) 구성에서 허용되는 파일 형식 및 크기를 구성하십시오.
+* [제품 파일 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/product-file-attributes) 구성에서 허용되는 파일 형식 및 크기를 구성하십시오.
 
 ## 관리자를 통해 파일 업로드
 
-[파일 특성을 만들고](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"}특성 집합에 할당하면 제품 편집 페이지에서 직접 파일을 업로드할 수 있습니다.
+[파일 특성을 만들고](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"}특성 집합에 할당하면 제품 편집 페이지에서 직접 파일을 업로드할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 제품 가져오기를 통해 업로드
 
-[API 가져오기](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"} 또는 관리자 가져오기 UI를 사용하여 제품에 파일을 일괄적으로 첨부할 수 있습니다. 제품 파일 특성은 외부 URL에서만 가져오기를 지원하며, 이는 제품 이미지 가져오기에 대한 [메서드 2](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import-product-images#method-2-import-images-from-external-server){target="_blank"}와 동일한 접근 방식을 따릅니다. Commerce은 제공된 URL에서 파일을 다운로드하여 S3 미디어 저장소에 저장합니다.
+[API 가져오기](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"} 또는 관리자 가져오기 UI를 사용하여 제품에 파일을 일괄적으로 첨부할 수 있습니다. 제품 파일 특성은 외부 URL에서만 가져오기를 지원하며, 이는 제품 이미지 가져오기에 대한 [메서드 2](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import-product-images#method-2-import-images-from-external-server){target="_blank"}와 동일한 접근 방식을 따릅니다. Commerce은 제공된 URL에서 파일을 다운로드하여 S3 미디어 저장소에 저장합니다.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ sku,name,additional_attributes
 ADB112,"My Product",file_upload=https://example.com/files/manual.pdf
 ```
 
-두 경우 모두 URL을 공개적으로 액세스할 수 있어야 하며 파일 확장자와 크기는 [구성된 제한 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes){target="_blank"}을 준수해야 합니다.
+두 경우 모두 URL을 공개적으로 액세스할 수 있어야 하며 파일 확장자와 크기는 [구성된 제한 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/product-file-attributes){target="_blank"}을 준수해야 합니다.
 
 ## GraphQL을 통해 파일 검색
 

@@ -42,7 +42,7 @@ ht-degree: 0%
 1. [샌드박스 서비스 설정](sandbox.md#sandbox-onboarding)
 1. [샌드박스](sandbox.md#test-in-sandbox-environment) 환경에서 결제를 테스트합니다.
 
-[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/kr/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB 프로덕션]
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. [샌드박스 서비스 설정](sandbox.md#sandbox-onboarding)
 1. [샌드박스](sandbox.md#test-in-sandbox-environment) 환경에서 결제를 테스트합니다.
 
-[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![자세히 알아보기](assets/learn-more-button.svg)](https://helpx.adobe.com/kr/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB 프로덕션]
 
@@ -110,8 +110,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-> * [문제 해결 [!DNL Payment Services] 설치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=en)
-> * [PayPal 샌드박스 계정이 확인되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)
-> * [지연 [!DNL Payment Services] 보고서 데이터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html)
-> * [샌드박스 환경에서 결제를 처리할 때 PayPal로 신용 카드 테스트 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=en)
-> * [확장 사용 안 함 [!DNL Payment Services] 확장 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1)
+> * [문제 해결 [!DNL Payment Services] 설치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=ko)
+> * [PayPal 샌드박스 계정이 확인되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=ko)
+> * [지연 [!DNL Payment Services] 보고서 데이터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=ko)
+> * [샌드박스 환경에서 결제를 처리할 때 PayPal로 신용 카드 테스트 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=ko)
+> * [확장 사용 안 함 [!DNL Payment Services] 확장 사용 안 함](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1)

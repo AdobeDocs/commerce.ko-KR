@@ -16,7 +16,7 @@ ht-degree: 0%
 ## 규칙 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 규칙이 적용되는 **스토어 보기**&#x200B;를 식별하도록 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)를 설정하십시오.
+1. 규칙이 적용되는 **스토어 보기**&#x200B;를 식별하도록 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 설정하십시오.
 1. **머천다이징 검색** 작업 영역을 클릭합니다.
 1. **규칙 추가**&#x200B;를 클릭하여 규칙 편집기를 시작합니다.
 
