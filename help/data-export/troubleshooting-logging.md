@@ -3,9 +3,9 @@ title: 로그 검토 및 문제 해결
 description: 데이터 내보내기 및 saas 내보내기 로그를 사용하여  [!DNL data export] 오류를 해결하는 방법에 대해 알아봅니다.
 feature: Services
 exl-id: d022756f-6e75-4c2a-9601-31958698dc43
-source-git-commit: a1afed7b635a2b05c5c0e0d1c9bf4a07fc5eef31
+source-git-commit: c86e66a675f9a53a6ec7b79540ff85d10186bf3f
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 로그 검토 및 문제 해결
 
 [!DNL data export] 확장은 데이터 수집 및 동기화 프로세스를 추적할 로그를 제공합니다.
+
+>[!NOTE]
+>
+>관리자의 [데이터 피드 동기화 상태 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)에서 제품 및 범주 데이터에 대한 데이터 내보내기 피드의 상태와 성능을 추적할 수도 있습니다.
 
 ## 로그
 
@@ -129,7 +133,7 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그
 - 데이터 내보내기 오류 로그(`commerce-data-export-errors.log`)는 수집 단계 동안 발생하는 오류를 캡처합니다.
 - SaaS 내보내기 오류 로그(`saas-export-errors.log`)에서 전송 단계 중에 발생하는 오류를 캡처합니다.
 
-구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
+구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
 
 ### 카탈로그 동기화 문제 해결 {#resolvesync}
 
@@ -140,15 +144,15 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그
 1. 검색 결과에 해당 제품에 대한 세부 보기를 표시합니다.
 1. JSON 출력을 복사하고 콘텐츠가 [!DNL Commerce] 카탈로그에 있는 것과 일치하는지 확인합니다.
 1. 콘텐츠가 일치하지 않으면 공백 또는 마침표 추가와 같이, 카탈로그의 제품에 약간의 변경 작업을 수행합니다.
-1. 다시 동기화할 때까지 기다리거나 [수동 다시 동기화를 트리거](#resync)합니다.
+1. 재동기화를 기다리거나 CLI 또는 관리 대시보드에서 수동 재동기화를 트리거합니다.
 
 #### 동기화가 실행되고 있지 않음
 
-동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) 문서를 참조하십시오.
+동기화가 일정에 따라 실행되고 있지 않거나 동기화되지 않은 경우 이 [KnowledgeBase](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) 문서를 참조하십시오.
 
 #### 동기화 실패
 
-카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 제출하세요.
+카탈로그 동기화 상태가 **실패**&#x200B;인 경우 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 제출하세요.
 
 ## 확장된 로깅
 
