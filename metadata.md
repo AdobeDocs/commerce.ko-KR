@@ -5,7 +5,7 @@ product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce.en
+git-repo: https://github.com/AdobeDocs/commerce.ko-KR
 index: true
 role: User
 feature-set: Commerce
