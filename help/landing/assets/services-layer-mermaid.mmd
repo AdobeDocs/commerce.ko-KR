@@ -1,26 +1,33 @@
-graph LR
-    subgraph CF["<b>Commerce Foundation</b>"]
-        direction TB
-        CS(["Storefront"])
-        CB(["Backend"])
-    end
+---
+source-git-commit: fd3857e93dbaaf7ffce97715b77ee63e8460af16
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
+
+---
+그래프 LR
+하위 그래프 CF[&quot;<b>Commerce Foundation</b>&quot;]
+방향 TB
+CS([&quot;Storefront&quot;])
+CB([&quot;백엔드&quot;])
+종료
+
+    SC([&quot;Services Connector&quot;])
     
-    SC(["Services Connector"])
+    하위 그래프 SaaS[&quot;&lt;b>SaaS&lt;/b>&quot;]
+    방향 TB
+    서비스([&quot;&lt;b>서비스&lt;/b>&lt;br/>라이브 검색&lt;br/>제품 권장 사항&lt;br/>카탈로그 서비스&lt;br/>결제 서비스&quot;])
+    통합([&quot;&lt;b>통합&lt;/b>&lt;br/>데이터 연결&lt;br/>AEM Assets&quot;])
+    종료
     
-    subgraph SaaS["<b>SaaS</b>"]
-        direction TB
-        Services(["<b>Services</b><br/>Live Search<br/>Product Recommendations<br/>Catalog Service<br/>Payment Services"])
-        Integrations(["<b>Integrations</b><br/>Data Connection<br/>AEM Assets"])
-    end
-    
-    CF <--> SC <--> SaaS
-    
-    classDef foundationStyle fill:#FFF9E6,stroke:#C7B88A,stroke-width:3px,color:#000000,rx:15,ry:15,font-family:Adobe Clean
+    CF &lt;—> SC &lt;—> SaaS&lt;ph=&#39;289&#39;/>classDefStyle fill:#FFF9E6,stroke:#C7B88A,stroke-width:3px,color:#000000,rx:15,ry:15,font-family:Adobe Clean
     classDef saasStyle fill:#FFE6F0,stroke:#D4A6B8,stroke-width:3px,color:#000000,rx:15,ry:15,font-family:Adobe Clean
-    classDef boxStyle fill:#FFFFFF,stroke:#000000,stroke-width:2px,color:#000000,rx:15,ry:15,font-family:Adobe Clean
-    classDef connectorStyle fill:#4A4A4A,stroke:#4A4A4A,stroke-width:2px,color:#FFFFFF,rx:15,ry:15,font-family:Adobe Clean
+    classDef boxStyle fill:#FFFFFF,stroke:#000000,stroke-width:2px,color:#000000,rx:15,ry:15,font-family:Adobe Clean&lt;ph=&#39;639&#39;/>classDef connectorStyle fill:#4A4A4A #4A4A4A #FFFFFF,stroke::,stroke-family:clean
     
     class CF foundationStyle
     class SaaS saasStyle
     class CS,CB,Services,Integrations boxStyle
     class SC connectorStyle
+    
+    
+    

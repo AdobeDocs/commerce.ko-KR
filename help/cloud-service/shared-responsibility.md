@@ -2,13 +2,13 @@
 title: 공동 책임
 description: ' [!DNL Adobe Commerce as a Cloud Service]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 feature: Cloud, Security
-role: Admin, Architect, Leader
+role: Admin, Developer, Leader
 level: Intermediate
 exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 1ce3b6b6b94b1b4e94c0d34c081dec2884d7f0f8
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 다음 요약 테이블은 RACI 모델을 사용하여 Adobe과 고객 간에 공유된 보안 책임을 보여 줍니다.
 
 **R** — 담당
-**A** — 책임 있음
+**A** — 승인 가능
 **C** — 참조됨
 **I** — 알림
 

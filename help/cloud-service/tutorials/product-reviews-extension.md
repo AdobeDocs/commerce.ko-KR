@@ -9,16 +9,16 @@ level: Intermediate
 type: Tutorial
 hide: true
 hidefromtoc: true
-source-git-commit: 9c76bae29c05909406a40ca03a2b3d242db05f3f
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2533'
 ht-degree: 0%
 
 ---
 
 # 제품 리뷰 확장 튜토리얼
 
-이 튜토리얼에서는 고객이 [!DNL Adobe Commerce as a Cloud Service] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe App Builder] 백엔드를 통해 상점에 대한 제품 검토 및 질문 및 답변(Q&amp;A) 콘텐츠를 제출할 수 있는 확장을 빌드하는 방법을 안내합니다. 확장은 구매자가 제품 리뷰와 질의응답(Q&amp;A) 콘텐츠를 보고 제출하고 제품 세부 정보 페이지(PDP)에 표시할 수 있도록 REST API 엔드포인트를 제공합니다.
+이 튜토리얼에서는 고객이 [!DNL Adobe App Builder] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe Commerce as a Cloud Service] 백엔드를 통해 상점에 대한 제품 검토 및 질문 및 답변(Q&amp;A) 콘텐츠를 제출할 수 있는 확장을 빌드하는 방법을 안내합니다. 확장은 구매자가 제품 리뷰와 질의응답(Q&amp;A) 콘텐츠를 보고 제출하고 제품 세부 정보 페이지(PDP)에 표시할 수 있도록 REST API 엔드포인트를 제공합니다.
 
 다음 두 가지 부분을 작성합니다.
 
@@ -53,8 +53,8 @@ bash --version
 
 또한 다음을 확인하십시오.
 
-- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
-- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
+- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 - `aem` CLI가 설치되어 있습니다.
 
   ```bash
@@ -156,9 +156,9 @@ STOP and ask me any clarifying questions you have about the requirements before 
 에이전트는 사용자가 검토할 요구 사항 및 아키텍처 문서를 생성합니다. 요구 사항이 제공된 답변과 일치하고 아키텍처가 다음을 충족하는지 확인합니다.
 
 - 네 가지 웹 작업: `reviews-get`, `reviews-post`, `qa-get`, `qa-post`
-- 허용되는 패턴(`aio-lib-state` — 콜론 없음)에 맞는 키를 사용하여 `[a-zA-Z0-9-_.]`을(를) 사용하는 지속성
+- 허용되는 패턴(`[a-zA-Z0-9-_.]` — 콜론 없음)에 맞는 키를 사용하여 `aio-lib-state`을(를) 사용하는 지속성
 - JSON 문자열로 저장된 상태 값(원시 개체 또는 배열이 아님)
-- 자체 포함 패키지 — 번들을 이스케이프 처리하는 `product-reviews` 경로를 통하지 않고 `../../` 패키지 내에 공유된 코드(유틸리티, 상수)
+- 자체 포함 패키지 — 번들을 이스케이프 처리하는 `../../` 경로를 통하지 않고 `product-reviews` 패키지 내에 공유된 코드(유틸리티, 상수)
 
 >[!NOTE]
 >
@@ -274,7 +274,7 @@ curl -s -X POST "$API_URL/qa-post" \
   -d '{"sku":"ADB153","type":"question","content":"Is this dishwasher safe?","user":"test@example.com"}'
 ```
 
-**답변 제출**(`id`(으)로 질문 응답의 `questionId` 사용):
+**답변 제출**(`questionId`(으)로 질문 응답의 `id` 사용):
 
 ```bash
 curl -s -X POST "$API_URL/qa-post" \
@@ -438,7 +438,7 @@ Run complete browser testing. Use the following product page 'http://localhost:3
 
 | 증상 | 원인 | 수정 |
 |---------|-------|-----|
-| GET 또는 POST가 500 &quot;모듈을 찾을 수 없음&quot;을 반환합니다. | 제품 검토 작업에서는 패키지 번들을 이스케이프 처리하는 `require("../../utils")` 또는 `require("../../constants")`을(를) 사용합니다. 이러한 파일은 패키지를 배포할 때 포함되지 않습니다. | 제품 리뷰 패키지를 자체 포함합니다. `actions/product-reviews/lib/constants.js` 및 `actions/product-reviews/lib/utils.js`을(를) 추가하고 `../lib/...` 대신 `../../`에서 요구하는 네 가지 작업을 모두 업데이트하십시오. |
+| GET 또는 POST가 500 &quot;모듈을 찾을 수 없음&quot;을 반환합니다. | 제품 검토 작업에서는 패키지 번들을 이스케이프 처리하는 `require("../../utils")` 또는 `require("../../constants")`을(를) 사용합니다. 이러한 파일은 패키지를 배포할 때 포함되지 않습니다. | 제품 리뷰 패키지를 자체 포함합니다. `actions/product-reviews/lib/constants.js` 및 `actions/product-reviews/lib/utils.js`을(를) 추가하고 `../../` 대신 `../lib/...`에서 요구하는 네 가지 작업을 모두 업데이트하십시오. |
 | GET은 &quot;키가 패턴과 일치해야 함&quot;과 함께 500을 반환합니다. | 상태 키는 콜론을 사용합니다(예: `reviews:ADB153`). `aio-lib-state`은(는) `[a-zA-Z0-9-_.]`만 허용합니다. | 접두사를 `reviews:` 및 `qa:`에서 `reviews.` 및 `qa.`(으)로 변경합니다. SKU를 정리하는 `stateKey(prefix, sku)` 도우미를 추가합니다(잘못된 문자를 `_`(으)로 바꾸기). |
 | POST에서 &quot;값은 문자열이어야 함&quot;과 함께 500 반환 | `aio-lib-state`은(는) 문자열 값만 허용합니다. 코드는 배열 또는 개체를 `state.put()`에 전달합니다. | 쓸 때는 `JSON.stringify()`을(를) 사용하고 읽을 때는 `JSON.parse()`을(를) 사용하여 직렬화합니다. 네 가지 작업을 모두 업데이트합니다. |
 

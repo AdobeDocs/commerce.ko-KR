@@ -9,16 +9,16 @@ level: Intermediate
 type: Tutorial
 hide: true
 hidefromtoc: true
-source-git-commit: ce8882b8af21198a7bc57bc58124e8a2d1491a50
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2693'
 ht-degree: 0%
 
 ---
 
 # 재고 내 알림 확장 튜토리얼
 
-이 튜토리얼에서는 [!DNL Adobe Commerce as a Cloud Service] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe App Builder]에 대한 재고 알림 확장을 빌드하는 방법을 안내합니다. 확장 기능을 통해 구매자는 품절 상품에 가입하고 상품이 재입고되는 경우 알림을 받을 수 있습니다.
+이 튜토리얼에서는 [!DNL Adobe App Builder] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe Commerce as a Cloud Service]에 대한 재고 알림 확장을 빌드하는 방법을 안내합니다. 확장 기능을 통해 구매자는 품절 상품에 가입하고 상품이 재입고되는 경우 알림을 받을 수 있습니다.
 
 다음 두 가지 부분을 작성합니다.
 
@@ -53,8 +53,8 @@ bash --version
 
 또한 다음을 확인하십시오.
 
-- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
-- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
+- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 - `aem` CLI가 설치되어 있습니다.
 
   ```bash
@@ -411,7 +411,7 @@ Run complete browser testing. Use the following out of stock product 'http://loc
 - **API 오류:** CLI를 사용하여 동작을 확인하기 위해 API로 직접 요청을 보냅니다. 예를 들어 `curl`을(를) 사용하여 각 끝점을 독립적으로 테스트하십시오.
 - **에이전트 오류:** 문제를 디버깅하는 데 도움이 되도록 에이전트 채팅 세션에 오류 메시지를 복사하여 붙여 넣으십시오. 에이전트는 환경 변수 누락 또는 잘못 구성된 작업과 같은 일반적인 문제를 진단할 수 있습니다.
 - **이벤트 파이프라인:** 재고 부족 이벤트가 트리거되지 않으면 온보딩 및 이벤트 구독 단계를 완료했는지 확인하십시오. `workspace.json`이(가) 올바른 위치에 있고 Commerce 이벤트 모듈이 활성화되어 있는지 확인하십시오.
-- **재고 상태 페이로드:** Commerce에서 `is_in_stock`을(를) 부울(`"1"`) 대신 문자열(`true`)로 보낼 수 있습니다. 재고 보충 핸들러가 트리거되지 않는 경우 에이전트에게 엄격한 유형 비교에 대해 소비자 코드를 확인하고 두 형식을 모두 처리하도록 업데이트하도록 요청합니다.
+- **재고 상태 페이로드:** Commerce에서 `is_in_stock`을(를) 부울(`true`) 대신 문자열(`"1"`)로 보낼 수 있습니다. 재고 보충 핸들러가 트리거되지 않는 경우 에이전트에게 엄격한 유형 비교에 대해 소비자 코드를 확인하고 두 형식을 모두 처리하도록 업데이트하도록 요청합니다.
 
 ## 튜토리얼 요약
 

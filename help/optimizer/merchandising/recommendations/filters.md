@@ -1,11 +1,11 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여  [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
-source-git-commit: e15624322fabb89d0b618f9d6c689445a7c448df
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    가격 값은 페이지에 표시된 대로 **웹 사이트의 기본 통화**&#x200B;를 사용합니다.
 
-1. **[!UICONTROL Include products based on]** 탭에서 **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭에서 이와 동등한 컨트롤을 열고 **[!UICONTROL Set price range]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Inclusions]** 탭에서 **[!UICONTROL Include products based on]** 또는 **[!UICONTROL Exclusions]** 탭에서 이와 동등한 컨트롤을 열고 **[!UICONTROL Set price range]**&#x200B;을(를) 선택합니다.
 1. 통화 기호 옆에 있는 필드를 사용하여 선택적 **[!UICONTROL Min price]** 및/또는 **[!UICONTROL Max price]**&#x200B;을(를) 설정합니다. 금액을 입력하거나 **-** 및 **+** 컨트롤을 사용하여 값을 조정할 수 있습니다. 최소값 또는 최대값이 필요하지 않으면 바인드를 비워 둡니다. 범위는 상점의 활성 가격 장부에 대한 각 제품의 최종 계산된 가격과 비교됩니다.
 1. 권장 사항 단위 구성을 완료하고 일반적인 방법으로 저장하거나 게시하여 필터가 적용됩니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ### 제품
 
-제품 필터는 **SKU**&#x200B;별로 개별 카탈로그 항목을 타깃팅합니다. 하나 이상의 SKU를 추가하여 해당 제품(**포함**)만 허용하거나 차단(**제외**)합니다. **[!UICONTROL Filter products]**&#x200B;가격 필터[와 동일한 &#x200B;](#price) 페이지를 사용합니다. 비활성화된 제품 또는 추천 단위에서 개별적으로 보이지 않는 제품은 표시해서는 안 됩니다. 이러한 제품은 필터에 관계없이 상점 앞에 표시되지 않습니다.
+제품 필터는 **SKU**&#x200B;별로 개별 카탈로그 항목을 타깃팅합니다. 하나 이상의 SKU를 추가하여 해당 제품(**포함**)만 허용하거나 차단(**제외**)합니다. [가격 필터](#price)와 동일한 **[!UICONTROL Filter products]** 페이지를 사용합니다. 비활성화된 제품 또는 추천 단위에서 개별적으로 보이지 않는 제품은 표시해서는 안 됩니다. 이러한 제품은 필터에 관계없이 상점 앞에 표시되지 않습니다.
 
 #### 제품 필터 설정
 
@@ -98,6 +98,8 @@ ht-degree: 0%
 >
 >구성 가능한 제품의 하위 제품은 _개별적으로 표시되지 않음_&#x200B;의 가시성을 가지므로 추천 단위에 표시되지 않습니다.
 
-<!--### Attribute
+<!--
+### Attribute
 
-You can filter products based on attribute criteria, including attribute values. Selected values use OR logic to either include or exclude products when any of the specified values are found.-->
+You can filter products based on attribute criteria, including attribute values. Selected values use OR logic to either include or exclude products when any of the specified values are found.
+-->

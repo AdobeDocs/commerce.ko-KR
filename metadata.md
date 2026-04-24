@@ -5,13 +5,13 @@ product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce.ko-KR
-index: y
+git-repo: https://github.com/AdobeDocs/commerce.en
+index: true
 role: User
 feature-set: Commerce
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---

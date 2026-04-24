@@ -9,16 +9,16 @@ level: Intermediate
 type: Tutorial
 hide: true
 hidefromtoc: true
-source-git-commit: 3fc8982613df7b1155cdfb08ac4b56de6d1ce4f6
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3398'
 ht-degree: 0%
 
 ---
 
 # 게재 예상 확장 튜토리얼
 
-이 자습서에서는 [!DNL Adobe Commerce as a Cloud Service], [!DNL Adobe App Builder] 및 AI 지원 개발 도구를 사용하여 [!DNL Edge Delivery Services]에 대한 게재 날짜 예상 확장을 빌드하는 과정을 안내합니다. 확장은 외부 API의 배송 시간 및 배송 날짜 예상치를 가져와서 상점 전체에 표시합니다.
+이 자습서에서는 [!DNL Adobe App Builder], [!DNL Edge Delivery Services] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe Commerce as a Cloud Service]에 대한 게재 날짜 예상 확장을 빌드하는 과정을 안내합니다. 확장은 외부 API의 배송 시간 및 배송 날짜 예상치를 가져와서 상점 전체에 표시합니다.
 
 다음 두 가지 부분을 작성합니다.
 
@@ -53,8 +53,8 @@ bash --version
 
 또한 다음을 확인하십시오.
 
-- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
-- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
+- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 - `aem` CLI가 설치되어 있습니다.
 
   ```bash
@@ -288,7 +288,7 @@ Add a new runtime action to this project that implements the API in @docs/PIPEDR
 https://<namespace>.adobeioruntime.net/api/v1/web/mock-delivery-api/delivery-estimate
 ```
 
-`MOCK_API_KEY`의 `.env` 환경 변수에 대해 인증이 확인되었습니다.
+`.env`의 `MOCK_API_KEY` 환경 변수에 대해 인증이 확인되었습니다.
 
 >[!ENDTABS]
 
@@ -364,7 +364,7 @@ Clarifications:
 
 >[!TIP]
 >
->대리점이 서드파티 API를 직접 호출할지 또는 런타임 작업을 수행할지 여부를 묻는 것은 유용한 아키텍처 토론을 트리거합니다. 에이전트는 BFF(Backend-for-Frontend) 패턴의 이점을 설명합니다. API 키는 서버측에서 유지되며, CORS가 처리되고, 캐싱이 중앙 집중화되며, 공급업체가 추상화됩니다. 관리 UI 구성 기능을 요청하면 에이전트가 모든 설정을 `aio-lib-state` 대신 `.env`에 저장하도록 푸시하고 설정을 변경할 때 재배포를 제거합니다.
+>대리점이 서드파티 API를 직접 호출할지 또는 런타임 작업을 수행할지 여부를 묻는 것은 유용한 아키텍처 토론을 트리거합니다. 에이전트는 BFF(Backend-for-Frontend) 패턴의 이점을 설명합니다. API 키는 서버측에서 유지되며, CORS가 처리되고, 캐싱이 중앙 집중화되며, 공급업체가 추상화됩니다. 관리 UI 구성 기능을 요청하면 에이전트가 모든 설정을 `.env` 대신 `aio-lib-state`에 저장하도록 푸시하고 설정을 변경할 때 재배포를 제거합니다.
 
 >[!NOTE]
 >
@@ -443,7 +443,7 @@ npm run subscribe-webhook
 | Webhook 메서드 | `plugin.out_of_process_shipping_methods.api.shipping_rate_repository.get_rates` |
 | Webhook 유형 | `after` |
 | 필수 | 선택 사항(기본 배송으로 대체 허용) |
-| 시간 초과 | 5000ms |
+| 시간 제한 | 5000ms |
 
 {style="table-layout:auto"}
 
@@ -459,7 +459,7 @@ npm run subscribe-webhook
 
 1. **[!UICONTROL Refresh registrations]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Apps]** 사이드바에서 **[!UICONTROL Delivery Estimates]** > [!DNL Admin]&#x200B;(으)로 이동합니다.
+1. [!DNL Admin] 사이드바에서 **[!UICONTROL Apps]** > **[!UICONTROL Delivery Estimates]**(으)로 이동합니다.
 
 1. 기능을 활성화하고 API URL 및 API 키, 원본 주소, 기본 통신사, 캐시 TTL 및 통신사 코드 매핑을 포함한 필수 설정을 지정하여 구성을 완료합니다.
 
@@ -698,23 +698,23 @@ Run complete browser testing using the following product page 'http://localhost:
 
 ### 백엔드(App Builder)
 
-| 증상 | 원인 | 수정 |
+| 증상 | 원인 | Fix |
 |---------|-------|-----|
-| 관리자 UI 구성 작업이 &quot;요청이 허용되지 않는 매개 변수(예약된 속성)&quot;를 사용하여 `400 Bad Request`을(를) 반환합니다. | 프런트 엔드 후크에서 요청 본문의 `__ow_method`을(를) 보내고 있습니다. 접두사가 `__ow_`인 속성은 OpenWhsk에서 예약되어 있으며 작업에 `final: true`이(가) 있으면 거부됩니다. | `method` 대신 사용자 지정 `__ow_method` 속성을 보냅니다. 백 엔드 작업은 먼저 `params.method`을(를) 읽은 다음 `params.__ow_method`(런타임에서 자동으로 제공)으로 돌아갑니다. |
-| `aio app deploy`이(가) &quot;maxVersion이 productDependencies에 필요합니다&quot;와(과) 함께 실패합니다. | CLI 유효성 검사에는 `minVersion` 제품 종속성에 `maxVersion`과(와) `app.config.yaml`이(가) 모두 필요합니다. | `maxVersion`의 각 `productDependencies` 항목에 `app.config.yaml` 값을 추가하십시오. |
-| 배포 명령 실패 | 배포하기 전에 자격 증명이 구성되지 않았습니다. `.env`, 작업 영역 선택 및 OAuth 동기화를 먼저 수행해야 합니다. | 올바른 순서를 따르십시오. `cp env.dist .env` > `aio app use --merge` > `npm run sync-oauth-credentials` > `aio app deploy`. |
+| Admin UI config action returns `400 Bad Request` with &quot;Request defines parameters that are not allowed (reserved properties)&quot; | The frontend hook is sending `__ow_method` in the request body. Properties prefixed with `__ow_` are reserved by OpenWhisk and rejected when the action has `final: true`. | Send a custom `method` property instead of `__ow_method`. The backend action reads `params.method` first, then falls back to `params.__ow_method` (which Runtime provides automatically). |
+| `aio app deploy` fails with &quot;maxVersion is required in productDependencies&quot; | The CLI validation requires both `minVersion` and `maxVersion` in `app.config.yaml` product dependencies. | Add a `maxVersion` value to each `productDependencies` entry in `app.config.yaml`. |
+| Deployment command fails | Credentials not configured before deploy. `.env`, workspace selection, and OAuth sync must happen first. | Follow the correct order: `cp env.dist .env` > `aio app use --merge` > `npm run sync-oauth-credentials` > `aio app deploy`. |
 
 {style="table-layout:auto"}
 
-### Storefront(Edge Delivery Services)
+### Storefront (Edge Delivery Services)
 
-| 증상 | 원인 | 수정 |
+| 증상 | 원인 | Fix |
 |---------|-------|-----|
-| 로그인한 구매자에 대해 PDP 게재 예상치가 표시되지 않음 | PDP 블록이 `account` 드롭인을 초기화하지 않으므로 `getCustomerAddress()`이(가) 자동으로 실패하고 예상 값을 가져오지 않습니다. | 계정 드롭 인 API에 의존하는 대신 `CORE_FETCH_GRAPHQL.fetchGraphQl()`을(를) 사용하여 구매자 주소를 쿼리하십시오. 모든 페이지에서 작동합니다. |
-| GraphQL 수정 후에도 PDP가 여전히 표시되지 않음 | 메서드 이름 `CORE_FETCH_GRAPHQL.fetch()`의 오타가 `CORE_FETCH_GRAPHQL.fetchGraphQl()` 대신 사용되었습니다. | 올바른 메서드 이름을 사용하십시오. `fetchGraphQl`(대문자 Q, 소문자 l). |
-| 첫 번째 로드 시 체크아웃 게재 날짜가 표시되지 않음 | `checkout/updated`이(가) 이미 실행된 후에 `checkout/initialized` 이벤트 수신기가 등록되었으므로 초기 데이터가 누락되었습니다. | 등록 전에 내보낸 이벤트를 catch하려면 `checkout/initialized`이(가) 있는 `{ eager: true }` 수신기를 추가하십시오. 이후의 변경 내용에 대해 `checkout/updated` 수신기를 유지합니다. |
-| 장바구니 게재 예상이 표시되지 않음 | `block.appendChild(fragment)`이(가) 조각에서 모든 하위 항목을 이동하므로 `fragment.querySelector('.cart__delivery-estimate')`이(가) null을 반환합니다. | 추가 작업 후 `block` 대신 `fragment`에서 쿼리 |
-| 정액 요금 배송 시 체크아웃 시 배송 날짜가 표시되지 않음 | 기본적으로 `CARRIER_MAP`은(는) DPS를 표준에 매핑하고 Fedex를 표현합니다. 정액 요금에는 외부 API에 해당하는 통신사가 없습니다. | 버그가 아닙니다. 다른 통신사에 대한 예상 값을 추가하려면 `CARRIER_MAP`에서 `scripts/delivery-estimates.js`을(를) 확장하고 백 엔드 확장에서 통신사를 구성하십시오. |
+| PDP delivery estimate not appearing for logged-in shoppers | The PDP block does not initialize the `account` drop-in, so `getCustomerAddress()` fails silently and no estimate is fetched. | Use `CORE_FETCH_GRAPHQL.fetchGraphQl()` directly to query shopper addresses instead of relying on the account drop-in API. This works on any page. |
+| PDP still not showing after GraphQL fix | Typo in method name: `CORE_FETCH_GRAPHQL.fetch()` was used instead of `CORE_FETCH_GRAPHQL.fetchGraphQl()`. | Use the correct method name: `fetchGraphQl` (capital Q, lowercase l). |
+| Checkout delivery dates not appearing on first load | `checkout/initialized`이(가) 이미 실행된 후에 `checkout/updated` 이벤트 수신기가 등록되었으므로 초기 데이터가 누락되었습니다. | 등록 전에 내보낸 이벤트를 catch하려면 `{ eager: true }`이(가) 있는 `checkout/initialized` 수신기를 추가하십시오. 이후의 변경 내용에 대해 `checkout/updated` 수신기를 유지합니다. |
+| 장바구니 게재 예상이 표시되지 않음 | `block.appendChild(fragment)`이(가) 조각에서 모든 하위 항목을 이동하므로 `fragment.querySelector('.cart__delivery-estimate')`이(가) null을 반환합니다. | 추가 작업 후 `fragment` 대신 `block`에서 쿼리 |
+| 정액 요금 배송 시 체크아웃 시 배송 날짜가 표시되지 않음 | 기본적으로 `CARRIER_MAP`은(는) DPS를 표준에 매핑하고 Fedex를 표현합니다. 정액 요금에는 외부 API에 해당하는 통신사가 없습니다. | 버그가 아닙니다. 다른 통신사에 대한 예상 값을 추가하려면 `scripts/delivery-estimates.js`에서 `CARRIER_MAP`을(를) 확장하고 백 엔드 확장에서 통신사를 구성하십시오. |
 
 {style="table-layout:auto"}
 
