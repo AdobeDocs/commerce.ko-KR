@@ -2,9 +2,9 @@
 title: 앱 관리
 description: App Builder 애플리케이션을 Commerce 인스턴스와 연결, 구성 및 연결 해제합니다.
 feature: App Builder, Extensibility, Integration
-source-git-commit: 4a5174d074a020f6199ed121e0289939612bc5c2
+source-git-commit: 780cef7af3574cd846fd7ee82d7814f2ebe9d6cc
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,22 @@ ht-degree: 0%
 App Manager는 App Builder 애플리케이션을 Commerce 인스턴스와 연결합니다. 구성 양식은 앱의 스키마를 기반으로 동적으로 렌더링되므로 사용자 지정 관리자 UI 개발이 필요하지 않습니다. App Manager는 Commerce이 자동으로 생성하는 양식을 통해 설정을 구성합니다.
 
 ![앱 관리](assets/app-management-view.png){width="500" zoomable="yes"}
+
+## 관리자에서 애플리케이션 찾기
+
+**[!UICONTROL Apps]** > **[!UICONTROL App Management]**&#x200B;에서 각 응용 프로그램이 카드로 표시됩니다. 목록에는 선택한 Adobe IMS 조직의 Adobe Commerce 인스턴스와 연결된 모든 앱이 포함될 수 있습니다. 카드 위의 컨트롤을 사용하여 결과 범위를 좁힐 수 있습니다.
+
+| 제어 | 설명 |
+| --- | --- |
+| **앱별로 필터링...** | 애플리케이션 이름별로 검색합니다. |
+| **상태** | 라이프사이클 상태별로 카드를 제한합니다. **모든 상태**&#x200B;는 모든 앱을 표시합니다. 다른 값에는 **연결**, **설치됨**, **부분적으로 설치됨** 및 **연결 해제**&#x200B;가 포함됩니다. 각 카드의 상태가 목록의 색상 표시기와 일치합니다. |
+| **확장성 패턴** | 앱에서 사용하는 기능으로 카드를 제한합니다. **모든 확장성 패턴**&#x200B;은(는) 모든 앱을 표시합니다. 다른 값은 **비즈니스 구성**, **관리 UI SDK**, **웹후크**, **이벤트**&#x200B;와 같이 각 카드의 배지와 일치합니다. |
+
+검색 텍스트와 두 드롭다운이 함께 적용됩니다(논리적 AND). 전체 목록을 다시 표시하려면 **상태** 및 **확장성 패턴**&#x200B;을(를) 다시 **모두...** 옵션으로 설정하고 검색 필드를 지웁니다.
+
+## 앱 획득
+
+**[!UICONTROL Acquire App]**&#x200B;에서 [Adobe Exchange](https://exchange.adobe.com/experiencecloud){target="_blank"}에 대한 새 브라우저 탭(또는 별도의 브라우저 보기)을 엽니다. 이 탭에서 Commerce 관련 마켓플레이스 목록을 검색하고 Adobe IMS 조직에 응용 프로그램을 추가할 수 있습니다. 앱을 획득, 승인 및 배포하면 [연결 및 설치](#associate-an-app)를 위해 [!DNL App Management]에 앱이 표시됩니다.
 
 ## 사전 요구 사항
 
@@ -30,7 +46,7 @@ App Manager는 App Builder 애플리케이션을 Commerce 인스턴스와 연결
 
 이 비디오를 통해 앱을 Commerce 인스턴스와 연결하고 설정을 구성하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478962?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3478944)
 
 ## 앱 연결
 
