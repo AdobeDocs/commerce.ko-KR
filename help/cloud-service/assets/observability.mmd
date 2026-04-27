@@ -1,0 +1,48 @@
+---
+source-git-commit: 65c2720f8e21089e45948a2a5fe3828ca28f0dbd
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
+
+---
+%%{ init: { &quot;flowchart&quot;: { &quot;curve&quot;: &quot;linear&quot; } }%
+
+그래프 BT
+subgraph commerce[&quot;Adobe Commerce&quot;]
+event_mod[&quot;이벤트 \n 모듈&quot;]
+webhook_mod[&quot;Webhook \n 모듈&quot;]
+admin_sdk[&quot;관리자 UI \n SDK&quot;]
+종료
+
+    subgraph appbuilder[&quot;App Builder&quot;]
+    int_sk[&quot;통합 \n 스타터 키트&quot;]
+    checkout_sk[&quot;Checkout \n 스타터 키트&quot;]
+    generic_app[&quot;일반 \n 애플리케이션&quot;]
+    end
+    
+    subgraph apimesh[&quot;API Mesh&quot;]
+    api_mesh_log[&quot;API Mesh \n 로깅&quot;]
+    end
+    
+    subgraph storefront[&quot;Storefront&quot;]
+    cdn_rum[&quot;CDN / Real User \n Monitoring&quot;]
+    op_tel[&quot;Operational \n Telemetry&quot;]
+    end
+    
+    commerce —> mod[&quot;Observability \n Module]{13 —> aio_tel[&quot;AIO lib \n Telemetry&quot;]
+    
+    obs_mod —> OTel[&quot;OpenTelemetry&quot;]
+    aio_tel —> OTel
+    
+    OTel —> 백 엔드[&quot;타사 가시성 \n(예: Grafana, New Relic, Splunk)&quot;]
+    api_mesh_log —> 백 엔드
+    cdn_rum —> 백 엔드
+    op_tel —> 백 엔드
+    
+    스타일 채우기:#cc0000,color:#fff,stroke:#cc0000
+    스타일 appfill:#cc0000,color:#fff,stroke:#cc0000
+    스타일 apimesh 채우기:#cc0000,color:#fff,stroke:#cc0000
+    스타일 상점 채우기:#cc0000 #fff #cc0000 #f0f0f0 #333 #999 #fff #333 #333,color:,stroke:
+    스타일 채우기:,color:,stroke:
+    스타일 OTel 채우기:,color:,stroke:
+    
