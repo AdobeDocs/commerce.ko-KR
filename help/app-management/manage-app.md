@@ -46,7 +46,7 @@ App Manager는 App Builder 애플리케이션을 Commerce 인스턴스와 연결
 
 이 비디오를 통해 앱을 Commerce 인스턴스와 연결하고 설정을 구성하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478944)
+>[!VIDEO](https://video.tv.adobe.com/v/3478962?captions=kor)
 
 ## 앱 연결
 
