@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 가져오기 파일 유효성 검사가 실패할 수 있는 문제를 해결했습니다. <!-- CCSAAS-4364 -->
 
-* [!DNL Adobe Commerce as a Cloud Service] 관리에서 지원되지 않으므로 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**의&#x200B;**[!UICONTROL Catalog]**섹션에서&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**구성을 제거했습니다. <!-- ACCS-793 -->
+* [!DNL Adobe Commerce as a Cloud Service] 관리에서 지원되지 않으므로 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;의&#x200B;**[!UICONTROL Catalog]**&#x200B;섹션에서&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;구성을 제거했습니다. <!-- ACCS-793 -->
 
 {{accs-release}}
 
