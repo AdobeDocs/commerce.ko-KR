@@ -3,9 +3,9 @@ title: '[!DNL Commerce Storefront Catalog Service Release Notes]'
 description: Adobe Commerce의  [!DNL Catalog Service] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Catalog Service, Release Notes
 exl-id: 74f2e46a-5592-4857-a6d7-b95b85d8b4cc
-source-git-commit: eb7e3e86426abb71b8b5e6d17936d26cb088edb3
+source-git-commit: a3002e93b121c16892d3106e09a0ad55cb99845e
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2809'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,13 @@ ht-degree: 0%
 
 ## Storefront 카탈로그 서비스
 
+### v1.52 릴리스
+
+_2026년 4월 29일_
+
+Adobe Commerce Optimizer 및 Adobe Commerce as a Cloud Service에 대해 요청당 최대 100개의 SKU에 대한 ![새로운](../assets/new.svg) 강제 제한
+[문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits)에 따른 클라이언트. <!--DATA-7156-->
+
 ### v1.51 릴리스
 
 _2026년 4월 17일_
@@ -45,19 +52,19 @@ _2026년 4월 17일_
 
 _2026년 4월 7일_
 
-![새로 만들기](../assets/new.svg) 이제 `categoryTree](https://developer-stage.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree)` 쿼리에 선택적 패밀리 입력 매개 변수가 있습니다. 따라서 특정 패밀리 매개 변수에 종속되지 않고 슬러그를 통해 액세스할 수 있으므로 보다 유연한 범주 검색이 가능합니다. 이 쿼리는 [Adobe Commerce Optimizer 머천다이징 서비스](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)에만 사용할 수 있습니다.
+![새로 만들기](../assets/new.svg) 이제 [categoryTree](https://developer-stage.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree) 쿼리에 선택 사항으로 패밀리 입력 매개 변수가 있습니다. 따라서 특정 패밀리 매개 변수에 종속되지 않고 슬러그를 통해 액세스할 수 있으므로 보다 유연한 범주 검색이 가능합니다. 이 쿼리는 [Adobe Commerce Optimizer 머천다이징 서비스](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)에만 사용할 수 있습니다.
 
 ### v1.48 릴리스
 
 _2026년 2월 19일_
 
-![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6933-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 GraphQL API의 `categoryTree` 쿼리가 범주 설명, 이미지 및 SEO 메타 태그를 반환합니다. 이 업데이트는 상점 개발자가 카테고리 이미지를 표시하고 적절한 메타 제목, 설명 및 키워드를 통해 검색 엔진 최적화를 개선하는 데 필요한 데이터를 제공합니다. 헤드리스 상점&lt;<!--DATA-6933-->용 [구성 가능한 카탈로그 데이터 모델](https://developer.adobe.com/commerce/services/optimizer/)을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.47 릴리스
 
 _2026년 2월 12일_
 
-![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점[용 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)구성 가능한 카탈로그 데이터 모델<!--DATA-6949-->을(를) 사용하는 Commerce 구현에서만 지원됩니다.
+![새로 만들기](../assets/new.svg) 이제 API 서비스가 `CategoryProductView` 형식을 지원하므로 카테고리별 제품에 대한 향상된 보기 및 쿼리를 사용할 수 있습니다. 이 업데이트를 통해 개발자는 카테고리를 기반으로 제품 데이터를 효율적으로 검색 및 필터링하여 카테고리 기반 사용 사례의 유연성과 성능을 향상시킬 수 있습니다. 자세한 내용은 [상점 첫 화면에서 범주 구현](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/categories-storefront-implementation/)을 참조하십시오. Headless 상점<!--DATA-6949-->용 [구성 가능한 카탈로그 데이터 모델](https://developer.adobe.com/commerce/services/optimizer/)을(를) 사용하는 Commerce 구현에서만 지원됩니다.
 
 ### v1.46 릴리스
 
@@ -69,7 +76,7 @@ _2025년 12월 11일_
 
 _2025년 11월 17일_
 
-![새로 만들기](../assets/new.svg) **이름별 특성 필터링**-이제 `productSearch` GraphQL 쿼리에서 `names` 필드를 사용하여 제품 특성을 필터링할 수 있습니다. <!--DATA-6831--> 이 필터를 사용하여 다음을 수행할 수 있습니다.
+![새로 만들기](../assets/new.svg) **이름별 특성 필터링**-이제 `productSearch` GraphQL 쿼리에서 `names` 필드를 사용하여 제품 특성을 필터링할 수 있습니다. <!--DATA-6831--> 이 필터를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 - 특정 속성만 요청하여 응답 페이로드 크기 줄이기
 - 기존 `roles` 필터와 결합하여 가시성 역할 및 특성 이름으로 범위를 좁힙니다.
@@ -125,7 +132,7 @@ _2025년 11월 3일_
 - 레이어 마스크로 필드 수준 무시 제어
 - 프리미엄, 시즌 및 모바일에 최적화된 콘텐츠 레이어 지원
 
-  레이어는 기존 `products` 쿼리를 사용하여 검색되고, 요청 헤더에서 서버측에 적용되며, 스키마 변경이 필요하지 않습니다. [Adobe Commerce Optimizer 안내서](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-layer)에서 _카탈로그 계층_&#x200B;을 참조하세요.
+  레이어는 기존 `products` 쿼리를 사용하여 검색되고, 요청 헤더에서 서버측에 적용되며, 스키마 변경이 필요하지 않습니다. _Adobe Commerce Optimizer 안내서_&#x200B;에서 [카탈로그 계층](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-layer)을 참조하세요.
 
 ![수정](../assets/fix.svg) 이제 상위 제품에 가격표가 없을 때 그룹화된 제품에 대해 쿼리할 수 있습니다. 하위 제품은 고유한 표시 역할을 반환합니다.<!--DATA-6779-->
 
@@ -167,7 +174,7 @@ query {
 
 ![수정](../assets/fix.svg) **최소 최종 가격으로 필터링된 계층 가격** <!--DATA-6643-->
 
-이제 API는 제품의 최소 최종 가격보다 할인된 가격이 **낮은 계층만 반환합니다.** 대신 최소 최종 가격이 상점 앞에 적용되므로 더 높은 계층은 생략됩니다.
+이제 API는 제품의 최소 최종 가격보다 할인된 가격이 **낮은 계층만 반환합니다.**&#x200B;대신 최소 최종 가격이 상점 앞에 적용되므로 더 높은 계층은 생략됩니다.
 
 적용 대상:
 
@@ -180,7 +187,7 @@ _2025년 9월 2일_
 
 ![수정](../assets/fix.svg) **누락된 가격 정보에 대한 오류 처리 개선**—가격 데이터를 아직 받지 않은 경우 API에서 오류를 발생시키는 대신 가격 필드에 대해 `null`을(를) 반환하여 클라이언트가 누락된 데이터를 정상적으로 처리할 수 있습니다.<!--DATA-6612-->
 
-![시스템 수준 및 인프라 개선을 수정하여 성능과 안정성을 개선합니다.](../assets/fix.svg)<!--DATA-6671-->
+![시스템 수준 및 인프라 개선을 수정하여 성능과 안정성을 개선합니다.<!--DATA-6671-->](../assets/fix.svg)
 
 ### v1.40 릴리스
 
@@ -236,7 +243,7 @@ _2025년 7월 15일_
 
 _2025년 6월 20일_
 
-![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
+![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
 
 ![새로 만들기](../assets/new.svg) **대/소문자를 구분하지 않는 키**—쿼리의 키 조회는 이제 대/소문자를 구분하지 않으므로 키 대/소문자에서 오류가 줄어듭니다. <!--DATA-6494, DCAT-2495-->
 
@@ -365,7 +372,7 @@ _2024년 5월 23일_
 
 ![수정](../assets/fix.svg) <!--DATA-5033-->옵션 값에 대한 `InStock` 플래그는 이제 제품 변형의 범위 `enabled` 상태를 따릅니다.
 
-![수정](../assets/fix.svg) <!--DATA-5888-->최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../data-export/data-export-cli-commands.md)에서 다시 동기화하십시오.
+![수정](../assets/fix.svg) <!--DATA-5888-->최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../data-export/data-export-cli-commands.md)에서 다시 동기화하십시오.
 
 #### 알려진 제한 사항
 
@@ -399,7 +406,7 @@ _2024년 2월 22일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
 
 ### v1.16 릴리스
 
@@ -474,7 +481,7 @@ _2023년 3월 28일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) [`products`](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/) 쿼리에 견본을 추가했습니다.
-![새로 만들기](../assets/new.svg)에서 `entityId`API Mesh[를 사용하여 &#x200B;](mesh.md)을(를) 가져오는 기능을 추가했습니다.
+![새로 만들기](../assets/new.svg)에서 [API Mesh](mesh.md)를 사용하여 `entityId`을(를) 가져오는 기능을 추가했습니다.
 
 ### v1.5 릴리스
 
@@ -598,7 +605,7 @@ _2024년 1월 26일_
 
 - **Adobe Commerce as a Cloud Service** 고객의 경우 최신 설치 관리자 버전이 환경에 설치되어 있습니다.
 
-- **클라우드 인프라의 Adobe Commerce** 또는 **온-프레미스**&#x200B;의 경우 설치 관리자를 [카탈로그 서비스 메타패키지](#catalog-service-metapackage)와(과) 함께 맞추세요. `magento/catalog-service-installer`을(를) 업그레이드할 때마다 또는 이 릴리스 노트에서 새 PHP 버전에 대한 지원과 같이 필요한 변경 내용을 설명하는 경우 작성기를 사용하여 `magento/catalog-service`을(를) 업그레이드하세요. 이렇게 하면 실행 중인 카탈로그 서비스 버전과 설치 도구가 호환됩니다.
+- **클라우드 인프라의 Adobe Commerce** 또는 **온-프레미스**&#x200B;의 경우 설치 관리자를 [카탈로그 서비스 메타패키지](#catalog-service-metapackage)와(과) 함께 맞추세요. `magento/catalog-service`을(를) 업그레이드할 때마다 또는 이 릴리스 노트에서 새 PHP 버전에 대한 지원과 같이 필요한 변경 내용을 설명하는 경우 작성기를 사용하여 `magento/catalog-service-installer`을(를) 업그레이드하세요. 이렇게 하면 실행 중인 카탈로그 서비스 버전과 설치 도구가 호환됩니다.
 
 ### v1.0.6 릴리스
 
@@ -614,7 +621,7 @@ _2026년 3월 25일_
    - [카탈로그 서비스 GraphQL API 참조](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/)
    - [Adobe Commerce 관리 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/)
    - [Adobe Commerce as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/)
-   - [Cloud Guide의 Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud/)
+   - [Adobe Commerce on Cloud 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud/)
 
 - **Adobe Commerce Optimizer** 또는 **Adobe Commerce Optimizer 커넥터**&#x200B;를 사용하는 프로젝트의 경우 다음 설명서를 참조하십시오.
 
