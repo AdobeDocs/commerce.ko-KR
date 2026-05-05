@@ -2,7 +2,7 @@
 title: 보안 개요
 description: Adobe Commerce as a Cloud Service의 보안 기능에 대해 알아봅니다.
 role: Admin, Architect, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 0343c4f3ecc182145a97e08eca2790bd1512aa27
 workflow-type: tm+mt
 source-wordcount: '581'

@@ -2,7 +2,7 @@
 title: ID 및 액세스 관리
 description: Adobe Commerce as a Cloud Service의 ID 및 액세스 관리 기능에 대해 알아봅니다.
 role: Admin, Architect, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 283e9c8b9dd0812bb19640681d1fdf86f0f7fce1
 workflow-type: tm+mt
 source-wordcount: '419'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) Adobe의 엔터프라이즈급 id 인프라를 활용하여 모든 환경에서 안전하고 확장 가능하며 중앙 집중식 액세스 제어를 보장합니다. [!DNL Adobe Commerce as a Cloud Service]의 IAM(Identity and Access Management)은 사용자 프로비저닝을 간소화하고, 최소 권한 액세스를 적용하며, 글로벌 보안 표준 준수를 지원하도록 설계되었습니다.
 
-- **[!DNL Adobe Identity Management Services (IMS)]**: [!DNL Adobe Commerce as a Cloud Service]은(는) [Adobe IMS(Identity Management Services)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)을(를) 사용하여 사용자를 인증하고 권한을 관리합니다. 여기에는 페더레이션 ID 공급자 및 [역할 기반 액세스 제어](../user-management.md)에 대한 지원이 포함됩니다.
+- **[!DNL Adobe Identity Management Services (IMS)]**: [!DNL Adobe Commerce as a Cloud Service]은(는) [Adobe IMS(Identity Management Services)](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)을(를) 사용하여 사용자를 인증하고 권한을 관리합니다. 여기에는 페더레이션 ID 공급자 및 [역할 기반 액세스 제어](../user-management.md)에 대한 지원이 포함됩니다.
 
 - **Admin Console 거버넌스**: 관리자는 [!DNL Adobe Admin Console]을(를) 통해 상점 및 백엔드에 대한 액세스를 관리합니다. 권한은 특정 기능 및 역할로 범위를 지정할 수 있으므로 최소 권한 액세스가 보장됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 - **제품 프로필**: 스테이징 및 프로덕션과 같은 다양한 환경에 대한 액세스 범위를 정의합니다.
 - **위임된 관리**: 시스템 관리자 및 제품 관리자는 IT에 관여하지 않고 사용자 액세스를 관리할 수 있습니다.
 
-자세한 내용은 [사용자 관리](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management)를 참조하십시오.
+자세한 내용은 [사용자 관리](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management)를 참조하십시오.
 
 ## API 인증 및 통합 보안
 

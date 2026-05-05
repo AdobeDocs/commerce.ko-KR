@@ -2,7 +2,7 @@
 title: 규정 준수 및 인증
 description: Adobe Commerce as a Cloud Service의 규정 준수 및 인증에 대해 알아봅니다.
 role: Admin, Architect, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 89c4d174d982d55c111b9fa4e6b87e70cb566ca1
 workflow-type: tm+mt
 source-wordcount: '242'
@@ -31,4 +31,4 @@ Adobe 인증 및 규정 준수 설명서의 전체 목록을 보려면 [Adobe Tr
 
 ## 실무자 인증
 
-Adobe은 [!DNL Adobe Commerce]&#x200B;(으)로 작업하는 개발자, 설계자 및 비즈니스 전문가를 위한 역할 기반 인증도 제공합니다. 이러한 인증은 안전한 구현 및 플랫폼 거버넌스에 대한 전문 지식을 검증합니다. 자세한 내용은 [Adobe 인증 포털](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/ac/ac-overview){target="_blank"}을 참조하세요.
+Adobe은 [!DNL Adobe Commerce]&#x200B;(으)로 작업하는 개발자, 설계자 및 비즈니스 전문가를 위한 역할 기반 인증도 제공합니다. 이러한 인증은 안전한 구현 및 플랫폼 거버넌스에 대한 전문 지식을 검증합니다. 자세한 내용은 [Adobe 인증 포털](https://experienceleague.adobe.com/ko/docs/certification/program/technical-certifications/ac/ac-overview){target="_blank"}을 참조하세요.
