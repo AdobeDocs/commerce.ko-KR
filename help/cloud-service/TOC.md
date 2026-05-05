@@ -3,10 +3,10 @@ user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 371b5b5377d561a002694609b95d5492d368a0ab
+source-git-commit: fb7d70be0a9325d20f3e9392a32e896fe1e1e833
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,21 @@ ht-degree: 2%
 - [사용자 및 Identity Management](user-management.md)
 - [상점 첫 화면](storefront.md)
 - [사용 사례](use-cases.md)
+- 보안 {#security}
+   - [개요](security/overview.md)
+   - [공동 책임](security/shared-responsibility.md)
+   - [ID 및 액세스 관리](security/access-control.md)
+   - [규정 준수 및 인증](security/compliance.md)
+   - [보안 아키텍처 및 데이터 흐름](security/data-flow.md)
 - [제품에 파일 추가](product-files.md)
 - [가시성](observability.md)
-- [공동 책임](shared-responsibility.md)
 - 마이그레이션 {#migration}
    - [개요](migration/overview.md)
    - 마이그레이션 도구 {#migration-tools}
       - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
       - [코딩 툴](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
    - [설명서 RAG 서비스](migration/doc-rag.md)
-- [고객으로 로그인](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+- [고객으로 로그인](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
 - [기프트 카드 계정 REST 엔드포인트](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
 - [REST를 통한 이메일 트리거](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - 튜토리얼 {#tutorials}
@@ -42,6 +47,6 @@ ht-degree: 2%
    - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-- [비디오 자습서](https://experienceleague.adobe.com/ko/playlists/accs-getting-started-product-overview){target="_blank"}
+- [비디오 자습서](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
