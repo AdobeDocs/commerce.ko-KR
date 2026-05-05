@@ -3,10 +3,10 @@ title: 카탈로그 계층
 description: 카탈로그 레이어를 통해 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정하여 언제든지 안전하게 사용자 정의하고 변경 사항을 되돌리는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 00f5aaa4d08e686195096b3fee0dcca2d2ac56d8
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
    * **필드 재정의** - 이름, 설명 및 메타 제목과 같은 텍스트 필드는 레이어에 정의된 값으로 대체되며 우선 순위가 높은 레이어가 우선합니다.
    * **필드 병합** - 이미지, 링크 및 특성과 같은 배열 필드가 여러 계층에서 결합되어 통합된 응답을 제공합니다.
 
-1. **우선 순위 확인**—순서 필드에 따라 우선 순위가 결정됩니다. 여러 레이어가 동일한 필드를 수정할 때 순서 번호가 낮은 레이어의 우선순위가 더 높습니다(예: 순서 1이 가장 높음).
+1. **우선 순위 확인**—순서 필드에 따라 우선 순위가 결정됩니다. 여러 레이어가 동일한 필드를 수정할 때 순서 번호가 높은 레이어의 우선순위가 더 높습니다(예: 순서 10이 가장 높음).
 
 ## 카탈로그 레이어 사용 사례
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 Sites Optimizer의 자동 수정 기능이 자동으로 레이어를 만들고 순서 1(가장 높은 우선 순위)을 지정합니다. 이 레이어를 삭제하면 다음에 Sites Optimizer의 자동 수정 기능이 실행될 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 기능은 해당 우선 순위를 변경하지 않습니다.
+>Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 Sites Optimizer의 자동 수정 기능에서 자동으로 레이어를 만들고 가장 높은 우선 순위(가장 높은 번호)를 지정합니다. 이 레이어를 삭제하면 다음에 Sites Optimizer의 자동 수정 기능이 실행될 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 기능은 해당 우선 순위를 변경하지 않습니다.
 
 >[!TIP]
 >
@@ -189,8 +189,8 @@ ht-degree: 0%
 **우선 순위 이해:**
 
 * 각 계층에는 주문 번호(1, 2, 3 등)가 지정됩니다.
-* 순서 1은 우선 순위가 가장 높으며 다른 모든 레이어를 무시합니다.
-* 여러 레이어가 동일한 필드를 수정할 때 번호가 낮은 레이어가 우선합니다
+* 숫자가 높을수록 우선 순위가 높으며 다른 모든 레이어를 무시합니다
+* 여러 레이어가 동일한 필드를 수정할 때 번호가 높은 레이어가 우선합니다
 * 우선 순위는 재정의 필드(이름, 설명, 메타 태그)에만 적용됩니다.
 * 필드 병합(이미지, 링크, 속성)은 모든 레이어의 데이터를 결합합니다
 
