@@ -1,5 +1,5 @@
 ---
-title: '[!Data Export] 로그 코드 참조'
+title: '[ !Data Export] 로그 코드 참조'
 description: 동기화 문제를 해결하고 부분 또는 전체 재동기화가 필요한 시기를 결정하는 데이터 내보내기 로그 코드, 메시지 및 심각도 수준에 대한 참조 목록입니다.
 feature: Services
 exl-id: c1341863-1ec4-4d67-8ff2-821ef0a61f33
