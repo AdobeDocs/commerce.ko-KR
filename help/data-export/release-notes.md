@@ -255,7 +255,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 _2025년 2월 28일_
 
-![카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->](../assets/fix.svg)
+!&lbrack;카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->&rbrack;(../assets/fix.svg)
 
 ![수정](../assets/fix.svg) 스토어 보기 수가 많은 인스턴스에서 제품 재동기화 프로세스의 성능을 개선했습니다. <!--MDEE-974-->
 
