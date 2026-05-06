@@ -3,7 +3,7 @@ title: ' [!DNL Adobe LLM Optimizer] 함께 사용 [!DNL Adobe Commerce]'
 description: LLM Optimizer에서 Commerce 기회를 탐색하고, PDP 및 카탈로그 데이터 보강 작업을 검토하고,  [!DNL Adobe Commerce]에 업데이트를 배포하고, 관리 및 상점 첫 화면에서 확인하고, 재정의 및 수집이 기회를 부실 상태로 표시하는 방법에 대해 알아봅니다.
 role: Admin, User
 recommendations: noCatalog
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 47348a44ff7c5f890c10594f44cae6e771be046f
 workflow-type: tm+mt
 source-wordcount: '1175'

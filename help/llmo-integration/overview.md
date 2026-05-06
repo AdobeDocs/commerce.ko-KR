@@ -3,7 +3,7 @@ title: ' [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합'
 description: LLM의 카탈로그 신호를 모니터링하고 승인된 카탈로그 최적화를 배포하려면  [!DNL Adobe Commerce] to [!DNL Adobe LLM Optimizer] 을(를) 연결하세요.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 47348a44ff7c5f890c10594f44cae6e771be046f
 workflow-type: tm+mt
 source-wordcount: '902'

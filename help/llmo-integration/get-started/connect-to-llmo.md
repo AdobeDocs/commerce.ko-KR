@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce] to [!DNL Adobe LLM Optimizer] 연결'
 description: 기회를 검토하거나 업데이트를 배포하기 전에 필요한 Commerce 서비스를 활성화하고, LLM Optimizer 연결을 구성하고, 카탈로그 액세스를 확인하고, 테넌트 준비 상태를 확인합니다.
 role: Admin, User
 recommendations: noCatalog
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 47348a44ff7c5f890c10594f44cae6e771be046f
 workflow-type: tm+mt
 source-wordcount: '543'
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 문서에서는 통합의 Commerce 측면에 중점을 둡니다. LLM Optimizer에 대한 일반적인 정보는 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)를 참조하세요.
+>이 문서에서는 통합의 Commerce 측면에 중점을 둡니다. LLM Optimizer에 대한 일반적인 정보는 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home)를 참조하세요.
 
 ## 필요한 Commerce 서비스 활성화 {#enable-commerce-services}
 

@@ -3,7 +3,7 @@ title: 통합 제한 및 경계
 description: Commerce을 사용하는 LLM Optimizer에 대한 서드파티 카탈로그, 자동 수정 범위, 크롤링 사전 요구 사항, 엔터프라이즈 규모 고려 사항 및 제한된 베타 액세스 제한에 대해 알아봅니다.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 47348a44ff7c5f890c10594f44cae6e771be046f
 workflow-type: tm+mt
 source-wordcount: '258'
