@@ -64,7 +64,7 @@ query productSearchInStockOnly {
 결과 세트에서 품절된 제품을 유지하지만 관련성을 기준으로 정렬할 때 항상 품절 상태 제품을 유지하려면 Adobe에서 환경에 대한 내부 기능 플래그를 활성화할 수 있습니다.
 
 - 이 기능 플래그는 [!DNL Live Search] 관리 UI에 노출되지 않습니다.
-- 요청하려면 [Adobe 지원에 문의](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide){target="_blank"}하고 기능을 참조하여 재고 부족 제품을 검색 결과 끝으로 이동하십시오.
+- 요청하려면 [Adobe 지원에 문의](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide){target="_blank"}하고 기능을 참조하여 재고 부족 제품을 검색 결과 끝으로 이동하십시오.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ query productSearchInStockOnly {
 >[!MORELIKETHIS]
 >
 > - [머천다이징 규칙 검색](rules.md)
-> - [Inventory management 글로벌 옵션 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/configuration)
+> - [Inventory management 글로벌 옵션 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/configuration)
