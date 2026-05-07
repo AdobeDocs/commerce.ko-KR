@@ -2,18 +2,22 @@
 title: 패싯 추가
 description: 필터링 가능한 제품 특성을  [!DNL Live Search] 패싯으로 추가하는 방법에 대해 알아봅니다.
 exl-id: 80559107-2b2d-411f-8c32-99ff024e7a09
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+source-git-commit: 3c6ca2398cf80649e2dbe127b1835b0a057d3534
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
 # 패싯 추가
 
-필터링 가능한 모든 제품 속성을 패싯으로 사용할 수 있습니다. *패싯 추가* 패널에 현재 패싯이 나열되어 있으므로 추가 제품 특성을 패싯으로 쉽게 할당할 수 있습니다. 이 3단계 프로세스 동안 속성을 Facet으로 사용하도록 선택하고, 필요한 경우 속성을 편집하며, 변경 사항을 Storefront에 게시합니다.
+재고 상태(`quantity_and_stock_status`)를 제외한 모든 필터링 가능한 제품 특성을 패싯으로 사용할 수 있습니다. *[!UICONTROL Add facets]* 패널에서는 현재 패싯을 나열하므로 추가 제품 특성을 패싯으로 쉽게 할당할 수 있습니다. 이 3단계 프로세스 동안 속성을 Facet으로 사용하도록 선택하고, 필요한 경우 속성을 편집하며, 변경 사항을 Storefront에 게시합니다.
 
 ![패싯 추가](assets/facets-add.png)
+
+>[!NOTE]
+>
+>재고 상태별 제품 표시 관리에 대한 자세한 내용은 [재고 부족 제품 관리](manage-out-of-stock-products.md)를 참조하십시오.
 
 ## 1단계: Facet 추가
 
