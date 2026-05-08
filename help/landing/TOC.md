@@ -28,7 +28,7 @@ ht-degree: 13%
    - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html)
    - [[!DNL App Management]](https://experienceleague.adobe.com/en/docs/commerce/app-management/overview)
    - [서비스 커넥터](/help/landing/saas.md)
-   - [ [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합](https://experienceleague.adobe.com/docs/commerce/llmo-integration/overview.html)
+   - [&#x200B; [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합](https://experienceleague.adobe.com/docs/commerce/llmo-integration/overview.html)
 - 데이터 도구 {#data-services}
    - [SaaS 데이터 내보내기](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
    - [SaaS 가격 인덱싱](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html)
