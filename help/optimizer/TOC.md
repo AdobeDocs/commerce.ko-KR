@@ -4,9 +4,10 @@ user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 �
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: fccfd5b75419e2f04537a48098591b53220725a5
+nudge: true
+source-git-commit: 185985dd75404ea9ab586ede32753503617d071d
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '114'
 ht-degree: 12%
 
 ---
