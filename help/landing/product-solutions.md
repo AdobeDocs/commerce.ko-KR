@@ -4,9 +4,8 @@ description: 배지를 사용하여 다양한 Adobe Commerce 솔루션(SaaS, Paa
 feature: Paas, Saas
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 5ba1fa65-391f-4af7-8c40-d8314ec9d3e5
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+source-git-commit: 3ebee6c984a8f848e9094968be9faa667fc83250
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%

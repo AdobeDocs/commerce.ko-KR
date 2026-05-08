@@ -1,9 +1,9 @@
 ---
 title: 규정 준수 및 인증
 description: Adobe Commerce as a Cloud Service의 규정 준수 및 인증에 대해 알아봅니다.
-role: Admin, Architect, Leader
+role: Admin, Developer, Leader
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 89c4d174d982d55c111b9fa4e6b87e70cb566ca1
+source-git-commit: feb48068137c6a63e6594167fe969c3aa4b044c4
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%

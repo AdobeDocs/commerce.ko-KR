@@ -1,9 +1,9 @@
 ---
 title: ID 및 액세스 관리
 description: Adobe Commerce as a Cloud Service의 ID 및 액세스 관리 기능에 대해 알아봅니다.
-role: Admin, Architect, Leader
+role: Admin, Developer, Leader
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 283e9c8b9dd0812bb19640681d1fdf86f0f7fce1
+source-git-commit: feb48068137c6a63e6594167fe969c3aa4b044c4
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

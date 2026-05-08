@@ -5,7 +5,7 @@ role: Admin, Leader, User
 feature: Integration, Personalization, Services, Saas
 recommendations: noDisplay
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c9cd8ca208a22d4166b2271aa11a9e9acd871d3f
+source-git-commit: 3ebee6c984a8f848e9094968be9faa667fc83250
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 - [개요](home.md)
 - 릴리스 정보 {#release-information}
    - [릴리스 정보](/help/landing/release-notes-all.md)
-- [제품 솔루션](product-solutions.md)
+- {hide-from-toc}[제품 솔루션](product-solutions.md)
 - Commerce 서비스 {#commerce-services}
    - [[!DNL AEM Assets Integration]](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/overview)
    - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)
@@ -28,7 +28,7 @@ ht-degree: 13%
    - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html?lang=ko)
    - [[!DNL App Management]](https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview)
    - [서비스 커넥터](/help/landing/saas.md)
-   - [&#x200B; [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합](https://experienceleague.adobe.com/docs/commerce/llmo-integration/overview.html)
+   - [&#x200B; [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합](https://experienceleague.adobe.com/docs/commerce/llmo-integration/overview.html?lang=ko)
 - 데이터 도구 {#data-services}
    - [SaaS 데이터 내보내기](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html?lang=ko)
    - [SaaS 가격 인덱싱](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html?lang=ko)
