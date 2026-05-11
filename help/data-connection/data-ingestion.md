@@ -23,7 +23,7 @@ ht-degree: 2%
 
 [데이터 연결 확장](overview.md)은(는) Commerce 데이터를 Experience Platform에 연결합니다. Experience Platform에서 사용할 데이터는 **경험 이벤트** 클래스에 속하는 시계열 데이터와 **개별 프로필** 클래스에 속하는 레코드 데이터의 두 가지 동작 유형으로 그룹화됩니다.
 
-Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#data-behaviors) 및 [클래스](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#class)에 대해 자세히 알아보세요.
+Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#data-behaviors) 및 [클래스](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#class)에 대해 자세히 알아보세요.
 
 ## 시계열 데이터
 
@@ -39,7 +39,7 @@ Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/doc
 
 ## 레코드 데이터
 
-레코드 데이터는 주체의 속성에 대한 정보를 제공합니다. 주제는 조직 또는 개인일 수 있습니다. 예를 들어 사이트의 쇼핑객이 계정을 만들고 이 계정은 레코드 데이터를 생성합니다. 이 데이터는 클래스가 **개인 프로필**(으)로 설정된 스키마를 사용하여 Experience Platform에 수집됩니다. 해당 레코드 데이터를 Adobe의 프로필 관리 및 세분화 서비스로 보낼 수 있습니다. [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html).
+레코드 데이터는 주체의 속성에 대한 정보를 제공합니다. 주제는 조직 또는 개인일 수 있습니다. 예를 들어 사이트의 쇼핑객이 계정을 만들고 이 계정은 레코드 데이터를 생성합니다. 이 데이터는 클래스가 **개인 프로필**(으)로 설정된 스키마를 사용하여 Experience Platform에 수집됩니다. 해당 레코드 데이터를 Adobe의 프로필 관리 및 세분화 서비스로 보낼 수 있습니다. [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html?lang=ko).
 
 ### 캡처된 프로필 레코드 데이터
 

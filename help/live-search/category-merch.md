@@ -3,7 +3,7 @@ title: 카테고리 머천다이징
 description: 더 빠른 쇼핑 경험을 위해  [!DNL Live Search] 카테고리 머천다이징을 사용하십시오.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/2omWXwNttfwW04upO-QlQlRa41w9vgpdlPOYVFOX7-4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -51,7 +51,7 @@ ht-degree: 0%
 카테고리 머천다이징에서는 [개별 제품](rules-workspace.md)과(와) 동일한 순위 유형을 사용합니다.
 등급에는 지능과 수동, 이렇게 두 가지 유형이 있습니다.
 
-**지능형 순위**&#x200B;은(는) [Adobe AI](https://business.adobe.com/ai.html)의 상점 행동 데이터 분석을 활용하여 특정 알고리즘으로 선택한 범주 내의 모든 제품을 정렬합니다. 지능형 등급을 선택하면 Adobe AI이 지속적으로 기본 데이터를 재분석하므로 제품의 특정 순서는 시간이 지남에 따라 변경될 것으로 예상됩니다. 예를 들어 상위 트렌드 제품은 쇼퍼 환경 설정이 변경될 때 시간이 지남에 따라 자동으로 변경됩니다.
+**지능형 순위**&#x200B;은(는) [Adobe AI](https://business.adobe.com/kr/ai.html)의 상점 행동 데이터 분석을 활용하여 특정 알고리즘으로 선택한 범주 내의 모든 제품을 정렬합니다. 지능형 등급을 선택하면 Adobe AI이 지속적으로 기본 데이터를 재분석하므로 제품의 특정 순서는 시간이 지남에 따라 변경될 것으로 예상됩니다. 예를 들어 상위 트렌드 제품은 쇼퍼 환경 설정이 변경될 때 시간이 지남에 따라 자동으로 변경됩니다.
 지능형 순위 방법은 다음과 같습니다.
 
 * 가장 많이 구매함: 이전 7일 동안 쇼핑객이 구매한 빈도별로 제품을 평가합니다.
