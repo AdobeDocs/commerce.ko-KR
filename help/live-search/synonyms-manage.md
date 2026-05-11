@@ -1,9 +1,13 @@
 ---
 title: 동의어 관리
 description: 기존 [!DNL Live Search] 동의어를 관리하는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 648e5fec-acc5-4244-aa26-8120c62abe6a
+TQID: https://experienceleague.adobe.com/-B-ixlItkljDDCrau969-DPOvxPxhWM6NWRSG-TFcak
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 222
 ht-degree: 0%
 
 ---
@@ -26,9 +30,9 @@ ht-degree: 0%
 
 ## 동의어 편집
 
-1. 편집할 동의어를 찾은 다음 **자세히**(...) 옵션을 클릭합니다.
+1. 편집할 동의어를 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**을 클릭합니다.
 키워드는 목록의 첫 번째 용어이며 각 용어는 쉼표로 구분됩니다. 키워드 및 확장 용어는 업데이트할 수 있지만 동의어의 유형은 변경할 수 없습니다.
 1. 편집할 항목을 클릭합니다. 그런 다음 필요에 따라 텍스트를 업데이트합니다.
 
@@ -36,7 +40,7 @@ ht-degree: 0%
 
 ## 동의어 삭제
 
-1. 목록에서 삭제할 동의어를 찾은 다음 **자세히**(...) 옵션을 클릭합니다.
+1. 목록에서 삭제할 동의어를 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 1. **삭제**&#x200B;를 클릭합니다.
 1. 메시지가 표시되면 **동의어 삭제**&#x200B;를 클릭하여 확인합니다.
 

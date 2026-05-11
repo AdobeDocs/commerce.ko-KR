@@ -1,9 +1,15 @@
 ---
 title: Workspace 환경 설정
 description: ' [!DNL Live Search] 페이스팅 작업 영역에 대한 자세한 내용을 살펴보십시오.'
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 7108e41b-44a7-4943-b20f-6ee544d099e9
+TQID: https://experienceleague.adobe.com/LsVM4inUqk2EozfVN--FH1Ukggt8A8QBIQXW-SmnxZs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 229
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 ## 범위 설정
 
-Adobe Commerce 설치에 여러 스토어 보기가 포함된 경우 Facet 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
+Adobe Commerce 설치에 여러 스토어 보기가 포함된 경우 Facet 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
 
 ## 목록 필터링
 

@@ -3,11 +3,15 @@ title: 가격 장부
 description: ' [!DNL Adobe Commerce Optimizer]에서 가격 장부를 관리하는 방법을 알아보세요.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: a1849830-3d0e-4df9-ab73-380659c3f9dc
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/-vL79MMePcUdhE-gPwjFJZStZUtNLKAUxpePm4Fvmfk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 384
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Commerce Optimizer]에 가격표 추가
 
-Price Book API를 사용하여 [!DNL Adobe Commerce Optimizer]에 Price Book을 추가합니다. [의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)개발자 설명서[!DNL Adobe Commerce Optimizer]를 참조하세요.
+Price Book API를 사용하여 [!DNL Adobe Commerce Optimizer]에 Price Book을 추가합니다. [!DNL Adobe Commerce Optimizer]의 가격 장부를 만들고 업데이트하고 삭제하는 방법은 [개발자 설명서](https://developer.adobe.com/commerce/services/reference/rest/)를 참조하세요.
 
 ## [!DNL Adobe Commerce Optimizer]에서 가격 장부 보기
 
@@ -30,7 +34,7 @@ Price Book API를 사용하여 [!DNL Adobe Commerce Optimizer]에 Price Book을 
 
 1. _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create catalog view]**&#x200B;을(를) 클릭합니다&#x200B;.
+1. **[!UICONTROL Create catalog view]**&#x200B;을(를) 클릭합니다. &#x200B;
 
    카탈로그 뷰 상세내역 구성에서 사용 가능한 가격 장부 중 하나를 선택합니다.
 

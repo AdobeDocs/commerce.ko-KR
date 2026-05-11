@@ -2,16 +2,21 @@
 title: 설정
 description: ' [!DNL Product Recommendations] 데이터 소스를 변경하는 방법과 시각적 권장 사항을 활성화하는 방법을 알아봅니다.'
 exl-id: fe37624d-c53e-40cd-b182-10f62cba74c0
-source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
+TQID: https://experienceleague.adobe.com/GJ8h9mX-3vlH1AUxk7FyM0-7rZTt40SGmdwfEMlvLvE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 477
 ht-degree: 0%
 
 ---
 
 # 설정
 
-권장 사항에 대해 [SaaS 데이터 공간을 구성](../landing/saas.md#saas-configuration)하면 SaaS 데이터 공간은 카탈로그 데이터와 상점 행동 데이터를 수집합니다. [Adobe AI](https://business.adobe.com/kr/ai.html)는 해당 데이터를 분석하고 제품 추천을 제공하는 데 사용되는 제품 연결을 계산합니다.
+권장 사항에 대해 [SaaS 데이터 공간을 구성](../landing/saas.md#saas-configuration)하면 SaaS 데이터 공간은 카탈로그 데이터와 상점 행동 데이터를 수집합니다. [Adobe AI](https://business.adobe.com/ai.html)은(는) 해당 데이터를 분석하고 제품 추천을 제공하는 데 사용되는 제품 연결을 계산합니다.
 
 테스트 또는 스테이징을 위한 비프로덕션 환경에는 일반적으로 실제 제품 추천을 제공하는 상점 행동 데이터의 수량이나 품질이 없습니다. 규모에 따른 실제 구매자 행동은 프로덕션 환경에서만 캡처할 수 있습니다. 이 문제를 해결하기 위해 Adobe Commerce에서는 프로덕션 환경의 제품 권장 사항을 다른 비프로덕션 SaaS 데이터 공간과 함께 사용할 수 있습니다. 비프로덕션 환경에서 실제 상점 데이터를 사용하면 쇼핑객이 보는 권장 사항을 미리 보고 다양한 권장 사항 유형 및 배치 위치를 실험할 수 있습니다. 다른 SaaS 데이터 공간의 권장 사항은 구매자가 미리 볼 수 있지만 클릭은 할 수 없습니다.
 

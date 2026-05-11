@@ -2,9 +2,13 @@
 title: 머천다이징 검색
 description: '[!DNL Live Search] 머천다이징 규칙은 논리와 작업을 결합하여 쇼핑 경험을 구체화합니다.'
 exl-id: 9894bf2b-8556-4057-aa23-ebdcb1599914
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+TQID: https://experienceleague.adobe.com/WP92dt45BJo8-pJDaWY-9ocDd4GdJVWcOqzVLfjnEkI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -75,4 +79,4 @@ ht-degree: 0%
 ## 카테고리 머천다이징 및 카테고리 제품 할당
 
 [!DNL Live Search]을(를) 통해 범주를 기준으로 필터링할 수 있습니다. 자세한 내용은 [카테고리 머천다이징](category-merch.md)을 참조하세요.
-하지만 Adobe Commerce에서는 [범주 제품 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=ko)을 사용하여 가상 범주를 만들 수 있습니다. 이 유형의 범주는 런타임에 빌드되며 범주 데이터베이스에 없습니다. 따라서 [!DNL Live Search]은(는) 이 범주 형식을 읽거나 사용할 수 없습니다.
+하지만 Adobe Commerce에서는 [범주 제품 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)을 사용하여 가상 범주를 만들 수 있습니다. 이 유형의 범주는 런타임에 빌드되며 범주 데이터베이스에 없습니다. 따라서 [!DNL Live Search]은(는) 이 범주 형식을 읽거나 사용할 수 없습니다.

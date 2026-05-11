@@ -2,11 +2,15 @@
 title: 정책
 description: ' [!DNL Adobe Commerce Optimizer]에서 정책을 만들고 관리하는 방법을 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 77f524f6-e283-44d2-9c79-9d40f686a7bf
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/hUwBKWEcFOlkC2WOwBtDDitnj-nu-kixJ9WuencZIe4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 917
 ht-degree: 0%
 
 ---
@@ -34,7 +38,7 @@ ht-degree: 0%
 
 ### 예
 
-`part_category` 특성, `IN`의 연산자 및 값이 `brakes, suspension`인 필터를 사용하면 값이 `part_category` 또는 `brake`인 `suspension` 특성이 있는 제품만 정책에 의해 필터링되어 표시됩니다.
+`part_category` 특성, `IN`의 연산자 및 값이 `brakes, suspension`인 필터를 사용하면 값이 `brake` 또는 `suspension`인 `part_category` 특성이 있는 제품만 정책에 의해 필터링되어 표시됩니다.
 
 ### 값 소스 유형
 
@@ -74,8 +78,8 @@ ht-degree: 0%
 1. 필터 세부 사항을 추가합니다. For example:
 
    1. **특성** - 카탈로그의 특성을 입력합니다. 예: &quot;part_category&quot;. 이 이름은 카탈로그의 속성 이름과 정확히 일치해야 합니다.
-   1. **연산자** - 연산자를 선택합니다. 예: **IN**&#x200B;.
-   1. **값 Source** - **정적**&#x200B;을 선택합니다&#x200B;.
+   1. **연산자** - 연산자를 선택합니다. 예: **IN**. &#x200B;
+   1. **값 Source** - **정적**&#x200B;을 선택합니다. &#x200B;
    1. **값** - 이전에 지정한 특성 정의에서 값을 입력하십시오. 예를 들어, 브레이크 부품에 대한 필터를 생성하려면 &quot;브레이크&quot;를 입력합니다.
    1. 값을 저장하려면 **Enter**&#x200B;를 누르십시오.
 
@@ -83,13 +87,13 @@ ht-degree: 0%
 
 1. 필터 세부 정보 대화 상자에서 **[!UICONTROL Save]** 단추를 클릭합니다. &#x200B;
 
-1. 만든 필터 옆에 있는 작업 점(...)을 클릭하고 **사용**&#x200B;을 선택합니다. 여기에서 필터를 **편집**, **비활성화** 또는 **삭제**&#x200B;할 수도 있습니다.
+1. 점을 클릭합니다(...). 만든 필터 옆에 있는 **사용**&#x200B;을 선택합니다. 여기에서 필터를 **편집**, **비활성화** 또는 **삭제**&#x200B;할 수도 있습니다.
 
    **상태** 열에 녹색 아이콘과 &quot;사용&quot;이라는 단어가 표시됩니다.
 
-1. **[!UICONTROL Save]** 단추를 클릭하여 새 정책을 저장합니다&#x200B;. 단추가 활성화되지 않은 경우 **새 정책** 옆에 있는 연필 아이콘을 클릭하여 정책 이름이 추가되었는지 확인하십시오.
+1. **[!UICONTROL Save]** 단추를 클릭하여 새 정책을 저장합니다. &#x200B; 단추가 활성화되지 않은 경우 **새 정책** 옆에 있는 연필 아이콘을 클릭하여 정책 이름이 추가되었는지 확인하십시오.
 
-1. 새 정책을 확인하려면 뒤로 화살표를 클릭하여 정책 목록으로 돌아갑니다. &#x200B;새 정책이 나열됩니다.
+1. 새 정책을 확인하려면 뒤로 화살표를 클릭하여 정책 목록으로 돌아갑니다. 새 정책&#x200B;이 나열됩니다.
 
 ### 트리거 정책 만들기
 
@@ -118,18 +122,18 @@ ht-degree: 0%
 1. 필터 세부 사항을 추가합니다. For example:
 
    1. **특성** - 카탈로그의 특성을 입력합니다. 예: &quot;part_category&quot;. 이 이름은 카탈로그의 속성 이름과 정확히 일치해야 합니다.
-   1. **연산자** - 연산자를 선택합니다. 예: **IN**&#x200B;.
-   1. **값 Source** - **트리거**&#x200B;를 선택합니다&#x200B;.
+   1. **연산자** - 연산자를 선택합니다. 예: **IN**. &#x200B;
+   1. **값 Source** - **트리거**&#x200B;를 선택합니다. &#x200B;
    1. **값** - 이전에 만든 트리거 이름을 입력하십시오(**AC-Policy-Brand**).
 
 1. 필터 세부 정보 대화 상자에서 **[!UICONTROL Save]** 단추를 클릭합니다. &#x200B;
 
-1. 만든 필터 옆에 있는 작업 점(...)을 클릭하고 **사용**&#x200B;을 선택합니다. 여기에서 필터를 **편집**, **비활성화** 또는 **삭제**&#x200B;할 수도 있습니다.
+1. 점을 클릭합니다(...). 만든 필터 옆에 있는 **사용**&#x200B;을 선택합니다. 여기에서 필터를 **편집**, **비활성화** 또는 **삭제**&#x200B;할 수도 있습니다.
 
    **상태** 열에 녹색 아이콘과 &quot;사용&quot;이라는 단어가 표시됩니다.
 
-1. **[!UICONTROL Save]** 단추를 클릭하여 새 정책을 저장합니다&#x200B;. 단추가 활성화되지 않은 경우 **새 정책** 옆에 있는 연필 아이콘을 클릭하여 정책 이름이 추가되었는지 확인하십시오.
+1. **[!UICONTROL Save]** 단추를 클릭하여 새 정책을 저장합니다. &#x200B; 단추가 활성화되지 않은 경우 **새 정책** 옆에 있는 연필 아이콘을 클릭하여 정책 이름이 추가되었는지 확인하십시오.
 
-1. 새 정책을 확인하려면 뒤로 화살표를 클릭하여 정책 목록으로 돌아갑니다. &#x200B;새 정책이 나열됩니다.
+1. 새 정책을 확인하려면 뒤로 화살표를 클릭하여 정책 목록으로 돌아갑니다. 새 정책&#x200B;이 나열됩니다.
 
 이러한 단계를 수행하면 정책이 만들어지고 카탈로그 보기에 연결하여 제품 가시성을 제어할 수 있습니다.

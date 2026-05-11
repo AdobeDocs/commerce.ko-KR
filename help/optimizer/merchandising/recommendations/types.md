@@ -1,11 +1,16 @@
 ---
 title: 권장 사항 유형
 description: 사이트의 다양한 페이지에 배포할 수 있는 권장 사항에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f1c4e0ef-a8fe-452d-9870-6d6964b4335d
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/GRGSFrVMS8gSjkpvnirUZQR4qaxGMBMrMeu2t21Yk6Y
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: 1638
 ht-degree: 0%
 
 ---
@@ -46,7 +51,7 @@ ht-degree: 0%
 권장 사항을 생성하는 데 필요한 이벤트 데이터가 충분하지 않은 경우 시스템에서 다음을 수행할 수 있습니다.
 
 - 추천 단위에 대해 빈 결과를 반환합니다.
-- 개인화된 권장 사항을 아직 사용할 수 없을 때 [&#x200B; 제품을 표시하는 것과 같이 &#x200B;](../../setup/events/overview.md#backup-recommendations)백업 권장 사항`Most viewed`을 트리거합니다.
+- 개인화된 권장 사항을 아직 사용할 수 없을 때 `Most viewed` 제품을 표시하는 것과 같이 [백업 권장 사항](../../setup/events/overview.md#backup-recommendations)을 트리거합니다.
 - 권장 사항 단위에 [구성됨](create.md)보다 적은 수의 제품을 표시하십시오.
 
 ## 개인화됨 {#personalized}

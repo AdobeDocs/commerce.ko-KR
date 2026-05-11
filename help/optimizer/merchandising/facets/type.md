@@ -1,11 +1,16 @@
 ---
 title: Facet 유형
 description: ' [!DNL Adobe Commerce Optimizer]의 다양한 패싯에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f4ab1f27-b393-45e0-94bf-c77d46e3f994
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/xuyEZ-CuFXUfhUi24ERf32uVNgENFTTdR5l-K22W4-M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 0%
 [!DNL Adobe Commerce Optimizer]은(는) 다양한 패싯 유형을 사용하며 관련성이 있을 때만 *필터* 목록에 표시됩니다. 사용 가능한 패싯 목록은 반환된 제품에 따라 변경됩니다. 다음은 프레젠테이션과 동작에 영향을 주는 특성입니다.
 
 - 고정 패싯 - 가장 일반적으로 사용되는 패싯을 목록의 맨 위에 고정할 수 있습니다. 나머지 패싯은 고정된 패싯 다음에 *정렬 형식* 순서로 나열됩니다.
-- 동적 패싯 - [Adobe AI](https://business.adobe.com/kr/ai.html)이(가) 제품 집합 및 쿼리와 가장 관련이 있는 제품 특성입니다. 이 계산은 전체 카탈로그의 속성 메타데이터를 고려하고 쿼리 시간에 쿼리에 가장 적합한 패싯을 결정합니다.
+- 동적 패싯 - [Adobe AI](https://business.adobe.com/ai.html)이(가) 제품 집합 및 쿼리와 가장 관련이 있는 제품 특성입니다. 이 계산은 전체 카탈로그의 속성 메타데이터를 고려하고 쿼리 시간에 쿼리에 가장 적합한 패싯을 결정합니다.
 - 가격 패싯 - 가격 범위별로 제품을 반환합니다. [*설정*](../../settings.md) 작업 영역에서 선택 항목 수와 가격 범위 간격을 지정할 수 있습니다.
 
 ## Facet 레이블

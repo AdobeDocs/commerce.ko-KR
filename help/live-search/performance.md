@@ -2,9 +2,13 @@
 title: 성능
 description: ' [!DNL Live Search] 성능 작업 영역에서는 쇼핑객이 사용하는 검색어에 insight을 제공합니다.'
 exl-id: 07a63df8-b981-4913-841a-7e81ec634281
-source-git-commit: 5978a400d985e3099962af8bcefdd6f29f687d67
+TQID: https://experienceleague.adobe.com/COyaQi4zdeb4Uyf7XV1iYJa-bbDkEP-Os59bmfdLV0w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: 668
 ht-degree: 0%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 0%
 
 ![성능](assets/performance-unique-searches.png)
 
-데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)를 참조하십시오.
+데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html)를 참조하십시오.
 
 >[!NOTE]
 >

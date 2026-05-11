@@ -4,9 +4,13 @@ description: Adobe Commerce 및 Catalog Service의 경우  [!DNL API Mesh] 을(�
 role: Admin, Developer
 feature: Services, API Mesh, Catalog Service
 exl-id: ca62c653-29b9-45cf-b2d4-8cb693b08aac
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+TQID: https://experienceleague.adobe.com/mK-o11X-G7WZgCL9BmVnDMfTDBg3lDemTNkxqkhyMZM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 292
 ht-degree: 0%
 
 ---
@@ -21,8 +25,8 @@ ht-degree: 0%
 
 제품 세부 사항 페이지에 표시할 세금을 구성해야 합니다.
 
-1. [세율 설정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html?lang=ko).
-1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html?lang=ko#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
+1. [세율 설정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html).
+1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
 
 제품 세부 사항 페이지를 확인하여 카탈로그 서비스가 작동하는지 확인하십시오.
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 * `ComplexProductView` 및 `SimpleProductView` 형식을 `priceWithTaxes`(이)라는 새 필드로 확장합니다.
 * 새 필드에 대한 사용자 지정 해결 프로그램을 추가합니다.
 
-[&#x200B; 파일을 사용하여 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1)create 명령`mesh.json`으로 메쉬를 만듭니다.
+`mesh.json` 파일을 사용하여 [create 명령](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1)으로 메쉬를 만듭니다.
 
 ### GraphQL 쿼리
 

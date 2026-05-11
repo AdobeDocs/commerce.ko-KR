@@ -2,11 +2,15 @@
 title: 머천다이징 규칙 모범 사례
 description: 검색, 기본 목록 및 카테고리 페이지에 대한 머천다이징 규칙을 구현하는 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cc8d0879-c253-4ad4-8e7d-e066dff9112d
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/DrdrBBXeMyqQr16h1LrlSoet3F6ihn57LBmPFBUXmTs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 360
 ht-degree: 0%
 
 ---
@@ -34,7 +38,7 @@ ht-degree: 0%
 >
 >카테고리 규칙은 베타 버전입니다.
 
-- 트래픽이 많거나 이윤이 많은 [범주 페이지](add.md#rule-types)에서 **범주 규칙**&#x200B;을 사용하십시오. 조정된 순서는 검색만큼 중요합니다(예: 시즌 컬렉션 또는 주요 부서).
+- 트래픽이 많거나 이윤이 많은 **범주 페이지**&#x200B;에서 [범주 규칙](add.md#rule-types)을 사용하십시오. 조정된 순서는 검색만큼 중요합니다(예: 시즌 컬렉션 또는 주요 부서).
 - **지능형 순위**(예: 트렌드, 가장 많이 본 항목)을 쇼핑객이 해당 범주를 검색하는 방법과 맞추십시오. 범주 페이지는 검색 규칙과 같은 방식으로 검색 쿼리 텍스트를 사용하지 않습니다. [지능형 순위](add.md#intelligent-ranking)를 참조하십시오.
 - 캠페인 플랜과 일관되게 **pin**, **boost**, **bury**&#x200B;를 적용합니다. 수동 위치는 일반적으로 쇼핑객이 목록에 **기본 정렬**&#x200B;을 사용하는 경우에만 적용됩니다. [수동 순위](add.md#manual-ranking)를 참조하세요.
 - 편집기에서 **category** 규칙 흐름을 미리 보고 게시 후 상점에서 검색의 &quot;규칙 테스트&quot; 패널에 사용하는 것과 동일한 규격을 확인합니다.

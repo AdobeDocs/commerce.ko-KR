@@ -1,9 +1,15 @@
 ---
 title: 권장 사항 편집
 description: 제품 추천을 편집하는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 57bc68c0-03ba-4b66-8c75-14e49176670b
+TQID: https://experienceleague.adobe.com/iynpVCKsygJXg2v-Djctfb4bhV9FMheA0ab66IBOvCg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: 428
 ht-degree: 0%
 
 ---

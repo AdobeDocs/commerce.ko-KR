@@ -2,9 +2,14 @@
 title: 배치 및 레이블
 description: 사이트의 다양한 페이지에 권장 사항을 배치할 수 있는 위치와 각 권장 사항 유형에 자주 사용되는 레이블에 대한 권장 사항을 알아봅니다.
 exl-id: 0576add8-50dd-4aac-91f5-38b7d85b751f
-source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
+TQID: https://experienceleague.adobe.com/Bu5SbZHmj-PfJ3-KnVTu6sc4emkmRJeWTusmQHYz1aU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: 500
 ht-degree: 0%
 
 ---
@@ -34,7 +39,7 @@ _홈 페이지 상단에 권장 사항_
 상점 첫 화면의 권장 사항에 지정된 레이블은 쇼핑객이 자신과 관련된 사항을 해석하는 방식에 영향을 줍니다. 각 권장 사항 유형에 대해 다음 레이블이 자주 사용됩니다.
 
 ![추천 배치](assets/storefront-search-results-top.png)
-_검색 결과 상단에 추천_
+_검색 결과 상단에 권장 사항_
 
 | 권장 사항 유형 | 권장 레이블 |
 |---|---|
@@ -55,8 +60,8 @@ _검색 결과 상단에 추천_
 | 페이지 | 배치 권장 사항 | 유형 |
 |---|---|---|
 | 홈 페이지 | 기본 컨텐츠 상단<br>기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
-| 범주 | 기본 컨텐츠 상단<br>기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
+| 카테고리 | 기본 컨텐츠 상단<br>기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
 | 제품 세부 사항 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구입함<br>비슷한 항목 추가<br>트렌드<br>시각적 유사성 |
 | 장바구니 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
 | 확인 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
-| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=ko) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
+| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |

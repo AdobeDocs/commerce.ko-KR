@@ -1,12 +1,17 @@
 ---
 title: 설명서 RAG 서비스
 description: Adobe Commerce 개발을 위해 AI 기반 설명서 검색 서비스를 사용하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 hide: true
-source-git-commit: 3ebee6c984a8f848e9094968be9faa667fc83250
+TQID: https://experienceleague.adobe.com/eGNktkTH-i2HV8iEFTfSFtGlsyr4ZUVuRXxj9XcwbZk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: 1027
 ht-degree: 0%
 
 ---
@@ -29,9 +34,9 @@ RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Comm
 
 | 카테고리 | 색인 | 포함된 콘텐츠 | 키워드 |
 |-------|---------|---------|------------------------|
-| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
+| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
 | [확장성](https://developer.adobe.com/commerce/extensibility/) | commerce-extensibility-docs | Webhooks, 이벤트, 확장, 통합 | webhook, 이벤트, 확장, API mesh, GraphQL |
-| [Commerce](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
+| [Commerce](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
 | [App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, 런타임 작업, UI 확장 | 앱 빌더, 런타임 작업, React Spectrum |
 
 인덱스 선택에 대한 자세한 내용은 [자동 인덱스 선택](#automatic-index-selection-recommended) 및 [명시적 인덱스 선택](#explicit-index-selection)을 참조하세요.

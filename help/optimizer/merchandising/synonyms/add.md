@@ -1,11 +1,15 @@
 ---
 title: 동의어 만들기 및 관리
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 동의어를 만들고 관리하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d2982a0b-e7df-44e6-b3c9-9b4328635d38
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/YtlgC9okQYDboZg-A0bcnLUVFRH4IVEeBLMeshGad4s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: 606
 ht-degree: 0%
 
 ---
@@ -86,9 +90,9 @@ ht-degree: 0%
 
 ## 동의어 편집
 
-1. 편집할 동의어를 찾은 다음 **자세히**(...) 옵션을 클릭합니다.
+1. 편집할 동의어를 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**을 클릭합니다.
 키워드는 목록의 첫 번째 용어이며 각 용어는 쉼표로 구분됩니다. 키워드 및 확장 용어는 업데이트할 수 있지만 동의어의 유형은 변경할 수 없습니다.
 1. 편집할 항목을 클릭합니다. 그런 다음 필요에 따라 텍스트를 업데이트합니다.
 
@@ -96,7 +100,7 @@ ht-degree: 0%
 
 ## 동의어 삭제
 
-1. 목록에서 삭제할 동의어를 찾은 다음 **자세히**(...) 옵션을 클릭합니다.
+1. 목록에서 삭제할 동의어를 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 1. **삭제**&#x200B;를 클릭합니다.
 1. 메시지가 표시되면 **동의어 삭제**&#x200B;를 클릭하여 확인합니다.
 

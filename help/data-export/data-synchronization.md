@@ -3,9 +3,14 @@ title: SaaS 데이터 내보내기와 데이터 동기화
 description: ' [!DNL SaaS Data Export] 이(가) Adobe Commerce 인스턴스와 연결된 SaaS 서비스 간에 데이터를 수집하고 동기화하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
-source-git-commit: 966daee60fa8945a68424fca8bda4fe4b9599872
+TQID: https://experienceleague.adobe.com/wM71qxvduDr77EW6Y8mSNfBXlqkloC-PGOOBOl-mZQM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: 1037
 ht-degree: 0%
 
 ---
@@ -66,7 +71,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 부분 동기화가 작동하려면 Commerce 애플리케이션에 다음 구성이 필요합니다.
 
-- [cron 작업을 통해 작업 일정을 사용할 수 있습니다](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko)
+- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)
 
 - 모든 SaaS 데이터 내보내기 인덱서가 `Update by Schedule` 모드에서 구성되었습니다.
 
@@ -83,11 +88,11 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 대부분의 동기화 활동은 애플리케이션 구성에 따라 자동으로 처리됩니다. 그러나 SaaS 데이터 내보내기는 프로세스를 모니터링하고 관리하는 도구도 제공합니다.
 
-- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 Commerce Services에 동기화되고 Storefront Services에서 사용할 수 있는 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품이 표시됩니다.
+- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 Commerce Services에 동기화되고 Storefront Services에서 사용할 수 있는 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품이 표시됩니다.
 
   {{aco-data-sync-verification}}
 
-- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce Optimizer(Adobe 관리 SaaS 인프라)와 통합된 Adobe Commerce 프로젝트에 적용됩니다."} **[데이터 동기화 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)**—[!DNL Adobe Commerce Optimizer]을(를) 사용하는 Commerce 프로젝트의 경우 Adobe Commerce Optimizer의 데이터 피드 동기화 상태 페이지에서 상점의 카탈로그 데이터 가용성을 확인하십시오. 이 대시보드에는 데이터 내보내기 피드의 동기화 상태가 표시됩니다.
+- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce Optimizer(Adobe 관리 SaaS 인프라)와 통합된 Adobe Commerce 프로젝트에 적용됩니다."} **[데이터 동기화 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)**—[!DNL Adobe Commerce Optimizer]을(를) 사용하는 Commerce 프로젝트의 경우 Adobe Commerce Optimizer의 데이터 피드 동기화 상태 페이지에서 상점의 카탈로그 데이터 가용성을 확인하십시오. 이 대시보드에는 데이터 내보내기 피드의 동기화 상태가 표시됩니다.
 
 >[!NOTE]
 >
@@ -97,11 +102,11 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 Commerce 인스턴스가 올바르게 구성된 경우에만 부분 동기화 및 실패한 항목 동기화 다시 시도 가 작동합니다. 일반적으로 Commerce 서비스를 설정할 때 구성이 완료됩니다. 데이터 내보내기가 제대로 작동하지 않으면 다음 구성을 확인하십시오.
 
-- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues).
+- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues).
 
-- 인덱서가 [Admin](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에서 실행되거나 Commerce CLI 명령 `bin/magento indexer:info`을(를) 사용하여 실행되고 있는지 확인하십시오.
+- 인덱서가 [Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)에서 실행되거나 Commerce CLI 명령 `bin/magento indexer:info`을(를) 사용하여 실행되고 있는지 확인하십시오.
 
-- 카탈로그 특성, Product, Product Overrides 및 Product Variant 피드의 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에서 또는 CLI(`bin/magento indexer:show-mode | grep -i feed`)를 사용하여 인덱서를 확인할 수 있습니다.
+- 카탈로그 특성, Product, Product Overrides 및 Product Variant 피드의 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)에서 또는 CLI(`bin/magento indexer:show-mode | grep -i feed`)를 사용하여 인덱서를 확인할 수 있습니다.
 
 ### 데이터 전송 로깅을 위한 이벤트 관리자 알림
 

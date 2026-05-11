@@ -2,16 +2,21 @@
 title: 제품 추천 관리자 개발
 description: 제품 추천 아키텍처 및 개발 기능에 대한 개요입니다.
 exl-id: 5967259e-c531-4fc7-9abd-cc18433fab33
-source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
+TQID: https://experienceleague.adobe.com/DtPYY7DaB-A7-VyTeXkjL9Y2My-WOQx-9CD-TgrcTmk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: 319
 ht-degree: 0%
 
 ---
 
 # 제품 추천 관리자 개발
 
-제품 추천 은 전환율을 높이고 매출을 증대하며 쇼핑객 참여를 유도하는 데 사용할 수 있는 강력한 마케팅 도구입니다. 상품 추천은 &#39;이 상품을 본 고객도 본 고객&#39;, &#39;이 상품을 구매한 고객도 본 고객&#39;, &#39;추천 고객&#39; 등과 같은 단위 형태로 점포에 표시된다. Adobe Commerce 제품 권장 사항은 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 쇼핑객 데이터를 심층 분석하는 [Adobe AI](https://business.adobe.com/kr/ai.html)에서 제공됩니다. 이 데이터를 Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+제품 추천 은 전환율을 높이고 매출을 증대하며 쇼핑객 참여를 유도하는 데 사용할 수 있는 강력한 마케팅 도구입니다. 상품 추천은 &#39;이 상품을 본 고객도 본 고객&#39;, &#39;이 상품을 구매한 고객도 본 고객&#39;, &#39;추천 고객&#39; 등과 같은 단위 형태로 점포에 표시된다. Adobe Commerce 제품 권장 사항은 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 쇼핑객 데이터를 심층 분석하는 [Adobe AI](https://business.adobe.com/ai.html)에서 제공합니다. 이 데이터를 Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 
 >[!NOTE]
 >
@@ -23,7 +28,7 @@ ht-degree: 0%
 
 ![제품 추천 아키텍처 다이어그램](assets/arch-diag-sensei.svg)
 
-권장 사항 모듈을 설치하고 구성하면 상점 첫 화면에서 동작 데이터 수집을 시작합니다. Adobe AI는 카탈로그 데이터와 함께 이 행동 데이터를 처리하고 recommendations 서비스에서 활용하는 제품 연결을 계산합니다. 이 시점에서 판매자는 관리 UI에서 직접 제품 추천 단위를 만들고, 관리하고, 상점 앞에 배포할 수 있습니다.
+권장 사항 모듈을 설치하고 구성하면 상점 첫 화면에서 동작 데이터 수집을 시작합니다. Adobe AI은 카탈로그 데이터와 함께 이 행동 데이터를 처리하고 recommendations 서비스에서 활용하는 제품 연결을 계산합니다. 이 시점에서 판매자는 관리 UI에서 직접 제품 추천 단위를 만들고, 관리하고, 상점 앞에 배포할 수 있습니다.
 
 ## 다음 단계
 

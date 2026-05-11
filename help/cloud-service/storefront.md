@@ -5,19 +5,26 @@ feature: Storefront
 role: Developer
 level: Beginner
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 0cd9749574460374a8fe875f1eff54f2a4a8d614
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+TQID: https://experienceleague.adobe.com/LoeNTJ-evBJB-TaJV0mEQpD2G2MwxHX7cYHx67kP0cA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
 
 # 상점 설정
 
-[!DNL Adobe Commerce Storefront]&#x200B;(SaaS)에 대해 [!DNL Edge Delivery Services]에서 제공하는 [!DNL Adobe Commerce as a Cloud Service]을(를) 설정하려면 다음 단계를 완료하십시오.
+[!DNL Adobe Commerce as a Cloud Service]&#x200B;(SaaS)에 대해 [!DNL Edge Delivery Services]에서 제공하는 [!DNL Adobe Commerce Storefront]을(를) 설정하려면 다음 단계를 완료하십시오.
 
-사용자 지정이 가능하고 자세한 설명은 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=ko)를 참조하세요.
+사용자 지정이 가능하고 자세한 설명은 [storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)를 참조하세요.
 
 1. [사이트 작성자 도구](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)를 엽니다.
 
@@ -29,7 +36,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Commerce GraphQL Endpoint (optional)]** 필드에 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(SaaS) GraphQL 끝점을 입력합니다. 이 끝점은 [인스턴스를 만든 후](./getting-started.md#create-an-instance) Commerce Cloud Manager에서 액세스할 수 있습니다.
 
-   또는 [[!DNL API Mesh]](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic)을(를) 사용하는 경우 [!DNL API Mesh] 필드에 **[!UICONTROL Commerce GraphQL Endpoint (optional)]** GraphQL 끝점을 입력합니다. 자세한 내용은 [메쉬 만들기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)를 참조하십시오.
+   또는 [[!DNL API Mesh]](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic)을(를) 사용하는 경우 **[!UICONTROL Commerce GraphQL Endpoint (optional)]** 필드에 [!DNL API Mesh] GraphQL 끝점을 입력합니다. 자세한 내용은 [메쉬 만들기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)를 참조하십시오.
 
 1. **[!UICONTROL Create Site]**&#x200B;을(를) 클릭합니다. 화면의 지침에 따라 GitHub 저장소에 대한 액세스 권한을 부여합니다.
 
@@ -47,5 +54,5 @@ ht-degree: 0%
 * [Storefront 콘텐츠 업데이트](./use-cases.md#update-storefront-content)—Storefront의 콘텐츠 및 데이터를 관리하고 표시합니다.
 * [상황별 실험](./use-cases.md#contextual-experimentation)—상점에서의 실험을 만들고 관리합니다.
 * [변형 생성](./use-cases.md#generate-variations) - 생성 AI를 사용하여 고품질 콘텐츠 생성을 자동화합니다.
-* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) - 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 정보를 가져옵니다.
+* [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/) - 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 정보를 가져옵니다.
 * [구성 서비스](https://www.aem.live/docs/config-service-setup)—저장소 구성을 `config.json`에서 리디렉션 구성 및 오버레이와 같은 고급 사용 사례를 지원하는 구성 서비스를 사용하도록 마이그레이션하는 방법에 대해 알아봅니다.

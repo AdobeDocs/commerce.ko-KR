@@ -3,9 +3,13 @@ title: SaaS 데이터 내보내기 성능 향상
 description: 다중 스레드 데이터 내보내기 모드를 사용하여 Commerce Services의 SaaS 데이터 내보내기 성능을 향상시키는 방법에 대해 알아봅니다.
 role: Admin, Developer
 exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/k-gizR-v-zQjQiN5IZm1Mv87J6j9eMsxH8vl-K1Co2M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 669
 ht-degree: 0%
 
 ---
@@ -64,7 +68,7 @@ bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 
 다중 스레딩을 사용하여 모든 데이터 내보내기 작업을 처리하기 위해 시스템 통합자나 개발자는 Commerce 애플리케이션 구성에서 각 피드에 대한 스레드 수와 배치 크기를 수정할 수 있습니다.
 
-이러한 변경 내용은 구성 파일 [의 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)시스템 섹션`app/etc/config.php`에 사용자 지정 값을 추가하여 적용할 수 있습니다.
+이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
 
 **예: 제품 및 가격에 대한 다중 스레딩 구성**
 

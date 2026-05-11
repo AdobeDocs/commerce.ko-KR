@@ -3,9 +3,14 @@ title: 미디어 파일을 AEM으로 마이그레이션
 description: Adobe Commerce 또는 외부 소스에서 AEM Assets DAM으로 미디어 파일을 마이그레이션합니다.
 feature: CMS, Media, Integration
 exl-id: ccb13e90-8b18-4f1e-94ce-f0dacea2f617
-source-git-commit: ac880333814d9d9a45e658e2a637cd9634dbfb1f
+TQID: https://experienceleague.adobe.com/-fCE7lTivOuhLDzEMNexxGWLTkL52oo9p-sm54HxpQM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 1010
 ht-degree: 0%
 
 ---
@@ -16,13 +21,13 @@ Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets
 
 ## 사전 요구 사항
 
-| 범주 | 요구 사항 |
+| 카테고리 | 요구 사항 |
 |----------|-------------|
 | **시스템 요구 사항** | <ul><li>AEM Assets으로 프로비저닝된 AEM as a Cloud Service 환경</li><li>충분한 스토리지 용량</li><li>대용량 파일 전송을 위한 네트워크 대역폭</li></ul> |
 | **필요한 액세스 및 권한** | <ul><li>AEM Assets as a Cloud Service에 대한 관리자 액세스</li><li>미디어 파일이 저장된 소스 시스템(Adobe Commerce 또는 외부 시스템)에 액세스</li><li>클라우드 스토리지 서비스에 액세스할 수 있는 적절한 권한</li></ul> |
 | **클라우드 저장소 계정** | <ul><li>AWS S3 또는 Azure Blob 저장소 계정</li><li>비공개 컨테이너/버킷 구성</li><li>인증 자격 증명</li></ul> |
-| **Source 컨텐츠** | <ul><li>마이그레이션할 준비가 된 미디어 파일 구성</li><li>AEM Assets에서 지원하는 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">형식의 이미지 및 비디오 파일</a>.</li><li>정리되고 중복된 에셋</li></li> |
-| **메타데이터 준비** | <ul><li><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
+| **Source 컨텐츠** | <ul><li>마이그레이션할 준비가 된 미디어 파일 구성</li><li>AEM Assets에서 지원하는 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">형식의 이미지 및 비디오 파일</a>.</li><li>정리되고 중복된 에셋</li></li> |
+| **메타데이터 준비** | <ul><li><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
 
 ## 마이그레이션 모범 사례
 
@@ -44,9 +49,9 @@ Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets
 
 [!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."}
 
-Adobe Commerce 판매자의 경우 **원격 저장소 모듈**&#x200B;을(를) 통해 미디어 파일을 쉽게 가져오고 내보낼 수 있습니다. 이 모듈을 통해 기업은 AWS S3와 같은 원격 스토리지 서비스를 사용하여 미디어 파일을 저장하고 관리할 수 있습니다. Commerce 인스턴스에 대한 원격 저장소를 설정하려면 [Commerce 구성 안내서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3)에서 **원격 저장소 구성**&#x200B;을(를) 참조하십시오.
+Adobe Commerce 판매자의 경우 **원격 저장소 모듈**&#x200B;을(를) 통해 미디어 파일을 쉽게 가져오고 내보낼 수 있습니다. 이 모듈을 통해 기업은 AWS S3와 같은 원격 스토리지 서비스를 사용하여 미디어 파일을 저장하고 관리할 수 있습니다. Commerce 인스턴스에 대한 원격 저장소를 설정하려면 **Commerce 구성 안내서**&#x200B;에서 [원격 저장소 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3)을(를) 참조하십시오.
 
-Adobe Commerce 외부에 저장된 미디어 파일이 있는 경우 AEM as a Cloud Service에서 지원하는 [데이터 소스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) 중 하나로 직접 업로드하십시오.
+Adobe Commerce 외부에 저장된 미디어 파일이 있는 경우 AEM as a Cloud Service에서 지원하는 [데이터 소스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) 중 하나로 직접 업로드하십시오.
 
 ### 2단계: 메타데이터 매핑을 위한 CSV 파일 빌드
 
@@ -85,7 +90,7 @@ AEM Assets 통합 CLI 명령을 사용하여 Commerce 프로젝트에 저장된 
 
 #### CSV를 수동으로 만들기
 
-Adobe Commerce 외부에 저장된 미디어 파일의 경우 수동으로 CSV 파일을 만듭니다. 열 헤더 **은(는)** AEM Assets 메타데이터 프로필[에 구성된 필드 이름과 일치해야](configure-aem.md) 합니다. 파일을 만든 후 행을 각 미디어 파일의 메타데이터 값으로 채웁니다.
+Adobe Commerce 외부에 저장된 미디어 파일의 경우 수동으로 CSV 파일을 만듭니다. 열 헤더 **은(는) [AEM Assets 메타데이터 프로필](configure-aem.md)에 구성된 필드 이름과 일치해야** 합니다. 파일을 만든 후 행을 각 미디어 파일의 메타데이터 값으로 채웁니다.
 
 | 메타데이터 | 설명 | 값 |
 |-------|-------------|--------|
@@ -113,7 +118,7 @@ assetPath,commerce:positions{{Number: multi}},commerce:isCommerce{{String}},comm
 
 다음은 도구 사용에 대한 높은 수준의 개요입니다.
 
-1. [AEM Assets as a Cloud Service 작성자 환경에 로그인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
+1. [AEM Assets as a Cloud Service 작성자 환경에 로그인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
 
 1. Experience Manager 도구 보기에서 **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]**&#x200B;을(를) 선택합니다.
 
@@ -132,12 +137,12 @@ assetPath,commerce:positions{{Number: multi}},commerce:isCommerce{{String}},comm
    * 선택 사항입니다. 가져오기 구성을 사용자 정의하기 위한 MIME 유형, 파일 크기 및 기타 매개 변수에 대한 정보입니다
    * 클라우드 스토리지 인스턴스에 업로드한 메타데이터 매핑 CSV 파일의 경로입니다.
 
-   자세한 단계는 [AEM Assets as a Cloud Service 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool)에서 *일괄 가져오기 도구 구성*&#x200B;을 참조하십시오.
+   자세한 단계는 *AEM Assets as a Cloud Service 사용 안내서*&#x200B;에서 [일괄 가져오기 도구 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool)을 참조하십시오.
 
 1. 구성을 저장한 후 일괄 가져오기 도구를 사용하여 가져오기 작업을 테스트하고 실행합니다.
 
 >[!MORELIKETHIS]
 >
-> [일괄 가져오기 도구 비디오 데모](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
-> [팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
-> [API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집
+> [일괄 가져오기 도구 비디오 데모](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+> [팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+> [API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집

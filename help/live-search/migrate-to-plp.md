@@ -1,16 +1,21 @@
 ---
 title: 검색 어댑터에서 PLP 위젯으로 마이그레이션
 description: 더 이상 사용되지 않는 검색 어댑터에서  [!DNL Live Search] 제품 목록 페이지 위젯으로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 8811f0f271928fbc827e5a0164542da473c57224
+TQID: https://experienceleague.adobe.com/YAwhAbTVeYpGYKh4dTe1umcfgoRUOg8QPZNIiGFjKVo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: 2121
 ht-degree: 0%
 
 ---
 
 # 검색 어댑터에서 PLP 위젯으로 마이그레이션
 
-검색 어댑터는 [&#x200B; 4.0.0부터 &#x200B;](release-notes.md#live-search-400)사용되지 않음[!DNL Live Search]이며 보안 업데이트만 받습니다. [PLP(제품 목록 페이지) 위젯](plp-styling.md)은(는) 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 이 안내서는 마이그레이션이 간단한 경우와 추가 작업이 필요한 경우를 이해하는 데 도움이 됩니다.
+검색 어댑터는 [!DNL Live Search] 4.0.0부터 [사용되지 않음](release-notes.md#live-search-400)이며 보안 업데이트만 받습니다. [PLP(제품 목록 페이지) 위젯](plp-styling.md)은(는) 앞으로 모든 [!DNL Live Search] 구현에 대해 지원되는 솔루션입니다. 이 안내서는 마이그레이션이 간단한 경우와 추가 작업이 필요한 경우를 이해하는 데 도움이 됩니다.
 
 ## 사전 요구 사항
 
@@ -319,7 +324,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 
 **옵션 3: GTM을 Adobe Analytics으로 바꾸기**
 
-- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/kr/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
+- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
 - 지침은 고객 엔지니어링 팀에 문의하십시오.
 
 **문의할 사람**: GTM 호환성 업데이트 또는 고객 엔지니어링 지원에 대한 지원 티켓을 제출합니다.
@@ -444,7 +449,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 - 헤드리스 또는 PWA 구현
 - 사용자 지정 이벤트 추적
 
-Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)를 참조하세요.
+Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)를 참조하세요.
 
 ## FAQ
 
