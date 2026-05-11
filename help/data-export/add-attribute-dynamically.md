@@ -3,9 +3,20 @@ title: 제품 속성을 동적으로 추가
 description: 데이터 동기화 프로세스 중에 사용자 지정 제품 속성을 데이터 내보내기 피드에 동적으로 추가하는 방법을 알아봅니다.
 role: Admin, Developer
 exl-id: d5ed7497-4be1-440a-a567-81b64fdc54fc
-source-git-commit: 37d5699315e34f1504602090fae5201ee51cf470
+TQID: https://experienceleague.adobe.com/SZWtLSvxb-w-968f4wqWrPTBn1c9IEuthvhIv86Pvss
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: 297
 ht-degree: 0%
 
 ---
@@ -20,7 +31,7 @@ ht-degree: 0%
 
 ## 제품 속성 추가
 
-`customer_attribute` 클래스에 `Magento\CatalogDataExporter\Model\Provider\Product\Attributes`을(를) 추가하는 플러그인을 만듭니다.
+`Magento\CatalogDataExporter\Model\Provider\Product\Attributes` 클래스에 `customer_attribute`을(를) 추가하는 플러그인을 만듭니다.
 
 1. 플러그인을 정의하려면 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)을(를) 업데이트하십시오.
 
@@ -105,7 +116,7 @@ ht-degree: 0%
 
 1. 다음 공급자 `\Magento\CatalogDataExporter\Model\Provider\ProductMetadata`에 대한 플러그인을 만드십시오.
 
-   필수 필드가 필요하면 `ProductAttributeMetadata`의 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`을(를) 확인하십시오.
+   필수 필드가 필요하면 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`의 `ProductAttributeMetadata`을(를) 확인하십시오.
 
    ```php
     <?php

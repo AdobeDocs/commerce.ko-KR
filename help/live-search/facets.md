@@ -2,9 +2,17 @@
 title: 패싯
 description: '[!DNL Live Search] 패싯은 여러 차원의 특성 값을 검색 기준으로 사용합니다.'
 exl-id: d036265e-1868-461d-ab4c-7f469b1c6f5b
-source-git-commit: 86484d49aa4b79bfe64455dba18b84bcd9073736
+TQID: https://experienceleague.adobe.com/bTE-Ow8xEDfK-saxGxotnvkgHZI4QThno1dCqRbjvCc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -13,7 +21,7 @@ ht-degree: 0%
 
 페이스팅은 속성 값의 여러 차원을 검색 기준으로 사용하는 고성능 필터링 방법입니다. 패싯된 검색은 비슷하지만 표준 [계층화된 탐색](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=ko)보다 훨씬 &quot;스마트합니다. 사용 가능한 필터 목록은 검색 결과에서 반환된 제품의 [필터링 가능한 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=ko#filterable-attributes)에 의해 결정됩니다.
 
-[!DNL Live Search]은(는) `productSearch`과(와) 관련된 얼굴 및 기타 데이터를 반환하는 [!DNL Live Search] 쿼리를 사용합니다. 코드 예는 개발자 설명서에서 [`productSearch` 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/)를 참조하십시오.
+[!DNL Live Search]은(는) [!DNL Live Search]과(와) 관련된 얼굴 및 기타 데이터를 반환하는 `productSearch` 쿼리를 사용합니다. 코드 예는 개발자 설명서에서 [`productSearch` 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/)를 참조하십시오.
 
 ![필터링된 검색 결과](assets/storefront-search-results-run.png)
 
@@ -31,7 +39,7 @@ ht-degree: 0%
 >
 >![범주 패싯](assets/facet-category.png)
 
-[의 패싯 요구 사항에 대한 자세한 내용은 &#x200B;](./boundaries-limits.md#facets)경계 및 제한[!DNL Live Search]을 참조하세요.
+[!DNL Live Search]의 패싯 요구 사항에 대한 자세한 내용은 [경계 및 제한](./boundaries-limits.md#facets)을 참조하세요.
 
 경합할 속성이 많은 경우 속성을 하나의 &quot;meta-attribute&quot;로 결합하는 것이 좋습니다. 예를 들어, 신발은 일반적으로 숫자 크기를 가지지만 셔츠는 일반적으로 &quot;S/M/L/XL&quot; 크기를 갖습니다. 이 두 가지 유형의 크기를 하나의 검색 가능한 속성으로 결합할 수 있습니다.
 

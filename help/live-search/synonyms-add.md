@@ -2,9 +2,16 @@
 title: 동의어 추가
 description: 검색 요청에 대한 응답을 향상시키려면  [!DNL Live Search] 동의어를 추가하십시오.
 exl-id: 2dc535ea-35a3-45a8-8171-901005223cc9
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+TQID: https://experienceleague.adobe.com/eGBxKnn3lLD5VQel52jyrt7EB8rcrhGOi-DDwhW7wzc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: 410
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ ht-degree: 0%
 ## 1단계: 동의어 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 여러 스토어의 경우 동의어 설정이 적용되는 **스토어 보기**(으)로 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 설정합니다.
+1. 여러 스토어의 경우 동의어 설정이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
 1. **동의어** 탭을 클릭합니다.
 1. **동의어 추가** 단추를 클릭합니다.
 

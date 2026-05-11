@@ -3,9 +3,21 @@ title: '[!DNL Live Search] 모범 사례'
 description: 스토어에서  [!DNL Live Search] 을(를) 구현하기 위한 모범 사례를 알아봅니다.
 role: Admin, Developer
 exl-id: f7700339-fb13-42fe-a249-17cd4ba36e1b
-source-git-commit: c3d431a6536c3c5528b9aee45f03b0b94b4ea64e
+TQID: https://experienceleague.adobe.com/X9zgHooEzDJe-zzmLLXHdVVVFUHVX4be47dOUaJyUXU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: 2966
 ht-degree: 0%
 
 ---
@@ -23,7 +35,7 @@ ht-degree: 0%
 - 검색 규칙은 인기, 새 도착, 프로모션 기준 또는 비즈니스 요구 사항을 충족하는 기타 머천다이징 전략에 따라 특정 제품의 가시성을 높일 수 있으므로 중요합니다.
 - 패싯된 탐색을 사용하면 고객이 검색을 구체화하고 관련 결과를 빠르게 얻을 수 있습니다.
 
-[!DNL Live Search]을(를) 관리하려면 Adobe **관리자의**&#x200B;마케팅&#x200B;*>* SEO 및 검색&#x200B;**[!DNL Live Search]** > [!DNL Commerce]&#x200B;(으)로 이동하세요. 
+[!DNL Live Search]을(를) 관리하려면 Adobe [!DNL Commerce] 관리자의 **마케팅** > *SEO 및 검색* > **[!DNL Live Search]**(으)로 이동하세요. 
 
 ## 검색 기능 최적화
 
@@ -123,7 +135,7 @@ Facet에 대해 자세히 알아보기:
    - [만들기](rules-add.md)
    - [편집, 보기, 삭제](rules-manage.md)
 - 데이터 수집
-   - [[!DNL Live Search] 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)
+   - [[!DNL Live Search]개 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)
    - [Adobe Commerce 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/reference/event-framework/)
    - [GitHub Commerce 이벤트](https://github.com/adobe/commerce-events/tree/main/examples) 
 
@@ -209,7 +221,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 할당](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 지정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 

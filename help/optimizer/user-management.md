@@ -3,9 +3,25 @@ title: 사용자 및 Identity Management
 description: ' [!DNL Adobe Commerce Optimizer]의 사용자를 만들고 관리하고 사용자 역할을 할당하는 방법을 알아봅니다.'
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 9ab2118d-b7e3-4e2e-adac-8f3950fe1824
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/ORS8H-GM48FMaTL7ywENU6lJnPrz7PULLhlu5AVlzDc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+  - id: ce84ce08-883f-4337-ae83-6bb1855ca732
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: 816
 ht-degree: 0%
 
 ---
@@ -22,7 +38,7 @@ ht-degree: 0%
 
 - **관리자** - 세 가지 유형의 관리자 역할이 있습니다.
    - [시스템 관리자](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Adobe Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
-   - [제품 관리자](#add-a-product-admin) - 제품 관리자는 [에서 &#x200B;](#add-users)제품에 대한 사용자, 역할 및 권한을 관리[!DNL Adobe Admin Console]할 수 있습니다.
+   - [제품 관리자](#add-a-product-admin) - 제품 관리자는 [!DNL Adobe Admin Console]에서 [제품에 대한 사용자, 역할 및 권한을 관리](#add-users)할 수 있습니다.
    - [제품 프로필 관리자](#add-developers-and-product-profile-admins) - 제품 프로필 관리자는 [!DNL Adobe Admin Console]의 제품에 대한 사용자를 관리할 수 있습니다.
 
 ## 제품 관리자 추가

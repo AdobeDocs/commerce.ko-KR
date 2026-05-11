@@ -5,9 +5,18 @@ role: User
 level: Intermediate
 feature: Payments, Checkout, Paas, Saas
 exl-id: 4bef8429-5053-424d-806a-9e8b96295b1b
-source-git-commit: c532d72cb4aa7c920af790d345cce3ae6cbd2281
+TQID: https://experienceleague.adobe.com/UUD0IiEiwh0sZKMkclOJtoC2bKYcmDN3WAWD16mfad4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: 454
 ht-degree: 0%
 
 ---
@@ -40,13 +49,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Payment Services]은(는) 온보딩 중 [사용 가능한 다른 국가에 대해 &#x200B;](../payment-services/payments-options.md)빠른 체크아웃 기능[(결제 옵션 하위 집합)을 제공합니다](../payment-services/production.md#complete-merchant-onboarding).
+> [!DNL Payment Services]은(는) 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 
 >[!VIDEO](https://video.tv.adobe.com/v/3447925?captions=kor)
 
-[&#x200B; 확장 설정에 대한 자세한 내용은 &#x200B;](connect.md)연결[!DNL Payment Services]을 참조하세요.
+[!DNL Payment Services] 확장 설정에 대한 자세한 내용은 [연결](connect.md)을 참조하세요.
 
 >[!BEGINTABS]
 

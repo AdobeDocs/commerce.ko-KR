@@ -7,16 +7,28 @@ feature-set: Commerce
 role: Developer
 level: Intermediate
 type: Tutorial
-source-git-commit: 33ba97fd6766c9d11baea74170a7119d72e06379
+TQID: https://experienceleague.adobe.com/FozTiUWpL6Ab2eqbbf3nhL-faFHdwBIFOgAkvGe5jXQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: 1738
 ht-degree: 0%
 
 ---
 
 # 등급 확장 튜토리얼
 
-이 튜토리얼에서는 [!DNL Adobe Commerce as a Cloud Service] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe App Builder]에 대한 제품 등급 확장을 빌드하는 방법을 안내합니다.
+이 튜토리얼에서는 [!DNL Adobe App Builder] 및 AI 지원 개발 도구를 사용하여 [!DNL Adobe Commerce as a Cloud Service]에 대한 제품 등급 확장을 빌드하는 방법을 안내합니다.
 
 시작하기 전에 [필수 구성 요소](./tutorial-prerequisites.md)를 완료하십시오.
 
@@ -171,7 +183,7 @@ curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=T
 
 ### Edge Delivery Services과 통합
 
-등급 API를 [!DNL Adobe Commerce]에서 제공하는 [!DNL Edge Delivery Services] 상점 첫 라인과 통합하려면 에이전트에게 등급 API에 대한 요구 사항이 포함된 서비스 계약을 만들도록 요청하십시오.
+등급 API를 [!DNL Edge Delivery Services]에서 제공하는 [!DNL Adobe Commerce] 상점 첫 라인과 통합하려면 에이전트에게 등급 API에 대한 요구 사항이 포함된 서비스 계약을 만들도록 요청하십시오.
 
 ```shell-session
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md

@@ -4,16 +4,32 @@ description: 관리자의  [!DNL Payment Services] 트랜잭션 보고서를 사
 role: User
 level: Intermediate
 exl-id: dd1d80f9-5983-4181-91aa-971522eb56fa
-source-git-commit: 2c6c812fd25feecfe5133d6623a1c814003d579c
+TQID: https://experienceleague.adobe.com/G4EOSDBdBepDJG0HyuCcQlq3-megOqpOGzSbEEnT1jc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: 1391
 ht-degree: 0%
 
 ---
 
 # 보고
 
-[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source]은(는) 스토어의 거래, 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
+[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]은(는) 스토어의 거래, 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
 
 ![트랜잭션 보고서](assets/transactions-report.png){width="700" zoomable="yes"}
 
@@ -27,13 +43,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [에 대해 &#x200B;](production.md#enable-live-payments)온보딩되고 활성화된 라이브 모드[!DNL Payment Services]가 없으면 재무 보고서를 볼 수 없습니다.
+> [!DNL Payment Services]에 대해 [온보딩되고 활성화된 라이브 모드](production.md#enable-live-payments)가 없으면 재무 보고서를 볼 수 없습니다.
 
 ## 거래 보고서 보기
 
 거래 보고서 보기는 결제 서비스의 거래 보기에서 사용할 수 있습니다. 여기에는 스토어의 거래에 대해 사용 가능한 모든 정보가 포함됩니다.
 
-_관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**(으)로 이동하여 자세한 테이블 형식 트랜잭션 보고서 보기를 확인합니다.**[!UICONTROL Home]**&#x200B;에서&#x200B;**[!UICONTROL View Report]**&#x200B;및&#x200B;**[!UICONTROL Transactions]**&#x200B;의 [!DNL Adobe Commerce as a Cloud Service]에서 [!DNL Adobe Commerce Optimizer]을(를) 선택할 수도 있습니다.
+_관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**(으)로 이동하여 자세한 테이블 형식 트랜잭션 보고서 보기를 확인합니다.**[!UICONTROL Home]**&#x200B;에서 [!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]의&#x200B;**[!UICONTROL Transactions]**&#x200B;에서&#x200B;**[!UICONTROL View Report]**&#x200B;을(를) 선택할 수도 있습니다.
 
 >[!BEGINTABS]
 

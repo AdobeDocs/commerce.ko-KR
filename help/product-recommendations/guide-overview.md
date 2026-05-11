@@ -5,9 +5,20 @@ seo-title: Adobe Commerce [!DNL Product Recommendations] Guide
 seo-description: Describes how to use [!DNL Product Recommendations] with Adobe Commerce.
 feature: Services, Recommendations
 exl-id: 8df3ef2e-b00e-42d8-b92b-4fbdaaed9f8f
-source-git-commit: 8e3e71c7de56b367a73ab048fa13ba2cdeb55f41
+TQID: https://experienceleague.adobe.com/6XeFQMGG-2vEfCQlv-zlKBqELdN-rOKhulVS8IgmpYg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 236
 ht-degree: 0%
 
 ---
@@ -24,7 +35,7 @@ ht-degree: 0%
 이 안내서에서는 다음 주제를 다룹니다.
 
 * 관리자에서 수행되는 모든 [!DNL Product Recommendations]별 작업입니다.
-* [!DNL Product Recommendations] 명령줄을 사용하여 수행되는 모든 [!DNL Commerce]별 작업
+* [!DNL Commerce] 명령줄을 사용하여 수행되는 모든 [!DNL Product Recommendations]별 작업
 
 이 안내서에서는 Adobe Commerce 및 Magento Open Source의 핵심 기능을 다루지 않습니다.
 

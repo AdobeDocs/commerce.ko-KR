@@ -5,9 +5,26 @@ role: Admin, Developer
 feature: Personalization, Integration
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+TQID: https://experienceleague.adobe.com/sqz0syCSh3ls8F-WIbuzPyqeRguyXdsPw-7OerOnDes
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: 2205
 ht-degree: 0%
 
 ---
@@ -157,7 +174,7 @@ Carvelo의 상거래 관리자는 *East Coast Inc* 회사에 속하는 *Celport*
 1. Celport에서 브레이크 및 일시 중단 부품만 판매하도록 *Celport 부품 범주*&#x200B;라는 새 정책을 만듭니다.
 1. Celport 상점에 대한 새 카탈로그 보기를 만듭니다.
 
-   이 카탈로그 보기는 새로 만든 정책 *Celport 일부 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` Price Book을 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
+   이 카탈로그 보기는 새로 만든 정책 *Celport 부품 범주* 및 기존 *East Coast Inc 브랜드*&#x200B;를 사용하여 Celport가 East Coast Inc와의 계약의 일부로 Bolt 및 Cruz 브랜드만 판매할 수 있도록 합니다. Celport 카탈로그 보기는 `east_coast_inc` 가격표를 사용하여 브랜드 라이선스 계약에 맞는 제품 가격 책정 일정을 지원합니다.
 1. 만든 Celport 카탈로그 보기의 데이터를 사용하도록 commerce storefront 구성을 업데이트합니다.
 
 이 섹션이 끝나면 Celport가 가동되어 Carvelo의 제품을 판매할 준비를 갖추게 됩니다.

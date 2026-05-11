@@ -4,9 +4,19 @@ description: Adobe Commerce 데이터를 다른 Adobe DX 제품에 연결하기 
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
-source-git-commit: 4e8cf0ad3f8f94d4f59bc8d78a44f4b3e86cbc3e
+TQID: https://experienceleague.adobe.com/D1fAIJRYegeZakCdJLB6F1HME4rUQaeoUjMFNgmqpzs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -21,8 +31,8 @@ ht-degree: 0%
 
 `custom` 이벤트의 경우 수집기는
 
-- `identityMap`을(를) 기본 ID로 사용하는 `ECID` 추가
-- 이벤트에 보조 ID `email`if`identityMap` _이(가) 설정되었으므로_&#x200B;의 `personalEmail.address`을(를) 포함합니다.
+- `ECID`을(를) 기본 ID로 사용하는 `identityMap` 추가
+- 이벤트에 보조 ID _if_ `personalEmail.address`이(가) 설정되었으므로 `identityMap`의 `email`을(를) 포함합니다.
 - Edge으로 전달하기 전에 `xdm` 개체 내에 전체 이벤트를 래핑합니다.
 
 예:
@@ -137,7 +147,7 @@ mse.publish.productPageView();
 
 이 예제는 게시자에서 사용자 지정 컨텍스트를 설정하고 Adobe 클라이언트 데이터 레이어에 이전에 설정된 사용자 지정 컨텍스트를 덮어씁니다.
 
-이 예제에서 `pageView` 이벤트는 **필드에**&#x200B;사용자 지정 페이지 이름 2`web.webPageDetails.name`을 갖게 됩니다.
+이 예제에서 `pageView` 이벤트는 `web.webPageDetails.name` 필드에 **사용자 지정 페이지 이름 2**&#x200B;을 갖게 됩니다.
 
 ```javascript
 const mse = window.magentoStorefrontEvents;

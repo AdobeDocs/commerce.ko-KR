@@ -3,9 +3,24 @@ title: SaaS 데이터 내보내기와 데이터 동기화
 description: ' [!DNL SaaS Data Export] 이(가) Adobe Commerce 인스턴스와 연결된 SaaS 서비스 간에 데이터를 수집하고 동기화하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
-source-git-commit: 966daee60fa8945a68424fca8bda4fe4b9599872
+TQID: https://experienceleague.adobe.com/wM71qxvduDr77EW6Y8mSNfBXlqkloC-PGOOBOl-mZQM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: 1037
 ht-degree: 0%
 
 ---
@@ -66,7 +81,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 부분 동기화가 작동하려면 Commerce 애플리케이션에 다음 구성이 필요합니다.
 
-- [cron 작업을 통해 작업 일정을 사용할 수 있습니다](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko)
+- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko)
 
 - 모든 SaaS 데이터 내보내기 인덱서가 `Update by Schedule` 모드에서 구성되었습니다.
 

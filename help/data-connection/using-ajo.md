@@ -3,9 +3,22 @@ title: Adobe Journey Optimizer을 사용하여 포기한 장바구니 이메일 
 description: Adobe Journey Optimizer을 사용하여 포기한 장바구니 이메일을 보내는 방법을 알아봅니다.
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 229fac48-1c7f-4b3a-8edf-6086b7361911
+TQID: https://experienceleague.adobe.com/p4p0Gde7aPp15kj1KJTiCAijRF7wBnKDqhJN-pHgFKU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: 1395
 ht-degree: 0%
 
 ---
@@ -27,7 +40,7 @@ ht-degree: 0%
 
 Adobe [!DNL Commerce] 고객은 Adobe [!DNL Commerce], Adobe [!DNL Journey Optimizer] 및 Adobe [!DNL Real-Time CDP]을(를) 사용하여 개인화된 포기 캠페인을 구현함으로써 중요한 비즈니스 영향을 받았습니다.
 
-글로벌 다중 브랜드 의류 소매업체:
+retailer이 달성한 글로벌 다중 브랜드 의류:
 
 - 새 캠페인에서 클릭 시 1.9배 전환
 - 옴니채널 포기 여정으로 인한 매출 57% 증가
@@ -55,7 +68,7 @@ Adobe [!DNL Commerce] 고객은 Adobe [!DNL Commerce], Adobe [!DNL Journey Optim
 >
 >데모용으로 [!DNL Commerce] 샌드박스 환경을 사용하면 프로덕션 이벤트 데이터를 Experience Platform으로 보내는 상점 및 백 오피스 이벤트 데이터로 희석하지 않습니다.
 
-### 전제 조건
+### 사전 요구 사항
 
 이 단계를 시작하기 전에 다음을 확인하십시오.
 

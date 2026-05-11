@@ -2,9 +2,19 @@
 title: 색인화
 description: ' [!DNL Live Search] 제품 특성 속성을 인덱싱하는 방법을 알아봅니다.'
 exl-id: 01cbbf56-2e12-4ad0-a56d-de0fe13df50f
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/8STop-AunMGpKCLgjQaywtpPRNHF-l7sobRnh82QOXI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -53,7 +63,7 @@ ht-degree: 0%
 * [카탈로그 데이터 동기화](install.md#sync) 온보딩
 * 속성 메타데이터 변경 사항
 
-예를 들어 `Use in Search` 특성의 `color` 속성을 `No`에서 `Yes`(으)로 변경하면 특성 메타데이터가 `searchable=true`(으)로 변경되고 전체 동기화 및 색인 재지정을 트리거합니다. 다음 특성 메타데이터는 변경 시 전체 동기화를 트리거하고 다시 인덱싱합니다.
+예를 들어 `color` 특성의 `Use in Search` 속성을 `No`에서 `Yes`(으)로 변경하면 특성 메타데이터가 `searchable=true`(으)로 변경되고 전체 동기화 및 색인 재지정을 트리거합니다. 다음 특성 메타데이터는 변경 시 전체 동기화를 트리거하고 다시 인덱싱합니다.
 
 * `filterableInSearch`
 * `searchable`
@@ -90,7 +100,7 @@ ht-degree: 0%
 
 ## 클라이언트 검색
 
-[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [!DNL Live Search]상점 속성[을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
+[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [상점 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)을(를) 사용하여 [!DNL Live Search]에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
 
 인덱스 메타데이터는 인덱싱 파이프라인에 저장되고 검색 서비스에서 액세스할 수 있습니다.
 

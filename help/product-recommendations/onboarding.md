@@ -2,9 +2,18 @@
 title: 온보딩
 description: ' [!DNL Product Recommendations]에서 요구 사항 및 지원되는 플랫폼에 대해 알아봅니다.'
 exl-id: 7b8a1117-b6d5-4e5d-bb97-09f76a024cbd
-source-git-commit: 8f421bd4421b9599ad52aa68c5caaee6592ccb43
+TQID: https://experienceleague.adobe.com/FLrOFe-Lwe7i3dOwCISflVGEv2MIkXmmE-NqTvpaY-0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 418
 ht-degree: 0%
 
 ---
@@ -13,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**제품 권장 사항은 HIPAA를 사용할 수 있는 서비스가 아닙니다.** HIPAA 지원 서비스를 사용하거나 PHI(보호 상태 정보)를 처리하는 Adobe Commerce 구현에서는 제품 권장 사항을 활성화하거나 사용하지 마십시오. 제품 권장 사항은 현재 비 HIPAA 준비로 분류된 Commerce SaaS 서비스의 일부입니다.
+>**제품 권장 사항은 HIPAA 지원 서비스가 아닙니다.** HIPAA 지원 서비스를 사용하거나 PHI(보호 상태 정보)를 처리하는 Adobe Commerce 구현에서 제품 권장 사항을 활성화하거나 사용하지 마십시오. 제품 권장 사항은 현재 비 HIPAA 준비로 분류된 Commerce SaaS 서비스의 일부입니다.
 >
 >HIPAA가 준비된 Adobe Commerce 기능 및 PHI와 함께 사용하지 말아야 하는 서비스에 대한 자세한 내용은 [Adobe Commerce의 HIPAA 준비](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) 및 [작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/operations#adobe-commerce-services)을 참조하십시오.
 
@@ -44,7 +53,7 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]을(를) 페이지 빌더 콘텐츠 형식으로 페이지에 추가할 수 있습니다. 제품 권장 사항에 Page Builder 지원을 추가하려면 [설치 및 구성](install-configure.md)을 참조하세요.
 
-[[!DNL Page Builder]  콘텐츠에 &#x200B;](page-builder.md)을(를) 추가하는 방법에 대한 지침은 [!DNL Product Recommendations]통합[!DNL Page Builder]을 참조하세요.
+[!DNL Page Builder] 콘텐츠에 [!DNL Product Recommendations]을(를) 추가하는 방법에 대한 지침은 [[!DNL Page Builder] 통합](page-builder.md)을 참조하세요.
 
 ### SaaS 가격 인덱싱
 
@@ -52,7 +61,7 @@ ht-degree: 0%
 
 ### B2B 지원 {#b2bsupport}
 
-B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](release-notes.md), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko)을 준수하여 이 기능을 [지원](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
+B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 준수하여 이 기능을 [지원](release-notes.md)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
 
 >[!NOTE]
 >

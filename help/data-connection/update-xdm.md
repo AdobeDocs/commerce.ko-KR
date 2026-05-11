@@ -4,16 +4,26 @@ description: 스키마, 데이터 세트 및 데이터스트림을 만들어 Com
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: c933a1bc-3d6f-4f80-944f-8c3e212aaeb6
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/8u3lSBPoreIZuu107QbR7FNvVx6Lw3TJsKUU6LCQ1Gs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 1019
 ht-degree: 0%
 
 ---
 
 # Commerce 데이터 수집을 위한 시계열 이벤트 스키마 업데이트
 
-[&#x200B; 확장을 사용하기 위한 &#x200B;](overview.md#onboarding-steps)온보딩 단계[!DNL Data Connection] 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
+[!DNL Data Connection] 확장을 사용하기 위한 [온보딩 단계](overview.md#onboarding-steps) 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
 
 이 문서에서는 Adobe Commerce 이벤트에서 제공한 다음 시계열 데이터를 성공적으로 수집하기 위해 스키마에 포함해야 하는 필드 그룹을 제공합니다.
 
@@ -32,7 +42,7 @@ ht-degree: 0%
 >
 >프로필별 필드를 추가하는 방법은 [시계열 프로필 이벤트 데이터](#time-series-profile-event-data)를 참조하세요.
 
-1. 스키마가 없는 경우 클래스가 [경험 이벤트](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#create)&#x200B;(으)로 설정된 스키마를 **만들기**&#x200B;하십시오.
+1. 스키마가 없는 경우 클래스가 **경험 이벤트**(으)로 설정된 스키마를 [만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#create)하십시오.
 
 1. [다음 Commerce 관련 필드 그룹을 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#add-field-groups)합니다(또는 기존 스키마를 편집하고 이러한 필드 그룹을 추가).
 
@@ -71,9 +81,9 @@ ht-degree: 0%
 
 시계열 프로필 이벤트 데이터는 다음 이벤트에서 생성됩니다.
 
-- [&#39;accountCreated&#39;](events-backoffice.md#accountcreated)
-- [&#39;accountUpdated&#39;](events-backoffice.md#accountupdated)
-- [&#39;accountDeleted&#39;](events-backoffice.md#accountdeleted)
+- [`accountCreated`](events-backoffice.md#accountcreated)
+- [`accountUpdated`](events-backoffice.md#accountupdated)
+- [`accountDeleted`](events-backoffice.md#accountdeleted)
 
 고객의 프로필 이벤트 데이터를 Experience Platform에 수집하려는 경우 기존 Commerce 스키마를 업데이트하고 이미 구성된 동일한 데이터스트림을 사용하거나 프로필별 데이터스트림 및 스키마를 생성할 수 있습니다. 이러한 결정은 회사의 데이터 거버넌스를 기반으로 합니다. 다음 두 섹션에서는 두 경우 중 하나를 설명합니다.
 

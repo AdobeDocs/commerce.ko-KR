@@ -4,9 +4,18 @@ description: Adobe Commerce용 [!DNL API Mesh]은(는) 공통 GraphQL 끝점을 
 role: Admin, Developer
 feature: Services, API Mesh, Catalog Service
 exl-id: 903f4f96-6dba-4c45-8106-76d9845544ec
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+TQID: https://experienceleague.adobe.com/FPo8tOFgizn4m-6DFo0ayRf6ct-Oepl6kczu3kZSaVg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -21,7 +30,7 @@ ht-degree: 0%
 
 ## API Mesh 연결 및 구성.
 
-1. [API Mesh 개발자 안내서](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/)의 _Mesh 만들기_&#x200B;에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
+1. _API Mesh 개발자 안내서_&#x200B;의 [Mesh 만들기](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/)에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
 
    API Mesh를 처음 사용하는 경우 [시작 프로세스](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)를 완료한 후 메쉬를 만드십시오.
 
@@ -33,7 +42,7 @@ ht-degree: 0%
    }
    ```
 
-1. `CommerceCatalogServiceGraph`Adobe I/O Extensible CLI[를 사용하여 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli) 소스를 메쉬에 추가하십시오.
+1. [Adobe I/O Extensible CLI](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli)를 사용하여 `CommerceCatalogServiceGraph` 소스를 메쉬에 추가하십시오.
 
    ```bash
    aio api-mesh source install "CommerceCatalogServiceGraph" -f variables.json

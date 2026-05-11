@@ -1,9 +1,17 @@
 ---
 title: Storefront 위젯
 description: 상점 첫 화면 팝오버 및 제품 목록 페이지 위젯에 대해 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 6768d819-cf4d-4114-81a4-f7f9e91266f9
+TQID: https://experienceleague.adobe.com/dS4o-wu81wkjZqCG-u2wwwSCgppCRF3AZAXXHoCZPWM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: 193
 ht-degree: 0%
 
 ---

@@ -3,9 +3,30 @@ title: 성공 지표
 description: 성공 지표는 insight을  [!DNL Adobe Commerce Optimizer] 스토어의 주요 성능 지표에 제공합니다.
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7202a531-fec3-4698-89b9-6bdbcc37015e
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/Z1Ntq9O5Pde8B2N8UCarCf-V5NZw-YiCx78ortu5PwY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: 2627
 ht-degree: 0%
 
 ---
@@ -342,7 +363,7 @@ Bounce Rate = (Number of Bounced Sessions ÷ Total Sessions) × 100
 - 다양한 페이지 유형 및 트래픽 소스 간의 바운스 비율을 비교하여 문제 영역을 식별합니다.
 - 바운스 비율이 갑자기 증가하면 종종 기술적인 문제가 있거나 캠페인 타깃팅이 제대로 되지 않음을 나타냅니다.
 
-**바운스 비율이 적절합니까?** 이 값은 업계 및 페이지 유형에 따라 다르지만 일반적으로 다음과 같습니다.
+**바운스 비율이 어떻습니까?** 이는 업계 및 페이지 유형에 따라 다르지만 일반적으로 다음과 같습니다.
 
 - 40-60%: 전자 상거래 사이트의 평균.
 - 40% 미만: 우수한 참여

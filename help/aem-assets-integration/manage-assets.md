@@ -3,9 +3,23 @@ title: 에셋 관리
 description: Commerce용 AEM Assets 통합을 사용하여 상점용 미디어 에셋을 관리할 수 있습니다.
 feature: CMS, Media
 exl-id: 40ca36e0-d617-4814-852d-bc60ff53b2b3
-source-git-commit: 0fd98bf86555c914f7a5b1e177c31c37764dbf84
+TQID: https://experienceleague.adobe.com/y-207fJaMiLZbQW7bzv2WCzFItckGDnyKUm6Q0tqMw8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: 1072
 ht-degree: 0%
 
 ---
@@ -147,7 +161,7 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 
 1. 업데이트할 범주를 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;을 확장합니다.
+1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 범주와 연결된 *이미지 필드*&#x200B;를 찾습니다.
 
@@ -163,7 +177,7 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 계속합니다.
 
-   범주 만들기에 대한 자세한 내용은 [Commerce 카탈로그 관리 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)에서 **범주 콘텐츠 완료**&#x200B;를 참조하십시오.
+   범주 만들기에 대한 자세한 내용은 **Commerce 카탈로그 관리 안내서**&#x200B;에서 [범주 콘텐츠 완료](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)를 참조하십시오.
 
 ## 에셋 업데이트
 
@@ -175,4 +189,4 @@ AEM Assets 절차에 대해서는 다음 설명서를 참조하십시오.
 
 * [디지털 자산 재처리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-* [자산 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+* [에셋 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)

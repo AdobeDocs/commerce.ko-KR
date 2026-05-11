@@ -4,9 +4,20 @@ description: 각 행동 이벤트가 캡처하는 데이터를 알아봅니다.
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: bcabccc9-8a2e-4045-9306-1d999bb75624
-source-git-commit: 631dfacd26a333e70a70f354d191d256d90d946f
+TQID: https://experienceleague.adobe.com/YS3jKQ3jmy76aeaqAp1PR8cGpD0euagdhoqL6CoMAnQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -39,13 +50,13 @@ storefront 이벤트에 대한 자세한 내용은 [개발자 설명서](https:/
 
 검색 이벤트는 구매자의 의도와 관련된 데이터를 제공합니다. Insight을 쇼핑객의 의도로 만들면 쇼핑객이 품목을 검색하는 방법, 고객이 클릭하는 항목, 궁극적으로 구매 또는 포기를 수행하는 방법을 상인이 확인할 수 있습니다. 이 데이터를 사용하는 방법의 예로는 상위 제품을 검색하지만 제품을 구매하지 않는 기존 구매자를 타겟팅하려는 경우입니다. 이 이벤트에 액세스하려면 [[!DNL Live Search]](../live-search/install.md) 확장을 설치해야 합니다.
 
-`searchRequest.id` 및 `searchResponse.id` 이벤트 모두에 있는 `searchRequestSent` 및 `searchResponseReceived` 필드를 사용하여 검색 요청을 해당 검색 응답과 상호 참조합니다.
+`searchRequestSent` 및 `searchResponseReceived` 이벤트 모두에 있는 `searchRequest.id` 및 `searchResponse.id` 필드를 사용하여 검색 요청을 해당 검색 응답과 상호 참조합니다.
 
 검색 이벤트에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#data-connection)를 참조하세요.
 
 ## B2B 이벤트
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 [&#x200B; 확장을 &#x200B;](install.md#install-the-b2b-extension)설치`experience-platform-connector-b2b`해야 합니다.
+![Adobe Commerce용 B2B](../assets/b2b.svg) B2B 판매자의 경우 이러한 이벤트에 액세스하려면 `experience-platform-connector-b2b` 확장을 [설치](install.md#install-the-b2b-extension)해야 합니다.
 
 B2B 이벤트에는 [구매요청 목록](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=ko) 정보가 포함되어 있습니다(예: 구매요청 목록이 생성, 추가 또는 삭제된 경우). 구매요청 목록과 관련된 이벤트를 추적하여 고객이 자주 구매하는 제품을 확인하고 해당 데이터를 기반으로 캠페인을 생성할 수 있습니다.
 

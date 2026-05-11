@@ -6,9 +6,25 @@ role: User, Leader
 level: Beginner
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 3fe22d47b6fd6cf1077cbd4644ffad08f55826ca
+TQID: https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: 1464
 ht-degree: 0%
 
 ---
@@ -26,7 +42,7 @@ ht-degree: 0%
 1. 다음 옵션을 사용하여 [Cloud Service 인스턴스 만들기](./getting-started.md#create-an-instance):
    1. [!UICONTROL **환경**] 드롭다운에서 [!UICONTROL **샌드박스**]&#x200B;를 선택합니다.
    1. [!UICONTROL **테스트 데이터**] 드롭다운에서 [!UICONTROL **Adobe 스토어**]&#x200B;를 선택합니다.
-1. [계정에 로그인 [!DNL Adobe Experience Cloud] 계정](https://experience.adobe.com)
+1. [&#x200B; [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
 1. 다음 옵션을 사용하여 [Cloud Service 상점 설정](./storefront.md):
    1. 템플릿에 대해 [!UICONTROL `adobe-commerce/adobe-demo-store`]을(를) 선택합니다.
    1. 연결 방법에 대해 [!UICONTROL **사용 가능한 인스턴스 선택(Mesh -> SaaS)**]&#x200B;을 선택합니다.
@@ -115,7 +131,7 @@ ht-degree: 0%
 
 1. [!UICONTROL **새로 만들기**] 단추를 클릭하고 [!UICONTROL **폴더**]&#x200B;를 선택하여 기본 폴더 아래에 [!UICONTROL **실험**] 폴더를 만듭니다.
 
-1. **experiments** 폴더에 [!UICONTROL **1234**] 폴더를 만듭니다.
+1. [!UICONTROL **experiments**] 폴더에 **1234** 폴더를 만듭니다.
 
 1. 인덱스 페이지의 두 복사본을 **1234** 폴더에 붙여 넣으십시오.
 
@@ -158,13 +174,13 @@ ht-degree: 0%
 
 1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목 SKU 또는 제품 코드를 확인합니다.
 
-1. [!DNL AEM Assets]Adobe Experience Cloud[에서 선택하여 &#x200B;](https://experience.adobe.com/#/home)을(를) 엽니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com/#/home)에서 선택하여 [!DNL AEM Assets]을(를) 엽니다.
 
-   ![[!DNL AEM Assets] 인터페이스를 표시하는 [!DNL Adobe Experience Cloud] 선택기](./assets/select-aem-assets.png){width="600" zoomable="yes"}
+   [!DNL Adobe Experience Cloud] 인터페이스를 표시하는 ![[!DNL AEM Assets] 선택기](./assets/select-aem-assets.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **Assets**]&#x200B;을(를) 클릭합니다.
 
-   ![&#x200B; 인터페이스의 [!DNL AEM Assets]Assets 탐색 옵션](./assets/click-assets.png){width="600" zoomable="yes"}
+   [!DNL AEM Assets] 인터페이스의 ![Assets 탐색 옵션](./assets/click-assets.png){width="600" zoomable="yes"}
 
 1. **SKU** 또는 **제품 코드**&#x200B;로 항목을 검색합니다.
 
@@ -200,19 +216,19 @@ ht-degree: 0%
 
 #### [!DNL Commerce AEM Assets]에 이미지 추가
 
-1. [의 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)탐색 패널[!DNL AEM as a Cloud Service]에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![제품 이미지가 있는 [!DNL AEM Assets]의 Commerce 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **속성**]&#x200B;을 클릭합니다.
 
-   ![&#x200B; 도구 모음의 [!DNL AEM Assets]속성 단추](./assets/properties.png){width="600" zoomable="yes"}
+   [!DNL AEM Assets] 도구 모음의 ![속성 단추](./assets/properties.png){width="600" zoomable="yes"}
 
 1. [!UICONTROL **Commerce**] 탭을 선택합니다.
 
    자산 속성 패널의 ![Commerce 탭](./assets/commerce-tab.png){width="600" zoomable="yes"}
 
-1. [!UICONTROL **이(가) Adobe Commerce에 있는지 확인하십시오.**] 필드가 [!UICONTROL **예**]&#x200B;(으)로 설정되었습니다.
+1. [!UICONTROL **Adobe Commerce에 있는지 확인하십시오.**] 필드가 [!UICONTROL **예**]&#x200B;(으)로 설정되어 있습니다.
 
 1. [!UICONTROL **추가**]&#x200B;를 클릭하고 에셋을 추가할 제품 SKU를 입력합니다.
 

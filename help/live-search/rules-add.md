@@ -2,9 +2,19 @@
 title: 규칙 추가
 description: 검색 머천다이징 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/QnJ-q-Y-ccQ7HKEt2RgPYQFeWcBnhjwSDOtKjlF7Rp0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: 2085
 ht-degree: 0%
 
 ---
@@ -16,7 +26,7 @@ ht-degree: 0%
 ## 규칙 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 규칙이 적용되는 **스토어 보기**&#x200B;를 식별하도록 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 설정하십시오.
+1. 규칙이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 식별하도록 **범위**&#x200B;를 설정하십시오.
 1. **머천다이징 검색** 작업 영역을 클릭합니다.
 1. **규칙 추가**&#x200B;를 클릭하여 규칙 편집기를 시작합니다.
 
@@ -46,7 +56,7 @@ ht-degree: 0%
    * 검색 쿼리가 다음으로 시작 - 구매자 쿼리의 시작 부분에 있어야 하는 텍스트 문자 또는 문자열을 입력합니다.
    * 검색 쿼리가 다음으로 끝남 - 구매자 쿼리의 끝에 있어야 하는 문자 또는 텍스트 문자열을 입력합니다.
 
-   결과는 *규칙 테스트* 창에 바로 표시되며 우선 순위별로 번호가 매겨집니다. 상단의 *행당 결과* 슬라이더를 사용할 수 있습니다.    각 행의 제품 수를 변경할 수 있는 권한.
+   결과는 *규칙 테스트* 창에 바로 표시되며 우선 순위별로 번호가 매겨집니다. 오른쪽 상단의 *행당 결과* 슬라이더를 사용하여 각 행의 제품 수를 변경할 수 있습니다.
 
    ![규칙 - 단순](assets/rule-simple-test.png)
 

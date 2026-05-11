@@ -3,10 +3,19 @@ title: Commerce 데이터 유형
 description: 수집하여 Experience Platform으로 전송할 수 있는 데이터 유형을 알아봅니다.
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 6354963c-f27f-4e69-9ecb-acb4befb7c2a
+TQID: https://experienceleague.adobe.com/LXMqOhHAZpUHaCeeU5ioKKXVrkLftospQEPDd9H-MD8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: 339
+ht-degree: 2%
 
 ---
 
@@ -30,7 +39,7 @@ Experience Platform의 [데이터 동작](https://experienceleague.adobe.com/doc
 
 ## 레코드 데이터
 
-레코드 데이터는 주체의 속성에 대한 정보를 제공합니다. 주제는 조직 또는 개인일 수 있습니다. 예를 들어 사이트의 쇼핑객이 계정을 만들고 이 계정은 레코드 데이터를 생성합니다. 이 데이터는 클래스가 **개인 프로필**(으)로 설정된 스키마를 사용하여 Experience Platform에 수집됩니다. 해당 레코드 데이터를 Adobe의 프로필 관리 및 세분화 서비스로 보낼 수 있습니다. [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html#?lang=ko).
+레코드 데이터는 주체의 속성에 대한 정보를 제공합니다. 주제는 조직 또는 개인일 수 있습니다. 예를 들어 사이트의 쇼핑객이 계정을 만들고 이 계정은 레코드 데이터를 생성합니다. 이 데이터는 클래스가 **개인 프로필**(으)로 설정된 스키마를 사용하여 Experience Platform에 수집됩니다. 해당 레코드 데이터를 Adobe의 프로필 관리 및 세분화 서비스로 보낼 수 있습니다. [Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html?lang=ko).
 
 ### 캡처된 프로필 레코드 데이터
 

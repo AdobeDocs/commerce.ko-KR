@@ -5,13 +5,26 @@ role: Admin, Developer
 recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+TQID: https://experienceleague.adobe.com/Jmze0Pq3kSNMIXqkkML-hmmlZnv-XKgeEgRB8Q8NZ6s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: 1384
 ht-degree: 0%
 
 ---
-
 
 # 머천다이징 서비스에 대한 카탈로그 보기
 
@@ -56,14 +69,14 @@ ht-degree: 0%
 
 1. 왼쪽 메뉴에서 _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create catalog view]**&#x200B;을(를) 클릭합니다&#x200B;.
+1. **[!UICONTROL Create catalog view]**&#x200B;을(를) 클릭합니다. &#x200B;
 
 1. 카탈로그 보기 세부 사항을 구성합니다.
 
-   - **이름** - 카탈로그 보기의 이름을 입력합니다(예: `Celport`)&#x200B;.
+   - **이름**—카탈로그 보기의 이름을 입력하십시오(예: `Celport`). &#x200B;
    - **카탈로그 원본** - 카탈로그 원본(로케일)을 선택합니다(예: `en-US`).
    - **카탈로그 계층**-수집된 계층 및 우선 순위를 검토합니다.
-   - **정책**—드롭다운을 사용하여 관련 정책을 선택합니다. 예를 들어 &quot;Brand&quot;, &quot;Model&quot;입니다. &#x200B;이미 [정책을 만들었는지](policies.md)확인하십시오.
+   - **정책**—드롭다운을 사용하여 관련 정책을 선택합니다. 예를 들어 &quot;Brand&quot;, &quot;Model&quot;입니다. 이미 [정책을 만들었는지](policies.md)&#x200B;확인하십시오.
 
 1. 가격 장부를 선택하여 카탈로그 뷰에 연결합니다.
 

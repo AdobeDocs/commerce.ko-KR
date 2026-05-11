@@ -2,9 +2,23 @@
 title: 구현 워크플로
 description: 상점 첫 화면에서  [!DNL Product Recommendations] 을(를) 성공적으로 구현하는 단계에 대해 알아봅니다.
 exl-id: 4a784d04-8be6-473f-afb3-264af06c850a
-source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
+TQID: https://experienceleague.adobe.com/-nvORlxBNwoCcZb6s-OvaX8TtIh28Q-fjeUxsDXpe9E
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 563
 ht-degree: 0%
 
 ---
@@ -13,11 +27,11 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]은(는) 동작 데이터와 카탈로그 데이터를 모두 사용합니다.
 
-- 행동 - 제품 보기, 장바구니에 추가한 항목 및 구매와 같이, 사이트에 대한 쇼핑객 참여의 데이터. Adobe Commerce 및 Adobe AI는 개인 식별 정보를 수집하지 않습니다.
+- 행동 - 제품 보기, 장바구니에 추가한 항목 및 구매와 같이, 사이트에 대한 쇼핑객 참여의 데이터. Adobe Commerce 및 Adobe AI은 개인 식별 정보를 수집하지 않습니다.
 
 - 카탈로그 - 이름, 가격 및 가용성과 같은 제품 메타데이터.
 
-`magento/product-recommendations module`을(를) 설치하면 Adobe AI가 동작 및 카탈로그 데이터를 집계하고 각 권장 사항 유형에 대해 [!DNL Product Recommendations]을(를) 만듭니다. 그런 다음 [!DNL Product Recommendations] 서비스는 이러한 권장 사항을 상점 앞에 배포합니다. 상점에서 제품 권장 사항을 구현하는 데 도움이 되도록 하려면 다음 워크플로를 사용하십시오.
+`magento/product-recommendations module`을(를) 설치하면 Adobe AI에서 동작 및 카탈로그 데이터를 집계하고 각 권장 사항 유형에 대해 [!DNL Product Recommendations]을(를) 만듭니다. 그런 다음 [!DNL Product Recommendations] 서비스는 이러한 권장 사항을 상점 앞에 배포합니다. 상점에서 제품 권장 사항을 구현하는 데 도움이 되도록 하려면 다음 워크플로를 사용하십시오.
 
 >[!NOTE]
 >
@@ -27,9 +41,9 @@ ht-degree: 0%
 
 1. **프로덕션에 데이터 수집 배포**
 
-   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe AI가 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](staging-environment.md#fetch-recommendations-from-production-environment-recommended)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
+   [!DNL Product Recommendations]을(를) 배포하려면 두 개의 기본 [데이터 원본](type.md)(카탈로그 및 동작)이 필요합니다. 프로덕션은 쇼핑객의 작업을 캡처하고 분석하는 유일한 환경이므로 가능한 한 빨리 프로덕션에 데이터 수집을 시작합니다. [Adobe AI에서 고품질 추천을 제공하는 머신 러닝 모델을 교육하는 방법에 대해 알아봅니다](events.md). 추가된 혜택으로, 프로덕션에서 동작 데이터를 수집하기 시작할 때 비프로덕션 환경에서 작업하는 동안 이 프로덕션 데이터를 기반으로 [권장 사항을 가져오기](staging-environment.md#fetch-recommendations-from-production-environment-recommended)할 수 있습니다. 그런 다음 프로덕션에서 수집된 실제 구매자 데이터를 기반으로 계산되는 다양한 권장 사항을 테스트하고 실험할 수 있습니다.
 
-   프로덕션에 데이터 수집을 배포하려면 [API 키](install-configure.md)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)해야 합니다.
+   프로덕션에 데이터 수집을 배포하려면 [API 키](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)를 제공하여 [!DNL Product Recommendations] 모듈을 [설치 및 구성](install-configure.md)해야 합니다.
 
    >[!TIP]
    >

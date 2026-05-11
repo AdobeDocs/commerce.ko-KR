@@ -7,16 +7,25 @@ feature-set: Commerce
 role: Developer
 level: Intermediate
 type: Tutorial
-source-git-commit: 0ece7b58bdafd664297cbdee809c53ef2389fb12
+TQID: https://experienceleague.adobe.com/UvtVXuUjbanuVWqNG3-bYQh6IzY1OuDjGYpojtXHMHY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: 1291
 ht-degree: 0%
 
 ---
 
 # 자습서 사전 요구 사항
 
-이 페이지에는 [!DNL Adobe Commerce as a Cloud Service]등급 확장 튜토리얼[&#x200B; 및 &#x200B;](./ratings-extension.md)배송 방법 확장 튜토리얼[과 같은 &#x200B;](./shipping-method-extension.md) 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
+이 페이지에는 [등급 확장 튜토리얼](./ratings-extension.md) 및 [배송 방법 확장 튜토리얼](./shipping-method-extension.md)과 같은 [!DNL Adobe Commerce as a Cloud Service] 튜토리얼의 필수 구성 요소와 설정 단계가 나열됩니다.
 
 ## 일반 사전 요구 사항
 
@@ -293,7 +302,7 @@ OAUTH_TECHNICAL_ACCOUNT_EMAIL=
 OAUTH_ORG_ID=
 ```
 
-작업 영역에서 **[!UICONTROL Credential details]** 탭을 클릭하여 [Developer Console](https://developer.adobe.com/)의 **[!UICONTROL OAuth Server-to-Server]** 페이지에서 이 값을 복사합니다.
+작업 영역에서 **[!UICONTROL OAuth Server-to-Server]** 탭을 클릭하여 [Developer Console](https://developer.adobe.com/)의 **[!UICONTROL Credential details]** 페이지에서 이 값을 복사합니다.
 
 Adobe Developer Console의 ![OAuth 서버 간 자격 증명 페이지](../assets/oauth-credentials.png){width="600" zoomable="yes"}
 
@@ -382,7 +391,7 @@ aio app use --merge
 
    >[!NOTE]
    >
-   >Starter Kit에 대한 스킬이 없다는 경고가 표시되면 문제가 발생했습니다. Starter Kit가 복제된 위치가 아닌 폴더에서 설정이 실행되었기 때문일 수 있습니다. `aio commerce extensibility tools-setup` 폴더(시작 키트 프로젝트 루트)에서 `extension`을(를) 실행하고 메시지가 표시되면 적절한 시작 키트를 선택합니다.
+   >Starter Kit에 대한 스킬이 없다는 경고가 표시되면 문제가 발생했습니다. Starter Kit가 복제된 위치가 아닌 폴더에서 설정이 실행되었기 때문일 수 있습니다. `extension` 폴더(시작 키트 프로젝트 루트)에서 `aio commerce extensibility tools-setup`을(를) 실행하고 메시지가 표시되면 적절한 시작 키트를 선택합니다.
 
    ![AI 확장성 도구를 표시하는 터미널(체크아웃 시작 키트를 선택함)](../assets/tools-setup-checkout.png){width="600" zoomable="yes"}
 
@@ -390,15 +399,15 @@ aio app use --merge
 
 이 섹션에서는 [등급 확장 튜토리얼](./ratings-extension.md) 및 기타 storefront 튜토리얼을 위해 스토어프론트를 수동으로 구성하는 방법에 대해 설명합니다.
 
-상점을 자동으로 구성하려면 `app-setup`자동 설정[&#x200B; 섹션에 설명된 &#x200B;](#automated-setup) 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
+상점을 자동으로 구성하려면 [자동 설정](#automated-setup) 섹션에 설명된 `app-setup` 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
 
 ### 사전 요구 사항
 
-다음 항목은 [등급 확장 자습서](./ratings-extension.md#connect-to-the-storefront)의 [storefront](./ratings-extension.md) 섹션을 완료하고 스토어에서 제품 등급을 표시하는 데 필요합니다.
+다음 항목은 [등급 확장 자습서](./ratings-extension.md)의 [storefront](./ratings-extension.md#connect-to-the-storefront) 섹션을 완료하고 스토어에서 제품 등급을 표시하는 데 필요합니다.
 
 * [Google Chrome](https://www.google.com/chrome/) - 상점 첫 화면 테스트에 필요
 
-* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#link-repo-to-commerce-data){target="_blank"}의 단계를 따릅니다.
+* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#link-repo-to-commerce-data){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
 
 ### Storefront 리포지토리 복제
 

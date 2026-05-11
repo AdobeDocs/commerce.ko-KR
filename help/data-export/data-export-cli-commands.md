@@ -2,16 +2,25 @@
 title: Commerce CLI를 사용하여 피드 동기화
 description: 명령줄 인터페이스 명령을 사용하여  [!DNL data export extension] for Adobe Commerce SaaS 서비스에 대한 피드 및 프로세스를 관리하는 방법을 알아봅니다.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: a05f716200fbf2af74b8488ae66053a56e7037a0
+TQID: https://experienceleague.adobe.com/Vi8hMKOBjTPkSQp0t8DCkjZsJ8s3Q5GSbSXyX2gmWRo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 583
 ht-degree: 0%
 
 ---
 
 # Commerce CLI를 사용하여 피드 동기화
 
-`saas:resync` 패키지의 `magento/saas-export` 명령을 사용하면 Adobe Commerce SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
+`magento/saas-export` 패키지의 `saas:resync` 명령을 사용하면 Adobe Commerce SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
 
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
@@ -109,7 +118,7 @@ bin/magento saas:resync --feed productAttributes --continue-resync
 
 SaaS에 피드를 제출하지 않고 피드 테이블에 저장하지 않고 피드 색인 재지정 프로세스를 실행합니다. 이 옵션은 데이터 세트와 관련된 문제를 식별하는 데 유용합니다.
 
-페이로드를 `EXPORTER_EXTENDED_LOG=1`에 저장하려면 `var/log/saas-export.log` 환경 변수를 추가하십시오.
+페이로드를 `var/log/saas-export.log`에 저장하려면 `EXPORTER_EXTENDED_LOG=1` 환경 변수를 추가하십시오.
 
 **예:**
 
@@ -181,7 +190,7 @@ bin/magento saas:resync --feed productAttributes --no-reindex
 
 ## `--id-type=ProductId`
 
-기본적으로 `saas:resync feed` 옵션과 함께 `--by-ids` 명령을 사용할 때 지정된 엔터티는 제품 SKU에서 지정됩니다. 제품 ID별로 엔터티를 지정하려면 `--id-type=ProductId` 옵션을 사용하십시오.
+기본적으로 `--by-ids` 옵션과 함께 `saas:resync feed` 명령을 사용할 때 지정된 엔터티는 제품 SKU에서 지정됩니다. 제품 ID별로 엔터티를 지정하려면 `--id-type=ProductId` 옵션을 사용하십시오.
 
 ```shell
 bin/magento saas:resync --feed products --by-ids='1,2,3' --id-type='productId'

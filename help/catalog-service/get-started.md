@@ -3,9 +3,24 @@ title: ' [!DNL Catalog Service] 시작'
 description: ' [!DNL Catalog Service] 에 액세스하고 프론트엔드 애플리케이션 및 서드파티 서비스와 통합하는 방법을 알아봅니다.'
 role: Admin, Developer
 exl-id: ee178e67-519d-4283-8de8-2634ae1f347a
-source-git-commit: 50d8937c903efb1c56ec86e6bc4b947d2f198d49
+TQID: https://experienceleague.adobe.com/KBdWesEoKJu-qWsY-Ny1Om-msUkyUPfUTQWftEqSg1g
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 586
 ht-degree: 0%
 
 ---

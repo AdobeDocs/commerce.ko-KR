@@ -3,9 +3,22 @@ title: 규칙 만들기 및 관리
 description: 검색, 기본 제품 목록 및 범주 페이지에 대한 머천다이징 규칙을 만들고 관리하는 방법을 알아봅니다.
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
-source-git-commit: 0d1ebaddada8be82645164368ebfbb6dd0a569cd
+TQID: https://experienceleague.adobe.com/UOe-TPaF80Wrk-gNuJwLTdndVQMQfbYrbpAfb-r4pJc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: 2760
 ht-degree: 0%
 
 ---
@@ -208,7 +221,7 @@ ht-degree: 0%
 
 ### 규칙 편집
 
-1. *머천다이징 규칙* 작업 영역에서 편집할 규칙을 그리드에서 찾아 **자세히**(...) 옵션을 클릭합니다.
+1. *머천다이징 규칙* 작업 영역에서 편집할 규칙을 그리드에서 찾아 **자세히**(...)을 클릭합니다. 옵션.
 1. 규칙 편집기에 액세스하려면 **편집**&#x200B;을 클릭합니다.
 1. 필요에 따라 조건, 연산자 및 이벤트를 업데이트합니다.
 1. 필요에 따라 이름, 시작 및 종료 날짜 및 설명 필드를 업데이트합니다. 모든 규칙 이름은 고유해야 합니다.
@@ -220,13 +233,13 @@ ht-degree: 0%
 
 이 옵션을 사용하면 *규칙* 표에 있는 동안 모든 규칙 매개 변수를 빠르게 확인할 수 있습니다.
 
-1. *머천다이징 규칙* 작업 영역에서 편집할 규칙을 그리드에서 찾아 **자세히**(...) 옵션을 클릭합니다.
+1. *머천다이징 규칙* 작업 공간에서 편집할 규칙을 그리드에서 찾아 **자세히**(...)을 클릭합니다. 옵션.
 1. 규칙 매개 변수를 보려면 **세부 정보 보기**&#x200B;를 클릭하십시오.
 1. **편집** 또는 **삭제**&#x200B;를 선택하거나 X를 클릭하여 패널을 닫습니다.
 
 ### 규칙 삭제
 
-1. *규칙* 작업 영역에서 편집할 규칙을 그리드에서 찾아 **자세히**(...) 옵션을 클릭합니다.
+1. *규칙* 작업 영역에서 편집할 규칙을 그리드에서 찾아 **자세히**(...)을 클릭합니다. 옵션.
 1. **삭제**&#x200B;를 클릭합니다.
 
 ## 필드 설명 {#field-descriptions}

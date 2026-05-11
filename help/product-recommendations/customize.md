@@ -1,9 +1,18 @@
 ---
 title: 사용자 지정
 description: 제품 권장 사항을 사용자 지정하는 방법을 알아봅니다.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: b59932e1-748a-432d-b65b-13cf1c287fb2
+TQID: https://experienceleague.adobe.com/-49Lqkuhnrn5GCQtHLO-9gr1nHwMjEQeEVDRR4cDk5Y
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: 645
 ht-degree: 0%
 
 ---
@@ -46,7 +55,7 @@ ht-degree: 0%
 
    | 파일 이름 | 페이지 |
    |---|---|
-   | `catalog_category_view.xml` | 범주 |
+   | `catalog_category_view.xml` | 카테고리 |
    | `catalog_product_view.xml` | 제품 세부 사항 |
    | `checkout_cart_index.xml` | 장바구니 |
    | `checkout_onepage_success.xml` | 체크아웃 |

@@ -2,9 +2,16 @@
 title: 머천다이징 검색
 description: '[!DNL Live Search] 머천다이징 규칙은 논리와 작업을 결합하여 쇼핑 경험을 구체화합니다.'
 exl-id: 9894bf2b-8556-4057-aa23-ebdcb1599914
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+TQID: https://experienceleague.adobe.com/WP92dt45BJo8-pJDaWY-9ocDd4GdJVWcOqzVLfjnEkI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: 695
 ht-degree: 0%
 
 ---

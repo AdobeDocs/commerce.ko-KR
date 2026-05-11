@@ -4,9 +4,25 @@ description: ' [!DNL Adobe Commerce Optimizer] Storefront를 설정하는 방법
 role: Developer
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: b6f7286f223c6253ab9edbead63a4bc4a9baddfe
+TQID: https://experienceleague.adobe.com/Jcj-3qVJPXr-t0X8-Y9GVziGj57ksUdWDhCO6pt-94A
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: 1562
 ht-degree: 0%
 
 ---
@@ -123,7 +139,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >가격 장부 ID를 찾으려면 [의 &#x200B;](./setup/catalog-view.md)카탈로그 보기 구성 세부 정보[!DNL Adobe Commerce Optimizer]에서 할당된 가격 장부를 확인하십시오. 가격 장부가 지정되지 않은 경우 구성 파일에서 이 헤더를 제거할 수 있습니다. 가격 장부가 카탈로그 보기에 할당되면 다시 추가합니다.
+   >가격 장부 ID를 찾으려면 [!DNL Adobe Commerce Optimizer]의 [카탈로그 보기 구성 세부 정보](./setup/catalog-view.md)에서 할당된 가격 장부를 확인하십시오. 가격 장부가 지정되지 않은 경우 구성 파일에서 이 헤더를 제거할 수 있습니다. 가격 장부가 카탈로그 보기에 할당되면 다시 추가합니다.
 
 1. 구성 파일을 저장합니다.
 
@@ -159,7 +175,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >[&#x200B; 인스턴스의 &#x200B;](./setup/data-sync.md)데이터 동기화[!DNL Adobe Commerce Optimizer] 페이지에서 사용 가능한 SKU를 봅니다.
+   >[!DNL Adobe Commerce Optimizer] 인스턴스의 [데이터 동기화](./setup/data-sync.md) 페이지에서 사용 가능한 SKU를 봅니다.
 
 1. **성공 기준**: 페이지가 표시되어야 합니다.
    * 제품 이름, 설명 및 가격
@@ -200,18 +216,18 @@ ht-degree: 0%
 |-------|----------|----------|
 | **코드 동기화 설치 실패** | 코드 동기화 설정을 완료할 수 없음 | <ul><li>GitHub 조직에 대한 관리자 액세스 권한이 있는지 확인하십시오.</li><li>조직 대신 개인 저장소를 사용해 보십시오.</li><li>GitHub 권한을 확인하고 다시 시도하십시오.</li></ul> |
 | **사이트가 로드되지 않음** | 404 또는 연결 오류 | <ul><li>사이트 URL 형식 확인: `https://main--{SITE}--{ORG}.aem.live`</li><li>코드 동기화 앱이 제대로 설치되었는지 확인합니다.</li><li>저장소가 공용인지 또는 올바르게 구성되었는지 확인합니다.</li></ul> |
-| **제품 데이터가 표시되지 않음** | 제품 페이지에 자리 표시자 또는 오류가 표시됨 | <ul><li>`config.json`에서 구성 값 확인</li><li>[!DNL Adobe Commerce Optimizer] 인스턴스에서 [데이터 동기화] 페이지에서 샘플 제품이 로드되었는지 확인합니다. 사용할 수 있는 제품이 없는 경우 샘플 데이터를 다시 로드하거나 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request){target="_blank"}를 사용하여 제품을 추가하십시오. 구성 변경 사항이 반영될 때까지 몇 분 정도 기다립니다.</li><li>[&#x200B; 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details){target="_blank"}products 쿼리`config.json`를 사용하여 제품 세부 정보를 검색해 보십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li></ul> |
-| **검색 결과 없음** | 빈 검색 결과 페이지 | <ul><li>[&#x200B; 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search){target="_blank"}productSearch 쿼리`config.json`를 사용하여 제품 검색 결과를 검색할 수 있는지 확인하십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li><li>`config.json` 파일의 카탈로그 보기 ID가 [!DNL Adobe Commerce Optimizer]의 카탈로그 보기 ID와 일치하는지 확인하십시오.</li><li>Adobe Commerce Optimizer에서 storefront 헤더 구성에서 사용한 정책, 로케일 및 가격 장부의 구성을 확인합니다.</li><li>[특성 메타데이터 설정](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata){target="_blank"}이 검색에 대해 올바르게 설정되어 있는지 확인하십시오.</li></ul> |
+| **제품 데이터가 표시되지 않음** | 제품 페이지에 자리 표시자 또는 오류가 표시됨 | <ul><li>`config.json`에서 구성 값 확인</li><li>[!DNL Adobe Commerce Optimizer] 인스턴스에서 [데이터 동기화] 페이지에서 샘플 제품이 로드되었는지 확인합니다. 사용할 수 있는 제품이 없는 경우 샘플 데이터를 다시 로드하거나 [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request){target="_blank"}를 사용하여 제품을 추가하십시오. 구성 변경 사항이 반영될 때까지 몇 분 정도 기다립니다.</li><li>`config.json` 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 [products 쿼리](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details){target="_blank"}를 사용하여 제품 세부 정보를 검색해 보십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li></ul> |
+| **검색 결과 없음** | 빈 검색 결과 페이지 | <ul><li>`config.json` 파일에 구성된 것과 동일한 헤더를 사용하여 머천다이징 서비스 [productSearch 쿼리](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search){target="_blank"}를 사용하여 제품 검색 결과를 검색할 수 있는지 확인하십시오. 데이터를 검색할 수 있는 경우 카탈로그 보기 구성 또는 색인 오류의 문제일 수 있습니다.</li><li>`config.json` 파일의 카탈로그 보기 ID가 [!DNL Adobe Commerce Optimizer]의 카탈로그 보기 ID와 일치하는지 확인하십시오.</li><li>Adobe Commerce Optimizer에서 storefront 헤더 구성에서 사용한 정책, 로케일 및 가격 장부의 구성을 확인합니다.</li><li>[특성 메타데이터 설정](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata){target="_blank"}이 검색에 대해 올바르게 설정되어 있는지 확인하십시오.</li></ul> |
 
 ### 유효성 검사 목록
 
 다음 단계를 진행하기 전에 다음을 확인하여 상점이 올바르게 작동하는지 확인하십시오.
 
-![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치함<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치합니다.<br>
 ![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) Storefront 홈 페이지가 오류 없이 로드됨<br>
-![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 하나 이상의 제품 세부 정보 페이지에 전체 정보가 표시됨<br>
-![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 검색 기능이 관련 결과를 반환함<br>
-![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 제품 이미지가 올바르게 로드됨<br>
+![확인 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 하나 이상의 제품 세부 정보 페이지에 전체 정보가 표시됩니다.<br>
+![체크리스트](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 검색 기능이 관련 결과를 반환합니다.<br>
+![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 제품 이미지를 올바르게 로드하고 있습니다.<br>
 ![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치함<br>
 
 ### 도움말 보기

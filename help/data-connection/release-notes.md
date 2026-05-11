@@ -3,10 +3,26 @@ title: 릴리스 정보
 description: Adobe Commerce의  [!DNL Data Connection] 확장에 대한 최신 릴리스 정보입니다.
 feature: Personalization, Integration, Release Notes
 exl-id: f3b92632-947d-40cd-89b7-24ed0680be51
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: https://experienceleague.adobe.com/kjXCkifzTRTjVJZuy3fb6VPhQkblOaT7-GxwJP4Dv3Y
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1350
+ht-degree: 2%
 
 ---
 
@@ -46,12 +62,12 @@ _2024년 8월 2일_
 
 _2024년 1월 24일_
 
-![새로 만들기](../assets/new.svg) - B2B 판매자에 대해 `data-services-b2b`(이)라는 새 요청 이벤트를 포함하도록 `deleteRequisitionList` 확장을 업데이트했습니다.
+![새로 만들기](../assets/new.svg) - B2B 판매자에 대해 `deleteRequisitionList`(이)라는 새 요청 이벤트를 포함하도록 `data-services-b2b` 확장을 업데이트했습니다.
 
 _2023년 11월 16일_
 
 ![수정](../assets/fix.svg) - 배송 주소가 여러 개인 주문을 했을 때 오류 메시지가 잘못 표시되는 문제를 해결했습니다.
-![수정](../assets/fix.svg) - 스토어 보기에서 통화를 전환한 후 `productPageView` 이벤트 필드가 가격을 전환하지 않는 `productListItems.priceTotal` 이벤트 문제를 해결했습니다.
+![수정](../assets/fix.svg) - 스토어 보기에서 통화를 전환한 후 `productListItems.priceTotal` 이벤트 필드가 가격을 전환하지 않는 `productPageView` 이벤트 문제를 해결했습니다.
 ![수정](../assets/fix.svg) - 가맹점이 스토어 보기를 전환할 때 통화 코드가 업데이트되지 않는 `productListItems` 이벤트 필드의 문제를 해결했습니다.
 
 _2023년 10월 10일_
@@ -60,7 +76,7 @@ _2023년 10월 10일_
 ![수정](../assets/fix.svg) - 캐시를 새로 고친 후 통화 구성 변경 내용이 이벤트에 반영되지 않는 문제를 해결했습니다.
 ![수정](../assets/fix.svg) - 비동기 주문 배치가 활성화된 경우 주문 확인 메시지가 표시되지 않는 경우 오류가 수정되었습니다.
 ![새로 만들기](../assets/new.svg) - 범주 보기 페이지에서 간단한 제품에 대한 데이터를 `addToRequisitionList` 이벤트에 추가했습니다.
-![수정](../assets/fix.svg) - 주문 확인 페이지에서 제품을 추가할 때 `selectedOptions` 이벤트의 `addToRequisitionList` 데이터 문제를 해결했습니다.
+![수정](../assets/fix.svg) - 주문 확인 페이지에서 제품을 추가할 때 `addToRequisitionList` 이벤트의 `selectedOptions` 데이터 문제를 해결했습니다.
 ![새로 만들기](../assets/new.svg) - 범주 보기 페이지의 구매요청 목록에 제품이 추가되면 `addToRequisitionList` 이벤트에 제품 데이터가 추가되었습니다.
 ![새로 만들기](../assets/new.svg) - 구성 가능한 제품이 제품 보기 페이지의 구매요청 목록에 추가되면 `addToRequisitionList` 이벤트가 추가되었습니다.
 ![새로 만들기](../assets/new.svg) - 구매요청 목록에서 제품 수량이 증가 및/또는 감소할 때 `addToRequisitionList` 및 `removeFromRequisitionList` 이벤트가 추가되었습니다.
@@ -72,8 +88,8 @@ _2023년 6월 10일_
 
 _2023년 3월 30일_
 
-![새로 만들기](../assets/new.svg) - B2B 판매자에 대한 `data-services-b2b`구매요청 목록 이벤트[를 포함하는 &#x200B;](events.md#b2b-events)(이)라는 확장이 추가되었습니다.
-![새로 만들기](../assets/new.svg) - `uniqueIdentifier`검색[&#x200B; 이벤트에 &#x200B;](events.md#search-events) 필드를 추가했습니다. 이 새 필드를 사용하면 판매자가 검색 요청과 검색 응답을 상호 참조할 수 있습니다.
+![새로 만들기](../assets/new.svg) - B2B 판매자에 대한 [구매요청 목록 이벤트](events.md#b2b-events)를 포함하는 `data-services-b2b`(이)라는 확장이 추가되었습니다.
+![새로 만들기](../assets/new.svg) - [검색](events.md#search-events) 이벤트에 `uniqueIdentifier` 필드를 추가했습니다. 이 새 필드를 사용하면 판매자가 검색 요청과 검색 응답을 상호 참조할 수 있습니다.
 
 _2022년 10월 12일_
 
@@ -112,7 +128,7 @@ _2025년 1월 17일_
 
 [!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) - 상인이 [&#x200B; 백 오피스 이벤트 데이터를 Experience Platform과 공유하고 HIPAA 준수를 유지할 수 있도록 &#x200B;](hipaa-readiness.md)HIPAA 지원 확장[!DNL Data Connection]을 [!DNL Commerce]에 추가했습니다.
+![새로 만들기](../assets/new.svg) - 상인이 [!DNL Commerce] 백 오피스 이벤트 데이터를 Experience Platform과 공유하고 HIPAA 준수를 유지할 수 있도록 [HIPAA 지원 확장](hipaa-readiness.md)을 [!DNL Data Connection]에 추가했습니다.
 ![수정](../assets/fix.svg) - [!DNL Data Connection] 확장에서 `eventForwarding` 데이터를 덮어쓰고 모든 고객에 대해 `HIPAA` 플래그를 설정하는 문제가 해결되었습니다. 이제 확장은 HIPAA 고객에 대한 플래그만 설정합니다.
 
 ## 3.2.0
@@ -122,7 +138,7 @@ _2024년 10월 7일_
 [!BADGE 호환성]{type=Informative tooltip="호환성"} Adobe Commerce 버전 2.4.4 이상
 
 ![새로 만들기](../assets/new.svg) - 백 오피스 데이터에 대한 [사용자 지정 순서 특성](custom-attributes.md)을(를) 만드는 기능이 추가되었습니다.
-![새로 만들기](../assets/new.svg) - [에 구성되어 Experience Platform으로 전송된 사용자 지정 특성을 보는 데 도움이 되는 새 &#x200B;](connect-data.md#data-customization)사용자 지정 순서 특성[!DNL Commerce] 테이블을 추가했습니다.
+![새로 만들기](../assets/new.svg) - [!DNL Commerce]에 구성되어 Experience Platform으로 전송된 사용자 지정 특성을 보는 데 도움이 되는 새 [사용자 지정 순서 특성](connect-data.md#data-customization) 테이블을 추가했습니다.
 ![새로 만들기](../assets/new.svg) - [프로필 레코드 수집 및 보내기](connect-data.md#send-customer-profile-data) 및 데이터를 Experience Platform에 보내는 기능이 추가되었습니다.
 
 ## 3.2.0-베타3
@@ -197,7 +213,7 @@ _2023년 10월 10일_
 주요 버전 릴리스입니다. 프로젝트의 루트 작성기.json 파일을 [편집](install.md#update)합니다.
 
 ![새로 만들기](../assets/new.svg) - [내역 주문 보내기](connect-data.md#send-historical-order-data) 데이터 및 상태를 Experience Platform에 대한 일반 가용성.
-![새로 만들기](../assets/new.svg) - [&#x200B; 확장을 &#x200B;](connect-data.md#connect-commerce-data-to-adobe-experience-platform)구성[!DNL Data Connection]할 때 OAuth 2.0에 대한 지원이 추가되었습니다.
+![새로 만들기](../assets/new.svg) - [!DNL Data Connection] 확장을 [구성](connect-data.md#connect-commerce-data-to-adobe-experience-platform)할 때 OAuth 2.0에 대한 지원이 추가되었습니다.
 ![새로 만들기](../assets/new.svg) - Adobe Commerce 2.4.3에 대한 지원이 종료되었습니다.
 
 ## 2.3.0
@@ -243,7 +259,7 @@ _2023년 1월 17일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.3 이상
 
 ![새로 만들기](../assets/new.svg) - 고유한 AEP Web SDK(alloy)를 지정할 수 있도록 [[!DNL Data Connection] 확장 관리자](connect-data.md)를 업데이트했습니다.
-![수정](../assets/fix.svg)이(가) 에지에 푸시된 데이터에 대한 기본 ID를 설정할 때 `identityMap` 대신 `personID`을(를) 사용하도록 변경되었습니다.
+![수정](../assets/fix.svg)이(가) 에지에 푸시된 데이터에 대한 기본 ID를 설정할 때 `personID` 대신 `identityMap`을(를) 사용하도록 변경되었습니다.
 
 ## 2.0.1
 

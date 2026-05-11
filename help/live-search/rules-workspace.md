@@ -1,9 +1,15 @@
 ---
 title: 머천다이징 Workspace 검색
 description: 검색 머천다이징 작업 영역을 통해 자세히 알아보십시오.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 8cf581b5-cf83-48aa-86ab-39dea8da2ee5
+TQID: https://experienceleague.adobe.com/FB1DxWHgpPtH5J-TiH4XU8SYmP3x8dEobWQsSrQXG4c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 586
 ht-degree: 1%
 
 ---
