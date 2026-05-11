@@ -1,6 +1,7 @@
 ---
 solution: Commerce
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
 solution-title: Commerce
 landing-page-name: commerce
 landing-page-breadcrumb-title: Commerce

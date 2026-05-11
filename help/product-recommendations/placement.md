@@ -3,10 +3,14 @@ title: 배치 및 레이블
 description: 사이트의 다양한 페이지에 권장 사항을 배치할 수 있는 위치와 각 권장 사항 유형에 자주 사용되는 레이블에 대한 권장 사항을 알아봅니다.
 exl-id: 0576add8-50dd-4aac-91f5-38b7d85b751f
 TQID: https://experienceleague.adobe.com/Bu5SbZHmj-PfJ3-KnVTu6sc4emkmRJeWTusmQHYz1aU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
 source-wordcount: 500

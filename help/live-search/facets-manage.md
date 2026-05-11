@@ -3,10 +3,14 @@ title: Facet 관리
 description: 기존 [!DNL Live Search] 패싯을 관리하는 방법을 알아봅니다.
 exl-id: 5062bb1f-ce6f-4244-a1df-65ae1ce868b9
 TQID: https://experienceleague.adobe.com/KWh5KwVRNJO3XLiG9xbqhBsGkt99BgY0hPnPbxDd8vY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
 source-wordcount: 481
@@ -93,7 +97,7 @@ ht-degree: 0%
 
 1. 목록에서 패싯을 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 1. **삭제**&#x200B;를 클릭합니다.
-1. 확인 메시지가 표시되면 **패싯 삭제**를 클릭합니다.
+1. 확인 메시지가 표시되면 **패싯 삭제**&#x200B;를 클릭합니다.
 Facet은 변경 사항이 게시된 후 상점 첫 화면에서 제거됩니다.
 
 ## 변경 사항 게시
