@@ -1,7 +1,7 @@
 ---
-source-git-commit: 156ed7a480de9239843c96b6b6bc252585f498d6
+source-git-commit: aaefe284749df25953c2581f000af2989bcc8fb2
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 >[!NOTE]
 >
 >카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](../aco-connector/overview.md)를 설치한 경우 Commerce Optimizer Studio의 [데이터 피드 동기화 상태 페이지](../optimizer/setup/data-sync.md)를 사용하여 데이터 관리 대시보드 대신 Adobe Commerce Optimizer에 성공적으로 동기화된 데이터를 확인하십시오.
+
+## API 업데이트에 대한 ACO 드롭인 메모 {#aco-api-updates-and-dropins}
+
+>[!NOTE]
+>
+>[!DNL Commerce Storefront on Edge Delivery Services]에 대한 [추가 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko)에서 최신 GraphQL 변경 내용(새 필드, 제한 및 쿼리 동작)을 자동으로 선택합니다.
 
 ## ACCS 조기 액세스 {#accs-early-access}
 
