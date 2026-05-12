@@ -18,9 +18,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 118e2865ce9d4903b9a82254e0f56fc76c9fdadf
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: 1822
 ht-degree: 0%
 
 ---
@@ -53,10 +53,15 @@ ht-degree: 0%
 
 * [**개발자**](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"}—개발자는 사용자 권한이 있으며 Commerce 인스턴스에 개발자 사용자로 추가됩니다. [[!DNL Admin UI SDK]](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}, [이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} 및 [웹후크 만들기](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"}를 사용할 수 있습니다.
 
-* 관리자 - 세 가지 유형의 관리자가 있습니다.
+* 관리자 - 관리자 역할에는 여러 유형이 있습니다.
    * [시스템 관리자](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
    * [제품 관리자](#add-a-product-admin) - 제품 관리자는 [!DNL Adobe Admin Console]에서 [제품에 대한 사용자, 역할 및 권한을 관리](#add-users)하고 [Commerce 관리자의 사용자를 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}할 수 있습니다.
    * [제품 프로필 관리자](#add-developers-and-product-profile-admins) - 제품 프로필 관리자는 Adobe Commerce 관리자에 액세스할 수 없지만 [!DNL Adobe Admin Console]에서 제품에 대한 사용자를 관리할 수 있습니다.
+   * 지원 관리자 - 지원 관리자는 지원 티켓을 만들고 관리할 수 있습니다.
+
+>[!NOTE]
+>
+>사용자가 지원 티켓을 만들 수 있도록 하려면 Admin Console에서 **지원 관리자** 역할을 할당해야 합니다.
 
 Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용은 [역할 리소스](#role-resources)를 참조하십시오.
 
