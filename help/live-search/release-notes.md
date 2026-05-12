@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: c3e995d46b7cfca3186b7599e22b825f0efa80f1
 workflow-type: tm+mt
-source-wordcount: 2996
+source-wordcount: 3052
 ht-degree: 1%
 
 ---
@@ -117,6 +117,15 @@ _2024년 5월 31일_
 _2023년 10월 27일_
 
 ![새로 만들기](../assets/new.svg) 이제 [!DNL Live Search] PLP 위젯에서 색상 견본을 지원합니다.
+
+
+## [!DNL Live Search] 4.7.1
+
+_2026년 5월 12일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
+
+![수정](../assets/fix.svg) CSP를 제한 모드로 구성하고 인라인 스크립트를 사용하지 않도록 설정한 경우 [!DNL Live Search] Storefront 팝오버 스크립트로 인해 CSP(콘텐츠 보안 정책) 오류가 발생하는 문제를 해결했습니다. 이제 확장은 이러한 스크립트에 보안 렌더링을 사용하므로 CSP 스크립트-src 위반 없이 페이지가 로드됩니다.
 
 ## [!DNL Live Search] 4.7.0
 
