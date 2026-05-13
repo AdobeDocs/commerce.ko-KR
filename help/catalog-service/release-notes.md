@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 22f44afb7221c735785b6e9a38fb70c733cf0942
 workflow-type: tm+mt
-source-wordcount: 2709
+source-wordcount: 2742
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ ht-degree: 0%
 ## Storefront 카탈로그 서비스
 
 ### 2026년 5월
+
+**릴리스 날짜**: 2026년 5월 13일
+<!--v1.54-->
+
+![새로 만들기](../assets/new.svg) **GraphQL의 범주 정렬 순서**—이제 `CategoryView` GraphQL 유형에 위치 필드가 포함되므로 상점 앞에는 카탈로그 계층 구조에서 판매자가 구성하는 순서로 범주를 표시할 수 있습니다.
+<!--DATA-7166-->
 
 **릴리스 날짜**: 2026년 5월 4일
 <!-- v1.53 -->
