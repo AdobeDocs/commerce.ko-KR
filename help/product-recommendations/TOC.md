@@ -3,7 +3,8 @@ user-guide-title: '[!DNL Product Recommendations] 안내서'
 user-guide-description: 이 안내서에서는 Adobe Commerce에서  [!DNL Product Recommendations] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
 role: Admin
 feature: Services, Recommendations
-source-git-commit: 2b1186d83718347149516de469c31cdfeaa72b4a
+nudge: true
+source-git-commit: f5a75403fd7187a6441ad16f3778bfddbc05c1c2
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 10%

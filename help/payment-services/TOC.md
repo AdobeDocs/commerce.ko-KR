@@ -5,7 +5,8 @@ index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+nudge: true
+source-git-commit: 82cea97c9c0498f91e3c2b4b44e0f21c736a2dc4
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
