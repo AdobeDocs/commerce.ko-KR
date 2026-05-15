@@ -1,13 +1,14 @@
 ---
 user-guide-title: Adobe Commerce용 [!DNL Data Connection] 확장
+breadcrumb-title: '[!DNL Data Connection]'
 user-guide-description: 이 안내서에서는 Adobe Commerce용  [!DNL Data Connection] 확장 사용에 대한 자세한 지침을 제공합니다.
 role: Admin
 feature: Personalization, Integration
 recommendations: noDisplay
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 60a8e8f5cedff0c6fa56c563807b9604e3ae1d21
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---

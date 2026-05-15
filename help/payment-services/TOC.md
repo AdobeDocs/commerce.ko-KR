@@ -1,12 +1,13 @@
 ---
 user-guide-title: '[!DNL Payment Services] 안내서'
+breadcrumb-title: '[!DNL Payment Services]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 스토어의  [!DNL Payment Services] 설치 및 구성에 대한 자세한 정보를 제공합니다.
 index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
 nudge: true
-source-git-commit: 82cea97c9c0498f91e3c2b4b44e0f21c736a2dc4
+source-git-commit: 22c2fa72c3603e28b5ab55a34a908c10c02457fe
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%

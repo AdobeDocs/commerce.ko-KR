@@ -1,10 +1,11 @@
 ---
 user-guide-title: '[!DNL Catalog Service] 안내서'
+breadcrumb-title: '[!DNL Catalog Service]'
 user-guide-description: 이 안내서에서는 Adobe Commerce용  [!DNL Catalog Service] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
 hide: true
 role: Admin
 feature: Services, Catalog Service
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 9%

@@ -23,7 +23,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 0%
@@ -79,13 +79,13 @@ ht-degree: 0%
 
 이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
 
-![Adobe Commerce as a Cloud Service에 대한 시스템 관리자 및 판매자 워크플로 다이어그램](./assets/merchant-flow.svg){zoomable="yes"}
+![Adobe Commerce as a Cloud Service에 대한 시스템 관리자 및 판매자 워크플로 다이어그램](./assets/merchant-flow.png){zoomable="yes"}
 
 >[!TAB 개발자 워크플로]
 
 이 다이어그램은 개발자가 App Builder을 사용하여 [!DNL Adobe Commerce as a Cloud Service]에 대한 통합을 만드는 방법에 대한 높은 수준의 개요를 제공합니다. 자세한 내용은 [API 설명서](https://developer.adobe.com/commerce/webapi/rest/)를 참조하세요.
 
-Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 워크플로 다이어그램](./assets/developer-flow.svg){zoomable="yes"}
+Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 워크플로 다이어그램](./assets/developer-flow.png){zoomable="yes"}
 
 >[!ENDTABS]
 

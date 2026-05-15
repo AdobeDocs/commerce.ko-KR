@@ -1,11 +1,12 @@
 ---
 user-guide-title: '[!DNL App Management]'
+breadcrumb-title: '[!DNL App Management]'
 user-guide-description: Adobe Commerce 인스턴스와 App Builder 애플리케이션을 연결, 구성 및 관리합니다.
 feature: App Builder, Extensibility, Integration
-source-git-commit: ab635fecb7b82294bd4a4fd045ed71931e9d265d
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '34'
+ht-degree: 5%
 
 ---
 

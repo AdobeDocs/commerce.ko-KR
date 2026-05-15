@@ -1,12 +1,13 @@
 ---
 user-guide-title: SaaS 가격 인덱싱 가이드
+breadcrumb-title: SaaS 가격 인덱싱
 user-guide-description: 이 안내서에서는 SaaS 가격 인덱서 사용에 대한 자세한 지침을 제공합니다.
 hide: true
 role: Admin
 feature: Services, Price Indexer
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '42'
 ht-degree: 7%
 
 ---

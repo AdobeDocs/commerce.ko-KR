@@ -1,11 +1,12 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce Optimizer] 안내서'
+breadcrumb-title: '[!DNL Adobe Commerce Optimizer]'
 user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 및 리소스입니다.'
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
 nudge: true
-source-git-commit: 185985dd75404ea9ab586ede32753503617d071d
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 12%
