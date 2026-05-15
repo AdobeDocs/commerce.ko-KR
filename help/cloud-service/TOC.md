@@ -1,9 +1,10 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
+breadcrumb-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ebee6c984a8f848e9094968be9faa667fc83250
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 4%
@@ -33,7 +34,7 @@ ht-degree: 4%
       - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
       - [코딩 툴](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
    - {hide-from-toc}[설명서 RAG 서비스](migration/doc-rag.md)
-- [고객으로 로그인](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+- [고객으로 로그인](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
 - [기프트 카드 계정 REST 엔드포인트](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
 - [REST를 통한 이메일 트리거](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - 튜토리얼 {#tutorials}
@@ -47,6 +48,6 @@ ht-degree: 4%
    - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-- [비디오 자습서](https://experienceleague.adobe.com/ko/playlists/accs-getting-started-product-overview){target="_blank"}
+- [비디오 자습서](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

@@ -1,10 +1,11 @@
 ---
 user-guide-title: '[!DNL AEM Assets] 통합 안내서'
+breadcrumb-title: '[!DNL AEM Assets] 통합'
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 eCommerce 마케터를 위한 AEM Assets 통합에 대한 포괄적인 정보입니다.
 feature: CMS, Page Content
-source-git-commit: 0fd98bf86555c914f7a5b1e177c31c37764dbf84
+source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '96'
 ht-degree: 4%
 
 ---
@@ -29,4 +30,4 @@ ht-degree: 4%
    - [사용자 지정 자동 일치](synchronize/custom-match.md)
    - [수동 자산 선택](synchronize/asset-selector-integration.md)
 - [Commerce 미디어 자산 관리](manage-assets.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
