@@ -1,7 +1,7 @@
 ---
-source-git-commit: feb450ecd425d7e3ce7f8e354aeb294bb7d5d1ce
+source-git-commit: c435c7751fca8c46077cbab3534bd9f47cd03b2b
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1144'
 ht-degree: 1%
 
 ---
@@ -429,80 +429,6 @@ ht-degree: 1%
         새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/0fd98bf86555c914f7a5b1e177c31c37764dbf84">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 12일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>AEM Assets에서 제품 자산을 구성하는 사용자를 위한 명확한 탐색 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/manage-assets">Commerce 미디어 자산 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/default-match">기본 자동 일치</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a0eaaf0de53962b37c7b52f3e7e13aac4c62e372">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 11일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>v1.3.4로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 릴리스 정보</a> 업데이트: 구성 UI에서 Adobe Commerce 2.4.9-beta1 및 PHP 8.5 지원 및 도메인 매핑 자동 채우기.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/85579e3f2f8fc49f46f9201f31908602ee5d3259">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 10일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>프로덕션 환경에 대한 최신 릴리스로 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/dd9b660729f7c8616347d3222fdfb3b83a774e56">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>앱 관리 및 Commerce 인스턴스와 App Builder 애플리케이션을 연결, 구성 및 관리하는 방법을 소개하는 새 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview">앱 관리</a> 설명서 안내서를 추가했습니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ab635fecb7b82294bd4a4fd045ed71931e9d265d">커밋</a></td>
     </tr>
   </tbody>
 </table>
