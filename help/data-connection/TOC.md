@@ -5,7 +5,7 @@ user-guide-description: 이 안내서에서는 Adobe Commerce용  [!DNL Data Con
 role: Admin
 feature: Personalization, Integration
 recommendations: noDisplay
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 9f052a6d2d38163dbe431e082228fcf48ae24656
 workflow-type: tm+mt
 source-wordcount: '153'
@@ -39,4 +39,4 @@ ht-degree: 1%
 - 사용 사례 {#use-cases}
    - [Adobe Journey Optimizer을 사용하여 포기한 장바구니 이메일 보내기](using-ajo.md)
    - [Commerce 이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기](create-audience.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
