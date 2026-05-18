@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c3e995d46b7cfca3186b7599e22b825f0efa80f1
+source-git-commit: bf3acd889f099a2ee9aed2665b86c37347d10a46
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3073
 ht-degree: 1%
 
 ---
@@ -118,6 +118,13 @@ _2023년 10월 27일_
 
 ![새로 만들기](../assets/new.svg) 이제 [!DNL Live Search] PLP 위젯에서 색상 견본을 지원합니다.
 
+## [!DNL Live Search] 4.7.2
+
+_2026년 5월 18일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
+
+![수정](../assets/fix.svg) 데이터 동기화 대시보드에 대한 종속성을 업데이트했습니다.
 
 ## [!DNL Live Search] 4.7.1
 
