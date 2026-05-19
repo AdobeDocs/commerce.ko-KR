@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 5dc61e0351e338c4d184d7d882decff49b13a12b
 workflow-type: tm+mt
-source-wordcount: 1450
+source-wordcount: 1708
 ht-degree: 1%
 
 ---
@@ -47,6 +47,8 @@ Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 
 
    * Commerce에서 자산이 시각화되는 방식을 보여 주는 사용자 지정 메타데이터 형식 `commerce:roles` 및 `commerce:positions` 특성입니다.
 
+   * 편집자가 Commerce 스토어 보기 코드에서 입력한 대체 텍스트를 입력할 수 있도록 대체 텍스트 다중 필드(_[!UICONTROL Alt texts]_) 메타데이터입니다. 따라서 카탈로그에서 제품 이미지가 지정되거나 범위가 지정되는 방식은 변경되지 않습니다. [AEM Assets 메타데이터의 대체 텍스트](#localized-alt-text-in-aem-assets-metadata)를 참조하십시오.
+
 * Commerce 자산에 태그를 지정할 `Eligible for Commerce` 및 `Product Data` 필드가 포함된 Commerce 탭이 있는 메타데이터 스키마 양식입니다. 이 양식은 AEM Assets UI에서 `roles` 및 `position` 필드를 표시하거나 숨기는 옵션도 제공합니다.
 
   AEM Assets 메타데이터 스키마 양식에 대한 ![Commerce 탭](../assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
@@ -56,6 +58,33 @@ Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 
 >[!NOTE]
 >
 > **AEM Commerce 패키지 코드**&#x200B;에 대한 자세한 내용은 [readme](https://github.com/ankumalh/assets-commerce) 페이지를 참조하십시오.
+
+## AEM Assets 메타데이터의 대체 텍스트
+
+_[!UICONTROL Alt texts]_&#x200B;다중 필드는 적격 이미지를 편집할 때&#x200B;**[!UICONTROL Commerce]**&#x200B;탭의 AEM Assets 에셋 메타데이터 편집기에서 사용할 수 있습니다.
+
+>[!IMPORTANT]
+>
+> 스토어별 보기 동작은 대체 텍스트에만 적용됩니다. AEM Assets 통합은 Adobe Commerce 스토어 보기당 다른 제품 이미지를 동기화하지 않습니다. AEM의 제품 이미지는 이 릴리스 전과 동일한 갤러리 할당 동작으로 Commerce에 계속 동기화됩니다.
+
+다중 필드에는 Commerce 스토어 보기당 하나의 행이 포함됩니다. 각 행에는 두 개의 입력이 있습니다.
+
+* **[!UICONTROL Store View Code]** — 저장소 보기 식별자(예: `default` 또는 `en_US`).
+
+* **[!UICONTROL Alt Text]** — 255자로 제한된 해당 스토어 보기에 대한 대체 텍스트입니다.
+
+저장소 보기를 추가할 행을 더 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 선택하십시오. 행을 제거하려면 해당 행에서 **[!UICONTROL Delete]** 아이콘을 선택하여 제거합니다.
+
+![저장소 보기 코드와 대체 텍스트 입력이 있는 다중 필드](../assets/commerce-metadata-alt-texts-multifield.png){width="600" zoomable="yes"}
+
+저장할 때, 행에 빈 _[!UICONTROL Store View Code]_&#x200B;이(가) 있거나 두 행이 동일한 저장소 보기 코드를 사용하는 경우(대/소문자 구분 안 함) 클라이언트측 유효성 검사가 제출을 차단합니다.
+
+대체 텍스트 항목은 JCR 자산 메타데이터에서 두 개의 인덱스 정렬 `String[]` 속성으로 유지됩니다.
+
+* `commerce:altTextStoreViews`: 각 행에 대한 보기 코드를 저장합니다.
+* `commerce:altTextValues`: `commerce:altTextStoreViews`의 각 항목과 동일한 인덱스에 있는 대체 텍스트와 일치합니다.
+
+이러한 에셋이 Adobe Commerce과 동기화되면 일치하는 스토어 보기 코드에 대해 스토어별 보기 대체 텍스트가 제품 미디어 갤러리에 작성됩니다. 기본 이미지 매핑이 변경되지 않았습니다.
 
 ## 사전 요구 사항
 

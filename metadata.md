@@ -13,7 +13,7 @@ git-repo: https://github.com/AdobeDocs/commerce.ko-KR
 index: true
 role: User
 feature-set: Commerce
-source-git-commit: a2f5aa20d5ccb2e5ec11901f2145d4227cf83167
+source-git-commit: a758ff5fccf9e941e677894160bb090a67547599
 workflow-type: tm+mt
 source-wordcount: 144
 ht-degree: 0%
