@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 4288998fdae56112dc9ddcebfc42b85b9f5d8c00
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 4032
 ht-degree: 0%
 
 ---
@@ -42,11 +42,51 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 5월 - 릴리스 #1 {#latest}
+## 2026년 5월 - 릴리스 #2 {#latest}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+다음 항목은 2026년 5월 21일에 프로덕션 환경에 릴리스됩니다.
+
+>[!BEGINSHADEBOX]
+
+### 기본 및 사용자 지정 운송업체를 사용하여 배송 추적
+
+이제 주문 추적은 [!DNL Commerce Admin]의 기본 및 사용자 지정 운송 회사에 대해 신뢰할 수 있으므로 판매자가 일관된 구매 후 추적 경험을 제공할 수 있습니다. 이전에는 UPS 또는 FedEx와 같은 통신사를 선택하고 추적 ID를 적용하면 추적 링크가 표시되지 않을 수 있었습니다. 이 동작을 복원하기 위해 판매자 조치가 필요하지 않습니다. [!DNL App Builder Integration Starter Kit]&#x200B;(으)로 만든 [사용자 지정 통신사](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/shipping-reference/)에 대해서도 추적 링크 지원을 사용할 수 있습니다. <!-- ACCS-891 -->
+
+### 제품 속성 표에서 속성 입력 유형 보기
+
+이제 새 [!UICONTROL **특성 유형**] 열이 ([!UICONTROL **스토어**] > _[!UICONTROL Attributes]_>[!UICONTROL **제품**])의 제품 특성 그리드에 표시됩니다. 이 그리드에는 확장에서 기여한 유형을 포함하여 각 제품 특성에 대한 입력 유형(예: 텍스트 필드, 드롭다운 또는 예/아니요)이 표시됩니다. 이렇게 하면 큰 속성 세트로 작업할 때 속성을 보다 쉽게 식별하고 관리할 수 있습니다. <!-- ACCS-925 -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* POST `V1/async/custom-email/send` REST 끝점이 `UnstructuredArray` 유효성 검사 오류를 반환하는 문제를 해결했습니다. 이제 비동기 끝점이 동기 POST `V1/custom-email/send` 끝점과 일관되게 작동합니다. <!-- ACCS-921 -->
+
+* 페이로드에 사용자 지정 속성을 포함하지 않고 REST를 통해 엔티티를 업데이트할 때 Company와 같은 엔티티의 사용자 지정 직렬화 가능 속성이 의도하지 않게 지워지는 문제가 해결되었습니다. 사용자 지정 속성은 이제 제공되지 않을 경우 유지됩니다. <!-- ACCS-946 -->
+
+* 요청에 `X-Adobe-Company` 헤더가 있을 때 guest GraphQL 로그인을 방해하는 &quot;소비자가 승인되지 않음&quot; 오류를 해결했습니다. <!-- ACCS-949 -->
+
+* PUT `V1/customers/companies` REST 끝점을 통해 고객을 회사에 할당한 후 [!DNL Commerce Admin]에서 회사를 편집하거나 삭제할 때 &quot;해당 엔티티 없음&quot; 오류가 발생하는 문제가 해결되었습니다. <!-- ACCS-856 -->
+
+* 부실 판매 주문 그리드 상태의 문제를 해결했습니다. <!-- CCSAAS-4915 -->
+
+* 다운로드 가능한 제품의 샘플로 첨부된 파일과 링크가 제품 편집 페이지에서 액세스할 때 `404` 오류를 반환하는 [!DNL Commerce Admin]의 문제를 해결했습니다. <!-- CCSAAS-4394 -->
+
+* 구성 가능한 제품이 포함된 주문에 대해 배송을 만들 때 발생할 수 있는 &quot;정의되지 않은 배열 키 &#39;simple_sku&#39;&quot; 오류를 수정했습니다. <!-- CCSAAS-4877 -->
+
+* 이제 `guestOrderByToken` GraphQL 쿼리가 내부 서버 오류 대신 잘못된 형식의 토큰으로 호출될 때 더 자세한 오류 메시지를 반환합니다. <!-- CCSAAS-4921 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 5월 - 릴리스 #1
 
 [!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
-
-<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
 다음 항목은 2026년 5월 7일에 프로덕션 환경에 릴리스되었습니다.
 
