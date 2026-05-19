@@ -1,7 +1,6 @@
 ---
 solution: Commerce
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
 solution-title: Commerce
 landing-page-name: commerce
 landing-page-breadcrumb-title: Commerce
@@ -9,11 +8,11 @@ product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce.ko-KR
+git-repo: https://github.com/AdobeDocs/commerce.en
 index: true
 role: User
 feature-set: Commerce
-source-git-commit: a2f5aa20d5ccb2e5ec11901f2145d4227cf83167
+source-git-commit: a758ff5fccf9e941e677894160bb090a67547599
 workflow-type: tm+mt
 source-wordcount: 144
 ht-degree: 0%
