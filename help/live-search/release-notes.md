@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bf3acd889f099a2ee9aed2665b86c37347d10a46
+source-git-commit: d30ce9f02c9d2217c6669e8e9a1794bbc0387128
 workflow-type: tm+mt
-source-wordcount: 3073
+source-wordcount: 3060
 ht-degree: 1%
 
 ---
@@ -279,7 +279,7 @@ _2023년 11월 13일_
 ### 업데이트
 
 ![수정](../assets/fix.svg) 이제 새 설치에 대해 [!DNL Live Search] PLP 위젯이 기본적으로 활성화됩니다.
-![수정](../assets/fix.svg) 검색 어댑터가 더 이상 사용되지 않습니다. 앞으로는 보안 문제를 해결하기 위해 검색 어댑터만 업데이트됩니다.
+![수정](../assets/fix.svg) 검색 어댑터가 더 이상 사용되지 않습니다.
 ![수정](../assets/fix.svg) 위젯 클래스를 더 잘 격리하도록 CSS 스타일을 다시 구성했습니다.
 ![수정](../assets/fix.svg) 사소한 버그 수정
 
