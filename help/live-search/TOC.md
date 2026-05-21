@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Commerce용 [!DNL Live Search] {#live-search}
 
-- [ [!DNL Live Search]이란?](overview.md)
+- [&#x200B; [!DNL Live Search]이란?](overview.md)
 - [설치](install.md)
 - [라이브 검색 설정](workspace.md)
 - [경계 및 제한](boundaries-limits.md)
