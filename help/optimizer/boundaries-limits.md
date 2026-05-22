@@ -1,19 +1,19 @@
 ---
-title: 제한 및 경계
-description: ' [!DNL Adobe Commerce Optimizer] 제한 및 경계를 파악하여 용량을 계획하고 성능 문제를 방지하십시오.'
+title: Adobe Commerce Optimizer 제한 및 경계
+description: Adobe Commerce Optimizer 라이선스 제한 및 시스템 경계에 대해 알아봅니다. 용량을 계획하고, 사용량을 추적하고, 제한 초과 시 지연 및 제한을 방지합니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
-source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
+source-git-commit: 5b2babd2aed812d6679c2614e10e052dd5196f76
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
 
 # 제한 및 경계
 
-[!DNL Adobe Commerce Optimizer]에 두 가지 제한 유형이 있습니다.
+[!DNL Adobe Commerce Optimizer]은(는) 프로젝트에 사용할 수 있는 용량을 정의하는 **라이선스 제한** 및 **시스템 경계**&#x200B;를 적용합니다.
 
 - **라이선스 제한**—구입한 용량에 따라 추가 패키지를 구입하여 확장할 수 있습니다.
 - **시스템 경계** - 시스템 리소스를 보호하고 모든 사용자의 안정적인 성능을 보장하는 제한을 해결했습니다.
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [라이선스 제한 및 시스템 경계](#license-limits-and-system-boundaries) 섹션에서 설명한 라이선스 패키지를 구입하거나 고유한 사용 사례에 대해 사용자 지정 라이선스를 협상하여 라이선스 제한을 늘릴 수 있습니다. 요구 사항에 대해 논의하려면 Adobe 계정 담당자에게 문의하십시오.
 
-시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko#support)에 문의하십시오.
+시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en#support)에 문의하십시오.
 
 ## 성능 문제 방지
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 | **환경** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
 | **샌드박스 환경** | 포함된 샌드박스 환경 수 | 인스턴스당 2개 | 예<p>인스턴스당 추가 환경 라이센스 추가</p> |
-| **프로덕션 환경** | 포함된 프로덕션 환경 수 | 인스턴스당 1개 | 라이선스<p>인스턴스당 추가 환경 라이센스 추가</p> |
+| **프로덕션 환경** | 포함된 프로덕션 환경 수 | 인스턴스당 1개 | 예<p>인스턴스당 추가 환경 라이센스 추가</p> |
 
 {style="table-layout:auto"}
 
@@ -68,23 +68,23 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### AEM Assets 기반 제품 비주얼
+### [!DNL Product Visuals] 제한
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
-| 제품 비주얼의 고급 사용자 | AI 도구, Adobe Express/Firefly 통합, Content Hub 공유, 핵심 DAM 작업 처리 및 최적의 효율성을 위한 고급 클라우드 기반 기능 등 전체 디지털 에셋 관리 기능을 갖춘 라이센스 사용자입니다. | 2 | 예<p>AEM Assets 라이선스로 업그레이드</p> |
-| 제품 시각화 공동 작업자 사용자 | AEM Commerce 통합을 통해 에셋에 액세스하고 작업하며 Adobe Express 및 Firefly을 사용하여 콘텐츠를 만들고 편집하고, 활성화된 경우 Content Hub 포털을 통해 승인된 에셋을 활용합니다. | 2 | 예<p>AEM Assets 라이선스로 업그레이드</p> |
+| 제품 비주얼의 고급 사용자 | AI 도구, [!DNL Adobe Express]/[!DNL Firefly] 통합, Content Hub 공유, 핵심 DAM 작업 처리 및 최적의 효율성을 위한 고급 클라우드 기반 기능을 포함한 전체 디지털 에셋 관리 기능을 갖춘 사용이 허가된 사용자입니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
+| 제품 시각화 공동 작업자 사용자 | AEM Commerce 통합을 통해 에셋에 액세스하고 작업하며 [!DNL Adobe Express] 및 [!DNL Firefly]을(를) 사용하여 콘텐츠를 만들고 편집하고, 활성화된 경우 Content Hub 포털을 통해 승인된 에셋을 활용합니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | 제품 비주얼 스토리지 | 에셋에 할당된 스토리지 공간 | 1TB 스토리지 | 아니요 |
-| Dynamic Media 사용 | 다음을 포함하는 Dynamic Media 처리 작업을 허용합니다.<ul><li>이미지 게재</li><li>스마트 이미징</li><li>비디오 게재</li></ul><p>자세한 내용은 아래의 *Dynamic Media 사용량 계산*&#x200B;을 참조하십시오. | GMV 기반<p>최소 할당: 5M 작업/월</p> | 예<ul><li>추가 작업을 위한 라이선스 구매</li><li>AEM Assets 라이선스로 업그레이드</li></ul> |
-| 비디오 게재 | 비디오 게재 또는 다운로드 허용 | 300개 비디오, 비디오당 1분 | 예<p>AEM Assets 라이선스로 업그레이드</p> |
-| 자산 생성 | 이미지 생성을 위한 Adobe Express 및 Adobe Firefly 생성 AI에 액세스 | 없음 | Generative AI 크레딧을 별도로 구매하십시오 |
+| Dynamic Media 사용 | 다음을 포함하는 Dynamic Media 처리 작업을 허용합니다.<ul><li>이미지 게재</li><li>스마트 이미징</li><li>비디오 게재</li></ul><p>자세한 내용은 아래의 *Dynamic Media 사용량 계산*&#x200B;을 참조하십시오. | GMV(총 상품 가치) 기준<p>최소 할당: 5M 작업/월</p> | 예<ul><li>추가 작업을 위한 라이선스 구매</li><li>[!DNL AEM Assets] 라이선스로 업그레이드</li></ul> |
+| 비디오 게재 | 비디오 게재 또는 다운로드 허용 | 300개 비디오, 비디오당 1분 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
+| 자산 생성 | 이미지 작성을 위한 [!DNL Adobe Express] 및 [!DNL Adobe Firefly] 생성 AI에 액세스 | 없음 | Generative AI 크레딧을 별도로 구매하십시오 |
 
 {style="table-layout:auto"}
 
 
 >[!NOTE]
 >
->**고급 사용자**&#x200B;는 직접 또는 [!DNL Adobe Commerce Optimizer] 내에서 Adobe Express에 액세스할 수 있습니다. **Collaborator 사용자**&#x200B;는 Adobe Express 애플리케이션에 직접 액세스할 수 있습니다. 사용은 [Firefly 제품별 라이선스 약관이 있는 Adobe Express](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeExpressWFirefly-WW-2025v1.pdf)의 적용을 받습니다.
+>**고급 사용자**&#x200B;이(가) 직접 또는 [!DNL Adobe Commerce Optimizer] 내에서 [!DNL Adobe Express]에 액세스할 수 있습니다. **Collaborator 사용자**&#x200B;는 [!DNL Adobe Express] 응용 프로그램에 직접 액세스할 수 있습니다. 사용은 [Firefly 제품별 라이선스 약관이 있는 Adobe Express](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeExpressWFirefly-WW-2025v1.pdf)의 적용을 받습니다.
 
 
 >[!BEGINSHADEBOX &quot;Dynamic Media 사용 계산&quot;]
@@ -112,32 +112,34 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 ### 카탈로그 상점
 
-카탈로그 상점 기능에 대한 기본 할당은 GMV 계층을 기반으로 결정됩니다. 이 표는 각 기능에 대한 최소 할당을 나타냅니다.
+카탈로그 상점 기능에 대한 기본 할당은 GMV(총 상품 가치) 계층을 기준으로 결정됩니다. 이 표는 각 기능에 대한 최소 할당을 나타냅니다.
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
 | 카탈로그 검색률 | 카탈로그에서 데이터를 검색하기 위해 시스템(상점, 트랜잭션 시스템, ERP 또는 기타)에서 매월 카탈로그 API를 호출한 횟수입니다 | GMV 계층 기반<p>최소 할당: 10M/월</p> | 예<p>월별 요청 1백만 개 라이선스 팩 추가</p> |
-| 콘텐츠 요청 | HTML 페이지 조회수 또는 JSON API 호출을 위해 Commerce Storefront에 대한 요청. 1개의 페이지 보기 또는 5개의 API 호출로 계산됩니다. | GMV 계층 기반<p>최소 할당: 2M/월</p> | 예<p>월별 1M 라이선스 팩 추가</p> |
+| 콘텐츠 요청 | HTML 페이지 보기 또는 JSON API 호출을 위한 상점 요청. 1개의 페이지 보기 또는 5개의 API 호출로 계산됩니다. | GMV 계층 기반<p>최소 할당: 2M/월</p> | 예<p>월별 1M 라이선스 팩 추가</p> |
 | Storefront GenAI 변형 | 텍스트 기반 콘텐츠 생성 허용 | GMV 계층 기반<p>최소 할당: 1K 변형/월</p> | 예<p>Generative AI 크레딧을 별도로 구매하십시오</p> |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->이미지를 생성하려면 [!DNL Adobe Commerce Optimizer]과(와) 동일한 IMS 조직에 프로비저닝된 Adobe Firefly 라이선스가 필요합니다.
+>이미지를 생성하려면 [!DNL Adobe Commerce Optimizer]과(와) 동일한 IMS 조직에 프로비전된 [!DNL Adobe Firefly] 라이선스가 필요합니다.
 
 
 ### 제품 검색
 
+다음 제한은 상점 제품 검색, 목록 및 머천다이징 구성에 적용됩니다.
+
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
-| 검색 요청당 제품 수 | 검색 결과에서 페이지당 반환되는 최대 제품 수 | 100 | 아니요 |
+| 제품 검색 | `products`, `productSearch`, `refineProduct` 및 `variants`을(를) 사용하여 제품 데이터를 가져올 때 [!DNL Catalog Service] GraphQL 요청당 최대 SKU입니다. 더 큰 요청을 여러 호출로 분할합니다. | 100 | 아니요 |
 | 필터링 가능한 속성 | 레이어 탐색 및 패싯에 사용할 수 있는 제품 특성(색상, 크기, 브랜드 또는 재질)의 수입니다 | 200 | 아니요 |
-| 검색 가능한 속성 | 제품 카탈로그 검색 서비스와 함께 사용하도록 구성할 수 있는 제품 특성의 수입니다 | 200 | 아니요 |
-| 정렬 가능한 속성 | 검색 결과 값의 순서를 결정하기 위해 구성할 수 있는 제품 특성 수 | 50 | 아니요 |
-| 검색 페이지 매김 깊이 | 페이지 매김 을 통해 액세스할 수 있는 최대 제품 수(예: 100페이지 × 100개 제품/페이지) | 10K | 아니요 |
+| 검색 가능한 속성 | 카탈로그 검색을 위해 색인화할 수 있는 제품 특성 수 | 200 | 아니요 |
+| 정렬 가능한 속성 | 검색 및 카테고리 페이지에서 정렬 옵션으로 사용할 수 있는 제품 특성의 수입니다. | 50 | 아니요 |
+| 검색 페이지 매김 깊이 | 검색 페이지 매김을 통해 도달할 수 있는 최대 제품(예: 페이지 100 × 100개 제품/페이지) | 10K | 아니요 |
 | 패싯 | 쇼핑객이 검색 결과를 구체화하고 범주를 탐색하는 데 도움이 되도록 구성할 수 있는 필터링 가능한 제품 특성(예: 브랜드, 색상, 크기, 가격)의 수 | 100<p>필터링 가능한 속성이어야 합니다.</p> | 아니요 |
-| 패싯당 옵션 | 쇼핑객이 목록에서 선택할 수 있는 필터링 가능한 제품 속성 값(예: 색상은 &quot;빨간색&quot;, &quot;파란색&quot;, 크기는 &quot;작은&quot;, &quot;Medium&quot;)의 수 | 100 | 예<p>지원 요청을 통해 증가 가능</p> |
+| 패싯당 옵션 | 구매자가 Facet에서 선택할 수 있는 필터링 가능한 제품 속성 값의 수(예: Color의 경우 &quot;빨간색&quot;, &quot;파란색&quot;, Size의 경우 &quot;작게&quot;, &quot;Medium&quot;) | 100 | 예<p>지원 요청을 통해 증가 가능</p> |
 
 {style="table-layout:auto"}
 
@@ -148,7 +150,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
 | 활성 추천 단위 | 상점 첫 화면의 라이브 권장 사항 구성 요소 수(&quot;고객이 본 항목&quot; 또는 &quot;당신도 좋아할 수 있음&quot;) | 50 | 아니요 |
-| 범주 또는 속성 포함/제외 | 제품을 권장 사항에 적합한 특정 세트로 필터링 | 지원되지 않음 | |
+| 범주 또는 속성 포함/제외 | 제품을 권장 사항에 적합한 특정 세트로 필터링 | 지원되지 않음 | — |
 
 {style="table-layout:auto"}
 
@@ -156,7 +158,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** | **메모** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -193,5 +195,5 @@ This approach ensures your solution is accurately sized for your business needs.
 1. **GenAI or Media Needs**
 
    * Need: +10M dynamic media ops/month
-   * Add-On: 10 × dynamic media packs (1M each) 
+   * Add-On: 10 × dynamic media packs (1M each)
 -->
