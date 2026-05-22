@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 22f44afb7221c735785b6e9a38fb70c733cf0942
+source-git-commit: 4bd744e26afca4519fb1c04edcb7d2a118369ff9
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2782
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ ht-degree: 0%
 ## Storefront 카탈로그 서비스
 
 ### 2026년 5월
+
+**릴리스 날짜**: 2026년 5월 20일
+<!-- v1.55 -->
+
+![새로 만들기](../assets/new.svg) [문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits)에 따라 Adobe Commerce 및 Adobe Commerce as a Cloud Service 클라이언트 모두에 대해 요청당 최대 100개의 SKU를 강제 제한했습니다.
+<!--DATA-7163-->
 
 **릴리스 날짜**: 2026년 5월 13일
 <!--v1.54-->
