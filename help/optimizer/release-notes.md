@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 63f363c970a8a147cb6f564a52a41818023451c4
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: 1104
 ht-degree: 0%
 
 ---
@@ -34,9 +34,11 @@ ht-degree: 0%
 
 ## 2026년 5월
 
-현재 이번 달에는 [[!DNL Adobe Commerce Optimizer Studio]](overview.md#quick-tour) 릴리스가 없습니다. 아래 API 업데이트 를 참조하십시오.
-
 >[!BEGINSHADEBOX]
+
+### 지능형 순위 증가
+
+검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)(베타)에 대한 [머천다이징 규칙](./merchandising/rules/add.md#intelligent-ranking-boost)에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
 
 ### API 업데이트
 

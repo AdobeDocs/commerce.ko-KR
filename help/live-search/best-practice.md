@@ -15,9 +15,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 86b218d78731585dca4e8829fb886010ef27a2d5
 workflow-type: tm+mt
-source-wordcount: 2966
+source-wordcount: 3008
 ht-degree: 0%
 
 ---
@@ -124,6 +124,7 @@ Facet에 대해 자세히 알아보기:
 - 판매 중인 제품 또는 특별 프로모션의 일부를 강조하십시오.
 - 판촉 기간 중 일자 범위를 사용하여 판촉 또는 판매 기간 중 검색 규칙을 자동으로 설정합니다.
 - 항상 &quot;규칙 테스트&quot; 패널을 사용하여 지능형 등급 전략이 다양한 쿼리의 실제 검색 결과에 미치는 영향을 미리 보십시오.
+- 지능형 등급을 활성화하면 규칙 편집기에서 **[지능형 등급 증폭](rules-add.md#intelligent-ranking-boost)**&#x200B;을(를) 조정하여 인기 스타일 신호와 텍스트 관련성의 균형을 맞추고 **규칙 테스트**&#x200B;에서 대상 쿼리에 대한 결과를 확인합니다. **없음** 전략에는 지능형 순위 상승을 사용할 수 없습니다.
 - &quot;추천&quot;, &quot;가장 많이 본 항목&quot; 등과 같은 [지능형 순위](rules-add.md#intelligent-ranking)를 사용하는 개별 구매자 행동을 기반으로 검색 결과를 사용자 지정합니다. 구매자 행동을 맞춤화하려면 이벤트가 올바르게 구현되었는지 확인해야 합니다. Luma 판매자의 경우 이벤트를 즉시 사용할 수 있습니다. Headless 또는 사용자 지정 구현의 경우 특정 요구 사항에 따라 [이벤트를 구현](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)해야 합니다.
 
 검색 규칙에 대해 자세히 알아보기:

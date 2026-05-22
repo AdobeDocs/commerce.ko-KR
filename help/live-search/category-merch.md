@@ -13,9 +13,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 86b218d78731585dca4e8829fb886010ef27a2d5
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1171
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >범주 머천다이징은 [!DNL Live Search] [3.0.0 이상](release-notes.md)에서 사용할 수 있습니다. 카테고리 머천다이징 작업 영역이 표시되지만 데이터로 채워지지 않으면 [!DNL Live Search] 모듈을 업데이트하십시오.
 
-![범주 머천다이징](assets/category_workspace.png)
+![카테고리 머천다이징 작업 영역](assets/category_workspace.png)
 
 카테고리 머천다이징 보기에는 다음과 같은 열이 있는 정의된 카테고리 규칙이 표시됩니다.
 
@@ -60,6 +60,9 @@ ht-degree: 0%
 * 추천: 각 구매자의 이전 및 현재 현장 행동에 따라 구매자가 각 구매자와 상호 작용할 가능성에 따라 제품의 등급을 지정합니다.
 * 트렌드: 조회수를 기준으로 최근 인기도 상승으로 제품의 등급을 지정합니다.
 * 없음: 기본 주문에 따라 제품에 등급을 지정합니다.
+
+
+**없음**&#x200B;을 제외한 모든 지능형 순위 메서드의 경우 규칙 편집기에서 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;을(를) 설정하여 동작 신호가 제품 주문에 미치는 영향을 조정할 수 있습니다. 기본값, 제한, 미리 보기 동작 및 향상이 **수동 순위**&#x200B;와 비교되는 방법에 대한 자세한 내용은 [지능형 순위 향상](rules-add.md#intelligent-ranking-boost)을 참조하십시오.
 
 **수동 순위**&#x200B;를 사용하면 수동 고정, 증폭, 저장 및 숨기기 규칙을 정의하여 자동 제품 정렬 순서를 재정의할 수 있습니다.
 
@@ -104,7 +107,7 @@ ht-degree: 0%
    ![범주 선택](assets/category_select.png)
 
 1. _범주 규칙 추가_ 보기에서 범주에 적용할 지능형 순위 방법을 선택합니다.
-카테고리 미리보기 페이지에는 라이브 검색 데이터를 사용하여 선택한 순위의 실제 결과가 표시됩니다.
+범주 미리 보기 페이지에는 [!DNL Live Search] 데이터를 사용하여 선택한 순위의 실제 결과가 표시됩니다.
 1. 규칙을 저장하려면 **저장 및 게시**&#x200B;를 클릭합니다.
 
 ![지능형 순위 방법 선택](assets/category_ranking.png)

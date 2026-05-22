@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d30ce9f02c9d2217c6669e8e9a1794bbc0387128
+source-git-commit: 63f363c970a8a147cb6f564a52a41818023451c4
 workflow-type: tm+mt
-source-wordcount: 3060
+source-wordcount: 3098
 ht-degree: 1%
 
 ---
@@ -40,6 +40,10 @@ ht-degree: 1%
 ## 호스팅된 서비스 업데이트
 
 이 참고 사항에서는 버전 관리된 릴리스 외부에 게시된 업데이트 또는 호스팅된 서비스에 대한 개선 사항에 대해 설명합니다.
+
+_2026년 5월 22일_
+
+![새로운](../assets/new.svg) 검색 머천다이징 규칙, 기본 규칙 및 [카테고리 머천다이징](./category-merch.md) 규칙에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함되므로 지능적인 등급 전략이 텍스트 관련성에 비해 결과에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리보기가 구성된 부스트와 일치합니다. [자세히 알아보기](./rules-add.md#intelligent-ranking-boost)
 
 _2025년 10월 1일_
 
