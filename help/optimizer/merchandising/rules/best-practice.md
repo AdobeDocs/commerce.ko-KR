@@ -2,19 +2,15 @@
 title: 머천다이징 규칙 모범 사례
 description: 검색, 기본 목록 및 카테고리 페이지에 대한 머천다이징 규칙을 구현하는 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cc8d0879-c253-4ad4-8e7d-e066dff9112d
 TQID: https://experienceleague.adobe.com/DrdrBBXeMyqQr16h1LrlSoet3F6ihn57LBmPFBUXmTs
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 841e772971e7ec18d37fa8ba137b27b8950fc569
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -34,6 +30,7 @@ ht-degree: 0%
 - 판매 중인 제품 또는 특별 프로모션의 일부를 강조하십시오.
 - 판촉 기간 중 일자 범위를 사용하여 판촉 또는 판매 기간 중 검색 규칙을 자동으로 설정합니다.
 - &quot;추천&quot;, &quot;가장 많이 본 항목&quot; 등과 같은 [지능형 순위](add.md#intelligent-ranking)를 사용하는 개별 구매자 행동을 기반으로 검색 결과를 사용자 지정합니다.
+- **없음** 이외의 지능형 전략을 선택한 경우 규칙당 **[지능형 순위 증폭](add.md#intelligent-ranking-boost)**&#x200B;을(를) 조정하고 **규칙을 테스트**&#x200B;한 후 게시하십시오.
 - 항상 &quot;규칙 테스트&quot; 패널을 사용하여 지능형 등급 전략이 다양한 쿼리의 실제 검색 결과에 미치는 영향을 미리 보십시오.
 
 ## 카테고리 규칙 팁
@@ -43,6 +40,6 @@ ht-degree: 0%
 >카테고리 규칙은 베타 버전입니다.
 
 - 트래픽이 많거나 이윤이 많은 **범주 페이지**&#x200B;에서 [범주 규칙](add.md#rule-types)을 사용하십시오. 조정된 순서는 검색만큼 중요합니다(예: 시즌 컬렉션 또는 주요 부서).
-- **지능형 순위**(예: 트렌드, 가장 많이 본 항목)을 쇼핑객이 해당 범주를 검색하는 방법과 맞추십시오. 범주 페이지는 검색 규칙과 같은 방식으로 검색 쿼리 텍스트를 사용하지 않습니다. [지능형 순위](add.md#intelligent-ranking)를 참조하십시오.
+- **지능형 순위**(예: 트렌드, 가장 많이 본 항목)을 쇼핑객이 해당 범주를 검색하는 방법과 맞추십시오. 범주 페이지는 검색 규칙과 같은 방식으로 검색 쿼리 텍스트를 사용하지 않습니다. [지능형 순위](add.md#intelligent-ranking)를 참조하십시오. **없음** 이외의 지능형 메서드의 경우 **[지능형 순위 증폭](add.md#intelligent-ranking-boost)** 및 범주 미리 보기를 사용하여 해당 범주 규칙에 대한 동작 강도를 조정합니다.
 - 캠페인 플랜과 일관되게 **pin**, **boost**, **bury**&#x200B;를 적용합니다. 수동 위치는 일반적으로 쇼핑객이 목록에 **기본 정렬**&#x200B;을 사용하는 경우에만 적용됩니다. [수동 순위](add.md#manual-ranking)를 참조하세요.
 - 편집기에서 **category** 규칙 흐름을 미리 보고 게시 후 상점에서 검색의 &quot;규칙 테스트&quot; 패널에 사용하는 것과 동일한 규격을 확인합니다.
