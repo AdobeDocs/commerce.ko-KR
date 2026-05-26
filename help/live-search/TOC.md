@@ -4,8 +4,7 @@ breadcrumb-title: '[!DNL Live Search]'
 user-guide-description: 이 안내서에서는 Adobe Commerce에서  [!DNL Live Search] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
 role: Admin
 feature: Services, Search
-nudge: true
-source-git-commit: 5ebd871ec05510ab855a96033ccec386742b573f
+source-git-commit: 5fe92e91e4ddb55f371615d467d29cffd60782b0
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 8%
