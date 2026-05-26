@@ -1,7 +1,7 @@
 ---
-source-git-commit: c435c7751fca8c46077cbab3534bd9f47cd03b2b
+source-git-commit: bfbfd43620580b8db464b823be6f0f64c97c261d
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,66 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 5월 22일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>를 참조하십시오.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/342a3015f743e12b7089e4d430a517804a7cd40c">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/category-merch">카테고리 머천다이징</a>의 상호 참조와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/rules/rules-add#intelligent-ranking-boost">규칙 추가</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice">모범 사례</a>의 [!DNL Live Search]에 대한 지능형 순위 상승(규칙당 구성 가능한 동작 가중치, 기본값 5.0)을 문서화했습니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking-boost">만들기 및 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/best-practice">머천다이징 규칙 모범 사례</a>에서 [!DNL Adobe Commerce Optimizer]에 대해 동일한 지침을 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/40b4528d417a4df09ac9ae9fb0d97b0f678b55ac">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 5월 19일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>AEM Assets 통합 안내서에서는 편집자가 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.6 </a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#localized-alt-text-in-aem-assets-metadata">대체 텍스트</a>를 설정하는 방법에 대해 설명합니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6d3dfbc59e72c00c3552af5805b57c69e60b38b4">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/14aa082c1f0f8ce4c51328eb8ee9f4af25adf859">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 4월 30일
 
@@ -363,72 +423,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/522240cfd305bb00026ba477dc94e0bd2de30f06">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 23일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/tutorials/tutorial-prerequisites">자습서 필수 구성 요소</a>에 대한 자동 설치가 새로 추가되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a383e95e23291959f039390dfd3943bf98aa83ef">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 19일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>새로운 주제 추가:<br />- Adobe Commerce as a Cloud Service에 대해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">고객으로 로그인</a>.<br />- Adobe Commerce as a Cloud Service에 대해 <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/">기프트 카드 계정 REST 끝점</a>.<br />- Adobe Commerce as a Cloud Service에 대해 <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/">REST를 통해 이메일 트리거</a>.<br />2026년 3월 릴리스 정보로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a> 업데이트됨 - 릴리스 번호 2 릴리스 정보.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/58b94a9a587b3947d4b340ce77c8b3f7b28c27f4">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 17일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>관리자의 자산 선택기 및 자동 채워진 구성 필드(프로그램 ID, 환경 ID, 도메인 매핑)를 사용하도록 설정하는 IMS 및 게재 계층 권한을 구성하는 방법을 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/permissions">AEM Assets 통합에 대한 IMS 사용자 권한 구성</a>이 추가되었습니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/0fd98bf86555c914f7a5b1e177c31c37764dbf84">커밋</a></td>
     </tr>
   </tbody>
 </table>
