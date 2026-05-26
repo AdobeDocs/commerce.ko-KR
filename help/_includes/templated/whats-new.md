@@ -1,7 +1,7 @@
 ---
-source-git-commit: bfbfd43620580b8db464b823be6f0f64c97c261d
+source-git-commit: 976bc4114790473d3bdcab6c06684f0c955893ee
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8f2cc1e79ede56192a8ab03194b0f69854f89f7b">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.5</a>을 문서화하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 자동 일치</a> API 요청 필드(<code class="language-plaintext highlighter-rouge">eventData</code>, <code class="language-plaintext highlighter-rouge">productSku</code>)를 수정했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.5</a>을 문서화하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 자동 일치</a> API 요청 필드(<code>eventData</code>, <code>productSku</code>)를 수정했습니다.</p>
 </td>
       <td>
         새 주제
@@ -371,58 +371,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/4a60783dbed189475bcd0090c949cd76b0566f54">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 27일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 릴리스 정보로 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ccecbf0dcbb0cb02d7874beba5d4b14d7f04cd44">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 25일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>앱 관리 대시보드의 웹후크 유효성 검사 오류에 대한 스크린샷과 Commerce 웹후크 섹션으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/install">앱 관리 설치 및 액세스</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/86c0945bbb0a562de1b66d420dec2a05d4d81e5f">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>3월 릴리스 2를 프로덕션으로 이동하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes#latest">릴리스 정보</a>을(를) 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/522240cfd305bb00026ba477dc94e0bd2de30f06">커밋</a></td>
     </tr>
   </tbody>
 </table>
