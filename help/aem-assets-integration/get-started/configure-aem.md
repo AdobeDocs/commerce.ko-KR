@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b2babd2aed812d6679c2614e10e052dd5196f76
+source-git-commit: de02e13e169ab336bac09ebff90c44b3b707efce
 workflow-type: tm+mt
-source-wordcount: 1717
+source-wordcount: 1775
 ht-degree: 1%
 
 ---
@@ -135,21 +135,29 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. AEM Cloud Manager으로 이동하여 프로그램을 선택한 다음 Adobe Commerce과 통합할 [프로덕션 및 스테이징 환경 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments)를 선택합니다.
 
-1. [배포 파이프라인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline)을 구성하거나 파이프라인이 선택한 환경에 변경 내용을 배포할 수 있는지 확인하십시오.
-
 1. 선택한 프로그램에 대해 [Adobe 관리 git 저장소를 복제](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access)합니다.
+
+   ![Cloud Manager 저장소 자격 증명 및 복제 명령](../assets/cloud-manager-repository-info.png){width="600" zoomable="yes"}
+
+   Cloud Manager **파이프라인**&#x200B;에서 **[!UICONTROL Access Repo Info]**&#x200B;을(를) 선택하여 **[!UICONTROL Repository Info]**&#x200B;을(를) 엽니다. **[!UICONTROL URL]** 또는 **[!UICONTROL Git command line]** 값을 복사하고 필요한 경우 액세스 암호를 생성한 다음 Git 클라이언트로 로컬로 복제합니다.
 
 1. GitHub에서 [AEM Assets Commerce 저장소](https://github.com/ankumalh/assets-commerce)에서 패키지 코드를 다운로드합니다.
 
 1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 다운로드한 코드를 기존 Adobe 관리 저장소에 수동으로 복사하십시오.
 
-1. 프로젝트의 모든 `filter.xml` 및 `pom.xml` 파일에서 `<my-app>`을(를) 앱 이름으로 바꾸십시오.
+1. 프로젝트의 모든 `filter.xml` 및 `pom.xml` 파일에서 모든 &lt;my-app>을 사용자의 앱 이름으로 바꾸십시오.
 
    >[!NOTE]
    >
    > 또는 사용자 지정 코드를 AEM Assets 프로젝트 구성에 **Maven** 패키지로 설치할 수 있습니다.
 
 1. 변경 사항을 커밋하고 로컬 개발 분기를 Cloud Manager Git 저장소로 푸시합니다.
+
+1. [배포 파이프라인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline)을 구성하거나 파이프라인이 선택한 환경에 변경 내용을 배포할 수 있는지 확인하십시오.
+
+   ![Cloud Manager 파이프라인](../assets/cloud-manager-pipelines.png){width="600" zoomable="yes"}
+
+   파이프라인이 있으면 작업 메뉴(**...**)를 엽니다. **[!UICONTROL Run]**, **[!UICONTROL Edit]**, **[!UICONTROL View/Edit variables]** 또는 기타 작업까지—위에 연결된 Cloud Manager 파이프라인 설명서를 참조하십시오.
 
 1. AEM Cloud Manager에서 [파이프라인을 사용하여 코드를 배포하여 AEM 환경을 업데이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)합니다.
 
@@ -161,7 +169,7 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 ### Commerce 탭이 속성에 표시되지 않음
 
-**Commerce** 탭이 속성에 나타나지 않으면 메타데이터 스키마 편집기에서 수동으로 만들어야 합니다.
+**Commerce** 탭이 속성에 나타나지 않으면 메타데이터 스키마 편집기에서 다음 단계를 수동으로 완료해야 합니다.
 
 1. 메타데이터 스키마 편집기로 이동합니다.
 

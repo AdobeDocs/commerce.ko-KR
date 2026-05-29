@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: a6a91fbd6cc6907d070998f67eb0b9c8171dda23
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: 948
 ht-degree: 2%
 
 ---
@@ -63,11 +63,13 @@ AEM Assets 통합을 구성하기 전에 다음 단계를 완료했는지 확인
 
 1. 드롭다운 메뉴에서 AEM Assets 환경 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]**&#x200B;을(를) 선택합니다.
 
-   드롭다운은 사용자의 IMS 세션을 기반으로 자동으로 채워집니다. 이 기능을 사용하려면 올바른 [사용자 권한 및 IMS](permissions.md#user-permissions-and-ims)가 있는지 확인하십시오.
+   Commerce 관리 사용자가 경험에 대한 [사용자 권한 및 IMS](permissions.md#user-permissions-and-ims)를 충족하면 선택기가 표시됩니다. **Adobe Commerce as a Cloud Service**, **Adobe Commerce Optimizer** 및 **클라우드 인프라의 Adobe Commerce** 통합은 붙여넣은 ID에 의존하지 않고 IMS 연결 세션에서 이러한 필드를 자동으로 채울 수 있습니다.
 
-   드롭다운을 사용할 수 없는 경우 AEM Cloud Manager URL `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`에서 ID를 수동으로 입력할 수 있습니다.
+   선택기를 사용할 수 없는 경우 AEM Cloud Manager에서 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]**&#x200B;을(를) 복사하거나 작성자 URL `https://author-<ProgramID>-<EnvironmentID>.adobeaemcloud.com/`에서 파생합니다(자리 표시자를 식별자로 대체).
 
-   *[!UICONTROL Use system value]*&#x200B;에서 선택 항목을 제거하여 구성 값을 편집합니다.
+   수동으로 새 값을 붙여넣거나 선택하기 전에 각 필드에 대한 **[!UICONTROL Use system value]**&#x200B;을(를) 지우십시오.
+
+   ![프로그램 ID 및 환경 ID 선택기를 사용하는 AEM Assets 통합 양식](../assets/aem-assets-view.png){width="600" zoomable="yes"}
 
 1. [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} Commerce과 자산 일치 서비스 간 요청을 인증하기 위해 [[!UICONTROL Commerce integration]](configure-commerce.md#add-the-integration-to-the-commerce-environment)을(를) 선택합니다.
 
