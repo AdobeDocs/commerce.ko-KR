@@ -1,7 +1,7 @@
 ---
-source-git-commit: 976bc4114790473d3bdcab6c06684f0c955893ee
+source-git-commit: dcb3300c80fb74d597cee66e981acb426490d34b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1201'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,30 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 5월 28일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><ul>
+  <li>전용 카탈로그 레이어 및 레이어 관련 제한에 대한 명확한 지침을 통해 테넌트 등록 전에 AEM Assets 설정이 이루어지도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aco">Commerce Optimizer용 AEM Assets 구성</a> 온보딩을 개선했습니다.<br />- 저장소 액세스 및 파이프라인 배포를 위해 재배열된 설치 단계 및 Cloud Manager 스크린샷으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem">AEM Assets 프로젝트를 구성</a>합니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization">통합 구성</a>에서 IMS 기반 프로그램 ID 및 환경 ID 선택을 명확화했습니다.</li>
+</ul>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/de94aaad29313b3e8254d11d8801ba0d7efff3dc">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 5월 22일
 
@@ -23,7 +47,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>를 참조하십시오.</p>
+      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다.</p>
 </td>
       <td>
         기술
