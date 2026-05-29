@@ -90,7 +90,7 @@ ht-degree: 0%
 
 이 다이어그램은 [!DNL Adobe Commerce as a Cloud Service]과(와) 모든 Adobe Experience Cloud 솔루션 간의 데이터 흐름을 보여 줍니다.
 
-[!DNL Adobe Experience Cloud]개 솔루션과 [!DNL Adobe Commerce as a Cloud Service] 통합을 보여 주는 ![데이터 흐름 다이어그램](./assets/data-flow.svg){zoomable="yes"}
+![[!DNL Adobe Experience Cloud]개 솔루션과 [!DNL Adobe Commerce as a Cloud Service] 통합을 보여 주는 데이터 흐름 다이어그램](./assets/data-flow.svg){zoomable="yes"}
 
 ## Commerce 상점 첫 화면
 
