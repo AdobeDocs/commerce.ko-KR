@@ -6,11 +6,22 @@ recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
 TQID: https://experienceleague.adobe.com/1dcKMjOut1GtiOevvGJECsaU7URFmYg-mQ-m9wi7n4Y
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: dba482e5-29a8-4127-afa2-c4b913512ef8id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: dba482e5-29a8-4127-afa2-c4b913512ef8
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 423b35b15e845e49b1cf36910ffbad775de9758c
 workflow-type: tm+mt
 source-wordcount: 1332
@@ -166,7 +177,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 다음 주요 정보를 참고하십시오.
 
-- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target=&quot;_blank}
+- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target=_blank}
 - **카탈로그 끝점** 상거래 또는 PIM 시스템에서 Adobe Commerce Optimizer으로 제품 및 가격을 수집하는 데 사용하는 REST API 끝점입니다. [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) 보기
 - **Commerce Optimizer URL** 카탈로그 보기, 정책 및 머천다이징을 구성하고 관리할 수 있는 [Adobe Commerce Optimizer Studio](overview.md) 관리 UI를 엽니다.
 - **인스턴스 ID**: 이 Adobe Commerce Optimizer 인스턴스의 고유 식별자(테넌트 ID)로서, 올바른 환경에 연결하기 위해 상점, API 및 도구에서 사용됩니다.

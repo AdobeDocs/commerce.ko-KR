@@ -162,7 +162,7 @@ Connector 패키지를 설치하면 이제 관리자의 스토어 그리드에 C
 >
 >구성 명령을 실행하면 데이터 동기화 처리가 시작됩니다. 기본적으로 모든 Commerce 범위(웹 사이트 및 스토어 보기)에 대해 카탈로그 데이터 동기화가 활성화됩니다. 카탈로그 크기에 따라 데이터 동기화 프로세스는 몇 분에서 몇 시간 정도 걸릴 수 있습니다.
 
-이제 [이전 단계에서 수집한 ](#get-required-connection-details)OAuth 서버 간 자격 증명과 인스턴스 세부 정보를 사용하여 Commerce과 [!DNL Adobe Commerce Optimizer] 인스턴스 간의 통합을 구성할 수 있습니다.
+이제 [이전 단계에서 수집한 &#x200B;](#get-required-connection-details)OAuth 서버 간 자격 증명과 인스턴스 세부 정보를 사용하여 Commerce과 [!DNL Adobe Commerce Optimizer] 인스턴스 간의 통합을 구성할 수 있습니다.
 
 1. Commerce 관리자에서 **[!UICONTROL Adobe Commerce Optimizer]**&#x200B;을(를) 선택하여 지침이 포함된 구성 페이지를 표시합니다.
 
