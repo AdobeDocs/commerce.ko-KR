@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4288998fdae56112dc9ddcebfc42b85b9f5d8c00
+source-git-commit: be8fbcd77dc56b2193eee20d7a06a315ac1abb9f
 workflow-type: tm+mt
-source-wordcount: 4032
+source-wordcount: 4189
 ht-degree: 0%
 
 ---
@@ -42,15 +42,19 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 5월 - 릴리스 #2 {#latest}
+## 2026년 6월 - 릴리스 #1 {#latest}
 
 <!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
 
 [!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
 
-다음 항목은 2026년 5월 21일에 프로덕션 환경에 릴리스됩니다.
+다음 항목은 2026년 6월 4일에 프로덕션 환경에 릴리스됩니다.
 
 >[!BEGINSHADEBOX]
+
+### 관리자에서 사용자 정의 쿠폰 코드 추가 및 편집
+
+판매자는 이제 수동 장바구니 가격 규칙의 [!DNL Commerce Admin]에서 직접 사용자 지정 쿠폰 코드를 만들고 편집할 수 있습니다. 장바구니 가격 규칙을 편집할 때 [!UICONTROL **쿠폰 코드 관리**] 섹션에서 새 [!UICONTROL **사용자 지정 쿠폰 추가**] 단추를 사용할 수 있습니다. <!-- CCSAAS-4508 -->
 
 ### 기본 및 사용자 지정 운송업체를 사용하여 배송 추적
 
@@ -59,6 +63,14 @@ ht-degree: 0%
 ### 제품 속성 표에서 속성 입력 유형 보기
 
 이제 새 [!UICONTROL **특성 유형**] 열이 ([!UICONTROL **스토어**] > _[!UICONTROL Attributes]_>[!UICONTROL **제품**])의 제품 특성 그리드에 표시됩니다. 이 그리드에는 확장에서 기여한 유형을 포함하여 각 제품 특성에 대한 입력 유형(예: 텍스트 필드, 드롭다운 또는 예/아니요)이 표시됩니다. 이렇게 하면 큰 속성 세트로 작업할 때 속성을 보다 쉽게 식별하고 관리할 수 있습니다. <!-- ACCS-925 -->
+
+### 사용자 정의 이메일에 대한 회신 주소 헤더 사용자 정의
+
+이제 판매자는 [POST /rest/V1/사용자 지정 이메일/보내기](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/) 끝점에서 사용하는 [!UICONTROL **회신 대상**] 헤더를 구성할 수 있으므로 고객의 회신을 보낸 사람이 아닌 다른 주소로 라우팅할 수 있습니다. <!-- ACCS-1037 -->
+
+### 대규모 공유 카탈로그 환경의 제품 편집 페이지에서 계층 가격 보기
+
+공유 카탈로그가 많은 판매자는 이제 [!DNL Commerce Admin]의 제품 편집 페이지에서 읽기 전용 [!UICONTROL **계층 가격**] 탭에 액세스할 수 있습니다. <!-- CCSAAS-4922 -->
 
 ### 개선 사항 및 버그 수정
 
@@ -70,7 +82,7 @@ ht-degree: 0%
 
 * 요청에 `X-Adobe-Company` 헤더가 있을 때 guest GraphQL 로그인을 방해하는 &quot;소비자가 승인되지 않음&quot; 오류를 해결했습니다. <!-- ACCS-949 -->
 
-* PUT `V1/customers/companies` REST 끝점을 통해 고객을 회사에 할당한 후 [!DNL Commerce Admin]에서 회사를 편집하거나 삭제할 때 &quot;해당 엔티티 없음&quot; 오류가 발생하는 문제가 해결되었습니다. <!-- ACCS-856 -->
+* PUT `V1/customers/companies` REST 끝점을 통해 고객을 회사에 할당한 후 [!DNL Commerce Admin]에서 회사를 편집하거나 삭제할 때 &quot;해당 엔티티 없음&quot; 오류가 발생할 수 있는 문제를 해결했습니다. <!-- ACCS-856 -->
 
 * 부실 판매 주문 그리드 상태의 문제를 해결했습니다. <!-- CCSAAS-4915 -->
 
@@ -79,6 +91,10 @@ ht-degree: 0%
 * 구성 가능한 제품이 포함된 주문에 대해 배송을 만들 때 발생할 수 있는 &quot;정의되지 않은 배열 키 &#39;simple_sku&#39;&quot; 오류를 수정했습니다. <!-- CCSAAS-4877 -->
 
 * 이제 `guestOrderByToken` GraphQL 쿼리가 내부 서버 오류 대신 잘못된 형식의 토큰으로 호출될 때 더 자세한 오류 메시지를 반환합니다. <!-- CCSAAS-4921 -->
+
+* 이제 `customer` GraphQL 쿼리가 고객 주문을 로드할 수 없을 때 보다 자세한 오류 메시지를 반환합니다. <!-- ACCS-867 -->
+
+* 이제 GET `V1/customers/{customerId}` REST 끝점이 `assistance_allowed` 구성 필드를 반환합니다. <!-- USF-4132 -->
 
 {{accs-release}}
 
@@ -355,7 +371,7 @@ mutation {
 
 * 대형 공유 카탈로그에서 발생할 수 있는 제품 편집 페이지 시간 제한을 수정했습니다. <!-- CCSAAS-4657 -->
 
-* 관리자 통합을 위해 GET `/V1/directory/countries` 및 GET `/V1/directory/countries/:countryId` REST API 끝점을 다시 활성화하여 클라이언트가 유효한 국가 및 지역 데이터를 조회할 수 있도록 합니다. <!-- ACCS-518 -->
+* 관리자 통합을 위해 GET `/V1/directory/countries` 및 GET `/V1/directory/countries/:countryId` REST API 끝점을 다시 사용하도록 설정하여 클라이언트가 유효한 국가 및 지역 데이터를 조회할 수 있도록 합니다. <!-- ACCS-518 -->
 
 * 사용자에게 큰 공유 카탈로그가 있을 때 REST API에서 발생할 수 있는 시간 초과 문제를 해결했습니다. <!-- ACCS-4657 -->
 
