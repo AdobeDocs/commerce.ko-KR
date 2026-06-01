@@ -7,9 +7,9 @@ role: Developer, Admin
 level: Beginner
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip=" [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 8f3a2c1b-9d4e-5f6a-bc7d-1e2f3a4b5c6d
-source-git-commit: d8cd6f543353e1b11f3aa14b3b97b02155d23809
+source-git-commit: a404c2ff7cec5e72ce65d3670330b1f3f3c4702d
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # [!DNL Adobe Commerce Optimizer] 통합
 
 [!DNL Adobe Commerce Optimizer]에는 Adobe Commerce on cloud 또는 온-프레미스에서 데이터를 동기화하고, 자산을 관리하고, 상점 경험을 개선하고, 외부 시스템을 연결할 수 있는 통합이 포함되어 있습니다. 아래 섹션에서는 각 통합이 [!DNL Adobe Commerce Optimizer]에서 작동하는 방식을 설명합니다. 설정, 구성 및 일상적인 사용을 위해 링크를 따르십시오.
+
+{{aco-integration-environment-alignment}}
 
 ## Adobe Commerce Optimizer 커넥터 {#aco-connector}
 

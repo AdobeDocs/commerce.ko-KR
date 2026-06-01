@@ -1,11 +1,18 @@
 ---
-source-git-commit: aaefe284749df25953c2581f000af2989bcc8fb2
+source-git-commit: edc47115830f5ca7ec1e485de1ddf9939de2586d
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 # Commerce 스니펫
+
+
+## ACO 통합 환경 정렬 {#aco-integration-environment-alignment}
+
+>[!IMPORTANT]
+>
+>항상 샌드박스 최적화 도구 인스턴스를 비프로덕션 환경에 연결하고 프로덕션 인스턴스를 프로덕션 환경에 연결합니다. 환경이 일치하지 않으면 일관되지 않은 카탈로그 데이터, 검색 결과 및 권장 사항이 발생합니다.
 
 
 ## Optimizer 머천다이징 서비스 {#aco-merchandising-services}

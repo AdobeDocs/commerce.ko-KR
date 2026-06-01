@@ -21,9 +21,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: be4140fb3305b354e8a11463131182a3b571d2f2
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1177
 ht-degree: 0%
 
 ---
@@ -60,12 +60,6 @@ Commerce은 제품, 가격 및 카탈로그 구조에 대한 기록 시스템으
 - 커넥터가 카탈로그, 가격 및 범주 피드를 내보냅니다.
 - Commerce Optimizer은 피드 데이터를 카탈로그 소스, 가격 장부 및 카탈로그 보기로 수집하고 표준화합니다
 - 상점(Edge Delivery 또는 사용자 정의 Headless 빌드의 Commerce 상점)은 검색 및 추천을 위해 Commerce Optimizer GraphQL API를 호출하고 장바구니 및 체크아웃 작업을 위해 Commerce 또는 다른 연결된 타사 플랫폼을 호출합니다
-
-## Adobe Commerce에서 커넥터 작동 방식 {#how-it-works}
-
-- Commerce Optimizer은 피드 데이터를 카탈로그 소스, 가격 장부 및 카탈로그 보기로 수집하고 표준화합니다.
-
-- 상점(Edge Delivery 또는 사용자 정의 Headless 빌드의 Commerce 상점)은 검색 및 추천을 위해 Commerce Optimizer GraphQL API를 호출하고 장바구니 및 체크아웃 작업을 위해 Commerce 또는 다른 연결된 타사 플랫폼을 호출합니다.
 
 ## Adobe Commerce에서 커넥터 작동 방식
 
