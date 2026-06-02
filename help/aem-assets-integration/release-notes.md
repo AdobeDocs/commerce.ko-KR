@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: 5dc61e0351e338c4d184d7d882decff49b13a12b
+source-git-commit: cf623b835d5590b32f1425c4aab25efa52b50498
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ _2025년 2월 11일_
 ![새 문제](../assets/new.svg) 이제 판매자는 제품 및 범주에 대한 이미지를 동기화할 수 있습니다.
 
 +++
+
+## v1.3.7
+
+_2026년 6월 2일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1246 --> Commerce 관리에는 제품 연결 대신 자산 특성별로 동기화된 AEM Assets을 검색, 필터링, 정렬 및 검토할 수 있는 자산 중심의 [!UICONTROL Sync Status] 목록이 포함되어 있습니다. [AEM Assets 동기화 상태 보기](get-started/sync-status.md){target=_blank}를 참조하십시오.
 
 ## v1.3.6
 
