@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: be8fbcd77dc56b2193eee20d7a06a315ac1abb9f
+source-git-commit: 9e4bf260a145815f97a69251005309edb480ae11
 workflow-type: tm+mt
-source-wordcount: 4189
+source-wordcount: 4182
 ht-degree: 0%
 
 ---
@@ -44,17 +44,17 @@ ht-degree: 0%
 
 ## 2026년 6월 - 릴리스 #1 {#latest}
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-다음 항목은 2026년 6월 4일에 프로덕션 환경에 릴리스됩니다.
+다음 항목은 2026년 6월 4일에 프로덕션 환경에 릴리스되었습니다.
 
 >[!BEGINSHADEBOX]
 
 ### 관리자에서 사용자 정의 쿠폰 코드 추가 및 편집
 
-판매자는 이제 수동 장바구니 가격 규칙의 [!DNL Commerce Admin]에서 직접 사용자 지정 쿠폰 코드를 만들고 편집할 수 있습니다. 장바구니 가격 규칙을 편집할 때 [!UICONTROL **쿠폰 코드 관리**] 섹션에서 새 [!UICONTROL **사용자 지정 쿠폰 추가**] 단추를 사용할 수 있습니다. <!-- CCSAAS-4508 -->
+판매자는 이제 수동 장바구니 가격 규칙의 [!DNL Commerce Admin]에서 직접 [사용자 지정 쿠폰 코드를 만들고 편집](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes)할 수 있습니다. 장바구니 가격 규칙을 편집할 때 [!UICONTROL **쿠폰 코드 관리**] 섹션에서 새 [!UICONTROL **사용자 지정 쿠폰 추가**] 단추를 사용할 수 있습니다. <!-- CCSAAS-4508 -->
 
 ### 기본 및 사용자 지정 운송업체를 사용하여 배송 추적
 
