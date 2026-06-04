@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d35a3ad39c504c5c6eb1073737babae252a3127d
+source-git-commit: f472cadb124207b04b158b410b7fe1db8f5a9f7d
 workflow-type: tm+mt
-source-wordcount: 2818
+source-wordcount: 2855
 ht-degree: 0%
 
 ---
@@ -40,6 +40,13 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스
+
+### 103.4.27 릴리스
+
+_2026년 6월 4일_
+
+![수정](../assets/fix.svg) **동시 카탈로그 업데이트 후에도 번들 제품이 계속 표시됩니다**- 구성 가능한 제품과 번들 제품이 동시에 업데이트되었을 때 번들 제품이 상점 앞에 표시되지 않는 문제를 해결했습니다. `magento/module-data-exporter`을(를) 버전 103.4.27로 업그레이드하면 [!DNL Catalog Service], [!DNL Live Search] 및 기타 연결된 Commerce 서비스에서 기존 번들 데이터 불일치를 수정하기 위해 제품 피드가 자동으로 다시 동기화되도록 예약됩니다.
+<!--MDEE-1379-->
 
 ### 103.4.26 릴리스
 
