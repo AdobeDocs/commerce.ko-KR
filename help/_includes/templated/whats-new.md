@@ -1,7 +1,7 @@
 ---
-source-git-commit: dcb3300c80fb74d597cee66e981acb426490d34b
+source-git-commit: 61e34c6fb4a004789bffa43c5b9356ad4edc685e
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,80 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 6월 3일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8ec59cfc8c9d4d1e804adefe7f88806843e3caa3">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>피드 잠금으로 동시 동기화 충돌을 방지하는 방법과 Commerce 데이터 내보내기 로그(<code>commerce-data-export.log</code>)에 포함된 일반 건너뛰기 메시지를 해석하는 방법을 설명하기 위해 SaaS 데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/feed-lock-mechanism">피드 잠금 메커니즘</a>을 추가했습니다.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/cb045b490482649a65bac9d763062700a90e9ecd">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 6월 2일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Commerce 관리자는 자산 중심의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/sync-status">동기화 상태</a> 목록을 추가하여 자산 특성별로 동기화된 AEM Assets을 검색, 필터링 및 문제를 해결합니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a1cb3a063d9c4595220ca431356d34e6cbe8ea33">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 6월 1일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/3e5f1a5366cb57cbdd1ed3f5721a82cd0c5c5271">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 5월 28일
 
@@ -321,80 +395,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/7845129c055619e09fbf7c5f860795be6bf81533">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 2일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>가격 및 제품 필터 절차, 필터링 및 표시된 가격에 대한 가격 장부 기반 최종 가격 동작 및 필터 제품 UI에 대한 새 스크린샷으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/filters">추천 필터</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6d67df3c05f1202e361d0c8972d6f1bf7a5b8854">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 1일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>SaaS/ACCS 스크린샷 및 UI 지침(온보딩 배너, 트랜잭션 중심 홈, 트랜잭션 그리드)을 사용하여 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/configure/payments-home">결제 서비스 홈</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/financial-reports/reporting">보고</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/get-started/onboard">온보딩 개요</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/79c71b55e463d7e9570fe67b664b4e77a0d741f7">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 4월 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>가 추가되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a28d4b467dc51f70509ab19dbdbaf2cd3f59a208">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 3월 31일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 최신 샌드박스 배포로 업데이트합니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/4a60783dbed189475bcd0090c949cd76b0566f54">커밋</a></td>
     </tr>
   </tbody>
 </table>
