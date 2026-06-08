@@ -3,7 +3,7 @@ title: 의미 체계 검색
 description: 설정에서  [!DNL Adobe Commerce Optimizer] 의 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
 role: Admin, User
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 015f88e540fe5bf7acc4469d7c91b4f606709809
 workflow-type: tm+mt
 source-wordcount: '792'
