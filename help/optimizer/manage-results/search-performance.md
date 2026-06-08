@@ -1,23 +1,15 @@
 ---
 title: 검색 성능
 description: 검색 성능 페이지에서는 insight에 쇼핑객이 사용하는 검색어를 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
 TQID: https://experienceleague.adobe.com/dbCSRGA-jOSM37O-6THv0ArNZBD0Jsy4ml-1hSiY7YQ
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 015f88e540fe5bf7acc4469d7c91b4f606709809
 workflow-type: tm+mt
-source-wordcount: 1863
+source-wordcount: 1905
 ht-degree: 0%
 
 ---
@@ -64,6 +56,7 @@ ht-degree: 0%
 검색 결과의 관련성과 유효성을 결정하는 몇 가지 주요 요소는 다음과 같습니다.
 
 - 잘 구조화된 제품 데이터는 검색 알고리즘이 제품을 쿼리에 효과적으로 일치시킬 수 있도록 해줍니다. 낮은 품질의 제품 데이터는 관련성이 낮은 검색 결과를 초래합니다. 머천다이징 전략의 성공에 직접 영향을 주려면 다음을 수행하십시오.
+   - 자연어 및 의도 기반 일치를 위해 [의미 체계 검색](../setup/semantic-search.md)을 구성하십시오.
    - 해당 가중치를 사용하여 올바른 [특성을 검색 가능](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)으로 설정합니다.
    - 해당 속성 내의 데이터가 관련성이 있는지 확인하십시오.
 - 잘 설계된 검색 경험은 고객과 신뢰를 쌓고, 필요한 것을 찾을 것이라는 자신감을 심어줍니다.
@@ -92,6 +85,7 @@ ht-degree: 0%
 
   제로 결과율을 줄이기 위해 다음을 수행할 수 있습니다.
 
+   - 설정의 **[고급 검색](../settings.md#advanced-search)** 탭에서 [의미 체계 검색](../setup/semantic-search.md)이 활성화되었는지 확인합니다. 의미 체계 검색은 [!DNL Adobe Commerce Optimizer] 고객에 대해 기본적으로 활성화되어 있으므로 상점 또는 개발자 변경이 필요하지 않습니다. 인덱싱이 완료된 후 결과가 업데이트됩니다.
    - 정확히 일치하는 항목이 없는 경우 [동의어](../merchandising/synonyms/overview.md)와 같은 대체 검색어 또는 관련 검색어를 제공합니다.
    - 제로 결과 쿼리를 정기적으로 검토하여 패턴을 식별하고 제품 카탈로그 및 검색 설정을 필요한 대로 조정합니다.
 

@@ -1,25 +1,16 @@
 ---
 title: 권장 사항 유형
 description: 사이트의 다양한 페이지에 배포할 수 있는 권장 사항에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f1c4e0ef-a8fe-452d-9870-6d6964b4335d
 TQID: https://experienceleague.adobe.com/GRGSFrVMS8gSjkpvnirUZQR4qaxGMBMrMeu2t21Yk6Y
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8b93be7e618c7a93803e62eabb1cd38ebe8b45ba
 workflow-type: tm+mt
-source-wordcount: 1638
+source-wordcount: 1643
 ht-degree: 0%
 
 ---
@@ -107,7 +98,7 @@ ht-degree: 0%
 | 가장 많이 본 항목 | 최근 7일 이내에 보기 작업이 발생한 세션 수를 계산하여 가장 많이 본 제품을 권장합니다.<br/><br/>**사용한 위치:**<br/>- 홈 페이지<br/>- 범주<br/>- 제품 세부 정보<br/>- 장바구니<br/>- 확인&#x200B;<br/><br/>**제안된 레이블:**<br/>- 가장 자주 사용하는 항목<br/>- 트렌드<br/>- 현재 자주 사용하는 항목<br/>- 최근 자주 사용하는 항목<br/>- 이 제품(PDP)에서 영감을 얻은 인기 제품<br/>- 최상위 판매자 |
 | 최다 구매 | 지난 7일 이내에 쇼핑객이 가장 많이 구매한 제품을 추천합니다.<br/><br/>**사용한 위치:**<br/>- 홈 페이지<br/>- 범주<br/>- 제품 세부 정보<br/>- 장바구니<br/>- 확인&#x200B;<br/><br/>**제안된 레이블:**<br/> - 가장 인기 있음<br/>- 트렌드<br/>- 현재 인기 있음<br/>- 최근 인기 있음<br/>- 이 제품(PDP)에서 영감을 얻은 인기 있는 제품<br/>- 최상위 판매자 |
 | 장바구니에 가장 많이 추가됨 | 지난 7일 이내에 쇼핑객이 카트에 가장 많이 추가한 제품을 추천합니다. 이 권장 사항 유형은 모든 페이지에서 사용할 수 있습니다.<br/><br/>**사용한 위치:**<br/>- 홈 페이지<br/>- 범주<br/>- 제품 세부 정보<br/>- 장바구니<br/>- 확인&#x200B;<br/><br/>**제안된 레이블:**<br/> - 가장 인기 있음<br/>- 트렌드<br/>- 현재 인기 있음<br/>- 최근 인기 있음<br/>- 이 제품(PDP)에서 영감을 얻은 인기 있는 제품<br/>- 최상위 판매자 |
-| 트렌딩 | 는 사이트 전체에서 제품 인기의 최근 모멘텀을 기반으로 제품을 추천합니다.<br/><br/>Adobe AI은 사이트 전체의 탐색 및 구매 데이터를 집계하여 구매자에게 가장 최근에 인기 있는 제품을 결정하고 등급을 지정합니다. Trending은 최근 제품 모멘텀을 분석하므로 매출액이 높은 카탈로그에 효과적인 추천 유형입니다. 카탈로그가 더 정적인 경우 대상의 쇼핑 패턴이 매우 변동이 심하지 않는 한 유용하지 않을 수 있습니다.<br/><br/>홈 페이지에서 사용하면 Trending에서는 전체 사이트에서 최근에 많이 사용되는 제품을 추천합니다. 트렌딩은 지속적으로 인기가 있는 제품을 표시하는 것이 아니라 최근 인기를 끌고 있는 제품을 표시하는 것이다. 예를 들어 특정 제품을 홍보하는 이메일 마케팅 캠페인이 있는 경우, 이메일에 의해 생성된 인기도 증가는 홍보된 제품이 트렌드로 분류될 가능성을 높입니다.<br/><br/>**사용 위치:**<br/>- 홈 페이지<br/>- 카테고리<br/>- 제품 세부 정보<br/>- 장바구니<br/>- 확인&#x200B;<br/><br/>**제안된 레이블:**<br/>- 트렌드<br/>- 지금 트렌드<br/>- 최근 트렌드<br/>- 최신 제품<br/>- 트렌드 관련 제품(PDP) |
+| 트렌딩 | 는 지난 7일 이내에 사이트에서 제품 인기의 최근 모멘텀을 기반으로 제품을 추천합니다.<br/><br/>Adobe AI은 사이트 전체의 탐색 및 구매 데이터를 집계하여 구매자에게 가장 최근에 인기 있는 제품을 결정하고 등급을 지정합니다. Trending은 최근 제품 모멘텀을 분석하므로 매출액이 높은 카탈로그에 효과적인 추천 유형입니다. 카탈로그가 더 정적인 경우 대상의 쇼핑 패턴이 매우 변동이 심하지 않는 한 유용하지 않을 수 있습니다.<br/><br/>홈 페이지에서 사용하면 Trending에서는 전체 사이트에서 최근에 많이 사용되는 제품을 추천합니다. 트렌딩은 지속적으로 인기가 있는 제품을 표시하는 것이 아니라 최근 인기를 끌고 있는 제품을 표시하는 것이다. 예를 들어 특정 제품을 홍보하는 이메일 마케팅 캠페인이 있는 경우, 이메일에 의해 생성된 인기도 증가는 홍보된 제품이 트렌드로 분류될 가능성을 높입니다.<br/><br/>**사용 위치:**<br/>- 홈 페이지<br/>- 카테고리<br/>- 제품 세부 정보<br/>- 장바구니<br/>- 확인&#x200B;<br/><br/>**제안된 레이블:**<br/>- 트렌드<br/>- 지금 트렌드<br/>- 최근 트렌드<br/>- 최신 제품<br/>- 트렌드 관련 제품(PDP) |
 
 ## 고성능 {#highperf}
 

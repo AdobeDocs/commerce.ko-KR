@@ -3,28 +3,17 @@ title: 시작하기
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
 TQID: https://experienceleague.adobe.com/1dcKMjOut1GtiOevvGJECsaU7URFmYg-mQ-m9wi7n4Y
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: dba482e5-29a8-4127-afa2-c4b913512ef8
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423b35b15e845e49b1cf36910ffbad775de9758c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: dba482e5-29a8-4127-afa2-c4b913512ef8id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48b94b1b5f38560d5a7be6c5f5431007685202fa
 workflow-type: tm+mt
-source-wordcount: 1332
+source-wordcount: 1349
 ht-degree: 0%
 
 ---
@@ -124,6 +113,7 @@ Adobe Commerce as a Cloud Service, 서드파티 상거래 플랫폼 또는 Edge 
 | 작업 | 설명 | 링크 |
 |---|---|---|
 | **제품 검색** | 검색 및 필터링 구성 | [머천다이징 개요](./merchandising/overview.md) |
+| **검색 설정** | 시맨틱 검색(기본적으로 활성화됨) 및 선택적 조정 관리 | [설정 — 고급 검색](./settings.md#advanced-search) 및 [의미 체계 검색](./setup/semantic-search.md) |
 | **권장 사항** | AI 기반 제품 추천 설정 | [제품 추천](./merchandising/recommendations/overview.md) |
 | **성능 추적** | 성공 지표 모니터링 | [성공 지표](./manage-results/success-metrics.md) |
 
@@ -177,7 +167,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 다음 주요 정보를 참고하십시오.
 
-- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target=_blank}
+- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target=&quot;_blank}
 - **카탈로그 끝점** 상거래 또는 PIM 시스템에서 Adobe Commerce Optimizer으로 제품 및 가격을 수집하는 데 사용하는 REST API 끝점입니다. [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) 보기
 - **Commerce Optimizer URL** 카탈로그 보기, 정책 및 머천다이징을 구성하고 관리할 수 있는 [Adobe Commerce Optimizer Studio](overview.md) 관리 UI를 엽니다.
 - **인스턴스 ID**: 이 Adobe Commerce Optimizer 인스턴스의 고유 식별자(테넌트 ID)로서, 올바른 환경에 연결하기 위해 상점, API 및 도구에서 사용됩니다.
@@ -251,6 +241,6 @@ Adobe은 [!DNL Adobe Commerce Optimizer] 기능을 학습하고 테스트하는 
 ### 도움말 보기
 
 - **개발자 리소스**: [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)
-- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- **Storefront 리소스**: [Commerce storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **자습서**: [Commerce Optimizer 자습서](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **지원**: [Adobe Commerce 지원 리소스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
