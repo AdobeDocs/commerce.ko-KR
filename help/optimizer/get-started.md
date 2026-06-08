@@ -22,9 +22,9 @@ topic_v2:
   - id: dba482e5-29a8-4127-afa2-c4b913512ef8
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423b35b15e845e49b1cf36910ffbad775de9758c
+source-git-commit: 48b94b1b5f38560d5a7be6c5f5431007685202fa
 workflow-type: tm+mt
-source-wordcount: 1332
+source-wordcount: 1349
 ht-degree: 0%
 
 ---
@@ -124,6 +124,7 @@ Adobe Commerce as a Cloud Service, 서드파티 상거래 플랫폼 또는 Edge 
 | 작업 | 설명 | 링크 |
 |---|---|---|
 | **제품 검색** | 검색 및 필터링 구성 | [머천다이징 개요](./merchandising/overview.md) |
+| **검색 설정** | 시맨틱 검색(기본적으로 활성화됨) 및 선택적 조정 관리 | [설정 — 고급 검색](./settings.md#advanced-search) 및 [의미 체계 검색](./setup/semantic-search.md) |
 | **권장 사항** | AI 기반 제품 추천 설정 | [제품 추천](./merchandising/recommendations/overview.md) |
 | **성능 추적** | 성공 지표 모니터링 | [성공 지표](./manage-results/success-metrics.md) |
 
