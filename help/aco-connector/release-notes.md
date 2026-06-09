@@ -2,9 +2,9 @@
 title: '[!DNL Adobe Commerce Optimizer Connector] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Adobe Commerce Optimizer Connector] 에 대한 최신 릴리스 정보입니다.
 feature: Services, Catalog Service, Release Notes
-source-git-commit: e0f7b9b860f8dce18b357d479cbc021f32970c18
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 _2026년 5월 6일_
 
 ![수정](../assets/fix.svg) **개선된 커넥터 구성 지침**-_Adobe Commerce 커넥터 안내서_&#x200B;에 연결하도록 Commerce 관리자의 Commerce Optimizer 구성 페이지를 업데이트했습니다. <!--COMOPT-1922-->
-![수정](../assets/fix.svg) **커넥터 메타데이터 개선**-이제 ACO 커넥터에 설치된 버전이 메타데이터 헤더에 포함됩니다. 이 개선 사항을 통해 팀은 문제 해결 또는 지원 참여 중에 사용 중인 커넥터 버전을 빠르게 식별할 수 있습니다.<!--MDEE-1323-->
+![수정](../assets/fix.svg) **커넥터 메타데이터 개선**-이제 Adobe Commerce Optimizer 커넥터에 설치된 버전이 메타데이터 헤더에 포함됩니다. 이 개선 사항을 통해 팀은 문제 해결 또는 지원 참여 중에 사용 중인 커넥터 버전을 빠르게 식별할 수 있습니다.<!--MDEE-1323-->
 
 ### 1.0.12 릴리스
 

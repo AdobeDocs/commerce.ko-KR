@@ -22,7 +22,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
 source-wordcount: 2205
 ht-degree: 0%
@@ -299,7 +299,7 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
             "base-currency-code": "USD",
             "environment": "Production",
             "store-id": 1,
-            "store-name": "ACO Demo",
+            "store-name": "Commerce Optimizer Demo",
             "store-url": "https://www.aemshop.net",
             "store-view-id": 1,
             "store-view-name": "Default Store View",
@@ -332,14 +332,14 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
 
 1. `ac-price-book-id` 값을 `"east_coast_inc"`(으)로 바꿉니다.
 
-   이러한 변경 작업을 수행하면 `config.json` 파일이 다음과 비슷해지며 `ACO-tenant-id` 및 `celport-catalog-view-id` 자리 표시자가 값으로 대체됩니다.
+   이러한 변경 작업을 수행하면 `config.json` 파일이 다음과 비슷해지며 `commerce-optimizer-tenant-id` 및 `celport-catalog-view-id` 자리 표시자가 값으로 대체됩니다.
 
    ```json
    {
      "public": {
         "default": {
         "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-        "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{ACO-tenant-id}}/graphql",
+        "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{commerce-optimizer-tenant-id}}/graphql",
         "headers": {
             "cs": {
                 "ac-view-id": "{{celport-catalog-view-id}}",
@@ -351,7 +351,7 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
                 "base-currency-code": "USD",
                 "environment": "Production",
                 "store-id": 1,
-                "store-name": "ACO Demo",
+                "store-name": "Commerce Optimizer Demo",
                 "store-url": "https://www.aemshop.net",
                 "store-view-id": 1,
                 "store-view-name": "Default Store View",

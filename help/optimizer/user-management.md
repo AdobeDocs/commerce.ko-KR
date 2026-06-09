@@ -19,7 +19,7 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
 source-wordcount: 816
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 제품을 추가하려면 **+**&#x200B;을(를) 클릭하십시오.
 
-1. 관리자를 추가할 기존 Commerce Optimizer 인스턴스를 선택합니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - ACO - <environment-type> - <tenant-id>` 형식을 사용합니다.
+1. 관리자를 추가할 기존 Commerce Optimizer 인스턴스를 선택합니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - Commerce Optimizer - <environment-type> - <tenant-id>` 형식을 사용합니다.
 
 1. 제품 프로필을 선택합니다.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. [!UICONTROL **Adobe Commerce**] 제품을 선택하십시오.
 
-1. 사용자를 Cloud Manager 인터페이스에 추가하려는 경우 Commerce Cloud Manager 제품을 선택합니다. 여기서 Commerce Optimizer 인스턴스를 생성하고 관리할 수 있으며, 기존 Commerce Optimizer 인스턴스를 선택하여 사용자를 추가할 수도 있습니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - ACO - <environment-type> - <tenant-id>` 형식을 사용합니다.
+1. 사용자를 Cloud Manager 인터페이스에 추가하려는 경우 Commerce Cloud Manager 제품을 선택합니다. 여기서 Commerce Optimizer 인스턴스를 생성하고 관리할 수 있으며, 기존 Commerce Optimizer 인스턴스를 선택하여 사용자를 추가할 수도 있습니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - Commerce Optimizer - <environment-type> - <tenant-id>` 형식을 사용합니다.
 
 1. [!UICONTROL **사용자**] 탭을 선택하고 [!UICONTROL **사용자 추가**]&#x200B;를 클릭합니다.
 

@@ -1,14 +1,14 @@
 ---
-source-git-commit: edc47115830f5ca7ec1e485de1ddf9939de2586d
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 # Commerce 스니펫
 
 
-## ACO 통합 환경 정렬 {#aco-integration-environment-alignment}
+## Adobe Commerce Optimizer 통합 환경 정렬 {#aco-integration-environment-alignment}
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](../aco-connector/overview.md)를 설치한 경우 Commerce Optimizer Studio의 [데이터 피드 동기화 상태 페이지](../optimizer/setup/data-sync.md)를 사용하여 데이터 관리 대시보드 대신 Adobe Commerce Optimizer에 성공적으로 동기화된 데이터를 확인하십시오.
 
-## API 업데이트에 대한 ACO 드롭인 메모 {#aco-api-updates-and-dropins}
+## API 업데이트에 대한 Adobe Commerce Optimizer 드롭인 메모 {#aco-api-updates-and-dropins}
 
 >[!NOTE]
 >

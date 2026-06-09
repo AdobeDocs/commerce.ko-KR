@@ -20,7 +20,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
 source-wordcount: 1562
 ht-degree: 0%
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 1. **성공 기준**: 표준 컨텐츠가 포함된 상점 홈 페이지가 표시됩니다.
 
-   ![[!DNL ACO storefront site with boilerplate]](./assets/aco-storefront-site-boilerplate.png){width="700" zoomable="yes"}
+   ![[!DNL Adobe Commerce Optimizer storefront site with boilerplate]](./assets/aco-storefront-site-boilerplate.png){width="700" zoomable="yes"}
 
 ### 2단계: 제품 세부 사항 페이지 테스트
 

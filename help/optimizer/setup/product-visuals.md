@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce Optimizer]에서 제품 이미지에 AEM Ass
 feature: CMS, Media, Configuration, Integration
 role: Admin, Developer
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * **AEM Assets에서**: 에셋이 승인, 거부 또는 제거되면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 흐릅니다. 이 서비스는 `match-by-SKU` 또는 사용자 지정 일치 전략을 사용하여 자산을 제품에 일치시킨 다음 `product-asset` 매핑을 [!DNL Commerce Optimizer]에 보내며, 여기서 매핑은 제품 계층으로 저장됩니다.
 
-* **ACO에서**: [!DNL Commerce Optimizer]에서 제품을 업데이트하면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 이동합니다. 이 서비스는 일치하는 모든 자산 매핑을 ACO에 다시 동기화합니다.
+* [!DNL Commerce Optimizer]&#x200B;**부터**: [!DNL Commerce Optimizer]에서 제품을 업데이트하면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 이동합니다. 서비스가 일치하는 모든 자산 매핑을 다시 [!DNL Commerce Optimizer]&#x200B;(으)로 동기화합니다.
 
 업데이트된 이미지는 상점 API(카탈로그 서비스, 라이브 검색, 제품 추천)를 통해 사용할 수 있습니다.
 
@@ -56,7 +56,7 @@ AEM Assets의 이미지는 다음 소스 구성을 사용하는 카탈로그 레
 
 ## 설정
 
-통합을 사용하려면 [&#x200B; 및 AEM Assets 세부 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)지원 티켓을 만들기[!DNL Commerce Optimizer]하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
+통합을 사용하려면 [!DNL Commerce Optimizer] 및 AEM Assets 세부 정보를 사용하여 [지원 티켓을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
 
 온보딩 정보는 [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md)을 참조하십시오.
 

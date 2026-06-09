@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f472cadb124207b04b158b410b7fe1db8f5a9f7d
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2857
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ _2026년 4월 13일_
 - 삭제하는 동안 내보내기 서비스를 사용할 수 없었던 경우 연결된 Commerce 서비스에서 삭제된 제품이 제대로 제거되지 않았던 문제를 수정했습니다. 이제 작업을 다시 시도하고 재동기화하여 삭제된 제품이 SaaS에 올바르게 반영되는지 확인합니다. <!--MDEE-1319-->
 - 이제 관리 스토어 보기에 대한 속성 값이 누락된 경우에도 카탈로그 엔티티(제품 및 카테고리)를 연결된 Commerce 서비스로 내보낼 수 있습니다. 이렇게 하면 타사 확장과의 호환성이 향상되고 기본값이 누락되어 발생하는 내보내기 오류가 줄어듭니다. <!--MDEE-1333-->
 
-![수정](../assets/fix.svg) 피드 레코드에 예기치 않거나 누락된 데이터가 포함되어 있을 때 발생할 수 있는 데이터 피드 동기화 상태 페이지의 오류를 해결했습니다. 이제 시스템에서 이러한 경우를 정상적으로 처리하여 안정성을 향상시키고 충돌을 방지합니다. Adobe Commerce Optimizer 커넥터를 사용하여 Adobe Commerce에서 Adobe Commerce Optimizer으로 데이터를 동기화하는 경우 [ACO 커넥터 버전 1.0.11](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/release-notes) 이상으로 업데이트하여 해결하십시오.<!--MDEE-1327-->
+![수정](../assets/fix.svg) 피드 레코드에 예기치 않거나 누락된 데이터가 포함되어 있을 때 발생할 수 있는 데이터 피드 동기화 상태 페이지의 오류를 해결했습니다. 이제 시스템에서 이러한 경우를 정상적으로 처리하여 안정성을 향상시키고 충돌을 방지합니다. Adobe Commerce Optimizer Connector를 사용하여 Adobe Commerce에서 Adobe Commerce Optimizer으로 데이터를 동기화하는 경우 [Adobe Commerce Optimizer Connector 버전 1.0.11](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/release-notes) 이상으로 업데이트하여 문제를 해결하십시오.<!--MDEE-1327-->
 
 ### 103.4.21 릴리스
 
