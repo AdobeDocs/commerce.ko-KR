@@ -1,25 +1,15 @@
 ---
 title: 사용자 및 Identity Management
 description: ' [!DNL Adobe Commerce Optimizer]의 사용자를 만들고 관리하고 사용자 역할을 할당하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 9ab2118d-b7e3-4e2e-adac-8f3950fe1824
 TQID: https://experienceleague.adobe.com/ORS8H-GM48FMaTL7ywENU6lJnPrz7PULLhlu5AVlzDc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
-  - id: ce84ce08-883f-4337-ae83-6bb1855ca732
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c4f010fa-1478-4300-a88d-706fbc036a7aid: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: a743e5dc-8f37-4b5d-a848-03c32ca30598id: ce84ce08-883f-4337-ae83-6bb1855ca732
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
 source-wordcount: 816
 ht-degree: 0%
@@ -34,10 +24,10 @@ ht-degree: 0%
 
 - **사용자**— 사용자는 [!DNL Adobe Commerce Optimizer] UI에 액세스하여 카탈로그 보기 및 머천다이징 규칙을 보고 관리하며 성능 지표를 추적할 수 있습니다.
 
-- [**개발자**](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"}— 개발자는 Adobe Developer Console에 대한 사용자 권한과 액세스 권한이 있습니다. 즉, App Builder 및 API Mesh와 같은 Adobe 확장성 도구와 함께 [!DNL Adobe Commerce Optimizer] API 및 SDK와 같은 개발자 도구를 사용하도록 프로젝트를 만들고 자격 증명을 구성할 수 있습니다.
+- [**개발자**](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"}— 개발자는 Adobe Developer Console에 대한 사용자 권한과 액세스 권한이 있습니다. 즉, App Builder 및 API Mesh와 같은 Adobe 확장성 도구와 함께 [!DNL Adobe Commerce Optimizer] API 및 SDK와 같은 개발자 도구를 사용하도록 프로젝트를 만들고 자격 증명을 구성할 수 있습니다.
 
 - **관리자** - 세 가지 유형의 관리자 역할이 있습니다.
-   - [시스템 관리자](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Adobe Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
+   - [시스템 관리자](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - 시스템 관리자는 Adobe Admin Console을 통해 조직의 모든 제품 및 제품 프로필에 액세스할 수 있습니다.
    - [제품 관리자](#add-a-product-admin) - 제품 관리자는 [!DNL Adobe Admin Console]에서 [제품에 대한 사용자, 역할 및 권한을 관리](#add-users)할 수 있습니다.
    - [제품 프로필 관리자](#add-developers-and-product-profile-admins) - 제품 프로필 관리자는 [!DNL Adobe Admin Console]의 제품에 대한 사용자를 관리할 수 있습니다.
 
@@ -69,7 +59,7 @@ ht-degree: 0%
 
 1. 제품을 추가하려면 **+**&#x200B;을(를) 클릭하십시오.
 
-1. 관리자를 추가할 기존 Commerce Optimizer 인스턴스를 선택합니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - ACO - <environment-type> - <tenant-id>` 형식을 사용합니다.
+1. 관리자를 추가할 기존 Commerce Optimizer 인스턴스를 선택합니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - Commerce Optimizer - <environment-type> - <tenant-id>` 형식을 사용합니다.
 
 1. 제품 프로필을 선택합니다.
 
@@ -115,7 +105,7 @@ ht-degree: 0%
 
 1. [!UICONTROL **Adobe Commerce**] 제품을 선택하십시오.
 
-1. 사용자를 Cloud Manager 인터페이스에 추가하려는 경우 Commerce Cloud Manager 제품을 선택합니다. 여기서 Commerce Optimizer 인스턴스를 생성하고 관리할 수 있으며, 기존 Commerce Optimizer 인스턴스를 선택하여 사용자를 추가할 수도 있습니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - ACO - <environment-type> - <tenant-id>` 형식을 사용합니다.
+1. 사용자를 Cloud Manager 인터페이스에 추가하려는 경우 Commerce Cloud Manager 제품을 선택합니다. 여기서 Commerce Optimizer 인스턴스를 생성하고 관리할 수 있으며, 기존 Commerce Optimizer 인스턴스를 선택하여 사용자를 추가할 수도 있습니다. Commerce Optimizer 인스턴스는 `Adobe Commerce - <instance-name> - Commerce Optimizer - <environment-type> - <tenant-id>` 형식을 사용합니다.
 
 1. [!UICONTROL **사용자**] 탭을 선택하고 [!UICONTROL **사용자 추가**]&#x200B;를 클릭합니다.
 
@@ -161,8 +151,8 @@ ht-degree: 0%
 
 다음 방법 중 하나를 사용하여 여러 사용자를 보다 효율적으로 추가할 수 있습니다.
 
-- Adobe Admin Console의 **CSV로 사용자 추가** 기능을 사용하여 [일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행합니다.
-- [사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}을(를) 만들어 역할에 여러 사용자를 추가하십시오. 그런 다음 사용자 그룹에 적절한 제품을 추가할 수 있습니다.
+- Adobe Admin Console의 **CSV로 사용자 추가** 기능을 사용하여 [일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}를 수행합니다.
+- [사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}을(를) 만들어 역할에 여러 사용자를 추가하십시오. 그런 다음 사용자 그룹에 적절한 제품을 추가할 수 있습니다.
 
 ## ID 관리 및 단일 사인온 구성
 

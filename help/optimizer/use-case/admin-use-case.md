@@ -3,26 +3,15 @@ title: Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례
 description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 카탈로그 보기 및 정책을 사용하여 카탈로그를 관리하는 방법과 카탈로그 구성에 따라 상점을 설정하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
 TQID: https://experienceleague.adobe.com/sqz0syCSh3ls8F-WIbuzPyqeRguyXdsPw-7OerOnDes
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
 workflow-type: tm+mt
 source-wordcount: 2205
 ht-degree: 0%
@@ -72,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=ko) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
+> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
 
 ### 주요 ‌ 사항
 
@@ -299,7 +288,7 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
             "base-currency-code": "USD",
             "environment": "Production",
             "store-id": 1,
-            "store-name": "ACO Demo",
+            "store-name": "Commerce Optimizer Demo",
             "store-url": "https://www.aemshop.net",
             "store-view-id": 1,
             "store-view-name": "Default Store View",
@@ -332,14 +321,14 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
 
 1. `ac-price-book-id` 값을 `"east_coast_inc"`(으)로 바꿉니다.
 
-   이러한 변경 작업을 수행하면 `config.json` 파일이 다음과 비슷해지며 `ACO-tenant-id` 및 `celport-catalog-view-id` 자리 표시자가 값으로 대체됩니다.
+   이러한 변경 작업을 수행하면 `config.json` 파일이 다음과 비슷해지며 `commerce-optimizer-tenant-id` 및 `celport-catalog-view-id` 자리 표시자가 값으로 대체됩니다.
 
    ```json
    {
      "public": {
         "default": {
         "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-        "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{ACO-tenant-id}}/graphql",
+        "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{commerce-optimizer-tenant-id}}/graphql",
         "headers": {
             "cs": {
                 "ac-view-id": "{{celport-catalog-view-id}}",
@@ -351,7 +340,7 @@ Celport 카탈로그 보기 및 관련 정책을 만든 후 다음 단계는 새
                 "base-currency-code": "USD",
                 "environment": "Production",
                 "store-id": 1,
-                "store-name": "ACO Demo",
+                "store-name": "Commerce Optimizer Demo",
                 "store-url": "https://www.aemshop.net",
                 "store-view-id": 1,
                 "store-view-name": "Default Store View",
@@ -466,4 +455,4 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 - [고급 정책 구성](../setup/policies.md)에 대해 알아보기
 - 다른 대리점에 대해 [추가 카탈로그 보기](../setup/catalog-view.md)를 설정합니다.
 - 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 검토하십시오.
-- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko) 보기
+- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) 보기
