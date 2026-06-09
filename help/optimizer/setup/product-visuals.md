@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * **AEM Assets에서**: 에셋이 승인, 거부 또는 제거되면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 흐릅니다. 이 서비스는 `match-by-SKU` 또는 사용자 지정 일치 전략을 사용하여 자산을 제품에 일치시킨 다음 `product-asset` 매핑을 [!DNL Commerce Optimizer]에 보내며, 여기서 매핑은 제품 계층으로 저장됩니다.
 
-* [!DNL Commerce Optimizer]**부터**: [!DNL Commerce Optimizer]에서 제품을 업데이트하면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 이동합니다. 서비스가 일치하는 모든 자산 매핑을 다시 [!DNL Commerce Optimizer]&#x200B;(으)로 동기화합니다.
+* [!DNL Commerce Optimizer]&#x200B;**부터**: [!DNL Commerce Optimizer]에서 제품을 업데이트하면 이벤트가 Adobe 파이프라인을 통해 Assets 통합 서비스로 이동합니다. 서비스가 일치하는 모든 자산 매핑을 다시 [!DNL Commerce Optimizer]&#x200B;(으)로 동기화합니다.
 
 업데이트된 이미지는 상점 API(카탈로그 서비스, 라이브 검색, 제품 추천)를 통해 사용할 수 있습니다.
 
