@@ -2,7 +2,7 @@
 title: 보안 아키텍처 및 데이터 흐름
 description: Adobe Commerce as a Cloud Service의 보안 아키텍처 및 데이터 흐름에 대해 알아봅니다.
 role: Admin, Developer, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 TQID: 'https://experienceleague.adobe.com/2yK-VVec98nFH9LPpfSe4kQ2YvQr2yy3G0Rym5-HCbI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
