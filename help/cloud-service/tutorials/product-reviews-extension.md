@@ -8,9 +8,13 @@ role: Developer
 level: Intermediate
 type: Tutorial
 hide: true
-source-git-commit: 3ebee6c984a8f848e9094968be9faa667fc83250
+TQID: 'https://experienceleague.adobe.com/vsy2xSV-3oVjPNc0JUzsunl3ooiWjWrWo1poXHB1TgY'
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: 2533
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 0%
 
 다음 두 가지 부분을 작성합니다.
 
-- **App Builder 확장** — `aio-lib-state`에서 유효성 검사, 페이지 매김 및 지속성을 통해 제품 검토 및 Q&amp;A 콘텐츠를 만들고 보기 위한 GET 및 POST 작업을 포함하는 REST API입니다.
+- **App Builder 확장** — `aio-lib-state`에서 유효성 검사, 페이지 매김 및 지속성을 통해 제품 검토 및 Q&amp;A 콘텐츠를 만들고 볼 수 있는 GET 및 POST 작업이 포함된 REST API입니다.
 - **Storefront 통합** - 리뷰 및 Q&amp;A를 표시하는 PDP의 제품 리뷰 블록으로서, 구매자가 리뷰, 질문 및 답변을 제출할 수 있는 양식이 있습니다.
 
 >[!NOTE]
@@ -52,8 +56,8 @@ bash --version
 
 또한 다음을 확인하십시오.
 
-- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
-- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
+- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 - `aem` CLI가 설치되어 있습니다.
 
   ```bash
@@ -437,7 +441,7 @@ Run complete browser testing. Use the following product page 'http://localhost:3
 
 | 증상 | 원인 | 수정 |
 |---------|-------|-----|
-| GET 또는 POST가 500 &quot;모듈을 찾을 수 없음&quot;을 반환합니다. | 제품 검토 작업에서는 패키지 번들을 이스케이프 처리하는 `require("../../utils")` 또는 `require("../../constants")`을(를) 사용합니다. 이러한 파일은 패키지를 배포할 때 포함되지 않습니다. | 제품 리뷰 패키지를 자체 포함합니다. `actions/product-reviews/lib/constants.js` 및 `actions/product-reviews/lib/utils.js`을(를) 추가하고 `../../` 대신 `../lib/...`에서 요구하는 네 가지 작업을 모두 업데이트하십시오. |
+| GET 또는 POST는 500 &quot;모듈을 찾을 수 없음&quot;을 반환합니다. | 제품 검토 작업에서는 패키지 번들을 이스케이프 처리하는 `require("../../utils")` 또는 `require("../../constants")`을(를) 사용합니다. 이러한 파일은 패키지를 배포할 때 포함되지 않습니다. | 제품 리뷰 패키지를 자체 포함합니다. `actions/product-reviews/lib/constants.js` 및 `actions/product-reviews/lib/utils.js`을(를) 추가하고 `../../` 대신 `../lib/...`에서 요구하는 네 가지 작업을 모두 업데이트하십시오. |
 | GET은 &quot;키가 패턴과 일치해야 함&quot;과 함께 500을 반환합니다. | 상태 키는 콜론을 사용합니다(예: `reviews:ADB153`). `aio-lib-state`은(는) `[a-zA-Z0-9-_.]`만 허용합니다. | 접두사를 `reviews:` 및 `qa:`에서 `reviews.` 및 `qa.`(으)로 변경합니다. SKU를 정리하는 `stateKey(prefix, sku)` 도우미를 추가합니다(잘못된 문자를 `_`(으)로 바꾸기). |
 | POST에서 &quot;값은 문자열이어야 함&quot;과 함께 500 반환 | `aio-lib-state`은(는) 문자열 값만 허용합니다. 코드는 배열 또는 개체를 `state.put()`에 전달합니다. | 쓸 때는 `JSON.stringify()`을(를) 사용하고 읽을 때는 `JSON.parse()`을(를) 사용하여 직렬화합니다. 네 가지 작업을 모두 업데이트합니다. |
 
