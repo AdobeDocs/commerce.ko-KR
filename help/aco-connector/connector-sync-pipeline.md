@@ -5,11 +5,23 @@ feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:21:52.214Z'
 TQID: 'https://experienceleague.adobe.com/EXUQzAd0I6Hnq4twzhaBZZnv0jLjeGBuTx-QgQz-5MA'
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: cc250cf1-34eb-4863-80d0-d170d45ea067id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 6d4493db5e0714577a8800007cc6d2c552578fa4
 workflow-type: tm+mt
 source-wordcount: 625
@@ -61,7 +73,7 @@ ht-degree: 1%
 `CommerceOptimizerScopeMapper` 모듈은 웹 사이트 및 스토어 보기 내보내기 설정을 읽고 피드 수집 및 제출 중에 이를 적용합니다.
 
 - **사용 가능한 범위** 정상적인 델타 일정에서 데이터를 내보냅니다.
-- **비활성화된 범위**이(가) 파이프라인에서 제외됩니다.
+- **비활성화된 범위**&#x200B;이(가) 파이프라인에서 제외됩니다.
 이전에 동기화된 엔터티는 다음 cron 실행 시 [!DNL Commerce Optimizer]에서 제거됩니다.
 
 동기화 문제가 하나의 카탈로그 원본 또는 가격책에만 영향을 주는 경우 [데이터가 동기화되지 않음](troubleshooting.md#data-not-syncing)을 참조하세요.
