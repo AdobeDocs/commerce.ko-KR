@@ -15,20 +15,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 2a09ef51939649a12b72c45cbb8b0dc0d0a4c8ad
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 571
 ht-degree: 0%
 
 ---
 
 # [!DNL SaaS Data Export] 안내서
 
-[!DNL SaaS data export]은(는) Adobe Commerce 인스턴스와 연결된 Commerce 서비스 간에 데이터를 동기화합니다. Live Search, 제품 권장 사항 또는 카탈로그 서비스를 Adobe Commerce 설치에 추가하면 [!DNL Data export] 확장이 자동으로 설치됩니다.
+[!DNL SaaS data export]은(는) Adobe Commerce 인스턴스와 연결된 Commerce 서비스 간에 데이터를 동기화합니다. Live Search, 제품 추천, 카탈로그 서비스 또는 [!DNL Adobe Commerce Optimizer Connector]을(를) Adobe Commerce 설치에 추가하면 [!DNL Data export] 확장이 자동으로 설치됩니다.
 
 >[!NOTE]
 >
->Adobe Commerce Optimizer Connector를 설치하는 경우 동일한 데이터 내보내기 확장을 사용하여 CCDM(Composable Catalog Data Model)을 사용하여 카탈로그 및 가격 피드를 Adobe Commerce Optimizer으로 보냅니다. 아키텍처 및 구성에 대한 자세한 내용은 [Adobe Commerce Optimizer 커넥터 안내서](../aco-connector/overview.md)를 참조하십시오.
+>[!DNL Adobe Commerce Optimizer Connector]을(를) 설치하는 경우 동일한 [!DNL Data Export] 확장은 [!DNL Adobe Commerce]에서 카탈로그 및 가격 피드를 수집합니다. 그런 다음 커넥터가 CCDM(Composable Catalog Data Model)을 사용하여 해당 피드를 매핑하고 [!DNL Adobe Commerce Optimizer]에 제출합니다. 설정 및 아키텍처는 [[!DNL Adobe Commerce Optimizer Connector] 개요](../aco-connector/overview.md)를, 내보내기 후 동기화 동작은 [커넥터 동기화 파이프라인](../aco-connector/connector-sync-pipeline.md)을 참조하십시오.
 
 SaaS 데이터 내보내기는 특정 유형의 정보를 집계하는 _피드_&#x200B;라고 하는 다양한 유형의 데이터를 수집하고 내보냅니다. 설치된 Commerce 서비스에 따라 SaaS 데이터 내보내기 피드는 다음과 같습니다.
 
