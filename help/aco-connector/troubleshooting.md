@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce Optimizer Connector] 문제 해결'
 description: ' [!DNL Adobe Commerce] PaaS 통합에 대한  [!DNL Adobe Commerce Optimizer Connector] 자격 증명, 카탈로그 동기화 및 범위 내보내기 문제를 해결하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T19:00:00.000Z'
 TQID: 'https://experienceleague.adobe.com/ei86QuJ3nQ2d-6NRoAeJslgDxjGlZRejD-Nx-6SAVdc'
 product_v2:
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## [!DNL SaaS Data Export] 진단
 
-로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging){target="_blank"}를 참조하십시오.
+로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging){target="_blank"}를 참조하십시오.

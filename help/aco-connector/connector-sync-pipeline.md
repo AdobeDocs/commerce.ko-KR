@@ -2,7 +2,7 @@
 title: 카탈로그 동기화 파이프라인
 description: 피드 변환, cron 일정, 범위 제어 및 오류 처리를 포함하여  [!DNL Adobe Commerce Optimizer Connector] 동기화 파이프라인이 작동하는 방식에 대해 알아봅니다.
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:21:52.214Z'
 TQID: 'https://experienceleague.adobe.com/EXUQzAd0I6Hnq4twzhaBZZnv0jLjeGBuTx-QgQz-5MA'
 product_v2:
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 # 커넥터 동기화 파이프라인
 
-[[!DNL SaaS Data Export]](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)을(를) 기반으로 빌드된 **[!DNL Adobe Commerce Optimizer Connector]**&#x200B;은(는) [!DNL SaaS Data Export] 인덱서가 수집한 데이터를 [!DNL Adobe Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 매핑하고 인증, 일괄 처리된 제출 및 범위 기반 동기화 제어를 처리합니다. 아래 섹션에서는 이러한 동기화가 작동하는 방식을 설명합니다.
+[[!DNL SaaS Data Export]](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)을(를) 기반으로 빌드된 **[!DNL Adobe Commerce Optimizer Connector]**&#x200B;은(는) [!DNL SaaS Data Export] 인덱서가 수집한 데이터를 [!DNL Adobe Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 매핑하고 인증, 일괄 처리된 제출 및 범위 기반 동기화 제어를 처리합니다. 아래 섹션에서는 이러한 동기화가 작동하는 방식을 설명합니다.
 
 관련 컨텍스트:
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 #### 요구 사항
 
-- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues){target="_blank"}.
+- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues){target="_blank"}.
 - 피드 인덱서는 **[!UICONTROL Update by Schedule]** 모드를 사용해야 합니다. [Commerce 응용 프로그램 구성 확인](../data-export/data-synchronization.md#verify-commerce-application-configuration){target="_blank"}을 참조하십시오.
 
 ## 범위 기반 동기화 제어
@@ -88,7 +88,7 @@ ht-degree: 1%
 | 일시적 실패 | 5분마다 재시도됨 |
 | 전체 동기화 또는 큰 카탈로그 | 분 ~ 시간 |
 
-Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./get-started.md#verify-that-the-data-sync-is-working)을 참조하십시오.
+Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./get-started.md#verify-that-the-data-sync-is-working)을 참조하십시오.
 
 ## 피드 제출 및 오류 처리
 
