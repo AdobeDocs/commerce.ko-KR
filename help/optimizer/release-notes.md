@@ -4,21 +4,15 @@ description: 상점 카탈로그 데이터 검색을 위한 데이터 수집 RES
 feature: Release Notes
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 TQID: https://experienceleague.adobe.com/apcpxN0AOniRcHDCa5MMAVWysxRO5mTcudXXXjET-Lo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 29b54d68ec20d000f4cc1ffe8080c5919457ff8c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bd4c59c451d7b08de7dc6ef00da2556fb9a6696f
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1319
 ht-degree: 0%
 
 ---
@@ -31,6 +25,22 @@ ht-degree: 0%
 * [데이터 수집 REST API](https://developer.adobe.com/commerce/services/reference/rest/) 및 [상점 카탈로그 데이터 검색을 위한 GraphQL API](https://developer.adobe.com/commerce/services/reference/graphql/)에 대한 업데이트.
 
   {{aco-api-updates-and-dropins}}
+
+## 2026년 6월
+
+>[!BEGINSHADEBOX]
+
+### 의미 체계 검색
+
+[!DNL Adobe Commerce Optimizer]은(는) 이제 **[!UICONTROL Settings]**&#x200B;의 [**고급 검색**](./settings.md#advanced-search) 탭에서 **[의미 체계 검색]**&#x200B;을(를) 지원합니다. 시맨틱 검색은 키워드 검색과 함께 AI를 사용하여 의미와 컨텍스트별로 제품을 일치시켜 자연어 쿼리에 대한 빈 검색 페이지를 줄입니다. 적격한 영어 카탈로그에 대해 기본적으로 활성화되어 있습니다. 동일한 탭에서 **[!UICONTROL Semantic boost]**, **[!UICONTROL Similarity threshold]** 및 **[!UICONTROL Fuzzy search]**&#x200B;을(를) 선택적으로 조정할 수 있습니다. 속성 설정 또는 상점 첫 화면 변경이 필요하지 않습니다. [자세히 알아보기](./setup/semantic-search.md)
+
+### 권장 가격 필터(베타)
+
+이제 제품 추천 단위는 **[!UICONTROL Filter products]** 단계에서 [**가격 필터**](./merchandising/recommendations/filters.md#price)&#x200B;를 지원합니다. 권장 제품을 현재 표시된 제품의 활성 가격 장부에서 **최종 계산된 가격**&#x200B;과 비교하는 제품 세부 정보 페이지에서 **정적** 최소 및 최대 범위 또는 **동적** 규칙을 사용하여 후보를 포함하거나 제외합니다. 가격 규칙은 후보 세트를 필터링합니다. 제품의 등급을 다시 매기지 않습니다. [자세히 알아보기](./merchandising/recommendations/filters.md#price)
+
+{{aco-release}}
+
+>[!ENDSHADEBOX]
 
 ## 2026년 5월
 
@@ -87,7 +97,7 @@ _2026년 4월 29일_
 
 <!--v1.52 release-->
 
-**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
+**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
 
 <!--DATA-7156-->
 
