@@ -5,9 +5,17 @@ feature: Catalog Management, Products, Integration
 role: Admin, Developer
 level: Intermediate
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+TQID: 'https://experienceleague.adobe.com/fFbsXGO54L1lSuQULqfP7A-BJKSYggdt7cy-GDvaSzU'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 753
 ht-degree: 0%
 
 ---
@@ -89,7 +97,7 @@ ADB112,"My Product",file_upload=https://example.com/files/manual.pdf
 
 ## GraphQL을 통해 파일 검색
 
-[!DNL Adobe Commerce as a Cloud Service]에서 [카탈로그 서비스 GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/){target="_blank"} 끝점은 제품 데이터를 제공합니다. 파일 특성은 `attributes`의 `ProductView` 필드에 나타나며 `value`에는 파일에 대한 전체 공개 URL이 들어 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]에서 [카탈로그 서비스 GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/){target="_blank"} 끝점은 제품 데이터를 제공합니다. 파일 특성은 `ProductView`의 `attributes` 필드에 나타나며 `value`에는 파일에 대한 전체 공개 URL이 들어 있습니다.
 
 ```graphql
 {

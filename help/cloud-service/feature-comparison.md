@@ -5,11 +5,13 @@ feature: App Builder, GraphQL, Integration, Saas
 role: Developer, Admin, Leader
 level: Intermediate
 exl-id: c8c9a0b4-f47c-46ec-bc9d-39dee9641f59
-TQID: https://experienceleague.adobe.com/6Iui3BCjT7GqaD0lC5hyw-xSrDs8SVwIB4PazXx8mGU
+TQID: 'https://experienceleague.adobe.com/iJQ9eew1fGMOU1OTStTtxA9YGhl-9lIK6iQKXqC-3fw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
 role_v2:
@@ -23,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1019
 ht-degree: 0%
 
 ---
