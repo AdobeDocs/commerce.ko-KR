@@ -4,9 +4,17 @@ description: ' [!DNL Live Search] 정확한 일치, 거의 일치, 동일 필드
 role: Admin, Developer
 recommendations: noCatalog
 hide: true
-source-git-commit: f7ea996f3adcd3beb2a9c064ce57d251f49ae5b3
+autotag-review: '2026-06-12T19:48:33.569Z'
+TQID: 'https://experienceleague.adobe.com/v4T99FG9mFhlgbb-xDqR-C1tVvCmHDry5lxhSDaKg-4'
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+subfeature_v2: id: faf75e43-5608-48b8-8169-3f8a9b8a5caf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: da5950c0f2071f48f163dd02f6c38953804ae152
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 914
 ht-degree: 0%
 
 ---
@@ -15,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->다음 기능은 [개인 베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta)에 있습니다.
+>다음 기능은 [개인 베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta)에 있습니다.
 
 [!DNL Live Search]은(는) 가장 관련성이 높은 제품을 먼저 볼 수 있도록 결과에 순위를 매깁니다. 이 서비스는 카탈로그 텍스트가 쇼핑객 유형과 **밀접하게**&#x200B;일치하는 제품에 가장 강력한 지지를 보내고 의미 있는 방식으로 쿼리 용어가 함께 표시되는 항목을 선호하며, 마지막으로 광범위한 일치(자동 완성 스타일 일치를 지원하는 동작 포함)를 포함합니다.
 
@@ -66,7 +74,7 @@ ht-degree: 0%
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
 - 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](rules-add.md#how-intelligent-ranking-scoring-works)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. [!DNL Adobe Commerce] 관리자에서 제품 특성에 대해 **검색에 사용** 및 **검색 가중치**&#x200B;를 구성하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)**. [!DNL Adobe Commerce] 관리자에서 제품 특성에 대해 **검색에 사용** 및 **검색 가중치**&#x200B;를 구성하십시오.
 - 고정, 증폭 및 매장과 같은 **[머천다이징 규칙 검색](rules.md)**
 
 이러한 신호가 상호 작용하므로 가장 넓은 수준에서만 일치하는 제품은 경우에 따라 더 엄격한 구문 일치(예: **검색 가중치** 또는 높은 가중치 필드의 용어 빈도가 더 약한 구문 일치보다 높은 경우)보다 높은 순위를 지정할 수 있습니다.
