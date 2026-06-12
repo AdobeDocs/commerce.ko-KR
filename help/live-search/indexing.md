@@ -3,18 +3,13 @@ title: 색인화
 description: ' [!DNL Live Search] 제품 특성 속성을 인덱싱하는 방법을 알아봅니다.'
 exl-id: 01cbbf56-2e12-4ad0-a56d-de0fe13df50f
 TQID: https://experienceleague.adobe.com/8STop-AunMGpKCLgjQaywtpPRNHF-l7sobRnh82QOXI
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f7ea996f3adcd3beb2a9c064ce57d251f49ae5b3
 workflow-type: tm+mt
-source-wordcount: 787
+source-wordcount: 812
 ht-degree: 0%
 
 ---
@@ -31,7 +26,7 @@ ht-degree: 0%
 
 특성 메타데이터의 범위는 `website/store/store view`입니다.
 
-[!DNL Live Search] API를 사용하면 클라이언트가 Adobe Commerce 관리자에서 [storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes) `Use in Search`이(가) `Yes`(으)로 설정된 모든 제품 특성별로 정렬할 수 있습니다. 사용하도록 설정하면 특성에 `Search Weight`을(를) 설정할 수 있습니다.
+[!DNL Live Search] API를 사용하면 클라이언트가 Adobe Commerce 관리자에서 [storefront 속성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes) `Use in Search`이(가) `Yes`(으)로 설정된 모든 제품 특성별로 정렬할 수 있습니다. 사용하도록 설정하면 특성에 `Search Weight`을(를) 설정할 수 있습니다.
 
 [!DNL Live Search]은(는) 삭제된 제품 또는 `Not Visible Individually`(으)로 설정된 제품을 색인화하지 않습니다.
 
@@ -43,9 +38,11 @@ ht-degree: 0%
 
 클라이언트가 검색(필터링 가능, 정렬 가능) 인덱스 메타데이터를 검색하기 위해 상점 첫 화면에서 검색 서비스를 호출합니다. *계층화된 탐색에서 사용* 속성이 `Filterable (with results)`(으)로 설정되어 있고 *제품 목록에서 정렬에 사용*&#x200B;이 `Yes`(으)로 설정된 검색 가능한 제품 특성만 검색 서비스에서 호출할 수 있습니다.
 
-동적 쿼리를 만들려면 검색 서비스는 검색 가능한 특성과 해당 [가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)를 알아야 합니다. [!DNL Live Search]은(는) Adobe Commerce 검색 가중치를 적용합니다(1-10, 10이 가장 높은 우선 순위). 동기화되어 카탈로그 서비스와 공유되는 데이터 목록은 다음 위치에 정의된 스키마에서 찾을 수 있습니다.
+동적 쿼리를 만들려면 검색 서비스는 검색 가능한 특성과 해당 [가중치](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)를 알아야 합니다. [!DNL Live Search]은(는) Adobe Commerce 검색 가중치를 적용합니다(1-10, 10이 가장 높은 우선 순위). 동기화되어 카탈로그 서비스와 공유되는 데이터 목록은 다음 위치에 정의된 스키마에서 찾을 수 있습니다.
 
 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`
+
+검색 가능한 특성 및 가중치가 쿼리 시간에 **exact**, **near**, 동일 필드 및 교차 필드 일치와 상호 작용하는 방법을 이해하려면 [검색 일치 및 순위](search-relevance-matching.md)를 참조하세요.
 
 ![[!DNL Live Search] 인덱싱 클라이언트 검색 다이어그램](assets/indexing-pipeline.svg)
 
@@ -100,7 +97,7 @@ ht-degree: 0%
 
 ## 클라이언트 검색
 
-[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [상점 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)을(를) 사용하여 [!DNL Live Search]에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
+[!DNL Live Search] API를 사용하면 클라이언트가 [storefront 속성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes), *제품 목록에서 정렬에 사용*&#x200B;을(를) `Yes`(으)로 설정하여 정렬 가능한 제품 특성별로 정렬할 수 있습니다. 테마에 따라 이 설정으로 인해 카탈로그 페이지의 [정렬 기준](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation) 페이지 매김 컨트롤에 특성이 옵션으로 포함됩니다. 검색 및 필터링 가능한 [상점 속성](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes)을(를) 사용하여 [!DNL Live Search]에서 최대 200개의 제품 특성을 색인화할 수 있습니다.
 
 인덱스 메타데이터는 인덱싱 파이프라인에 저장되고 검색 서비스에서 액세스할 수 있습니다.
 
