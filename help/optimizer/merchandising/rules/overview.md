@@ -1,29 +1,23 @@
 ---
 title: 머천다이징 규칙
 description: '[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 논리와 작업을 결합하여 검색 결과, 기본 제품 목록 및 범주 페이지를 표시합니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f2a9b5e8-d23d-4855-b424-ca6b40e057df
 TQID: https://experienceleague.adobe.com/1lpaqHx0SaVYLXcTSOToxvbpKzhPJKmhfxjlCvNQLkU
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 760
 ht-degree: 0%
 
 ---
 
 # 머천다이징 규칙
 
-머천다이징 규칙은 논리와 작업을 결합하여 **검색 결과**, **기본 제품 목록**(**모든 제품 목록**) 및 **카테고리 페이지**([카테고리 규칙](#category-rules)이(가) Beta에 있음)에 제품이 표시되는 방식을 결정합니다. 제품을 증폭, 매몰, 고정 또는 숨길 수 있으며 **인텔리전트 등급**&#x200B;을 적용하여 비즈니스 목표를 반영할 수 있습니다.
+머천다이징 규칙은 논리와 작업을 결합하여 **검색 결과**, **기본 제품 목록**(**모든 제품 목록**) 및 **범주 페이지**&#x200B;에서 제품이 표시되는 방식을 결정합니다. 제품을 증폭, 매몰, 고정 또는 숨길 수 있으며 **인텔리전트 등급**&#x200B;을 적용하여 비즈니스 목표를 반영할 수 있습니다.
 
 각 **검색 규칙**&#x200B;에는 세 가지 기본 구성 요소가 있습니다.
 
@@ -36,10 +30,6 @@ ht-degree: 0%
 검색 규칙에 대한 여러 조건과 작업을 결합하고 특정 기간 동안 모든 규칙이 활성화되도록 예약할 수 있습니다. 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 적용되는 **기본 규칙**(**모든 제품 목록**)을 설정할 수도 있습니다.
 
 ## 범주 규칙 {#category-rules}
-
->[!IMPORTANT]
->
->카테고리 규칙은 베타 버전입니다.
 
 **범주 규칙**&#x200B;은(는) **범주 페이지**&#x200B;에서 제품 순서를 제어합니다. 하나 이상의 카테고리를 선택한 다음 지능형 순위(예: 가장 많이 본 항목, 트렌드)와 고정, 증폭 및 묻기와 같은 수동 작업을 적용합니다. 검색 쿼리 조건은 사용하지 않습니다. 설정 단계, 규칙 유형 및 등급이 범주 대 검색에 적용되는 방법에 대해서는 [규칙 만들기 및 관리](add.md)를 참조하십시오.
 

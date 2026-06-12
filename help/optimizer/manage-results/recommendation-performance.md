@@ -1,22 +1,15 @@
 ---
 title: 권장 사항 성능
 description: 권장 사항 성능 페이지는 insight에 제품 권장 사항이 얼마나 잘 수행되고 있는지 알려줍니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
 TQID: https://experienceleague.adobe.com/YDgbC964pr7YI4Yas7pHTgnzDY2oxk-uR-eM6eVJE1w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -96,10 +89,6 @@ ht-degree: 0%
 | vCTR | (조회 클릭스루 비율) 조회 가능한 노출 횟수(쇼핑객 화면에 실제로 표시된 권장 사항)에만 기반한 클릭 수를 측정하므로 쇼핑객 참여를 보다 정확하게 측정할 수 있습니다. |
 
 ## 카탈로그 보기 선택
-
->[!IMPORTANT]
->
->이 기능은 현재 베타 버전입니다.
 
 **권장 사항** 페이지의 **[!UICONTROL Catalog view]** 선택기는 다음 두 가지 작업을 수행합니다.
 
