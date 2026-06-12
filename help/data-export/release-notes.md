@@ -5,22 +5,13 @@ feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
 TQID: https://experienceleague.adobe.com/l3Z3-ncMTQ3j-4s6xL9X8ZYtlBHqzhBfMLc2jL4Kv6A
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: fad62add01dfb6155f30bcfe791eb66de210b7a1
 workflow-type: tm+mt
-source-wordcount: 2857
+source-wordcount: 2903
 ht-degree: 0%
 
 ---
@@ -40,6 +31,12 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스
+
+### 103.4.28 릴리스
+
+_2026년 6월 11일_
+
+![수정](../assets/fix.svg) **예약된 업데이트 후 정확한 범주 URL**-예약된 범주 URL 변경 사항으로 인해 연결된 Commerce 서비스에 중복되거나 오래된 슬러그가 발생할 수 있는 문제를 해결했습니다. 이제 변경 사항이 적용된 후 카테고리 탐색 및 제품 카테고리 링크에 업데이트된 URL이 표시됩니다.
 
 ### 103.4.27 릴리스
 
@@ -101,7 +98,7 @@ _2026년 4월 13일_
 - 삭제하는 동안 내보내기 서비스를 사용할 수 없었던 경우 연결된 Commerce 서비스에서 삭제된 제품이 제대로 제거되지 않았던 문제를 수정했습니다. 이제 작업을 다시 시도하고 재동기화하여 삭제된 제품이 SaaS에 올바르게 반영되는지 확인합니다. <!--MDEE-1319-->
 - 이제 관리 스토어 보기에 대한 속성 값이 누락된 경우에도 카탈로그 엔티티(제품 및 카테고리)를 연결된 Commerce 서비스로 내보낼 수 있습니다. 이렇게 하면 타사 확장과의 호환성이 향상되고 기본값이 누락되어 발생하는 내보내기 오류가 줄어듭니다. <!--MDEE-1333-->
 
-![수정](../assets/fix.svg) 피드 레코드에 예기치 않거나 누락된 데이터가 포함되어 있을 때 발생할 수 있는 데이터 피드 동기화 상태 페이지의 오류를 해결했습니다. 이제 시스템에서 이러한 경우를 정상적으로 처리하여 안정성을 향상시키고 충돌을 방지합니다. Adobe Commerce Optimizer Connector를 사용하여 Adobe Commerce에서 Adobe Commerce Optimizer으로 데이터를 동기화하는 경우 [Adobe Commerce Optimizer Connector 버전 1.0.11](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/release-notes) 이상으로 업데이트하여 문제를 해결하십시오.<!--MDEE-1327-->
+![수정](../assets/fix.svg) 피드 레코드에 예기치 않거나 누락된 데이터가 포함되어 있을 때 발생할 수 있는 데이터 피드 동기화 상태 페이지의 오류를 해결했습니다. 이제 시스템에서 이러한 경우를 정상적으로 처리하여 안정성을 향상시키고 충돌을 방지합니다. Adobe Commerce Optimizer Connector를 사용하여 Adobe Commerce에서 Adobe Commerce Optimizer으로 데이터를 동기화하는 경우 [Adobe Commerce Optimizer Connector 버전 1.0.11](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/release-notes) 이상으로 업데이트하여 문제를 해결하십시오.<!--MDEE-1327-->
 
 ### 103.4.21 릴리스
 
@@ -127,7 +124,7 @@ _2026년 2월 6일_
 
 _2026년 2월 2일_
 
-![수정](../assets/fix.svg) 업데이트 중에 항목 배치가 허용된 한도를 초과하여 데이터를 [Commerce 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home) 또는 [Adobe Commerce Optimizer](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)과(와) 동기화할 때 `items_limit_exceeded` 오류가 발생하는 문제를 해결했습니다. <!--MDEE-1264-->
+![수정](../assets/fix.svg) 업데이트 중에 항목 배치가 허용된 한도를 초과하여 데이터를 [Commerce 서비스](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) 또는 [Adobe Commerce Optimizer](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)과(와) 동기화할 때 `items_limit_exceeded` 오류가 발생하는 문제를 해결했습니다. <!--MDEE-1264-->
 
 ![수정](../assets/fix.svg) 번들 제품 옵션 수집 중에 실패한 항목을 등록하는 논리를 추가하여 제품 데이터 내보내기의 안정성을 개선했습니다. <!--CCSAAS-4458-->
 
@@ -155,7 +152,7 @@ _2025년 11월 24일_
 
 _2025년 10월 22일_
 
-![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)을 참조하십시오. <!--MDEE-954-->
+![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html)을 참조하십시오. <!--MDEE-954-->
 
 ### 103.4.14 릴리스
 
@@ -181,7 +178,7 @@ _2025년 9월 18일_
 
 _2025년 8월 29일_
 
-![새로 만들기](../assets/new.svg) [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+![새로 만들기](../assets/new.svg) [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 제품 피드에 Commerce 제품 구성의 세금 클래스, 속성 세트 및 재고 데이터를 포함하도록 추가 제품 속성에 대한 지원을 추가했습니다. 제품 내보내기 피드에 이러한 속성을 포함하려는 고객은 추가 제품 속성 모듈을 Adobe Commerce 프로젝트에 추가해야 합니다. [세금 클래스, 특성 집합 및 재고 특성 추가](add-tax-attribute-set-inventory-attributes.md)를 참조하십시오.<!--MDEE-1135-->
 
 ![수정](../assets/fix.svg) 전체 제품 색인 중에 오류가 발생한 경우 삭제된 제품 업데이트에 대해 잘못 동기화되는 문제를 해결했습니다. 이제 인덱싱 프로세스 중에 오류가 발생하더라도 모든 제품 삭제가 올바르게 동기화됩니다. <!--MDEE-1144-->
@@ -290,7 +287,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 _2025년 2월 28일_
 
-!&lbrack;카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->&rbrack;(../assets/fix.svg)
+![카탈로그 데이터 내보내기 cron 작업 실패와 관련된 오류에 대한 메시지를 개선하여 `cron.log`에서 추적 불가능한 `BulkException` 오류를 해결했습니다.<!--MDEE-966-->](../assets/fix.svg)
 
 ![수정](../assets/fix.svg) 스토어 보기 수가 많은 인스턴스에서 제품 재동기화 프로세스의 성능을 개선했습니다. <!--MDEE-974-->
 
