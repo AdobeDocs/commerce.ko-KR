@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: f7ea996f3adcd3beb2a9c064ce57d251f49ae5b3
 workflow-type: tm+mt
-source-wordcount: 787
+source-wordcount: 812
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 0%
 동적 쿼리를 만들려면 검색 서비스는 검색 가능한 특성과 해당 [가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)를 알아야 합니다. [!DNL Live Search]은(는) Adobe Commerce 검색 가중치를 적용합니다(1-10, 10이 가장 높은 우선 순위). 동기화되어 카탈로그 서비스와 공유되는 데이터 목록은 다음 위치에 정의된 스키마에서 찾을 수 있습니다.
 
 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`
+
+검색 가능한 특성 및 가중치가 쿼리 시간에 **exact**, **near**, 동일 필드 및 교차 필드 일치와 상호 작용하는 방법을 이해하려면 [검색 일치 및 순위](search-relevance-matching.md)를 참조하세요.
 
 ![[!DNL Live Search] 인덱싱 클라이언트 검색 다이어그램](assets/indexing-pipeline.svg)
 

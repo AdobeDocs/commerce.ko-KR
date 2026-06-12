@@ -15,9 +15,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 86b218d78731585dca4e8829fb886010ef27a2d5
+source-git-commit: f7ea996f3adcd3beb2a9c064ce57d251f49ae5b3
 workflow-type: tm+mt
-source-wordcount: 3008
+source-wordcount: 3006
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 - 잘 설계된 검색 경험은 고객과 신뢰를 쌓고, 필요한 것을 찾을 수 있다는 자신감을 심어줍니다.
 - 검색 규칙은 인기, 새 도착, 프로모션 기준 또는 비즈니스 요구 사항을 충족하는 기타 머천다이징 전략에 따라 특정 제품의 가시성을 높일 수 있으므로 중요합니다.
 - 패싯된 탐색을 사용하면 고객이 검색을 구체화하고 관련 결과를 빠르게 얻을 수 있습니다.
+
+[!DNL Live Search]이(가) **정확히 일치하는 항목, 거의 일치하는 항목, 동일한 필드 일치 항목 및 교차 필드 일치 항목의 우선 순위를 매기는 방법** 및 이러한 요소가 검색 가중치와 규칙과 상호 작용하는 방법을 이해하려면 [검색 일치 및 순위 지정](search-relevance-matching.md)을 참조하십시오.
 
 [!DNL Live Search]을(를) 관리하려면 Adobe [!DNL Commerce] 관리자의 **마케팅** > *SEO 및 검색* > **[!DNL Live Search]**(으)로 이동하세요. 
 
