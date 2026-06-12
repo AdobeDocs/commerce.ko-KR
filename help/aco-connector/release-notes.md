@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6d4493db5e0714577a8800007cc6d2c552578fa4
+source-git-commit: af45543a52d1c88149574dc22cdef37af01404c8
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
 ## 2026 릴리스
+
+### 1.0.14 릴리스
+
+_2026년 6월 11일_
+
+![수정](../assets/fix.svg) **PHP 8.5 호환성** - 이제 [!DNL Adobe Commerce Optimizer Connector]이(가) PHP 8.5를 지원하므로 커넥터 기능이나 카탈로그 동기화를 중단하지 않고 [!DNL Adobe Commerce] 환경을 업그레이드할 수 있습니다. <!--MDEE-1388-->
+
+![수정](../assets/fix.svg) **통화 변경 후 가격 장부가 업데이트됨** - 업데이트된 가격은 통화 변경 후 Adobe Commerce Optimizer에 자동으로 반영됩니다. <!--MDEE-1384-->
+
+![수정](../assets/fix.svg) **탐색에서 사용하지 않거나 숨겨진 상위 범주를 따릅니다** - 사용하지 않거나 숨겨진 범주 계층의 제품이 더 이상 탐색 경험에 예기치 않게 표시되지 않습니다.<!--MDEE-1385-->
+
+![수정](../assets/fix.svg) **스테이징 업데이트 후 일관된 범주 URL** - 스테이징 업데이트가 적용된 후에도 범주 링크 및 탐색이 정확하게 유지됩니다. <!--MDEE-1395-->
 
 ### 1.0.13 릴리스
 
