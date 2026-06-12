@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+source-git-commit: fad62add01dfb6155f30bcfe791eb66de210b7a1
 workflow-type: tm+mt
-source-wordcount: 2857
+source-wordcount: 2903
 ht-degree: 0%
 
 ---
@@ -40,6 +40,12 @@ ht-degree: 0%
 >SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스
+
+### 103.4.28 릴리스
+
+_2026년 6월 11일_
+
+![수정](../assets/fix.svg) **예약된 업데이트 후 정확한 범주 URL**-예약된 범주 URL 변경 사항으로 인해 연결된 Commerce 서비스에 중복되거나 오래된 슬러그가 발생할 수 있는 문제를 해결했습니다. 이제 변경 사항이 적용된 후 카테고리 탐색 및 제품 카테고리 링크에 업데이트된 URL이 표시됩니다.
 
 ### 103.4.27 릴리스
 
