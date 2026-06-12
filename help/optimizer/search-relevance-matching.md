@@ -5,9 +5,24 @@ role: Admin, Leader, User
 recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 hide: true
-source-git-commit: 678b8e06102d473bef66649a0f09865ecf0cbaae
+autotag-review: '2026-06-12T19:49:25.241Z'
+TQID: 'https://experienceleague.adobe.com/GBfssL1pTVx4FKjsi45mDsTx2XyCr0aViexH3OpPjVo'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+subfeature_v2:
+  - id: faf75e43-5608-48b8-8169-3f8a9b8a5caf
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: da5950c0f2071f48f163dd02f6c38953804ae152
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 946
 ht-degree: 0%
 
 ---
