@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: cf623b835d5590b32f1425c4aab25efa52b50498
+source-git-commit: e055a3d44eda7e7f082a884c316ad437ea9ac15e
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ _2025년 2월 11일_
 ![새 문제](../assets/new.svg) 이제 판매자는 제품 및 범주에 대한 이미지를 동기화할 수 있습니다.
 
 +++
+
+## v1.4.1
+
+_2026년 6월 15일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![해결된 문제](../assets/fix.svg) AEM Assets 통합을 사용하도록 설정할 때 **[!UICONTROL OBSERVABILITY]** 섹션 헤더가 관리 **[!UICONTROL System]** 메뉴에서 누락되어 제목 없이 **[!UICONTROL Subscription List]** 링크가 표시되는 문제를 해결했습니다. <!--ACAP-1302 -->
+
+![문제 해결](../assets/fix.svg) AEM Assets 통합 구성을 저장하면 Dynamic Media Open API가 활성화되지 않은 인스턴스에서 명확한 메시지가 아닌 원시 PHP 경고가 표시되는 문제가 해결되었습니다. 이제 명확하고 일반적인 오류 메시지가 나타납니다. <!-- ACAP-1298 -->
+
+## v1.4.0
+
+_2026년 6월 12일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1101 --> 일괄 처리된 자산 업데이트 호출을 통해 전반적인 안정성 및 이벤트 처리 성능이 개선되었습니다.
 
 ## v1.3.7
 
