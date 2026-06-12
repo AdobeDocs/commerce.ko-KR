@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4d08de7974c79dc6fe20366e0164f6078e83be5f
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 1216
+source-wordcount: 1210
 ht-degree: 0%
 
 ---
@@ -81,10 +81,6 @@ ht-degree: 0%
 이러한 단계를 완료하면 이제 선택한 소스 및 정책을 기반으로 제품 및 가격을 표시하도록 카탈로그 보기가 구성됩니다.
 
 ### 권장 사항 및 제품 검색 규칙에 대한 카탈로그 보기 지정
-
->[!IMPORTANT]
->
->이 기능은 현재 베타 버전입니다.
 
 [추천 단위를 만들기](../merchandising/recommendations/create.md) 또는 [머천다이징 규칙](../merchandising/rules/add.md)할 때 카탈로그 보기를 지정할 수 있습니다.
 

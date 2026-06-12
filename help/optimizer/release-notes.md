@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bd4c59c451d7b08de7dc6ef00da2556fb9a6696f
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1316
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 지능형 순위 증가
 
-검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)(베타)에 대한 [머천다이징 규칙](./merchandising/rules/add.md#intelligent-ranking-boost)에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
+[&#128279;](./merchandising/rules/add.md#intelligent-ranking-boost)검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
 
 ### API 업데이트
 
@@ -89,7 +89,7 @@ _2026년 5월 4일_
 
 >[!BEGINSHADEBOX]
 
-### 카탈로그 규칙(베타)
+### 카탈로그 규칙
 
 [카테고리 규칙](./merchandising/rules/add.md)은(는) 머천다이징 규칙을 확장하므로 카테고리를 타겟팅하고 카테고리 페이지의 제품 순서를 검색과 동일한 순위 및 작업(고정, 증폭, 저장)으로 제어할 수 있습니다.
 
@@ -145,7 +145,7 @@ _2026년 3월 24일_
 
 >[!BEGINSHADEBOX]
 
-### 머천다이징 규칙 및 권장 사항에 대한 카탈로그 보기(베타)
+### 머천다이징 규칙 및 권장 사항에 대한 카탈로그 보기
 
 이제 [추천 단위를 만들기](./merchandising/recommendations/create.md) 또는 [머천다이징 규칙](./merchandising/rules/add.md)할 때 카탈로그 보기를 지정할 수 있습니다.
 

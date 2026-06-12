@@ -12,10 +12,10 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 969
-ht-degree: 0%
+source-wordcount: 963
+ht-degree: 1%
 
 ---
 
@@ -100,10 +100,6 @@ ht-degree: 0%
 | 활성화됨 | 규칙의 상태를 변경하는 컨트롤입니다. 옵션: 활성화 / 비활성화 |
 
 ## 카탈로그 보기 선택
-
->[!IMPORTANT]
->
->이 기능은 현재 베타 버전입니다.
 
 머천다이징 규칙 페이지의 **[!UICONTROL Catalog view]** 선택기는 다음 두 가지 작업을 수행합니다.
 

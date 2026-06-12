@@ -14,9 +14,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ ht-degree: 0%
 | vCTR | (조회 클릭스루 비율) 조회 가능한 노출 횟수(쇼핑객 화면에 실제로 표시된 권장 사항)에만 기반한 클릭 수를 측정하므로 쇼핑객 참여를 보다 정확하게 측정할 수 있습니다. |
 
 ## 카탈로그 보기 선택
-
->[!IMPORTANT]
->
->이 기능은 현재 베타 버전입니다.
 
 **권장 사항** 페이지의 **[!UICONTROL Catalog view]** 선택기는 다음 두 가지 작업을 수행합니다.
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
 workflow-type: tm+mt
-source-wordcount: 1615
+source-wordcount: 1573
 ht-degree: 0%
 
 ---
@@ -35,10 +35,6 @@ _추천 단위_
 1. _[!DNL Adobe Commerce Optimizer]_&#x200B;사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동하여_&#x200B;권장 사항&#x200B;_작업 영역을 표시합니다.
 
 1. **카탈로그 보기** 필드에서 권장 사항을 사용할 수 있는 카탈로그 보기를 선택합니다. [권장 사항에 카탈로그 보기 사용](../../manage-results/recommendation-performance.md#select-catalog-view)에 대해 자세히 알아보세요.
-
-   >[!IMPORTANT]
-   >
-   >이 기능은 현재 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta)에 있습니다. Beta 참가자는 새 카탈로그 보기 범위를 활용하려면 기존 추천 단위를 다시 만들어야 합니다.
 
 1. **추천 만들기**&#x200B;를 클릭합니다.
 
