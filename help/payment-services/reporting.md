@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: d0d0634283493f61faae94bebb9da1c8bd177e55
 workflow-type: tm+mt
-source-wordcount: 1391
+source-wordcount: 1439
 ht-degree: 0%
 
 ---
@@ -59,9 +59,13 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 
 >[!TAB Adobe Commerce as a Cloud Service 및 Commerce Optimizer]
 
-SaaS 배포에 동일한 보고서 기능이 적용됩니다. 탐색 표시에 **[!UICONTROL Home]** > **[!UICONTROL Transactions]**&#x200B;이(가) 표시되며, 그리드에는 **[!UICONTROL Order ID]**, **[!UICONTROL PayPal Transaction ID]**, **[!UICONTROL Customer ID]**, **[!UICONTROL Transaction Date]**, **[!UICONTROL Payment Method]**, **[!UICONTROL Payment Detail]**, **[!UICONTROL Card Last Four]**, **[!UICONTROL Result]** 및 **[!UICONTROL Response Code]**&#x200B;과(와) 같은 열이 포함됩니다.
+이러한 SaaS 배포의 경우 대시보드의 테이블 형식 트랜잭션 보고서는 이 항목에서 설명하는 기능(필터, 열, 데이터 소스, 다운로드 등)과 일치합니다. 탐색 표시에 **[!UICONTROL Home]** > **[!UICONTROL Transactions]**&#x200B;이(가) 표시되며, 그리드에는 **[!UICONTROL Order ID]**, **[!UICONTROL PayPal Transaction ID]**, **[!UICONTROL Customer ID]**, **[!UICONTROL Transaction Date]**, **[!UICONTROL Payment Method]**, **[!UICONTROL Payment Detail]**, **[!UICONTROL Card Last Four]**, **[!UICONTROL Result]** 및 **[!UICONTROL Response Code]**&#x200B;과(와) 같은 열이 포함됩니다.
 
 ![SaaS에 대한 트랜잭션 보고서 보기](assets/transactions-report-view-saas.png){width="800" zoomable="yes"}
+
+>[!NOTE]
+>
+>SaaS [!DNL Payment Services] 대시보드에는 Adobe Commerce 온 클라우드 및 온프레미스에 대해 표시되는 모든 보고서 또는 홈 시작 지점이 포함되어 있지 않습니다. 배포당 사용할 수 있는 내용은 [[!DNL Payment Services] 홈](payments-home.md)을 참조하세요.
 
 >[!ENDTABS]
 

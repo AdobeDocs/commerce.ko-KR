@@ -5,9 +5,9 @@ role: Admin, User
 level: Intermediate
 exl-id: d7a4c87f-33cb-446a-b442-3cdf05b518a2
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+source-git-commit: d85c2ab6b4f0372f8abfe09e92b3143c08ad883c
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,17 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 
 결제 서비스 홈에서 ![ACCS 온보딩 필요](assets/payment-services-home-accs-onboarding.png){width="700" zoomable="yes"}
 
-온보딩이 완료된 후(또는 이미 구성된 인스턴스에서) **[!UICONTROL Home]**&#x200B;은(는) 테이블 형식 보고서에 대해 **[!UICONTROL Transactions]**&#x200B;이(가) 포함된 **[!UICONTROL View Report]**&#x200B;과(와) **[!UICONTROL Learn]** 및 **[!UICONTROL Help]** 영역을 표시합니다.
+온보딩이 완료된 후(또는 이미 구성된 인스턴스에서) **[!UICONTROL Home]**&#x200B;은(는) 테이블 형식 보고서에 대해 **[!UICONTROL View Report]**&#x200B;이(가) 포함된 **[!UICONTROL Transactions]**&#x200B;과(와) **[!UICONTROL Learn]** 및 **[!UICONTROL Help]** 영역을 표시합니다.
 
 ![SaaS의 결제 서비스 홈](assets/payment-services-home-saas.png){width="700" zoomable="yes"}
 
 >[!ENDTABS]
 
-이 홈 보기에서 _홈_, _에 대한_&#x200B;학습[!DNL Payment Services]에 액세스하거나, 확장 _설정_&#x200B;을 구성하거나, _도움말_&#x200B;을 받을 수 있습니다. **[!UICONTROL View Report]**(SaaS) 또는 **[!UICONTROL Orders]** 및 **[!UICONTROL Payouts]** 진입점(클라우드 및 온-프레미스의 Adobe Commerce)을 사용하여 보고를 엽니다. [보고](reporting.md)를 참조하십시오.
+이 홈 보기에서 _홈_, [!DNL Payment Services]에 대한 _학습_&#x200B;에 액세스하거나, 확장 _설정_&#x200B;을 구성하거나, _도움말_&#x200B;을 받을 수 있습니다. **[!UICONTROL View Report]**(SaaS) 또는 **[!UICONTROL Orders]** 및 **[!UICONTROL Payouts]** 진입점(클라우드 및 온-프레미스의 Adobe Commerce)을 사용하여 보고를 엽니다. [보고](reporting.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]에서 [!DNL Payment Services] **대시보드**&#x200B;는 **선택됨** 보고만 표시합니다. **[!UICONTROL Home]**&#x200B;에서 [트랜잭션](reporting.md) 보고서를 가져옵니다(아래 SaaS 표 참조). 홈의 **[!UICONTROL Orders]** 및 **[!UICONTROL Payouts]** 영역, 차트 및 연결된 보고서는 클라우드와 온-프레미스([PaaS](#home))에만 적용됩니다. 배포 간 현금 흐름 보고서에 대한 개요는 [재무 보고](financial-reporting.md)를 참조하십시오.
 
 ## 홈
 
@@ -66,7 +70,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Paym
 | 필드 | 설명 |
 |---|---|
 | [!UICONTROL Visit help center] | [!DNL Adobe Commerce] 도움말 센터에 [!DNL Payment Services]에 대한 기술 자료 문서가 있습니다. |
-| [!UICONTROL Get support] | [!DNL Adobe Commerce]에 대한 지원이 필요하면 [!DNL Payment Services] 지원 포털을 방문하십시오. |
+| [!UICONTROL Get support] | [!DNL Payment Services]에 대한 지원이 필요하면 [!DNL Adobe Commerce] 지원 포털을 방문하십시오. |
 
 ## 설정
 

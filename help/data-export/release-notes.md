@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: fad62add01dfb6155f30bcfe791eb66de210b7a1
+source-git-commit: 69f39a6a62e05c86a0e2897d09079543b3d8830e
 workflow-type: tm+mt
 source-wordcount: 2903
 ht-degree: 0%
@@ -517,5 +517,6 @@ _2024년 3월 5일_
 _2024년 2월 21일_
 
 - 제품 및 가격에 대한 다중 스레드 데이터 동기화를 추가했습니다.
+
 
 
