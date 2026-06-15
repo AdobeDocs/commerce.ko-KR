@@ -129,7 +129,7 @@ ht-degree: 0%
 * [!DNL Google Pay] 페이시트에 추가된 코드는 Commerce 장바구니 페이지가 아닌 페이시트에서만 제거할 수 있습니다.
 * Adobe Commerce 2.4.4-2.4.6에서 플랫폼 제한으로 인해 [!DNL Google Pay] 급여 시트의 할인 라인에 값이 표시되지 않을 수 있습니다.
 * Adobe Commerce 2.4.7에서는 GraphQL 응답의 플랫폼 제한으로 인해 할인 값이 일부 제품(주로 다운로드 가능한 제품)의 [!DNL Google Pay] 페이시트에 표시되지 않을 수 있습니다.
-* 자동 [장바구니 가격 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html)이 적용되는 경우(예: &quot;$50 off when spending us $200&quot;), 이 규칙은 쇼핑객이 급여시트에서 적용하는 모든 코드와 결합됩니다. [!DNL Google Pay] 지불 시트에 표시되는 합계는 주문 요약과 다를 수 있습니다.
+* 자동 [장바구니 가격 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html?lang=ko)이 적용되는 경우(예: &quot;$50 off when spending us $200&quot;), 이 규칙은 쇼핑객이 급여시트에서 적용하는 모든 코드와 결합됩니다. [!DNL Google Pay] 지불 시트에 표시되는 합계는 주문 요약과 다를 수 있습니다.
 
 ### [!DNL PayPal Payment Buttons]
 
