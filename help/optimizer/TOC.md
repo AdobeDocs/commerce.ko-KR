@@ -5,9 +5,9 @@ user-guide-description: ' [!DNL Adobe Commerce Optimizer]에 대한 설명서 �
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: 8d947f52d4a8be8fdb74675ff72145ded76d32bc
+source-git-commit: 3e759c0d7e51082b70ea9a1fcc5757b60a8aab61
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 11%
    - [영업 기회](./manage-results/opportunities.md)
    - [성공 지표](./manage-results/success-metrics.md)
    - [검색 성능](./manage-results/search-performance.md)
+   - {hide-from-toc}[일치 및 순위 검색](./manage-results/search-relevance-matching.md)
    - [권장 사항 성능](./manage-results/recommendation-performance.md)
 - 머천다이징 {#merchandising}
    - [개요](./merchandising/overview.md)

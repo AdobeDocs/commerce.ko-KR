@@ -4,10 +4,10 @@ breadcrumb-title: '[!DNL Live Search]'
 user-guide-description: 이 안내서에서는 Adobe Commerce에서  [!DNL Live Search] 을(를) 사용하는 방법에 대한 자세한 지침을 제공합니다.
 role: Admin
 feature: Services, Search
-source-git-commit: 8b93be7e618c7a93803e62eabb1cd38ebe8b45ba
+source-git-commit: 3e759c0d7e51082b70ea9a1fcc5757b60a8aab61
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 8%
+source-wordcount: '104'
+ht-degree: 7%
 
 ---
 
@@ -45,8 +45,9 @@ ht-degree: 8%
    - [카테고리 머천다이징](category-merch.md)
    - [품절 제품 관리](manage-out-of-stock-products.md)
    - [색인화](indexing.md)
+   - {hide-from-toc}[일치 및 순위 검색](search-relevance-matching.md)
    - [GraphQL](graphql.md)
    - [설정](settings.md)
    - [의미 체계 검색](semantic-search.md)
 - [개발자 안내서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

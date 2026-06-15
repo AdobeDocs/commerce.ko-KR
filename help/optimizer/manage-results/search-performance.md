@@ -15,7 +15,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b9b57bb7279354c9d5c2a7efc6e1ba14c1c36598
+source-git-commit: 3e759c0d7e51082b70ea9a1fcc5757b60a8aab61
 workflow-type: tm+mt
 source-wordcount: 1936
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 검색에서 **정확히 일치하는 항목**, 동일 필드 일치 항목, 더 광범위한 일치 항목 및 키워드 가중치 및 머천다이징 규칙과 상호 작용하는 방법에 대해 알아보려면 [일치 항목 검색 및 순위 지정](../search-relevance-matching.md)을 참조하세요.
+>제품 검색에서 **정확히 일치하는 항목**, 동일 필드 일치 항목, 더 광범위한 일치 항목 및 키워드 가중치 및 머천다이징 규칙과 상호 작용하는 방법에 대해 알아보려면 [일치 항목 검색 및 순위 지정](search-relevance-matching.md)을 참조하세요.
 
 ## **카탈로그 보기** 선택
 

@@ -20,7 +20,7 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: da5950c0f2071f48f163dd02f6c38953804ae152
+source-git-commit: 717ecbc9c6aa41f8a504579de8ce55f514cc4307
 workflow-type: tm+mt
 source-wordcount: 946
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 - **같은 필드에 있는 모든 단어** — **same** 검색 가능한 속성에서 **brauseschlauch** 및 **chrom**&#x200B;을(를) 찾습니다(예: **name**&#x200B;에서 두 단어 모두).
 - **다른 필드의 단어** — **Brauseschlauch**&#x200B;을(를) **brause** 및 **schlauch**(으)로 압축 해제합니다. 이러한 토큰은 **same** 필드에 나타나야 합니다(반드시 인접한 구문일 필요는 없음). **chrom**&#x200B;은(는) **다른** 필드에서 일치할 수 있습니다(예: **name**&#x200B;의 **brause** 및 **schlauch**, **color**&#x200B;의 **chrom**).
 
-[설정](./settings.md)의 [언어](./settings.md#language) 탭에서 **언어**&#x200B;을(를) **독일어**(으)로 설정하여 컴파운딩 규칙이 적용되도록 합니다. 프로덕션에서 변경 사항을 활성화하기 전에 스테이징 스토어에서 가치가 높은 독일어 쿼리의 유효성을 검사하십시오.
+[설정](../settings.md)의 [언어](../settings.md#language) 탭에서 **언어**&#x200B;을(를) **독일어**(으)로 설정하여 컴파운딩 규칙이 적용되도록 합니다. 프로덕션에서 변경 사항을 활성화하기 전에 스테이징 스토어에서 가치가 높은 독일어 쿼리의 유효성을 검사하십시오.
 
 압축 해제는 규칙을 기반으로 하며 이 레이어에 경계 사례를 추가할 수 있습니다. 사전에서 하위 단어가 누락된 경우 토큰화가 완료되지 않았으며 예상보다 광범위한 일치 항목을 반환할 수 있습니다. 예를 들어 **gaszähler**&#x200B;에서 누락된 **gas**&#x200B;은(는) **zahl**&#x200B;만 방출하거나 **stat**&#x200B;이(가) **thermostat**&#x200B;에서 누락된 것일 수 있습니다. 또한 스테머는 예기치 않은 루트를 생성할 수 있습니다(예: **schraub** 또는 **schelle**&#x200B;에서 **schell**&#x200B;까지 **schrauber**). Adobe은 문제가 식별됨에 따라 알려진 사례에 대한 사전 및 스테밍 재정의를 업데이트합니다.
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
-- 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](./merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](./settings.md)**&#x200B;를 구성하십시오.
-- 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](./merchandising/rules/overview.md)**
+- 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
+- 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](../merchandising/rules/overview.md)**
 
 이러한 신호가 상호 작용하므로 가장 넓은 수준에서만 일치하는 제품은 경우에 따라 더 엄격한 구문 일치(예: **검색 가중치** 또는 높은 가중치 필드의 용어 빈도가 더 약한 구문 일치보다 높은 경우)보다 높은 순위를 지정할 수 있습니다.
 
@@ -97,8 +97,8 @@ ht-degree: 0%
 
 ## 관련 항목
 
-- [설정](./settings.md)
-- [검색 성능](./manage-results/search-performance.md)
-- [머천다이징 규칙 개요](./merchandising/rules/overview.md)
-- [검색 규칙 추가](./merchandising/rules/add.md)
-- [동의어 개요](./merchandising/synonyms/overview.md)
+- [설정](../settings.md)
+- [검색 성능](search-performance.md)
+- [머천다이징 규칙 개요](../merchandising/rules/overview.md)
+- [검색 규칙 추가](../merchandising/rules/add.md)
+- [동의어 개요](../merchandising/synonyms/overview.md)
