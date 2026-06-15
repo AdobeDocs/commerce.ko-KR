@@ -2,9 +2,9 @@
 title: ' [!DNL Adobe Commerce Optimizer]이란?'
 description: ' [!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: e68d731bbcc168439c9a56a7cb778648a7c473e9
+source-git-commit: 3e759c0d7e51082b70ea9a1fcc5757b60a8aab61
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -21,12 +21,12 @@ ht-degree: 0%
 - 모든 소스에서 카탈로그 데이터 수집.
 - 비즈니스 카탈로그 보기 및 정책을 정의합니다.
 - AI와 ML을 사용하여 개인화된 검색 및 권장 사항을 만듭니다.
-- **정확한 일치 항목**&#x200B;과(와) 동일 필드 일치 항목의 우선 순위를 지정하는 순위로 제품 검색 관련성을 개선합니다. [일치 항목 검색 및 순위](search-relevance-matching.md)을(를) 참조하십시오.
+- **정확한 일치 항목**&#x200B;과(와) 동일 필드 일치 항목의 우선 순위를 지정하는 순위로 제품 검색 관련성을 개선합니다. [일치 항목 검색 및 순위](./manage-results/search-relevance-matching.md)을(를) 참조하십시오.
 - 정확한 구현 및 문제 해결을 위해 동기화 상태 및 상점 이벤트 데이터를 포함한 중요한 제품 데이터 가용성을 확인합니다.
 
 [!DNL Adobe Commerce Optimizer]에 대한 높은 수준의 개요를 보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450470?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## [!DNL Adobe Commerce Optimizer]을(를) 통해 가장 많은 혜택을 누리는 사람
 
