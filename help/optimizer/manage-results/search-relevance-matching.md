@@ -3,7 +3,7 @@ title: 일치 및 순위 검색
 description: ' [!DNL Adobe Commerce Optimizer] 정확한 일치, 거의 일치, 동일 필드 일치, 교차 필드 일치를 우선시하고, 등급이 검색 가중치, 지능형 등급 및 머천다이징 규칙과 상호 작용하는 방법을 알아봅니다.'
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 hide: true
 autotag-review: '2026-06-12T19:49:25.241Z'
 TQID: 'https://experienceleague.adobe.com/GBfssL1pTVx4FKjsi45mDsTx2XyCr0aViexH3OpPjVo'
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->다음 기능은 [개인 베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta)에 있습니다.
+>다음 기능은 [개인 베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta)에 있습니다.
 
 [!DNL Adobe Commerce Optimizer]은(는) 가장 관련성이 높은 제품을 먼저 볼 수 있도록 결과에 순위를 매깁니다. 이 서비스는 카탈로그 텍스트가 쇼핑객 유형과 **밀접하게**&#x200B;일치하는 제품에 가장 강력한 지지를 보내고 의미 있는 방식으로 쿼리 용어가 함께 표시되는 항목을 선호하며, 마지막으로 광범위한 일치(자동 완성 스타일 일치를 지원하는 동작 포함)를 포함합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
 - 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
 - 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](../merchandising/rules/overview.md)**
 
 이러한 신호가 상호 작용하므로 가장 넓은 수준에서만 일치하는 제품은 경우에 따라 더 엄격한 구문 일치(예: **검색 가중치** 또는 높은 가중치 필드의 용어 빈도가 더 약한 구문 일치보다 높은 경우)보다 높은 순위를 지정할 수 있습니다.
