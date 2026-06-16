@@ -5,9 +5,9 @@ role: User
 level: Intermediate
 exl-id: 192e47b9-d52b-4dcf-a720-38459156fda4
 feature: Payments, Checkout, Orders, Paas, Saas
-source-git-commit: d85c2ab6b4f0372f8abfe09e92b3143c08ad883c
+source-git-commit: 09630af055b4d59f37fba2d3c398042161a7afa0
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -108,9 +108,22 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 보류 중인 캡처 트랜잭션이 `Completed` 상태로 전환되는 시점을 감지하여 판매자가 영향을 받는 주문 처리를 다시 시작할 수 있도록 하십시오.
 
-이 프로세스가 예상대로 작동하는지 확인하려면 판매자는 새 cron 작업을 구성해야 합니다. 작업이 자동으로 실행되도록 구성되면 판매자의 다른 개입이 필요하지 않습니다.
+>[!NOTE]
+>
+>비동기 모니터링은 기본적으로 비활성화되어 있습니다. 비활성화되면 캡처 트랜잭션이 `Pending`인 주문은 자동으로 `Payment Review`(으)로 이동하지 않습니다. 이 동작을 활성화하려면 아래 단계에 따라 비동기 모니터링을 켭니다.
 
-[cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)을 참조하십시오. 구성하고 나면 새 작업이 30분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다.
+비동기 모니터링 사용: [!BADGE PaaS만 사용]{type=Informative tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+1. `async_status_updates` 설정을 사용하도록 설정합니다. 이 설정은 관리에서 사용할 수 없으므로 명령줄에서 활성화합니다.
+
+   ```bash
+   bin/magento config:set payment/payment_services/async_status_updates 1
+   ```
+
+1. 상태 업데이트를 자동으로 가져오도록 `sync_order_payment_status` cron 작업을 활성화하고 예약합니다. [cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)을 참조하십시오.
+
+설정 및 cron 작업이 활성화되면 cron 작업은 10분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다. 설정 후 정상 작동 시 추가 판매자 조치가 필요하지 않습니다.
+
 
 가맹점은 주문 결제 상태 보고서 보기를 통해 업데이트된 결제 상태를 확인할 수 있습니다.
 
