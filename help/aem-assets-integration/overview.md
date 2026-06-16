@@ -20,9 +20,9 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: e631346aa13737ded2c14daecbb91457e15417eb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 805
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://
 
 >[!VIDEO](https://video.tv.adobe.com/v/3447891?captions=kor)
 
->[!TAB ACCS 자습서]
+>[!TAB Adobe Commerce as a Cloud Service 자습서]
 
 AEM Assets 통합에서 Adobe Commerce as a Cloud Service을 사용하는 방법을 알아봅니다.
 
@@ -113,7 +113,7 @@ Experience Manager Assets과 Commerce 통합을 활성화하는 3단계 프로�
 
 1. 환경에 대한 통합을 구성합니다.
 
-   * [!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce(PaaS/ACCS)](get-started/setup-synchronization.md)
+   * [!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce](get-started/setup-synchronization.md)
    * [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [Adobe Commerce Optimizer](get-started/configure-aco.md)
 
 ## 지원

@@ -2,9 +2,9 @@
 title: Commerce Optimizer용 AEM Assets 구성
 description: ' [!DNL Adobe Commerce Optimizer]에 대한 AEM Assets 통합을 구성하는 방법을 알아봅니다.'
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 42f0e0cb72c6429eb6f08f1922c4171195a78d2b
+source-git-commit: 2cc7b70a6923687c74fe3f4b88448eaada6d16af
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer]용 AEM Assets 통합을 통해 판매자는 제품 이미지에 대한 중앙 집중식 디지털 에셋 관리 솔루션으로 AEM Assets을 사용할 수 있습니다. 이 안내서에서는 [!DNL Commerce Optimizer]과(와) 관련된 구성을 다룹니다.
 
-Adobe Commerce(PaaS) 또는 Adobe Commerce as a Cloud Service(ACCS)와 달리 [!DNL Commerce Optimizer]에는 관리자 구성 UI가 없습니다. 통합을 사용하려면 [!DNL Adobe Commerce Optimizer] 및 AEM Assets 세부 정보로 지원 티켓을 만드십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
+Adobe Commerce(PaaS) 또는 [!DNL Adobe Commerce as a Cloud Service]과(와) 달리 [!DNL Commerce Optimizer]에는 관리자 구성 UI가 없습니다. 통합을 사용하려면 [!DNL Adobe Commerce Optimizer] 및 AEM Assets 세부 정보로 지원 티켓을 만드십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
 
 **티켓을 제출하기 전에 AEM Assets을 준비합니다.** 테넌트 등록은 AEM 측을 Commerce에 사용할 수 있다고 가정합니다. 예를 들어, 메타데이터 및 이벤트가 설명된 대로 작동하도록 AEM Commerce `assets-commerce` 패키지를 배포한 후 **AEM이 구성되기 전에 티켓을 열면 온보딩이 지연될 수 있습니다.**
 
