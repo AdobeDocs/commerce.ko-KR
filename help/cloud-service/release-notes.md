@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+source-git-commit: 776aa6f6d887c93686539897e936fe8d3898e462
 workflow-type: tm+mt
-source-wordcount: 4182
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -47,7 +47,45 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 6월 - 릴리스 #1 {#latest}
+## 2026년 6월 - 릴리스 #2 {#latest}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+다음 항목은 현재 샌드박스 환경에서만 사용할 수 있으며 7월에 프로덕션 환경으로 이전할 예정입니다.
+
+>[!BEGINSHADEBOX]
+
+### 회사별 주문 및 송장 필터링
+
+이제 `GET /V1/orders` 및 `GET /V1/invoices` REST API 끝점이 `company_id` 및 `company_name`의 필터링을 지원하므로, B2B 통합을 통해 단일 요청으로 특정 회사에 대한 주문 또는 송장을 검색할 수 있습니다. <!-- ACCS-1111, CCSAAS-5076 -->
+
+### 관리자에서 주문 수정 내역 보기
+
+이제 [!DNL Commerce Admin] 주문 세부 사항 페이지에 원래 주문과 이후 편집을 통해 만든 모든 하위 주문을 포함하는 주문에 대한 전체 수정 체인이 표시됩니다. 판매자는 주문 사이를 이동하고, 취소된 주문의 가시성을 전환하고, 체인 보기 내에서 모든 관련 송장, 선적, 대변 메모 및 주문 설명을 액세스할 수 있습니다.<!-- ACCS-968 -->
+
+>[!NOTE]
+>
+>이 기능을 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하십시오.
+
+### [!DNL AEM Assets]에서 동기화된 자산 보기
+
+이제 [!DNL AEM Assets] 통합에는 필터링, 마지막 동기화 날짜와 같은 정렬 가능한 열 및 실패한 동기화에 대한 오류 세부 정보를 포함하여 동기화된 모든 자산의 자산 중심 목록 보기가 있는 [!UICONTROL **동기화 상태**] 페이지([!UICONTROL **스토어**] > [!UICONTROL **AEM Assets**] > [!UICONTROL **동기화 상태**])가 포함됩니다.<!-- ACAP-1246 -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* 이제 로드 시간이 향상되고 시간 초과가 줄어들 가능성이 줄어들면서 큰 공유 카탈로그를 관리하기가 더 쉬워졌습니다. <!-- CCSAAS-4946, CCSAAS-4925, CCSAAS-1245, CCSAAS-1246 -->
+
+* 구성 가능한 제품이 포함된 주문에 대해 납품을 생성할 때 발생하는 납품 생성 오류를 해결했습니다. <!-- ACCS-1095 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 6월 - 릴리스 #1
 
 [!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
@@ -531,7 +569,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 * 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
 
-   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
+   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
    * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
    * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
    * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
