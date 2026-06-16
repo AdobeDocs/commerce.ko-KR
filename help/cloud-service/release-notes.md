@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 776aa6f6d887c93686539897e936fe8d3898e462
+source-git-commit: 469111676c7ac8bdf66f8f42bd26745ce7f88928
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4489
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ ht-degree: 0%
 ### 회사별 주문 및 송장 필터링
 
 이제 `GET /V1/orders` 및 `GET /V1/invoices` REST API 끝점이 `company_id` 및 `company_name`의 필터링을 지원하므로, B2B 통합을 통해 단일 요청으로 특정 회사에 대한 주문 또는 송장을 검색할 수 있습니다. <!-- ACCS-1111, CCSAAS-5076 -->
+
+### API를 통해 사용자 정의 이메일 템플릿 나열
+
+새 `GET /V1/custom-email/templates` REST API 끝점이 각 템플릿의 ID, 코드 및 제목을 포함한 [사용자 지정 전자 메일 템플릿](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/)을 반환합니다. 통합에서는 ID를 수동으로 조회하는 대신 반환된 템플릿 ID를 `POST /V1/custom-email/send` 끝점과 함께 사용할 수 있습니다. <!-- CCSAAS-5089 -->
 
 ### 관리자에서 주문 수정 내역 보기
 
@@ -569,7 +573,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 * 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
 
-   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
+   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
    * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
    * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
    * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
