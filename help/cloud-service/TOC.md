@@ -4,8 +4,7 @@ breadcrumb-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-nudge: true
-source-git-commit: eef86aa81f6f05918bbb669e04a9fb46906753cb
+source-git-commit: 48171a525ad5e5f4b02da89753df6ea7e7ff9926
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 4%

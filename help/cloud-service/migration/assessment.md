@@ -15,7 +15,8 @@ feature_v2:
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: fcbf661a05f5d7ff33a885e3f86dbb3a551d09df
+nudge: true
+source-git-commit: 48171a525ad5e5f4b02da89753df6ea7e7ff9926
 workflow-type: tm+mt
 source-wordcount: 2505
 ht-degree: 0%
@@ -319,4 +320,4 @@ Manages custom shipping rate calculations based on customer account tier and ord
       - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 - Storefront 개발
    - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/)
+   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
