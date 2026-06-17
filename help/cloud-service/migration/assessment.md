@@ -314,10 +314,10 @@ Manages custom shipping rate calculations based on customer account tier and ord
       - [스킬 및 프롬프트](https://developer.adobe.com/commerce/extensibility/developer-agent/skills-and-prompts)
       - [사용 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/use-cases)
    - [App Builder 개요](https://developer.adobe.com/app-builder/docs/intro_and_overview/)
-   - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
+   - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
    - 스타터 키트
       - [백엔드 통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)
       - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 - Storefront 개발
-   - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/)
-   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/)
+   - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
