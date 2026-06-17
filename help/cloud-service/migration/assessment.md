@@ -15,8 +15,8 @@ feature_v2:
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-nudge: true
-source-git-commit: 48171a525ad5e5f4b02da89753df6ea7e7ff9926
+nudge: true1
+source-git-commit: 99ad11aa255d35dcee4ffa80b4a38916d0c21766
 workflow-type: tm+mt
 source-wordcount: 2505
 ht-degree: 0%
@@ -33,10 +33,6 @@ ht-degree: 0%
 Commerce 마이그레이션 평가는 기존 Adobe Commerce 구현에 대한 자동화된 분석입니다. Adobe의 도구 기능은 Commerce 코드베이스를 스캔하고 빌드되거나, 사용자 정의되거나, 수정된 모든 사항을 인벤터리하는 구조화된 보고서를 생성합니다. 그러면 코드베이스에 대한 사용자 지정이 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로의 마이그레이션에 어떤 영향을 미치는지 보여줍니다.
 
 보고서는 모든 브라우저에서 열 수 있는 HTML 파일로 제공됩니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
-
->[!TIP]
->
->기존 인스턴스에 대한 마이그레이션 평가를 요청하려면 솔루션 계정 관리자에게 문의하십시오.
 
 **평가에서 제공하는 항목:**
 
@@ -321,3 +317,7 @@ Manages custom shipping rate calculations based on customer account tier and ord
 - Storefront 개발
    - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
    - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
+
+>[!TIP]
+>
+>기존 인스턴스에 대한 마이그레이션 평가를 요청하려면 솔루션 계정 관리자에게 문의하십시오.
