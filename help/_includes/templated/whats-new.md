@@ -1,7 +1,7 @@
 ---
-source-git-commit: 61e34c6fb4a004789bffa43c5b9356ad4edc685e
+source-git-commit: 2cae607e49298fa07c35e59bfc1e8388fe3b58cf
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8ec59cfc8c9d4d1e804adefe7f88806843e3caa3">커밋</a></td>
     </tr>
     <tr>
-      <td><p>피드 잠금으로 동시 동기화 충돌을 방지하는 방법과 Commerce 데이터 내보내기 로그(<code>commerce-data-export.log</code>)에 포함된 일반 건너뛰기 메시지를 해석하는 방법을 설명하기 위해 SaaS 데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/feed-lock-mechanism">피드 잠금 메커니즘</a>을 추가했습니다.</p>
+      <td><p>피드 잠금으로 동시 동기화 충돌을 방지하는 방법과 Commerce 데이터 내보내기 로그(<code>commerce-data-export.log</code>)에 포함된 일반 건너뛰기 메시지를 해석하는 방법을 설명하기 위해 SaaS 데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/feed-lock-mechanism">피드 잠금 메커니즘</a>을 추가했습니다.</p>
 </td>
       <td>
         새 주제

@@ -1,12 +1,16 @@
 ---
 title: '[!DNL SaaS Data Export Extension] 릴리스 정보'
 description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 릴리스 정보입니다.
+autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
 TQID: https://experienceleague.adobe.com/l3Z3-ncMTQ3j-4s6xL9X8ZYtlBHqzhBfMLc2jL4Kv6A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
@@ -18,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 69f39a6a62e05c86a0e2897d09079543b3d8830e
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
 source-wordcount: 2903
 ht-degree: 0%
@@ -72,7 +76,7 @@ _2026년 5월 19일_
 
 _2026년 5월 5일_
 
-![수정](../assets/fix.svg) **내보내기 로그에서 더 쉬운 문제 해결**-많은 내보내기 관련 오류 및 경고에 일관된 로그 코드가 포함되어 있습니다. 이러한 코드를 사용하면 지원 또는 설명서 작업 시 문제를 더 빨리 추적하는 데 도움이 됩니다. 자세한 내용은 로그 코드 참조 를 참조하십시오.
+![수정](../assets/fix.svg) **내보내기 로그에서 더 쉬운 문제 해결**-많은 내보내기 관련 오류 및 경고에 일관된 로그 코드가 포함되어 있습니다. 이러한 코드를 사용하면 지원 또는 설명서 작업 시 문제를 더 빨리 추적하는 데 도움이 됩니다. 자세한 내용은 [로그 코드 참조](troubleshooting/log-codes-reference.md)를 참조하십시오.
 <!--MDEE-1276-->
 
 ![수정](../assets/fix.svg) **특성 옵션 레이블이 변경될 때 자동 재동기화** 스토어 보기에 대한 제품 특성 옵션 레이블 변경(다중 선택 특성 포함)은 이제 Live Search, 제품 권장 사항, 카탈로그 서비스 및 기타 연결된 Commerce 서비스가 쇼핑객 보기에 업데이트된 패싯 및 필터 레이블을 표시하도록 영향을 받는 제품을 다시 내보냅니다. 이전에는 레이블 전용 편집으로 광범위한 제품 변경으로 동기화가 트리거될 때까지 SaaS 카탈로그에서 오래된 단어가 표시될 수 있었습니다.

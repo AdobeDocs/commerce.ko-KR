@@ -1,6 +1,7 @@
 ---
 title: ' [!DNL Live Search] 시작'
 description: Adobe Commerce에서  [!DNL Live Search] 의 시스템 요구 사항 및 설치 단계에 대해 알아봅니다.
+autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
@@ -24,9 +25,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
-source-wordcount: 2934
+source-wordcount: 2883
 ht-degree: 0%
 
 ---
@@ -67,7 +68,7 @@ Adobe Commerce [!DNL Live Search]과(와) [[!DNL Catalog Service]](../catalog-se
 >
 > **HIPAA 준비**
 >
->HIPAA 지원 확장 및 의료 서비스 추가 기능과 함께 Adobe Commerce을 사용하는 경우 LiveSearch를 통해 PHI(보호 상태 정보)를 처리하지 마십시오> 라이브 검색은 HIPAA를 사용할 수 있는 서비스가 아닙니다.
+>HIPAA 지원 확장 및 의료 서비스 추가 기능과 함께 Adobe Commerce을 사용하는 경우 LiveSearch를 통해 PHI(보호 상태 정보)를 처리하지 마십시오> Live Search는 HIPAA 지원 서비스가 아닙니다.
 >
 >자세한 내용은 Adobe Commerce의 [HIPAA 준비](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) 및 비 HIPAA 준비 Commerce 서비스 중 Live Search가 나열된 [작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/operations) 지침을 참조하십시오.
 
@@ -238,7 +239,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 ![데이터 관리 대시보드](assets/data-management-dashboard.png)
 
-[Commerce CLI](../data-export/data-export-cli-commands.md#troubleshooting) 및 데이터 내보내기 확장 로그를 사용하여 동기화 명령을 실행하고 동기화 프로세스 문제를 해결할 수도 있습니다.
+[Commerce CLI](../data-export/data-export-cli-commands.md) 및 [데이터 내보내기 확장 로그](../data-export/troubleshooting/logging.md)를 사용하여 동기화 명령을 실행하고 동기화 프로세스 문제를 해결할 수도 있습니다.
 
 #### 향후 제품 업데이트
 

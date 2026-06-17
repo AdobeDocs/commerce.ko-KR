@@ -1,11 +1,15 @@
 ---
 title: 제품 속성을 동적으로 추가
 description: 데이터 동기화 프로세스 중에 사용자 지정 제품 속성을 데이터 내보내기 피드에 동적으로 추가하는 방법을 알아봅니다.
+autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: d5ed7497-4be1-440a-a567-81b64fdc54fc
 TQID: https://experienceleague.adobe.com/SZWtLSvxb-w-968f4wqWrPTBn1c9IEuthvhIv86Pvss
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
@@ -14,20 +18,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: 267
 ht-degree: 0%
 
 ---
 
-# 데이터 동기화 중에 제품 속성을 동적으로 추가
+# 제품 속성을 동적으로 추가
 
-데이터 동기화 프로세스 중에 속성을 추가하는 플러그인을 만들어 Adobe Commerce에 등록하지 않고 제품 속성을 확장할 수 있습니다.
+제품 특성을 [!DNL Adobe Commerce]에 등록하지 않고 데이터 동기화 프로세스 중에 특성을 추가하는 플러그인을 만들어 제품 특성을 확장할 수 있습니다.
 
 >[!NOTE]
 >
->제품 특성을 확장하는 가장 좋은 방법은 [Adobe Commerce에 추가](extensibility-and-customizations.md#add-product-attributes-to-adobe-commerce)하는 것입니다. 여기서 Commerce 관리에서 해당 특성을 구성하고 관리할 수 있습니다. Commerce 상점 서비스에만 필요하고 Adobe Commerce에 등록하지 않으려는 경우에만 동적으로 추가하십시오. 카탈로그 서비스 GraphQL 스키마를 확장하기 위해 [카탈로그 서비스와 API Mesh](../catalog-service/mesh.md)를 사용하여 사용자 지정 특성을 관리하는 옵션도 있습니다.
+>제품 특성을 확장하는 가장 좋은 방법은 [!DNL Catalog Service] [!DNL GraphQL] 스키마를 확장하기 위해 [을(를) 사용하여 [!DNL Adobe Commerce]](extensibility-and-customizations.md#add-product-attributes-to-adobe-commerce) where you can configure and manage them from the Commerce Admin. Only add them dynamically if you need them solely for Commerce storefront services and do not want to register them in [!DNL Adobe Commerce]. You also have the option to manage custom attributes using [[!DNL API Mesh] 을(를) 추가하는 것입니다. [!DNL Catalog Service]](../catalog-service/mesh.md)
 
 ## 제품 속성 추가
 
@@ -98,7 +102,7 @@ ht-degree: 0%
 
    플러그인을 추가하면 변경 사항이 다음에 예약된 동기화 동안 연결된 상점 서비스에 동기화됩니다. 업데이트를 즉시 보내려면 다음 CLI 명령을 사용하여 동기화 프로세스를 수동으로 시작하십시오.
 
-   ```
+   ```shell
    bin/magento saas:resync --feed=products
    ```
 
@@ -109,12 +113,12 @@ ht-degree: 0%
 1. [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)을(를) 업데이트하여 제품 특성 메타데이터에 대한 플러그인을 정의합니다.
 
    ```xml
-   <type name="\Magento\CatalogDataExporter\Model\Provider\ProductMetadata">
+   <type name="Magento\CatalogDataExporter\Model\Provider\ProductMetadata">
      <plugin name="product_customer_attributes_metadata" type="Vendor\CatalogDataExporter\Model\Plugin\AddAttributeMetadata"/>
    </type>
    ```
 
-1. 다음 공급자 `\Magento\CatalogDataExporter\Model\Provider\ProductMetadata`에 대한 플러그인을 만드십시오.
+1. 다음 공급자 `Magento\CatalogDataExporter\Model\Provider\ProductMetadata`에 대한 플러그인을 만드십시오.
 
    필수 필드가 필요하면 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`의 `ProductAttributeMetadata`을(를) 확인하십시오.
 
@@ -184,7 +188,13 @@ ht-degree: 0%
 
    플러그인을 추가하면 변경 사항이 다음에 예약된 동기화 동안 연결된 상점 서비스에 동기화됩니다. 업데이트를 즉시 보내려면 다음 CLI 명령을 사용하여 동기화 프로세스를 수동으로 시작하십시오.
 
-   ```
-   bin/magento saas:resync --feed=productattributes
+   ```shell
+   bin/magento saas:resync --feed=productAttributes
    ```
 
+>[!MORELIKETHIS]
+>
+> * [SaaS 데이터 내보내기 피드 확장 및 사용자 지정](extensibility-and-customizations.md)
+> * [Commerce CLI를 사용하여 피드 동기화](data-export-cli-commands.md)
+> * [동기화 작동 방식](sync-overview.md) - 동기화 모드 및 예약된 모드와 수동 재동기화에 대해 알아봅니다.
+> * [로그 검토 및 문제 해결](troubleshooting/logging.md)

@@ -8,6 +8,8 @@ autotag-review: '2026-06-09T15:49:03.934Z'
 TQID: 'https://experienceleague.adobe.com/SOWOnguudhqzX-r66nGUqc-WKet5qq6GRV11ADx0Me4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
@@ -22,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-source-git-commit: 1f901b4a72c10dc4e710742b98c03e88cbc8739f
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
-source-wordcount: 465
+source-wordcount: 665
 ht-degree: 0%
 
 ---
@@ -35,6 +37,8 @@ ht-degree: 0%
 이 페이지에서는 [!DNL Adobe Commerce Optimizer Connector]이(가) [!DNL Adobe Commerce] 카탈로그 필드를 [!DNL Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 변환하는 방법을 설명합니다. 지원되는 피드 및 해당 API 끝점에 대한 목록은 [커넥터 참조](connector-reference.md#supported-feeds)를 참조하십시오.
 
 ## 제품
+
+`products` 피드가 [제품 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Products){target="_blank"}에 데이터를 보냅니다.
 
 | [!DNL Adobe Commerce] 필드 | [!DNL Commerce Optimizer] API 필드 | 메모 |
 | ----------------------------------------------- | -------------- | ------- |
@@ -62,6 +66,9 @@ ht-degree: 0%
 
 ## 제품 특성 메타데이터
 
+`productAttributes` 피드가 [메타데이터 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata){target="_blank"}에 데이터를 보냅니다.
+
+
 | [!DNL Adobe Commerce] 필드 | [!DNL Commerce Optimizer] API 필드 | 메모 |
 | --------------- | -------------- | ------- |
 | `attributeCode` | `code` | |
@@ -78,7 +85,9 @@ ht-degree: 0%
 | `searchWeight` | `searchWeight` | |
 | `searchTypes` | `searchTypes` | |
 
-**데이터 형식 변환:**
+### 데이터 유형 전환
+
+커넥터가 위의 매핑 테이블에 있는 Commerce `dataType` 및 `frontendInput` 필드에서 API `dataType`을(를) 파생합니다. 다음 표는 커넥터가 적용되는 전환 규칙을 보여 줍니다.
 
 | [!DNL Adobe Commerce] `dataType` | [!DNL Adobe Commerce] `frontendInput` | [!DNL Commerce Optimizer] API `dataType` |
 | -------------------- | -------------------------- | ------------------- |
@@ -90,7 +99,13 @@ ht-degree: 0%
 | `OBJECT` | - | `OBJECT` |
 | 기타 | - | `TEXT` |
 
+>[!NOTE]
+>
+>특성에 대한 `dataType`이(가) `OBJECT`(으)로 설정되어 있으면 [제품 API](https://developer.adobe.com/commerce/services/reference/graphql/#products){target="_blank"}은(는) 특성 값을 일반 문자열이 아닌 구조화된 개체로 취급합니다. 쿼리 시간에 API는 저장된 값을 JSON으로 구문 분석하려고 합니다. 구문 분석이 성공하면 결과가 응답에서 중첩 객체로 반환됩니다. **이 동작은 사용자 지정 특성을 동적으로 제공할 때(예: 스칼라 값으로 표현할 수 없는 구조화된 또는 다중 필드 데이터를 전달할 때) 특히 유용합니다**. 자세한 지침은 [제품 특성을 동적으로 추가](../../data-export/add-attribute-dynamically.md)를 참조하십시오.
+
 ## 가격 장부
+
+`priceBooks` 피드가 [가격 장부 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Price-Books){target="_blank"}에 데이터를 보냅니다.
 
 다른 커넥터 피드와 달리 `priceBooks` 피드는 [!DNL Adobe Commerce]의 [!DNL SaaS Data Export] 인덱서에서 수집되지 않습니다. 커넥터는 관리자의 웹 사이트 및 고객 그룹 구성에서 이 피드를 생성합니다.
 
@@ -112,6 +127,8 @@ ht-degree: 0%
 
 ## 가격
 
+`prices` 피드가 [가격 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Prices){target="_blank"}에 데이터를 보냅니다.
+
 | [!DNL Adobe Commerce] 필드 | [!DNL Commerce Optimizer] API 필드 | 메모 |
 | --------------- | -------------- | ------------------------------------------------------------------------------- |
 | `sku` | `sku` | |
@@ -121,6 +138,8 @@ ht-degree: 0%
 | `tierPrices[]` | `tierPrices[]` | |
 
 ## 카테고리
+
+`categories` 피드가 [Categories 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Categories){target="_blank"}으로 데이터를 보냅니다.
 
 빈 `urlPath`(논리 루트 범주)이 있는 항목은 건너뛰고 제출되지 않습니다.
 

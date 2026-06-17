@@ -1,10 +1,13 @@
 ---
 title: '[!DNL Adobe Commerce Optimizer Connector] 릴리스 정보'
 description: 새로운 기능, 버그 수정, 카탈로그 동기화 및 내보내기에 대한 알려진 문제 등  [!DNL Adobe Commerce Optimizer Connector] 릴리스 정보에 대해 알아봅니다.
+autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/6NeLAfThvIWIyV4Y6OWtL8V9mC7lPy7UH-Zli8E-WEk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
 feature_v2:
   - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
@@ -17,7 +20,10 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: af45543a52d1c88149574dc22cdef37af01404c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
 source-wordcount: 353
 ht-degree: 0%
@@ -61,7 +67,7 @@ _2026년 4월 2일_
 
 ![새로 만들기](../assets/new.svg) **`saas:resync` 명령에 범주 피드에 대한 지원이 추가되었습니다**-이제 `saas:resync` CLI 명령을 사용하여 최신 범주 데이터를 쉽게 새로 고치고 볼 수 있습니다.
 
-```terminal
+```shell
 bin/magento saas:resync --feed=categories
 ```
 
