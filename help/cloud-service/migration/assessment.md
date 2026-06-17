@@ -5,18 +5,11 @@ feature: Cloud, Migration
 role: Developer, Admin
 level: Intermediate
 TQID: 'https://experienceleague.adobe.com/-OrsBVtHRcEV5EzgHzzP0JVf0aQWfSO2Fu1R5F5jtAw'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-nudge: true
-source-git-commit: 48171a525ad5e5f4b02da89753df6ea7e7ff9926
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+nudge: true1
+source-git-commit: 99ad11aa255d35dcee4ffa80b4a38916d0c21766
 workflow-type: tm+mt
 source-wordcount: 2505
 ht-degree: 0%
@@ -33,10 +26,6 @@ ht-degree: 0%
 Commerce 마이그레이션 평가는 기존 Adobe Commerce 구현에 대한 자동화된 분석입니다. Adobe의 도구 기능은 Commerce 코드베이스를 스캔하고 빌드되거나, 사용자 정의되거나, 수정된 모든 사항을 인벤터리하는 구조화된 보고서를 생성합니다. 그러면 코드베이스에 대한 사용자 지정이 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로의 마이그레이션에 어떤 영향을 미치는지 보여줍니다.
 
 보고서는 모든 브라우저에서 열 수 있는 HTML 파일로 제공됩니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
-
->[!TIP]
->
->기존 인스턴스에 대한 마이그레이션 평가를 요청하려면 솔루션 계정 관리자에게 문의하십시오.
 
 **평가에서 제공하는 항목:**
 
@@ -314,10 +303,14 @@ Manages custom shipping rate calculations based on customer account tier and ord
       - [스킬 및 프롬프트](https://developer.adobe.com/commerce/extensibility/developer-agent/skills-and-prompts)
       - [사용 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/use-cases)
    - [App Builder 개요](https://developer.adobe.com/app-builder/docs/intro_and_overview/)
-   - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
+   - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
    - 스타터 키트
       - [백엔드 통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)
       - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 - Storefront 개발
-   - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
+   - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/)
+   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/)
+
+>[!TIP]
+>
+>기존 인스턴스에 대한 마이그레이션 평가를 요청하려면 솔루션 계정 관리자에게 문의하십시오.
