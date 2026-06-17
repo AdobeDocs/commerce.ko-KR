@@ -35,4 +35,4 @@ ht-degree: 2%
    - [SaaS 데이터 내보내기 확장 관리](manage-extension.md)
    - [Commerce CLI를 사용하여 피드 동기화](data-export-cli-commands.md)
    - [피드 테이블 스키마](reference/feed-table-reference.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

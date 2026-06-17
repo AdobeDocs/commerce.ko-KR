@@ -36,7 +36,7 @@ Adobe Commerce on cloud, 온-프레미스 또는 Adobe Commerce as a Cloud Servi
 
 - **[데이터 피드 동기화 상태 페이지](../optimizer/setup/data-sync.md)**—[!DNL Live Search], [!DNL Product Recommendations] 또는 [!DNL Catalog Service]에 연결된 배포에 대한 피드 내보내기 상태를 확인하십시오. 이 대시보드는 발생한 오류를 포함하여 각 피드에 대한 피드 내보내기 상태를 표시합니다. 세부 사항 보기에는 개별 피드 항목에 대한 피드 내보내기 상태가 표시됩니다.
 
-- **[데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 연결된 Commerce 서비스에 성공적으로 내보내지고 동기화된 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품 데이터가 표시됩니다.
+- **[데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 연결된 Commerce 서비스에 성공적으로 내보내지고 동기화된 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품 데이터가 표시됩니다.
 
 >[!NOTE]
 >

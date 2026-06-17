@@ -23,7 +23,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -53,7 +53,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Commerce 관리자는 자산 중심의 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/sync-status">동기화 상태</a> 목록을 추가하여 자산 특성별로 동기화된 AEM Assets을 검색, 필터링 및 문제를 해결합니다.</p>
+      <td><p>Commerce 관리자는 자산 중심의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/sync-status">동기화 상태</a> 목록을 추가하여 자산 특성별로 동기화된 AEM Assets을 검색, 필터링 및 문제를 해결합니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -75,7 +75,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -98,7 +98,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td><ul>
-  <li>전용 카탈로그 레이어 및 레이어 관련 제한에 대한 명확한 지침을 통해 테넌트 등록 전에 AEM Assets 설정이 이루어지도록 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aco">Commerce Optimizer용 AEM Assets 구성</a> 온보딩을 개선했습니다.<br />- 저장소 액세스 및 파이프라인 배포를 위해 재배열된 설치 단계 및 Cloud Manager 스크린샷으로 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem">AEM Assets 프로젝트를 구성</a>합니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization">통합 구성</a>에서 IMS 기반 프로그램 ID 및 환경 ID 선택을 명확화했습니다.</li>
+  <li>전용 카탈로그 레이어 및 레이어 관련 제한에 대한 명확한 지침을 통해 테넌트 등록 전에 AEM Assets 설정이 이루어지도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aco">Commerce Optimizer용 AEM Assets 구성</a> 온보딩을 개선했습니다.<br />- 저장소 액세스 및 파이프라인 배포를 위해 재배열된 설치 단계 및 Cloud Manager 스크린샷으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem">AEM Assets 프로젝트를 구성</a>합니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization">통합 구성</a>에서 IMS 기반 프로그램 ID 및 환경 ID 선택을 명확화했습니다.</li>
 </ul>
 </td>
       <td>
@@ -121,7 +121,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다.</p>
+      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다.</p>
 </td>
       <td>
         기술
@@ -129,7 +129,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/342a3015f743e12b7089e4d430a517804a7cd40c">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/category-merch">카테고리 머천다이징</a>의 상호 참조와 함께 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add#intelligent-ranking-boost">규칙 추가</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/best-practice">모범 사례</a>의 [!DNL Live Search]에 대한 지능형 순위 상승(규칙당 구성 가능한 동작 가중치, 기본값 5.0)을 문서화했습니다. <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking-boost">만들기 및 관리</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/best-practice">머천다이징 규칙 모범 사례</a>에서 [!DNL Adobe Commerce Optimizer]에 대해 동일한 지침을 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/category-merch">카테고리 머천다이징</a>의 상호 참조와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/rules/rules-add#intelligent-ranking-boost">규칙 추가</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice">모범 사례</a>의 [!DNL Live Search]에 대한 지능형 순위 상승(규칙당 구성 가능한 동작 가중치, 기본값 5.0)을 문서화했습니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking-boost">만들기 및 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/best-practice">머천다이징 규칙 모범 사례</a>에서 [!DNL Adobe Commerce Optimizer]에 대해 동일한 지침을 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -151,7 +151,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>AEM Assets 통합 안내서에서는 편집자가 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.6 </a>에서 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem#localized-alt-text-in-aem-assets-metadata">대체 텍스트</a>를 설정하는 방법에 대해 설명합니다.</p>
+      <td><p>AEM Assets 통합 안내서에서는 편집자가 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.6 </a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#localized-alt-text-in-aem-assets-metadata">대체 텍스트</a>를 설정하는 방법에 대해 설명합니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -159,7 +159,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6d3dfbc59e72c00c3552af5805b57c69e60b38b4">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -181,7 +181,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>주요 이점, 종단 간 아키텍처(새 다이어그램), 더 명확한 범위 매핑, 일반적인 설정 및 동기화 워크플로, 지원되는 시나리오, 팀이 통합을 보다 쉽게 평가하고 운영할 수 있도록 사전 요구 사항 또는 책임을 포함하여 <a href="https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview">Adobe Commerce Optimizer 커넥터 개요</a>를 확장했습니다.</p>
+      <td><p>주요 이점, 종단 간 아키텍처(새 다이어그램), 더 명확한 범위 매핑, 일반적인 설정 및 동기화 워크플로, 지원되는 시나리오, 팀이 통합을 보다 쉽게 평가하고 운영할 수 있도록 사전 요구 사항 또는 책임을 포함하여 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview">Adobe Commerce Optimizer 커넥터 개요</a>를 확장했습니다.</p>
 </td>
       <td>
         피드백, 주요 업데이트
@@ -203,7 +203,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview">가시성</a> 페이지를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview">가시성</a> 페이지를 추가했습니다.</p>
 </td>
       <td>
         피드백, 새 주제
@@ -211,7 +211,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bf83f213d1774845c4c99f3b154e9fb3220c3cd1">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview">앱 관리 개요</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/install">앱 관리 설치 및 액세스</a>의 링크를 사용하여 관리(검색, 상태 및 확장성 패턴 필터) 및 Adobe Exchange에 대한 앱 경로 획득에서 응용 프로그램을 찾는 방법에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/manage-app/manage-app">앱 관리</a>를 업데이트했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview">앱 관리 개요</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/install">앱 관리 설치 및 액세스</a>의 링크를 사용하여 관리(검색, 상태 및 확장성 패턴 필터) 및 Adobe Exchange에 대한 앱 경로 획득에서 응용 프로그램을 찾는 방법에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/manage-app/manage-app">앱 관리</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -219,7 +219,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/780cef7af3574cd846fd7ee82d7814f2ebe9d6cc">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -241,7 +241,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -263,7 +263,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>SaaS 데이터 내보내기 및 동기화를 모니터링하는 위치(<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync">Commerce Optimizer 데이터 동기화</a>)를 명확히 했습니다.</p>
+      <td><p>SaaS 데이터 내보내기 및 동기화를 모니터링하는 위치(<a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync">Commerce Optimizer 데이터 동기화</a>)를 명확히 했습니다.</p>
 </td>
       <td>
         피드백, 기술
@@ -285,7 +285,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service의 두 번째 4월 프로덕션 릴리스에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest">릴리스 정보</a>를 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service의 두 번째 4월 프로덕션 릴리스에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes#latest">릴리스 정보</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -307,7 +307,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>사용 가능한 각 통합(Adobe Commerce Optimizer 커넥터, AEM Assets, AEM Sites Optimizer 및 Salesforce Commerce 커넥터)이 설정 및 구성 가이드에 대한 링크와 함께 Adobe Commerce Optimizer 내에서 어떻게 적합한지 설명하는 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/integrations-overview">[!DNL Adobe Commerce Optimizer] 통합 개요</a> 항목이 추가되었습니다.</p>
+      <td><p>사용 가능한 각 통합(Adobe Commerce Optimizer 커넥터, AEM Assets, AEM Sites Optimizer 및 Salesforce Commerce 커넥터)이 설정 및 구성 가이드에 대한 링크와 함께 Adobe Commerce Optimizer 내에서 어떻게 적합한지 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/integrations-overview">[!DNL Adobe Commerce Optimizer] 통합 개요</a> 항목이 추가되었습니다.</p>
 </td>
       <td>
         피드백, 새 주제
@@ -315,7 +315,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/41c8bfe8f15b1988f574fe589ba6e27bb1839ba8">커밋</a></td>
     </tr>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -323,7 +323,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8f2cc1e79ede56192a8ab03194b0f69854f89f7b">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.5</a>을 문서화하고 <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 자동 일치</a> API 요청 필드(<code>eventData</code>, <code>productSku</code>)를 수정했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.5</a>을 문서화하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 자동 일치</a> API 요청 필드(<code>eventData</code>, <code>productSku</code>)를 수정했습니다.</p>
 </td>
       <td>
         새 주제
@@ -345,7 +345,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>시작 전 프로덕션 [!DNL Adobe Commerce Optimizer] 설정, storefront go-live, SEO, CDN, 통합, 보안, 분석 및 테스트의 유효성을 검사하기 위한 참조인 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/launch/launch-checklist">Launch 검사 목록</a>이 추가되었습니다.</p>
+      <td><p>시작 전 프로덕션 [!DNL Adobe Commerce Optimizer] 설정, storefront go-live, SEO, CDN, 통합, 보안, 분석 및 테스트의 유효성을 검사하기 위한 참조인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/launch/launch-checklist">Launch 검사 목록</a>이 추가되었습니다.</p>
 </td>
       <td>
         피드백, 새 주제
@@ -367,7 +367,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce Optimizer에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add">카테고리 머천다이징</a>을 추가했습니다. 카테고리 페이지에서 지능적인 순위 및 수동 작업으로 카테고리 규칙을 사용합니다.</p>
+      <td><p>Adobe Commerce Optimizer에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add">카테고리 머천다이징</a>을 추가했습니다. 카테고리 페이지에서 지능적인 순위 및 수동 작업으로 카테고리 규칙을 사용합니다.</p>
 </td>
       <td>
         새 주제
@@ -389,7 +389,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에서 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/product-files">제품에 파일 추가</a>와(과) 관련된 지침을 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/product-files">제품에 파일 추가</a>와(과) 관련된 지침을 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트

@@ -82,7 +82,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 부분 동기화를 통해 SaaS 데이터 내보내기는 제품 이름 변경 또는 가격 업데이트와 같은 Commerce 애플리케이션의 업데이트를 연결된 상거래 서비스로 자동으로 전송합니다.
 부분 동기화가 작동하려면 Commerce 애플리케이션에 다음 구성이 필요합니다.
 
-- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)
+- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko)
 - 모든 SaaS 데이터 내보내기 인덱서가 `Update by Schedule` 모드에서 구성되었습니다.
 
 ### 실패한 항목 동기화 다시 시도 {#retry-failed-items-sync}
@@ -115,7 +115,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 HTTP 수준 오류 외에도 로컬 처리 오류나 네트워크 중단과 같은 응용 프로그램 수준 오류도 `*_resend_failed_items` cron 작업에 의해 자동으로 다시 시도되도록 예약됩니다.
 
-Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다.
+Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다.
 
 >[!MORELIKETHIS]
 >

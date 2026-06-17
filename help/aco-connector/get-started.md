@@ -2,7 +2,7 @@
 title: ' [!DNL Adobe Commerce Optimizer Connector] 시작'
 description: ' [!DNL Adobe Commerce Optimizer Connector]을(를) 설치하고, 범위 내보내기 설정을 구성하고, IMS 인증을 사용하도록 설정하고, 카탈로그 동기화를 확인하는 방법을 알아봅니다.'
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:55:50.934Z'
 TQID: 'https://experienceleague.adobe.com/AcZ6CNyuIdUlfVHXhyQEYuThfLNd4WWqMMY82tjMMCc'
 product_v2:
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 프로비저닝된 샌드박스 인스턴스가 있는 [!DNL Commerce Optimizer] 라이선스.
 
-* 작성기를 사용하여 커넥터 메타패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
+* 작성기를 사용하여 커넥터 메타패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
 
 * [[!DNL Commerce Optimizer] 샌드박스 인스턴스](../optimizer/get-started.md)에 대한 관리자 액세스 권한.
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 * Commerce 관리자에 대한 관리자 액세스 권한.
 
-* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
+* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
+* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
 
 >[!BEGINSHADEBOX]
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 * [!DNL Adobe Commerce Catalog Service] (`magento/catalog-service`, `magento/catalog-service-installer`)
 * **[!UICONTROL Data Management Dashboard]** (`magento-catalog-sync-admin`)
 
-이러한 확장과 연결된 데이터는 여전히 Commerce 데이터베이스에서 사용할 수 있습니다. 그러나 커넥터를 사용하도록 설정한 경우 [!DNL Commerce Optimizer]&#x200B;(으)로 내보내지 않습니다. 커넥터를 사용하도록 설정한 후 이러한 확장에서 제공하는 검색 및 머천다이징 기능을 구현하려면 [[!DNL Commerce Optimizer] 관리 UI](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview#quick-tour)에서 구성하십시오.
+이러한 확장과 연결된 데이터는 여전히 Commerce 데이터베이스에서 사용할 수 있습니다. 그러나 커넥터를 사용하도록 설정한 경우 [!DNL Commerce Optimizer]&#x200B;(으)로 내보내지 않습니다. 커넥터를 사용하도록 설정한 후 이러한 확장에서 제공하는 검색 및 머천다이징 기능을 구현하려면 [[!DNL Commerce Optimizer] 관리 UI](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview#quick-tour)에서 구성하십시오.
 
 >[!IMPORTANT]
 >
@@ -111,9 +111,9 @@ ht-degree: 0%
 >
 >자세한 확장 설치 지침은 다음 안내서를 참조하십시오.
 >
->[Cloud Infrastructure에서 [!DNL Adobe Commerce] 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>[Cloud Infrastructure에서 [!DNL Adobe Commerce] 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 >
->[확장 설치 [!DNL Adobe Commerce] 온-프레미스](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+>[확장 설치 [!DNL Adobe Commerce] 온-프레미스](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Commerce 범위 내보내기 구성 사용자 지정 {#customize-the-commerce-scopes-export-configuration}
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
    ![[!DNL Commerce Optimizer] 구성 페이지](./assets/aco-connector-admin-installation.png){width="500" zoomable="yes"}
 
-1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 [!DNL Adobe Commerce] 스테이징 환경에 연결합니다.
+1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 [!DNL Adobe Commerce] 스테이징 환경에 연결합니다.
 
 1. 다음 [!DNL Adobe Commerce] CLI 명령을 실행하여 통합을 구성하고 자리 표시자 값을 [!DNL Commerce Optimizer] 프로젝트의 값으로 바꿉니다.
 
@@ -208,4 +208,4 @@ ht-degree: 0%
 
 1. **[!DNL Edge Delivery Services]**&#x200B;에서 Commerce 상점 설정
 
-   [Storefront 설정 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/){target="_blank"}에 따라 Storefront를 [!DNL Commerce Optimizer] 인스턴스에 연결하고 개인화된 상거래 경험을 제공하기 시작합니다.
+   [Storefront 설정 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko){target="_blank"}에 따라 Storefront를 [!DNL Commerce Optimizer] 인스턴스에 연결하고 개인화된 상거래 경험을 제공하기 시작합니다.
