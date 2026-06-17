@@ -1,22 +1,17 @@
 ---
 title: SaaS 데이터 내보내기 피드 데이터 확장 및 사용자 지정
 description: ' [!DNL SaaS Data Export] 피드 데이터를 확장하고 사용자 지정하는 방법을 알아봅니다.'
+autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
 TQID: https://experienceleague.adobe.com/T71zNl7WOrqzEsz4H8A8arx--q6w1B0h33CF2Q0VI4A
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 815
 ht-degree: 0%
 
 ---
@@ -70,7 +65,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 1. 필요에 따라 속성 집합에 속성을 추가합니다.
 
-*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
+*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
 
 #### 프로그래밍 방식으로 제품 특성 만들기
 
@@ -85,4 +80,99 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 ### 제품 속성을 동적으로 추가
 
-새 EAV 특성을 도입하지 않고 제품 특성을 동적으로 만드는 방법에 대한 자세한 내용은 [특성을 동적으로 추가](add-attribute-dynamically.md)를 참조하십시오.
+새 EAV 특성을 도입하지 않고 제품 특성을 동적으로 만드는 방법에 대한 자세한 내용은 [제품 특성을 동적으로 추가](add-attribute-dynamically.md)를 참조하십시오.
+
+## 피드 스키마 개요(`et_schema.xml`) {#feed-schema-overview}
+
+각 피드 데이터 구조는 간단한 XML DSL을 사용하여 `etc/et_schema.xml`에서 선언됩니다. 프레임워크는 이 파일을 읽어 수집할 필드와 호출할 PHP 공급자 클래스를 결정합니다.
+
+```xml
+<record name="Product">
+  <field name="sku" type="ID" />
+  <field name="name" type="String" />
+  <field name="attributes" type="Attribute" repeated="true"
+         provider="Magento\CatalogDataExporter\Model\Provider\Product\Attributes">
+    <using field="productId" />
+    <using field="storeViewCode" />
+  </field>
+</record>
+```
+
+주요 요소:
+
+- `<record>` - 피드 엔터티 정의
+- `<field>` - 데이터 필드를 선언합니다. `provider` 특성은 데이터를 가져오는 `DataProcessorInterface`을(를) 구현하는 PHP 클래스를 가리킵니다
+- `repeated="true"` - 필드가 개체 배열입니다.
+- `<using>` - 부모 레코드 컨텍스트에서 공급자로 전달된 입력 매개 변수
+
+>[!IMPORTANT]
+>
+>`et_schema.xml`에 새 필드를 추가하면 [!DNL Adobe Commerce]에서 로컬로 수집하는 내용만 변경됩니다. 수신 SaaS 서비스도 업데이트하여 새 필드를 수락하고 처리해야 상점 앞에 영향을 미칠 수 있습니다.
+
+## 제출 후 데이터 관찰 {#observe-data-after-submission}
+
+[!DNL SaaS Data Export]은(는) SaaS 서비스에 일괄 처리 제출이 완료되면 `data_sent_outside` 이벤트를 발송합니다. 감사 로깅, 웹후크 트리거 또는 지표 수집에 이 이벤트를 사용합니다.
+
+**이벤트:** `data_sent_outside`
+
+**사용 가능한 데이터:**
+
+| 키 | 설명 |
+|---|---|
+| `timestamp` | 제출 서류의 Unix 타임스탬프 |
+| `type` | 피드 이름(예: `products`, `prices`) |
+| `data` | 제출된 피드 페이로드 |
+
+**예제 관찰자:**
+
+```php
+<?php
+namespace My\Module\Observer;
+
+use Magento\Framework\Event\Observer;
+use Magento\Framework\Event\ObserverInterface;
+
+class DataSentOutsideObserver implements ObserverInterface
+{
+    public function execute(Observer $observer): void
+    {
+        $feedName = $observer->getData('type');
+        $timestamp = $observer->getData('timestamp');
+        $data = $observer->getData('data');
+
+        // Custom logic: audit logging, webhook, metrics
+    }
+}
+```
+
+`etc/events.xml`에서 관찰자 등록:
+
+```xml
+<event name="data_sent_outside">
+    <observer name="my_module_data_sent_outside"
+              instance="My\Module\Observer\DataSentOutsideObserver" />
+</event>
+```
+
+이벤트 및 관찰자에 대한 일반적인 정보는 Adobe Commerce 개발자 설명서에서 [이벤트 및 관찰자](https://developer.adobe.com/commerce/php/development/components/events-and-observers){target="_blank"}를 참조하십시오.
+
+## 제출 전 데이터 필터링
+
+SaaS 서비스로 데이터를 보내기 전에 중요한 필드를 수정하거나 특정 엔터티를 건너뛰려면 `Magento\SaaSCommon\Model\DataFilter` 확장 지점을 사용하십시오. 이 기능은 특정 필드가 Commerce 인스턴스를 벗어나지 않아야 하는 GDPR 또는 PCI와 같은 규정 준수 요구 사항에 유용합니다.
+
+인터페이스를 구현하고 `etc/di.xml`에서 DI 환경 설정을 통해 연결합니다.
+
+```xml
+<preference for="Magento\SaaSCommon\Model\DataFilter"
+            type="My\Module\Model\MyDataFilter" />
+```
+
+>[!NOTE]
+>
+>데이터 수집 후에는 필터링이 적용됩니다. `PERSIST_EXPORTED_FEED=1`이(가) 설정되면 필터링이 발생하기 전에 피드 테이블에 필터링되지 않은 페이로드가 저장됩니다.
+
+>[!MORELIKETHIS]
+>
+> - [제품 특성을 동적으로 추가](add-attribute-dynamically.md)
+> - [세금 클래스, 특성 집합 및 인벤토리 메타데이터 추가](add-tax-attribute-set-inventory-attributes.md)
+> - [동기화 작동 방식](sync-overview.md)

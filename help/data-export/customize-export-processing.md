@@ -1,17 +1,15 @@
 ---
 title: SaaS 데이터 내보내기 성능 향상
 description: 다중 스레드 데이터 내보내기 모드를 사용하여 Commerce Services의 SaaS 데이터 내보내기 성능을 향상시키는 방법에 대해 알아봅니다.
+autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
 TQID: https://experienceleague.adobe.com/k-gizR-v-zQjQiN5IZm1Mv87J6j9eMsxH8vl-K1Co2M
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 0%
@@ -47,10 +45,14 @@ Adobe에서는 일반적으로 Commerce 판매자의 동기화 요구 사항을 
 
 ## 다중 스레딩 구성
 
-다중 스레드 모드는 모든 [동기화 메서드](data-synchronization.md#view-and-manage-the-synchronization-process)(전체 동기화, 부분 동기화 및 실패한 항목 동기화)에 대해 지원됩니다. 다중 스레딩을 구성하려면 동기화 중에 사용할 스레드 수와 배치 크기를 지정합니다.
+다중 스레드 모드는 모든 [동기화 메서드](sync-overview.md#synchronization-types)(전체 동기화, 부분 동기화 및 실패한 항목 동기화)에 대해 지원됩니다. 다중 스레딩을 구성하려면 동기화 중에 사용할 스레드 수와 배치 크기를 지정합니다.
 
 - `thread-count`은(는) 엔터티를 처리하기 위해 활성화된 스레드 수입니다. 기본 `thread-count`은(는) `1`입니다.
 - `batch-size`은(는) 하나의 반복에서 처리되는 엔터티 수입니다. 기본 `batch-size`은(는) 가격 피드를 제외한 모든 피드에 대한 `100`개 레코드입니다. 가격 피드의 경우 기본값은 `500`개 레코드입니다.
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce Optimizer Connector] 배포의 경우 [커넥터 모듈 및 피드 끝점](../aco-connector/reference/connector-reference.md#supported-feeds)에서 커넥터별로 지원되는 피드 및 배치 제한을 검토하십시오.
 
 재동기화 명령을 실행할 때 또는 Adobe Commerce 애플리케이션 구성에 다중 스레드 구성을 추가하여 다중 스레딩을 임시 옵션으로 구성할 수 있습니다.
 
@@ -62,7 +64,7 @@ Adobe에서는 일반적으로 Commerce 판매자의 동기화 요구 사항을 
 
 명령줄에서 전체 동기화 명령을 실행할 때 CLI 명령에 `thread-count` 및 `batch-size` 옵션을 추가하여 다중 스레드 처리를 지정하십시오.
 
-```
+```shell
 bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 ```
 
@@ -72,7 +74,7 @@ bin/magento saas:resync --feed=products --thread-count=2 --batch-size=200
 
 다중 스레딩을 사용하여 모든 데이터 내보내기 작업을 처리하기 위해 시스템 통합자나 개발자는 Commerce 애플리케이션 구성에서 각 피드에 대한 스레드 수와 배치 크기를 수정할 수 있습니다.
 
-이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
+이러한 변경 내용은 구성 파일 `app/etc/config.php`의 [시스템 섹션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system)에 사용자 지정 값을 추가하여 적용할 수 있습니다.
 
 **예: 제품 및 가격에 대한 다중 스레딩 구성**
 
@@ -95,3 +97,9 @@ return [
             ],
 //   ...
 ```
+
+>[!MORELIKETHIS]
+>
+> - [데이터 볼륨 및 전송 시간 예상](estimate-data-volume-sync-time.md)
+> - [동기화 작동 방식](sync-overview.md)
+> - [피드 테이블 스키마](reference/feed-table-reference.md)

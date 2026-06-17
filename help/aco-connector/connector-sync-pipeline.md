@@ -2,36 +2,24 @@
 title: 카탈로그 동기화 파이프라인
 description: 피드 변환, cron 일정, 범위 제어 및 오류 처리를 포함하여  [!DNL Adobe Commerce Optimizer Connector] 동기화 파이프라인이 작동하는 방식에 대해 알아봅니다.
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:21:52.214Z'
 TQID: 'https://experienceleague.adobe.com/EXUQzAd0I6Hnq4twzhaBZZnv0jLjeGBuTx-QgQz-5MA'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 6d4493db5e0714577a8800007cc6d2c552578fa4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: cc250cf1-34eb-4863-80d0-d170d45ea067id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 662
 ht-degree: 1%
 
 ---
 
 # 커넥터 동기화 파이프라인
 
-[[!DNL SaaS Data Export]](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)을(를) 기반으로 빌드된 **[!DNL Adobe Commerce Optimizer Connector]**&#x200B;은(는) [!DNL SaaS Data Export] 인덱서가 수집한 데이터를 [!DNL Adobe Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 매핑하고 인증, 일괄 처리된 제출 및 범위 기반 동기화 제어를 처리합니다. 아래 섹션에서는 이러한 동기화가 작동하는 방식을 설명합니다.
+[[!DNL SaaS Data Export]](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)을(를) 기반으로 빌드된 **[!DNL Adobe Commerce Optimizer Connector]**&#x200B;은(는) [!DNL SaaS Data Export] 인덱서가 수집한 데이터를 [!DNL Adobe Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 매핑하고 인증, 일괄 처리된 제출 및 범위 기반 동기화 제어를 처리합니다. 아래 섹션에서는 이러한 동기화가 작동하는 방식을 설명합니다.
 
 관련 컨텍스트:
 
@@ -47,33 +35,36 @@ ht-degree: 1%
 
 [!DNL Adobe Commerce]에서 카탈로그 데이터가 변경되면 이러한 단계를 통해 동기화가 이동합니다.
 
-1. **엔티티 변경 감지** —(1분마다) cron 작업(`indexer_reindex_all_invalid`)이 [!DNL Adobe Commerce]개의 엔티티 변경을 감지하고 [!DNL SaaS Data Export]을(를) 트리거합니다. 이 작업은 피드 항목을 조합하고 상태를 추적합니다.
+1. **엔티티 변경 감지** —(1분마다) cron 작업(`indexer_reindex_all_invalid`)이 [!DNL Adobe Commerce]개의 엔티티 변경을 감지하고 피드 항목을 결합하는 [!DNL SaaS Data Export]을(를) 트리거합니다.
 1. **변환** — [!DNL Commerce Optimizer Connector]은(는) 어셈블된 피드를 선택하고 [!DNL Adobe Commerce] 엔터티 및 범위를 [!DNL Commerce Optimizer] API에 필요한 형식에 매핑하며 전송할 페이로드를 준비합니다.
 1. **전송** — 변환된 데이터는 HTTP POST(`/v1/catalog/<feed name>`)를 통해 [!DNL Adobe I/O Gateway]을(를) 통해 [!DNL Commerce Optimizer]&#x200B;(으)로 전송되며, 받는 피드의 유효성을 검사하고 지속됩니다.
+1. **결과 유지** — [피드 테이블](reference/connector-reference.md#supported-feeds)에 API 응답 상태를 유지합니다.
 1. **실패 다시 시도**(5분마다) — 별도의 cron 작업(`*_resend_failed_items`)이 실패한 피드 항목을 감지하여 동일한 파이프라인을 통해 다시 제출합니다.
 
 ### 예약된 cron 작업
 
-두 개의 cron 그룹이 고정된 일정에 따라 파이프라인을 자동화합니다.
+다음 cron 작업은 고정된 일정에 따라 파이프라인을 자동화합니다.
 
-| 크론 군 | 목적 | 일정 |
-| ---------- | ------- | -------- |
-| `indexer_reindex_all_invalid` | 엔티티 업데이트를 수신하고 피드 항목을 어셈블하며 피드 상태를 유지합니다. | 1분마다 |
-| `*_resend_failed_items` | 실패한 피드 항목을 확인하고 [!DNL Commerce Optimizer]에 다시 제출합니다. | 5분마다 |
+| 크론 군 | 크론 작업 | 목적 | 일정 |
+|-------------------------------------|-------------------------------|------------------------------------------------------------------------------|----------------|
+| `index` | `indexer_update_all_views` | 엔티티 업데이트를 수신하고 피드 항목을 어셈블하며 피드 상태를 유지합니다. | 1분마다 |
+| `index` | `indexer_reindex_all_invalid` | &quot;색인 재지정 필요&quot;로 표시된 피드 색인에 대해 전체 재동기화 수행 | 1분마다 |
+| `resync_failed_feeds_data_exporter` | `*_resend_failed_items` | 실패한 피드 항목을 확인하고 [!DNL Commerce Optimizer]에 다시 제출합니다. | 5분마다 |
+| `commerce_data_export` | `cleanup_deleted_feed_items` | 보존 기간(7일)이 지난 동기화된 삭제된 피드 항목을 정리합니다 | 매일 오전 2:00시 |
 
 **[!DNL SaaS Data Export]** 확장은 피드 컬렉션 및 상태 추적을 처리합니다. 커넥터 레이어는 엔터티 및 범위를 [!DNL Commerce Optimizer] API에 필요한 형식에 매핑하고 `POST /v1/catalog/<feed name>`을(를) 통해 제출합니다.
 
 #### 요구 사항
 
-- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues){target="_blank"}.
-- 피드 인덱서는 **[!UICONTROL Update by Schedule]** 모드를 사용해야 합니다. [Commerce 응용 프로그램 구성 확인](../data-export/data-synchronization.md#verify-commerce-application-configuration){target="_blank"}을 참조하십시오.
+- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues){target="_blank"}.
+- 피드 인덱서는 **[!UICONTROL Update by Schedule]** 모드를 사용해야 합니다. [부분 동기화](../data-export/sync-overview.md#partial-sync){target="_blank"}를 참조하십시오.
 
 ## 범위 기반 동기화 제어
 
 `CommerceOptimizerScopeMapper` 모듈은 웹 사이트 및 스토어 보기 내보내기 설정을 읽고 피드 수집 및 제출 중에 이를 적용합니다.
 
 - **사용 가능한 범위** 정상적인 델타 일정에서 데이터를 내보냅니다.
-- **비활성화된 범위**&#x200B;이(가) 파이프라인에서 제외됩니다.
+- **비활성화된 범위**이(가) 파이프라인에서 제외됩니다.
 이전에 동기화된 엔터티는 다음 cron 실행 시 [!DNL Commerce Optimizer]에서 제거됩니다.
 
 동기화 문제가 하나의 카탈로그 원본 또는 가격책에만 영향을 주는 경우 [데이터가 동기화되지 않음](troubleshooting.md#data-not-syncing)을 참조하세요.
@@ -88,7 +79,7 @@ ht-degree: 1%
 | 일시적 실패 | 5분마다 재시도됨 |
 | 전체 동기화 또는 큰 카탈로그 | 분 ~ 시간 |
 
-Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./get-started.md#verify-that-the-data-sync-is-working)을 참조하십시오.
+Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./data-sync-manage.md#verify-that-the-data-sync-is-working)을 참조하십시오.
 
 ## 피드 제출 및 오류 처리
 
