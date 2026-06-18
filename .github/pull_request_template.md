@@ -28,12 +28,12 @@ If you are fixing a GitHub issue, using the GitHub keyword format (https://help.
 
 `main` is the default branch. Merged pull requests to `main` go live on the site automatically. Any requested changes to content on the `main` branch must be related to the released product. Any content related to future releases should be merged to the corresponding `develop` branch.
 
-See Contribution guidelines (https://github.com/AdobeDocs/commerce.en/blob/main/contributing.md) for more information.
+See Contribution guidelines (https://github.com/AdobeDocs/commerce.ko-KR/blob/main/contributing.md) for more information.
 -->
 
 ### 새로운 기능 하이라이트
 
 <!--  _OPTIONAL - REMOVE THIS SECTION IF NOT USED._
 
-If this pull request introduces changes that should be highlighted in the What's New section (https://experienceleague.adobe.com/en/docs/commerce/user-guides/home#whats-new), see _What's New highlights_ in the Contribution guidelines (https://github.com/AdobeDocs/commerce.en/blob/main/contributing.md#whats-new-highlights).
+If this pull request introduces changes that should be highlighted in the What's New section (https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home#whats-new), see _What's New highlights_ in the Contribution guidelines (https://github.com/AdobeDocs/commerce.ko-KR/blob/main/contributing.md#whats-new-highlights).
 -->
