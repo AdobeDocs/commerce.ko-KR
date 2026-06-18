@@ -10,9 +10,9 @@ product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: d5e10c1b3014d2b74c323d6a34e5f73a97d494ce
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: 218
 ht-degree: 0%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 0%
 >[카탈로그 어댑터 확장](catalog-adapter.md)이(가) Adobe Commerce 가격 인덱싱을 사용하지 않도록 설정합니다. 설치한 경우 composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 카탈로그 어댑터 확장을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 현재 메이저 버전
+
+## 1.0.11 릴리스
+
+_2026년 6월 18일_
+
+![수정](../assets/fix.svg) **PHP 8.5 호환성** - 이제 Adobe Commerce 카탈로그 어댑터에서 Adobe Commerce 버전 2.4.9 이상과의 호환성을 위해 PHP 8.5를 지원합니다. <!--MDEE-1368-->
 
 ## 1.0.10 릴리스
 
