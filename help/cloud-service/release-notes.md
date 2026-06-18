@@ -7,17 +7,19 @@ role: Admin, Developer, User, Leader
 level: Beginner
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
-TQID: 'https://experienceleague.adobe.com/NSIeUn0B5i19ldOZSVu4PJy9vqY4NGrXY1Y485sV09U'
+nudge: true
+autotag-review: '2026-06-18T16:04:15.842Z'
+TQID: 'https://experienceleague.adobe.com/MmwdYWe5Et9m0BvtrVYNK2jiJ3fZBnUe2K6xMdIbMUk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -26,14 +28,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-nudge: true
-source-git-commit: 48171a525ad5e5f4b02da89753df6ea7e7ff9926
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 4489
 ht-degree: 0%
@@ -578,7 +577,7 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
    * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
    * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
    * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
-   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=ko)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
+   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
 
 * B2B Storefront 호환성 패키지를 출시했습니다. 이 패키지는 B2B 시스템의 개발을 개선하는 데 도움이 되도록 [!DNL Adobe Commerce] B2B GraphQL 스키마를 향상시킵니다.
 

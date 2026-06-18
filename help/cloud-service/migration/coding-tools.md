@@ -5,21 +5,22 @@ feature: App Builder, Cloud
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
-TQID: 'https://experienceleague.adobe.com/dpS71291Xrj-FS-mPdsGwsXj-1tPUoRZrTwB30711D4'
+autotag-review: '2026-06-18T16:11:12.988Z'
+TQID: 'https://experienceleague.adobe.com/ZbqP1MO-QrqAtocvmgFStqaluqQdzMm4LXlY3o4o3xY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 2634
 ht-degree: 0%

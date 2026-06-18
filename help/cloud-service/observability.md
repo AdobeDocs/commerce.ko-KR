@@ -8,6 +8,7 @@ badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.c
 autotag-review: '2026-06-09T15:41:54.613Z'
 TQID: 'https://experienceleague.adobe.com/jTPNVSy6cP8v-pV-3pyqgJX-PAzFFhOUf9SjQIMeBns'
 product_v2:
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
@@ -19,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 607
 ht-degree: 0%

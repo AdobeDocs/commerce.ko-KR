@@ -6,19 +6,23 @@ role: Admin
 level: Intermediate
 exl-id: 9bc80fe6-6dfd-4bb3-8dc5-d5efd8a8d90c
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+autotag-review: '2026-06-18T16:07:29.468Z'
 TQID: 'https://experienceleague.adobe.com/kaQ6N23X6S9zNjDpcq5BsDJnUpke3mjPpzxElMGwqL0'
 product_v2:
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 1822
 ht-degree: 0%
