@@ -2,19 +2,16 @@
 title: 규정 준수 및 인증
 description: Adobe Commerce as a Cloud Service의 규정 준수 및 인증에 대해 알아봅니다.
 role: Admin, Developer, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+autotag-review: '2026-06-18T16:15:23.951Z'
 TQID: 'https://experienceleague.adobe.com/EdrT-C-iVmebE5SN7jWdUACjSCqarNnzcfW3w9dapnE'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7id: f2261633-201d-46c5-8a66-999e70527a83
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 242
 ht-degree: 0%
@@ -42,4 +39,4 @@ Adobe 인증 및 규정 준수 설명서의 전체 목록을 보려면 [Adobe Tr
 
 ## 실무자 인증
 
-Adobe은 [!DNL Adobe Commerce]&#x200B;(으)로 작업하는 개발자, 설계자 및 비즈니스 전문가를 위한 역할 기반 인증도 제공합니다. 이러한 인증은 안전한 구현 및 플랫폼 거버넌스에 대한 전문 지식을 검증합니다. 자세한 내용은 [Adobe 인증 포털](https://experienceleague.adobe.com/ko/docs/certification/program/technical-certifications/ac/ac-overview){target="_blank"}을 참조하세요.
+Adobe은 [!DNL Adobe Commerce]&#x200B;(으)로 작업하는 개발자, 설계자 및 비즈니스 전문가를 위한 역할 기반 인증도 제공합니다. 이러한 인증은 안전한 구현 및 플랫폼 거버넌스에 대한 전문 지식을 검증합니다. 자세한 내용은 [Adobe 인증 포털](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/ac/ac-overview){target="_blank"}을 참조하세요.

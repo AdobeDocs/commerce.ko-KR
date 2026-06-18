@@ -8,21 +8,15 @@ role: Developer
 level: Intermediate
 type: Tutorial
 hide: true
+autotag-review: '2026-06-18T16:24:57.655Z'
 TQID: 'https://experienceleague.adobe.com/ogyONrudoCu-SmmG9oxTMrA0m-evEkIBXb1wRyCsyks'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ef32511703a96b5f4db32d54229e9a7cbe961f12
+product_v2: id: de2e2e68-c5d7-4efe-be7b-27528698f06bid: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 2693
 ht-degree: 0%
@@ -66,8 +60,8 @@ bash --version
 
 또한 다음을 확인하십시오.
 
-- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
-- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+- 제품 데이터가 있는 [!DNL Adobe Commerce as a Cloud Service] 인스턴스가 있습니다. [Commerce Cloud 서비스 인스턴스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}를 참조하세요.
+- [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트가 있습니다. 항목이 없으면 [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 - `aem` CLI가 설치되어 있습니다.
 
   ```bash

@@ -5,24 +5,16 @@ feature: Cloud, Integration
 role: User, Leader
 level: Beginner
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-TQID: https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+autotag-review: '2026-06-18T16:06:00.993Z'
+TQID: 'https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ'
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 0%
@@ -42,7 +34,7 @@ ht-degree: 0%
 1. 다음 옵션을 사용하여 [Cloud Service 인스턴스 만들기](./getting-started.md#create-an-instance):
    1. [!UICONTROL **환경**] 드롭다운에서 [!UICONTROL **샌드박스**]&#x200B;를 선택합니다.
    1. [!UICONTROL **테스트 데이터**] 드롭다운에서 [!UICONTROL **Adobe 스토어**]&#x200B;를 선택합니다.
-1. [&#x200B; [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
+1. [ [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
 1. 다음 옵션을 사용하여 [Cloud Service 상점 설정](./storefront.md):
    1. 템플릿에 대해 [!UICONTROL `adobe-commerce/adobe-demo-store`]을(를) 선택합니다.
    1. 연결 방법에 대해 [!UICONTROL **사용 가능한 인스턴스 선택(Mesh -> SaaS)**]&#x200B;을 선택합니다.
@@ -216,7 +208,7 @@ ht-degree: 0%
 
 #### [!DNL Commerce AEM Assets]에 이미지 추가
 
-1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![제품 이미지가 있는 [!DNL AEM Assets]의 Commerce 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -266,7 +258,7 @@ ht-degree: 0%
 
 ### 텍스트 생성
 
-1. [유니버설 편집기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
+1. [유니버설 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
 
 1. 편집할 텍스트 블록을 선택합니다.
 
@@ -280,7 +272,7 @@ ht-degree: 0%
 
 ### 컨텐츠 및 이미지 생성
 
-1. [[!DNL Generate Variations]](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
+1. [[!DNL Generate Variations]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
 
 1. [!UICONTROL **영웅 배너**] 템플릿을 선택하십시오.
 
