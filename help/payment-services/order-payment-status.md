@@ -120,7 +120,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
    bin/magento config:set payment/payment_services/async_status_updates 1
    ```
 
-1. 상태 업데이트를 자동으로 가져오도록 `sync_order_payment_status` cron 작업을 활성화하고 예약합니다. [cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)을 참조하십시오.
+1. 상태 업데이트를 자동으로 가져오도록 `sync_order_payment_status` cron 작업을 활성화하고 예약합니다. [cron 작업 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)을 참조하십시오.
 
 설정 및 cron 작업이 활성화되면 cron 작업은 10분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다. 설정 후 정상 작동 시 추가 판매자 조치가 필요하지 않습니다.
 

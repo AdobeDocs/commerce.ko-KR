@@ -50,4 +50,4 @@ ht-degree: 7%
    - [설정](settings.md)
    - [의미 체계 검색](semantic-search.md)
 - [개발자 안내서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
