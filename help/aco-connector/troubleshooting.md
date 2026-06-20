@@ -68,4 +68,4 @@ Commerce 관리자에서 **[!UICONTROL Data Feed Sync Status]**&#x200B;을(를) 
 
 ## [!DNL SaaS Data Export] 진단
 
-로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/troubleshooting/logging){target="_blank"}를 참조하십시오.
+로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/troubleshooting/logging){target="_blank"}를 참조하십시오.

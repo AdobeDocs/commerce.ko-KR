@@ -688,7 +688,7 @@ _2022년 3월 31일_
 
 ![해결된 문제](../assets/fix.svg)<!-- Issue PAY-2561 --> 이전에 제거한 제품이 _주문 검토_ 페이지의 장바구니에 표시되지 않습니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2842 --> 샌드박스 환경에서 결제를 처리할 때 신용 카드 거래 테스트 [PayPal로 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html)할 수 있습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2842 --> 샌드박스 환경에서 결제를 처리할 때 신용 카드 거래 테스트 [PayPal로 실패](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=ko)할 수 있습니다.
 
 ## v1.0.0
 
@@ -712,7 +712,7 @@ _2021년 11월 29일_
 
 ![새로 만들기](../assets/new.svg)<!-- Issue PAY-1443 --> [!DNL Payment Services] 확장에 대한 PayPal 결제 단추 및 신용 카드 필드를 [사용자 지정](payments-options.md)할 수 있습니다.
 
-![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2473 --> 확장을 설치하는 동안 [잘못된 작성기 키](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html)를 사용하면 사용자가 올바른 `MAGEID`을(를) 사용하여 [인증](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)할 수 없습니다.
+![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2473 --> 확장을 설치하는 동안 [잘못된 작성기 키](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=ko)를 사용하면 사용자가 올바른 `MAGEID`을(를) 사용하여 [인증](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)할 수 없습니다.
 
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2474 --> [!DNL Payment Services]개의 보고서 [을(를) 즉시 동기화할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=ko).
 
