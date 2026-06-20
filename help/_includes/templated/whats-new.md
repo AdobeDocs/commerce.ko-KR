@@ -1,7 +1,7 @@
 ---
-source-git-commit: 71c8c06fbc4e8717d02b1da3001985f7203a8adf
+source-git-commit: 7a4031966113a9131b85a7d0bfc4a3add606d2f7
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1690'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>개요, 색인화, 모범 사례 및 검색 성능 주제의 링크와 함께 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/search-relevance-matching">검색 일치 및 순위 지정(라이브 검색)</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/search-relevance-matching">검색 일치 및 순위 지정(Adobe Commerce Optimizer)</a>의 검색 일치 우선 순위 지정(완전/근접 구문, 동일 필드, 교차 필드) 및 순위 트레이드오프가 문서화되었습니다.</p>
+      <td><p>개요, 색인화, 모범 사례 및 검색 성능 주제의 링크와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/search-relevance-matching">검색 일치 및 순위 지정(라이브 검색)</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/search-relevance-matching">검색 일치 및 순위 지정(Adobe Commerce Optimizer)</a>의 검색 일치 우선 순위 지정(완전/근접 구문, 동일 필드, 교차 필드) 및 순위 트레이드오프가 문서화되었습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -445,28 +445,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/eb10bd0ff636f70360e1ca35e51b6643ad1f70d4">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 20일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>SaaS 데이터 내보내기 및 동기화를 모니터링하는 위치(<a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync">Commerce Optimizer 데이터 동기화</a>)를 명확히 했습니다.</p>
-</td>
-      <td>
-        피드백, 기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/fcb9d4ae76bf0336fbad0dbff6518ed661d5b23b">커밋</a></td>
     </tr>
   </tbody>
 </table>
