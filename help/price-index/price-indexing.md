@@ -6,18 +6,13 @@ seo-title: Adobe SaaS Price Indexing
 seo-description: Price indexing give performance improvements using SaaS infrastructure
 exl-id: d1bf3879-3e86-4665-a55c-494963c87f90
 TQID: https://experienceleague.adobe.com/dfZjgp5wR6H4c7WkNNhjLYUgKNTPIqPWxKiShlTU1yA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 029d78d5c87bf75ccc26b8af462081f8e08d1176
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 475
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 
 SaaS 가격 산정 색인화는 색인 지정 및 가격 계산과 같은 리소스 집약적인 작업을 Commerce 애플리케이션에서 Adobe의 클라우드 인프라로 오프로드하여 사이트 성능을 최적화합니다. 이 접근 방식을 통해 판매자는 신속하게 리소스를 확장하여 가격 인덱싱 시간을 단축하고 상점 및 연결된 Commerce 서비스에 보다 빠르게 가격 업데이트를 제공할 수 있습니다.
 
-다음 다이어그램은 Commerce이 Commerce 애플리케이션에 포함된 [가격 인덱싱](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers) 프로세스를 사용할 때 SaaS 서비스로 이동하는 인덱싱 데이터 흐름을 보여 줍니다.
+다음 다이어그램은 Commerce이 Commerce 애플리케이션에 포함된 [가격 인덱싱](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) 프로세스를 사용할 때 SaaS 서비스로 이동하는 인덱싱 데이터 흐름을 보여 줍니다.
 
 ![기본 데이터 흐름](assets/old_way.png)
 
@@ -71,7 +66,17 @@ bin/magento saas:resync --feed=scopesWebsite
 bin/magento saas:resync --feed=prices
 ```
 
-### 사용자 정의 제품 유형에 대한 가격
+## 동기화 진행 상황 모니터링
+
+{{$include /help/_includes/data-export/verify-commerce-service-data-sync.md}}
+
+필요한 경우 피드를 수동으로 다시 동기화하려면 [Commerce CLI](../data-export/data-export-cli-commands.md)를 사용하십시오. 다시 동기화 옵션 및 추가 문제 해결 단계는 _SaaS 데이터 내보내기 안내서_&#x200B;의 [동기화 관리](../data-export/data-sync-manage.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>Commerce on Cloud 또는 온-프레미스 배포용 Commerce 관리에서 데이터 피드 동기화 상태 페이지를 사용할 수 없는 경우 [확장 설치 지침](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#install-the-extension)에 따라 사용하도록 설정하십시오.
+
+## 사용자 정의 제품 유형에 대한 가격
 
 가격 계산은 기준 가격, 특별 가격, 그룹 가격, 카탈로그 규칙 가격 등과 같은 사용자 지정 제품 유형에 대해 지원됩니다.
 
@@ -102,7 +107,7 @@ bin/magento saas:resync --feed=prices
        */
        public function afterGet(ProductPrice $subject, array $result, array $values) : array
        {
-           // Override the output $result with your data for the corresponding products (see original method for details) 
+           // Override the output $result with your data for the corresponding products (see original method for details)
            return $result;
        }
    }

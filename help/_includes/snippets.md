@@ -1,11 +1,17 @@
 ---
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+source-git-commit: 10a91a91337778648e99078bcbf0c9ef25a49f86
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
 # Commerce 스니펫
+
+## 데이터 피드 동기화 상태 확장에 대한 설치 참고 사항 {#install-data-sync-feed-status}
+
+>[!NOTE]
+>
+>Commerce on Cloud 또는 온-프레미스 배포용 Commerce 관리에서 데이터 피드 동기화 상태 페이지를 사용할 수 없는 경우 [확장 설치 지침](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#install-the-extension){target="_blank"}에 따라 사용하도록 설정하십시오.
 
 
 ## Adobe Commerce Optimizer 통합 환경 정렬 {#aco-integration-environment-alignment}
@@ -25,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](../aco-connector/overview.md)를 설치한 경우 Commerce Optimizer Studio의 [데이터 피드 동기화 상태 페이지](../optimizer/setup/data-sync.md)를 사용하여 데이터 관리 대시보드 대신 Adobe Commerce Optimizer에 성공적으로 동기화된 데이터를 확인하십시오.
+>[[!DNL Adobe Commerce Optimizer Connector]](../aco-connector/overview.md)을(를) 사용하여 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 내보내는 배포의 경우 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)가 아닌 [!DNL Adobe Commerce Optimizer Studio]의 [데이터 동기화 페이지](../optimizer/setup/data-sync.md) 및 Commerce 관리자의 [데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을(를) 사용하여 카탈로그 데이터 동기화를 확인하십시오.
 
 ## API 업데이트에 대한 Adobe Commerce Optimizer 드롭인 메모 {#aco-api-updates-and-dropins}
 
 >[!NOTE]
 >
->[!DNL Commerce Storefront on Edge Delivery Services]에 대한 [추가 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko)에서 최신 GraphQL 변경 내용(새 필드, 제한 및 쿼리 동작)을 자동으로 선택합니다.
+>[!DNL Commerce Storefront on Edge Delivery Services]에 대한 [추가 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)에서 최신 GraphQL 변경 내용(새 필드, 제한 및 쿼리 동작)을 자동으로 선택합니다.
 
 ## ACCS 조기 액세스 {#accs-early-access}
 
@@ -47,10 +53,10 @@ ht-degree: 0%
 <table style="table-layout:fixed">
   <tr>
     <td style="vertical-align: middle;"><a href="https://developer.adobe.com/commerce/webapi/"><img alt="Developers" src="../assets/icons/developers.svg" /> <strong>Developers</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
     <td style="vertical-align: middle;"><a href="../cloud-service/overview.md"><img alt="Merchants" src="../assets/icons/merchants.svg" /> <strong>Merchants</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/?lang=ko"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
   </tr>
 </table>
 
@@ -77,7 +83,7 @@ ht-degree: 0%
 
 Adobe Commerce ID 관리 및 인증은 Adobe Admin Console을 통해 Adobe Identity Management System(IMS)에서 관리합니다.
 
-Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 *Enterprise Admin Console* 설명서의 [ID 및 SSO 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.
+Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 *Enterprise Admin Console* 설명서의 [ID 및 SSO 설정](https://helpx.adobe.com/enterprise/using/set-up-identity.html)을 참조하십시오.
 
 ## ACCS 서비스 및 확장성 릴리스 정보 {#accs-release}
 
@@ -87,7 +93,7 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 
 | 서비스 | 확장성 | 상점 첫 화면 |
 | --- | --- | --- |
-| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko)</li></ul> |
+| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/)</li></ul> |
 
 ## Adobe Commerce Optimizer 서비스 릴리스 노트 {#aco-release}
 
@@ -97,4 +103,4 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 
 | 서비스 | 상점 첫 화면 |
 | --- | --- |
-| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+| [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |

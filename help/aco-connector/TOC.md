@@ -4,8 +4,8 @@ breadcrumb-title: '[!DNL Optimizer Connector]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce Optimizer Connector] 을(를) 사용하여 카탈로그 데이터를 내보내고, 가격을 동기화하고,  [!DNL Adobe Commerce Optimizer]을(를) 사용하여  [!DNL Edge Delivery Services] 상점 전면을 전달하는 방법에 대한 자세한 지침을 제공합니다.
 role: Developer, Admin
 feature: Integration, Storefront, Configuration
-nudge: true
-source-git-commit: 3624bb934c25e04ae2f08b0d78ed4602df89d3eb
+nudge: false
+source-git-commit: 83218416c513412f2ff6328aa8a23e915cbb8750
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 6%
@@ -28,4 +28,4 @@ ht-degree: 6%
    - [커넥터 피드에 대한 필드 매핑](reference/field-mapping.md)
    - [데이터 볼륨 및 동기화 시간 예상](reference/estimate-data-volume-sync-time.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
