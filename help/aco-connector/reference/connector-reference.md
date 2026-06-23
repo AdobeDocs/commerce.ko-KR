@@ -5,11 +5,21 @@ feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T15:48:19.494Z'
 TQID: 'https://experienceleague.adobe.com/UM6Y-xoQpUDzWpaMe1GRPp4XoAtHBLBsHw388kumN8g'
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: c32adafa-ed01-4b31-997e-2413013911b0id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 19de20caafd45e3a00896d0d4b29b7e96dfe94e1
 workflow-type: tm+mt
 source-wordcount: 301
@@ -49,8 +59,8 @@ ht-degree: 1%
 
 `products`, `productAttributes`, `categories` 및 `prices` 피드는 [!DNL SaaS Data Export] 인덱서에서 수집한 데이터를 다시 사용합니다. 커넥터는 웹 사이트 및 고객 그룹 구성에서 `priceBooks` 피드를 생성하며 [!DNL SaaS Data Export] 인덱서에 의존하지 않습니다.
 
-각 피드에 대한 필드 수준 매핑 세부 정보는 [피드 [!DNL Commerce Optimizer Connector] 2}에 대한 필드 매핑을 참조하십시오.
-카탈로그 크기에 따라 동기화 시간을 예측하려면 [데이터 볼륨 및 동기화 시간 예측](estimate-data-volume-sync-time.md)을 참조하세요.](field-mapping.md)
+각 피드에 대한 필드 수준 매핑 세부 정보는 [&#128279;](field-mapping.md)피드 [!DNL Commerce Optimizer Connector] 2&rbrace;에 대한 필드 매핑을 참조하십시오.
+카탈로그 크기에 따라 동기화 시간을 예측하려면 [데이터 볼륨 및 동기화 시간 예측](estimate-data-volume-sync-time.md)을 참조하세요.
 
 ## 구성 경로
 
