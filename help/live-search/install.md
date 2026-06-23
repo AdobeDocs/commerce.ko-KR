@@ -25,9 +25,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 10a91a91337778648e99078bcbf0c9ef25a49f86
 workflow-type: tm+mt
-source-wordcount: 2883
+source-wordcount: 2842
 ht-degree: 0%
 
 ---
@@ -235,21 +235,19 @@ bin/magento saas:resync --feed categoryPermissions
 
 ### 동기화 진행 상황 모니터링
 
-동기화 진행률을 모니터링하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)를 사용하십시오. 이 대시보드는 상점 첫 화면에서 제품 데이터의 가용성에 대한 중요한 통찰력을 제공하여 고객에게 즉시 표시되도록 합니다.
+{{$include /help/_includes/data-export/verify-commerce-service-data-sync.md}}
 
-![데이터 관리 대시보드](assets/data-management-dashboard.png)
+{{install-data-sync-feed-status}}
 
-[Commerce CLI](../data-export/data-export-cli-commands.md) 및 [데이터 내보내기 확장 로그](../data-export/troubleshooting/logging.md)를 사용하여 동기화 명령을 실행하고 동기화 프로세스 문제를 해결할 수도 있습니다.
-
-#### 향후 제품 업데이트
+### 향후 제품 업데이트
 
 초기 동기화 후 점포 검색에서 증분 제품 업데이트를 사용할 수 있는 데 최대 15분이 걸릴 수 있습니다. 자세한 내용은 색인화 설명서에서 [제품 업데이트 스트리밍](indexing.md)을 참조하세요.
 
 ## &#x200B;4. 데이터를 내보냈는지 확인 {#verify}
 
-카탈로그 데이터를 Adobe Commerce에서 내보내고 [!DNL Live Search]과(와) 동기화했는지 확인하려면 다음 몇 가지 옵션을 사용하십시오.
+데이터 피드 동기화 상태 페이지와 데이터 관리 대시보드를 사용하는 것 외에도 데이터베이스에서 직접 Adobe Commerce에서 내보낸 카탈로그 데이터를 확인하고 [!DNL Live Search] GraphQL 작업 영역을 사용하여 데이터가 [!DNL Live Search]에 성공적으로 동기화되었는지 확인할 수 있습니다.
 
-- 다음 표에서 항목을 찾습니다.
+- 데이터베이스에서 SQL 쿼리를 사용하여 다음 테이블의 항목을 찾습니다.
 
    - `cde_products_feed`
    - `cde_product_attributes_feed`

@@ -15,9 +15,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 029d78d5c87bf75ccc26b8af462081f8e08d1176
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 475
 ht-degree: 0%
 
 ---
@@ -71,7 +71,17 @@ bin/magento saas:resync --feed=scopesWebsite
 bin/magento saas:resync --feed=prices
 ```
 
-### 사용자 정의 제품 유형에 대한 가격
+## 동기화 진행 상황 모니터링
+
+{{$include /help/_includes/data-export/verify-commerce-service-data-sync.md}}
+
+필요한 경우 피드를 수동으로 다시 동기화하려면 [Commerce CLI](../data-export/data-export-cli-commands.md)를 사용하십시오. 다시 동기화 옵션 및 추가 문제 해결 단계는 _SaaS 데이터 내보내기 안내서_&#x200B;의 [동기화 관리](../data-export/data-sync-manage.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>Commerce on Cloud 또는 온-프레미스 배포용 Commerce 관리에서 데이터 피드 동기화 상태 페이지를 사용할 수 없는 경우 [확장 설치 지침](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#install-the-extension)에 따라 사용하도록 설정하십시오.
+
+## 사용자 정의 제품 유형에 대한 가격
 
 가격 계산은 기준 가격, 특별 가격, 그룹 가격, 카탈로그 규칙 가격 등과 같은 사용자 지정 제품 유형에 대해 지원됩니다.
 
@@ -102,7 +112,7 @@ bin/magento saas:resync --feed=prices
        */
        public function afterGet(ProductPrice $subject, array $result, array $values) : array
        {
-           // Override the output $result with your data for the corresponding products (see original method for details) 
+           // Override the output $result with your data for the corresponding products (see original method for details)
            return $result;
        }
    }

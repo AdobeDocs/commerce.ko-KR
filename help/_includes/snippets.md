@@ -1,11 +1,17 @@
 ---
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+source-git-commit: 10a91a91337778648e99078bcbf0c9ef25a49f86
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
 # Commerce 스니펫
+
+## 데이터 피드 동기화 상태 확장에 대한 설치 참고 사항 {#install-data-sync-feed-status}
+
+>[!NOTE]
+>
+>Commerce on Cloud 또는 온-프레미스 배포용 Commerce 관리에서 데이터 피드 동기화 상태 페이지를 사용할 수 없는 경우 [확장 설치 지침](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#install-the-extension){target="_blank"}에 따라 사용하도록 설정하십시오.
 
 
 ## Adobe Commerce Optimizer 통합 환경 정렬 {#aco-integration-environment-alignment}
@@ -25,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](../aco-connector/overview.md)를 설치한 경우 Commerce Optimizer Studio의 [데이터 피드 동기화 상태 페이지](../optimizer/setup/data-sync.md)를 사용하여 데이터 관리 대시보드 대신 Adobe Commerce Optimizer에 성공적으로 동기화된 데이터를 확인하십시오.
+>[[!DNL Adobe Commerce Optimizer Connector]](../aco-connector/overview.md)을(를) 사용하여 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 내보내는 배포의 경우 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)가 아닌 [!DNL Adobe Commerce Optimizer Studio]의 [데이터 동기화 페이지](../optimizer/setup/data-sync.md) 및 Commerce 관리자의 [데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을(를) 사용하여 카탈로그 데이터 동기화를 확인하십시오.
 
 ## API 업데이트에 대한 Adobe Commerce Optimizer 드롭인 메모 {#aco-api-updates-and-dropins}
 
@@ -50,7 +56,7 @@ ht-degree: 0%
     <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
     <td style="vertical-align: middle;"><a href="../cloud-service/overview.md"><img alt="Merchants" src="../assets/icons/merchants.svg" /> <strong>Merchants</strong></a></td>
     <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/?lang=ko"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
   </tr>
 </table>
 
