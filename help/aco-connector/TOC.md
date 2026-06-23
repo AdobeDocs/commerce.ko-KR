@@ -5,10 +5,10 @@ user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce Optimizer C
 role: Developer, Admin
 feature: Integration, Storefront, Configuration
 nudge: false
-source-git-commit: 83218416c513412f2ff6328aa8a23e915cbb8750
+source-git-commit: 98d604a71c2062a44070b207fc43b9d9b1c434fd
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 6%
    - [시나리오 문제 해결](troubleshooting/troubleshooting-scenarios.md)
 - 참조 {#reference}
    - [커넥터 모듈 및 피드 엔드포인트](reference/connector-reference.md)
+   - [피드 테이블 스키마 참조](reference/feed-table-reference.md)
    - [커넥터 피드에 대한 필드 매핑](reference/field-mapping.md)
    - [데이터 볼륨 및 동기화 시간 예상](reference/estimate-data-volume-sync-time.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

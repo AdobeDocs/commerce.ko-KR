@@ -22,9 +22,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: ef1a9efc579d8d21c145e6981235489a2e4ea203
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: 907
 ht-degree: 0%
 
 ---
@@ -76,6 +76,10 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 >[!NOTE]
 >
 >전체 동기화는 주로 온보딩 단계에 해당합니다. 데이터베이스 오버로드를 방지하기 위해 정기적으로 사용하지 마십시오. 초기 동기화 후 진행 중인 변경 사항은 부분 동기화를 사용하여 자동으로 동기화됩니다.
+
+>[!NOTE]
+>
+>`saas:resync` 명령은 새 항목, 업데이트된 항목 및 이전에 내보내지 못한 항목만 전송합니다. 마지막 내보내기 이후 콘텐츠 해시가 변경되지 않은 항목은 건너뜁니다.
 
 ### 부분 동기화 {#partial-sync}
 

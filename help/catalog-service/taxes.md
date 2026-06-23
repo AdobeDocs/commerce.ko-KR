@@ -12,7 +12,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 19de20caafd45e3a00896d0d4b29b7e96dfe94e1
 workflow-type: tm+mt
 source-wordcount: 292
 ht-degree: 0%
@@ -47,10 +47,10 @@ ht-degree: 0%
     "meshConfig": {
       "sources": [
         {
-          "name": "<NAME OF MESH>",
+          "name": "<NAME_OF_MESH>",
           "handler": {
             "graphql": {
-              "endpoint": "<COMMERCE INSTANCE GQL ENDPOINT URL>"
+              "endpoint": "<COMMERCE_INSTANCE_GQL_ENDPOINT_URL>"
             }
           },
           "transforms": [

@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e7d9c056ef8d565b4a143b05ff4e06d607fbfa8e
+source-git-commit: 98d604a71c2062a44070b207fc43b9d9b1c434fd
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Adobe Commerce on cloud, 온-프레미스 또는 Adobe Commerce as a Cloud Servi
 | 작업 | 옵션 | 메모 |
 | --- | --- | --- |
 | 선택한 피드 항목 재동기화 실패 또는 문제 발생 | **[!UICONTROL Data Feed Sync Status]페이지** | Commerce 관리자에서 선택한 피드 항목을 모니터링하고 다시 동기화합니다. [데이터 동기화가 작동하는지 확인](#verify-that-the-data-sync-is-working)을 참조하십시오. |
-| 모든 피드의 전체 재동기화 | **[!UICONTROL Data Management Dashboard]** | Commerce 관리자의 모든 피드를 전체 재동기화합니다. Adobe은 주로 Commerce 서비스에 처음 연결할 때 이 작업을 권장합니다. [데이터 동기화가 작동하는지 확인](#verify-that-the-data-sync-is-working)을 참조하십시오. |
+| 모든 피드의 전체 재동기화 | **[!UICONTROL Data Management Dashboard]** | Commerce 관리자의 모든 피드를 전체 재동기화합니다. Adobe은 주로 Commerce 서비스에 처음 연결할 때 이 작업을 권장합니다. 마지막 내보내기 이후 콘텐츠 해시가 변경되지 않은 항목은 건너뜁니다. [데이터 동기화가 작동하는지 확인](#verify-that-the-data-sync-is-working)을 참조하십시오. |
 | 운영 제어를 사용하여 타겟팅된 피드 재동기화 | **Commerce CLI** | 대상 피드를 다시 동기화하려면 `saas:resync` 명령을 사용하십시오. [Commerce CLI를 사용하여 피드 동기화](data-export-cli-commands.md)를 참조하십시오. |
 
 >[!MORELIKETHIS]

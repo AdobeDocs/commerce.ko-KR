@@ -16,9 +16,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: ef1a9efc579d8d21c145e6981235489a2e4ea203
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 728
 ht-degree: 0%
 
 ---
@@ -96,6 +96,10 @@ bin/magento saas:resync --help
 >
 >설치된 모듈은 재동기화할 수 있는 피드를 결정합니다. 예를 들어 `productOverrides`에는 클라우드, 온-프레미스 또는 Commerce as a Cloud Service에 [!DNL Adobe Commerce]이(가) 필요하며 `orders`에는 판매 주문 모듈이 필요합니다.
 
+>[!NOTE]
+>
+>`saas:resync` 명령은 새 항목, 업데이트된 항목 및 이전에 내보내지 못한 항목만 전송합니다. 마지막 내보내기 이후 콘텐츠 해시가 변경되지 않은 항목은 건너뜁니다.
+
 **예:**
 
 ```shell
@@ -107,6 +111,10 @@ bin/magento saas:resync --feed products
 특정 엔티티를 해당 ID별로 부분적으로 다시 동기화합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions` 피드를 지원합니다.
 
 기본적으로 `--by-ids` 옵션을 사용하는 경우 제품 SKU 값을 사용하여 값을 지정합니다. 대신 제품 ID를 사용하려면 `--id-type=productId` 옵션을 추가하십시오.
+
+>[!NOTE]
+>
+>표준 재동기화와 달리 `--by-ids`은(는) 해시 확인을 무시하고 마지막 내보내기 이후 콘텐츠가 변경되었는지 여부에 관계없이 지정된 엔터티를 연결된 Commerce 서비스에 강제로 제출합니다.
 
 **예:**
 

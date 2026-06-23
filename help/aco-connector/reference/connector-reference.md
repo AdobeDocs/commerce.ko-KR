@@ -20,14 +20,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 19de20caafd45e3a00896d0d4b29b7e96dfe94e1
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: 301
 ht-degree: 1%
 
 ---
 
-# 커넥터 모듈 및 피드 엔드포인트
+# Adobe Commerce Optimizer 커넥터용 커넥터 모듈 및 피드 엔드포인트
 
 이 참조는 [!DNL Adobe Commerce Optimizer Connector] 모듈 패키지, 지원되는 피드 API 끝점 및 `core_config_data`에 저장된 구성 키 경로를 나열합니다. 동기화 중에 이러한 구성 요소가 함께 작동하는 방법에 대해 알아보려면 [커넥터 동기화 파이프라인](../connector-sync-pipeline.md)을 참조하세요.
 
