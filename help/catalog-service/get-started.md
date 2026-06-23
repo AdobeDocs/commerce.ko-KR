@@ -35,14 +35,14 @@ ht-degree: 0%
 
 [!DNL Catalog Service]은(는) GraphQL 관리자 또는 GraphQL 쿼리를 지원하는 모든 프론트엔드 애플리케이션에서 액세스할 수 있는 Commerce API로 사용할 수 있습니다. 이 서비스는 SaaS 및 PaaS 환경 모두에서 사용할 수 있습니다.
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 | 환경 | 엔드포인트 |
 | ------------ | ----------: |
 | **테스트** | `https://catalog-service-sandbox.adobe.io/graphql` |
 | **프로덕션** | `https://catalog-service.adobe.io/graphql` |
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 | 환경 | 엔드포인트 |
 | ----------- | --------:|
@@ -65,7 +65,7 @@ https://<region>-<environment>.api.commerce.adobe.com/<tenantId>/graphql
 
 Headless Storefront와 통합하려면 Storefront 구성을 업데이트하여 Storefront와 [!DNL Catalog Service] 간의 통신을 통해 제품 및 카테고리 데이터를 검색해야 합니다.
 
-Edge Delivery Services에서 Adobe Commerce Storefront를 사용하는 경우 카탈로그 서비스 엔드포인트를 storefront 구성에 추가하십시오. 자세한 내용은 [Edge Delivery Services 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/#storefront-configuration)를 참조하세요.
+Edge Delivery Services에서 Adobe Commerce Storefront를 사용하는 경우 카탈로그 서비스 엔드포인트를 storefront 구성에 추가하십시오. 자세한 내용은 [Edge Delivery Services 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko#storefront-configuration)를 참조하세요.
 
 다른 통합의 경우 서비스와 백엔드 데이터 소스 간의 통합을 구성하는 방법에 대한 자세한 내용은 프로젝트 설정 설명서 를 참조하십시오.
 

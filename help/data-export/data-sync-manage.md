@@ -34,9 +34,9 @@ ht-degree: 0%
 
 Adobe Commerce on cloud, 온-프레미스 또는 Adobe Commerce as a Cloud Service 배포의 경우 다음 Commerce 관리 리소스에서 동기화 프로세스를 보고 관리합니다.
 
-- **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)**—[!DNL Live Search], [!DNL Product Recommendations] 또는 [!DNL Catalog Service]에 연결된 배포에 대한 피드 내보내기 상태를 확인하십시오. 이 대시보드는 발생한 오류를 포함하여 각 피드에 대한 피드 내보내기 상태를 표시합니다. 세부 사항 보기에는 개별 피드 항목에 대한 피드 내보내기 상태가 표시됩니다.
+- **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)**—[!DNL Live Search], [!DNL Product Recommendations] 또는 [!DNL Catalog Service]에 연결된 배포에 대한 피드 내보내기 상태를 확인하십시오. 이 대시보드는 발생한 오류를 포함하여 각 피드에 대한 피드 내보내기 상태를 표시합니다. 세부 사항 보기에는 개별 피드 항목에 대한 피드 내보내기 상태가 표시됩니다.
 
-- **[데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 연결된 Commerce 서비스에 성공적으로 내보내지고 동기화된 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품 데이터가 표시됩니다.
+- **[데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)**—관리자는 연결된 Commerce 서비스에 성공적으로 내보내지고 동기화된 데이터를 보고 추적할 수 있습니다. 이 대시보드에는 Commerce 서비스에 동기화된 제품 데이터가 표시됩니다.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Adobe Commerce on cloud, 온-프레미스 또는 Adobe Commerce as a Cloud Servi
 
 [!DNL Commerce Optimizer]과(와) 통합된 Commerce 온 클라우드 또는 온-프레미스 배포의 경우 다음 리소스를 사용하여 동기화 프로세스를 보고 관리합니다.
 
-- **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)**—Commerce 관리자의 커넥터 피드 내보내기 상태를 모니터링합니다. 이 페이지에서는 피드별 및 항목별 오류 세부 정보를 포함하여 [!DNL Adobe Commerce]에서 카탈로그 데이터를 내보냈는지 여부를 표시합니다.
+- **[데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)**—Commerce 관리자의 커넥터 피드 내보내기 상태를 모니터링합니다. 이 페이지에서는 피드별 및 항목별 오류 세부 정보를 포함하여 [!DNL Adobe Commerce]에서 카탈로그 데이터를 내보냈는지 여부를 표시합니다.
 
 - **[데이터 동기화 페이지](../optimizer/setup/data-sync.md)**—데이터 동기화 페이지에서 업스트림 카탈로그 원본에서 [!DNL Commerce Optimizer]&#x200B;(으)로 들어오는 제품 데이터의 동기화 상태에 대한 개요를 제공합니다.
 
