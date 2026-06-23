@@ -29,4 +29,4 @@ ht-degree: 5%
    - [커넥터 피드에 대한 필드 매핑](reference/field-mapping.md)
    - [데이터 볼륨 및 동기화 시간 예상](reference/estimate-data-volume-sync-time.md)
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko)

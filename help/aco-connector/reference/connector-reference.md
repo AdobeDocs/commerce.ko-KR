@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Commerce Optimizer Connector]개 모듈 및 피드 끝점'
 description: ' [!DNL Adobe Commerce]에 대한  [!DNL Adobe Commerce Optimizer Connector] 모듈, 카탈로그 피드 API 끝점, 일괄 처리 제한 및 core_config_data 구성 경로에 대해 알아봅니다.'
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T15:48:19.494Z'
 TQID: 'https://experienceleague.adobe.com/UM6Y-xoQpUDzWpaMe1GRPp4XoAtHBLBsHw388kumN8g'
 product_v2:
