@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 70f219ca854a0df0ac16ed31116ba9c510eebec2
+source-git-commit: f1c7779558406641972e9c690d0f508d46da3e0c
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: 1328
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 ## 2026년 6월
 
 >[!BEGINSHADEBOX]
+
+_2026년 6월 24일_
+
+<!-- v1.3 -->
+
+![새로 만들기](../assets/new.svg) **새 `canEditQuantity` 필드**—카탈로그 서비스 GraphQL의 `ProductViewOptionValueProduct`에 `canEditQuantity`을(를) 추가했습니다. Commerce 관리자의 번들 선택에 대해 선택적 **사용자 정의** 수량 설정을 노출하므로 상점 소비자는 번들 선택 수량을 편집할 수 있는지 여부를 결정할 수 있습니다.
+<!--COMOPT-2050-->
 
 ### 의미 체계 검색
 
