@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7a4031966113a9131b85a7d0bfc4a3add606d2f7
+source-git-commit: b5e8f023260bd5bfffb76084c175a01cd6a61ff3
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 1%
+source-wordcount: '1783'
+ht-degree: 0%
 
 ---
 # 새로운 기능 템플릿
@@ -10,6 +10,36 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 6월 23일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Commerce 서비스 설명서 전체에 걸쳐 카탈로그 데이터 동기화 확인 지침을 업데이트했습니다. 이제 서비스 설치 및 구성 항목에서는 일관된 2단계 워크플로우를 사용합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 페이지</a>에서 내보내기를 확인한 다음 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>에서 전달을 확인합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/get-started#monitor-and-troubleshoot-data-export">카탈로그 서비스 시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#monitor-sync-progress">라이브 검색 설치</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure#monitor-and-troubleshoot-data-synchronization">제품 권장 사항 설치</a> 및 <em>SaaS 데이터 내보내기 안내서</em>의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#verify-that-the-data-sync-is-working">동기화 관리</a>에 대한 업데이트된 지침을 따릅니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/82bdfd342d2d745721ed2b35f2dbfd8fa394ab5a">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>새 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/reference/feed-table-reference">Adobe Commerce Optimizer 커넥터 피드 테이블 스키마 참조</a>를 추가하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/sync-overview">SaaS 데이터 내보내기 동기화</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage">수동 동기화 관리</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/reference/data-export-cli-commands">Commerce CLI 다시 동기화 명령</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/reference/feed-table-reference">피드 테이블 스키마</a> 지침을 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트, 새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/601d02435f388096d59ce7f8e2a9e3e7c8bec65b">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 6월 17일
 
@@ -385,66 +415,6 @@ ht-degree: 1%
         피드백, 주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/fc4ac765d4bcbb8b2a0217f33b6f8a4b353e5b33">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 27일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview">가시성</a> 페이지를 추가했습니다.</p>
-</td>
-      <td>
-        피드백, 새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bf83f213d1774845c4c99f3b154e9fb3220c3cd1">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview">앱 관리 개요</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/install">앱 관리 설치 및 액세스</a>의 링크를 사용하여 관리(검색, 상태 및 확장성 패턴 필터) 및 Adobe Exchange에 대한 앱 경로 획득에서 응용 프로그램을 찾는 방법에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/app-management/manage-app/manage-app">앱 관리</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/780cef7af3574cd846fd7ee82d7814f2ebe9d6cc">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/41035e75111d370e5dc40c17607337ae75f11fa0">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 24일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/eb10bd0ff636f70360e1ca35e51b6643ad1f70d4">커밋</a></td>
     </tr>
   </tbody>
 </table>
