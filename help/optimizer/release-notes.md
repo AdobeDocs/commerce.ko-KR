@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f1c7779558406641972e9c690d0f508d46da3e0c
+source-git-commit: 94598c3cbc6b9fa84f92532e42ec5e9027c5b1fc
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1404
 ht-degree: 0%
 
 ---
@@ -40,8 +40,7 @@ _2026년 6월 24일_
 
 <!-- v1.3 -->
 
-![새로 만들기](../assets/new.svg) **새 `canEditQuantity` 필드**—카탈로그 서비스 GraphQL의 `ProductViewOptionValueProduct`에 `canEditQuantity`을(를) 추가했습니다. Commerce 관리자의 번들 선택에 대해 선택적 **사용자 정의** 수량 설정을 노출하므로 상점 소비자는 번들 선택 수량을 편집할 수 있는지 여부를 결정할 수 있습니다.
-<!--COMOPT-2050-->
+![새로 만들기](../assets/new.svg) **새 `canEditQuantity` 필드**—카탈로그 서비스 GraphQL의 `ProductViewOptionValueProduct`에 `canEditQuantity`을(를) 추가했습니다. Commerce 관리자의 번들 선택에 대한 선택적 **사용자 정의** 수량 설정을 노출하므로 상점 소비자는 번들 선택의 수량을 편집할 수 있는지 여부를 결정할 수 있습니다.
 
 ### 의미 체계 검색
 
@@ -70,13 +69,10 @@ _2026년 5월 28일_
 <!-- v1.2 -->
 
 ![수정](../assets/fix.svg) **전체 탐색 트리**—경로에 태그가 지정되지 않은 중간 노드가 있으면 태그가 지정된 하위 범주가 패밀리가 필터링된 `navigation` 트리에 올바르게 포함됩니다. 이 수정 사항을 통해 쇼핑객은 탐색에서 모든 관련 카테고리를 볼 수 있으므로 항목을 더 쉽게 탐색하고 검색할 수 있습니다.
-<!--DATA-7183-->
 
 ![수정](../assets/fix.svg) **`categoryTree` 요청의 빈 슬러그 처리**—`slugs` 인수에 빈 문자열이 포함된 경우 [`categoryTree`](https://developer.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree) 쿼리에서 내부 서버 오류를 반환하는 문제를 해결했습니다. 이제 빈 슬러그 값이 무시되므로 상점 및 통합은 실패한 요청 없이 카테고리 데이터를 계속 확인합니다.
-<!--DATA-7184-->
 
 ![수정](../assets/fix.svg) **`searchCategory`요청이 대소문자를 구분하지 않고 알파벳순으로 결과를 반환합니다** - 이제 `searchCategory` 쿼리가 대소문자를 구분하지 않고 알파벳순으로 검색 결과를 정렬하여 일관되고 예측 가능한 순서를 유지합니다. 접두사가 더 짧은 범주는 이름이 동일하지 않은 경우 먼저 나타납니다.
-<!--COMOPT-2142-->
 
 _2026년 5월 4일_
 
@@ -316,3 +312,4 @@ IMS 조직에서 EU 프로덕션 지역(**eu1**)을 사용할 수 있습니다. 
 {{aco-release}}
 
 >[!ENDSHADEBOX]
+

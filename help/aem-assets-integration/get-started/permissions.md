@@ -2,7 +2,7 @@
 title: AEM Assets 통합에 대한 IMS 사용자 권한 구성
 description: IMS ID와 Admin Console 프로필을 통해 AEM Assets 게재 액세스, 에셋 선택기 및 자동 채워진 Commerce 구성 필드를 활성화하는 방법을 알아봅니다.
 feature: CMS, Media, Configuration
-source-git-commit: e631346aa13737ded2c14daecbb91457e15417eb
+source-git-commit: 94598c3cbc6b9fa84f92532e42ec5e9027c5b1fc
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -82,3 +82,4 @@ IMS가 없어도 Commerce 관리자에서 프로그램 ID와 환경 ID를 수동
 * [수동 자산 선택](../synchronize/asset-selector-integration.md) - 범주 이미지 및 페이지 빌더에 자산 선택기를 사용합니다.
 * [AEM Assets 또는 제품 비주얼에 사용자 추가](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management#add-a-user-to-aem-assets-or-product-visuals){target=_blank} - [!DNL Adobe Commerce as a Cloud Service]의 경우 먼저 Commerce 및 AEM Cloud Manager(비즈니스 소유자, 배포 관리자)에 사용자를 추가하십시오. **AEM Assets DM OpenAPI 사용자 - 게재** 프로필(또는 **작성자** 프로필을 대체 프로필)은 자산 선택기와 자동 채우기 기능에 대한 추가 요구 사항입니다.
 * [팀원을 AEM 배달 계층에 할당](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem#add-team-members){target=_blank}. 게재 액세스를 위한 AEM 설명서.
+

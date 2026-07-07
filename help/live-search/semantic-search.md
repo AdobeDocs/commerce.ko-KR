@@ -3,7 +3,7 @@ title: 의미 체계 검색
 description: 설정에서  [!DNL Live Search] 에 대한 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
 role: Admin
 recommendations: noCatalog
-source-git-commit: e631346aa13737ded2c14daecbb91457e15417eb
+source-git-commit: 94598c3cbc6b9fa84f92532e42ec5e9027c5b1fc
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -106,3 +106,4 @@ Adobe Commerce on Cloud 및 온-프레미스 판매자는 의미 체계 검색�
 - [설정](settings.md#semantic-search)
 - [동의어](synonyms.md)
 - [성능](performance.md)
+

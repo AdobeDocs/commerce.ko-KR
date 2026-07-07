@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: 104aa2c7-7735-4ac2-8ed1-a03cd9911273
 feature: Payments, Release Notes
-source-git-commit: e631346aa13737ded2c14daecbb91457e15417eb
+source-git-commit: 94598c3cbc6b9fa84f92532e42ec5e9027c5b1fc
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 0%
@@ -717,3 +717,4 @@ _2021년 11월 29일_
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2474 --> [!DNL Payment Services]개의 보고서 [을(를) 즉시 동기화할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=ko).
 
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2475 --> 온보딩 중에 해당 계정을 만든 경우 [!DNL Payment Services]에 대한 [PayPal 샌드박스 계정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=ko)을(를) 확인할 수 없습니다.
+
