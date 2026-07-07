@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 7ab609a2da3173f4be31bb0927418c4b9ec05ff4
 workflow-type: tm+mt
-source-wordcount: 4489
+source-wordcount: 4655
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 6월 - 릴리스 #2 {#latest}
+## 2026년 7월 - 릴리스 #1 {#latest}
 
 <!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
 
@@ -64,6 +64,27 @@ ht-degree: 0%
 ### API를 통해 사용자 정의 이메일 템플릿 나열
 
 새 `GET /V1/custom-email/templates` REST API 끝점이 각 템플릿의 ID, 코드 및 제목을 포함한 [사용자 지정 전자 메일 템플릿](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/)을 반환합니다. 통합에서는 ID를 수동으로 조회하는 대신 반환된 템플릿 ID를 `POST /V1/custom-email/send` 끝점과 함께 사용할 수 있습니다. <!-- CCSAAS-5089 -->
+
+### REST API를 통해 전체 주문 체인 관리
+
+>[!IMPORTANT]
+>
+>이 기능은 실험적인 기능이며 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만들어 활성화해야 합니다.
+
+새 `orderChain` REST API 끝점을 사용하면 통합에서 해당 ID를 사용하여 주문을 수정하고 편집된 주문의 전체 체인을 자동으로 해결할 수 있습니다.
+
+| 방법 | 엔드포인트 | 설명 |
+| --- | --- | --- |
+| `POST` | `/V1/orderChain/{orderId}/invoice` | 주문의 송장을 생성하여 주문 체인에서 송장할 품목을 해결합니다. |
+| `POST` | `/V1/orderChain/{id}/cancel` | 체인의 현재 주문을 취소합니다. |
+| `POST` | `/V1/orderChain/{id}/hold` | 주문을 보류하십시오. |
+| `POST` | `/V1/orderChain/{id}/unhold` | 주문에서 보류를 제거합니다. |
+| `POST` | `/V1/orderChain/{id}/emails` | 주문 이메일 알림을 보냅니다. |
+| `POST` | `/V1/orderChain/{id}/comments` | 주문에 주석을 추가합니다. |
+| `GET` | `/V1/orderChain/{id}/comments` | 주문 주석을 검색합니다. |
+| `GET` | `/V1/orderChain/{id}/statuses` | 현재 주문 상태를 검색합니다. |
+
+송장, 배송, 대변 메모 및 반품에 대한 필터링을 지원하는 `GET` 끝점은 이제 `order_original_id`별 필터링을 지원합니다. `order_original_id`(으)로 필터링하면 단일 순서가 아닌 전체 순서 체인에 대한 세부 정보가 반환됩니다. 이 기능을 지원하는 예제 끝점은 `GET /V1/invoices`입니다. <!-- ACCS-1004, ACCS-1005 -->
 
 ### 관리자에서 주문 수정 내역 보기
 
@@ -84,6 +105,10 @@ ht-degree: 0%
 * 이제 로드 시간이 향상되고 시간 초과가 줄어들 가능성이 줄어들면서 큰 공유 카탈로그를 관리하기가 더 쉬워졌습니다. <!-- CCSAAS-4946, CCSAAS-4925, CCSAAS-1245, CCSAAS-1246 -->
 
 * 구성 가능한 제품이 포함된 주문에 대해 납품을 생성할 때 발생하는 납품 생성 오류를 해결했습니다. <!-- ACCS-1095 -->
+
+* 왼쪽 탐색 메뉴가 사라질 수 있는 [!DNL Commerce Admin]의 문제를 해결했습니다. <!-- ACCS-1035 -->
+
+* 공유 카탈로그에서 할당 및 할당 해제 성능이 개선되었습니다. <!-- ACCS-1324, CCSAAS-5177, CCSAAS-5190, CCSAAS-5192 -->
 
 {{accs-release}}
 
