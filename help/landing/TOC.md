@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: Integration, Personalization, Services, Saas
 recommendations: noDisplay
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 3624bb934c25e04ae2f08b0d78ed4602df89d3eb
+source-git-commit: 08581e17d291b1900ff8826a36edeaf97a9c0d3c
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '155'
 ht-degree: 12%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 12%
    - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html?lang=ko)
    - [[!DNL App Management]](https://experienceleague.adobe.com/ko/docs/commerce/app-management/overview)
    - [서비스 커넥터](/help/landing/saas.md)
-   - [&#x200B; [!DNL Adobe LLM Optimizer]과(와)  [!DNL Adobe Commerce]  통합](https://experienceleague.adobe.com/docs/commerce/llmo-integration/overview.html?lang=ko)
 - 데이터 도구 {#data-services}
    - [SaaS 데이터 내보내기](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html?lang=ko)
    - [SaaS 가격 인덱싱](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html?lang=ko)
