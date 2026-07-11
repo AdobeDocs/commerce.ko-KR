@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 4eb33526927e1c5a81612aab0de0ce4bc7746368
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: 366
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
 ## 2026 릴리스
+
+### 1.0.15 릴리스
+
+_2026년 7월 10일_
+
+![수정](../assets/fix.svg) 범주 피드에 정렬 지원을 추가했습니다. <!--MDEE-1409-->
 
 ### 1.0.14 릴리스
 
@@ -57,7 +63,7 @@ _2026년 6월 11일_
 _2026년 5월 6일_
 
 ![수정](../assets/fix.svg) **향상된 [!DNL Adobe Commerce Optimizer Connector] 구성 지침** - _[!DNL Adobe Commerce Optimizer Connector]통합 가이드에 연결하도록 Commerce 관리자의 [!DNL Adobe Commerce Optimizer] 구성 페이지를 업데이트했습니다_.
-<!--COMOPT-1922-->
+
 
 ![수정](../assets/fix.svg) **[!DNL Adobe Commerce Optimizer Connector]메타데이터 개선** - 이제 [!DNL Adobe Commerce Optimizer Connector]에 설치된 버전이 메타데이터 헤더에 포함됩니다. 이 개선 사항을 통해 팀은 문제 해결 또는 지원 참여 중에 사용 중인 커넥터 버전을 빠르게 식별할 수 있습니다.<!--MDEE-1323-->
 
