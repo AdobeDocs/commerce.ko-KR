@@ -5,16 +5,12 @@ role: Admin, Developer
 feature: Install
 exl-id: 853ef2d1-85cb-41a8-9b07-887a758ed401
 TQID: https://experienceleague.adobe.com/EbYHB6L9Q7bZNnoz3-yT4aaBcRiLiatvjO-hQyGOwoo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 491
 ht-degree: 0%
 
 ---
@@ -28,6 +24,10 @@ ht-degree: 0%
 [!DNL Data Connection] 확장은 [Adobe 마켓플레이스](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html)에서 사용할 수 있습니다. 서버의 명령줄에서 이 확장을 설치하면 Adobe Commerce 설치에 [서비스](../landing/saas.md)(으)로 연결됩니다. 프로세스가 완료되면 **[!DNL Data Connection]** 및 **Commerce 서비스 커넥터**&#x200B;가 Commerce _관리_&#x200B;의 **서비스** 아래의 **시스템** 메뉴에 나타납니다.
 
 ![[!DNL Data Connection] 확장 관리자 보기](assets/epc-adminui.png)
+
+>[!NOTE]
+>
+>설치 후 관리자에서 [!DNL Data Connection]을(를) 구성합니다. 전역 및 웹 사이트 범위 설정에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 #### 클라우드 인프라
 
-클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html?lang=ko#enable_eventing)
+클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html#enable_eventing)
 
 ```bash
 stage:
@@ -162,7 +162,7 @@ composer update magento/experience-platform-connector-b2b --with-dependencies
 1. **저장** `composer.json`. 그런 다음 명령줄에서 다음을 실행합니다.
 
    ```bash
-   composer update magento/experience-platform-connector –-with-dependencies
+   composer update magento/experience-platform-connector --with-dependencies
    ```
 
    또는 B2B 판매자의 경우:
@@ -173,4 +173,4 @@ composer update magento/experience-platform-connector-b2b --with-dependencies
 
 ## [!DNL Data Connection] 확장 제거 {#uninstall}
 
-[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=ko)을 참조하세요.
+[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html)을 참조하세요.
