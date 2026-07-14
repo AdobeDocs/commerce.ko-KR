@@ -18,7 +18,7 @@ ht-degree: 1%
 
 - [[!DNL Data Connection] 소개](overview.md)
 - 기본 사항 {#fundamentals}
-   - [ [!DNL Data Connection] 확장 설치](install.md)
+   - [&#x200B; [!DNL Data Connection] 확장 설치](install.md)
    - [Commerce 데이터 유형](data-ingestion.md)
    - [시계열 이벤트 스키마 업데이트](update-xdm.md)
    - [프로필 레코드 스키마 업데이트](profile-data.md)
