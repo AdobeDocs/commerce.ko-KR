@@ -7,7 +7,7 @@ exl-id: dbf41ce9-01f9-45d0-b651-e4c499e83822
 feature: Payments, Checkout, Data Import/Export, Paas, Saas
 source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -79,5 +79,5 @@ PayPal 웹후크의 세부 정보에 있는 `custom_id` 및 `invoice_id`:
 
 자세한 내용은 PayPal의 REST API 설명서 를 참조하십시오.
 
-* [`purchase_unit`, `custom_id` 및 `invoice_id`이(가) 있음](https://developer.paypal.com/docs/api/orders/v2/#definition-purchase_unit)
+* [`purchase_unit`, `custom_id` 및 `invoice_id` 위치](https://developer.paypal.com/docs/api/orders/v2/#definition-purchase_unit)
 * [주문 세부 사항 표시](https://developer.paypal.com/docs/api/orders/v2/#orders_get)
