@@ -56,7 +56,7 @@ ht-degree: 0%
 
 통합을 구성하기 전에 다음을 확인합니다.
 
-* **제품 시각화** 권한이 있는 활성 [!DNL Adobe Commerce Optimizer] 인스턴스(OpenAPI 기능 + [AEM Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime))나 Dynamic Media가 활성화된 고객 제공 AEM Assets 라이선스(예: **AEM Assets Ultimate**)입니다.
+* **제품 시각화** 권한이 있는 활성 [!DNL Adobe Commerce Optimizer] 인스턴스(OpenAPI 기능 + [AEM Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime))나 Dynamic Media가 활성화된 고객 제공 AEM Assets 라이선스(예: **AEM Assets Ultimate**)입니다.
 * AEM Assets as a Cloud Service 환경에 액세스합니다.
 * [!DNL Commerce Optimizer]과(와) AEM Assets이 모두 동일한 Adobe IMS 조직에 있습니다.
 * AEM Assets 환경에서 OpenAPI를 사용하는 Dynamic Media(활성화 단계는 [AEM Assets 프로젝트 구성](configure-aem.md#prerequisites) 참조).
@@ -85,7 +85,7 @@ ht-degree: 0%
 * AEM Assets 이벤트(자산 승인, 업데이트, 제거됨)
 * [!DNL Commerce Optimizer]개의 카탈로그 이벤트(제품 생성, 업데이트)
 
-이 프로세스를 시작하려면 다음 정보가 포함된 [지원 티켓을 만드세요](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket).
+이 프로세스를 시작하려면 다음 정보가 포함된 [지원 티켓을 만드세요](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket).
 
 * **[!DNL Adobe Commerce Optimizer]테넌트 ID**(인스턴스 ID)이(가) [!DNL Commerce Optimizer] URL 또는 Commerce Cloud Manager UI에 있습니다.
 * [통합을 위해 AEM Assets을 구성](#configure-aem-assets-first)할 때 설정한 **AEM 프로그램 ID 및 환경 ID**.

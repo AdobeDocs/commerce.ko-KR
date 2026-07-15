@@ -3,7 +3,7 @@ title: AEM Assets을 사용한 제품 시각화
 description: ' [!DNL Adobe Commerce Optimizer]에서 제품 이미지에 AEM Assets을 사용하는 방법에 대해 알아봅니다.'
 feature: CMS, Media, Configuration, Integration
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 source-git-commit: 264658bee09a22cfd55828c6960153cc1239d3fb
 workflow-type: tm+mt
 source-wordcount: '634'
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**제품 시각적 개체**&#x200B;은(는) [!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]과(와) 함께 제공된 번들의 이름입니다. [Dynamic Media를 OpenAPI 기능과 결합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) 및 [AEM Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime).
+>**제품 시각적 개체**&#x200B;은(는) [!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]과(와) 함께 제공된 번들의 이름입니다. [Dynamic Media를 OpenAPI 기능과 결합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) 및 [AEM Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime).
 >
 >다른 AEM Assets 라이선스(예: **AEM Assets Ultimate**)를 가진 고객은 동일한 통합을 사용할 수 있습니다. AEM 릴리스만 온보딩 단계에 영향을 주고 라이선스 유형은 영향을 주지 않습니다.
 
@@ -62,7 +62,7 @@ AEM Assets의 이미지는 다음 소스 구성을 사용하는 카탈로그 레
 
 ## 설정
 
-통합을 사용하려면 [!DNL Commerce Optimizer] 및 AEM Assets 세부 정보를 사용하여 [지원 티켓을 만들기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/create-a-support-ticket)하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
+통합을 사용하려면 [!DNL Commerce Optimizer] 및 AEM Assets 세부 정보를 사용하여 [지원 티켓을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/help-and-support/create-a-support-ticket)하십시오. Adobe 지원은 통합을 구성하고 테넌트를 Assets 통합 서비스에 등록합니다.
 
 온보딩 정보는 [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md)을 참조하십시오.
 
