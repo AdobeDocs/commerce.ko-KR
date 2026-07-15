@@ -7,9 +7,9 @@ product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 015f88e540fe5bf7acc4469d7c91b4f606709809
+source-git-commit: 1f5246b6f5853f8b53a356ae2d6d58077b07a9a5
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 679
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 ![설정](assets/settings.png)
 
 ## 의미 체계 검색 {#semantic-search}
+
+>[!AVAILABILITY]
+>
+>Adobe Commerce 버전 2.4.4 이상을 사용하는 판매자에 대해 의미 체계 검색을 사용할 수 있습니다.
 
 시맨틱 검색은 정확한 키워드뿐만 아니라 의미와 맥락에 따라 제품을 매칭하기 위해 AI를 사용한다. **[!UICONTROL Semantic search]**&#x200B;이(가) 활성화되면 카탈로그 버텀과 일치하지 않는 자연어 또는 단어를 사용하는 쇼핑객이 여전히 관련 제품을 찾을 수 있습니다. [!DNL Live Search]은(는) 상점 첫 화면에서 하나의 통합 검색 환경에서 키워드 및 의미 체계 일치를 제공합니다. 의미 체계 검색은 기존 구성과 함께 작동합니다. [검색 규칙](rules.md), [동의어](synonyms.md), [패싯](facets.md), 부스트 및 [카테고리 머천다이징](category-merch.md)이 계속 적용됩니다.
 
@@ -72,8 +76,7 @@ ht-degree: 0%
 
 언어 설정은 카탈로그를 읽고 색인을 작성할 때 예상할 언어를 [!DNL Live Search]에 알려줍니다.
 
-언어에는 문법에 대한 다양한 규칙 세트, 예를 들어 단어 분리 방법, 동사 문장 및 단어 형태가 있습니다.
-언어 설정을 사용하면 색인화 메커니즘에 올바른 규칙 집합이 적용됩니다.
+언어에는 문법에 대한 다양한 규칙 세트, 예를 들어 단어 분리 방법, 동사 문장 및 단어 형태가 있습니다.언어 설정을 사용하면 색인화 메커니즘에 올바른 규칙 집합이 적용됩니다.
 
 언어 설정을 카탈로그의 기본 언어로 설정합니다. 색인의 언어를 변경할 때 카탈로그의 크기와 복잡성에 따라 상점 변경 사항을 반영하는 데 5분에서 60분이 걸릴 수 있습니다.
 

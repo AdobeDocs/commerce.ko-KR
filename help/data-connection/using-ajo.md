@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
 workflow-type: tm+mt
 source-wordcount: 1395
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | **정의** | 고객이 사이트에서 수행하는 클릭 또는 작업입니다. | 각 주문(과거 및 현재)의 라이프사이클 및 세부 정보에 대한 정보. |
 | **Adobe Commerce에서 캡처한 이벤트** | [페이지 보기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#pageview)<br>[제품 페이지 보기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events)<br>[장바구니에 추가](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#addtocart)<br>[장바구니 열기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#opencart)<br>[시작 체크아웃](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#startcheckout)<br>[완료 체크아웃](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#completecheckout) | [orderPlaced](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[주문 내역](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data) |
 
-### 다른 고객들은 어떤 성과를 얻었습니까?
+### 다른 고객들은 어떤 성과를 얻었습니까? {#what-have-other-customers-achieved}
 
 Adobe [!DNL Commerce] 고객은 Adobe [!DNL Commerce], Adobe [!DNL Journey Optimizer] 및 Adobe [!DNL Real-Time CDP]을(를) 사용하여 개인화된 포기 캠페인을 구현함으로써 중요한 비즈니스 영향을 받았습니다.
 

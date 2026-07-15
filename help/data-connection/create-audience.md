@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1107
 ht-degree: 0%
 
 ---
@@ -37,16 +37,7 @@ ht-degree: 0%
 
 ## 다른 고객들은 어떤 성과를 얻었습니까?
 
-Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화하고 해당 대상을 [!DNL Commerce] 인스턴스에 배포함으로써 비즈니스에 상당한 영향을 미쳤습니다.
-
-retailer이 달성한 글로벌 다중 브랜드 의류:
-
-- 100 만 개의 통합 고객 프로필을 제공하는 신뢰할 수 있는 소스
-- 채널 전반에 걸쳐 참여할 수 있는 &quot;고의적인 고객&quot;의 40명 이상의 고유 대상 생성
-
-한 세계적인 음료 회사는 다음을 수집했다:
-
-- 100개국 이상에서 9,800만 개의 고객 프로필
+Adobe [!DNL Commerce] 고객은 Real-Time CDP에 내장된 대상을 활성화하고 해당 대상을 [!DNL Commerce] 인스턴스에 배포함으로써 비즈니스에 상당한 영향을 미쳤습니다. Commerce 이벤트 데이터의 관련 고객 결과는 [Adobe Journey Optimizer을 사용하여 포기한 장바구니 전자 메일 보내기](using-ajo.md#what-have-other-customers-achieved)를 참조하십시오.
 
 ## 시작하겠습니다.
 

@@ -14,21 +14,23 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 5ba5dfa23580b5eefa8271277e78c6ea67879b90
 workflow-type: tm+mt
-source-wordcount: 1019
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
 
 # Commerce 데이터 수집을 위한 시계열 이벤트 스키마 업데이트
 
-[!DNL Data Connection] 확장을 사용하기 위한 [온보딩 단계](overview.md#onboarding-steps) 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
+[확장을  [!DNL Data Connection]](overview.md#enable-extension)사용하도록 설정하는 단계 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.
 
 이 문서에서는 Adobe Commerce 이벤트에서 제공한 다음 시계열 데이터를 성공적으로 수집하기 위해 스키마에 포함해야 하는 필드 그룹을 제공합니다.
 
-- [동작](events.md) - 상점, 프로필, 검색 및 B2B 이벤트를 포함합니다.
-- [사무실 외부](events-backoffice.md) - 주문 상태 및 프로필 이벤트를 포함합니다.
+- [동작](events.md) - 상점, 검색 및 B2B 이벤트를 포함합니다.
+- [사무실 외부](events-backoffice.md) - 주문 상태 및 시계열 [프로필 이벤트](events-backoffice.md#customer-profile-events)를 포함합니다.
+
+프로필 *레코드*&#x200B;에 대해서는 [프로필 레코드 스키마 업데이트](profile-data.md)를 참조하십시오.
 
 [시계열 데이터](data-ingestion.md)에 대해 자세히 알아보세요.
 

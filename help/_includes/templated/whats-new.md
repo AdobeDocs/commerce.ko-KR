@@ -1,8 +1,8 @@
 ---
-source-git-commit: b5e8f023260bd5bfffb76084c175a01cd6a61ff3
+source-git-commit: c99194b2eb7111a593cfe7c4ba1b4917e38589d2
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 0%
+source-wordcount: '1799'
+ht-degree: 1%
 
 ---
 # 새로운 기능 템플릿
@@ -10,6 +10,50 @@ ht-degree: 0%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 7월 7일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/976a43b367be87363307dc27c55f98df18271eb1">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 7월 6일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>LLM Optimizer 및 Commerce 통합 설명서를 제거했습니다. 기능의 범위가 다시 지정되었으며 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">Commerce 관리 가이드</a>(으)로 이동되었습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/edab7c8b3c7965425c5d3008a537f7e4a1fc374b">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 6월 23일
 
@@ -393,28 +437,6 @@ ht-degree: 0%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/14aa082c1f0f8ce4c51328eb8ee9f4af25adf859">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 4월 30일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>주요 이점, 종단 간 아키텍처(새 다이어그램), 더 명확한 범위 매핑, 일반적인 설정 및 동기화 워크플로, 지원되는 시나리오, 팀이 통합을 보다 쉽게 평가하고 운영할 수 있도록 사전 요구 사항 또는 책임을 포함하여 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview">Adobe Commerce Optimizer 커넥터 개요</a>를 확장했습니다.</p>
-</td>
-      <td>
-        피드백, 주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/fc4ac765d4bcbb8b2a0217f33b6f8a4b353e5b33">커밋</a></td>
     </tr>
   </tbody>
 </table>
