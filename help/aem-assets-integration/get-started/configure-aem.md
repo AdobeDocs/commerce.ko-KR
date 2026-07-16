@@ -1,5 +1,5 @@
 ---
-title: Commerce 메타데이터를 지원하도록 AEM Assets 프로젝트 구성
+title: AEM Assets 프로젝트 구성
 description: assets-commerce 패키지를 배포하고 Adobe Commerce 프로젝트에서 Commerce 메타데이터를 구성하여 AEM과 AEM Assets 간에 자산을 동기화하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Integration
 exl-id: a5d2cbab-5ea1-446b-8ab2-2c638128a40c
@@ -14,79 +14,105 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: de02e13e169ab336bac09ebff90c44b3b707efce
+source-git-commit: 0c2e50338cbf286704239b6d1f628180e85a3bef
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1741
 ht-degree: 1%
 
 ---
 
-# Commerce 메타데이터를 지원하도록 AEM Assets 프로젝트 구성
+# AEM Assets 프로젝트 구성
 
-AEM Assets을 Commerce용 DAM(디지털 에셋 관리 시스템)으로 사용하는 경우 `assets-commerce` 패키지를 설치하면 AEM 작성 환경에서 Commerce 제품의 이미지와 비디오를 관리할 수 있습니다.
+이 항목에서는 AEM 제작 환경에서 Commerce 네임스페이스, 메타데이터 스키마 및 [!UICONTROL Commerce] 탭을 사용할 수 있도록 AEM Assets 프로젝트를 구성하는 방법에 대해 설명합니다. 이러한 리소스에 대한 배경은 [AEM Assets의 Commerce 메타데이터](../metadata.md)를 참조하십시오.
 
-다음 단계를 완료하여 AEM 작성 환경에서 Commerce 에셋을 관리하는 데 필요한 패키지 코드 및 메타데이터로 AEM Assets 프로젝트를 구성합니다.
+AEM Assets 프로젝트를 구성하는 두 가지 옵션이 있습니다.
 
-1. [`assets-commerce` 패키지 콘텐츠에 대해 알아보기](#aem-commerce-assets-commerce-package-contents)
+* [!BADGE 권장]{type=Positive} **셀프 서비스 온보딩** — AEM 릴리스 `2026.5.26309` 이상에서 환경 변수를 설정하고 OpenAPI 기능을 사용하는 Dynamic Media를 활성화하여 Cloud Manager에서 통합을 사용하도록 설정하십시오. 사용자 지정 코드 배포가 필요하지 않습니다. [Commerce 통합 사용(셀프 서비스)](#enable-aem-commerce-self-service)을 참조하세요.
 
-1. [설치 단계를 완료하여 Commerce 메타데이터를 지원하도록 AEM Assets 프로젝트를 구성합니다](#step-1-install-the-assets-commerce-package)
+* **수동 구성** — Cloud Manager 파이프라인을 통해 `assets-commerce` 패키지를 배포합니다. 사용자 지정 패키지 코드를 배포해야 하는 경우 또는 `2026.5.26309` 이전 버전의 AEM 릴리스에 있는 경우 이러한 수동 단계를 사용합니다. [자산 상거래 패키지 수동으로 설치](#install-the-assets-commerce-package-manually)를 참조하십시오.
 
-## AEM Commerce assets-commerce 패키지 콘텐츠
+>[!TIP]
+>
+>오른쪽 상단 메뉴에서 현재 AEM 버전을 확인할 수 있습니다. **[!UICONTROL Help]** > **[!UICONTROL About AEM]**.
 
-Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 네임스페이스 및 메타데이터 스키마 리소스를 추가하기 위해 AEM Commerce 패키지 코드 `assets-commerce`을(를) 제공합니다.
+## Commerce 통합 활성화(셀프서비스) {#enable-aem-commerce-self-service}
 
-이 패키지 코드는 AEM Assets 작성 환경에 다음 리소스를 추가합니다.
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} AEM 릴리스 `2026.5.26309` 이상
 
-* Commerce 관련 속성을 식별하기 위한 [사용자 지정 네임스페이스](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce`입니다.
+지원되는 AEM 릴리스에서는 사용자 지정 코드를 배포하지 않고 Cloud Manager에서 Commerce 통합을 활성화합니다. Author 서비스에서 통합을 사용하도록 설정하면 Commerce 네임스페이스, 메타데이터 스키마 및 **[!UICONTROL Commerce]** 탭이 자동으로 제공됩니다.
 
-   * Adobe Commerce 프로젝트와 연결된 Commerce 자산에 태그를 지정하는 레이블이 `Eligible for Commerce`인 사용자 지정 메타데이터 형식 `commerce:isCommerce`입니다.
+### 셀프서비스 사전 요구 사항
 
-   * **[!UICONTROL Product Data]** 속성을 추가할 사용자 지정 메타데이터 형식 `commerce:skus` 및 해당 UI 구성 요소입니다. 제품 데이터에는 Commerce 에셋을 제품 SKU와 연결하는 메타데이터 속성이 포함됩니다.
+* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
 
-     ![사용자 지정 제품 데이터 UI 컨트롤](../assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
+* 릴리스 `2026.5.26309` 이상의 AEM 프로그램.
 
-   * Commerce에서 자산이 시각화되는 방식을 보여 주는 사용자 지정 메타데이터 형식 `commerce:roles` 및 `commerce:positions` 특성입니다.
+* Commerce 인스턴스의 **IMS 조직 ID**.
 
-   * 편집자가 Commerce 스토어 보기 코드에서 입력한 대체 텍스트를 입력할 수 있도록 대체 텍스트 다중 필드(_[!UICONTROL Alt texts]_) 메타데이터입니다. 따라서 카탈로그에서 제품 이미지가 지정되거나 범위가 지정되는 방식은 변경되지 않습니다. [AEM Assets 메타데이터의 대체 텍스트](#localized-alt-text-in-aem-assets-metadata)를 참조하십시오.
+  Commerce 인스턴스와 AEM Assets 작성 환경은 모두 동일한 IMS 조직에 있어야 합니다.
 
-* Commerce 자산에 태그를 지정할 `Eligible for Commerce` 및 `Product Data` 필드가 포함된 Commerce 탭이 있는 메타데이터 스키마 양식입니다. 이 양식은 AEM Assets UI에서 `roles` 및 `position` 필드를 표시하거나 숨기는 옵션도 제공합니다.
+### 1단계: 프로그램 및 환경 만들기
 
-  AEM Assets 메타데이터 스키마 양식에 대한 ![Commerce 탭](../assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
+Cloud Manager에서 프로그램을 만드는 것은 단일 마법사 프로세스입니다. 프로그램과 해당 환경은 여러 단계에 걸쳐 구성되며 마지막에 함께 저장됩니다.
 
-* 초기 에셋 동기화를 지원하기 위해 [샘플 Commerce 에셋이 태그되고 승인되었습니다](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`. 승인된 Commerce 자산만 AEM Assets에서 Adobe Commerce으로 동기화할 수 있습니다.
+1. Cloud Manager에서 **[!UICONTROL Add Program]**&#x200B;을(를) 선택합니다.
+
+1. **[!UICONTROL Set up for production]**&#x200B;을(를) 선택하고 프로그램 이름을 입력한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 선택합니다.
+
+1. **[!UICONTROL Solutions & Add-ons]** 단계에서 **[!UICONTROL Dynamic Media]**&#x200B;을(를) 포함하여 프로젝트에 필요한 솔루션 및 추가 기능을 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 선택합니다.
+
+   ![Cloud Manager 솔루션 및 추가 기능 단계(Dynamic Media 선택)](../assets/aem-cloud-manager-program-addons.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Add Environment]** 단계에서 **프로덕션** 및 **스테이징** 환경의 이름을 입력한 다음 지역을 선택하십시오.
+
+   ![프로덕션 및 스테이징 세부 정보가 포함된 Cloud Manager 환경 추가 대화 상자](../assets/aem-cloud-manager-add-environment.png){width="600" zoomable="yes"}
+
+1. 환경을 사용하여 프로그램을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 선택하십시오.
+
+### 2단계: Commerce 통합 변수 활성화
+
+Cloud Manager에서 1단계에서 생성한 환경을 연 다음 다음을 수행합니다.
+
+1. **[!UICONTROL Configuration]** 탭을 선택합니다.
+
+1. 다음 값이 있는 환경 변수를 추가한 다음 **[!UICONTROL Add]** 및 **[!UICONTROL Save]**&#x200B;을(를) 선택합니다.
+
+   | 필드 | 값 |
+   |---|---|
+   | 이름 | `COMMERCE_INTEGRATION_ENABLED` |
+   | 값 | `true` |
+   | 서비스 적용됨 | 작성자 |
+   | 유형 | 변수 |
+
+   작성자 서비스에 COMMERCE_INTEGRATION_ENABLED 변수가 적용된 ![Cloud Manager 환경 구성](../assets/aem-cloud-manager-commerce-integration-variable.png){width="600" zoomable="yes"}
+
+   환경이 업데이트되어 구성이 적용됩니다. 환경 상태가 **[!UICONTROL Running]**(으)로 돌아올 때까지 기다리십시오.
+
+### 3단계: OpenAPI 기능을 사용하여 Dynamic Media 활성화
+
+1. 환경 **[!UICONTROL General]** 탭에서 **[!UICONTROL Dynamic Media]**&#x200B;을(를) 찾습니다.
+
+1. *OpenAPI 기능을 사용할 수 있습니다* 옆에 있는 **[!UICONTROL Click to activate]**&#x200B;을(를) 선택하십시오.
+
+   ![Dynamic Media OpenAPI 활성화 링크를 표시하는 환경 일반 탭](../assets/aem-cloud-manager-dynamic-media-activate.png){width="600" zoomable="yes"}
+
+   활성화는 백그라운드에서 실행됩니다. 완료되면 환경은 Commerce 통합을 위해 준비됩니다.
+
+   >[!NOTE]
+   >
+   > **[!UICONTROL Click to activate]**&#x200B;을(를) 사용할 수 없는 경우 지원 티켓을 열어 OpenAPI 기능을 사용하는 Dynamic Media를 활성화하십시오.
+
+### 4단계: 구성 유효성 검사
+
+**AEM Assets 작성자 환경**(으)로 전환하고 자산을 엽니다. 속성을 편집하고 기본 메타데이터 스키마에 **[!UICONTROL Commerce]** 탭이 포함되어 있으며 **[!UICONTROL Product Data]** 및 **[!UICONTROL Eligible for Commerce]** 필드가 표시되는지 확인합니다.
+
+## assets-commerce 패키지를 수동으로 설치
 
 >[!NOTE]
 >
-> **AEM Commerce 패키지 코드**&#x200B;에 대한 자세한 내용은 GitHub의 [readme](https://github.com/ankumalh/assets-commerce) 페이지를 참조하십시오.
+> 사용자 지정 패키지 코드를 배포하거나 `2026.5.26309` 이전 AEM 릴리스에 있는 경우 이 수동 방법을 사용하십시오. 지원되는 릴리스에서 대신 [Commerce 통합 사용(셀프 서비스)](#enable-aem-commerce-self-service)을 사용하십시오.
 
-## AEM Assets 메타데이터의 대체 텍스트
-
-_[!UICONTROL Alt texts]_&#x200B;다중 필드는 적격 이미지를 편집할 때&#x200B;**[!UICONTROL Commerce]**&#x200B;탭의 AEM Assets 에셋 메타데이터 편집기에서 사용할 수 있습니다.
-
->[!IMPORTANT]
->
-> 스토어별 보기 동작은 대체 텍스트에만 적용됩니다. AEM Assets 통합은 Adobe Commerce 스토어 보기당 다른 제품 이미지를 동기화하지 않습니다. AEM의 제품 이미지는 이 릴리스 전과 동일한 갤러리 할당 동작으로 Commerce에 계속 동기화됩니다.
-
-다중 필드에는 Commerce 스토어 보기당 하나의 행이 포함됩니다. 각 행에는 두 개의 입력이 있습니다.
-
-* **[!UICONTROL Store View Code]** — 저장소 보기 식별자(예: `default` 또는 `en_US`).
-
-* **[!UICONTROL Alt Text]** — 255자로 제한된 해당 스토어 보기에 대한 대체 텍스트입니다.
-
-저장소 보기를 추가할 행을 더 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 선택하십시오. 행을 제거하려면 해당 행에서 **[!UICONTROL Delete]** 아이콘을 선택하여 제거합니다.
-
-![저장소 보기 코드와 대체 텍스트 입력이 있는 다중 필드](../assets/commerce-metadata-alt-texts-multifield.png){width="600" zoomable="yes"}
-
-저장할 때, 행에 빈 _[!UICONTROL Store View Code]_&#x200B;이(가) 있거나 두 행이 동일한 저장소 보기 코드를 사용하는 경우(대/소문자 구분 안 함) 클라이언트측 유효성 검사가 제출을 차단합니다.
-
-대체 텍스트 항목은 JCR 자산 메타데이터에서 두 개의 인덱스 정렬 `String[]` 속성으로 유지됩니다.
-
-* `commerce:altTextStoreViews`: 각 행에 대한 보기 코드를 저장합니다.
-* `commerce:altTextValues`: `commerce:altTextStoreViews`의 각 항목과 동일한 인덱스에 있는 대체 텍스트와 일치합니다.
-
-이러한 에셋이 Adobe Commerce과 동기화되면 일치하는 스토어 보기 코드에 대해 스토어별 보기 대체 텍스트가 제품 미디어 갤러리에 작성됩니다. 기본 이미지 매핑이 변경되지 않았습니다.
-
-## 사전 요구 사항
+### 사전 요구 사항
 
 `assets-commerce` 패키지 코드를 AEM Assets as a Cloud Service AEM 환경에 배포하려면 다음 리소스와 권한이 필요합니다.
 
@@ -131,7 +157,7 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 >[!ENDTABS]
 
-## 1단계: assets-commerce 패키지 설치
+### 설치 단계
 
 1. AEM Cloud Manager으로 이동하여 프로그램을 선택한 다음 Adobe Commerce과 통합할 [프로덕션 및 스테이징 환경 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments)를 선택합니다.
 
@@ -183,11 +209,11 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. **checkbox** 구성 요소를 **Commerce** 탭으로 끌어다 놓고 속성 `commerce:isCommerce`에 매핑합니다. 옵션으로 **예** 및 **아니요**&#x200B;를 정의합니다.
 
-다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
+다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
 
-## 2단계: 선택 사항입니다. 메타데이터 프로필 구성
+## 메타데이터 프로필 구성(선택 사항)
 
-AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 그런 다음 AEM 자산 폴더에 새 프로필을 적용하여 이러한 기본값을 자동으로 사용합니다. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
+AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 이러한 기본값을 자동으로 사용하려면 새 프로필을 AEM 자산 폴더에 적용하십시오. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
 
 메타데이터 프로필을 구성할 때는 다음 구성 요소만 구성해야 합니다.
 

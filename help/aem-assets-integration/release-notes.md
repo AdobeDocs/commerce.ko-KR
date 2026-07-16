@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: e055a3d44eda7e7f082a884c316ad437ea9ac15e
+source-git-commit: e269b5a3bbd246530ba77d8c50467e2b0f4e2f7e
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ _2026년 5월 14일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-1268 --> AEM에서 Commerce 제품 미디어 갤러리로 이미지 또는 에셋을 가져올 때 이제 대체 텍스트가 동기화의 일부로 전달됩니다. AEM Assets의 스토어 보기별로 대체 텍스트를 설정할 수 있습니다. [AEM Assets 메타데이터의 대체 텍스트](configure-aem.md#alt-text-in-aem-assets-metadata){target=_blank}를 참조하십시오.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1268 --> AEM에서 Commerce 제품 미디어 갤러리로 이미지 또는 에셋을 가져올 때 이제 대체 텍스트가 동기화의 일부로 전달됩니다. AEM Assets의 스토어 보기별로 대체 텍스트를 설정할 수 있습니다. [AEM Assets 메타데이터의 지역화된 대체 텍스트](metadata.md#localized-alt-text-in-aem-assets-metadata){target=_blank}를 참조하십시오.
 
 ## v1.3.5
 

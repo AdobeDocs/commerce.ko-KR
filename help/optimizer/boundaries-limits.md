@@ -5,9 +5,9 @@ role: Admin, Developer
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 nudge: true
-source-git-commit: 6ae571dd77206859e69e57100e80bb01416a36cd
+source-git-commit: 172fcbd659f4fe8868059d29ed335a5136af8d33
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,9 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 >[!ENDSHADEBOX]
 
+>[!NOTE]
+>
+>위의 제한은 용량 및 사용 할당에 적용됩니다. 제품 시각적 개체 기능 개요 및 기능 제한에 대해서는 [AEM Assets을 사용한 제품 시각적 개체](setup/product-visuals.md)를 참조하십시오.
 
 ### 카탈로그 보기 및 정책
 

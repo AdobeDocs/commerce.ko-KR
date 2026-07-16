@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 41c5b4267888595926ae1bae48f73c928e6547ad
 workflow-type: tm+mt
 source-wordcount: 1675
 ht-degree: 0%
@@ -158,7 +158,7 @@ AEM Assets 통합을 위한 ![SaaS 프로젝트 및 데이터 공간 ID](../asse
 
 ## Commerce용 Adobe I/O Events 구성
 
-AEM Assets 통합은 Adobe I/O Events 서비스를 사용하여 Commerce 인스턴스와 Experience Cloud 간에 사용자 지정 이벤트 데이터를 보냅니다. 이벤트 데이터는 AEM Assets 통합을 위한 워크플로를 조정하는 데 사용됩니다.
+AEM Assets 통합은 Adobe I/O Events 서비스를 사용하여 Commerce 인스턴스와 Experience Cloud 간에 사용자 지정 이벤트 데이터를 전송합니다. 이벤트 데이터는 AEM Assets 통합을 위한 워크플로를 조정하는 데 사용됩니다.
 
 Adobe I/O Events을 구성하기 전에 Commerce 프로젝트에 대한 RabbitMQ 및 cron 작업 구성을 확인하십시오.
 

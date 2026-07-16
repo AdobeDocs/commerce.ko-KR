@@ -26,9 +26,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 4cd054b64c3b95fd50ab9bb682469ace7cc871a3
 workflow-type: tm+mt
-source-wordcount: 2505
+source-wordcount: 2497
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 Commerce 마이그레이션 평가는 기존 Adobe Commerce 구현에 대한 자동화된 분석입니다. Adobe의 도구 기능은 Commerce 코드베이스를 스캔하고 빌드되거나, 사용자 정의되거나, 수정된 모든 사항을 인벤터리하는 구조화된 보고서를 생성합니다. 그러면 코드베이스에 대한 사용자 지정이 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로의 마이그레이션에 어떤 영향을 미치는지 보여줍니다.
 
-보고서는 모든 브라우저에서 열 수 있는 HTML 파일로 제공됩니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
+처리된 마이그레이션 평가 보고서는 `https://experience.adobe.com/@<ims-org-name>/commerce-migration-assessment/shared-assessments`에서 액세스할 수 있습니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
 
 **평가에서 제공하는 항목:**
 

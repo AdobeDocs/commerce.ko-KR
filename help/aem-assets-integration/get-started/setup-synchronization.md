@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a6a91fbd6cc6907d070998f67eb0b9c8171dda23
+source-git-commit: 0c2e50338cbf286704239b6d1f628180e85a3bef
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ AEM Assets 통합을 구성하기 전에 다음 단계를 완료했는지 확인
 
 * [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce 패키지를 설치하여](configure-commerce.md) 확장을 추가하고 확장을 사용하는 데 필요한 자격 증명과 연결을 생성합니다.
 
-* [사용자 권한 및 IMS](permissions.md) - 자산 선택기와 자동으로 채워진 구성 필드(프로그램 ID, 환경 ID, 도메인 매핑)에 필요합니다.
+* [사용자 권한 및 IMS](permissions.md) - 자산 선택기에 필요한 권한을 구성하고 자동으로 채워진 구성 필드(프로그램 ID, 환경 ID, 도메인 매핑)를 구성합니다.
 
 ## 연결 구성
 
@@ -63,11 +63,11 @@ AEM Assets 통합을 구성하기 전에 다음 단계를 완료했는지 확인
 
 1. 드롭다운 메뉴에서 AEM Assets 환경 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]**&#x200B;을(를) 선택합니다.
 
-   Commerce 관리 사용자가 경험에 대한 [사용자 권한 및 IMS](permissions.md#user-permissions-and-ims)를 충족하면 선택기가 표시됩니다. **Adobe Commerce as a Cloud Service**, **Adobe Commerce Optimizer** 및 **클라우드 인프라의 Adobe Commerce** 통합은 붙여넣은 ID에 의존하지 않고 IMS 연결 세션에서 이러한 필드를 자동으로 채울 수 있습니다.
+   Commerce 관리 사용자에게 경험에 필요한 [사용자 권한](permissions.md#user-permissions-and-ims): **Adobe Commerce as a Cloud Service**, **Adobe Commerce Optimizer** 및 **Cloud Infrastructure의 Adobe Commerce** 통합이 붙여넣은 ID에 의존하지 않고 IMS 연결 세션에서 이러한 필드를 자동으로 채울 수 있으면 선택기가 나타납니다.
 
    선택기를 사용할 수 없는 경우 AEM Cloud Manager에서 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]**&#x200B;을(를) 복사하거나 작성자 URL `https://author-<ProgramID>-<EnvironmentID>.adobeaemcloud.com/`에서 파생합니다(자리 표시자를 식별자로 대체).
 
-   수동으로 새 값을 붙여넣거나 선택하기 전에 각 필드에 대한 **[!UICONTROL Use system value]**&#x200B;을(를) 지우십시오.
+   수동으로 새 값을 붙여넣거나 선택하려면 먼저 두 필드의 **[!UICONTROL Use system value]**&#x200B;을(를) 지워야 합니다.
 
    ![프로그램 ID 및 환경 ID 선택기를 사용하는 AEM Assets 통합 양식](../assets/aem-assets-view.png){width="600" zoomable="yes"}
 
@@ -90,13 +90,13 @@ AEM Assets 통합을 구성하기 전에 다음 단계를 완료했는지 확인
 
 ### 동기화 SLA
 
-통합은 다음과 같은 동기화 성능 수준을 보장합니다.
+통합을 위한 service level agreement(SLA)는 다음과 같은 동기화 성능 수준을 보장합니다.
 
 * `< 5 minutes for 99% of updates`
 
 * `< 30 minutes for 99.9% of updates`
 
-이렇게 하면 제품 페이지에 항상 최신 이미지가 표시되므로 상점 컨텐츠가 정확하고 시각적으로 매력적입니다.
+이러한 수준의 서비스를 통해 제품 페이지에는 항상 최신 이미지가 표시되므로 상점 컨텐츠가 정확하고 시각적으로 매력적입니다.
 
 ### 시각화 소유자 구성
 
