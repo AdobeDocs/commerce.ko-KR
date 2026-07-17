@@ -231,7 +231,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2973937a78f4ea425da7876ac006eb2023a35bb3">커밋</a></td>
     </tr>
     <tr>
-      <td><p>[!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 사용자에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview">마이그레이션 평가</a>에 페이지를 추가했습니다.</p>
+      <td><p>[!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 사용자에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview">마이그레이션 평가</a>에 페이지를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
