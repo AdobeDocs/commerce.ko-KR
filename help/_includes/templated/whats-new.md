@@ -1,7 +1,7 @@
 ---
-source-git-commit: c99194b2eb7111a593cfe7c4ba1b4917e38589d2
+source-git-commit: 26e80644cd94f01e0cd310ff2197dc01de6c6819
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1892'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 7월 15일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>AEM 릴리스 <code>2026.5.26309</code> 이상에서 AEM Assets 통합에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#enable-aem-commerce-self-service">셀프 서비스 온보딩</a>을 문서화하고, 새로운 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/metadata">AEM Assets 메타데이터</a> 주제를 추가하고, Da.live를 통해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-storefront#connect-aem-assets-authoring">AEM Assets을 상점 앞에 연결</a>하는 안내서를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/21d305eaa87cd70d82c530e4ee5a4ea34574d400">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 7월 7일
 
