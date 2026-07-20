@@ -7,9 +7,15 @@ recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 TQID: https://experienceleague.adobe.com/apcpxN0AOniRcHDCa5MMAVWysxRO5mTcudXXXjET-Lo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 27cbf66e4851f0d21ecc039fd53aa838b4c211ba
 workflow-type: tm+mt
 source-wordcount: 1365
@@ -68,7 +74,7 @@ _2026년 6월 24일_
 
 ### 지능형 순위 증가
 
-[검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙](./merchandising/rules/add.md#intelligent-ranking-boost)에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
+[&#128279;](./merchandising/rules/add.md#intelligent-ranking-boost)검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
 
 ### API 업데이트
 
