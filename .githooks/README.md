@@ -1,7 +1,7 @@
 ---
-source-git-commit: 65313a91d28d199c142e33f9b77b7e59bbb512ac
+source-git-commit: 94514c6b52ed78e6f739e3067a206e69fa05bed5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -11,10 +11,11 @@ ht-degree: 0%
 
 ## 후크가 수행하는 작업
 
-- **스테이징된 이미지 파일(PNG, JPG, JPEG, GIF)**&#x200B;개 자동 감지
-- **`image_optim`**&#x200B;을(를) 실행하여 이미지 압축 및 최적화
+- **스테이징된 이미지 파일(PNG, JPEG, GIF, SVG)**&#x200B;개 자동 감지
+- **래스터 이미지(PNG, JPEG, GIF)를 압축하고 최적화하려면`image_optim`**&#x200B;을(를) 실행하십시오.
 - **최적화된 이미지 다시 스테이징** 자동
-- **커밋된 모든 이미지가 올바르게 최적화되었는지 확인**
+- **커밋된 모든 래스터 이미지가 올바르게 최적화되었는지 확인**
+- 크기 제한에 대해 **준비된 SVG를 확인**&#x200B;하고, SVG이 이를 초과하는 경우 커밋을 중단합니다.
 
 ## 이점
 
@@ -87,9 +88,16 @@ Image optimization complete!
 - **PNG**: 스크린샷 및 UI 요소에 사용합니다(자동으로 최적화됨).
 - **JPEG**: 사진에 사용(자동으로 최적화됨)
 - **GIF**: 애니메이션에 사용(자동으로 최적화됨)
-- **SVG**: 아이콘 및 단순 그래픽(후크에서 처리하지 않음, 그대로 커밋)에 사용합니다.
+- **SVG**: 아이콘 및 간단한 그래픽에 사용합니다(최적화되지 않았지만 크기 제한에 대해 확인됨. 제한을 초과하면 커밋이 실패함).
 
-사전 커밋 후크는 커밋 시 PNG, JPEG 및 GIF 이미지를 자동으로 최적화합니다.
+사전 커밋 후크는 커밋 시 PNG, JPEG 및 GIF 이미지를 자동으로 최적화하고 크기 제한(140KB)에 대해 준비된 SVG를 확인합니다.
+
+준비된 SVG이 한도를 초과하면 커밋이 중단됩니다. 대신 PNG로 변환:
+
+```bash
+cd _jekyll
+bundle exec rake images:svg_to_png path=path/to/image.svg
+```
 
 ## 수동 최적화
 
@@ -107,7 +115,7 @@ bundle exec rake images:optimize path=../path/to/images
 - **PNG**: `advpng`, `optipng` 및 `pngquant` 사용
 - **JPEG**: `jhead`, `jpegoptim` 및 `jpegtran` 사용
 - **GIF**: `gifsicle` 사용
-- **SVG**: 처리되지 않음(벡터 그래픽과 애니메이션을 유지하기 위해 검색에서 제외)
+- **SVG**: 최적화되지 않았지만(벡터 그래픽과 애니메이션을 보존하기 위해 `image_optim`에서 제외) 140KB 크기 제한에 대해 확인되었습니다.
 
 ## 문제 해결
 
@@ -119,9 +127,15 @@ bundle exec rake images:optimize path=../path/to/images
 
 ### 최적화 실패
 
-- `bundle install` 디렉터리에서 `_jekyll`이(가) 실행되었는지 확인
+- `_jekyll` 디렉터리에서 `bundle install`이(가) 실행되었는지 확인
 - `adobe-comdox-exl-rake-tasks` gem이 설치되어 있는지 확인합니다(`image_optim` 제공).
 - `.image_optim.yml` 구성 파일 검토
+
+### SVG이 크기 제한을 초과합니다.
+
+- 준비된 SVG이 140KB를 초과하면 커밋이 중단됩니다.
+- SVG을 PNG로 변환: `cd _jekyll && bundle exec rake images:svg_to_png path=path/to/image.svg`
+- 그런 다음 SVG 대신 PNG를 준비하고 다시 커밋합니다
 
 ### 성능 문제
 
@@ -132,16 +146,17 @@ bundle exec rake images:optimize path=../path/to/images
 
 1. **사전 커밋 트리거**: `git commit`을(를) 실행하면 후크가 자동으로 실행됩니다
 2. **이미지 검색**: 이미지 확장에 대해 준비된 파일을 검사합니다.
-3. **최적화**: 각 준비된 이미지에서 `image_optim`을(를) 실행합니다.
+3. **최적화**: 준비된 각 PNG, JPEG 또는 GIF에서 `image_optim`을(를) 실행합니다.
 4. **다시 스테이징**: 최적화된 이미지를 스테이징 영역에 자동으로 다시 추가합니다.
-5. **커밋 진행**: 최적화가 성공하면 커밋은 정상적으로 계속됩니다
+5. **SVG 크기 확인**: 140KB 크기 제한에 대해 준비된 각 SVG을 확인합니다.
+6. **커밋 진행**: 최적화에 성공하고 SVG이 크기 제한을 초과하지 않으면 커밋은 정상적으로 계속되며 그렇지 않으면 커밋이 중단됩니다
 
 ## 지원되는 이미지 형식
 
 - **PNG**(`.png`) - 무손실 및 손실 압축
 - **JPEG**(`.jpg`, `.jpeg`) - 메타데이터 정리 시 손실 압축
 - **GIF**(`.gif`) - 애니메이션 및 정적 최적화
-- **SVG**(`.svg`) - 후크에서 처리되지 않음(품질을 유지하기 위해 있는 그대로 커밋)
+- **SVG** (`.svg`) - 최적화되지 않았지만(품질을 유지하기 위해 있는 그대로 커밋) 140KB 크기 제한에 대해 확인되었습니다. 제한을 초과하면 커밋 작업이 중단됩니다
 
 ## 우수 사례
 
