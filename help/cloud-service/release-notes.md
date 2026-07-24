@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: eb561a73951ba42542a8b08340a7df9cc30477d3
+source-git-commit: b05e2183cc0e4b8352a150df9dabfc9dfdb31750
 workflow-type: tm+mt
-source-wordcount: 4657
+source-wordcount: 5265
 ht-degree: 0%
 
 ---
@@ -57,13 +57,42 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
+### REST를 사용하여 주문 편집
+
+>[!IMPORTANT]
+>
+>이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
+
+새로운 REST API 끝점은 통합에서 프로그래밍 방식으로 순서를 편집할 수 있도록 [!DNL Commerce Admin] [!UICONTROL **순서 편집**] 기능을 복제합니다.
+
+| 방법 | 엔드포인트 | 설명 |
+| --- | --- | --- |
+| `POST` | `/V1/orders/{orderId}/edit/start` | 편집 가능한 새 장바구니에 주문을 복사하고 장바구니 ID를 반환합니다. |
+| `POST` | `/V1/orders/{orderId}/edit/submit` | 수정된 장바구니를 새 주문으로 제출하고 원래 주문을 취소합니다. |
+
+`edit/start`을(를) 호출한 후 표준 장바구니 REST 끝점을 사용하여 반환된 장바구니를 수정한 다음 `edit/submit`을(를) 호출합니다. 신규 주문은 장바구니를 통해 대체하지 않는 한 최초 주문의 결제 방법을 상속하며, 취소된 최초 주문에 대한 연결된 대체품으로 생성됩니다. 두 끝점 모두 `Magento_Sales::actions_edit` ACL 리소스가 필요합니다. <!-- ACCS-1284 -->
+
 ### 회사별 주문 및 송장 필터링
 
 이제 `GET /V1/orders` 및 `GET /V1/invoices` REST API 끝점이 `company_id` 및 `company_name`의 필터링을 지원하므로, B2B 통합을 통해 단일 요청으로 특정 회사에 대한 주문 또는 송장을 검색할 수 있습니다. <!-- ACCS-1111, CCSAAS-5076 -->
 
-### API를 통해 사용자 정의 이메일 템플릿 나열
+### 파일당 더 많은 쿠폰 코드 가져오기
 
-새 `GET /V1/custom-email/templates` REST API 끝점이 각 템플릿의 ID, 코드 및 제목을 포함한 [사용자 지정 전자 메일 템플릿](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/)을 반환합니다. 통합에서는 ID를 수동으로 조회하는 대신 반환된 템플릿 ID를 `POST /V1/custom-email/send` 끝점과 함께 사용할 수 있습니다. <!-- CCSAAS-5089 -->
+파일별 벌크 쿠폰 가져오기 상한은 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만들어 조정할 수 있습니다. <!-- CCSAAS-5176 -->
+
+### API를 통해 사용자 정의 이메일 템플릿 관리
+
+다음의 새로운 REST API 끝점을 통해 통합에서 [사용자 지정 전자 메일 템플릿](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/)을(를) 나열, 검색 및 만들 수 있습니다.
+
+| 방법 | 엔드포인트 | 설명 |
+| --- | --- | --- |
+| `GET` | `/V1/custom-email/templates` | 각 템플릿의 ID, 코드, 제목 및 유형을 반환하여 사용자 정의 이메일 템플릿을 나열합니다. |
+| `GET` | `/V1/custom-email/templates/{id}` | 본문 및 스타일을 포함한 단일 템플릿을 검색합니다. |
+| `POST` | `/V1/custom-email/templates` | 사용자 정의 이메일 템플릿을 만들고 서버에서 할당한 ID를 반환합니다. |
+
+ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 반환된 템플릿 ID를 사용하십시오.
+
+모든 `custom-email` 끝점은 `Marketing > Communications > Email template` [역할 리소스](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)에 액세스해야 합니다. <!-- CCSAAS-5089, CCSAAS-5090 -->
 
 ### REST API를 통해 전체 주문 체인 관리
 
@@ -85,6 +114,26 @@ ht-degree: 0%
 | `GET` | `/V1/orderChain/{id}/statuses` | 현재 주문 상태를 검색합니다. |
 
 송장, 배송, 대변 메모 및 반품에 대한 필터링을 지원하는 `GET` 끝점은 이제 `order_original_id`별 필터링을 지원합니다. `order_original_id`(으)로 필터링하면 단일 순서가 아닌 전체 순서 체인에 대한 세부 정보가 반환됩니다. 이 기능을 지원하는 예제 끝점은 `GET /V1/invoices`입니다. <!-- ACCS-1004, ACCS-1005 -->
+
+### 사용자 지정 속성 값으로 순서 그리드 검색
+
+>[!IMPORTANT]
+>
+>이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
+
+판매자는 이제 주문 사용자 지정 특성에 저장된 값으로 [!DNL Commerce Admin] 주문 그리드를 필터링할 수 있습니다. [!UICONTROL **사용자 지정 특성**] 필터는 순서 표 필터 행에서 사용할 수 있습니다.<!-- ACCS-923 -->
+
+### 장바구니 항목에 지정된 인벤토리 소스 설정
+
+새로운 `setNominatedSourceOnCartItems` GraphQL 돌연변이는 장바구니 항목에 특정 인벤토리 소스를 할당하여 매장 픽업(BOPI) 및 출고처 스토어와 같은 시나리오를 지원합니다. 돌연변이는 각각 `cart_item_uid`과(와) `source_code`을(를) 포함하는 `cart_id`과(와) 항목 목록을 수락하고 구조화된 오류 코드: `UNKNOWN_SOURCE`, `SOURCE_DISABLED`, `NOT_ENOUGH_QTY` 또는 `SKU_SOURCE_CONFLICT`이(가) 있는 `rejected_items`을(를) 반환합니다. 장바구니의 각 SKU는 단일 지정 소스로 확인되며, null 또는 빈 `source_code`을(를) 전달하면 지정이 지워집니다. <!-- ACCS-932 -->
+
+### 미리 알림 규칙과 일치하는 장바구니에 대한 이벤트 구독
+
+전자 메일 미리 알림 규칙이 일치하는 논리를 실행하여 일치하는 장바구니에 대한 정보를 전달하면 새 `observer.reminder_matched_carts` 이벤트가 발생합니다. 통합은 기본 미리 알림 이메일에 의존하지 않고 이 이벤트를 구독하고 마케팅 플랫폼과 같은 외부 시스템에 데이터를 전달할 수 있습니다. <!-- CCSAAS-5173 -->
+
+### 영역 또는 템플릿별로 트랜잭션 이메일 제외
+
+새로운 [!UICONTROL **이메일 비표시**] 구성([!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL **Adobe 서비스**] > [!UICONTROL **이메일 비표시**])을 사용하면 관리자가 [!DNL Commerce]에서 트랜잭션 이메일을 보내는 것을 선택적으로 중지할 수 있습니다. 기능 영역(예: 고객 계정, Order Management, 반환, 체크아웃, 마케팅 또는 B2B) 또는 정확한 템플릿 식별자 목록으로 이메일을 표시하지 않을 수 있습니다.<!-- ACCS-1025 -->
 
 ### 관리자에서 주문 수정 내역 보기
 
@@ -109,6 +158,28 @@ ht-degree: 0%
 * 왼쪽 탐색 메뉴가 사라질 수 있는 [!DNL Commerce Admin]의 문제를 해결했습니다. <!-- ACCS-1035 -->
 
 * 공유 카탈로그에서 할당 및 할당 해제 성능이 개선되었습니다. <!-- ACCS-1324, CCSAAS-5177, CCSAAS-5190, CCSAAS-5192 -->
+
+* [!DNL AEM Assets] 통합 성능이 향상되었습니다. <!-- ACAP-1242 -->
+
+* 간단한 제품 SKU를 [!DNL Commerce Admin]의 구성 가능한 제품에 추가할 때 발생할 수 있는 오류를 해결했습니다. <!-- ACCS-1132 -->
+
+* 오래된 레코드가 너무 많이 누적되면 메시지 큐에서 새 메시지 처리를 중지할 수 있는 문제를 해결했습니다. <!-- ACCS-1292 -->
+
+* &quot;공유 카탈로그에서 SKU를 사용할 수 없음&quot; 오류로 관리자 주문 생성이 실패하는 문제를 해결했습니다. <!-- ACCS-1318 -->
+
+* 번들 제품을 만들거나 편집할 때 발생하는 충돌을 해결했습니다. <!-- CCSAAS-5211 -->
+
+* 매장 내 픽업 또는 출고처 스토어를 사용하여 주문 배치가 품목에 대해 지정된 출처에서 재고를 예약하지 않던 문제를 수정했습니다. <!-- ACCS-1374 -->
+
+* 이제 장바구니 쿼리 응답에서 오래된 사용자 지정 요금이 지워졌습니다. <!-- ACCS-1400 -->
+
+* 카탈로그 내보내기 중에 제품 자산 역할 특성이 로케일 데이터를 손실하는 [!DNL AEM Assets] 통합의 문제를 해결했습니다. <!-- ACCS-1401 -->
+
+* [!DNL Dynamic Media]이(가) 활성화되지 않았음을 나타내는 통합을 저장할 때 받은 경고를 개선했습니다. <!-- ACAP-1298 -->
+
+* 이제 이벤트를 구독할 때 이벤트 이름 및 별칭 필드가 소문자로 확인됩니다. <!-- CEXT-6164 -->
+
+* 이제 조건부 웹후크를 저장할 때 웹후크 정규 표현식 규칙 패턴의 유효성이 검사됩니다. <!-- CEXT-6287 -->
 
 {{accs-release}}
 
@@ -598,11 +669,11 @@ B2B 드롭인 구성 요소는 다음과 같이 변경되었습니다.
 
 * 이제 [!DNL Commerce Storefront on Edge Delivery Services]에 [B2B 끌어 놓기 구성 요소](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=ko)가 포함됩니다. 이제 다음 B2B 드롭인을 사용할 수 있습니다.
 
-   * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
-   * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
-   * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
-   * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
-   * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=ko)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
+  * **[회사 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=ko)** - Adobe Commerce 상점에 대한 회사 프로필 관리 및 역할 기반 권한을 사용하도록 설정합니다.
+  * **[회사 전환기](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=ko)** - 사용자가 연결된 여러 회사 간에 전환할 수 있는 UI 구성 요소를 제공합니다.
+  * **[구매 주문](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=ko)** - B2B 트랜잭션에 대한 구매 주문 워크플로, 승인 규칙 및 구매 주문 내역을 관리합니다.
+  * **[견적 관리](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=ko)** - 견적 요청, 협상 및 승인 워크플로를 통해 B2B 고객을 위해 협상할 수 있는 견적을 사용하도록 설정합니다.
+  * **[구매요청 목록](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=ko)** - 반복 구매 및 대량 주문을 위한 구매요청 목록을 만들고 관리하는 도구를 제공합니다.
 
 * B2B Storefront 호환성 패키지를 출시했습니다. 이 패키지는 B2B 시스템의 개발을 개선하는 데 도움이 되도록 [!DNL Adobe Commerce] B2B GraphQL 스키마를 향상시킵니다.
 
