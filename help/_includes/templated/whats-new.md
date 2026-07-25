@@ -111,7 +111,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Commerce 서비스 설명서 전체에 걸쳐 카탈로그 데이터 동기화 확인 지침을 업데이트했습니다. 이제 서비스 설치 및 구성 항목에서는 일관된 2단계 워크플로우를 사용합니다. <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 페이지</a>에서 내보내기를 확인한 다음 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>에서 전달을 확인합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/get-started#monitor-and-troubleshoot-data-export">카탈로그 서비스 시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#monitor-sync-progress">라이브 검색 설치</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure#monitor-and-troubleshoot-data-synchronization">제품 권장 사항 설치</a> 및 <em>SaaS 데이터 내보내기 안내서</em>의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#verify-that-the-data-sync-is-working">동기화 관리</a>에 대한 업데이트된 지침을 따릅니다.</p>
+      <td><p>Commerce 서비스 설명서 전체에 걸쳐 카탈로그 데이터 동기화 확인 지침을 업데이트했습니다. 이제 서비스 설치 및 구성 항목에서는 일관된 2단계 워크플로우를 사용합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 페이지</a>에서 내보내기를 확인한 다음 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>에서 전달을 확인합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/get-started#monitor-and-troubleshoot-data-export">카탈로그 서비스 시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#monitor-sync-progress">라이브 검색 설치</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure#monitor-and-troubleshoot-data-synchronization">제품 권장 사항 설치</a> 및 <em>SaaS 데이터 내보내기 안내서</em>의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#verify-that-the-data-sync-is-working">동기화 관리</a>에 대한 업데이트된 지침을 따릅니다.</p>
 </td>
       <td>
         피드백
@@ -316,7 +316,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td><ul>
-  <li>활성화 단계, 모범 사례 및 영어 카탈로그 제한 사항이 있는 [!DNL Live Search]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search">의미 체계 검색</a>을 추가했습니다.<br />- [!DNL Adobe Commerce Optimizer]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/semantic-search">의미 체계 검색</a>을 추가하고 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/settings">설정 — 고급 검색</a>을 업데이트했습니다.</li>
+  <li>활성화 단계, 모범 사례 및 영어 카탈로그 제한 사항이 있는 [!DNL Live Search]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search">의미 체계 검색</a>을 추가했습니다.<br />- [!DNL Adobe Commerce Optimizer]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/semantic-search">의미 체계 검색</a>을 추가하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/settings">설정 — 고급 검색</a>을 업데이트했습니다.</li>
 </ul>
 </td>
       <td>
