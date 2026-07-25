@@ -1,7 +1,7 @@
 ---
-source-git-commit: 26e80644cd94f01e0cd310ff2197dc01de6c6819
+source-git-commit: 64d5e1d1ee41241bce36faa31db7c436e018037c
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1665'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 7월 23일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed8bf2044f77432eb38df3c3cbb13b7708f3c33b">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 7월 15일
 
@@ -89,7 +111,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Commerce 서비스 설명서 전체에 걸쳐 카탈로그 데이터 동기화 확인 지침을 업데이트했습니다. 이제 서비스 설치 및 구성 항목에서는 일관된 2단계 워크플로우를 사용합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 페이지</a>에서 내보내기를 확인한 다음 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>에서 전달을 확인합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/get-started#monitor-and-troubleshoot-data-export">카탈로그 서비스 시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#monitor-sync-progress">라이브 검색 설치</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure#monitor-and-troubleshoot-data-synchronization">제품 권장 사항 설치</a> 및 <em>SaaS 데이터 내보내기 안내서</em>의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#verify-that-the-data-sync-is-working">동기화 관리</a>에 대한 업데이트된 지침을 따릅니다.</p>
+      <td><p>Commerce 서비스 설명서 전체에 걸쳐 카탈로그 데이터 동기화 확인 지침을 업데이트했습니다. 이제 서비스 설치 및 구성 항목에서는 일관된 2단계 워크플로우를 사용합니다. <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 페이지</a>에서 내보내기를 확인한 다음 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard">데이터 관리 대시보드</a>에서 전달을 확인합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/get-started#monitor-and-troubleshoot-data-export">카탈로그 서비스 시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#monitor-sync-progress">라이브 검색 설치</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure#monitor-and-troubleshoot-data-synchronization">제품 권장 사항 설치</a> 및 <em>SaaS 데이터 내보내기 안내서</em>의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#verify-that-the-data-sync-is-working">동기화 관리</a>에 대한 업데이트된 지침을 따릅니다.</p>
 </td>
       <td>
         피드백
@@ -294,7 +316,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td><ul>
-  <li>활성화 단계, 모범 사례 및 영어 카탈로그 제한 사항이 있는 [!DNL Live Search]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search">의미 체계 검색</a>을 추가했습니다.<br />- [!DNL Adobe Commerce Optimizer]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/semantic-search">의미 체계 검색</a>을 추가하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/settings">설정 — 고급 검색</a>을 업데이트했습니다.</li>
+  <li>활성화 단계, 모범 사례 및 영어 카탈로그 제한 사항이 있는 [!DNL Live Search]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search">의미 체계 검색</a>을 추가했습니다.<br />- [!DNL Adobe Commerce Optimizer]에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/semantic-search">의미 체계 검색</a>을 추가하고 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/settings">설정 — 고급 검색</a>을 업데이트했습니다.</li>
 </ul>
 </td>
       <td>
@@ -399,66 +421,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/de94aaad29313b3e8254d11d8801ba0d7efff3dc">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 5월 22일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>제품 데이터를 검색할 때 요청당 문서화된 100-SKU 제한을 적용하는 2026년 5월 20일 릴리스의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">Adobe Commerce Optimizer</a> 및 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">카탈로그 서비스</a>에 대한 API 업데이트에 대한 릴리스 정보를 추가했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/342a3015f743e12b7089e4d430a517804a7cd40c">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/category-merch">카테고리 머천다이징</a>의 상호 참조와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/rules/rules-add#intelligent-ranking-boost">규칙 추가</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice">모범 사례</a>의 [!DNL Live Search]에 대한 지능형 순위 상승(규칙당 구성 가능한 동작 가중치, 기본값 5.0)을 문서화했습니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking-boost">만들기 및 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/best-practice">머천다이징 규칙 모범 사례</a>에서 [!DNL Adobe Commerce Optimizer]에 대해 동일한 지침을 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/40b4528d417a4df09ac9ae9fb0d97b0f678b55ac">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 5월 19일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>AEM Assets 통합 안내서에서는 편집자가 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 v1.3.6 </a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#localized-alt-text-in-aem-assets-metadata">대체 텍스트</a>를 설정하는 방법에 대해 설명합니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6d3dfbc59e72c00c3552af5805b57c69e60b38b4">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/14aa082c1f0f8ce4c51328eb8ee9f4af25adf859">커밋</a></td>
     </tr>
   </tbody>
 </table>
