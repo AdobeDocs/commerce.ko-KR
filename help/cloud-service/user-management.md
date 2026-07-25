@@ -250,7 +250,7 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 >[!NOTE]
 >
->적절한 자산 권한이 없는 사용자는 [AI 이미지 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}, [생성된 변형](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"} 등과 같은 [!DNL AEM Assets]의 고급 기능에 액세스할 수 없습니다.
+>적절한 자산 권한이 없는 사용자는 [AI 이미지 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}, [생성된 변형](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"} 등과 같은 [!DNL AEM Assets]의 고급 기능에 액세스할 수 없습니다.
 
 >[!TIP]
 >
