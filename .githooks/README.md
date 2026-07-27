@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94514c6b52ed78e6f739e3067a206e69fa05bed5
+source-git-commit: 9de8e747353a9042d5b6d7c150688e705c21d2c6
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ## 후크가 수행하는 작업
 
-- **스테이징된 이미지 파일(PNG, JPEG, GIF, SVG)**&#x200B;개 자동 감지
-- **래스터 이미지(PNG, JPEG, GIF)를 압축하고 최적화하려면`image_optim`**&#x200B;을(를) 실행하십시오.
+- **준비된 이미지 파일 `.png`, `.jpeg`, `.jpg`, `.gif`, `.svg` 자동 검색**
+- **래스터 이미지(`.png`, `.jpeg`, `.jpg`, `.gif`)를 압축하고 최적화하려면`image_optim`**&#x200B;을(를) 실행하십시오.
 - **최적화된 이미지 다시 스테이징** 자동
 - **커밋된 모든 래스터 이미지가 올바르게 최적화되었는지 확인**
-- 크기 제한에 대해 **준비된 SVG를 확인**&#x200B;하고, SVG이 이를 초과하는 경우 커밋을 중단합니다.
+- **크기 제한에 대해 준비된 SVG**&#x200B;을(를) 확인하고 `help/`의 모든 파일에서 크기가 큰 SVG을 참조하는 경우 커밋을 중단합니다(그렇지 않으면 경고하십시오).
 
 ## 이점
 
@@ -78,9 +78,18 @@ chmod +x .githooks/*
 
 ```bash
 Found 1 staged image(s). Running optimization...
-Optimizing: path/to/your/image.png
-Re-staged optimized image: path/to/your/image.png
-Image optimization complete!
+
+Checking images ...
+path/to/your/image.png    100.00%
+Pre-commit image checks complete!
+```
+
+### 단위 테스트
+
+후크의 SVG 링크 감지 논리(`help/`에서 크기가 큰 SVG을 참조하는지 여부를 결정하는 논리)는 Ruby의 번들 `minitest`만 필요한 단위 테스트에서 다룹니다(gems 없음 또는 `_jekyll` 설정 없음).
+
+```bash
+ruby .githooks/test/svg_link_checker_test.rb
 ```
 
 ## 이미지 지침
@@ -88,16 +97,18 @@ Image optimization complete!
 - **PNG**: 스크린샷 및 UI 요소에 사용합니다(자동으로 최적화됨).
 - **JPEG**: 사진에 사용(자동으로 최적화됨)
 - **GIF**: 애니메이션에 사용(자동으로 최적화됨)
-- **SVG**: 아이콘 및 간단한 그래픽에 사용합니다(최적화되지 않았지만 크기 제한에 대해 확인됨. 제한을 초과하면 커밋이 실패함).
+- **SVG**: 아이콘 및 간단한 그래픽에 사용됩니다(최적화되지 않았지만 크기 제한에 따라 선택됨. 크기가 큰 SVG이 `help/`에서 연결되어 있는 경우에만 커밋이 실패함).
 
-사전 커밋 후크는 커밋 시 PNG, JPEG 및 GIF 이미지를 자동으로 최적화하고 크기 제한(140KB)에 대해 준비된 SVG를 확인합니다.
+사전 커밋 후크는 커밋 시 `.png`, `.jpeg`/`.jpg` 및 `.gif` 이미지를 자동으로 최적화하고 크기 제한(140KB)에 대해 준비된 SVG를 확인합니다.
 
-준비된 SVG이 한도를 초과하면 커밋이 중단됩니다. 대신 PNG로 변환:
+준비된 SVG이 한도를 초과하여 `help/`의 파일에서 참조되면 커밋이 중단됩니다. `help/`의 어느 곳에서든 대형 SVG이 참조되지 않으면 후크에서 경고만 인쇄하고 커밋이 진행됩니다. 대신 크기를 초과한 SVG를 PNG 로 변환합니다.
 
 ```bash
 cd _jekyll
-bundle exec rake images:svg_to_png path=path/to/image.svg
+bundle exec rake images:svg_to_png path=../help/assets/image.svg
 ```
+
+경로가 `_jekyll`을(를) 기준으로 하므로 `help/` 아래의 이미지가 `../help/...`(으)로 참조됩니다.
 
 ## 수동 최적화
 
@@ -128,13 +139,13 @@ bundle exec rake images:optimize path=../path/to/images
 ### 최적화 실패
 
 - `_jekyll` 디렉터리에서 `bundle install`이(가) 실행되었는지 확인
-- `adobe-comdox-exl-rake-tasks` gem이 설치되어 있는지 확인합니다(`image_optim` 제공).
+- `adobe-comdox-exl-rake-tasks` gem이 설치되어 있는지 확인합니다(`images:optimize`, `images:check_size` 및 `images:svg_to_png` 레이크 작업을 후크에서 제공함).
 - `.image_optim.yml` 구성 파일 검토
 
 ### SVG이 크기 제한을 초과합니다.
 
-- 준비된 SVG이 140KB를 초과하면 커밋이 중단됩니다.
-- SVG을 PNG로 변환: `cd _jekyll && bundle exec rake images:svg_to_png path=path/to/image.svg`
+- 준비된 SVG이 140KB를 초과하고 `help/`의 파일에서 참조되면 커밋이 중단됩니다. 그렇지 않으면 후크만 경고되고 커밋이 진행됩니다.
+- SVG을 PNG로 변환: `cd _jekyll && bundle exec rake images:svg_to_png path=../help/assets/image.svg`(경로는 `_jekyll`에 상대적이므로 `help/` 아래의 이미지가 `../help/...`(으)로 참조됨)
 - 그런 다음 SVG 대신 PNG를 준비하고 다시 커밋합니다
 
 ### 성능 문제
@@ -149,14 +160,14 @@ bundle exec rake images:optimize path=../path/to/images
 3. **최적화**: 준비된 각 PNG, JPEG 또는 GIF에서 `image_optim`을(를) 실행합니다.
 4. **다시 스테이징**: 최적화된 이미지를 스테이징 영역에 자동으로 다시 추가합니다.
 5. **SVG 크기 확인**: 140KB 크기 제한에 대해 준비된 각 SVG을 확인합니다.
-6. **커밋 진행**: 최적화에 성공하고 SVG이 크기 제한을 초과하지 않으면 커밋은 정상적으로 계속되며 그렇지 않으면 커밋이 중단됩니다
+6. **커밋 진행**: 최적화가 성공하고 `help/`에서 크기가 큰 SVG이 참조되지 않으면 커밋이 정상적으로 계속됩니다. 그렇지 않으면 커밋이 중단됩니다(`help/`에서 크기가 큰 SVG이 참조되지 않으면 경고만 트리거됨).
 
 ## 지원되는 이미지 형식
 
 - **PNG**(`.png`) - 무손실 및 손실 압축
 - **JPEG**(`.jpg`, `.jpeg`) - 메타데이터 정리 시 손실 압축
 - **GIF**(`.gif`) - 애니메이션 및 정적 최적화
-- **SVG** (`.svg`) - 최적화되지 않았지만(품질을 유지하기 위해 있는 그대로 커밋) 140KB 크기 제한에 대해 확인되었습니다. 제한을 초과하면 커밋 작업이 중단됩니다
+- **SVG** (`.svg`) - 최적화되지 않았지만(품질을 유지하기 위해 있는 그대로 커밋) 140KB 크기 제한에 대해 확인되었습니다. 제한을 초과하고 `help/`에서 SVG을 참조하면 커밋이 중단됩니다(그렇지 않으면 후크만 경고됨).
 
 ## 우수 사례
 
