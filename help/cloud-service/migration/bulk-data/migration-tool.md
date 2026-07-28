@@ -1,6 +1,6 @@
 ---
 title: 대량 데이터 마이그레이션 도구
-description: 대량 데이터 마이그레이션 도구를 사용하여 기존 Adobe Commerce on Cloud 인스턴스에서  [!DNL Adobe Commerce as a Cloud Service](으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
+description: 대량 데이터 마이그레이션 도구를 사용하여 기존 Adobe Commerce on Cloud 인스턴스에서  [!DNL Adobe Commerce as a Cloud Service] (으)로 데이터를 마이그레이션하는 방법에 대해 알아봅니다.
 feature: Cloud
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
@@ -8,12 +8,21 @@ level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
 autotag-review: '2026-07-22T19:18:39.433Z'
 TQID: 'https://experienceleague.adobe.com/tkCFabZpBKu-W34wsufHlVIWzCUE8FKm4kK7qZahxBU'
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
-subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4c0eca0039bab7d015144dd9ac3885a0b2be0563
 workflow-type: tm+mt
 source-wordcount: 924
