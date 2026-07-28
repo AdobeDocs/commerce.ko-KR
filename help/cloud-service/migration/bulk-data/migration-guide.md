@@ -2,7 +2,7 @@
 title: 대량 데이터 마이그레이션 실행
 description: CLI를 사용하여 Adobe Commerce PaaS 또는 온프레미스 인스턴스에서 Adobe Commerce as a Cloud Service으로 대량 데이터 마이그레이션을 구성하고 실행하는 방법에 대해 알아봅니다.
 feature: Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-07-22T19:19:07.600Z'
@@ -130,7 +130,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 >[!NOTE]
 >
->Cloud CLI를 처음 사용하는 경우 SSH 공개 키도 계정에 추가해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
+>Cloud CLI를 처음 사용하는 경우 SSH 공개 키도 계정에 추가해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
 
 ### Commerce 관리 설정 정렬
 

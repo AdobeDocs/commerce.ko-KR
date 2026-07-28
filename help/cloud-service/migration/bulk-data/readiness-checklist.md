@@ -2,7 +2,7 @@
 title: 고객 준비 체크리스트
 description: 참여, 머신, 소스 및 타겟을 다루는 준비 체크리스트와 함께 Adobe Commerce as a Cloud Service으로의 대량 데이터 마이그레이션을 준비하는 방법에 대해 알아봅니다.
 feature: Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-07-22T19:19:18.443Z'
@@ -64,7 +64,7 @@ ht-degree: 0%
 - **쓰기 가능한 작업 디렉터리** - 마이그레이션 도구를 추출하는 디렉터리는 마이그레이션 사용자가 완전히 쓸 수 있어야 합니다. 이 도구는 실행 중에 로그, 캐시, [!DNL Composer] 종속성 및 생성된 파일을 기록합니다.
 - **충분한 디스크 공간** - 추출된 데이터, [!DNL Docker]개의 이미지 및 로그 출력을 위한 충분한 여유 디스크 공간을 확보하십시오. 공간 요구 사항은 소스 데이터베이스의 크기에 따라 다릅니다.
 - **온-프레미스 원본: 마이그레이션 컴퓨터에서 직접 데이터베이스 연결** - 온-프레미스 원본 인스턴스의 경우 마이그레이션 컴퓨터에 원본 데이터베이스에 대한 직접 네트워크 액세스 권한이 있어야 합니다. 이 도구는 온-프레미스 데이터베이스 연결을 자동으로 설정하지 않습니다. 마이그레이션 명령을 실행하기 전에 마이그레이션 시스템에서 호스트, 포트 및 자격 증명에 연결할 수 있는지 확인하십시오.
-- **Cloud CLI가 설치되어 있고 SSH 키가 등록됨** — [!DNL Adobe Commerce on Cloud] 원본 인스턴스의 경우 [Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)가 마이그레이션 컴퓨터에 설치되어 있어야 합니다. SSH 공개 키도 계정에 등록해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
+- **Cloud CLI가 설치되어 있고 SSH 키가 등록됨** — [!DNL Adobe Commerce on Cloud] 원본 인스턴스의 경우 [Cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)가 마이그레이션 컴퓨터에 설치되어 있어야 합니다. SSH 공개 키도 계정에 등록해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
 
 ### Source 인스턴스
 

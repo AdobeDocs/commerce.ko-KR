@@ -2,7 +2,7 @@
 title: 마이그레이션 서비스 액세스 확인
 description: Commerce 데이터 마이그레이션 서비스 API에 대한 엔드 투 엔드 액세스를 확인하고 네트워크 연결 가능성, IMS 인증 및 테넌트 인증을 확인하는 방법을 알아봅니다.
 feature: Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-07-22T19:18:53.554Z'
