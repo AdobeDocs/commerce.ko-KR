@@ -1,7 +1,7 @@
 ---
-source-git-commit: 10a91a91337778648e99078bcbf0c9ef25a49f86
+source-git-commit: 039f848c37235195a3ffcc90238dad77513a9ec3
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -104,3 +104,9 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 | 서비스 | 상점 첫 화면 |
 | --- | --- |
 | [AEM Assets 통합](../aem-assets-integration/release-notes.md)<br>[Commerce Optimizer 커넥터](../aco-connector/release-notes.md) | [Storefront 릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)<br>[Storefront 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) |
+
+## 대량 데이터 마이그레이션 도구 조기 액세스 {#bulk-data-early-access}
+
+>[!IMPORTANT]
+>
+>대량 데이터 마이그레이션 도구는 현재 조기 액세스 상태에 있습니다. 액세스는 CDE(Commerce Deployed Engineering) 참여 프로세스를 통해서만 제공됩니다. 도구 및 해당 자격 요구 사항에 대한 개요는 [대량 데이터 마이그레이션 도구](../cloud-service/migration/bulk-data/migration-tool.md)를 참조하십시오.
