@@ -54,7 +54,7 @@ ht-degree: 0%
 
 대량 데이터 마이그레이션을 위한 환경 설정:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496121)
+>[!VIDEO](https://video.tv.adobe.com/v/3496127?captions=kor)
 
 1. `ccsaas-migration-tools.tar.gz`의 내용을 추출합니다.
 
@@ -97,7 +97,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 ### 소스 OAuth 자격 증명 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496142)
+>[!VIDEO](https://video.tv.adobe.com/v/3496147?captions=kor)
 
 이 네 가지 값은 마이그레이션 도구에서 소스 스토어 API로의 요청에 서명합니다. 다운로드하려면 원본 [!UICONTROL Admin]을(를) 열고 [!UICONTROL **시스템**] > [!UICONTROL **확장**] > [!UICONTROL **통합**]&#x200B;(으)로 이동하세요. 통합을 만들거나 연 다음 값을 `.env`에 복사합니다.
 
@@ -142,7 +142,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 ### 대상 SaaS 및 IMS 자격 증명 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496167)
+>[!VIDEO](https://video.tv.adobe.com/v/3496172?captions=kor)
 
 대상의 [!DNL Adobe Commerce as a Cloud Service] IMS 및 API 설정입니다. 사용자 환경에 대한 테넌트 ID, 조직 ID, IMS OAuth 서버 간 자격 증명 및 올바른 IMS 호스트가 필요합니다. 조직, 테넌트 및 프로필 액세스를 위해 Adobe 팀과 협력합니다. 중요한 값을 유추하거나 추정하지 마십시오.
 
@@ -247,7 +247,7 @@ CDMS_PORT=443
 
 ## 데이터베이스 연결 파일 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496152)
+>[!VIDEO](https://video.tv.adobe.com/v/3496162?captions=kor)
 
 `.my.cnf` 파일은 마이그레이션 도구의 추출 측에 [!DNL MySQL] 연결 설정을 제공합니다. 프로젝트 루트의 `.my.cnf`에 `.my.cnf.example`을(를) 복사하여 만드십시오. 섹션 이름은 `.env`의 `SOURCE_CONNECTION_NAME`과(와) 일치해야 합니다.
 
