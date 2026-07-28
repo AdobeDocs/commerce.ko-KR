@@ -4,12 +4,10 @@ breadcrumb-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce as a Cloud Service] 사용에 대한 자세한 지침을 제공합니다.
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-source-git-commit: f25630f9c6f118e6dd714757ed068f2d2e6e9e15
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+source-git-commit: 039f848c37235195a3ffcc90238dad77513a9ec3
 workflow-type: tm+mt
-source-wordcount: 188
+source-wordcount: 222
 ht-degree: 4%
 
 ---
@@ -24,34 +22,39 @@ ht-degree: 4%
 - [상점 첫 화면](storefront.md)
 - [사용 사례](use-cases.md)
 - 보안 {#security}
-   - [개요](security/overview.md)
-   - [공동 책임](security/shared-responsibility.md)
-   - [ID 및 액세스 관리](security/access-control.md)
-   - [규정 준수 및 인증](security/compliance.md)
-   - [보안 아키텍처 및 데이터 흐름](security/data-flow.md)
+  - [개요](security/overview.md)
+  - [공동 책임](security/shared-responsibility.md)
+  - [ID 및 액세스 관리](security/access-control.md)
+  - [규정 준수 및 인증](security/compliance.md)
+  - [보안 아키텍처 및 데이터 흐름](security/data-flow.md)
 - [제품에 파일 추가](product-files.md)
 - [가시성](observability.md)
 - 마이그레이션 {#migration}
-   - [개요](migration/overview.md)
-   - 마이그레이션 도구 {#migration-tools}
-      - [대량 데이터 마이그레이션 도구](migration/bulk-data.md)
-      - [마이그레이션 평가](migration/assessment.md)
-      - [코딩 툴](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-   - {hide-from-toc}[설명서 RAG 서비스](migration/doc-rag.md)
-- [고객으로 로그인](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+  - [개요](migration/overview.md)
+  - 마이그레이션 도구 {#migration-tools}
+    - 대량 데이터 마이그레이션 도구 {#bulk-data}
+      - [개요](migration/bulk-data/migration-tool.md)
+      - [고객 준비 체크리스트](migration/bulk-data/readiness-checklist.md)
+      - [마이그레이션 서비스 액세스 확인](migration/bulk-data/cdms-access.md)
+      - [대량 데이터 마이그레이션 실행](migration/bulk-data/migration-guide.md)
+      - [비디오 워크스루](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/bulk-data-migration-tool/introduction){target="_blank"}
+    - [마이그레이션 평가](migration/assessment.md)
+    - [코딩 툴](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
+  - {hide-from-toc}[설명서 RAG 서비스](migration/doc-rag.md)
+- [고객으로 로그인](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
 - [기프트 카드 계정 REST 엔드포인트](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
 - [REST를 통한 이메일 트리거](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - 튜토리얼 {#tutorials}
-   - [자습서 사전 요구 사항](tutorials/tutorial-prerequisites.md)
-   - [등급 확장 자습서](tutorials/ratings-extension.md)
-   - [배송 방법 확장 튜토리얼](tutorials/shipping-method-extension.md)
-   - {hide-from-toc}[게재 예상 확장 자습서](tutorials/delivery-estimates-extension.md)
-   - {hide-from-toc}[재고 알림 확장 자습서](tutorials/in-stock-notification-extension.md)
-   - {hide-from-toc}[제품 리뷰 확장 튜토리얼](tutorials/product-reviews-extension.md)
+  - [자습서 사전 요구 사항](tutorials/tutorial-prerequisites.md)
+  - [등급 확장 자습서](tutorials/ratings-extension.md)
+  - [배송 방법 확장 튜토리얼](tutorials/shipping-method-extension.md)
+  - {hide-from-toc}[게재 예상 확장 자습서](tutorials/delivery-estimates-extension.md)
+  - {hide-from-toc}[재고 알림 확장 자습서](tutorials/in-stock-notification-extension.md)
+  - {hide-from-toc}[제품 리뷰 확장 튜토리얼](tutorials/product-reviews-extension.md)
 - 스키마 {#schemas}
-   - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
-   - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
+  - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
+  - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-- [비디오 자습서](https://experienceleague.adobe.com/ko/playlists/accs-getting-started-product-overview){target="_blank"}
+- [비디오 자습서](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
 - [릴리스 정보](release-notes.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

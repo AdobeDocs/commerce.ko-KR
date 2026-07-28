@@ -1,43 +1,22 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
-description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
+title: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션'
+description: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-06-18T16:12:28.840Z'
 TQID: 'https://experienceleague.adobe.com/GmxaQdGKvAIDpZ2jvmlLFSYw0IFQysIMOT0lUnsJBsI'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 2e43a6abbca117cef5dc559a9f6881980d2d934c
 workflow-type: tm+mt
-source-wordcount: 3150
+source-wordcount: 3153
 ht-degree: 0%
 
 ---
@@ -48,14 +27,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->마이그레이션 도구에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구](./bulk-data.md)를 참조하십시오.
+>마이그레이션 도구에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구](./bulk-data/migration-tool.md)를 참조하세요.
 
 ## 전환 이해 - PaaS 및 SaaS 비교
 
 **주요 차이점**
 
-* [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **PaaS(현재)**: 판매자가 Adobe의 호스팅 환경 내에서 애플리케이션 코드, 업그레이드, 패치, 인프라 구성을 관리합니다. 서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility).
-* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
+* [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **PaaS(현재)**: 판매자가 Adobe의 호스팅 환경 내에서 애플리케이션 코드, 업그레이드, 패치, 인프라 구성을 관리합니다. 서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility).
+* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
 
 **아키텍처 의미**
 
@@ -68,7 +47,7 @@ ht-degree: 0%
 
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) 및 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)
 * [Commerce Cloud 관리자](../getting-started.md#create-an-instance)를 사용한 셀프서비스 프로비저닝
 
 ## 마이그레이션 경로
@@ -101,7 +80,7 @@ ht-degree: 0%
 
 표에서 알 수 있듯이 각 마이그레이션에 대한 완화 기능은 다음과 같이 구성됩니다.
 
-* **데이터 마이그레이션**—기존 인스턴스에서 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 데이터를 마이그레이션하기 위해 제공된 [마이그레이션 도구](./bulk-data.md)를 사용합니다.
+* **데이터 마이그레이션**—기존 인스턴스에서 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 데이터를 마이그레이션하기 위해 제공된 [마이그레이션 도구](./bulk-data/migration-tool.md)를 사용합니다.
 * **Storefront** - Edge Delivery에서 제공하는 기존 Commerce Storefront 및 Headless Storefront는 완화가 필요하지 않지만 Luma Storefront는 Edge Delivery에서 제공하는 Commerce Storefront로 마이그레이션해야 합니다. PWA Studio 스토어프론트를 Edge Delivery에서 제공하는 Commerce 스토어프론트로 마이그레이션하거나 현재 상태로 유지할 수 있습니다. Adobe은 storefront 마이그레이션을 지원하는 가속기를 제공합니다.
 * **[API Mesh](https://developer.adobe.com/graphql-mesh-gateway)**—새 Mesh를 만들거나 기존 Mesh를 수정합니다. Adobe은 이 프로세스를 지원하기 위해 사전 구성된 메쉬를 제공합니다.
 * **통합**—모든 통합은 [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) 또는 [[!DNL Adobe Commerce as a Cloud Service] REST API](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)를 활용해야 합니다.
@@ -150,11 +129,11 @@ ht-degree: 0%
 
 * **단계별 마이그레이션 및 한꺼번에 마이그레이션:** 각 접근 방식의 장단점을 평가합니다.
 * **핵심 비즈니스 프로세스 식별:** 다음과 같이 먼저 마이그레이션해야 하는 기능의 우선 순위를 지정합니다.
-   * 복잡한 가격 규칙
-   * 주문이 공식적으로 배치되거나 처리되기 전에 적용되는 사용자 정의 비즈니스 규칙
-   * 복잡한 세금 계산
-   * 주소 유효성 검사
-   * 주문이 배치된 후 트리거된 사용자 지정 논리
+  * 복잡한 가격 규칙
+  * 주문이 공식적으로 배치되거나 처리되기 전에 적용되는 사용자 정의 비즈니스 규칙
+  * 복잡한 세금 계산
+  * 주소 유효성 검사
+  * 주문이 배치된 후 트리거된 사용자 지정 논리
 * **헤드리스와 모놀리식 상점 비교:** 새로운 상점 개발 또는 기존 상점 적응에 대한 결정 지점.
 * **통합 전략:** 기존 통합이 다시 플랫폼되는 방법을 결정합니다(API Mesh, App Builder, 직접 API).
 * **데이터 마이그레이션 전략:** 전체 이전 데이터를 사용하여 마이그레이션할지, 부분 데이터를 사용하여 마이그레이션할지 또는 마이그레이션된 데이터를 사용하지 않을지 결정합니다.
@@ -198,7 +177,7 @@ ht-degree: 0%
 
 * **카탈로그 데이터 동기화**: Adobe Commerce PaaS 인스턴스가 제품 및 카탈로그 데이터를 기존 Adobe Commerce 카탈로그 SaaS 서비스에 계속 동기화하는지 확인하십시오. 일반적으로 PaaS 인스턴스 내에서 설정된 커넥터 또는 모듈을 사용합니다. 카탈로그 SaaS 서비스는 검색 및 머천다이징 기능에 대한 신뢰할 수 있는 소스로 유지되며, PaaS 백엔드에서 데이터를 가져옵니다.
 * **최적화를 위한 API Mesh**: Headless 상점(Edge Delivery Services의) 및 기타 서비스가 카탈로그 SaaS 서비스의 데이터를 직접 사용할 수 있지만 Adobe에서는 API Mesh(App Builder 내)를 사용하는 것이 좋습니다. API Mesh는 카탈로그 SaaS 서비스의 API를 PaaS 백엔드의 다른 필요한 API와 통합할 수 있습니다(예: 카탈로그 SaaS 서비스에 완전히 복제되지 않은 트랜잭션 데이터베이스 또는 사용자 지정 제품 속성의 실시간 인벤토리 확인). 또한 중앙 집중식 캐싱, 인증 및 응답 변환이 가능합니다.
-* **라이브 검색 및 제품 권장 사항 통합**: 라이브 검색 및 제품 권장 사항 SaaS 서비스를 구성하여 기존 Adobe Commerce 카탈로그 SaaS 서비스에서 직접 [카탈로그 데이터 수집](https://experienceleague.adobe.com/ko/docs/commerce/live-search/install#configure-the-data)하고, PaaS 백엔드에서 다시 채웁니다.
+* **라이브 검색 및 제품 권장 사항 통합**: 라이브 검색 및 제품 권장 사항 SaaS 서비스를 구성하여 기존 Adobe Commerce 카탈로그 SaaS 서비스에서 직접 [카탈로그 데이터 수집](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data)하고, PaaS 백엔드에서 다시 채웁니다.
 
 **이점**: 기존 및 운영 카탈로그 SaaS 서비스와 PaaS 백엔드와의 통합 파이프라인을 활용하여 헤드리스 상점 및 고급 SaaS 머천다이징 기능에 대한 더 빠른 경로를 제공합니다. 하지만 기본 카탈로그 데이터 소스에 대한 PaaS 백엔드에 대한 종속성을 유지하며 새로운 구성 가능한 카탈로그 데이터 모델에 내재된 다중 소스 집계 기능을 제공하지 않습니다. 이 옵션은 더 완전한 구성 가능한 아키텍처를 향한 유효한 디딤돌입니다.
 
@@ -209,12 +188,12 @@ ht-degree: 0%
 이는 Adobe Commerce Optimizer을 활용하기 위한 전략적이고 미래 지향적인 접근 방식입니다. CCDM은 다중 소스 데이터 수집 및 동적 머천다이징을 위해 설계된 유연하고 확장 가능한 통합 카탈로그 서비스를 제공합니다.
 
 * **데이터 수집 및 통합**
-   * 먼저 기존 Adobe Commerce PaaS 인스턴스(및/또는 기타 PIM/ERP 시스템)의 제품 및 카탈로그 데이터를 새로운 구성 가능한 카탈로그 데이터 모델(CCDM)로 수집합니다.
-   * 기존 제품 속성을 CCDM의 유연한 스키마에 매핑합니다. 초기 수집을 위해 중요한 제품 데이터의 우선 순위를 지정합니다.
-   * 지속적인 동기화를 위한 강력한 데이터 파이프라인을 구축합니다. 여기에는 다음이 포함될 수 있습니다.
-      * **이벤트 기반**(App Builder 사용): PaaS 인스턴스의 Adobe I/O Events을 활용하여 공개적으로 사용 가능한 또는 사용자 지정 Adobe App Builder 애플리케이션을 트리거합니다. 이러한 애플리케이션은 해당 API를 통해 데이터 변경 사항(만들기, 업데이트 및 삭제)을 CCDM으로 변환 및 푸시합니다.
-      * **일괄 처리 수집**: 대규모 초기 로드 또는 주기적 대량 업데이트의 경우 Adobe Experience Platform(AEP) 수집 서비스에서 CCDM으로 처리하는 스테이징 영역으로의 보안 파일 전송(예: CSV 또는 JSON)을 사용합니다.
-      * **직접 API 통합**(App Builder orchestration 포함): 보다 복잡한 시나리오에서는 App Builder이 오케스트레이션 레이어로 작동하여 PaaS 백엔드에 직접 API를 호출하고, 데이터를 변환하고, CCDM으로 푸시할 수 있습니다.
+  * 먼저 기존 Adobe Commerce PaaS 인스턴스(및/또는 기타 PIM/ERP 시스템)의 제품 및 카탈로그 데이터를 새로운 구성 가능한 카탈로그 데이터 모델(CCDM)로 수집합니다.
+  * 기존 제품 속성을 CCDM의 유연한 스키마에 매핑합니다. 초기 수집을 위해 중요한 제품 데이터의 우선 순위를 지정합니다.
+  * 지속적인 동기화를 위한 강력한 데이터 파이프라인을 구축합니다. 여기에는 다음이 포함될 수 있습니다.
+    * **이벤트 기반**(App Builder 사용): PaaS 인스턴스의 Adobe I/O Events을 활용하여 공개적으로 사용 가능한 또는 사용자 지정 Adobe App Builder 애플리케이션을 트리거합니다. 이러한 애플리케이션은 해당 API를 통해 데이터 변경 사항(만들기, 업데이트 및 삭제)을 CCDM으로 변환 및 푸시합니다.
+    * **일괄 처리 수집**: 대규모 초기 로드 또는 주기적 대량 업데이트의 경우 Adobe Experience Platform(AEP) 수집 서비스에서 CCDM으로 처리하는 스테이징 영역으로의 보안 파일 전송(예: CSV 또는 JSON)을 사용합니다.
+    * **직접 API 통합**(App Builder orchestration 포함): 보다 복잡한 시나리오에서는 App Builder이 오케스트레이션 레이어로 작동하여 PaaS 백엔드에 직접 API를 호출하고, 데이터를 변환하고, CCDM으로 푸시할 수 있습니다.
 * **카탈로그 보기 및 정책 정의**: 카탈로그 보기(스토어 보기, 지역 및 B2B/B2C 세그먼트와 같은 고유한 카탈로그 프레젠테이션에 대한 논리 그룹)를 구성하고 CCDM 내에서 정책(제품 프레젠테이션, 필터링 및 머천다이징에 대한 규칙 집합)을 정의합니다. 이렇게 하면 카탈로그 보기별로 제품 구성 및 표시 논리를 동적으로 제어할 수 있습니다.
 * **라이브 검색 및 제품 추천 통합**: 카탈로그 데이터가 CCDM에 있으면 Adobe의 SaaS 기반 라이브 검색 및 제품 추천 서비스를 통합하십시오. Adobe AI AI 및 머신 러닝 모델을 활용하여 검색 관련성이 뛰어나고 개인화된 추천을 제공하며 CCDM에서 직접 데이터를 소비합니다.
 
@@ -228,14 +207,14 @@ ht-degree: 0%
 
 * **초기 설정**: Edge Delivery Services용 Adobe Commerce Storefront 보일러플레이트를 사용하여 프로젝트를 설정합니다. 이는 최신 웹 기술을 기반으로 구축된 기본 헤드리스 프론트엔드를 제공합니다.
 * **카탈로그 서비스 및 API Mesh에 연결**: Commerce Storefront는 주로 GraphQL API를 통해 데이터를 사용합니다.
-   * **옵션 1**: 기존 카탈로그 SaaS 서비스(API Mesh 사용)에서 제품 정보 및 머천다이징 규칙을 찾을 수 있습니다.
-   * **옵션 2**: CCDM에서 제품 정보 및 머천다이징 규칙을 가져오는 중입니다.
-   * 기존 백엔드(PaaS 인스턴스) 또는 사용자 정의 App Builder 서비스(예: 실시간 인벤토리, 사용자 정의 제품 속성 및 로열티 포인트 표시)의 오케스트레이션된 데이터에 대한 API Mesh에서.
+  * **옵션 1**: 기존 카탈로그 SaaS 서비스(API Mesh 사용)에서 제품 정보 및 머천다이징 규칙을 찾을 수 있습니다.
+  * **옵션 2**: CCDM에서 제품 정보 및 머천다이징 규칙을 가져오는 중입니다.
+  * 기존 백엔드(PaaS 인스턴스) 또는 사용자 정의 App Builder 서비스(예: 실시간 인벤토리, 사용자 정의 제품 속성 및 로열티 포인트 표시)의 오케스트레이션된 데이터에 대한 API Mesh에서.
 * **컨텐츠 마이그레이션(AEM 서비스)**: 기존 정적 컨텐츠(예: &quot;About Us&quot; 페이지, 블로그 게시물 및 마케팅 배너)를 AEM 서비스로 마이그레이션하여 Commerce Storefront를 지원합니다. AEM의 컨텐츠 작성 기능을 활용하고 자산이 Edge Delivery Services에 맞게 최적화되도록 합니다.
 * **핵심 UI 구성 요소 개발**: Edge Delivery Services 드롭인 구성 요소와 사용자 지정 React/Vue 구성 요소를 사용하여 PDP(제품 세부 사항 페이지), PLP(제품 목록 페이지) 및 일반 컨텐츠 페이지에 대한 중요한 사용자 인터페이스 구성 요소를 빌드합니다. 핵심 상거래 흐름의 우선 순위를 지정합니다.
 * **기존 장바구니/체크아웃과 통합**: 처음에는 Edge Delivery Services 상점 측에서 장바구니 관리 및 체크아웃을 위해 기존 Adobe Commerce PaaS(또는 다른 타사 플랫폼)에 대한 핸드오프를 조정합니다. 이 작업에는 일반적으로 다음이 포함됩니다.
-   * **리디렉션**: 기존 플랫폼의 기본 장바구니 및 체크아웃 URL로 사용자를 리디렉션하여 필요한 세션 및 장바구니 식별자를 전달합니다.
-   * **직접 API 상호 작용**(App Builder orchestration 포함): PaaS 백엔드의 장바구니 및 체크아웃 API와 직접 상호 작용하는 Edge Delivery Services 내 사용자 지정 장바구니 및 체크아웃 UI 구성 요소를 빌드합니다. 여기에는 여러 백엔드 서비스(예: PaaS 장바구니, 결제 게이트웨이 및 배송 계산기)에 대한 호출을 오케스트레이션하기 위한 App Builder as a Backend-for-Frontend(BFF)가 종종 포함됩니다.
+  * **리디렉션**: 기존 플랫폼의 기본 장바구니 및 체크아웃 URL로 사용자를 리디렉션하여 필요한 세션 및 장바구니 식별자를 전달합니다.
+  * **직접 API 상호 작용**(App Builder orchestration 포함): PaaS 백엔드의 장바구니 및 체크아웃 API와 직접 상호 작용하는 Edge Delivery Services 내 사용자 지정 장바구니 및 체크아웃 UI 구성 요소를 빌드합니다. 여기에는 여러 백엔드 서비스(예: PaaS 장바구니, 결제 게이트웨이 및 배송 계산기)에 대한 호출을 오케스트레이션하기 위한 App Builder as a Backend-for-Frontend(BFF)가 종종 포함됩니다.
 
 **이점**: 매우 빠르고 SEO에 최적화되었으며 매우 유연한 상점 경험을 제공합니다. 이 단계는 우수한 고객 경험에 직접적으로 기여하며 향후 프론트엔드 혁신을 위한 토대를 마련합니다.
 
@@ -249,13 +228,13 @@ ht-degree: 0%
 
 대량 데이터 마이그레이션에는 Adobe Commerce PaaS 인스턴스에서 전체 데이터 덤프를 가져와서 해당 전체 데이터 세트를 변환하고 한 번에 모두 Adobe Commerce as a Cloud Service으로 가져오는 작업이 포함됩니다. 이 방법은 일반적으로 데이터의 초기 모집단에 사용됩니다.
 
-* **도구 가용성**: 자사 Commerce 대량 데이터 마이그레이션에 고객이 사용할 전용 [대량 데이터 마이그레이션 도구](./bulk-data.md)는 2026년 1분기에 요청에 의해 사용할 수 있습니다. 고객이 미리 대량 데이터 마이그레이션에 대한 지원이 필요한 경우 Adobe에서 요청에 의해 고객을 대신하여 데이터를 쉽게 전송할 수 있습니다.
+* **도구 가용성**: 자사 Commerce 대량 데이터 마이그레이션에 고객이 사용할 전용 [대량 데이터 마이그레이션 도구](./bulk-data/migration-tool.md)를 조기 액세스할 수 있습니다. 예정된 GA 날짜는 2027년 1분기입니다. 고객이 미리 대량 데이터 마이그레이션에 대한 지원이 필요한 경우 Adobe에서 요청에 의해 고객을 대신하여 데이터를 쉽게 전송할 수 있습니다.
 
 * **프로세스**:
-   * **전체 데이터 내보내기**: Adobe Commerce PaaS 인스턴스에서 전체 데이터 집합(예: 제품, 카테고리, 고객 계정, 이전 주문 데이터, 정적 블록 및 페이지 컨텐츠)을 추출합니다.
-   * **데이터 변환**: 필요한 변환을 적용하여 추출된 데이터를 구성 가능한 카탈로그 데이터 모델(CCDM) 및 기타 모든 관련 Adobe 서비스 또는 데이터베이스를 포함하여 새 Adobe Commerce as a Cloud Service 구성 요소의 스키마 요구 사항에 맞춥니다. 여기에는 사용자 지정 스크립트 또는 특수 데이터 매핑 도구가 포함될 수 있습니다.
-   * **초기 가져오기**: 변환된 전체 데이터 세트를 Adobe Commerce as a Cloud Service의 각 구성 요소로 가져옵니다. 제품 및 카테고리 데이터의 경우 선택한 카탈로그 서비스(CCDM 또는 기존 카탈로그 SaaS)가 채워집니다. 고객 및 주문 데이터의 경우 이렇게 하면 트랜잭션 백엔드 또는 관련 서비스가 채워집니다.
-   * **유효성 검사**: 가져온 데이터의 유효성을 엄격하게 검사하여 모든 새 시스템에서 완전성, 정확성 및 일관성을 보장합니다.
+  * **전체 데이터 내보내기**: Adobe Commerce PaaS 인스턴스에서 전체 데이터 집합(예: 제품, 카테고리, 고객 계정, 이전 주문 데이터, 정적 블록 및 페이지 컨텐츠)을 추출합니다.
+  * **데이터 변환**: 필요한 변환을 적용하여 추출된 데이터를 구성 가능한 카탈로그 데이터 모델(CCDM) 및 기타 모든 관련 Adobe 서비스 또는 데이터베이스를 포함하여 새 Adobe Commerce as a Cloud Service 구성 요소의 스키마 요구 사항에 맞춥니다. 여기에는 사용자 지정 스크립트 또는 특수 데이터 매핑 도구가 포함될 수 있습니다.
+  * **초기 가져오기**: 변환된 전체 데이터 세트를 Adobe Commerce as a Cloud Service의 각 구성 요소로 가져옵니다. 제품 및 카테고리 데이터의 경우 선택한 카탈로그 서비스(CCDM 또는 기존 카탈로그 SaaS)가 채워집니다. 고객 및 주문 데이터의 경우 이렇게 하면 트랜잭션 백엔드 또는 관련 서비스가 채워집니다.
+  * **유효성 검사**: 가져온 데이터의 유효성을 엄격하게 검사하여 모든 새 시스템에서 완전성, 정확성 및 일관성을 보장합니다.
 
 **반복적인 데이터 마이그레이션**
 
@@ -264,11 +243,11 @@ ht-degree: 0%
 * **도구 가용성**: 반복적인 데이터 마이그레이션을 위해 특별히 고안된 도구는 2026년에 사용할 수 있습니다.
 
 * **프로세스**:
-   * **델타 식별**: 마지막 동기화 이후 PaaS 환경의 중요한 데이터 집합에서 변경 사항(만들기, 업데이트 및 삭제)을 식별하는 메커니즘을 설정합니다. 여기에는 변경 데이터 캡처(CDC), 타임스탬프 비교 또는 이벤트 기반 트리거가 포함될 수 있습니다.
-   * **연속 동기화**: PaaS 환경에서 새 Cloud Service 구성 요소(예: CCDM 및 트랜잭션 백 엔드)로의 연속 증분 데이터 동기화를 위한 강력한 메커니즘을 구현합니다. 이는 전환 중 데이터의 최신 상태를 유지하고 다운타임을 최소화하는 데 중요합니다.
-   * **이벤트 활용**: 가능한 경우 Adobe I/O Events을 활용하여 PaaS 인스턴스에서 새 서비스로 실시간 또는 거의 실시간으로 업데이트하기 위해 App Builder 작업을 트리거합니다. 예를 들어 PaaS의 제품 업데이트는 CCDM에서 해당 항목을 업데이트하는 이벤트를 트리거할 수 있습니다.
-   * **API 기반 업데이트**: 이벤트 기반이 아닌 데이터의 경우 예약된 API 호출(App Builder 또는 다른 통합 플랫폼을 통해)을 사용하여 PaaS에서 변경 사항을 가져와 새 시스템으로 푸시합니다.
-   * **오류 처리 및 모니터링**: 모든 반복적인 데이터 파이프라인에 대해 강력한 오류 처리, 로깅 및 모니터링을 구현하여 프로세스 전체에서 데이터 무결성을 유지합니다.
+  * **델타 식별**: 마지막 동기화 이후 PaaS 환경의 중요한 데이터 집합에서 변경 사항(만들기, 업데이트 및 삭제)을 식별하는 메커니즘을 설정합니다. 여기에는 변경 데이터 캡처(CDC), 타임스탬프 비교 또는 이벤트 기반 트리거가 포함될 수 있습니다.
+  * **연속 동기화**: PaaS 환경에서 새 Cloud Service 구성 요소(예: CCDM 및 트랜잭션 백 엔드)로의 연속 증분 데이터 동기화를 위한 강력한 메커니즘을 구현합니다. 이는 전환 중 데이터의 최신 상태를 유지하고 다운타임을 최소화하는 데 중요합니다.
+  * **이벤트 활용**: 가능한 경우 Adobe I/O Events을 활용하여 PaaS 인스턴스에서 새 서비스로 실시간 또는 거의 실시간으로 업데이트하기 위해 App Builder 작업을 트리거합니다. 예를 들어 PaaS의 제품 업데이트는 CCDM에서 해당 항목을 업데이트하는 이벤트를 트리거할 수 있습니다.
+  * **API 기반 업데이트**: 이벤트 기반이 아닌 데이터의 경우 예약된 API 호출(App Builder 또는 다른 통합 플랫폼을 통해)을 사용하여 PaaS에서 변경 사항을 가져와 새 시스템으로 푸시합니다.
+  * **오류 처리 및 모니터링**: 모든 반복적인 데이터 파이프라인에 대해 강력한 오류 처리, 로깅 및 모니터링을 구현하여 프로세스 전체에서 데이터 무결성을 유지합니다.
 
 ### 마이그레이션 후 및 지속적인 운영
 
