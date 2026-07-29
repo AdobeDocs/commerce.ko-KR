@@ -5,29 +5,13 @@ autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/
 TQID: https://experienceleague.adobe.com/AWc-yAn-TyiBXQONoF2ZG9SFjj2u92CKbKvAY8mEVEE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7c592b78454fdfafb377b101e366c8213ce43a0a
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 835
 ht-degree: 0%
 
 ---
@@ -36,9 +20,9 @@ ht-degree: 0%
 
 Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장합니다. 여기에는 Adobe Commerce 제품 구성의 추가 제품 속성이 포함됩니다.
 
-* [세금 분류](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
-* [속성 집합](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
-* [인벤토리](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
+* [세금 분류](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
+* [속성 집합](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
+* [인벤토리](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
 
 모듈이 설치되면 자동으로 작동합니다. 제품 동기화 중에 추가 속성을 캡처하고 내보냅니다. 추가 구성은 필요하지 않습니다.
 
@@ -53,11 +37,11 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 
 모듈은 기존 제품 데이터 피드에 다음 세 가지 속성을 추가합니다.
 
-* `ac_tax_class`
-* `ac_attribute_set`
-* `ac_inventory`
+* `[ac_tax_class](#tax-class-information-ac_tax_class)`
+* `[ac_attribute_set](attribute-set-information-ac_attribute_set)`
+* `[ac_inventory](advanced-inventory-data-ac_inventory)`
 
-### &#x200B;1. 세금 클래스 정보(`ac_tax_class`)
+### 세금 클래스 정보(`ac_tax_class`) {#tax-class-information-ac_tax_class}
 
 **목적**: 각 제품에 대한 세금 분류 정보를 제공합니다.
 
@@ -84,7 +68,7 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * 외부 세금 계산 서비스와 통합
 * 회계 시스템에 대한 제품 분류
 
-### &#x200B;2. 특성 집합 정보(`ac_attribute_set`)
+### 특성 집합 정보(`ac_attribute_set`) {#attribute-set-information-ac_attribute_set}
 
 **목적**: 각 제품에 할당된 특성 집합을 식별합니다
 
@@ -113,7 +97,7 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * 카탈로그 관리 및 구성
 * 속성 세트 컨텍스트를 필요로 하는 서드파티 시스템 통합
 
-### &#x200B;3. 고급 인벤토리 데이터(`ac_inventory`)
+### 고급 인벤토리 데이터(`ac_inventory`) {#advanced-inventory-data-ac_inventory}
 
 **목적**: 각 제품에 대한 재고 관리 설정을 제공합니다.
 
@@ -125,9 +109,9 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * `cartMinQty`(부동): 장바구니에 허용된 최소 수량입니다.
 * `cartMaxQty`(부동): 장바구니에 허용되는 최대 수량
 * `backorders`(문자열): 미납 주문 정책입니다. 값은 다음 중 하나입니다.
-   * `"no"`: 미납 주문 허용 안 함
-   * `"allow"`: 0 미만의 수량 허용
-   * `"allow_notify"`: 0 미만의 수량을 허용하고 고객에게 알립니다.
+  * `"no"`: 미납 주문 허용 안 함
+  * `"allow"`: 0 미만의 수량 허용
+  * `"allow_notify"`: 0 미만의 수량을 허용하고 고객에게 알립니다.
 * `enableQtyIncrements`(부울): 수량 증분이 사용되는지 여부
 * `qtyIncrements`(부동 소수점): 필수 수량 증분 값
 
@@ -161,26 +145,25 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 
 * **제품 피드**(`products`): 세 가지 추가 특성을 사용하여 개선되었습니다
 
-   * 각 제품 레코드에 `ac_tax_class`, `ac_attribute_set` 및 `ac_inventory` 특성을 추가합니다.
-   * 원본 제품 데이터를 그대로 유지
-   * 기존 피드 소비자와의 이전 버전과의 호환성 유지
+  * 각 제품 레코드에 `ac_tax_class`, `ac_attribute_set` 및 `ac_inventory` 특성을 추가합니다.
+  * 원본 제품 데이터를 그대로 유지
+  * 기존 피드 소비자와의 이전 버전과의 호환성 유지
 
 * **제품 특성 피드**(`productAttributes`): 새 특성에 대한 특성 메타데이터로 개선됨
 
-   * `productAttributes` 피드의 세 가지 새 특성에 대한 메타데이터를 자동으로 등록합니다.
-   * 속성 구성 세부 사항(데이터 유형, 가시성 설정 등)을 제공합니다.
-   * 외부 시스템이 새 특성 스키마를 이해할 수 있도록 지원
+  * `productAttributes` 피드의 세 가지 새 특성에 대한 메타데이터를 자동으로 등록합니다.
+  * 속성 구성 세부 사항(데이터 유형, 가시성 설정 등)을 제공합니다.
+  * 외부 시스템이 새 특성 스키마를 이해할 수 있도록 지원
 
 ## 확장 설치
 
 **요구 사항**
 
-* PHP 8.1, 8.2, 8.3 또는 8.4
-* Adobe Commerce 2.4.4+
+* [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)을 참조하세요.
 * [Adobe Commerce 데이터 내보내기 확장](manage-extension.md#update-a-module-to-a-specific-version), 버전 103.4.11 이상
 * [repo.magento.com에 액세스](https://repo.magento.com)
 
-  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
+  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
 * Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
 
 ### 설치 단계
@@ -193,8 +176,8 @@ composer require adobe-commerce/module-extra-product-attributes
 
 자세한 설치 단계는 다음 안내서를 참조하십시오.
 
-* [클라우드 인프라의 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-* [확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 제품 데이터 동기화
 
@@ -215,16 +198,16 @@ bin/magento saas:resync --feed=productAttributes
 **제품에 추가 특성이 없습니다.**
 
 * 모듈이 제대로 설치되고 활성화되어 있는지 확인합니다.
-* 재동기화 명령을 실행하여 제품 데이터를 새로 고칩니다.
+* 제품 데이터를 새로 고치려면 재동기화 명령을 실행합니다
 * 제품에 유효한 세금 분류 및 속성 세트 지정이 있는지 확인합니다.
 
 **인벤토리 데이터가 올바르지 않은 것으로 나타남:**
 
 * 관리자에서 인벤토리 설정이 올바르게 구성되었는지 확인합니다.
 * 웹 사이트별 인벤토리 무시 확인
-* [Inventory management 모듈](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/guide-overview)이 올바르게 작동하는지 확인
+* [Inventory management 모듈](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)이 올바르게 작동하는지 확인
 
-자세한 내용은 *Inventory management 판매자 설명서*&#x200B;에서 [Adobe Commerce 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/guide-overview)를 참조하십시오.
+자세한 내용은 *Inventory management 판매자 설명서*&#x200B;에서 [Adobe Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)를 참조하십시오.
 
 **성능 문제:**
 

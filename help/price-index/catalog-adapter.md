@@ -5,16 +5,12 @@ seo-title: Catalog Adapter Extension
 seo-description: Using Catalog Adapter to render prices from Commerce Services
 exl-id: e42101fa-9c30-482c-a649-44dc35376abb
 TQID: https://experienceleague.adobe.com/WnL4dJbZV0acHT5kpEAOyTVjhzW23RjHbQFVdDl4HDk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 75da477c3725f754495f5b13f99d65c66a2bf5ae
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 775
 ht-degree: 0%
 
 ---
@@ -37,20 +33,20 @@ ht-degree: 0%
 
 ## 요구 사항
 
-- Adobe Commerce 2.4.4+
+- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements){target="_blank"}을 참조하세요.
 - Adobe Commerce 환경에는 다음 Commerce 서비스 중 하나가 활성화 및 구성되어 있어야 합니다.
 
-   - [라이브 검색](../live-search/install.md)
-   - [제품 추천](../product-recommendations/install-configure.md)
-   - [카탈로그 서비스](../catalog-service/installation.md)
+  - [라이브 검색](../live-search/install.md)
+  - [제품 추천](../product-recommendations/install-configure.md)
+  - [카탈로그 서비스](../catalog-service/installation.md)
 
 ## 설치
 
 카탈로그 어댑터 확장은 다음 모듈을 설치하는 작성기 메타패키지입니다.
 
-- **가격 색인화 사용 안 함**-이 모듈은 SaaS 가격 색인화를 통해 가격이 전달되도록 Commerce 애플리케이션의 가격 색인을 사용하지 않도록 설정합니다. SaaS 가격 색인화 확장 프로그램이 설치된 경우 Commerce 애플리케이션의 제품 가격 색인화기를 켤 수 없습니다.
-- **가격 공급자**-이 모듈은 Adobe Commerce 서비스의 제품 가격을 제공합니다. 검색 쿼리를 구성하고 프론트엔드에 있는 제품의 가격을 가져옵니다.
-- **카탈로그 서비스 검색 어댑터**-이 모듈은 제품 검색 요청에 대한 응답으로 Adobe Commerce 응용 프로그램에서 Adobe Commerce 서비스로 가격을 전송합니다.
+- **가격 색인화 사용 안 함** - 이 모듈은 SaaS 가격 색인화를 통해 가격이 전달되도록 Commerce 애플리케이션의 가격 색인을 사용하지 않도록 설정합니다. SaaS 가격 색인화 확장 프로그램이 설치된 경우 Commerce 애플리케이션의 제품 가격 색인화기를 켤 수 없습니다.
+- **가격 공급자** - 이 모듈은 Adobe Commerce 서비스의 제품 가격을 제공합니다. 검색 쿼리를 생성하고 프론트엔드의 제품 가격을 가져옵니다.
+- **카탈로그 서비스 검색 어댑터** - 이 모듈은 제품 검색 요청에 대한 응답으로 Adobe Commerce 응용 프로그램에서 Adobe Commerce 서비스로 가격을 전송합니다.
 
 ## 설치 단계
 
@@ -64,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 확인하십시오.
 
@@ -94,7 +90,7 @@ ht-degree: 0%
    git push origin <branch-name>
    ```
 
-   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
+   업데이트를 클라우드 환경으로 푸시하면 변경 사항을 적용하기 위해 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)가 시작됩니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
 
 >[!TAB 온-프레미스]
 
@@ -144,7 +140,7 @@ bin/magento index:reindex catalog_product_price
 
 ## Headless Storefront 시나리오에 대한 제품 가격 인덱서 비활성화
 
-Headless Commerce 인스턴스가 있는 경우 Adobe Commerce 인스턴스의 로드를 줄이려면 Adobe Commerce 제품 가격 인덱서를 비활성화해야 할 수 있습니다. `magento/module-price-indexer-disabler` 모듈을 설치하여 이 작업을 완료할 수 있습니다.
+Headless Commerce 인스턴스가 있는 경우 Adobe Commerce 제품 가격 인덱서를 비활성화하여 Adobe Commerce 인스턴스의 로드를 줄이십시오. `magento/module-price-indexer-disabler` 모듈을 설치하여 이 작업을 완료할 수 있습니다.
 
 ```bash
 composer require magento/module-price-indexer-disabler
@@ -171,7 +167,7 @@ composer require magento/module-price-indexer-disabler
 
 ### 헤드리스 Commerce 인스턴스
 
-- 필수 서비스(라이브 검색, 제품 추천, 카탈로그 서비스)가 설치된 Headless Commerce 인스턴스가 있는 판매자
+- 필요한 서비스(라이브 검색, 제품 추천, 카탈로그 서비스)가 설치된 Headless Commerce 인스턴스를 사용하는 판매자
 - 기본 Adobe Commerce 제품 가격 인덱서에 의존하지 않음
 
 1. [!DNL Catalog Adapter] 패키지에서 `magento/module-price-indexer-disabler` 모듈을 설치합니다.
