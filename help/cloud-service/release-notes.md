@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b05e2183cc0e4b8352a150df9dabfc9dfdb31750
+source-git-commit: 155703001fc049470266874e0f519ab060248b31
 workflow-type: tm+mt
-source-wordcount: 5265
+source-wordcount: 5259
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 ## 2026년 7월 - 릴리스 #1 {#latest}
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-다음 항목은 현재 샌드박스 환경에서만 사용할 수 있으며 2026년 7월 28일에 프로덕션 환경으로 이전할 예정입니다.
+다음 항목은 2026년 7월 28일부터 프로덕션 환경에서 사용할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
 
-새로운 REST API 끝점은 통합에서 프로그래밍 방식으로 순서를 편집할 수 있도록 [!DNL Commerce Admin] [!UICONTROL **순서 편집**] 기능을 복제합니다.
+새 [REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management)에서 [!DNL Commerce Admin] [!UICONTROL **순서 편집**] 기능을 복제하여 통합에서 프로그래밍 방식으로 순서를 편집할 수 있습니다.
 
 | 방법 | 엔드포인트 | 설명 |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 �
 >
 >이 기능은 실험적인 기능이며 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만들어 활성화해야 합니다.
 
-새 `orderChain` REST API 끝점을 사용하면 통합에서 해당 ID를 사용하여 주문을 수정하고 편집된 주문의 전체 체인을 자동으로 해결할 수 있습니다.
+새 [`orderChain` REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management)을 사용하면 통합에서 해당 ID를 사용하여 주문을 수정하고 편집된 주문의 전체 체인을 자동으로 해결할 수 있습니다.
 
 | 방법 | 엔드포인트 | 설명 |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 �
 
 ### 영역 또는 템플릿별로 트랜잭션 이메일 제외
 
-새로운 [!UICONTROL **이메일 비표시**] 구성([!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL **Adobe 서비스**] > [!UICONTROL **이메일 비표시**])을 사용하면 관리자가 [!DNL Commerce]에서 트랜잭션 이메일을 보내는 것을 선택적으로 중지할 수 있습니다. 기능 영역(예: 고객 계정, Order Management, 반환, 체크아웃, 마케팅 또는 B2B) 또는 정확한 템플릿 식별자 목록으로 이메일을 표시하지 않을 수 있습니다.<!-- ACCS-1025 -->
+새로운 [이메일 비표시](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression) 구성([!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL **Adobe 서비스**] > [!UICONTROL **이메일 비표시**])을 사용하면 관리자가 [!DNL Commerce]에서 트랜잭션 이메일을 보내는 것을 선택적으로 중지할 수 있습니다. 기능 영역(예: 고객 계정, Order Management, 반환, 체크아웃, 마케팅 또는 B2B) 또는 정확한 템플릿 식별자 목록으로 이메일을 표시하지 않을 수 있습니다.<!-- ACCS-1025 -->
 
 ### 관리자에서 주문 수정 내역 보기
 
