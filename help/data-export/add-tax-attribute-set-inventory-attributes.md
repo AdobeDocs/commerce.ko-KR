@@ -36,9 +36,9 @@ ht-degree: 0%
 
 Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장합니다. 여기에는 Adobe Commerce 제품 구성의 추가 제품 속성이 포함됩니다.
 
-* [세금 분류](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
-* [속성 집합](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
-* [인벤토리](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
+* [세금 분류](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
+* [속성 집합](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
+* [인벤토리](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
 
 모듈이 설치되면 자동으로 작동합니다. 제품 동기화 중에 추가 속성을 캡처하고 내보냅니다. 추가 구성은 필요하지 않습니다.
 
@@ -175,11 +175,11 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 
 **요구 사항**
 
-* [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)을 참조하세요.
+* [Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하세요.
 * [Adobe Commerce 데이터 내보내기 확장](manage-extension.md#update-a-module-to-a-specific-version), 버전 103.4.11 이상
 * [repo.magento.com에 액세스](https://repo.magento.com)
 
-  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
+  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
 * Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
 
 ### 설치 단계
@@ -192,8 +192,8 @@ composer require adobe-commerce/module-extra-product-attributes
 
 자세한 설치 단계는 다음 안내서를 참조하십시오.
 
-* [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-* [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 제품 데이터 동기화
 
@@ -221,9 +221,9 @@ bin/magento saas:resync --feed=productAttributes
 
 * 관리자에서 인벤토리 설정이 올바르게 구성되었는지 확인합니다.
 * 웹 사이트별 인벤토리 무시 확인
-* [Inventory management 모듈](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)이 올바르게 작동하는지 확인
+* [Inventory management 모듈](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/guide-overview)이 올바르게 작동하는지 확인
 
-자세한 내용은 *Inventory management 판매자 설명서*&#x200B;에서 [Adobe Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)를 참조하십시오.
+자세한 내용은 *Inventory management 판매자 설명서*&#x200B;에서 [Adobe Commerce 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/guide-overview)를 참조하십시오.
 
 **성능 문제:**
 
