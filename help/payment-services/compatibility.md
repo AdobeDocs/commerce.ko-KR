@@ -6,17 +6,13 @@ level: Intermediate
 feature: Payments, Checkout, Paas, Saas
 exl-id: 4bef8429-5053-424d-806a-9e8b96295b1b
 TQID: https://experienceleague.adobe.com/UUD0IiEiwh0sZKMkclOJtoC2bKYcmDN3WAWD16mfad4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 88c74f789dc398afa8f40ee2258450e83f134d87
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 506
 ht-degree: 0%
 
 ---
@@ -35,7 +31,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 자세한 내용은 [Adobe Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 튜토리얼 비디오를 참조하십시오.
+   > 자세한 내용은 [Adobe Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 튜토리얼 비디오를 참조하십시오.
 
 1. 인스턴스를 이미 연결한 경우 다음 단계를 위해 [온보딩](onboard.md) 페이지로 이동하십시오.
 
@@ -49,11 +45,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Payment Services]은(는) 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
+> [!DNL Payment Services]은(는) 온보딩 중 [사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다](../payment-services/production.md#complete-merchant-onboarding).
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 
->[!VIDEO](https://video.tv.adobe.com/v/3447925?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447811)
 
 [!DNL Payment Services] 확장 설정에 대한 자세한 내용은 [연결](connect.md)을 참조하세요.
 
@@ -69,7 +65,7 @@ ht-degree: 0%
 
 ![확인](assets/icon-check.png) 표준 가격
 
-![확인](assets/icon-check.png) **XX 국가에서 사용 가능**
+![확인](assets/icon-check.png) **200개 이상의 국가에서 사용 가능**
 
 [![자세히 알아보기](assets/learn-more-button.svg)](onboard.md)
 
@@ -99,19 +95,19 @@ ht-degree: 0%
 
 ![확인](assets/icon-check.png)(L2/L3 가격 기능 - 미국만 해당)
 
-![확인](assets/icon-check.png) **미국(미국), 캐나다(CA), 호주(호주)에서만 사용 가능. 프랑스(FR), 영국(UK)**
+![확인](assets/icon-check.png) 37개국에서 사용 가능합니다. 호주, 오스트리아, 벨기에, 불가리아, 캐나다, 중국, 사이프러스, 체코 공화국, 덴마크, 에스토니아, 핀란드, 프랑스, 독일, 그리스, 홍콩, 헝가리, 아일랜드, 이탈리아, 일본, 라트비아, 리히텐슈타인, 리투아니아, 룩셈부르크, 몰타, 멕시코, 네덜란드, 노르웨이, 폴란드, 포르투갈, 루마니아, 싱가포르, 슬로바키아, 슬로베니아, 스페인, 스웨덴, 영국, 미국. **미국(미국), 캐나다(CA), 호주(AU), 프랑스(FR), 영국(GB), 이탈리아(IT), 네덜란드(NL), 독일(DE)에서 협상 가능 요금**
 
 [![자세히 알아보기](assets/learn-more-button.svg)](onboard.md)
 
 >[!ENDTABS]
 
-릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ko) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하세요.
+릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하세요.
 
 전체 지침을 받고 온보딩 프로세스를 시작하려면 [시작하기 [!DNL Payment Services]](onboard.md)를 참조하세요.
 
 ### 허용된 신용 카드 및 통화
 
-[!DNL Payment Services]은(는) 사용 가능한 국가의 통화를 수락합니다. 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=ko)을 참조하십시오.
+[!DNL Payment Services]은(는) 사용 가능한 국가의 통화를 수락합니다. 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html)을 참조하십시오.
 
 PayPal 제품 및 서비스에서 사용할 수 있는 통화 및 결제 방법에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 
