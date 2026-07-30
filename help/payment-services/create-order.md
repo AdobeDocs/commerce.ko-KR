@@ -5,14 +5,14 @@ exl-id: 1542a33f-9c01-4c36-bbce-bfa3107fbeb8
 feature: Payments, Checkout, Paas, Saas
 source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # [!DNL Payment Services]&#x200B;(으)로 주문 만들기
 
-[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source]을(를) 사용하면 도움이 필요한 고객의 경우 상인이 책임자로부터 직접 주문을 이행할 수 있습니다. **[!UICONTROL Create New Order]** 양식에는 신용 카드 정보가 있는 호스팅 필드를 포함하여 일반 체크아웃 프로세스를 완료하는 데 필요한 모든 정보가 포함되어 있습니다. 필요한 단계에 대한 자세한 내용은 [주문 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"}를 참조하십시오.
+[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]을(를) 사용하면 도움이 필요한 고객의 경우 상인이 책임자로부터 직접 주문을 이행할 수 있습니다. **[!UICONTROL Create New Order]** 양식에는 신용 카드 정보가 있는 호스팅 필드를 포함하여 일반 체크아웃 프로세스를 완료하는 데 필요한 모든 정보가 포함되어 있습니다. 필요한 단계에 대한 자세한 내용은 [주문 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"}를 참조하십시오.
 
 ## 호스팅된 신용 카드 필드
 

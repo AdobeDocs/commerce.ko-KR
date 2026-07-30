@@ -8,7 +8,7 @@ feature: Payments, Checkout, Configuration, Integration, Paas
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### [!DNL Magento Open Source]에서 크론 구성
 
-`BY SCHEDULE`에서 [!DNL Magento Open Source] 인덱스 모드를 사용하려면 cron을 구성해야 합니다. [cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하세요.
+[!DNL Magento Open Source]에서 `BY SCHEDULE` 인덱스 모드를 사용하려면 cron을 구성해야 합니다. [cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하세요.
 
 ### 인덱서 설정
 
@@ -53,7 +53,7 @@ bin/magento indexer:set-mode schedule sales_order_data_exporter sales_order_stat
 
 ### 수동으로 데이터 다시 인덱싱
 
-데이터가 자동으로 발생할 때까지 기다리지 않고 수동으로 데이터를 다시 인덱싱할 수 있습니다. 자세한 내용은 [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){target="_blank"}의 [인덱스 다시 지정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers){target="_blank"}을 참조하십시오.
+데이터가 자동으로 발생할 때까지 기다리지 않고 수동으로 데이터를 다시 인덱싱할 수 있습니다. 자세한 내용은 [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers){target="_blank"}의 [인덱스 다시 지정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){target="_blank"}을 참조하십시오.
 
 `BY SCHEDULE` 모드가 설정되면 시스템이 변경된 엔터티를 추적하고 cron 작업이 설정된 일정에 따라 해당 엔터티의 인덱스를 업데이트합니다. cron 작업을 사용하여 인덱싱을 수동으로 트리거하는 방법에 대해 알아보려면 [명령줄에서 cron 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#config-cli-cron-group-run)&#x200B;([cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs))을 참조하십시오.
 
