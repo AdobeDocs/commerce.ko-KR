@@ -11,9 +11,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: f35d602bd25d2b5192a289c444c1bc0a93a91945
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 447
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ ht-degree: 0%
 - [구현 워크플로](implementation-workflow.md)
 - [설치 및 구성](install-configure.md)
 - [설정](settings.md)
-- [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)
+- [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify)
 - [스테이징 환경](staging-environment.md)
 
 ## 요구 사항
 
-- Adobe Commerce 2.4.4+
-- PHP 8.1, 8.2, 8.3 또는 8.4
-- 작성기 2
+[Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements){target="_blank"}을 참조하세요.
 
 ### 지원되는 플랫폼
 
 - Adobe Commerce 온-프레미스(EE) : 2.4.4+
 - ECE(Adobe Commerce on Cloud) : 2.4.4+
+
+자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
 
 ## 엔드포인트
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ### SaaS 가격 인덱싱
 
-제품 추천 고객은 [SaaS 가격 인덱싱](../price-index/price-indexing.md)를 사용할 수 있으며, 이를 통해 가격 변경 업데이트 및 동기화 시간이 빨라집니다.
+제품 추천 고객은 [SaaS 가격 인덱싱](../price-index/price-indexing.md)를 사용하여 가격 변경 업데이트 및 동기화 시간을 단축할 수 있습니다.
 
 ### B2B 지원 {#b2bsupport}
 
-B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 준수하여 이 기능을 [지원](release-notes.md)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 제품은 각 구매자의 고객 그룹에 따라 올바른 고객 그룹별 가격을 반영합니다.
+B2B 스토어프론트에는 각 쇼핑객 또는 고객 그룹에 대한 제품 가시성 및 가격을 지정하는 복잡한 논리가 필요한 경우가 많습니다. [!DNL Product Recommendations] 이제 [범주 권한](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/category-permissions), [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ko) 및 [고객 그룹별 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 준수하여 이 기능을 [지원](release-notes.md)합니다. 예를 들어 소매 고객 세그먼트에서 특정 카테고리를 숨긴 경우 해당 세그먼트의 쇼핑객에게는 해당 카테고리의 제품에 대한 권장 사항이 표시되지 않습니다. 또한 특정 고객 그룹 및 회사에 대한 공유 카탈로그를 정의하면 해당 쇼핑객은 액세스할 수 있는 제품에 대한 추천만 볼 수 있습니다. 모든 추천 상품은 각 쇼핑객의 고객군을 기준으로 올바른 고객군별 가격을 반영한다.
 
 >[!NOTE]
 >

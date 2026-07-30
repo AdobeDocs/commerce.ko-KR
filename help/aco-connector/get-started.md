@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: f35d602bd25d2b5192a289c444c1bc0a93a91945
 workflow-type: tm+mt
-source-wordcount: 1079
+source-wordcount: 1059
 ht-degree: 0%
 
 ---
@@ -41,10 +41,7 @@ ht-degree: 0%
 
 ## 통합 사용 요구 사항 {#requirements-to-use-the-integration}
 
-* [!DNL Adobe Commerce] 2.4.7+
-
-   * PHP 8.2, 8.3 또는 8.4
-   * Composer 2.x
+* [Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html) 2.4.7+. 자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
 
 * 프로비저닝된 샌드박스 인스턴스가 있는 [!DNL Commerce Optimizer] 라이선스.
 
@@ -71,17 +68,17 @@ ht-degree: 0%
 * [!DNL Adobe Commerce Catalog Service] (`magento/catalog-service`, `magento/catalog-service-installer`)
 * **[!UICONTROL Data Management Dashboard]** (`magento-catalog-sync-admin`)
 
-이러한 확장과 연결된 데이터는 여전히 Commerce 데이터베이스에서 사용할 수 있습니다. 그러나 커넥터를 사용하도록 설정한 경우 [!DNL Commerce Optimizer]&#x200B;(으)로 내보내지 않습니다. 커넥터를 사용하도록 설정한 후 이러한 확장에서 제공하는 검색 및 머천다이징 기능을 구현하려면 [[!DNL Commerce Optimizer] 관리 UI](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview#quick-tour)에서 구성하십시오.
+이러한 확장과 연결된 데이터는 여전히 Commerce 데이터베이스에서 사용할 수 있습니다. 그러나 커넥터를 사용하도록 설정한 경우 [!DNL Commerce Optimizer]&#x200B;(으)로 내보내지 않습니다. 커넥터를 사용하도록 설정한 후 이러한 확장에서 제공하는 Adobe Commerce 검색 및 머천다이징 기능을 구현하려면 [[!DNL Commerce Optimizer] 관리 UI](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview#quick-tour)에서 구성하십시오.
 
 >[!IMPORTANT]
 >
->커넥터를 사용하기 전에 이러한 확장을 제거하지 않으면 커넥터와 기존 확장 모두에서 동일한 데이터를 내보냈기 때문에 구성 화면이 손상되고 [!DNL Commerce Optimizer]에 데이터가 중복되며, 확장 및 커넥터가 연결된 서비스를 인증하는 방식의 충돌로 인해 로그에 401 또는 403 오류가 표시될 수 있습니다.
+>커넥터를 사용하기 전에 이러한 확장을 제거하지 않으면 구성 화면이 손상되고 [!DNL Commerce Optimizer]에 데이터가 중복되며 401 또는 403 인증 오류가 발생합니다.
 
 >[!ENDSHADEBOX]
 
 ## 구성 단계 {#configuration-steps}
 
-[!DNL Adobe Commerce Optimizer Connector]을(를) 사용하도록 설정하고 [!DNL Adobe Commerce]의 데이터를 [!DNL Commerce Optimizer] 인스턴스로 동기화하려면 다음 단계를 따르십시오.
+[!DNL Adobe Commerce Optimizer Connector]을(를) 사용하도록 설정하고 [!DNL Adobe Commerce]에서 [!DNL Commerce Optimizer] 인스턴스로 데이터 동기화를 시작하려면 다음 단계를 수행합니다.
 
 1. **[작성기를 사용하여  [!DNL Adobe Commerce Optimizer Connector] 패키지](#install-the-adobe-commerce-optimizer-connector-package)**&#x200B;를 설치하여 [!DNL Adobe Commerce] 인스턴스를 [!DNL Commerce Optimizer]에 연결합니다.
 
@@ -117,7 +114,7 @@ ht-degree: 0%
 
 ## Commerce 범위 내보내기 구성 사용자 지정 {#customize-the-commerce-scopes-export-configuration}
 
-기본적으로 모든 Commerce 범위(웹 사이트, 고객 그룹 및 스토어 보기)에 대해 카탈로그 데이터 동기화가 활성화됩니다. 비즈니스 요구 사항에 따라 특정 범위의 데이터만 동기화하도록 내보내기 설정을 사용자 지정할 수 있습니다. 예를 들어 같은 언어를 공유하는 여러 스토어 보기가 있는 경우 스토어 보기 중 하나에 대한 데이터만 내보내도록 선택하고 [!DNL Commerce Optimizer]의 여러 카탈로그 보기에 대해 [카탈로그 소스](../optimizer/setup/catalog-sources.md)(으)로 사용할 수 있습니다.
+기본적으로 모든 Commerce 범위(웹 사이트, 고객 그룹 및 스토어 보기)에 대해 카탈로그 데이터 동기화가 활성화됩니다. 비즈니스 요구 사항에 따라 특정 범위의 데이터만 동기화하도록 내보내기 설정을 사용자 지정할 수 있습니다. 예를 들어, 여러 스토어 보기가 동일한 언어를 공유하는 경우 하나의 스토어 보기에 대한 데이터를 내보내고 [!DNL Commerce Optimizer]의 여러 카탈로그 보기에 대한 [카탈로그 원본](../optimizer/setup/catalog-sources.md)(으)로 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -166,7 +163,7 @@ ht-degree: 0%
 
 ### 필수 연결 세부 정보 가져오기
 
-[Adobe Developer Console](https://developer.adobe.com/console)에서 [!DNL Commerce Optimizer] 수집 서비스에 대해 활성화된 새 프로젝트를 만들고 OAuth 서버 간 자격 증명을 생성합니다. 자세한 지침은 *머천다이징 개발자 안내서*&#x200B;의 [IMS 자격 증명 가져오기](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication/#obtain-ims-credentials)를 참조하십시오.
+[Adobe Developer Console](https://developer.adobe.com/console)에서 [!DNL Commerce Optimizer] 수집 서비스에 대해 활성화된 새 프로젝트를 만들고 OAuth 서버 간 자격 증명을 생성합니다. 자세한 지침은 *Adobe Commerce Optimizer용 머천다이징 개발자 안내서*&#x200B;의 [IMS 자격 증명 가져오기](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication#obtain-ims-credentials)를 참조하십시오.
 
 자격 증명 페이지에서 다음 값을 저장합니다.
 
@@ -186,7 +183,7 @@ ht-degree: 0%
 
 1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 [!DNL Adobe Commerce] 스테이징 환경에 연결합니다.
 
-1. 다음 [!DNL Adobe Commerce] CLI 명령을 실행하여 통합을 구성하고 자리 표시자 값을 [!DNL Commerce Optimizer] 프로젝트의 값으로 바꿉니다.
+1. 통합을 구성하려면 다음 [!DNL Adobe Commerce] CLI 명령을 실행하여 자리 표시자 값을 [!DNL Commerce Optimizer] 프로젝트의 값으로 바꿉니다.
 
    ```shell
    bin/magento aco:config:init --org_id=your-org --tenant_id=your-tenant --client_id=your-client-id --client_secret=your-secret
@@ -208,4 +205,4 @@ ht-degree: 0%
 
 1. **[!DNL Edge Delivery Services]**&#x200B;에서 Commerce 상점 설정
 
-   [Storefront 설정 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko){target="_blank"}에 따라 Storefront를 [!DNL Commerce Optimizer] 인스턴스에 연결하고 개인화된 상거래 경험을 제공하기 시작합니다.
+   [!DNL Commerce Optimizer] 인스턴스에 상점 전선을 연결하고 개인화된 상거래 경험을 게재하려면 [상점 전선의 설정 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko){target="_blank"}를 따르십시오.

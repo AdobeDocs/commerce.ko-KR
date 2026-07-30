@@ -25,9 +25,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 7c592b78454fdfafb377b101e366c8213ce43a0a
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 835
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 
 모듈은 기존 제품 데이터 피드에 다음 세 가지 속성을 추가합니다.
 
-* `ac_tax_class`
-* `ac_attribute_set`
-* `ac_inventory`
+* `[ac_tax_class](#tax-class-information-ac_tax_class)`
+* `[ac_attribute_set](attribute-set-information-ac_attribute_set)`
+* `[ac_inventory](advanced-inventory-data-ac_inventory)`
 
-### &#x200B;1. 세금 클래스 정보(`ac_tax_class`)
+### 세금 클래스 정보(`ac_tax_class`) {#tax-class-information-ac_tax_class}
 
 **목적**: 각 제품에 대한 세금 분류 정보를 제공합니다.
 
@@ -84,7 +84,7 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * 외부 세금 계산 서비스와 통합
 * 회계 시스템에 대한 제품 분류
 
-### &#x200B;2. 특성 집합 정보(`ac_attribute_set`)
+### 특성 집합 정보(`ac_attribute_set`) {#attribute-set-information-ac_attribute_set}
 
 **목적**: 각 제품에 할당된 특성 집합을 식별합니다
 
@@ -113,7 +113,7 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * 카탈로그 관리 및 구성
 * 속성 세트 컨텍스트를 필요로 하는 서드파티 시스템 통합
 
-### &#x200B;3. 고급 인벤토리 데이터(`ac_inventory`)
+### 고급 인벤토리 데이터(`ac_inventory`) {#advanced-inventory-data-ac_inventory}
 
 **목적**: 각 제품에 대한 재고 관리 설정을 제공합니다.
 
@@ -125,9 +125,9 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 * `cartMinQty`(부동): 장바구니에 허용된 최소 수량입니다.
 * `cartMaxQty`(부동): 장바구니에 허용되는 최대 수량
 * `backorders`(문자열): 미납 주문 정책입니다. 값은 다음 중 하나입니다.
-   * `"no"`: 미납 주문 허용 안 함
-   * `"allow"`: 0 미만의 수량 허용
-   * `"allow_notify"`: 0 미만의 수량을 허용하고 고객에게 알립니다.
+  * `"no"`: 미납 주문 허용 안 함
+  * `"allow"`: 0 미만의 수량 허용
+  * `"allow_notify"`: 0 미만의 수량을 허용하고 고객에게 알립니다.
 * `enableQtyIncrements`(부울): 수량 증분이 사용되는지 여부
 * `qtyIncrements`(부동 소수점): 필수 수량 증분 값
 
@@ -161,22 +161,21 @@ Adobe Commerce 추가 제품 속성 모듈은 제품 데이터 피드를 확장�
 
 * **제품 피드**(`products`): 세 가지 추가 특성을 사용하여 개선되었습니다
 
-   * 각 제품 레코드에 `ac_tax_class`, `ac_attribute_set` 및 `ac_inventory` 특성을 추가합니다.
-   * 원본 제품 데이터를 그대로 유지
-   * 기존 피드 소비자와의 이전 버전과의 호환성 유지
+  * 각 제품 레코드에 `ac_tax_class`, `ac_attribute_set` 및 `ac_inventory` 특성을 추가합니다.
+  * 원본 제품 데이터를 그대로 유지
+  * 기존 피드 소비자와의 이전 버전과의 호환성 유지
 
 * **제품 특성 피드**(`productAttributes`): 새 특성에 대한 특성 메타데이터로 개선됨
 
-   * `productAttributes` 피드의 세 가지 새 특성에 대한 메타데이터를 자동으로 등록합니다.
-   * 속성 구성 세부 사항(데이터 유형, 가시성 설정 등)을 제공합니다.
-   * 외부 시스템이 새 특성 스키마를 이해할 수 있도록 지원
+  * `productAttributes` 피드의 세 가지 새 특성에 대한 메타데이터를 자동으로 등록합니다.
+  * 속성 구성 세부 사항(데이터 유형, 가시성 설정 등)을 제공합니다.
+  * 외부 시스템이 새 특성 스키마를 이해할 수 있도록 지원
 
 ## 확장 설치
 
 **요구 사항**
 
-* PHP 8.1, 8.2, 8.3 또는 8.4
-* Adobe Commerce 2.4.4+
+* [Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html) 2.4.4+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하세요.
 * [Adobe Commerce 데이터 내보내기 확장](manage-extension.md#update-a-module-to-a-specific-version), 버전 103.4.11 이상
 * [repo.magento.com에 액세스](https://repo.magento.com)
 
@@ -193,8 +192,8 @@ composer require adobe-commerce/module-extra-product-attributes
 
 자세한 설치 단계는 다음 안내서를 참조하십시오.
 
-* [클라우드 인프라의 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-* [확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 제품 데이터 동기화
 
@@ -215,7 +214,7 @@ bin/magento saas:resync --feed=productAttributes
 **제품에 추가 특성이 없습니다.**
 
 * 모듈이 제대로 설치되고 활성화되어 있는지 확인합니다.
-* 재동기화 명령을 실행하여 제품 데이터를 새로 고칩니다.
+* 제품 데이터를 새로 고치려면 재동기화 명령을 실행합니다
 * 제품에 유효한 세금 분류 및 속성 세트 지정이 있는지 확인합니다.
 
 **인벤토리 데이터가 올바르지 않은 것으로 나타남:**

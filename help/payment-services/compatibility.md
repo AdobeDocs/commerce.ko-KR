@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 88c74f789dc398afa8f40ee2258450e83f134d87
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 506
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ![확인](assets/icon-check.png) 표준 가격
 
-![확인](assets/icon-check.png) **XX 국가에서 사용 가능**
+![확인](assets/icon-check.png) **200개 이상의 국가에서 사용 가능**
 
 [![자세히 알아보기](assets/learn-more-button.svg)](onboard.md)
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ![확인](assets/icon-check.png)(L2/L3 가격 기능 - 미국만 해당)
 
-![확인](assets/icon-check.png) **미국(미국), 캐나다(CA), 호주(호주)에서만 사용 가능. 프랑스(FR), 영국(UK)**
+![확인](assets/icon-check.png) 37개국에서 사용 가능합니다. 호주, 오스트리아, 벨기에, 불가리아, 캐나다, 중국, 사이프러스, 체코 공화국, 덴마크, 에스토니아, 핀란드, 프랑스, 독일, 그리스, 홍콩, 헝가리, 아일랜드, 이탈리아, 일본, 라트비아, 리히텐슈타인, 리투아니아, 룩셈부르크, 몰타, 멕시코, 네덜란드, 노르웨이, 폴란드, 포르투갈, 루마니아, 싱가포르, 슬로바키아, 슬로베니아, 스페인, 스웨덴, 영국, 미국. **미국(미국), 캐나다(CA), 호주(AU), 프랑스(FR), 영국(GB), 이탈리아(IT), 네덜란드(NL), 독일(DE)에서 협상 가능 요금**
 
 [![자세히 알아보기](assets/learn-more-button.svg)](onboard.md)
 
