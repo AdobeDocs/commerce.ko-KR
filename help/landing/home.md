@@ -6,33 +6,15 @@ seo-description: Access the product documentation for hosted services that help 
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
 TQID: https://experienceleague.adobe.com/zKL5fNTECsNOKZfEl7OUSYHTo-wrh81z3-C7wB1SoWM
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee8113dcf4e6d4d91fdf6cc69078d6104315a33f
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+last-update: 2026-07-24
+source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
@@ -77,7 +59,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../catalog-service/overview.md">
          <strong>카탈로그 서비스</strong>
-         
+         </a>
       </div>
       <p>
          <em>성능을 높이고 확장성을 개선하며 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.</em>
@@ -103,7 +85,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../product-recommendations/overview.md">
          <strong>제품 추천</strong>
-         
+         </a>
       </div>
       <p>
          <em>쇼핑객 행동, 인기 있는 트렌드, 제품 유사성 등을 기반으로 AI 기반 권장 사항을 추가하십시오.</em>
@@ -116,7 +98,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../payment-services/guide-overview.md">
          <strong>결제 서비스</strong>
-         
+         </a>
       </div>
       <p>
          <em>무이자 할부, 결제 처리, 주문 및 청구서에 대한 간소화된 보기 등 다양한 결제 방법으로 고객 만족을 높입니다.</em>
@@ -151,7 +133,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
           <a href="../aem-assets-integration/overview.md">
          <strong>AEM Assets 통합</strong>
-         
+         </a>
       </div>
       <p>
          <em>리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 시스템을 사용하여 디지털 에셋 관리를 간소화합니다.</em>
@@ -164,7 +146,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../app-management/overview.md">
          <strong>앱 관리</strong>
-         
+         </a>
       </div>
       <p>
          <em>관리 UI를 통해 Commerce 인스턴스와 App Builder 응용 프로그램을 연결, 구성 및 관리합니다.</em>
@@ -189,7 +171,8 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
          </a>
       </div>
       <p>
-         <em>카탈로그, 주문 및 인벤토리 데이터를 Adobe Commerce에서 연결된 서비스에 자동으로 동기화합니다. Commerce CLI 명령 또는 <strong>데이터 관리 대시보드</strong>를 사용하여 동기화 처리를 관리합니다.</em></p>
+         <em>카탈로그, 주문 및 인벤토리 데이터를 Adobe Commerce에서 연결된 서비스에 자동으로 동기화합니다. Commerce CLI 명령 또는 <strong>데이터 관리 대시보드</strong>를 사용하여 동기화 처리를 관리합니다.</em>
+      </p>
    </td>
    <td valign="top">
       <a href="../price-index/price-indexing.md">
@@ -198,23 +181,24 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
           <a href="../price-index/price-indexing.md">
          <strong>SaaS 가격 인덱서</strong>
-         
+         </a>
       </div>
       <p>
          <em>인덱싱과 가격 계산과 같이 리소스 집약적인 작업을 Commerce 애플리케이션에서 Adobe의 클라우드 인프라로 오프로드하여 사이트 성능을 최적화합니다.</em>
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
-         
+         </a>
       </div>
       <p>
-         <em>Commerce 관리자의 통합 대시보드에서 Commerce 데이터 동기화를 쉽게 추적하고 다시 동기화를 트리거할 수 있습니다. 구매 고객에게 적시에 표시할 수 있는 데이터 가용성에 대한 중요한 통찰력을 얻으십시오.</em></p>
+         <em>Commerce 관리자의 통합 대시보드에서 Commerce 데이터 동기화를 쉽게 추적하고 다시 동기화를 트리거할 수 있습니다. 구매 고객에게 적시에 표시할 수 있는 데이터 가용성에 대한 중요한 통찰력을 얻으십시오.</em>
+      </p>
    </td>
 </table>
 
@@ -234,7 +218,7 @@ Adobe Commerce 서비스는 비즈니스 규모 확장, 고객 경험 개선 또
 | 옴니채널 개인화된 경험 만들기 | 상거래 데이터가 격리되어 채널 간에 개인화된 경험을 제공할 수 없습니다. | [데이터 연결](../data-connection/overview.md)을 사용하여 동작, 트랜잭션 및 프로필 데이터를 Adobe Experience Platform으로 보냅니다. 정교한 고객 세그먼트를 작성하고, 포기한 장바구니 캠페인을 만들고, 유사 고객을 타깃팅하고, 전체 고객 여정에서 시즌 트렌드를 분석합니다. |
 | 디지털 자산 관리 간소화 | 여러 시스템에서 제품 이미지와 리치 미디어를 관리하는 데는 많은 시간이 소요되고 오류가 발생하기 쉽습니다. | [AEM Assets 통합](../aem-assets-integration/overview.md)은(는) Adobe Commerce을 Adobe Experience Manager Assets 프로젝트에 연결하고, 워크플로를 단순화하고, 모든 접점에서 일관된 브랜드 경험을 보장하여 중앙 집중식 자산 관리를 제공합니다. |
 | 결제 처리 최적화 | 제한된 결제 옵션과 열악한 결제 경험이 고객 만족과 전환에 타격을 주고 있다. | [결제 서비스](../payment-services/guide-overview.md)에서는 결제, 주문 및 송장을 관리하기 위한 통합 대시보드를 사용하여 무이자 할부를 비롯한 여러 결제 방법을 제공합니다. |
-| 규모에 맞게 데이터 동기화 관리 | 리소스를 많이 사용하는 인덱싱으로 인해 사이트의 속도가 느려지고 데이터 동기화 문제를 쉽게 추적할 수 없습니다. | [SaaS 데이터 내보내기](../data-export/overview.md), [SaaS 가격 인덱서](../price-index/price-indexing.md) 및 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 카탈로그, 주문 및 인벤토리 데이터를 자동으로 동기화하고 가격 계산을 Adobe의 클라우드 인프라로 오프로드하며 동기화 상태를 실시간으로 볼 수 있도록 합니다. |
+| 규모에 맞게 데이터 동기화 관리 | 리소스를 많이 사용하는 인덱싱으로 인해 사이트의 속도가 느려지고 데이터 동기화 문제를 쉽게 추적할 수 없습니다. | [SaaS 데이터 내보내기](../data-export/overview.md), [SaaS 가격 인덱서](../price-index/price-indexing.md) 및 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 카탈로그, 주문 및 인벤토리 데이터를 자동으로 동기화하고 가격 계산을 Adobe의 클라우드 인프라로 오프로드하며 동기화 상태를 실시간으로 볼 수 있도록 합니다. |
 | 잃어버린 고객을 되찾고 반품을 줄입니다. | 높은 고객 이탈률과 제품 수익률은 수익성에 영향을 미치고 있습니다. | [데이터 연결](../data-connection/overview.md)을(를) Adobe Journey Optimizer 및 Real-Time CDP과 결합하여 반환 패턴을 식별하고, 윈백 캠페인을 만들고, 행동으로 고객을 분류하고, 이메일 및 SMS를 통해 개인화된 재참여 캠페인을 보냅니다. |
 | 데이터 기반 머천다이징 의사 결정 | 프로모션할 제품 또는 프로모션을 실행할 시기를 알 수 없습니다. | [실시간 검색](../live-search/overview.md)은(는) 검색 성능 인사이트와 머천다이징 도구를 제공하여 주요 지표에 액세스하고, 검색어를 분석하고, 지능형 머천다이징 규칙을 사용하여 실제 고객 행동 및 비즈니스 목표에 따라 제품을 올리거나 매립합니다. |
 | 중요한 데이터에 대한 규정 준수 유지 | HIPAA 규정 준수를 유지하면서 중요한 고객 데이터를 처리해야 합니다. | [데이터 연결](../data-connection/overview.md)은(는) HIPAA를 사용할 수 있으므로 규정을 준수하고 개인정보 보호 요청을 체계적으로 처리하면서 Experience Platform과 백오피스 데이터를 공유할 수 있습니다. |
