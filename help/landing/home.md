@@ -30,9 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee8113dcf4e6d4d91fdf6cc69078d6104315a33f
+last-update: 2026-07-24
+source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
@@ -77,7 +78,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../catalog-service/overview.md">
          <strong>카탈로그 서비스</strong>
-         
+         </a>
       </div>
       <p>
          <em>성능을 높이고 확장성을 개선하며 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.</em>
@@ -103,7 +104,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../product-recommendations/overview.md">
          <strong>제품 추천</strong>
-         
+         </a>
       </div>
       <p>
          <em>쇼핑객 행동, 인기 있는 트렌드, 제품 유사성 등을 기반으로 AI 기반 권장 사항을 추가하십시오.</em>
@@ -116,7 +117,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../payment-services/guide-overview.md">
          <strong>결제 서비스</strong>
-         
+         </a>
       </div>
       <p>
          <em>무이자 할부, 결제 처리, 주문 및 청구서에 대한 간소화된 보기 등 다양한 결제 방법으로 고객 만족을 높입니다.</em>
@@ -151,7 +152,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
           <a href="../aem-assets-integration/overview.md">
          <strong>AEM Assets 통합</strong>
-         
+         </a>
       </div>
       <p>
          <em>리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 시스템을 사용하여 디지털 에셋 관리를 간소화합니다.</em>
@@ -164,7 +165,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
          <a href="../app-management/overview.md">
          <strong>앱 관리</strong>
-         
+         </a>
       </div>
       <p>
          <em>관리 UI를 통해 Commerce 인스턴스와 App Builder 응용 프로그램을 연결, 구성 및 관리합니다.</em>
@@ -189,7 +190,8 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
          </a>
       </div>
       <p>
-         <em>카탈로그, 주문 및 인벤토리 데이터를 Adobe Commerce에서 연결된 서비스에 자동으로 동기화합니다. Commerce CLI 명령 또는 <strong>데이터 관리 대시보드</strong>를 사용하여 동기화 처리를 관리합니다.</em></p>
+         <em>카탈로그, 주문 및 인벤토리 데이터를 Adobe Commerce에서 연결된 서비스에 자동으로 동기화합니다. Commerce CLI 명령 또는 <strong>데이터 관리 대시보드</strong>를 사용하여 동기화 처리를 관리합니다.</em>
+      </p>
    </td>
    <td valign="top">
       <a href="../price-index/price-indexing.md">
@@ -198,7 +200,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
           <a href="../price-index/price-indexing.md">
          <strong>SaaS 가격 인덱서</strong>
-         
+         </a>
       </div>
       <p>
          <em>인덱싱과 가격 계산과 같이 리소스 집약적인 작업을 Commerce 애플리케이션에서 Adobe의 클라우드 인프라로 오프로드하여 사이트 성능을 최적화합니다.</em>
@@ -211,10 +213,11 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       <div>
           <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
-         
+         </a>
       </div>
       <p>
-         <em>Commerce 관리자의 통합 대시보드에서 Commerce 데이터 동기화를 쉽게 추적하고 다시 동기화를 트리거할 수 있습니다. 구매 고객에게 적시에 표시할 수 있는 데이터 가용성에 대한 중요한 통찰력을 얻으십시오.</em></p>
+         <em>Commerce 관리자의 통합 대시보드에서 Commerce 데이터 동기화를 쉽게 추적하고 다시 동기화를 트리거할 수 있습니다. 구매 고객에게 적시에 표시할 수 있는 데이터 가용성에 대한 중요한 통찰력을 얻으십시오.</em>
+      </p>
    </td>
 </table>
 

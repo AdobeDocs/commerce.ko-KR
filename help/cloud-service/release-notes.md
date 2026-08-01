@@ -133,7 +133,7 @@ ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 �
 
 ### 영역 또는 템플릿별로 트랜잭션 이메일 제외
 
-새로운 [이메일 비표시](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression) 구성([!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL **Adobe 서비스**] > [!UICONTROL **이메일 비표시**])을 사용하면 관리자가 [!DNL Commerce]에서 트랜잭션 이메일을 보내는 것을 선택적으로 중지할 수 있습니다. 기능 영역(예: 고객 계정, Order Management, 반환, 체크아웃, 마케팅 또는 B2B) 또는 정확한 템플릿 식별자 목록으로 이메일을 표시하지 않을 수 있습니다.<!-- ACCS-1025 -->
+새로운 [이메일 비표시](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/email-suppression) 구성([!UICONTROL **스토어**] > [!UICONTROL **구성**] > [!UICONTROL **Adobe 서비스**] > [!UICONTROL **이메일 비표시**])을 사용하면 관리자가 [!DNL Commerce]에서 트랜잭션 이메일을 보내는 것을 선택적으로 중지할 수 있습니다. 기능 영역(예: 고객 계정, Order Management, 반환, 체크아웃, 마케팅 또는 B2B) 또는 정확한 템플릿 식별자 목록으로 이메일을 표시하지 않을 수 있습니다.<!-- ACCS-1025 -->
 
 ### 관리자에서 주문 수정 내역 보기
 

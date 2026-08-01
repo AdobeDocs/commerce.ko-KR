@@ -25,7 +25,8 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f35d602bd25d2b5192a289c444c1bc0a93a91945
+last-update: 2026-07-29
+source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
 workflow-type: tm+mt
 source-wordcount: 1059
 ht-degree: 0%
