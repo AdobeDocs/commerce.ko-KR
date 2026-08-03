@@ -5,7 +5,7 @@ feature: Cloud, Integration
 role: User, Leader
 level: Beginner
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:06:00.993Z'
 TQID: 'https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ'
 product_v2:
@@ -220,7 +220,7 @@ Adobe의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 화면에�
 
 #### [!DNL Commerce AEM Assets]에 이미지 추가
 
-1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![제품 이미지가 있는 [!DNL AEM Assets]의 Commerce 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -270,7 +270,7 @@ Adobe의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 화면에�
 
 ### 텍스트 생성
 
-1. [유니버설 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
+1. [유니버설 편집기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
 
 1. 편집할 텍스트 블록을 선택합니다.
 
