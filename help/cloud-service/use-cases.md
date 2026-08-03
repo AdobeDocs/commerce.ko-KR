@@ -5,30 +5,18 @@ feature: Cloud, Integration
 role: User, Leader
 level: Beginner
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:06:00.993Z'
 TQID: 'https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 04f966aca4d7ce85990b42ad958938a186629af1
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1462
 ht-degree: 0%
 
 ---
@@ -46,7 +34,7 @@ ht-degree: 0%
 1. 다음 옵션을 사용하여 [Cloud Service 인스턴스 만들기](./getting-started.md#create-an-instance):
    1. [!UICONTROL **환경**] 드롭다운에서 [!UICONTROL **샌드박스**]&#x200B;를 선택합니다.
    1. [!UICONTROL **테스트 데이터**] 드롭다운에서 [!UICONTROL **Adobe 스토어**]&#x200B;를 선택합니다.
-1. [&#x200B; [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
+1. [ [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
 1. 다음 옵션을 사용하여 [Cloud Service 상점 설정](./storefront.md):
    1. 템플릿에 대해 [!UICONTROL `adobe-commerce/adobe-demo-store`]을(를) 선택합니다.
    1. 연결 방법에 대해 [!UICONTROL **사용 가능한 인스턴스 선택(Mesh -> SaaS)**]&#x200B;을 선택합니다.
@@ -59,7 +47,7 @@ ht-degree: 0%
 
 1. Commerce 관리에서 [!UICONTROL **스토어**] > [!UICONTROL Settings] > [!UICONTROL **구성**] > [!UICONTROL **결제 방법**]&#x200B;으로 이동합니다.
 
-1. [!UICONTROL **일반 구성**] 섹션에서 `Payment Services Sandbox ID` 및 `Payment Services Sandbox Key`을(를) 입력하십시오. [샌드박스 온보딩](../payment-services/sandbox.md#sandbox-onboarding)에 설명된 단계를 따라 이러한 ID를 가져올 수 있습니다
+1. [!UICONTROL **일반 구성**] 섹션에서 `Payment Services Sandbox ID` 및 `Payment Services Sandbox Key`을(를) 입력하십시오. [샌드박스 온보딩](../payment-services/sandbox.md#sandbox-onboarding){target="_blank"}에 설명된 단계를 따라 이러한 ID를 가져올 수 있습니다
 
 1. [!UICONTROL **사용**] 드롭다운을 [!UICONTROL **예**]&#x200B;(으)로 설정합니다.
 
@@ -83,7 +71,7 @@ ht-degree: 0%
 
 1. 필요한 담당자 상세내역 및 운송 정보를 입력합니다. 이 주문에 대해 허구의 정보를 사용할 수 있습니다.
 
-1. 체크아웃하려면 [!UICONTROL **주문 확인/금액**]&#x200B;을 선택하세요. 신용 카드를 사용하려면 Paypal에서 제공하는 [테스트 카드 중 하나](https://developer.paypal.com/tools/sandbox/card-testing/#link-teststaticcardnumbers)를 사용하세요. 향후 만료일 및 CVC와 함께 사용할 수 있습니다.
+1. 체크아웃하려면 [!UICONTROL **주문 확인/금액**]&#x200B;을 선택하세요. 신용 카드를 사용하려면 PayPal에서 제공하는 [테스트 카드 중 하나](https://developer.paypal.com/credit-card-number-generator#link-teststaticcardnumbers)를 사용하세요. 향후 만료일 및 CVC와 함께 사용할 수 있습니다.
 
    ![연락처 및 배송 정보 필드가 있는 체크아웃 양식](./assets/enter-details.png){width="600" zoomable="yes"}
 
@@ -125,7 +113,7 @@ ht-degree: 0%
 
 ## 상황별 실험
 
-[!DNL Adobe Commerce]의 상황별 실험 기능을 사용하면 상점 첫 화면에서 실험을 만들고 관리하여 다양한 콘텐츠와 구성을 테스트할 수 있습니다.
+Adobe의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 화면에서 실험을 만들고 관리하여 다양한 콘텐츠 및 구성을 테스트할 수 있습니다.
 
 ### 사전 요구 사항
 
@@ -139,9 +127,9 @@ ht-degree: 0%
 
 1. 인덱스 페이지의 두 복사본을 **1234** 폴더에 붙여 넣으십시오.
 
-1. 각 페이지를 열고 이름을 &quot;homev1&quot; 및 &quot;homev2&quot;로 바꿉니다. [도전자](https://www.aem.live/docs/experimentation#create-your-challenger-page)입니다.
+1. 각 페이지를 열고 이름을 &quot;homev1&quot; 및 &quot;homev2&quot;로 바꿉니다. 이 페이지는 [도전자](https://www.aem.live/docs/experimentation#create-your-challenger-page)입니다.
 
-1. 다른 콘텐츠를 포함하도록 각 페이지를 수정합니다. 예를 들어, 영웅 이미지나 텍스트를 변경합니다. 각 페이지 간의 차이점을 식별할 수 있어야 합니다.
+1. 다른 컨텐츠를 포함하려면 각 페이지를 수정합니다. 예를 들어, 영웅 이미지나 텍스트를 변경합니다. 각 페이지 간의 차이점을 식별할 수 있어야 합니다.
 
 1. 각 챌린저 페이지를 게시합니다.
 
@@ -155,14 +143,14 @@ ht-degree: 0%
    * 설명 - 웹 스토어
    * 실험 - 1234
    * 실험 변형
-      * `https://<your-site>.aem.live/experiments/1234/indexv1`
-      * `https://<your-site>.aem.live/experiments/1234/indexv2`
+     * `https://<your-site>.aem.live/experiments/1234/indexv1`
+     * `https://<your-site>.aem.live/experiments/1234/indexv2`
 
    ![상황에 맞는 실험을 위한 메타데이터 블록 구성](./assets/metadata-block.png){width="600" zoomable="yes"}
 
 1. 시크릿 또는 비공개 탐색 창을 열고 기본 페이지로 이동합니다.
 
-1. 개인 탐색 창을 닫고 이전 단계를 반복합니다. 페이지를 열 때마다 만든 임의 변형이 표시됩니다.
+1. 개인 탐색 창을 닫고 이전 단계를 반복합니다. 페이지를 열 때마다 만든 임의의 변형이 표시됩니다.
 
 ## 상점 첫 화면 컨텐츠 향상
 
@@ -174,9 +162,9 @@ ht-degree: 0%
 
 ### 이미지 배경 맞춤화
 
-제품 이미지의 배경을 빠르게 수정하려는 시나리오를 생각해 보십시오. [!DNL Adobe Commerce], [!DNL AEM Assets] 및 [!DNL Adobe Express]의 조합을 사용하면 몇 가지 간단한 단계로 이 변경 사항을 완료할 수 있습니다.
+제품 이미지의 배경을 빠르게 수정하려는 시나리오를 고려하십시오. [!DNL Adobe Commerce], [!DNL AEM Assets] 및 [!DNL Adobe Express]을(를) 조합하면 몇 가지 단계로 이 변경 작업을 완료할 수 있습니다.
 
-1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목 SKU 또는 제품 코드를 확인합니다.
+1. 필수 구성 요소에서 만든 [storefront](./storefront.md)을(를) 열고 변경할 항목으로 이동합니다. 항목의 SKU 또는 제품 코드를 확인합니다.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/#/home)에서 선택하여 [!DNL AEM Assets]을(를) 엽니다.
 
@@ -200,7 +188,7 @@ ht-degree: 0%
 
    AI로 생성할 이미지를 설명하는 ![텍스트 상자](./assets/insert-object-edit.png){width="600" zoomable="yes"}
 
-1. [!UICONTROL Brush size]을(를) 조정하고 생성된 이미지를 추가할 위치를 그립니다. 이 예제에서는 기존 개체를 그려 배경을 선택합니다.
+1. [!UICONTROL Brush size]을(를) 조정하고 생성된 이미지를 추가할 위치를 그립니다. 이 예제의 배경을 선택하려면 기존 개체 주위를 그립니다.
 
 1. 결과를 보려면 [!UICONTROL **생성**]&#x200B;을 클릭하세요.
 
@@ -220,7 +208,7 @@ ht-degree: 0%
 
 #### [!DNL Commerce AEM Assets]에 이미지 추가
 
-1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
+1. [!DNL AEM as a Cloud Service]의 [탐색 패널](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel)에서 [!UICONTROL **Assets**] > [!UICONTROL **파일**] > [!UICONTROL **Commerce**]&#x200B;을(를) 선택하고 이전 섹션에서 만든 에셋을 클릭합니다.
 
    ![제품 이미지가 있는 [!DNL AEM Assets]의 Commerce 폴더](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -270,7 +258,7 @@ ht-degree: 0%
 
 ### 텍스트 생성
 
-1. [유니버설 편집기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
+1. [유니버설 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction)를 사용하여 상점 사이트를 여십시오.
 
 1. 편집할 텍스트 블록을 선택합니다.
 
@@ -284,7 +272,7 @@ ht-degree: 0%
 
 ### 컨텐츠 및 이미지 생성
 
-1. [[!DNL Generate Variations]](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) 열기
+1. [[!DNL Generate Variations]](/en/docs/experience-manager-cloud-service/content/ai-in-aem/generate-variations/generate-variations) 열기
 
 1. [!UICONTROL **영웅 배너**] 템플릿을 선택하십시오.
 
@@ -300,11 +288,11 @@ ht-degree: 0%
 
 1. [!UICONTROL **콘텐츠 형식**] 드롭다운에서 [!UICONTROL **사진**]&#x200B;을 선택합니다.
 
-1. [!UICONTROL **Style**] 참조 이미지의 경우 기존 Adobe 스토어 배너를 선택하십시오.
+1. [!UICONTROL **Style**] 참조 이미지의 경우 기존 Adobe 스토어 배너를 선택합니다.
 
 1. 사용할 생성된 이미지를 선택하고 [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
-1. 다른 참조 이미지와 이 프로세스를 반복하여 더 많은 변형을 생성합니다.
+1. 더 많은 변형을 생성하려면 다른 참조 이미지와 이 프로세스를 반복합니다.
 
 
 ## 문제 해결
@@ -313,35 +301,35 @@ ht-degree: 0%
 
 * 명령 또는 플래그에 대한 지침이 필요한 경우:
 
-   1. 사용 가능한 모든 명령과 플래그를 보려면 `aio --help`을(를) 실행하십시오.
-   1. 특정 명령의 경우 `--help` 플래그를 사용하십시오. For example:
-      * `aio console --help`
-      * `aio commerce --help`
+  1. 사용 가능한 모든 명령과 플래그를 보려면 `aio --help`을(를) 실행하십시오.
+  1. 특정 명령의 경우 `--help` 플래그를 사용하십시오. For example:
+     * `aio console --help`
+     * `aio commerce --help`
 
 * 잘못된 로그인 문제가 발생하는 경우:
 
-   1. `aio config clear` 실행.
-   1. `aio auth login --force` 실행.
-   1. 브라우저에서 로그인합니다.
-   1. 프로필을 선택합니다.
-   1. 계속하려면 터미널로 다시 전환하십시오.
+  1. `aio config clear` 실행.
+  1. `aio auth login --force` 실행.
+  1. 브라우저에 로그인.
+  1. 프로필을 선택합니다.
+  1. 계속하려면 터미널로 다시 전환하십시오.
 
 * `init` 명령이 실패한 경우:
 
-   1. `aio api-mesh delete` 실행.
-   1. `aio commerce init` 다시 실행
+  1. `aio api-mesh delete` 실행.
+  1. `aio commerce init` 다시 실행
 
 * `init` 명령을 실행하기 전에 잘못된 조직, 프로젝트 또는 작업 영역을 선택한 경우:
 
-   1. `aio console org select` 실행.
-   1. `aio console project select` 실행.
-   1. `aio console workspace select` 실행.
+  1. `aio console org select` 실행.
+  1. `aio console project select` 실행.
+  1. `aio console workspace select` 실행.
 
 * 잘못된 테넌트 선택이 있는 경우:
 
-   1. **Ctrl-C**&#x200B;을 눌러 현재 CLI 실행을 취소합니다.
-   1. `aio commerce init` 실행.
+  1. **Ctrl-C**&#x200B;을 눌러 현재 CLI 실행을 취소합니다.
+  1. `aio commerce init` 실행.
 
 * 잘못된 API Mesh 설치가 발생하는 경우:
 
-   * `aio api-mesh update mesh-config.json` 실행.
+  * `aio api-mesh update mesh-config.json` 실행.
