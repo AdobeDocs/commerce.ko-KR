@@ -1,24 +1,17 @@
 ---
-title: 카탈로그 이벤트 및 Adobe I/O Events 통합 안내서
+title: 카탈로그 및 Adobe I/O Events 통합 안내서
 description: 카탈로그 데이터를 확인하고, Adobe Commerce에 대해  [!DNL Adobe I/O Events] 을(를) 구성하고, 카탈로그 이벤트 유형을 구독하고, 소비자에 대한 게재를 확인하는 방법을 알아봅니다.
 level: Intermediate
 recommendations: noCatalog
 role: Admin, Developer
 feature: Services, Catalog Service
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15aaeadde61b9d70ec107db2ed4c118d1f8ee731
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: c32adafa-ed01-4b31-997e-2413013911b0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: d8e9d612392967d19d0da56e81337362f9006c2c
 workflow-type: tm+mt
-source-wordcount: 1567
+source-wordcount: 1566
 ht-degree: 0%
 
 ---
@@ -157,7 +150,7 @@ ht-degree: 0%
 >* [Adobe Commerce에 대해  [!DNL Adobe I/O] 연결이 구성되었습니다](https://developer.adobe.com/commerce/extensibility/events/configure-commerce).
 >* Commerce 환경이 프로비저닝된 동일한 IMS 조직의 [!DNL Adobe Developer Console]에 대한 액세스 권한.
 >* Commerce SaaS 서비스와의 동기화를 확인하려면 관리자의 **[!UICONTROL Data Management Dashboard]**&#x200B;을(를) 사용하십시오.
->* 대시보드 확인에는 제품 권장 사항 v6.0, [!DNL Live Search] v4.1.0+ 또는 [!DNL Catalog Service] v1.17+가 필요합니다. Adobe에서는 Commerce 프로젝트를 이러한 서비스의 지원되는 최신 버전으로 업데이트할 것을 권장합니다. 이전 서비스 버전의 경우 동기화 확인에 [카탈로그 동기화](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/data-services/catalog-sync)를 사용하십시오.
+>* 대시보드 확인에는 제품 권장 사항 v6.0, [!DNL Live Search] v4.1.0+ 또는 [!DNL Catalog Service] v1.17+가 필요합니다. Adobe에서는 Commerce 프로젝트를 이러한 서비스의 지원되는 최신 버전으로 업데이트할 것을 권장합니다. 이전 서비스 버전의 경우 동기화 확인에 [카탈로그 동기화](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync)를 사용하십시오.
 
 
 >[!NOTE]
@@ -172,11 +165,11 @@ ht-degree: 0%
 
 1. Commerce에서 **피드 내보내기 성공**&#x200B;을 확인합니다.
 
-   [!DNL Adobe Commerce] 관리자로부터 [데이터 피드 동기화 상태](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지(**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**)를 열고 각 [!DNL Catalog Service] 피드에 대해 마지막 내보내기 상태가 성공했는지 확인하십시오.
+   [!DNL Adobe Commerce] 관리자로부터 [데이터 피드 동기화 상태](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지(**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**)를 열고 각 [!DNL Catalog Service] 피드에 대해 마지막 내보내기 상태가 성공했는지 확인하십시오.
 
 1. [!DNL Adobe Commerce] 관리자로부터 **연결된 Commerce 서비스에 동기화**&#x200B;했는지 확인하십시오.
 
-   [!DNL Adobe Commerce] 관리자로부터 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)&#x200B;(**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Management Dashboard]**)를 열고 동기화된 제품 데이터에 예상 제품이 포함되어 있는지 확인합니다.
+   [!DNL Adobe Commerce] 관리자로부터 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)&#x200B;(**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Management Dashboard]**)를 열고 동기화된 제품 데이터에 예상 제품이 포함되어 있는지 확인합니다.
 
 ### [!DNL Adobe I/O Events] 등록 및 구독 {#register-events}
 
@@ -295,9 +288,9 @@ ht-degree: 0%
 
    카탈로그 이벤트에는 [!DNL Catalog Service]의 현재 데이터가 필요합니다. 내보내기 경로의 두 단계 확인:
 
-   * **Commerce에서 피드 내보내기** — [데이터 피드 동기화 상태](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지 또는 `var/log/saas-export.log`에서 [!DNL Catalog Service]개의 피드를 [!DNL Commerce]에서 성공적으로 내보냈는지 확인합니다.
+   * **Commerce에서 피드 내보내기** — [데이터 피드 동기화 상태](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지 또는 `var/log/saas-export.log`에서 [!DNL Catalog Service]개의 피드를 [!DNL Commerce]에서 성공적으로 내보냈는지 확인합니다.
 
-   * **연결된 Commerce SaaS 서비스에 동기화** — [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard), [카탈로그 동기화](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/data-services/catalog-sync) 또는 내보내기 로그에서 데이터가 [!DNL Catalog Service]에 성공적으로 동기화되었는지 확인합니다.
+   * **연결된 Commerce SaaS 서비스에 동기화** — [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard), [카탈로그 동기화](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync) 또는 내보내기 로그에서 데이터가 [!DNL Catalog Service]에 성공적으로 동기화되었는지 확인합니다.
 
    내보내기 및 동기화 작업 문제를 해결하려면 [데이터를 SaaS 데이터 내보내기와 동기화](../data-export/data-sync-manage.md) 및 [로깅 및 문제 해결](../data-export/troubleshooting/logging.md)을 참조하십시오.
 
@@ -319,7 +312,7 @@ ht-degree: 0%
    * [!DNL Adobe I/O Events] 구독 세부 정보.
    * 누락된 이벤트의 대략적인 시간 및 설명.
 
-   추가 도움말은 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 참조하세요.
+   추가 도움말은 [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 참조하세요.
 
 >[!MORELIKETHIS]
 >
@@ -329,5 +322,5 @@ ht-degree: 0%
 >* [데이터를 SaaS 데이터 내보내기와 동기화](../data-export/data-sync-manage.md)
 >* [GraphQL API로 카탈로그 데이터 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/){target="_blank"}
 >* [[!DNL Catalog Service] 및 API Mesh](mesh.md)
->* [연결 구성 [!DNL Adobe I/O] 2&rbrace;](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#configure-the-adobe-io-connection){target="_blank"}
+>* [연결 구성 [!DNL Adobe I/O] 2}](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#configure-the-adobe-io-connection){target="_blank"}
 >* [[!DNL Adobe I/O Events]](https://developer.adobe.com/events/docs/guides/){target="_blank"}
