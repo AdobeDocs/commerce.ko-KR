@@ -5,21 +5,13 @@ role: Admin, Developer
 recommendations: noCatalog
 exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
 TQID: https://experienceleague.adobe.com/CEbJ8-hkc0AGQ4RnRNMDXA6mMijvhPGAfsxyC4eT39Y
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 70990a7bb7e8926a171ea6d2148542b7b73f4dba
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: bb09ff54afbba3d0a0e48bfd1a0392cba435ea9a
 workflow-type: tm+mt
-source-wordcount: 1405
+source-wordcount: 1493
 ht-degree: 0%
 
 ---
@@ -30,23 +22,24 @@ Adobe Commerce 확장 [!DNL Catalog Service]은(는) 전용 GraphQL API를 통�
 
 [!DNL Catalog Service]에서 제공하는 풍부한 보기 모델 데이터에는 제품 세부 정보, 특성, 재고 및 가격이 포함되어 있으므로 다음과 같은 제품 관련 상점 경험을 빠르게 렌더링할 수 있습니다.
 
-- 제품 세부 사항 페이지
-- 제품 목록 및 범주 페이지
-- 검색 결과 페이지
-- 제품 회전 메뉴
-- 제품 비교 페이지
-- 장바구니, 주문 및 위시리스트 페이지와 같이 제품 데이터를 렌더링하는 다른 모든 페이지
+* 제품 세부 사항 페이지
+* 제품 목록 및 범주 페이지
+* 검색 결과 페이지
+* 제품 회전 메뉴
+* 제품 비교 페이지
+* 장바구니, 주문 및 위시리스트 페이지와 같이 제품 데이터를 렌더링하는 다른 모든 페이지
 
 ## 주요 이점 및 기능
 
-- **더 빠른 페이지 로드**: 핵심 GraphQL 시스템에 비해 최대 10배 더 빠른 카탈로그 데이터 검색에 최적화된 쿼리
-- **향상된 전환 속도**: 로드 시간이 빨라져 사용자 경험이 향상됩니다.
-- **간소화된 제품 유형**: 간단하고 복잡한 제품 유형을 기반으로 하는 통합 스키마를 통해 개발자의 복잡성 감소
-- **가격 정밀도가 향상됨**: 소수점 4개가 있는 16자리 값 지원
-- **분리된 아키텍처**: 카탈로그 데이터에 대해 별도의 GraphQL 시스템을 사용하면 핵심 Commerce 작업에 영향을 주지 않고 높은 성능을 보장합니다
-- **실시간 데이터 동기화**: SaaS 데이터 내보내기 확장을 통해 카탈로그 서비스가 Adobe Commerce 애플리케이션과 계속 동기화되어 쿼리가 최신 카탈로그 데이터를 반환하도록 합니다
-- **데이터 관리 대시보드**: Adobe Commerce 관리 인터페이스에서 데이터 동기화 작업을 모니터링하고 관리합니다.
-- **API Mesh 통합**: 필요에 따라 Adobe Developer App Builder용 [API Mesh와 통합](https://developer.adobe.com/graphql-mesh-gateway/)하여 Adobe Commerce GraphQL 시스템을 다른 내부 및 타사 API와 결합하여 카탈로그 서비스 GraphQL 스키마를 확장하고 사용자 지정 데이터 또는 기능을 추가하십시오
+* **더 빠른 페이지 로드**: 핵심 GraphQL 시스템에 비해 최대 10배 더 빠른 카탈로그 데이터 검색에 최적화된 쿼리
+* **향상된 전환 속도**: 로드 시간이 빨라져 사용자 경험이 향상됩니다.
+* **간소화된 제품 유형**: 간단하고 복잡한 제품 유형을 기반으로 하는 통합 스키마를 통해 개발자의 복잡성 감소
+* **가격 정밀도가 향상됨**: 소수점 4개가 있는 16자리 값 지원
+* **분리된 아키텍처**: 카탈로그 데이터에 대해 별도의 GraphQL 시스템을 사용하면 핵심 Commerce 작업에 영향을 주지 않고 높은 성능을 보장합니다
+* **실시간 데이터 동기화**: SaaS 데이터 내보내기 확장을 통해 카탈로그 서비스가 Adobe Commerce 애플리케이션과 계속 동기화되어 쿼리가 최신 카탈로그 데이터를 반환하도록 합니다
+* **카탈로그 이벤트**: [!DNL Adobe I/O Events]을(를) 통해 카탈로그 변경 알림을 게시하여 GraphQL을 폴링하지 않고도 통합이 제품, 카테고리 및 가격 업데이트에 반응할 수 있도록 합니다.
+* **데이터 관리 대시보드**: Adobe Commerce 관리 인터페이스에서 데이터 동기화 작업을 모니터링하고 관리합니다.
+* **API Mesh 통합**: 필요에 따라 Adobe Developer App Builder용 [API Mesh와 통합](https://developer.adobe.com/graphql-mesh-gateway/)하여 Adobe Commerce GraphQL 시스템을 다른 내부 및 타사 API와 결합하여 카탈로그 서비스 GraphQL 스키마를 확장하고 사용자 지정 데이터 또는 기능을 추가하십시오
 
 ## 아키텍처 개요
 
@@ -60,19 +53,21 @@ Adobe Commerce은 서로 다른 용도로 사용되는 두 가지 GraphQL 시스
 
 ### 핵심 GraphQL 시스템
 
-- **목적**: 모든 Commerce 작업에 대한 모든 기능을 갖춘 API
-- **기능**: 제품, 고객, 장바구니, 체크아웃 등을 위한 쿼리(읽기) 및 변형(쓰기)
-- **제한**: 제품 쿼리가 속도에 최적화되지 않았습니다.
-- **사용 사례**: 일반적인 Commerce 작업 및 쓰기 작업
+* **목적**: 모든 Commerce 작업에 대한 모든 기능을 갖춘 API
+* **기능**: 제품, 고객, 장바구니, 체크아웃 등을 위한 쿼리(읽기) 및 변형(쓰기)
+* **제한**: 제품 쿼리가 속도에 최적화되지 않았습니다.
+* **사용 사례**: 일반적인 Commerce 작업 및 쓰기 작업
 
 ### 카탈로그 서비스 GraphQL 시스템
 
-- **목적**: 고성능 제품 카탈로그 쿼리만
-- **기능**: 제품, 특성, 인벤토리 및 가격에 대한 읽기 전용 쿼리
-- **장점**: 제품 데이터의 핵심 시스템보다 훨씬 빠름
-- **사용 사례**: 속도가 중요한 Storefront 제품 경험
+* **목적**: 고성능 제품 카탈로그 쿼리만
+* **기능**: 제품, 특성, 인벤토리 및 가격에 대한 읽기 전용 쿼리
+* **장점**: 제품 데이터의 핵심 시스템보다 훨씬 빠름
+* **사용 사례**: 속도가 중요한 Storefront 제품 경험
 
 카탈로그 서비스에서 사용할 수 있는 데이터는 SaaS 데이터 내보내기 확장에 의해 전달됩니다. 이 확장은 Commerce 애플리케이션과 연결된 Commerce 서비스 간의 데이터를 동기화하여 서비스 GraphQL API 종단점에 대한 쿼리가 가장 최신 카탈로그 데이터를 반환하도록 합니다. SaaS 데이터 내보내기 작업 관리 및 문제 해결에 대한 자세한 내용은 [SaaS 데이터 내보내기 안내서](../data-export/overview.md)를 참조하십시오.
+
+[!DNL Catalog Service]의 카탈로그 데이터가 변경되면 카탈로그 이벤트가 [!DNL Adobe I/O Events]을(를) 통해 구독 중인 소비자에게 알립니다. 이러한 이벤트를 사용하여 GraphQL API를 폴링하지 않고 캐시를 무효화하거나, 검색 색인을 업데이트하거나, 외부 시스템을 동기화할 수 있습니다. 이벤트 유형, 배달 보장 및 설정에 대한 자세한 내용은 [카탈로그 이벤트 및 Adobe I/O 통합 안내서](catalog-events-guide.md)를 참조하세요.
 
 [!DNL Catalog Service] 고객은 더 빠른 가격 업데이트와 동기화 시간을 제공하는 [SaaS 가격 인덱서](../price-index/price-indexing.md)를 사용할 수 있습니다.
 
@@ -106,15 +101,15 @@ Catalog Service는 서비스로 작동하므로 통합자는 Commerce의 기본 
 
 스키마는 제품 유형의 다양성을 두 가지 사용 사례로 줄입니다.
 
-- **단순 제품** - 카탈로그 서비스는 Adobe Commerce 단순, 가상, 다운로드 가능 및 기프트 카드 제품 유형을 `simpleProductViews`에 매핑합니다. 이 유형에는 다음이 있습니다.
-   - 단일 고정 가격 및 수량
-   - 정규 가격(할인 전) 및 최종 가격(할인 후)
-   - 색상, 크기 및 기타 특성과 같은 제품 특성 지원
+* **단순 제품** - 카탈로그 서비스는 Adobe Commerce 단순, 가상, 다운로드 가능 및 기프트 카드 제품 유형을 `simpleProductViews`에 매핑합니다. 이 유형에는 다음이 있습니다.
+  * 단일 고정 가격 및 수량
+  * 정규 가격(할인 전) 및 최종 가격(할인 후)
+  * 색상, 크기 및 기타 특성과 같은 제품 특성 지원
 
-- **복잡한 제품** - 카탈로그 서비스는 구성 가능한 Adobe Commerce, 번들 및 그룹화된 제품 형식을 `complexProductViews`에 매핑합니다. 복합 제품은 함께 구성하거나 번들로 제공할 수 있는 여러 간단한 제품의 컬렉션입니다.
-   - 각 구성 요소 단순 제품은 자체 가격을 가질 수 있습니다.
-   - 구매자는 개별 구성품 제품에 대한 수량을 지정할 수 있습니다.
-   - 제품 옵션(크기, 색상, 재질 등)은 통합되며 제품 유형에 관계없이 동일한 방식으로 작동합니다. 각 옵션 선택은 고유한 속성과 가격이 있는 특정 간단한 제품을 가리킵니다. 최종 제품은 구매자가 모든 필수 옵션을 선택할 때까지 정의되지 않은 상태로 유지됩니다.
+* **복잡한 제품** - 카탈로그 서비스는 구성 가능한 Adobe Commerce, 번들 및 그룹화된 제품 형식을 `complexProductViews`에 매핑합니다. 복합 제품은 함께 구성하거나 번들로 제공할 수 있는 여러 간단한 제품의 컬렉션입니다.
+  * 각 구성 요소 단순 제품은 자체 가격을 가질 수 있습니다.
+  * 구매자는 개별 구성품 제품에 대한 수량을 지정할 수 있습니다.
+  * 제품 옵션(크기, 색상, 재질 등)은 통합되며 제품 유형에 관계없이 동일한 방식으로 작동합니다. 각 옵션 선택은 고유한 속성과 가격이 있는 특정 간단한 제품을 가리킵니다. 최종 제품은 구매자가 모든 필수 옵션을 선택할 때까지 정의되지 않은 상태로 유지됩니다.
 
 #### 제품 보기 속성
 
@@ -140,7 +135,8 @@ Catalog Service는 서비스로 작동하므로 통합자는 Commerce의 기본 
 
 구현 프로세스에는 다음이 포함됩니다.
 
-1. [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[카탈로그 서비스 설치 및 구성](installation.md)**—카탈로그 서비스 확장을 설치 및 구성하고 [!DNL Commerce Services Connector]을(를) 사용하여 SaaS 연결을 설정합니다.
-2. **상점 코드 업데이트**: Catalog Service GraphQL 쿼리를 프론트엔드에 통합합니다.
-3. **쿼리 라우팅**: 모든 카탈로그 서비스 쿼리는 GraphQL 게이트웨이(온보딩 중에 제공된 URL)를 통해 이동합니다.
-4. **데이터 동기화 모니터링 및 문제 해결**: 향상된 성능을 확인하고 결과를 모니터링합니다.
+1. [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **[카탈로그 서비스 설치 및 구성](installation.md)**—카탈로그 서비스 확장을 설치 및 구성하고 [!DNL Commerce Services Connector]을(를) 사용하여 SaaS 연결을 설정합니다.
+1. **상점 코드 업데이트**: Catalog Service GraphQL 쿼리를 프론트엔드에 통합합니다.
+1. **쿼리 라우팅**: 모든 카탈로그 서비스 쿼리는 GraphQL 게이트웨이(온보딩 중에 제공된 URL)를 통해 이동합니다.
+1. **데이터 동기화 모니터링 및 문제 해결**: 향상된 성능을 확인하고 결과를 모니터링합니다.
+1. **(선택 사항) [카탈로그 이벤트 설정](catalog-events-guide.md)**—캐시 무효화, 검색 색인화 또는 외부 시스템 동기화에 대한 카탈로그 변경 알림을 받도록 [!DNL Adobe I/O Events] 구독을 구성하십시오.
