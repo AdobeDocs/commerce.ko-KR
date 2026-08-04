@@ -22,14 +22,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ee2211b243171ebfc9ca744f169c786943c40ad9
+source-git-commit: 06cf519b8588e19f870e851558fa7fe7f0602b17
 workflow-type: tm+mt
-source-wordcount: 3256
+source-wordcount: 3237
 ht-degree: 0%
 
 ---
 
-# [!DNL SaaS Data Export] 확장 릴리스 노트
+# [!DNL SaaS Data Export Extension] 릴리스 정보
 
 이 릴리스 노트는 [!DNL SaaS data export] 확장의 최신 버전에 대해 설명합니다. 현재 주요 릴리스 버전에 대한 지원이 제공됩니다. 이전 버전에 대한 릴리스 노트는 참조를 위해 제공됩니다.
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->SaaS 데이터 내보내기 확장은 라이브 검색, 제품 권장 사항 및 카탈로그 서비스와 함께 자동으로 설치되는 모듈 컬렉션입니다. Composer를 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
+>[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
-## 2026 릴리스
+## 2026 릴리스 {#release-notes-2026}
 
 ### 103.4.30 릴리스
 
@@ -70,6 +70,7 @@ _2026년 6월 11일_
 _2026년 6월 4일_
 
 ![수정](../assets/fix.svg) **동시 카탈로그 업데이트 후에도 번들 제품이 계속 표시됩니다**- 구성 가능한 제품과 번들 제품이 동시에 업데이트되었을 때 번들 제품이 상점 앞에 표시되지 않는 문제를 해결했습니다. `magento/module-data-exporter`을(를) 버전 103.4.27로 업그레이드하면 [!DNL Catalog Service], [!DNL Live Search] 및 기타 연결된 Commerce 서비스에서 기존 번들 데이터 불일치를 수정하기 위해 제품 피드가 자동으로 다시 동기화되도록 예약됩니다.
+<!--MDEE-1379-->
 
 ### 103.4.26 릴리스
 
@@ -90,8 +91,10 @@ _2026년 5월 19일_
 _2026년 5월 5일_
 
 ![수정](../assets/fix.svg) **내보내기 로그에서 더 쉬운 문제 해결**-많은 내보내기 관련 오류 및 경고에 일관된 로그 코드가 포함되어 있습니다. 이러한 코드를 사용하면 지원 또는 설명서 작업 시 문제를 더 빨리 추적하는 데 도움이 됩니다. 자세한 내용은 [로그 코드 참조](troubleshooting/log-codes-reference.md)를 참조하십시오.
+<!--MDEE-1276-->
 
 ![수정](../assets/fix.svg) **특성 옵션 레이블이 변경될 때 자동 재동기화** 스토어 보기에 대한 제품 특성 옵션 레이블 변경(다중 선택 특성 포함)은 이제 Live Search, 제품 권장 사항, 카탈로그 서비스 및 기타 연결된 Commerce 서비스가 쇼핑객 보기에 업데이트된 패싯 및 필터 레이블을 표시하도록 영향을 받는 제품을 다시 내보냅니다. 이전에는 레이블 전용 편집으로 광범위한 제품 변경으로 동기화가 트리거될 때까지 SaaS 카탈로그에서 오래된 단어가 표시될 수 있었습니다.
+<!--MDEE-1337-->
 
 ![수정](../assets/fix.svg) **기본 범위 데이터가 누락된 경우의 신뢰할 수 있는 상태 및 가시성**-연결된 서비스가 올바르게 활성화, 비활성화 및 가시성 동작을 얻을 수 있도록 제품 내보내기가 기본 관리 범위의 간격을 처리합니다. 설정한 저장소별 값이 여전히 우선합니다.
 
@@ -108,8 +111,10 @@ _2026년 5월 5일_
 
 _2026년 4월 20일_
 
-![수정](../assets/fix.svg) **정적 EAV 특성을 삭제할 때 해결된 SQL 오류**-ProductAttributeDelete 플러그인은 정적 EAV 특성을 삭제할 때 더 이상 SQL 오류를 생성하지 않으므로 보다 원활한 특성 관리와 향상된 시스템 안정성을 보장합니다. <!--MDEE-1336-->
-![수정](../assets/fix.svg) **범주 이동 후 범주 경로 내보내기가 수정됨**- 범주가 다른 상위로 이동될 때 범주 피드가 `url_path`을(를) 올바르게 업데이트하여 연결된 Commerce 서비스에서 누락되거나 오래된 범주 경로를 방지합니다.![수정](../assets/fix.svg) **관련 제품에 대한 개선된 예약된 범주 업데이트** 범주 URL에 대한 예약된 업데이트는 이제 의도한 범주에만 영향을 주어 데이터 무결성을 유지하고 관련 제품에 대한 의도하지 않은 변경을 방지합니다. 이제 예약된 범주 URL 변경 사항이 내보낸 데이터에 올바르게 반영되어 상점 탐색 및 연결된 서비스가 현재 카탈로그와 일치하도록 유지됩니다.
+![수정](../assets/fix.svg) **정적 EAV 특성을 삭제할 때 SQL 오류가 해결되었습니다**-ProductAttributeDelete 플러그인은 정적 EAV 특성을 삭제할 때 더 이상 SQL 오류를 생성하지 않으므로 보다 원활한 특성 관리와 향상된 시스템 안정성을 보장합니다. <!--MDEE-1336-->
+![수정](../assets/fix.svg) **범주 이동 후 범주 경로 내보내기가 수정됨**- 범주가 다른 상위로 이동될 때 범주 피드가 `url_path`을(를) 올바르게 업데이트하여 연결된 Commerce 서비스에서 누락되거나 오래된 범주 경로를 방지합니다.<!--MDEE-1331-->
+![수정](../assets/fix.svg) **관련 제품에 대한 개선된 예약된 범주 업데이트** 범주 URL에 대한 예약된 업데이트는 이제 의도한 범주에만 영향을 주어 데이터 무결성을 유지하고 관련 제품에 대한 의도하지 않은 변경을 방지합니다. 이제 예약된 범주 URL 변경 사항이 내보낸 데이터에 올바르게 반영되어 상점 탐색 및 연결된 서비스가 현재 카탈로그와 일치하도록 유지됩니다.
+<!--MDEE-1321-->
 
 ### 103.4.22 릴리스
 
@@ -174,7 +179,7 @@ _2025년 11월 24일_
 
 _2025년 10월 22일_
 
-![새로운 기능](../assets/new.svg) Adobe Commerce에서 연결된 서비스(카탈로그 서비스, Live Search 및 제품 권장 사항)로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장 기능에 대한 지원을 추가했습니다. 이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)을 참조하십시오. <!--MDEE-954-->
+![새로 만들기](../assets/new.svg) 연결된 서비스([!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendations])로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장에 대한 지원을 추가했습니다. [!DNL Adobe Commerce]이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)을 참조하십시오. <!--MDEE-954-->
 
 ### 103.4.14 릴리스
 
@@ -300,7 +305,7 @@ _2025년 3월 11일_
 ![새로 만들기](../assets/new.svg) 지정된 제품 SKU 목록을 기반으로 `products`, `productOverrides` 및 `productAttributes` 피드를 부분적으로 동기화하는 기능이 추가되었습니다. CLI 다시 동기화 명령에 `--by-ids` 옵션을 추가하여 새 기능을 사용합니다. <!--MDEE-606-->
 
 ```shell
-bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
+bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>'
 ```
 
 ![수정](../assets/fix.svg) 더 이상 사용되지 않는 기능을 해결하여 PHP 8.4의 잠재적인 호환성 문제를 줄였습니다. <!--MDEE-1002-->
@@ -468,12 +473,12 @@ _2024년 4월 30일_
 
 - 피드 테이블(및 인덱서 보기 ID):
 
-   - `catalog_data_exporter_products` -> `cde_products_feed`
-   - `catalog_data_exporter_product_attributes` -> `cde_product_attributes_feed`
-   - `catalog_data_exporter_categories` -> `cde_categories_feed`
-   - `catalog_data_exporter_product_prices` -> `cde_product_prices_feed`
-   - `catalog_data_exporter_product_variants` -> `cde_product_variants_feed`
-   - `inventory_data_exporter_stock_status` -> `inventory_data_exporter_stock_status_feed`
+  - `catalog_data_exporter_products` -> `cde_products_feed`
+  - `catalog_data_exporter_product_attributes` -> `cde_product_attributes_feed`
+  - `catalog_data_exporter_categories` -> `cde_categories_feed`
+  - `catalog_data_exporter_product_prices` -> `cde_product_prices_feed`
+  - `catalog_data_exporter_product_variants` -> `cde_product_variants_feed`
+  - `inventory_data_exporter_stock_status` -> `inventory_data_exporter_stock_status_feed`
 
 - 로그 테이블 이름 변경 - 피드 테이블과 동일한 이름 지정 패턴을 따르지만 로그 테이블 이름 변경에는 `_cl` 접미사가 추가됩니다. 예: `catalog_data_exporter_products_cl`-> `cde-products_feed_cl`
 
