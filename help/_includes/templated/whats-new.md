@@ -1,7 +1,7 @@
 ---
-source-git-commit: 64d5e1d1ee41241bce36faa31db7c436e018037c
+source-git-commit: 16a200892f2d116a38ebde370a79d333f65e4c8a
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,72 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 7월 30일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>더 광범위한 지리적 가용성을 반영하고 고급 서비스에 대한 지원 국가 세부 사항을 확장하도록 표준 서비스에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/compatibility#standard-vs-advanced-payment-services-experience">결제 서비스 호환성 표</a>를 업데이트했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b667dfd60809e55bc82cecc8c4f7df60483eecba">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 7월 29일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 프로덕션에 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1f91b5535d30ac894531508278b19d961f5a9d2c">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 7월 28일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>마이그레이션 프로세스에 대한 자세한 정보로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/migration-tools/bulk-data/migration-tool">대량 데이터 마이그레이션 도구</a> 설명서를 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c8cab2404d47a6cb4a0418a59b533bf11e082b0b">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 7월 23일
 
@@ -323,104 +389,6 @@ ht-degree: 1%
         주요 업데이트, 새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/475c99e18380c961e400a75de1c06cd8cdb929d1">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 3일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8ec59cfc8c9d4d1e804adefe7f88806843e3caa3">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>피드 잠금으로 동시 동기화 충돌을 방지하는 방법과 Commerce 데이터 내보내기 로그(<code>commerce-data-export.log</code>)에 포함된 일반 건너뛰기 메시지를 해석하는 방법을 설명하기 위해 SaaS 데이터 내보내기를 위한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/feed-lock-mechanism">피드 잠금 메커니즘</a>을 추가했습니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/cb045b490482649a65bac9d763062700a90e9ecd">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 2일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Commerce 관리자는 자산 중심의 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/sync-status">동기화 상태</a> 목록을 추가하여 자산 특성별로 동기화된 AEM Assets을 검색, 필터링 및 문제를 해결합니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a1cb3a063d9c4595220ca431356d34e6cbe8ea33">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 1일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/3e5f1a5366cb57cbdd1ed3f5721a82cd0c5c5271">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 5월 28일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><ul>
-  <li>전용 카탈로그 레이어 및 레이어 관련 제한에 대한 명확한 지침을 통해 테넌트 등록 전에 AEM Assets 설정이 이루어지도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aco">Commerce Optimizer용 AEM Assets 구성</a> 온보딩을 개선했습니다.<br />- 저장소 액세스 및 파이프라인 배포를 위해 재배열된 설치 단계 및 Cloud Manager 스크린샷으로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem">AEM Assets 프로젝트를 구성</a>합니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization">통합 구성</a>에서 IMS 기반 프로그램 ID 및 환경 ID 선택을 명확화했습니다.</li>
-</ul>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/de94aaad29313b3e8254d11d8801ba0d7efff3dc">커밋</a></td>
     </tr>
   </tbody>
 </table>
