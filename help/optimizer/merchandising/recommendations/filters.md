@@ -1,20 +1,15 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여  [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
 TQID: https://experienceleague.adobe.com/-pmVrAgEsSkn66K00-eaoQ4TF-7Xyxuwlniip1cR4HM
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 116d8bd804df364ddc9cb1175525f08fd32c01bf
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a8861614fbf0e8d719305e239f926d5232ac49
 workflow-type: tm+mt
-source-wordcount: 1919
+source-wordcount: 1932
 ht-degree: 0%
 
 ---
@@ -98,7 +93,7 @@ ht-degree: 0%
 
 PDP(제품 세부 사항 페이지)에서 권장 사항을 **현재 표시된 제품**&#x200B;을 기준으로 제한해야 하는 경우 **dynamic** 가격 필터를 사용합니다. 이 필터는 해당 제품의 최종 가격을 **앵커**(으)로 사용하고 권장 제품을 정의한 경계와 비교합니다.
 
-동적 연산자는 다음과 같이 제품 컨텍스트에서 실행되는 [SKU 관련 권장 사항 유형](types.md)에만 사용할 수 있습니다.
+동적 연산자는 제품 컨텍스트에서 실행되는 [SKU 관련 권장 사항 유형](types.md)에만 사용할 수 있습니다.
 
 - 이 항목을 보고 다른 항목도 보았습니다.
 - 이 항목을 보고 다른 항목을 구입함
@@ -106,7 +101,16 @@ PDP(제품 세부 사항 페이지)에서 권장 사항을 **현재 표시된 �
 - 다음과 같음
 - 시각적 유사성
 
-해당 장치에는 필터를 고정할 현재 제품이 없기 때문에 인기 기반 형식(예: **가장 많이 본 항목** 또는 **가장 많이 구매한 항목**)에 사용할 수 있는 항목이 **없음**&#x200B;입니다.
+해당 장치에는 필터를 고정할 현재 제품이 없기 때문에 인기 기반 형식에 사용할 수 있는 **없습니다**.
+
+- 가장 많이 본 항목
+- 최다 구매
+- 장바구니에 가장 많이 추가됨
+- 트렌딩
+- 추천 항목
+- 최근에 본 항목
+- 장바구니로 전환 보기
+- 구매 전환으로 보기
 
 상점 첫 화면에서 권장 사항 드롭인은 PDP 컨텍스트에서 현재 제품의 가격을 읽고 권장 사항 요청과 함께 보냅니다. [!DNL Adobe Commerce Optimizer]은(는) 동적 가격 규칙을 평가할 때 해당 값을 앵커로 사용합니다. 구성 가능한 제품의 경우 앵커는 **최저 변형** 최종 가격(`priceRange.minimum`)입니다.
 
