@@ -1,40 +1,26 @@
 ---
-title: 마이그레이션 평가
+title: 마이그레이션 평가 도구
 description: Adobe Commerce PaaS 마이그레이션 평가 보고서를 읽고, 상점 및 백엔드 복잡성 신호를 해석하고, Adobe AI 개발자 도구를 사용하여 Adobe Commerce as a Cloud Service에 대한 확장 빌드를 시작하는 방법에 대해 알아봅니다.
 feature: Cloud, Migration
 role: Developer, Admin
 level: Intermediate
-nudge: true1
 autotag-review: '2026-06-18T16:09:41.112Z'
 TQID: 'https://experienceleague.adobe.com/-OrsBVtHRcEV5EzgHzzP0JVf0aQWfSO2Fu1R5F5jtAw'
-product_v2:
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4cd054b64c3b95fd50ab9bb682469ace7cc871a3
+product_v2: id: de2e2e68-c5d7-4efe-be7b-27528698f06bid: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 43d5571c6a1a3c5152d3b389b73887fd4739fa7f
 workflow-type: tm+mt
-source-wordcount: 2497
+source-wordcount: 2499
 ht-degree: 0%
 
 ---
 
 
-# 마이그레이션 평가
+# 마이그레이션 평가 도구
 
 >[!IMPORTANT]
 >
@@ -308,25 +294,25 @@ Manages custom shipping rate calculations based on customer account tier and ord
 ## 리소스
 
 - [!DNL Adobe Commerce as a Cloud Service]
-   - [개요](../overview.md)
-   - [마이그레이션 개요](./overview.md)
-   - [등급 확장 튜토리얼](../tutorials/ratings-extension.md)
-   - [배송 방법 자습서](../tutorials/shipping-method-extension.md)
+  - [개요](../overview.md)
+  - [마이그레이션 개요](./overview.md)
+  - [등급 확장 튜토리얼](../tutorials/ratings-extension.md)
+  - [배송 방법 자습서](../tutorials/shipping-method-extension.md)
 - 확장성
-   - [개요](https://developer.adobe.com/commerce/extensibility/)
-   - [AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/)
-      - [우수 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/best-practices)
-      - [설정](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)
-      - [스킬 및 프롬프트](https://developer.adobe.com/commerce/extensibility/developer-agent/skills-and-prompts)
-      - [사용 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/use-cases)
-   - [App Builder 개요](https://developer.adobe.com/app-builder/docs/intro_and_overview/)
-   - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
-   - 스타터 키트
-      - [백엔드 통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)
-      - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
+  - [개요](https://developer.adobe.com/commerce/extensibility/)
+  - [AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/)
+    - [우수 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/best-practices)
+    - [설정](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)
+    - [스킬 및 프롬프트](https://developer.adobe.com/commerce/extensibility/developer-agent/skills-and-prompts)
+    - [사용 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/use-cases)
+  - [App Builder 개요](https://developer.adobe.com/app-builder/docs/intro_and_overview/)
+  - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
+  - 스타터 키트
+    - [백엔드 통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)
+    - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 - Storefront 개발
-   - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-   - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
+  - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/)
+  - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/)
 
 >[!TIP]
 >
