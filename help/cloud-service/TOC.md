@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-source-git-commit: 039f848c37235195a3ffcc90238dad77513a9ec3
+source-git-commit: 43d5571c6a1a3c5152d3b389b73887fd4739fa7f
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: 224
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 - [Adobe Commerce as a Cloud Service](overview.md)
 - [기능 비교](feature-comparison.md)
 - [시작](getting-started.md)
-- [사용자 및 Identity Management](user-management.md)
+- [사용자 및 ID 관리](user-management.md)
 - [상점 첫 화면](storefront.md)
 - [사용 사례](use-cases.md)
 - 보안 {#security}
@@ -40,7 +40,7 @@ ht-degree: 4%
       - [마이그레이션 서비스 액세스 확인](migration/bulk-data/cdms-access.md)
       - [대량 데이터 마이그레이션 실행](migration/bulk-data/migration-guide.md)
       - [비디오 워크스루](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/bulk-data-migration-tool/introduction){target="_blank"}
-    - [마이그레이션 평가](migration/assessment.md)
+    - [마이그레이션 평가 도구](migration/assessment.md)
     - [코딩 툴](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
   - {hide-from-toc}[설명서 RAG 서비스](migration/doc-rag.md)
 - [고객으로 로그인](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
@@ -48,7 +48,7 @@ ht-degree: 4%
 - [REST를 통한 이메일 트리거](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - 튜토리얼 {#tutorials}
   - [자습서 사전 요구 사항](tutorials/tutorial-prerequisites.md)
-  - [등급 확장 자습서](tutorials/ratings-extension.md)
+  - [등급 확장 튜토리얼](tutorials/ratings-extension.md)
   - [배송 방법 확장 튜토리얼](tutorials/shipping-method-extension.md)
   - {hide-from-toc}[게재 예상 확장 자습서](tutorials/delivery-estimates-extension.md)
   - {hide-from-toc}[재고 알림 확장 자습서](tutorials/in-stock-notification-extension.md)
@@ -56,7 +56,7 @@ ht-degree: 4%
 - 스키마 {#schemas}
   - [GraphQL 스키마](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
   - [REST API 스키마](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
-- [개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
+- [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
 - [비디오 자습서](https://experienceleague.adobe.com/ko/playlists/accs-getting-started-product-overview){target="_blank"}
 - [릴리스 정보](release-notes.md)
 - [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
