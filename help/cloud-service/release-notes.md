@@ -32,10 +32,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-last-update: 2026-08-06
-source-git-commit: 1dd79f88f97d2f6a2f6314434f11049871dcdb6e
+last-update: 2026-08-07
+source-git-commit: 477802467d8f60f05137d60e0d703c0302de5144
 workflow-type: tm+mt
-source-wordcount: 5259
+source-wordcount: 5371
 ht-degree: 0%
 
 ---
@@ -48,7 +48,31 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 7월 - 릴리스 #1 {#latest}
+## 2026년 8월 - 릴리스 #1 {#latest}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+다음 항목은 2026년 8월 11일에 프로덕션에 게시됩니다.
+
+>[!BEGINSHADEBOX]
+
+### 송장 지급에 대한 이벤트 구독
+
+송장 지불이 기록되면 새 `observer.sales_order_invoice_pay` 이벤트가 표시되므로 통합에서 송장 상태 변경에 대해 폴링하는 대신 이벤트를 구독할 수 있습니다. <!-- CEXT-5983 -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* GraphQL을 통해 고객의 지정된 회사를 가져오는 것이 느려질 수 있는 문제를 해결했습니다. <!-- ACCS-1425 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 7월
 
 [!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
