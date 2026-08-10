@@ -30,11 +30,11 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-last-update: 2026-08-03
-source-git-commit: aeb1e656f77b974baf7044ae80fdd9d6bcc64cbb
+last-update: 2026-08-07
+source-git-commit: 4d86528d537459fb27b50e0941510087a61ac986
 workflow-type: tm+mt
-source-wordcount: 1335
-ht-degree: 1%
+source-wordcount: 1314
+ht-degree: 0%
 
 ---
 

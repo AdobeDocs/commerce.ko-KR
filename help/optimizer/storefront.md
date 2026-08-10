@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 1562
+source-wordcount: 1573
 ht-degree: 0%
 
 ---
@@ -37,20 +37,20 @@ ht-degree: 0%
 
 * 저장소를 만들 수 있고 로컬 개발용으로 구성된 **GitHub 계정**(github.com)
 * 샘플 데이터와 구성된 카탈로그 보기 및 정책이 있는 **[!DNL Adobe Commerce Optimizer]인스턴스**
-   * 설치 지침은 [샘플 데이터 추가](get-started.md#add-sample-data)를 참조하십시오.
+  * 설치 지침은 [샘플 데이터 추가](get-started.md#add-sample-data)를 참조하십시오.
 
 ### 필수 인스턴스 데이터
 
 시작하기 전에 [!DNL Adobe Commerce Optimizer] 인스턴스에서 다음 정보를 수집합니다.
 
 * **테넌트 ID**(인스턴스 ID라고도 함)
-   * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
+  * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
 * 인스턴스의 **GraphQL 끝점**
-   * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
+  * [인스턴스 세부 정보 페이지](get-started.md#manage-instances)에서 사용 가능
 * 글로벌 카탈로그 보기의 **카탈로그 보기 ID**
-   * [카탈로그 세부 정보 페이지](./setup/catalog-view.md#manage-catalog-view)에서 사용 가능
+  * [카탈로그 세부 정보 페이지](./setup/catalog-view.md#manage-catalog-views)에서 사용 가능
 * 카탈로그 보기용 **Source 로케일**
-   * 샘플 데이터의 기본값은 `en-US`입니다.
+  * 샘플 데이터의 기본값은 `en-US`입니다.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![[!DNL Site Creator tool]](./assets/storefront-setup-site-creator.png){width="700" zoomable="yes"}
 
-1. **새 사이트 만들기(코드 및 콘텐츠)**&#x200B;를 선택합니다.
+1. **[!UICONTROL Create New Site (Code & Content)]**&#x200B;을(를) 선택합니다.
 
 1. 사이트 구성을 완료합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 0%
    * **사이트 이름**: 상점 이름을 설명하는 이름을 선택하세요.
    * **Commerce GraphQL 끝점(선택 사항)**: [!DNL Adobe Commerce Optimizer] 인스턴스에 대한 GraphQL 끝점을 입력합니다.
 
-1. **사이트 만들기**&#x200B;를 클릭하여 Storefront 상용구 코드를 사용하여 GitHub 리포지토리를 만듭니다.
+1. **[!UICONTROL Create Site]**&#x200B;을(를) 클릭하여 Storefront 상용구 코드로 GitHub 리포지토리를 만듭니다.
 
    저장소가 생성되면 사이트 생성자가 업데이트하고 코드 동기화 앱을 설치하라는 메시지를 표시합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    * **[!UICONTROL Select repositories]** 메뉴를 클릭한 다음 만든 상점 코드 저장소를 선택합니다.
    * 저장소를 등록하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
-1. 사이트 작성자가 열려 있는 브라우저 창으로 돌아가서 **사이트 만들기**&#x200B;를 클릭합니다.
+1. 사이트 작성자가 열려 있는 브라우저 창으로 돌아가서 **[!UICONTROL Create Site]**&#x200B;을(를) 클릭합니다.
 
    사이트 작성자는 Storefront Boilerplate 콘텐츠를 문서 작성 환경에 복사합니다. 이 프로세스는 1~2분 정도 소요됩니다.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    이러한 링크를 사용하여 상점 코드, 콘텐츠 및 구성을 관리하십시오.
 
-1. 나중에 참조할 수 있도록 다음 링크를 복사하고 저장하십시오. **[!UICONTROL Copy]을(를) 클릭하십시오.
+1. 나중에 참조할 수 있도록 다음 링크를 복사하여 저장하십시오. **[!UICONTROL Copy]**&#x200B;을(를) 클릭하십시오.
 
 ## 상점 구성
 
@@ -140,6 +140,10 @@ ht-degree: 0%
    >[!NOTE]
    >
    >가격 장부 ID를 찾으려면 [!DNL Adobe Commerce Optimizer]의 [카탈로그 보기 구성 세부 정보](./setup/catalog-view.md)에서 할당된 가격 장부를 확인하십시오. 가격 장부가 지정되지 않은 경우 구성 파일에서 이 헤더를 제거할 수 있습니다. 가격 장부가 카탈로그 보기에 할당되면 다시 추가합니다.
+
+   >[!NOTE]
+   >
+   >카탈로그 보기에서 [!UICONTROL Catalog Protection]을(를) 사용하도록 설정한 경우 올바른 서명 토큰이 포함된 `AC-Catalog-View-Access-Token` 헤더를 추가하거나 해당 카탈로그 보기에 대한 상점 요청을 거부합니다. [비공개 카탈로그 보기](./setup/private-catalog-view.md)를 참조하세요.
 
 1. 구성 파일을 저장합니다.
 
@@ -228,7 +232,7 @@ ht-degree: 0%
 ![확인 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 하나 이상의 제품 세부 정보 페이지에 전체 정보가 표시됩니다.<br>
 ![체크리스트](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 검색 기능이 관련 결과를 반환합니다.<br>
 ![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 제품 이미지를 올바르게 로드하고 있습니다.<br>
-![검사 목록](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) 구성 값이 인스턴스 설정과 일치함<br>
+<br>
 
 ### 도움말 보기
 

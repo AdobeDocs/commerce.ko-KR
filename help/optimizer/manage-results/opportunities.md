@@ -23,7 +23,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
 source-wordcount: 1445
 ht-degree: 0%
@@ -167,7 +167,7 @@ Opportunities 페이지는 최적화 권장 사항을 관리하는 데 도움이
 
 ### 카탈로그 레이어가 자동 고정을 사용하여 작동하는 방식
 
-Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 수정 프로그램에서 자동으로 레이어를 만들고 가장 높은 우선 순위(가장 높은 숫자)로 지정합니다. 이 레이어를 삭제하면 다음에 자동 고정을 실행할 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Adobe Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 시 해당 우선 순위가 변경되지 않습니다. 자동 수정 레이어를 유지하지만 즉시 사용하지 않으려면 레이어를 비활성화할 수 있습니다. [카탈로그 계층](../setup/catalog-layer.md#activate-deactivate-or-delete-layers)을 관리하는 방법에 대해 자세히 알아보세요.
+Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 수정 프로그램에서 자동으로 레이어를 만들고 가장 높은 우선 순위(가장 높은 숫자)로 지정합니다. 이 레이어를 삭제하면 다음에 자동 고정을 실행할 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Adobe Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 시 해당 우선 순위가 변경되지 않습니다. 자동 수정 레이어를 유지하지만 즉시 사용하지 않으려면 레이어를 비활성화할 수 있습니다. [카탈로그 계층](../setup/catalog-layer.md#manage-layer-activation-and-deletion)을 관리하는 방법에 대해 자세히 알아보세요.
 
 ![카탈로그 레이어](../assets/catalog-layers.png)
 

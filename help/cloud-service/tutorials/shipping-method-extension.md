@@ -266,10 +266,10 @@ Proceed with Phase 5 cleanup.
 
    - **스토어** > 설정 > **구성** > **Adobe 서비스** > **Commerce 웹후크**&#x200B;로 이동합니다.
    - 웹후크 추가:
-      - **Webhook 메서드:** `plugin.magento.out_of_process_shipping_methods.api.shipping_rate_repository.get_rates`
-      - **Webhook 유형:** **이후**
-      - **URL:** 배포된 **배송 방법** 웹 작업 URL(배포 출력 또는 [!DNL Adobe Developer Console])입니다.
-      - **필수:** **선택 사항** - 외부 API에서 요금을 반환하지 않는 경우 체크아웃이 계속 작동합니다.
+     - **Webhook 메서드:** `plugin.magento.out_of_process_shipping_methods.api.shipping_rate_repository.get_rates`
+     - **Webhook 유형:** **이후**
+     - **URL:** 배포된 **배송 방법** 웹 작업 URL(배포 출력 또는 [!DNL Adobe Developer Console])입니다.
+     - **필수:** **선택 사항** - 외부 API에서 요금을 반환하지 않는 경우 체크아웃이 계속 작동합니다.
 
    ![모의 배송 속도를 위한 Commerce 관리 웹후크 구성](../assets/admin-webhook-shipping.png){width="600" zoomable="yes"}
 
@@ -287,9 +287,9 @@ Proceed with Phase 5 cleanup.
    - **앱**&#x200B;을 열고 앱을 선택하세요.
    - **모의 배송** 탭을 엽니다(또는 이에 해당).
    - 다음 세부 정보를 입력합니다.
-      - 복사한 Pipedream 워크플로 URL을 **서비스 URL:**(예: `https://123456.m.pipedream.net`).
-      - **API 키:** 모음에 대해 비어 있지 않은 모든 값(예: `tutorial-key`).
-      - **웨어하우스(배송처) 주소:** 이름, 전화, 거리, 도시, 주, 우편 번호, 국가.
+     - 복사한 Pipedream 워크플로 URL을 **서비스 URL:**(예: `https://123456.m.pipedream.net`).
+     - **API 키:** 모음에 대해 비어 있지 않은 모든 값(예: `tutorial-key`).
+     - **웨어하우스(배송처) 주소:** 이름, 전화, 거리, 도시, 주, 우편 번호, 국가.
    - **저장**&#x200B;을 클릭합니다. 구성은 런타임 상태로 저장되며 전달 방법 작업에 사용됩니다.
 
    서비스 URL, API 키 및 웨어하우스 주소가 있는 ![모의 배송 구성 양식](../assets/admin-ui-mock-shipping.png){width="600" zoomable="yes"}

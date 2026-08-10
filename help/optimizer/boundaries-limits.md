@@ -5,9 +5,9 @@ role: Admin, Developer
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 nudge: true
-source-git-commit: 172fcbd659f4fe8868059d29ed335a5136af8d33
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,8 @@ ht-degree: 0%
 Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 구성 요소로 들어오는 API 요청을 추적하여 다음 작업 중 하나를 용이하게 합니다.
 
 - **이미지 게재에서 다음 항목이 발생할 때마다 하나의 Dynamic Media 작업을 사용합니다**.
-   - 크기 조정, 크기 조정, 포맷 변환, 압축 또는 자르기 작업과 같은 디지털 에셋의 **기본 이미지 변환**.
-   - 해당 디지털 자산 또는 디지털 자산 렌디션 중 **정적 이미지 제공 또는 다운로드**(비디오 제외)
+  - 크기 조정, 크기 조정, 포맷 변환, 압축 또는 자르기 작업과 같은 디지털 에셋의 **기본 이미지 변환**.
+  - 해당 디지털 자산 또는 디지털 자산 렌디션 중 **정적 이미지 제공 또는 다운로드**(비디오 제외)
 - **스마트 이미지 게재는 최종 사용자의 장치 및 브라우저에 가장 적합한 이미지 렌디션을 자동으로 생성하여 단일 디지털 에셋의 최적화된 각 게재에 대해 20개의 Dynamic Media 작업을 사용합니다**.
 - **비디오 게재는 단일 비디오 게재 또는 다운로드 또는 변환된 비디오 변형에 20개의 Dynamic Media 작업을 사용합니다**.
 
@@ -111,6 +111,10 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | 카탈로그 보기 | 마스터 카탈로그의 구성 가능한 하위 집합 수 | [카탈로그 변형](#catalog)의 수를 기반으로 함 | 예<br>카탈로그 변형 늘리기 |
 | 카탈로그 보기별 정책 | 허용되는 데이터 필터 수 | 10 | 아니요 |
 | 정책의 속성 값 | 필터링을 구성할 수 있는 제품 특성 수입니다 | 100 | 아니요 |
+| [제한된 액세스 키 할당](setup/private-catalog-view.md) | 단일 카탈로그 보기에 할당할 수 있는 제한된 액세스 키 수 | 3 | 아니요 |
+| [제한된 액세스 키](setup/restricted-access-keys.md) | 환경당 키 수 | 최대 100개 | 아니요 |
+| RSA 키 크기(제한된 액세스 키) | 제한된 액세스 키에 허용되는 최소 및 최대 키 강도 | 최소 2048비트, 최대 8192비트 | 아니요 |
+| 제한된 액세스 키 | 키 해지 전파 지연 | 캐싱으로 인해 최대 5분. 지연 시간이 경과하면 제거된 키로 서명된 토큰이 거부됩니다. | 적용할 수 없음 |
 
 {style="table-layout:auto"}
 

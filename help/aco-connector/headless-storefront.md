@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Headless storefront는 `commerceOptimizer` GraphQL 쿼리를 호출하여 현재
 | 로그인한 고객 | `websiteCode::sha1(customerGroupId)` |
 
 `Store` 요청 헤더가 웹 사이트 범위를 결정하므로 `websiteCode` 구성 요소가 결정됩니다. `sha1(customerGroupId)` 구성 요소는 데이터 동기화 중에 사용된 가격 장부 ID 수식과 일치합니다. [가격 장부](reference/field-mapping.md#price-books)를 참조하세요.
+
+>[!NOTE]
+>
+>대상 카탈로그 보기에 [!UICONTROL Catalog Protection]이(가) 활성화된 경우 머천다이징 API 요청에 `AC-View-ID` 및 `AC-Price-Book-ID`과(와) 함께 서명된 `AC-Catalog-View-Access-Token` 헤더를 포함하거나 요청이 거부되었습니다. [비공개 카탈로그 보기](../optimizer/setup/private-catalog-view.md)를 참조하세요.
 
 ## 번들 제품: 장바구니에 추가 형식 {#bundle-products-add-to-cart-format}
 

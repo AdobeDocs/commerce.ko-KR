@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 290
 ht-degree: 0%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 0%
 | PCI ASV 스캔 수행 | RA | I |
 | [!DNL Adobe Commerce Optimizer] 인프라 PCI 검사 수정 중 | R | |
 | OS 및 플랫폼 비밀 관리 | RA | |
+| [제한된 액세스 키](setup/restricted-access-keys.md) 생성, 회전 및 취소 및 [!UICONTROL Catalog Protection]에 대한 서명 토큰 | | RA |
 | 백엔드 보안 로그 모니터링 | RA | |
 | 고객 지원 및 액세스 제어 | A | R |
 | Adobe DR 계획 및 백업 및 복원의 연간 테스트 및 문서화 | RA | |

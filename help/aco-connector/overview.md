@@ -26,9 +26,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1087
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ _시작_ 안내서에서 [구성 단계](/help/aco-connector/get-started.md#conf
 
 [!DNL Adobe Commerce Optimizer]에서 [!DNL Adobe Commerce]개의 데이터를 사용할 수 있게 되면 [[!DNL Adobe Commerce Optimizer] Studio](/help/optimizer/overview.md#quick-tour)을(를) 사용하여 머천다이징 및 상점 경험을 동기화된 카탈로그에 연결합니다. 일반적인 다음 단계는 다음과 같습니다.
 
-- **카탈로그 보기 및 정책** - [!UICONTROL Store setup] 메뉴에서 지역, 브랜드 또는 고객별 하위 집합 및 액세스 규칙을 정의합니다.
+- **카탈로그 보기 및 정책** - [!UICONTROL Store setup] 메뉴에서 지역, 브랜드 또는 고객별 하위 집합 및 액세스 규칙을 정의합니다. 카탈로그 보기를 쿼리할 수 있는 사용자를 제한하려면 [비공개 카탈로그 보기](/help/optimizer/setup/private-catalog-view.md)를 참조하세요.
 - **제품 검색 및 권장 사항** - [!UICONTROL Merchandising] 메뉴에서 검색, 패싯, 머천다이징 규칙, 동의어 및 권장 사항 단위를 구성합니다. 검색 및 권장 사항 동작은 [!DNL Adobe Commerce Optimizer]에서 관리됩니다. [!DNL Adobe Commerce] 관리자의 [!DNL Live Search] 및 [!DNL Product Recommendations] 설정은 더 이상 이러한 흐름에 적용되지 않습니다
 - **상점 연결** — 올바른 [!DNL Adobe Commerce Optimizer] 테넌트, 카탈로그 보기 및 머천다이징 API 끝점에서 [!DNL Edge Delivery Services] 또는 타사 Headless 빌드의 Commerce 상점 전면을 가리킵니다. 사용자 지정 Headless 통합에 대해서는 [Headless 상점 통합](/help/aco-connector/headless-storefront.md)을 참조하십시오. 타사 통합의 예를 보려면 [Salesforce Commerce 커넥터 for [!DNL Adobe Commerce Optimizer]](/help/optimizer/developer/salesforce-connector.md)를 참조하십시오.
 - **체크아웃** — 장바구니, 체크아웃, 주문 관리 및 고객 계정을 [!DNL Adobe Commerce] 또는 연결된 타사 플랫폼에 보관합니다. 필요한 경우 장바구니 핸드오프에 [!DNL App Builder] 및 [!DNL API Mesh] 사용

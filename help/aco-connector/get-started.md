@@ -26,10 +26,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 last-update: 2026-07-29
-source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
+source-git-commit: fb025e5232902ba9fea7e858085ea85abeb11720
 workflow-type: tm+mt
-source-wordcount: 1059
-ht-degree: 0%
+source-wordcount: 1106
+ht-degree: 3%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 1. **카탈로그 보기 및 정책 [!DNL Commerce Optimizer]개 구성**
 
-   [!DNL Commerce Optimizer] UI에 카탈로그 보기 및 정책을 만듭니다. 가격 장부는 [!DNL Adobe Commerce] 고객 그룹에서 자동으로 만들어집니다. 지침은 *[!DNL Commerce Optimizer]사용 안내서*&#x200B;의 [카탈로그 보기](../optimizer/setup/catalog-view.md) 및 [정책](../optimizer/setup/policies.md) 설명서를 참조하십시오.
+   [!DNL Commerce Optimizer] UI에 카탈로그 보기 및 정책을 만듭니다. 가격 장부는 [!DNL Adobe Commerce] 고객 그룹에서 자동으로 만들어집니다. 지침은 *[!DNL Commerce Optimizer]사용 안내서*&#x200B;의 [카탈로그 보기](../optimizer/setup/catalog-view.md) 및 [정책](../optimizer/setup/policies.md) 설명서를 참조하십시오. 카탈로그 보기에 대한 액세스를 제한하려면 [비공개 카탈로그 보기](../optimizer/setup/private-catalog-view.md)를 참조하세요.
 
 1. **[!DNL Edge Delivery Services]**&#x200B;에서 Commerce 상점 설정
 

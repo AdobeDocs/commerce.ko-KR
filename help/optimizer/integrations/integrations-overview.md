@@ -7,9 +7,9 @@ role: Developer, Admin
 level: Beginner
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip=" [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 8f3a2c1b-9d4e-5f6a-bc7d-1e2f3a4b5c6d
-source-git-commit: a404c2ff7cec5e72ce65d3670330b1f3f3c4702d
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Adobe Commerce Optimizer 커넥터 {#aco-connector}
 
-Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프레미스)와 [!DNL Adobe Commerce Optimizer] 간의 카탈로그 및 가격 데이터를 동기화하는 브리지입니다. 커넥터를 사용하도록 설정하면 Commerce은 제품 데이터 기록 시스템으로 남고, [!DNL Adobe Commerce Optimizer]은(는) 제품 검색, 권장 사항, 머천다이징 규칙, 분석 및 Headless Storefront 경험을 강화합니다.
+Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프레미스)와 [!DNL Adobe Commerce Optimizer] 간의 카탈로그 및 가격 데이터를 동기화하는 브리지입니다. 커넥터를 사용하도록 설정하면 Commerce은 제품 데이터 기록 시스템으로 남고, [!DNL Adobe Commerce Optimizer]은(는) 제품 검색, 권장 사항, 머천다이징 규칙, 분석 및 Headless Storefront 경험을 강화합니다. 동기화된 카탈로그 보기를 쿼리할 수 있는 사용자를 제한하려면 [개인 카탈로그 보기](../setup/private-catalog-view.md)를 참조하세요.
 
 - [Adobe Commerce Optimizer 커넥터 개요](../../aco-connector/overview.md){target="_blank"}
 - [커넥터 시작](../../aco-connector/get-started.md){target="_blank"}

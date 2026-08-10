@@ -1,5 +1,5 @@
 ---
-title: 시작하기
+title: 시작
 description: ' [!DNL Adobe Commerce Optimizer]을(를) 시작하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
@@ -22,14 +22,14 @@ topic_v2:
   - id: dba482e5-29a8-4127-afa2-c4b913512ef8
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b94b1b5f38560d5a7be6c5f5431007685202fa
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
-source-wordcount: 1349
+source-wordcount: 1368
 ht-degree: 0%
 
 ---
 
-# 시작
+# 시작하기
 
 이 안내서에서는 처음부터 끝까지 [!DNL Adobe Commerce Optimizer]을(를) 설정하는 과정을 안내합니다. 이 안내서에서는 모든 역할을 다루지만, 자세한 개발자 관련 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하십시오.
 
@@ -60,8 +60,8 @@ Adobe Commerce as a Cloud Service, 서드파티 상거래 플랫폼 또는 Edge 
 ### 1단계. 인스턴스 만들기
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/)에 로그인합니다.
-1. **Commerce** > **Commerce Cloud 관리자**(으)로 이동합니다.
-1. **인스턴스 추가** > **Commerce Optimizer**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Commerce]** > **[!UICONTROL Commerce Cloud Manager]**(으)로 이동합니다.
+1. **[!UICONTROL Add Instance]** > **[!UICONTROL Commerce Optimizer]**&#x200B;을(를) 클릭합니다.
 
    ![Commerce Optimizer 환경을 만들기 위한 Adobe Commerce Cloud Manager 인스턴스 추가 화면](./assets/create-aco-instance.png){width="60%" zoomable="yes"}
 
@@ -71,7 +71,7 @@ Adobe Commerce as a Cloud Service, 서드파티 상거래 플랫폼 또는 Edge 
    - **환경 유형**: 테스트를 위해 **샌드박스** 환경으로 시작
    - **지역**: 선호하는 지역을 선택하세요.
 
-1. **인스턴스 추가**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Add Instance]**&#x200B;을(를) 클릭합니다.
 
    Cloud Manager이 업데이트되어 새 인스턴스가 포함됩니다. 액세스 및 관리에 대한 자세한 내용은 [인스턴스 관리](#manage-instances)를 참조하십시오.
 
@@ -105,7 +105,7 @@ Adobe Commerce as a Cloud Service, 서드파티 상거래 플랫폼 또는 Edge 
 | **사용자 관리** | 사용자, 개발자 및 관리자 추가 | [사용자 관리](./user-management.md) |
 | **인스턴스 만들기** | 샌드박스 및 프로덕션 환경 설정 | [인스턴스 만들기](#step-1-create-an-instance) |
 | **인스턴스 관리** | 상태를 확인하고 인스턴스 이름 및 설명을 업데이트하며 애플리케이션 및 API 액세스에 대한 키 URL을 가져옵니다. | [인스턴스 관리](#manage-instances) |
-| **액세스 구성** | 카탈로그 보기 및 정책 설정 | [카탈로그 보기](./setup/catalog-view.md) |
+| **액세스 구성** | 카탈로그 보기 및 정책을 설정하고 선택적으로 [개인 카탈로그 보기](./setup/private-catalog-view.md)를 만들어 액세스를 제한합니다. | [카탈로그 보기](./setup/catalog-view.md) |
 
 ### 개발자 작업
 
@@ -140,7 +140,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 1. Commerce Cloud Manager 열기:
 
-   - **빠른 액세스**&#x200B;에서 **Commerce**&#x200B;을(를) 클릭합니다.
+   - **[!UICONTROL Quick access]**&#x200B;에서 **[!UICONTROL Commerce]**&#x200B;을(를) 클릭합니다.
    - 사용 가능한 인스턴스를 봅니다.
 
 ### 인스턴스 검색 및 필터링
@@ -168,7 +168,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 >[!NOTE]
 >
->인스턴스 세부 사항을 보거나 인스턴스를 관리하기 위해 Commerce Cloud 관리자로 돌아가려면 Commerce Optimizer 상단 탐색의 왼쪽 상단에 있는 ![아이콘을 클릭하여 Experience Cloud 응용 프로그램](./assets/apps-icon.png)(앱) 아이콘을 엽니다.
+>인스턴스 세부 사항을 보거나 인스턴스를 관리하기 위해 Commerce Cloud Manager로 돌아가려면 Commerce Optimizer 상단 탐색의 왼쪽 상단에 있는 ![아이콘을 클릭하여 Experience Cloud 애플리케이션](./assets/apps-icon.png)(앱) 아이콘을 엽니다.
 
 ### 인스턴스 세부 사항 가져오기
 
@@ -178,7 +178,7 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 다음 주요 정보를 참고하십시오.
 
-- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target=_blank}
+- **GraphQL 끝점** 상점 앞에서 [머천다이징 서비스 API](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/){target="_blank"}를 사용하여 이 인스턴스에서 카탈로그 및 머천다이징 데이터를 쿼리하는 데 사용하는 GraphQL 끝점입니다
 - **카탈로그 끝점** 상거래 또는 PIM 시스템에서 Adobe Commerce Optimizer으로 제품 및 가격을 수집하는 데 사용하는 REST API 끝점입니다. [데이터 수집 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) 보기
 - **Commerce Optimizer URL** 카탈로그 보기, 정책 및 머천다이징을 구성하고 관리할 수 있는 [Adobe Commerce Optimizer Studio](overview.md) 관리 UI를 엽니다.
 - **인스턴스 ID**: 이 Adobe Commerce Optimizer 인스턴스의 고유 식별자(테넌트 ID)로서, 올바른 환경에 연결하기 위해 상점, API 및 도구에서 사용됩니다.
@@ -193,9 +193,9 @@ Commerce Cloud 관리자에서 인스턴스를 관리합니다.
 
 필요에 따라 인스턴스 이름과 설명을 업데이트합니다.
 
-1. 인스턴스 이름 옆에 있는 **편집** 아이콘을 클릭합니다.
-1. 필요에 따라 **인스턴스 이름** 및 **설명**&#x200B;을 업데이트하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. 인스턴스 이름 옆에 있는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. 필요에 따라 **[!UICONTROL Instance name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 업데이트합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 샘플 데이터 추가
 
