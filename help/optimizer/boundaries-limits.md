@@ -2,12 +2,12 @@
 title: Adobe Commerce Optimizer 제한 및 경계
 description: Adobe Commerce Optimizer 라이선스 제한 및 시스템 경계에 대해 알아봅니다. 용량을 계획하고, 사용량을 추적하고, 제한 초과 시 지연 및 제한을 방지합니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 nudge: true
-source-git-commit: 172fcbd659f4fe8868059d29ed335a5136af8d33
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [라이선스 제한 및 시스템 경계](#license-limits-and-system-boundaries) 섹션에서 설명한 라이선스 패키지를 구입하거나 고유한 사용 사례에 대해 사용자 지정 라이선스를 협상하여 라이선스 제한을 늘릴 수 있습니다. 요구 사항에 대해 논의하려면 Adobe 계정 담당자에게 문의하십시오.
 
-시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko#support)에 문의하십시오.
+시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en#support)에 문의하십시오.
 
 ## 성능 문제 방지
 
@@ -93,8 +93,8 @@ ht-degree: 0%
 Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 구성 요소로 들어오는 API 요청을 추적하여 다음 작업 중 하나를 용이하게 합니다.
 
 - **이미지 게재에서 다음 항목이 발생할 때마다 하나의 Dynamic Media 작업을 사용합니다**.
-   - 크기 조정, 크기 조정, 포맷 변환, 압축 또는 자르기 작업과 같은 디지털 에셋의 **기본 이미지 변환**.
-   - 해당 디지털 자산 또는 디지털 자산 렌디션 중 **정적 이미지 제공 또는 다운로드**(비디오 제외)
+  - 크기 조정, 크기 조정, 포맷 변환, 압축 또는 자르기 작업과 같은 디지털 에셋의 **기본 이미지 변환**.
+  - 해당 디지털 자산 또는 디지털 자산 렌디션 중 **정적 이미지 제공 또는 다운로드**(비디오 제외)
 - **스마트 이미지 게재는 최종 사용자의 장치 및 브라우저에 가장 적합한 이미지 렌디션을 자동으로 생성하여 단일 디지털 에셋의 최적화된 각 게재에 대해 20개의 Dynamic Media 작업을 사용합니다**.
 - **비디오 게재는 단일 비디오 게재 또는 다운로드 또는 변환된 비디오 변형에 20개의 Dynamic Media 작업을 사용합니다**.
 
@@ -111,6 +111,10 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | 카탈로그 보기 | 마스터 카탈로그의 구성 가능한 하위 집합 수 | [카탈로그 변형](#catalog)의 수를 기반으로 함 | 예<br>카탈로그 변형 늘리기 |
 | 카탈로그 보기별 정책 | 허용되는 데이터 필터 수 | 10 | 아니요 |
 | 정책의 속성 값 | 필터링을 구성할 수 있는 제품 특성 수입니다 | 100 | 아니요 |
+| [제한된 액세스 키 할당](setup/private-catalog-view.md) | 단일 카탈로그 보기에 할당할 수 있는 제한된 액세스 키 수 | 3 | 아니요 |
+| [제한된 액세스 키](setup/restricted-access-keys.md) | 환경당 키 수 | 최대 100개 | 아니요 |
+| RSA 키 크기(제한된 액세스 키) | 제한된 액세스 키에 허용되는 최소 및 최대 키 강도 | 최소 2048비트, 최대 8192비트 | 아니요 |
+| 제한된 액세스 키 | 키 해지 전파 지연 | 캐싱으로 인해 최대 5분. 지연 시간이 경과하면 제거된 키로 서명된 토큰이 거부됩니다. | 적용할 수 없음 |
 
 {style="table-layout:auto"}
 
@@ -162,7 +166,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** | **메모** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 

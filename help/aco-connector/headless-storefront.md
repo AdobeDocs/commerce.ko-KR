@@ -2,27 +2,17 @@
 title: '[!DNL Adobe Commerce Optimizer Connector] Headless Storefront 통합'
 description: Headless 상점 전면을  [!DNL Adobe Commerce Optimizer Connector] GraphQL API, 가격 장부 ID 및 번들 추가 장바구니 인코딩과 통합하는 방법을 알아봅니다.
 feature: Storefront, Integration, GraphQL
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:27:30.102Z'
 TQID: 'https://experienceleague.adobe.com/Orif1rROglTQ-3ZkRj5LMF90Y-AdpfTnOgPmJXQjYgc'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: c32adafa-ed01-4b31-997e-2413013911b0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -65,6 +55,10 @@ Headless storefront는 `commerceOptimizer` GraphQL 쿼리를 호출하여 현재
 | 로그인한 고객 | `websiteCode::sha1(customerGroupId)` |
 
 `Store` 요청 헤더가 웹 사이트 범위를 결정하므로 `websiteCode` 구성 요소가 결정됩니다. `sha1(customerGroupId)` 구성 요소는 데이터 동기화 중에 사용된 가격 장부 ID 수식과 일치합니다. [가격 장부](reference/field-mapping.md#price-books)를 참조하세요.
+
+>[!NOTE]
+>
+>대상 카탈로그 보기에 [!UICONTROL Catalog Protection]이(가) 활성화된 경우 머천다이징 API 요청에 `AC-View-ID` 및 `AC-Price-Book-ID`과(와) 함께 서명된 `AC-Catalog-View-Access-Token` 헤더를 포함하거나 요청이 거부되었습니다. [비공개 카탈로그 보기](../optimizer/setup/private-catalog-view.md)를 참조하세요.
 
 ## 번들 제품: 장바구니에 추가 형식 {#bundle-products-add-to-cart-format}
 

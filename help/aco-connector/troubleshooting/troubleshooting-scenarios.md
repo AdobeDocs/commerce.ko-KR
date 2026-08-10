@@ -4,28 +4,16 @@ description: 동기화 결과를 잘못 구성하거나 잘못 해석하여  [!D
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-subfeature_v2:
-  - id: a40ebd6b-b542-4432-a730-1803ef74518d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: c32adafa-ed01-4b31-997e-2413013911b0id: e7dae43f-215c-4cdf-90d3-c5a461a6e669id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: a40ebd6b-b542-4432-a730-1803ef74518d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 645
 ht-degree: 0%
 
 ---
@@ -69,6 +57,17 @@ ht-degree: 0%
 
 - 웹 사이트가 커넥터의 내보내기 구성에서 동기화되도록 구성되어 있는지 확인합니다. [데이터 내보내기 구성 사용자 지정](../get-started.md#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 - [!DNL Commerce Optimizer]에서 사용된 가격 장부 ID가 제품 쿼리를 수행하는 데 사용되는 [카탈로그 보기](../../optimizer/setup/catalog-view.md){target="_blank"} 구성에 있는지 확인하십시오.
+
+## Storefront 요청이 액세스 거부 오류를 반환하거나 카탈로그 데이터가 완전히 사라짐
+
+**문제:** 이전에 반환된 카탈로그 보기에 대한 머천다이징 API에 대한 요청이 `access-key-invalid` 오류로 인해 실패하거나, 작업 중인 상점 측에서 카탈로그 데이터를 표시하지 않습니다.
+
+**원인:** 카탈로그 보기에서 [카탈로그 보호](../../optimizer/setup/private-catalog-view.md)을(를) 사용하도록 설정했으며 요청에 필요한 `AC-Catalog-View-Access-Token` 헤더가 없거나 보기에 할당된 모든 제한된 액세스 키가 만료되었습니다. [!DNL Adobe Commerce Optimizer Connector]은(는) 제한된 액세스 키를 자동으로 만들거나 할당하거나 회전하지 않습니다. 키 관리는 전적으로 클라이언트 응용 프로그램에 의해 처리됩니다.
+
+**솔루션:**
+
+- 카탈로그 보기에 아직 만료되지 않은 [제한된 액세스 키](../../optimizer/setup/restricted-access-keys.md)가 하나 이상 할당되어 있는지 확인하고 필요한 경우 키를 회전하거나 추가합니다.
+- Storefront 또는 클라이언트가 각 요청과 함께 올바른 서명된 `AC-Catalog-View-Access-Token` 헤더를 보내는지 확인하십시오. [비공개 카탈로그 보기](../../optimizer/setup/private-catalog-view.md)를 참조하세요.
 
 ## 동기화 후 [!DNL Adobe Commerce Optimizer]의 데이터를 덮어쓰거나 예기치 않게 수정했습니다.
 

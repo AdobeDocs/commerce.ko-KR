@@ -1,29 +1,13 @@
 ---
 title: 영업 기회
 description: 스마트 데이터 기반 사이트 개선을 위해 Adobe Sites Optimizer과의 통합을 통해 트래픽, 참여 및 전환을 늘릴 수 있는 기회를 식별합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip=" [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip=" [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 TQID: https://experienceleague.adobe.com/KQb7XtqY-4Qrt4B9fwn9w6u8yBjwsj4owArk53v6VHo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
 source-wordcount: 1445
 ht-degree: 0%
@@ -38,7 +22,7 @@ ht-degree: 0%
 
 ## 영업 기회란 무엇입니까?
 
-[기회](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview)는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home)에서 제공합니다.
+[기회](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview)는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home)에서 제공합니다.
 
 ## 주요 기능
 
@@ -167,7 +151,7 @@ Opportunities 페이지는 최적화 권장 사항을 관리하는 데 도움이
 
 ### 카탈로그 레이어가 자동 고정을 사용하여 작동하는 방식
 
-Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 수정 프로그램에서 자동으로 레이어를 만들고 가장 높은 우선 순위(가장 높은 숫자)로 지정합니다. 이 레이어를 삭제하면 다음에 자동 고정을 실행할 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Adobe Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 시 해당 우선 순위가 변경되지 않습니다. 자동 수정 레이어를 유지하지만 즉시 사용하지 않으려면 레이어를 비활성화할 수 있습니다. [카탈로그 계층](../setup/catalog-layer.md#activate-deactivate-or-delete-layers)을 관리하는 방법에 대해 자세히 알아보세요.
+Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 수정 프로그램에서 자동으로 레이어를 만들고 가장 높은 우선 순위(가장 높은 숫자)로 지정합니다. 이 레이어를 삭제하면 다음에 자동 고정을 실행할 때 다시 만들어지고 기존 레이어가 더 낮은 순서 번호로 이동합니다. Adobe Sites Optimizer 레이어가 다른 주문 번호에 이미 있는 경우 자동 수정 시 해당 우선 순위가 변경되지 않습니다. 자동 수정 레이어를 유지하지만 즉시 사용하지 않으려면 레이어를 비활성화할 수 있습니다. [카탈로그 계층](../setup/catalog-layer.md#manage-layer-activation-and-deletion)을 관리하는 방법에 대해 자세히 알아보세요.
 
 ![카탈로그 레이어](../assets/catalog-layers.png)
 
@@ -197,7 +181,7 @@ Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 �
 
 ## Sites Optimizer에 대해 자세히 알아보기
 
-Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
+Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
 
 추가 리소스:
 

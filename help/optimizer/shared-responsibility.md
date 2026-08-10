@@ -2,23 +2,16 @@
 title: 공동 책임
 description: ' [!DNL Adobe Commerce Optimizer]  프로젝트에 관련된 각 당사자의 보안 책임에 대해 알아봅니다.'
 role: Admin, Developer, Leader
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 9e09790f-832d-43ab-b2df-6389ad52b43d
 TQID: https://experienceleague.adobe.com/lOn0WJYdUi5qMX7OlRKeNAIc-TA29OFWWSqN3yQzt30
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 290
 ht-degree: 0%
 
 ---
@@ -63,6 +56,7 @@ ht-degree: 0%
 | PCI ASV 스캔 수행 | RA | I |
 | [!DNL Adobe Commerce Optimizer] 인프라 PCI 검사 수정 중 | R | |
 | OS 및 플랫폼 비밀 관리 | RA | |
+| [제한된 액세스 키](setup/restricted-access-keys.md) 생성, 회전 및 취소 및 [!UICONTROL Catalog Protection]에 대한 서명 토큰 | | RA |
 | 백엔드 보안 로그 모니터링 | RA | |
 | 고객 지원 및 액세스 제어 | A | R |
 | Adobe DR 계획 및 백업 및 복원의 연간 테스트 및 문서화 | RA | |

@@ -2,33 +2,17 @@
 title: '[!DNL Adobe Commerce Optimizer Connector]'
 description: ' [!DNL Adobe Commerce] 과(와) [!DNL Adobe Commerce Optimizer] 사이의 카탈로그 동기화, 검색 및 상점 게재를 위한  [!DNL Adobe Commerce Optimizer Connector] 에 대해 알아봅니다.'
 feature: Integration, Storefront, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T19:00:00.000Z'
 TQID: 'https://experienceleague.adobe.com/-C-XP5YYxwyGrkvVR6CDd-FpDybqnlaKMmFPKOKUbFA'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
-subfeature_v2:
-  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-  - id: dad884f1-e840-49a1-970e-2f965bdbc410
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75id: c32adafa-ed01-4b31-997e-2413013911b0id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470id: f8ddfd3b-6194-46e8-a176-0e918039be56id: dad884f1-e840-49a1-970e-2f965bdbc410
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: e0eb8757-182f-49f3-94a4-1587d16f5094id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1087
 ht-degree: 0%
 
 ---
@@ -48,7 +32,7 @@ ht-degree: 0%
 | 이익 | 어떤 의미입니까? |
 | --- | --- |
 | **빌드할 사용자 지정 커넥터가 없습니다** | 맞춤형 피드 및 스크립트를 작성 및 유지 관리하는 대신 지원되는 자사 통합을 사용하십시오. |
-| [!DNL Adobe Commerce Optimizer]&#x200B;**을(를) 사용하여 값을 계산하는 데 걸리는 시간** | 기존 [!DNL Adobe Commerce] 배포 위에 AI 검색, 권장 사항 및 Headless 상점 전면을 켭니다. |
+| [!DNL Adobe Commerce Optimizer]**을(를) 사용하여 값을 계산하는 데 걸리는 시간** | 기존 [!DNL Adobe Commerce] 배포 위에 AI 검색, 권장 사항 및 Headless 상점 전면을 켭니다. |
 | **Commerce 범위와 일치함** | 웹 사이트, 스토어 보기 및 고객 그룹을 [!DNL Adobe Commerce Optimizer]개의 카탈로그 구문(카탈로그 원본 및 가격 책)에 자동으로 매핑합니다. |
 | **작동 가시성** | 전용 [!UICONTROL Data Feed Sync Status] 보기에서 피드 상태, 마지막 동기화 시간 및 SKU당 상태를 모니터링합니다. |
 | **SaaS를 위한 향후 준비 경로** | 다시 플랫폼을 구성하지 않고 클라우드 또는 온-프레미스의 Commerce에서 [!DNL Adobe Commerce as a Cloud Service] + [!DNL Adobe Commerce Optimizer]&#x200B;(으)로의 단계별 마이그레이션 경로를 제공합니다. |
@@ -127,7 +111,7 @@ _시작_ 안내서에서 [구성 단계](/help/aco-connector/get-started.md#conf
 
 [!DNL Adobe Commerce Optimizer]에서 [!DNL Adobe Commerce]개의 데이터를 사용할 수 있게 되면 [[!DNL Adobe Commerce Optimizer] Studio](/help/optimizer/overview.md#quick-tour)을(를) 사용하여 머천다이징 및 상점 경험을 동기화된 카탈로그에 연결합니다. 일반적인 다음 단계는 다음과 같습니다.
 
-- **카탈로그 보기 및 정책** - [!UICONTROL Store setup] 메뉴에서 지역, 브랜드 또는 고객별 하위 집합 및 액세스 규칙을 정의합니다.
+- **카탈로그 보기 및 정책** - [!UICONTROL Store setup] 메뉴에서 지역, 브랜드 또는 고객별 하위 집합 및 액세스 규칙을 정의합니다. 카탈로그 보기를 쿼리할 수 있는 사용자를 제한하려면 [비공개 카탈로그 보기](/help/optimizer/setup/private-catalog-view.md)를 참조하세요.
 - **제품 검색 및 권장 사항** - [!UICONTROL Merchandising] 메뉴에서 검색, 패싯, 머천다이징 규칙, 동의어 및 권장 사항 단위를 구성합니다. 검색 및 권장 사항 동작은 [!DNL Adobe Commerce Optimizer]에서 관리됩니다. [!DNL Adobe Commerce] 관리자의 [!DNL Live Search] 및 [!DNL Product Recommendations] 설정은 더 이상 이러한 흐름에 적용되지 않습니다
 - **상점 연결** — 올바른 [!DNL Adobe Commerce Optimizer] 테넌트, 카탈로그 보기 및 머천다이징 API 끝점에서 [!DNL Edge Delivery Services] 또는 타사 Headless 빌드의 Commerce 상점 전면을 가리킵니다. 사용자 지정 Headless 통합에 대해서는 [Headless 상점 통합](/help/aco-connector/headless-storefront.md)을 참조하십시오. 타사 통합의 예를 보려면 [Salesforce Commerce 커넥터 for [!DNL Adobe Commerce Optimizer]](/help/optimizer/developer/salesforce-connector.md)를 참조하십시오.
 - **체크아웃** — 장바구니, 체크아웃, 주문 관리 및 고객 계정을 [!DNL Adobe Commerce] 또는 연결된 타사 플랫폼에 보관합니다. 필요한 경우 장바구니 핸드오프에 [!DNL App Builder] 및 [!DNL API Mesh] 사용
