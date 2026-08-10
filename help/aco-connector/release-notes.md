@@ -4,28 +4,15 @@ description: 새로운 기능, 버그 수정, 카탈로그 동기화 및 내보�
 autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/6NeLAfThvIWIyV4Y6OWtL8V9mC7lPy7UH-Zli8E-WEk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-feature_v2:
-  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
-  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
-subfeature_v2:
-  - id: dad884f1-e840-49a1-970e-2f965bdbc410
-  - id: a40ebd6b-b542-4432-a730-1803ef74518d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4eb33526927e1c5a81612aab0de0ce4bc7746368
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+feature_v2: id: f08fa0de-a550-4acd-b570-f81cf1d03aafid: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+subfeature_v2: id: dad884f1-e840-49a1-970e-2f965bdbc410id: a40ebd6b-b542-4432-a730-1803ef74518d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 1d14f7827de3274564941765fd2943ecefac5fad
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: 460
 ht-degree: 0%
 
 ---
@@ -39,6 +26,14 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
 ## 2026 릴리스
+
+### 1.0.16 릴리스
+
+_2026년 8월 7일_
+
+![수정](../assets/fix.svg) **잘못된 구성에서 카탈로그 동기화가 더 이상 중지되지 않습니다**-[!DNL Adobe Commerce Optimizer Connector] 구성이 없거나 잘못된 경우 카탈로그 동기화가 무기한 실행될 수 있는 문제를 해결했습니다. 이제 동기화를 계속 실행하지 않고 완료하고 경고를 기록합니다. <!--MDEE-1413-->
+![수정](../assets/fix.svg) **보다 안정적인 [!DNL Adobe Commerce Optimizer] 관리 요청** - [!DNL Adobe Commerce Optimizer Connector]에서 [!DNL Adobe Commerce Optimizer] 관리 요청에 잘못된 URL을 사용할 수 있는 문제를 해결했습니다. 이로 인해 해당 요청이 실패할 수 있습니다. <!--COMOPT-2288-->
+![수정](../assets/fix.svg) **보다 안정적인 새로 고침 및 패치 작업**-새로 고침 및 패치 작업이 잘못된 환경을 대상으로 하여 요청이 실패할 수 있는 문제를 해결했습니다. <!--COMOPT-2288-->
 
 ### 1.0.15 릴리스
 
@@ -63,7 +58,7 @@ _2026년 6월 11일_
 _2026년 5월 6일_
 
 ![수정](../assets/fix.svg) **향상된 [!DNL Adobe Commerce Optimizer Connector] 구성 지침** - _[!DNL Adobe Commerce Optimizer Connector]통합 가이드에 연결하도록 Commerce 관리자의 [!DNL Adobe Commerce Optimizer] 구성 페이지를 업데이트했습니다_.
-
+<!--COMOPT-1922-->
 
 ![수정](../assets/fix.svg) **[!DNL Adobe Commerce Optimizer Connector]메타데이터 개선** - 이제 [!DNL Adobe Commerce Optimizer Connector]에 설치된 버전이 메타데이터 헤더에 포함됩니다. 이 개선 사항을 통해 팀은 문제 해결 또는 지원 참여 중에 사용 중인 커넥터 버전을 빠르게 식별할 수 있습니다.<!--MDEE-1323-->
 
