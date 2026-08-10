@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Commerce Optimizer Connector] Headless Storefront 통합'
 description: Headless 상점 전면을  [!DNL Adobe Commerce Optimizer Connector] GraphQL API, 가격 장부 ID 및 번들 추가 장바구니 인코딩과 통합하는 방법을 알아봅니다.
 feature: Storefront, Integration, GraphQL
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:27:30.102Z'
 TQID: 'https://experienceleague.adobe.com/Orif1rROglTQ-3ZkRj5LMF90Y-AdpfTnOgPmJXQjYgc'
 product_v2:
