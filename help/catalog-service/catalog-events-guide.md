@@ -1,5 +1,5 @@
 ---
-title: 카탈로그 및 Adobe I/O Events 통합 안내서
+title: 카탈로그 이벤트 설정 및 통합 안내서
 description: 카탈로그 데이터를 확인하고, Adobe Commerce에 대해  [!DNL Adobe I/O Events] 을(를) 구성하고, 카탈로그 이벤트 유형을 구독하고, 소비자에 대한 게재를 확인하는 방법을 알아봅니다.
 level: Intermediate
 recommendations: noCatalog
@@ -16,14 +16,14 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d8e9d612392967d19d0da56e81337362f9006c2c
+source-git-commit: 818efacb8dbf63e48cdc83506d228c665d7a8b22
 workflow-type: tm+mt
-source-wordcount: 1566
+source-wordcount: 1568
 ht-degree: 0%
 
 ---
 
-# 카탈로그 이벤트 및 [!DNL Adobe I/O Events] 통합 안내서
+# Adobe I/O을 사용하여 카탈로그 이벤트 활성화 및 구성
 
 카탈로그 이벤트는 [!DNL Catalog Service]을(를) 통해 사용 가능한 지원되는 카탈로그 변경 내용을 설명하는 컴퓨터 생성 알림입니다. 이를 통해 다음과 같은 이벤트 기반 워크플로를 사용할 수 있습니다.
 
