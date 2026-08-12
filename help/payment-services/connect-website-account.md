@@ -30,7 +30,7 @@ ht-degree: 0%
 
 웹 사이트 수준 온보딩은 스토어가 다음 요구 사항을 충족해야 사용할 수 있습니다.
 
-- [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) 설정이 완료되었습니다.
+- [Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas) 설정이 완료되었습니다.
 - PayPal 계정은 글로벌(기본 구성) 범위에서 연결됩니다.
 
 다음 필드가 기본 범위에서 채워졌는지 확인하여 이를 확인할 수 있습니다.
