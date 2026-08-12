@@ -5,8 +5,12 @@ role: Admin, User
 level: Intermediate
 feature: Payments, Checkout, Configuration, Paas, Saas
 TQID: 'https://experienceleague.adobe.com/U1zGAU6vYKjk2tc2KXnvyqnYdbA2HKTCNZSKhHdS0Vw'
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
 source-git-commit: d754c71e287d7d9ff297dd7d95efbaaae7ffc2fc
 workflow-type: tm+mt
 source-wordcount: 393
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 ## 웹 사이트 수준 연결 시작
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**을(를) 선택합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 상단 모서리의 범위 선택기에서 **[!UICONTROL Default Config]**&#x200B;에서 온보딩할 **[!UICONTROL Website]**(으)로 전환합니다.
 1. **[!UICONTROL Connect different account]**&#x200B;을(를) 클릭합니다.
 
