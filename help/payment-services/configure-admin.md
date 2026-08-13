@@ -5,9 +5,9 @@ role: Admin, User
 level: Intermediate
 exl-id: e1a3269d-bdf9-4b0f-972f-e8a0ef469503
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 379345261bebe5bee9cdbcb6fd3b0ce6275df6ea
+source-git-commit: 882a39a5b0eeb616c7ca1d9e64c3fae76760afad
 workflow-type: tm+mt
-source-wordcount: '3710'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 관리자의 유용한 구성 옵션을 사용하여 필요에 맞게 [!DNL Payment Services]을(를) 사용자 지정할 수 있습니다.
 
 관리자의 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대해 [!DNL Payment Services]을(를) 구성할 때 해당 구성은 _[!UICONTROL General Configuration]_&#x200B;의_[!UICONTROL Method]_ 필드에 설정된 환경에만 적용됩니다. 구성 필드에서 변경한 내용은 _[!UICONTROL Method]_&#x200B;선택 항목을 전환하는 것과 관련이 없습니다. 메서드를 전환하는 경우 선택 항목이 재설정되지 않습니다.
+
+**여러 웹 사이트**(및 스토어 조회수)에서 단일 Commerce 인스턴스를 실행하는 경우 일부 웹 사이트에 대해 **다른 PayPal 판매자 계정**&#x200B;이 필요할 수 있습니다. 인스턴스를 설정하고 **전역**(기본값) 범위에서 온보딩한 후 [!DNL Payment Services]을(를) 통해 관리자의 **웹 사이트 범위** PayPal 온보딩을 완료할 수 있습니다. 필수 구성 요소를 보려면 [웹 사이트의 다른 PayPal 계정 연결](connect-website-account.md)을 참조하고 웹 사이트 범위 PayPal 계정을 온보딩하는 단계를 완료하십시오.
 
 ## 일반 구성
 
@@ -56,11 +58,11 @@ ht-degree: 0%
 
 **여러 웹 사이트**(및 스토어 조회수)에서 단일 Commerce 인스턴스를 실행하는 경우 일부 웹 사이트에 대해 **다른 PayPal 판매자 계정**&#x200B;이 필요할 수 있습니다. 인스턴스를 설정하고 **전역**(기본값) 범위에서 온보딩한 후 [!DNL Payment Services]을(를) 통해 관리자의 **웹 사이트 범위** PayPal 온보딩을 완료할 수 있습니다.
 
-이전 릴리스에서는 웹 사이트 수준의 PayPal 계정 매핑을 통해 일반적으로 [지원 팀에 문의](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#Solution) 또는 Adobe 담당자에게 문의해야 했습니다. 아래 필수 구성 요소를 충족하면 **[!UICONTROL Connect different account for website]** 작업을 사용하십시오.
+이전 릴리스에서는 웹 사이트 수준의 PayPal 계정 매핑을 통해 일반적으로 [지원 팀에 문의](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#Solution) 또는 Adobe 담당자에게 문의해야 했습니다. 아래 필수 구성 요소를 충족하면 **[!UICONTROL Connect different account]** 작업을 사용하십시오.
 
 ### 사전 요구 사항(전역 범위)
 
-**default/global** 구성에 있는 인스턴스에 대해 **all**&#x200B;이(가) 이미 true인 경우 **[!UICONTROL Connect different account for website]** 컨트롤은 **website** 범위에서만 사용할 수 있고 사용할 수 있습니다.
+**default/global** 구성에 있는 인스턴스에 대해 **all**&#x200B;이(가) 이미 true인 경우 **[!UICONTROL Connect different account]** 컨트롤은 **website** 범위에서만 사용할 수 있고 사용할 수 있습니다.
 
 1. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas) 설정이 완료되었습니다.
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 1. **전역** PayPal 판매자 계정이 **연결**&#x200B;이고 해당 기본 범위에 대해 **PayPal 온보딩을 마쳤습니다**. [일반 구성](#general-configuration)에 설명된 대로 전역 범위에 대해 **[!UICONTROL PayPal Merchant ID]** 및 관련 필드가 채워집니다.
 
-   전역 온보딩이 완료되지 않은 경우 구성 범위를 **[!UICONTROL Website]**(으)로 전환하고 **[!UICONTROL Payment Methods]**&#x200B;에서 **[!UICONTROL Payment Services]**&#x200B;을(를) 여십시오. **[!UICONTROL Connect different account for website]** 단추는 **disabled**&#x200B;입니다. 커넥터 설정 완료 및 **global** PayPal 온보딩을 먼저 완료하십시오.
+   전역 온보딩이 완료되지 않은 경우 구성 범위를 **[!UICONTROL Website]**(으)로 전환하고 **[!UICONTROL Payment Methods]**&#x200B;에서 **[!UICONTROL Payment Services]**&#x200B;을(를) 여십시오. **[!UICONTROL Connect different account]** 단추는 **disabled**&#x200B;입니다. 커넥터 설정 완료 및 **global** PayPal 온보딩을 먼저 완료하십시오.
 
 ## [!UICONTROL Credit Card Fields]
 
@@ -444,6 +446,6 @@ Apple Pay, Venmo 또는 PayPal PayLater 단추를 전환하는 등 _설정_&#x20
 
 웹 사이트, 스토어 및 스토어 보기의 계층 구조에 대한 자세한 내용은 [사이트, 스토어 및 보기 범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)를 참조하십시오.
 
-**global** Commerce 서비스 및 PayPal 온보딩이 완료된 후 관리자의 **다른 PayPal 계정을 개별 웹 사이트에 연결**&#x200B;하려면 **[!UICONTROL Website]** 범위에서 **[!UICONTROL Connect different account for website]**&#x200B;을(를) 사용하세요. [웹 사이트의 다른 PayPal 계정 연결](#connect-a-different-paypal-account-for-a-website)을 참조하세요.
+**global** Commerce 서비스 및 PayPal 온보딩이 완료된 후 관리자의 **다른 PayPal 계정을 개별 웹 사이트에 연결**&#x200B;하려면 **[!UICONTROL Website]** 범위에서 **[!UICONTROL Connect different account]**&#x200B;을(를) 사용하세요. [웹 사이트의 다른 PayPal 계정 연결](#connect-a-different-paypal-account-for-a-website)을 참조하세요.
 
 CLI를 통해 여러 PayPal 계정에 대한 범위를 구성하는 방법에 대한 자세한 내용은 [명령줄 구성](configure-cli.md#configure-scope-via-cli)을 참조하십시오.

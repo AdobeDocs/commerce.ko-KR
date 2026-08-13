@@ -5,9 +5,9 @@ role: Admin, User
 level: Intermediate
 exl-id: 104aa2c7-7735-4ac2-8ed1-a03cd9911273
 feature: Payments, Release Notes
-source-git-commit: 94598c3cbc6b9fa84f92532e42ec5e9027c5b1fc
+source-git-commit: 2abebf247603b37a28eb6f4653d63e83aa5d9fd5
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5483'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,19 @@ _2021년 6월 28일_
 >[!NOTE]
 >
 > 릴리스는 필요에 따라 새로운 기능 및 수정 사항을 제공하기 위해 자주 발생합니다. 릴리스 일정은 고정되어 있지 않습니다.
+
+
+## v2.16.1
+
+_2026년 8월 10일_
+
+![문제 해결](../assets/fix.svg)<!-- PAY-6769 --> PayPal 스마트 단추를 사용하고 체크아웃 페이지에서 일부 결제 방법을 사용할 수 없는 EDS 상점 앞면의 간헐적인 문제를 해결했습니다.
+
+## v2.16.0
+
+_2026년 7월 27일_
+
+![새로운 문제](../assets/new.svg)<!-- Issue PAY-6510 --> 이제 판매자는 [!DNL Commerce Admin]에서 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프 서비스할 수 있습니다. [!DNL Payment Services] 이제 홈에는 결제 방법에 대한 관리자 구성 페이지로 리디렉션하는 **[!UICONTROL Connect a different PayPal account for a website]** 단추가 포함되어 있습니다. 자세한 내용은 [웹 사이트의 다른 PayPal 계정 연결](connect-website-account.md)을 참조하십시오.
 
 ## v2.15.0
 
