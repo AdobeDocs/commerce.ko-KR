@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: e269b5a3bbd246530ba77d8c50467e2b0f4e2f7e
+source-git-commit: afef108e512c69047a0420566a498dab164c207e
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,29 @@ _2025년 2월 11일_
 
 +++
 
+## v1.4.4
+
+_2026년 7월 30일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![새 문제](../assets/new.svg) 이제 판매자는 AEM 자산에 대한 특정 스토어 보기를 숨길 수 있습니다. AEM Assets이 하나 이상의 스토어 보기에 대해 이미지를 숨김으로 표시하면 Commerce은 해당 스토어 보기의 스토어에서 해당 이미지를 제외합니다. 이제 관리 제품 미디어 갤러리에 이미지를 숨기는 저장소 보기를 표시하는 **[!UICONTROL Store View Visibility]** 필드가 포함됩니다. <!-- Issue ACAP-1308 -->
+
+## v1.4.2
+
+_2026년 7월 10일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![문제 해결](../assets/fix.svg) 자산 역할 특성(이미지, 작은 이미지, 썸네일 및 견본 이미지)이 빈 저장소-보기-수준 값을 누적하여 기본 저장소 보기가 아닌 보기에서 이미지가 누락되는 문제를 해결했습니다. 이제 이러한 속성은 범위에서 전역이며 이미지가 기본 저장소 보기에서 올바로 상속되도록 기존의 빈 저장소 보기 행이 제거됩니다. <!-- Issue ACCS-1401 -->
+
 ## v1.4.1
 
 _2026년 6월 15일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![해결된 문제](../assets/fix.svg) AEM Assets 통합을 사용하도록 설정할 때 **[!UICONTROL OBSERVABILITY]** 섹션 헤더가 관리 **[!UICONTROL System]** 메뉴에서 누락되어 제목 없이 **[!UICONTROL Subscription List]** 링크가 표시되는 문제를 해결했습니다. <!--ACAP-1302 -->
+![해결된 문제](../assets/fix.svg) AEM Assets 통합을 사용하도록 설정할 때 **[!UICONTROL OBSERVABILITY]** 섹션 헤더가 관리 **[!UICONTROL System]** 메뉴에서 누락되어 제목 없이 **[!UICONTROL Subscription List]** 링크가 표시되는 문제를 해결했습니다. <!-- Issue ACAP-1302 -->
 
 ![문제 해결](../assets/fix.svg) AEM Assets 통합 구성을 저장하면 Dynamic Media Open API가 활성화되지 않은 인스턴스에서 명확한 메시지가 아닌 원시 PHP 경고가 표시되는 문제가 해결되었습니다. 이제 명확하고 일반적인 오류 메시지가 나타납니다. <!-- ACAP-1298 -->
 
