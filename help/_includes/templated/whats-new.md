@@ -1,7 +1,7 @@
 ---
-source-git-commit: 06d8280f848fa6fc390194ebdd05a5dba1bfac94
+source-git-commit: 4ecab54255029c3e9e84ba9f6de96888157d8fea
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1355'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,58 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 8월 12일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed13ed011180fbb9d535f5a228a5f932ebf00689">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>판매자는 이제 Commerce 관리자로부터 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프서비스할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/configure/connect-website-account">웹 사이트의 다른 PayPal 계정 연결</a>을 참조하십시오.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e18c82a81c49de8175a8a8d77e9a191fe2af4b46">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 8월 10일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>서명된 토큰으로 카탈로그 데이터 액세스를 제한하도록 개인 카탈로그 보기를 활성화하고 구성하는 방법에 대한 지침과 함께 Adobe Commerce Optimizer 설정 가이드를 업데이트하고 새 기능을 참조하도록 관련 항목을 업데이트했습니다.<br />- 서명된 토큰이 유효한 요청만 카탈로그 보기의 데이터를 검색할 수 있도록 카탈로그 보호를 활성화하는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view">개인 카탈로그 보기</a>를 추가했습니다.<br />- 카탈로그 보호를 위해 토큰을 서명하는 데 사용되는 키를 만들고, 할당하고, 회전시키는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys">제한된 액세스 키</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview">Adobe Commerce Optimizer란 무엇입니까?</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/get-started">시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/launch/launch-checklist">시작 체크리스트</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview"> 새로운 개인 카탈로그 보기 및 제한된 액세스 키 항목을 참조하는 커넥터 안내서</a>.</p>
+</td>
+      <td>
+        주요 업데이트, 새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/de0de805f8ecd4f329ce3afc90e28197186856c2">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 8월 7일
 
@@ -309,120 +361,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/7be26764bc3f3878c3c78a881ad8912038c7f07f">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 15일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>v2.15.0용 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/release-notes">결제 서비스 릴리스 정보</a>(Google Pay 및 Apple Pay Express 업데이트, 검토 건너뛰기)를 업데이트했습니다. 새 동작에 맞게 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options">결제 옵션</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/configure/configure-admin">결제 서비스 구성</a>을(를) 조정했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b0eb472bfcb3fb568d4e8a70e63356d60873b641">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 12일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>개요, 색인화, 모범 사례 및 검색 성능 주제의 링크와 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/search-relevance-matching">검색 일치 및 순위 지정(라이브 검색)</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/search-relevance-matching">검색 일치 및 순위 지정(Adobe Commerce Optimizer)</a>의 검색 일치 우선 순위 지정(완전/근접 구문, 동일 필드, 교차 필드) 및 순위 트레이드오프가 문서화되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6f9744e6a0b3390b9e29a1d973fa44456db1612c">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>v1.3.8로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/release-notes">AEM Assets 통합 릴리스 정보</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8937c04dcb4da5f19bce017ef0da8a48bd61c3a6">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 10일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>새로운 기술 및 운영 주제로 Adobe Commerce Optimizer Connector 통합 가이드를 확장했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/connector-sync-pipeline">커넥터 동기화 파이프라인</a> — cron 작업, 초기화, 피드 제출 및 오류 처리<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/headless-storefront">Headless storefront 통합</a> — GraphQL <code>commerceOptimizer</code> 쿼리 및 번들 제품 인코딩<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/troubleshooting/troubleshooting">문제 해결</a> — 자격 증명, 동기화 및 범위 구성 문제<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/reference/connector-reference">커넥터 참조</a> — 모듈, 피드 끝점, 배치 제한 및 구성 경로<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/reference/field-mapping">필드 매핑</a> — 모든 피드에 대한 Commerce-to-Optimizer 필드 매핑</p>
-</td>
-      <td>
-        주요 업데이트, 새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2973937a78f4ea425da7876ac006eb2023a35bb3">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>[!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 사용자에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview">마이그레이션 평가</a>에 페이지를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8f260d114983890872281115f74b1f98b32e524d">커밋</a></td>
-    </tr>
-    <tr>
-      <td><ul>
-  <li>Adobe Commerce as a Cloud Service에 대한 기본 동작, PaaS에 대한 수동 지원 및 영어 카탈로그 지원을 포함하여 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/release-notes#hosted-service-updates">라이브 검색 릴리스 정보</a>에서 의미 체계 검색에 대한 호스팅된 2026년 6월 8일 서비스 업데이트를 추가했습니다.<br />- 의미 체계 검색 및 권장 가격 필터(베타)를 위한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes#june-2026">Adobe Commerce Optimizer 릴리스 정보</a>에 2026년 6월 섹션을 추가했습니다.</li>
-</ul>
-</td>
-      <td>
-        주요 업데이트, 새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/4c5b282a83b75c07d82dc34b5500916f22e08a44">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 9일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>PDP 관련 연산자, 오프셋 의미 체계 및 SKU 관련 권장 사항 유형에 대한 설정 지침을 포함하여 [!DNL Adobe Commerce Optimizer] 권장 사항에 대한 동적 및 정적 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/filters#price">가격 필터</a>를 문서화했습니다.</p>
-</td>
-      <td>
-        피드백, 주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bccb739bbbfcc7e3bfa645c2a0245933014b934f">커밋</a></td>
     </tr>
   </tbody>
 </table>
