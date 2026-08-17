@@ -4,10 +4,15 @@ description: Adobe Commerce의  [!DNL Catalog Service] 에 대한 최신 릴리�
 feature: Services, Catalog Service, Release Notes
 exl-id: 74f2e46a-5592-4857-a6d7-b95b85d8b4cc
 TQID: https://experienceleague.adobe.com/-yxW4sTuk7LPjGy5YsQ65phtkBLiByg8SmBaQPHMevM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1375139292fb11df9406948010916dbd2507ef4e
 workflow-type: tm+mt
 source-wordcount: 3063
@@ -213,7 +218,7 @@ query {
 
 ![수정](../assets/fix.svg) **누락된 가격 정보에 대한 오류 처리 개선**—가격 데이터를 아직 받지 않은 경우 API에서 오류를 발생시키는 대신 가격 필드에 대해 `null`을(를) 반환하여 클라이언트가 누락된 데이터를 정상적으로 처리할 수 있습니다.<!--DATA-6612-->
 
-![시스템 수준 및 인프라 개선을 수정하여 성능과 안정성을 개선합니다.<!--DATA-6671-->](../assets/fix.svg)
+!&lbrack;시스템 수준 및 인프라 개선을 수정하여 성능과 안정성을 개선합니다.<!--DATA-6671-->&rbrack;(../assets/fix.svg)
 
 ### 2025년 7월
 
