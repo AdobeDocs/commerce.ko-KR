@@ -4,21 +4,15 @@ description: 상점 카탈로그 데이터 검색을 위한 데이터 수집 RES
 feature: Release Notes
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 TQID: https://experienceleague.adobe.com/apcpxN0AOniRcHDCa5MMAVWysxRO5mTcudXXXjET-Lo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27cbf66e4851f0d21ecc039fd53aa838b4c211ba
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 413d0932d402615c9e155e1650a7c8aba2c082a1
 workflow-type: tm+mt
-source-wordcount: 1365
+source-wordcount: 1522
 ht-degree: 0%
 
 ---
@@ -31,6 +25,22 @@ ht-degree: 0%
 * [데이터 수집 REST API](https://developer.adobe.com/commerce/services/reference/rest/) 및 [상점 카탈로그 데이터 검색을 위한 GraphQL API](https://developer.adobe.com/commerce/services/reference/graphql/)에 대한 업데이트.
 
   {{aco-api-updates-and-dropins}}
+
+## 2026년 8월
+
+>[!BEGINSHADEBOX]
+
+_2026년 8월 7일_
+
+![새로 만들기](../assets/new.svg) **새 `externalIds` 필드**—Catalog Service GraphQL에 `externalIds`을(를) 추가하여 제품과 연결된 외부 데이터 원본을 노출하므로 상점 및 통합 소비자가 원래 데이터 원본을 식별할 수 있습니다. 제품에 대한 [외부 ID 반환 참조](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases#return-external-ids-for-a-product){target="_blank"}
+<!--DATA-7307-->
+
+![수정](../assets/fix.svg) **구성 가능한 제품에 대한 `refineProduct` 응답 수정**—특정 구성 가능한 제품에 대해 `refineProduct` 쿼리가 `priceRange: null` 및 `roles: ["hidden"]`을(를) 반환한 문제를 해결하여 상점 소비자를 위한 정확한 가격 및 가시성 정보를 보장합니다.
+<!--COMOPT-2367-->
+
+{{aco-release}}
+
+>[!ENDSHADEBOX]
 
 ## 2026년 7월
 
@@ -53,7 +63,7 @@ _2026년 6월 24일_
 
 <!-- v1.3 -->
 
-![새로 만들기](../assets/new.svg) **새 `canEditQuantity` 필드**—카탈로그 서비스 GraphQL의 `ProductViewOptionValueProduct`에 `canEditQuantity`을(를) 추가했습니다. Commerce 관리자의 번들 선택에 대해 선택적 **사용자 정의** 수량 설정을 노출하므로 상점 소비자는 번들 선택 수량을 편집할 수 있는지 여부를 결정할 수 있습니다.
+![새로 만들기](../assets/new.svg) **새 `canEditQuantity` 필드**—카탈로그 서비스 GraphQL의 `ProductViewOptionValueProduct`에 `canEditQuantity`을(를) 추가했습니다. Commerce 관리자의 번들 선택에 대한 선택적 **사용자 정의** 수량 설정을 노출하므로 상점 소비자는 번들 선택의 수량을 편집할 수 있는지 여부를 결정할 수 있습니다.
 <!--COMOPT-2050-->
 
 ### 의미 체계 검색
@@ -74,7 +84,7 @@ _2026년 6월 24일_
 
 ### 지능형 순위 증가
 
-[&#128279;](./merchandising/rules/add.md#intelligent-ranking-boost)검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
+[검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙](./merchandising/rules/add.md#intelligent-ranking-boost)에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
 
 ### API 업데이트
 
@@ -123,7 +133,7 @@ _2026년 4월 29일_
 
 <!--v1.52 release-->
 
-**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
+**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
 
 <!--DATA-7156-->
 
