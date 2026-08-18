@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 616ad9e9b45a66f127a55ef87dd6c6b9c0b470c8
+source-git-commit: 1375139292fb11df9406948010916dbd2507ef4e
 workflow-type: tm+mt
-source-wordcount: 3024
+source-wordcount: 3063
 ht-degree: 0%
 
 ---
@@ -53,7 +53,13 @@ ht-degree: 0%
 
 ## Storefront 카탈로그 서비스
 
-## 2026년 6월
+### 2026년 8월
+
+**릴리스 날짜**: 2026년 8월 7일
+
+![수정](../assets/fix.svg) 사용자 지정 가능한 옵션(`inputOptions` 및 `options`)에 대한 `title` 필드에서 `sku` 필드가 비어 있거나 인덱싱되지 않았을 때 옵션의 자체 제목 대신 `null`을(를) 잘못 반환한 `products` GraphQL 쿼리의 문제를 해결했습니다. <!--DATA-7304-->
+
+### 2026년 7월
 
 **릴리스 날짜**: 2026년 7월 1일
 
