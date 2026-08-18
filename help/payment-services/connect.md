@@ -4,7 +4,7 @@ description: API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연
 exl-id: 5038fd31-bac5-419e-a172-66919a9b5272
 feature: Payments, Checkout, Configuration, Paas
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 'null'
+source-git-commit: 0f2e9c3a7d990a46bafc5f3b8a083436d42643b5
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
