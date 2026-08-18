@@ -3,23 +3,14 @@ title: 비공개 카탈로그 보기
 description: 유효한 서명 토큰이 있는 요청만 제품 및 가격 데이터를 검색할 수 있도록 카탈로그 보호를 활성화하여 개인 카탈로그 보기를 만드는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16e3405e1500dfd39603b1e300f4625e5a57cf02
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 642
 ht-degree: 0%
 
 ---
@@ -28,15 +19,30 @@ ht-degree: 0%
 
 기본적으로 [카탈로그 보기](catalog-view.md)는 공개 보기입니다. 유효한 서명된 토큰이 포함된 요청에 대한 액세스를 제한하려면 카탈로그 보기에서 카탈로그 보호를 사용하도록 설정하십시오.
 
-카탈로그 보호는 선택한 카탈로그 보기에만 적용됩니다. 보기의 정책, 레이어 또는 가격 장부는 변경되지 않습니다.
+카탈로그 보호는 선택한 카탈로그 보기에만 적용됩니다. 보기의 정책 또는 계층은 변경되지 않습니다. 단일 가격 장부로 보기를 제한합니다. [개인 카탈로그 보기에 대한 가격 장부 제한](#price-book-restriction-on-private-catalog-views)을 참조하세요.
 
 카탈로그 보기를 보호할 시기에 대한 예는 [제한된 액세스 키 사용 사례](restricted-access-keys.md#restricted-access-key-use-cases)를 참조하세요.
 
 ## 보호 경계 이해
 
-카탈로그 보호는 활성화된 카탈로그 보기에만 적용됩니다. 이 기능은 카탈로그 및 검색 요청을 보호하지만 보기의 정책이나 가격 장부를 변경하거나 다른 카탈로그 보기를 보호하거나 장바구니, 체크아웃 또는 주문 작업을 보호하지는 않습니다.
+카탈로그 보호는 활성화된 카탈로그 보기에만 적용됩니다. 이 기능은 카탈로그 및 검색 요청을 보호하지만 보기의 정책이나 계층을 변경하거나 다른 카탈로그 보기를 보호하거나 장바구니, 체크아웃 또는 주문 작업을 보호하지 않습니다.
 
 연결된 상거래 백엔드는 독립적으로 구매 자격을 적용해야 합니다.
+
+## 개인 카탈로그 보기에 대한 가격 책자 제한
+
+비공개 카탈로그 보기는 하나의 가격 장부만 참조할 수 있습니다. 이는 여러 가격 장부를 사용할 수 있는 공개 카탈로그 보기와는 다릅니다.
+
+[!UICONTROL Catalog Protection]을(를) 사용하도록 설정하면 카탈로그 보기 양식의 가격 장부 선택기가 다중 선택 컨트롤에서 단일 선택(라디오 단추) 컨트롤로 전환됩니다.
+
+![비공개 카탈로그 가격 목록 보기 제한](../assets/catalog-view-private-pricebook-restrictions.png)
+
+- 가격 장부가 여러 개 할당된 카탈로그 보기에서 [!UICONTROL Catalog Protection]을(를) 사용하도록 설정하면 가격 장부를 하나만 제외한 모든 항목을 제거할 때까지 보기를 저장할 수 없습니다.
+- 이 제한이 존재하기 전에 가격 장부 지정을 여러 개 사용하여 개인 카탈로그 뷰를 이전에 저장한 경우 카탈로그 뷰 구성이 자동으로 변경되지 않습니다. 그러나 다음에 보기를 편집할 때는 업데이트를 저장하기 전에 하나의 가격 장부를 제외한 모든 가격 장부를 제거해야 합니다.
+
+이러한 각 경우에 [!DNL Adobe Commerce Optimizer]은(는) 다음 유효성 검사 메시지를 표시합니다. `A protected catalog view can use only one price book. Select 'Single price book only' to continue.`
+
+공개 카탈로그 보기는 이 제한의 영향을 받지 않으며 여러 가격 장부를 계속 참조할 수 있습니다.
 
 ## 카탈로그 보기 보호
 
