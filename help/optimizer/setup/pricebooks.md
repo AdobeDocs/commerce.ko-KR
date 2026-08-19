@@ -13,9 +13,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 42c252f70f6ed1d7a5c1fd2832324308294da264
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: 405
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Price Book API를 사용하여 [!DNL Adobe Commerce Optimizer]에 Price Book을 
 ## [!DNL Adobe Commerce Optimizer]에서 가격 장부 보기
 
 가격표를 [!DNL Adobe Commerce Optimizer]에 수집하면 **카탈로그 보기** 페이지에서 가격표 목록과 해당 ID를 볼 수 있습니다.
+
+>[!NOTE]
+>
+>비공개 카탈로그 보기([!UICONTROL Catalog Protection]이(가) 활성화된 보기)는 하나의 가격책만 참조할 수 있습니다. [개인 카탈로그 보기에 대한 가격 책자 제한](private-catalog-view.md#price-book-restriction-on-private-catalog-views)을 참조하세요.
 
 1. _스토어 설정_(으)로 이동한 다음 **[!UICONTROL Catalog views]**&#x200B;을(를) 클릭합니다.
 

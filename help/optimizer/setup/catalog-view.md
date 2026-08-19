@@ -21,9 +21,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 nudge: true
-source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
+source-git-commit: 42c252f70f6ed1d7a5c1fd2832324308294da264
 workflow-type: tm+mt
-source-wordcount: 1276
+source-wordcount: 1317
 ht-degree: 0%
 
 ---
@@ -78,6 +78,7 @@ ht-degree: 0%
 
    - **사용 가능한 모든 가격 장부를 사용**—이 옵션은 사용 가능한 모든 가격 장부에서 가격 데이터를 가져옵니다.
    - **선택한 가격책만 허용**—이 옵션은 **허용된 가격책 추가** 대화 상자를 표시합니다. 이 대화상자를 사용하여 카탈로그 뷰에 사용할 특정 가격 장부를 선택합니다.
+   - **단일 가격 장부만**—하나의 가격 장부만 적용되는 경우 이 옵션을 선택합니다. 이 옵션은 하나의 가격 장부만 참조할 수 있는 비공개 카탈로그 뷰를 구성하려는 경우 필요합니다. [개인 카탈로그 보기에 대한 가격 책자 제한](private-catalog-view.md#price-book-restriction-on-private-catalog-views)을 참조하세요.
    - **가격 책정 사용 안 함**—지금은 이 옵션을 사용할 수 없습니다.
 
    >[!NOTE]
