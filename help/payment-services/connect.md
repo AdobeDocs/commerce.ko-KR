@@ -3,7 +3,7 @@ title: 인스턴스 연결
 description: API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연결하고 구성에서 데이터 공간을 지정합니다.
 exl-id: 5038fd31-bac5-419e-a172-66919a9b5272
 feature: Payments, Checkout, Configuration, Paas
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
 workflow-type: tm+mt
 source-wordcount: '698'
@@ -20,7 +20,7 @@ API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연결하고 [Co
 
 >[!INFO]
 >
-> 자세한 내용은 [[!DNL Adobe Commerce] 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 비디오를 참조하십시오.
+> 자세한 내용은 [[!DNL Adobe Commerce] 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 비디오를 참조하십시오.
 
 * *이미 인스턴스에 연결*&#x200B;한 경우 API 자격 증명을 획득 및 사용하고 Commerce 서비스를 구성하면 [테스트 샌드박스 설정](sandbox.md)을 진행할 수 있습니다.
 * *인스턴스에 연결해야 하는 경우* 이 항목에서 [API 자격 증명 가져오기](#obtain-api-credentials) 및 [Commerce 서비스 구성](#configure-commerce-services)에 대한 정보를 참조하십시오.
@@ -32,11 +32,11 @@ API 키 및 개인 키를 사용하여 Commerce 인스턴스를 연결하고 [Co
 
 ## API 자격 증명 가져오기
 
-Commerce SaaS 서비스를 사용하려면 샌드박스와 프로덕션에 모두 인스턴스의 API 키(Commerce 공개 API 키 및 개인 키)를 사용해야 합니다. 이 키는 [내 계정 대시보드](https://account.magento.com/customer/account/login)에서 만들고 관리합니다. [한 번에 한 쌍만 활발하게 사용할 수 있지만 Commerce 계정(샌드박스 계정과 프로덕션 계정)에 대해 키 쌍](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)을 만들 수 있습니다.
+Commerce SaaS 서비스를 사용하려면 샌드박스와 프로덕션에 모두 인스턴스의 API 키(Commerce 공개 API 키 및 개인 키)를 사용해야 합니다. 이 키는 [내 계정 대시보드](https://account.magento.com/customer/account/login)에서 만들고 관리합니다. [한 번에 한 쌍만 활발하게 사용할 수 있지만 Commerce 계정(샌드박스 계정과 프로덕션 계정)에 대해 키 쌍](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)을 만들 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL My Account] 대시보드에 액세스하는 데 도움이 필요하십니까? [Commerce 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)를 참조하세요.
+>[!UICONTROL My Account] 대시보드에 액세스하는 데 도움이 필요하십니까? [Commerce 계정 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-account-create)를 참조하세요.
 
 공개 API 키가 생성되면 내 계정 대시보드에서 항상 사용할 수 있습니다. 필요에 따라 복사하거나 삭제할 수 있습니다. 샌드박스 또는 프로덕션용 공개 API 키를 만들면 개인 API 키가 표시됩니다. 이 키는 다음 대화 상자에서 복사하거나 저장하는 데만 사용할 수 있으며 나중에 액세스할 수 없습니다.
 
@@ -73,7 +73,7 @@ API 키가 손실된 경우 새 API 키 쌍은 관리자의 Commerce 서비스 �
 
    >[!INFO]
    >
-   > 자세한 내용은 [[!DNL Adobe Commerce] 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) 비디오를 참조하십시오.
+   > 자세한 내용은 [[!DNL Adobe Commerce] 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) 비디오를 참조하십시오.
 
 ## 엔드포인트
 

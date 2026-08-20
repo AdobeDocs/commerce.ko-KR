@@ -46,11 +46,11 @@ Adobe Experience Platform은 Commerce 스토어의 데이터로 하이드레이�
 
 ![데이터가 Experience Platform Edge로 이동하는 방법](assets/commerce-edge.png)
 
-위의 이미지에서 행동, 백오피스 및 고객 프로필 데이터는 SDK, API 및 소스 커넥터를 사용하여 Experience Platform Edge로 전송됩니다. 확장이 데이터 공유 복잡성을 처리하므로 이러한 부분이 어떻게 작동하는지 완전히 이해할 필요는 없습니다. 이벤트 데이터가 에지에 있으면 다운스트림 Adobe DX 제품(예: [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 및 [Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/get-started))에서 사용할 수 있습니다. 안내식 예제는 [Adobe Journey Optimizer을 사용하여 포기한 장바구니 전자 메일을 보내기](using-ajo.md) 및 [Commerce 이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기](create-audience.md)를 참조하십시오.
+위의 이미지에서 행동, 백오피스 및 고객 프로필 데이터는 SDK, API 및 소스 커넥터를 사용하여 Experience Platform Edge로 전송됩니다. 확장이 데이터 공유 복잡성을 처리하므로 이러한 부분이 어떻게 작동하는지 완전히 이해할 필요는 없습니다. 이벤트 데이터가 에지에 있으면 다운스트림 Adobe DX 제품(예: [Real-Time CDP](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview), [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/admin-overview/analytics-overview) 및 [Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/essentials/get-started))에서 사용할 수 있습니다. 안내식 예제는 [Adobe Journey Optimizer을 사용하여 포기한 장바구니 전자 메일을 보내기](using-ajo.md) 및 [Commerce 이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기](create-audience.md)를 참조하십시오.
 
 ## Experience Platform 데이터를 다시 Commerce으로 가져오기
 
-[!DNL Data Connection] 확장을 사용하여 Commerce 데이터를 Experience Platform에 보내는 것은 Commerce의 데이터 공유 기능의 한 부분입니다. 선택적 확장인 반대쪽은 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)입니다. 이 확장을 사용하면 Real-Time CDP에서 대상을 작성하고 이러한 대상을 Commerce 스토어에 배포하여 장바구니 가격 규칙, 관련 제품 규칙 및 동적 블록을 알릴 수 있습니다.
+[!DNL Data Connection] 확장을 사용하여 Commerce 데이터를 Experience Platform에 보내는 것은 Commerce의 데이터 공유 기능의 한 부분입니다. 선택적 확장인 반대쪽은 [Audience Activation](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/audience-activation)입니다. 이 확장을 사용하면 Real-Time CDP에서 대상을 작성하고 이러한 대상을 Commerce 스토어에 배포하여 장바구니 가격 규칙, 관련 제품 규칙 및 동적 블록을 알릴 수 있습니다.
 
 높은 수준에서 Commerce 스토어에서 Experience Platform으로 그리고 Audience Activation 확장을 통해 다시 이동하는 데이터 흐름은 다음과 같습니다.
 
@@ -72,13 +72,13 @@ Commerce에서 Experience Platform으로, Experience Platform에서 Commerce으�
 
 - **프로필 이벤트** — 서버의 프로필 라이프사이클 변경에 대한 시계열 이벤트입니다. [고객 프로필 이벤트](events-backoffice.md#customer-profile-events)를 참조하세요.
 
-- **Experience Platform 및 Edge Network** - 대부분의 Adobe DX 제품에 대한 데이터 웨어하우스 Experience Platform으로 전송된 데이터는 Experience Platform Edge Network을 통해 Adobe DX 제품에 전파됩니다. 예를 들어 Journey Optimizer을 시작하고, Edge에서 특정 Commerce 이벤트 데이터를 검색하고, Journey Optimizer에서 포기한 장바구니 이메일을 작성할 수 있습니다. 그러면 Journey Optimizer 스토어에 구매하지 않은 카트가 있는 경우 Commerce에서 해당 이메일을 보낼 수 있습니다. [Experience Platform 및 Edge Network](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/web-sdk/overview)에 대해 자세히 알아보세요.
+- **Experience Platform 및 Edge Network** - 대부분의 Adobe DX 제품에 대한 데이터 웨어하우스 Experience Platform으로 전송된 데이터는 Experience Platform Edge Network을 통해 Adobe DX 제품에 전파됩니다. 예를 들어 Journey Optimizer을 시작하고, Edge에서 특정 Commerce 이벤트 데이터를 검색하고, Journey Optimizer에서 포기한 장바구니 이메일을 작성할 수 있습니다. 그러면 Journey Optimizer 스토어에 구매하지 않은 카트가 있는 경우 Commerce에서 해당 이메일을 보낼 수 있습니다. [Experience Platform 및 Edge Network](https://experienceleague.adobe.com/ko/docs/platform-learn/data-collection/web-sdk/overview)에 대해 자세히 알아보세요.
 
-- **스키마** - 스키마는 전송 중인 데이터 구조를 설명합니다. Experience Platform에서 Commerce 데이터를 수집하려면 먼저 데이터의 구조를 설명하는 스키마를 구성하고 각 필드 내에 포함될 수 있는 데이터 유형에 대한 제약 조건을 제공해야 합니다. 스키마는 기본 클래스와 0개 이상의 스키마 필드 그룹으로 구성됩니다. 스키마는 모든 Adobe DX 제품이 읽을 수 있는 XDM 구조를 사용합니다. 스키마는 Experience Platform으로 전송된 데이터를 모든 DX 제품에서 이해할 수 있도록 합니다. [스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)에 대해 자세히 알아보세요.
+- **스키마** - 스키마는 전송 중인 데이터 구조를 설명합니다. Experience Platform에서 Commerce 데이터를 수집하려면 먼저 데이터의 구조를 설명하는 스키마를 구성하고 각 필드 내에 포함될 수 있는 데이터 유형에 대한 제약 조건을 제공해야 합니다. 스키마는 기본 클래스와 0개 이상의 스키마 필드 그룹으로 구성됩니다. 스키마는 모든 Adobe DX 제품이 읽을 수 있는 XDM 구조를 사용합니다. 스키마는 Experience Platform으로 전송된 데이터를 모든 DX 제품에서 이해할 수 있도록 합니다. [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)에 대해 자세히 알아보세요.
 
-- **데이터 집합** - 데이터 수집을 위한 저장소 및 관리 구성으로서, 일반적으로 스키마(열)와 필드(행)를 포함하는 테이블입니다. 데이터 세트에는 저장하는 데이터의 다양한 측면을 설명하는 메타데이터도 포함됩니다. Adobe Experience Platform에 성공적으로 수집된 모든 데이터는 데이터 세트 내에 포함됩니다. [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)에 대해 자세히 알아보세요.
+- **데이터 집합** - 데이터 수집을 위한 저장소 및 관리 구성으로서, 일반적으로 스키마(열)와 필드(행)를 포함하는 테이블입니다. 데이터 세트에는 저장하는 데이터의 다양한 측면을 설명하는 메타데이터도 포함됩니다. Adobe Experience Platform에 성공적으로 수집된 모든 데이터는 데이터 세트 내에 포함됩니다. [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)에 대해 자세히 알아보세요.
 
-- **데이터스트림** - Adobe Experience Platform에서 다른 Adobe DX 제품으로 데이터를 이동할 수 있는 ID입니다. 이 ID는 특정 Adobe Commerce 인스턴스 내의 특정 웹 사이트에 연결되어야 합니다. 이 데이터 스트림을 만들 때 위에서 만든 XDM 스키마를 지정합니다. [데이터스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)에 대해 자세히 알아보세요.
+- **데이터스트림** - Adobe Experience Platform에서 다른 Adobe DX 제품으로 데이터를 이동할 수 있는 ID입니다. 이 ID는 특정 Adobe Commerce 인스턴스 내의 특정 웹 사이트에 연결되어야 합니다. 이 데이터 스트림을 만들 때 위에서 만든 XDM 스키마를 지정합니다. [데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)에 대해 자세히 알아보세요.
 
 ## 지원되는 아키텍처
 
@@ -86,7 +86,7 @@ Commerce에서 Experience Platform으로, Experience Platform에서 Commerce으�
 
 - PHP/Luma
 - [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/aep/)
-- [AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/aep)
+- [AEM](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/aep)
 
 >[!BEGINSHADEBOX]
 
@@ -96,7 +96,7 @@ Commerce에서 Experience Platform으로, Experience Platform에서 Commerce으�
 
 - Adobe Commerce 2.4.4 이상
 - Adobe ID 및 조직 ID
-- [ACDL(Adobe Client Data Layer)](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), 상점 이벤트 데이터를 수집하는 데 필요
+- [ACDL(Adobe Client Data Layer)](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/client-data-layer/overview), 상점 이벤트 데이터를 수집하는 데 필요
 - 다른 Adobe DX 제품에 대한 자격.
 
 >[!ENDSHADEBOX]
@@ -106,12 +106,12 @@ Commerce에서 Experience Platform으로, Experience Platform에서 Commerce으�
 높은 수준에서 [!DNL Data Connection] 확장을 활성화하려면 다음 단계를 수행해야 합니다.
 
 1. [!DNL Data Connection] 확장을 [설치](install.md)합니다.
-1. Adobe 계정에 [로그인](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)하고 조직 ID를 확인하려면 [확인](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)하세요. 조직 ID 는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
-1. Experience Platform의 데이터 수집에 대한 [권한이 있는지 확인](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions).
+1. Adobe 계정에 [로그인](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)하고 조직 ID를 확인하려면 [확인](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)하세요. 조직 ID 는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
+1. Experience Platform의 데이터 수집에 대한 [권한이 있는지 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions).
 1. 수집 및 전송할 수 있는 [데이터 형식](data-ingestion.md)을 검토하십시오.
 1. Commerce 관련 필드 그룹으로 [시계열 이벤트 스키마](update-xdm.md) 또는 [프로필 레코드 데이터 스키마](profile-data.md)를 만들거나 업데이트하십시오.
-1. 만들거나 업데이트한 스키마를 기준으로 [데이터 집합을 만듭니다](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform#create-a-dataset). 이 데이터 세트에는 Experience Platform Edge으로 전송된 Commerce 데이터가 포함되어 있습니다.
-1. [데이터 스트림을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) Commerce 관련 필드 그룹이 포함된 XDM 스키마를 선택합니다.
+1. 만들거나 업데이트한 스키마를 기준으로 [데이터 집합을 만듭니다](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform#create-a-dataset). 이 데이터 세트에는 Experience Platform Edge으로 전송된 Commerce 데이터가 포함되어 있습니다.
+1. [데이터 스트림을 만들고](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview) Commerce 관련 필드 그룹이 포함된 XDM 스키마를 선택합니다.
 1. [Commerce 서비스에 연결](../landing/saas.md).
 1. [Adobe Experience Platform에 연결](connect-data.md).
 
@@ -133,5 +133,5 @@ Commerce에서 Experience Platform으로, Experience Platform에서 Commerce으�
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-- [도움말 센터](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview){target="_blank"}
-- [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case){target="_blank"} — 추가 지원을 받으려면 티켓을 제출합니다.
+- [도움말 센터](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview){target="_blank"}
+- [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case){target="_blank"} — 추가 지원을 받으려면 티켓을 제출합니다.

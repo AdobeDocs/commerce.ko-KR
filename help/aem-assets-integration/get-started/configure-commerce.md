@@ -2,7 +2,7 @@
 title: Adobe Commerce 패키지 설치
 description: Adobe Commerce 인스턴스에 Adobe Commerce용 AEM Assets 통합 확장 기능을 설치하는 방법을 알아봅니다. 이 확장은 Adobe Commerce에서 AEM Assets을 사용하는 데 필요합니다.
 feature: CMS, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 exl-id: c0fb59e1-daf8-4f48-a7a7-b48e8782dfad
 TQID: https://experienceleague.adobe.com/z4WBMzUa6Jn8EjUH1e5oojV4I3bTDZJylwtQ7LZ4wPE
 product_v2:
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 AEM Assets과 Commerce 통합을 활성화하려면 다음 역할과 권한이 필요합니다.
 
-- [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
+- [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
 
   - 확장을 설치하려면 [repo.magento.com](https://repo.magento.com/admin/dashboard)에 액세스하십시오.
 
-    키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
+    키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
 
-- [Commerce 관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
+- [Commerce 관리자](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
 
 >[!TIP]
 >
-> Adobe Commerce은 [Adobe IMS 인증](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)을 사용하도록 구성할 수 있습니다.
+> Adobe Commerce은 [Adobe IMS 인증](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)을 사용하도록 구성할 수 있습니다.
 
 ## 설치 및 구성 워크플로
 
@@ -70,7 +70,7 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/cli-branches)를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 확인하십시오.
 
@@ -100,7 +100,7 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
    git push origin <branch-name>
    ```
 
-   업데이트를 푸시하면 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)가 시작되어 변경 내용을 적용합니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
+   업데이트를 푸시하면 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/deploy/process)가 시작되어 변경 내용을 적용합니다. [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
 
 >[!TAB 온-프레미스]
 
@@ -140,7 +140,7 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
 
 >[!NOTE]
 >
-> Commerce 서비스 커넥터 설정은 [Adobe Commerce SaaS 서비스](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices)를 사용하는 데 필요한 일회성 프로세스입니다. 다른 서비스에 대한 커넥터를 이미 구성한 경우 **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;을(를) 선택하여 Commerce 관리에서 기존 구성을 볼 수 있습니다.
+> Commerce 서비스 커넥터 설정은 [Adobe Commerce SaaS 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas#availableservices)를 사용하는 데 필요한 일회성 프로세스입니다. 다른 서비스에 대한 커넥터를 이미 구성한 경우 **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;을(를) 선택하여 Commerce 관리에서 기존 구성을 볼 수 있습니다.
 
 Adobe Commerce 인스턴스와 AEM Assets 통합을 사용하는 서비스 간에 데이터를 전송하려면 관리자로부터 Commerce 서비스 커넥터를 구성하십시오(**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -152,7 +152,7 @@ AEM Assets 통합을 위한 ![SaaS 프로젝트 및 데이터 공간 ID](../asse
 - 보안 클라우드 스토리지를 위한 데이터 공간 이름(SaaS 식별자)
 - Commerce 및 AEM Assets 환경이 프로비저닝된 IMS 조직 ID
 
-자세한 지침은 [Commerce 서비스 커넥터 구성 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)를 시청하십시오. [Commerce 서비스 커넥터](../../landing/saas.md#organizationid) 설명서를 참조하십시오.
+자세한 지침은 [Commerce 서비스 커넥터 구성 비디오](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)를 시청하십시오. [Commerce 서비스 커넥터](../../landing/saas.md#organizationid) 설명서를 참조하십시오.
 
 구성을 저장하면 시스템에서 환경에 대한 SaaS 프로젝트 및 데이터베이스 ID를 생성합니다. Adobe Commerce과 AEM Assets 간에 에셋 동기화를 활성화하는 데 이러한 값이 필요합니다.
 
@@ -163,8 +163,8 @@ AEM Assets 통합은 Adobe I/O Events 서비스를 사용하여 Commerce 인스�
 Adobe I/O Events을 구성하기 전에 Commerce 프로젝트에 대한 RabbitMQ 및 cron 작업 구성을 확인하십시오.
 
 - RabbitMQ가 활성화되어 있고 이벤트를 수신하는지 확인합니다.
-  - [Adobe Commerce 온-프레미스에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
-  - [클라우드 인프라에서 Adobe Commerce에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [Adobe Commerce 온-프레미스에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [클라우드 인프라에서 Adobe Commerce에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
   - [cron 작업이 활성화되었는지 확인](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). AEM Assets 통합을 위한 통신 및 워크플로에 Cron 작업이 필요합니다.
 
 >[!NOTE]
@@ -224,7 +224,7 @@ Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
 
 - `content`: 실행할 VCL 코드 조각으로, 클라이언트 IP 주소를 확인합니다. IP가 Edge ACL에 있으면 전체 웹 사이트에 대해 `405 Not allowed` 오류로 인해 액세스가 차단됩니다. 다른 모든 클라이언트 IP 주소는 액세스가 허용됩니다.
 
-VCL 코드 조각을 사용하여 수신 요청을 차단하는 방법에 대한 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)을(를) 참조하십시오.
+VCL 코드 조각을 사용하여 수신 요청을 차단하는 방법에 대한 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)을(를) 참조하십시오.
 
 >[!ENDSHADEBOX]
 

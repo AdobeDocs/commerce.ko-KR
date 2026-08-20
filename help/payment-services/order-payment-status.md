@@ -120,7 +120,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
    bin/magento config:set payment/payment_services/async_status_updates 1
    ```
 
-1. 상태 업데이트를 자동으로 가져오도록 `sync_order_payment_status` cron 작업을 활성화하고 예약합니다. [cron 작업 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하십시오.
+1. 상태 업데이트를 자동으로 가져오도록 `sync_order_payment_status` cron 작업을 활성화하고 예약합니다. [cron 작업 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)을 참조하십시오.
 
 설정 및 cron 작업이 활성화되면 cron 작업은 10분마다 실행되어 `Payment Review` 상태의 주문에 대한 업데이트를 가져옵니다. 설정 후 정상 작동 시 추가 판매자 조치가 필요하지 않습니다.
 
@@ -131,11 +131,11 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 [!DNL Payment Services]은(는) 주문 데이터를 사용하여 다른 원본(PayPal 포함)의 결제 데이터와 결합하여 의미 있고 유용한 보고서를 제공합니다.
 
-주문 데이터를 내보내고 결제 서비스에서 유지합니다. [주문 상태를 변경 또는 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#custom-order-status)하거나 [스토어 보기를 편집](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-views#edit-a-store-view), [스토어](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#store-information) 또는 웹 사이트 이름을 편집하면 해당 데이터가 결제 데이터와 결합되고 주문 결제 상태 보고서는 결합된 정보로 채워집니다.
+주문 데이터를 내보내고 결제 서비스에서 유지합니다. [주문 상태를 변경 또는 추가](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-status#custom-order-status)하거나 [스토어 보기를 편집](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-views#edit-a-store-view), [스토어](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/store-details#store-information) 또는 웹 사이트 이름을 편집하면 해당 데이터가 결제 데이터와 결합되고 주문 결제 상태 보고서는 결합된 정보로 채워집니다.
 
 이 프로세스에는 두 가지 단계가 있습니다.
 
-1. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)에 구성된 방법에 따라 인덱스가 `ON SAVE`(주문 정보 또는 저장소 정보가 변경될 때마다) 또는 `BY SCHEDULE`(사전 구성된 cron 일정에 따라)의 데이터를 변경합니다.
+1. 관리자의 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에 구성된 방법에 따라 인덱스가 `ON SAVE`(주문 정보 또는 저장소 정보가 변경될 때마다) 또는 `BY SCHEDULE`(사전 구성된 cron 일정에 따라)의 데이터를 변경합니다.
 
    기본적으로 데이터 인덱싱이 `ON SAVE`에 발생합니다. 즉, 순서, 주문 상태, 스토어 보기, 스토어 또는 웹 사이트의 변경 사항이 있을 때마다 다시 인덱싱 프로세스가 즉시 발생합니다.
 
@@ -151,7 +151,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 기본적으로 리인덱싱은 `ON SAVE` 모드에서 수행되지만 `BY SCHEDULE` 모드에서 인덱싱하는 것이 좋습니다. `BY SCHEDULE` 인덱스는 1분의 cron 일정에 따라 실행되며 변경된 데이터는 데이터 변경 후 2분 이내에 주문 상태 보고서에 표시됩니다. 이러한 예약된 리인덱싱은 특히 들어오는 주문량이 많은 경우 각 주문이 아닌 일정에 따라 발생하므로 스토어에 대한 부담을 줄이는 데 도움이 됩니다.
 
-관리자[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—을(를) 변경할 수 있습니다.
+관리자[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management#change-the-index-mode)에서 인덱스 모드—`ON SAVE` 또는 `BY SCHEDULE`—을(를) 변경할 수 있습니다.
 
 데이터 내보내기를 구성하는 방법은 [명령줄 구성](configure-cli.md#configure-data-export)을 참조하세요.
 
@@ -262,10 +262,10 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 
 | 열 | 설명 |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce 주문 ID<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하십시오. |
+| [!UICONTROL Order ID] | Commerce 주문 ID<br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"}를 보려면 ID를 클릭하십시오. |
 | [!UICONTROL Order Date] | 주문 날짜 타임스탬프 |
 | [!UICONTROL Authorized Date] | 결제 권한 부여의 날짜 타임스탬프 |
-| [!UICONTROL Order Status] | 현재 Commerce [주문 상태](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status){target="_blank"} |
+| [!UICONTROL Order Status] | 현재 Commerce [주문 상태](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-status){target="_blank"} |
 | [!UICONTROL Invoiced] | 주문 *[!UICONTROL No]*, *[!UICONTROL Partial]* 또는 *[!UICONTROL Yes]*&#x200B;의 송장 상태 |
 | [!UICONTROL Shipped] | 주문 배송 상태—*[!UICONTROL No]*, *[!UICONTROL Partial]* 또는 *[!UICONTROL Yes]* |
 | [!UICONTROL Order Amt] | 총 주문 금액 |

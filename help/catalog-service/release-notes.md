@@ -71,7 +71,7 @@ ht-degree: 0%
 **릴리스 날짜**: 2026년 5월 20일
 <!-- v1.55 -->
 
-![새로 만들기](../assets/new.svg) [문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits)에 따라 Adobe Commerce 및 Adobe Commerce as a Cloud Service 클라이언트 모두에 대해 요청당 최대 100개의 SKU를 강제 제한했습니다.
+![새로 만들기](../assets/new.svg) [문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits)에 따라 Adobe Commerce 및 Adobe Commerce as a Cloud Service 클라이언트 모두에 대해 요청당 최대 100개의 SKU를 강제 제한했습니다.
 <!--DATA-7163-->
 
 **릴리스 날짜**: 2026년 5월 13일
@@ -91,7 +91,7 @@ ht-degree: 0%
 <!--v1.52-->
 
 Adobe Commerce Optimizer 및 Adobe Commerce as a Cloud Service에 대해 요청당 최대 100개의 SKU에 대한 ![새로운](../assets/new.svg) 강제 제한
-[문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits)에 따른 클라이언트. <!--DATA-7156-->
+[문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits)에 따른 클라이언트. <!--DATA-7156-->
 
 **릴리스 날짜**: 2026년 4월 17일
 <!--v1.51-->
@@ -275,7 +275,7 @@ query {
 **릴리스 날짜**: 2025년 6월 20일
 <!-- v1.37 -->
 
-![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
+![새로 만들기](../assets/new.svg) **계층 구조의 가격 장부 구성**—부모-자식 가격 장부의 정확한 가격 범위입니다. 계산은 계층 및 상속된 규칙을 준수하며, 여러 가격 장부가 연결될 때 가격책정 오류를 줄입니다. Adobe Commerce Optimizer만 해당. [가격 장부](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/pricebooks)를 참조하세요.
 
 ![새로 만들기](../assets/new.svg) **대/소문자를 구분하지 않는 키**—쿼리의 키 조회는 이제 대/소문자를 구분하지 않으므로 키 대/소문자에서 오류가 줄어듭니다. <!--DATA-6494, DCAT-2495-->
 
@@ -412,7 +412,7 @@ query {
 
 <!--DATA-5033-->
 
-![수정](../assets/fix.svg) 최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../data-export/data-export-cli-commands.md)에서 다시 동기화하십시오.
+![수정](../assets/fix.svg) 최대 16자리 및 소수점 4자리까지 제품 가격에 대한 지원이 추가되었습니다. 업데이트를 적용하려면 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) 또는 [CLI](../data-export/data-export-cli-commands.md)에서 다시 동기화하십시오.
 <!--DATA-5033-->
 
 #### 알려진 제한 사항
@@ -449,7 +449,7 @@ API Mesh 및 핵심 GraphQL API를 사용하여 다음을 수행할 수 있습�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
 
 **릴리스 날짜**: 2024년 2월 13일
 <!-- v1.16 -->
@@ -637,7 +637,7 @@ API Mesh 및 핵심 GraphQL API를 사용하여 다음을 수행할 수 있습�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) **데이터 피드 동기화 상태 모니터링 지원**—데이터 내보내기 상태 확장(`magento/module-data-exporter-status`)을 포함하도록 카탈로그 서비스 메타패키지 종속성을 업데이트했습니다. 이렇게 하면 추가 설치 또는 구성 단계를 수행하지 않고도 Commerce 관리자의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 사용할 수 있습니다
+![새로 만들기](../assets/new.svg) **데이터 피드 동기화 상태 모니터링 지원**—데이터 내보내기 상태 확장(`magento/module-data-exporter-status`)을 포함하도록 카탈로그 서비스 메타패키지 종속성을 업데이트했습니다. 이렇게 하면 추가 설치 또는 구성 단계를 수행하지 않고도 Commerce 관리자의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 사용할 수 있습니다
 
 ![새로 만들기](../assets/new.svg) 카탈로그 서비스와 Commerce 스택 간의 호환성을 유지하기 위해 종속성이 업데이트되었습니다.
 
@@ -694,9 +694,9 @@ Composer를 사용하여 `magento/catalog-service`을(를) 업그레이드할 �
 
   - [카탈로그 서비스 안내서](overview.md)
   - [카탈로그 서비스 GraphQL API 참조](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/)
-  - [Adobe Commerce 관리 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+  - [Adobe Commerce 관리 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
   - [Adobe Commerce as a Cloud Service 안내서](../cloud-service/overview.md)
-  - [Adobe Commerce on Cloud 안내서](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview)
+  - [Adobe Commerce on Cloud 안내서](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview)
 
 - **Adobe Commerce Optimizer** 또는 **Adobe Commerce Optimizer 커넥터**&#x200B;를 사용하는 프로젝트의 경우 다음 설명서를 참조하십시오.
 
