@@ -6,11 +6,21 @@ role: Admin, User
 exl-id: 1aa6ba8b-be39-496e-b83d-a4a7db9f5dd8
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/pWbJSCrV9CcdJXNTkuXyCxh73eUA7nYt1okexwtK7II
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
 source-wordcount: 1665
@@ -126,7 +136,7 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
    **[!UICONTROL Commerce Services Connector]** 섹션이 표시되지 않으면 원하는 [[!DNL Commerce] 서비스](#availableservices)에 대한 [!DNL Commerce] 모듈을 설치하고 `magento/module-services-id` 패키지가 설치되었는지 확인하십시오.
 
-1. _[!UICONTROL Sandbox API Keys]_및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
+1. _[!UICONTROL Sandbox API Keys]_&#x200B;및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
 
    - 비공개 키에는 키 시작 부분의 `-----BEGIN PRIVATE KEY-----` 및 키 끝 부분의 `-----END PRIVATE KEY-----`이(가) 포함되어야 합니다.
    - 실제 키의 사본이 없는 경우 라이센스 소유자에게 요청한 다음 값을 구성에 연결합니다.

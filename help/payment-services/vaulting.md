@@ -74,7 +74,7 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 저장된 신용 카드를 사용하는 고객을 위해 관리자에서 주문을 생성하려면:
 
 1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
-1. _[!UICONTROL Payment & Shipping Information]_에서&#x200B;**[!UICONTROL Stored Cards]**을(를) 결제 방법으로 선택합니다.
+1. _[!UICONTROL Payment & Shipping Information]_&#x200B;에서&#x200B;**[!UICONTROL Stored Cards]**&#x200B;을(를) 결제 방법으로 선택합니다.
 1. 원하는 저장된 신용 카드 결제 방법을 선택합니다.
 1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
 

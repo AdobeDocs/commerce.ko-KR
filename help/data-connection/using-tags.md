@@ -5,10 +5,18 @@ role: Admin, Developer
 feature: Personalization, Integration
 exl-id: dab333e8-5f71-4f3e-9660-6363b0e230c8
 TQID: https://experienceleague.adobe.com/7HNafiIenZfLrAhILPMwuUzRDzBVuClvDchJBGEg6bs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
 source-wordcount: 2697
@@ -33,7 +41,7 @@ Commerce 이벤트 데이터를 수집하려면:
 
   >[!NOTE]
   >
-  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
+  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**&#x200B;[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
 
 ## Commerce 상점 데이터를 Adobe Experience Platform에 매핑
 
