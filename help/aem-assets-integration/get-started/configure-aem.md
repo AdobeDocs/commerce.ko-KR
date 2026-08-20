@@ -4,19 +4,13 @@ description: assets-commerce 패키지를 배포하고 Adobe Commerce 프로젝�
 feature: CMS, Media, Integration
 exl-id: a5d2cbab-5ea1-446b-8ab2-2c638128a40c
 TQID: https://experienceleague.adobe.com/QPlM-eeRjJ0gwmpGO4SSYR4PLtL97O-NeozWorDWtv0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0c2e50338cbf286704239b6d1f628180e85a3bef
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1744
 ht-degree: 1%
 
 ---
@@ -43,7 +37,7 @@ AEM Assets 프로젝트를 구성하는 두 가지 옵션이 있습니다.
 
 ### 셀프서비스 사전 요구 사항
 
-* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
+* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
 
 * 릴리스 `2026.5.26309` 이상의 AEM 프로그램.
 
@@ -116,21 +110,21 @@ Cloud Manager에서 1단계에서 생성한 환경을 연 다음 다음을 수�
 
 `assets-commerce` 패키지 코드를 AEM Assets as a Cloud Service AEM 환경에 배포하려면 다음 리소스와 권한이 필요합니다.
 
-* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Assets Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
+* 프로그램 및 배포 관리자 역할을 사용하여 [AEM Assets Cloud Manager 프로그램 및 환경에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo).
 
-* [로컬 AEM 개발 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) 및 AEM 로컬 개발 프로세스에 익숙합니다.
+* [로컬 AEM 개발 환경](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) 및 AEM 로컬 개발 프로세스에 익숙합니다.
 
 * [AEM 프로젝트 구조](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 및 Cloud Manager을 사용하여 사용자 지정 콘텐츠 패키지를 배포하는 방법을 이해합니다.
 
 * Commerce 인스턴스의 **IMS 조직 ID**. Commerce 인스턴스와 AEM Assets 작성 환경은 모두 동일한 IMS 조직에 있어야 합니다.
 
-* OpenAPI 기능을 사용하여 [Dynamic Media를 활성화하려면](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis):
+* OpenAPI 기능을 사용하여 [Dynamic Media를 활성화하려면](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis):
 
 >[!BEGINTABS]
 
 >[!TAB 제품 시각화]
 
-OpenAPI 기능이 있는 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Dynamic Media는 AEM Assets에서 제공하는 제품 비주얼에 대해 셀프서비스입니다.
+OpenAPI 기능이 있는 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Dynamic Media는 AEM Assets에서 제공하는 제품 비주얼에 대해 셀프서비스입니다.
 
 1. Cloud Manager으로 이동합니다.
 
@@ -146,12 +140,12 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 * 제목: Dynamic Media OpenAPI를 활성화하여 Adobe Commerce을 AEM Assets과 완전히 통합
 
-   * 지원 티켓 컨텐츠:
+  * 지원 티켓 컨텐츠:
 
-      * **[!UICONTROL AEM Program ID]**
-      * **[!UICONTROL Adobe Commerce URL]**
-      * **[!UICONTROL AEM Environment ID]**
-      * **[!UICONTROL IMS Org ID]**
+    * **[!UICONTROL AEM Program ID]**
+    * **[!UICONTROL Adobe Commerce URL]**
+    * **[!UICONTROL AEM Environment ID]**
+    * **[!UICONTROL IMS Org ID]**
 
 지원 티켓을 제출하면 Adobe이 Cloud Services 환경에서 OpenAPI 기능을 갖춘 Dynamic Media를 활성화하고 IMS 클라이언트 ID 등의 세부 정보를 공유하여 통합을 계속할 수 있습니다.
 
@@ -159,9 +153,9 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 ### 설치 단계
 
-1. AEM Cloud Manager으로 이동하여 프로그램을 선택한 다음 Adobe Commerce과 통합할 [프로덕션 및 스테이징 환경 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments)를 선택합니다.
+1. AEM Cloud Manager으로 이동하여 프로그램을 선택한 다음 Adobe Commerce과 통합할 [프로덕션 및 스테이징 환경 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments)를 선택합니다.
 
-1. 선택한 프로그램에 대해 [Adobe 관리 git 저장소를 복제](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access)합니다.
+1. 선택한 프로그램에 대해 [Adobe 관리 git 저장소를 복제](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access)합니다.
 
    ![Cloud Manager 저장소 자격 증명 및 복제 명령](../assets/cloud-manager-repository-info.png){width="600" zoomable="yes"}
 
@@ -169,7 +163,7 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. GitHub에서 [AEM Assets Commerce 저장소](https://github.com/ankumalh/assets-commerce)에서 패키지 코드를 다운로드합니다.
 
-1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 다운로드한 코드를 기존 Adobe 관리 저장소에 수동으로 복사하십시오.
+1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 다운로드한 코드를 기존 Adobe 관리 저장소에 수동으로 복사하십시오.
 
 1. 프로젝트의 모든 `filter.xml` 및 `pom.xml` 파일에서 모든 &lt;my-app>을 사용자의 앱 이름으로 바꾸십시오.
 
@@ -179,13 +173,13 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. 변경 사항을 커밋하고 로컬 개발 분기를 Cloud Manager Git 저장소로 푸시합니다.
 
-1. [배포 파이프라인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline)을 구성하거나 파이프라인이 선택한 환경에 변경 내용을 배포할 수 있는지 확인하십시오.
+1. [배포 파이프라인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline)을 구성하거나 파이프라인이 선택한 환경에 변경 내용을 배포할 수 있는지 확인하십시오.
 
    ![Cloud Manager 파이프라인](../assets/cloud-manager-pipelines.png){width="600" zoomable="yes"}
 
    파이프라인이 있으면 작업 메뉴(**...**)를 엽니다. **[!UICONTROL Run]**, **[!UICONTROL Edit]**, **[!UICONTROL View/Edit variables]** 또는 기타 작업까지—위에 연결된 Cloud Manager 파이프라인 설명서를 참조하십시오.
 
-1. AEM Cloud Manager에서 [파이프라인을 사용하여 코드를 배포하여 AEM 환경을 업데이트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)합니다.
+1. AEM Cloud Manager에서 [파이프라인을 사용하여 코드를 배포하여 AEM 환경을 업데이트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)합니다.
 
 1. 변경 내용을 확인하려면 임의의 자산으로 이동하여 해당 속성을 편집하십시오.
 
@@ -209,7 +203,7 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. **checkbox** 구성 요소를 **Commerce** 탭으로 끌어다 놓고 속성 `commerce:isCommerce`에 매핑합니다. 옵션으로 **예** 및 **아니요**&#x200B;를 정의합니다.
 
-다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
+다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
 
 ## 메타데이터 프로필 구성(선택 사항)
 
@@ -267,7 +261,7 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_&#x200B;필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 
@@ -287,4 +281,4 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
 
 * [!BADGE Paa만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} [Adobe Commerce 패키지 설치](configure-commerce.md).
 
-* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [관리자로부터 통합 구성](setup-synchronization.md).
+* [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [관리자로부터 통합 구성](setup-synchronization.md).

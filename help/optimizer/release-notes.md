@@ -4,21 +4,15 @@ description: 상점 카탈로그 데이터 검색을 위한 데이터 수집 RES
 feature: Release Notes
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 TQID: https://experienceleague.adobe.com/apcpxN0AOniRcHDCa5MMAVWysxRO5mTcudXXXjET-Lo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 413d0932d402615c9e155e1650a7c8aba2c082a1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -90,7 +84,7 @@ _2026년 6월 24일_
 
 ### 지능형 순위 증가
 
-[&#128279;](./merchandising/rules/add.md#intelligent-ranking-boost)검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
+[검색, 기본 제품 목록 및 [범주 페이지](./merchandising/rules/add.md#rule-types)에 대한 머천다이징 규칙](./merchandising/rules/add.md#intelligent-ranking-boost)에 이제 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;이(가) 포함됩니다. **가장 많이 본 항목** 또는 **트렌드**&#x200B;와 같은 전략이 범주 목록의 검색 및 동작 신호에 대한 텍스트 관련성과 관련하여 제품 순서에 미치는 영향을 얼마나 강력하게 조정할 수 있습니다. 규칙 미리 보기는 사용자의 설정을 반영합니다. 부스트는 쿼리 시간에 적용되므로 변경할 때 카탈로그를 다시 동기화할 필요가 없습니다.
 
 ### API 업데이트
 
@@ -101,7 +95,7 @@ _2026년 5월 28일_
 ![수정](../assets/fix.svg) **전체 탐색 트리**—경로에 태그가 지정되지 않은 중간 노드가 있으면 태그가 지정된 하위 범주가 패밀리가 필터링된 `navigation` 트리에 올바르게 포함됩니다. 이 수정 사항을 통해 쇼핑객은 탐색에서 모든 관련 카테고리를 볼 수 있으므로 항목을 더 쉽게 탐색하고 검색할 수 있습니다.
 <!--DATA-7183-->
 
-![수정](../assets/fix.svg) **`categoryTree` 요청의 빈 슬러그 처리**—`slugs` 인수에 빈 문자열이 포함된 경우 [`categoryTree`](https://developer.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree) 쿼리에서 내부 서버 오류를 반환하는 문제를 해결했습니다. 이제 빈 슬러그 값이 무시되므로 상점 및 통합은 실패한 요청 없이 카테고리 데이터를 계속 확인합니다.
+![수정](../assets/fix.svg) **`categoryTree` 요청의 빈 슬러그 처리**—`slugs` 인수에 빈 문자열이 포함된 경우 [`categoryTree`](https://developer.adobe.com/commerce/services/reference/graphql/#categorytree) 쿼리에서 내부 서버 오류를 반환하는 문제를 해결했습니다. 이제 빈 슬러그 값이 무시되므로 상점 및 통합은 실패한 요청 없이 카테고리 데이터를 계속 확인합니다.
 <!--DATA-7184-->
 
 ![수정](../assets/fix.svg) **`searchCategory`요청이 대소문자를 구분하지 않고 알파벳순으로 결과를 반환합니다** - 이제 `searchCategory` 쿼리가 대소문자를 구분하지 않고 알파벳순으로 검색 결과를 정렬하여 일관되고 예측 가능한 순서를 유지합니다. 접두사가 더 짧은 범주는 이름이 동일하지 않은 경우 먼저 나타납니다.
@@ -139,7 +133,7 @@ _2026년 4월 29일_
 
 <!--v1.52 release-->
 
-**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
+**요청 일괄 처리 필요** - 이제 GraphQL API는 카탈로그 데이터를 검색할 때 요청당 최대 100개의 SKU를 적용합니다. [문서화된 제한 및 경계](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits#product-discovery)를 참조하십시오.
 
 <!--DATA-7156-->
 
@@ -153,7 +147,7 @@ _2026년 4월 7일_
 
 <!--v1.50 release-->
 
-**간단한 범주 조회** — [categoryTree](https://developer.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree) 쿼리는 `family`을(를) 선택 항목으로 처리하므로 패밀리를 제공하지 않고 슬러그로 범주를 해결할 수 있습니다.
+**간단한 범주 조회** — [categoryTree](https://developer.adobe.com/commerce/services/reference/graphql/#categorytree) 쿼리는 `family`을(를) 선택 항목으로 처리하므로 패밀리를 제공하지 않고 슬러그로 범주를 해결할 수 있습니다.
 
 {{aco-release}}
 
@@ -191,13 +185,13 @@ _2026년 2월 19일_
 
 <!--v1.48-->
 
-**더 풍부한 상점 카테고리 컨텐츠** — [categoryTree](https://developer.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#query-categoryTree) 쿼리는 이제 설명, 이미지 및 SEO 메타 태그를 반환하므로 상점이 더 풍부한 범주 페이지를 렌더링할 수 있습니다.<!--DATA-6933-->
+**더 풍부한 상점 카테고리 컨텐츠** — [categoryTree](https://developer.adobe.com/commerce/services/reference/graphql/#categorytree) 쿼리는 이제 설명, 이미지 및 SEO 메타 태그를 반환하므로 상점이 더 풍부한 범주 페이지를 렌더링할 수 있습니다.<!--DATA-6933-->
 
 _2026년 2월 12일_
 
 <!--v1.49-->
 
-**카테고리별 제품 데이터 향상** - GraphQL API는 [`CategoryProductView`](https://developer.adobe.com/commerce/services/graphql-api/merchandising-api/index.html#definition-CategoryProductView){target="blank"} 유형을 추가하므로 적은 횟수로 카테고리별로 제품을 쿼리하고 필터링할 수 있습니다.
+**카테고리별 제품 데이터 향상** - GraphQL API는 [`CategoryProductView`](https://developer.adobe.com/commerce/services/reference/graphql/#categoryproductview){target="blank"} 유형을 추가하므로 적은 횟수로 카테고리별로 제품을 쿼리하고 필터링할 수 있습니다.
 
 {{aco-release}}
 

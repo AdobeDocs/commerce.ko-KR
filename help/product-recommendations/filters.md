@@ -3,15 +3,12 @@ title: 제품 필터링
 description: 권장 사항으로 사용되는 제품을 포함하거나 제외하는 조건을 정의합니다.
 exl-id: 140bf047-4f6a-48da-b536-d96e78ae3d17
 TQID: https://experienceleague.adobe.com/IcJh0vfW3tvlyeZT0K9OnyqLqRmHlgfmUOX3lY-50tg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: 778
 ht-degree: 0%
 
 ---
@@ -55,7 +52,7 @@ Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 �
 
 >[!NOTE]
 >
->B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ko)를 준수합니다.
+>B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions)를 준수합니다.
 
 Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다음 카테고리 필터 구성을 사용하는 것을 권장합니다.
 
@@ -85,11 +82,11 @@ Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다�
 
 ### 가격
 
-제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 쇼핑객이 사용할 수 있는 할인이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=ko)을 반영합니다.
+제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 쇼핑객이 사용할 수 있는 할인이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/pricing-advanced)을 반영합니다.
 
 ### 재고 상태
 
 다음 제외 필터를 사용하여 재고 상태에 따라 제품을 필터링할 수 있습니다.
 
 - 품절 - (제외만 해당) 품절된 제품을 제외합니다.
-- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html?lang=ko)의 _X만 남은 임계값_ 값을 기반으로 합니다.
+- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory)의 _X만 남은 임계값_ 값을 기반으로 합니다.

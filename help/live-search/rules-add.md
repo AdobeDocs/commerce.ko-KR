@@ -3,18 +3,13 @@ title: 규칙 추가
 description: 검색 머천다이징 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
 TQID: https://experienceleague.adobe.com/QnJ-q-Y-ccQ7HKEt2RgPYQFeWcBnhjwSDOtKjlF7Rp0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 657c4b3123407580dfeb2c021a5a1ba515e82115
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2561
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 ## 규칙 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 규칙이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 식별하도록 **범위**&#x200B;를 설정하십시오.
+1. 규칙이 적용되는 [스토어 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)를 식별하도록 **범위**&#x200B;를 설정하십시오.
 1. **머천다이징 검색** 작업 영역을 클릭합니다.
 1. **규칙 추가**&#x200B;를 클릭하여 규칙 편집기를 시작합니다.
 
@@ -60,14 +55,14 @@ ht-degree: 0%
 
    ![규칙 - 단순](assets/rule-simple-test.png)
 
-1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**&#x200B;을 누르십시오.
+1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**을 누르십시오.
 처음에 테스트 창은 조건 검색 상자에서 쿼리를 렌더링합니다. 하지만 이제 테스트 쿼리 상자에서 쿼리를 렌더링하고 있습니다. 테스트 창은 한 번에 하나의 쿼리만 렌더링합니다.
 1. 결과가 마음에 들면 *조건* 검색 상자의 텍스트를 업데이트하세요. 그런 다음 페이지의 아무 곳이나 클릭하여 테스트 창의 결과를 업데이트합니다.
 1. 하나의 조건으로 간단한 규칙을 만들려면 3단계: [이벤트 추가](#manual-ranking)(으)로 이동합니다.
 
 ### 여러 조건
 
-1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**&#x200B;를 클릭하십시오.
+1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**를 클릭하십시오.
 규칙에는 최대 10개의 조건이 있을 수 있습니다. 두 조건을 결합하는 논리 연산자는 현재 *일치* 설정을 기반으로 합니다. 기본적으로 *일치*&#x200B;은(는) `All`이고 논리 연산자는 `AND`입니다.
 
 1. 두 번째 조건을 선택하고 필요한 쿼리 텍스트를 입력합니다.
@@ -136,8 +131,8 @@ ht-degree: 0%
 
 * **텍스트 관련성**: 채점의 주요 요소입니다. 이렇게 하면 제품의 이름, 설명 및 속성이 검색 쿼리와 얼마나 잘 일치하는지 측정합니다. 텍스트 관련성 점수는 제한되지 않으며(특정 상한이 없음) 다음과 같은 요인의 영향을 받습니다.
 
-   * 일치하는 단어의 발생 빈도입니다.
-   * 제품 이름/설명의 길이(단어)입니다.
+  * 일치하는 단어의 발생 빈도입니다.
+  * 제품 이름/설명의 길이(단어)입니다.
 
 * **동작 신호**: 텍스트 관련성 점수 위에 적용된 경계 부스트. &quot;가장 많이 본 항목&quot; 또는 &quot;가장 많이 구매한 항목&quot;과 같은 지능형 순위 전략을 선택하면 더 높은 동작 신호를 갖는 제품에 더 큰 상대 가중치가 부여됩니다. 해당 가중치의 강도는 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;에 의해 제어됩니다([지능형 순위 상승](#intelligent-ranking-boost) 참조). 상승도는 제한되어 있지만 순서를 변경하는 정도를 늘릴 수 있습니다.
 
@@ -164,11 +159,11 @@ ht-degree: 0%
 * 쿼리에서 아포스트로피와 인용 부호를 사용하면 일부 언어에서 순위 및 관련성과 관련된 사소한 문제가 발생할 수 있습니다.
 * 지능형 순위가 올바르게 작동하도록 하려면 검색 또는 필터링(패싯)에 사용되는 제품 특성에 대한 **검색 가중치**&#x200B;가 `5` 이하인지 확인하십시오. [!DNL Commerce] 관리자에서 이 설정을 찾으려면:
 
-   1. **스토어** > _특성_ > **제품**&#x200B;을 선택합니다.
-   1. &quot;name&quot;과 같은 속성을 검색합니다.
-   1. **특성 정보** > **Storefront 속성** 페이지에서 검색 가중치를 `5` 이하로 설정하십시오.
+  1. **스토어** > _특성_ > **제품**&#x200B;을 선택합니다.
+  1. &quot;name&quot;과 같은 속성을 검색합니다.
+  1. **특성 정보** > **Storefront 속성** 페이지에서 검색 가중치를 `5` 이하로 설정하십시오.
 
-      ![제품 - 검색 가중치](assets/set-search-weight.png)
+     ![제품 - 검색 가중치](assets/set-search-weight.png)
 
 >[!NOTE]
 >

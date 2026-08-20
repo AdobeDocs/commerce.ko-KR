@@ -5,20 +5,11 @@ autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
 TQID: https://experienceleague.adobe.com/T71zNl7WOrqzEsz4H8A8arx--q6w1B0h33CF2Q0VI4A
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 815
 ht-degree: 0%
@@ -39,7 +30,7 @@ ht-degree: 0%
 
 제품 피드에는 제품 처리에 필요하거나 소비자가 일반적으로 사용하는 기본 시스템 속성이 포함됩니다. 추가 시스템 속성을 피드에 추가하여 제품 피드에 포함할 수 있습니다.
 
-이 작업을 완료하려면 `magento/catalog-data-exporter` 모듈을 업데이트하여 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)에 추가 시스템 특성을 추가하십시오.
+이 작업을 완료하려면 `magento/catalog-data-exporter` 모듈을 업데이트하여 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file)&#x200B;(`di.xml`)에 추가 시스템 특성을 추가하십시오.
 
 제품 특성 쿼리(`Magento\CatalogDataExporter\Model\Query\ProductAttributeQuery`)에 특성을 추가합니다.
 
@@ -74,7 +65,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 
 1. 필요에 따라 속성 집합에 속성을 추가합니다.
 
-*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
+*Adobe Commerce 관리 안내서*&#x200B;에서 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)를 참조하십시오.
 
 #### 프로그래밍 방식으로 제품 특성 만들기
 
@@ -85,7 +76,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 - **`user_defined`=`1`**—데이터를 동기화하는 동안 특성을 상점 서비스로 내보냅니다.
 - **`used_in_product_listing`=`1`**—제품 목록 데이터베이스 쿼리 내에서 특성에 액세스할 수 있도록 설정합니다.
 
-데이터 패치 만들기에 대한 자세한 내용은 *PHP 개발자 안내서*&#x200B;에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)을 참조하십시오.
+데이터 패치 만들기에 대한 자세한 내용은 *PHP 개발자 안내서*&#x200B;에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches)을 참조하십시오.
 
 ### 제품 속성을 동적으로 추가
 
@@ -163,7 +154,7 @@ class DataSentOutsideObserver implements ObserverInterface
 </event>
 ```
 
-이벤트 및 관찰자에 대한 일반적인 정보는 Adobe Commerce 개발자 설명서에서 [이벤트 및 관찰자](https://developer.adobe.com/commerce/php/development/components/events-and-observers){target="_blank"}를 참조하십시오.
+이벤트 및 관찰자에 대한 일반적인 정보는 Adobe Commerce 개발자 설명서에서 [이벤트 및 관찰자](https://developer.adobe.com/commerce/php/development/components/events-and-observers/){target="_blank"}를 참조하십시오.
 
 ## 제출 전 데이터 필터링
 

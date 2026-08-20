@@ -5,9 +5,9 @@ role: Admin, User
 level: Intermediate
 exl-id: 95e648e6-6cb8-4226-b5ea-e1857212f20a
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 379345261bebe5bee9cdbcb6fd3b0ce6275df6ea
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2328'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 0%
 * [!DNL Google Pay] 페이시트에 추가된 코드는 Commerce 장바구니 페이지가 아닌 페이시트에서만 제거할 수 있습니다.
 * Adobe Commerce 2.4.4-2.4.6에서 플랫폼 제한으로 인해 [!DNL Google Pay] 급여 시트의 할인 라인에 값이 표시되지 않을 수 있습니다.
 * Adobe Commerce 2.4.7에서는 GraphQL 응답의 플랫폼 제한으로 인해 할인 값이 일부 제품(주로 다운로드 가능한 제품)의 [!DNL Google Pay] 페이시트에 표시되지 않을 수 있습니다.
-* 자동 [장바구니 가격 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html?lang=ko)이 적용되는 경우(예: &quot;$50 off when spending us $200&quot;), 이 규칙은 쇼핑객이 급여시트에서 적용하는 모든 코드와 결합됩니다. [!DNL Google Pay] 지불 시트에 표시되는 합계는 주문 요약과 다를 수 있습니다.
+* 자동 [장바구니 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart)이 적용되는 경우(예: &quot;$50 off when spending us $200&quot;), 이 규칙은 쇼핑객이 급여시트에서 적용하는 모든 코드와 결합됩니다. [!DNL Google Pay] 지불 시트에 표시되는 합계는 주문 요약과 다를 수 있습니다.
 
 ### [!DNL PayPal Payment Buttons]
 
@@ -201,14 +201,14 @@ PayPal, Pay Later 및 Venmo 결제 방법에서는 PayPal이 Commerce 인스턴�
 
 1. 스토어가 [프로덕션 모드](configure-admin.md#general-configuration)에 있는지 확인하십시오.
 1. 설정에서 [원하는 PayPal 결제 단추를 구성하십시오](configure-admin.md#paypal-payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#paypal-payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
+1. _[!UICONTROL Payment buttons]_섹션에서&#x200B;**[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#paypal-payment-buttons)**옵션을_&#x200B;끄기&#x200B;_합니다.
 
 **기존 신용 카드 공급자 _및_ PayPal 결제 단추**&#x200B;로 결제를 캡처하려면:
 
 1. 스토어가 [프로덕션 모드](configure-admin.md#general-configuration)에 있는지 확인하십시오.
 1. [원하는 PayPal 결제 단추를 구성하십시오](configure-admin.md#paypal-payment-buttons).
-1. _[!UICONTROL Payment buttons]_&#x200B;섹션에서&#x200B;**[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#paypal-payment-buttons)**&#x200B;옵션을_&#x200B;끄기&#x200B;_합니다.
-1. _[!UICONTROL Credit card fields]_&#x200B;섹션에서&#x200B;**[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)**&#x200B;옵션을_&#x200B;해제&#x200B;_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=ko#payments)을 사용하세요.
+1. _[!UICONTROL Payment buttons]_섹션에서&#x200B;**[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#paypal-payment-buttons)**옵션을_&#x200B;끄기&#x200B;_합니다.
+1. _[!UICONTROL Credit card fields]_섹션에서&#x200B;**[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)**옵션을_&#x200B;해제&#x200B;_하고 [기존 신용 카드 공급자 계정](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments#payments)을 사용하세요.
 
 ## 로컬 결제 방법
 

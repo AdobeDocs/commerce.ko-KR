@@ -3,9 +3,9 @@ title: 신용 카드 보관
 description: 구매자는 향후 구매를 위해 신용 카드 세부 정보를 저장(저장)할 수 있습니다.
 exl-id: b4060307-ffcd-41cb-9b9d-a2fef02f23bd
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,14 @@ ht-degree: 0%
 
 1. 저장된 결제 방법을 모두 보려면 왼쪽 탐색에서 **[!UICONTROL Stored Payment Methods]**(으)로 이동합니다.
 
-   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
+   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
 
 1. 고객이 **[!UICONTROL Add New Card]**&#x200B;을(를) 클릭하여 새 카드를 저장합니다.
 
    ![새 카드 추가](assets/add-new-card.png){width="400" zoomable="yes"}
 
    고객은 결제 방법을 보관하기 위해 카드 및 청구 정보 등 필요한 모든 세부 정보를 제공해야 합니다.
-보관된 모든 결제 방법은 구매자의 PayPal 계정에 있는 카드를 보관하는 동안 청구 주소 세트를 사용합니다. 고객에게 Commerce에 표시된 청구 주소와 다른 청구 주소가 표시될 수 있습니다.
+   보관된 모든 결제 방법은 구매자의 PayPal 계정에 있는 카드를 보관하는 동안 청구 주소 세트를 사용합니다. 고객에게 Commerce에 표시된 청구 주소와 다른 청구 주소가 표시될 수 있습니다.
 
 1. **[!UICONTROL Save New Card]** 클릭
 
@@ -73,10 +73,10 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 
 저장된 신용 카드를 사용하는 고객을 위해 관리자에서 주문을 생성하려면:
 
-1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=ko)합니다.
-1. _[!UICONTROL Payment & Shipping Information]_&#x200B;에서&#x200B;**[!UICONTROL Stored Cards]**&#x200B;을(를) 결제 방법으로 선택합니다.
+1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
+1. _[!UICONTROL Payment & Shipping Information]_에서&#x200B;**[!UICONTROL Stored Cards]**을(를) 결제 방법으로 선택합니다.
 1. 원하는 저장된 신용 카드 결제 방법을 선택합니다.
-1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=ko#step-3%3A-submit-the-order).
+1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
 
    ![고객을 위해 관리자의 저장된 신용 카드 사용](assets/admin-vaultedcard.png){width="600" zoomable="yes"}
 

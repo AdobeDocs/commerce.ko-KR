@@ -5,24 +5,19 @@ role: Admin, Developer
 feature: Services, API Mesh, Catalog Service
 exl-id: 903f4f96-6dba-4c45-8106-76d9845544ec
 TQID: https://experienceleague.adobe.com/FPo8tOFgizn4m-6DFo0ayRf6ct-Oepl6kczu3kZSaVg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 329
 ht-degree: 0%
 
 ---
 
 # [!DNL Catalog Service and API Mesh]
 
-개발자는 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/)를 통해 Adobe I/O Runtime을 사용하여 개인 또는 서드파티 API 및 기타 인터페이스를 Adobe 제품과 통합할 수 있습니다.
+개발자는 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/)를 통해 Adobe I/O Runtime을 사용하여 개인 또는 서드파티 API 및 기타 인터페이스를 Adobe 제품과 통합할 수 있습니다.
 
 ![카탈로그 아키텍처 다이어그램](assets/catalog-service-architecture-mesh.png)
 
@@ -30,7 +25,7 @@ ht-degree: 0%
 
 ## API Mesh 연결 및 구성.
 
-1. _API Mesh 개발자 안내서_&#x200B;의 [Mesh 만들기](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/)에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
+1. _API Mesh 개발자 안내서_&#x200B;의 [Mesh 만들기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)에 대한 지침에 따라 API Mesh를 Adobe Commerce 인스턴스에 연결합니다.
 
    API Mesh를 처음 사용하는 경우 [시작 프로세스](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)를 완료한 후 메쉬를 만드십시오.
 

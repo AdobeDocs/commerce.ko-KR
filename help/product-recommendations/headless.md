@@ -3,21 +3,13 @@ title: Headless
 description: Headless 상점 앞에서  [!DNL Product Recommendations] 을(를) 통합하는 방법을 알아봅니다.
 exl-id: c40dac31-f87e-402a-ba50-e8aa4c1d66aa
 TQID: https://experienceleague.adobe.com/J3qXs-SWuDCz7pQwzGm0VcOOFoU1QM2M4qwsTxxPwE8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: 363
 ht-degree: 0%
 
 ---
@@ -28,7 +20,7 @@ ht-degree: 0%
 
 사용자 정의 및 Headless 통합자는 제안된 구현으로 이 Luma 및 PWA 지침을 참조해야 합니다. 제품 권장 사항을 Headless 솔루션에 구현하는 방법은 여러 가지가 있으며 이 설명서는 모든 시나리오를 다루지 않습니다. 통합자는 해당 구현에 대한 이벤트, 설계 및 테스트를 다룹니다.
 
-[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html?lang=ko)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
+[!DNL Product Recommendations]을(를) 사용하려면 [동작 및 카탈로그 데이터](development-overview.md)가 필요합니다. 카탈로그 데이터 동기화 프로세스는 Headless 구현에서 변경되지 않지만 동작 데이터 수집에는 변경이 필요합니다.
 
 >[!NOTE]
 >

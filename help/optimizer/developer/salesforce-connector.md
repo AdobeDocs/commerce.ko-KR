@@ -3,26 +3,12 @@ title: Salesforce Commerce 커넥터
 description: 카탈로그 데이터를 동기화하고 비즈니스 작업을 지원하기 위해 커넥터를 구현하고 사용자 지정하기 위해 Salesforce Commerce B2C를  [!DNL Adobe Commerce Optimizer] 과(와) 통합하는 시작점을 제공하는  [!DNL Commerce Optimizer SFCC Connector] 에 대해 알아봅니다.
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/pbzScjaJ7FybdPP06QIhKlowmMbkDHTxUSJUw6eG6JY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 0%
@@ -35,7 +21,7 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 
 즉시 사용 가능한 이 커넥터는 안정적인 데이터 동기화 기능과 비즈니스 요구 사항에 맞게 워크플로우를 사용자 지정할 수 있는 유연성을 제공합니다.
 
-전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
+전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,13 +34,13 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 * **여러 데이터 형식을 지원합니다.** 제품, 가격 및 카탈로그 구조를 동기화하여 복잡한 머천다이징 구성을 반영합니다.
 
 * **유연한 동기화 워크플로**
-   * **예약된 동기화:** cron 작업 일정을 사용하여 업데이트를 자동화합니다. 수작업이 필요하지 않습니다.
-   * **주문형 업데이트:** 긴급 변경, 수정 또는 제품 출시에 대한 SKU 수준 업데이트를 즉시 트리거합니다.
+  * **예약된 동기화:** cron 작업 일정을 사용하여 업데이트를 자동화합니다. 수작업이 필요하지 않습니다.
+  * **주문형 업데이트:** 긴급 변경, 수정 또는 제품 출시에 대한 SKU 수준 업데이트를 즉시 트리거합니다.
 
 * **확장성을 위해 빌드됨**
-   * 호환성을 위해 사용자 지정 [Salesforce Commerce B2C API](https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html)&#x200B;(SCAPI) 끝점을 사용하고 고유 사용 사례 또는 고급 사용 사례에 쉽게 적응합니다.
-   * 카탈로그 및 가격 동기화를 통해 비즈니스 시작으로 확장한 다음 추가 통합 또는 비즈니스 논리를 지원하도록 워크플로우를 확장합니다.
-   * 핵심 통합을 재구축하지 않고도 워크플로우를 구성하고 발전시킬 수 있습니다.
+  * 호환성을 위해 사용자 지정 [Salesforce Commerce B2C API](https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html)&#x200B;(SCAPI) 끝점을 사용하고 고유 사용 사례 또는 고급 사용 사례에 쉽게 적응합니다.
+  * 카탈로그 및 가격 동기화를 통해 비즈니스 시작으로 확장한 다음 추가 통합 또는 비즈니스 논리를 지원하도록 워크플로우를 확장합니다.
+  * 핵심 통합을 재구축하지 않고도 워크플로우를 구성하고 발전시킬 수 있습니다.
 
 >[!NOTE]
 >
@@ -89,7 +75,7 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 Salesforce Commerce B2C 현지화 기능 활용:
 
 * 다양한 로케일에 대해 Salesforce Commerce B2C의 현지화된 제품 텍스트 필드 버전(이름, 설명)을 동기화합니다.
-* Salesforce 로케일 개념 1:1을(를) [!DNL Commerce Optimizer] 로케일로 매핑합니다.
+* Salesforce 로케일 개념 1:1을 [!DNL Commerce Optimizer] 로케일로 매핑합니다.
 * 다양한 현지화에 대해 여러 제품 수집 주기를 지원합니다.
 * 글로벌 제품 카탈로그 간 일관성 유지
 

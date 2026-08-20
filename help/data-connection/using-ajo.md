@@ -5,20 +5,13 @@ role: Admin, Developer
 feature: Personalization, Integration
 exl-id: 229fac48-1c7f-4b3a-8edf-6086b7361911
 TQID: https://experienceleague.adobe.com/p4p0Gde7aPp15kj1KJTiCAijRF7wBnKDqhJN-pHgFKU
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: 1395
+source-wordcount: 1404
 ht-degree: 0%
 
 ---
@@ -34,7 +27,7 @@ ht-degree: 0%
 | 데이터 유형 | Storefront 데이터(행동 이벤트) | 백오피스 데이터(서버측 이벤트) |
 |---|---|---|
 | **정의** | 고객이 사이트에서 수행하는 클릭 또는 작업입니다. | 각 주문(과거 및 현재)의 라이프사이클 및 세부 정보에 대한 정보. |
-| **Adobe Commerce에서 캡처한 이벤트** | [페이지 보기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#pageview)<br>[제품 페이지 보기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events)<br>[장바구니에 추가](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#addtocart)<br>[장바구니 열기](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#opencart)<br>[시작 체크아웃](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#startcheckout)<br>[완료 체크아웃](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#completecheckout) | [orderPlaced](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[주문 내역](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data) |
+| **Adobe Commerce에서 캡처한 이벤트** | [페이지 보기](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#pageview)<br>[제품 페이지 보기](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events)<br>[장바구니에 추가](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#addtocart)<br>[장바구니 열기](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#opencart)<br>[시작 체크아웃](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#startcheckout)<br>[완료 체크아웃](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#completecheckout) | [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[주문 내역](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data) |
 
 ### 다른 고객들은 어떤 성과를 얻었습니까? {#what-have-other-customers-achieved}
 
@@ -60,7 +53,7 @@ retailer이 달성한 글로벌 다중 브랜드 의류:
 
 ### Adobe Journey Optimizer란?
 
-[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ko)은(는) 쇼핑객을 위한 상거래 환경을 개인화하는 데 도움이 됩니다. 예를 들어, Journey Optimizer을 사용하여 소매 스토어에 대한 주별 판촉 행사 등 예약된 마케팅 캠페인을 만들고 게재하거나, 고객이 장바구니에 제품을 추가했지만 체크아웃 프로세스를 완료하지 않은 경우 포기한 장바구니 이메일을 생성할 수 있습니다.
+[Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/get-started)은(는) 쇼핑객을 위한 상거래 환경을 개인화하는 데 도움이 됩니다. 예를 들어, Journey Optimizer을 사용하여 소매 스토어에 대한 주별 판촉 행사 등 예약된 마케팅 캠페인을 만들고 게재하거나, 고객이 장바구니에 제품을 추가했지만 체크아웃 프로세스를 완료하지 않은 경우 포기한 장바구니 이메일을 생성할 수 있습니다.
 
 이 항목에서는 [!DNL Commerce] 인스턴스에서 생성된 `checkout` 이벤트를 수신하고 Journey Optimizer에서 해당 이벤트에 응답함으로써 포기한 장바구니 이메일을 작성하는 방법을 배웁니다.
 
@@ -96,7 +89,7 @@ retailer이 달성한 글로벌 다중 브랜드 의류:
 
 [!DNL Commerce] 샌드박스 환경에서 제품 페이지를 보고, 장바구니에 항목을 추가하고, 쇼핑객이 수행할 다양한 다른 활동을 완료하여 상점 전면에서 이벤트를 트리거합니다. 그런 다음 이러한 이벤트가 Journey Optimizer으로 전달되는지 확인합니다.
 
-1. [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=ko)을(를) 시작합니다.
+1. [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/work-efficiently/user-interface)을(를) 시작합니다.
 1. **[!UICONTROL Profiles]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Identity namespace]**&#x200B;을(를) `Email`(으)로 설정합니다.
 1. **[!UICONTROL Identity value]**&#x200B;을(를) 전자 메일 주소로 설정합니다.
@@ -125,7 +118,7 @@ Journey Optimizer에서 두 개의 이벤트를 구성합니다. 한 이벤트�
 
 ### 리스너 이벤트 만들기
 
-1. [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=ko)을(를) 시작합니다.
+1. [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/work-efficiently/user-interface)을(를) 시작합니다.
 
 1. 왼쪽 창의 **[!UICONTROL Administration]** 섹션 아래에서 **[!UICONTROL Configurations]**&#x200B;을(를) 클릭합니다.
 
@@ -198,7 +191,7 @@ Journey Optimizer에서 두 개의 이벤트를 구성합니다. 한 이벤트�
 
 1. 위에서 만든 여정에서 캔버스의 **[!UICONTROL Email]** 아이콘을 두 번 클릭합니다.
 
-1. 포기한 장바구니 이메일을 만들려면 Journey Optimizer 안내서의 [단계](https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/personalization-use-cases/personalization-use-case-helper-functions.html?lang=ko#configure-email)를 따르십시오.
+1. 포기한 장바구니 이메일을 만들려면 Journey Optimizer 안내서의 [단계](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-use-cases/personalization-use-case-helper-functions#configure-email)를 따르십시오.
 
 이제 Journey Optimizer에서 [!DNL Commerce] 스토어에서 `commerce.checkouts` 이벤트를 수신하는 여정과 일정 시간이 지난 후 전송되는 포기한 장바구니 전자 메일이 있습니다. 다음 섹션에서는 여정을 테스트하는 방법을 보여줍니다.
 

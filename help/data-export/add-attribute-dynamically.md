@@ -5,20 +5,11 @@ autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: d5ed7497-4be1-440a-a567-81b64fdc54fc
 TQID: https://experienceleague.adobe.com/SZWtLSvxb-w-968f4wqWrPTBn1c9IEuthvhIv86Pvss
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 267
 ht-degree: 0%
@@ -37,7 +28,7 @@ ht-degree: 0%
 
 `Magento\CatalogDataExporter\Model\Provider\Product\Attributes` 클래스에 `customer_attribute`을(를) 추가하는 플러그인을 만듭니다.
 
-1. 플러그인을 정의하려면 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)을(를) 업데이트하십시오.
+1. 플러그인을 정의하려면 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file)&#x200B;(`di.xml`)을(를) 업데이트하십시오.
 
    ```xml
    <type name="Magento\CatalogDataExporter\Model\Provider\Product\Attributes">
@@ -110,7 +101,7 @@ ht-degree: 0%
 
 사용자 지정 제품 특성을 동적으로 만들고, 이 특성을 Storefront 서비스의 표시, 검색 또는 필터링에 사용하려면 제품 특성 메타데이터를 추가하여 Storefront 동작을 구성하십시오.
 
-1. [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)을(를) 업데이트하여 제품 특성 메타데이터에 대한 플러그인을 정의합니다.
+1. [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file)&#x200B;(`di.xml`)을(를) 업데이트하여 제품 특성 메타데이터에 대한 플러그인을 정의합니다.
 
    ```xml
    <type name="Magento\CatalogDataExporter\Model\Provider\ProductMetadata">

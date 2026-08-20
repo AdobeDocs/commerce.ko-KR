@@ -5,26 +5,13 @@ autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
 TQID: https://experienceleague.adobe.com/wM71qxvduDr77EW6Y8mSNfBXlqkloC-PGOOBOl-mZQM
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
-  - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ef1a9efc579d8d21c145e6981235489a2e4ea203
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: b974b164-8a4e-43b8-a9e2-8e67ec131677id: cdf0c6dd-1717-4e20-9530-a24eee57088bid: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 921
 ht-degree: 0%
 
 ---
@@ -86,7 +73,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 부분 동기화를 통해 SaaS 데이터 내보내기는 제품 이름 변경 또는 가격 업데이트와 같은 Commerce 애플리케이션의 업데이트를 연결된 상거래 서비스로 자동으로 전송합니다.
 부분 동기화가 작동하려면 Commerce 애플리케이션에 다음 구성이 필요합니다.
 
-- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko)
+- [작업 예약이 cron job을 통해 활성화됨](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)
 - 모든 SaaS 데이터 내보내기 인덱서가 `Update by Schedule` 모드에서 구성되었습니다.
 
 ### 실패한 항목 동기화 다시 시도 {#retry-failed-items-sync}
@@ -103,7 +90,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 | `index` | `indexer_reindex_all_invalid` | &quot;색인 재지정 필요&quot;로 표시된 피드 색인에 대해 전체 재동기화를 수행합니다. | 1분마다 |
 | `resync_failed_feeds_data_exporter` | `*_resend_failed_items` | 실패한 피드 항목을 감지하고 다시 제출합니다. | 5분마다 |
 | `commerce_data_export` | `saas_data_exporter` | 레거시 모드 피드(주문, 범위)에 대한 데이터 제출 | 5분마다 |
-| `commerce_data_export` | `cleanup_deleted_feed_items` | 보존 기간(7일)이 지난 동기화된 삭제된 피드 항목을 정리합니다 | 매일 오전 2:00시 |
+| `commerce_data_export` | `cleanup_deleted_feed_items` | 보존 기간(7일)이 지난 동기화된 삭제된 피드 항목을 정리합니다 | 매일 오전 2:00 |
 
 ## 피드 제출 및 HTTP 오류 처리 {#feed-submission-and-http-error-handling}
 
@@ -119,7 +106,7 @@ Adobe Commerce 인스턴스를 Commerce 서비스에 연결한 후 전체 동기
 
 HTTP 수준 오류 외에도 로컬 처리 오류나 네트워크 중단과 같은 응용 프로그램 수준 오류도 `*_resend_failed_items` cron 작업에 의해 자동으로 다시 시도되도록 예약됩니다.
 
-Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다.
+Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다.
 
 >[!MORELIKETHIS]
 >

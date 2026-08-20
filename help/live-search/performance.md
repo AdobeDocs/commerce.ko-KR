@@ -3,15 +3,12 @@ title: 성능
 description: ' [!DNL Live Search] 성능 작업 영역에서는 쇼핑객이 사용하는 검색어에 insight을 제공합니다.'
 exl-id: 07a63df8-b981-4913-841a-7e81ec634281
 TQID: https://experienceleague.adobe.com/COyaQi4zdeb4Uyf7XV1iYJa-bbDkEP-Os59bmfdLV0w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -26,7 +23,7 @@ ht-degree: 0%
 
 ![성능](assets/performance-unique-searches.png)
 
-데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)를 참조하십시오.
+데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -47,7 +44,7 @@ ht-degree: 0%
 
 | 스냅샷 데이터 | 설명 | 계산 예 |
 |--- |--- |--- |
-| 고유 검색 | 지정된 날짜 범위에 대한 총 고유 검색 수입니다. 동일한 구매자가 동일한 쿼리에 대해 여러 검색을 수행하는 경우 한 시간 이상 간격으로 제출되면 고유하다고 간주됩니다. | **예:**<br />&#x200B;검색:<br />- 오전 10:00에 &quot;바지&quot;<br />- 오전 10:30에 &quot;바지&quot;(1시간 이내→고유하지 않음)<br />- 오후 12:00에 &quot;바지&quot;(1시간 후→고유함)<br />- 오후 1:00에 &quot;셔츠&quot;<br /><br />**총 고유 검색 = 3** |
+| 고유 검색 | 지정된 날짜 범위에 대한 총 고유 검색 수입니다. 동일한 구매자가 동일한 쿼리에 대해 여러 검색을 수행하는 경우 한 시간 이상 간격으로 제출되면 고유하다고 간주됩니다. | **예:**<br />&#x200B;검색:<br />- 오전 10시에 &quot;바지&quot;<br />- 오전 10시 30분에 &quot;바지&quot;(1시간 이내→고유하지 않음)<br />- 오후 12시에 &quot;바지&quot;(1시간 후→ 고유함)<br />- 오후 1시에 &quot;셔츠&quot;<br /><br />**총 고유 검색 = 3** |
 | 클릭스루 비율 | 구매자가 제품을 클릭하는 것으로 끝나는 검색의 백분율입니다. 예를 들어, 쇼핑객이 &quot;바지&quot;와 &quot;셔츠&quot;를 검색한 다음 &quot;셔츠&quot; 검색에서 하나의 결과를 클릭하는 경우 클릭스루 비율은 50%입니다. | **수식:**<br />&#x200B;클릭스루 비율 = ≥1 클릭으로 검색 횟수 ÷ 총 고유 검색 횟수&#x200B;<br /><br />**예:**<br />&#x200B;총 고유 검색 횟수 = 4<br />최소 한 번의 클릭으로 검색 횟수 = 2<br /><br />CTR = 2 ÷ 4 = **50%** |
 | 전환율 | 쇼핑객이 구매한 제품의 비율과 지정된 날짜 범위 동안 쇼핑객이 클릭한 제품 수입니다. 예를 들어, 쇼퍼가 팝오버에서 6개의 제품을 보고, 하나를 클릭한 다음, 구매를 수행하는 경우 상호 작용의 전환율은 100%입니다. <br /><br />전환율은 특정 제품의 보기 수에 영향을 받지 않습니다. 예를 들어 전환율은 쇼핑객이 검색을 사용하지만 제품을 클릭하지 않는 경우 동일하게 유지됩니다. | **공식:**<br />&#x200B;전환율 = 총 구매 제품 ÷ 총 제품 클릭&#x200B;<br /><br />**예 1:**<br />&#x200B;클릭한 제품 = 5<br />구매 제품 = 2<br /><br />CVR = 2 ÷ 5 = **40%**<br /><br />**예 2(5시간 집계):**<br />&#x200B;시간별 클릭 수: 4, 5, 6, 10, 2<br />시간별 구매 횟수: 1, 3, 0, 4, 1<br /><br />총 클릭 수 = 4 + 5 + 6 + 10 + 2 = 27<br />총 구매 = 1 + 3 + 0 + 4 + 1 = 9<br /><br />CVR = 9 ÷ 27 = **3.33%** |
 | 결과 없음 비율 | 지정된 날짜 범위에 대한 결과를 반환하지 않는 고유 검색의 백분율입니다. 예를 들어, 쇼핑객이 &quot;fjjjfjfjf&quot;를 두 번 검색(결과 없음)하고 &quot;바지&quot;를 한 번 검색(결과 있음)하는 경우 결과 없음 비율은 66.67%입니다. | **수식:**<br /> 0 검색 비율 = 결과가 0인 고유 검색 횟수 ÷ 총 고유 검색 횟수&#x200B;<br /><br />**예:**<br />&#x200B;총 고유 검색 횟수 = 3<br />결과가 0인 검색 횟수 = 2<br /><br />0 검색 비율 = 2 ÷ 3 = **66.67%** |

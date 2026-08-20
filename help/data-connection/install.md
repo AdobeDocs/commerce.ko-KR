@@ -5,16 +5,12 @@ role: Admin, Developer
 feature: Install
 exl-id: 853ef2d1-85cb-41a8-9b07-887a758ed401
 TQID: https://experienceleague.adobe.com/EbYHB6L9Q7bZNnoz3-yT4aaBcRiLiatvjO-hQyGOwoo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 491
+source-wordcount: 493
 ht-degree: 0%
 
 ---
@@ -89,7 +85,7 @@ ht-degree: 0%
 
 #### 클라우드 인프라
 
-클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html?lang=ko#enable_eventing)
+클라우드 인프라의 Adobe Commerce에서 `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-global#enable_eventing)
 
 ```bash
 stage:
@@ -177,4 +173,4 @@ composer update magento/experience-platform-connector-b2b --with-dependencies
 
 ## [!DNL Data Connection] 확장 제거 {#uninstall}
 
-[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=ko)을 참조하세요.
+[!DNL Data Connection] 확장을 제거하려면 [제거 모듈](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)을 참조하세요.

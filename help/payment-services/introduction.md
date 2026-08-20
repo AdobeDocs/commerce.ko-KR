@@ -6,20 +6,14 @@ level: Intermediate
 feature: Payments, Checkout, Paas, Saas
 exl-id: 191467ab-4c5e-4df1-b423-7a470a4910ea
 TQID: https://experienceleague.adobe.com/0jiNXLUWzekxm4ajhgs0VLUCmVDMdn6OE1m07TO-rLo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 335
 ht-degree: 0%
 
 ---
@@ -58,7 +52,7 @@ Adobe Commerce 및 Magento Open Source용 [!DNL Payment Services]은(는) Commer
 
 1. **사용자 지정된 체크아웃 흐름** - 구매 프로세스 중 마찰을 줄이고 전환율을 높이기 위해 상거래 여정의 다양한 단계에서 체크아웃 옵션을 제공합니다.
 
-1. **[GraphQL과의 Headless 호환성](https://developer.adobe.com/commerce/webapi/graphql/payment-services/)**—판매자는 프론트엔드 개발을 위해 REST 및 SOAP 웹 API에 대한 대안을 가지고 있습니다.
+1. **[GraphQL과의 Headless 호환성](https://developer.adobe.com/commerce/webapi/graphql/payment-services-extension/)**—판매자는 프론트엔드 개발을 위해 REST 및 SOAP 웹 API에 대한 대안을 가지고 있습니다.
 
 1. **재무 보고** - [결제 세부 정보](order-payment-status.md)를 주문과 동기화하여 처리된 거래량, 결제 잔액, [결제](payouts.md) 및 세부 [거래 수준 보고](reporting.md)를 통해 재무 조정 및 거래 가시성을 최대한 확보합니다.
 

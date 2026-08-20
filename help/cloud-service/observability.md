@@ -4,23 +4,13 @@ description: 지표, 로깅 및 추적을 포함하여  [!DNL Adobe Commerce as 
 feature: Cloud, Integration
 role: Admin, Developer
 level: Intermediate
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-09T15:41:54.613Z'
 TQID: 'https://experienceleague.adobe.com/jTPNVSy6cP8v-pV-3pyqgJX-PAzFFhOUf9SjQIMeBns'
-product_v2:
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+product_v2: id: de2e2e68-c5d7-4efe-be7b-27528698f06bid: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 607
 ht-degree: 0%
@@ -83,17 +73,17 @@ Adobe Commerce은 OpenTelemetry를 통해 다음과 같은 가시성 도구를 �
 
 ### API Mesh 로깅
 
-[API Mesh 로깅](https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/logging/)을 통해 Ray ID를 사용하여 Mesh에서 흐르는 요청을 모니터링하고 디버그할 수 있습니다. 중앙 분석을 위해 로그를 일괄적으로 내보내거나 [!DNL New Relic] 같은 플랫폼에 전달합니다.
+[API Mesh 로깅](https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/logging)을 통해 Ray ID를 사용하여 Mesh에서 흐르는 요청을 모니터링하고 디버그할 수 있습니다. 중앙 분석을 위해 로그를 일괄적으로 내보내거나 [!DNL New Relic] 같은 플랫폼에 전달합니다.
 
 ## 상점 첫 화면
 
 ### CDN 및 Real User Monitoring
 
-CDN 원본을 통한 [프록시 RUM(Real User Monitoring)](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/?lang=ko#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) 데이터 수집으로 추가 TLS 핸드셰이크를 제거하고 프런트 엔드 성능 측정을 개선합니다.
+CDN 원본을 통한 [프록시 RUM(Real User Monitoring)](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) 데이터 수집으로 추가 TLS 핸드셰이크를 제거하고 프런트 엔드 성능 측정을 개선합니다.
 
 ## 가시성 비디오
 
 다음 비디오에서는 [!DNL Adobe Commerce as a Cloud Service]의 가시성 제공 기능에 대한 높은 수준의 개요를 제공합니다.
 
-* [App Builder Observability 비디오](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
-* [API Mesh 비디오](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}
+* [App Builder Observability 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
+* [API Mesh 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}

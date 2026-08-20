@@ -5,18 +5,13 @@ role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: 65cf8150-1a14-4d4c-aa0c-1545109e4fe7
 TQID: https://experienceleague.adobe.com/ARHjckt-D38iqChgfJpiVGXO8Pz2YN6Oj5HFWmwCVEA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: 3714
+source-wordcount: 3716
 ht-degree: 0%
 
 ---
@@ -25,13 +20,13 @@ ht-degree: 0%
 
 다음은 [!DNL Data Connection] 확장을 설치할 때 사용할 수 있는 Commerce 백 오피스 이벤트 목록입니다. 이러한 이벤트가 수집하는 데이터는 Adobe Experience Platform으로 전송됩니다. 또한 [사용자 지정 이벤트](custom-events.md)를 만들어 기본 제공되지 않은 추가 데이터를 수집할 수 있습니다.
 
-다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=ko)도 가져옵니다.
+다음 이벤트에서 수집하는 데이터 외에 Adobe Experience Platform Web SDK에서 제공하는 [기타 데이터](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)도 가져옵니다.
 
 백 오피스 이벤트에는 서버측 데이터가 포함되어 있습니다. 이 데이터에는 주문이 주문, 취소, 환불, 배송 또는 완료된 여부와 같은 [주문 상태](#order-status) 정보가 포함되어 있습니다. 서버측 데이터에는 계정이 생성, 업데이트 또는 삭제된 경우와 같은 [고객 프로필 이벤트](#customer-profile-events) 정보도 포함됩니다.
 
 >[!NOTE]
 >
->모든 백오피스 이벤트에는 가능한 경우 구매자의 이메일 주소 및 ECID를 포함하는 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=ko) 필드가 포함됩니다.
+>모든 백오피스 이벤트에는 가능한 경우 구매자의 이메일 주소 및 ECID를 포함하는 [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드가 포함됩니다.
 
 ## 주문 상태
 
@@ -418,7 +413,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->각 고객 프로필 이벤트에는 프로필의 기본 식별자로 시스템에서 생성한 Commerce 고객 ID와 보조 식별자로 사용되는 이메일 ID가 포함된 [`identityMap`](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=ko) 필드도 포함됩니다. [사용자 지정 ID 특성을 만들어 고객 프로필 식별을 향상시키는 방법을 알아봅니다](custom-identities.md).
+>각 고객 프로필 이벤트에는 프로필의 기본 식별자로 시스템에서 생성한 Commerce 고객 ID와 보조 식별자로 사용되는 이메일 ID가 포함된 [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드도 포함됩니다. [사용자 지정 ID 특성을 만들어 고객 프로필 식별을 향상시키는 방법을 알아봅니다](custom-identities.md).
 
 ### accountCreated
 

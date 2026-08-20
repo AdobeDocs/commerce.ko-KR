@@ -3,9 +3,9 @@ title: ' [!DNL Payment Services]에서 체크아웃'
 description: 고객의 요구 사항에 맞게  [!DNL Payment Services] 체크아웃을 사용자 지정합니다.
 feature: Payments, Checkout, Paas, Saas
 exl-id: 47df165f-2145-4e0e-b272-54b8e768cf19
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![확인하는 동안 오류 발생](assets/user-checkout-error.png "체크 아웃하는 동안 오류 발생"){width="600" zoomable="yes"}
 
-취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=ko)의 관리자에 표시됩니다.
+취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders?lang=en)의 관리자에 표시됩니다.
 
 ![주문 관리에서 주문 주석을 취소함](assets/admin-checkout-error.png "주문 관리에서 주문 주석을 취소함"){width="600" zoomable="yes"}
 

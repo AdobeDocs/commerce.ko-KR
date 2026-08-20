@@ -2,9 +2,9 @@
 title: 설치 및 액세스 [!DNL App Management]
 description: Adobe Commerce [!DNL App Management]을(를) 사용하기 위한 필수 구성 요소 및 액세스 요구 사항입니다.
 feature: App Builder, Extensibility, Integration
-source-git-commit: 780cef7af3574cd846fd7ee82d7814f2ebe9d6cc
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## App Builder 앱 설치
 
-Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
+Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
 
 앱을 설치하고 배포한 후 [!DNL App Management]을(를) 사용하여 [Commerce 인스턴스와 연결](manage-app.md#associate-an-app)하고 설정을 구성하십시오.
 
@@ -74,7 +74,7 @@ Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓�
 
 일부 App Builder 애플리케이션은 [Adobe Commerce webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용하므로 특정 이벤트가 발생할 때(예: 제품이 저장된 후) Commerce에서 HTTP를 통해 앱을 호출할 수 있습니다. 응용 프로그램을 빌드하고 배포할 때 **앱 개발자**&#x200B;에 의해 웹후크 끝점 및 구독 논리가 정의됩니다. 저장소 관리자는 앱 관리에서 웹후크를 별도로 구성하지 않습니다.
 
-[앱을 Commerce 인스턴스와 연결](https://experienceleague.adobe.com/ko/docs/commerce/app-management/manage-app/manage-app)하고 앱의 설정 지침을 완료하면 웹후크 동작이 앱의 구현을 따릅니다.
+[앱을 Commerce 인스턴스와 연결](https://experienceleague.adobe.com/en/docs/commerce/app-management/manage-app/manage-app)하고 앱의 설정 지침을 완료하면 웹후크 동작이 앱의 구현을 따릅니다.
 
 [!DNL App Management]이(가) 앱의 유효성 검사 끝점을 트리거할 수 없는 경우(예: URL에 연결할 수 없거나 응답이 요구 사항을 충족하지 않는 경우) [!DNL App Management] 대시보드에 다음과 유사한 오류가 표시될 수 있습니다.
 

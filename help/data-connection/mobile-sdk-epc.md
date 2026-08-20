@@ -5,19 +5,13 @@ role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: 02d07abb-8d7f-4f0a-9f96-f42654cd79d3
 TQID: https://experienceleague.adobe.com/iBxx54enSjy-vWbhCSSM-5QSjut6TjcRpWT5wWpeU2Y
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -30,7 +24,7 @@ ht-degree: 0%
 
 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)를 Commerce 모바일 앱과 통합하면 판매자가 Commerce [이벤트 데이터](events.md)를 Experience Platform Edge로 보낼 수 있습니다.
 
-에지에서 Commerce 이벤트 데이터를 사용할 수 있으면 다른 Adobe Experience Cloud 애플리케이션에서 액세스할 수 있습니다. 예를 들어 데이터를 사용하여 Real-Time CDP에서 대상을 만든 다음 [해당 대상을 사용](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=ko)하여 Commerce 모바일 앱을 개인화할 수 있습니다.
+에지에서 Commerce 이벤트 데이터를 사용할 수 있으면 다른 Adobe Experience Cloud 애플리케이션에서 액세스할 수 있습니다. 예를 들어 데이터를 사용하여 Real-Time CDP에서 대상을 만든 다음 [해당 대상을 사용](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)하여 Commerce 모바일 앱을 개인화할 수 있습니다.
 
 ## 구성
 
@@ -38,9 +32,9 @@ Commerce과 함께 Adobe Experience Platform Mobile SDK을 사용하려면 Exper
 
 ### Experience Platform
 
-1. [모바일 앱의 Adobe Experience Cloud 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)를 검토하여 모바일 앱 기능에 대해 알아봅니다.
+1. [모바일 앱의 Adobe Experience Cloud 튜토리얼](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/overview)을 검토하여 모바일 앱 기능에 대해 알아봅니다.
 
-1. Experience Platform에서 SDK을 [설치 및 구성](https://developer.adobe.com/client-sdks/documentation/getting-started/)합니다.
+1. Experience Platform에서 SDK을 [설치 및 구성](https://developer.adobe.com/client-sdks/home/getting-started/)합니다.
 
    >[!NOTE]
    >
@@ -174,4 +168,4 @@ Experience Platform에 대한 SDK 구성을 완료한 후 SDK 구성을 Commerce
 
 ## 다음 단계
 
-모바일 Commerce 앱에서 Real-Time CDP 대상자를 검색하여 장바구니 가격 규칙, 동적 블록 및 관련 제품 규칙을 알리는 방법에 대해 알아보려면 [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=ko#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk)을(를) 참조하십시오.
+모바일 Commerce 앱에서 Real-Time CDP 대상자를 검색하여 장바구니 가격 규칙, 동적 블록 및 관련 제품 규칙을 알리는 방법에 대해 알아보려면 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk)을(를) 참조하십시오.
