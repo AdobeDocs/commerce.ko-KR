@@ -9,22 +9,15 @@ level: Intermediate
 type: Tutorial
 autotag-review: '2026-06-18T16:24:27.547Z'
 TQID: 'https://experienceleague.adobe.com/FozTiUWpL6Ab2eqbbf3nhL-faFHdwBIFOgAkvGe5jXQ'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d7623f5d42eaa50b95a2f36c244b8a3e78d4c7a9
 workflow-type: tm+mt
-source-wordcount: 1738
+source-wordcount: 1737
 ht-degree: 0%
 
 ---
@@ -120,7 +113,7 @@ bash --version
 
 1. `requirements.md` 파일을 검토하고 계획을 확인합니다.
 
-   모든 항목이 올바르게 표시되면 에이전트에게 **2단계 - 아키텍처 계획**(으)로 이동하도록 지시합니다.
+   모든 항목이 올바르게 표시되면 에이전트에게 **2단계 — 아키텍처 계획**(으)로 이동하도록 지시합니다.
 
 1. 아키텍처 계획을 검토합니다.
 
@@ -233,7 +226,7 @@ Storefront 통합을 시작하기 전에 다음을 확인하십시오.
 
 1. 새 커서 창에서 상점 폴더를 엽니다.
 
-   또는 [Cursor CLI](https://cursor.com/docs/configuration/shell#installing-cli-commands)가 설치되어 있는 경우 터미널에서 다음 명령을 사용하여 창을 엽니다.
+   또는 [Cursor CLI](https://cursor.com/help/customization/keyboard-shortcuts#installing-cli-commands)가 설치되어 있는 경우 터미널에서 다음 명령을 사용하여 창을 엽니다.
 
    ```bash
    cursor .
@@ -266,7 +259,7 @@ Storefront 통합을 시작하기 전에 다음을 확인하십시오.
 1. 에이전트는 작업 복잡성을 평가하고 단계별 워크플로우를 호출합니다. **1단계(요구 사항 수집)** 동안 에이전트는 요구 사항 문서를 만들고 다음과 같은 질문을 명확히 합니다.
 
    * PDP에서 등급이 표시되는 위치는 어디입니까?
-   * 새로운 독립 실행형 블록이어야 합니까? 또는 기존 PDP 드롭 인 구성 요소 내부의 슬롯 사용자 정의여야 합니까?
+   * 이는 새로운 독립형 블록입니까? 아니면 기존 PDP 드롭 인 구성 요소 내부의 슬롯 사용자 정의입니까?
    * API를 사용할 수 없거나 데이터를 반환하지 않는 경우 대체 항목은 무엇입니까?
    * 등급은 PLP(제품 목록)에도 표시되어야 합니까? 또는 PDP에만 표시되어야 합니까?
    * 디자인 스펙이나 모형이 있나요?
@@ -318,7 +311,7 @@ Storefront 통합을 시작하기 전에 다음을 확인하십시오.
    개발 환경 및 브라우저에 다음과 같은 변경 사항이 표시됩니다.
 
    * 제품 등급 구성 요소는 자동으로 만들어집니다.
-   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots/?lang=ko)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
+   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots/)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
    * 별은 API의 등급 값에 따라 적절한 채우기 비율로 표시됩니다.
 
    ![제품 제목 아래에 통합된 별점을 표시하는 제품 세부 정보 페이지](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}

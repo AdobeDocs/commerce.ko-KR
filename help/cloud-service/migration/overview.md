@@ -1,43 +1,22 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
-description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
+title: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션'
+description: ' [!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-06-18T16:12:28.840Z'
 TQID: 'https://experienceleague.adobe.com/GmxaQdGKvAIDpZ2jvmlLFSYw0IFQysIMOT0lUnsJBsI'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e03840ea9e0e43a005f385914e8599804383e79d
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
 workflow-type: tm+mt
-source-wordcount: 3305
+source-wordcount: 3302
 ht-degree: 0%
 
 ---
@@ -73,15 +52,15 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
 
 **주요 차이점**
 
-- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 - **[!DNL Adobe Commerce on Cloud Infrastructure]**: 판매자가 응용 프로그램 코드, 업그레이드, 패치 및 인프라 구성을 관리합니다.
 - **[!DNL Adobe Commerce]온-프레미스**: 판매자가 Adobe의 호스팅 환경 내에서 응용 프로그램 코드, 업그레이드, 패치, 인프라 구성을 관리합니다.
 
   >[!NOTE]
   >
-  >서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility).
+  >서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility).
 
-- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
+- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 — [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
 
 **아키텍처 의미**
 
@@ -94,7 +73,7 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
 
 - [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) 및 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
 - [Commerce Optimizer](../../optimizer/overview.md)
-- [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+- [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)
 - [Commerce Cloud 관리자](../getting-started.md#create-an-instance)를 사용한 셀프서비스 프로비저닝
 
 ### 마이그레이션 여정
@@ -118,7 +97,7 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
 | [응용 프로그램 및 상점 현대화](#code-and-storefront-migration-commerce-developer-mcp) | **Commerce 개발자 MCP** | AI 지원 Commerce 애플리케이션 현대화, 맞춤화 [!DNL App Builder]&#x200B;(으)로의 마이그레이션 가속화, Edge Delivery Services(EDS)로의 상점 변환 지원, 개발자에게 엔지니어링 팀에서 검토 및 확인한 구현과 함께 광범위한 애플리케이션 현대화 여정을 안내합니다. |
 | [데이터 마이그레이션](#data-migration-commerce-data-migration-service) | **Commerce 데이터 마이그레이션 서비스** | 카탈로그, 고객 및 주문 데이터를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 추출, 로드 및 무결성 확인. |
 
-이 트랙은 독립 실행형이 아닙니다. 올바른 순서로 함께 사용하면 재작업을 최소화할 수 있습니다.
+이 트랙은 독립 실행형이 아닙니다. 적절한 순서로 함께 사용하면 재작업을 최소화할 수 있습니다.
 
 - **먼저 평가 실행** - 먼저 평가를 실행하면 지원되지 않는 사용자 지정 항목을 식별하고 마이그레이션 노력을 예측하며 데이터 마이그레이션 고려 사항을 표시하고 구현이 시작되기 전에 통합 종속성을 강조 표시합니다. 평가는 애플리케이션 현대화와 데이터 마이그레이션 워크플로 모두에서 사용되는 마이그레이션 블루프린트가 됩니다.
 - **응용 프로그램 현대화** - Commerce 개발자 MCP는 마이그레이션 평가를 사용하여 현대화할 사용자 지정과 방법을 결정합니다. 그런 다음 MCP는 해당 [!DNL App Builder]개의 응용 프로그램과 상점 첫 화면 구성 요소를 생성합니다.
@@ -169,7 +148,7 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 ### 평가 범위
 
-마이그레이션 평가 도구는 전체 마이그레이션 환경을 파악하는 데 중점을 둡니다. 사용자 정의 모듈, 플러그인, 이벤트, API, cron 작업, 큐, 외부 시스템과의 통합, storefront 특성 및 이러한 사용자 정의가 의존하는 데이터베이스 스키마를 분석합니다. 평가는 검색한 내용을 사용 가능한 [!DNL Adobe Commerce as a Cloud Service] 기능에 매핑하고 [!DNL App Builder]을(를) 사용하여 기능을 현대화하거나 SaaS 아키텍처에 맞게 다시 디자인해야 하는 위치를 식별합니다.
+마이그레이션 평가 도구는 전체 마이그레이션 환경을 파악하는 데 중점을 둡니다. 사용자 정의 모듈, 플러그인, 이벤트, API, cron 작업, 큐, 외부 시스템과의 통합, storefront 특성 및 이러한 사용자 정의가 의존하는 데이터베이스 스키마를 분석합니다. 평가는 검색한 내용을 사용 가능한 [!DNL Adobe Commerce as a Cloud Service] 기능에 매핑하고 SaaS 아키텍처를 다시 설계하거나 [!DNL App Builder]을(를) 사용하여 기능을 현대화해야 하는 위치를 식별합니다.
 
 평가는 실행 도구라기보다는 계획 도구에 가깝다. 현대화해야 할 사항을 식별하고 구현 복잡성을 예측하며 권장 사항을 제공합니다. 구현 의사 결정 및 아키텍처 유효성 검사는 Adobe, 파트너 및 고객 엔지니어링 팀 간의 공동 작업 활동으로 유지됩니다.
 
@@ -184,7 +163,7 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 ### 다음 단계
 
-모든 [!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가로 시작해야 합니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 저렴한 방법입니다.
+[!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가부터 시작됩니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 비용 효율적인 방법입니다.
 
 평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오.
 
@@ -216,7 +195,7 @@ Commerce 개발자 MCP는 [마이그레이션 평가](#migration-assessment-tool
 
 ### Storefront 현대화
 
-프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/developer/commerce/storefront/)을(를) 현대화합니다.
 
 Commerce Developer MCP는 Commerce 보일러플레이트를 기반으로 기존 상점 프로젝트를 로드합니다. 다음과 같은 방법으로 상점을 현대화합니다.
 
@@ -251,7 +230,7 @@ Commerce 개발자 MCP는 마이그레이션 평가를 직접 소비하므로 �
 
 백엔드에서 Commerce 개발자 MCP는 PHP 모듈, 플러그인 및 이벤트 관찰자를 [!DNL App Builder] 응용 프로그램으로 변환하여 사용자 정의 및 통합 계층을 현대화하고 통합 패턴을 만들어 Adobe Commerce과 연결합니다. 또한 체크아웃, 결제 및 관리 UI에 대한 개발을 가속화합니다.
 
-프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 &#x200B;](#storefront-modernization)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 ](#storefront-modernization)을(를) 현대화합니다.
 
 MCP는 데이터 마이그레이션을 처리하지 않습니다. 비즈니스 데이터는 [Commerce 데이터 마이그레이션 서비스](#data-migration-commerce-data-migration-service)를 통해 마이그레이션됩니다. MCP는 비즈니스 논리 또는 사용자 지정 테이블에 응용 프로그램 현대화가 필요할 때 필요한 [!DNL App Builder] 응용 프로그램을 지원합니다.
 
@@ -263,7 +242,7 @@ MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 M
 
 ## 데이터 마이그레이션(Commerce 데이터 마이그레이션 서비스)
 
-[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션하려면 카탈로그, 주문, 고객 및 구성을 포함한 수년간의 데이터를 마이그레이션해야 할 수 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션하려면 카탈로그, 주문, 고객 및 구성을 포함한 수년간의 데이터를 마이그레이션해야 합니다.
 
 Commerce 데이터 마이그레이션 서비스는 수동 마이그레이션을 반복 가능한 단일 자동화된 프로세스로 대체합니다. 복잡한 데이터베이스 마이그레이션을 보다 예측 가능하고 효율적으로 수행할 수 있습니다.
 
@@ -315,4 +294,4 @@ Commerce Data Migration Service 는 전 세계 프로덕션에 있으며 이미 
 
 워크플로우, 지원되는 데이터 및 확인에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구 안내서](bulk-data/migration-tool.md) 설명서를 검토하십시오.
 
-소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
+소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
