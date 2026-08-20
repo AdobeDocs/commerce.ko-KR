@@ -5,7 +5,7 @@ feature: Payments, Paas, Saas
 exl-id: 17aede1f-56ae-441a-b723-3193e865e469
 source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Payment Services]을(를) 통해 판매자는 PayPal 판매자 대시보드에서 배송에 대한 추적 정보를 볼 수 있습니다.
 
-Adobe Commerce의 배송 표에 대한 자세한 내용은 [배송](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank} 항목을 참조하십시오.
+Adobe Commerce의 배송 표에 대한 자세한 내용은 [배송](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank} 항목을 참조하십시오.
 
 ## 배송 추적이 작동하는 방식
 
