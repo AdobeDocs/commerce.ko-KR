@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 015f88e540fe5bf7acc4469d7c91b4f606709809
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 2318
+source-wordcount: 2323
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 범위 설정
 
-처음에는 모든 [!DNL Live Search] 설정의 [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 [저장소 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
+처음에는 모든 [!DNL Live Search] 설정의 [범위](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)이(가) `Default Store View`(으)로 설정되어 있습니다. [!DNL Commerce] 설치에 여러 저장소 보기가 포함된 경우 Facet 설정이 적용되는 [저장소 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views)&#x200B;(으)로 **범위**&#x200B;를 설정합니다.
 
 ## 메뉴 옵션
 
@@ -61,7 +61,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 속성을 검색 가능한 것으로 설정
 
-고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
+고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
 
 속성을 검색할 수 있도록 허용하려면 다음 단계를 완료하십시오.
 
@@ -69,7 +69,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 1. 검색할 특성을 선택하십시오(예: `color`).
 1. **Storefront 속성**&#x200B;을(를) 선택하고 **검색에 사용**&#x200B;을(를) `yes`(으)로 설정합니다.
 
-[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html?lang=ko#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
+[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
 
 다음 속성은 항상 검색할 수 있습니다.
 
@@ -104,21 +104,21 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 - **계층화된 검색** - 다른 검색 컨텍스트에서 검색 - 이 기능을 사용하면 검색 쿼리에 대해 최대 두 개의 계층을 검색할 수 있습니다. For example:
 
-   - **계층 1 검색** - `product_attribute_1`에서 &quot;모터&quot;를 검색합니다.
-   - **계층 2 검색** - `product_attribute_2`에서 &quot;부품 번호 123&quot;을 검색합니다. 이 예제에서는 결과 내에서 &quot;motor&quot;에 대해 &quot;part number 123&quot;을 검색합니다.
+  - **계층 1 검색** - `product_attribute_1`에서 &quot;모터&quot;를 검색합니다.
+  - **계층 2 검색** - `product_attribute_2`에서 &quot;부품 번호 123&quot;을 검색합니다. 이 예제에서는 결과 내에서 &quot;motor&quot;에 대해 &quot;part number 123&quot;을 검색합니다.
 
   아래에 설명된 대로 계층화된 검색의 두 번째 계층에서 `startsWith` 검색 인덱싱과 `contains` 검색 인덱싱을 모두 사용할 수 있습니다.
 
 - **검색 인덱싱으로 시작** - `startsWith` 인덱싱을 사용하여 검색 이 새로운 기능을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
-   - 속성 값이 지정된 문자열로 시작하는 제품을 검색합니다.
-   - 구매자가 속성 값이 특정 문자열로 끝나는 제품을 검색할 수 있도록 &quot;다음으로 끝남&quot; 검색을 구성합니다. &quot;다음으로 끝남&quot; 검색을 활성화하려면 제품 속성을 역순으로 수집해야 하며 API 호출도 역순 문자열이어야 합니다. 예를 들어 &quot;pants&quot;로 끝나는 제품 이름을 검색하려면 이 이름을 &quot;stnap&quot;으로 보내야 합니다.
+  - 속성 값이 지정된 문자열로 시작하는 제품을 검색합니다.
+  - 구매자가 속성 값이 특정 문자열로 끝나는 제품을 검색할 수 있도록 &quot;다음으로 끝남&quot; 검색을 구성합니다. &quot;다음으로 끝남&quot; 검색을 활성화하려면 제품 속성을 역순으로 수집해야 하며 API 호출도 역순 문자열이어야 합니다. 예를 들어 &quot;pants&quot;로 끝나는 제품 이름을 검색하려면 이 이름을 &quot;stnap&quot;으로 보내야 합니다.
 
 - **검색 인덱싱을 포함** - 포함 인덱싱을 사용하여 특성을 검색합니다. 이 새로운 기능을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
-   - 더 큰 문자열 내에서 쿼리를 검색하고 있습니다. 예를 들어 구매자가 문자열 &quot;HAPE-123&quot;에서 제품 번호 &quot;PE-123&quot;을 검색하는 경우,
+  - 더 큰 문자열 내에서 쿼리를 검색하고 있습니다. 예를 들어 구매자가 문자열 &quot;HAPE-123&quot;에서 제품 번호 &quot;PE-123&quot;을 검색하는 경우,
 
-      - 참고: 이 검색 유형은 자동 완성 검색을 수행하는 기존 [구 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#phrase)과(와) 다릅니다. 예를 들어 제품 속성 값이 &quot;outdoor pants&quot;인 경우 구문 검색은 &quot;out pan&quot;에 대한 응답을 반환하지만 &quot;or ants&quot;에 대한 응답은 반환하지 않습니다. 그러나 에는 검색이 포함되어 있으며 &quot;or ants&quot;에 대한 응답을 반환합니다.
+    - 참고: 이 검색 유형은 자동 완성 검색을 수행하는 기존 [구 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#phrase)과(와) 다릅니다. 예를 들어 제품 속성 값이 &quot;outdoor pants&quot;인 경우 구문 검색은 &quot;out pan&quot;에 대한 응답을 반환하지만 &quot;or ants&quot;에 대한 응답은 반환하지 않습니다. 그러나 에는 검색이 포함되어 있으며 &quot;or ants&quot;에 대한 응답을 반환합니다.
 
 이러한 새 조건은 검색 결과를 구체화하기 위한 검색 쿼리 필터링 메커니즘을 향상시킵니다. 이러한 새 조건은 기본 검색 쿼리에 영향을 주지 않습니다.
 
@@ -203,7 +203,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 기본 속성 값
 
-다음 제품 특성에는 [!DNL Live Search]에서 사용하고 기본적으로 활성화된 [상점 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)이 있습니다.
+다음 제품 특성에는 [!DNL Live Search]에서 사용하고 기본적으로 활성화된 [상점 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)이 있습니다.
 
 | 속성 | Storefront 속성 | 속성 |
 |---|---|---|

@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1375139292fb11df9406948010916dbd2507ef4e
+source-git-commit: 60df4a608155a4f8ff8b4bf57cfd625aa1b3ccea
 workflow-type: tm+mt
-source-wordcount: 3063
+source-wordcount: 3064
 ht-degree: 0%
 
 ---
@@ -449,7 +449,7 @@ API Mesh 및 핵심 GraphQL API를 사용하여 다음을 수행할 수 있습�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
+![새로 만들기](../assets/new.svg) 이제 [[!DNL Data Management Dashboard]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)을(를) 데이터 스트림(제품 권장 사항, 실시간 검색, 카탈로그 서비스)에 사용할 수 있습니다. `catalog-service`개의 메타패키지 v3.1.0+가 필요합니다.
 
 **릴리스 날짜**: 2024년 2월 13일
 <!-- v1.16 -->
@@ -694,9 +694,9 @@ Composer를 사용하여 `magento/catalog-service`을(를) 업그레이드할 �
 
   - [카탈로그 서비스 안내서](overview.md)
   - [카탈로그 서비스 GraphQL API 참조](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/)
-  - [Adobe Commerce 관리 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/)
-  - [Adobe Commerce as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/)
-  - [Adobe Commerce on Cloud 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud/)
+  - [Adobe Commerce 관리 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
+  - [Adobe Commerce as a Cloud Service 안내서](../cloud-service/overview.md)
+  - [Adobe Commerce on Cloud 안내서](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview)
 
 - **Adobe Commerce Optimizer** 또는 **Adobe Commerce Optimizer 커넥터**&#x200B;를 사용하는 프로젝트의 경우 다음 설명서를 참조하십시오.
 

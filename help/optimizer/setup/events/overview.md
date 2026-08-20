@@ -21,10 +21,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 1411
-ht-degree: 0%
+source-wordcount: 1568
+ht-degree: 10%
 
 ---
 
@@ -191,4 +191,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 ## 지원
 
-데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)하십시오.
+데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.

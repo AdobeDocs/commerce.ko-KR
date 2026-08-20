@@ -3,9 +3,9 @@ title: 프로덕션에  [!DNL Payment Services] 사용
 description: 프로덕션에 대해  [!DNL Payment Services] 을(를) 활성화하여 온보딩 프로세스를 완료합니다.
 exl-id: 3b1269e8-127b-47f8-9738-9722a5737c63
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
    관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
 
 1. _[!UICONTROL General Configuration]_&#x200B;에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
-1. **[!UICONTROL Payment Action]**&#x200B;과(와) _[!UICONTROL Credit Card Fields]_&#x200B;모두에 대해&#x200B;_[!UICONTROL PayPal payment buttons]_&#x200B;을(를) 다음 중 하나로 설정합니다.
+1. _[!UICONTROL Credit Card Fields]_&#x200B;과(와)_[!UICONTROL PayPal payment buttons]_ 모두에 대해 **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 설정 | 설명 |
    |---|---|
@@ -42,8 +42,8 @@ ht-degree: 0%
    >[!DNL Payment Services]은(는) 부분 캡처를 지원합니다. 판매자는 주문의 일부를 부분적으로 수집(송장)할 수 있습니다. 예를 들어 각 항목을 개별적으로 캡처하거나 지금 항목 하나와 나중에 항목 하나를 캡처할 수 있습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Go to Payment Services]** 홈으로 돌아가려면 [!DNL Payment Services]을(를) 클릭하십시오.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=ko).
+1. [!DNL Payment Services] 홈으로 돌아가려면 **[!UICONTROL Go to Payment Services]**&#x200B;을(를) 클릭하십시오.
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management).
 
    모든 구성 변경 후 지우기를 수행해야 합니다.
 
@@ -117,14 +117,14 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >[!DNL Payment Services] 및 [!DNL Adobe Commerce]에 대한 [!DNL Magento Open Source]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다.
+   >[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다.
 
 ## Adobe에서 결제 권한 요청
 
 스토어를 라이브로 사용하려면 Adobe에 결제 권한을 요청하세요([고급 온보딩만](#advanced-onboarding)).
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
-1. **[!UICONTROL Get Live Payments]** 홈에서 [!DNL Payment Services]을(를) 클릭합니다.
+1. [!DNL Payment Services] 홈에서 **[!UICONTROL Get Live Payments]**&#x200B;을(를) 클릭합니다.
 
    ![권한 요청](assets/request-entitlements.png){width="500" zoomable="yes"}
 

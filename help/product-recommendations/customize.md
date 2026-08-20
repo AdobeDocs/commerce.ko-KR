@@ -10,9 +10,9 @@ feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 645
+source-wordcount: 646
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 `<your theme>/Magento_ProductRecommendationsLayout/web/template/recommendations.html`
 
-템플릿 파일 수정에 대한 자세한 내용은 프론트엔드 개발자 가이드의 [템플릿 사용자 지정](https://developer.adobe.com/commerce/frontend-core/guide/templates/walkthrough/)을 참조하세요.
+템플릿 파일 수정에 대한 자세한 내용은 프론트엔드 개발자 가이드의 [템플릿 사용자 지정](https://developer.adobe.com/commerce/frontend-core/guide/templates/walkthrough)을 참조하세요.
 
 `recommendations.html` 파일을 수정하는 경우 Adobe Commerce이 상점에서 권장 사항 지표를 수집할 수 있도록 파일에 다음 태그를 유지해야 합니다.
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![배지 추가](assets/unit-custom.png)
 
-페이지에서 권장 사항 단위를 렌더링할 때 사용자 지정 제품 특성을 사용할 수 있도록 하려면 관리자의 [제품 특성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko) 페이지에서 `Used in Product Listing` 속성을 `Yes`(으)로 설정하십시오.
+페이지에서 권장 사항 단위를 렌더링할 때 사용자 지정 제품 특성을 사용할 수 있도록 하려면 관리자의 [제품 특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) 페이지에서 `Used in Product Listing` 속성을 `Yes`(으)로 설정하십시오.
 
 이 속성이 설정되면 JSON 페이로드에는 속성 코드와 값의 배열이 포함된 `attributes` 개체가 포함됩니다. 그런 다음 앞에서 언급한 대로 특수 시각적 처리 또는 배지 추가와 같은 이러한 속성 값을 기반으로 사용자 지정 storefront 스타일을 적용할 수 있습니다.
 

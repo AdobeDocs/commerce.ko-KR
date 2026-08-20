@@ -2,9 +2,9 @@
 title: 경계 및 제한
 description: 비즈니스 요구 사항을 충족하도록  [!DNL Product Recommendations] 의 경계 및 제한에 대해 알아봅니다.
 role: Admin, Developer
-source-git-commit: 66830c9d950a27269aca1bda0dcc7d0d86f05647
+source-git-commit: 60df4a608155a4f8ff8b4bf57cfd625aa1b3ccea
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## B2B
 
-- 제품 권장 사항에는 [범주 권한](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions.html), [공유 카탈로그](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 및 고객 그룹별 가격이 적용됩니다. 구매자는 세그먼트 및 카탈로그 할당에 따라 액세스할 수 있는 제품에 대한 권장 사항만 봅니다. [온보딩](onboarding.md)을 참조하세요.
+- 제품 권장 사항에는 [범주 권한](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/category-permissions), [공유 카탈로그](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-shared) 및 고객 그룹별 가격이 적용됩니다. 구매자는 세그먼트 및 카탈로그 할당에 따라 액세스할 수 있는 제품에 대한 권장 사항만 봅니다. [온보딩](onboarding.md)을 참조하세요.
 
 ## 데이터 및 준비
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
 ## 문제 해결
 
-카탈로그 동기화에 대한 도움말, 표시되지 않는 권장 사항 또는 기타 일반적인 문제를 보려면 [Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)를 검색하거나 [지원](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하세요.
+카탈로그 동기화에 대한 도움말, 표시되지 않는 권장 사항 또는 기타 일반적인 문제를 보려면 [Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)를 검색하거나 [지원](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)에 문의하세요.

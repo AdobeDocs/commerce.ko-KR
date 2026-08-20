@@ -15,9 +15,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 last-update: 2026-07-29
-source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Adobe Commerce as a Cloud Service을 사용하는 경우 환경에서 최신 버전의 메타패키지를 사용할 수 있습니다. 서비스를 사용하려면 [카탈로그 서비스 시작](get-started.md)을 참조하세요.
 >
->Adobe Commerce Optimizer을 사용하는 Commerce 상점 구현의 경우 [Adobe Commerce Optimizer용 머천다이징 서비스 개발자 안내서](https://developer-stage.adobe.com/commerce/services/optimizer/)를 참조하십시오.
+>Adobe Commerce Optimizer을 사용하는 Commerce 상점 구현의 경우 [Adobe Commerce Optimizer용 머천다이징 서비스 개발자 안내서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하십시오.
 
 
 ## 시스템 요구 사항
@@ -91,7 +91,7 @@ Adobe Commerce 버전 2.4.4 이상을 실행 중인 Adobe Commerce 인스턴스�
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/cli-branches)를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 확인하십시오.
 
@@ -173,7 +173,7 @@ Adobe Commerce 버전 2.4.4 이상을 실행 중인 Adobe Commerce 인스턴스�
 
 카탈로그 내보내기가 올바르게 실행되는지 확인하려면 다음을 수행하십시오.
 
-- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues).
+- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-39832).
 - 인덱서가 [Admin](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에서 실행되거나 Commerce CLI 명령 `bin/magento indexer:info`을(를) 사용하여 실행되고 있는지 확인하십시오.
 - `Catalog Attributes Feed, Product Feed, Product Overrides Feed` 및 `Product Variant Feed` 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오.
 

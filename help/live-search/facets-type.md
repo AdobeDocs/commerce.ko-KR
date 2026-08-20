@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: 429
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 [!DNL Commerce] Storefront에 대해 렌더링되는 패싯은 요청을 라우팅하고 Storefront에서 결과를 렌더링하는 검색 어댑터에 의해 처리됩니다. 해당 특성에 할당된 입력 유형에 관계없이 모든 [!DNL Commerce] Storefront 패싯이 단일 선택 옵션으로 알파벳순으로 정렬됩니다. 상점 첫 화면에서 사용할 수 있는 패싯은 현재 테마에 따라 렌더링되며 계층화된 탐색 표시에 대한 모든 사용자 지정 사항을 반영합니다.
 
-반대로 [headless](https://developer.adobe.com/commerce/php/architecture/technical-vision/web-api/) 구현은 API에서 처리되며 추가 옵션을 지원합니다. Headless 패싯은 알파벳순 또는 개수별로 정렬할 수 있으며 단일 또는 다중 선택 옵션을 가질 수 있습니다.
+반대로 [headless](https://developer.adobe.com/commerce/php/architecture/technical-vision/web-api) 구현은 API에서 처리되며 추가 옵션을 지원합니다. Headless 패싯은 알파벳순 또는 개수별로 정렬할 수 있으며 단일 또는 다중 선택 옵션을 가질 수 있습니다.
 
 ### Facet 레이블
 
-[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=ko)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
+[!DNL Commerce] 상점 앞면의 경우 Facet 레이블은 [*특성 속성*](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create)에 의해 결정됩니다. 여러 보기가 있는 스토어의 경우 *레이블 관리*&#x200B;에서 추가 레이블을 정의할 수 있습니다. Headless 구현의 경우 레이블은 [작업 공간 구현](faceting-workspace.md)에서 편집됩니다.
 
 ### 정렬 유형
 

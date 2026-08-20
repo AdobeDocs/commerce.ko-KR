@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 
 즉시 사용 가능한 이 커넥터는 안정적인 데이터 동기화 기능과 비즈니스 요구 사항에 맞게 워크플로우를 사용자 지정할 수 있는 유연성을 제공합니다.
 
-전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
+전체 비디오 튜토리얼 시리즈를 보려면 [Salesforce Commerce 클라우드 시작 키트에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-learn/adobe-commerce-optimizer/sfcc-starter-kit/overview)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,13 +48,13 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 * **여러 데이터 형식을 지원합니다.** 제품, 가격 및 카탈로그 구조를 동기화하여 복잡한 머천다이징 구성을 반영합니다.
 
 * **유연한 동기화 워크플로**
-   * **예약된 동기화:** cron 작업 일정을 사용하여 업데이트를 자동화합니다. 수작업이 필요하지 않습니다.
-   * **주문형 업데이트:** 긴급 변경, 수정 또는 제품 출시에 대한 SKU 수준 업데이트를 즉시 트리거합니다.
+  * **예약된 동기화:** cron 작업 일정을 사용하여 업데이트를 자동화합니다. 수작업이 필요하지 않습니다.
+  * **주문형 업데이트:** 긴급 변경, 수정 또는 제품 출시에 대한 SKU 수준 업데이트를 즉시 트리거합니다.
 
 * **확장성을 위해 빌드됨**
-   * 호환성을 위해 사용자 지정 [Salesforce Commerce B2C API](https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html)&#x200B;(SCAPI) 끝점을 사용하고 고유 사용 사례 또는 고급 사용 사례에 쉽게 적응합니다.
-   * 카탈로그 및 가격 동기화를 통해 비즈니스 시작으로 확장한 다음 추가 통합 또는 비즈니스 논리를 지원하도록 워크플로우를 확장합니다.
-   * 핵심 통합을 재구축하지 않고도 워크플로우를 구성하고 발전시킬 수 있습니다.
+  * 호환성을 위해 사용자 지정 [Salesforce Commerce B2C API](https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html)&#x200B;(SCAPI) 끝점을 사용하고 고유 사용 사례 또는 고급 사용 사례에 쉽게 적응합니다.
+  * 카탈로그 및 가격 동기화를 통해 비즈니스 시작으로 확장한 다음 추가 통합 또는 비즈니스 논리를 지원하도록 워크플로우를 확장합니다.
+  * 핵심 통합을 재구축하지 않고도 워크플로우를 구성하고 발전시킬 수 있습니다.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Adobe App Builder 기술을 기반으로 구축된 [!DNL Commerce Optimizer Sale
 Salesforce Commerce B2C 현지화 기능 활용:
 
 * 다양한 로케일에 대해 Salesforce Commerce B2C의 현지화된 제품 텍스트 필드 버전(이름, 설명)을 동기화합니다.
-* Salesforce 로케일 개념 1:1을(를) [!DNL Commerce Optimizer] 로케일로 매핑합니다.
+* Salesforce 로케일 개념 1:1을 [!DNL Commerce Optimizer] 로케일로 매핑합니다.
 * 다양한 현지화에 대해 여러 제품 수집 주기를 지원합니다.
 * 글로벌 제품 카탈로그 간 일관성 유지
 

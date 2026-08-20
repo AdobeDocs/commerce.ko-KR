@@ -1,5 +1,5 @@
 ---
-source-git-commit: 039f848c37235195a3ffcc90238dad77513a9ec3
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 
 | 서비스 | 확장성 | 상점 첫 화면 |
 | --- | --- | --- |
-| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko)</li></ul> |
+| <ul><li>[카탈로그 서비스](../catalog-service/release-notes.md)</li><li>[실시간 검색](../live-search/release-notes.md)</li><li>[결제 서비스](../payment-services/release-notes.md)</li><li>[제품 추천](../product-recommendations/release-notes.md)</li><li>[SaaS 데이터 내보내기](../data-export/release-notes.md)</li></ul> | <ul><li>[관리자 UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/release/)</li><li>[이벤트](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[웹후크](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[릴리스 정보](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=ko)</li><li>[변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko)</li></ul> |
 
 ## Adobe Commerce Optimizer 서비스 릴리스 노트 {#aco-release}
 

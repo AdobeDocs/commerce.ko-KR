@@ -33,7 +33,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 last-update: 2026-08-07
-source-git-commit: ecaeba0d36376bf7f9ac864135cbf225c7fd8634
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 5345
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
 
-새 [REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management)에서 [!DNL Commerce Admin] [!UICONTROL **순서 편집**] 기능을 복제하여 통합에서 프로그래밍 방식으로 순서를 편집할 수 있습니다.
+새 [REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management/)에서 [!DNL Commerce Admin] [!UICONTROL **순서 편집**] 기능을 복제하여 통합에서 프로그래밍 방식으로 순서를 편집할 수 있습니다.
 
 | 방법 | 엔드포인트 | 설명 |
 | --- | --- | --- |
@@ -125,7 +125,7 @@ ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 �
 >
 >이 기능은 실험적인 기능이며 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만들어 활성화해야 합니다.
 
-새 [`orderChain` REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management)을 사용하면 통합에서 해당 ID를 사용하여 주문을 수정하고 편집된 주문의 전체 체인을 자동으로 해결할 수 있습니다.
+새 [`orderChain` REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management/)을 사용하면 통합에서 해당 ID를 사용하여 주문을 수정하고 편집된 주문의 전체 체인을 자동으로 해결할 수 있습니다.
 
 | 방법 | 엔드포인트 | 설명 |
 | --- | --- | --- |

@@ -21,9 +21,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 595
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Privacy Service에 대한 자세한 내용 및 개인 정보 보호 요청을 �
 
 다음 두 가지 방법으로 [!DNL Commerce]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
-* **Privacy Service UI**&#x200B;를 통해. 설명서를 [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/ui/user-guide#_blank)에서 확인하세요.
-* **Privacy Service API**&#x200B;를 통해. 설명서 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) 및 API 정보 [여기](https://developer.adobe.com/experience-platform-apis/#_blank)를 참조하세요.
+* **Privacy Service UI**&#x200B;를 통해. 설명서를 [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/ui/user-guide){target="_blank"}에서 확인하세요.
+* **Privacy Service API**&#x200B;를 통해. 설명서 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service){target="_blank"} 및 API 정보 [여기](https://developer.adobe.com/experience-platform-apis/){target="_blank"}를 참조하세요.
 
 Privacy Service에서는 **데이터 액세스** 및 **데이터 삭제** 요청의 두 가지 유형을 지원합니다.
 

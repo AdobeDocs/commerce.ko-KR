@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: 994
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets
 | **필요한 액세스 및 권한** | <ul><li>AEM Assets as a Cloud Service에 대한 관리자 액세스</li><li>미디어 파일이 저장된 소스 시스템(Adobe Commerce 또는 외부 시스템)에 액세스</li><li>클라우드 스토리지 서비스에 액세스할 수 있는 적절한 권한</li></ul> |
 | **클라우드 저장소 계정** | <ul><li>AWS S3 또는 Azure Blob 저장소 계정</li><li>비공개 컨테이너/버킷 구성</li><li>인증 자격 증명</li></ul> |
 | **Source 컨텐츠** | <ul><li>마이그레이션할 준비가 된 미디어 파일 구성</li><li>AEM Assets에서 지원하는 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">형식의 이미지 및 비디오 파일</a>.</li><li>정리되고 중복된 에셋</li></li> |
-| **메타데이터 준비** | <ul><li><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
+| **메타데이터 준비** | <ul><li><a href="configure-aem.md">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
 
 ## 마이그레이션 모범 사례
 

@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0c38384dc0b8c9c964402cd3d363ff784d7a0cf5
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 3270
+source-wordcount: 3271
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ _2025년 11월 24일_
 
 _2025년 10월 22일_
 
-![새로 만들기](../assets/new.svg) 연결된 서비스([!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendations])로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장에 대한 지원을 추가했습니다. [!DNL Adobe Commerce]이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=ko)을 참조하십시오. <!--MDEE-954-->
+![새로 만들기](../assets/new.svg) 연결된 서비스([!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendations])로의 데이터 전송을 모니터링하고 문제를 해결하기 위해 데이터 피드 동기화 상태 확장에 대한 지원을 추가했습니다. [!DNL Adobe Commerce]이 확장 기능 설치 및 사용에 대한 자세한 내용은 *Commerce 관리 안내서*&#x200B;의 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 참조하십시오. <!--MDEE-954-->
 
 ### 103.4.14 릴리스
 

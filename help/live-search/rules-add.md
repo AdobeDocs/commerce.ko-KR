@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 657c4b3123407580dfeb2c021a5a1ba515e82115
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2561
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 ## 규칙 추가
 
 1. 관리자의 **마케팅** > SEO 및 검색 > **[!DNL Live Search]**(으)로 이동합니다.
-1. 규칙이 적용되는 [스토어 보기](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ko#scope-settings)를 식별하도록 **범위**&#x200B;를 설정하십시오.
+1. 규칙이 적용되는 [스토어 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)를 식별하도록 **범위**&#x200B;를 설정하십시오.
 1. **머천다이징 검색** 작업 영역을 클릭합니다.
 1. **규칙 추가**&#x200B;를 클릭하여 규칙 편집기를 시작합니다.
 
@@ -136,8 +136,8 @@ ht-degree: 0%
 
 * **텍스트 관련성**: 채점의 주요 요소입니다. 이렇게 하면 제품의 이름, 설명 및 속성이 검색 쿼리와 얼마나 잘 일치하는지 측정합니다. 텍스트 관련성 점수는 제한되지 않으며(특정 상한이 없음) 다음과 같은 요인의 영향을 받습니다.
 
-   * 일치하는 단어의 발생 빈도입니다.
-   * 제품 이름/설명의 길이(단어)입니다.
+  * 일치하는 단어의 발생 빈도입니다.
+  * 제품 이름/설명의 길이(단어)입니다.
 
 * **동작 신호**: 텍스트 관련성 점수 위에 적용된 경계 부스트. &quot;가장 많이 본 항목&quot; 또는 &quot;가장 많이 구매한 항목&quot;과 같은 지능형 순위 전략을 선택하면 더 높은 동작 신호를 갖는 제품에 더 큰 상대 가중치가 부여됩니다. 해당 가중치의 강도는 **[!UICONTROL Intelligent Ranking Boost]**&#x200B;에 의해 제어됩니다([지능형 순위 상승](#intelligent-ranking-boost) 참조). 상승도는 제한되어 있지만 순서를 변경하는 정도를 늘릴 수 있습니다.
 
@@ -164,11 +164,11 @@ ht-degree: 0%
 * 쿼리에서 아포스트로피와 인용 부호를 사용하면 일부 언어에서 순위 및 관련성과 관련된 사소한 문제가 발생할 수 있습니다.
 * 지능형 순위가 올바르게 작동하도록 하려면 검색 또는 필터링(패싯)에 사용되는 제품 특성에 대한 **검색 가중치**&#x200B;가 `5` 이하인지 확인하십시오. [!DNL Commerce] 관리자에서 이 설정을 찾으려면:
 
-   1. **스토어** > _특성_ > **제품**&#x200B;을 선택합니다.
-   1. &quot;name&quot;과 같은 속성을 검색합니다.
-   1. **특성 정보** > **Storefront 속성** 페이지에서 검색 가중치를 `5` 이하로 설정하십시오.
+  1. **스토어** > _특성_ > **제품**&#x200B;을 선택합니다.
+  1. &quot;name&quot;과 같은 속성을 검색합니다.
+  1. **특성 정보** > **Storefront 속성** 페이지에서 검색 가중치를 `5` 이하로 설정하십시오.
 
-      ![제품 - 검색 가중치](assets/set-search-weight.png)
+     ![제품 - 검색 가중치](assets/set-search-weight.png)
 
 >[!NOTE]
 >

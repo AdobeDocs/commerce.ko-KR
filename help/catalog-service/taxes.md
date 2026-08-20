@@ -12,16 +12,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 19de20caafd45e3a00896d0d4b29b7e96dfe94e1
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 289
 ht-degree: 0%
 
 ---
 
 # Adobe Developer App Builder용 API Mesh를 사용하여 세금 요금 표시
 
-[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/)을(를) 사용하면 개발자는 Adobe I/O Runtime을 사용하여 개인 또는 서드파티 API 및 기타 인터페이스를 Adobe 제품과 통합할 수 있습니다.
+[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/mesh/)을(를) 사용하면 개발자는 Adobe I/O Runtime을 사용하여 개인 또는 서드파티 API 및 기타 인터페이스를 Adobe 제품과 통합할 수 있습니다.
 
 이 항목에서는 API Mesh를 사용하여 제품 세부 사항 페이지에 세금이 포함된 제품 가격을 표시합니다.
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 제품 세부 사항 페이지에 표시할 세금을 구성해야 합니다.
 
-1. [세율 설정](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html?lang=ko).
-1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html?lang=ko#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
+1. [세율 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules).
+1. 세금을 [카탈로그에 표시](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/display-settings#step-1%3A-configure-catalog-prices-display-settings)하도록 설정하고 `Including and Excluding Tax` 또는 `Including Tax`(으)로 설정합니다.
 
 제품 세부 사항 페이지를 확인하여 카탈로그 서비스가 작동하는지 확인하십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## API Mesh 구성
 
-아직 연결되지 않은 경우 카탈로그 서비스가 있는 API Mesh를 인스턴스에 연결합니다. 자세한 지침은 API Mesh 개발자 가이드의 [시작하기](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/) 항목에서 확인할 수 있습니다.
+아직 연결되지 않은 경우 카탈로그 서비스가 있는 API Mesh를 인스턴스에 연결합니다. 자세한 지침은 API Mesh 개발자 가이드의 [시작하기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/) 항목에서 확인할 수 있습니다.
 
 `mesh.json` 파일에서 `name`, `endpoint` 및 `x-api-key` 값을 바꾸십시오.
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 * `ComplexProductView` 및 `SimpleProductView` 형식을 `priceWithTaxes`(이)라는 새 필드로 확장합니다.
 * 새 필드에 대한 사용자 지정 해결 프로그램을 추가합니다.
 
-`mesh.json` 파일을 사용하여 [create 명령](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1)으로 메쉬를 만듭니다.
+`mesh.json` 파일을 사용하여 [create 명령](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)으로 메쉬를 만듭니다.
 
 ### GraphQL 쿼리
 

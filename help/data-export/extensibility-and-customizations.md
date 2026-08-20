@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 815
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 제품 피드에는 제품 처리에 필요하거나 소비자가 일반적으로 사용하는 기본 시스템 속성이 포함됩니다. 추가 시스템 속성을 피드에 추가하여 제품 피드에 포함할 수 있습니다.
 
-이 작업을 완료하려면 `magento/catalog-data-exporter` 모듈을 업데이트하여 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/)&#x200B;(`di.xml`)에 추가 시스템 특성을 추가하십시오.
+이 작업을 완료하려면 `magento/catalog-data-exporter` 모듈을 업데이트하여 [종속성 삽입 구성 파일](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file)&#x200B;(`di.xml`)에 추가 시스템 특성을 추가하십시오.
 
 제품 특성 쿼리(`Magento\CatalogDataExporter\Model\Query\ProductAttributeQuery`)에 특성을 추가합니다.
 
@@ -85,7 +85,7 @@ Commerce 관리자에서 제품 특성을 추가하거나 프로그래밍 방식
 - **`user_defined`=`1`**—데이터를 동기화하는 동안 특성을 상점 서비스로 내보냅니다.
 - **`used_in_product_listing`=`1`**—제품 목록 데이터베이스 쿼리 내에서 특성에 액세스할 수 있도록 설정합니다.
 
-데이터 패치 만들기에 대한 자세한 내용은 *PHP 개발자 안내서*&#x200B;에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)을 참조하십시오.
+데이터 패치 만들기에 대한 자세한 내용은 *PHP 개발자 안내서*&#x200B;에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches)을 참조하십시오.
 
 ### 제품 속성을 동적으로 추가
 
@@ -163,7 +163,7 @@ class DataSentOutsideObserver implements ObserverInterface
 </event>
 ```
 
-이벤트 및 관찰자에 대한 일반적인 정보는 Adobe Commerce 개발자 설명서에서 [이벤트 및 관찰자](https://developer.adobe.com/commerce/php/development/components/events-and-observers){target="_blank"}를 참조하십시오.
+이벤트 및 관찰자에 대한 일반적인 정보는 Adobe Commerce 개발자 설명서에서 [이벤트 및 관찰자](https://developer.adobe.com/commerce/php/development/components/events-and-observers/){target="_blank"}를 참조하십시오.
 
 ## 제출 전 데이터 필터링
 

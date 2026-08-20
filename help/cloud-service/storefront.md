@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 300
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Commerce GraphQL Endpoint (optional)]** 필드에 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(SaaS) GraphQL 끝점을 입력합니다. 이 끝점은 [인스턴스를 만든 후](./getting-started.md#create-an-instance) Commerce Cloud Manager에서 액세스할 수 있습니다.
 
-   또는 [[!DNL API Mesh]](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic)을(를) 사용하는 경우 **[!UICONTROL Commerce GraphQL Endpoint (optional)]** 필드에 [!DNL API Mesh] GraphQL 끝점을 입력합니다. 자세한 내용은 [메쉬 만들기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)를 참조하십시오.
+   또는 [[!DNL API Mesh]](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)을(를) 사용하는 경우 **[!UICONTROL Commerce GraphQL Endpoint (optional)]** 필드에 [!DNL API Mesh] GraphQL 끝점을 입력합니다. 자세한 내용은 [메쉬 만들기](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh)를 참조하십시오.
 
 1. **[!UICONTROL Create Site]**&#x200B;을(를) 클릭합니다. 화면의 지침에 따라 GitHub 저장소에 대한 액세스 권한을 부여합니다.
 

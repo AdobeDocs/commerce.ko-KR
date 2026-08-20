@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: 2635
 ht-degree: 0%
 
 ---
@@ -58,13 +58,13 @@ aio commerce extensibility tools-setup
 
 * 다음과 같이 [에이전트 기술](https://agentskills.io/home#adoption)을 지원하는 모든 코딩 에이전트.
 
-   * [커서](https://cursor.com/download)
-   * [클로드 코드](https://www.claude.com/product/claude-code)
-   * [GitHub Copilot](https://github.com/features/copilot)
-   * [윈드서프](https://windsurf.com)
-   * [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-   * [OpenAI 코드](https://openai.com/index/introducing-codex/)
-   * [Cline](https://cline.bot)
+  * [커서](https://cursor.com/download)
+  * [클로드 코드](https://www.claude.com/product/claude-code)
+  * [GitHub Copilot](https://github.com/features/copilot)
+  * [윈드서프](https://windsurf.com)
+  * [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+  * [OpenAI 코드](https://openai.com/index/introducing-codex/)
+  * [Cline](https://cline.bot)
 
 * [Node.js](https://nodejs.org/en/download): LTS 버전
 * 패키지 관리자: [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 또는 [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
@@ -349,7 +349,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 * [통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [App Builder 샘플 애플리케이션](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### 이러한 리소스를 사용해야 하는 이유
@@ -368,9 +368,9 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 다음 4단계 프로토콜은 설치된 스킬에 의해 자동으로 적용됩니다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따라야 합니다.
 
 * 1단계: 요구 사항 분석 및 설명
-   * 질문을 명확히 하는 경우 완전한 답변을 제공합니다.
+  * 질문을 명확히 하는 경우 완전한 답변을 제공합니다.
 * 2단계: 아키텍처 계획 및 사용자 승인
-   * 계획을 제시하면 신중히 검토한 후 승인합니다.
+  * 계획을 제시하면 신중히 검토한 후 승인합니다.
 * 3단계: 코드 생성 및 구현
 * 4단계: 설명서 및 유효성 검사
 

@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 [!DNL API Mesh]의 CDN 계층은 TLS를 종료하고, GraphQL 게이트웨이를 작업자로 실행하고, 전역 에지 캐싱과 자동 DDoS/WAF을 제공하고, `edge‑graph.adobe.io`/`edge‑sandbox‑graph.adobe.io`을(를) 공용 메쉬 끝점으로 노출합니다. 고객은 앞에 고유한 CDN을 추가할 수 있지만, [!DNL API Mesh]의 CDN은 Adobe에서 수정 및 관리되며, 고객은 자신의 WAF 규칙을 구성할 수 없습니다.
 
-[!DNL API Mesh]의 보안 기능에 대한 자세한 내용은 [API Mesh 설명서](https://developer.adobe.com/graphql-mesh-gateway/mesh/security/){target="_blank"}를 참조하세요.
+[!DNL API Mesh]의 보안 기능에 대한 자세한 내용은 [API Mesh 설명서](https://developer.adobe.com/graphql-mesh-gateway/mesh/security){target="_blank"}를 참조하세요.
 
 ### 백엔드 CDN
 
@@ -87,6 +87,6 @@ WAF 및 CDN은 [!DNL Adobe Commerce as a Cloud Service] 플랫폼에서 관리�
 
 데이터가 [!DNL App Builder]에 저장되는 경우 판매자는 [!DNL App Builder] [저장소 옵션](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)을(를) 참조할 수 있습니다. [!DNL App Builder]은(는) 테넌트 격리를 적용하며 이러한 서비스에 저장된 데이터에 대한 액세스는 작업을 실행하는 런타임 네임스페이스로 제한됩니다. 저장소에 데이터의 암호화가 없습니다.
 
-[!DNL API Mesh]을(를) 사용하는 경우 암호는 메쉬 구성의 `secrets.yaml` 파일에 저장되어야 합니다. [!DNL API Mesh]은(는) AES-256 암호화([https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/secrets/](https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/secrets/))를 사용하여 이러한 암호를 암호화합니다.
+[!DNL API Mesh]을(를) 사용하는 경우 암호는 메쉬 구성의 `secrets.yaml` 파일에 저장되어야 합니다. [!DNL API Mesh]은(는) AES-256 암호화를 사용하여 이러한 암호를 암호화합니다([API Mesh 설명서](https://developer.adobe.com/graphql-mesh-gateway/mesh/security){target="_blank"} 참조).
 
 [!DNL Adobe Commerce as a Cloud Service]에 저장된 모든 데이터는 AES 256비트 암호화를 사용하여 사용하지 않고 암호화되며, 모든 데이터는 전송 중인 TLS 1.2 이상을 사용하여 HTTPS를 통해 암호화됩니다.

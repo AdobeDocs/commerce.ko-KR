@@ -22,7 +22,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -318,7 +318,7 @@ Storefront 통합을 시작하기 전에 다음을 확인하십시오.
    개발 환경 및 브라우저에 다음과 같은 변경 사항이 표시됩니다.
 
    * 제품 등급 구성 요소는 자동으로 만들어집니다.
-   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=ko)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
+   * 선택한 아키텍처에 따라 [드롭인 슬롯](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots/?lang=ko)을 사용하거나 독립 실행형 블록으로 구성 요소를 PDP에 통합합니다.
    * 별은 API의 등급 값에 따라 적절한 채우기 비율로 표시됩니다.
 
    ![제품 제목 아래에 통합된 별점을 표시하는 제품 세부 정보 페이지](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}

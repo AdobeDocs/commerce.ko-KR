@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: 983
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 1. 콘텐츠가 일치하지 않으면 공백 또는 마침표 추가와 같이, 카탈로그의 제품에 대한 부분 편집을 수행하여 변경 사항을 감지하도록 합니다.
 1. 재동기화를 기다리거나 CLI 또는 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 수동 재동기화를 트리거하십시오.
 
-[!DNL Product Recommendations]의 카탈로그 데이터 문제 해결에 대한 자세한 내용은 Commerce 기술 자료에서 [제품 권장 사항 모듈 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce)을 참조하세요.
+[!DNL Product Recommendations]의 카탈로그 데이터 문제 해결에 대한 자세한 내용은 Commerce 기술 자료에서 [제품 권장 사항 모듈 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-40095)을 참조하세요.
 
 ## 데이터 동기화가 일정에 따라 실행되고 있지 않음 {#sync-not-on-schedule}
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **솔루션:**
 
-- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues).
+- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-39832).
 - 카탈로그 특성, Product, Product Overrides 및 Product Variant 피드의 인덱서가 **[!UICONTROL Update by Schedule]**(으)로 설정되어 있는지 확인하십시오. Commerce 관리자 또는 CLI를 사용하여 [[!UICONTROL Index Management]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에서 확인하십시오. `bin/magento indexer:show-mode | grep -i feed`.
 
 ## 카탈로그 동기화가 실패 상태입니다. {#catalog-sync-failed}
@@ -110,7 +110,7 @@ ht-degree: 0%
 1. 오류에 대한 자세한 내용은 데이터 내보내기 오류 로그를 검토하십시오. 로그 형식 및 확장 로깅 옵션에 대해서는 [로그 검토 및 문제 해결](logging.md)을 참조하십시오.
    - 데이터를 수집하는 동안 오류가 발생한 경우 `var/log/commerce-data-export-errors.log`.
    - 데이터를 제출하는 동안 오류가 발생한 경우 `var/log/saas-export-errors.log`.
-1. 오류가 구성 또는 타사 확장과 관련이 없는 경우 관련 로그 항목을 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)하십시오.
+1. 오류가 구성 또는 타사 확장과 관련이 없는 경우 관련 로그 항목을 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하십시오.
 
 ## 로그에 &quot;작업 건너뜀 - 프로세스 잠김&quot; 메시지가 표시됨 {#process-locked}
 

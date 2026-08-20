@@ -17,9 +17,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 744
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 [!DNL Product Recommendations]에 대한 데이터 수집에 PII(개인 식별 정보)가 포함되어 있지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)을 참조하세요.
 
-데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=ko)를 참조하세요.
+데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)를 참조하세요.
 
 ## 권장 사항 표시 위치
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 제품 권장 사항 대 제품 관계
 
-온라인 쇼핑의 변화무쌍한 복잡성을 고려할 때, 상점에 가장 적합한 것은 종종 여러 주요 기술의 조합입니다. [!DNL Product Recommendations]과(와) [제품 관계](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html?lang=ko)를 모두 사용하면 제품을 홍보할 때 보다 유연하게 대처할 수 있습니다. Adobe AI 기반의 [!DNL Product Recommendations]을(를) 활용하여 규모에 맞게 권장 사항을 지능적으로 자동화할 수 있습니다. 그런 다음 수동으로 개입하여 대상 쇼핑객 세그먼트에 특정 권장 사항이 적용되는지 확인하거나 특정 비즈니스 목표를 충족해야 하는 경우 [관련 제품 규칙](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html?lang=ko)을 활용할 수 있습니다.
+온라인 쇼핑의 변화무쌍한 복잡성을 고려할 때, 상점에 가장 적합한 것은 종종 여러 주요 기술의 조합입니다. [!DNL Product Recommendations]과(와) [제품 관계](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships)를 모두 사용하면 제품을 홍보할 때 보다 유연하게 대처할 수 있습니다. Adobe AI 기반의 [!DNL Product Recommendations]을(를) 활용하여 규모에 맞게 권장 사항을 지능적으로 자동화할 수 있습니다. 그런 다음 수동으로 개입하여 대상 쇼핑객 세그먼트에 특정 권장 사항이 적용되는지 확인하거나 특정 비즈니스 목표를 충족해야 하는 경우 [관련 제품 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules)을 활용할 수 있습니다.
 
 제품 권장 사항을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 
 ### 카탈로그 데이터 다시 활성화
 
-최대 절전 모드 이후에 카탈로그 데이터를 복원하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Product Recommendations] 다시 활성화&quot;로 환경 ID를 포함하십시오. 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+최대 절전 모드 이후에 카탈로그 데이터를 복원하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Product Recommendations] 다시 활성화&quot;로 환경 ID를 포함하십시오. 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.

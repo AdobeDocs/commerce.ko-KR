@@ -20,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
 source-wordcount: 607
 ht-degree: 0%
@@ -83,7 +83,7 @@ Adobe Commerce은 OpenTelemetry를 통해 다음과 같은 가시성 도구를 �
 
 ### API Mesh 로깅
 
-[API Mesh 로깅](https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/logging/)을 통해 Ray ID를 사용하여 Mesh에서 흐르는 요청을 모니터링하고 디버그할 수 있습니다. 중앙 분석을 위해 로그를 일괄적으로 내보내거나 [!DNL New Relic] 같은 플랫폼에 전달합니다.
+[API Mesh 로깅](https://developer.adobe.com/graphql-mesh-gateway/mesh/advanced/logging)을 통해 Ray ID를 사용하여 Mesh에서 흐르는 요청을 모니터링하고 디버그할 수 있습니다. 중앙 분석을 위해 로그를 일괄적으로 내보내거나 [!DNL New Relic] 같은 플랫폼에 전달합니다.
 
 ## 상점 첫 화면
 

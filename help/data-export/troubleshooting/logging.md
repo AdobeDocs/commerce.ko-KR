@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 1007
+source-wordcount: 1010
 ht-degree: 0%
 
 ---
@@ -98,8 +98,8 @@ Adobe Commerce 서비스에 대한 예상 데이터가 표시되지 않으면 �
 - **`"Progress 2/5"`**&#x200B;은(는) 5개 중 2개의 반복이 완료되었음을 나타냅니다. 반복 횟수는 내보낸 엔티티 수에 따라 다릅니다.
 - **`"processed: 200"`**&#x200B;은(는) 200개 항목이 처리되었음을 나타냅니다.
 - **`"synced: 100"`**&#x200B;은(는) 100개의 항목이 SaaS로 전송되었음을 나타냅니다. `"synced"`은(는) `"processed"`과(와) 같지 않아야 합니다. 예를 들면 다음과 같습니다.
-   - **`"synced" < "processed"`**&#x200B;은(는) 피드 테이블이 이전에 동기화된 버전과 비교하여 항목의 변경 사항을 감지하지 못했음을 의미합니다. 이러한 항목은 동기화 작업 중에 무시됩니다.
-   - 동일한 엔터티 id(예: `Product ID`)의 **`"synced" > "processed"`**&#x200B;에 다른 범위의 값이 여러 개 있을 수 있습니다. 예를 들어 하나의 제품을 5개의 웹 사이트에 할당할 수 있습니다. 이 경우 &quot;1개의 처리된&quot; 항목과 &quot;5개의 동기화된&quot; 항목이 있을 수 있습니다.
+  - **`"synced" < "processed"`**&#x200B;은(는) 피드 테이블이 이전에 동기화된 버전과 비교하여 항목의 변경 사항을 감지하지 못했음을 의미합니다. 이러한 항목은 동기화 작업 중에 무시됩니다.
+  - 동일한 엔터티 id(예: `Product ID`)의 **`"synced" > "processed"`**&#x200B;에 다른 범위의 값이 여러 개 있을 수 있습니다. 예를 들어 하나의 제품을 5개의 웹 사이트에 할당할 수 있습니다. 이 경우 &quot;1개의 처리된&quot; 항목과 &quot;5개의 동기화된&quot; 항목이 있을 수 있습니다.
 
 +++ **예: 가격 피드에 대한 전체 재동기화 로그**
 
@@ -148,7 +148,7 @@ Commerce Services에서 데이터가 누락되었거나 잘못된 경우, 로그
 - 데이터 내보내기 오류 로그(`commerce-data-export-errors.log`)는 수집 단계 동안 발생하는 오류를 캡처합니다.
 - SaaS 내보내기 오류 로그(`saas-export-errors.log`)에서 전송 단계 중에 발생하는 오류를 캡처합니다.
 
-구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)을 제출하십시오.
+구성 또는 타사 확장과 관련이 없는 오류가 표시되면 가능한 많은 정보가 포함된 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)을 제출하십시오.
 
 ### 카탈로그 동기화 문제 해결 {#resolvesync}
 

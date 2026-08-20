@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0c2e50338cbf286704239b6d1f628180e85a3bef
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1744
 ht-degree: 1%
 
 ---
@@ -146,12 +146,12 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 * 제목: Dynamic Media OpenAPI를 활성화하여 Adobe Commerce을 AEM Assets과 완전히 통합
 
-   * 지원 티켓 컨텐츠:
+  * 지원 티켓 컨텐츠:
 
-      * **[!UICONTROL AEM Program ID]**
-      * **[!UICONTROL Adobe Commerce URL]**
-      * **[!UICONTROL AEM Environment ID]**
-      * **[!UICONTROL IMS Org ID]**
+    * **[!UICONTROL AEM Program ID]**
+    * **[!UICONTROL Adobe Commerce URL]**
+    * **[!UICONTROL AEM Environment ID]**
+    * **[!UICONTROL IMS Org ID]**
 
 지원 티켓을 제출하면 Adobe이 Cloud Services 환경에서 OpenAPI 기능을 갖춘 Dynamic Media를 활성화하고 IMS 클라이언트 ID 등의 세부 정보를 공유하여 통합을 계속할 수 있습니다.
 
@@ -209,7 +209,7 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
 1. **checkbox** 구성 요소를 **Commerce** 탭으로 끌어다 놓고 속성 `commerce:isCommerce`에 매핑합니다. 옵션으로 **예** 및 **아니요**&#x200B;를 정의합니다.
 
-다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
+다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
 
 ## 메타데이터 프로필 구성(선택 사항)
 

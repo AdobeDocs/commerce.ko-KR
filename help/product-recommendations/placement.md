@@ -11,9 +11,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -68,4 +68,4 @@ _검색 결과 상단에 권장 사항_
 | 제품 세부 사항 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구입함<br>비슷한 항목 추가<br>트렌드<br>시각적 유사성 |
 | 장바구니 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
 | 확인 | 기본 컨텐츠 하단(기본값) | 가장 많이 본 항목<br>가장 많이 구매함<br>장바구니에 가장 많이 추가함<br>이 항목을 보고 본 항목<br>이 항목을 보고 구매함<br>이 항목을 구매함<br>이와 유사한 항목<br>트렌드 |
-| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=ko) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |
+| 페이지 빌더 | 위치 콘텐츠 형식에 [끌어다 놓기](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations) | 가장 많이 본 항목<br>가장 많이 구매한 항목<br>장바구니에 가장 많이 추가<br>추천 항목<br>트렌드 |

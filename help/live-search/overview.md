@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7ea996f3adcd3beb2a9c064ce57d251f49ae5b3
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 1195
+source-wordcount: 1201
 ht-degree: 1%
 
 ---
@@ -121,10 +121,10 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 ### 비활성 테스트 환경
 
-테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
 
 ### 빈 카탈로그
 
 환경이 생성된 후 45일이 지나 빈 카탈로그가 있는 경우 카탈로그 데이터가 최대 절전 모드로 설정되고 검색 쿼리에 대해 데이터가 반환되지 않습니다. 여기에는 프로덕션 및 테스트 환경이 모두 포함됩니다.
 
-환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 사용자 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 사용자 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.

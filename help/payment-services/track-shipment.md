@@ -5,7 +5,7 @@ feature: Payments, Paas, Saas
 exl-id: 17aede1f-56ae-441a-b723-3193e865e469
 source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---

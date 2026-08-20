@@ -21,9 +21,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 1662
+source-wordcount: 1665
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 자격 증명 {#apikey}
 
-프로덕션 및 샌드박스 API 키는 [라이선스 소유자](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/start/onboarding)의 [!DNL Commerce] 계정에서 생성됩니다. Commerce 계정은 고유한 [!DNL Commerce] ID(MageID)로 식별됩니다. 판매자 조직의 라이선스 소유자는 계정이 양호한 경우 제품 추천 또는 라이브 검색과 같은 서비스에 대한 API 키를 생성할 수 있습니다.
+프로덕션 및 샌드박스 API 키는 [라이선스 소유자](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/start/onboarding)의 [!DNL Commerce] 계정에서 생성됩니다. Commerce 계정은 고유한 [!DNL Commerce] ID(MageID)로 식별됩니다. 판매자 조직의 라이선스 소유자는 계정이 양호한 경우 제품 추천 또는 라이브 검색과 같은 서비스에 대한 API 키를 생성할 수 있습니다.
 
 라이선스 소유자를 대신하여 프로젝트 및 환경을 관리하는 시스템 통합자 또는 개발 팀과 &quot;필요한 정보&quot;에 따라 키를 공유할 수 있습니다. 라이선스 소유자가 [!DNL Shared Access]을(를) 부여한 개발자는 해당 계정의 [!DNL Switch Accounts] 드롭다운에 판매자의 조직이 있더라도 라이선스 소유자를 대신하여 키를 생성할 수 없습니다.
 
@@ -153,7 +153,7 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
 1. [!DNL Commerce] 저장소의 현재 구성에 사용할 **데이터 공간**&#x200B;을(를) 선택하십시오.
 
-   Commerce 서비스와 통합할 인스턴스가 따로 있는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)하여 각 추가 인스턴스에 대해 새 SaaS 프로젝트를 요청하세요. 지원에서 SaaS 프로젝트를 만든 후 동일한 API 키를 사용하여 **인스턴스에 대한 Commerce Services 커넥터를 구성**&#x200B;한 다음 새 SaaS 프로젝트 및 데이터 공간을 선택하십시오.
+   Commerce 서비스와 통합할 인스턴스가 따로 있는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하여 각 추가 인스턴스에 대해 새 SaaS 프로젝트를 요청하세요. 지원에서 SaaS 프로젝트를 만든 후 동일한 API 키를 사용하여 **인스턴스에 대한 Commerce Services 커넥터를 구성**&#x200B;한 다음 새 SaaS 프로젝트 및 데이터 공간을 선택하십시오.
 
 >[!WARNING]
 >

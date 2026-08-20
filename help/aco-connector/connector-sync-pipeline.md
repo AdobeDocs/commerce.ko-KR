@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: 673
 ht-degree: 1%
 
 ---
@@ -64,13 +64,13 @@ ht-degree: 1%
 | `index` | `indexer_update_all_views` | 엔티티 업데이트를 수신하고 피드 항목을 어셈블하며 피드 상태를 유지합니다. | 1분마다 |
 | `index` | `indexer_reindex_all_invalid` | &quot;색인 재지정 필요&quot;로 표시된 피드 색인에 대해 전체 재동기화 수행 | 1분마다 |
 | `resync_failed_feeds_data_exporter` | `*_resend_failed_items` | 실패한 피드 항목을 확인하고 [!DNL Commerce Optimizer]에 다시 제출합니다. | 5분마다 |
-| `commerce_data_export` | `cleanup_deleted_feed_items` | 보존 기간(7일)이 지난 동기화된 삭제된 피드 항목을 정리합니다 | 매일 오전 2:00시 |
+| `commerce_data_export` | `cleanup_deleted_feed_items` | 보존 기간(7일)이 지난 동기화된 삭제된 피드 항목을 정리합니다 | 매일 오전 2:00 |
 
 **[!DNL SaaS Data Export]** 확장은 피드 컬렉션 및 상태 추적을 처리합니다. 커넥터 레이어는 엔터티 및 범위를 [!DNL Commerce Optimizer] API에 필요한 형식에 매핑하고 `POST /v1/catalog/<feed name>`을(를) 통해 제출합니다.
 
 #### 요구 사항
 
-- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues){target="_blank"}.
+- [Commerce cron이 실행 중이어야 합니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-39832){target="_blank"}.
 - 피드 인덱서는 **[!UICONTROL Update by Schedule]** 모드를 사용해야 합니다. [부분 동기화](../data-export/sync-overview.md#partial-sync){target="_blank"}를 참조하십시오.
 
 ## 범위 기반 동기화 제어

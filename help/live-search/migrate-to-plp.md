@@ -16,9 +16,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d30ce9f02c9d2217c6669e8e9a1794bbc0387128
+source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
 workflow-type: tm+mt
-source-wordcount: 2102
+source-wordcount: 2105
 ht-degree: 0%
 
 ---
@@ -358,11 +358,11 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 1. **이벤트 컬렉션 구현**:
    - [Storefront 이벤트 설명서](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)를 검토하십시오.
    - 필요한 이벤트를 구현합니다.
-      - `search-request-sent`
-      - `search-response-received`
-      - `search-results-view`
-      - `product-page-view`
-      - `add-to-cart`
+     - `search-request-sent`
+     - `search-response-received`
+     - `search-results-view`
+     - `product-page-view`
+     - `add-to-cart`
    - Adobe Commerce에 대한 이벤트 데이터 흐름을 테스트합니다.
 
 1. **패싯 정렬 구성**:
@@ -458,7 +458,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 - 헤드리스 또는 PWA 구현
 - 사용자 지정 이벤트 추적
 
-Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)를 참조하세요.
+Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)를 참조하세요.
 
 ## FAQ
 

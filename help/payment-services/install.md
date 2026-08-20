@@ -5,9 +5,9 @@ exl-id: babaa91a-9376-4acb-b934-a89f9df52016
 role: Admin
 feature: Payments, Checkout, Install, Upgrade, Paas
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 확장 다운로드
 
-설치하기 전에 먼저 [Commerce Marketplace](https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html?lang=ko)에서 확장을 다운로드해야 합니다.
+설치하기 전에 먼저 [Commerce Marketplace](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/resources/commerce-marketplace)에서 확장을 다운로드해야 합니다.
 
 1. Commerce Marketplace의 [결제 서비스 확장](https://commercemarketplace.adobe.com/magento-payment-services.html)&#x200B;(으)로 이동합니다.
 1. 버전 및 버전을 선택하려면 **[!UICONTROL Edition]** 및 **[!UICONTROL Your store version]**&#x200B;을(를) 원하는 선택 항목으로 전환하십시오.
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 확장 설치
 
-등록 프로세스에서 제공된 Commerce 계정 [mageid](https://developer.adobe.com/commerce/marketplace/guides/sellers/profile-information/#access-keys)에 연결된 클라우드 인프라 및 온-프레미스 인스턴스에 모두 [!DNL Adobe Commerce]에 대한 [!DNL Payment Services] 확장을 설치할 수 있습니다.
+등록 프로세스에서 제공된 Commerce 계정 [mageid](https://developer.adobe.com/commerce/marketplace/guides/sellers/profile-information#access-keys)에 연결된 클라우드 인프라 및 온-프레미스 인스턴스에 모두 [!DNL Adobe Commerce]에 대한 [!DNL Payment Services] 확장을 설치할 수 있습니다.
 [!DNL Magento Open Source]명의 고객이 온-프레미스 지침을 사용합니다.
 
 작성기가 [!DNL Adobe Commerce]을(를) 처음 설치하는 동안 또는 작성기 키가 이전에 `auth.json` 파일에 저장되지 않은 상황에서 이 키를 사용합니다.
@@ -166,7 +166,7 @@ PHP에 대한 충분한 메모리가 없다는 것을 나타내는 다음 오류
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-`php.ini`의 환경에서 PHP에 대한 [메모리 제한을 늘립니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/php-settings#increase-php-memory-limit).
+`php.ini`의 환경에서 PHP에 대한 [메모리 제한을 늘립니다](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/app/php-settings#increase-php-memory-limit).
 
 또는 `php -d memory_limit=-1 [path to composer]/composer require magento/payment-services` 명령을 사용하여 메모리 제한을 지정할 수 있습니다.
 

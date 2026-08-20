@@ -24,9 +24,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 last-update: 2026-06-23
-source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
+source-git-commit: 60df4a608155a4f8ff8b4bf57cfd625aa1b3ccea
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: 348
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ ht-degree: 0%
 > - [문제 해결](troubleshooting.md) — 자격 증명, 동기화 및 범위 내보내기 문제 진단
 > - [커넥터 모듈 및 피드 끝점](reference/connector-reference.md) - 모듈, API 끝점 및 지원되는 피드를 검토합니다.
 > - [Commerce 관리자의 데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status){target="_blank"} - 피드 상태를 모니터링하는 데 사용할 수 있는 필드 및 기능에 대해 자세히 알아봅니다.
-> - [데이터 동기화 대시보드 위치 [!DNL Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce-optimizer/data-sync/data-sync){target="_blank"} - 카탈로그 데이터 동기화를 모니터링하는 데 사용할 수 있는 필드 및 작업에 대한 참조 설명서입니다.
+> - [데이터 동기화 대시보드 위치 [!DNL Commerce Optimizer]](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync){target="_blank"} - 카탈로그 데이터 동기화를 모니터링하는 데 사용할 수 있는 필드 및 작업에 대한 참조 설명서입니다.

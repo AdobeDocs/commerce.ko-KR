@@ -19,7 +19,7 @@ topic_v2:
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
 source-wordcount: 312
 ht-degree: 0%
@@ -59,7 +59,7 @@ bin/magento module:disable Magento_CategoryPermissionDataExporter Magento_SaaSCa
    composer require magento/module-data-exporter:103.0.4 --with-all-dependencies
    ```
 
-Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. _Adobe Commerce on Cloud Infrastructure Guide_&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension)를 참조하십시오.
+Commerce 인스턴스가 클라우드 인프라에 배포된 경우 클라우드 프로젝트 디렉터리에서 확장을 업데이트합니다. _Adobe Commerce on Cloud Infrastructure Guide_&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions#upgrade-an-extension)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

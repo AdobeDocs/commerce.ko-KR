@@ -11,9 +11,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 482
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. Facet 레이블을 편집하려면 다음 중 하나를 수행합니다.
 
-   * [!DNL Commerce] 상점 첫 화면의 경우 [특성 레이블](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ko)을(를) 편집하십시오.
+   * [!DNL Commerce] 상점 첫 화면의 경우 [특성 레이블](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)을(를) 편집하십시오.
    * Headless 구현의 경우 첫 번째 열의 값을 클릭하고 필요에 따라 텍스트를 편집합니다.
 
    ![레이블 편집](assets/facet-edit-label.png)
