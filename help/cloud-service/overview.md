@@ -36,9 +36,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: c5b10a715f64a220fc965328a7c913951d44dedc
+source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
 workflow-type: tm+mt
-source-wordcount: 1511
+source-wordcount: 1456
 ht-degree: 0%
 
 ---
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 [!DNL Storefront Builder]을(를) 사용하여 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들려면 [!DNL Edge Delivery Services]에서 제공하는 Adobe의 [[!DNL Commerce Storefront]](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)을(를) 사용하십시오.
 
-[!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
+[!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 Adobe Merchandising 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. Adobe Commerce on Cloud 또는 온프레미스에서 마이그레이션하는 경우 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)에서 전환 지침을 확인하십시오.
+>[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. [!DNL Adobe Commerce on Cloud] 또는 온-프레미스에서 마이그레이션하는 경우 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)에서 전환 지침을 참조하십시오.
 
-## 머천다이징 서비스 및 결제 서비스
+## Adobe Merchandising 서비스 및 결제 서비스
 
 Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능적이고 구성 가능한 머천다이징 서비스 세트를 제공합니다. 또한 이러한 서비스는 규모에 맞게 성능을 최적화하는 데 중요한 API를 제공합니다.
 
@@ -116,7 +116,7 @@ Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능�
   >
   >카탈로그 서비스는 [!DNL Live Search] 및 [!DNL Product Recommendations]에 자동으로 포함됩니다.
 
-- [결제 서비스](../payment-services/guide-overview.md)—무이자 결제 할부, 결제 처리, 주문 및 청구서에 대한 단일 보기를 포함한 다양한 결제 방법을 제공하여 고객 만족도를 높입니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
+- [결제 서비스](../payment-services/guide-overview.md) - 무이자 할부, 처리, 주문 및 청구서에 대한 단일 보기를 포함한 다양한 결제 방법을 제공하여 고객 만족을 높입니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
 
 ## [!DNL Product Visuals powered by AEM Assets]
 
@@ -247,11 +247,11 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 - **매출 성장**: SEO를 향상시키는 고성능 매장을 통해 유기 트래픽을 유도합니다. 풍부한 데이터를 사용하여 전환을 유도하는 개인화된 경험을 만듭니다.
 - **확장 작업**: 자동 확장 서비스는 99.9%의 가용성으로 비즈니스의 최대 요구 사항을 충족합니다. 여러 브랜드 및 지역을 롤아웃하고 단일 인스턴스에서 B2B 및 B2C를 지원합니다. 유연한 데이터 모델링을 통해 크고 복잡한 제품 카탈로그를 지원합니다.
 - **머천다이저 생산성 향상**: AI 기반 머천다이징 서비스를 사용하여 전환을 개선하십시오. 기본적으로 상점 앞에서 직접 실험하십시오. 간단한 문서 기반 작성 또는 시각적 편집기를 사용하여 몇 분 안에 풍부한 경험을 만들 수 있도록 상점 경험을 관리합니다.
-- **총소유비용(TCO)을 절감하고 혁신을 가속화합니다**: 항상 최신 서비스를 통해 새로운 기능에 즉시 액세스할 수 있습니다. 마켓플레이스에서 앱을 쉽게 설치하여 새로운 기능을 활성화합니다. 지루한 유지 관리에서 리소스를 확보하여 새로운 기능 구축에 주력할 수 있습니다.
+- **총소유비용(TCO)을 절감하고 혁신을 가속화합니다**: 항상 최신 서비스를 통해 새로운 기능에 즉시 액세스할 수 있습니다. 마켓플레이스에서 앱을 쉽게 설치하여 새로운 기능을 활성화합니다. 일상적인 유지 관리에서 리소스를 재할당하여 새로운 기능 구축에 주력할 수 있습니다.
 
 ### IT(정보 기술) 선두 기업
 
 - **빠른 프로비저닝**: 셀프 서비스 프로비저닝을 빠르게 시작할 수 있습니다(분). 모든 서비스는 함께 원활하게 작동하여 더 빠르게 시작할 수 있도록 사전 구성되어 있습니다. 필요에 따라 개발자 실험을 위한 샌드박스를 프로비저닝합니다.
 - **낮은 소유 비용**: 항상 최신 서비스를 제공하는 업그레이드되지 않습니다. 자동으로 적용되는 최신 보안 패치를 준수하고 보안을 유지하십시오. 가장 까다로운 워크로드에 맞게 자동으로 확장 가능
 - **고성능 상점**: 간단한 문서 기반 작성 또는 시각적 편집기를 사용하여 몇 분 안에 풍부한 경험을 만들 수 있습니다. AI 기반 머천다이징 서비스를 사용하여 전환을 개선하십시오. 상점가에 내장된 네이티브 실험.
-- **더 빠른 혁신**: 지루한 유지 관리에서 리소스를 확보하여 비즈니스 가치를 제공하는 새로운 기능 구축에 주력할 수 있습니다. 포괄적인 확장성 및 표준 기반 기술(JavaScript, HTML, CSS 및 로우 코드 도구)을 사용하여 차별화된 경험을 구축할 수 있습니다. 클릭 한 번으로 타사 앱을 설치하여 상거래 플랫폼에 새 기능을 추가합니다.
+- **더 빠른 혁신**: 일상적인 유지 관리에서 리소스를 재할당하여 비즈니스 가치를 제공하는 새로운 기능을 구축하는 데 주력하십시오. 포괄적인 확장성 및 표준 기반 기술(JavaScript, HTML, CSS 및 로우 코드 도구)을 사용하여 차별화된 경험을 구축할 수 있습니다. 클릭 한 번으로 타사 앱을 설치하여 상거래 플랫폼에 새 기능을 추가합니다.

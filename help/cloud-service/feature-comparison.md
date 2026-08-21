@@ -26,9 +26,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
 workflow-type: tm+mt
-source-wordcount: 1019
+source-wordcount: 1076
 ht-degree: 0%
 
 ---
@@ -229,7 +229,7 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
 >SaaS로의 마이그레이션을 고려할 때 Adobe은 다음을 권장합니다.
 >
 >- 가능한 경우 적절한 기능을 프로세스 외부 확장성으로 이동합니다.
->- 변환이 필요한 표면적을 줄입니다.
+>- 전환이 필요한 범위를 줄입니다.
 >- API 기능을 확장하려면 [!DNL API Mesh]을(를) 고려하십시오.
 >- Adobe의 지속적인 플랫폼 발전 및 새로운 기능 릴리스를 모니터링합니다.
 >- 사용 가능한 확장성 옵션과 비교하여 업종별 데이터 모델 요구 사항을 평가합니다.

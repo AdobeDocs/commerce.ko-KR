@@ -22,9 +22,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+source-git-commit: 28102ad0dba698e37a69bbae90e3e9cec364ca81
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: 332
 ht-degree: 0%
 
 ---
@@ -65,3 +65,4 @@ ht-degree: 0%
 * [변형 생성](./use-cases.md#generate-variations) - 생성 AI를 사용하여 고품질 콘텐츠 생성을 자동화합니다.
 * [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) - 사이트 콘텐츠를 업데이트하고 Commerce 프론트엔드 구성 요소 및 백엔드 데이터와 통합하는 방법에 대한 자세한 정보를 가져옵니다.
 * [구성 서비스](https://www.aem.live/docs/config-service-setup)—저장소 구성을 `config.json`에서 리디렉션 구성 및 오버레이와 같은 고급 사용 사례를 지원하는 구성 서비스를 사용하도록 마이그레이션하는 방법에 대해 알아봅니다.
+* [Storefront B2B 기능](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/b2b/?lang=ko#major-features)—모든 [!DNL Adobe Commerce as a Cloud Service] 인스턴스에 대해 자동으로 설치되는 storefront 호환성 패키지에서 사용할 수 있는 B2B 기능에 대해 알아봅니다.

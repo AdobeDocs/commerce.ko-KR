@@ -35,9 +35,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e03840ea9e0e43a005f385914e8599804383e79d
+source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
 workflow-type: tm+mt
-source-wordcount: 3305
+source-wordcount: 3302
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
   >
   >서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility).
 
-- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 - [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
+- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 — [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
 
 **아키텍처 의미**
 
@@ -118,7 +118,7 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
 | [응용 프로그램 및 상점 현대화](#code-and-storefront-migration-commerce-developer-mcp) | **Commerce 개발자 MCP** | AI 지원 Commerce 애플리케이션 현대화, 맞춤화 [!DNL App Builder]&#x200B;(으)로의 마이그레이션 가속화, Edge Delivery Services(EDS)로의 상점 변환 지원, 개발자에게 엔지니어링 팀에서 검토 및 확인한 구현과 함께 광범위한 애플리케이션 현대화 여정을 안내합니다. |
 | [데이터 마이그레이션](#data-migration-commerce-data-migration-service) | **Commerce 데이터 마이그레이션 서비스** | 카탈로그, 고객 및 주문 데이터를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 추출, 로드 및 무결성 확인. |
 
-이 트랙은 독립 실행형이 아닙니다. 올바른 순서로 함께 사용하면 재작업을 최소화할 수 있습니다.
+이 트랙은 독립 실행형이 아닙니다. 적절한 순서로 함께 사용하면 재작업을 최소화할 수 있습니다.
 
 - **먼저 평가 실행** - 먼저 평가를 실행하면 지원되지 않는 사용자 지정 항목을 식별하고 마이그레이션 노력을 예측하며 데이터 마이그레이션 고려 사항을 표시하고 구현이 시작되기 전에 통합 종속성을 강조 표시합니다. 평가는 애플리케이션 현대화와 데이터 마이그레이션 워크플로 모두에서 사용되는 마이그레이션 블루프린트가 됩니다.
 - **응용 프로그램 현대화** - Commerce 개발자 MCP는 마이그레이션 평가를 사용하여 현대화할 사용자 지정과 방법을 결정합니다. 그런 다음 MCP는 해당 [!DNL App Builder]개의 응용 프로그램과 상점 첫 화면 구성 요소를 생성합니다.
@@ -169,7 +169,7 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 ### 평가 범위
 
-마이그레이션 평가 도구는 전체 마이그레이션 환경을 파악하는 데 중점을 둡니다. 사용자 정의 모듈, 플러그인, 이벤트, API, cron 작업, 큐, 외부 시스템과의 통합, storefront 특성 및 이러한 사용자 정의가 의존하는 데이터베이스 스키마를 분석합니다. 평가는 검색한 내용을 사용 가능한 [!DNL Adobe Commerce as a Cloud Service] 기능에 매핑하고 [!DNL App Builder]을(를) 사용하여 기능을 현대화하거나 SaaS 아키텍처에 맞게 다시 디자인해야 하는 위치를 식별합니다.
+마이그레이션 평가 도구는 전체 마이그레이션 환경을 파악하는 데 중점을 둡니다. 사용자 정의 모듈, 플러그인, 이벤트, API, cron 작업, 큐, 외부 시스템과의 통합, storefront 특성 및 이러한 사용자 정의가 의존하는 데이터베이스 스키마를 분석합니다. 평가는 검색한 내용을 사용 가능한 [!DNL Adobe Commerce as a Cloud Service] 기능에 매핑하고 SaaS 아키텍처를 다시 설계하거나 [!DNL App Builder]을(를) 사용하여 기능을 현대화해야 하는 위치를 식별합니다.
 
 평가는 실행 도구라기보다는 계획 도구에 가깝다. 현대화해야 할 사항을 식별하고 구현 복잡성을 예측하며 권장 사항을 제공합니다. 구현 의사 결정 및 아키텍처 유효성 검사는 Adobe, 파트너 및 고객 엔지니어링 팀 간의 공동 작업 활동으로 유지됩니다.
 
@@ -184,7 +184,7 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 ### 다음 단계
 
-모든 [!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가로 시작해야 합니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 저렴한 방법입니다.
+[!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가부터 시작됩니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 비용 효율적인 방법입니다.
 
 평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오.
 
@@ -263,7 +263,7 @@ MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 M
 
 ## 데이터 마이그레이션(Commerce 데이터 마이그레이션 서비스)
 
-[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션하려면 카탈로그, 주문, 고객 및 구성을 포함한 수년간의 데이터를 마이그레이션해야 할 수 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션하려면 카탈로그, 주문, 고객 및 구성을 포함한 수년간의 데이터를 마이그레이션해야 합니다.
 
 Commerce 데이터 마이그레이션 서비스는 수동 마이그레이션을 반복 가능한 단일 자동화된 프로세스로 대체합니다. 복잡한 데이터베이스 마이그레이션을 보다 예측 가능하고 효율적으로 수행할 수 있습니다.
 

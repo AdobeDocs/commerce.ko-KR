@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+source-git-commit: d9ea778afc86de323e53cd1be4768bc87cb71a8b
 workflow-type: tm+mt
-source-wordcount: 2635
+source-wordcount: 2611
 ht-degree: 0%
 
 ---
@@ -52,22 +52,22 @@ AI 코딩 도구를 설치하면 다음에 액세스할 수 있습니다.
 aio commerce extensibility tools-setup
 ```
 
-이렇게 하면 도구가 최신 버전으로 업데이트됩니다.
+이 명령은 도구를 최신 버전으로 업데이트합니다.
 
 ## 사전 요구 사항
 
 * 다음과 같이 [에이전트 기술](https://agentskills.io/home#adoption)을 지원하는 모든 코딩 에이전트.
 
   * [커서](https://cursor.com/download)
-  * [클로드 코드](https://www.claude.com/product/claude-code)
+  * [클로드 코드](https://claude.com/product/claude-code)
   * [GitHub Copilot](https://github.com/features/copilot)
-  * [윈드서프](https://windsurf.com)
+  * [데빈 데스크탑](https://devin.ai/desktop)
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli)
   * [OpenAI 코드](https://openai.com/index/introducing-codex/)
   * [Cline](https://cline.bot)
 
 * [Node.js](https://nodejs.org/en/download): LTS 버전
-* 패키지 관리자: [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 또는 [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* 패키지 관리자: [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/) 또는 [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 * [Git](https://github.com/git-guides/install-git): 리포지토리 복제 및 버전 제어용
 
 ## 설치
@@ -114,7 +114,7 @@ aio commerce extensibility tools-setup
    aio commerce extensibility tools-setup
    ```
 
-   설정 프로세스에서는 구성 옵션을 묻는 메시지가 표시됩니다. 화면의 지침에 따라 설치를 완료합니다. 선택한 디렉터리에 도구가 설치됩니다.
+   설정 프로세스에서는 구성 옵션을 묻는 메시지가 표시됩니다. 설치를 완료하려면 프롬프트의 안내를 따릅니다. 선택한 디렉토리에 도구가 설치됩니다.
 
    * 프로젝트에 사용할 스타터 키트를 선택합니다.
 
@@ -138,7 +138,7 @@ aio commerce extensibility tools-setup
         ...
      ```
 
-   * 설치 프로그램이 NPM 또는 Yarn이 설치되어 있는지 감지하고 자동으로 적절한 선택을 수행합니다. 패키지 관리자를 설치하지 않은 경우 패키지 관리자를 선택하라는 메시지가 표시됩니다. 일관성을 위해 `npm`을(를) 사용하는 것이 좋습니다.
+   * 설치 관리자가 NPM 또는 Yarn이 설치되어 있는지 감지하고 자동으로 적절한 선택을 수행합니다. 패키지 관리자를 설치하지 않은 경우 패키지 관리자를 선택하라는 메시지가 표시됩니다. 일관성을 위해 `npm`을(를) 사용하는 것이 좋습니다.
 
      ```shell-session
      ? Which package manager would you like to use?
@@ -156,13 +156,13 @@ aio commerce extensibility tools-setup
 
 >[!NOTE]
 >
->프로젝트를 배포하기 전에 다음 구성 작업을 완료해야 합니다.
+>프로젝트를 배포하기 전에 다음 구성 작업을 완료하십시오.
 >
 >* Adobe I/O CLI를 사용하여 [Adobe Developer Console](https://developer.adobe.com/console)에 로그인합니다.
 >* App Builder 프로젝트를 만듭니다([프로젝트 설정](https://developer.adobe.com/commerce/extensibility/events/project-setup) 참조).
 >* `.env` 파일에서 환경 변수를 설정합니다.
 >
->이러한 구성 단계를 수동으로 완료하거나 AI 코딩 도구를 활용하여 프로세스를 안내할 수 있습니다. 자세한 구성 지침은 [통합 만들기](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/)를 참조하십시오.
+>이러한 구성 작업을 수동으로 완료하거나 AI 코딩 도구를 활용하여 프로세스를 안내할 수 있습니다. 자세한 구성 지침은 [통합 만들기](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)를 참조하십시오.
 
 ## 설치 후 구성
 
@@ -189,7 +189,7 @@ aio auth login
 
 >[!NOTE]
 >
->MCP 서버의 일부 기능은 로그인하지 않고 작동하지만 RAG(Retrieval-Augmented Generation) 서비스는 작동하지 않습니다. RAG 서비스는 AI 코딩 에이전트에게 전체 Adobe Commerce 설명서 세트에 대한 실시간 액세스를 제공하여 최신 Commerce 개발 사례, API 및 아키텍처 패턴을 기반으로 질문에 답변하고 코드를 생성할 수 있도록 합니다.
+>MCP 서버의 일부 기능은 로그인하지 않고 작동하지만 RAG(Retrieval-Augmented Generation) 서비스가 작동하지 않습니다. RAG 서비스는 AI 코딩 에이전트에게 전체 Adobe Commerce 설명서 세트에 대한 실시간 액세스를 제공하여 최신 Commerce 개발 사례, API 및 아키텍처 패턴을 기반으로 질문에 답변하고 코드를 생성할 수 있도록 합니다.
 
 ### 커서
 
@@ -204,7 +204,7 @@ aio auth login
    * 목록에서 **commerce-extensibility MCP 서버**&#x200B;를 찾습니다.
    * 코딩 도구를 사용하려면 서버 **ON**&#x200B;을(를) 전환하십시오.
 
-1. 서버 상태 확인 - Commerce 확장성 MCP 서버가 다음과 같이 표시되어야 합니다.
+1. 서버 상태 확인 - Commerce 확장성 MCP 서버가 다음과 같이 표시됩니다.
 
    ```shell-session
    Status: Connected/Active
@@ -226,12 +226,12 @@ aio auth login
 
 1. MCP 서버 활성화:
 
-   * 왼쪽 사이드바의 활동 표시줄에서 **확장** 아이콘을 클릭하거나 **Cmd+Shift+X**(macOs) 또는 **Ctrl+Shift+X**(Windows 및 Linux)를 사용하여 확장 패널을 엽니다.
+   * 왼쪽 사이드바의 활동 표시줄에서 **확장** 아이콘을 클릭하거나 **Cmd+Shift+X**(macOS) 또는 **Ctrl+Shift+X**(Windows 및 Linux)을 사용하여 확장 패널을 엽니다.
    * [!UICONTROL **MCP 서버 - 설치됨**]&#x200B;을 클릭합니다.
    * [!UICONTROL **commerce-extensibility MCP 서버**] 옆에 있는 톱니바퀴 아이콘을 클릭하고 서버가 중지된 경우 [!UICONTROL **서버 시작**]&#x200B;을 선택합니다.
    * 톱니바퀴 아이콘을 다시 클릭하고 [!UICONTROL **출력 표시**]&#x200B;를 선택합니다.
 
-1. 서버 상태를 확인합니다. `MCP:commerce-extensibility` 출력은 다음과 일치해야 합니다.
+1. 서버 상태를 확인합니다. `MCP:commerce-extensibility` 출력은 다음과 일치합니다.
 
    ```shell-session
    2025-11-13 12:58:50.652 [info] Starting server commerce-extensibility
@@ -287,7 +287,7 @@ The extension should:
 
 ## 스킬
 
-코딩 에이전트와 채팅하면 스킬이 자동으로 호출되지만 다음 명령을 사용하여 스킬을 수동으로 호출할 수도 있습니다.
+코딩 에이전트와 채팅할 때 스킬이 자동으로 호출되지만 다음 명령을 사용하여 스킬을 수동으로 호출할 수도 있습니다.
 
 * `/architect` - [!DNL App Builder] 및 선택한 시작 키트를 사용하여 Adobe Commerce 확장을 위한 아키텍처를 디자인합니다. 통합 계획, 이벤트 선택, 데이터 흐름 디자인 또는 아키텍처 결정 시 사용합니다.
 * `/developer` - [!DNL App Builder] 패턴과 파일 구조에 따라 Adobe Commerce 확장을 구현합니다. 코드를 생성하거나 구성 파일을 업데이트하거나 런타임 작업을 구현할 때 사용합니다.
@@ -299,15 +299,15 @@ The extension should:
 
 ## 우수 사례
 
-Adobe은 AI 코딩 도구를 사용할 때 다음 모범 사례를 권장합니다.
+Adobe은 AI 코딩 도구를 사용할 때 다음과 같은 모범 사례를 권장합니다.
 
 ### 플랜 모드
 
-코딩 에이전트와 채팅할 때 **플랜** 모드를 선택하여 프로젝트에 대한 세부 구현 계획을 만들어야 합니다.
+코딩 에이전트와 채팅할 때 **플랜** 모드를 선택하여 프로젝트에 대한 세부 구현 계획을 만드십시오.
 
 **계획** 모드를 선택하는 방법은 사용 중인 에이전트에 따라 다릅니다. 자세한 내용은 에이전트의 설명서를 참조하십시오. For example:
 
-* [커서](https://cursor.com/docs/agent/modes)
+* [커서](https://cursor.com/docs/agent/plan-mode)
 * [클로드 코드](https://code.claude.com/docs/en/common-workflows#when-to-use-plan-mode)
 * [Gemini CLI](https://geminicli.com/docs/cli/plan-mode/)
 
@@ -340,7 +340,7 @@ Adobe은 AI 코딩 도구를 사용할 때 다음 모범 사례를 권장합니�
 
 ### 워크플로
 
-AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴딩 프로젝트로 시작하십시오. 이 접근 방식을 사용하면 처음부터 새로 시작하지 않고 탄탄한 기반을 구축하는 동시에 AI 개발 워크플로를 최적화할 수 있습니다.
+AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴딩 프로젝트로 시작하십시오. 이 접근 방식을 사용하면 처음부터 새로 시작하지 않고 구축된 기반을 구축하는 동시에 AI 개발 워크플로를 최적화할 수 있습니다.
 
 또한 Adobe의 템플릿을 활용하고 입증된 패턴 및 아키텍처를 기반으로 하며, 설정된 디렉터리 구조 및 규칙을 유지할 수 있습니다.
 
@@ -350,9 +350,9 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 * [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 * [Adobe Commerce 스타터 키트 템플릿](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
 * [Adobe I/O Events 스타터 템플릿](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [App Builder 샘플 애플리케이션](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [App Builder 샘플 애플리케이션](https://developer.adobe.com/app-builder/docs/resources/sample_apps/)
 
-#### 이러한 리소스를 사용해야 하는 이유
+#### 이러한 리소스를 사용하는 이유
 
 * **입증된 패턴**: 시작 키트는 Adobe의 모범 사례 및 아키텍처 결정을 구현합니다.
 * **개발 속도 향상**: 보일러판 및 구성에 소요되는 시간 단축
@@ -365,7 +365,7 @@ AI 코딩 도구를 사용하여 개발할 때는 샘플 코드 또는 스캐폴
 
 ### 프로토콜
 
-다음 4단계 프로토콜은 설치된 스킬에 의해 자동으로 적용됩니다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따라야 합니다.
+설치된 스킬은 다음과 같은 4단계 프로토콜을 자동으로 적용합니다. 도구는 응용 프로그램을 개발할 때 이 프로토콜을 자동으로 따릅니다.
 
 * 1단계: 요구 사항 분석 및 설명
   * 질문을 명확히 하는 경우 완전한 답변을 제공합니다.
@@ -435,7 +435,7 @@ Verify if simpler solutions exist
 구현 계획에서 기능 개발을 완료한 후 즉시 테스트하십시오. 조기 테스트는 복합 문제를 방지하고 디버깅을 더 쉽게 만듭니다.
 
 * 모든 기능이 완료될 때까지 기다리지 마십시오.
-* 문제를 조기에 파악하기 위해 점진적으로 테스트
+* 문제를 조기에 발견하려면 점진적으로 테스트하십시오.
 * 다음 기능으로 이동하기 전에 기능 유효성 검사
 
 #### 로컬에서 먼저 테스트
@@ -522,7 +522,7 @@ Help me debug why this action is returning 500 errors
 
 ### 디버깅
 
-일이 잘못되었을 때를 멈춰서 평가하라. 문제가 발생하는 경우:
+오류가 발생하면 중지하고 평가하십시오. 문제가 발생하는 경우:
 
 * 중단 및 평가 - 중단 상태에서 계속 진행하지 않음
 * 로그 확인 - 활성화 로그를 사용하여 문제 식별
@@ -602,11 +602,11 @@ AI 코딩 도구를 사용할 때 다음과 같은 안티 패턴을 사용하지
 
 AI 코딩 도구에 대한 피드백을 제공하는 데 관심이 있는 개발자는 `/feedback` 명령을 사용할 수 있습니다.
 
-이 명령을 사용하면 텍스트 피드백을 제공하고 로그를 Adobe에 보낼 수 있습니다. 보내는 모든 로그는 개인 또는 개인 정보를 제거하기 위해 정리됩니다.
+이 명령을 사용하면 텍스트 피드백을 제공하고 로그를 Adobe에 보낼 수 있습니다. 전송하는 모든 로그는 개인 또는 개인 정보를 제거하기 위해 정리됩니다.
 
 >[!TIP]
 >
->사용자 경험은 사용 중인 IDE에 따라 약간 달라집니다. 다음 프로세스에서는 Cursor의 경험을 설명합니다.
+>사용자 경험은 사용 중인 IDE에 따라 약간 다릅니다. 다음 프로세스에서는 Cursor의 경험을 설명합니다.
 
 1. 에이전트에 `/feedback`을(를) 입력하고 `commerce-extensibility/feedback` 명령을 선택합니다.
 
@@ -624,4 +624,4 @@ AI 코딩 도구에 대한 피드백을 제공하는 데 관심이 있는 개발
 
 >[!NOTE]
 >
->`/feedback` 명령이 표시되지 않으면 [최신 버전으로 업데이트](#updating-to-the-latest-version)해야 할 수 있습니다.
+>`/feedback` 명령이 표시되지 않으면 [최신 버전으로 업데이트](#updating-to-the-latest-version)하십시오.

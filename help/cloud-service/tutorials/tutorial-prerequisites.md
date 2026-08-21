@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e7840a7b-a94f-4256-aed0-4e94b08e157b
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: d9ea778afc86de323e53cd1be4768bc87cb71a8b
 workflow-type: tm+mt
-source-wordcount: 1291
+source-wordcount: 1289
 ht-degree: 0%
 
 ---
@@ -55,10 +55,10 @@ ht-degree: 0%
   ```
 
 * 배시껍질
-   * macOS/Linux: 설치할 필요가 없음
-   * Windows: [Git Bash](https://git-scm.com/install) 또는 [Linux(WSL)용 Windows 하위 시스템 사용](https://learn.microsoft.com/en-us/windows/wsl/install)
+  * macOS/Linux: 설치할 필요가 없음
+  * Windows: [Git Bash](https://git-scm.com/install) 또는 [Linux(WSL)용 Windows 하위 시스템 사용](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-* [Cursor](https://cursor.com/download)&#x200B;(권장)와 같은 AI 지원 IDE를 다운로드합니다. Claude Code, Gemini CLI 또는 Copilot과 같은 다른 IDE도 지원되지만, 자습서에서 프롬프트 및 기타 단계를 수정해야 할 수 있습니다.
+* [Cursor](https://cursor.com/download)&#x200B;(권장)와 같은 AI 지원 IDE를 다운로드합니다. Claude Code, Gemini CLI 또는 Copilot과 같은 다른 IDE도 지원되지만 자습서에서 프롬프트 및 기타 단계를 수정해야 할 수 있습니다.
 
 ## [!DNL Adobe Commerce as a Cloud Service]개 필수 구성 요소
 
@@ -74,7 +74,7 @@ ht-degree: 0%
   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
   ```
 
-[!DNL Adobe I/O CLI] 및 필요한 플러그인을 설치한 후 확장성 작업 영역을 설정하십시오. Adobe에서는 가장 빠른 경험을 위해 자동화된 설정을 사용하는 것이 좋습니다.
+[!DNL Adobe I/O CLI] 및 필요한 플러그인을 설치한 후 확장성 작업 영역을 설정하십시오. Adobe에서는 가장 효율적인 경험을 위해 자동화된 설정을 사용하는 것이 좋습니다.
 
 * **[자동화된 설정](#automated-setup)(권장)** — 단일 명령을 실행하여 작업 영역을 자동으로 구성합니다.
 * **[수동 설정](#manual-setup)** - 단계별 지침에 따라 각 구성 요소를 개별적으로 구성합니다.
@@ -202,7 +202,7 @@ Next steps:
 
 #### 새 프로젝트 만들기
 
-Adobe Developer Console에서 App Builder 프로젝트를 만들어 확장을 호스팅합니다.
+확장을 호스팅하려면 Adobe Developer Console에서 [!DNL App Builder] 프로젝트를 만드십시오.
 
 1. [Adobe Developer Console](https://developer.adobe.com/)&#x200B;(으)로 이동합니다.
 1. **[!UICONTROL Create project from a template]**&#x200B;을(를) 클릭합니다.
@@ -227,10 +227,10 @@ Adobe Developer Console에서 App Builder 프로젝트를 만들어 확장을 �
 1. 다음 API 중 하나를 선택합니다. 아래 나열된 각 API에 대해 이 프로세스를 반복합니다.
 
    * **[!UICONTROL Adobe Services]** 필터:
-      * **[!UICONTROL I/O Management API]**
-      * **[!UICONTROL I/O Events]** API
+     * **[!UICONTROL I/O Management API]**
+     * **[!UICONTROL I/O Events]** API
    * **[!UICONTROL Experience Cloud]** 필터:
-      * **[!UICONTROL Adobe I/O Events for Adobe Commerce]** API
+     * **[!UICONTROL Adobe I/O Events for Adobe Commerce]** API
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
@@ -342,7 +342,7 @@ EVENT_PREFIX=test
 
 ### 작업 공간 구성 다운로드
 
-다음 명령을 실행하여 작업 영역 구성 파일을 다운로드합니다.
+작업 공간 구성 파일을 다운로드하려면 다음 명령을 실행합니다.
 
 ```bash
 aio console workspace download workspace.json
@@ -407,7 +407,7 @@ aio app use --merge
 
 ## Storefront 수동 설정
 
-이 섹션에서는 [등급 확장 튜토리얼](./ratings-extension.md) 및 기타 storefront 튜토리얼을 위해 스토어프론트를 수동으로 구성하는 방법에 대해 설명합니다.
+이 섹션에서는 [등급 확장 튜토리얼](./ratings-extension.md) 및 기타 storefront 튜토리얼에 대해 storefront를 수동으로 구성하는 방법에 대해 설명합니다.
 
 상점을 자동으로 구성하려면 [자동 설정](#automated-setup) 섹션에 설명된 `app-setup` 명령을 실행하고 [!DNL AEM Boilerplate Commerce] 시작 키트를 선택하십시오.
 

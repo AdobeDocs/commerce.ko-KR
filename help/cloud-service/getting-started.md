@@ -29,16 +29,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
 
 # 시작
 
-[!DNL Adobe Commerce as a Cloud Service]에서는 대부분의 구성을 즉시 제공합니다. 몇 가지 기본 설정 프로세스를 완료하면 스토어가 즉시 실행되고 작동합니다. 이 안내서는 인스턴스 만들기 및 작업을 안내하고 성공을 위해 조직을 설정하는 데 도움이 됩니다. 이를 통해 팀이 [!DNL Adobe Commerce as a Cloud Service] 및 시작하는 데 필요한 도구에 적절하게 액세스할 수 있습니다.
+[!DNL Adobe Commerce as a Cloud Service]은(는) 기본적으로 대부분의 구성을 제공합니다. 몇 가지 기본 설정 프로세스를 완료하면 스토어가 즉시 실행되고 작동합니다. 이 안내서는 인스턴스 만들기 및 작업을 안내하고 성공을 위해 조직을 설정하는 데 도움이 됩니다. 이를 통해 팀이 [!DNL Adobe Commerce as a Cloud Service] 및 시작하는 데 필요한 도구에 적절하게 액세스할 수 있습니다.
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 디지털 상거래 경험을 제공하기 위한 유연성, 확장성 및 효율성을 제공하는 클라우드 기반의 상거래 플랫폼입니다. 이 SaaS 서비스는 완전히 관리되고 버전이 없는 플랫폼으로, 수작업 없이 원활한 업그레이드 환경을 제공합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 [!DNL Adobe Commerce as a Cloud Service]은(는) 다음 구성 요소로 구성됩니다.
 
 * **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - [experience.adobe.com](https://experience.adobe.com/)의 모든 [!DNL Adobe Commerce] 제품에 대한 중앙 진입점
-   * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
+  * [!UICONTROL **빠른 액세스**]&#x200B;에서 [!UICONTROL **Commerce**]&#x200B;을 클릭하여 Commerce Cloud 관리자를 엽니다.
 * **[[!DNL Commerce Cloud Manager]](https://experience.adobe.com/#/commerce/cloud-service)** - 인스턴스 만들기 및 관리, API URL 액세스 및 Commerce 관리자
 * **[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/)** - 사용자 및 역할 관리
 * **Commerce 관리자** - 제품, 주문, 고객 및 스토어 구성 관리
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!TAB 시스템 관리자 및 판매자 워크플로]
 
-이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/business/enterprise.html)를 참조하십시오.
 
 ![Adobe Commerce as a Cloud Service에 대한 시스템 관리자 및 판매자 워크플로 다이어그램](./assets/merchant-flow.png){zoomable="yes"}
 
@@ -143,7 +143,7 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 * **시스템 관리자**: [공유 권한](./security/shared-responsibility.md) 지침 검토
 * **판매자**: 일반적인 비즈니스 시나리오에 대해 [사용 사례](use-cases.md) 살펴보기
-* **개발자**: [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs) 확인
+* **개발자**: [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs/) 확인
 
 ## Adobe Commerce as a Cloud Service 기본 사항
 
@@ -173,7 +173,7 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 1. 인스턴스의 [!UICONTROL **환경 유형**]&#x200B;을(를) 선택하십시오. 다음 옵션 중에서 선택할 수 있습니다.
 
-   * [!UICONTROL **샌드박스**] - 디자인 및 테스트 목적으로만 사용됩니다. 샌드박스 환경을 사용하여 [!DNL Adobe Commerce as a Cloud Service] 여정을 시작해야 합니다.
+   * [!UICONTROL **샌드박스**] - 디자인 및 테스트 목적으로만 사용됩니다. Adobe에서는 샌드박스 환경을 사용하여 [!DNL Adobe Commerce as a Cloud Service] 여정을 시작할 것을 권장합니다.
 
    >[!NOTE]
    >
@@ -215,18 +215,18 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 >[!TIP]
 >
->REST 및 GraphQL 엔드포인트와 관리 URL을 포함하여 인스턴스에 대한 정보를 보려면 인스턴스 이름 옆에 있는 정보 아이콘을 클릭합니다.
+>REST 및 GraphQL 종단점 및 관리 URL을 포함한 인스턴스 정보를 보려면 인스턴스 이름 옆에 있는 정보 아이콘을 클릭합니다.
 
 관리자 및 엔드포인트의 기본 URL은 지역 및 환경에 따라 다르며, 다음 패턴을 사용합니다.
 
 * 관리자
-   * 북미 프로덕션 관리자: `https://na1.admin.commerce.adobe.com`
-   * 북미 샌드박스 관리자: `https://na1-sandbox.admin.commerce.adobe.com`
-   * 유럽 프로덕션 관리자: `https://eu1.admin.commerce.adobe.com`
+  * 북미 프로덕션 관리자: `https://na1.admin.commerce.adobe.com`
+  * 북미 샌드박스 관리자: `https://na1-sandbox.admin.commerce.adobe.com`
+  * 유럽 프로덕션 관리자: `https://eu1.admin.commerce.adobe.com`
 * REST 및 GraphQL
-   * 북미 생산 GraphQL: `https://na1.api.commerce.adobe.com`
-   * 북미 샌드박스 GraphQL: `https://na1-sandbox.api.commerce.adobe.com`
-   * 유럽 프로덕션 GraphQL: `https://eu1.api.commerce.adobe.com`
+  * 북미 생산 GraphQL: `https://na1.api.commerce.adobe.com`
+  * 북미 샌드박스 GraphQL: `https://na1-sandbox.api.commerce.adobe.com`
+  * 유럽 프로덕션 GraphQL: `https://eu1.api.commerce.adobe.com`
 
 ### 카탈로그 가져오기
 
