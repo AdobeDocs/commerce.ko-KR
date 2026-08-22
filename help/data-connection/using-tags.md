@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # Adobe Experience Platform 태그를 사용하여 Commerce 데이터 수집
 
-[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/tags/create-a-property)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
+[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/ko/docs/platform-learn/data-collection/tags/create-a-property)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
 
 ![[!DNL Data Connection] 확장 데이터 흐름](assets/tags-data-flow.png)
 태그가 있는 _[!DNL Data Connection]확장 데이터 흐름_
