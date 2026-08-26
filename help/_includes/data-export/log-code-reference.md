@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b8a6de3a35a626f211089955029207f8a88414c
+source-git-commit: 7d6fa8fa8a93d7d89ca97885f1b9363667a22c7e
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 0%
 | CDE01-20 | 경고 | `CDE01-20 GiftCard {sku} doesn't have valid options: {options}` |
 | CDE01-21 | 오류 | `CDE01-21 Unable to resolve url_path for category {id} with path "{path}", url_key "{urk_key}", store "{store}"` |
 | CDE01-22 | 오류 | `CDE01-22 Unable to resolve url_path for category{id} with path "{path}" for store view "{store}"` |
+| CDE01-23 | 오류 | `CDE01-23 Unable to assemble "ac_customizable_options" attribute. Error: {exception_message}` |
 
 ## 그룹 02 - SaaS 단계로 데이터 전송
 
