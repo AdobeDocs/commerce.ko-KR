@@ -1,32 +1,16 @@
 ---
 title: 성공 지표
 description: 성공 지표는 insight을  [!DNL Adobe Commerce Optimizer] 스토어의 주요 성능 지표에 제공합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7202a531-fec3-4698-89b9-6bdbcc37015e
 TQID: https://experienceleague.adobe.com/Z1Ntq9O5Pde8B2N8UCarCf-V5NZw-YiCx78ortu5PwY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2cb4bac8e36ce8b945eabf31e562a5e7fd097c2a
 workflow-type: tm+mt
-source-wordcount: 2627
+source-wordcount: 2835
 ht-degree: 0%
 
 ---
@@ -71,9 +55,29 @@ ht-degree: 0%
 
 1. 보고서를 PDF으로 저장하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
+## 내보낸 보고서의 C2PA 메타데이터 {#c2pa-metadata-on-exported-reports}
+
+성공 지표 보고서에는 생성 AI를 사용하는 주요 내용과 요약이 포함되어 있습니다. 보고서를 PDF으로 내보내면 Adobe은 내보낸 파일에 C2PA 메타데이터를 자동으로 첨부합니다.
+
+C2PA 메타데이터는 [C2PA 개방형 표준](https://c2pa.org/)을 기반으로 하는 변조 불가능한 기계 읽기 가능한 메타데이터입니다. 생성된 AI가 보고서에서 컨텐츠를 생성하는 데 사용한 메타데이터 레코드에는 사용된 AI 시스템, 생성된 AI로 컨텐츠가 생성되었는지 또는 편집되었는지 여부, 타임스탬프 등의 정보가 포함됩니다.
+
+>[!NOTE]
+>
+>C2PA 메타데이터는 자동으로 첨부됩니다. 추가 작업이 필요하지 않으며 이 동작을 끌 수 없습니다. C2PA 메타데이터는 보고서의 모양을 변경하지 않습니다. 이는 PDF 내에 포함된 보이지 않는 메타데이터입니다.
+
+**내보낸 보고서에 대한 의미**
+
+- 성공 지표 보고서를 PDF으로 내보내면 내보낸 파일은 C2PA 메타데이터를 전달합니다.
+- C2PA 메타데이터는 공유하거나 다운로드할 때 PDF과 함께 이동합니다. C2PA 메타데이터를 지원하는 서드파티 플랫폼은 이 메타데이터를 판독하고, 뷰어에게 투명도 정보를 디스플레이할 수 있다.
+- [Inspect](https://contentauthenticity.adobe.com/inspect)에 업로드하여 파일에 첨부된 C2PA 메타데이터를 확인할 수 있습니다.
+
+![샘플 검사](../assets/inspect-sample.png)
+
+[생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)에 대해 자세히 알아보세요.
+
 ## 성공 지표와 Sites Optimizer 함께 사용
 
-성공 지표와 Sites Optimizer([기회](opportunities.md))는 함께 작동하도록 디자인된 보조 도구로서 상거래 사이트의 성능을 향상시키는 데 도움이 됩니다. 이러한 기능의 차이점을 이해하면 더 나은 의사 결정을 내리고 측정 가능한 결과를 얻을 수 있습니다.
+성공 지표와 Sites Optimizer([기회](opportunities.md))는 함께 작동하도록 설계된 보조 도구로서 상거래 사이트의 성능을 향상시키는 데 도움이 됩니다. 이러한 기능의 차이점을 이해하면 더 나은 의사 결정을 내리고 측정 가능한 결과를 얻을 수 있습니다.
 
 ### 주요 차이점
 
