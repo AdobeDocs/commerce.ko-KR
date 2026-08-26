@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 2cb4bac8e36ce8b945eabf31e562a5e7fd097c2a
 workflow-type: tm+mt
-source-wordcount: 2627
+source-wordcount: 2835
 ht-degree: 0%
 
 ---
@@ -71,9 +71,29 @@ ht-degree: 0%
 
 1. 보고서를 PDF으로 저장하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
+## 내보낸 보고서의 C2PA 메타데이터 {#c2pa-metadata-on-exported-reports}
+
+성공 지표 보고서에는 생성 AI를 사용하는 주요 내용과 요약이 포함되어 있습니다. 보고서를 PDF으로 내보내면 Adobe은 내보낸 파일에 C2PA 메타데이터를 자동으로 첨부합니다.
+
+C2PA 메타데이터는 [C2PA 개방형 표준](https://c2pa.org/)을 기반으로 하는 변조 불가능한 기계 읽기 가능한 메타데이터입니다. 생성된 AI가 보고서에서 컨텐츠를 생성하는 데 사용한 메타데이터 레코드에는 사용된 AI 시스템, 생성된 AI로 컨텐츠가 생성되었는지 또는 편집되었는지 여부, 타임스탬프 등의 정보가 포함됩니다.
+
+>[!NOTE]
+>
+>C2PA 메타데이터는 자동으로 첨부됩니다. 추가 작업이 필요하지 않으며 이 동작을 끌 수 없습니다. C2PA 메타데이터는 보고서의 모양을 변경하지 않습니다. 이는 PDF 내에 포함된 보이지 않는 메타데이터입니다.
+
+**내보낸 보고서에 대한 의미**
+
+- 성공 지표 보고서를 PDF으로 내보내면 내보낸 파일은 C2PA 메타데이터를 전달합니다.
+- C2PA 메타데이터는 공유하거나 다운로드할 때 PDF과 함께 이동합니다. C2PA 메타데이터를 지원하는 서드파티 플랫폼은 이 메타데이터를 판독하고, 뷰어에게 투명도 정보를 디스플레이할 수 있다.
+- [Inspect](https://contentauthenticity.adobe.com/inspect)에 업로드하여 파일에 첨부된 C2PA 메타데이터를 확인할 수 있습니다.
+
+![샘플 검사](../assets/inspect-sample.png)
+
+[생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)에 대해 자세히 알아보세요.
+
 ## 성공 지표와 Sites Optimizer 함께 사용
 
-성공 지표와 Sites Optimizer([기회](opportunities.md))는 함께 작동하도록 디자인된 보조 도구로서 상거래 사이트의 성능을 향상시키는 데 도움이 됩니다. 이러한 기능의 차이점을 이해하면 더 나은 의사 결정을 내리고 측정 가능한 결과를 얻을 수 있습니다.
+성공 지표와 Sites Optimizer([기회](opportunities.md))는 함께 작동하도록 설계된 보조 도구로서 상거래 사이트의 성능을 향상시키는 데 도움이 됩니다. 이러한 기능의 차이점을 이해하면 더 나은 의사 결정을 내리고 측정 가능한 결과를 얻을 수 있습니다.
 
 ### 주요 차이점
 

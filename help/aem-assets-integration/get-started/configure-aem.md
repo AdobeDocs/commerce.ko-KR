@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+source-git-commit: 9fce350099392041ec9f648ae2d67a459ff53d91
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1784
 ht-degree: 1%
 
 ---
@@ -34,6 +34,10 @@ AEM Assets 프로젝트를 구성하는 두 가지 옵션이 있습니다.
 >[!TIP]
 >
 >오른쪽 상단 메뉴에서 현재 AEM 버전을 확인할 수 있습니다. **[!UICONTROL Help]** > **[!UICONTROL About AEM]**.
+
+>[!IMPORTANT]
+>
+>사용하는 옵션에 관계없이 Commerce 에셋을 승인할 수 있도록 AEM 메타데이터 스키마 편집기에서 [에셋 승인을 위한 메타데이터 스키마를 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets#configuration)합니다.
 
 ## Commerce 통합 활성화(셀프서비스) {#enable-aem-commerce-self-service}
 
@@ -53,7 +57,7 @@ AEM Assets 프로젝트를 구성하는 두 가지 옵션이 있습니다.
 
 ### 1단계: 프로그램 및 환경 만들기
 
-Cloud Manager에서 프로그램을 만드는 것은 단일 마법사 프로세스입니다. 프로그램과 해당 환경은 여러 단계에 걸쳐 구성되며 마지막에 함께 저장됩니다.
+Cloud Manager에서 프로그램을 만드는 것은 여러 단계의 프로세스입니다. 프로그램과 프로그램 환경은 여러 단계에 걸쳐 구성되며 함께 저장됩니다.
 
 1. Cloud Manager에서 **[!UICONTROL Add Program]**&#x200B;을(를) 선택합니다.
 
@@ -231,7 +235,7 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
 
    ![AEM Assets 작성](../assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
-1. 망치 아이콘을 선택하여 관리자 도구를 엽니다.
+1. 망치 아이콘을 선택하여 관리 도구를 엽니다.
 
    ![AEM 작성자 관리자 관리 메타데이터 프로필](../assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
 
@@ -267,17 +271,17 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_&#x200B;필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce Assets이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_&#x200B;필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 
-### Commerce 에셋 소스 폴더에 메타데이터 프로필 적용
+### Commerce Assets 소스 폴더에 메타데이터 프로필 적용
 
 1. **[!UICONTROL Metadata Profiles]** 페이지에서 Commerce 통합 프로필을 선택합니다.
 
 1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
-1. Commerce 자산이 포함된 폴더를 선택합니다.
+1. Commerce Assets이 포함된 폴더를 선택합니다.
 
    Commerce 폴더가 없는 경우 만듭니다.
 
