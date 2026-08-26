@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+source-git-commit: 5964358bb4370fa4fb0c2f4c447bacb3603d0f5e
 workflow-type: tm+mt
-source-wordcount: 3271
+source-wordcount: 3356
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.4.32 릴리스
+
+_2026년 8월 25일_
+
+![새로 만들기](../assets/new.svg) **제품 피드에 포함된 사용자 지정 가능 옵션**-제품 사용자 지정 가능 옵션(예: 색상 견본, 크기 선택 또는 개인화 필드)을 이제 `customizable_options` 제품 특성으로 내보냅니다. 속성에는 각 옵션의 제목, 필요 여부 및 사용 가능한 값이 포함되어 있으므로 연결된 Commerce 서비스는 상점 첫 화면에 사용자 정의 가능한 정확한 옵션 데이터를 표시할 수 있습니다. <!--MDEE-1029-->
+
+![수정](../assets/fix.svg) **신뢰할 수 있는 범주 권한 동기화**-웹 사이트 ID가 없는 구성에 대해 범주 권한 피드를 완전히 다시 동기화하지 못해 동기화 오류가 발생하는 문제를 해결했습니다. <!--MDEE-1411-->
 
 ### 103.4.31 릴리스
 

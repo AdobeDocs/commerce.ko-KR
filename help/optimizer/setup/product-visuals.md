@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce Optimizer]에서 제품 이미지에 AEM Ass
 feature: CMS, Media, Configuration, Integration
 role: Admin, Developer
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 264658bee09a22cfd55828c6960153cc1239d3fb
+source-git-commit: bf87cbdc38a17ea3f5ad339cb7b4f4f030317450
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,4 @@ AEM Assets의 이미지는 다음 소스 구성을 사용하는 카탈로그 레
 * [카탈로그 레이어](catalog-layer.md)
 * [카탈로그 보기](catalog-view.md)
 * [AEM Assets 통합 안내서](../../aem-assets-integration/overview.md)
+* [제품 시각화 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits#product-visuals-limits)
