@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 60df4a608155a4f8ff8b4bf57cfd625aa1b3ccea
+source-git-commit: 4b3bf2c28d4570141497bf6aa514152311fa4a37
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3099
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 0%
 ## Storefront 카탈로그 서비스
 
 ### 2026년 8월
+
+**릴리스 데이터**: 2026년 8월 24일
+
+![새로 만들기](../assets/new.svg) **Adobe Commerce as a Cloud Service에서 `categoryTree` 쿼리 지원**—이제 [!DNL Adobe Commerce as a Cloud Service]에서 `categoryTree` GraphQL 쿼리를 사용할 수 있으므로 상점 전선이 슬러그별로 범주를 해결하고 범주 트리를 렌더링할 수 있습니다. <!-- DATA-7299 -->
 
 **릴리스 날짜**: 2026년 8월 7일
 
