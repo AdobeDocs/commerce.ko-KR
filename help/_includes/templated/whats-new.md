@@ -1,7 +1,7 @@
 ---
-source-git-commit: a2126f6cc24cc3a17c31e0d8dd095f7d7df26354
+source-git-commit: 73cfc898b25e731238b049419fe0e964e29e92b6
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,72 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 8월 28일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>제품 목록 페이지의 장바구니에 추가 기능이 분리된 특정 경우에 PLP 위젯과 작동하지 않는 문제를 해결하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/release-notes">라이브 검색 확장 기능</a>을 4.7.3으로 업데이트했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/01028c8645f0d8ef868aacbaf14e34595bc5ccc1">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 8월 26일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e91727732882ce6a990068bf2bd3c4dc9fc69370">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 8월 25일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/452a47d6769d90449ece9fe171a01a36df45324d">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 8월 18일
 
