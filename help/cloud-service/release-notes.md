@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 last-update: 2026-08-07
-source-git-commit: 9d128fd11c1b83276f8a2158f1f2fb98a49bf6c5
+source-git-commit: 49a235a3a545b422b0371b53163d7de770df6a38
 workflow-type: tm+mt
-source-wordcount: 6100
+source-wordcount: 6271
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 <!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
 
-다음 항목은 2026년 9월 1일에 프로덕션에 게시됩니다.
+다음 항목은 2026년 9월 8일에 프로덕션에 게시됩니다.
 
 >[!BEGINSHADEBOX]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 * 협상 가능한 견적
 * 견적 템플릿
 
-GraphQL 돌연변이 및 REST 끝점을 비롯한 자세한 내용은 [Storefront 호환성 B2B 패키지 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) 및 **Storefront 호환성 B2B 패키지 v1.0.24** 섹션을 참조하십시오.
+GraphQL 돌연변이 및 REST 끝점을 포함한 자세한 정보는 [Storefront 호환성 B2B 패키지 변경 로그](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko#storefront-compatibility-b2b-package-v1-0-24-2026-07-20)를 참조하십시오.
 
 <!-- USF-3629, USF-4187, USF-4188, USF-4189, USF-4191, USF-4192, USF-4193, USF-4194, USF-4195 -->
 
@@ -141,6 +141,24 @@ GraphQL 돌연변이 및 REST 끝점을 비롯한 자세한 내용은 [Storefron
 이 규칙을 사용하면 규칙 조건이 충족될 때 무료 선물 제품을 장바구니에 추가할 수 있습니다.
 
 <!-- dependent on https://github.com/Adobe-Enterprise-Docs/commerce-admin.en/pull/856 and https://github.com/AdobeDocs/commerce-webapi/pull/590 -->
+
+### 일자 및 시간별 장바구니 가격 규칙 예약
+
+이제 [장바구니 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create)을(를) [!DNL Commerce Admin]에 시작하거나 종료할 시간을 설정할 수 있습니다. 장바구니 가격 규칙 그리드는 예약된 시간을 표시하며 REST API는 규칙을 자정으로 설정하는 대신 `from_date` 및 `to_date`에 제출된 시간을 적용합니다. <!-- ACCS-970 -->
+
+<!-- commenting this out until the B2B compatibility package version is live. -->
+
+<!-- ### Use a temporary shipping address at B2B checkout -->
+
+<!-- B2B company customers can now enter a custom, temporary shipping address during checkout without saving it to the Company Address Book, when custom shipping addresses are allowed. For detailed information, see the [Storefront Compatibility B2B Package changelog](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=ko) and view the **Storefront Compatibility B2B Package v1.0.28** section. USF-4310 -->
+
+### 주문 내역에 주문 편집 기록
+
+>[!IMPORTANT]
+>
+>이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
+
+이제 Commerce은 순서가 편집되면 사람이 읽을 수 있는 주석을 새 순서의 내역에 추가하여 대체된 순서와 관련하여 변경된 내용을 요약할 수 있습니다. <!-- ACCS-1157 -->
 
 ### 개선 사항 및 버그 수정
 
@@ -163,6 +181,12 @@ GraphQL 돌연변이 및 REST 끝점을 비롯한 자세한 내용은 [Storefron
 * 카테고리 데이터 내보내기 피드에서 카테고리 이미지 URL이 끊어진 문제를 해결했습니다. <!-- ACCS-1571 -->
 
 * 서로 다른 공유 카탈로그에서 제품을 동시에 할당하거나 할당을 취소하면 간헐적으로 실패하는 문제를 해결했습니다. <!-- CCSAAS-5287 -->
+
+* **검색 옵션에서 사용**&#x200B;을(를) 아니요로 설정하면 특성이 눈금 열로 표시되지만 16열 제한에 포함되지 않습니다. <!-- CCSAAS-5370 -->
+
+* 관리자 탐색에 영향을 줄 수 있는 문제를 해결했습니다. <!-- CCSAAS-5232 -->
+
+* 빈 장바구니에서 0이 아닌 합계를 보고할 수 있는 문제를 해결했습니다. <!-- ACCS-1730 -->
 
 {{accs-release}}
 
@@ -676,7 +700,7 @@ mutation {
 
 ### App Builder AI 코딩 도구 및 자습서
 
-이제 [AI 코딩 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}를 사용하여 새 [!DNL App Builder] 응용 프로그램을 만들고 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL App Builder] 응용 프로그램으로 변환할 수 있습니다. 다음 튜토리얼을 통해 도구 사용 방법을 확인할 수 있습니다.
+이제 [AI 코딩 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/){target="_blank"}를 사용하여 새 [!DNL App Builder] 응용 프로그램을 만들고 기존 [!DNL Adobe Commerce] PHP 확장을 [!DNL App Builder] 응용 프로그램으로 변환할 수 있습니다. 다음 튜토리얼을 통해 도구 사용 방법을 확인할 수 있습니다.
 
 * [자습서 사전 요구 사항](./tutorials/tutorial-prerequisites.md)
 * [등급 확장 튜토리얼](./tutorials/ratings-extension.md)

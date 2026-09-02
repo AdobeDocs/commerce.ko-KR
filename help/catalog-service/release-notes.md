@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4b3bf2c28d4570141497bf6aa514152311fa4a37
+source-git-commit: 695f349ce38a3127beccab83f63f4157cc05e549
 workflow-type: tm+mt
-source-wordcount: 3099
+source-wordcount: 3190
 ht-degree: 0%
 
 ---
@@ -624,6 +624,16 @@ API Mesh 및 핵심 GraphQL API를 사용하여 다음을 수행할 수 있습�
 - Adobe Commerce as a Cloud Service 고객의 경우 최신 버전이 환경에 설치됩니다.
 
 - 클라우드 또는 온프레미스의 Adobe Commerce에서는 Composer를 사용하여 클라우드 환경의 카탈로그 서비스 메타패키지를 최신 릴리스로 업그레이드하는 것이 좋습니다.
+
+### v3.6.0 릴리스
+
+**릴리스 날짜**: 2026년 8월 31일
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
+
+![새로 만들기](../assets/new.svg) **사용자 지정 가능한 옵션 내보내기**—사용자 지정 가능한 옵션 데이터 내보내기 모듈(`magento/module-customizable-options-data-exporter`)을 포함하도록 카탈로그 서비스 메타패키지 종속성을 업데이트했습니다. 이 모듈은 선택 가능한 옵션(드롭다운, 라디오 버튼, 확인란, 다중 선택)과 구매자 입력 옵션(텍스트 필드, 텍스트 영역, 파일, 날짜, 날짜 및 시간, 시간)을 모두 선택하여 제품의 Adobe Commerce 사용자 지정 가능 옵션을 내보내므로 카탈로그 서비스에서 사용하는 SaaS 카탈로그로 전파됩니다. <!--DATA-7366-->
+
+![새로 만들기](../assets/new.svg) 카탈로그 서비스와 Commerce 스택 간의 호환성을 유지하기 위해 종속성이 업데이트되었습니다.
 
 ### v3.5.0 릴리스
 

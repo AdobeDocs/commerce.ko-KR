@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1d14f7827de3274564941765fd2943ecefac5fad
+source-git-commit: 355b319def41c3763bc0dddbe6b32707891bb811
 workflow-type: tm+mt
-source-wordcount: 460
+source-wordcount: 514
 ht-degree: 0%
 
 ---
@@ -40,12 +40,20 @@ ht-degree: 0%
 
 ## 2026 릴리스
 
+### 1.0.17 릴리스
+
+_2026년 9월 1일_
+
+![수정](../assets/fix.svg) **저장소 보기가 여러 개인 저장소에 대한 빠른 카탈로그 동기화** - 이제 [!DNL Adobe Commerce Optimizer Connector]은(는) 모든 저장소 보기를 추출하고 이후에 관련이 없는 결과를 삭제하는 대신 피드 데이터를 추출하기 전에 저장소 보기별로 제품과 범주를 필터링합니다. 이 업데이트는 많은 스토어 보기가 있는 카탈로그의 동기화 및 재동기화 시간을 크게 줄입니다. <!--MDEE-1441-->
+
 ### 1.0.16 릴리스
 
 _2026년 8월 7일_
 
 ![수정](../assets/fix.svg) **잘못된 구성에서 카탈로그 동기화가 더 이상 중지되지 않습니다**-[!DNL Adobe Commerce Optimizer Connector] 구성이 없거나 잘못된 경우 카탈로그 동기화가 무기한 실행될 수 있는 문제를 해결했습니다. 이제 동기화를 계속 실행하지 않고 완료하고 경고를 기록합니다. <!--MDEE-1413-->
-![수정](../assets/fix.svg) **보다 안정적인 [!DNL Adobe Commerce Optimizer] 관리 요청** - [!DNL Adobe Commerce Optimizer Connector]에서 [!DNL Adobe Commerce Optimizer] 관리 요청에 잘못된 URL을 사용할 수 있는 문제를 해결했습니다. 이로 인해 해당 요청이 실패할 수 있습니다. <!--COMOPT-2288-->
+
+![수정](../assets/fix.svg) **더 안정적인 [!DNL Adobe Commerce Optimizer] 관리 요청** - [!DNL Adobe Commerce Optimizer Connector]에서 [!DNL Adobe Commerce Optimizer] 관리 요청에 잘못된 URL을 사용할 수 있는 문제를 해결했습니다. 이로 인해 해당 요청이 실패할 수 있습니다. <!--COMOPT-2288-->
+
 ![수정](../assets/fix.svg) **보다 안정적인 새로 고침 및 패치 작업**-새로 고침 및 패치 작업이 잘못된 환경을 대상으로 하여 요청이 실패할 수 있는 문제를 해결했습니다. <!--COMOPT-2288-->
 
 ### 1.0.15 릴리스
