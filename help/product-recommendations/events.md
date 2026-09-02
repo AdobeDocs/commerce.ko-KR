@@ -39,7 +39,7 @@ ht-degree: 0%
 
 의료 고객이고 [데이터 연결](../data-connection/overview.md) 확장에 포함된 [데이터 서비스 HIPAA 확장](../data-connection/hipaa-readiness.md#installation)을 설치한 경우 [!DNL Product Recommendations]은(는) 클라이언트 측에서 생성되므로 상점 이벤트 데이터 수집을 중지합니다.
 
-Storefront 이벤트 데이터 수집 및 전송을 재개하려면 [!DNL Product Recommendations]에 대한 이벤트 수집을 다시 활성화하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
+Storefront 이벤트 데이터 수집 및 전송을 재개하려면 [!DNL Product Recommendations]에 대한 이벤트 수집을 다시 활성화하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 데이터 유형 및 이벤트
 
@@ -104,4 +104,4 @@ _콜드 시작_ 문제는 효과적인 권장 사항을 생성하기 전에 머�
 
 >[!NOTE]
 >
->[쿠키 제한 모드](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[쿠키 제한 모드](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)가 활성화된 경우, Adobe Commerce은 구매자가 쿠키 사용에 동의할 때까지 행동 데이터를 수집하지 않습니다. 쿠키 제한 모드 가 비활성화되면 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
