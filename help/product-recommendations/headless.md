@@ -3,21 +3,13 @@ title: Headless
 description: Headless 상점 앞에서  [!DNL Product Recommendations] 을(를) 통합하는 방법을 알아봅니다.
 exl-id: c40dac31-f87e-402a-ba50-e8aa4c1d66aa
 TQID: https://experienceleague.adobe.com/J3qXs-SWuDCz7pQwzGm0VcOOFoU1QM2M4qwsTxxPwE8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 365
 ht-degree: 0%
 
 ---
@@ -32,11 +24,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Headless 인스턴스는 제품 추천 대시보드를 구동하는 이벤트를 구현해야 합니다.
+>Headless 인스턴스는 제품 권장 사항 대시보드를 지원하도록 이벤트를 구현해야 합니다.
 
 Headless 상점 앞에서 [!DNL Product Recommendations]을(를) 통합하려면 다음을 수행해야 합니다.
 
-1. 행동 데이터를 Adobe AI으로 전송하여 제품 추천 결과를 분석하고 계산합니다. 제품 추천 [지표 보고](workspace.md)을 사용하도록 설정하는 추가 데이터를 보낼 수도 있습니다.
+1. 행동 데이터를 Adobe AI으로 전송하여 제품 추천 결과를 분석하고 계산합니다. 제품 추천 [지표 보고](workspace.md)를 활성화하기 위해 추가 데이터를 보낼 수도 있습니다.
 
 1. 제품 추천 결과를 가져오고 페이지에서 해당 결과를 렌더링합니다.
 
@@ -44,7 +36,7 @@ Headless 상점 앞에서 [!DNL Product Recommendations]을(를) 통합하려면
 
 1. [!DNL Product Recommendations] 모듈을 [설치](install-configure.md)합니다.
 
-1. [Adobe Commerce Storefront Event SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)을(를) 설치하고 사용하여 [동작 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)을(를) 실행합니다.
+1. [동작 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations)를 실행하려면 [Adobe Commerce Storefront 이벤트 SDK](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)를 설치하고 사용하십시오.
 
    [!DNL Product Recommendations]개의 결과를 반환하는 데 필요한 최소 이벤트:
 
@@ -63,10 +55,10 @@ Headless 상점 앞에서 [!DNL Product Recommendations]을(를) 통합하려면
    | `rec-click` | recommendation-unit |
    | `rec-add-to-cart-click` | 권장 사항 단위(&quot;장바구니에 추가&quot; 단추가 권장 사항 템플릿에 있는 경우) |
 
-1. 이벤트가 실행되면 [Adobe Commerce 상점 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/)를 사용하여 이벤트를 처리하고 Adobe AI으로 보내십시오.
+1. 이벤트가 실행되면 [Adobe Commerce 상점 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/reference/event-framework/)를 사용하여 이벤트를 처리하고 Adobe AI으로 보내십시오.
 
 1. 동작 데이터가 수집되면 관리자에서 [만들기](create.md) [!DNL Product Recommendations]할 수 있습니다.
 
 1. [권장 사항 SDK](https://developer.adobe.com/commerce/services/product-recommendations/)을(를) 사용하여 상점에서 권장 사항 단위를 가져옵니다. SDK은 페이지에서 추천 단위를 렌더링하는 데 필요한 제품 데이터를 반환합니다.
 
-1. [`recommendations` GraphQL 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/product-recommendations/queries/recommendations/)를 사용하여 특정 SKU 등에 대한 제품 추천 블록에 대한 정보를 반환하는 방법을 알아봅니다.
+1. [`recommendations` GraphQL 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/product-recommendations/queries/recommendations)를 사용하여 특정 SKU 등에 대한 제품 추천 블록에 대한 정보를 반환하는 방법을 알아봅니다.

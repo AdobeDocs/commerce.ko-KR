@@ -3,19 +3,11 @@ title: '[!DNL Product Recommendations] Workspace'
 description: 제품 추천 성능을 구성, 관리 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: eaf1f0b2-9d9d-4069-8269-06f30166f788
 TQID: https://experienceleague.adobe.com/1dnLBQhNwu1rP0FtnvUGMGpdbKveACW9SNMBIHYzmAg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
 workflow-type: tm+mt
 source-wordcount: 921
 ht-degree: 0%
@@ -37,18 +29,18 @@ _권장 사항 Workspace_
 
 작업 영역의 각 기능 영역에 올바른 데이터가 포함되어 있는지 확인하려면 선택한 Storefront 구현을 기반으로 데이터 수집을 구성해야 합니다.
 
-1. Luma - 데이터 수집은 즉시 사용할 수 있습니다.
+1. Luma - 기본적으로 데이터 수집을 사용할 수 있습니다.
 1. Headless - 데이터 수집은 상점 구현에 따라 수동으로 구성해야 합니다.
 
-Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추가해야 하는 필수 이벤트에 대한 자세한 내용을 확인하십시오.
+Headless Storefront를 사용하는 경우 추가해야 하는 필수 이벤트에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
 - 제품 추천 대시보드에 대한 [필수 이벤트](events.md).
-- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/).
+- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/reference/event-framework).
 - 이벤트 구조의 [예](https://github.com/adobe/commerce-events/tree/main/examples).
 
 ## 범위 설정
 
-처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)&#x200B;(으)로 설정하십시오.
+처음에는 모든 권장 설정 중 [범위](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)가 `Default Store View`(으)로 설정되어 있습니다. Commerce 설치에 여러 스토어 보기가 포함된 경우 **범위**&#x200B;를 권장 사항이 적용되는 [스토어 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views#scope-settings)&#x200B;(으)로 설정하십시오.
 
 ## 지표 날짜 범위 설정
 

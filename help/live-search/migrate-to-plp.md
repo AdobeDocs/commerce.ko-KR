@@ -2,23 +2,13 @@
 title: 검색 어댑터에서 PLP 위젯으로 마이그레이션
 description: 더 이상 사용되지 않는 검색 어댑터에서  [!DNL Live Search] 제품 목록 페이지 위젯으로 마이그레이션하는 방법에 대해 알아봅니다.
 TQID: https://experienceleague.adobe.com/YAwhAbTVeYpGYKh4dTe1umcfgoRUOg8QPZNIiGFjKVo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
 workflow-type: tm+mt
-source-wordcount: 2105
+source-wordcount: 2114
 ht-degree: 0%
 
 ---
@@ -45,9 +35,9 @@ ht-degree: 0%
 
 1. 데이터베이스와 코드를 백업합니다.
 1. 현재 사용자 지정을 문서화합니다.
-1. [경계 및 제한](boundaries-limits.md)을 검토하여 PLP 위젯이 사용자의 요구 사항을 충족하는지 확인하십시오.
+1. PLP 위젯이 요구 사항을 충족하는지 확인하려면 [경계 및 제한](boundaries-limits.md)을 검토하십시오.
 1. 트래픽이 적은 기간 동안 마이그레이션을 예약합니다.
-1. 상점 행동에 대한 잠재적인 변경 사항을 이해 당사자에게 알립니다.
+1. 이해 당사자를 준비하려면 상점 행동에 대한 잠재적인 변경 사항을 당사자에게 알립니다.
 
 **현재 구현 검토**:
 
@@ -95,7 +85,7 @@ ht-degree: 0%
 - Luma 템플릿을 오버라이드하는 사용자 정의 PLP 레이아웃입니다.
 - 검색 어댑터별 요소를 대상으로 하는 사용자 지정 CSS 또는 JavaScript.
 - PLP 또는 관련 파일에 대한 사용자 정의 템플릿 수정.
-- 테마는 Luma에서 상속하지 않습니다(예: 처음부터 사용자 지정 테마).
+- 테마는 Luma에서 상속되지 않습니다(예: 사용자 지정 테마는 독립적으로 생성됨).
 
 **사용자 지정 제품 특성**:
 
@@ -147,7 +137,7 @@ PLP 위젯에 액세스하려면 [!DNL Live Search] 확장을 버전 4.0 이상�
    bin/magento module:enable Magento_AdvancedSearch
    ```
 
-1. `composer.json`을(를) 업데이트하여 [!DNL Live Search] 4.0 이상 필요:
+1. [!DNL Live Search] 4.0 이상이 필요하면 `composer.json`을(를) 업데이트하십시오.
 
    ```json
    "require": {
@@ -180,7 +170,7 @@ Commerce 관리에서 PLP 위젯을 구성합니다.
 
 **역할**: 판매자
 
-PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 활성화됩니다. 이전 버전에서 업그레이드하는 경우:
+[!DNL Live Search] 4.0.0+는 기본적으로 새 설치에 대해 PLP 위젯을 활성화합니다. 이전 버전에서 업그레이드하는 경우:
 
 1. **[!UICONTROL Stores]** > 설정 > **[!UICONTROL Configuration]**(으)로 이동합니다.
 1. **[!UICONTROL Live Search]** > **[!UICONTROL Storefront Features]**(으)로 이동합니다.
@@ -280,7 +270,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 
 ### 사용자 정의 소스 모델이 있는 제품 속성
 
-이 시나리오에서는 검색 어댑터에서 지원하지 않지만 PLP 위젯에서 지원하는 사용자 정의 소스 모델과 함께 제품 속성을 사용하는 패싯이 있습니다.
+이 시나리오에서 패싯은 사용자 지정 소스 모델을 사용하는 제품 속성을 기반으로 합니다. 검색 어댑터가 이러한 소스 모델을 지원하지 않지만 PLP 위젯은 이를 지원합니다.
 
 **역할**: 판매자(관리자 구성)
 
@@ -333,7 +323,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 
 **옵션 3: GTM을 Adobe Analytics으로 바꾸기**
 
-- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/kr/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
+- 해당되는 경우 [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html)&#x200B;(으)로 마이그레이션하는 것이 좋습니다.
 - 지침은 고객 엔지니어링 팀에 문의하십시오.
 
 **문의할 사람**: GTM 호환성 업데이트 또는 고객 엔지니어링 지원에 대한 지원 티켓을 제출합니다.
@@ -366,7 +356,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
    - Adobe Commerce에 대한 이벤트 데이터 흐름을 테스트합니다.
 
 1. **패싯 정렬 구성**:
-   - Headless 구현의 경우 패싯을 카운트별로 정렬할 수 있습니다.
+   - Headless 구현의 경우 횟수별로 패싯을 정렬할 수 있습니다.
    - **[!UICONTROL Live Search]** > **[!UICONTROL Facets]** 작업 영역에서 구성합니다.
    - 더 나은 UX를 위해 **[!UICONTROL Sort Type]**&#x200B;을(를) **Count**(으)로 설정하십시오.
 
@@ -423,20 +413,20 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 **검색 어댑터의 기능 차이점**:
 
 - **색상 견본**: 견본이 제대로 작동하려면 `color` 특성의 철자를 `color`(&quot;color&quot; 또는 사용자 지정 이름이 아님)과 정확히 동일하게 지정해야 합니다.
-- **테마 스타일**: 사용자 지정 테마 클래스는 위젯에서 상속되지 않습니다. 위젯별 CSS 클래스를 대상으로 해야 합니다.
+- **테마 스타일**: 위젯은 사용자 지정 테마 클래스를 상속하지 않습니다. 위젯별 CSS 클래스를 대상으로 해야 합니다.
 - **사용자 지정 제품 유형**: 위젯에서 지원되지 않습니다.
 
 **성능 고려 사항**:
 
-- 큰 카탈로그(50,000개 이상의 제품)는 초기 페이지 로드 시간이 길어질 수 있습니다.
+- 큰 카탈로그(50,000개 이상의 제품)는 초기 페이지 로드 시간이 더 깁니다.
 - 값이 많은 여러 패싯이 성능에 영향을 줄 수 있습니다.
-- 모바일 장치 성능은 카탈로그 크기에 따라 달라질 수 있습니다.
+- 모바일 장치 성능은 카탈로그 크기에 따라 다릅니다.
 
 **호환성 문제**:
 
 - Google 태그 관리자 호환성 문제([GTM 시나리오](#google-tag-manager-gtm-integration) 참조).
-- 일부 서드파티 확장이 PLP 위젯과 충돌할 수 있습니다.
-- 사용자 지정 체크아웃 확장 기능은 업데이트가 필요할 수 있습니다.
+- 일부 타사 확장이 PLP 위젯과 충돌합니다.
+- 사용자 지정 체크아웃 확장을 사용하려면 업데이트가 필요합니다.
 
 ## 도움말 보기
 
@@ -458,7 +448,7 @@ PLP 위젯은 [!DNL Live Search] 4.0.0+의 새 설치에 대해 기본적으로 
 - 헤드리스 또는 PWA 구현
 - 사용자 지정 이벤트 추적
 
-Adobe 지원에 문의하려면 [도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)를 참조하세요.
+Adobe 지원에 문의하려면 [Adobe 도움말 센터 사용 안내서](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)를 참조하세요.
 
 ## FAQ
 
@@ -482,7 +472,7 @@ A: 예. [!DNL Live Search] 작업 영역에 구성된 모든 검색 머천다이
 
 **Q: Facet을 다시 구성해야 합니까?**
 
-A: 일반적으로 그렇지는 않지만, 검색 어댑터가 있는 사용자 정의 소스 모델 속성에 의해 제한된 경우 이제 PLP 위젯에서 사용할 수 있습니다.
+A: 아니요. 기존 패싯 구성을 계속 사용할 수 있습니다. 그러나 검색 어댑터가 이전에 사용자 정의 소스 모델과 함께 제품 속성 사용을 제한했다면 이제 PLP 위젯과 함께 해당 속성을 사용할 수 있습니다.
 
 **Q: 사용자 지정 CSS는 어떻게 됩니까?**
 

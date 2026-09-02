@@ -3,33 +3,30 @@ title: 제품 목록 페이지 위젯
 description: ' [!DNL Live Search Product Listing Page Widget] 사용 및 스타일링'
 exl-id: 50ba8046-869a-4071-b3a3-a6392544c07b
 TQID: https://experienceleague.adobe.com/rEQBfgR9CqVBTFtBtq21QFZ6L5ZvoWJ02VI2xiWqAcw
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: 524
 ht-degree: 0%
 
 ---
 
 # 제품 목록 페이지 위젯
 
-[!DNL Live Search Product Listing Page Widget]&#x200B;(PLP)은 Commerce 서비스 플랫폼을 사용하여 성능 좋고, 검색 가능하며, 패싯 가능한 제품 목록 페이지를 제공합니다. 이 항목에서는 PLP 위젯을 활성화하고 스타일링하는 방법을 설명합니다.
+[!DNL Live Search Product Listing Page Widget]&#x200B;(PLP)은 Commerce Services Platform을 사용하여 성능 좋고 검색 가능하며 구현 가능한 제품 목록 페이지를 제공합니다. 이 항목에서는 PLP 위젯을 활성화하고 스타일링하는 방법을 설명합니다.
 
 ## PLP 위젯 활성화
 
 [!DNL Live Search] 서비스가 설치되면 기본 검색 기능이 자동으로 [!DNL Live Search]&#x200B;(으)로 변환됩니다.
 
-새 설치에 대해 [!DNL Live Search] PLP 위젯이 기본적으로 활성화됩니다.
+새로 설치하면 기본적으로 [!DNL Live Search] PLP 위젯이 활성화됩니다.
 
-[!DNL Live Search]을(를) 업그레이드하고 있으며 PLP 위젯이 이미 꺼져 있는 경우 그대로 유지됩니다.
+PLP 위젯이 비활성화된 상태에서 [!DNL Live Search]을(를) 업그레이드하는 경우 업그레이드 후에도 비활성화된 상태로 유지됩니다.
+
+
 
 >[!NOTE]
 >
@@ -42,7 +39,7 @@ PLP 위젯을 켜려면 다음을 수행합니다.
 1. [!UICONTROL Storefront Features] 섹션을 클릭합니다.
 1. [!UICONTROL Enable Product Listing Widget] = 예 설정
 1. 구성 저장
-1. 메시지가 표시되면 캐시를 플러시합니다( 시스템 > 도구 > 캐시 관리 > [!UICONTROL Flush Magento Cache]&#x200B;(으)로 이동).
+1. 메시지가 표시되면 캐시를 플러시합니다([시스템] > [도구] > [캐시 관리] > [!UICONTROL Flush Magento Cache]&#x200B;(으)로 이동).
 
 >[!IMPORTANT]
 >
@@ -50,7 +47,7 @@ PLP 위젯을 켜려면 다음을 수행합니다.
 
 ## 위젯 기능
 
-PLP 위젯은 다음과 같은 기본 기능을 제공합니다.
+PLP 위젯은 다음과 같은 표준 기능을 제공합니다.
 
 - 장바구니에 추가 버튼 - 간단한 제품에만 사용할 수 있습니다.
 - 제품당 여러 이미지 - 구성 가능한 제품에 대해 다른 색상을 선택하면 이미지가 변경될 수 있습니다.
@@ -58,7 +55,7 @@ PLP 위젯은 다음과 같은 기본 기능을 제공합니다.
 
 ### 위젯 사용자 정의
 
-PLP 위젯의 기본 기능 외에도 다음과 같은 기능을 포함하도록 위젯을 추가로 사용자 정의할 수 있습니다.
+PLP 위젯의 표준 기능 외에도 다음과 같은 기능을 포함하도록 위젯을 추가로 사용자 정의할 수 있습니다.
 
 - 속성별 필터링
 - 다중 언어 지원
@@ -72,11 +69,11 @@ PLP 위젯의 기본 기능 외에도 다음과 같은 기능을 포함하도록
 
 ## 스타일 예
 
-[CSS](https://developer.adobe.com/commerce/frontend-core/guide/css/)를 사용하여 사이트에 맞게 PLP 위젯의 모양과 느낌을 사용자 지정할 수 있습니다.
+[CSS](https://developer.adobe.com/commerce/frontend-core/guide/css/)를 사용하여 사이트에 맞게 PLP 위젯의 모양을 사용자 지정할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Commerce 테마 내에 사용자 지정 클래스가 있는 요소는 상속되지 않습니다. 사용자 정의 클래스와 일치하도록 이러한 요소를 특정 클래스에서 타깃팅해야 합니다. 기본 작업 클래스는 위젯 단추에서 작동하지 않습니다. CSS 내의 제네릭 타깃팅된 요소는 상속됩니다. `button`은(는) 위젯 단추에 적용됩니다.
+>Adobe Commerce 테마 내에 사용자 지정 클래스가 있는 요소는 상속되지 않습니다. 사용자 정의 클래스와 일치하도록 특정 클래스별로 이러한 요소를 타깃팅하십시오. 기본 작업 클래스는 위젯 단추에 적용되지 않습니다. CSS 내의 제네릭 타깃팅된 요소는 상속됩니다. `button`은(는) 위젯 단추에 적용됩니다.
 
 강조 표시된 div에 대상 클래스 `ds-sdk-product-item__product-name`이(가) 포함되어 있습니다.
 
@@ -196,10 +193,10 @@ PLP 위젯의 기본 기능 외에도 다음과 같은 기능을 포함하도록
 - `.ds-sdk-product-item__product-name`
 - `.ds-sdk-product-item__product-options`
 - `.ds-sdk-product-price`
-   - `.ds-sdk-product-price--no-discount`
-   - `.ds-sdk-product-price--grouped`
-   - `.ds-sdk-product-price--bundle`
-   - `.ds-sdk-product-price--discount`
+  - `.ds-sdk-product-price--no-discount`
+  - `.ds-sdk-product-price--grouped`
+  - `.ds-sdk-product-price--bundle`
+  - `.ds-sdk-product-price--discount`
 
 ![제품](assets/plp-css-product.png)
 

@@ -4,20 +4,13 @@ description: Adobe Commerce의 [!DNL Live Search]는 빠르고, 관련성이 높
 recommendations: noCatalog
 exl-id: 15399216-6a96-4d0b-bbc1-293190cb9e14
 TQID: https://experienceleague.adobe.com/360T44Ynj6BelCeuhHPH4OZ-1-35ocW1s1eY3Ag49Cc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 08c4badb4cae27a2cefb9fcb8eb5589bc8264467
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1170
 ht-degree: 1%
 
 ---
@@ -36,7 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->사이트 검색과 관련하여 Adobe Commerce은 옵션을 제공합니다. 구현하기 전에 [경계 및 제한](boundaries-limits.md) 정보를 검토하여 [!DNL Live Search]이(가) 비즈니스 요구 사항에 맞는지 확인하십시오.
+>[!DNL Live Search]이(가) 비즈니스 요구 사항에 맞는지 확인하려면 구현하기 전에 [경계 및 제한](boundaries-limits.md) 정보를 검토하십시오.
 
 ## 아키텍처
 
@@ -46,15 +39,15 @@ ht-degree: 1%
 
 ## 둘러보기
 
-속도, 관련성 및 사용 편의성에 중점을 둔 [!DNL Live Search]은(는) 쇼핑객과 판매자 모두에게 게임 체인저입니다. 다음 비디오를 시청한 다음 상점 앞에서 [!DNL Live Search]을(를) 간단히 둘러보십시오.
+속도, 관련성 및 사용 편이성에 중점을 두고 있는 [!DNL Live Search]은(는) 쇼핑객과 판매자 모두에게 상당한 개선입니다. 다음 비디오를 시청한 다음 상점 앞에서 [!DNL Live Search]을(를) 간단히 둘러보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452576?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
-Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
+Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 위치 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) 항목을 참조하십시오.
 
 ### 입력할 때 검색
 
-[!DNL Live Search]이(가) 쇼핑객이 [검색](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search) 상자에 쿼리를 입력할 때 [팝오버](storefront-popover.md)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
+[!DNL Live Search]이(가) 쇼핑객이 [검색](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) 상자에 쿼리를 입력할 때 [팝오버](storefront-popover.md)에 있는 상위 검색 결과의 추천 제품 및 썸네일 이미지로 응답합니다. 쇼핑객이 추천 또는 추천 제품을 클릭하면 [제품 세부 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) 페이지가 표시됩니다. 팝오버의 바닥글에 있는 _모두 보기_ 링크에 검색 결과 페이지가 표시됩니다.
 
 [!DNL Live Search]이(가) 둘 이상의 문자에 대한 &quot;입력한 대로 검색&quot; 결과를 반환합니다. 부분 일치의 경우 단어 당 최대 문자 수는 20자입니다. 쿼리의 문자 수를 구성할 수 없습니다. 팝오버에는 `name`, `sku` 및 `category_ids` 필드가 포함됩니다.
 
@@ -76,7 +69,7 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 | 삭제 | 문자 제거 | &quot;cart&quot; -> &quot;cat&quot; |
 | 대체 | 한 문자를 다른 문자로 바꾸기. | &quot;cart&quot; -> &quot;cast&quot; |
 
-유사 항목 검색 논리 외에도 전치도 고려됩니다. 즉, 단어에서 인접한 두 문자가 교체됩니다(예: &quot;the&quot; 대신 &quot;the&quot;). 이러한 편집 제한은 단어 단위이며 전체 구문이 아닙니다.
+유사 검색 논리 외에도 전치도 고려됩니다. 즉, 단어에서 인접한 두 문자가 교체됩니다(예: &quot;the&quot; 대신 &quot;the&quot;). 이러한 편집 제한은 단어 단위이며 전체 구문이 아닙니다.
 
 ### 필터 및 패싯
 
@@ -89,13 +82,13 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 ### 패싯으로 필터링된 검색
 
-필터링된 검색에서는 특성 값의 여러 차원 또는 [패싯](facets.md)을 검색 기준으로 사용합니다. 필터 선택은 판매자에 의해 정의되며 반환되는 제품에 따라 변경되며, 가장 일반적으로 사용되는 패싯은 목록의 맨 위에 고정됩니다.
+필터링된 검색에서는 특성 값의 여러 차원 또는 [패싯](facets.md)을 검색 기준으로 사용합니다. 판매자는 선택한 필터를 정의합니다. 필터는 반환된 제품에 따라 변경되며 가장 일반적으로 사용되는 패싯이 목록 맨 위에 고정됩니다.
 
-패싯을 URL 매개 변수 `http://yourwebsite.com?color=red`(으)로 사용하고 이러한 특성 값을 기반으로 하는 실시간 검색 필터 결과를 사용합니다.
+패싯을 URL 매개 변수 `https://www.mywebsite.com/?color=red`(으)로 사용하고 이러한 특성 값을 기반으로 하는 실시간 검색 필터 결과를 사용합니다.
 
 ### 동의어
 
-[동의어](synonyms.md) 범위를 확장하고 쇼핑객이 카탈로그에 있는 것과 다른 단어를 사용하여 쿼리의 초점을 선명하게 합니다. 동의어 사전을 미세 조정하여 쇼핑객이 구매 경로에 계속 참여하도록 할 수 있습니다.
+[동의어](synonyms.md) 범위를 확장하고 쇼핑객이 카탈로그에 있는 것과 다른 단어를 포함하여 쿼리의 초점을 선명하게 합니다. 쇼핑객을 계속 참여하게 하고 구매 경로를 추적하려면 동의어 사전을 미세 조정하십시오.
 
 ### 머천다이징 규칙
 
@@ -117,14 +110,14 @@ Live Search 사용 및 구성에 대한 자세한 비디오는 [전체 데모 �
 
 ## 카탈로그 데이터 보존 정책
 
-테스트 환경에서 카탈로그 데이터에 대한 검색 쿼리를 90일 연속 제출하지 않으면 카탈로그 데이터가 최대 절전 모드로 설정되고 검색 쿼리에 대해 데이터가 반환되지 않습니다. 프로덕션 환경의 카탈로그 데이터는 이 정책의 영향을 받지 않습니다.
+테스트 환경에 대한 검색 쿼리를 90일 동안 제출하지 않으면 카탈로그 데이터가 최대 절전 모드로 전환되고 결과를 반환하지 않습니다. 이 정책은 프로덕션 환경의 카탈로그 데이터에는 영향을 주지 않습니다.
 
 ### 비활성 테스트 환경
 
-테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+테스트 환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 테스트 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
 
 ### 빈 카탈로그
 
 환경이 생성된 후 45일이 지나 빈 카탈로그가 있는 경우 카탈로그 데이터가 최대 절전 모드로 설정되고 검색 쿼리에 대해 데이터가 반환되지 않습니다. 여기에는 프로덕션 및 테스트 환경이 모두 포함됩니다.
 
-환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 사용자 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
+환경에서 카탈로그 데이터를 다시 활성화하려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#experience-league-start-page)하고 제목은 &quot;[!DNL Live Search] 다시 활성화&quot;로 지정하고 환경 ID를 포함하십시오. 사용자 환경의 카탈로그 데이터는 2시간 이내에 복원되어야 합니다.
