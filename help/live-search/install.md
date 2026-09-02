@@ -26,9 +26,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 last-update: 2026-07-29
-source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
+source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
 workflow-type: tm+mt
-source-wordcount: 2803
+source-wordcount: 2856
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-servic
 >
 > **HIPAA 준비**
 >
->HIPAA 지원 확장 및 의료 서비스 추가 기능과 함께 Adobe Commerce을 사용하는 경우 라이브 검색을 통해 PHI(보호 상태 정보)를 처리하지 마십시오> 라이브 검색은 HIPAA 지원 서비스가 아닙니다.
+>HIPAA 지원 확장 및 의료 서비스 추가 기능과 함께 Adobe Commerce을 사용하는 경우 라이브 검색을 통해 PHI(보호 상태 정보)를 처리하지 마십시오. 라이브 검색은 HIPAA를 사용할 수 있는 서비스가 아닙니다.
 >
 >자세한 내용은 Adobe Commerce의 [HIPAA 준비](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) 및 비 HIPAA 준비 Commerce 서비스 중 Live Search가 나열된 [작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/operations) 지침을 참조하십시오.
 
@@ -291,7 +291,7 @@ bin/magento saas:resync --feed categoryPermissions
 
 ### 범주 할당
 
-[!DNL Live Search]에서 반환된 제품은 [category](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/categories)에 할당되어야 합니다. 예를 들어 Luma에서 제품은 &quot;남성&quot;, &quot;여성&quot; 및 &quot;톱니바퀴&quot;와 같은 범주에 배치됩니다. 또한 하위 카테고리는 &quot;Tops&quot;, &quot;Bottom&quot; 및 &quot;Watches&quot;에 대해 설정됩니다. 이러한 범주 할당은 필터링 시 세부기간을 개선합니다.
+[!DNL Live Search]에서 반환된 제품은 [category](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/categories)에 할당되어야 합니다. 예를 들어 Luma에서 제품은 &quot;남성&quot;, &quot;여성&quot; 및 &quot;톱니바퀴&quot;와 같은 범주에 배치됩니다. 또한 &quot;Tops&quot;, &quot;Bottom&quot; 및 &quot;Watches&quot;에 대한 하위 카테고리가 설정됩니다. 이러한 범주 할당은 필터링 시 세부기간을 개선합니다.
 
 ## &#x200B;6. 연결 테스트 {#test}
 
@@ -422,9 +422,9 @@ composer update magento/live-search --with-dependencies
 Adobe에서는 SaaS API(특히 카탈로그 서비스 엔드포인트)를 직접 호출하는 것이 좋습니다.
 
 - Commerce 데이터베이스/Graphql 프로세스를 건너뛰어 성능 향상 및 프로세서 로드 감소
-- [!DNL Catalog Service] 페더레이션을 사용하여 단일 끝점에서 [!DNL Live Search], [!DNL Catalog Service] 및 [!DNL Product Recommendations]을(를) 호출합니다.
+- 성능을 높이고 프로세서 로드를 줄이려면 [!DNL Catalog Service] 페더레이션을 사용하여 단일 끝점에서 [!DNL Live Search], [!DNL Catalog Service] 및 [!DNL Product Recommendations]을(를) 호출하십시오.
 
-일부 사용 사례의 경우 제품 세부 정보 및 유사한 사례를 보려면 [!DNL Catalog Service]을(를) 호출하는 것이 좋습니다. 자세한 내용은 [refineProduct](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/refine-product)을(를) 참조하십시오.
+일부 사용 사례의 경우 제품 세부 정보 및 유사한 시나리오가 필요하면 [!DNL Catalog Service]을(를) 호출하는 것이 좋습니다. 자세한 내용은 [refineProduct](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/refine-product) GraphQL 쿼리를 참조하십시오.
 
 사용자 지정 Headless 구현이 있는 경우 [!DNL Live Search] 참조 구현을 확인하십시오.
 
@@ -486,7 +486,7 @@ Adobe에서는 SaaS API(특히 카탈로그 서비스 엔드포인트)를 직접
 
 제품 목록 페이지 위젯 및 [!DNL Live Search] 필드 위젯에 대한 코드는 GitHub에서 다운로드할 수 있습니다.
 
-코드에 액세스할 수 있는 개발자는 코드의 작동 방식과 모양을 완전히 사용자 지정할 수 있습니다. 자체 서버에서 코드를 호스팅하지만 여전히 [!DNL Live Search] 서비스를 사용합니다.
+코드에 액세스할 수 있는 개발자는 코드의 작동 방식과 모양을 사용자 지정할 수 있습니다. 자체 서버에서 코드를 호스팅하지만 여전히 [!DNL Live Search] 서비스를 사용합니다.
 
 - [PLP 위젯](https://github.com/adobe/storefront-product-listing-page)
 - [검색 창](https://github.com/adobe/storefront-search-as-you-type)
@@ -538,7 +538,7 @@ composer require magento/module-data-services-graphql
 
 ### PWA 지원
 
-[!DNL Live Search]은(는) PWA Studio에서 작동하지만 storefront 개발자는 특히 특정 GraphQL 기반 시나리오 및 전체 응답 특성에서 다른 Commerce 구현과 비교하여 약간의 차이를 볼 수 있습니다.
+[!DNL Live Search]은(는) PWA Studio과 함께 작동하지만 상점 개발자들은 다른 Commerce 구현과 비교하여, 특히 특정 GraphQL 기반 시나리오 및 응답 특성에서 차이점을 발견합니다.
 
 - [!DNL Live Search]의 현재 PWA 구현에서는 기본 Commerce 상점 이름을 사용하는 [!DNL Live Search]보다 검색 결과를 반환하는 데 더 많은 처리 시간이 필요합니다.
 - PWA의 [!DNL Live Search]은(는) [이벤트 처리](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/)를 지원하지 않습니다. 따라서 검색 보고 및 지능형 머천다이징은 PWA 상점 첫 화면에서 작동하지 않습니다.

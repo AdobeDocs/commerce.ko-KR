@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 last-update: 2026-06-23
-source-git-commit: 7ce47d7abf7519a7e3ecd436faabf4089005cd63
+source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 554
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ composer require magento/module-page-builder-product-recommendations
 
 ### 시각적 유사성 추천 유형 추가 {#vissimsupport}
 
-_시각적 유사성_ 권장 사항 유형을 사용하면 보고 있는 제품과 [시각적으로 유사한](type.md#visualsim) 제품을 표시하는 제품 세부 정보 페이지에 권장 사항 단위를 배포할 수 있습니다. 이 권장 사항 유형은 제품의 이미지와 시각적 측면이 쇼핑 경험의 중요한 부분인 경우 가장 유용합니다. 다음 명령을 실행하여 _시각적 유사성_ 권장 사항 유형을 설치하십시오.
+_시각적 유사성_ 권장 사항 유형은 제품 세부 정보 페이지에서 본 제품과 [시각적으로 유사함](type.md#visualsim)을 표시합니다. 제품 이미지와 모양이 쇼핑 경험에 중요한 경우 가장 유용합니다. 설치하려면 다음 명령을 실행합니다.
 
 ```bash
 composer require magento/module-visual-product-recommendations
@@ -73,11 +73,11 @@ composer require magento/module-visual-product-recommendations
 
 1. `magento/product-recommendations` 모듈을 설치한 후 API 키를 지정하고 SaaS 데이터 공간을 선택하여 [Commerce 서비스 커넥터](../landing/saas.md)를 구성하십시오.
 
-   이 연결을 구성하면 Commerce 인스턴스, 카탈로그 서비스 및 기타 지원 서비스 간에 데이터를 동기화하고 통신할 수 있습니다. 데이터 동기화는 [SaaS 데이터 내보내기 확장](../data-export/overview.md)에서 처리됩니다.
+   이 연결을 구성하면 Commerce 인스턴스, 카탈로그 서비스 및 기타 지원 서비스 간에 데이터를 동기화하고 통신할 수 있습니다. [SaaS 데이터 내보내기 확장](../data-export/overview.md)에서 데이터 동기화를 처리합니다.
 
 1. 카탈로그 내보내기가 올바르게 실행되도록 하려면 [cron](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 작업과 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)가 실행 중이며 `Product Feed` 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오.
 
-Commerce 응용 프로그램을 Commerce 서비스에 연결하고 [SaaS 데이터 공간](../landing/saas.md#saas-configuration)을 지정하면 카탈로그 동기화가 시작됩니다. 그런 다음 동작 데이터가 상점 앞으로 전송되고 있는지 [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)할 수 있습니다.
+Commerce 응용 프로그램을 Commerce 서비스에 연결하고 [SaaS 데이터 공간](../landing/saas.md#saas-configuration)을 지정하면 카탈로그 동기화가 시작됩니다. 그런 다음 동작 데이터가 상점 앞으로 전송되고 있는지 [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify)할 수 있습니다.
 
 ## 데이터 동기화 모니터링 및 문제 해결
 
@@ -103,7 +103,7 @@ composer update magento/product-recommendations --with-dependencies
 }
 ```
 
-주요 버전을 `5.0`에서 `6.0`(으)로 변경해 보겠습니다.
+주요 버전을 `5.0`에서 `6.0`(으)로 업데이트:
 
 ```json
 "require": {

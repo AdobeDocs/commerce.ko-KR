@@ -14,20 +14,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 127067a1ef47c7d9e51c5792e03b568dd818fe8e
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 300
 ht-degree: 0%
 
 ---
 
 # 제품 추천 관리자 개발
 
-제품 추천 은 전환율을 높이고 매출을 증대하며 쇼핑객 참여를 유도하는 데 사용할 수 있는 강력한 마케팅 도구입니다. 상품 추천은 &#39;이 상품을 본 고객도 본 고객&#39;, &#39;이 상품을 구매한 고객도 본 고객&#39;, &#39;추천 고객&#39; 등과 같은 단위 형태로 점포에 표시된다. Adobe Commerce 제품 권장 사항은 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 쇼핑객 데이터를 심층 분석하는 [Adobe AI](https://business.adobe.com/kr/ai.html)에서 제공합니다. 이 데이터를 Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+제품 추천 은 전환율을 높이고 매출을 증대하며 쇼핑객 참여를 유도하는 데 사용할 수 있는 강력한 마케팅 도구입니다. 상품 추천은 &#39;이 상품을 본 고객도 본 고객&#39;, &#39;이 상품을 구매한 고객도 본 고객&#39;, &#39;추천 고객&#39; 등과 같은 단위 형태로 점포에 표시된다. [Adobe AI](https://business.adobe.com/kr/ai.html)은(는) 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 쇼핑객 데이터를 심층 분석하는 Adobe Commerce 제품 권장 사항을 지원합니다. 이 데이터를 Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 
 >[!NOTE]
 >
->PWA Studio을 사용하여 상점 전면이 구현된 경우 [PWA 설명서](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)를 참조하세요. React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하는 경우 [headless](headless.md) 환경에서 제품 권장 사항을 통합하는 방법에 대해 알아보려면 사용 안내서를 참조하세요. Headless 인스턴스는 제품 추천 작업 영역을 향상시키기 위해 이벤트를 구현해야 합니다.
+>PWA Studio을 사용하여 상점 전면이 구현된 경우 [PWA 설명서](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)를 참조하세요. React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하는 경우 [headless](headless.md) 환경에서 제품 권장 사항을 통합하는 방법을 알아봅니다. Headless 인스턴스는 제품 추천 작업 영역을 향상시키기 위해 이벤트를 구현해야 합니다.
 
 ## 아키텍처 개요
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![제품 추천 아키텍처 다이어그램](assets/arch-diag-sensei.svg)
 
-권장 사항 모듈을 설치하고 구성하면 상점 첫 화면에서 동작 데이터 수집을 시작합니다. Adobe AI은 카탈로그 데이터와 함께 이 행동 데이터를 처리하고 recommendations 서비스에서 활용하는 제품 연결을 계산합니다. 이 시점에서 판매자는 관리 UI에서 직접 제품 추천 단위를 만들고, 관리하고, 상점 앞에 배포할 수 있습니다.
+권장 사항 모듈을 설치 및 구성하면 상점 스스로 동작 데이터를 수집할 수 있습니다. Adobe AI은 이 데이터를 카탈로그 데이터와 결합하여 Recommendations 서비스에서 사용하는 제품 연결을 계산합니다. 그런 다음 관리 UI에서 직접 제품 추천 단위를 만들고, 관리하고, 배포할 수 있습니다.
 
 ## 다음 단계
 

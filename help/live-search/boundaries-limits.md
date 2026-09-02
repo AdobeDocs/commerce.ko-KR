@@ -18,16 +18,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
 
 # 경계 및 제한
 
-사이트 검색과 관련하여 Adobe Commerce은 옵션을 제공합니다. [!DNL Live Search]과(와) [!DNL Catalog Service]이(가) 귀하의 비즈니스 요구 사항을 충족하는지 확인하려면 다음 경계 및 제한을 검토하십시오. 콘텐츠 검색, BYOA(bring-your-own-algorithm) 또는 속성 기반 머천다이징과 같은 고급 검색 기능이 필요한 경우 서드파티 검색 솔루션을 고려하십시오.
+사이트 검색과 관련하여 Adobe Commerce은 옵션을 제공합니다. [!DNL Live Search]과(와) [!DNL Catalog Service]이(가) 비즈니스 요구 사항을 충족하는지 확인하려면 다음 경계 및 제한을 검토하십시오. 콘텐츠 검색, BYOA(bring-your-own-algorithm) 또는 속성 기반 머천다이징과 같은 고급 검색 기능이 필요한 경우 서드파티 검색 솔루션을 고려하십시오.
 
 ## 일반
 
@@ -41,14 +41,14 @@ ht-degree: 0%
 - 검색 어댑터는 사용자 지정 소스 모델로 만들어져 패싯으로 사용되는 제품 속성을 지원하지 않습니다. 이 기능을 지원하려면 [제품 목록 페이지 위젯](plp-styling.md)을 사용해야 합니다.
 - 사용자 지정 제품 유형은 지원되지 않습니다.
 - `"is_user_defined": false`을(를) 사용하여 프로그래밍 방식으로 만든 사용자 지정 특성은 지원되지 않습니다.
-- [개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations)에 설명된 대로 일부 제한 사항이 있는 &quot;다음으로 시작&quot; 또는 &quot;포함&quot; 조건을 사용하여 결과를 필터링할 수 있습니다.
+- [개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search#limitations)에 설명된 대로 일부 제한 사항이 있는 &quot;다음으로 시작&quot; 또는 &quot;포함&quot; 조건을 사용하여 결과를 필터링할 수 있습니다.
 - 지난 해 내에서만 성과 지표를 추적할 수 있습니다.
 - 검색 쿼리에 여러 단어가 포함되어 있는 경우 단어 사이에 공백이 있으면 해당 단어가 별도의 검색어로 처리됩니다. 여러 단어 검색 쿼리를 처리하려면 [동의어](./synonyms.md)를 사용하십시오.
 - [!DNL Live Search]은(는) 기본적으로 [검색어 리디렉션](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-terms)을 지원하지 않습니다. Fastly 또는 다른 사용자 지정 구성을 사용하여 리디렉션을 구현합니다.
 
 ## 색인화
 
-- 스토어 보기당 최대 총 450개의 제품 특성을 [!DNL Live Search] [인덱스](indexing.md). 이는 다음과 같이 배포됩니다.
+- 스토어 보기당 최대 총 450개의 제품 특성을 [!DNL Live Search] [인덱스](indexing.md). 이러한 속성은 다음과 같이 배포됩니다.
   - 정렬 가능한 속성 50개
   - 필터링 가능한 특성 200개
   - 검색 가능한 속성 200개
@@ -61,28 +61,28 @@ ht-degree: 0%
 - 정의된 필터링 가능한 속성 집합에서 최대 100개의 속성을 패싯으로 구성할 수 있습니다.
 - Facet 내에서 최대 100개의 버킷이 반환될 수 있습니다. 100개가 넘는 버킷을 반환해야 하는 경우 [지원 티켓을 만드십시오](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). 그러면 Adobe에서 성능에 대한 영향을 분석하고 환경에 대한 이 제한을 늘릴 수 있는지 확인할 수 있습니다.
 - 동적 패싯은 큰 인덱스와 순서가 높은 인덱스에서 성능 문제를 일으킬 수 있습니다. 동적 패싯을 만들어 성능 저하 또는 페이지가 시간 초과 오류와 함께 로드되지 않은 것을 발견한 경우 패싯을 고정으로 변경하여 성능 문제가 해결되는지 확인하십시오.
-- 재고 상태(`quantity_and_stock_status`)는 패싯으로 지원되지 않습니다. 관리에서 [!UICONTROL Display Out of Stock Products] = [!UICONTROL No]을(를) 설정하여 재고 제품을 필터링할 수 있습니다. `[PLP Widget](plp-styling.md)` 모듈에서 기본적으로 지원됩니다. 자세한 내용은 [재고 부족 제품 관리](manage-out-of-stock-products.md)를 참조하세요.
+- 재고 상태(`quantity_and_stock_status`)는 패싯으로 지원되지 않습니다. 관리에서 [!UICONTROL Display Out of Stock Products] = [!UICONTROL No]을(를) 설정하여 재고 제품을 필터링할 수 있습니다. 이 기능은 기본적으로 `[PLP Widget](plp-styling.md)` 모듈에서 지원됩니다. 자세한 내용은 [재고 부족 제품 관리](manage-out-of-stock-products.md)를 참조하세요.
 - 날짜 유형 속성은 패싯으로 지원되지 않습니다.
 - 해당 속성이 Facet으로 추가된 후 속성 메타데이터에 수행된 모든 변경 사항은 Facet에 반영되지 않습니다.
 - 최대 50개의 정렬 가능한 속성과 200개의 검색 가능한 속성을 가질 수 있습니다.
 
 ## 쿼리
 
-- [!DNL Live Search]은(는) 쿼리에 대해 고유한 [GraphQL 끝점](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)을 사용하여 동적 팩팅 및 귀하가 입력한 대로 검색과 같은 기능을 지원합니다. [GraphQL API](https://developer.adobe.com/commerce/webapi/graphql/)와 비슷하지만 몇 가지 차이점이 있으며 일부 필드가 완전히 호환되지 않을 수 있습니다.
+- [!DNL Live Search]은(는) 쿼리에 대해 고유한 [GraphQL 끝점](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/)을 사용하여 동적 팩팅 및 귀하가 입력한 대로 검색과 같은 기능을 지원합니다. [GraphQL API](https://developer.adobe.com/commerce/webapi/graphql/)와 비슷하지만 몇 가지 차이점이 있고 일부 필드는 완전히 호환되지 않습니다.
 - 검색 쿼리에서 반환할 수 있는 최대 결과 수는 10,000개입니다.
 - 페이지당 최대 결과 수는 100개입니다.
 - 날짜 유형 특성을 사용하여 결과를 필터링할 수 없습니다.
 
 >[!NOTE]
 >
->위치별로 정렬하려면 유효한 `categoryPath` 또는 `categoryIds` 필터가 활성화되어 있어야 합니다. [자세히 알아보기](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#error-handling-for-categorypath-and-categoryids)
+>위치별로 정렬하려면 유효한 `categoryPath` 또는 `categoryIds` 필터가 활성화되어 있어야 합니다. [자세히 알아보기](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search#error-handling-for-categorypath-and-categoryids)
 
 ## 머천다이징 검색
 
 - 스토어 보기당 최대 검색 머천다이징 [규칙](rules.md) 수는 50개입니다.
 - 규칙당 최대 조건 수는 10개입니다.
 - 규칙당 최대 이벤트 수는 25개입니다.
-- 기본 정렬 순서 &quot;정렬 기준: 가장 관련성&quot;을 선택하면 규칙 및 수동 등급 제품이 검색 결과에 적용됩니다. 쇼핑객이 정렬 순서를 이름별 또는 가격별 정렬과 같이 변경하는 경우, 규칙 및 수동 순위는 더 이상 적용되지 않습니다.
+- 기본 정렬 순서 &quot;정렬 기준: 가장 관련성&quot;을 선택하면 규칙 및 수동 등급 제품이 검색 결과에 적용됩니다. 쇼핑객이 정렬 순서를 변경하는 경우, 규칙 및 수동 순위는 더 이상 적용되지 않습니다.
 - 페이지가 매겨진 응답에서 예측할 수 없는 결과를 방지하려면 고정된 제품의 수가 요청된 페이지 크기를 초과하지 않아야 합니다.
 
 ## 동의어
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## [!DNL Storefront popover]
 
-- [[!DNL popover]](storefront-popover.md)은(는) *Luma* 테마 또는 *Luma*&#x200B;을(를) 기반으로 하는 사용자 지정된 테마를 사용하는 스토어에만 사용할 수 있습니다. 검색 결과 페이지의 탐색 표시에는 *Luma* 스타일이 없습니다.
+- [[!DNL popover]](storefront-popover.md)은(는) *Luma* 테마 또는 *Luma*&#x200B;을(를) 기반으로 하는 사용자 지정된 테마를 사용하는 스토어에만 사용할 수 있습니다. 검색 결과 페이지의 탐색 표시에 *Luma* 스타일이 없습니다.
 - [!DNL popover]은(는) *Blank* 테마를 지원하지 않습니다.
 - [!DNL popover]은(는) 빠른 주문 양식에서 지원되지 않습니다.
 - 위시리스트 및 제품 비교는 지원되지 않습니다.

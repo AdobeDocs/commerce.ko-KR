@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+source-git-commit: 127067a1ef47c7d9e51c5792e03b568dd818fe8e
 workflow-type: tm+mt
-source-wordcount: 2323
+source-wordcount: 2360
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ ht-degree: 0%
 
 작업 영역의 각 기능 영역에 올바른 데이터가 포함되어 있는지 확인하려면 선택한 Storefront 구현을 기반으로 데이터 수집을 구성해야 합니다.
 
-1. Luma - 데이터 수집은 즉시 사용할 수 있습니다.
+1. Luma - 기본적으로 데이터 수집을 사용할 수 있습니다.
 1. Headless - 데이터 수집은 상점 구현에 따라 수동으로 구성해야 합니다.
 
-Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추가해야 하는 필수 이벤트에 대한 자세한 내용을 확인하십시오.
+Headless 상점 앞에 추가해야 하는 필수 이벤트에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
 - Live Search 대시보드에 대한 [필수 이벤트](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search).
-- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/).
+- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/reference/event-framework/).
 - 이벤트 구조의 [예](https://github.com/adobe/commerce-events/tree/main/examples).
 
 ### 의료 서비스 고객
 
-의료 서비스 고객이고 [데이터 연결](../data-connection/overview.md) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/hipaa-readiness.md#installation)을 설치한 경우 [!DNL Live Search]에서 사용하는 Storefront 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
+의료 서비스 고객이고 [데이터 연결](../data-connection/overview.md) 확장의 일부인 [데이터 서비스 HIPAA 확장](../data-connection/hipaa-readiness.md#installation)을 설치한 경우 [!DNL Live Search]은(는) 더 이상 상점 이벤트 데이터를 캡처하지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. 상점 이벤트 데이터를 계속 캡처하고 보내려면 [!DNL Live Search]에 대한 이벤트 컬렉션을 다시 사용하도록 설정하십시오. 자세한 내용은 [일반 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/general#data-services)을 참조하세요.
 
 ## 범위 설정
 
@@ -61,7 +61,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 속성을 검색 가능한 것으로 설정
 
-고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있으면 해당 셔츠가 검색 결과에 포함됩니다.
+고도로 타깃팅된 결과를 만들려면 [검색 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)&#x200B;(`searchable=true`) 제품 특성 집합을 검토하십시오. 관련성을 보장하려면 명확하고 간결한 의미가 있는 콘텐츠가 포함된 경우에만 속성을 검색할 수 있도록 하십시오. 기본적으로 검색을 사용할 수 있지만 검색 결과의 정밀도를 낮출 수 있는 `description`과(와) 같이 정확도가 낮고 긴 텍스트가 포함된 특성은 사용하지 마십시오. 예를 들어, &quot;반바지&quot;를 검색하는 사람이 &quot;반팔&quot;이라는 용어가 포함된 설명이 있는 셔츠가 있을 경우 해당 셔츠가 검색 결과에 나타납니다.
 
 속성을 검색할 수 있도록 허용하려면 다음 단계를 완료하십시오.
 
@@ -69,7 +69,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 1. 검색할 특성을 선택하십시오(예: `color`).
 1. **Storefront 속성**&#x200B;을(를) 선택하고 **검색에 사용**&#x200B;을(를) `yes`(으)로 설정합니다.
 
-[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)도 준수합니다. 가중치가 높은 속성은 검색 결과 내에서 더 높게 표시됩니다.
+[!DNL Live Search]은(는) Adobe Commerce 내에 설정된 제품 특성의 [weight](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)도 준수합니다. 가중치가 높은 속성이 검색 결과 내에서 더 높게 나타납니다.
 
 다음 속성은 항상 검색할 수 있습니다.
 
@@ -79,13 +79,15 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 >[!TIP]
 >
->검색할 수 있도록 할 속성을 선택하는 것은 검색 품질에 큰 영향을 줍니다. 검색 가능한 특성을 선택하고 일반적인 구성 문제를 방지하는 방법에 대한 자세한 지침은 모범 사례 안내서의 [제품 메타데이터 활용](best-practice.md#leverage-product-metadata)을 참조하십시오.
+>검색할 수 있도록 만들 속성을 선택하면 검색 품질에 상당한 영향을 미칩니다. 검색 가능한 특성을 선택하고 일반적인 구성 문제를 방지하는 방법에 대한 자세한 지침은 _모범 사례 가이드_&#x200B;의 [제품 메타데이터 활용](best-practice.md#leverage-product-metadata)을 참조하십시오.
 
 ### 복잡한 제품의 속성 동작
 
 복잡한 제품 유형(구성 가능한 제품, 번들 제품 및 그룹화된 제품)의 경우 [!DNL Live Search]은(는) 상위 제품 및 하위 제품 모두의 속성 값을 인덱싱하므로 상위 제품을 동일한 속성의 여러 값과 연결할 수 있습니다. 이렇게 하면 변형 기반 필터링이 가능합니다. 예를 들어 상위 제품에 색상 세트가 없더라도 변형에 파란색이 있으면 &quot;파란색&quot;으로 필터링할 때 구성 가능한 셔츠가 나타납니다.
 
-이 기능은 색상 및 크기와 같은 특성에 잘 작동하지만 `new_arrival`, `product_ranking`, `promotion_label` 또는 사용자 지정 가격 특성과 같은 특성에 예기치 않은 결과가 발생할 수 있습니다. 예를 들어 구성 가능한 제품(SKU-001)에 `new_arrival = true`이(가) 있지만 하위 변형(SKU-001-01)에 `new_arrival = false`이(가) 있는 경우 상위 제품 SKU-001은 두 값(`true` 및 `false`) 모두로 인덱싱되므로 두 조건에 대한 검색 결과에 표시될 수 있습니다.
+이 동작은 색상 및 크기와 같은 특성에 잘 작동하지만 `new_arrival`, `product_ranking`, `promotion_label` 및 사용자 지정 가격과 같이 제품을 전체적으로 설명하는 특성에 대해 예기치 않은 결과가 발생할 수 있습니다.
+
+예를 들어 구성 가능한 제품(SKU-001)에는 `new_arrival = true`이(가) 있지만 하위 변형 SKU-001-01에는 `new_arrival = false`이(가) 있다고 가정합니다. 변형 값이 상위 제품에 대해 집계되면 SKU-001은 `new_arrival = true` 및 `new_arrival = false` 모두로 인덱싱됩니다. 그 결과, 각 값이 다른 변형에 적용되더라도 상위 제품이 두 값 중 하나에 대한 검색 결과에 나타날 수 있습니다.
 
 ### 계층화된 검색 및 검색 유형 확장
 
@@ -98,11 +100,11 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 계층화된 검색을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 - 쇼핑객이 검색 결과 내에서 검색할 수 있도록 활성화합니다.
-- 계층화된 검색의 두 번째 레이어에서 `startsWith` 및 `contains` 검색 색인을 사용하여 결과를 세분화합니다.
+- 결과를 세분화하려면 계층화된 검색의 두 번째 계층에서 `startsWith` 및 `contains` 검색 색인을 사용합니다.
 
-고급 검색 기능은 특정 연산자를 사용하여 [`productSearch` 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/)의 `filter` 매개 변수를 통해 구현됩니다.
+고급 검색 기능은 특정 연산자를 사용하여 [`productSearch` 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search)의 `filter` 매개 변수를 통해 구현됩니다.
 
-- **계층화된 검색** - 다른 검색 컨텍스트에서 검색 - 이 기능을 사용하면 검색 쿼리에 대해 최대 두 개의 계층을 검색할 수 있습니다. For example:
+- **계층화된 검색** - 다른 검색 컨텍스트에서 검색 - 이 기능을 사용하면 검색 쿼리에 대해 최대 두 개의 계층 검색을 수행할 수 있습니다. For example:
 
   - **계층 1 검색** - `product_attribute_1`에서 &quot;모터&quot;를 검색합니다.
   - **계층 2 검색** - `product_attribute_2`에서 &quot;부품 번호 123&quot;을 검색합니다. 이 예제에서는 결과 내에서 &quot;motor&quot;에 대해 &quot;part number 123&quot;을 검색합니다.
@@ -118,13 +120,15 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
   - 더 큰 문자열 내에서 쿼리를 검색하고 있습니다. 예를 들어 구매자가 문자열 &quot;HAPE-123&quot;에서 제품 번호 &quot;PE-123&quot;을 검색하는 경우,
 
-    - 참고: 이 검색 유형은 자동 완성 검색을 수행하는 기존 [구 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#phrase)과(와) 다릅니다. 예를 들어 제품 속성 값이 &quot;outdoor pants&quot;인 경우 구문 검색은 &quot;out pan&quot;에 대한 응답을 반환하지만 &quot;or ants&quot;에 대한 응답은 반환하지 않습니다. 그러나 에는 검색이 포함되어 있으며 &quot;or ants&quot;에 대한 응답을 반환합니다.
+    >[!NOTE]
+    >
+    >이 검색 유형은 단어의 시작과 일치하여 자동 완성을 지원하는 기존 [구문 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search#phrase)과(와) 다릅니다. 예를 들어 제품 속성 값이 &quot;outdoor pants&quot;이면 &quot;out&quot; 및 &quot;pan&quot;이 값의 단어 시작과 일치하므로 구문 검색은 &quot;out pan&quot;에 대한 결과를 반환합니다. 해당 문자열이 단어 내에서 발생하므로 &quot;or ants&quot;에 대한 결과는 반환하지 않습니다. 포함 은 단어 내의 어디에서든 텍스트와 일치하므로 &quot;or ants&quot;에 대한 결과를 반환합니다.
 
 이러한 새 조건은 검색 결과를 구체화하기 위한 검색 쿼리 필터링 메커니즘을 향상시킵니다. 이러한 새 조건은 기본 검색 쿼리에 영향을 주지 않습니다.
 
 #### 구현
 
-1. 관리에서 [제품 특성을 검색 가능하도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)합니다.
+1. 제품 특성을 검색할 수 있도록 하려면 관리자로 이동하여 [제품 특성을 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties)하십시오.
 
    검색 가능한 [특성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types) 목록을 확인하세요.
 
@@ -132,7 +136,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
    ![검색 기능 지정](./assets/search-filters-admin.png)
 
-1. 새로운 `contains` 및 `startsWith` 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대한 예는 [개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability)를 참조하십시오.
+1. 새로운 `contains` 및 `startsWith` 검색 기능을 사용하여 [!DNL Live Search] API 호출을 업데이트하는 방법에 대한 예는 [개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search#filtering-using-search-capability)를 참조하십시오.
 
    검색 결과 페이지에서 이러한 새 조건을 구현할 수 있습니다. 예를 들어, 쇼핑객이 검색 결과를 더 구체화할 수 있는 페이지에 새 섹션을 추가할 수 있습니다. 구매자가 &quot;제조업체&quot;, &quot;부품 번호&quot; 및 &quot;설명&quot;과 같은 특정 제품 속성을 선택할 수 있도록 할 수 있습니다. 여기에서 `contains` 또는 `startsWith` 조건을 사용하여 해당 특성 내에서 검색합니다.
 
@@ -166,7 +170,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 >[!NOTE]
 >
->제품 특성 구성에 필수 속성이 있는 경우에만 제품 특성을 필터링할 수 있습니다. *검색에 사용 = 예*, *검색 결과에 사용 계층 탐색=예* 및 *계층 탐색에 사용=필터링 가능(결과 포함)*. 이러한 속성이 없거나 올바르게 설정되지 않으면 Facet 구성에 속성이 표시되지 않습니다. 구성 지침은 [패싯 추가](facets-add.md#step-1-add-a-facet)를 참조하십시오.
+>제품 특성은 필수 속성이 있는 경우에만 필터링 가능합니다. *검색에 사용 = 예*, *검색 결과에 사용 계층 탐색=예* 및 *계층 탐색에 사용=필터링 가능(결과 포함)*. 이러한 속성이 없거나 올바르게 설정되지 않으면 Facet 구성에 속성이 표시되지 않습니다. 구성 지침은 [패싯 추가](facets-add.md#step-1-add-a-facet)를 참조하십시오.
 
 [동의어](synonyms.md)은(는) 사용자가 올바른 제품을 사용하도록 안내하기 위해 정의할 수 있는 용어입니다. 바지를 찾는 사용자들은 &quot;바지&quot; 또는 &quot;바지&quot;를 타이핑할 수 있습니다. 이러한 검색어가 사용자에게 &quot;바지&quot; 결과를 가져오도록 동의어를 설정할 수 있습니다.
 
@@ -178,7 +182,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 >[!IMPORTANT]
 >
->라이브 검색 4.0.0에서 기본적으로 활성화되어 있는 제품 목록 위젯을 사용하는 것이 좋습니다. 위젯은 향후 릴리스에서 어댑터 구현을 완전히 대체하도록 타깃팅됩니다. 자세한 내용은 [제품 목록 위젯 사용](install.md#enable-product-listing-widgets)을 참조하세요.
+>Adobe에서는 라이브 검색 4.0.0에서 기본적으로 활성화되어 있는 제품 목록 위젯을 사용할 것을 권장합니다. 위젯은 향후 릴리스에서 어댑터 구현을 대체하도록 타깃팅됩니다. 자세한 내용은 [제품 목록 위젯 사용](install.md#enable-product-listing-widgets)을 참조하세요.
 
 | Commerce 구성 설정 | 설명 | 팝오버에서 지원됨 | 어댑터에서 지원 |
 |---|---|---|---|
@@ -203,7 +207,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 기본 속성 값
 
-다음 제품 특성에는 [!DNL Live Search]에서 사용하고 기본적으로 활성화된 [상점 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)이 있습니다.
+다음 제품 특성에는 [!DNL Live Search]이(가) 사용하고 기본적으로 활성화하는 [storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)이(가) 있습니다.
 
 | 속성 | Storefront 속성 | 속성 |
 |---|---|---|
@@ -213,7 +217,7 @@ Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추�
 
 ## 기본 비시스템 속성 속성
 
-다음 표는 Luma 샘플 데이터와 관련된 속성을 포함하여 비시스템 속성의 기본 검색 및 필터링 가능한 속성을 보여 줍니다. *검색에 사용* 특성 속성을 `Yes`(으)로 설정하면 [!DNL Live Search] 및 기본 Adobe Commerce 모두에서 특성을 검색할 수 있습니다.
+다음 표는 Luma 샘플 데이터와 관련된 속성을 포함하여 비시스템 속성의 기본 검색 및 필터링 가능한 속성을 보여 줍니다. [!DNL Live Search]과(와) 기본 Adobe Commerce 모두에서 특성을 검색할 수 있게 하려면 *검색에 사용* 특성 속성을 `Yes`(으)로 설정하십시오.
 
 | 속성 코드 | 검색 가능 | 레이어 탐색에서 사용 |
 |--- |--- |--- |

@@ -15,7 +15,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
 workflow-type: tm+mt
 source-wordcount: 921
 ht-degree: 0%
@@ -37,13 +37,13 @@ _권장 사항 Workspace_
 
 작업 영역의 각 기능 영역에 올바른 데이터가 포함되어 있는지 확인하려면 선택한 Storefront 구현을 기반으로 데이터 수집을 구성해야 합니다.
 
-1. Luma - 데이터 수집은 즉시 사용할 수 있습니다.
+1. Luma - 기본적으로 데이터 수집을 사용할 수 있습니다.
 1. Headless - 데이터 수집은 상점 구현에 따라 수동으로 구성해야 합니다.
 
-Headless Storefront를 사용하는 경우 다음 설명서를 참조하여 추가해야 하는 필수 이벤트에 대한 자세한 내용을 확인하십시오.
+Headless Storefront를 사용하는 경우 추가해야 하는 필수 이벤트에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
 - 제품 추천 대시보드에 대한 [필수 이벤트](events.md).
-- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/).
+- 필수 구성 요소로 추가해야 하는 [Storefront 이벤트 수집기](https://developer.adobe.com/commerce/services/shared-services/storefront-events/reference/event-framework).
 - 이벤트 구조의 [예](https://github.com/adobe/commerce-events/tree/main/examples).
 
 ## 범위 설정
