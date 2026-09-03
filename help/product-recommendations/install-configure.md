@@ -18,8 +18,8 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-last-update: 2026-06-23
-source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
+last-update: 2026-09-02
+source-git-commit: 299da83bd0a9b776ad6b13482b65af61bffe15fa
 workflow-type: tm+mt
 source-wordcount: 554
 ht-degree: 0%

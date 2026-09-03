@@ -35,9 +35,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
+source-git-commit: 289267c4bb76bbe1e9f00fd02faa7749b812d0d0
 workflow-type: tm+mt
-source-wordcount: 3302
+source-wordcount: 3372
 ht-degree: 0%
 
 ---
@@ -67,21 +67,17 @@ Adobe은 마이그레이션을 단일 모놀리식 프로젝트로 간주하는 
 
 ![마이그레이션 흐름 다이어그램](../assets/migration-flow.png)
 
-### PaaS 및 SaaS 비교
+### SaaS 및 PaaS 비교
 
-[!DNL Adobe Commerce on Cloud] 또는 PaaS(온-프레미스) 및 SaaS([!DNL Adobe Commerce as a Cloud Service])는 관리 방법과 판매자가 플랫폼과 상호 작용하는 방법이 다릅니다.
+Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주요 차이점은 인프라 관리, 애플리케이션 제어, 사용자 정의 및 업그레이드 권한 수준입니다.
 
-**주요 차이점**
+[!DNL Adobe Commerce as a Cloud Service], [!DNL Adobe Commerce on Cloud] 및 [!DNL Adobe Commerce on-premises]은(는) 관리되는 방식과 판매자가 플랫폼과 상호 작용하는 방식이 다릅니다.
 
-- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
-- **[!DNL Adobe Commerce on Cloud Infrastructure]**: 판매자가 응용 프로그램 코드, 업그레이드, 패치 및 인프라 구성을 관리합니다.
-- **[!DNL Adobe Commerce]온-프레미스**: 판매자가 Adobe의 호스팅 환경 내에서 응용 프로그램 코드, 업그레이드, 패치, 인프라 구성을 관리합니다.
-
-  >[!NOTE]
-  >
-  >서비스(MySQL, Elasticsearch 등)에 대한 [공유 권한 모델](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility).
-
-- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **SaaS(신규 — [!DNL Adobe Commerce as a Cloud Service])**: Adobe에서 핵심 응용 프로그램, 인프라 및 업데이트를 완전히 관리합니다. 판매자는 확장성 지점(API, App Builder, UI SDK)을 통한 사용자 지정에 중점을 둡니다. 핵심 응용 프로그램 코드가 잠겨 있습니다.
+| Adobe Commerce 제공 | 호스팅 모델 | 서비스 및 업데이트에 대한 책임 |
+|---|---|---|
+| **[!DNL Adobe Commerce as a Cloud Service]** | SaaS - Adobe 호스팅 | Adobe은 핵심 Commerce 애플리케이션, 인프라 및 업데이트를 관리합니다. 판매자는 지원되는 API 및 확장성 서비스(API, [!DNL Adobe Developer App Builder], UI SDK)를 통해 플랫폼을 확장합니다. 판매자는 핵심 애플리케이션 코드를 수정할 수 없습니다. |
+| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
+| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
 
 **아키텍처 의미**
 
@@ -186,7 +182,9 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 [!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가부터 시작됩니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 비용 효율적인 방법입니다.
 
-평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오.
+평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/)를 참조하십시오.
+
+마이그레이션 평가 도구와 통합된 Commerce 개발자 에이전트에 대한 자세한 내용은 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오
 
 ## 코드 및 상점 마이그레이션(Commerce 개발자 MCP)
 
@@ -259,7 +257,9 @@ MCP는 데이터 마이그레이션을 처리하지 않습니다. 비즈니스 �
 
 마이그레이션 평가 도구 로드맵이 마이그레이션 범위 및 우선 순위를 정하면 코드 및 상점 현대화 작업이 시작됩니다.
 
-MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/) 설명서를 참조하십시오.
+MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/) 설명서를 참조하십시오.
+
+마이그레이션 평가 도구와 통합된 Commerce 개발자 에이전트에 대한 자세한 내용은 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오
 
 ## 데이터 마이그레이션(Commerce 데이터 마이그레이션 서비스)
 

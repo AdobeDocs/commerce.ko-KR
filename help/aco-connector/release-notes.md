@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 355b319def41c3763bc0dddbe6b32707891bb811
+source-git-commit: 4a3bb899f05e489cbd5b5c46909085e204751dc5
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: 544
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
 ## 2026 릴리스
+
+### 1.1.0 릴리스
+
+_2026년 9월 2일_
+
+![새로 만들기](../assets/new.svg) **카탈로그 동기화에 범주 특성이 포함됨** - [!DNL Adobe Commerce Optimizer Connector]은(는) 이제 범주 특성과 해당 메타데이터를 [!DNL Adobe Commerce Optimizer]에 동기화하므로 머천다이징에 사용자 지정 범주 특성을 사용할 수 있습니다. <!--MDEE-1373-->
 
 ### 1.0.17 릴리스
 
