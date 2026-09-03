@@ -6,28 +6,15 @@ role: Developer, Admin
 level: Intermediate
 autotag-review: '2026-06-18T16:09:41.112Z'
 TQID: 'https://experienceleague.adobe.com/-OrsBVtHRcEV5EzgHzzP0JVf0aQWfSO2Fu1R5F5jtAw'
-product_v2:
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 43d5571c6a1a3c5152d3b389b73887fd4739fa7f
+product_v2: id: de2e2e68-c5d7-4efe-be7b-27528698f06bid: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: dba0c9e79458f516dd36da886423c7a5657a2ad2
 workflow-type: tm+mt
-source-wordcount: 2499
+source-wordcount: 2705
 ht-degree: 0%
 
 ---
@@ -41,7 +28,13 @@ ht-degree: 0%
 
 Commerce 마이그레이션 평가는 기존 Adobe Commerce 구현에 대한 자동화된 분석입니다. Adobe의 도구 기능은 Commerce 코드베이스를 스캔하고 빌드되거나, 사용자 정의되거나, 수정된 모든 사항을 인벤터리하는 구조화된 보고서를 생성합니다. 그러면 코드베이스에 대한 사용자 지정이 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로의 마이그레이션에 어떤 영향을 미치는지 보여줍니다.
 
-처리된 마이그레이션 평가 보고서는 `https://experience.adobe.com/@<ims-org-name>/commerce-migration-assessment/shared-assessments`에서 액세스할 수 있습니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
+코드베이스가 처리되면 평가 보고서가 IMS 조직 ID에 연결되고 [!DNL Adobe Experience Cloud]에 공유됩니다. 프로젝트 코드베이스를 처음 공유하는 경우를 제외하고 프로덕션 환경에 액세스할 필요가 없습니다.
+
+IMS 조직의 모든 구성원은 https://experience.adobe.com/commerce-migration-assessment/shared-assessments에서 공유 평가를 볼 수 있습니다.
+
+>[!NOTE]
+>
+> 공유 보고서를 보려면 마이그레이션 평가에 사용된 것과 동일한 IMS 조직에 연결된 사용자 프로필로 Adobe Experience Cloud에 로그인해야 합니다.
 
 **평가에서 제공하는 항목:**
 
@@ -49,6 +42,10 @@ Commerce 마이그레이션 평가는 기존 Adobe Commerce 구현에 대한 자
 - 위험 예측 지표에서 계산된 마이그레이션 복잡성 등급(높음, Medium 또는 낮음)
 - 마이그레이션 계획이 필요한 가장 영향력이 큰 백엔드 및 상점 영역에 대한 우선 순위 보기
 - Adobe의 AI 개발자 도구에 대한 직접 입력으로 사용할 수 있는 각 사용자 정의 모듈에 대한 설명입니다
+
+## 마이그레이션 평가 액세스
+
+Adobe은 완료된 마이그레이션 평가를 조직의 Adobe IMS 조직에 연결합니다. 평가가 연결되면 해당 조직의 모든 사용자는 https://experience.adobe.com/commerce-migration-assessment/shared-assessments에서 보고서에 액세스할 수 있습니다.
 
 ## 마이그레이션 평가 보고서 이해
 
@@ -232,6 +229,8 @@ Storefront 복잡성 섹션은 스토어의 프론트엔드 프레젠테이션 �
 | 마이그레이션 권장 사항 | **다시 빌드**, **리팩터링**, **기본 기능으로 바꾸기** 또는 **제거** |
 | 종속성 | 이 모듈이 마이그레이션 시퀀싱을 알릴 수 있는 상호 작용하는 다른 모듈 |
 
+모듈의 분류를 열어 전체 세부 정보를 확인합니다. **다시 빌드** 마이그레이션 권장 사항이 있는 모듈에는 **[!UICONTROL Open in Developer Agent]** 단추가 포함되어 있습니다. 이 단추는 모듈 설명을 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/)에 직접 복사하므로 바로 교체 확장에 대한 블루프린트를 생성할 수 있습니다.
+
 **워크플로**
 
 1. 먼저 **영향력이 큰** 모듈로 필터링하십시오. 따라서 가장 많은 마이그레이션 노력과 비용이 듭니다.
@@ -240,7 +239,9 @@ Storefront 복잡성 섹션은 스토어의 프론트엔드 프레젠테이션 �
    - 모듈을 네이티브 [!DNL Adobe Commerce as a Cloud Service] 기능으로 바꿀 수 있습니까?
    - 모듈을 다시 빌드해야 하는 경우 교체에서 제공해야 하는 기능은 무엇입니까?
 1. 사용 중지 또는 교체할 수 있는 사용자 정의 모듈을 식별합니다. 각 코드는 코드를 작성하기 전에 마이그레이션 범위를 줄입니다.
-1. **다시 빌드** 마이그레이션 권장 사항을 사용하여 각 사용자 지정 모듈의 설명을 복사합니다. 이러한 설명은 Adobe의 AI 개발자 도구에 직접 지정할 수 있습니다. 자세한 내용은 [Commerce 확장성을 위한 AI 개발자 도구](#ai-developer-tools-for-commerce-extensibility)를 참조하십시오.
+1. **다시 빌드** 마이그레이션 권장 사항이 있는 각 사용자 지정 모듈에 대해 다음 중 하나를 수행할 수 있습니다.
+   - **[!UICONTROL Open in Developer Agent]**&#x200B;을(를) 클릭하여 블루프린트를 생성하거나 Commerce 개발자 에이전트를 사용하여 모듈 설명을 복사합니다.
+   - **다시 빌드** 마이그레이션 권장 사항을 사용하여 각 사용자 지정 모듈의 설명을 복사합니다. 이러한 설명은 Adobe의 AI 개발자 도구에 직접 지정할 수 있습니다. 자세한 내용은 [Commerce 확장성을 위한 AI 개발자 도구](#ai-developer-tools-for-commerce-extensibility)를 참조하십시오.
 
 ## 참조: 주요 용어
 
@@ -265,7 +266,7 @@ Storefront 복잡성 섹션은 스토어의 프론트엔드 프레젠테이션 �
 
 ### 도구에서 제공하는 사항
 
-Adobe의 [Commerce 확장성을 위한 AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/)에는 두 가지 기본 기능이 포함됩니다.
+Adobe의 [Commerce 확장성을 위한 AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/)에는 두 가지 기본 기능이 포함됩니다.
 
 - [!DNL Adobe Commerce] [!DNL App Builder] MCP 서버 - AI 코딩 도우미를 [!DNL Adobe Commerce] 설명서, API 및 App Builder 개발 패턴에 직접 연결하는 MCP(모델 컨텍스트 프로토콜) 통합입니다. 개발자는 빌드할 내용을 설명할 수 있으며 MCP 서버는 IDE 내에서 Commerce 인식 코드 생성, 아키텍처 지침 및 배포 자동화를 제공합니다.
 - 에이전트 기술 - REST API, 체크아웃 확장, 상점 구성 요소 및 이벤트 기반 통합과 같은 일반적인 Commerce 확장성 패턴을 다루는 사전 빌드된 AI 기술. [!DNL Adobe Commerce as a Cloud Service] 및 [!DNL App Builder]과(와) 관련된 아키텍처, 구현, 테스트 및 배포 단계를 통해 AI를 안내합니다.
@@ -293,15 +294,17 @@ aio commerce extensibility tools-setup
 Manages custom shipping rate calculations based on customer account tier and order    weight thresholds.
 ```
 
-1. Commerce 확장성 MCP 서버가 활성화된 상태에서 IDE(예: GitHub Copilot, Cursor 또는 Cloud)를 엽니다.
-1. 모듈 설명을 사용하여 AI 에이전트를 묻는 메시지를 표시합니다.
+1. **[!UICONTROL Open in Developer Agent]**&#x200B;을(를) 클릭하여 설명을 [!DNL Commerce Developer Agent]&#x200B;(으)로 복사하고 블루프린트를 즉시 생성합니다.
+
+   또는 Commerce 확장성 MCP 서버가 활성화된 상태에서 IDE(예: GitHub Copilot, Cursor 또는 Claude)를 열고 모듈 설명을 사용하여 AI 에이전트를 수동으로 확인합니다.
+
 1. 스캐폴딩한 [!DNL App Builder] 응용 프로그램을 검토하고 에이전트를 반복하여 구현을 구체화합니다.
 
 ## 다음 단계
 
 1. **[!UICONTROL Summary]** 탭을 엽니다. 마이그레이션 복잡성 및 가장 큰 영향을 미치는 모듈을 검토한 다음 사용자 지정 분류 하위 섹션을 확인하십시오. 스토어에 사용자 지정 테마, 고위험 블록 또는 체크아웃 드롭인이 나열되어 있는 경우 백엔드 마이그레이션과 함께 병렬 프론트엔드 워크스트림을 계획합니다.
 1. **[!UICONTROL Module Reports]** 탭을 기술 팀이나 개발 파트너와 공유합니다. 더 이상 사용되지 않거나 [!DNL Adobe Commerce as a Cloud Service] 기능으로 대체할 수 있는 사용자 지정 모듈에 플래그를 지정하도록 요청하십시오.
-1. 사용자 지정 빌드를 시작합니다. 모듈 설명을 AI 도구 입력으로 사용하여 호환되는 확장 스캐폴딩을 시작합니다.
+1. 사용자 지정 빌드를 시작합니다. **모듈 보고서** 탭에서 모듈 분류를 열고 **개발자 에이전트에서 열기**&#x200B;를 선택하여 해당 모듈의 평가 데이터에서 바로 호환되는 확장을 스캐폴딩합니다.
 1. Adobe 계정 팀과 연습 호출을 예약합니다. Adobe은 사용자와 함께 결과를 검토하고 특정 모듈 및 상점 내 신호에 대한 질문에 답변하며 복잡성 프로필에 대한 마이그레이션 접근 방식을 매핑하는 데 도움이 됩니다.
 
 ## 리소스
@@ -313,19 +316,19 @@ Manages custom shipping rate calculations based on customer account tier and ord
   - [배송 방법 자습서](../tutorials/shipping-method-extension.md)
 - 확장성
   - [개요](https://developer.adobe.com/commerce/extensibility/)
-  - [AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/)
+  - [AI 개발자 도구](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/)
     - [우수 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/best-practices)
     - [설정](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)
     - [스킬 및 프롬프트](https://developer.adobe.com/commerce/extensibility/developer-agent/skills-and-prompts)
     - [사용 사례](https://developer.adobe.com/commerce/extensibility/developer-agent/use-cases)
   - [App Builder 개요](https://developer.adobe.com/app-builder/docs/intro_and_overview/)
-  - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
+  - [Adobe Commerce용 App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)
   - 스타터 키트
     - [백엔드 통합 시작 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/)
     - [체크아웃 스타터 키트](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
 - Storefront 개발
-  - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
-  - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/?lang=ko)
+  - [개요](https://experienceleague.adobe.com/developer/commerce/storefront/)
+  - [Storefront AI 기술](https://experienceleague.adobe.com/developer/commerce/storefront/boilerplate/ai-agent-skills/)
 
 >[!TIP]
 >
