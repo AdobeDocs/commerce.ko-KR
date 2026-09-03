@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 5964358bb4370fa4fb0c2f4c447bacb3603d0f5e
+source-git-commit: c08c9248b26b6e3a0271032e869753bece96a8bd
 workflow-type: tm+mt
-source-wordcount: 3356
+source-wordcount: 3412
 ht-degree: 0%
 
 ---
@@ -44,6 +44,12 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.4.33 릴리스
+
+_2026년 9월 1일_
+
+![수정](../assets/fix.svg) **다중 저장소 보기 카탈로그의 빠른 재동기화**-제품 및 카테고리 피드는 이제 모든 저장소 보기를 추출하고 이후에 관련이 없는 결과를 삭제하는 대신 데이터를 추출하기 전에 저장소 보기별로 필터링합니다. 이 업데이트는 특히 Adobe Commerce Optimizer을 사용할 때 스토어 보기가 많은 카탈로그의 재동기화 성능을 크게 향상시킵니다. <!--MDEE-1441-->
 
 ### 103.4.32 릴리스
 
