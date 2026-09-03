@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
 description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-06-18T16:12:28.840Z'
@@ -76,8 +76,8 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 | Adobe Commerce 제공 | 호스팅 모델 | 서비스 및 업데이트에 대한 책임 |
 |---|---|---|
 | **[!DNL Adobe Commerce as a Cloud Service]** | SaaS - Adobe 호스팅 | Adobe은 핵심 Commerce 애플리케이션, 인프라 및 업데이트를 관리합니다. 판매자는 지원되는 API 및 확장성 서비스(API, [!DNL Adobe Developer App Builder], UI SDK)를 통해 플랫폼을 확장합니다. 판매자는 핵심 애플리케이션 코드를 수정할 수 없습니다. |
-| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
-| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
+| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
+| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
 
 **아키텍처 의미**
 
@@ -90,7 +90,7 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 
 - [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) 및 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
 - [Commerce Optimizer](../../optimizer/overview.md)
-- [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
 - [Commerce Cloud 관리자](../getting-started.md#create-an-instance)를 사용한 셀프서비스 프로비저닝
 
 ### 마이그레이션 여정
@@ -214,7 +214,7 @@ Commerce 개발자 MCP는 [마이그레이션 평가](#migration-assessment-tool
 
 ### Storefront 현대화
 
-프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/developer/commerce/storefront/)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)을(를) 현대화합니다.
 
 Commerce Developer MCP는 Commerce 보일러플레이트를 기반으로 기존 상점 프로젝트를 로드합니다. 다음과 같은 방법으로 상점을 현대화합니다.
 
@@ -315,4 +315,4 @@ Commerce Data Migration Service 는 전 세계 프로덕션에 있으며 이미 
 
 워크플로우, 지원되는 데이터 및 확인에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구 안내서](bulk-data/migration-tool.md) 설명서를 검토하십시오.
 
-소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
+소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
