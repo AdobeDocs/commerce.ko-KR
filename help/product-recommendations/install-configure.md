@@ -5,21 +5,12 @@ autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 2e7f6454-d4cb-44bc-982f-354a179e8e59
 TQID: https://experienceleague.adobe.com/z-ue-sojw9Iewuz-ZToCzkumP3qN-TCWWF3UWdpdIL0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-last-update: 2026-06-23
-source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+last-update: 2026-09-02
+source-git-commit: 299da83bd0a9b776ad6b13482b65af61bffe15fa
 workflow-type: tm+mt
 source-wordcount: 554
 ht-degree: 0%
@@ -57,7 +48,7 @@ Page Builder용 [!DNL Product Recommendations]은(는) 선택적 모듈이며 �
 composer require magento/module-page-builder-product-recommendations
 ```
 
-페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
+페이지 빌더에서 [!DNL Product Recommendations]을(를) 활성화하면 페이지, 블록 및 동적 블록과 같이 페이지 빌더에서 만든 모든 콘텐츠에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)를 추가할 수 있습니다.
 
 자세한 지침은 [페이지 빌더 콘텐츠로 사용 [!DNL Product Recommendations] 을 참조하세요](page-builder.md).
 
@@ -75,7 +66,7 @@ composer require magento/module-visual-product-recommendations
 
    이 연결을 구성하면 Commerce 인스턴스, 카탈로그 서비스 및 기타 지원 서비스 간에 데이터를 동기화하고 통신할 수 있습니다. [SaaS 데이터 내보내기 확장](../data-export/overview.md)에서 데이터 동기화를 처리합니다.
 
-1. 카탈로그 내보내기가 올바르게 실행되도록 하려면 [cron](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 작업과 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)가 실행 중이며 `Product Feed` 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오.
+1. 카탈로그 내보내기가 올바르게 실행되도록 하려면 [cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 작업과 [인덱서](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)가 실행 중이며 `Product Feed` 인덱서가 `Update by Schedule`(으)로 설정되어 있는지 확인하십시오.
 
 Commerce 응용 프로그램을 Commerce 서비스에 연결하고 [SaaS 데이터 공간](../landing/saas.md#saas-configuration)을 지정하면 카탈로그 동기화가 시작됩니다. 그런 다음 동작 데이터가 상점 앞으로 전송되고 있는지 [확인](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify)할 수 있습니다.
 
@@ -135,4 +126,4 @@ composer update --with-dependencies magento/product-recommendations magento/modu
 
 ## [!DNL Product Recommendations] 제거 {#uninstall}
 
-필요한 경우 제품 권장 사항 모듈을 [제거](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)할 수 있습니다.
+필요한 경우 제품 권장 사항 모듈을 [제거](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)할 수 있습니다.
