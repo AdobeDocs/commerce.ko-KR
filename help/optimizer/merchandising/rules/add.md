@@ -1,7 +1,7 @@
 ---
 title: 규칙 만들기 및 관리
 description: 검색, 기본 제품 목록 및 범주 페이지에 대한 머천다이징 규칙을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
 TQID: https://experienceleague.adobe.com/UOe-TPaF80Wrk-gNuJwLTdndVQMQfbYrbpAfb-r4pJc
 product_v2:
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->이 기능은 [베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
+>이 기능은 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
 
 **특성 순위**&#x200B;은(는) 개별 SKU를 선택하지 않아도 하나 이상의 특성 조건에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 동작을 자동으로 적용합니다. 속성 등급은 규칙 편집기에 [인텔리전트 등급](#intelligent-ranking) 및 [수동 등급](#manual-ranking)과 함께 표시되며 **모든 제품 규칙**, **검색 규칙** 및 **범주 규칙**&#x200B;에 사용할 수 있습니다. 예를 들어 특정 브랜드의 모든 제품을 부스팅하거나 모든 제품을 단종된 색상으로 매립하는 등 대규모 카탈로그에 머천다이징을 확장할 수 있습니다.
 
