@@ -11,9 +11,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+source-git-commit: 0802d0e53a1ed6701318647b7bf78435082ad5f3
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 477
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 0%
 [!DNL Product Recommendations]을(를) 페이지 빌더 콘텐츠 형식으로 페이지에 추가할 수 있습니다. 제품 권장 사항에 Page Builder 지원을 추가하려면 [설치 및 구성](install-configure.md)을 참조하세요.
 
 [!DNL Page Builder] 콘텐츠에 [!DNL Product Recommendations]을(를) 추가하는 방법에 대한 지침은 [[!DNL Page Builder] 통합](page-builder.md)을 참조하세요.
+
+### Fastly 이미지 최적화
+
+[!DNL Product Recommendations]은(는) [!DNL Product Recommendations] 이미지 URL에 Fastly 이미지 최적화 매개 변수를 적용하는 선택적 [Fastly 이미지 최적화](install-configure.md#fastlysupport) 모듈을 지원합니다. 이 지원을 추가하려면 [설치 및 구성](install-configure.md#fastlysupport)을 참조하세요.
 
 ### SaaS 가격 인덱싱
 

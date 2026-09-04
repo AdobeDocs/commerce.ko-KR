@@ -19,9 +19,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 last-update: 2026-09-02
-source-git-commit: 299da83bd0a9b776ad6b13482b65af61bffe15fa
+source-git-commit: 77e37e506362498a4ab27cd19152b4e4e742636b
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -67,6 +67,14 @@ _시각적 유사성_ 권장 사항 유형은 제품 세부 정보 페이지에�
 
 ```bash
 composer require magento/module-visual-product-recommendations
+```
+
+### Fastly 이미지 최적화 지원 추가 {#fastlysupport}
+
+[!DNL Product Recommendations]에 대한 Fastly 이미지 최적화 지원은 선택적 모듈이며 별도로 설치됩니다. 이 모듈은 [Fastly 이미지 최적화](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/fastly) 매개 변수를 [!DNL Product Recommendations] 이미지 URL에 적용합니다. 설치하려면 다음 명령을 실행합니다.
+
+```bash
+composer require magento/module-fastly-recommendations
 ```
 
 ## [!DNL Product Recommendations] 구성 {#configure}
