@@ -17,9 +17,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 77e37e506362498a4ab27cd19152b4e4e742636b
+source-git-commit: 77e386b2806ea3761009a6ab67e2ea7e879135dd
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2321
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ _2023년 4월 25일_
 
 ## 현재 메이저 버전
 
-### magento/module-fastly-recommendations 6.8.0
+### magento/product-recommendations 6.8.0
 
 _2026년 9월 3일_
 

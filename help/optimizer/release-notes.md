@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+source-git-commit: d36a8adc8cbfe6478c5922dc6cee654b48e9c30d
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1561
 ht-degree: 0%
 
 ---
@@ -31,6 +31,20 @@ ht-degree: 0%
 * [데이터 수집 REST API](https://developer.adobe.com/commerce/services/reference/rest/) 및 [상점 카탈로그 데이터 검색을 위한 GraphQL API](https://developer.adobe.com/commerce/services/reference/graphql/)에 대한 업데이트.
 
   {{aco-api-updates-and-dropins}}
+
+## 2026년 9월
+
+>[!BEGINSHADEBOX]
+
+_2026년 9월 3일_
+
+### 속성 등급(베타)
+
+[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 이제 **모든 제품 목록**, **범주 규칙** 및 **검색 규칙**&#x200B;에 대해 [**특성 순위**](./merchandising/rules/add.md#attribute-ranking)&#x200B;를 지원합니다. 개별 SKU를 선택하지 않고 하나 이상의 특성 조건(예: 브랜드 또는 카테고리)에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 작업을 자동으로 적용합니다. 속성 등급은 Beta 버전입니다. [자세히 알아보기](./merchandising/rules/add.md#attribute-ranking)
+
+{{aco-release}}
+
+>[!ENDSHADEBOX]
 
 ## 2026년 8월
 
