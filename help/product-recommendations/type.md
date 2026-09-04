@@ -3,19 +3,13 @@ title: 권장 사항 유형
 description: 사이트의 다양한 페이지에 배포할 수 있는 권장 사항에 대해 알아봅니다.
 exl-id: bbb290b0-b50b-43d9-bf71-1813298d5f39
 TQID: https://experienceleague.adobe.com/d2V9aHGQO8jnPXAIlae-GklfACARMrVEttryLOY3Zr8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 0802d0e53a1ed6701318647b7bf78435082ad5f3
 workflow-type: tm+mt
-source-wordcount: 2001
+source-wordcount: 2026
 ht-degree: 0%
 
 ---
@@ -132,6 +126,10 @@ Adobe Commerce은 사이트의 다양한 페이지에 배포할 수 있는 대�
 
 _시각적 유사성_ 권장 사항 형식은 보고 있는 제품과 유사한 형태의 제품을 권장합니다. 이 권장 사항 유형은 제품의 이미지와 시각적 측면이 쇼핑 경험의 중요한 부분인 경우 가장 유용합니다.
 
+>[!NOTE]
+>
+>이 권장 사항 유형은 대부분의 카탈로그에 적용할 수 없으므로 기본적으로 활성화되지 않습니다. 명시적으로 [이 권장 사항 유형을 사용](#enable-visual-similarity-recommendation-type)합니다.
+
 ### 작동 방식
 
 _시각적 유사성_ 권장 사항 유형은 현재 보고 있는 이미지와 시각적 유사성이 있는 카탈로그의 다른 제품에 대한 권장 사항을 제공합니다. 시각적 유사성에는 다음과 같은 측면이 포함됩니다.
@@ -145,15 +143,11 @@ _시각적 유사성_ 권장 사항 유형은 현재 보고 있는 이미지와 
 
 Adobe AI은 AI를 사용하여 카탈로그의 이미지를 처리하고 분석하고 시각적 유사성을 판별하는 데 사용되는 속성을 빌드합니다.
 
->[!NOTE]
->
-> 비프로덕션 환경에서 이 권장 사항 유형을 테스트하는 경우 이미지 URL에 공개적으로 액세스할 수 있는지 확인하십시오.
+#### 특별 고려 사항
 
->[!NOTE]
->
-> 현재 제품 이미지의 크기는 10MB 이하여야 합니다.
-
-이 권장 사항 유형은 대부분의 카탈로그에 적용할 수 없으므로 기본적으로 활성화되지 않습니다. 이 권장 사항 유형을 명시적으로 활성화하십시오.
+- 비프로덕션 환경에서 이 권장 사항 유형을 테스트하는 경우 이미지 URL에 공개적으로 액세스할 수 있는지 확인하십시오.
+- 현재 제품 이미지의 크기는 10MB 이하여야 합니다.
+- 선택적 [Fastly 이미지 최적화](install-configure.md#fastlysupport) 모듈은 [!DNL Product Recommendations] 이미지 URL에 Fastly 이미지 최적화 매개 변수를 적용할 수 있습니다. 자세한 내용은 [Fastly 이미지 최적화 지원 추가](install-configure.md#fastlysupport)를 참조하십시오.
 
 ### 시각적 유사성 추천 유형 활성화
 
