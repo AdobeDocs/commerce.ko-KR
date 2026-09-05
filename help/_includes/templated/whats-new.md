@@ -1,7 +1,7 @@
 ---
-source-git-commit: 73cfc898b25e731238b049419fe0e964e29e92b6
+source-git-commit: 4a68ab79a6ddbd39efe5825fcbe2137ddf83f471
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 9월 2일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/insights/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/7c82665f7696cab156f6559ade451df937faa3e5">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 8월 28일
 
@@ -353,28 +375,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/976a43b367be87363307dc27c55f98df18271eb1">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 6일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>LLM Optimizer 및 Commerce 통합 설명서를 제거했습니다. 기능의 범위가 다시 지정되었으며 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">Commerce 관리 가이드</a>(으)로 이동되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/edab7c8b3c7965425c5d3008a537f7e4a1fc374b">커밋</a></td>
     </tr>
   </tbody>
 </table>
