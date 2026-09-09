@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 last-update: 2026-08-07
-source-git-commit: 49a235a3a545b422b0371b53163d7de770df6a38
+source-git-commit: 8fdfd3ebfa088fd219c65c86ce99cae838ff5d54
 workflow-type: tm+mt
-source-wordcount: 6271
+source-wordcount: 6358
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ## 2026년 9월 - 릴리스 #1 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목은 2026년 9월 8일에 프로덕션에 게시됩니다.
+다음 항목은 2026년 9월 8일에 프로덕션에 게시되었습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### REST API를 통해 샌드박스 및 프로덕션 구성 동기화
 
-새 `GET` 및 `PUT /V1/system/config` REST API 끝점을 사용하면 통합에서 다음을 포함한 Commerce 시스템 구성 값을 읽고 업데이트할 수 있습니다.
+새 [`GET` 및 `PUT /V1/system/config`](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/system-config) REST API 끝점을 사용하여 통합에서 다음을 포함한 Commerce 시스템 구성 값을 읽고 업데이트할 수 있습니다.
 
 * 정보 저장
 * 배송 및 세금 설정
@@ -77,15 +77,17 @@ ht-degree: 0%
 
 ### GraphQL을 통해 인벤토리 가용성 쿼리
 
-새 `sourceAvailability` GraphQL 쿼리는 하나 이상의 SKU에 대해 소스당 재고 가용성을 반환하므로 제품 및 카테고리 페이지와 같은 스토프런트는 각 재고 소스에 대한 정확한 재고 정보를 표시할 수 있습니다. <!-- ACCS-933 -->
+새 [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability) GraphQL 쿼리는 하나 이상의 SKU에 대해 소스당 재고 가용성을 반환하므로 제품 및 범주 페이지와 같은 스토프라인은 각 재고 소스에 대한 정확한 재고 정보를 표시할 수 있습니다.
+
+[Source당 **가용성 사용**](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/global-options). <!-- ACCS-933 -->
 
 ### GraphQL을 통해 영구 위시리스트 및 계정 공유 설정 읽기
 
-이제 `storeConfig` GraphQL 쿼리가 `persistent_enabled`, `persistent_shopping_cart`, `persistent_options_wishlist` 및 `share_customer_accounts_scope` 구성 값을 반환하므로 상점이 지원 팀에 문의하지 않고도 판매자 영구 장바구니 및 위시리스트 설정에 액세스할 수 있습니다. <!-- USF-4051 -->
+이제 [`storeConfig`](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/store-config/#query-a-stores-persistent-cart-and-account-sharing-configuration) GraphQL 쿼리가 `persistent_enabled`, `persistent_shopping_cart`, `persistent_options_wishlist` 및 `share_customer_accounts_scope` 구성 값을 반환하므로 상점이 지원 팀에 문의하지 않고도 판매자 영구 장바구니 및 위시리스트 설정에 액세스할 수 있습니다. <!-- USF-4051 -->
 
 ### 제품, SKU 또는 주문 ID로 고객 주문 검색
 
-이제 `CustomerOrdersFilterInput` GraphQL 입력에서 제공하는 다른 필터와 결합하여 주문 번호, 항목 SKU 또는 항목 이름과 일치하는 선택적 `search` 필드를 지원합니다. <!-- USF-4290 -->
+이제 [`CustomerOrdersFilterInput`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer) GraphQL 입력에서 제공하는 다른 필터와 함께 주문 번호, 항목 SKU 또는 항목 이름과 일치하는 선택적 `search` 필드를 지원합니다. <!-- USF-4290 -->
 
 ### API를 통해 사용자 정의 이메일 템플릿 업데이트 및 삭제
 
@@ -136,15 +138,14 @@ GraphQL 돌연변이 및 REST 끝점을 포함한 자세한 정보는 [Storefron
 
 ### 무료 선물 카트 가격 규칙
 
-**무료 선물** 장바구니 가격 규칙은 이제 [!DNL Commerce Admin]에서 상점 전선에 사용할 수 있습니다. <!-- AC-17678 -->
+[**무료 선물** 장바구니 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-free-gift)은(는) 이제 [!DNL Commerce Admin]에서 상점 앞에 사용할 수 있습니다.
+<!-- AC-17678 -->
 
-이 규칙을 사용하면 규칙 조건이 충족될 때 무료 선물 제품을 장바구니에 추가할 수 있습니다.
-
-<!-- dependent on https://github.com/Adobe-Enterprise-Docs/commerce-admin.en/pull/856 and https://github.com/AdobeDocs/commerce-webapi/pull/590 -->
+이 규칙을 사용하면 규칙 조건이 충족될 때 무료 선물 제품을 장바구니에 추가할 수 있습니다. 규칙에 선택이 필요한 경우, 쇼핑객은 구성 및 번들 선물 제품을 지원하는 새로운 [`selectFreeGiftForCart`](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift) GraphQL 돌연변이를 사용하여 선물 SKU를 선택할 수 있습니다.
 
 ### 일자 및 시간별 장바구니 가격 규칙 예약
 
-이제 [장바구니 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create)을(를) [!DNL Commerce Admin]에 시작하거나 종료할 시간을 설정할 수 있습니다. 장바구니 가격 규칙 그리드는 예약된 시간을 표시하며 REST API는 규칙을 자정으로 설정하는 대신 `from_date` 및 `to_date`에 제출된 시간을 적용합니다. <!-- ACCS-970 -->
+이제 [장바구니 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#rule-information)을(를) [!DNL Commerce Admin]에 시작하거나 종료할 시간을 설정할 수 있습니다. 장바구니 가격 규칙 그리드는 예약된 시간을 표시하며 REST API는 규칙을 자정으로 설정하는 대신 `from_date` 및 `to_date`에 제출된 시간을 적용합니다. <!-- ACCS-970 -->
 
 <!-- commenting this out until the B2B compatibility package version is live. -->
 
