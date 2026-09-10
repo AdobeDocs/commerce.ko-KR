@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d36a8adc8cbfe6478c5922dc6cee654b48e9c30d
+source-git-commit: 631126cc8d9b69c41aed19e30bf1503dd950d7e9
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1626
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ _2026년 9월 3일_
 ## 2026년 8월
 
 >[!BEGINSHADEBOX]
+
+_2026년 9월 9일_
+
+![새로 만들기](../assets/new.svg) **다중 값 HTTP 헤더 트리거 정책**—이제 `HTTP_HEADER` 전송 형식을 사용하는 트리거 정책은 단일 헤더에서 쉼표로 구분된 여러 값을 받을 수 있습니다(예: `AC-Policy-Vehicle: UNIVERSAL,veh-bolt-mammoth-limited-2025`). `IN`을(를) 사용하는 정책 필터는 `OR` 의미 체계를 사용하여 값을 평가합니다. 헤더에 여러 값이 포함된 경우 `EQUALS`, `GREATER_THAN_EQUAL` 또는 `LESS_THAN_EQUAL`을(를) 사용하는 필터가 유효성 검사 오류로 요청을 거부합니다. 이 동작은 `HTTP_HEADER` 전송을 사용하는 트리거 정책에만 적용됩니다. [자세히 알아보기](./setup/policies.md#multi-value-http-header-triggers)
+<!--COMOPT-2439-->
 
 _2026년 8월 7일_
 

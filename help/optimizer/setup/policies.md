@@ -13,9 +13,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 4a9bb6c6473680ee7059d1844be5fee718a9ed68
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1054
 ht-degree: 0%
 
 ---
@@ -61,6 +61,28 @@ ht-degree: 0%
 - `AC-Policy-Model`
 
 쇼핑객이 **브랜드** 드롭다운을 클릭하면 API 호출의 헤더에 `AC-Policy-Brand` 정책과 관련된 제품만 표시하도록 구성된 `AC-Policy-Brand`이(가) 포함됩니다.
+
+### 다중 값 HTTP 헤더 트리거 {#multi-value-http-header-triggers}
+
+`HTTP_HEADER` 전송 형식을 사용하는 트리거 정책은 단일 헤더에서 여러 값을 받을 수 있습니다. 값은 쉼표로 구분해야 하며 필터 연산자는 `IN`이어야 합니다. 각 값은 허용되는 일치 항목으로 처리됩니다. 값은 `OR` 의미 체계를 사용하여 평가됩니다.
+
+예를 들어 다음 헤더와 함께 `IN`을(를) 사용하는 정책 필터:
+
+```
+AC-Policy-Vehicle: UNIVERSAL,veh-bolt-mammoth-limited-2025
+```
+
+`vehicle` 특성이 `UNIVERSAL` 또는 `veh-bolt-mammoth-limited-2025`인 제품과 일치합니다.
+
+반면에 `EQUALS`, `GREATER_THAN_EQUAL` 또는 `LESS_THAN_EQUAL`의 필터 연산자는 유효성 검사 오류로 거부됩니다.
+
+#### 구문 참고 사항
+
+- 헤더 이름은 사용자가 구성하는 트리거 이름과 일치합니다(예: `AC-Policy-Vehicle`).
+- 쉼표는 헤더 내에서 개별 값을 구분합니다. 동일한 `AC-Policy-_Name_` 헤더가 두 번 이상 나타나면 해당 값은 쉼표로 구분된 단일 헤더 값으로 결합됩니다.
+- 필터 연산자는 `IN`입니다.
+- **값 원본**&#x200B;이(가) `TRIGGER`(으)로 설정된 정책 필터.
+- **전송 형식**&#x200B;이(가) `HTTP_HEADER`인 트리거입니다.
 
 ## 정책 만들기
 
