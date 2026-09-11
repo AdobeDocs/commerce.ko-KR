@@ -3,29 +3,18 @@ title: Storefront 및 Catalog 관리자 엔드 투 엔드 활용 사례
 description: ' [!DNL Adobe Commerce Optimizer] 을(를) 사용하여 카탈로그 보기 및 정책을 사용하여 카탈로그를 관리하는 방법과 카탈로그 구성에 따라 상점을 설정하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
 TQID: https://experienceleague.adobe.com/sqz0syCSh3ls8F-WIbuzPyqeRguyXdsPw-7OerOnDes
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc50e4d7bcd118b2b9a800779c600ade5560e0bf
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 2232
+ht-degree: 1%
 
 ---
 
@@ -44,23 +33,23 @@ ht-degree: 0%
 이 자습서를 시작하기 전에 다음 사전 요구 사항이 있는지 확인하십시오.
 
 - **[!DNL Adobe Commerce Optimizer]인스턴스**
-   - Cloud Manager의 테스트 인스턴스에 액세스
-   - 설치 지침은 [시작하기](../get-started.md)를 참조하세요.
+  - Cloud Manager의 테스트 인스턴스에 액세스
+  - 설치 지침은 [시작하기](../get-started.md)를 참조하세요.
 
 - **사용자 권한**
-   - Adobe Admin Console에 대한 관리자 액세스
-   - 계정 설정에 대해서는 [사용자 관리](../user-management.md)를 참조하십시오.
-   - 액세스 권한이 없는 경우 Adobe 계정 담당자에게 문의하십시오.
+  - Adobe Admin Console에 대한 관리자 액세스
+  - 계정 설정에 대해서는 [사용자 관리](../user-management.md)를 참조하십시오.
+  - 액세스 권한이 없는 경우 Adobe 계정 담당자에게 문의하십시오.
 
 - **샘플 데이터**
-   - 인스턴스에 로드된 Carvelo 자동차 카탈로그 데이터
-   - [샘플 카탈로그 데이터 수집 저장소](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)의 지침을 따르십시오.
-   - 포함된 `reset.js` 스크립트를 사용하여 완료 후 샘플 데이터를 삭제할 수 있습니다.
+  - 인스턴스에 로드된 Carvelo 자동차 카탈로그 데이터
+  - [샘플 카탈로그 데이터 수집 저장소](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)의 지침을 따르십시오.
+  - 포함된 `reset.js` 스크립트를 사용하여 완료 후 샘플 데이터를 삭제할 수 있습니다.
 
 - **Storefront 환경**
-   - Node.js가 있는 로컬 개발 환경
-   - Storefront 보일러플레이트 프로젝트 복제 및 구성
-   - 자세한 지침은 [상점 설치](../storefront.md)를 참조하세요.
+  - Node.js가 있는 로컬 개발 환경
+  - Storefront 보일러플레이트 프로젝트 복제 및 구성
+  - 자세한 지침은 [상점 설치](../storefront.md)를 참조하세요.
 
 ## 시작하겠습니다.
 
@@ -72,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=ko) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
+> Adobe Commerce Storefront 설명서의 [보일러플레이트 살펴보기](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/boilerplate-project/) 항목을 검토하여 Storefront 구성 파일에 대해 알아봅니다.
 
 ### 주요 ‌ 사항
 
@@ -249,7 +238,7 @@ Celport 판매자가 판매하는 SKU(브레이크 및 서스펜션 부품 포�
    - **이름** = *Celport*
    - **카탈로그 원본** = *en-US*
    - **정책**(드롭다운 사용) = *East Coast Inc 브랜드*; *Celport 일부 범주*; *브랜드*; *모델*
-                         
+                              
 1. 카탈로그 보기를 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    카탈로그 보기 페이지가 업데이트되어 새 카탈로그 보기가 표시됩니다.
@@ -466,4 +455,4 @@ Celport 카탈로그 보기를 사용하도록 Storefront 구성을 업데이트
 - [고급 정책 구성](../setup/policies.md)에 대해 알아보기
 - 다른 대리점에 대해 [추가 카탈로그 보기](../setup/catalog-view.md)를 설정합니다.
 - 프로그래밍 방식 카탈로그 관리에 대한 [API 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 검토하십시오.
-- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=ko) 보기
+- Edge Delivery Services Storefront의 드롭인 구성 요소를 구성하여 제품 검색, 권장 사항 및 기타 Storefront 기능을 위한 맞춤형 Storefront 경험을 만드는 방법에 대해 알아봅니다. [Storefront 설명서](https://experienceleague.adobe.com/en/tools/commerce-storefront/dropins/all/introduction/) 보기

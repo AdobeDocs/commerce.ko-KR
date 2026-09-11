@@ -5,33 +5,18 @@ feature: Cloud, Integration
 role: Admin, Developer, User
 level: Beginner
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:01:44.084Z'
 TQID: 'https://experienceleague.adobe.com/fGnz7X-DD5KzHhVtS0VR2NpVVEpwMQjzD2l0KO97-r4'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1337
+source-wordcount: 1338
 ht-degree: 0%
 
 ---
@@ -83,7 +68,7 @@ ht-degree: 0%
 
 >[!TAB 시스템 관리자 및 판매자 워크플로]
 
-이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/kr/business/enterprise.html)를 참조하십시오.
+이 다이어그램은 시스템 관리자와 판매자가 [!DNL Adobe Commerce as a Cloud Service]개의 인스턴스에 액세스하고 관리하는 방법에 대한 높은 수준의 개요를 제공합니다. 관리자 워크플로에 대한 자세한 내용은 [Adobe Admin Console 안내서](https://helpx.adobe.com/business/enterprise.html)를 참조하십시오.
 
 ![Adobe Commerce as a Cloud Service에 대한 시스템 관리자 및 판매자 워크플로 다이어그램](./assets/merchant-flow.png){zoomable="yes"}
 
@@ -234,7 +219,7 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 카탈로그를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 가져오는 방법에는 두 가지가 있습니다.
 
-* [**Commerce 관리자**](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
+* [**Commerce 관리자**](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - 몇 번의 클릭만으로 카탈로그 데이터를 가져올 수 있는 사용자 친화적인 인터페이스입니다.
 * [**JSON API 가져오기**](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - 카탈로그 데이터를 프로그래밍 방식으로 가져올 수 있는 REST API입니다.
 
 ### 상점 배치
@@ -245,4 +230,4 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 
 * [릴리스 정보](release-notes.md)
 * [마이그레이션 안내서](migration/overview.md)
-* [Commerce Storefront 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+* [Commerce Storefront 설명서](https://experienceleague.adobe.com/en/tools/commerce-storefront/)
