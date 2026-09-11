@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f37892b9a2de995dbc4b631ae1008e09cda68207
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1030
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ RAG 서비스는 커서 및 기타 MCP 호환 AI 도우미와 통합되는 [Comm
 
 | 카테고리 | 색인 | 포함된 콘텐츠 | 키워드 |
 |-------|---------|---------|------------------------|
-| [Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
+| [Storefront](https://experienceleague.adobe.com/en/tools/commerce-storefront/) | commerce-storefront-docs | Edge Delivery Services, 드롭인, 상점 첫 화면 구성 요소 | storefront, 드롭인, EDS, 제품 목록, 체크아웃 |
 | [확장성](https://developer.adobe.com/commerce/extensibility/) | commerce-extensibility-docs | Webhooks, 이벤트, 확장, 통합 | webhook, 이벤트, 확장, API mesh, GraphQL |
 | [Commerce](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview) | commerce-core-docs | 핵심 Commerce(카탈로그, 고객, 주문) | 카탈로그, 제품, 고객, 주문, 재고 |
 | [App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, 런타임 작업, UI 확장 | 앱 빌더, 런타임 작업, React Spectrum |

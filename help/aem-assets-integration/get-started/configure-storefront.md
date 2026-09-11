@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f901cec90291e264376e3f93e6ebaaccf7c15f0
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 610
+source-wordcount: 612
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Edge Delivery Services에서 제공하는 Commerce storefront에서 통합을 �
 
 Commerce 드롭인에서 `commerce-assets-enabled` 구성을 자동으로 감지하고 그에 따라 이미지 처리를 조정합니다.
 
-Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하는 방법에 대한 자세한 내용은 *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=ko) 항목을 참조하십시오.
+Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하는 방법에 대한 자세한 내용은 *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-assets-configuration/) 항목을 참조하십시오.
 
 >[!TIP]
 >
@@ -104,7 +104,7 @@ Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Asse
 
 ## 관련 설명서
 
-* *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=ko){target=_blank}—storefront 구성 및 이미지 처리 동작.
+* *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-assets-configuration/){target=_blank}—storefront 구성 및 이미지 처리 동작.
 
 * *AEM Assets* 설명서에서 [Edge Delivery Services에 대한 콘텐츠를 작성하는 동안 AEM Assets을 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services/integrate-aem-assets-edge-delivery-services){target=_blank}합니다.
 

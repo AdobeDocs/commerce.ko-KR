@@ -36,9 +36,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1456
+source-wordcount: 1458
 ht-degree: 0%
 
 ---
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ## Commerce 상점 첫 화면
 
-[!DNL Storefront Builder]을(를) 사용하여 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들려면 [!DNL Edge Delivery Services]에서 제공하는 Adobe의 [[!DNL Commerce Storefront]](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)을(를) 사용하십시오.
+[!DNL Storefront Builder]을(를) 사용하여 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들려면 [!DNL Edge Delivery Services]에서 제공하는 Adobe의 [[!DNL Commerce Storefront]](https://experienceleague.adobe.com/en/tools/commerce-storefront/)을(를) 사용하십시오.
 
 [!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 Adobe Merchandising 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. [!DNL Adobe Commerce on Cloud] 또는 온-프레미스에서 마이그레이션하는 경우 [기존 상점](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=ko#existing-storefronts)에서 전환 지침을 참조하십시오.
+>[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. [!DNL Adobe Commerce on Cloud] 또는 온-프레미스에서 마이그레이션하는 경우 [기존 상점](https://experienceleague.adobe.com/en/tools/commerce-storefront/discovery/#existing-storefronts)에서 전환 지침을 참조하십시오.
 
 ## Adobe Merchandising 서비스 및 결제 서비스
 

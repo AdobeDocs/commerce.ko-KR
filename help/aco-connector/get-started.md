@@ -26,9 +26,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 last-update: 2026-08-10
-source-git-commit: bffd9077e8745de887b0d97c40ec9aa0e520ce8b
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1107
 ht-degree: 3%
 
 ---
@@ -206,4 +206,4 @@ ht-degree: 3%
 
 1. **[!DNL Edge Delivery Services]**&#x200B;에서 Commerce 상점 설정
 
-   [!DNL Commerce Optimizer] 인스턴스에 상점 전선을 연결하고 개인화된 상거래 경험을 게재하려면 [상점 전선의 설정 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=ko){target="_blank"}를 따르십시오.
+   [!DNL Commerce Optimizer] 인스턴스에 상점 전선을 연결하고 개인화된 상거래 경험을 게재하려면 [상점 전선의 설정 설명서](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/){target="_blank"}를 따르십시오.

@@ -35,9 +35,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 289267c4bb76bbe1e9f00fd02faa7749b812d0d0
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 3372
+source-wordcount: 3374
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 
 - [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) 및 [Adobe Developer App Builder용 API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
 - [Commerce Optimizer](../../optimizer/overview.md)
-- [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)
+- [Edge Delivery Services](https://experienceleague.adobe.com/en/tools/commerce-storefront/)
 - [Commerce Cloud 관리자](../getting-started.md#create-an-instance)를 사용한 셀프서비스 프로비저닝
 
 ### 마이그레이션 여정
@@ -214,7 +214,7 @@ Commerce 개발자 MCP는 [마이그레이션 평가](#migration-assessment-tool
 
 ### Storefront 현대화
 
-프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP는 Edge Delivery Services(EDS) 보일러플레이트, 드롭인 구성 요소 및 EDS 블록을 사용하여 Commerce용 EDS의 [storefrontns](https://experienceleague.adobe.com/en/tools/commerce-storefront/)을(를) 현대화합니다.
 
 Commerce Developer MCP는 Commerce 보일러플레이트를 기반으로 기존 상점 프로젝트를 로드합니다. 다음과 같은 방법으로 상점을 현대화합니다.
 

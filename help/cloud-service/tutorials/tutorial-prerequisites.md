@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e7840a7b-a94f-4256-aed0-4e94b08e157b
-source-git-commit: d9ea778afc86de323e53cd1be4768bc87cb71a8b
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1289
+source-wordcount: 1291
 ht-degree: 0%
 
 ---
@@ -417,7 +417,7 @@ aio app use --merge
 
 * [Google Chrome](https://www.google.com/chrome/) - 상점 첫 화면 테스트에 필요
 
-* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko#link-repo-to-commerce-data){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko){target="_blank"}의 단계를 따릅니다.
+* [!DNL Commerce] 인스턴스에 연결된 Storefront 프로젝트. Storefront 프로젝트가 없는 경우 [상거래 데이터에 리포지토리 연결](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"} 섹션을 포함하여 [Storefront 만들기](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/create-storefront/){target="_blank"}의 단계를 따릅니다.
 
 ### Storefront 리포지토리 복제
 

@@ -20,9 +20,9 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 75da477c3725f754495f5b13f99d65c66a2bf5ae
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 1090
+source-wordcount: 1091
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://
 
 ![확인](assets/icon-check.png) **Adobe 관리 지원 모델** - Adobe은 지원 및 문제 해결을 직접 처리하므로 안정적인 지원과 능률적인 문제 해결을 제공합니다.
 
-![확인](assets/icon-check.png) **Adobe Storefront Builder 기능** - DAM(디지털 에셋 관리) 솔루션을 통해 [Storefront Builder](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=ko#userlabs-commerce-genai-product-visuals)에서 이미지, 비디오 및 기타 미디어와 같은 에셋을 사용할 수 있습니다.
+![확인](assets/icon-check.png) **Adobe Storefront Builder 기능** - DAM(디지털 에셋 관리) 솔루션을 통해 [Storefront Builder](https://experienceleague.adobe.com/en/tools/commerce-storefront/merchants/storefront-builder/#userlabs-commerce-genai-product-visuals)에서 이미지, 비디오 및 기타 미디어와 같은 에셋을 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

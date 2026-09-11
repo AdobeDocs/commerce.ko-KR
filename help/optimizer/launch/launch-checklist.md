@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ee42a1e02e4057ff324808133a533a198d390980
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 2296
+source-wordcount: 2309
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 Edge Delivery Services 상점 사이트가 존재하며 액세스가 제한되어 있는지 확인합니다.
 
-▢ Storefront 사이트가 있습니다. [상점 만들기](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=ko)를 참조하세요.
+▢ Storefront 사이트가 있습니다. [상점 만들기](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/create-storefront/)를 참조하세요.
 ▢ 사이트 이름을 알고 있습니다.
 ▢ 권한이 있는 사람만 [게시할 수 있는 권한](https://tools.aem.live/tools/user-admin/index.html)을 가집니다.
 ▢ 권한이 있는 사용자만 [작성자 권한](https://docs.da.live/administrators/guides/permissions)을 갖습니다.
@@ -117,18 +117,18 @@ Edge Delivery Services 상점 사이트가 존재하며 액세스가 제한되�
 
 ### Adobe Commerce에서
 
-▢ Storefront 호환성 패키지가 [설치됨](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/?lang=ko)입니다.
+▢ Storefront 호환성 패키지가 [설치됨](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/storefront-compatibility/install/)입니다.
 
 ### 상점 앞에서
 
-▢ 상점 `commerce-core-endpoint` 설정이 [Cloud GraphQL 끝점](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko)을 가리킵니다.
+▢ 상점 `commerce-core-endpoint` 설정이 [Cloud GraphQL 끝점](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/)을 가리킵니다.
 ▢ API Mesh를 Cloud GraphQL의 프록시로 사용하는 경우 `commerce-core-endpoint`은(는) Cloud GraphQL 끝점 대신 API Mesh 끝점을 가리킵니다.
 
 ## Storefront 및 Optimizer 통합 확인 {#storefront-optimizer-integration}
 
 Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
-▢ 상점 첫 화면에서 올바른 [Commerce Optimizer 설정](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko)을 사용합니다.
+▢ 상점 첫 화면에서 올바른 [Commerce Optimizer 설정](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/)을 사용합니다.
 ▢ `adobe-commerce-optimizer`은(는) `true`입니다.
 ▢ `commerce-endpoint`은(는) 프로덕션 Commerce Optimizer GraphQL 끝점 또는 API Mesh 사용 시 API Mesh 끝점을 가리킵니다.
 ▢ `headers.cs.AC-view-ID`은(는) 프로덕션 Commerce Optimizer 인스턴스의 카탈로그 보기 ID를 보유합니다.
@@ -189,8 +189,8 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
 메타데이터, URL 및 크롤링 동작을 확인합니다.
 
-▢ 문서 제목 메타데이터가 키 페이지(특히 PDP 및 PLP)에 대해 있습니다. _Adobe Commerce 상점_ 설명서에서 [SEO 메타데이터](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ko){target="_blank"}을(를) 참조하십시오.
-▢개의 PDP에 [메타데이터 및 구조화된 데이터](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ko){target="_blank"}(예: JSON-LD)가 포함되어 있습니다.
+▢ 문서 제목 메타데이터가 키 페이지(특히 PDP 및 PLP)에 대해 있습니다. _Adobe Commerce 상점_ 설명서에서 [SEO 메타데이터](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/seo/metadata/){target="_blank"}을(를) 참조하십시오.
+▢개의 PDP에 [메타데이터 및 구조화된 데이터](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/seo/metadata/){target="_blank"}(예: JSON-LD)가 포함되어 있습니다.
 ▢ 제품 URL 형식이 일관됩니다(예: `domain/product-name`).
 ▢ 가상 URL이 표준 URL로 리디렉션됩니다.
 ▢ 프로젝트에 필요한 경우 인덱싱을 허용하고 사이트 맵을 참조하며 인덱싱하지 않을 경로를 차단하는 `robots.txt`이(가) 포함되어 있습니다(예: `/drafts`).
@@ -204,7 +204,7 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
 활성화된 서버측 렌더링을 확인합니다.
 
-키 페이지에 대해 ▢ 미리 렌더링이 설정되어 있습니다. _AEM 상점_ 설명서에서 [Adobe Commerce용 사전 렌더링](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-prerender/?lang=ko){target="_blank"}을 참조하십시오.
+키 페이지에 대해 ▢ 미리 렌더링이 설정되어 있습니다. _AEM 상점_ 설명서에서 [Adobe Commerce용 사전 렌더링](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-prerender/){target="_blank"}을 참조하십시오.
 ▢ URL은 소문자를 사용하므로 사전 렌더링이 링크를 끊지 않습니다.
 ▢ HTML 소스에는 사전 렌더링 작업을 확인하는 메타데이터 및 본문 콘텐츠가 포함되어 있습니다.
 해당되는 경우 ▢개의 로케일에 올바른 번역된 페이지가 표시됩니다.
@@ -214,10 +214,10 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
 성능 기준선 및 분석 배선을 확인합니다.
 
-▢ 스토어프론트는 _Adobe Commerce 스토어프론트_ 설명서에서 [성능 모범 사례](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/performance/?lang=ko){target="_blank"}를 따릅니다.
+▢ 스토어프론트는 _Adobe Commerce 스토어프론트_ 설명서에서 [성능 모범 사례](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/performance/){target="_blank"}를 따릅니다.
 ▢(선택 사항) Google Analytics 및 Google Tag Manager가 구성되어 있습니다.
 ▢ [Storefront 이벤트](https://github.com/adobe/commerce-events/tree/main/examples/events/snowplow-debugger) 구현이 유효하고 Adobe Commerce *관리자*&#x200B;의 [!DNL Live Search] 및 [!DNL Product Recommendations] 대시보드에 데이터가 표시됩니다.
-▢ [Commerce 구성](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko){target="_blank"}의 `environment` 분석 매개 변수는 개발 중 `"Testing"`이고 Go-Live 시 `"Production"`입니다. [분석 계측](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/?lang=ko){target="_blank"}을 참조하십시오.
+▢ [Commerce 구성](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/){target="_blank"}의 `environment` 분석 매개 변수는 개발 중 `"Testing"`이고 Go-Live 시 `"Production"`입니다. [분석 계측](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/analytics/instrumentation/){target="_blank"}을 참조하십시오.
 ▢ 등대 점수는 이 항목의 지침에 따라 대상(예: 키 페이지의 `100`)을 충족합니다.
 
 ### 보안 및 액세스
@@ -226,7 +226,7 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
 DA 콘텐츠 및 EDS 사이트에 대해 적절한 권한이 ▢개 구성되었습니다. 작성에 대한 [DA.live 권한](https://da.live/docs/administration/permissions) 및 [인증 설정](https://www.aem.live/docs/authentication-setup-authoring)을 참조하세요.
 ▢ 제품 시각적 개체 통합이 프로비전되었습니다. [AEM Cloud Service 액세스 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/accessing/overview#)를 참조하십시오.
-전자 메일 템플릿의 암호 재설정 링크 ▢개가 Edge Delivery Services 설정과 일치합니다. 상점 FAQ를 참조하십시오. [Edge Delivery Services 또는 Helix로 마이그레이션한 후 이메일 템플릿 링크가 끊어진 경우 어떻게 해야 합니까?](https://experienceleague.adobe.com/developer/commerce/storefront/troubleshooting/faq/?lang=ko#what-should-i-do-if-my-email-template-links-are-broken-after-migrating-to-edge-delivery-services-or-helix){target="_blank"}.
+전자 메일 템플릿의 암호 재설정 링크 ▢개가 Edge Delivery Services 설정과 일치합니다. 상점 FAQ를 참조하십시오. [Edge Delivery Services 또는 Helix로 마이그레이션한 후 이메일 템플릿 링크가 끊어진 경우 어떻게 해야 합니까?](https://experienceleague.adobe.com/en/tools/commerce-storefront/troubleshooting/faq/#what-should-i-do-if-my-email-template-links-are-broken-after-migrating-to-edge-delivery-services-or-helix){target="_blank"}.
 통합 및 결제 공급자를 위한 ▢ 프로덕션 키가 있습니다.
 ▢ 도메인은 허용 목록에추가된이며 백엔드 웹후크가 작동합니다.
 
@@ -236,8 +236,8 @@ CDN, DNS 및 캐시 동작을 확인합니다.
 
 ▢ CDN 구성은 Sidekick 확장 및 스크립트(예: 사이트 맵 생성 및 이미지 가져오기)에 대해 프로덕션 GraphQL 끝점(`yourproject.com/graphql`)을 사용합니다.
 ▢ Adobe Commerce Fastly를 사용하는 경우 CDN 제거 토큰을 사용할 수 있고 [사이트 구성](https://tools.aem.live/tools/cdn-setup/index.html)에 `authToken` 및 `serviceId`이(가) 포함됩니다.
-▢ [CDN 구성](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/?lang=ko){target="_blank"}이(가) 캐싱 및 무효화를 확인합니다.
-▢ [다중 저장소 설정](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ko#multi-store-setups){target="_blank"}의 경우 카탈로그 서비스 및 [!DNL Live Search] 요청에 저장소 특정 캐시 버스터(예: 쿼리 매개 변수 또는 CDN 규칙)가 포함되어 있습니다.
+▢ [CDN 구성](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/content-delivery-network/){target="_blank"}이(가) 캐싱 및 무효화를 확인합니다.
+▢ [다중 저장소 설정](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/seo/indexing/#multi-store-setups){target="_blank"}의 경우 카탈로그 서비스 및 [!DNL Live Search] 요청에 저장소 특정 캐시 버스터(예: 쿼리 매개 변수 또는 CDN 규칙)가 포함되어 있습니다.
 ▢ 푸시 무효화가 끝까지 작동합니다(변경 내용을 게시한 다음 프로덕션 도메인에서 확인).
 전환 전에 ▢ DNS TTL이 충분히 낮습니다.
 ▢ DNS A 및 CNAME 레코드가 모든 도메인 및 호스트 이름에 대해 올바릅니다.

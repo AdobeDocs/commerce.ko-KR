@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 608
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Adobe Commerce은 OpenTelemetry를 통해 다음과 같은 가시성 도구를 �
 
 ### CDN 및 Real User Monitoring
 
-CDN 원본을 통한 [프록시 RUM(Real User Monitoring)](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/?lang=ko#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) 데이터 수집으로 추가 TLS 핸드셰이크를 제거하고 프런트 엔드 성능 측정을 개선합니다.
+CDN 원본을 통한 [프록시 RUM(Real User Monitoring)](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/content-delivery-network/#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) 데이터 수집으로 추가 TLS 핸드셰이크를 제거하고 프런트 엔드 성능 측정을 개선합니다.
 
 ## 가시성 비디오
 

@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 966
+source-wordcount: 967
 ht-degree: 2%
 
 ---
@@ -136,7 +136,7 @@ AEM Assets as a Cloud Service 프로젝트가 [사용자 지정 도메인 이름
 
 ## 다음 단계
 
-* **Commerce 상점 첫 화면 구성**—Edge Delivery Services에서 제공하는 Commerce 상점 첫 화면의 AEM Assets을 사용하려면 *Adobe Commerce 상점 첫 화면 설명서*&#x200B;의 [AEM Assets 통합](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=ko) 주제에 설명된 상점 첫 화면 구성을 완료하십시오.
+* **Commerce 상점 첫 화면 구성**—Edge Delivery Services에서 제공하는 Commerce 상점 첫 화면의 AEM Assets을 사용하려면 *Adobe Commerce 상점 첫 화면 설명서*&#x200B;의 [AEM Assets 통합](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-assets-configuration/) 주제에 설명된 상점 첫 화면 구성을 완료하십시오.
 
 * Adobe Commerce과 AEM Assets 통합 간에 [일치하는 규칙](../synchronize/default-match.md)을(를) 설정합니다.
 

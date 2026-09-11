@@ -19,9 +19,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 last-update: 2026-08-20
-source-git-commit: 6353eb00a3837c77f4bdecb26530ae34ec696c53
+source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ https://<region>-<environment>.api.commerce.adobe.com/<tenantId>/graphql
 
 Headless Storefront와 통합하려면 Storefront 구성을 업데이트하여 Storefront와 [!DNL Catalog Service] 간의 통신을 통해 제품 및 카테고리 데이터를 검색해야 합니다.
 
-Edge Delivery Services에서 Adobe Commerce Storefront를 사용하는 경우 카탈로그 서비스 엔드포인트를 storefront 구성에 추가하십시오. 자세한 내용은 [Edge Delivery Services 설명서](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=ko#storefront-configuration)를 참조하세요.
+Edge Delivery Services에서 Adobe Commerce Storefront를 사용하는 경우 카탈로그 서비스 엔드포인트를 storefront 구성에 추가하십시오. 자세한 내용은 [Edge Delivery Services 설명서](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/#storefront-configuration)를 참조하세요.
 
 다른 통합의 경우 서비스와 백엔드 데이터 소스 간의 통합을 구성하는 방법에 대한 자세한 내용은 프로젝트 설정 설명서 를 참조하십시오.
 
