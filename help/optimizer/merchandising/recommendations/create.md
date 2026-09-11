@@ -4,10 +4,18 @@ description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
 TQID: https://experienceleague.adobe.com/4w6G-IgBjgmYYnnEpbK0HML9pSi3quLDxJfuCp9tV84
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
 workflow-type: tm+mt
 source-wordcount: 1574
@@ -24,7 +32,7 @@ _추천 단위_
 
 권장 사항 단위를 활성화하면 Adobe Commerce에서 [데이터 수집](../../manage-results/recommendation-performance.md)을 시작하여 노출, 보기, 클릭 수 등을 측정합니다. 권장 사항 테이블에는 정보에 입각한 비즈니스 결정을 내리는 데 도움이 되는 각 권장 사항 단위에 대한 지표가 표시됩니다.
 
-1. _[!DNL Adobe Commerce Optimizer]_사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동하여_&#x200B;권장 사항&#x200B;_작업 영역을 표시합니다.
+1. _[!DNL Adobe Commerce Optimizer]_&#x200B;사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동하여_&#x200B;권장 사항&#x200B;_작업 영역을 표시합니다.
 
 1. **카탈로그 보기** 필드에서 권장 사항을 사용할 수 있는 카탈로그 보기를 선택합니다. [권장 사항에 카탈로그 보기 사용](../../manage-results/recommendation-performance.md#select-catalog-view)에 대해 자세히 알아보세요.
 
@@ -104,7 +112,7 @@ _권장 제품 미리 보기_ 패널은 항상 권장 구성 단위가 상점 �
 
 기존 권장 사항을 편집, 비활성화 또는 삭제할 수 있습니다.
 
-1. _[!DNL Adobe Commerce Optimizer]_사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동합니다.
+1. _[!DNL Adobe Commerce Optimizer]_&#x200B;사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동합니다.
 
 1. 수정할 권장 사항을 선택합니다.
 
