@@ -91,7 +91,7 @@ Adobe Commerce과 AEM Assets 통합을 설정하고 사용하는 방법에 대�
 
 Adobe Commerce과 AEM Assets이 협력하여 콘텐츠 워크플로를 간소화하는 방법에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447891?captions=kor)
 
 >[!TAB Adobe Commerce as a Cloud Service 자습서]
 
