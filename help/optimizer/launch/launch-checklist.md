@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 topic: Administration
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
@@ -55,11 +55,11 @@ ht-degree: 0%
 
 클라우드 환경의 Adobe Commerce을 프로덕션할 준비가 되었는지 확인합니다.
 
-▢ 클라우드 인스턴스가 [프로비저닝됨](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/start/new-project)입니다.
+▢ 클라우드 인스턴스가 [프로비저닝됨](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/start/new-project)입니다.
 ▢ 테스트 및 더미 데이터가 인스턴스에서 제거됩니다.
 ▢ 프로덕션 데이터가 인스턴스에 로드되었습니다.
 ▢ [GraphQL 끝점](https://developer.adobe.com/commerce/webapi/graphql/)을 알고 있습니다.
-▢ 인스턴스가 [실행 준비](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/checklist) 요구 사항을 충족합니다.
+▢ 인스턴스가 [실행 준비](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/checklist) 요구 사항을 충족합니다.
 
 ## Commerce Optimizer 인스턴스 확인 {#verify-optimizer}
 
@@ -156,7 +156,7 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 
 ▢ 프로덕션 작업 영역에 필요한 모든 구성 및 서비스가 포함됩니다.
 ▢ 프로덕션 앱이 빌드 시나리오 간에 테스트를 통과합니다.
-▢ 제품 제한 및 경계는 [Adobe Developer App Builder 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html){target="_blank"} 및 [App Builder 시스템 설정 및 제한 사항](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings){target="_blank"}을 기반으로 검토 및 확인되었습니다.
+▢ 제품 제한 및 경계는 [Adobe Developer App Builder 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-developer-app-builder.html){target="_blank"} 및 [App Builder 시스템 설정 및 제한 사항](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings){target="_blank"}을 기반으로 검토 및 확인되었습니다.
 ▢ 프로덕션 앱은 App Builder 프로덕션 끝점을 사용합니다.
 ▢ 사용자 지정 *관리자* 패널 확장이 프로덕션 작업 영역에 배포됩니다.
 
@@ -225,7 +225,7 @@ Storefront 구성에서 Commerce Optimizer 설정을 확인합니다.
 권한 및 비밀을 확인합니다.
 
 DA 콘텐츠 및 EDS 사이트에 대해 적절한 권한이 ▢개 구성되었습니다. 작성에 대한 [DA.live 권한](https://da.live/docs/administration/permissions) 및 [인증 설정](https://www.aem.live/docs/authentication-setup-authoring)을 참조하세요.
-▢ 제품 시각적 개체 통합이 프로비전되었습니다. [AEM Cloud Service 액세스 개요](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/accessing/overview#)를 참조하십시오.
+▢ 제품 시각적 개체 통합이 프로비전되었습니다. [AEM Cloud Service 액세스 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/accessing/overview#)를 참조하십시오.
 전자 메일 템플릿의 암호 재설정 링크 ▢개가 Edge Delivery Services 설정과 일치합니다. 상점 FAQ를 참조하십시오. [Edge Delivery Services 또는 Helix로 마이그레이션한 후 이메일 템플릿 링크가 끊어진 경우 어떻게 해야 합니까?](https://experienceleague.adobe.com/en/tools/commerce-storefront/troubleshooting/faq/#what-should-i-do-if-my-email-template-links-are-broken-after-migrating-to-edge-delivery-services-or-helix){target="_blank"}.
 통합 및 결제 공급자를 위한 ▢ 프로덕션 키가 있습니다.
 ▢ 도메인은 허용 목록에추가된이며 백엔드 웹후크가 작동합니다.

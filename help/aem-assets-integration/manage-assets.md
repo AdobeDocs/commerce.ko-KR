@@ -177,7 +177,7 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 계속합니다.
 
-   범주 만들기에 대한 자세한 내용은 **Commerce 카탈로그 관리 안내서**&#x200B;에서 [범주 콘텐츠 완료](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)를 참조하십시오.
+   범주 만들기에 대한 자세한 내용은 **Commerce 카탈로그 관리 안내서**&#x200B;에서 [범주 콘텐츠 완료](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content)를 참조하십시오.
 
 ## 에셋 업데이트
 
@@ -187,6 +187,6 @@ AEM Assets에서 에셋을 업데이트하고 승인하면 자동 일치 기능�
 
 AEM Assets 절차에 대해서는 다음 설명서를 참조하십시오.
 
-* [디지털 자산 재처리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+* [디지털 자산 재처리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-* [에셋 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+* [에셋 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)

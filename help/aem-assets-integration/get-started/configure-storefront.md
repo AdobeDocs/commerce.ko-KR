@@ -57,7 +57,7 @@ Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Asse
 
 >[!NOTE]
 >
->자세한 설정 지침은 Da.live 설명서에서 [AEM Assets 설정](https://docs.da.live/administrators/guides/setup-aem-assets){target=_blank} 및 AEM Assets 설명서에서 [Edge Delivery Services에 대한 콘텐츠를 작성하는 동안 AEM Assets 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services/integrate-aem-assets-edge-delivery-services){target=_blank}을 참조하십시오.
+>자세한 설정 지침은 Da.live 설명서에서 [AEM Assets 설정](https://docs.da.live/administrators/guides/setup-aem-assets){target=_blank} 및 AEM Assets 설명서에서 [Edge Delivery Services에 대한 콘텐츠를 작성하는 동안 AEM Assets 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services/integrate-aem-assets-edge-delivery-services){target=_blank}을 참조하십시오.
 
 ### 1단계: Da.live에서 사이트 구성 열기
 
@@ -106,6 +106,6 @@ Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Asse
 
 * *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-assets-configuration/){target=_blank}—storefront 구성 및 이미지 처리 동작.
 
-* *AEM Assets* 설명서에서 [Edge Delivery Services에 대한 콘텐츠를 작성하는 동안 AEM Assets을 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services/integrate-aem-assets-edge-delivery-services){target=_blank}합니다.
+* *AEM Assets* 설명서에서 [Edge Delivery Services에 대한 콘텐츠를 작성하는 동안 AEM Assets을 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services/integrate-aem-assets-edge-delivery-services){target=_blank}합니다.
 
 * Da.live 설명서에서 [AEM Assets 설치](https://docs.da.live/administrators/guides/setup-aem-assets){target=_blank} 및 [미디어 작업](https://docs.da.live/authors/guides/adding-media){target=_blank}

@@ -4,7 +4,7 @@ description: 지표, 로깅 및 추적을 포함하여  [!DNL Adobe Commerce as 
 feature: Cloud, Integration
 role: Admin, Developer
 level: Intermediate
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-09T15:41:54.613Z'
 TQID: 'https://experienceleague.adobe.com/jTPNVSy6cP8v-pV-3pyqgJX-PAzFFhOUf9SjQIMeBns'
 product_v2:
@@ -95,5 +95,5 @@ CDN 원본을 통한 [프록시 RUM(Real User Monitoring)](https://experiencelea
 
 다음 비디오에서는 [!DNL Adobe Commerce as a Cloud Service]의 가시성 제공 기능에 대한 높은 수준의 개요를 제공합니다.
 
-* [App Builder Observability 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
-* [API Mesh 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}
+* [App Builder Observability 비디오](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
+* [API Mesh 비디오](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}
