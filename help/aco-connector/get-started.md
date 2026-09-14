@@ -189,7 +189,7 @@ ht-degree: 3%
 
 ### [!DNL Commerce Optimizer] 인스턴스 세부 정보 가져오기
 
-[!DNL Commerce Optimizer] 인스턴스 [[!DNL Instance details] 페이지](../optimizer/get-started.md#manage-instances)의 _[!DNL Instance Id]_필드 또는 인스턴스에 액세스하는 데 사용된 URL에서_&#x200B;테넌트 ID _을(를) 가져옵니다. 예: `https://experience.adobe.com/#/@&lt;your organization&gt;/in:&lt;tenant ID&gt;/commerce-optimizer-studio/home`.
+[!DNL Commerce Optimizer] 인스턴스 [[!DNL Instance details] 페이지](../optimizer/get-started.md#manage-instances)의 _[!DNL Instance Id]_&#x200B;필드 또는 인스턴스에 액세스하는 데 사용된 URL에서_&#x200B;테넌트 ID _을(를) 가져옵니다. 예: `https://experience.adobe.com/#/@&lt;your organization&gt;/in:&lt;tenant ID&gt;/commerce-optimizer-studio/home`.
 
 1. Commerce 관리자에서 **[!UICONTROL Adobe Commerce Optimizer]**&#x200B;을(를) 선택하여 지침이 포함된 구성 페이지를 표시합니다.
 
