@@ -1,38 +1,51 @@
 ---
-title: ' [!DNL Adobe Commerce Optimizer Connector] 시작'
-description: ' [!DNL Adobe Commerce Optimizer Connector]을(를) 설치하고, 범위 내보내기 설정을 구성하고, IMS 인증을 사용하도록 설정하고, 카탈로그 동기화를 확인하는 방법을 알아봅니다.'
+title: '[!DNL Adobe Commerce Optimizer Connector] 시작'
+description: '[!DNL Adobe Commerce Optimizer Connector]을(를) 설치하고, 범위 내보내기 설정을 구성하고, IMS 인증을 사용하도록 설정하고, 카탈로그 동기화를 확인하는 방법을 알아봅니다.'
 feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:55:50.934Z'
 TQID: 'https://experienceleague.adobe.com/AcZ6CNyuIdUlfVHXhyQEYuThfLNd4WWqMMY82tjMMCc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: e126554b-28f9-4290-b58c-10b888b88174
+    internal-label: IMS integration
   - id: a40ebd6b-b542-4432-a730-1803ef74518d
+    internal-label: Data Transfer
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-last-update: 2026-08-10
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Personalization
+
+last-update: 2026-09-11
+source-git-commit: 6b784df469162bd536cfa764268a7180f94cc1c7
 workflow-type: tm+mt
-source-wordcount: 1107
+source-wordcount: '1107'
 ht-degree: 3%
-
 ---
-
 
 # 시작하기
 
