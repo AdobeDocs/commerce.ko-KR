@@ -1,21 +1,22 @@
 ---
 title: GraphQL
-description: ' [!DNL Live Search] GraphQL 작업 영역을 사용하면 라이브 데이터로 쿼리를 작성할 수 있습니다.'
+description: '[!DNL Live Search] GraphQL 작업 영역을 사용하면 라이브 데이터로 쿼리를 작성할 수 있습니다.'
 exl-id: d32edf42-1fb0-40f9-89e5-798b39521b77
 TQID: https://experienceleague.adobe.com/y-aM85yTrJA6JNXlJeacXEOkr8l-Bwij9gdVCgNGEqY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Metadata
+source-git-commit: 438d00c69044818382ffd22ffb68a4061c59ddbd
 workflow-type: tm+mt
-source-wordcount: 58
+source-wordcount: '59'
 ht-degree: 0%
-
 ---
-
 # GraphQL
 
 *GraphQL* 작업 영역을 통해 관리자는 자신의 데이터를 사용하여 GraphQL 쿼리를 빌드하고 테스트할 수 있습니다.
@@ -26,12 +27,11 @@ ht-degree: 0%
 
 ```graphql
 query productSearch {
-  productSearch(phrase: "a306") {
+  productSearch(phrase: "") {
     total_count
     items {
-      product {
+      productView {
         sku
-        name
       }
     }
     facets {
