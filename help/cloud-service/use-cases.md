@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 다음 옵션을 사용하여 [Cloud Service 인스턴스 만들기](./getting-started.md#create-an-instance):
    1. [!UICONTROL **환경**] 드롭다운에서 [!UICONTROL **샌드박스**]&#x200B;를 선택합니다.
    1. [!UICONTROL **테스트 데이터**] 드롭다운에서 [!UICONTROL **Adobe 스토어**]&#x200B;를 선택합니다.
-1. [ [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
+1. [&#x200B; [!DNL Adobe Experience Cloud] 계정에 로그인](https://experience.adobe.com)
 1. 다음 옵션을 사용하여 [Cloud Service 상점 설정](./storefront.md):
    1. 템플릿에 대해 [!UICONTROL `adobe-commerce/adobe-demo-store`]을(를) 선택합니다.
    1. 연결 방법에 대해 [!UICONTROL **사용 가능한 인스턴스 선택(Mesh -> SaaS)**]&#x200B;을 선택합니다.
