@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Live Search] 시작'
-description: Adobe Commerce에서  [!DNL Live Search] 의 시스템 요구 사항 및 설치 단계에 대해 알아봅니다.
+title: '[!DNL Live Search] 시작'
+description: Adobe Commerce에서 [!DNL Live Search]에 대한 시스템 요구 사항 및 설치 단계를 알아봅니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
@@ -8,31 +8,44 @@ badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adob
 TQID: https://experienceleague.adobe.com/63Lia0NKyJV2ngoXLlcGkciK3xZWYsmtwzfkyOg5Bfw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 last-update: 2026-09-02
-source-git-commit: 299da83bd0a9b776ad6b13482b65af61bffe15fa
+source-git-commit: c40236ec3dfbbb0f393e5d1fc4743ffc7626b11e
 workflow-type: tm+mt
-source-wordcount: 2856
+source-wordcount: '2978'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search]&#x200B;(으)로 성공을 위한 설정
 
 Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-service/guide-overview.md)이(가) 함께 작동하여 성능이 뛰어나고 관련성이 있으며 직관적인 검색 솔루션을 제공합니다. 이 솔루션을 사용하면 고객이 필요한 것을 신속하게 찾을 수 있습니다. 특히 [!DNL Catalog Service]은(는) 사용할 [!DNL Live Search]과(와) 같은 SaaS 서비스를 위한 카탈로그 데이터를 표시합니다.
@@ -133,11 +146,15 @@ Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-servic
    - 카테고리 피드
    - 범주 권한 피드
 
-인덱서를 확인한 후 [API 키를 구성](#2-configure-api-keys)합니다.
+인덱서를 확인한 후 [API 키를 구성](#configure)합니다.
 
 >[!TAB 기존 Commerce 인스턴스]
 
 기존 Commerce 인스턴스에 [!DNL Live Search]을(를) 설치하는 경우 다음 지침을 따르십시오.
+
+>[!NOTE]
+>
+>*관리자* > _[!UICONTROL Stores]_> [!UICONTROL Settings] >_[!UICONTROL Configuration]_ > **[!UICONTROL Live Search]** > **[!UICONTROL Storefront Features]** > **[!UICONTROL Enable Product Listing Widgets]** 설정은 제품 목록 위젯만 제어합니다. 전체 [!DNL Live Search] 상점 환경(예: 검색 팝오버)을 비활성화하는 *관리자* 설정이 없습니다. [!DNL Live Search]을(를) 구성하는 동안 기존 Storefront 검색을 활성 상태로 유지하려면 이 절차에서 CLI 모듈 명령을 사용하십시오.
 
 1. [cron jobs](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 및 [인덱서](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)가 실행 중인지 확인하십시오.
 
@@ -153,13 +170,17 @@ Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-servic
    composer update magento/live-search --with-dependencies
    ```
 
-1. Storefront 검색 결과를 제공하는 [!DNL Live Search] 모듈을 비활성화합니다.
+1. `Magento_LiveSearchAdapter`을(를) 활성화한 상태로 유지하면서 [!DNL Live Search] Storefront 모듈을 비활성화하십시오.
 
    ```bash
-   bin/magento module:disable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover Magento_LiveSearchProductListing
+   bin/magento module:disable Magento_LiveSearchStorefrontPopover Magento_LiveSearchProductListing
    ```
 
-   [!DNL Live Search] 서비스가 백그라운드에서 카탈로그 데이터를 동기화하고 제품을 인덱싱하는 동안 [!DNL Elasticsearch]은(는) 상점 첫 화면의 검색 요청을 계속 관리합니다.
+   [!DNL Live Search] 서비스가 백그라운드에서 카탈로그 데이터를 동기화하고 제품을 인덱싱하는 동안 [!DNL Elasticsearch]은(는) 상점 첫 화면의 검색 요청을 계속 관리합니다. `Magento_LiveSearchAdapter`을(를) 사용하도록 설정하면 상점 검색이 [!DNL Live Search]&#x200B;(으)로 전환되지 않습니다. Commerce의 검색 엔진 종속성이 계속 올바르게 확인되도록 모듈이 사용 가능으로만 유지되어야 합니다.
+
+   >[!IMPORTANT]
+   >
+   >[!DNL Live Search] 4.0.0부터 [사용되지 않음](release-notes.md#live-search-400)이더라도 이 단계 동안 `Magento_LiveSearchAdapter`을(를) 활성화한 상태로 유지합니다. `Magento\Search\Model\EngineResolver`은(는) 사용 가능한 이 모듈에 따라 다르므로 사용하지 않도록 설정하면 `500` 오류로 인해 기존 상점 검색이 중단됩니다. `Magento_LiveSearchMetrics` 모듈의 `composer.json`이(가) `Magento_LiveSearchAdapter`에 대한 종속성을 선언하므로 `Magento_LiveSearchMetrics`을(를) 사용하는 동안에는 `Magento_LiveSearchAdapter`도 비활성화할 수 없습니다. 이 워크플로에 대해 `Magento_LiveSearchMetrics`을(를) 사용하지 않도록 설정할 필요가 없습니다.
 
 1. 업데이트를 설치합니다.
 
@@ -181,10 +202,10 @@ Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-servic
 1. [!DNL Live Search] 확장을 사용하도록 설정하고 [!DNL OpenSearch]&#x200B;(Magento Elasticsearch 및 OpenSearch 모듈)을 사용하지 않도록 설정합니다.
 
    ```bash
-   bin/magento module:enable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover  Magento_LiveSearchProductListing
+   bin/magento module:enable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover Magento_LiveSearchProductListing
    ```
 
-   ```
+   ```bash
    bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_Elasticsearch8 Magento_OpenSearch Magento_ElasticsearchCatalogPermissions Magento_InventoryElasticsearch Magento_ElasticsearchCatalogPermissionsGraphQl
    ```
 
@@ -198,7 +219,7 @@ Adobe Commerce [!DNL Live Search] 및 [[!DNL Catalog Service]](../catalog-servic
    bin/magento setup:upgrade
    ```
 
-인덱서를 확인한 후 [API 키를 구성](#2-configure-api-keys)합니다.
+인덱서를 확인한 후 [API 키를 구성](#configure)합니다.
 
 >[!ENDTABS]
 
