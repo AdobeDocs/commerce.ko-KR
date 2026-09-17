@@ -1,6 +1,6 @@
 ---
 title: 사용 사례
-description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 수행하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Commerce as a Cloud Service]을(를) 사용하여 실제 사용 사례와 지원되는 비즈니스 시나리오를 완수하는 방법을 알아봅니다.'
 feature: Cloud, Integration
 role: User, Leader
 level: Beginner
@@ -10,29 +10,39 @@ autotag-review: '2026-06-18T16:06:00.993Z'
 TQID: 'https://experienceleague.adobe.com/4L-M8vsEkT6uuafrOISankRaarQ-OVHDWLXwoVLaUZQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+    internal-label: Storefront configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 04f966aca4d7ce85990b42ad958938a186629af1
+    internal-label: Troubleshooting
+source-git-commit: 3834c95713e05a24f31c2f9c4d82ae8f56526c90
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: '1468'
 ht-degree: 0%
-
 ---
-
 # 사용 사례
 
 다음 사용 사례에서는 [!DNL Adobe Commerce as a Cloud Service]에서 지원하는 핵심 기능 및 비즈니스 시나리오를 보여 줍니다. 이를 통해 개발을 가속화하고 영향력이 큰 경험을 시작할 수 있습니다.
@@ -284,7 +294,7 @@ Adobe의 컨텍스트 기반 실험 기능을 사용하면 상점 첫 화면에�
 
 ### 컨텐츠 및 이미지 생성
 
-1. [[!DNL Generate Variations]](/en/docs/experience-manager-cloud-service/content/ai-in-aem/generate-variations/generate-variations) 열기
+1. [[!DNL Generate Variations]](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/generate-variations/generate-variations) 열기
 
 1. [!UICONTROL **영웅 배너**] 템플릿을 선택하십시오.
 
