@@ -1,15 +1,36 @@
 ---
-source-git-commit: b0fb96805f314ea8e0b89c9e9bd30d5de3501de4
+source-git-commit: 4b9ab9e256edced9a508d08dfcae3589bd27f304
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '998'
 ht-degree: 1%
-
 ---
 # 새로운 기능 템플릿
 
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 9월 17일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/7f70bbf40218de2cec3482e1bc4d135d1a9022ae">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 9월 8일
 
@@ -23,7 +44,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -45,7 +66,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/insights/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
+      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/en/docs/commerce/insights/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
 </td>
       <td>
         새 주제
@@ -67,7 +88,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>제품 목록 페이지의 장바구니에 추가 기능이 분리된 특정 경우에 PLP 위젯과 작동하지 않는 문제를 해결하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/live-search/release-notes">라이브 검색 확장 기능</a>을 4.7.3으로 업데이트했습니다.</p>
+      <td><p>제품 목록 페이지의 장바구니에 추가 기능이 분리된 특정 경우에 PLP 위젯과 작동하지 않는 문제를 해결하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/release-notes">라이브 검색 확장 기능</a>을 4.7.3으로 업데이트했습니다.</p>
 </td>
       <td>
         피드백
@@ -89,7 +110,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
 </td>
       <td>
         기술
@@ -111,7 +132,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -133,7 +154,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
 </td>
       <td>
         기술
@@ -141,7 +162,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1291cadbeca63d454eabab31c415b2d037d280ba">커밋</a></td>
     </tr>
     <tr>
-      <td><p>이제 Adobe Commerce Optimizer에서 비공개 카탈로그 보기를 단일 가격대로 제한합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view#price-book-restriction-on-private-catalog-views">비공개 카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/pricebooks">가격 책자</a>에서 자세히 알아보세요.</p>
+      <td><p>이제 Adobe Commerce Optimizer에서 비공개 카탈로그 보기를 단일 가격대로 제한합니다. <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view#price-book-restriction-on-private-catalog-views">비공개 카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/pricebooks">가격 책자</a>에서 자세히 알아보세요.</p>
 </td>
       <td>
         주요 업데이트
@@ -163,7 +184,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -171,7 +192,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed13ed011180fbb9d535f5a228a5f932ebf00689">커밋</a></td>
     </tr>
     <tr>
-      <td><p>판매자는 이제 Commerce 관리자로부터 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프서비스할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/configure/connect-website-account">웹 사이트의 다른 PayPal 계정 연결</a>을 참조하십시오.</p>
+      <td><p>판매자는 이제 Commerce 관리자로부터 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프서비스할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/connect-website-account">웹 사이트의 다른 PayPal 계정 연결</a>을 참조하십시오.</p>
 </td>
       <td>
         새 주제
@@ -193,7 +214,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>서명된 토큰으로 카탈로그 데이터 액세스를 제한하도록 개인 카탈로그 보기를 활성화하고 구성하는 방법에 대한 지침과 함께 Adobe Commerce Optimizer 설정 가이드를 업데이트하고 새 기능을 참조하도록 관련 항목을 업데이트했습니다.<br />- 서명된 토큰이 유효한 요청만 카탈로그 보기의 데이터를 검색할 수 있도록 카탈로그 보호를 활성화하는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view">개인 카탈로그 보기</a>를 추가했습니다.<br />- 카탈로그 보호를 위해 토큰을 서명하는 데 사용되는 키를 만들고, 할당하고, 회전시키는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys">제한된 액세스 키</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview">Adobe Commerce Optimizer란 무엇입니까?</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/get-started">시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/launch/launch-checklist">시작 체크리스트</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview"> 새로운 개인 카탈로그 보기 및 제한된 액세스 키 항목을 참조하는 커넥터 안내서</a>.</p>
+      <td><p>서명된 토큰으로 카탈로그 데이터 액세스를 제한하도록 개인 카탈로그 보기를 활성화하고 구성하는 방법에 대한 지침과 함께 Adobe Commerce Optimizer 설정 가이드를 업데이트하고 새 기능을 참조하도록 관련 항목을 업데이트했습니다.<br />- 서명된 토큰이 유효한 요청만 카탈로그 보기의 데이터를 검색할 수 있도록 카탈로그 보호를 활성화하는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view">개인 카탈로그 보기</a>를 추가했습니다.<br />- 카탈로그 보호를 위해 토큰을 서명하는 데 사용되는 키를 만들고, 할당하고, 회전시키는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys">제한된 액세스 키</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview">Adobe Commerce Optimizer란 무엇입니까?</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/get-started">시작</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/launch/launch-checklist">시작 체크리스트</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview"> 새로운 개인 카탈로그 보기 및 제한된 액세스 키 항목을 참조하는 커넥터 안내서</a>.</p>
 </td>
       <td>
         주요 업데이트, 새 주제
@@ -215,7 +236,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -237,7 +258,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>마이그레이션 평가 도구, Commerce 개발자 MCP 및 Commerce 데이터 마이그레이션 서비스를 사용하여 업데이트된 마이그레이션 흐름에 대해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview">마이그레이션 개요</a>를 업데이트했습니다.</p>
+      <td><p>마이그레이션 평가 도구, Commerce 개발자 MCP 및 Commerce 데이터 마이그레이션 서비스를 사용하여 업데이트된 마이그레이션 흐름에 대해 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/overview">마이그레이션 개요</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -259,7 +280,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>새 <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/integration/catalog-events-guide">카탈로그 이벤트 및 Adobe I/O 통합 안내서</a>에서는 카탈로그 이벤트를 활성화하고, SaaS 데이터 내보내기 피드 내보내기 및 동기화를 확인하고, Adobe I/O Events과 통합하는 방법을 설명합니다.</p>
+      <td><p>새 <a href="https://experienceleague.adobe.com/en/docs/commerce/catalog-service/integration/catalog-events-guide">카탈로그 이벤트 및 Adobe I/O 통합 안내서</a>에서는 카탈로그 이벤트를 활성화하고, SaaS 데이터 내보내기 피드 내보내기 및 동기화를 확인하고, Adobe I/O Events과 통합하는 방법을 설명합니다.</p>
 </td>
       <td>
         주요 업데이트, 새 주제
@@ -281,7 +302,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>더 광범위한 지리적 가용성을 반영하고 고급 서비스에 대한 지원 국가 세부 사항을 확장하도록 표준 서비스에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/compatibility#standard-vs-advanced-payment-services-experience">결제 서비스 호환성 표</a>를 업데이트했습니다.</p>
+      <td><p>더 광범위한 지리적 가용성을 반영하고 고급 서비스에 대한 지원 국가 세부 사항을 확장하도록 표준 서비스에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/compatibility#standard-vs-advanced-payment-services-experience">결제 서비스 호환성 표</a>를 업데이트했습니다.</p>
 </td>
       <td>
         피드백
@@ -303,7 +324,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 프로덕션에 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 프로덕션에 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -325,7 +346,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>마이그레이션 프로세스에 대한 자세한 정보로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/migration-tools/bulk-data/migration-tool">대량 데이터 마이그레이션 도구</a> 설명서를 업데이트했습니다.</p>
+      <td><p>마이그레이션 프로세스에 대한 자세한 정보로 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/migration-tools/bulk-data/migration-tool">대량 데이터 마이그레이션 도구</a> 설명서를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -347,34 +368,12 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 업데이트했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed8bf2044f77432eb38df3c3cbb13b7708f3c33b">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 15일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>AEM 릴리스 <code>2026.5.26309</code> 이상에서 AEM Assets 통합에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#enable-aem-commerce-self-service">셀프 서비스 온보딩</a>을 문서화하고, 새로운 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/metadata">AEM Assets 메타데이터</a> 주제를 추가하고, Da.live를 통해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-storefront#connect-aem-assets-authoring">AEM Assets을 상점 앞에 연결</a>하는 안내서를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/21d305eaa87cd70d82c530e4ee5a4ea34574d400">커밋</a></td>
     </tr>
   </tbody>
 </table>
