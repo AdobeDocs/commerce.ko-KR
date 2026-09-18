@@ -1,28 +1,34 @@
 ---
 title: Commerce CLI를 사용하여 피드 동기화
-description: Commerce CLI 명령을 사용하여  [!DNL data export extension] 의 Adobe Commerce SaaS 서비스에 대한 피드를 관리하고 프로세스를 동기화하는 방법에 대해 알아봅니다.
+description: Commerce CLI 명령을 사용하여 Adobe Commerce SaaS 서비스의 [!DNL data export extension]에 대한 피드를 관리하고 프로세스를 동기화하는 방법에 대해 알아봅니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
 TQID: 'https://experienceleague.adobe.com/Vi8hMKOBjTPkSQp0t8DCkjZsJ8s3Q5GSbSXyX2gmWRo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ef1a9efc579d8d21c145e6981235489a2e4ea203
+    internal-label: Data management
+source-git-commit: 658401a83acf5bab669f0734100eef99af98c908
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: '756'
 ht-degree: 0%
-
 ---
-
 # Commerce CLI를 사용하여 피드 동기화
 
 `magento/saas-export` 패키지의 `saas:resync` 명령을 사용하면 [!DNL Adobe Commerce] SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
@@ -180,6 +186,20 @@ EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed products --dry-run --by-i
 
 ```shell
 bin/magento saas:resync --feed products --dry-run --cleanup-feed
+```
+
+## `--force`
+
+피드 내보내기 상태를 지우지 않고 데이터가 변경되었는지 여부에 관계없이 피드 항목을 강제로 다시 동기화합니다.
+
+>[!NOTE]
+>
+>[데이터 내보내기 확장](manage-extension.md#update-a-module-to-a-specific-version)의 버전 103.4.30 이상이 필요합니다.
+
+**예:**
+
+```shell
+bin/magento saas:resync --feed products --force
 ```
 
 ## `--no-reindex`

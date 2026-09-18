@@ -1,6 +1,6 @@
 ---
 title: '[!DNL SaaS Data Export Extension] 릴리스 정보'
-description: Adobe Commerce의  [!DNL Data Export Extension] 에 대한 최신 릴리스 정보입니다.
+description: Adobe Commerce용 [!DNL Data Export Extension]의 최신 릴리스 정보입니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Services, Release Notes
 recommendations: noCatalog
@@ -8,27 +8,37 @@ exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
 TQID: https://experienceleague.adobe.com/l3Z3-ncMTQ3j-4s6xL9X8ZYtlBHqzhBfMLc2jL4Kv6A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1c8d6d2d0460df4aa18de4d7d9750b9dda4f6bc5
+    internal-label: Data collection
+source-git-commit: c878b0f46e20fbdcd9771dae36430a814371e0c2
 workflow-type: tm+mt
-source-wordcount: 3429
+source-wordcount: '3464'
 ht-degree: 0%
-
 ---
-
 # [!DNL SaaS Data Export Extension] 릴리스 정보
 
 이 릴리스 노트는 [!DNL SaaS data export] 확장의 최신 버전에 대해 설명합니다. 현재 주요 릴리스 버전에 대한 지원이 제공됩니다. 이전 버전에 대한 릴리스 노트는 참조를 위해 제공됩니다.
@@ -44,6 +54,12 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.4.35 릴리스
+
+_2026년 9월 17일_
+
+![수정](../assets/fix.svg) **특성 옵션 레이블 동기화 오류**—레이블 다시 동기화 중에 잘못된 특성 백엔드 테이블로 인해 피드 내보내기가 실패하여 특성 레이블 업데이트가 안정적으로 동기화되는 문제가 해결되었습니다.<!--MDEE-1464-->
 
 ### 103.4.34 릴리스
 
