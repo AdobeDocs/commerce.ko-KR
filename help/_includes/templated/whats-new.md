@@ -1,15 +1,36 @@
 ---
-source-git-commit: b0fb96805f314ea8e0b89c9e9bd30d5de3501de4
+source-git-commit: 4b9ab9e256edced9a508d08dfcae3589bd27f304
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '998'
 ht-degree: 1%
-
 ---
 # 새로운 기능 템플릿
 
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 9월 17일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/7f70bbf40218de2cec3482e1bc4d135d1a9022ae">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 9월 8일
 
@@ -353,28 +374,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed8bf2044f77432eb38df3c3cbb13b7708f3c33b">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 15일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>AEM 릴리스 <code>2026.5.26309</code> 이상에서 AEM Assets 통합에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-aem#enable-aem-commerce-self-service">셀프 서비스 온보딩</a>을 문서화하고, 새로운 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/metadata">AEM Assets 메타데이터</a> 주제를 추가하고, Da.live를 통해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/configure-storefront#connect-aem-assets-authoring">AEM Assets을 상점 앞에 연결</a>하는 안내서를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/21d305eaa87cd70d82c530e4ee5a4ea34574d400">커밋</a></td>
     </tr>
   </tbody>
 </table>
