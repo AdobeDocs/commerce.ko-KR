@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: c878b0f46e20fbdcd9771dae36430a814371e0c2
+source-git-commit: 42e7ecca6c058ebc4e80b601c6d46b84f601e454
 workflow-type: tm+mt
-source-wordcount: '3464'
+source-wordcount: '3438'
 ht-degree: 0%
 ---
 # [!DNL SaaS Data Export Extension] 릴리스 정보
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 _2026년 9월 17일_
 
-![수정](../assets/fix.svg) **특성 옵션 레이블 동기화 오류**—레이블 다시 동기화 중에 잘못된 특성 백엔드 테이블로 인해 피드 내보내기가 실패하여 특성 레이블 업데이트가 안정적으로 동기화되는 문제가 해결되었습니다.<!--MDEE-1464-->
+Adobe Commerce과의 Adobe Commerce Optimizer 통합을 지원하기 위한 ![수정](../assets/fix.svg) 업데이트.<!--MDEE-1464-->
 
 ### 103.4.34 릴리스
 
