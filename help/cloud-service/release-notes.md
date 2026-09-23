@@ -49,9 +49,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 last-update: 2026-08-07
-source-git-commit: 04f2eddef8abc6843ced0d00368ea19f3626adce
+source-git-commit: 9cc9b3270d808102f293609a606ff32a781d084c
 workflow-type: tm+mt
-source-wordcount: '6842'
+source-wordcount: '6869'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -64,21 +64,21 @@ ht-degree: 0%
 
 ## 2026년 9월 - 릴리스 #2 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목은 2026년 9월 22일에 프로덕션 환경에서 사용할 수 있습니다.
+다음 항목이 2026년 9월 22일에 프로덕션 환경에 추가되었습니다.
 
 >[!BEGINSHADEBOX]
 
 ### 파일 및 이미지를 첨부하여 요청 반환
 
-이제 고객은 storefront `requestReturn` GraphQL 돌연변이를 통해 반환 요청을 제출할 때 파일과 이미지를 업로드할 수 있습니다. <!-- CCSAAS-5410 -->
+이제 고객은 상점 [`requestReturn`](https://developer.adobe.com/commerce/webapi/graphql/schema/orders/mutations/request-return/#request-a-return-with-an-image-attachment) GraphQL 돌연변이를 통해 반환 요청을 제출할 때 파일과 이미지를 업로드할 수 있습니다. [`initiateUpload` 및 `finishUpload` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/)를 사용하여 파일을 업로드한 다음 반환된 키를 반환 항목 사용자 지정 특성에 할당합니다. <!-- CCSAAS-5410 -->
 
 ### 인벤토리 소스 모양 제어
 
-이제 각 인벤토리 소스에 [!UICONTROL **Storefront에 표시**]&#x200B;가 포함되어 있습니다. [!DNL Commerce Admin]의 소스 편집 페이지에서 전환합니다([!UICONTROL **스토어**] > [!UICONTROL **인벤토리**] > [!UICONTROL **소스**]). [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability) GraphQL 쿼리는 표시되는 것으로 플래그가 지정된 소스에 대해서만 재고 정보를 반환합니다. 소스는 기본적으로 숨겨집니다. <!-- ACCS-1645 -->
+이제 각 인벤토리 소스에는 [!DNL Commerce Admin]의 [소스 편집 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/sources/sources-add)에서 [!UICONTROL **Storefront에 표시**] 토글이 포함됩니다([!UICONTROL **Stores**] > [!UICONTROL **인벤토리**] > [!UICONTROL **소스**]). [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability) GraphQL 쿼리는 표시되는 것으로 플래그가 지정된 소스에 대해서만 재고 정보를 반환합니다. 소스는 기본적으로 숨겨집니다. <!-- ACCS-1645 -->
 
 ### 복수 출처 출하 안내
 
