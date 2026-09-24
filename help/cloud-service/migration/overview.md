@@ -1,47 +1,66 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
-description: ' [!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
+title: '[!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션'
+description: '[!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-06-18T16:12:28.840Z'
 TQID: 'https://experienceleague.adobe.com/GmxaQdGKvAIDpZ2jvmlLFSYw0IFQysIMOT0lUnsJBsI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
+    internal-label: Data pipelines
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Data management
+source-git-commit: 464b0d7298bd2a5569b12d0956a84667709e4c3a
 workflow-type: tm+mt
-source-wordcount: 3374
+source-wordcount: '3682'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 마이그레이션
 
 이 안내서는 개발자가 [!DNL Adobe Commerce on Cloud] 또는 온프레미스에서 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(SaaS)로 전환하는 데 도움이 됩니다. 이 SaaS 모델은 향상된 성능, 확장성 및 [!DNL Adobe Experience Cloud]과의 통합을 제공합니다.
@@ -76,8 +95,8 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 | Adobe Commerce 제공 | 호스팅 모델 | 서비스 및 업데이트에 대한 책임 |
 |---|---|---|
 | **[!DNL Adobe Commerce as a Cloud Service]** | SaaS - Adobe 호스팅 | Adobe은 핵심 Commerce 애플리케이션, 인프라 및 업데이트를 관리합니다. 판매자는 지원되는 API 및 확장성 서비스(API, [!DNL Adobe Developer App Builder], UI SDK)를 통해 플랫폼을 확장합니다. 판매자는 핵심 애플리케이션 코드를 수정할 수 없습니다. |
-| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
-| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
+| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
+| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
 
 **아키텍처 의미**
 
@@ -111,13 +130,13 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 | 워크플로 | 도구 | 설명 |
 | --- | --- | --- |
 | [평가](#migration-assessment-tool) | **마이그레이션 평가 도구** | 사용자 지정 모듈, 타사 확장, 통합, 상점 관측, 데이터베이스 스키마, 사용자 지정 테이블, 마이그레이션 권장 사항, 복잡성 점수 및 현대화 작업 예측 등의 인벤토리를 작성하는 기존 구현에 대한 AI 기반 평가입니다. |
-| [응용 프로그램 및 상점 현대화](#code-and-storefront-migration-commerce-developer-mcp) | **Commerce 개발자 MCP** | AI 지원 Commerce 애플리케이션 현대화, 맞춤화 [!DNL App Builder]&#x200B;(으)로의 마이그레이션 가속화, Edge Delivery Services(EDS)로의 상점 변환 지원, 개발자에게 엔지니어링 팀에서 검토 및 확인한 구현과 함께 광범위한 애플리케이션 현대화 여정을 안내합니다. |
+| [응용 프로그램 및 상점 현대화](#code-and-storefront-migration-commerce-developer-agent) | **Commerce 개발자 에이전트 및 Commerce 개발자 MCP** | AI 지원 Commerce 애플리케이션 현대화, 맞춤화 [!DNL App Builder]&#x200B;(으)로의 마이그레이션 가속화, Edge Delivery Services(EDS)로의 상점 변환 지원, 개발자에게 엔지니어링 팀에서 검토 및 확인한 구현과 함께 광범위한 애플리케이션 현대화 여정을 안내합니다. |
 | [데이터 마이그레이션](#data-migration-commerce-data-migration-service) | **Commerce 데이터 마이그레이션 서비스** | 카탈로그, 고객 및 주문 데이터를 [!DNL Adobe Commerce as a Cloud Service]&#x200B;(으)로 추출, 로드 및 무결성 확인. |
 
 이 트랙은 독립 실행형이 아닙니다. 적절한 순서로 함께 사용하면 재작업을 최소화할 수 있습니다.
 
 - **먼저 평가 실행** - 먼저 평가를 실행하면 지원되지 않는 사용자 지정 항목을 식별하고 마이그레이션 노력을 예측하며 데이터 마이그레이션 고려 사항을 표시하고 구현이 시작되기 전에 통합 종속성을 강조 표시합니다. 평가는 애플리케이션 현대화와 데이터 마이그레이션 워크플로 모두에서 사용되는 마이그레이션 블루프린트가 됩니다.
-- **응용 프로그램 현대화** - Commerce 개발자 MCP는 마이그레이션 평가를 사용하여 현대화할 사용자 지정과 방법을 결정합니다. 그런 다음 MCP는 해당 [!DNL App Builder]개의 응용 프로그램과 상점 첫 화면 구성 요소를 생성합니다.
+- **응용 프로그램 현대화** - Commerce 개발자 에이전트 및 Commerce 개발자 MCP는 마이그레이션 평가를 사용하여 현대화할 사용자 지정과 방법을 결정합니다. 그런 다음 Commerce 개발자 에이전트 또는 Commerce 개발자 MCP는 해당 [!DNL App Builder]개 응용 프로그램 및 상점 첫 번째 구성 요소를 생성합니다.
 - **데이터 마이그레이션** - 데이터 마이그레이션 범위 지정 설문지는 평가에서 표시된 범위, 볼륨 및 사용자 지정 테이블을 캡처합니다.
 - **사용자 지정 및 타사 데이터** - 타사 확장에 의해 사용자 지정 테이블에 보관된 데이터는 평가 중에 식별되지만 표준 데이터 마이그레이션에 의해 처리되지 않으며 [!DNL App Builder] 사용자 지정이 필요합니다.
 
@@ -182,23 +201,54 @@ Storefront 현대화는 단순한 UI 마이그레이션이 아닙니다. 비즈�
 
 [!DNL Adobe Commerce as a Cloud Service] 마이그레이션은 평가부터 시작됩니다. 구현을 시작하기 전에 범위를 설정하고, 불확실성을 줄이고, 공유 마이그레이션 블루프린트를 만드는 비용 효율적인 방법입니다.
 
-평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/)를 참조하십시오.
+평가 도구 및 다운스트림 개발자 워크플로에 대한 자세한 내용은 [Adobe Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)를 참조하십시오.
 
 마이그레이션 평가 도구와 통합된 Commerce 개발자 에이전트에 대한 자세한 내용은 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오
 
-## 코드 및 상점 마이그레이션(Commerce 개발자 MCP)
+## 코드 및 상점 마이그레이션(Commerce 개발자 에이전트)
 
 [!DNL Adobe Commerce on Cloud] 또는 온-프레미스 사용자 지정에서는 응용 프로그램 내에서 실행되는 모듈, 플러그인 및 이벤트 관찰자 등 처리 중인 PHP를 사용할 수 있습니다. [!DNL Adobe Commerce as a Cloud Service]은(는) 버전이 없는 SaaS 플랫폼이며 해당 모델은 더 이상 적용되지 않습니다. 사용자 지정은 이벤트 및 API를 통해 Commerce과 통합되는 처리 중단된 [!DNL Adobe Developer App Builder] 응용 프로그램으로 실행됩니다. 이 아키텍처에 대한 스토어의 사용자 지정 현대화는 일반적으로 [!DNL Adobe Commerce as a Cloud Service] 마이그레이션에서 가장 중요한 엔지니어링 작업입니다.
 
+Adobe은 이 작업에 대해 두 가지 AI 지원 경로를 제공합니다.
+
+- **Commerce 개발자 에이전트** - 대부분의 마이그레이션에 대해 안내식 브라우저 기반 경험 및 권장 시작 지점입니다.
+- **Commerce 개발자 MCP** - 기존 개발 환경에서 작업하거나 Edge Delivery Services(EDS)에 대한 상점 현대화가 필요한 팀을 위한 대화형 IDE 경험입니다.
+
 ### 코드 마이그레이션 개요
 
-마이그레이션 평가부터 시작하여 Commerce 개발자 MCP는 기존 PHP 사용자 지정을 [!DNL App Builder] 응용 프로그램으로 현대화하기 위한 대화형 IDE 환경을 제공합니다. 또한 EDS(Edge Delivery Services)의 상점 재구축을 지원합니다. Commerce 개발자 MCP는 마이그레이션 평가 도구 결과를 직접 소비함으로써 수동 해석을 줄이고, 추적 가능성을 유지하며, 프로세스 전반에 걸쳐 일관성을 보장하여 승인된 마이그레이션 로드맵에 맞게 구현을 유지합니다.
+마이그레이션 평가를 시작으로 Commerce 개발자 에이전트는 기존 PHP 사용자 지정을 [!DNL App Builder] 응용 프로그램으로 현대화하기 위한 대화형 에이전트 환경을 제공합니다. Commerce 개발자 에이전트는 마이그레이션 평가 도구 결과를 직접 소비함으로써 수동 해석을 줄이고, 추적 가능성을 유지하며, 프로세스 전반에 걸쳐 일관성을 보장하여 승인된 마이그레이션 로드맵과 일관되도록 구현을 유지합니다.
 
-마이그레이션이 주요 사용 사례이지만 Commerce 개발자 MCP는 [!DNL Adobe Commerce]을(를) 위한 포괄적인 AI 개발 에이전트로 설계되었습니다. MCP는 현대화, 새로운 개발, 운영 워크플로 및 [!DNL Adobe Commerce as a Cloud Service]에 대한 모든 업데이트를 지원합니다. 이러한 수준의 유연성을 통해 팀은 마이그레이션 후 한참 후에도 Commerce 애플리케이션을 계속 구축하고 확장할 수 있습니다.
+마이그레이션이 기본 사용 사례이지만 Commerce 개발자 에이전트는 [!DNL Adobe Commerce]을(를) 위한 포괄적인 AI 개발 에이전트로 디자인되었습니다. Commerce 개발자 에이전트는 현대화, 새로운 개발, 운영 워크플로 및 [!DNL App Builder]에 대한 모든 업데이트를 지원합니다. 이러한 수준의 유연성을 통해 팀은 마이그레이션 후 한참 후에도 Commerce 애플리케이션을 계속 구축하고 확장할 수 있습니다.
 
-### Commerce 개발자 MCP
+### Commerce 개발자 에이전트
 
-Commerce 개발자 MCP는 [마이그레이션 평가](#migration-assessment-tool)의 결과를 사용하여, 확인된 사용자 지정 항목을 반복적인 개발 워크플로를 통해 [!DNL App Builder] 응용 프로그램으로 변환합니다. 이러한 도구를 사용하여 개발할 때는 다음 지침을 고려하십시오.
+Commerce 개발자 에이전트는 [마이그레이션 평가](#migration-assessment-tool)의 결과를 사용하여 식별된 사용자 지정을 반복적인 개발 워크플로를 통해 [!DNL App Builder] 응용 프로그램으로 변환합니다. 이러한 도구를 사용하여 개발할 때는 다음 지침을 고려하십시오.
+
+- **블루프린트로 시작:** Commerce 개발자 에이전트는 마이그레이션 평가를 사용하고 구조화된 블루프린트를 생성합니다. 리스크에 플래그를 지정하고 종속성을 매핑하여 검토할 수 있도록 하는 단계별 마이그레이션 계획입니다.
+
+- **검토 및 승인:** 자동으로 아무 것도 생성되지 않습니다. 블루프린트는 코드 생성이 시작되기 전에 명시적 승인이 필요하며, 여러 버전에서 대화식으로 정제할 수 있습니다.
+
+- **App Builder 스캐폴딩 생성:** 승인되면 에이전트는 다음을 포함한 스캐폴딩 [!DNL App Builder] Commerce 확장을 생성합니다.
+
+  - 이벤트 및 웹후크 인프라
+  - 판매자 구성 가능 설정
+  - 지속성 패턴
+
+  스캐폴딩이 생성되면 에이전트는 출력에 대한 유효성 검사를 실행합니다.
+
+- **세분화 및 내보내기 또는 직접 배포: [!DNL App Builder]:** 개발 단계에서 후속 변경을 요청하고 생성된 확장 코드의 ZIP을 다운로드하거나 Commerce 개발자 에이전트에서 [!DNL App Builder]에 직접 배포할 수 있습니다. 프로젝트 컨텍스트 및 의사 결정은 세션 간에 지속됩니다.
+
+자세한 내용은 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/) 및 [시작](https://developer.adobe.com/commerce/extensibility/developer-agent/getting-started)을 참조하세요.
+
+### Commerce 개발자 MCP(로컬 개발)
+
+>[!NOTE]
+>
+>Commerce 개발자 MCP는 IDE에서 작동하도록 설계되었습니다.
+
+기존 IDE에서 작업을 선호하거나 Edge Delivery Services(EDS)에서 스토어프런트를 현대화해야 하는 팀은 Commerce 개발자 MCP를 사용할 수 있습니다. Commerce 개발자 에이전트와 마찬가지로 마이그레이션 평가를 직접 소모하여 승인된 마이그레이션 로드맵에 맞게 구현을 유지하고 수동 해석을 줄입니다.
+
+이러한 도구를 사용하여 개발할 때는 다음 지침을 고려하십시오.
 
 - **블루프린트로 시작** - Commerce 개발자 MCP는 식별된 사용자 지정, 권장 사항 및 마이그레이션 우선 순위를 구현 계획의 기반으로 사용하여 마이그레이션 평가를 사용합니다.
 
@@ -231,25 +281,25 @@ MCP는 또한 다음을 지원합니다.
 - 경험 최적화
 - 최신 Edge Delivery Services 모범 사례와 연계
 
-### 개발자 MCP 값
+### Commerce 개발자 에이전트 및 개발자 MCP 값
 
-처리 중인 PHP 사용자 지정에서 구성 가능한 [!DNL App Builder] 응용 프로그램으로 이동하면 중요한 아키텍처 전환이 나타납니다. Commerce 개발자 MCP는 [!DNL Adobe Commerce]개의 지식, [!DNL App Builder]개의 구현 패턴 및 제품 모범 사례를 개발 워크플로에 직접 포함시켜 해당 간격을 좁힙니다.
+처리 중인 PHP 사용자 지정에서 구성 가능한 [!DNL App Builder] 응용 프로그램으로 이동하면 중요한 아키텍처 전환이 나타납니다. Commerce 개발자 에이전트 및 개발자 MCP는 [!DNL Adobe Commerce]개의 지식, [!DNL App Builder]개의 구현 패턴 및 제품 모범 사례를 개발 워크플로에 직접 포함시켜 해당 간격을 좁힙니다.
 
 이 컨텍스트를 포함하면 게재 속도와 엔지니어링 품질 모두에서 일관성이 향상됩니다. 팀은 일관된 아키텍처 지침을 따르는 구현을 생성하면서 애플리케이션을 보다 빠르게 현대화할 수 있습니다.
 
-Commerce 개발자 MCP는 권장 구현 패턴을 포함함으로써 개인의 전문성에 대한 의존도를 줄이고 조직이 프로젝트 전반에서 현대화 노력을 일관되게 확장할 수 있도록 지원합니다.
+Commerce 개발자 에이전트 및 개발자 MCP는 권장 구현 패턴을 포함시킴으로써 개별 전문 지식에 대한 의존도를 줄이고 조직이 프로젝트 간에 현대화 노력을 일관되게 확장할 수 있도록 지원합니다.
 
 마이그레이션 프로세스는 기존 구현을 개선할 수 있는 기회이기도 합니다. Teams는 기존 맞춤화를 단순화하고, 오래된 기능을 폐기하고, SaaS 기능을 채택하고, 과거의 기술적 부담을 떠넘기는 대신 애플리케이션 아키텍처를 현대화할 수 있습니다.
 
-Commerce 개발자 MCP는 마이그레이션 평가를 직접 소비하므로 모든 현대화 작업은 원래 평가로 추적성을 다시 유지하여 구현이 승인된 마이그레이션 로드맵과 일치하도록 합니다.
+Commerce 개발자 에이전트는 마이그레이션 평가를 직접 소비하므로 모든 현대화 작업은 원래 평가로 다시 추적할 수 있으므로 구현이 승인된 마이그레이션 로드맵과 일치하도록 합니다.
 
-또한 Commerce 개발자 MCP는 비즈니스 요구 사항이 변경될 때 독립적으로 발전할 수 있는 모듈식 [!DNL App Builder] 응용 프로그램을 장려하여 구성 가능한 응용 프로그램 디자인을 촉진합니다.
+또한 Commerce 개발자 에이전트와 개발자 MCP는 비즈니스 요구 사항이 변경될 때 독립적으로 발전할 수 있는 모듈식 [!DNL App Builder] 애플리케이션을 권장하여 구성 가능한 애플리케이션 설계를 촉진합니다.
 
 ### 개발자 MCP 범위
 
 백엔드에서 Commerce 개발자 MCP는 PHP 모듈, 플러그인 및 이벤트 관찰자를 [!DNL App Builder] 응용 프로그램으로 변환하여 사용자 정의 및 통합 계층을 현대화하고 통합 패턴을 만들어 Adobe Commerce과 연결합니다. 또한 체크아웃, 결제 및 관리 UI에 대한 개발을 가속화합니다.
 
-프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 &#x200B;](#storefront-modernization)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 ](#storefront-modernization)을(를) 현대화합니다.
 
 MCP는 데이터 마이그레이션을 처리하지 않습니다. 비즈니스 데이터는 [Commerce 데이터 마이그레이션 서비스](#data-migration-commerce-data-migration-service)를 통해 마이그레이션됩니다. MCP는 비즈니스 논리 또는 사용자 지정 테이블에 응용 프로그램 현대화가 필요할 때 필요한 [!DNL App Builder] 응용 프로그램을 지원합니다.
 
@@ -257,9 +307,9 @@ MCP는 데이터 마이그레이션을 처리하지 않습니다. 비즈니스 �
 
 마이그레이션 평가 도구 로드맵이 마이그레이션 범위 및 우선 순위를 정하면 코드 및 상점 현대화 작업이 시작됩니다.
 
-MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools/) 설명서를 참조하십시오.
-
 마이그레이션 평가 도구와 통합된 Commerce 개발자 에이전트에 대한 자세한 내용은 [Commerce 개발자 에이전트](https://developer.adobe.com/commerce/extensibility/developer-agent/)를 참조하십시오
+
+MCP 설치 및 사용 방법에 대한 자세한 내용은 [Commerce 개발자 MCP](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools) 설명서를 참조하십시오.
 
 ## 데이터 마이그레이션(Commerce 데이터 마이그레이션 서비스)
 
@@ -315,4 +365,4 @@ Commerce Data Migration Service 는 전 세계 프로덕션에 있으며 이미 
 
 워크플로우, 지원되는 데이터 및 확인에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구 안내서](bulk-data/migration-tool.md) 설명서를 검토하십시오.
 
-소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
+소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
