@@ -5,21 +5,25 @@ exl-id: 1d5f83c4-1613-4236-9d98-d455f45a47da
 TQID: https://experienceleague.adobe.com/K3cKFg-m22bUzlupyhsHgDVxaJka7xhOvFnOt8wDdII
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 88a0b1a238090dec85e0f79082d264b720999fee
+    internal-label: Machine learning
+source-git-commit: b8dd0e31a1deac03b03bfeb90a09761b637e0a40
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: '1463'
 ht-degree: 0%
-
 ---
-
 # 새 권장 사항 만들기
 
 권장 사항을 만들 때 권장 제품 _항목_&#x200B;이 포함된 _권장 사항 단위_ 또는 위젯을 만듭니다.
@@ -176,7 +180,7 @@ _권장 사항 유형_
 
 >[!IMPORTANT]
 >
->_번들_, _그룹화됨_ 및 사용자 지정 제품 유형은 지원되지 않습니다. 카탈로그에 이러한 제품 유형이 많이 포함되어 있으면 준비 점수가 낮을 수 있습니다. 또한 공백이 있는 모든 SKU는 권장 사항 관련성을 줄일 수 있으므로 피해야 합니다.
+>공백이 있는 모든 SKU는 권장 사항 관련성을 줄일 수 있으므로 피해야 합니다.
 
 다음은 일반적인 낮은 준비 점수에 대한 가능한 이유와 해결 방법을 나열합니다.
 

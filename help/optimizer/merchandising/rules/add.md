@@ -6,23 +6,29 @@ exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
 TQID: https://experienceleague.adobe.com/UOe-TPaF80Wrk-gNuJwLTdndVQMQfbYrbpAfb-r4pJc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d36a8adc8cbfe6478c5922dc6cee654b48e9c30d
+    internal-label: Personalization
+source-git-commit: b8dd0e31a1deac03b03bfeb90a09761b637e0a40
 workflow-type: tm+mt
-source-wordcount: 4183
+source-wordcount: '4182'
 ht-degree: 0%
-
 ---
-
 # 규칙 만들기 및 관리
 
 규칙을 빌드하고 게시하려면 다음을 수행하십시오.
@@ -47,7 +53,7 @@ ht-degree: 0%
 | 규칙 유형 | 목적 |
 | --- | --- |
 | **모든 제품 목록** | 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 제품 목록 전반에서 기본 순위 및 머천다이징. 이러한 규칙은 하나만 만들 수 있으며 조건을 포함할 수 없습니다. |
-| **범주 규칙** | 하나 이상의 선택한 범주에 머천다이징 및 순위를 적용하여 해당 범주 페이지의 제품 순서를 제어합니다. |
+| **범주 규칙** | 머천다이징 및 순위를 단일 카테고리에 적용하여 해당 카테고리 페이지의 제품 순서를 제어합니다. |
 | **검색 규칙** | 쇼핑객이 규칙의 쿼리 조건과 일치하는 검색을 실행할 때 머천다이징 및 순위를 적용합니다. |
 
 **규칙 만들기** 섹션에서 규칙 이름, 일정, 규칙이 모든 목록에 적용되는지 또는 특정 검색 조건에 적용되는지 여부, 등급 유형을 정의합니다.
