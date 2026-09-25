@@ -5,17 +5,18 @@ exl-id: 140bf047-4f6a-48da-b536-d96e78ae3d17
 TQID: https://experienceleague.adobe.com/IcJh0vfW3tvlyeZT0K9OnyqLqRmHlgfmUOX3lY-50tg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+    internal-label: Admin
+source-git-commit: b8dd0e31a1deac03b03bfeb90a09761b637e0a40
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '759'
 ht-degree: 0%
-
 ---
-
 # 제품 필터링
 
 Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 자동으로 적용합니다. 페이지에 여러 개의 권장 사항 단위가 배포되어 있는 경우, Adobe Commerce은 해당 단위로 반복되는 모든 제품을 필터링합니다. 다른 제품을 추천할 수 있는 공간을 만들기 위해 반복 제품에 대한 첫 번째 참조만 사용됩니다. Adobe Commerce은 이전에 구매한 제품과 장바구니에 있는 제품도 필터링합니다.
@@ -55,7 +56,7 @@ Adobe Commerce은 구성 불가능한 기본 필터를 권장 사항 단위에 �
 
 >[!NOTE]
 >
->B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/category-permissions)를 준수합니다.
+>B2B 판매자의 경우 범주 필터는 사용자가 구성한 [고객별 제품 범주](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions)를 준수합니다.
 
 Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다음 카테고리 필터 구성을 사용하는 것을 권장합니다.
 
@@ -77,7 +78,7 @@ Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다�
 
 ### 유형
 
-제품 유형에 따른 필터는 특정 유형의 모든 제품을 포함하거나 제외합니다. 지원되는 형식에는 _simple_, _configurable_, _virtual_, _downloadable_ 또는 _기프트 카드_&#x200B;가 있습니다. _번들_, _그룹화됨_ 및 사용자 지정 제품 유형은 지원되지 않습니다.
+제품 유형에 따른 필터는 특정 유형의 모든 제품을 포함하거나 제외합니다.
 
 ### 가시성
 
@@ -85,11 +86,11 @@ Adobe Commerce에서는 페이지 유형에 권장 사항을 배포할 때 다�
 
 ### 가격
 
-제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 쇼핑객이 사용할 수 있는 할인이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/pricing-advanced)을 반영합니다.
+제품 가격을 기반으로 하는 필터는 최종 가격을 사용하여 비교를 수행합니다. 최종 가격에는 익명의 쇼핑객이 사용할 수 있는 할인이 포함됩니다. B2B 판매자의 경우 표시된 가격은 사용자가 구성한 [고객별 그룹 가격](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/pricing-advanced)을 반영합니다.
 
 ### 재고 상태
 
 다음 제외 필터를 사용하여 재고 상태에 따라 제품을 필터링할 수 있습니다.
 
 - 품절 - (제외만 해당) 품절된 제품을 제외합니다.
-- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory)의 _X만 남은 임계값_ 값을 기반으로 합니다.
+- 재고 부족 - (제외만 해당) 재고 부족 제품은 제외합니다. 재고 부족 상태는 [재고 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory)의 _X만 남은 임계값_ 값을 기반으로 합니다.

@@ -1,28 +1,34 @@
 ---
 title: 권장 사항 만들기 및 관리
 description: 권장 사항을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
 TQID: https://experienceleague.adobe.com/4w6G-IgBjgmYYnnEpbK0HML9pSi3quLDxJfuCp9tV84
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Machine learning
+source-git-commit: f316b57d365b8952223d4d250ac14f113cf48601
 workflow-type: tm+mt
-source-wordcount: 1574
+source-wordcount: '1547'
 ht-degree: 0%
-
 ---
-
 # 권장 사항 만들기 및 관리
 
 권장 사항을 만들 때 권장 제품 _항목_&#x200B;이 포함된 _권장 사항 단위_ 또는 위젯을 만듭니다.
@@ -32,7 +38,7 @@ _추천 단위_
 
 권장 사항 단위를 활성화하면 Adobe Commerce에서 [데이터 수집](../../manage-results/recommendation-performance.md)을 시작하여 노출, 보기, 클릭 수 등을 측정합니다. 권장 사항 테이블에는 정보에 입각한 비즈니스 결정을 내리는 데 도움이 되는 각 권장 사항 단위에 대한 지표가 표시됩니다.
 
-1. _[!DNL Adobe Commerce Optimizer]_&#x200B;사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동하여_&#x200B;권장 사항&#x200B;_작업 영역을 표시합니다.
+1. _[!DNL Adobe Commerce Optimizer]_사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동하여_&#x200B;권장 사항&#x200B;_작업 영역을 표시합니다.
 
 1. **카탈로그 보기** 필드에서 권장 사항을 사용할 수 있는 카탈로그 보기를 선택합니다. [권장 사항에 카탈로그 보기 사용](../../manage-results/recommendation-performance.md#select-catalog-view)에 대해 자세히 알아보세요.
 
@@ -112,7 +118,7 @@ _권장 제품 미리 보기_ 패널은 항상 권장 구성 단위가 상점 �
 
 기존 권장 사항을 편집, 비활성화 또는 삭제할 수 있습니다.
 
-1. _[!DNL Adobe Commerce Optimizer]_&#x200B;사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동합니다.
+1. _[!DNL Adobe Commerce Optimizer]_사이드바에서_&#x200B;머천다이징&#x200B;_>**권장 사항**(으)로 이동합니다.
 
 1. 수정할 권장 사항을 선택합니다.
 
@@ -205,7 +211,7 @@ _권장 사항 유형_
 
 >[!IMPORTANT]
 >
->_번들_, _그룹화됨_ 및 사용자 지정 제품 유형은 지원되지 않습니다. 카탈로그에 이러한 제품 유형이 많이 포함되어 있으면 준비 점수가 낮을 수 있습니다. 또한 공백이 있는 모든 SKU는 권장 사항 관련성을 줄일 수 있으므로 피해야 합니다.
+>공백이 있는 모든 SKU는 권장 사항 관련성을 줄일 수 있으므로 피해야 합니다.
 
 다음은 일반적인 낮은 준비 점수에 대한 가능한 이유와 해결 방법을 나열합니다.
 
