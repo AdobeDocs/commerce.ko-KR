@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b9ab9e256edced9a508d08dfcae3589bd27f304
+source-git-commit: b4bbb596143bdcbb8c55a26386db7a36e2961db9
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1093'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,72 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 9월 25일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>번들형 및 그룹화된 제품이 지원되지 않는다고 잘못 언급된 <a href="https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/boundaries-limits">PaaS</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/create">Commerce Optimizer</a> 모두에 대한 제품 권장 사항 설명서를 수정했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/55b17947196acfa459934e4ee373469b84e16ea1">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 9월 24일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Commerce 개발자 에이전트가 마이그레이션 프로세스를 지원하는 방법을 설명하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview">마이그레이션 개요</a>를 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/739eabe6f43412610862ab00516687ad5aeeac53">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 9월 23일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/d879d372a199c24d266abdfb79d1ff0af164d75b">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 9월 17일
 
@@ -352,28 +418,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c8cab2404d47a6cb4a0418a59b533bf11e082b0b">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 23일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed8bf2044f77432eb38df3c3cbb13b7708f3c33b">커밋</a></td>
     </tr>
   </tbody>
 </table>
