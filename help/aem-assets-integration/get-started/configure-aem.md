@@ -6,21 +6,25 @@ exl-id: a5d2cbab-5ea1-446b-8ab2-2c638128a40c
 TQID: https://experienceleague.adobe.com/QPlM-eeRjJ0gwmpGO4SSYR4PLtL97O-NeozWorDWtv0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9fce350099392041ec9f648ae2d67a459ff53d91
+    internal-label: Administration
+source-git-commit: 4c27d94eca656c48dd50ba8dc69a905ea141c6fd
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: '1839'
 ht-degree: 1%
-
 ---
-
 # AEM Assets 프로젝트 구성
 
 이 항목에서는 AEM 제작 환경에서 Commerce 네임스페이스, 메타데이터 스키마 및 [!UICONTROL Commerce] 탭을 사용할 수 있도록 AEM Assets 프로젝트를 구성하는 방법에 대해 설명합니다. 이러한 리소스에 대한 배경은 [AEM Assets의 Commerce 메타데이터](../metadata.md)를 참조하십시오.
@@ -68,6 +72,10 @@ Cloud Manager에서 프로그램을 만드는 것은 여러 단계의 프로세�
    ![Cloud Manager 솔루션 및 추가 기능 단계(Dynamic Media 선택)](../assets/aem-cloud-manager-program-addons.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Add Environment]** 단계에서 **프로덕션** 및 **스테이징** 환경의 이름을 입력한 다음 지역을 선택하십시오.
+
+   >[!IMPORTANT]
+   >
+   >[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 이 통합을 위해 AEM Assets 환경을 만들 때 Adobe Commerce as a Cloud Service 셀과 지리적으로 가까운 지원되는 AEM 배포 지역을 선택하십시오.
 
    ![프로덕션 및 스테이징 세부 정보가 포함된 Cloud Manager 환경 추가 대화 상자](../assets/aem-cloud-manager-add-environment.png){width="600" zoomable="yes"}
 
