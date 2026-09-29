@@ -1,27 +1,33 @@
 ---
 title: Headless
-description: Headless 상점 앞에서  [!DNL Product Recommendations] 을(를) 통합하는 방법을 알아봅니다.
+description: Headless 상점 앞에서 [!DNL Product Recommendations]을(를) 통합하는 방법을 알아봅니다.
 exl-id: c40dac31-f87e-402a-ba50-e8aa4c1d66aa
 TQID: https://experienceleague.adobe.com/J3qXs-SWuDCz7pQwzGm0VcOOFoU1QM2M4qwsTxxPwE8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
+    internal-label: Data collection
+source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # Headless
 
 [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/) 또는 React 또는 Vue JS와 같은 사용자 지정 프론트엔드 기술을 사용하여 Headless Storefront에서 [!DNL Product Recommendations]을(를) 통합할 수 있습니다.
