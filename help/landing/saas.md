@@ -144,7 +144,7 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
    **[!UICONTROL Commerce Services Connector]** 섹션이 표시되지 않으면 원하는 [[!DNL Commerce] 서비스](#availableservices)에 대한 [!DNL Commerce] 모듈을 설치하고 `magento/module-services-id` 패키지가 설치되었는지 확인하십시오.
 
-1. _[!UICONTROL Sandbox API Keys]_및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
+1. _[!UICONTROL Sandbox API Keys]_&#x200B;및_[!UICONTROL Production API Keys]_ 섹션에 키 값을 붙여 넣습니다.
 
    - 비공개 키에는 키 시작 부분의 `-----BEGIN PRIVATE KEY-----` 및 키 끝 부분의 `-----END PRIVATE KEY-----`이(가) 포함되어야 합니다.
    - 실제 키의 사본이 없는 경우 라이센스 소유자에게 요청한 다음 값을 구성에 연결합니다.
