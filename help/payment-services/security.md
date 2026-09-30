@@ -4,13 +4,11 @@ description: 사이트에 대한 보안 및 규정 준수 요구 사항을 검�
 exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
 redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html?lang=ko
-source-git-commit: f8c44e088fa66ec506934a0155f1ff819a9db7d4
+source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # 보안 및 규정 준수
 
 보안은 [!DNL Payment Services]에서 가장 중요한 사항이며 개인 또는 PCI(결제 카드 산업) 규제 정보가 [!DNL Payment Services]에 전달되지 않습니다.

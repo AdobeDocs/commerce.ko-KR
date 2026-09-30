@@ -8,26 +8,34 @@ badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adob
 TQID: https://experienceleague.adobe.com/pWbJSCrV9CcdJXNTkuXyCxh73eUA7nYt1okexwtK7II
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+    internal-label: Data management
+source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
 workflow-type: tm+mt
-source-wordcount: 1665
+source-wordcount: '1665'
 ht-degree: 0%
-
 ---
-
 # [!DNL Commerce Services Connector]
 
 일부 Adobe Commerce 및 Magento Open Source 기능은 [!DNL Commerce Services]에서 제공되며 SaaS(Software as a Service)로 배포됩니다. 이러한 서비스를 사용하려면 프로덕션 및 샌드박스 API 키를 사용하여 [!DNL Commerce] 인스턴스를 연결하고 [구성](#saas-configuration)에서 데이터 공간을 지정해야 합니다. 각 인스턴스에 대해 연결을 한 번만 구성하면 됩니다.
@@ -108,7 +116,7 @@ ht-degree: 0%
 
 API 키를 삭제하기 전에 대체 키를 생성하고 안전하게 저장하십시오. 모든 통합을 업데이트하여 새 키를 사용하고 종속 서비스가 예상대로 작동하는지 확인하십시오.
 
-관리 패널에 **[!DNL Live Search]** 구성 필드가 표시되지 않으면 해당 환경에 대한 올바른 SaaS API 키를 입력했는지 확인하십시오. 프로덕션 데이터 공간에 프로덕션 SaaS 키를 사용하고 스테이징 데이터 공간에 스테이징 키를 사용합니다. 잘못된 키를 구성하면 Adobe Commerce 환경에서 SaaS 서비스(**[!DNL Live Search]** 포함)를 사용할 수 없습니다.
+관리 패널에 **[!DNL Live Search]** 구성 필드가 표시되지 않으면 해당 환경에 대한 올바른 SaaS API 키를 입력했는지 확인하십시오. 프로덕션 데이터 공간에 프로덕션 SaaS 키를 사용하고 스테이징 데이터 공간에 스테이징 키를 사용합니다. 잘못된 키가 구성되어 있으면 SaaS 서비스(**[!DNL Live Search]** 포함)를 Adobe Commerce 환경에서 사용할 수 없습니다.
 
 제거할 API 키에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다. 메시지가 표시되면 키를 영구적으로 제거하는 작업을 확인합니다.
 
@@ -155,9 +163,9 @@ SaaS 프로젝트를 선택하거나 만들려면 스토어의 [!DNL Commerce] �
 
    Commerce 서비스와 통합할 인스턴스가 따로 있는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하여 각 추가 인스턴스에 대해 새 SaaS 프로젝트를 요청하세요. 지원에서 SaaS 프로젝트를 만든 후 동일한 API 키를 사용하여 **인스턴스에 대한 Commerce Services 커넥터를 구성**&#x200B;한 다음 새 SaaS 프로젝트 및 데이터 공간을 선택하십시오.
 
->[!WARNING]
->
-> API 포털에서 새 키를 생성하는 경우 관리 구성에서 API 키를 즉시 업데이트합니다. 관리자가 여전히 이전 키를 사용하는 경우 SaaS 확장이 작동하지 않고 데이터 수집이 중단됩니다.
+   >[!WARNING]
+   >
+   > API 포털에서 새 키를 생성하는 경우 관리 구성에서 API 키를 즉시 업데이트합니다. 관리자가 여전히 이전 키를 사용하는 경우 SaaS 확장이 작동하지 않고 데이터 수집이 중단됩니다.
 
 SaaS 프로젝트 또는 데이터 공간의 이름을 변경하려면 둘 중 하나 옆에 있는 **이름 바꾸기**&#x200B;를 클릭합니다. 이름은 프로젝트와 데이터 공간을 식별하고 구분하는 데 도움이 되는 레이블일 뿐이므로 이름을 변경해도 서비스에 영향을 주지 않습니다.
 

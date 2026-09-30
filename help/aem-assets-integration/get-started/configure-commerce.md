@@ -7,21 +7,25 @@ exl-id: c0fb59e1-daf8-4f48-a7a7-b48e8782dfad
 TQID: https://experienceleague.adobe.com/z4WBMzUa6Jn8EjUH1e5oojV4I3bTDZJylwtQ7LZ4wPE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+    internal-label: Metadata
+source-git-commit: 555a9c9aff3f4d5f60f13374a9f23a70e2111b3b
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 패키지 설치
 
 이 Commerce 통합을 통해 Adobe Commerce과 Adobe Experience Manager Assets(AEM Assets) 간에 에셋을 동기화할 수 있습니다. 확장은 두 플랫폼 모두에서 제품 이미지, 비디오 및 기타 미디어 에셋을 관리하는 도구 및 서비스 세트를 제공합니다.
@@ -60,6 +64,12 @@ Adobe Commerce 패키지를 설치하고 다음 작업을 완료하여 Commerce 
 
 Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버전의 AEM Assets 통합 확장(`aem-assets-integration`)을 설치합니다. 확장은 [repo.magento.com](https://repo.magento.com/admin/dashboard) 리포지토리에서 작성기 메타패키지로 전달됩니다.
 
+기본적으로 `composer require magento/aem-assets-integration`은(는) 사용 가능한 최신 버전을 설치합니다. 대신 정확한 버전을 고정하려면(예를 들어, 유효성이 확인된 동일한 릴리스에 여러 환경을 유지하려면) `"magento/aem-assets-integration": "1.4.7"`과(와) 같은 정확한 제약 조건을 사용하십시오. 호환되는 1.x 범위가 필요한 경우에만 `^1.4.7`을(를) 사용하십시오.
+
+>[!NOTE]
+>
+>1.4.6 이전 버전에서 업그레이드하는 경우 1.4.7 이상으로 직접 업그레이드하는 것이 좋습니다. 버전 1.4.6에는 사용자 지정 이미지 역할과 확장 업데이트 검사기가 도입되었습니다. 버전 1.4.7에서는 Commerce 비동기 구성 저장이 활성화된 경우 [사용자 지정 자동 일치](../synchronize/custom-match.md)에 사용된 `workspace.json` 파일이 올바르게 지속되지 않는 문제가 해결되었습니다. 비동기 구성 저장이 활성화된 사용자 지정 선택기를 사용하는 경우 업그레이드 후 `workspace.json` 파일을 다시 업로드하십시오. [비동기 구성 저장](../synchronize/custom-match.md#async-config-save)을 참조하십시오.
+
 >[!BEGINTABS]
 
 >[!TAB 클라우드 인프라]
@@ -78,10 +88,10 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Commerce용 AEM Assets 통합 확장 추가.
+1. Commerce용 AEM Assets 통합 확장 추가. 사용 가능한 최신 버전을 설치하려면 버전 제한을 생략하거나 아래와 같이 특정 버전을 고정하십시오.
 
    ```shell
-   composer require "magento/aem-assets-integration" "<version-tbd>" --no-update
+   composer require "magento/aem-assets-integration" "^1.4.7" --no-update
    ```
 
 1. 패키지 종속성을 업데이트합니다.
@@ -106,7 +116,7 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
 
 이 메서드를 사용하여 온-프레미스 인스턴스에 대한 [!DNL AEM Assets Integration] 확장을 설치합니다.
 
-1. 작성기를 사용하여 Commerce용 AEM Assets 통합 확장 기능을 프로젝트에 추가합니다.
+1. 작성기를 사용하여 Commerce용 AEM Assets 통합 확장 기능을 프로젝트에 추가합니다. 사용 가능한 최신 버전을 설치하려면 버전 제약 조건을 생략하거나 `"^1.4.7"`과 같은 특정 버전을 고정하십시오.
 
    ```shell
    composer require "magento/aem-assets-integration" --no-update

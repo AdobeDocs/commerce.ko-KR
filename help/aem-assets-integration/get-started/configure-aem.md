@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c27d94eca656c48dd50ba8dc69a905ea141c6fd
+source-git-commit: fda6fa7c9ae80a594f0eb05624030cd6b13f0da2
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1861'
 ht-degree: 1%
 ---
 # AEM Assets 프로젝트 구성
@@ -205,6 +205,8 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 
    * 제품 SKU 및 `Eligible for Commerce` 필드가 표시됩니다.
 
+   * **[!UICONTROL Alt texts]** 다중 필드는 **[!UICONTROL Store View Code]** 및 **[!UICONTROL Alt Text]** 입력에서 사용할 수 있습니다.
+
 ### Commerce 탭이 속성에 표시되지 않음
 
 **Commerce** 탭이 속성에 나타나지 않으면 메타데이터 스키마 편집기에서 다음 단계를 수동으로 완료해야 합니다.
@@ -220,6 +222,8 @@ AEM as a Cloud Service에서 [!BADGE PaaS 전용]{type=Informative tooltip="Adob
 1. **역할 표시** 및 **순서 표시**&#x200B;에 대한 확인란을 선택하십시오.
 
 1. **checkbox** 구성 요소를 **Commerce** 탭으로 끌어다 놓고 속성 `commerce:isCommerce`에 매핑합니다. 옵션으로 **예** 및 **아니요**&#x200B;를 정의합니다.
+
+1. **Commerce** 탭에 **[!UICONTROL Alt texts]** 다중 필드를 추가합니다. 두 개의 인덱스 정렬 속성을 `commerce:altTextStoreViews` 및 `commerce:altTextValues`(으)로 구성합니다.
 
 다른 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 만들거나 AEM Assets 통합 영업 담당자에게 도움을 요청하십시오.
 

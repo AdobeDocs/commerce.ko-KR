@@ -4,20 +4,23 @@ description: AEM Assets 통합이 Commerce 작성 환경에 추가하는 AEM Ass
 feature: CMS, Media, Integration
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 0c2e50338cbf286704239b6d1f628180e85a3bef
+    internal-label: Digital asset management
+source-git-commit: 7950f5d171b35054be42ca60d19bafcf43c53cd6
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: '836'
 ht-degree: 0%
-
 ---
-
 # AEM Assets의 Commerce 메타데이터
 
 Commerce 메타데이터는 AEM Assets과 Commerce 간의 계약입니다. Commerce에 대한 에셋, 에셋이 속한 제품 및 에셋을 사용하거나 표시하는 방법을 Commerce에 알려줍니다. 이 메타데이터를 사용하면 AEM Assets 통합에서 자산 파일을 올바르게 매핑하고 동기화할 수 있습니다.
@@ -30,10 +33,6 @@ Commerce 메타데이터를 사용하면 다음 기능을 사용할 수 있습�
 * `commerce:altTextStoreViews` 및 `commerce:altTextValues` 필드를 통해 **스토어 보기에서 입력한 Commerce 전용 대체 텍스트를 추가**&#x200B;합니다.
 * **[!UICONTROL Commerce]** 탭 및 스키마 양식을 통해 **AEM Assets 속성 UI에 이러한 필드를 표시합니다**.
 
->[!IMPORTANT]
->
->**Commerce 전용 대체 텍스트** 기능은 아직 [셀프 서비스 온보딩](get-started/configure-aem.md#enable-aem-commerce-self-service)을 통해 사용할 수 없습니다. 현재 `assets-commerce` 사용자 지정 코드 패키지를 배포하는 경우에만 제공됩니다([assets-commerce 패키지를 수동으로 설치](get-started/configure-aem.md#install-the-assets-commerce-package-manually) 참조). 향후 AEM 릴리스에 대한 기본 지원이 예정되어 있습니다.
-
 AEM 프로젝트에서 이러한 리소스를 구성하려면 [AEM Assets 프로젝트 구성](get-started/configure-aem.md)을 참조하십시오. 이 항목의 나머지 부분에서는 메타데이터 제공 방법에 대해 설명합니다.
 
 ## AEM Commerce assets-commerce 패키지 콘텐츠
@@ -44,20 +43,24 @@ Adobe은 Experience Manager Assets as a Cloud Service 구성에 Commerce 네임�
 
 * Commerce 관련 속성을 식별하기 위한 [사용자 지정 네임스페이스](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce`입니다.
 
-   * Adobe Commerce 프로젝트와 연결된 Commerce 자산에 태그를 지정하는 레이블이 `Eligible for Commerce`인 사용자 지정 메타데이터 형식 `commerce:isCommerce`입니다.
+  * Adobe Commerce 프로젝트와 연결된 Commerce 자산에 태그를 지정하는 레이블이 `Eligible for Commerce`인 사용자 지정 메타데이터 형식 `commerce:isCommerce`입니다.
 
-   * **[!UICONTROL Product Data]** 속성을 추가할 사용자 지정 메타데이터 형식 `commerce:skus` 및 해당 UI 구성 요소입니다. 제품 데이터에는 Commerce 에셋을 제품 SKU와 연결하는 메타데이터 속성이 포함됩니다.
+  * **[!UICONTROL Product Data]** 속성을 추가할 사용자 지정 메타데이터 형식 `commerce:skus` 및 해당 UI 구성 요소입니다. 제품 데이터에는 Commerce 에셋을 제품 SKU와 연결하는 메타데이터 속성이 포함됩니다.
 
-     ![사용자 지정 제품 데이터 UI 컨트롤](assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
+    ![사용자 지정 제품 데이터 UI 컨트롤](assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-   * Commerce에서 에셋이 시각화되는 방식을 보여 주는 사용자 지정 메타데이터 형식 `commerce:roles` 및 `commerce:positions` 특성입니다.
+  * Commerce에서 에셋이 시각화되는 방식을 보여 주는 사용자 지정 메타데이터 형식 `commerce:roles` 및 `commerce:positions` 특성입니다. 4개의 표준 역할(`image`, `small_image`, `thumbnail` 및 `swatch_image`)은 계속 지원됩니다. AEM Assets 통합 확장 버전 1.4.6부터는 `commerce:roles`에서 사용자 지정 이미지 역할(예: `hero` 또는 `custom_role_1`)을 설정하여 Commerce에서 기본적으로 정의하지 않는 역할을 동기화할 수도 있습니다. 사용자 지정 이미지 역할을 수집하는 방법은 [사용자 지정 자동 일치](synchronize/custom-match.md)를 참조하십시오.
 
-   * 편집자가 각 Commerce 스토어 보기 코드에 대해 대체 텍스트를 입력할 수 있도록 대체 텍스트 다중 필드(_[!UICONTROL Alt texts]_) 메타데이터입니다. 다중 필드는 두 개의 인덱스 정렬 `String[]` 속성에서 유지됩니다.
+    >[!NOTE]
+    >
+    >Commerce은 사용자 지정 역할에 대해 누락된 `media_image` 스타일 특성을 자동으로 만듭니다.
 
-      * `commerce:altTextStoreViews` — 각 행의 보기 코드를 저장합니다.
-      * `commerce:altTextValues` — `commerce:altTextStoreViews`의 각 항목과 동일한 인덱스에서 대체 텍스트와 일치합니다.
+  * 편집자가 각 Commerce 스토어 보기 코드에 대해 대체 텍스트를 입력할 수 있도록 대체 텍스트 다중 필드(_[!UICONTROL Alt texts]_) 메타데이터입니다. 다중 필드는 두 개의 인덱스 정렬 `String[]` 속성에서 유지됩니다.
 
-     [외부 선택기](synchronize/custom-match.md){target=_blank}를 사용하는 App Builder 구현은 자산 페이로드를 변환할 때 이러한 속성을 가로챌 수 있습니다. 따라서 카탈로그에서 제품 이미지가 지정되거나 범위가 지정되는 방식은 변경되지 않습니다. [AEM Assets 메타데이터의 지역화된 대체 텍스트](#localized-alt-text-in-aem-assets-metadata)를 참조하십시오.
+    * `commerce:altTextStoreViews` — 각 행의 보기 코드를 저장합니다.
+    * `commerce:altTextValues` — `commerce:altTextStoreViews`의 각 항목과 동일한 인덱스에서 대체 텍스트와 일치합니다.
+
+    [외부 선택기](synchronize/custom-match.md){target=_blank}를 사용하는 App Builder 구현은 자산 페이로드를 변환할 때 이러한 속성을 가로챌 수 있습니다. 따라서 카탈로그에서 제품 이미지가 지정되거나 범위가 지정되는 방식은 변경되지 않습니다. [AEM Assets 메타데이터의 지역화된 대체 텍스트](#localized-alt-text-in-aem-assets-metadata)를 참조하십시오.
 
 * Commerce 자산에 태그를 지정할 `Eligible for Commerce` 및 `Product Data` 필드가 포함된 Commerce 탭이 있는 메타데이터 스키마 양식입니다. 이 양식은 AEM Assets UI에서 `roles` 및 `position` 필드를 표시하거나 숨기는 옵션도 제공합니다.
 
@@ -85,7 +88,7 @@ _[!UICONTROL Alt texts]_&#x200B;다중 필드는 적격 이미지를 편집할 �
 
 저장소 보기를 추가할 행을 더 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 선택하십시오. 행을 제거하려면 해당 행에서 **[!UICONTROL Delete]** 아이콘을 선택하여 제거합니다.
 
-![저장소 보기 코드와 대체 텍스트 입력이 있는 다중 필드](assets/commerce-metadata-alt-texts-multifield.png){width="600" zoomable="yes"}
+![저장소 보기 코드와 대체 텍스트 입력이 있는 다중 필드](assets/aem-alt-texts.png){width="600" zoomable="yes"}
 
 저장할 때, 행에 빈 _[!UICONTROL Store View Code]_&#x200B;이(가) 있거나 두 행이 동일한 저장소 보기 코드를 사용하는 경우(대/소문자 구분 안 함) 클라이언트측 유효성 검사가 제출을 차단합니다.
 
@@ -95,3 +98,14 @@ _[!UICONTROL Alt texts]_&#x200B;다중 필드는 적격 이미지를 편집할 �
 * `commerce:altTextValues`: `commerce:altTextStoreViews`의 각 항목과 동일한 인덱스에 있는 대체 텍스트와 일치합니다.
 
 이러한 에셋이 Adobe Commerce과 동기화되면 일치하는 스토어 보기 코드에 대해 스토어별 보기 대체 텍스트가 제품 미디어 갤러리에 작성됩니다. 기본 이미지 매핑이 변경되지 않았습니다.
+
+예제 메타데이터 값:
+
+```text
+commerce:altTextStoreViews = ["en_US", "fr_FR"]
+commerce:altTextValues = ["Running shoe", "Chaussure de course"]
+```
+
+이러한 에셋이 Adobe Commerce과 동기화되면 일치하는 스토어 보기 코드에 대해 각 대체 텍스트 값이 Commerce의 표준 이미지 **[!UICONTROL Label]** 필드에 기록됩니다. 통합이 고객이 만든 `alt_text` 데이터베이스 열을 채우지 않습니다.
+
+대체 텍스트는 스토어 보기별로 현지화되지만 기본 제품-이미지 할당 및 갤러리 매핑은 변경되지 않습니다. 단일 이미지 할당은 기존 Commerce 갤러리 동작에 따라 계속 적용됩니다.

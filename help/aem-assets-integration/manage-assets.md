@@ -6,24 +6,30 @@ exl-id: 40ca36e0-d617-4814-852d-bc60ff53b2b3
 TQID: https://experienceleague.adobe.com/y-207fJaMiLZbQW7bzv2WCzFItckGDnyKUm6Q0tqMw8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Digital asset management
+source-git-commit: cf31a1ed5069095fb3c4c50d99475e60ee61efa9
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1236'
 ht-degree: 0%
-
 ---
-
 # Commerce 미디어 자산 관리
 
 <!--In ACAP-844, this topic was linked to from the Commerce Admin products images and videos when the Assets integration is enabled. If the URL to the topic changes, be sure to add a redirect.-->
@@ -72,6 +78,14 @@ AEM Assets의 제품(메타데이터 구성 및 승인 포함)에 에셋을 연�
 
 * [기본 자동 일치](synchronize/default-match.md)
 * [사용자 지정 자동 일치](synchronize/custom-match.md).
+
+### 현지화된 대체 텍스트 관리
+
+Commerce 제품 미디어 갤러리가 아닌 AEM Assets에서 현지화된 대체 텍스트를 작성합니다. **[!UICONTROL Alt Texts]** 필드에 각 Commerce 스토어 보기에 대한 행을 추가합니다. 기존 동기화 프로세스에서 Commerce으로 값을 전송할 수 있도록 이 이미지에 대한 대체 텍스트 값(예: &quot;흰색 티셔츠&quot;)을 포함한 다음 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭합니다.
+
+Commerce은 동기화된 각 값을 표준 이미지 **[!UICONTROL Label]** 필드에 저장합니다. 대체 텍스트 현지화는 에셋 할당, 이미지 역할 또는 갤러리 위치를 변경하지 않습니다. `alt_text`과(와) 같이 고객이 만든 데이터베이스 필드가 표준 통합 범위를 벗어났습니다.
+
+![Adobe Experience Manager 대체 텍스트](./assets/aem-alt-texts.png){width="600" zoomable="yes"}
 
 ### 동기화 SLA
 
@@ -182,6 +196,8 @@ Adobe Commerce을 통해 판매자는 이미지를 제품 카테고리와 연결
 ## 에셋 업데이트
 
 AEM Assets에서 에셋을 업데이트하고 승인하면 자동 일치 기능을 사용하여 업데이트가 자동으로 Adobe Commerce으로 전송됩니다. 이 프로세스는 자산 승인 시 트리거됩니다. 모든 최종 변경 사항 및 메타데이터 업데이트가 포함되도록 하려면 에셋을 승인하기 전에 재처리해야 합니다.
+
+이미 동기화된 에셋에서 역할 또는 Position 값을 변경하면 Commerce에서는 중복을 추가하는 대신 기존 역할 할당을 업데이트합니다. 동기화 시도가 실패하면 Commerce 로그에서 오류를 확인한 후 다시 시도하십시오. 업데이트가 완료되면 제품의 **이미지 및 비디오** 섹션에서 변경 사항을 확인하고 에셋이 미디어 갤러리의 예상 역할과 위치에 표시되는지 확인하십시오.
 
 메타데이터를 통해 자산을 제품에 연결하는 Commerce 측 워크플로에 대해서는 [기본 자동 일치](synchronize/default-match.md) 항목을 참조하십시오.
 

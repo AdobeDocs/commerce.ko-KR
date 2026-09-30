@@ -3,13 +3,11 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: afef108e512c69047a0420566a498dab164c207e
+source-git-commit: a0b269f6d4b709dd0aed4c23264928f28b2f5d98
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1784'
 ht-degree: 0%
-
 ---
-
 # AEM Assets 통합 릴리스 노트
 
 이러한 릴리스 노트는 AEM Assets 통합에 대한 모든 릴리스를 설명하며 다음을 포함합니다.
@@ -38,6 +36,36 @@ _2025년 2월 11일_
 
 +++
 
+## v1.4.7
+
+_2026년 9월 18일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1317 --> Commerce 비동기 구성 저장을 사용하도록 설정한 경우 [사용자 지정 자동 일치](synchronize/custom-match.md)에 대해 업로드된 `workspace.json` 파일이 올바르게 지속되지 않는 문제를 해결했습니다. 이전에는 관리 요청이 파일 콘텐츠가 아닌 업로드 메타데이터만 큐에 추가했으므로 비동기 구성 소비자가 저장을 처리할 때까지 임시 업로드 파일을 더 이상 읽을 수 없습니다. 그 결과, App Builder OAuth 값이 변경되지 않은 상태로 구성이 성공적으로 저장되었습니다. 업로드된 App Builder 자격 증명은 이제 큐 경계를 벗어나지 않으며 비동기 소비자가 올바르게 처리합니다.
+
+>[!IMPORTANT]
+>
+>비동기 구성 저장 옵션이 활성화된 사용자 지정 선택기를 사용하는 경우 이 버전으로 업그레이드한 후 `workspace.json` 파일을 다시 업로드하십시오. 업로드 지침은 [비동기 구성 저장](synchronize/custom-match.md#async-config-save)을 참조하십시오.
+
+## v1.4.6
+
+_2026년 9월 8일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1272 --> 사용자 지정 AEM 이미지 역할은 이제 동기화하는 동안 유지됩니다. AEM `commerce:roles` 메타데이터 필드의 사용자 지정 값은 4개의 표준 역할(`image`, `small_image`, `thumbnail` 및 `swatch_image`) 외에도 Commerce 제품 미디어 갤러리 데이터에 수집되고 매핑됩니다. 자세한 내용은 [사용자 지정 자동 일치](synchronize/custom-match.md)를 참조하십시오.
+
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1272 --> 이제 Adobe Commerce에서 AEM Assets 통합 확장 업데이트를 비동기적으로 확인하고 새 버전을 사용할 수 있을 때 관리자의 관리자에게 알릴 수 있습니다. 관리자는 `bin/magento aem:assets:check-update`을(를) 사용하여 수동 검사를 실행할 수도 있습니다. 자세한 내용은 [확장 업데이트 확인](get-started/check-for-updates.md)을 참조하세요.
+
+## v1.4.5
+
+_2026년 8월 3일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![문제가 해결되었습니다](../assets/fix.svg)<!-- Issue ACAP-1321 --> 저장소-보기 자산 가시성에 대한 이전 버전과의 호환성 문제가 해결되었습니다. 숨겨진 저장소 보기를 지정하지 않는 기존 자산 동기화 요청은 변경 없이 계속 작동합니다.
+
 ## v1.4.4
 
 _2026년 7월 30일_
@@ -45,6 +73,8 @@ _2026년 7월 30일_
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
 ![새 문제](../assets/new.svg) 이제 판매자는 AEM 자산에 대한 특정 스토어 보기를 숨길 수 있습니다. AEM Assets이 하나 이상의 스토어 보기에 대해 이미지를 숨김으로 표시하면 Commerce은 해당 스토어 보기의 스토어에서 해당 이미지를 제외합니다. 이제 관리 제품 미디어 갤러리에 이미지를 숨기는 저장소 보기를 표시하는 **[!UICONTROL Store View Visibility]** 필드가 포함됩니다. <!-- Issue ACAP-1308 -->
+
+![문제 해결](../assets/fix.svg) Page Builder 통합 패키지에 `magento/module-page-builder` 패키지가 잘못 요구되어 패키지가 독립적으로 설치되지 않는 문제를 해결했습니다.
 
 ## v1.4.2
 
