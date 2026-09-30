@@ -283,7 +283,7 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 선택 사항입니다. 승인된 Commerce Assets이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_필드에 대한 기본값을 `approved`(으)로 설정합니다.
+1. 선택 사항입니다. 승인된 Commerce Assets이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_&#x200B;필드에 대한 기본값을 `approved`(으)로 설정합니다.
 
 1. 업데이트를 저장합니다.
 

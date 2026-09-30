@@ -74,7 +74,7 @@ Adobe은 Experience Manager Assets as a Cloud Service 구성에 Commerce 네임�
 
 ## AEM Assets 메타데이터의 현지화된 대체 텍스트
 
-_[!UICONTROL Alt texts]_다중 필드는 적격 이미지를 편집할 때&#x200B;**[!UICONTROL Commerce]**탭의 AEM Assets 에셋 메타데이터 편집기에서 사용할 수 있습니다.
+_[!UICONTROL Alt texts]_&#x200B;다중 필드는 적격 이미지를 편집할 때&#x200B;**[!UICONTROL Commerce]**&#x200B;탭의 AEM Assets 에셋 메타데이터 편집기에서 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ _[!UICONTROL Alt texts]_다중 필드는 적격 이미지를 편집할 때&#x200
 
 ![저장소 보기 코드와 대체 텍스트 입력이 있는 다중 필드](assets/aem-alt-texts.png){width="600" zoomable="yes"}
 
-저장할 때, 행에 빈 _[!UICONTROL Store View Code]_이(가) 있거나 두 행이 동일한 저장소 보기 코드를 사용하는 경우(대/소문자 구분 안 함) 클라이언트측 유효성 검사가 제출을 차단합니다.
+저장할 때, 행에 빈 _[!UICONTROL Store View Code]_&#x200B;이(가) 있거나 두 행이 동일한 저장소 보기 코드를 사용하는 경우(대/소문자 구분 안 함) 클라이언트측 유효성 검사가 제출을 차단합니다.
 
 대체 텍스트 항목은 JCR 자산 메타데이터에서 두 개의 인덱스 정렬 `String[]` 속성으로 유지됩니다.
 
