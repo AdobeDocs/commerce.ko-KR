@@ -1,16 +1,14 @@
 ---
 user-guide-title: SaaS 서비스에 대한 [!DNL Data Export] 안내서
 breadcrumb-title: '[!DNL Data Export]'
-user-guide-description: 이 안내서에서는 Adobe Commerce SaaS 서비스용  [!DNL Data Export] 확장 사용에 대한 자세한 지침을 제공합니다.
+user-guide-description: 이 안내서에서는 Adobe Commerce SaaS 서비스용 [!DNL Data Export] 확장 사용에 대한 자세한 지침을 제공합니다.
 role: Admin, Developer
 feature: Services
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+source-git-commit: fd87417a494987f33009d386019d870b306dcf73
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 2%
-
 ---
-
 # SaaS 서비스에 대한 [!DNL Data Export] 안내서 {#saas-data-export}
 
 - [안내서 개요](overview.md)
@@ -18,6 +16,7 @@ ht-degree: 2%
   - [동기화 작동 방식](sync-overview.md)
   - [동기화 관리](data-sync-manage.md)
   - [피드 잠금 메커니즘](feed-lock-mechanism.md)
+  - {hide-from-toc}[사용자 지정 제품 유형 지원(조기 액세스)](custom-product-types.md)
 - 일정 및 성능 내보내기 {#performance}
   - [데이터 볼륨 및 전송 시간 예측](estimate-data-volume-sync-time.md)
   - [내보내기 성능 향상](customize-export-processing.md)

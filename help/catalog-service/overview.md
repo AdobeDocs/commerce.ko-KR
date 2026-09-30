@@ -1,29 +1,35 @@
 ---
 title: '[!DNL Catalog Service]'
-description: 제품 페이지, 카테고리 페이지 및 검색 결과에 대한 페이지 로드 시간을 줄이는 고성능 GraphQL API인  [!DNL Catalog Service] 을(를) 사용하여 Adobe Commerce 스토어를 가속화하십시오.
+description: 제품 페이지, 카테고리 페이지 및 검색 결과에 대한 페이지 로드 시간을 줄이는 고성능 GraphQL API인 [!DNL Catalog Service]을(를) 사용하여 Adobe Commerce 스토어를 가속화하십시오.
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
 TQID: https://experienceleague.adobe.com/CEbJ8-hkc0AGQ4RnRNMDXA6mMijvhPGAfsxyC4eT39Y
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bb09ff54afbba3d0a0e48bfd1a0392cba435ea9a
+    internal-label: Data management
+source-git-commit: fd87417a494987f33009d386019d870b306dcf73
 workflow-type: tm+mt
-source-wordcount: 1493
+source-wordcount: '1493'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce용 [!DNL Catalog Service]
 
 Adobe Commerce 확장 [!DNL Catalog Service]은(는) 전용 GraphQL API를 통해 최적화된 읽기 전용 카탈로그 데이터를 제공하여 상점 로드 시간을 향상시킵니다. 이 서비스는 제품 관련 페이지 경험을 개선하기 위해 특별히 고안되었으며, 이로 인해 페이지 로드 속도가 빨라지고 전환율이 향상됩니다.
@@ -118,6 +124,12 @@ Catalog Service는 서비스로 작동하므로 통합자는 Commerce의 기본 
   * 각 구성 요소 단순 제품은 자체 가격을 가질 수 있습니다.
   * 구매자는 개별 구성품 제품에 대한 수량을 지정할 수 있습니다.
   * 제품 옵션(크기, 색상, 재질 등)은 통합되며 제품 유형에 관계없이 동일한 방식으로 작동합니다. 각 옵션 선택은 고유한 속성과 가격이 있는 특정 간단한 제품을 가리킵니다. 최종 제품은 구매자가 모든 필수 옵션을 선택할 때까지 정의되지 않은 상태로 유지됩니다.
+
+<!--
+>[!NOTE]
+>
+>Custom product types introduced by third-party extensions are not covered by this mapping. For [!DNL Commerce Storefront MCP] deployments (Early Access), a catalog enablement module can represent these custom types as simple products in the catalog data sent to [!DNL Catalog Service]. See [Support for custom product types in SaaS catalog data export](../data-export/custom-product-types.md).
+-->
 
 #### 제품 보기 속성
 
