@@ -70,7 +70,7 @@ bin/magento aem:assets:check-update
 ```json
 {
   "extra": {
-    "release_notes_url": "https://experienceleague.adobe.com/...",
+    "release_notes_url": "https://experienceleague.adobe.com/ko...",
     "release_type": "feature",
     "compatible_commerce_versions": ">=2.4.7 <2.5.0"
   }
