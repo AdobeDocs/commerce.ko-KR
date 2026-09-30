@@ -6,19 +6,21 @@ exl-id: 8a18639b-f508-456e-8d22-18e3e0fdd515
 TQID: https://experienceleague.adobe.com/z7vpuhsVJnKohiU-bKNrcGnoIQ5WAwcwiccYlvawN0U
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Metadata
+source-git-commit: cf31a1ed5069095fb3c4c50d99475e60ee61efa9
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # 기본 자동 일치
 
 Commerce용 AEM Assets 통합은 **AEM Assets** 메타데이터 구성을 기반으로 기본 자동 일치 메커니즘(**[!UICONTROL Match by product SKU]**)을 제공합니다. 이 규칙을 사용하면 **Adobe Commerce**&#x200B;과(와) **AEM Assets** 간의 원활한 동기화를 통해 자산이 자동으로 올바른 머천다이징 엔터티에 연결되도록 할 수 있습니다.
@@ -51,11 +53,13 @@ Commerce용 AEM Assets 통합은 **AEM Assets** 메타데이터 구성을 기반
 
 1. 연결된 제품 SKU에 자산을 연결하는 메타데이터([!UICONTROL SKU], [!UICONTROL position] 및 [!UICONTROL role])를 구성합니다.
 
+   4개의 표준 역할은 `image`, `small_image`, `thumbnail` 및 `swatch_image`입니다. AEM Assets 통합 확장 버전 1.4.6 이상에서는 `hero` 또는 `custom_role_1`과(와) 같은 사용자 지정 이미지 역할도 입력할 수 있습니다. 자세한 내용은 [사용자 지정 자동 일치](custom-match.md)를 참조하십시오.
+
    >[!NOTE]
    >
    > 자산이 여러 제품에 사용되는 경우 연결된 각 SKU에 대한 메타데이터를 구성합니다.
 
-1. `Basic` 탭에서 _[!UICONTROL Review Status]_&#x200B;필드의 기본값을 `approved`(으)로 설정합니다.
+1. `Basic` 탭에서 _[!UICONTROL Review Status]_필드의 기본값을 `approved`(으)로 설정합니다.
 
    ![예제 메타데이터](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 

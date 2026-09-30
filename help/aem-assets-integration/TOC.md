@@ -4,13 +4,11 @@ breadcrumb-title: '[!DNL AEM Assets] 통합'
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 eCommerce 마케터를 위한 AEM Assets 통합에 대한 포괄적인 정보입니다.
 feature: CMS, Page Content
 nudge: true
-source-git-commit: de2af14a02ba21bfedd4fa6841f0f8b544b013cc
+source-git-commit: 7db47b2b78642d47b0f38c3933bd87a0a2b6e127
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '106'
 ht-degree: 3%
-
 ---
-
 
 # AEM Assets 통합 {#aem-assets-integration}
 
@@ -18,19 +16,20 @@ ht-degree: 3%
 - [릴리스 정보](release-notes.md)
 - [AEM Assets의 Commerce 메타데이터](metadata.md)
 - 시작하기 {#get-started}
-   - [AEM Assets 프로젝트 구성](get-started/configure-aem.md)
-   - [Adobe Commerce 패키지 설치](get-started/configure-commerce.md)
-   - [통합 구성](get-started/setup-synchronization.md)
-   - [IMS 사용자 권한 구성](get-started/permissions.md)
-   - [Commerce Optimizer 구성](get-started/configure-aco.md)
-   - [상점 구성](get-started/configure-storefront.md)
-   - [로그 보기 및 관리](get-started/logs.md)
-   - [AEM Assets 동기화 상태 보기](get-started/sync-status.md)
-   - [데이터 마이그레이션](get-started/migrate-data.md)
+  - [AEM Assets 프로젝트 구성](get-started/configure-aem.md)
+  - [Adobe Commerce 패키지 설치](get-started/configure-commerce.md)
+  - [확장 업데이트 확인](get-started/check-for-updates.md)
+  - [통합 구성](get-started/setup-synchronization.md)
+  - [IMS 사용자 권한 구성](get-started/permissions.md)
+  - [Commerce Optimizer 구성](get-started/configure-aco.md)
+  - [상점 구성](get-started/configure-storefront.md)
+  - [로그 보기 및 관리](get-started/logs.md)
+  - [AEM Assets 동기화 상태 보기](get-started/sync-status.md)
+  - [데이터 마이그레이션](get-started/migrate-data.md)
 - 동기화 메커니즘 {#synchronize}
-   - [정확하고 관련 있는 컨텐츠 유지](synchronize/commerce-content.md)
-   - [기본 자동 일치](synchronize/default-match.md)
-   - [사용자 지정 자동 일치](synchronize/custom-match.md)
-   - [수동 자산 선택](synchronize/asset-selector-integration.md)
+  - [정확하고 관련 있는 컨텐츠 유지](synchronize/commerce-content.md)
+  - [기본 자동 일치](synchronize/default-match.md)
+  - [사용자 지정 자동 일치](synchronize/custom-match.md)
+  - [수동 자산 선택](synchronize/asset-selector-integration.md)
 - [Commerce 미디어 자산 관리](manage-assets.md)
-- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/home)
+- [Commerce 서비스 홈으로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
