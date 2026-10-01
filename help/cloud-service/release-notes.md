@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce as a Cloud Service] 릴리스 정보'
-description: '[!DNL Adobe Commerce as a Cloud Service]의 최신 기능 및 개선 사항에 대해 알아봅니다.'
+description: '[!DNL Adobe Commerce as a Cloud Service]의 모든 최신 기능 및 개선 사항에 대해 알아봅니다.'
 feature-set: Commerce
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
@@ -49,9 +49,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 last-update: 2026-08-07
-source-git-commit: 1e03d399d191875186f5839458c3036179cf1b17
+source-git-commit: 6a2300d65c9c77d18813c2eb491bfd02d1fca8ba
 workflow-type: tm+mt
-source-wordcount: '7503'
+source-wordcount: '7581'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -78,7 +78,16 @@ ht-degree: 0%
 
 ### REST에서 카탈로그 가격 규칙 관리
 
-새로운 REST API 끝점을 사용하면 통합에서 프로그래밍 방식으로 [카탈로그 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-price-rule/price-rules-catalog)을(를) 관리하고 검색할 수 있습니다. <!-- ACCS-1621 -->
+새로운 REST API 끝점을 사용하면 통합에서 프로그래밍 방식으로 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)을(를) 관리하고 검색할 수 있습니다. <!-- ACCS-1621 -->
+
+다음 끝점은 관리 카탈로그 가격 규칙 화면도 보호하는 `Magento_CatalogRule::promo_catalog` 권한으로 보호됩니다. 이 끝점을 사용하려면 관리자 또는 통합 수준 액세스 권한이 필요합니다.
+
+* `GET /V1/catalogPriceRules/metadata` - 연산자 및 값 원본과 함께 허용되는 할인 작업 및 조건 특성을 검색합니다.
+* `GET /V1/catalogPriceRules/search` - 표준 searchCriteria(필터, 정렬, 페이징)를 사용하는 목록 및 검색 규칙입니다.
+* `GET /V1/catalogPriceRules/:ruleId` - 전체 조건 트리를 포함하여 하나의 규칙을 가져옵니다.
+* `POST /V1/catalogPriceRules` - 규칙을 만듭니다.
+* `PUT /V1/catalogPriceRules/:ruleId` - 규칙을 업데이트합니다. 변경할 필드만 보냅니다.
+* `DELETE /V1/catalogPriceRules/:ruleId` - 규칙을 삭제합니다.
 
 ### reCAPTCHA를 사용하여 사전 서명된 업로드 보호
 
@@ -112,7 +121,7 @@ ht-degree: 0%
 
 ### 일자 및 시간별 카탈로그 가격 규칙 예약
 
-이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-price-rule/price-rules-catalog)의 하루 중 시간을 [!DNL Commerce Admin]에 시작하거나 종료하도록 설정할 수 있습니다. <!-- ACCS-1762 -->
+이제 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)의 하루 중 시간을 [!DNL Commerce Admin]에 시작하거나 종료하도록 설정할 수 있습니다. <!-- ACCS-1762 -->
 
 ### 관리 REST API를 통해 사용자 지정 배송 할인 적용
 
