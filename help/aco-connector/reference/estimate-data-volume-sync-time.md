@@ -1,31 +1,38 @@
 ---
 title: 데이터 볼륨 및 동기화 시간 예상
-description: 카탈로그 동기화를 계획하고 중단을 방지하기 위해  [!DNL Adobe Commerce Optimizer Connector] 피드의 데이터 볼륨과 동기화 시간을 예상하는 방법에 대해 알아봅니다.
+description: 카탈로그 동기화를 계획하고 중단을 방지하기 위해 [!DNL Adobe Commerce Optimizer Connector] 피드의 데이터 볼륨과 동기화 시간을 예상하는 방법에 대해 알아봅니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+    internal-label: Data management
+source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '470'
 ht-degree: 0%
-
 ---
-
 
 # 데이터 볼륨 및 동기화 시간 예상
 
@@ -67,5 +74,5 @@ Adobe에서는 원활한 예약을 보장하고 사이트 운영에 지장이 �
 >[!MORELIKETHIS]
 >
 > - [커넥터 모듈 및 피드 끝점](connector-reference.md) - 일괄 처리 제한 및 지원되는 피드를 검토합니다.
-> - [동기화 관리](../data-sync-manage.md) - 동기화 상태를 모니터링하고 수동 재동기화를 트리거합니다.
+> - [동기화 관리](../data-sync-status.md) - 동기화 상태를 모니터링하고 수동 재동기화를 트리거합니다.
 > - [커넥터 동기화 파이프라인](../connector-sync-pipeline.md) - cron 일정 및 자동 동기화가 작동하는 방식을 이해합니다.

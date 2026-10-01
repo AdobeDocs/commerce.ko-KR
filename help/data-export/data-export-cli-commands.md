@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 658401a83acf5bab669f0734100eef99af98c908
+source-git-commit: 1009ae28286a8503511c85726bf44922c7c2575e
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것이 좋습니다. 명령 사용에 대한 일반적인 시나리오는 다음과 같습니다.
 
 - 초기 동기화
-- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/saas)
+- [SaaS 데이터 공간 ID를 변경한 후 데이터를 새 데이터 공간에 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - 문제 해결
 
 `var/log/saas-export.log` 파일에서 동기화 작업을 모니터링합니다.
@@ -51,7 +51,7 @@ Adobe에서는 `saas:resync` 명령을 정기적으로 사용하지 않는 것�
 >
 >라이브 검색 또는 제품 권장 사항이 활성화되면 초기 동기화가 자동으로 실행됩니다. 수동 명령은 필요하지 않습니다.
 >
->[!DNL Adobe Commerce Optimizer Connector] 배포의 경우 `aco:config:init` 명령은 모든 커넥터 피드 인덱서를 무효화하여 초기 전체 동기화를 예약합니다. [통합 사용](../aco-connector/get-started.md#enable-the-adobe-commerce-optimizer-integration) 및 [동기화 관리 [!DNL Commerce Optimizer]](../aco-connector/data-sync-manage.md)를 참조하십시오. [!DNL Commerce Optimizer] 
+>[!DNL Adobe Commerce Optimizer Connector] 배포의 경우 `aco:config:init` 명령은 모든 커넥터 피드 인덱서를 무효화하여 초기 전체 동기화를 예약합니다. [통합 사용](../aco-connector/get-started.md#enable-the-adobe-commerce-optimizer-integration) 및 [동기화 관리 [!DNL Commerce Optimizer]](../aco-connector/data-sync-status.md)를 참조하십시오. [!DNL Commerce Optimizer] 
 
 명령줄에서 `saas:resync`을(를) 트리거할 때 카탈로그 크기에 따라 데이터를 업데이트하는 데 몇 분에서 몇 시간이 걸릴 수 있습니다.
 

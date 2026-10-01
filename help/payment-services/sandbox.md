@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: 99c14b4e-e6cf-48f9-9546-5c0d5c71464d
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
+source-git-commit: fc9fb7a63e4e7c3dd862ed710acdfa8561c91ec5
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
       샌드박스 PayPal 온보딩 프로세스 중에 PayPal 샌드박스 계정을 만든 경우 [온보딩 샌드박스를 재설정](#reset-your-sandbox-account)해야 합니다. 그렇지 않으면 이메일을 확인할 수 없습니다.
 
    1. **[!UICONTROL Business]**&#x200B;을(를) 계정 유형으로 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-   1. _[!UICONTROL Sandbox Accounts]_&#x200B;섹션에서 만든 샌드박스 계정에 대한&#x200B;_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
+   1. _[!UICONTROL Sandbox Accounts]_섹션에서 만든 샌드박스 계정에 대한_[!UICONTROL Manage accounts]_ 열의 세 점을 클릭합니다.
    1. **[!UICONTROL View/edit account]**&#x200B;을(를) 클릭합니다.
 
       ![PayPal - 샌드박스 계정 보기/편집](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}
@@ -57,9 +57,9 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
    PayPal 샌드박스 온보딩이 승인되면 결제 시스템이 현재 샌드박스 모드이고 라이브 결제를 처리하지 않는다는 알림이 표시됩니다.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
+>[!IMPORTANT]
+>
+>[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
 
 ### 샌드박스 계정 재설정
 
@@ -92,9 +92,9 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
 
-1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
 
 1. **[!UICONTROL Method]**&#x200B;을(를) `Sandbox`(으)로 설정합니다.
 
@@ -102,9 +102,9 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
->[!NOTE]
->
->**[!UICONTROL Buyer's country]** 설정은 메서드가 `Sandbox`(으)로 설정된 경우에만 나타납니다. 프로덕션 환경에는 영향을 주지 않습니다.
+   >[!NOTE]
+   >
+   >**[!UICONTROL Buyer's country]** 설정은 메서드가 `Sandbox`(으)로 설정된 경우에만 나타납니다. 프로덕션 환경에는 영향을 주지 않습니다.
 
 ## 샌드박스 환경에서 테스트
 

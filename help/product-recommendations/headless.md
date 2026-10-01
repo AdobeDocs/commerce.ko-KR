@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Behavioral data
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
+source-git-commit: 7ab078f4780c25e3bb43479eec1fe18e31faf96c
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%

@@ -1,26 +1,29 @@
 ---
 title: 데이터 동기화
-description: Commerce 데이터 원본에서  [!DNL Adobe Commerce Optimizer] (으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
+description: Commerce 데이터 원본에서 [!DNL Adobe Commerce Optimizer](으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
 TQID: https://experienceleague.adobe.com/ZTMFkch-YNS-CUgCdadmg1kemA8ORXQ7KGCEkI7d-Yw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7633056caec2fcec318f8ebcc9664cfc7b3b9b4
+    internal-label: Insights
+source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '485'
 ht-degree: 0%
-
 ---
-
 # 데이터 동기화
 
 **데이터 동기화** 페이지에는 데이터 원본(기존 Commerce 카탈로그, 제품 정보 관리(PIM) 시스템, ERP(Enterprise Resource Planning) 시스템 등)에서 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 전송되는 제품 데이터의 동기화 상태에 대한 개요가 표시됩니다.
@@ -63,7 +66,7 @@ JSON 형식의 동기화된 제품에 대한 세부 정보를 보려면 동기�
 
 ## 데이터 동기화가 작동하는지 확인
 
-Adobe Commerce Optimizer 커넥터를 통해 업스트림 데이터 소스로 Adobe Commerce을 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 _Adobe Commerce Optimizer 커넥터_ 설명서에서 [데이터 동기화가 작동하는지 확인](../../aco-connector/data-sync-manage.md#verify-that-the-data-sync-is-working)을 참조하십시오.
+Adobe Commerce Optimizer 커넥터를 통해 업스트림 데이터 소스로 Adobe Commerce을 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 _Adobe Commerce Optimizer 커넥터_ 설명서에서 [데이터 동기화가 작동하는지 확인](../../aco-connector/data-sync-status.md#verify-that-the-data-sync-is-working)을 참조하십시오.
 
 ## 관련 항목
 
