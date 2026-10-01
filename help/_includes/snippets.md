@@ -1,9 +1,8 @@
 ---
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '708'
 ht-degree: 0%
-
 ---
 # Commerce 스니펫
 
@@ -20,6 +19,11 @@ ht-degree: 0%
 >
 >항상 샌드박스 최적화 도구 인스턴스를 비프로덕션 환경에 연결하고 프로덕션 인스턴스를 프로덕션 환경에 연결합니다. 환경이 일치하지 않으면 일관되지 않은 카탈로그 데이터, 검색 결과 및 권장 사항이 발생합니다.
 
+## Adobe Commerce Optimizer 데이터 동기화 처리 노트 {#aco-data-sync-processing-note}
+
+>[!IMPORTANT]
+>
+>구성을 완료하는 즉시 백그라운드에서 데이터 동기화 처리가 시작됩니다. 카탈로그 크기에 따라 데이터 동기화 프로세스는 몇 분에서 몇 시간 정도 걸릴 수 있습니다.
 
 ## Optimizer 머천다이징 서비스 {#aco-merchandising-services}
 
@@ -110,3 +114,13 @@ Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 
 >[!IMPORTANT]
 >
 >대량 데이터 마이그레이션 도구는 현재 조기 액세스 상태에 있습니다. 액세스는 CDE(Commerce Deployed Engineering) 참여 프로세스를 통해서만 제공됩니다. 도구 및 해당 자격 요구 사항에 대한 개요는 [대량 데이터 마이그레이션 도구](../cloud-service/migration/bulk-data/migration-tool.md)를 참조하십시오.
+
+## 확장 링크 설치 {#install-extension-links}
+
+>[!NOTE]
+>
+>자세한 확장 설치 지침은 다음 안내서를 참조하십시오.
+>
+>[Cloud Infrastructure에서 [!DNL Adobe Commerce] 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>
+>[확장 설치 [!DNL Adobe Commerce] 온-프레미스](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)

@@ -1,36 +1,48 @@
 ---
 title: 카탈로그 동기화 파이프라인
-description: 피드 변환, cron 일정, 범위 제어 및 오류 처리를 포함하여  [!DNL Adobe Commerce Optimizer Connector] 동기화 파이프라인이 작동하는 방식에 대해 알아봅니다.
+description: 피드 변환, cron 일정, 범위 제어 및 오류 처리를 포함하여 [!DNL Adobe Commerce Optimizer Connector] 동기화 파이프라인이 작동하는 방식에 대해 알아봅니다.
 feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:21:52.214Z'
 TQID: 'https://experienceleague.adobe.com/EXUQzAd0I6Hnq4twzhaBZZnv0jLjeGBuTx-QgQz-5MA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: addc3a3a-2b1c-4fdf-aea4-4b1eb2931ba6
+    internal-label: Data pipelines
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+    internal-label: Data integration
+source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: '674'
 ht-degree: 1%
-
 ---
-
 # 커넥터 동기화 파이프라인
 
 [[!DNL SaaS Data Export]](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)을(를) 기반으로 빌드된 **[!DNL Adobe Commerce Optimizer Connector]**&#x200B;은(는) [!DNL SaaS Data Export] 인덱서가 수집한 데이터를 [!DNL Adobe Commerce Optimizer] [!DNL Catalog Data Ingestion API]에 필요한 형식으로 매핑하고 인증, 일괄 처리된 제출 및 범위 기반 동기화 제어를 처리합니다. 아래 섹션에서는 이러한 동기화가 작동하는 방식을 설명합니다.
@@ -93,7 +105,7 @@ ht-degree: 1%
 | 일시적 실패 | 5분마다 재시도됨 |
 | 전체 동기화 또는 큰 카탈로그 | 분 ~ 시간 |
 
-Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./data-sync-manage.md#verify-that-the-data-sync-is-working)을 참조하십시오.
+Commerce 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 피드당 상태를 모니터링합니다. [데이터 동기화가 작동하는지 확인](./data-sync-status.md#verify-that-the-data-sync-is-working)을 참조하십시오.
 
 ## 피드 제출 및 오류 처리
 

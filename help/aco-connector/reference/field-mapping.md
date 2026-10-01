@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Adobe Commerce Optimizer Connector] 피드에 대한 필드 매핑'
-description: 모든 피드에 대한  [!DNL Adobe Commerce] 카탈로그 데이터에서  [!DNL Adobe Commerce Optimizer] 수집 API 형식으로의  [!DNL Adobe Commerce Optimizer Connector] 필드 매핑에 대해 알아봅니다.
+title: '[!DNL Adobe Commerce Optimizer Connector]개 피드에 대한 필드 매핑'
+description: '[!DNL Adobe Commerce] 카탈로그 데이터에서 모든 피드의 [!DNL Adobe Commerce Optimizer] 수집 API 형식으로의 [!DNL Adobe Commerce Optimizer Connector] 필드 매핑에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
@@ -8,29 +8,40 @@ autotag-review: '2026-06-09T15:49:03.934Z'
 TQID: 'https://experienceleague.adobe.com/SOWOnguudhqzX-r66nGUqc-WKet5qq6GRV11ADx0Me4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+    internal-label: Data modeling
+source-git-commit: 9c2d0f1c3342d87b1e95a789b905f4a383bc8f5f
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 0%
-
+source-wordcount: '731'
+ht-degree: 3%
 ---
-
 
 # 커넥터 피드에 대한 필드 매핑
 
@@ -56,6 +67,7 @@ ht-degree: 0%
 | `metaKeyword` | `metaTags/keywords` | 줄바꿈으로 구분된 문자열을 배열로 분할 |
 | `inStock`, `lowStock`, `weight`, `weightUnit` | `attributes[].code = "aco_ac_attributes"` | JSON 인코딩 개체 `{inStock, lowStock, weight, weightType}`; 항상 첫 번째 특성 항목으로 표시 |
 | `attributes[]` | `attributes[]` | `{code, values[], variantReferenceId}`; `inStock`, `lowStock`, `weight`, `weightType`에 매핑된 각 항목이 제외됩니다(`aco_ac_attributes`(으)로 이동). |
+| `(synthesized)` | `attributes[].code = "ac_assortments"` | 제품이 속하고, 중복 제거되며, 정렬된 사용자 정의 공유 카탈로그의 숫자 ID 배열. 공개 카탈로그의 제품에만 이 특성이 없습니다. [!DNL Commerce Optimizer] 정책은 이 특성을 필터링하여 개인 카탈로그 보기 정렬을 적용합니다. |
 | `images[]` | `images[]` | `url`, `label`; 매핑된 표준 역할: `image`→`BASE`, `small_image`→`SMALL`, `thumbnail`→`THUMBNAIL`, `swatch_image`→`SWATCH`; 비표준 역할은 `customRoles[]`(으)로 이동 |
 | `categoryData[].categoryPath` | `routes[].path` | |
 | `categoryData[].productPosition` | `routes[].position` | |

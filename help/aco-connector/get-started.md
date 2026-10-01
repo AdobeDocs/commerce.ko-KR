@@ -39,12 +39,11 @@ topic_v2:
     internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-
 last-update: 2026-09-11
-source-git-commit: 6b784df469162bd536cfa764268a7180f94cc1c7
+source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 3%
+source-wordcount: '759'
+ht-degree: 0%
 ---
 
 # 시작하기
@@ -52,6 +51,10 @@ ht-degree: 3%
 [!DNL Adobe Commerce] 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]과(와) 동기화하도록 [!DNL Adobe Commerce Optimizer Connector]을(를) 설치하고 구성한 다음 데이터 동기화 상태를 모니터링하여 상점이 최신 상태인지 확인하십시오.
 
 {{aco-integration-environment-alignment}}
+
+>[!NOTE]
+>
+>이 항목에서는 [!DNL Adobe Commerce Optimizer Connector]에 대해 설명합니다. [!DNL Adobe Commerce]개의 B2B 공유 카탈로그를 사용하는 경우 [시작 [!DNL Adobe Commerce Optimizer Connector for B2B]](get-started-b2b-shared-catalogs.md) 지침을 따르십시오. B2B 커넥터는 기본 카탈로그 데이터 동기화를 확장하여 사용자 지정 공유 카탈로그의 동기화를 지원합니다.
 
 ## 통합 사용 요구 사항 {#requirements-to-use-the-integration}
 
@@ -73,20 +76,9 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-## 충돌하는 확장 제거 {#remove-conflicting-extensions}
+## 충돌하는 확장 제거
 
-다음 확장이 설치되어 있는 경우 [!DNL Adobe Commerce Optimizer Connector]을(를) 설치하기 전에 해당 확장을 제거하십시오.
-
-* [!DNL Adobe Commerce Live Search] (`magento/live-search`)
-* [!DNL Adobe Commerce Product Recommendations] (`magento/product-recommendations`)
-* [!DNL Adobe Commerce Catalog Service] (`magento/catalog-service`, `magento/catalog-service-installer`)
-* **[!UICONTROL Data Management Dashboard]** (`magento-catalog-sync-admin`)
-
-이러한 확장과 연결된 데이터는 여전히 Commerce 데이터베이스에서 사용할 수 있습니다. 그러나 커넥터를 사용하도록 설정한 경우 [!DNL Commerce Optimizer]&#x200B;(으)로 내보내지 않습니다. 커넥터를 사용하도록 설정한 후 이러한 확장에서 제공하는 Adobe Commerce 검색 및 머천다이징 기능을 구현하려면 [[!DNL Commerce Optimizer] 관리 UI](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview#quick-tour)에서 구성하십시오.
-
->[!IMPORTANT]
->
->커넥터를 사용하기 전에 이러한 확장을 제거하지 않으면 구성 화면이 손상되고 [!DNL Commerce Optimizer]에 데이터가 중복되며 401 또는 403 인증 오류가 발생합니다.
+{{$include /help/_includes/aco-connector/remove-conflicting-extensions.md}}
 
 >[!ENDSHADEBOX]
 
@@ -118,13 +110,7 @@ ht-degree: 3%
 
    배포가 완료되면 Commerce 관리 메뉴에서 [!DNL Commerce Optimizer] 옵션을 사용할 수 있습니다. **[!UICONTROL Commerce Optimizer]**&#x200B;을(를) 선택하여 Commerce 관리자에서 직접 [!DNL Commerce Optimizer] 인스턴스를 엽니다.
 
->[!NOTE]
->
->자세한 확장 설치 지침은 다음 안내서를 참조하십시오.
->
->[Cloud Infrastructure에서 [!DNL Adobe Commerce] 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
->
->[확장 설치 [!DNL Adobe Commerce] 온-프레미스](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
+{{install-extension-links}}
 
 ## Commerce 범위 내보내기 구성 사용자 지정 {#customize-the-commerce-scopes-export-configuration}
 
@@ -171,41 +157,16 @@ ht-degree: 3%
 1. `core_config_data`에 모든 구성(클라이언트 암호로 암호화됨)을 저장합니다.
 1. 모든 [!DNL Commerce Optimizer] 피드 인덱서를 무효화하여 초기 전체 동기화를 예약합니다.
 
->[!IMPORTANT]
->
->구성을 완료하는 즉시 백그라운드에서 데이터 동기화 처리가 시작됩니다. 카탈로그 크기에 따라 데이터 동기화 프로세스는 몇 분에서 몇 시간 정도 걸릴 수 있습니다.
 
-### 필수 연결 세부 정보 가져오기
+{{aco-data-sync-processing-note}}
 
-[Adobe Developer Console](https://developer.adobe.com/console)에서 [!DNL Commerce Optimizer] 수집 서비스에 대해 활성화된 새 프로젝트를 만들고 OAuth 서버 간 자격 증명을 생성합니다. 자세한 지침은 *Adobe Commerce Optimizer용 머천다이징 개발자 안내서*&#x200B;의 [IMS 자격 증명 가져오기](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication#obtain-ims-credentials)를 참조하십시오.
+## 필수 연결 세부 정보 가져오기
 
-자격 증명 페이지에서 다음 값을 저장합니다.
-
-* **조직 ID**(`org_id`)
-* **클라이언트 ID**(`client_id`)
-* **클라이언트 암호**(`client_secret`)
-
-![Adobe Developer Console 프로젝트 페이지에서 자격 증명 세부 정보 가져오기](./assets/developer-console-project-credentials.png){width="500" zoomable="yes"}
+{{$include /help/_includes/aco-connector/connection-details.md}}
 
 ### [!DNL Commerce Optimizer] 인스턴스 세부 정보 가져오기
 
-[!DNL Commerce Optimizer] 인스턴스 [[!DNL Instance details] 페이지](../optimizer/get-started.md#manage-instances)의 _[!DNL Instance Id]_&#x200B;필드 또는 인스턴스에 액세스하는 데 사용된 URL에서_&#x200B;테넌트 ID _을(를) 가져옵니다. 예: `https://experience.adobe.com/#/@&lt;your organization&gt;/in:&lt;tenant ID&gt;/commerce-optimizer-studio/home`.
-
-1. Commerce 관리자에서 **[!UICONTROL Adobe Commerce Optimizer]**&#x200B;을(를) 선택하여 지침이 포함된 구성 페이지를 표시합니다.
-
-   ![[!DNL Commerce Optimizer] 구성 페이지](./assets/aco-connector-admin-installation.png){width="500" zoomable="yes"}
-
-1. 명령줄에서 [SSH를 사용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)하여 [!DNL Adobe Commerce] 스테이징 환경에 연결합니다.
-
-1. 통합을 구성하려면 다음 [!DNL Adobe Commerce] CLI 명령을 실행하여 자리 표시자 값을 [!DNL Commerce Optimizer] 프로젝트의 값으로 바꿉니다.
-
-   ```shell
-   bin/magento aco:config:init --org_id=your-org --tenant_id=your-tenant --client_id=your-client-id --client_secret=your-secret
-   ```
-
-1. Commerce 관리자로 돌아가 [!UICONTROL Adobe Commerce Optimizer] 옵션을 선택하여 연결을 확인합니다.
-
-   옵션을 선택하면 새 탭에서 [!DNL Commerce Optimizer] UI가 열립니다.
+{{$include /help/_includes/aco-connector/configure-connection.md}}
 
 ## 데이터 동기화가 작동하는지 확인 {#verify-that-the-data-sync-is-working}
 

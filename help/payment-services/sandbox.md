@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: 99c14b4e-e6cf-48f9-9546-5c0d5c71464d
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
+source-git-commit: fc9fb7a63e4e7c3dd862ed710acdfa8561c91ec5
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -57,9 +57,9 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
    PayPal 샌드박스 온보딩이 승인되면 결제 시스템이 현재 샌드박스 모드이고 라이브 결제를 처리하지 않는다는 알림이 표시됩니다.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
+>[!IMPORTANT]
+>
+>[!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]&#x200B;(PayPal 계정 설정에서) 결제 처리에 대한 동의를 취소하는 경우 [!DNL Payment Services]이(가) 스토어의 주문을 처리할 수 없습니다. 결제 서비스 홈에서 해지된 동의에 대한 경고가 나타납니다. 경고를 무시하려면 **[!UICONTROL Do not show again]**&#x200B;을(를) 클릭하십시오.
 
 ### 샌드박스 계정 재설정
 
@@ -102,9 +102,9 @@ PayPal 샌드박스 계정을 사용하면 테스트 모드에서 [!DNL Payment 
 
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
->[!NOTE]
->
->**[!UICONTROL Buyer's country]** 설정은 메서드가 `Sandbox`(으)로 설정된 경우에만 나타납니다. 프로덕션 환경에는 영향을 주지 않습니다.
+   >[!NOTE]
+   >
+   >**[!UICONTROL Buyer's country]** 설정은 메서드가 `Sandbox`(으)로 설정된 경우에만 나타납니다. 프로덕션 환경에는 영향을 주지 않습니다.
 
 ## 샌드박스 환경에서 테스트
 

@@ -1,6 +1,6 @@
 ---
 title: 시작 체크리스트
-description: ' [!DNL Adobe Commerce Optimizer] 프로덕션에 대한 구성, 상점, SEO, CDN, 통합, 보안, 분석 및 테스트의 유효성을 검사하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Commerce Optimizer] 프로덕션에 대한 구성, 상점, SEO, CDN, 통합, 보안, 분석 및 테스트의 유효성을 검사하는 방법을 알아봅니다.'
 autotag-review: '2026-06-17T15:08:59.000Z'
 solution: Commerce
 feature: Integration, Storefront, Search, Catalog Management, Personalization
@@ -12,27 +12,35 @@ recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
 subfeature_v2:
   - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+    internal-label: Storefront configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Implementation
+source-git-commit: 1009ae28286a8503511c85726bf44922c7c2575e
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: '2311'
 ht-degree: 0%
-
 ---
-
 
 # 시작 체크리스트
 
@@ -92,7 +100,7 @@ Edge Delivery Services 상점 사이트가 존재하며 액세스가 제한되�
 ▢ Commerce Optimizer 커넥터가 [설치 및 구성되었습니다](../../aco-connector/get-started.md).
 ▢ `aco:conf:show` CLI 명령이 프로덕션 Commerce Optimizer 인스턴스에 대한 연결을 확인합니다. 조직 ID, 클라이언트 ID, 수집 URL 및 Commerce Optimizer URL은 프로덕션과 일치합니다.
 [구성 내보내기](../../aco-connector/get-started.md)의 ▢ 동기화 범위가 요구 사항과 일치합니다.
-▢ [데이터 피드 동기화 상태](../../aco-connector/data-sync-manage.md)에서 클라우드 인스턴스에서 데이터 내보내기를 확인합니다.
+▢ [데이터 피드 동기화 상태](../../aco-connector/data-sync-status.md)에서 클라우드 인스턴스에서 데이터 내보내기를 확인합니다.
 
 ### Commerce Optimizer에서
 
