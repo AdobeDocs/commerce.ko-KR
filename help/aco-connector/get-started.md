@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Commerce Optimizer Connector] 시작'
 description: '[!DNL Adobe Commerce Optimizer Connector]을(를) 설치하고, 범위 내보내기 설정을 구성하고, IMS 인증을 사용하도록 설정하고, 카탈로그 동기화를 확인하는 방법을 알아봅니다.'
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:55:50.934Z'
 TQID: 'https://experienceleague.adobe.com/AcZ6CNyuIdUlfVHXhyQEYuThfLNd4WWqMMY82tjMMCc'
 product_v2:
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 ## 통합 사용 요구 사항 {#requirements-to-use-the-integration}
 
-* [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.7+. 자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
+* [Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html) 2.4.7+. 자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
 
 * 프로비저닝된 샌드박스 인스턴스가 있는 [!DNL Commerce Optimizer] 라이선스.
 
-* 작성기를 사용하여 커넥터 메타패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
+* 작성기를 사용하여 커넥터 메타패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
 
 * [[!DNL Commerce Optimizer] 샌드박스 인스턴스](../optimizer/get-started.md)에 대한 관리자 액세스 권한.
 
@@ -70,9 +70,9 @@ ht-degree: 0%
 
 * Commerce 관리자에 대한 관리자 액세스 권한.
 
-* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
+* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
+* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
 
 >[!BEGINSHADEBOX]
 
