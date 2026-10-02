@@ -2,7 +2,7 @@
 title: B2B Commerce용 커넥터 설정
 description: B2B 커넥터를 설치하고, Commerce 범위를 선택하고, 공유 카탈로그 데이터를 동기화하고, 카탈로그 보기를 확인하고, 프로젝션 상태를 모니터링하는 방법을 알아봅니다.
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -37,8 +37,8 @@ topic_v2:
     internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-last-update: 2026-09-11
-source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
+last-update: 2026-10-01
+source-git-commit: 9ed3a09bc4e26e2ef787909700f51e25de0a18fa
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 ## 통합 사용 요구 사항 {#requirements-to-use-the-integration}
 
-* [Commerce B2B 버전 1.5.3+](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/install)이(가) 설치되고 활성화된 Adobe Commerce 2.4.8+.
+* [Commerce B2B 버전 1.5.3+](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/install)이(가) 설치되고 활성화된 Adobe Commerce 2.4.8+.
 
 * 프로비저닝된 샌드박스 인스턴스가 있는 [!DNL Commerce Optimizer] 라이선스.
 
-* 작성기를 사용하여 커넥터 메타 패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
+* 작성기를 사용하여 커넥터 메타 패키지를 다운로드하려면 [인증 키](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 사용하십시오.
 
 * [[!DNL Commerce Optimizer] 샌드박스 인스턴스](../optimizer/get-started.md)에 대한 관리자 액세스 권한.
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 * Commerce 관리자에 대한 관리자 액세스 권한.
 
-* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/user-access).
+* [명령줄 액세스 [!DNL Adobe Commerce] 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
+* [!DNL Commerce Optimizer] 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?)에 대한 개발자 액세스 권한.
 
 ### 애플리케이션 요구 사항
 
