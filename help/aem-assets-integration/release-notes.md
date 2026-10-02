@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: a0b269f6d4b709dd0aed4c23264928f28b2f5d98
+source-git-commit: e8b87b4622bf41f6340bf7ddd0f208512e9b09c7
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1738'
 ht-degree: 0%
 ---
 # AEM Assets 통합 릴리스 노트
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 일반 기능 릴리스 버전 외부에서 릴리스된 기능 변경 및 수정 사항에 대해서는 _호스팅된 서비스 업데이트_ 섹션을 검토하십시오.
 
-예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
+예정된 릴리스, 제품 지원 및 AEM Assets 통합 확장을 지원하는 Adobe Commerce 버전에 대한 자세한 내용은 Adobe Commerce [릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) 및 [제품 가용성](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) 항목을 참조하십시오.
 
 ## 호스팅된 서비스 업데이트
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 _2025년 9월 11일_
 
-![새 문제](../assets/new.svg) [사용자 지정 자동 일치](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다.
+![새 문제](../assets/new.svg) [사용자 지정 자동 일치](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다.
 
 _2025년 2월 11일_
 
@@ -42,11 +42,11 @@ _2026년 9월 18일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1317 --> Commerce 비동기 구성 저장을 사용하도록 설정한 경우 [사용자 지정 자동 일치](synchronize/custom-match.md)에 대해 업로드된 `workspace.json` 파일이 올바르게 지속되지 않는 문제를 해결했습니다. 이전에는 관리 요청이 파일 콘텐츠가 아닌 업로드 메타데이터만 큐에 추가했으므로 비동기 구성 소비자가 저장을 처리할 때까지 임시 업로드 파일을 더 이상 읽을 수 없습니다. 그 결과, App Builder OAuth 값이 변경되지 않은 상태로 구성이 성공적으로 저장되었습니다. 업로드된 App Builder 자격 증명은 이제 큐 경계를 벗어나지 않으며 비동기 소비자가 올바르게 처리합니다.
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1317 --> `Commerce Async Config Save`(Adobe Commerce 2.4.7에 도입됨)이(가) 활성화된 상태에서 `workspace.json` 업로드를 포함하여 **[!UICONTROL AEM Assets Integration]** 구성을 저장하고 ARES로 테넌트를 등록하거나 업데이트하지 못하는 문제를 해결했습니다. 구성이 성공적으로 저장된 것처럼 보였지만 App Builder OAuth 값은 변경되지 않았습니다. 이제 업로드된 자격 증명이 비동기 소비자에 의해 올바르게 처리됩니다.
 
 >[!IMPORTANT]
 >
->비동기 구성 저장 옵션이 활성화된 사용자 지정 선택기를 사용하는 경우 이 버전으로 업그레이드한 후 `workspace.json` 파일을 다시 업로드하십시오. 업로드 지침은 [비동기 구성 저장](synchronize/custom-match.md#async-config-save)을 참조하십시오.
+>비동기 구성 저장이 활성화된 사용자 지정 선택기를 사용하는 경우 업그레이드 후 `workspace.json` 파일을 다시 업로드하십시오. 지침은 [비동기 구성 저장](synchronize/custom-match.md#async-config-save)을 참조하십시오.
 
 ## v1.4.6
 
@@ -136,7 +136,7 @@ _2026년 3월 11일_
 
 ![새 문제](../assets/new.svg)<!-- Issue PAY-1041 --> Adobe Commerce 2.4.9-beta1 및 PHP 8.5에 대한 지원을 추가했습니다.
 
-![새 문제](../assets/new.svg)<!-- Issue ACCS-169 --> **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} 필드가 이제 [사용자의 IMS 세션](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank}을 기준으로 드롭다운으로 자동 채워집니다.
+![새 문제](../assets/new.svg)<!-- Issue ACCS-169 --> **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} 필드가 이제 [사용자의 IMS 세션](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank}을 기준으로 드롭다운으로 자동 채워집니다.
 
 ## v1.2.14
 
@@ -144,7 +144,7 @@ _2026년 2월 13일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![문제 해결](../assets/fix.svg)<!-- Issue ACCS-171 --> 페이지를 다시 로드한 후 런타임 작업 드롭다운에 저장되지 않은 작업 영역 데이터가 표시되는 [사용자 지정 선택기](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match) 문제를 해결했습니다.
+![문제 해결](../assets/fix.svg)<!-- Issue ACCS-171 --> 페이지를 다시 로드한 후 런타임 작업 드롭다운에 저장되지 않은 작업 영역 데이터가 표시되는 [사용자 지정 선택기](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match) 문제를 해결했습니다.
 
 ## v1.2.13
 
@@ -152,7 +152,7 @@ _2026년 2월 10일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACCS-171 --> [사용자 지정 일치](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 설정을 간소화하는 **[!UICONTROL Adobe I/O Workspace Configuration]** 필드를 추가했습니다. 이제 판매자는 App Builder `workspace.json` 파일을 업로드하여 OAuth 자격 증명 및 런타임 작업 끝점을 자동으로 채울 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACCS-171 --> [사용자 지정 일치](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 설정을 간소화하는 **[!UICONTROL Adobe I/O Workspace Configuration]** 필드를 추가했습니다. 이제 판매자는 App Builder `workspace.json` 파일을 업로드하여 OAuth 자격 증명 및 런타임 작업 끝점을 자동으로 채울 수 있습니다.
 
 ## v1.2.12
 
@@ -214,7 +214,7 @@ _2025년 10월 17일_
 
 ![문제가 해결되었습니다](../assets/fix.svg)<!-- Issue ACAP-1155 --> 사용자 지정 특성의 전반적인 안정성이 개선되었습니다. 이제 비동기 API를 사용할 때 사용자 지정 특성이 올바르게 업데이트됩니다.
 
-![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1074 --> 이제 기본 링크 URL이 정의된 경우 [제품-자산 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls#configure-the-base-url){target=_blank}가 실패하지 않습니다.
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1074 --> 이제 기본 링크 URL이 정의된 경우 [제품-자산 동기화](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls#configure-the-base-url){target=_blank}가 실패하지 않습니다.
 
 ## v1.2.3
 
@@ -238,9 +238,9 @@ _2025년 8월 7일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-1018 --> 이제 상인은 관리자로부터 Assets 통합을 구성할 때 [시각화 소유자](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization){target=_blank}를 선택하여 이미지 및 미디어 에셋의 소스를 선택할 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1018 --> 이제 상인은 관리자로부터 Assets 통합을 구성할 때 [시각화 소유자](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization){target=_blank}를 선택하여 이미지 및 미디어 에셋의 소스를 선택할 수 있습니다.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-1078 --> [사용자 지정 자동 일치](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다. 이 변경 사항으로 고유한 일치 논리를 구현하여 특정 `productSku`과(와) 연결된 모든 자산을 반환할 수 있습니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-1078 --> [사용자 지정 자동 일치](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match){target=_blank} 끝점을 새 `asset_matches` 특성으로 업데이트했습니다. 이 변경 사항으로 고유한 일치 논리를 구현하여 특정 `productSku`과(와) 연결된 모든 자산을 반환할 수 있습니다.
 
 ## v1.1.2
 
@@ -256,7 +256,7 @@ _2025년 4월 23일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization#optional-configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization#optional-configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
 
 ![문제를 해결했습니다](../assets/fix.svg)<!-- Issue ACAP-987 --> AEM Assets 동기화 프로세스에 대한 전체 로그를 개선했습니다.
 
@@ -266,7 +266,7 @@ _2025년 3월 12일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/setup-synchronization)가 필요합니다.
+![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)가 필요합니다.
 
 ## v1.0.20
 
