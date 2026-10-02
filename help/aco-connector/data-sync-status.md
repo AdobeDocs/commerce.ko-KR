@@ -35,8 +35,8 @@ topic_v2:
     internal-label: Data management
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-last-update: 2026-08-20
-source-git-commit: 77872b44f9b1aeb1ecf00253377802962df04c83
+last-update: 2026-10-01
+source-git-commit: 9ed3a09bc4e26e2ef787909700f51e25de0a18fa
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%

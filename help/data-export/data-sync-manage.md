@@ -27,8 +27,8 @@ topic_v2:
     internal-label: Data management
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-last-update: 2026-06-23
-source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
+last-update: 2026-10-01
+source-git-commit: 9ed3a09bc4e26e2ef787909700f51e25de0a18fa
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%

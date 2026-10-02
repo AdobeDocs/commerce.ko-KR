@@ -37,8 +37,8 @@ topic_v2:
     internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-last-update: 2026-09-11
-source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
+last-update: 2026-10-01
+source-git-commit: 9ed3a09bc4e26e2ef787909700f51e25de0a18fa
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: a0b269f6d4b709dd0aed4c23264928f28b2f5d98
+source-git-commit: e8b87b4622bf41f6340bf7ddd0f208512e9b09c7
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1738'
 ht-degree: 0%
 ---
 # AEM Assets 통합 릴리스 노트
@@ -42,11 +42,11 @@ _2026년 9월 18일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1317 --> Commerce 비동기 구성 저장을 사용하도록 설정한 경우 [사용자 지정 자동 일치](synchronize/custom-match.md)에 대해 업로드된 `workspace.json` 파일이 올바르게 지속되지 않는 문제를 해결했습니다. 이전에는 관리 요청이 파일 콘텐츠가 아닌 업로드 메타데이터만 큐에 추가했으므로 비동기 구성 소비자가 저장을 처리할 때까지 임시 업로드 파일을 더 이상 읽을 수 없습니다. 그 결과, App Builder OAuth 값이 변경되지 않은 상태로 구성이 성공적으로 저장되었습니다. 업로드된 App Builder 자격 증명은 이제 큐 경계를 벗어나지 않으며 비동기 소비자가 올바르게 처리합니다.
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-1317 --> `Commerce Async Config Save`(Adobe Commerce 2.4.7에 도입됨)이(가) 활성화된 상태에서 `workspace.json` 업로드를 포함하여 **[!UICONTROL AEM Assets Integration]** 구성을 저장하고 ARES로 테넌트를 등록하거나 업데이트하지 못하는 문제를 해결했습니다. 구성이 성공적으로 저장된 것처럼 보였지만 App Builder OAuth 값은 변경되지 않았습니다. 이제 업로드된 자격 증명이 비동기 소비자에 의해 올바르게 처리됩니다.
 
 >[!IMPORTANT]
 >
->비동기 구성 저장 옵션이 활성화된 사용자 지정 선택기를 사용하는 경우 이 버전으로 업그레이드한 후 `workspace.json` 파일을 다시 업로드하십시오. 업로드 지침은 [비동기 구성 저장](synchronize/custom-match.md#async-config-save)을 참조하십시오.
+>비동기 구성 저장이 활성화된 사용자 지정 선택기를 사용하는 경우 업그레이드 후 `workspace.json` 파일을 다시 업로드하십시오. 지침은 [비동기 구성 저장](synchronize/custom-match.md#async-config-save)을 참조하십시오.
 
 ## v1.4.6
 
