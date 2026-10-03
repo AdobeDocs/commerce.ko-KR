@@ -66,7 +66,7 @@ Commerce 관리자에서 **[!UICONTROL System]** > **[!UICONTROL Data Transfer]*
 | **중단** | [!DNL Adobe Commerce]에서 공유 카탈로그를 삭제했습니다. 삭제 유예 기간이 만료될 때까지 카탈로그 보기에 계속 액세스할 수 있습니다. 기본 유예 기간은 7일입니다. [카탈로그 보기 동기화 설정](#configure-aco-catalog-view-sync-settings)을 업데이트하여 기본값을 수정할 수 있습니다. |
 | **고립됨** | 카탈로그 보기 또는 키가 커넥터가 아닌 [!DNL Adobe Commerce Optimizer] Studio에서 직접 만들어졌습니다. [고립되거나 삭제된 항목 검토](#review-orphaned-and-deleted-entries)를 참조하세요. |
 
-[!UICONTROL Healthy], [!UICONTROL Pending] 및 [!UICONTROL Deleted]은(는) 동작이 필요하지 않은 정보 상태입니다. 전체 목록은 *Commerce 관리 가이드*&#x200B;의 [동기화 상태 값](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status#sync-status-values){target="_blank"}을 참조하십시오.
+[!UICONTROL Healthy], [!UICONTROL Pending] 및 [!UICONTROL Deleted]은(는) 동작이 필요하지 않은 정보 상태입니다. 전체 목록은 *Commerce 관리 가이드*&#x200B;의 [동기화 상태 값](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status#sync-status-values){target="_blank"}을 참조하십시오.
 
 ### ACO 카탈로그 보기 동기화 설정 구성 {#configure-aco-catalog-view-sync-settings}
 

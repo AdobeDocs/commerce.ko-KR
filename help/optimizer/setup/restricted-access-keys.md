@@ -40,7 +40,7 @@ ht-degree: 0%
 
 제한된 액세스 키는 다음 두 가지 방법 중 하나로 제공됩니다.
 
-- [!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."} **B2B 공유 카탈로그에 대해 자동으로**—[!DNL Adobe Commerce Optimizer Connector for B2B]과(와) 통합된 배포의 경우 커넥터가 초기 키를 프로비저닝하고 할당합니다. 그런 다음 Commerce 관리자로부터 키 및 키 할당을 관리합니다. *Commerce 관리 안내서**에서 [카탈로그 보기 인증](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage)을 참조하십시오.
+- [!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."} **B2B 공유 카탈로그에 대해 자동으로**—[!DNL Adobe Commerce Optimizer Connector for B2B]과(와) 통합된 배포의 경우 커넥터가 초기 키를 프로비저닝하고 할당합니다. 그런 다음 Commerce 관리자로부터 키 및 키 할당을 관리합니다. *Commerce 관리 안내서**에서 [카탈로그 보기 인증](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage)을 참조하십시오.
 
 - **카탈로그 보기에 대해 수동으로**—파트너 포털 또는 시험판 미리 보기와 같이 카탈로그 보기를 직접 보호하려면 [제한된 액세스 키를 만듭니다](#create-a-restricted-access-key). 이 항목의 단계를 따르십시오.
 
@@ -116,7 +116,7 @@ openssl rsa -in private-key.pem -pubout -out public-key.pem
 
 제한된 액세스 키는 카탈로그 보호를 사용하는 방법에 따라 다음 두 가지 방법 중 하나로 관리됩니다.
 
-- **B2B 공유 카탈로그에 대해 자동으로**—[!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."} [!DNL Adobe Commerce Optimizer Connector for B2B]과(와) 통합된 배포에 대해 서비스는 카탈로그 보기를 만들 때 첫 번째 제한된 액세스 키를 자동으로 생성하고 할당합니다. 각 카탈로그 보기는 자체 키를 받습니다. 그런 다음 공유 카탈로그 또는 회사 계정 페이지에서 각 키를 관리할 수 있습니다. Commerce 관리 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 키를 보고 관리할 수도 있습니다. [카탈로그 보기 구성 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage)를 참조하세요.
+- **B2B 공유 카탈로그에 대해 자동으로**—[!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."} [!DNL Adobe Commerce Optimizer Connector for B2B]과(와) 통합된 배포에 대해 서비스는 카탈로그 보기를 만들 때 첫 번째 제한된 액세스 키를 자동으로 생성하고 할당합니다. 각 카탈로그 보기는 자체 키를 받습니다. 그런 다음 공유 카탈로그 또는 회사 계정 페이지에서 각 키를 관리할 수 있습니다. Commerce 관리 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 키를 보고 관리할 수도 있습니다. [카탈로그 보기 구성 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage)를 참조하세요.
 
   공유 카탈로그와 이 공유 카탈로그가 할당된 스토어 보기의 각 조합은 별도의 카탈로그 보기로 투영됩니다. 프로젝션은 커넥터가 해당 조합에 대해 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 내보내는 카탈로그 보기, 정책, 가격 장부 참조 및 제한된 액세스 키 구성 데이터입니다. 따라서 여러 저장소 보기에 할당된 공유 카탈로그는 각각 고유한 키를 가진 여러 카탈로그 보기를 생성합니다. 다른 항목에 영향을 주지 않고 한 카탈로그 보기에 대한 키를 편집하거나 회전합니다.
 
