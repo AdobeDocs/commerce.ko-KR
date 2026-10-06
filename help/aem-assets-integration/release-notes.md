@@ -3,9 +3,9 @@ title: AEM Assets 통합 릴리스 노트
 description: 모든 AEM Assets 통합 릴리스에 대한 자세한 내용은 릴리스 정보 를 참조하십시오.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: e8b87b4622bf41f6340bf7ddd0f208512e9b09c7
+source-git-commit: 36e6db0c76b0946c28d1a76d5649757c7f244058
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1847'
 ht-degree: 0%
 ---
 # AEM Assets 통합 릴리스 노트
@@ -35,6 +35,22 @@ _2025년 2월 11일_
 ![새 문제](../assets/new.svg) 이제 판매자는 제품 및 범주에 대한 이미지를 동기화할 수 있습니다.
 
 +++
+
+## v1.4.9
+
+_2026년 10월 7일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![문제 해결](../assets/fix.svg)<!-- Issue CCSAAS-5562 --> `null`이(가) 배열 오프셋으로 사용되었기 때문에 관리자에서 범주를 만들 때 `Deprecated Functionality` 오류가 표시되는 간헐적인 문제가 해결되었습니다. 이제 **새 범주** 양식이 사용 중단 알림 없이 로드되며 범주를 만들 수 있습니다.
+
+## v1.4.8
+
+_2026년 10월 5일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
+
+![해결된 문제](../assets/fix.svg)<!-- Issue ACAP-1339 --> AEM Assets이 시각화 소유자일 때 AEM Assets의 범주 이미지를 카탈로그로 내보내지 않았거나 GraphQL 응답으로 반환되지 않는 문제를 해결했습니다. 이미지를 내보내려면 수정 사항을 적용한 후 AEM 에셋을 카테고리에 재할당합니다.
 
 ## v1.4.7
 
