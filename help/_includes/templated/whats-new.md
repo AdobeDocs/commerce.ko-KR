@@ -1,7 +1,7 @@
 ---
-source-git-commit: b4bbb596143bdcbb8c55a26386db7a36e2961db9
+source-git-commit: c751dca1a7620b45068a7820054a842b50837bcd
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1277'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,116 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 10월 5일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1c4e1f93d81397b7fe9e4667203448866076a475">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 1일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce Optimizer 커넥터 안내서<br />B2B용 Adobe Commerce Optimizer 커넥터에 대한 설명서를 추가했습니다.<br />- B2B Commerce용 커넥터 설정에 대한 상호 참조 정보를 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview">[!DNL Adobe Commerce Optimizer Connector]</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started/get-started">Adobe Commerce용 커넥터 설정</a>.<br />- Adobe B2B Commerce 공유 카탈로그가 [!DNL Adobe Commerce Optimizer]에 동기화되는 방법을 설명하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection">B2B 공유 카탈로그 프로젝션</a> 항목을 추가했습니다.<br />- 확장 설치 및 동기화 유효성 검사에 대해 설명하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started/get-started-b2b-shared-catalogs">B2B Commerce용 커넥터를 설정합니다</a>.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status">카탈로그 보기 동기화 모니터링</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys">Adobe B2B Commerce용 제한된 액세스 키 관리</a>에 대한 새 주제를 추가했습니다.<br />Adobe Commerce Optimizer 사용자 가이드<br />- 기존 수동 흐름과 함께 B2B 공유 카탈로그에 대한 자동 키 및 카탈로그 보기 프로비저닝을 설명하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view">개인 카탈로그 보기</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys">제한된 액세스 키</a>를 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트, 새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/479c14c5f7da567510e344364b0b721ad73eba6f">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 9월 30일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/custom-product-types">사용자 지정 제품 유형</a>을(를) 내보내는 방법에 대한 정보가 추가되었습니다.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2564e6acca899868795e73346d66964c59b0a56c">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 9월 29일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b1524825387c1d5fe061bdadf76f27b2f614879d">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 9월 28일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>동기화하는 동안 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/synchronize/custom-match">사용자 지정 AEM 이미지 역할</a>을(를) 유지하는 기능이 추가되었습니다. 또한 Adobe Commerce에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aem-assets-integration/get-started/check-for-updates">AEM Assets 통합 확장 업데이트를 비동기적으로 확인</a>하는 기능이 추가되었습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/44272d96ca697d54cbbfbb9ed5a045da94652d75">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 9월 25일
 
@@ -308,116 +418,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c88ec8730e24220b6dfd32da406d1ba3fd3a2ef2">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 5일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>마이그레이션 평가 도구, Commerce 개발자 MCP 및 Commerce 데이터 마이그레이션 서비스를 사용하여 업데이트된 마이그레이션 흐름에 대해 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview">마이그레이션 개요</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2a0d741c141a4d122b0a068f3a1e7c435d86fd75">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 4일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>새 <a href="https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/integration/catalog-events-guide">카탈로그 이벤트 및 Adobe I/O 통합 안내서</a>에서는 카탈로그 이벤트를 활성화하고, SaaS 데이터 내보내기 피드 내보내기 및 동기화를 확인하고, Adobe I/O Events과 통합하는 방법을 설명합니다.</p>
-</td>
-      <td>
-        주요 업데이트, 새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/719b6661370f1e639fafb2a89bc1a906a20df37b">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 30일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>더 광범위한 지리적 가용성을 반영하고 고급 서비스에 대한 지원 국가 세부 사항을 확장하도록 표준 서비스에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/compatibility#standard-vs-advanced-payment-services-experience">결제 서비스 호환성 표</a>를 업데이트했습니다.</p>
-</td>
-      <td>
-        피드백
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b667dfd60809e55bc82cecc8c4f7df60483eecba">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 29일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 정보</a>를 프로덕션에 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1f91b5535d30ac894531508278b19d961f5a9d2c">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 28일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>마이그레이션 프로세스에 대한 자세한 정보로 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/migration-tools/bulk-data/migration-tool">대량 데이터 마이그레이션 도구</a> 설명서를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c8cab2404d47a6cb4a0418a59b533bf11e082b0b">커밋</a></td>
     </tr>
   </tbody>
 </table>
