@@ -49,9 +49,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 last-update: 2026-08-07
-source-git-commit: 6a2300d65c9c77d18813c2eb491bfd02d1fca8ba
+source-git-commit: d4f896450e74c62db575ce9798cf27737466eb07
 workflow-type: tm+mt
-source-wordcount: '7581'
+source-wordcount: '8005'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -129,6 +129,38 @@ ht-degree: 0%
 
 `POST /V1/carts/:cartId/shipping-discount`을(를) 사용하여 할인을 설정합니다. 이 끝점을 사용하려면 관리자 또는 통합 수준 액세스 권한이 필요합니다. <!-- ACCS-1156 -->
 
+### 사용자 지정 가격으로 장바구니 항목 추가
+
+이제 표준 추가 또는 업데이트 장바구니 항목 REST 끝점(`POST /V1/carts/:cartId/items` 및 `PUT /V1/carts/:cartId/items/:itemId`)에 `custom_price` 확장 특성을 추가하여 장바구니 항목에 대한 사용자 지정 가격을 설정할 수 있습니다. 사용자 지정 가격을 설정하려면 관리자 또는 통합 토큰을 제공해야 합니다. 동적 가격이 적용된 번들 제품과 같이 음수 가격 또는 지원되지 않는 제품 유형의 요청은 거부됩니다. <!-- ACCS-1155 -->
+
+```json
+{
+  "cartItem": {
+    "sku": "t-shirt",
+    "qty": 1,
+    "quote_id": 17,
+    "extension_attributes": { "custom_price": 15.00 }
+  }
+}
+```
+
+`GET /V1/carts/:cartId` 및 `GET /V1/carts/:cartId/items` 끝점도 `custom_price` 값을 반환합니다.
+
+### 관리자가 제작한 카트를 상점 앞 카트와 분리
+
+기본적으로 비활성화되어 있는 옵트인 기능은 관리자 및 통합이 REST API를 통해 만들 수 있는 카트를 고객의 활성 상점 카트와 분리합니다. 활성화되면 `POST /V1/customers/:customerId/carts`은(는) 항상 관리자 및 통합 호출자가 장바구니의 상점 장바구니를 변경하지 않고 장바구니 REST 끝점을 통해 관리할 수 있는 새 비활성 장바구니를 만듭니다. <!-- ACCS-1153 -->
+
+활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
+
+### 서드파티 플랫폼을 통해 트랜잭션 이메일 보내기
+
+새 이벤트를 사용하면 [!DNL Salesforce Marketing Cloud]과(와) 같은 서드파티 이메일 플랫폼에서 [!DNL App Builder]을(를) 통해 트랜잭션 이메일을 보낼 수 있습니다. [!DNL Adobe I/O Events]을(를) 통해 다음 이벤트 구독: <!-- ACCS-1929 -->
+
+* `observer.customer_balance_save_after` - 스토어 크레딧 잔액이 저장되었습니다. `notify_by_email`이(가) `1`인 구독 규칙을 추가하여 스토어 크레딧 알림 이메일당 하나의 이벤트를 수신합니다.
+* `observer.giftcard_item_email_send_after` - 주문 항목에 대한 기프트 카드 전자 메일이 전송됩니다. 페이로드에는 해당 항목에 대한 모든 기프트 카드 코드가 포함됩니다.
+* `plugin.customer.api.account_management.activate` - 고객이 계정을 확인합니다.
+* `plugin.negotiable_quote.api.negotiable_quote_management.decline` - 협상 가능한 견적이 거부되었습니다.
+
 ### 개선 사항 및 버그 수정
 
 이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
@@ -152,6 +184,22 @@ ht-degree: 0%
 * 장바구니에 품절 항목이 포함되어 있을 때 장바구니 가격 또는 합계를 요청하면 오류가 반환될 수 있는 문제를 해결했습니다. <!-- CEXT-6776 -->
 
 * 누락된 SKU를 찾으려고 할 때 인벤토리 소비자가 메시지 큐를 압도하는 문제를 해결했습니다. <!-- ACCS-1976 -->
+
+* 이제 `customerDownloadableProducts` GraphQL 쿼리가 외부 URL로 구성된 다운로드 가능한 제품에 대한 파일 메타데이터를 반환하므로 상점 측에서 파일 형식과 에셋을 열거나 다운로드할지 여부를 결정할 수 있습니다. <!-- ACCS-1735 -->
+
+* 이제 `sourceAvailability` GraphQL 쿼리가 B2B 공유 카탈로그 및 범주 권한을 적용하므로 구매자는 볼 수 있는 제품에 대해서만 소스당 재고를 받습니다. <!-- ACCS-1888 -->
+
+* 고객이 환영 이메일 링크에서 암호를 설정할 수 없고 새로 만든 고객이 [!DNL Commerce Admin] 고객 그리드에 나타나지 않는 문제를 해결했습니다. <!-- ACCS-1979 -->
+
+* 주문 편집 REST API를 통해 편집된 주문이 잘못된 가격으로 품목을 저장할 수 있는 문제를 해결했습니다. <!-- ACCS-1982 -->
+
+* 회사 공유 카탈로그에서 제거된 제품이 상점 앞에 계속 표시되며 장바구니에서 자동으로 삭제되는 문제를 해결했습니다. <!-- CCSAAS-5544 -->
+
+* 고객 그룹에 거부된 범주의 공유 카탈로그 제품이 상점 첫 화면에 표시되었지만 장바구니에 추가할 수 없는 문제를 해결했습니다. 이제 범주 거부 권한이 공유 카탈로그 멤버십보다 우선합니다. <!-- CCSAAS-5549 -->
+
+* GraphQL을 통해 주문하면 배송세 항목에 제목이 없을 때 오류가 반환되는 문제를 해결했습니다. <!-- CCSAAS-5552 -->
+
+* `GET /V1/customers/:customerId/companyRoles` REST 끝점이 회사 관리자에 대한 빈 권한을 반환한 문제를 해결했습니다. <!-- ACCS-1998 -->
 
 {{accs-release}}
 
