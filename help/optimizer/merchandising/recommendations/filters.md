@@ -1,24 +1,27 @@
 ---
 title: 권장 사항 필터
-description: 필터를 사용하여  [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+description: 필터를 사용하여 [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
 TQID: https://experienceleague.adobe.com/-pmVrAgEsSkn66K00-eaoQ4TF-7Xyxuwlniip1cR4HM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5a8861614fbf0e8d719305e239f926d5232ac49
+    internal-label: Personalization
+source-git-commit: 40374f0aa28d3635fc567c0311e452f92dc5704c
 workflow-type: tm+mt
-source-wordcount: 1932
+source-wordcount: '2334'
 ht-degree: 0%
-
 ---
-
 # 제품 필터링
 
 [!DNL Adobe Commerce Optimizer]은(는) 구성 불가능한 기본 필터를 권장 사항 단위에 자동으로 적용합니다. 페이지에 여러 개의 추천 단위가 배포되어 있는 경우 [!DNL Adobe Commerce Optimizer]은(는) 해당 단위로 반복되는 모든 제품을 필터링합니다. 다른 제품을 추천할 수 있는 공간을 만들기 위해 반복 제품에 대한 첫 번째 참조만 사용됩니다. [!DNL Adobe Commerce Optimizer]은(는) 이전에 구매한 제품과 장바구니에 있는 제품도 필터링합니다.
@@ -207,8 +210,73 @@ PaaS의 [!DNL Product Recommendations]과(와) 일치합니다. 관리자의 레
 >
 >구성 가능한 제품의 하위 제품은 _개별적으로 표시되지 않음_&#x200B;의 가시성을 가지므로 추천 단위에 표시되지 않습니다.
 
-<!--
-### Attribute
+### 속성 {#attributes}
 
-You can filter products based on attribute criteria, including attribute values. Selected values use OR logic to either include or exclude products when any of the specified values are found.
+>[!NOTE]
+>
+>속성 필터링은 Beta 버전입니다.
+
+특성 필터를 사용하면 [가격](#price) 및 [제품](#product) 필터와 동일한 **[!UICONTROL Filter products]** 페이지를 사용하여 제품 특성 값에 따라 제품을 포함하거나 제외할 수 있습니다.
+
+#### 속성 필터 정보
+
+특성 필터는 개별 SKU가 아닌 공유 특성 값으로 제품을 타겟팅한다는 점에서 [제품 필터](#product)와 다릅니다. 예를 들어 범주에 할당된 모든 SKU를 나열하는 대신 해당 범주에 할당된 모든 제품과 일치하는 단일 속성 필터를 만들 수 있습니다.
+
+#### 속성 필터 설정
+
+다음 단계를 사용하여 속성 포함 또는 제외 규칙을 추천 단위에 추가합니다.
+
+1. [추천 단위를 만들거나 편집](create.md)하는 동안 **[!UICONTROL Filter products]**(으)로 이동하십시오.
+1. **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭을 선택합니다. 각 탭의 배지는 활성화된 해당 유형의 필터 수를 보여줍니다.
+1. 왼쪽 목록에서 **[!UICONTROL Attributes]**&#x200B;을(를) 선택합니다.
+1. 선택기에서 특성을 선택합니다(예: **Category**).
+1. **[!UICONTROL Value]**&#x200B;에서 **pants**&#x200B;와 같은 특성 값을 입력하십시오.
+1. 특성 필터를 추가하려면 **Enter**&#x200B;를 누르거나 **[!UICONTROL Add inclusion filter]**(또는 이와 동등한 제외 컨트롤)을 클릭합니다.
+1. 권장 사항 단위 구성을 완료하고 일반적인 방법으로 저장하거나 게시하여 필터가 적용됩니다.
+
+![특성 필터](../../assets/filter-attribute.png)
+
+>[!NOTE]
+>
+>메타데이터가 `number`을(를) `true`(으)로 설정하는 특성(예: **Size**)을 선택하면 **Value** 필드에 단일 텍스트 값 대신 범위 입력이 표시됩니다.
+
+#### 포함 및 제외 조건 사용
+
+포함 필터와 일치하는 제품만 추천할 수 있습니다. 제외 필터와 일치하는 제품은 권장되지 않습니다.
+
+#### 조건 결합
+
+속성 필터가 여러 값을 포함하거나 다른 조건과 결합되는 경우 다음 논리가 적용됩니다.
+
+- 동일한 특성에 대해 여러 값을 선택한 경우 값이 `OR`과(와) 결합됩니다.
+- 다른 특성(예: 색상 및 크기)에 대한 조건이 `AND`과(와) 결합됩니다. 제품은 모두 일치해야 합니다. 한 조건에 여러 값을 입력하는 대신 동일한 특성을 별도의 조건으로 추가하면 해당 조건도 `OR`이(가) 아닌 `AND`과(와) 결합됩니다.
+- 여러 제외 조건이 있는 경우 제품이 제외 조건과 일치하면 제거됩니다.
+- 포함 및 제외 필터를 모두 사용하는 경우 [논리 연산자](#logical-operators)를 참조하십시오.
+
+<!--
+#### Availability by recommendation type
+
+Hiding this for now as we need better clarification on what "limited" means.
+
+Attribute filter support varies by recommendation type.
+
+| Recommendation type | Inclusion support | Exclusion support |
+| --- | --- | --- |
+| Most viewed | Yes | Yes |
+| Most purchased | Yes | Yes |
+| Trending | Yes | Yes |
+| Recommended for you | Limited | Yes |
+| Viewed this, viewed that | Limited | Yes |
+| Viewed this, bought that | Limited | Yes |
+| Bought this, bought that | Limited | Yes |
+| More like this | Limited | Yes |
+| Visual similarity | No | Yes |
+| Recently viewed | No | Limited |
+| Recently purchased | No | Limited |
 -->
+
+#### 가용성, 검증 및 문제 해결
+
+- 빈 속성 값이나 잘못된 조건이 있는 경우 권장 사항은 상점 첫 화면 또는 미리 보기 패널에서 렌더링되지 않습니다.
+- 속성 값은 카탈로그에 있는 값과 정확히 일치해야 하며 여기에는 공백과 대/소문자가 포함됩니다.
+- 어느 제품도 필터 기준을 충족하지 않는 경우 권장 사항이 상점 첫 화면 또는 미리 보기 패널에서 렌더링되지 않습니다.
