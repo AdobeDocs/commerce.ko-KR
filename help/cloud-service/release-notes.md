@@ -49,9 +49,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 last-update: 2026-08-07
-source-git-commit: d4f896450e74c62db575ce9798cf27737466eb07
+source-git-commit: dee10a97e03a115bcd758171082061e95bb6adcc
 workflow-type: tm+mt
-source-wordcount: '8005'
+source-wordcount: '8064'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 ## 2026년 10월 - 릴리스 #1 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목이 2026년 10월 6일에 프로덕션 환경에 추가됩니다.
+다음 항목은 2026년 10월 7일에 프로덕션 환경에 릴리스되었습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ### REST에서 카탈로그 가격 규칙 관리
 
-새로운 REST API 끝점을 사용하면 통합에서 프로그래밍 방식으로 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)을(를) 관리하고 검색할 수 있습니다. <!-- ACCS-1621 -->
+새로운 [REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/catalog-price-rules)을 통해 통합에서 프로그래밍 방식으로 [카탈로그 가격 규칙](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)을 관리하고 검색할 수 있습니다. <!-- ACCS-1621 -->
 
 다음 끝점은 관리 카탈로그 가격 규칙 화면도 보호하는 `Magento_CatalogRule::promo_catalog` 권한으로 보호됩니다. 이 끝점을 사용하려면 관리자 또는 통합 수준 액세스 권한이 필요합니다.
 
@@ -125,13 +125,13 @@ ht-degree: 0%
 
 ### 관리 REST API를 통해 사용자 지정 배송 할인 적용
 
-이제 장바구니 가격 규칙에 맞지 않는 사례에 대해 관리자 REST API를 통해 장바구니에 임의 배송 할인을 적용할 수 있습니다.
+이제 장바구니 가격 규칙에 맞지 않는 경우 관리자 REST API를 통해 장바구니에 임의 [배송 할인](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/shipping-discounts)을 적용할 수 있습니다.
 
 `POST /V1/carts/:cartId/shipping-discount`을(를) 사용하여 할인을 설정합니다. 이 끝점을 사용하려면 관리자 또는 통합 수준 액세스 권한이 필요합니다. <!-- ACCS-1156 -->
 
 ### 사용자 지정 가격으로 장바구니 항목 추가
 
-이제 표준 추가 또는 업데이트 장바구니 항목 REST 끝점(`POST /V1/carts/:cartId/items` 및 `PUT /V1/carts/:cartId/items/:itemId`)에 `custom_price` 확장 특성을 추가하여 장바구니 항목에 대한 사용자 지정 가격을 설정할 수 있습니다. 사용자 지정 가격을 설정하려면 관리자 또는 통합 토큰을 제공해야 합니다. 동적 가격이 적용된 번들 제품과 같이 음수 가격 또는 지원되지 않는 제품 유형의 요청은 거부됩니다. <!-- ACCS-1155 -->
+이제 표준 추가 또는 업데이트 장바구니 항목 REST 끝점(`POST /V1/carts/:cartId/items` 및 `PUT /V1/carts/:cartId/items/:itemId`)에 `custom_price` 확장 특성을 추가하여 장바구니 항목[&#128279;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/cart-custom-price)에 대한 사용자 지정 가격을 설정할 수 있습니다. 사용자 지정 가격을 설정하려면 관리자 또는 통합 토큰을 제공해야 합니다. 동적 가격이 적용된 번들 제품과 같이 음수 가격 또는 지원되지 않는 제품 유형의 요청은 거부됩니다. <!-- ACCS-1155 -->
 
 ```json
 {
@@ -161,6 +161,10 @@ ht-degree: 0%
 * `plugin.customer.api.account_management.activate` - 고객이 계정을 확인합니다.
 * `plugin.negotiable_quote.api.negotiable_quote_management.decline` - 협상 가능한 견적이 거부되었습니다.
 
+### 벌크 API 제한
+
+이제 [Bulk API](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints)에서 요청당 최대 엔터티 수를 적용합니다. 제한을 초과하는 요청은 오류를 반환합니다. [구성 참조](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api)의 구성할 수 없는 [!UICONTROL Maximum Entities Per Bulk Request] 필드에 제한이 표시됩니다. 자세한 내용은 [API 보안](https://developer.adobe.com/commerce/webapi/get-started/api-security#input-limit-for-rest-endpoints)을 참조하십시오. <!-- ACCS-703 -->
+
 ### 개선 사항 및 버그 수정
 
 이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
@@ -168,8 +172,6 @@ ht-degree: 0%
 * 이제 `on`(으)로 설정된 Adobe I/O Runtime `X-OW-EXTRA-LOGGING` 헤더가 포함된 웹후크를 만들거나 편집할 때 [!DNL Commerce Admin]에 경고가 표시됩니다. 이 헤더는 디버깅을 위한 것이며 프로덕션에서 권장되지 않습니다. <!-- CCSAAS-5486 -->
 
 * 사전 서명된 S3 업로드 URL을 통해 업로드된 파일에는 이제 맬웨어에 대한 추가 검사가 있습니다. <!-- ACCS-1463 -->
-
-* 이제 벌크 API는 요청당 최대 엔티티 수를 적용합니다. 제한을 초과하는 요청은 오류를 반환합니다. <!-- ACCS-703 -->
 
 * 제품에 대해 판매 가능 수량이 과소 보고되어 장바구니 추가, REST 및 GraphQL 스톡 확인을 잘못 차단할 수 있는 문제를 해결했습니다. <!-- ACCS-1908 -->
 
@@ -217,7 +219,7 @@ ht-degree: 0%
 
 ### 파일 및 이미지를 첨부하여 요청 반환
 
-이제 고객은 상점 [`requestReturn`](https://developer.adobe.com/commerce/webapi/graphql/schema/orders/mutations/request-return/#request-a-return-with-an-image-attachment) GraphQL 돌연변이를 통해 반환 요청을 제출할 때 파일과 이미지를 업로드할 수 있습니다. [`initiateUpload` 및 `finishUpload` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/)를 사용하여 파일을 업로드한 다음 반환된 키를 반환 항목 사용자 지정 특성에 할당합니다. <!-- CCSAAS-5410 -->
+이제 고객은 상점 [`requestReturn`](https://developer.adobe.com/commerce/webapi/graphql/schema/orders/mutations/request-return/#request-a-return-with-an-image-attachment) GraphQL 돌연변이를 통해 반환 요청을 제출할 때 파일과 이미지를 업로드할 수 있습니다. [`initiateUpload` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload#recaptcha-validation)을(를) 사용하여 파일을 업로드한 다음 반환된 키를 반환 항목 사용자 지정 특성에 할당합니다. <!-- CCSAAS-5410 -->
 
 ### 인벤토리 소스 모양 제어
 
