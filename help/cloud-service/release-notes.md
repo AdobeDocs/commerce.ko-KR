@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ### 사용자 지정 가격으로 장바구니 항목 추가
 
-이제 표준 추가 또는 업데이트 장바구니 항목 REST 끝점(`POST /V1/carts/:cartId/items` 및 `PUT /V1/carts/:cartId/items/:itemId`)에 `custom_price` 확장 특성을 추가하여 장바구니 항목](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/cart-custom-price)에 대한 [사용자 지정 가격을 설정할 수 있습니다. 사용자 지정 가격을 설정하려면 관리자 또는 통합 토큰을 제공해야 합니다. 동적 가격이 적용된 번들 제품과 같이 음수 가격 또는 지원되지 않는 제품 유형의 요청은 거부됩니다. <!-- ACCS-1155 -->
+이제 표준 추가 또는 업데이트 장바구니 항목 REST 끝점(`POST /V1/carts/:cartId/items` 및 `PUT /V1/carts/:cartId/items/:itemId`)에 `custom_price` 확장 특성을 추가하여 장바구니 항목[&#128279;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/cart-custom-price)에 대한 사용자 지정 가격을 설정할 수 있습니다. 사용자 지정 가격을 설정하려면 관리자 또는 통합 토큰을 제공해야 합니다. 동적 가격이 적용된 번들 제품과 같이 음수 가격 또는 지원되지 않는 제품 유형의 요청은 거부됩니다. <!-- ACCS-1155 -->
 
 ```json
 {
@@ -700,7 +700,7 @@ ID를 수동으로 조회하는 대신 `POST /V1/custom-email/send` 끝점에 �
 
 * 가져오기 파일 유효성 검사가 실패할 수 있는 문제를 해결했습니다. <!-- CCSAAS-4364 -->
 
-* [!DNL Adobe Commerce as a Cloud Service] 관리에서 지원되지 않으므로 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**의&#x200B;**[!UICONTROL Catalog]**섹션에서&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**구성을 제거했습니다. <!-- ACCS-793 -->
+* [!DNL Adobe Commerce as a Cloud Service] 관리에서 지원되지 않으므로 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;의&#x200B;**[!UICONTROL Catalog]**&#x200B;섹션에서&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;구성을 제거했습니다. <!-- ACCS-793 -->
 
 >[!ENDSHADEBOX]
 
