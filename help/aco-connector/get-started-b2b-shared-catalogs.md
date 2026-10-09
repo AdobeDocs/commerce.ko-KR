@@ -3,6 +3,7 @@ title: B2B Commerce용 커넥터 설정
 description: B2B 커넥터를 설치하고, Commerce 범위를 선택하고, 공유 카탈로그 데이터를 동기화하고, 카탈로그 보기를 확인하고, 프로젝션 상태를 모니터링하는 방법을 알아봅니다.
 feature: Integration, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -19,6 +20,8 @@ feature_v2:
     internal-label: Integrations
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
     internal-label: Admin tools and workspace
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: e126554b-28f9-4290-b58c-10b888b88174
     internal-label: IMS integration
@@ -37,8 +40,7 @@ topic_v2:
     internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-last-update: 2026-10-01
-source-git-commit: 9ed3a09bc4e26e2ef787909700f51e25de0a18fa
+source-git-commit: c76e776250d9f996daf61d3cf62e2070803e998c
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

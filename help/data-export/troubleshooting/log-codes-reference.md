@@ -4,6 +4,7 @@ description: 동기화 문제를 해결하고 부분 또는 전체 재동기화�
 autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Services
 exl-id: c1341863-1ec4-4d67-8ff2-821ef0a61f33
+last-update: 2026-10-05
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +19,8 @@ feature_v2:
     internal-label: Storefront
   - id: cc250cf1-34eb-4863-80d0-d170d45ea067
     internal-label: Developer tools
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -28,8 +31,7 @@ topic_v2:
     internal-label: Data management
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-last-update: 2026-10-05
-source-git-commit: b50fe65e552a822d1ab834a8f45dffe0f9bd3dc0
+source-git-commit: c76e776250d9f996daf61d3cf62e2070803e998c
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
