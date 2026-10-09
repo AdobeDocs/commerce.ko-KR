@@ -4,7 +4,7 @@ description: 데이터 피드 동기화 상태를 통해 카탈로그 데이터 
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -68,5 +68,5 @@ ht-degree: 0%
 > - [문제 해결](troubleshooting.md) — 자격 증명, 동기화 및 범위 내보내기 문제 진단
 > - [Commerce 범위 내보내기 구성 사용자 지정](./get-started.md#customize-the-commerce-scopes-export-configuration) - 범위 수준별 피드 구성, 동작 활성화 및 비활성화, 관리 단계
 > - [커넥터 모듈 및 피드 끝점](reference/connector-reference.md) - 모듈, API 끝점 및 지원되는 피드를 검토합니다.
-> - [Commerce 관리자의 데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status){target="_blank"} - 피드 상태를 모니터링하는 데 사용할 수 있는 필드 및 기능에 대해 자세히 알아봅니다.
-> - [데이터 동기화 대시보드 위치 [!DNL Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync){target="_blank"} - 카탈로그 데이터 동기화를 모니터링하는 데 사용할 수 있는 필드 및 작업에 대한 참조 설명서입니다.
+> - [Commerce 관리자의 데이터 피드 동기화 상태 페이지](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status){target="_blank"} - 피드 상태를 모니터링하는 데 사용할 수 있는 필드 및 기능에 대해 자세히 알아봅니다.
+> - [데이터 동기화 대시보드 위치 [!DNL Commerce Optimizer]](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync){target="_blank"} - 카탈로그 데이터 동기화를 모니터링하는 데 사용할 수 있는 필드 및 작업에 대한 참조 설명서입니다.
