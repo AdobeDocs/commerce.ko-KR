@@ -1,7 +1,7 @@
 ---
-source-git-commit: c751dca1a7620b45068a7820054a842b50837bcd
+source-git-commit: b12fd59e97279b78017bee0403a7e7672adb1957
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1113'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,50 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 10월 8일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a1aed1cc8a66473e936836aef6a2dee4085c8b3f">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 7일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/filters#attributes">제품 특성</a>을 기반으로 권장 사항을 필터링하는 방법에 대한 새 섹션을 추가했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/16e5c6a7caf2e541bace72b3eb4898eabb13e24a">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 10월 5일
 
@@ -374,50 +418,6 @@ ht-degree: 1%
         새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e18c82a81c49de8175a8a8d77e9a191fe2af4b46">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 10일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>서명된 토큰으로 카탈로그 데이터 액세스를 제한하도록 개인 카탈로그 보기를 활성화하고 구성하는 방법에 대한 지침과 함께 Adobe Commerce Optimizer 설정 가이드를 업데이트하고 새 기능을 참조하도록 관련 항목을 업데이트했습니다.<br />- 서명된 토큰이 유효한 요청만 카탈로그 보기의 데이터를 검색할 수 있도록 카탈로그 보호를 활성화하는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view">개인 카탈로그 보기</a>를 추가했습니다.<br />- 카탈로그 보호를 위해 토큰을 서명하는 데 사용되는 키를 만들고, 할당하고, 회전시키는 방법에 대해 설명하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys">제한된 액세스 키</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview">Adobe Commerce Optimizer란 무엇입니까?</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/get-started">시작</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits">제한 및 경계</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/launch/launch-checklist">시작 체크리스트</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview"> 새로운 개인 카탈로그 보기 및 제한된 액세스 키 항목을 참조하는 커넥터 안내서</a>.</p>
-</td>
-      <td>
-        주요 업데이트, 새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/de0de805f8ecd4f329ce3afc90e28197186856c2">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 7일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c88ec8730e24220b6dfd32da406d1ba3fd3a2ef2">커밋</a></td>
     </tr>
   </tbody>
 </table>
