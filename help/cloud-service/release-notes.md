@@ -163,7 +163,7 @@ ht-degree: 0%
 
 ### 벌크 API 제한
 
-이제 [Bulk API](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints)에서 요청당 최대 엔터티 수를 적용합니다. 제한을 초과하는 요청은 오류를 반환합니다. [구성 참조](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api)의 구성할 수 없는 [!UICONTROL Maximum Entities Per Bulk Request] 필드에 제한이 표시됩니다. 자세한 내용은 [API 보안](https://developer.adobe.com/commerce/webapi/get-started/api-security#input-limit-for-rest-endpoints)을 참조하십시오. <!-- ACCS-703 -->
+이제 [Bulk API](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints)에서 요청당 최대 엔터티 수를 적용합니다. 제한을 초과하는 요청은 오류를 반환합니다. [구성 참조](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/bulk-api)의 구성할 수 없는 [!UICONTROL Maximum Entities Per Bulk Request] 필드에 제한이 표시됩니다. 자세한 내용은 [API 보안](https://developer.adobe.com/commerce/webapi/get-started/api-security#input-limit-for-rest-endpoints)을 참조하십시오. <!-- ACCS-703 -->
 
 ### 개선 사항 및 버그 수정
 
