@@ -1,7 +1,7 @@
 ---
-source-git-commit: 04077b9bb408ac858d87e008c9ef9b1317aafc2c
+source-git-commit: 0fd11bdeb9e628571df516bf394251265c091da9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 0%
 ---
 # MDEE 로그 코드 참조
@@ -129,6 +129,3 @@ ht-degree: 0%
 | CDE04-19 | 경고 | `CDE04-19 The identifier for a feed item is empty. Sync is skipped for the entity.` |
 | CDE04-20 | 경고 | `CDE04-20 Unexpected call: feed "{feed_name}" is not locked, trace: {stack_trace}` |
 | CDE04-21 | 오류 | `CDE04-21 Failed to clean up deleted feed items for feed "{feed_name}". Error: {error_message}` |
-| CDE04-22 | 오류 | `CDE04-22 IndexerStatusManager: unable to remove mview triggers for disabled indexer "{indexer_code}": {error_message}` |
-| CDE04-23 | 오류 | `CDE04-23 IndexerStatusManager: unable to restore mview triggers for indexer "{indexer_code}": {error_message}` |
-| CDE04-24 | 오류 | `CDE04-24 IndexerStatusManager: unable to truncate index table "{logical_table}": {error_message}` |
