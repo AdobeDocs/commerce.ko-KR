@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 웹 사이트 수준 연결 시작
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**을(를) 선택합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 상단 모서리의 범위 선택기에서 **[!UICONTROL Default Config]**&#x200B;에서 온보딩할 **[!UICONTROL Website]**(으)로 전환합니다.
 1. **[!UICONTROL Connect different account]**&#x200B;을(를) 클릭합니다.
 

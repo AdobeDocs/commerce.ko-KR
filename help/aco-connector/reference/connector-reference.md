@@ -69,7 +69,7 @@ ht-degree: 1%
 
 `products`, `productAttributes`, `categories` 및 `prices` 피드는 [!DNL SaaS Data Export] 인덱서에서 수집한 데이터를 다시 사용합니다. 커넥터는 웹 사이트 및 고객 그룹 구성에서 `priceBooks` 피드를 생성하며 [!DNL SaaS Data Export] 인덱서에 의존하지 않습니다.
 
-각 피드에 대한 필드 수준 매핑 세부 정보는 [피드 [!DNL Commerce Optimizer Connector] 2}에 대한 필드 매핑을 참조하십시오.](field-mapping.md)
+각 피드에 대한 필드 수준 매핑 세부 정보는 [피드 [!DNL Commerce Optimizer Connector] 2&rbrace;에 대한 필드 매핑을 참조하십시오.](field-mapping.md)
 카탈로그 크기를 기준으로 동기화 시간을 예측하려면 [데이터 볼륨 및 동기화 시간 예측](estimate-data-volume-sync-time.md)을 참조하세요.
 
 ## 구성 경로

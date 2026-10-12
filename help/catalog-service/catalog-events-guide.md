@@ -341,5 +341,5 @@ ht-degree: 0%
 >* [데이터를 SaaS 데이터 내보내기와 동기화](../data-export/data-sync-manage.md)
 >* [GraphQL API로 카탈로그 데이터 검색](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/){target="_blank"}
 >* [[!DNL Catalog Service] 및 API Mesh](mesh.md)
->* [연결 구성 [!DNL Adobe I/O] 2}](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#configure-the-adobe-io-connection){target="_blank"}
+>* [연결 구성 [!DNL Adobe I/O] 2&rbrace;](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#configure-the-adobe-io-connection){target="_blank"}
 >* [[!DNL Adobe I/O Events]](https://developer.adobe.com/events/docs/guides/){target="_blank"}

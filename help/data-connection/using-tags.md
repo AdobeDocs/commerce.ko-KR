@@ -51,7 +51,7 @@ Commerce 이벤트 데이터를 수집하려면:
 
   >[!NOTE]
   >
-  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
+  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**&#x200B;[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
 
 ## Commerce 상점 데이터를 Adobe Experience Platform에 매핑
 
