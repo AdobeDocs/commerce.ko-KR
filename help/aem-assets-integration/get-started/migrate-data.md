@@ -3,23 +3,32 @@ title: 미디어 파일을 AEM으로 마이그레이션
 description: Adobe Commerce 또는 외부 소스에서 AEM Assets DAM으로 미디어 파일을 마이그레이션합니다.
 feature: CMS, Media, Integration
 exl-id: ccb13e90-8b18-4f1e-94ce-f0dacea2f617
-TQID: https://experienceleague.adobe.com/-fCE7lTivOuhLDzEMNexxGWLTkL52oo9p-sm54HxpQM
+TQID: 'https://experienceleague.adobe.com/-fCE7lTivOuhLDzEMNexxGWLTkL52oo9p-sm54HxpQM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
+    internal-label: Digital asset management
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '994'
 ht-degree: 0%
-
 ---
-
 # 미디어 파일을 AEM Assets DAM으로 마이그레이션
 
 Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets **DAM(디지털 에셋 관리 시스템)**&#x200B;으로 미디어 파일 마이그레이션을 간소화하기 위한 기본 기능을 제공합니다. 다른 소스에서 미디어 파일을 마이그레이션할 수도 있습니다.

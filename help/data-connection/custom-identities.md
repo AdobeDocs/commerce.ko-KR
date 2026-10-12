@@ -4,29 +4,42 @@ description: 고객 프로필에 사용자 지정 특성을 추가하는 방법�
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: ad786572-9158-429a-b4dd-5f15efc0f624
-TQID: https://experienceleague.adobe.com/yCA2EjsIzzx7AEOQubLMW4Ib3v8Bbad1Wsq3RsgvCXM
+TQID: 'https://experienceleague.adobe.com/yCA2EjsIzzx7AEOQubLMW4Ib3v8Bbad1Wsq3RsgvCXM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Customer profiles
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: '473'
 ht-degree: 0%
-
 ---
-
 # 프로필에 사용자 지정 속성 추가
 
 사용자 지정 프로필 속성을 사용하면 기본 `customerId` 및 `emailId` 이상의 추가 식별자를 사용하여 Experience Platform에서 고객 프로필 식별을 향상시킬 수 있습니다. 이러한 추가 식별자를 통해 보다 정밀한 고객 일치를 수행할 수 있으며 Commerce 플랫폼과 Experience Platform 간의 데이터 통합을 향상시킬 수 있습니다.

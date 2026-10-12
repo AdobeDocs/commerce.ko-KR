@@ -3,24 +3,34 @@ title: 수동 자산 선택
 description: Commerce Admin에 통합된 AEM Asset Selector를 통해 마케터와 머천다이저가 AEM Assets에서 Adobe Commerce으로 이미지를 쉽게 추가하여 에셋 관리를 간소화하는 방법을 살펴볼 수 있습니다.
 feature: CMS, Media, Integration
 exl-id: 3c1f906f-3ec3-4eac-a47e-b21792767359
-TQID: https://experienceleague.adobe.com/3fYabUvRiY8KTxQX1YiTBbLxABpQqfZLu0a6IBDsM3E
+TQID: 'https://experienceleague.adobe.com/3fYabUvRiY8KTxQX1YiTBbLxABpQqfZLu0a6IBDsM3E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+    internal-label: Digital asset management
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 # 수동 자산 선택
 
 **AEM 자산 선택기**&#x200B;를 사용하면 마케터와 머천다이저가 AEM Assets에서 Adobe Commerce으로 이미지를 쉽게 추가하여 자산 관리 프로세스를 간소화할 수 있습니다. 이 방법을 사용하면 자산 선택을 [!DNL DAM (Digital Asset Management system)]에서 검토 및 승인된 것으로 제한하여 브랜드 일관성과 규정 준수를 보장할 수 있습니다.

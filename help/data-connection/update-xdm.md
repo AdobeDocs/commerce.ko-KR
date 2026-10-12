@@ -4,23 +4,32 @@ description: 스키마, 데이터 세트 및 데이터스트림을 만들어 Com
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: c933a1bc-3d6f-4f80-944f-8c3e212aaeb6
-TQID: https://experienceleague.adobe.com/8u3lSBPoreIZuu107QbR7FNvVx6Lw3TJsKUU6LCQ1Gs
+TQID: 'https://experienceleague.adobe.com/8u3lSBPoreIZuu107QbR7FNvVx6Lw3TJsKUU6LCQ1Gs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+    internal-label: Personalization
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 1040
+source-wordcount: '1040'
 ht-degree: 0%
-
 ---
-
 # Commerce 데이터 수집을 위한 시계열 이벤트 스키마 업데이트
 
 [확장을  [!DNL Data Connection]](overview.md#enable-extension)사용하도록 설정하는 단계 중 하나는 데이터 스트림 작업 영역에 액세스하고 Adobe Commerce에 해당하는 데이터 스트림을 [만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)하는 것입니다. 해당 데이터 스트림을 생성할 때 수집하려는 데이터를 설명하는 스키마도 선택해야 합니다. 해당 스키마에는 상업용 필드 그룹이 포함되어야 합니다.

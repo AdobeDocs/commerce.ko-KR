@@ -1,6 +1,6 @@
 ---
 title: 사용자 관리
-description: ' [!DNL Adobe Commerce as a Cloud Service]에서 사용자를 관리하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Commerce as a Cloud Service]에서 사용자를 관리하는 방법을 알아봅니다.'
 feature: Cloud, Integration
 role: Admin
 level: Intermediate
@@ -10,25 +10,35 @@ autotag-review: '2026-06-18T16:07:29.468Z'
 TQID: 'https://experienceleague.adobe.com/kaQ6N23X6S9zNjDpcq5BsDJnUpke3mjPpzxElMGwqL0'
 product_v2:
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+    internal-label: Account management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: bef6657cdf6703b6a0a1109bd6582ecbe4e19930
+    internal-label: Metadata
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 1841
+source-wordcount: '1841'
 ht-degree: 0%
-
 ---
-
 # 사용자 및 Identity Management
 
 사용자가 [!DNL Adobe Commerce as a Cloud Service]에서 관리자에 액세스할 수 있도록 하려면 해당 사용자를 조직의 사용자로 추가하고 [Adobe Admin Console](https://adminconsole.adobe.com){target="_blank"}의 Cloud Service 제품에 액세스할 수 있는지 확인하십시오.

@@ -1,32 +1,45 @@
 ---
 title: '[!DNL Adobe Commerce Optimizer Connector] Headless Storefront 통합'
-description: Headless 상점 전면을  [!DNL Adobe Commerce Optimizer Connector] GraphQL API, 가격 장부 ID 및 번들 추가 장바구니 인코딩과 통합하는 방법을 알아봅니다.
+description: Headless 상점 전면을 [!DNL Adobe Commerce Optimizer Connector] GraphQL API, 가격 장부 ID 및 번들 추가 장바구니 인코딩과 통합하는 방법을 알아봅니다.
 feature: Storefront, Integration, GraphQL
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T16:27:30.102Z'
 TQID: 'https://experienceleague.adobe.com/Orif1rROglTQ-3ZkRj5LMF90Y-AdpfTnOgPmJXQjYgc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+subfeature_v2:
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 13c9dae2f2f8442f2d5c7be5f6e3317b94956cf0
+    internal-label: Data integration
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '264'
 ht-degree: 0%
-
 ---
-
 # Headless 상점 첫 화면 통합
 
 `CommerceAdapter` 모듈이 [!DNL Adobe Commerce]을(를) 확장하여 헤드리스 상점 앞과 [!DNL Adobe Commerce Optimizer] 사이의 간격을 메웁니다. 고객 가격 장부 컨텍스트를 해결하기 위한 GraphQL 쿼리를 제공하고 [!DNL Adobe Commerce Optimizer] GraphQL API에 필요한 번들 제품 인코딩을 적용합니다.

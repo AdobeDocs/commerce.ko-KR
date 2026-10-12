@@ -1,16 +1,22 @@
 ---
 title: 의미 체계 검색
-description: 설정에서  [!DNL Adobe Commerce Optimizer] 의 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
+description: 설정에서 [!DNL Adobe Commerce Optimizer]의 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
 role: Admin, User
 recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 015f88e540fe5bf7acc4469d7c91b4f606709809
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '794'
 ht-degree: 0%
-
 ---
-
 # 의미 체계 검색
 
 시맨틱 검색은 AI를 활용해 쇼핑객이 정확하게 입력하는 단어뿐만 아니라 어떤 의미를 갖는지 파악한다. &quot;해변 결혼식 드레스&quot; 또는 &quot;하루 종일 서 있기 편한 신발&quot;과 같은 쿼리는 카탈로그에서 정확한 문구를 사용하지 않는 경우에도 관련 제품을 반환할 수 있습니다.

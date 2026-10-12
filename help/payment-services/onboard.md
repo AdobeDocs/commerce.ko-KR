@@ -1,17 +1,35 @@
 ---
-title: 온보딩 [!DNL Payment Services] 흐름
-description: PaaS, 온-프레미스 및 SaaS에 대한 샌드박스 및 프로덕션 단계를 사용하여 Adobe Commerce 배포에 대한 온보딩을 완료하여  [!DNL Payment Services] 에 인스턴스를 연결합니다.
+title: '[!DNL Payment Services] 흐름 온보딩'
+description: PaaS, 온-프레미스 및 SaaS에 대한 샌드박스 및 프로덕션 단계를 사용하여 Adobe Commerce 배포에 대한 온보딩을 완료하여 인스턴스를 [!DNL Payment Services]에 연결합니다.
 role: User
 level: Intermediate
 exl-id: 1ee8c660-0941-4378-a1d7-ae45de3de211
 feature: Payments, Checkout, Integration, Paas, Saas
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services] 흐름 온보딩
 
 [!DNL Payment Services] 사용을 시작하려면 몇 가지 온보딩 단계를 완료해야 합니다. 정확한 지침을 위해 조직의 인스턴스 및 버전에 가장 적합한 아래 Adobe Commerce 옵션을 선택하십시오.

@@ -4,26 +4,36 @@ description: Adobe Experience Platform 태그를 사용하여 Commerce 데이터
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: dab333e8-5f71-4f3e-9660-6363b0e230c8
-TQID: https://experienceleague.adobe.com/7HNafiIenZfLrAhILPMwuUzRDzBVuClvDchJBGEg6bs
+TQID: 'https://experienceleague.adobe.com/7HNafiIenZfLrAhILPMwuUzRDzBVuClvDchJBGEg6bs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+    internal-label: Privacy
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 2697
+source-wordcount: '2697'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Platform 태그를 사용하여 Commerce 데이터 수집
 
 [!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/ko/docs/platform-learn/data-collection/tags/create-a-property)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.

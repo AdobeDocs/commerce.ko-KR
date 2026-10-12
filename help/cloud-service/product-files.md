@@ -1,6 +1,6 @@
 ---
 title: 제품에 파일 추가
-description: ' [!DNL Adobe Commerce as a Cloud Service]의 파일 형식 제품 특성을 사용하여 PDF, 설명서 및 Data Sheet와 같은 파일을 제품에 첨부하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Commerce as a Cloud Service]에서 파일 형식 제품 특성을 사용하여 PDF, 설명서 및 Data Sheet와 같은 파일을 제품에 첨부하는 방법을 알아봅니다.'
 feature: Catalog Management, Products, Integration
 role: Admin, Developer
 level: Intermediate
@@ -9,28 +9,43 @@ autotag-review: '2026-06-18T16:03:48.301Z'
 TQID: 'https://experienceleague.adobe.com/fFbsXGO54L1lSuQULqfP7A-BJKSYggdt7cy-GDvaSzU'
 product_v2:
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+    internal-label: Storefront configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15a99ce130efaf3a35968cfc01747fe1b6ab93c9
+    internal-label: Administration
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # 제품에 파일 추가
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 판매자가 PDF, 설명서, 인증서 및 데이터 시트와 같은 파일을 제품에 직접 첨부할 수 있도록 하는 &quot;파일&quot; [제품 특성 입력 유형](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types){target="_blank"}을 지원합니다. 파일은 Amazon S3 미디어 저장소에 저장되며 GraphQL을 사용하는 상점 또는 REST API를 사용하는 통합을 통해 액세스할 수 있습니다.

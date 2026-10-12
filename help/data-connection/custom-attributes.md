@@ -4,26 +4,36 @@ description: 백 오피스 데이터에 사용자 정의 주문 속성을 추가
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: dcd0b9e7-8d36-4bde-b226-ac19e83f00e4
-TQID: https://experienceleague.adobe.com/L0LoTkKV0LCiO3mj8W1cKyK-A0HO0z32zu1ZSNC9GR4
+TQID: 'https://experienceleague.adobe.com/L0LoTkKV0LCiO3mj8W1cKyK-A0HO0z32zu1ZSNC9GR4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2362159cd352d812f60838b42ade1e98bab5a0d3
+    internal-label: Insights
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '616'
 ht-degree: 2%
-
 ---
-
 # 주문에 사용자 지정 속성 추가
 
 이 문서에서는 백 오피스 이벤트에 사용자 지정 특성을 추가하는 방법에 대해 알아봅니다. 사용자 지정 속성을 사용하면 풍부한 데이터 통찰력을 캡처하여 분석을 향상시키고 나아가 쇼핑객을 위한 개인화된 경험을 만들 수 있습니다.

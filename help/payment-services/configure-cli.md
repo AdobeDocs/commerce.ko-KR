@@ -1,18 +1,38 @@
 ---
 title: 명령줄 구성
-description: 설치 후 명령줄 인터페이스(CLI)를 사용하여  [!DNL Payment Services] 을(를) 구성할 수 있습니다.
+description: 설치 후 명령줄 인터페이스(CLI)를 사용하여 [!DNL Payment Services]을(를) 구성할 수 있습니다.
 role: Admin, Developer
 level: Intermediate
 exl-id: 265ab1be-fe52-41f3-85cb-addbc2ddfb17
 feature: Payments, Checkout, Configuration, Integration, Paas
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '734'
 ht-degree: 0%
-
 ---
-
 # 명령줄 구성
 
 [!DNL Payment Services]을(를) 설치한 후 [홈](payments-home.md)에서 또는 명령줄 인터페이스(CLI)를 통해 쉽게 구성할 수 있습니다.

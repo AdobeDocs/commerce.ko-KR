@@ -2,13 +2,24 @@
 title: AEM Assets 동기화 상태 보기
 description: Commerce 관리자의 에셋 중심 목록에서 동기화된 에셋을 검토합니다.
 feature: CMS, Media, Integration
-source-git-commit: 446739ffad0da97e2e923e6e02be3f8f6b3eb2b3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # AEM Assets 동기화 상태 보기
 

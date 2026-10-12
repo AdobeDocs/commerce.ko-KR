@@ -3,13 +3,21 @@ title: 제목 대/소문자, 최대 60자, 제품 이름 접미사 없음
 description: 150-160자. 개념 페이지는 '다음에 대해 알아보기...'로 시작합니다.
 role: Admin, Developer, Leader
 recommendations: noCatalog
-source-git-commit: 53a007b5493a9e42f32794003658c8e08eb79d11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 <!--
 Save this file at help/insights/security/<slug>.md,

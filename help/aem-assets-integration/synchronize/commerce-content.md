@@ -3,24 +3,34 @@ title: 정확하고 관련 있는 컨텐츠 유지
 description: 전자 상거래 플랫폼은 가장 중요한 참여 채널 중 하나입니다. 자산 관리 시스템에서 원활한 업데이트를 보장하면 상거래 상점 전면이 항상 최신 제품 정보를 표시할 수 있습니다.
 feature: CMS, Media, Integration
 exl-id: 2c749e84-fcc4-4bf9-90b2-87438329889e
-TQID: https://experienceleague.adobe.com/cTeAl0vABSDcqSR9S7pGkV2yGnFHz11VmXtPoE0C86M
+TQID: 'https://experienceleague.adobe.com/cTeAl0vABSDcqSR9S7pGkV2yGnFHz11VmXtPoE0C86M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Digital asset management
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 0%
-
 ---
-
 # 정확하고 관련 있는 컨텐츠 유지
 
 실제 콘텐츠 공급에는 **만들기 및 프로덕션**, **워크플로 및 계획** 및 **게재 및 활성화**&#x200B;에 걸쳐 키 기둥의 조합이 포함됩니다. 이러한 각 기둥은 그 자체로 가치가 있으며 조직의 중요한 가치를 창출하는 데 도움이 됩니다.

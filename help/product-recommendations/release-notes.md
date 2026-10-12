@@ -1,29 +1,42 @@
 ---
 title: '[!DNL Product Recommendations] 릴리스 정보'
-description: Adobe Commerce의  [!DNL Product Recommendations] 에 대한 최신 릴리스 정보입니다.
+description: Adobe Commerce의 [!DNL Product Recommendations]에 대한 최신 릴리스 정보입니다.
 feature: Services, Recommendations, Release Notes
 exl-id: 37404605-5b62-4c71-90d1-4f09e6105c4b
-TQID: https://experienceleague.adobe.com/cr5tBPTFRNlSTqtFNfUWS6p1LdhSrir28x3N1WC4Zw8
+TQID: 'https://experienceleague.adobe.com/cr5tBPTFRNlSTqtFNfUWS6p1LdhSrir28x3N1WC4Zw8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+  - id: dec06508-d41f-555a-87e8-29e8bcdfa95a
+    internal-label: Recommendations
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 77e386b2806ea3761009a6ab67e2ea7e879135dd
+    internal-label: Data management
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 2321
+source-wordcount: '2322'
 ht-degree: 0%
-
 ---
-
 # [!DNL Product Recommendations] 릴리스 정보
 
 릴리스 노트는 다음 [!DNL Product Recommendations]개 모듈에 대한 업데이트를 설명합니다.
@@ -294,7 +307,7 @@ _2023년 3월 20일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.x 이상
 
-![새로 만들기](../assets/new.svg) Magento 서비스의 이름이 [Commerce 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)&#x200B;(으)로 변경되었으며 관리자의 사용성이 개선되었습니다.
+![새로 만들기](../assets/new.svg) Magento Services 이름을 [Commerce 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)&#x200B;(으)로 변경하고 관리자의 유용성을 개선했습니다.
 
 ### magento/product-recommendations 3.2.4
 

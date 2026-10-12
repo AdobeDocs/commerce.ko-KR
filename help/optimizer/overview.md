@@ -1,16 +1,24 @@
 ---
-title: ' [!DNL Adobe Commerce Optimizer]이란?'
-description: ' [!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아봅니다.'
+title: '[!DNL Adobe Commerce Optimizer]이란?'
+description: '[!DNL Adobe Commerce Optimizer] 및 주요 기능에 대해 알아보십시오.'
 recommendations: noCatalog
 badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Commerce Optimizer]이란?
 
 [!DNL Adobe Commerce Optimizer]은(는) 고성능 상점을 통해 전자 상거래 경험을 향상시켜 유기적인 트래픽, 고객 참여 및 매출을 향상시킵니다.

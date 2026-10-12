@@ -1,6 +1,6 @@
 ---
 title: B2B 공유 카탈로그에 대한 카탈로그 보기 동기화 모니터링
-last-update: 2026-09-03
+last-update: 2026-09-03T00:00:00.000Z
 description: '[카탈로그 뷰 동기화 상태] 페이지에서는 Adobe Commerce Optimizer에 동기화된 카탈로그 뷰, 정책, 가격 장부 참조 및 주요 구성 데이터를 모니터링하고 조정할 수 있습니다.'
 role: Admin, Developer
 feature: Integration, Configuration
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Integrations
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
     internal-label: Admin tools and workspace
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: a40ebd6b-b542-4432-a730-1803ef74518d
     internal-label: Data Transfer
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Data management
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 1fd5e3d84d5249ce96014cae46e045528d2790d0
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%

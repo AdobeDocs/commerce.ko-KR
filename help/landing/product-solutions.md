@@ -5,24 +5,32 @@ feature: Paas, Saas
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 5ba1fa65-391f-4af7-8c40-d8314ec9d3e5
-TQID: https://experienceleague.adobe.com/oZhTlFfL9a27vwbBhbSVS2NYptl13DDkYJZcuV0cM5U
+TQID: 'https://experienceleague.adobe.com/oZhTlFfL9a27vwbBhbSVS2NYptl13DDkYJZcuV0cM5U'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Security
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: '576'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 제품 솔루션
 
 Adobe은 전자 상거래 비즈니스의 요구 사항을 충족하는 몇 가지 솔루션을 제공합니다. [Experience League](https://experienceleague.adobe.com/ko/docs/commerce) 및 [Adobe Developer](https://developer.adobe.com/commerce/docs/) 사이트의 Adobe Commerce 설명서는 모든 솔루션을 지원하는 셀프서비스 리소스를 고객에게 제공합니다. 하지만 이렇게 많은 양의 콘텐츠를 탐색하는 것은 지침이 없으면 어려울 수 있습니다.

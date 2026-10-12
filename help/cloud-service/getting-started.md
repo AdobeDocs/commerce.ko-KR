@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service] 시작'
-description: ' [!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
+title: '[!DNL Adobe Commerce as a Cloud Service] 시작하기'
+description: '[!DNL Adobe Commerce as a Cloud Service]을(를) 시작하는 방법에 대해 알아봅니다.'
 feature: Cloud, Integration
 role: Admin, Developer, User
 level: Beginner
@@ -10,32 +10,49 @@ autotag-review: '2026-06-18T16:01:44.084Z'
 TQID: 'https://experienceleague.adobe.com/fGnz7X-DD5KzHhVtS0VR2NpVVEpwMQjzD2l0KO97-r4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Security
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 1338
+source-wordcount: '1338'
 ht-degree: 0%
-
 ---
-
 # 시작
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 기본적으로 대부분의 구성을 제공합니다. 몇 가지 기본 설정 프로세스를 완료하면 스토어가 즉시 실행되고 작동합니다. 이 안내서는 인스턴스 만들기 및 작업을 안내하고 성공을 위해 조직을 설정하는 데 도움이 됩니다. 이를 통해 팀이 [!DNL Adobe Commerce as a Cloud Service] 및 시작하는 데 필요한 도구에 적절하게 액세스할 수 있습니다.

@@ -4,21 +4,28 @@ description: 수집하여 Experience Platform으로 전송할 수 있는 데이�
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: 6354963c-f27f-4e69-9ecb-acb4befb7c2a
-TQID: https://experienceleague.adobe.com/LXMqOhHAZpUHaCeeU5ioKKXVrkLftospQEPDd9H-MD8
+TQID: 'https://experienceleague.adobe.com/LXMqOhHAZpUHaCeeU5ioKKXVrkLftospQEPDd9H-MD8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+    internal-label: Personalization
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # Commerce 데이터 유형
 
 [데이터 연결 확장](overview.md)은(는) Commerce 데이터를 Experience Platform에 연결합니다. Experience Platform에서 사용할 데이터는 **경험 이벤트** 클래스에 속하는 시계열 데이터와 **개별 프로필** 클래스에 속하는 레코드 데이터의 두 가지 동작 유형으로 그룹화됩니다.

@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Adobe Commerce as a Cloud Service]에 대한 가시성'
-description: 지표, 로깅 및 추적을 포함하여  [!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 있는 관찰 도구 및 원격 분석 기능에 대해 알아봅니다.
+title: '[!DNL Adobe Commerce as a Cloud Service]에 대한 가시성'
+description: 지표, 로깅 및 추적을 포함하여 [!DNL Adobe Commerce as a Cloud Service]에 사용할 수 있는 관찰 도구 및 원격 분석 기능에 대해 알아봅니다.
 feature: Cloud, Integration
 role: Admin, Developer
 level: Intermediate
@@ -9,24 +9,44 @@ autotag-review: '2026-06-09T15:41:54.613Z'
 TQID: 'https://experienceleague.adobe.com/jTPNVSy6cP8v-pV-3pyqgJX-PAzFFhOUf9SjQIMeBns'
 product_v2:
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 2e7e0f2fb340220d3fe1f13af1f62ef58957aa35
+    internal-label: Data collection
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 # 가시성
 
 가시성은 [!DNL Adobe Commerce as a Cloud Service] 작업의 중요한 요소입니다. 지표, 로깅 및 추적을 비롯한 원격 분석 데이터의 수집, 처리 및 시각화를 포괄하여 애플리케이션 상태를 모니터링하고 성능 문제를 진단하며 상거래 플랫폼 및 통합 시스템의 안정성을 최적화할 수 있습니다.

@@ -1,15 +1,30 @@
 ---
-title: ' [!DNL Payment Services]에서 배송 추적'
-description: Paypal 판매자 대시보드에 표시되는  [!DNL Payment Services] 배송 및 추적 정보를 사용자 지정합니다.
+title: '[!DNL Payment Services]에서 배송 추적'
+description: Paypal 판매자 대시보드에 표시된 [!DNL Payment Services] 배송 및 추적 정보를 사용자 지정합니다.
 feature: Payments, Paas, Saas
 exl-id: 17aede1f-56ae-441a-b723-3193e865e469
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services]에서 배송 추적
 
 [!DNL Payment Services]을(를) 통해 판매자는 PayPal 판매자 대시보드에서 배송에 대한 추적 정보를 볼 수 있습니다.

@@ -2,7 +2,15 @@
 title: 경계 및 제한
 description: '[!DNL Product Recommendations]이(가) 비즈니스 요구 사항을 충족하는지 확인하기 위한 범위 및 제한에 대해 알아봅니다.'
 role: Admin, Developer
-source-git-commit: b8dd0e31a1deac03b03bfeb90a09761b637e0a40
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%

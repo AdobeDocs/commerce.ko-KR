@@ -1,13 +1,17 @@
 ---
 title: Commerce 설명서 거버넌스
 description: Commerce Insights의 내부 거버넌스 모델에 대해 알아봅니다. Experience League에 게시되지 않음 - 의도적으로 TOC.md에서 누락되었습니다.
-source-git-commit: 1da6d9753acbeadf3a0df5fae86a9386643c6d6d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
-
 ---
-
 
 # Commerce 설명서 거버넌스
 
