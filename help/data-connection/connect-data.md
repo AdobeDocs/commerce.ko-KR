@@ -267,7 +267,7 @@ Commerce이 이미 이전 주문 데이터를 수집하는 동안 해당 데이�
 
 이 비디오를 통해 이전 주문에 대해 자세히 알아본 후 다음 단계를 완료하여 이전 주문 수집을 구현합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424672)
+>[!VIDEO](https://video.tv.adobe.com/v/3450234?captions=kor)
 
 #### 주문 동기화 서비스 설정
 
