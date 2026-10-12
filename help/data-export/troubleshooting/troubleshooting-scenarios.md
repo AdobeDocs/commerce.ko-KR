@@ -1,36 +1,49 @@
 ---
-title: ' [!DNL SaaS Data Export]에 대한 시나리오 문제 해결'
+title: '[!DNL SaaS Data Export]에 대한 시나리오 문제 해결'
 description: 구성 오류, 인덱서 설정 오류 또는 동기화 결과 오독으로 인해 예기치 않은 [!DNL SaaS Data Export] 동기화 동작을 진단하고 해결하는 방법에 대해 알아봅니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: b974b164-8a4e-43b8-a9e2-8e67ec131677
+    internal-label: Commerce on Prem
   - id: cdf0c6dd-1717-4e20-9530-a24eee57088b
+    internal-label: Commerce on Cloud
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: a40ebd6b-b542-4432-a730-1803ef74518d
+    internal-label: Data Transfer
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+    internal-label: Troubleshooting
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 983
+source-wordcount: '984'
 ht-degree: 0%
-
 ---
-
 
 # [!DNL SaaS Data Export]에 대한 시나리오 문제 해결
 
@@ -84,9 +97,9 @@ ht-degree: 0%
 1. Commerce 상점에서 검색 결과를 엽니다. 그런 다음 해당 제품을 선택하여 세부 보기를 엽니다.
 1. JSON 출력을 복사하고 [!DNL Commerce] 카탈로그에 있는 것과 일치하는지 확인합니다.
 1. 콘텐츠가 일치하지 않으면 공백 또는 마침표 추가와 같이, 카탈로그의 제품에 대한 부분 편집을 수행하여 변경 사항을 감지하도록 합니다.
-1. 재동기화를 기다리거나 CLI 또는 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 수동 재동기화를 트리거하십시오.
+1. 재동기화를 기다리거나 CLI 또는 관리자의 [[!UICONTROL Data Feed Sync Status]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) 페이지에서 수동 재동기화를 트리거하십시오.
 
-[!DNL Product Recommendations]의 카탈로그 데이터 문제 해결에 대한 자세한 내용은 Commerce 기술 자료에서 [제품 권장 사항 모듈 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-40095)을 참조하세요.
+[!DNL Product Recommendations]의 카탈로그 데이터 문제 해결에 대한 자세한 내용은 Commerce 기술 자료에서 [제품 권장 사항 모듈 문제 해결](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40095)을 참조하세요.
 
 ## 데이터 동기화가 일정에 따라 실행되고 있지 않음 {#sync-not-on-schedule}
 
@@ -96,8 +109,8 @@ ht-degree: 0%
 
 **솔루션:**
 
-- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-39832).
-- 카탈로그 특성, Product, Product Overrides 및 Product Variant 피드의 인덱서가 **[!UICONTROL Update by Schedule]**(으)로 설정되어 있는지 확인하십시오. Commerce 관리자 또는 CLI를 사용하여 [[!UICONTROL Index Management]](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management)에서 확인하십시오. `bin/magento indexer:show-mode | grep -i feed`.
+- [cron 작업이 실행 중인지 확인](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-39832).
+- 카탈로그 특성, Product, Product Overrides 및 Product Variant 피드의 인덱서가 **[!UICONTROL Update by Schedule]**(으)로 설정되어 있는지 확인하십시오. Commerce 관리자 또는 CLI를 사용하여 [[!UICONTROL Index Management]](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)에서 확인하십시오. `bin/magento indexer:show-mode | grep -i feed`.
 
 ## 카탈로그 동기화가 실패 상태입니다. {#catalog-sync-failed}
 
@@ -110,7 +123,7 @@ ht-degree: 0%
 1. 오류에 대한 자세한 내용은 데이터 내보내기 오류 로그를 검토하십시오. 로그 형식 및 확장 로깅 옵션에 대해서는 [로그 검토 및 문제 해결](logging.md)을 참조하십시오.
    - 데이터를 수집하는 동안 오류가 발생한 경우 `var/log/commerce-data-export-errors.log`.
    - 데이터를 제출하는 동안 오류가 발생한 경우 `var/log/saas-export-errors.log`.
-1. 오류가 구성 또는 타사 확장과 관련이 없는 경우 관련 로그 항목을 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하십시오.
+1. 오류가 구성 또는 타사 확장과 관련이 없는 경우 관련 로그 항목을 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하십시오.
 
 ## 로그에 &quot;작업 건너뜀 - 프로세스 잠김&quot; 메시지가 표시됨 {#process-locked}
 

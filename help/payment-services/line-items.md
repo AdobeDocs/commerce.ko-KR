@@ -1,16 +1,27 @@
 ---
-title: ' [!DNL Payment Services]에 대한 라인 항목'
-description: ' [!DNL Payment Services] 의 라인 항목 및 판매자 대시보드에서 라인 항목을 보는 방법에 대해 알아봅니다.'
+title: '[!DNL Payment Services]에 대한 라인 항목'
+description: '[!DNL Payment Services]의 라인 항목 및 판매자 대시보드에서 라인 항목을 보는 방법에 대해 알아봅니다.'
 feature: Payments, Paas, Saas
 role: User
 exl-id: f690ff94-f83d-4525-9d52-1dea25a71060
-source-git-commit: 6727102c54e0ac81df289ecd66ec61156662b8b9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '690'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services]에 대한 라인 항목
 
 [!DNL Payment Services]에 대한 라인 항목은 주문에 포함된 항목입니다. 이러한 라인 항목은 다음과 같은 정보를 제공합니다.
@@ -29,9 +40,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Sales]**(으)로 이동하여 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
 
-1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL Line Items]_ 섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL Line Items]_ 섹션을 확장합니다.
 
 1. **[!UICONTROL Line Items Enabled]**&#x200B;의 경우 `Yes`을(를) 선택하여 활성화하거나(기본값) `No`을(를) 선택하여 라인 항목을 비활성화하십시오.
 
@@ -149,7 +160,7 @@ ht-degree: 0%
 
 ## 라인 항목 관리
 
-Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
+Adobe Commerce [각 행의 총액을 기반으로 세금을 계산합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank}. 동일한 항목의 여러 수량을 주문하거나 세금 포함 가격이 카탈로그에 표시되는 경우 반올림 문제가 발생할 수 있습니다. 이 경우, 총 수량은 두 줄로 나눌 수 있지만, 수량은 주문한 총 품목과 같습니다.
 
 > 판매자 대시보드 뷰에 반올림 문제가 있는 라인 항목의 예
 

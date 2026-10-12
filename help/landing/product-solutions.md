@@ -5,27 +5,35 @@ feature: Paas, Saas
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 5ba1fa65-391f-4af7-8c40-d8314ec9d3e5
-TQID: https://experienceleague.adobe.com/oZhTlFfL9a27vwbBhbSVS2NYptl13DDkYJZcuV0cM5U
+TQID: 'https://experienceleague.adobe.com/oZhTlFfL9a27vwbBhbSVS2NYptl13DDkYJZcuV0cM5U'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Security
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: '576'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 제품 솔루션
 
-Adobe은 전자 상거래 비즈니스의 요구 사항을 충족하는 몇 가지 솔루션을 제공합니다. [Experience League](https://experienceleague.adobe.com/ko/docs/commerce) 및 [Adobe Developer](https://developer.adobe.com/commerce/docs/) 사이트의 Adobe Commerce 설명서는 모든 솔루션을 지원하는 셀프서비스 리소스를 고객에게 제공합니다. 하지만 이렇게 많은 양의 콘텐츠를 탐색하는 것은 지침이 없으면 어려울 수 있습니다.
+Adobe은 전자 상거래 비즈니스의 요구 사항을 충족하는 몇 가지 솔루션을 제공합니다. [Experience League](https://experienceleague.adobe.com/en/docs/commerce) 및 [Adobe Developer](https://developer.adobe.com/commerce/docs/) 사이트의 Adobe Commerce 설명서는 모든 솔루션을 지원하는 셀프서비스 리소스를 고객에게 제공합니다. 하지만 이렇게 많은 양의 콘텐츠를 탐색하는 것은 지침이 없으면 어려울 수 있습니다.
 
 >[!NOTE]
 >
@@ -55,7 +63,7 @@ Adobe은 전자 상거래 비즈니스의 요구 사항을 충족하는 몇 가�
 
 #### [!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-이 배지는 [Cloud의 Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview) 및 온-프레미스 프로젝트와 관련된 설명서를 식별합니다. Adobe Commerce on Cloud 프로젝트는 사전 프로비저닝된 환경에 모든 Adobe Commerce의 핵심 기능이 포함된 클라우드 기반의 완전 관리 PaaS(platform-as-a-service) 솔루션에서 호스팅됩니다. 온프레미스 프로젝트는 고객 관리 인프라에서 호스팅됩니다.
+이 배지는 [Cloud의 Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) 및 온-프레미스 프로젝트와 관련된 설명서를 식별합니다. Adobe Commerce on Cloud 프로젝트는 사전 프로비저닝된 환경에 모든 Adobe Commerce의 핵심 기능이 포함된 클라우드 기반의 완전 관리 PaaS(platform-as-a-service) 솔루션에서 호스팅됩니다. 온프레미스 프로젝트는 고객 관리 인프라에서 호스팅됩니다.
 
 >[!NOTE]
 >

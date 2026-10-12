@@ -1,18 +1,35 @@
 ---
 title: '[!DNL Payment Services] 안내서'
-description: 이 [!DNL Payment Services] for [!DNL Adobe Commerce] 설명서를 위한 대상자입니다.
+description: '[!DNL Adobe Commerce]용 [!DNL Payment Services] 설명서의 의도된 대상자'
 seo-title: Adobe Commerce Payments Services Audience
 seo-description: Describes contents of the [!DNL Payment Services] for Adobe Commerce documentation
 exl-id: 30b23f26-9aac-4a24-a607-2431455fc935
 feature: Payments, Checkout, Paas, Saas
 recommendations: noCatalog
-source-git-commit: 84cd0deaecda0790f9f123fc663d4db7b048746b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 0%
-
+source-wordcount: '539'
+ht-degree: 1%
 ---
-
 
 # [!DNL Payment Services] 안내서
 
@@ -113,16 +130,16 @@ Adobe Commerce 및 Magento Open Source용 [!DNL Payment Services]은(는) Commer
 
 >[!MORELIKETHIS]
 >
-> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home) - [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 판매자 중심의 설명서
-> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home) - [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source]을(를) 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서입니다.
+> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) - [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 판매자 중심의 설명서
+> * [[!DNL Adobe Commerce] 2.4 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) - [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source]을(를) 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서입니다.
 > * [릴리스 정보](release-notes.md) - 예정된 릴리스, 제품 세부 정보 및 [!DNL Payment Services] 확장을 지원하는 Adobe Commerce 버전에 대해 자세히 알아봅니다.
-> * [도움말 센터](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)—기술 자료에서 [!DNL Payment Services] 관련 문제 해결 문서를 검색합니다.
-> * [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) - Commerce 고객은 추가 지원을 받기 위해 티켓을 제출할 수 있습니다.
+> * [도움말 센터](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)—기술 자료에서 [!DNL Payment Services] 관련 문제 해결 문서를 검색합니다.
+> * [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) - Commerce 고객은 추가 지원을 받기 위해 티켓을 제출할 수 있습니다.
 
 ## 지원
 
 [!DNL Payment Services]에 대해 이 안내서에서 다루지 않은 정보가 필요하거나 질문이 있는 경우 [!DNL Payment Services] 영업 담당자에게 문의하거나 [!DNL Payment Services] 홈에서 사용할 수 있는 리소스를 사용하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448234?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447836)
 
 [어떤 [!DNL Payment Services] 옵션이 적절합니까?](compatibility.md#which-payment-services-option-is-right-for-you)를 참조하십시오. 사용자에게 가장 적합한 [!DNL Payment Services] 옵션을 확인하는 항목입니다.

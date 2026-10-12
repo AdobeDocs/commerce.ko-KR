@@ -3,7 +3,26 @@ title: '[!DNL Payment Services]에서 체크아웃'
 description: 고객의 요구 사항에 맞게 [!DNL Payment Services] 체크아웃을 사용자 지정합니다.
 feature: Payments, Checkout, Paas, Saas
 exl-id: 47df165f-2145-4e0e-b272-54b8e768cf19
-source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -21,7 +40,7 @@ ht-degree: 0%
 
 ![확인하는 동안 오류 발생](assets/user-checkout-error.png "체크 아웃하는 동안 오류 발생"){width="600" zoomable="yes"}
 
-취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders?lang=en)의 관리자에 표시됩니다.
+취소된 주문과 관련된 댓글도 특정 [주문](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders?lang=en)의 관리자에 표시됩니다.
 
 ![주문 관리에서 주문 주석을 취소함](assets/admin-checkout-error.png "주문 관리에서 주문 주석을 취소함"){width="600" zoomable="yes"}
 

@@ -1,29 +1,39 @@
 ---
-title: ' [!DNL Payment Services]에 대한 호환성'
-description: ' [!DNL Payment Services] 이(가) 해당 국가에서 사용 가능한지, 그리고 해당 버전이 Adobe Commerce 버전과 호환되는지 알아봅니다.'
+title: '[!DNL Payment Services]에 대한 호환성'
+description: '[!DNL Payment Services]을(를) 해당 국가에서 사용할 수 있는지 여부 및 해당 버전이 Adobe Commerce 버전과 호환되는지 알아봅니다.'
 role: User
 level: Intermediate
 feature: Payments, Checkout, Paas, Saas
 exl-id: 4bef8429-5053-424d-806a-9e8b96295b1b
-TQID: https://experienceleague.adobe.com/UUD0IiEiwh0sZKMkclOJtoC2bKYcmDN3WAWD16mfad4
+TQID: 'https://experienceleague.adobe.com/UUD0IiEiwh0sZKMkclOJtoC2bKYcmDN3WAWD16mfad4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 4235bf48bb5f24a076621ee5985e9e7316fcb1cc
+    internal-label: Intermediate
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 498
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services]에 대한 호환성
 
-[!DNL Payment Services]은(는) [!DNL Adobe Commerce as a Cloud Service], 지원되는 모든 버전의 [!DNL Adobe Commerce on Cloud]과(와) 온-프레미스 및 Magento Open Source에서 사용할 수 있습니다. 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/lifecycle-policy) 페이지를 참조하세요.
+[!DNL Payment Services]은(는) [!DNL Adobe Commerce as a Cloud Service], 지원되는 모든 버전의 [!DNL Adobe Commerce on Cloud]과(와) 온-프레미스 및 Magento Open Source에서 사용할 수 있습니다. 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) 페이지를 참조하세요.
 
 ## 사전 요구 사항
 
@@ -35,7 +45,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 자세한 내용은 [Adobe Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 튜토리얼 비디오를 참조하십시오.
+   > 자세한 내용은 [Adobe Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) 튜토리얼 비디오를 참조하십시오.
 
 1. 인스턴스를 이미 연결한 경우 다음 단계를 위해 [온보딩](onboard.md) 페이지로 이동하십시오.
 
@@ -49,11 +59,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Payment Services]은(는) 온보딩 중 [&#128279;](../payment-services/production.md#complete-merchant-onboarding)사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다.
+> [!DNL Payment Services]은(는) 온보딩 중 [사용 가능한 다른 국가에 대해 [빠른 체크아웃 기능](../payment-services/payments-options.md)(결제 옵션 하위 집합)을 제공합니다](../payment-services/production.md#complete-merchant-onboarding).
 
 ### 어떤 [!DNL Payment Services] 옵션이 적합합니까?
 
->[!VIDEO](https://video.tv.adobe.com/v/3447925?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447811)
 
 [!DNL Payment Services] 확장 설정에 대한 자세한 내용은 [연결](connect.md)을 참조하세요.
 
@@ -105,13 +115,13 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/lifecycle-policy) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하세요.
+릴리스 및 버전별 정보는 [라이프사이클 정책](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) 및 [[!DNL Payment Services] 릴리스 정보](release-notes.md) 페이지를 참조하세요.
 
 전체 지침을 받고 온보딩 프로세스를 시작하려면 [시작하기 [!DNL Payment Services]](onboard.md)를 참조하세요.
 
 ### 허용된 신용 카드 및 통화
 
-[!DNL Payment Services]은(는) 사용 가능한 국가의 통화를 수락합니다. 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration)을 참조하십시오.
+[!DNL Payment Services]은(는) 사용 가능한 국가의 통화를 수락합니다. 환율 설정에 대한 자세한 내용은 [통화 구성](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration)을 참조하십시오.
 
 PayPal 제품 및 서비스에서 사용할 수 있는 통화 및 결제 방법에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 

@@ -3,13 +3,30 @@ title: 신용 카드 보관
 description: 구매자는 향후 구매를 위해 신용 카드 세부 정보를 저장(저장)할 수 있습니다.
 exl-id: b4060307-ffcd-41cb-9b9d-a2fef02f23bd
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
-
 ---
-
 # 신용 카드 보관
 
 신용 카드 소산을 통해 일회성 쇼핑객을 단골 고객으로 전환합니다. 로그인한 고객은 동일한 머천트 계정 내에서 나중에 동일한 또는 다른 머천트 계정의 구매에 사용할 신용 카드 자격 증명을 저장(또는 &quot;자격 증명 모음&quot;)할 수 있습니다.
@@ -32,7 +49,7 @@ ht-degree: 0%
 
 1. 저장된 결제 방법을 모두 보려면 왼쪽 탐색에서 **[!UICONTROL Stored Payment Methods]**(으)로 이동합니다.
 
-   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
+   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
 
 1. 고객이 **[!UICONTROL Add New Card]**&#x200B;을(를) 클릭하여 새 카드를 저장합니다.
 
@@ -73,10 +90,10 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 
 저장된 신용 카드를 사용하는 고객을 위해 관리자에서 주문을 생성하려면:
 
-1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
-1. _[!UICONTROL Payment & Shipping Information]_&#x200B;에서&#x200B;**[!UICONTROL Stored Cards]**&#x200B;을(를) 결제 방법으로 선택합니다.
+1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
+1. _[!UICONTROL Payment & Shipping Information]_에서&#x200B;**[!UICONTROL Stored Cards]**을(를) 결제 방법으로 선택합니다.
 1. 원하는 저장된 신용 카드 결제 방법을 선택합니다.
-1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
+1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
 
    ![고객을 위해 관리자의 저장된 신용 카드 사용](assets/admin-vaultedcard.png){width="600" zoomable="yes"}
 

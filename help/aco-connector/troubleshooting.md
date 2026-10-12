@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce Optimizer Connector] 문제 해결'
 description: '[!DNL Adobe Commerce] PaaS 통합에 대한 [!DNL Adobe Commerce Optimizer Connector] 자격 증명, 카탈로그 동기화 및 범위 내보내기 문제를 해결하는 방법에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T19:00:00.000Z'
 TQID: 'https://experienceleague.adobe.com/ei86QuJ3nQ2d-6NRoAeJslgDxjGlZRejD-Nx-6SAVdc'
 product_v2:
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Admin tools and workspace
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: a40ebd6b-b542-4432-a730-1803ef74518d
     internal-label: Data Transfer
@@ -36,7 +38,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -78,4 +80,4 @@ Commerce 관리자에서 **[!UICONTROL Data Feed Sync Status]**&#x200B;을(를) 
 
 ## [!DNL SaaS Data Export] 진단
 
-로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/troubleshooting/logging){target="_blank"}를 참조하십시오.
+로그 위치 및 피드 다시 동기화 명령을 포함한 하위 수준의 [!DNL SaaS Data Export] 진단에 대해서는 [[!DNL SaaS Data Export] 문제 해결 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/troubleshooting/logging){target="_blank"}를 참조하십시오.

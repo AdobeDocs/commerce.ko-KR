@@ -2,36 +2,48 @@
 title: 대량 데이터 마이그레이션 실행
 description: CLI를 사용하여 Adobe Commerce PaaS 또는 온프레미스 인스턴스에서 Adobe Commerce as a Cloud Service으로 대량 데이터 마이그레이션을 구성하고 실행하는 방법에 대해 알아봅니다.
 feature: Cloud
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-07-22T19:19:07.600Z'
 TQID: 'https://experienceleague.adobe.com/z9659Vnf2JLxJ4U5p3tEEjurj5Mg3bfKj68Gheq2AXY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 670b6214b28be93a16130552a226a8cadb487324
+    internal-label: Data management
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 2802
+source-wordcount: '2802'
 ht-degree: 0%
-
 ---
-
 # 대량 데이터 마이그레이션 실행
 
 {{bulk-data-early-access}}
@@ -54,7 +66,7 @@ ht-degree: 0%
 
 대량 데이터 마이그레이션을 위한 환경 설정:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496127?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3496121)
 
 1. `ccsaas-migration-tools.tar.gz`의 내용을 추출합니다.
 
@@ -97,7 +109,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 ### 소스 OAuth 자격 증명 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496147?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3496142)
 
 이 네 가지 값은 마이그레이션 도구에서 소스 스토어 API로의 요청에 서명합니다. 다운로드하려면 원본 [!UICONTROL Admin]을(를) 열고 [!UICONTROL **시스템**] > [!UICONTROL **확장**] > [!UICONTROL **통합**]&#x200B;(으)로 이동하세요. 통합을 만들거나 연 다음 값을 `.env`에 복사합니다.
 
@@ -130,7 +142,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 >[!NOTE]
 >
->Cloud CLI를 처음 사용하는 경우 SSH 공개 키도 계정에 추가해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
+>Cloud CLI를 처음 사용하는 경우 SSH 공개 키도 계정에 추가해야 합니다. 지침은 [보안 연결 가이드](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)를 참조하세요.
 
 ### Commerce 관리 설정 정렬
 
@@ -142,7 +154,7 @@ SOURCE_INSTANCE_ACCESS_TOKEN_SECRET=<access_token_secret>
 
 ### 대상 SaaS 및 IMS 자격 증명 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496172?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3496167)
 
 대상의 [!DNL Adobe Commerce as a Cloud Service] IMS 및 API 설정입니다. 사용자 환경에 대한 테넌트 ID, 조직 ID, IMS OAuth 서버 간 자격 증명 및 올바른 IMS 호스트가 필요합니다. 조직, 테넌트 및 프로필 액세스를 위해 Adobe 팀과 협력합니다. 중요한 값을 유추하거나 추정하지 마십시오.
 
@@ -247,7 +259,7 @@ CDMS_PORT=443
 
 ## 데이터베이스 연결 파일 구성
 
->[!VIDEO](https://video.tv.adobe.com/v/3496162?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3496152)
 
 `.my.cnf` 파일은 마이그레이션 도구의 추출 측에 [!DNL MySQL] 연결 설정을 제공합니다. 프로젝트 루트의 `.my.cnf`에 `.my.cnf.example`을(를) 복사하여 만드십시오. 섹션 이름은 `.env`의 `SOURCE_CONNECTION_NAME`과(와) 일치해야 합니다.
 

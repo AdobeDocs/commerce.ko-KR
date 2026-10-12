@@ -3,27 +3,33 @@ title: 사용자 지정 자동 일치
 description: 사용자 지정 자동 일치가 복잡한 일치 논리를 사용하는 판매자나 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에 의존하는 판매자에게 특히 유용한 방법에 대해 알아봅니다.
 feature: CMS, Media, Integration
 exl-id: e7d5fec0-7ec3-45d1-8be3-1beede86c87d
-TQID: https://experienceleague.adobe.com/RHRfW99iShMpajrEC8BhvoMEfQ-ABdipWTCdK-KaVH4
+TQID: 'https://experienceleague.adobe.com/RHRfW99iShMpajrEC8BhvoMEfQ-ABdipWTCdK-KaVH4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7ecedcc7c17abdeb64507d8f74ec6fc103b361cc
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
 ---
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
 
 ## 사용자 지정 자동 일치 구성
 
@@ -125,9 +131,9 @@ ht-degree: 0%
 
 ## 비동기 구성 저장
 
-Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save) 옵션이 활성화된 경우 동일한 요청에 즉시 저장되지 않고 비동기 소비자가 구성 변경 사항을 큐에 적용하고 적용합니다. 이 모드에서 사용자 지정 자동 일치를 위해 `workspace.json` 파일을 업로드하려면 다음 단계를 순서대로 완료하십시오.
+Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save) 옵션이 활성화된 경우 동일한 요청에 즉시 저장되지 않고 비동기 소비자가 구성 변경 사항을 큐에 적용하고 적용합니다. 이 모드에서 사용자 지정 자동 일치를 위해 `workspace.json` 파일을 업로드하려면 다음 단계를 순서대로 완료하십시오.
 
-1. Commerce 비동기 구성 저장이 [활성화됨](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save)인지 확인하십시오.
+1. Commerce 비동기 구성 저장이 [활성화됨](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save)인지 확인하십시오.
 
 1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
@@ -161,7 +167,7 @@ Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adob
 
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -330,7 +336,7 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 에셋 ID입니다. |
-| `asset_roles` | 배열 | 자산 역할. `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다. AEM Assets 통합 확장 1.4.6 이상에서는 사용자 지정 이미지 역할(예: `hero` 또는 `custom_role_1`)도 허용됩니다. |
+| `asset_roles` | 배열 | 자산 역할. `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다. AEM Assets 통합 확장 1.4.6 이상에서는 사용자 지정 이미지 역할(예: `hero` 또는 `custom_role_1`)도 허용됩니다. |
 | `asset_format` | 문자열 | 에셋 포맷. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 숫자 | 제품 갤러리에서 에셋의 위치입니다. |
 

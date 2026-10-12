@@ -1,37 +1,46 @@
 ---
 title: 일치 및 순위 검색
-description: ' [!DNL Adobe Commerce Optimizer] 정확한 일치, 거의 일치, 동일 필드 일치, 교차 필드 일치를 우선시하고, 등급이 검색 가중치, 지능형 등급 및 머천다이징 규칙과 상호 작용하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Commerce Optimizer]이(가) 정확한 일치와 가까운 일치, 동일한 필드 일치, 교차 필드 일치를 우선시하는 방법과 등급이 검색 가중치, 지능형 등급 및 머천다이징 규칙과 상호 작용하는 방법에 대해 알아봅니다.'
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 hide: true
 autotag-review: '2026-06-12T19:49:25.241Z'
 TQID: 'https://experienceleague.adobe.com/GBfssL1pTVx4FKjsi45mDsTx2XyCr0aViexH3OpPjVo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: faf75e43-5608-48b8-8169-3f8a9b8a5caf
+    internal-label: Storefront optimizations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 717ecbc9c6aa41f8a504579de8ce55f514cc4307
+    internal-label: Optimization
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 # 일치 및 순위 검색
 
 >[!IMPORTANT]
 >
->다음 기능은 [개인 베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta)에 있습니다.
+>다음 기능은 [개인 베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta)에 있습니다.
 
 [!DNL Adobe Commerce Optimizer]은(는) 가장 관련성이 높은 제품을 먼저 볼 수 있도록 결과에 순위를 매깁니다. 이 서비스는 카탈로그 텍스트가 쇼핑객 유형과 **밀접하게**&#x200B;일치하는 제품에 가장 강력한 지지를 보내고 의미 있는 방식으로 쿼리 용어가 함께 표시되는 항목을 선호하며, 마지막으로 광범위한 일치(자동 완성 스타일 일치를 지원하는 동작 포함)를 포함합니다.
 
@@ -82,7 +91,7 @@ ht-degree: 0%
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
 - 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 용어 빈도, 이름 또는 설명 길이)에 대한 **[검색 가중치](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
 - 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](../merchandising/rules/overview.md)**
 
 이러한 신호가 상호 작용하므로 가장 넓은 수준에서만 일치하는 제품은 경우에 따라 더 엄격한 구문 일치(예: **검색 가중치** 또는 높은 가중치 필드의 용어 빈도가 더 약한 구문 일치보다 높은 경우)보다 높은 순위를 지정할 수 있습니다.

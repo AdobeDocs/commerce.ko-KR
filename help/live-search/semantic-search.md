@@ -1,15 +1,19 @@
 ---
 title: 의미 체계 검색
-description: 설정에서  [!DNL Live Search] 에 대한 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
+description: 설정에서 [!DNL Live Search]에 대한 AI 의미 체계 검색을 사용하도록 설정합니다. 속성 설정 또는 Storefront 변경이 필요하지 않습니다.
 role: Admin
 recommendations: noCatalog
-source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # 의미 체계 검색
 
 >[!AVAILABILITY]

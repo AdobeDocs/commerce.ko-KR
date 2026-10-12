@@ -1,15 +1,36 @@
 ---
-title: 프로덕션에  [!DNL Payment Services] 사용
-description: 프로덕션에 대해  [!DNL Payment Services] 을(를) 활성화하여 온보딩 프로세스를 완료합니다.
+title: 프로덕션에 [!DNL Payment Services] 사용
+description: 프로덕션에 대해 [!DNL Payment Services]을(를) 활성화하여 온보딩 프로세스를 완료합니다.
 exl-id: 3b1269e8-127b-47f8-9738-9722a5737c63
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1083'
 ht-degree: 0%
-
 ---
-
 # 프로덕션에 [!DNL Payment Services] 사용
 
 다음 단계를 수행한 후 이 항목의 단계에 따라 서비스를 프로덕션에 넣고 [온보딩 프로세스](onboard.md)를 완료할 수 있습니다.
@@ -27,10 +48,10 @@ ht-degree: 0%
 
    하나 이상의 웹 사이트에 대한 결제 방법으로 [!DNL Payment Services]을(를) 아직 구성하지 않은 경우 이 옵션이 표시됩니다.
 
-   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
+   관련 옵션이 확장된 (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_) 홈 보기의 설정 영역으로 이동되었습니다. 이 영역에서 [!DNL Payment Services] 옵션을 [결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}(으)로 활성화할 수 있습니다.
 
-1. _[!UICONTROL General Configuration]_&#x200B;에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
-1. _[!UICONTROL Credit Card Fields]_&#x200B;과(와)_[!UICONTROL PayPal payment buttons]_ 모두에 대해 **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
+1. _[!UICONTROL General Configuration]_에서&#x200B;**[!UICONTROL Enable]**을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL Credit Card Fields]_과(와)_[!UICONTROL PayPal payment buttons]_ 모두에 대해 **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 설정 | 설명 |
    |---|---|
@@ -43,7 +64,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. [!DNL Payment Services] 홈으로 돌아가려면 **[!UICONTROL Go to Payment Services]**&#x200B;을(를) 클릭하십시오.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management).
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management).
 
    모든 구성 변경 후 지우기를 수행해야 합니다.
 
@@ -105,7 +126,7 @@ ht-degree: 0%
 
 1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 
-   _[!UICONTROL Live onboarding]_&#x200B;단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
+   _[!UICONTROL Live onboarding]_단추가 더 이상 표시되지 않으며 &quot;[!UICONTROL Live payments pending]&quot; 텍스트 상자가 표시됩니다.
 
    이 텍스트 상자에는 온보딩을 완료하기 위해 PayPal을 사용하여 이메일 주소를 확인하라는 메시지가 표시될 수도 있습니다.
 
@@ -131,7 +152,7 @@ ht-degree: 0%
 1. 양식을 작성합니다.
 1. 영업팀 직원이 연락을 드릴 것입니다.
 
-또는 [business.adobe.com](https://business.adobe.com/kr/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
+또는 [business.adobe.com](https://business.adobe.com/resources/payment-services.html)에서 Adobe에 결제 권한을 요청할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -155,9 +176,9 @@ _프로덕션 판매자 ID_&#x200B;이(가) 자동으로 생성되고 [구성](c
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동합니다.
 1. 홈에서 페이지의 오른쪽 상단에 있는 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [홈](payments-home.md)을 참조하세요.
-1. _[!UICONTROL General Configuration]_&#x200B;섹션에서&#x200B;**[!UICONTROL Payment mode]**&#x200B;을(를) `Production`(으)로 설정합니다.
+1. _[!UICONTROL General Configuration]_섹션에서&#x200B;**[!UICONTROL Payment mode]**을(를) `Production`(으)로 설정합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. [캐시를 지웁니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [캐시를 지웁니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >

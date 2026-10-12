@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션'
-description: '[!DNL Adobe Commerce as a Cloud Service] (으)로 마이그레이션하는 방법에 대해 알아봅니다.'
+title: '[!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션'
+description: '[!DNL Adobe Commerce as a Cloud Service](으)로 마이그레이션하는 방법에 대해 알아봅니다.'
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 role: Developer
 level: Intermediate
 autotag-review: '2026-06-18T16:12:28.840Z'
@@ -28,6 +28,8 @@ feature_v2:
     internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories
@@ -56,7 +58,7 @@ topic_v2:
     internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 464b0d7298bd2a5569b12d0956a84667709e4c3a
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '3682'
 ht-degree: 0%
@@ -95,8 +97,8 @@ Adobe Commerce은 다양한 배포 모델에서 사용할 수 있습니다. 주�
 | Adobe Commerce 제공 | 호스팅 모델 | 서비스 및 업데이트에 대한 책임 |
 |---|---|---|
 | **[!DNL Adobe Commerce as a Cloud Service]** | SaaS - Adobe 호스팅 | Adobe은 핵심 Commerce 애플리케이션, 인프라 및 업데이트를 관리합니다. 판매자는 지원되는 API 및 확장성 서비스(API, [!DNL Adobe Developer App Builder], UI SDK)를 통해 플랫폼을 확장합니다. 판매자는 핵심 애플리케이션 코드를 수정할 수 없습니다. |
-| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
-| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
+| **[!DNL Adobe Commerce on Cloud Infrastructure]** | PaaS — Adobe 관리 | [공유 권한](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility): Adobe에서 호스팅된 플랫폼을 관리합니다. 판매자는 응용 프로그램 수준 패치, 사용자 정의 코드, 구성을 관리하고 데이터베이스, 캐시, 검색, PHP 런타임, 웹 서버 및 메시지 대기열을 포함하여 확장 및 플랫폼 서비스를 지원되는 버전으로 업데이트합니다. |
+| **[!DNL Adobe Commerce on-premises]** | 판매자 또는 호스팅 제공업체에서 호스팅 | [판매자 책임](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview#merchant-responsibilities): 판매자 또는 호스팅 공급자가 인프라 및 모든 플랫폼 서비스를 관리합니다. |
 
 **아키텍처 의미**
 
@@ -299,7 +301,7 @@ Commerce 개발자 에이전트는 마이그레이션 평가를 직접 소비하
 
 백엔드에서 Commerce 개발자 MCP는 PHP 모듈, 플러그인 및 이벤트 관찰자를 [!DNL App Builder] 응용 프로그램으로 변환하여 사용자 정의 및 통합 계층을 현대화하고 통합 패턴을 만들어 Adobe Commerce과 연결합니다. 또한 체크아웃, 결제 및 관리 UI에 대한 개발을 가속화합니다.
 
-프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 &#x200B;](#storefront-modernization)을(를) 현대화합니다.
+프론트엔드에서 Commerce 개발자 MCP [Edge Delivery Services의 Commerce 상점 ](#storefront-modernization)을(를) 현대화합니다.
 
 MCP는 데이터 마이그레이션을 처리하지 않습니다. 비즈니스 데이터는 [Commerce 데이터 마이그레이션 서비스](#data-migration-commerce-data-migration-service)를 통해 마이그레이션됩니다. MCP는 비즈니스 논리 또는 사용자 지정 테이블에 응용 프로그램 현대화가 필요할 때 필요한 [!DNL App Builder] 응용 프로그램을 지원합니다.
 
@@ -365,4 +367,4 @@ Commerce Data Migration Service 는 전 세계 프로덕션에 있으며 이미 
 
 워크플로우, 지원되는 데이터 및 확인에 대한 자세한 내용은 [대량 데이터 마이그레이션 도구 안내서](bulk-data/migration-tool.md) 설명서를 검토하십시오.
 
-소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.
+소스 환경을 준비하는 시스템 통합자는 표준 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) 및 IMS 자격 증명용 [Adobe Developer Console](https://developer.adobe.com)을 사용할 수도 있습니다.

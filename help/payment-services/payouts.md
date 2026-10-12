@@ -5,13 +5,29 @@ role: User
 level: Intermediate
 exl-id: f3f99474-cd28-4c8f-b0ea-dca8e014b108
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 73814f5ac5d53399131263f47e170e612643e903
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%
-
 ---
-
 # 지급 보고서
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services]은(는) 스토어의 거래, 주문 및 결제를 명확하게 볼 수 있도록 포괄적인 보고를 제공합니다.
@@ -31,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](production.md#set-payment-services-as-payment-method)(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
+>지급 보고서는 캡처된 주문(결제 작업이 [`Authorize and Capture`](production.md#set-payment-services-as-payment-method)(으)로 설정됨) 또는 [이(가) `Invoiced`](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)&#x200B;(으)로 표시된 주문만 표시합니다.
 
 ## 지급액 데이터 시각화 보기
 
@@ -93,12 +109,12 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Se
 
 ![데이터 원본 선택](assets/datasource.png){width="300" zoomable="yes"}
 
-_[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
+_[!UICONTROL Live]_이(가) 선택한 데이터 소스인 경우 프로덕션 모드에서 저장소에 대한 보고서 정보를 볼 수 있습니다._[!UICONTROL Sandbox]_&#x200B;이(가) 선택한 데이터 소스인 경우 샌드박스 모드에서 보고서 정보 저장소를 볼 수 있습니다.
 
 데이터 소스 선택은 다음과 같이 작동합니다.
 
-* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_&#x200B;입니다.
-* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_&#x200B;입니다.
+* 라이브 모드에 있는 저장소가 없는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Sandbox]_입니다.
+* 라이브 모드에 하나 이상의 저장소가 있는 경우 데이터 원본 선택 기본값은 _[!UICONTROL Live]_입니다.
 * 보고서 내보내기는 항상 데이터 소스 선택을 따릅니다.
 
 주문 지급 상태 보고서에 대한 데이터 출처를 선택하려면
@@ -121,7 +137,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 지급 보고서 보기에서 특정 날짜를 입력하거나 날짜 선택기에서 날짜 범위를 선택하여 보려는 지급 거래에 대한 기간을 사용자 정의할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**(으)로 이동합니다.
-1. _[!UICONTROL Transaction dates]_&#x200B;일정 선택기 필터를 클릭합니다.
+1. _[!UICONTROL Transaction dates]_일정 선택기 필터를 클릭합니다.
 1. 적용 가능한 날짜 범위를 선택합니다.
 1. 그리드에서 지정된 날짜에 대한 지급 상태를 봅니다.
 
@@ -159,7 +175,7 @@ _[!UICONTROL Live]_&#x200B;이(가) 선택한 데이터 소스인 경우 프로�
 | [!UICONTROL Code] | 대변(*CR*) 또는 차변(*DR*)을 나타내는 거래 코드 |
 | [!UICONTROL Reference ID] | 이 이벤트와 관련된 원래 거래 ID |
 | [!UICONTROL Invoice] | 거래의 송장 ID(주문당 하나) |
-| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
+| [!UICONTROL Commerce order] | Commerce 주문 ID <br> <br>관련 [주문 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders)를 보려면 ID를 클릭하십시오. |
 | [!UICONTROL Commerce trans] | Commerce 거래 ID |
 | [!UICONTROL Pay method] | 신용 카드 유형—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* 및 관련 카드 공급자(예: *Visa* 또는 *MasterCard*) |
 | [!UICONTROL TRANS AMT] | 거래 금액 |

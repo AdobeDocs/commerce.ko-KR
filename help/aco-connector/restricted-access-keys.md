@@ -3,7 +3,7 @@ title: B2B 공유 카탈로그에 대한 제한된 액세스 키 관리
 description: Adobe Commerce Optimizer 커넥터가 B2B 공유 카탈로그 프로젝션의 보안을 위해 사용하는 제한된 액세스 키를 관리하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Integrations
   - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
     internal-label: Admin tools and workspace
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: a40ebd6b-b542-4432-a730-1803ef74518d
     internal-label: Data Transfer
@@ -34,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 # B2B 공유 카탈로그에 대한 제한된 액세스 키 관리
 
-[!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."}
+[!BADGE Private beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."}
 
 [!DNL Adobe Commerce Optimizer Connector B2B extension]과(와) 함께 [!DNL Adobe Commerce]개의 B2B 공유 카탈로그를 사용하는 경우 카탈로그 보기가 만들어질 때 확장이 자동으로 첫 번째 제한된 액세스 키를 생성하고 할당합니다. Commerce 관리자의 [!UICONTROL Restricted Access Keys] 페이지를 사용하여 해당 키를 보고 추가 키를 만들거나 할당하거나 삭제합니다.
 
@@ -60,7 +62,7 @@ Commerce 관리자에서 **[!UICONTROL System]** > **[!UICONTROL Data Transfer]*
 
 >[!NOTE]
 >
->이 페이지의 필드를 참조하려면 *Commerce 관리 가이드*&#x200B;에서 [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"}하십시오.—>
+>이 페이지의 필드를 참조하려면 *Commerce 관리 가이드*&#x200B;에서 [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"}하십시오.—>
 
 ## 자동 키 이상이 필요한 경우 {#when-you-need-more-than-the-automatic-key}
 
@@ -99,7 +101,7 @@ Commerce은 새 키 쌍을 생성하고 개인 키를 보유합니다. 제한된
 
 1. 회사의 [!UICONTROL Action] 열에서 [!UICONTROL Edit]을(를) 선택합니다.
 
-1. 회사에 할당된 공유 카탈로그에서 예상되는 카탈로그 보기 목록을 보려면 _[!UICONTROL Catalog Views]_&#x200B;섹션을 확장합니다.
+1. 회사에 할당된 공유 카탈로그에서 예상되는 카탈로그 보기 목록을 보려면 _[!UICONTROL Catalog Views]_섹션을 확장합니다.
 
 탭에는 할당된 키를 포함하여 공유 카탈로그에서 예상된 카탈로그 보기가 나열됩니다.
 
@@ -159,7 +161,7 @@ Commerce은 새 키 쌍을 생성하고 개인 키를 보유합니다. 제한된
 
 >[!MORELIKETHIS]
 >
-> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — *Commerce 관리 가이드* —>에서 이 페이지에 대한 전체 필드 참조
+> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — *Commerce 관리 가이드* —>에서 이 페이지에 대한 전체 필드 참조
 > - [카탈로그 보기 동기화 모니터링](catalog-view-sync-status.md) - 이 키가 보호하는 카탈로그 보기 모니터링
 > - [비공개 카탈로그 보기](/help/optimizer/setup/private-catalog-view.md) - 커넥터 관리 비공개 카탈로그 보기에 대해 알아봅니다.
 > - [제한된 액세스 키](/help/optimizer/setup/restricted-access-keys.md) - B2B 이외의 사용 사례에서 수동 ACO Studio 기반 키 흐름이 작동하는 방식을 알아봅니다.

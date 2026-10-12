@@ -4,29 +4,39 @@ description: Adobe Experience Platform 태그를 사용하여 Commerce 데이터
 role: Admin, Developer
 feature: Personalization, Integration
 exl-id: dab333e8-5f71-4f3e-9660-6363b0e230c8
-TQID: https://experienceleague.adobe.com/7HNafiIenZfLrAhILPMwuUzRDzBVuClvDchJBGEg6bs
+TQID: 'https://experienceleague.adobe.com/7HNafiIenZfLrAhILPMwuUzRDzBVuClvDchJBGEg6bs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 494033dc2367b0e2914494ee44cec7c6b45209f1
+    internal-label: Privacy
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 2697
+source-wordcount: '2697'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Platform 태그를 사용하여 Commerce 데이터 수집
 
-[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/ko/docs/platform-learn/data-collection/tags/create-a-property)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
+[!DNL Data Connection] 확장을 사용하여 Storefront 이벤트를 게시하고 구독할 수 있지만 일부 판매자는 이미 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/tags/create-a-property)와 같은 데이터 수집 솔루션을 사용하고 있을 수 있습니다. 이러한 판매자의 경우 Adobe Commerce에서 Adobe Commerce 이벤트 SDK을 사용하는 [!DNL Data Connection] 확장에 게시 전용 옵션을 제공합니다.
 
 ![[!DNL Data Connection] 확장 데이터 흐름](assets/tags-data-flow.png)
 태그가 있는 _[!DNL Data Connection]확장 데이터 흐름_
@@ -41,21 +51,21 @@ Commerce 이벤트 데이터를 수집하려면:
 
   >[!NOTE]
   >
-  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**&#x200B;[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
+  > 컬렉션에 태그를 사용할 때 Commerce 관리에서 조직 ID 및 데이터 스트림 ID를 **구성하지**[구성](connect-data.md)합니다. 다중 웹 사이트 판매자는 Tags에서 속성 또는 환경별로 데이터스트림을 구성합니다. Commerce 관리 범위 동작에 대해서는 [구성 범위](connect-data.md#configuration-scope)를 참조하십시오.
 
 ## Commerce 상점 데이터를 Adobe Experience Platform에 매핑
 
 Commerce 상점 데이터를 Adobe Experience Platform에 매핑하려면 Adobe Experience Platform 태그 내에서 다음을 구성 및 설치합니다.
 
-1. Adobe Experience Platform 데이터 수집에서 [태그 속성을 설정합니다](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-in-websites/configure-tags/create-a-property).
+1. Adobe Experience Platform 데이터 수집에서 [태그 속성을 설정합니다](https://experienceleague.adobe.com/en/docs/platform-learn/implement-in-websites/configure-tags/create-a-property).
 
 1. **작성**&#x200B;에서 **확장**&#x200B;을 선택하고 다음 확장을 설치하고 구성합니다.
 
-   - [Adobe 클라이언트 데이터 레이어](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/client-data-layer/overview)
+   - [Adobe 클라이언트 데이터 레이어](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)
 
-   - [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)
+   - [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)
 
-1. 개발 환경에 [태그 게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+1. 개발 환경에 [태그 게시](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 
 1. 특정 이벤트에 대한 데이터 요소 및 규칙을 구성하려면 아래의 **이벤트 매핑** 단계를 따르십시오.
 
@@ -71,7 +81,7 @@ Commerce 상점 데이터를 Adobe Experience Platform에 매핑하려면 Adobe 
 
 Adobe Experience Platform 태그의 데이터 요소와 규칙을 Adobe Commerce 관련 이벤트 데이터로 업데이트할 때 수행해야 하는 몇 가지 일반적인 단계가 있습니다.
 
-예를 들어 Adobe Commerce `signOut` 이벤트를 Adobe Experience Platform 태그에 추가하겠습니다. 설정한 특정 값을 제외하고 태그에 추가하는 모든 Adobe Commerce 이벤트에 적용되는 [데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/data-elements#create-a-data-element) 및 [규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules#create-a-rule)을 추가하는 방법에 대해 아래에 설명된 단계를 설명합니다.
+예를 들어 Adobe Commerce `signOut` 이벤트를 Adobe Experience Platform 태그에 추가하겠습니다. 설정한 특정 값을 제외하고 태그에 추가하는 모든 Adobe Commerce 이벤트에 적용되는 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements#create-a-data-element) 및 [규칙](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules#create-a-rule)을 추가하는 방법에 대해 아래에 설명된 단계를 설명합니다.
 
 1. 데이터 요소 만들기:
 
@@ -1425,7 +1435,7 @@ return IdentityMap;
 
 ## 동의 설정
 
-Adobe Commerce에 [!DNL Data Connection] 확장을 설치하면 기본적으로 데이터 수집 동의가 활성화됩니다. [`mg_dnt` 쿠키](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)를 통해 옵트아웃을 관리합니다. `mg_dnt`을(를) 사용하여 동의를 관리하도록 선택한 경우 여기에 설명된 단계를 따를 수 있습니다. [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)에는 동의 관리에 대한 몇 가지 추가 옵션이 있습니다.
+Adobe Commerce에 [!DNL Data Connection] 확장을 설치하면 기본적으로 데이터 수집 동의가 활성화됩니다. [`mg_dnt` 쿠키](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)를 통해 옵트아웃을 관리합니다. `mg_dnt`을(를) 사용하여 동의를 관리하도록 선택한 경우 여기에 설명된 단계를 따를 수 있습니다. [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)에는 동의 관리에 대한 몇 가지 추가 옵션이 있습니다.
 
 1. `mg_dnt` 쿠키에 대한 **핵심 사용자 지정 코드** 데이터 요소(`%do not track cookie%`)를 만듭니다.
 

@@ -1,30 +1,45 @@
 ---
-title: ' [!DNL Payment Services] 설치'
+title: '[!DNL Payment Services] 설치'
 description: 결제 서비스 확장을 설치합니다.
 exl-id: babaa91a-9376-4acb-b934-a89f9df52016
 role: Admin
 feature: Payments, Checkout, Install, Upgrade, Paas
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services] 설치
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 결제 서비스를 사용하려면 몇 가지 온보딩 단계를 완료해야 합니다.
 
 >[!INFO]
 >
-> 자세한 내용은 [Adobe Commerce에 대해 구성 [!DNL Payment Services] 구성](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-payment-services) 비디오를 참조하십시오.
+> 자세한 내용은 [Adobe Commerce에 대해 구성 [!DNL Payment Services] 구성](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-payment-services) 비디오를 참조하십시오.
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]에 대한 [!DNL Payment Services] 확장을 다운로드하고 설치하는 것은 [!DNL Payment Services]을(를) 사용하기 위한 필수 단계입니다.
 
 ## 확장 다운로드
 
-설치하기 전에 먼저 [Commerce Marketplace](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/resources/commerce-marketplace)에서 확장을 다운로드해야 합니다.
+설치하기 전에 먼저 [Commerce Marketplace](https://experienceleague.adobe.com/en/docs/commerce-admin/start/resources/commerce-marketplace)에서 확장을 다운로드해야 합니다.
 
 1. Commerce Marketplace의 [결제 서비스 확장](https://commercemarketplace.adobe.com/magento-payment-services.html)&#x200B;(으)로 이동합니다.
 1. 버전 및 버전을 선택하려면 **[!UICONTROL Edition]** 및 **[!UICONTROL Your store version]**&#x200B;을(를) 원하는 선택 항목으로 전환하십시오.
@@ -43,9 +58,9 @@ ht-degree: 0%
 
 작성기가 [!DNL Adobe Commerce]을(를) 처음 설치하는 동안 또는 작성기 키가 이전에 `auth.json` 파일에 저장되지 않은 상황에서 이 키를 사용합니다.
 
-작성기 키 가져오기에 대한 자세한 내용은 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
+작성기 키 가져오기에 대한 자세한 내용은 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
 
-확장을 다운로드하여 설치하기 전에 고려해야 할 사항에 대한 자세한 내용은 [확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
+확장을 다운로드하여 설치하기 전에 고려해야 할 사항에 대한 자세한 내용은 [확장 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
 
 ### 클라우드 인프라의 [!DNL Adobe Commerce]
 
@@ -156,7 +171,7 @@ Could not find a matching version of package magento/payment-services. Check the
    cat /path/to/auth.json
    ```
 
-1. [Commerce 계정 `MageID`과(와) 연결된 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 확인하세요.
+1. [Commerce 계정 `MageID`과(와) 연결된 키](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 확인하세요.
 
 ### 메모리가 부족하여 PHP를 사용할 수 없습니다.
 
@@ -166,7 +181,7 @@ PHP에 대한 충분한 메모리가 없다는 것을 나타내는 다음 오류
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-`php.ini`의 환경에서 PHP에 대한 [메모리 제한을 늘립니다](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/app/php-settings#increase-php-memory-limit).
+`php.ini`의 환경에서 PHP에 대한 [메모리 제한을 늘립니다](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/php-settings#increase-php-memory-limit).
 
 또는 `php -d memory_limit=-1 [path to composer]/composer require magento/payment-services` 명령을 사용하여 메모리 제한을 지정할 수 있습니다.
 

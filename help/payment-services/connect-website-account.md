@@ -7,17 +7,35 @@ feature: Payments, Checkout, Configuration, Paas, Saas
 TQID: 'https://experienceleague.adobe.com/U1zGAU6vYKjk2tc2KXnvyqnYdbA2HKTCNZSKhHdS0Vw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-source-git-commit: d754c71e287d7d9ff297dd7d95efbaaae7ffc2fc
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # 웹 사이트의 다른 PayPal 계정 연결
 
 **여러 웹 사이트**&#x200B;가 있는 Commerce 인스턴스의 경우 **다른 PayPal 판매자 계정**&#x200B;이 필요할 수 있습니다. [!DNL Payment Services]은(는) **전역** 온보딩 후에 **웹 사이트 범위** PayPal 온보딩을 사용할 수 있습니다.
@@ -30,7 +48,7 @@ ht-degree: 0%
 
 웹 사이트 수준 온보딩은 스토어가 다음 요구 사항을 충족해야 사용할 수 있습니다.
 
-- [Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas) 설정이 완료되었습니다.
+- [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) 설정이 완료되었습니다.
 - PayPal 계정은 글로벌(기본 구성) 범위에서 연결됩니다.
 
 다음 필드가 기본 범위에서 채워졌는지 확인하여 이를 확인할 수 있습니다.
@@ -43,7 +61,7 @@ ht-degree: 0%
 
 ## 웹 사이트 수준 연결 시작
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Sales]**(으)로 이동한 다음&#x200B;**[!UICONTROL Payment Methods]**을(를) 선택합니다.
 1. 왼쪽 상단 모서리의 범위 선택기에서 **[!UICONTROL Default Config]**&#x200B;에서 온보딩할 **[!UICONTROL Website]**(으)로 전환합니다.
 1. **[!UICONTROL Connect different account]**&#x200B;을(를) 클릭합니다.
 

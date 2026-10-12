@@ -1,29 +1,41 @@
 ---
-title: ' [!DNL Payment Services] 소개'
-description: ' [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]  웹 사이트를 위한 턴키로서  [!DNL Payment Services] 강력하고 안전한 결제 처리 솔루션을 설치하고 사용하는 방법에 대해 알아봅니다.'
+title: '[!DNL Payment Services] 소개'
+description: '[!DNL Adobe Commerce] 및 [!DNL Magento Open Source] 웹 사이트를 위한 턴키, 강력하고 안전한 결제 처리 솔루션으로 [!DNL Payment Services]을(를) 설치하고 사용하는 방법에 대해 알아봅니다.'
 role: User
 level: Intermediate
 feature: Payments, Checkout, Paas, Saas
 exl-id: 191467ab-4c5e-4df1-b423-7a470a4910ea
-TQID: https://experienceleague.adobe.com/0jiNXLUWzekxm4ajhgs0VLUCmVDMdn6OE1m07TO-rLo
+TQID: 'https://experienceleague.adobe.com/0jiNXLUWzekxm4ajhgs0VLUCmVDMdn6OE1m07TO-rLo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 18f6be542e84f1769a91867c4d54ca3cde3c0ac1
+    internal-label: Reporting
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: '338'
 ht-degree: 0%
-
 ---
-
 # [!DNL Payment Services] 소개
 
 Adobe Commerce 및 Magento Open Source용 [!DNL Payment Services]은(는) Commerce 웹 사이트에 강력하고 안전한 결제 처리를 제공하기 위한 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션입니다.

@@ -1,27 +1,38 @@
 ---
 title: 스테이징 환경에서 테스트
-description: 테스트 목적으로 스테이징 환경의 프로덕션 환경에서  [!DNL Product Recommendations] 을(를) 사용하는 방법을 알아봅니다.
+description: 테스트 목적으로 스테이징 환경의 프로덕션 환경에서 [!DNL Product Recommendations]을(를) 사용하는 방법을 알아봅니다.
 feature: Services, Recommendations, Staging
 exl-id: 5b6d7615-6021-4419-98ea-006c8a299fe4
-TQID: https://experienceleague.adobe.com/7e7e3T-vgkN-Pbqx6TwrBAWTEozhzS0h--tguOGe0yI
+TQID: 'https://experienceleague.adobe.com/7e7e3T-vgkN-Pbqx6TwrBAWTEozhzS0h--tguOGe0yI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+  - id: dec06508-d41f-555a-87e8-29e8bcdfa95a
+    internal-label: Recommendations
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+    internal-label: Machine learning
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 # 스테이징 환경에서 테스트
 
 프로덕션 환경에 권장 사항을 배포하기 전에 비프로덕션 환경에서 서비스를 테스트하여 모든 것이 예상대로 작동하는지 확인하십시오.

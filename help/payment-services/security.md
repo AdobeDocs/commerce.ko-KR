@@ -3,8 +3,25 @@ title: 보안 및 규정 준수
 description: 사이트에 대한 보안 및 규정 준수 요구 사항을 검토합니다.
 exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
-redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html?lang=ko
-source-git-commit: 569877d92c66246cfd61cd56b8eae9b5c1284ace
+redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -17,13 +34,13 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce] 및 [!DNL Magento Open Source]은(는) 여러 보안 기능을 지원합니다.
 
-보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security){target="_blank"}을 참조하십시오.
+보안 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법에 대해 알아보려면 핵심 사용 안내서의 [보안](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"}을 참조하십시오.
 
 ## PCI 준수
 
 PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제를 받는 사업자를 위한 일련의 요구 사항을 수립했습니다. 고객 신용카드 정보를 취급하는 가맹점은 안전한 환경 유지와 더불어 몇 가지 표준 가이드라인을 준수할 책임이 있다.
 
-자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
+자세한 내용은 [PCI 준수 지침](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}을 참조하십시오.
 
 가맹점은 카드 소지자 데이터에 대한 보안을 평가하는 자체 유효성 검사 도구인 [SAQ(자체 평가 설문)](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}을(를) 완료할 수 있습니다.
 
@@ -49,7 +66,7 @@ EU 또는 영국 내에서 3DS 준수가 필요한 판매자인 경우 [구성 �
 
 >[!MORELIKETHIS]
 >
-> * 자세한 내용은 [&#128279;](configure-admin.md#3ds) 설정의 3DS를 참조하십시오.
+> * 자세한 내용은 ](configure-admin.md#3ds) 설정의 [3DS를 참조하십시오.
 > * 3DS 테스트를 위한 특정 신용 카드에 대한 자세한 내용은 PayPal 개발자 설명서에서 [테스트 카드](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/)를 참조하십시오.
 
 ### 카드 보관

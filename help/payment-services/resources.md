@@ -1,14 +1,21 @@
 ---
 title: '[!DNL Payment Services]개 리소스'
-description: ' [!DNL Payment Services] 릴리스에 사용 가능한 관련 리소스.'
+description: '[!DNL Payment Services] 릴리스에 사용 가능한 관련 리소스.'
 feature: Payments
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 
 # 리소스
 
