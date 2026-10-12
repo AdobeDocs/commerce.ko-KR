@@ -51,7 +51,7 @@ cron 작업 또는 수동 `saas:resync` CLI 호출에 의해 트리거된 각 �
 1. 잠금이 **획득됨**&#x200B;인 경우 프로세스는 진단 목적으로 이름과 PID를 기록한 다음 동기화를 실행합니다.
 1. 동기화가 완료되거나 실패하면 잠금이 무조건 해제되어 다음에 예약된 cron 작업이 정상적으로 진행될 수 있습니다.
 
-cron 또는 CLI로 시작되었는지에 관계없이 한 번에 하나의 동기화 작업만 피드 잠금을 유지할 수 있습니다. 피드 잠금은 [!DNL Adobe Commerce]의 `LockManagerInterface`을(를) 통해 구현됩니다. 기본 백엔드는 `GET_LOCK` 및 `RELEASE_LOCK` 함수를 사용하는 MySQL입니다. 다른 잠금 공급자를 구성하려면 [잠금 공급자 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/lock-provider){target="_blank"}을 참조하십시오.
+cron 또는 CLI로 시작되었는지에 관계없이 한 번에 하나의 동기화 작업만 피드 잠금을 유지할 수 있습니다. 피드 잠금은 [!DNL Adobe Commerce]의 `LockManagerInterface`을(를) 통해 구현됩니다. 기본 백엔드는 `GET_LOCK` 및 `RELEASE_LOCK` 함수를 사용하는 MySQL입니다. 다른 잠금 공급자를 구성하려면 [잠금 공급자 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/lock-provider){target="_blank"}을 참조하십시오.
 
 ## 예상 로그 메시지
 
@@ -72,4 +72,4 @@ cron 또는 CLI로 시작되었는지에 관계없이 한 번에 하나의 동�
 > - [데이터를 SaaS 데이터 내보내기와 동기화](sync-overview.md)
 > - [Commerce CLI를 사용하여 피드 동기화](data-export-cli-commands.md)
 > - [커넥터 동기화 파이프라인](../aco-connector/connector-sync-pipeline.md)
-> - [잠금 공급자 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/lock-provider){target="_blank"}
+> - [잠금 공급자 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/lock-provider){target="_blank"}

@@ -4,7 +4,7 @@ last-update: 2026-09-03T00:00:00.000Z
 description: '[카탈로그 뷰 동기화 상태] 페이지에서는 Adobe Commerce Optimizer에 동기화된 카탈로그 뷰, 정책, 가격 장부 참조 및 주요 구성 데이터를 모니터링하고 조정할 수 있습니다.'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -68,7 +68,7 @@ Commerce 관리자에서 **[!UICONTROL System]** > **[!UICONTROL Data Transfer]*
 | **중단** | [!DNL Adobe Commerce]에서 공유 카탈로그를 삭제했습니다. 삭제 유예 기간이 만료될 때까지 카탈로그 보기에 계속 액세스할 수 있습니다. 기본 유예 기간은 7일입니다. [카탈로그 보기 동기화 설정](#configure-aco-catalog-view-sync-settings)을 업데이트하여 기본값을 수정할 수 있습니다. |
 | **고립됨** | 카탈로그 보기 또는 키가 커넥터가 아닌 [!DNL Adobe Commerce Optimizer] Studio에서 직접 만들어졌습니다. [고립되거나 삭제된 항목 검토](#review-orphaned-and-deleted-entries)를 참조하세요. |
 
-[!UICONTROL Healthy], [!UICONTROL Pending] 및 [!UICONTROL Deleted]은(는) 동작이 필요하지 않은 정보 상태입니다. 전체 목록은 *Commerce 관리 가이드*&#x200B;의 [동기화 상태 값](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status#sync-status-values){target="_blank"}을 참조하십시오.
+[!UICONTROL Healthy], [!UICONTROL Pending] 및 [!UICONTROL Deleted]은(는) 동작이 필요하지 않은 정보 상태입니다. 전체 목록은 *Commerce 관리 가이드*&#x200B;의 [동기화 상태 값](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status#sync-status-values){target="_blank"}을 참조하십시오.
 
 ### ACO 카탈로그 보기 동기화 설정 구성 {#configure-aco-catalog-view-sync-settings}
 

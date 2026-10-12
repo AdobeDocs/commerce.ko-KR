@@ -3,7 +3,7 @@ title: B2B 공유 카탈로그에 대한 제한된 액세스 키 관리
 description: Adobe Commerce Optimizer 커넥터가 B2B 공유 카탈로그 프로젝션의 보안을 위해 사용하는 제한된 액세스 키를 관리하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -62,7 +62,7 @@ Commerce 관리자에서 **[!UICONTROL System]** > **[!UICONTROL Data Transfer]*
 
 >[!NOTE]
 >
->이 페이지의 필드를 참조하려면 *Commerce 관리 가이드*&#x200B;에서 [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"}하십시오.—>
+>이 페이지의 필드를 참조하려면 *Commerce 관리 가이드*&#x200B;에서 [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"}하십시오.—>
 
 ## 자동 키 이상이 필요한 경우 {#when-you-need-more-than-the-automatic-key}
 
@@ -161,7 +161,7 @@ Commerce은 새 키 쌍을 생성하고 개인 키를 보유합니다. 제한된
 
 >[!MORELIKETHIS]
 >
-> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — *Commerce 관리 가이드* —>에서 이 페이지에 대한 전체 필드 참조
+> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — *Commerce 관리 가이드* —>에서 이 페이지에 대한 전체 필드 참조
 > - [카탈로그 보기 동기화 모니터링](catalog-view-sync-status.md) - 이 키가 보호하는 카탈로그 보기 모니터링
 > - [비공개 카탈로그 보기](/help/optimizer/setup/private-catalog-view.md) - 커넥터 관리 비공개 카탈로그 보기에 대해 알아봅니다.
 > - [제한된 액세스 키](/help/optimizer/setup/restricted-access-keys.md) - B2B 이외의 사용 사례에서 수동 ACO Studio 기반 키 흐름이 작동하는 방식을 알아봅니다.
