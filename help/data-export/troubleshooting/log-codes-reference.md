@@ -4,7 +4,7 @@ description: 동기화 문제를 해결하고 부분 또는 전체 재동기화�
 autotag-review: '2026-06-17T15:08:59.000Z'
 feature: Services
 exl-id: c1341863-1ec4-4d67-8ff2-821ef0a61f33
-last-update: 2026-10-05
+last-update: 2026-10-12
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: c76e776250d9f996daf61d3cf62e2070803e998c
+source-git-commit: a77dda94b3a9ff82ce5003bfe460156296b32fd1
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '60'
 ht-degree: 0%
 ---
 # [!DNL Data Export] 로그 코드 참조
