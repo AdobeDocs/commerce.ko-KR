@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 40374f0aa28d3635fc567c0311e452f92dc5704c
+source-git-commit: 092ffabea06cf72af39a663c14b448f9e7633f60
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2364'
 ht-degree: 0%
 ---
 # 제품 필터링
@@ -280,3 +280,11 @@ Attribute filter support varies by recommendation type.
 - 빈 속성 값이나 잘못된 조건이 있는 경우 권장 사항은 상점 첫 화면 또는 미리 보기 패널에서 렌더링되지 않습니다.
 - 속성 값은 카탈로그에 있는 값과 정확히 일치해야 하며 여기에는 공백과 대/소문자가 포함됩니다.
 - 어느 제품도 필터 기준을 충족하지 않는 경우 권장 사항이 상점 첫 화면 또는 미리 보기 패널에서 렌더링되지 않습니다.
+
+### 품절
+
+다음 제외 필터는 재고 상태에 따라 제품을 필터링할 수 있습니다.
+
+- 품절 - (제외만 해당) 품절된 제품을 제외합니다.
+
+![재고 상태 필터](../../assets/filter-stock-status.png)
