@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 559efed5340b7076f18a3efc0077f9afd5f8ca48
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '3576'
 ht-degree: 0%
 ---
 # [!DNL SaaS Data Export Extension] 릴리스 정보
@@ -60,6 +60,16 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.5.0 릴리스
+
+_2026년 10월 13일_
+
+![수정](../assets/fix.svg) **내보낸 메타데이터의 정확한 특성 가시성**-특성 가시성 필드에서 storefront 가시성 설정 대신 관리자 가시성 설정을 내보낸 문제를 수정했습니다. 이제 연결된 Commerce 서비스가 각 속성에 대해 올바른 가시성을 제공합니다. <!--MDEE-932-->
+
+![새로 만들기](../assets/new.svg) **숫자 제품 특성에 대한 범위 필터**-**숫자** 입력 형식을 지원하도록 제품 특성을 업데이트했습니다. 이 입력 유형은 통화 기호를 표시하지 않고 음수를 포함한 십진수 값을 저장하는 속성에 적용됩니다. [!DNL Live Search]에서 범위 패싯을 생성할 수 있는 메타데이터와 함께 내보내므로 쇼핑객이 운영 온도와 같은 측정값으로 필터링할 수 있습니다. <!--MDEE-1416-->
+
+![수정](../assets/fix.svg) **일관된 사용자 지정 가격 특성 값**-사용자 지정 가격 특성 값을 이제 상점의 기본 통화로 소수 둘째 자리로 내보냈으므로 상점의 가격 형식이 가격 데이터 형식과 일치합니다.<!--MDEE-1459-->
 
 ### 103.4.35 릴리스
 
