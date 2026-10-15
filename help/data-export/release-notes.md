@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 559efed5340b7076f18a3efc0077f9afd5f8ca48
+source-git-commit: 9ea19181108118892e238ba2ffce4bb7b451ee94
 workflow-type: tm+mt
-source-wordcount: '3576'
+source-wordcount: '3608'
 ht-degree: 0%
 ---
 # [!DNL SaaS Data Export Extension] 릴리스 정보
@@ -60,6 +60,12 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.5.1 릴리스
+
+_2026년 10월 14일_
+
+![수정](../assets/fix.svg) **이제 관리자 UI에서 제품 특성을 만들 때 숫자 특성 유형을 사용할 수 있습니다**. 이 속성을 사용하면 라이브 검색에서 숫자 정렬 및 범위 필터링을 사용할 수 있습니다. <!--MDEE-1416 -->
 
 ### 103.5.0 릴리스
 
