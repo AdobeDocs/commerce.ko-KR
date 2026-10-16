@@ -1,7 +1,7 @@
 ---
 title: 규칙 만들기 및 관리
 description: 검색, 기본 제품 목록 및 범주 페이지에 대한 머천다이징 규칙을 만들고 관리하는 방법을 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
 TQID: https://experienceleague.adobe.com/UOe-TPaF80Wrk-gNuJwLTdndVQMQfbYrbpAfb-r4pJc
 product_v2:
@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3d21aed1af575d15c2cea4a42c49169a0fe37d7e
+source-git-commit: 92e2b81e91e5d78b08d551aa9531b18ebf50d853
 workflow-type: tm+mt
-source-wordcount: '4111'
+source-wordcount: '4108'
 ht-degree: 0%
 ---
 # 규칙 만들기 및 관리
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 | 규칙 유형 | 목적 |
 | --- | --- |
-| **모든 제품 목록** | 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 제품 목록 전반에서 기본 순위 및 머천다이징. 이러한 규칙은 하나만 만들 수 있으며 조건을 포함할 수 없습니다. |
+| **기본 검색 규칙** | 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 제품 목록 전반에서 기본 순위 및 머천다이징. 이러한 규칙은 하나만 만들 수 있으며 조건을 포함할 수 없습니다. |
 | **범주 규칙** | 머천다이징 및 순위를 단일 카테고리에 적용하여 해당 카테고리 페이지의 제품 순서를 제어합니다. |
 | **검색 규칙** | 쇼핑객이 규칙의 쿼리 조건과 일치하는 검색을 실행할 때 머천다이징 및 순위를 적용합니다. |
 
@@ -84,14 +84,14 @@ ht-degree: 0%
 
    *규칙 테스트* 창에 우선 순위별로 번호가 매겨진 결과가 즉시 표시됩니다. 오른쪽 상단의 *행당 결과* 슬라이더를 사용하여 각 행의 제품 수를 변경할 수 있습니다.
 
-1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**&#x200B;을 누르십시오.
+1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**을 누르십시오.
 처음에 테스트 창은 조건 검색 상자에서 쿼리를 렌더링합니다. 하지만 이제 테스트 쿼리 상자에서 쿼리를 렌더링하고 있습니다. 테스트 창은 한 번에 하나의 쿼리만 렌더링합니다.
 1. 결과가 마음에 들면 *조건* 검색 상자의 텍스트를 업데이트하세요. 그런 다음 페이지의 아무 곳이나 클릭하여 테스트 창의 결과를 업데이트합니다.
 1. 필요한 경우 다음 섹션에 설명된 대로 [지능형 순위](#intelligent-ranking), [수동 순위](#manual-ranking) 또는 [특성 순위](#attribute-ranking)를 설정하십시오. 호출된 차이점이 있는 카테고리 페이지에도 동일한 컨트롤이 적용됩니다.
 
 **여러 조건**
 
-1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**&#x200B;를 클릭하십시오.
+1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**를 클릭하십시오.
 규칙에는 최대 10개의 조건이 있을 수 있습니다. 두 조건을 결합하는 논리 연산자는 현재 *일치* 설정을 기반으로 합니다. 기본적으로 *일치*&#x200B;은(는) `All`이고 논리 연산자는 `AND`입니다.
 
 1. 두 번째 조건을 선택하고 필요한 쿼리 텍스트를 입력합니다.
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 ### 인텔리전트 등급 {#intelligent-ranking}
 
-인텔리전트 등급은 **동작 신호** 및 해당되는 경우 AI를 사용하여 제품을 주문합니다. **검색 규칙**, **모든 제품 목록**(기본 규칙) 및 **범주 규칙**(범주 페이지)에 적용됩니다. 쇼핑객 **검색**&#x200B;의 경우 순위도 쿼리에 대한 **텍스트 관련성**&#x200B;을 가중합니다. **카테고리 페이지**&#x200B;에서는 쿼리 텍스트를 동일한 방식으로 사용하지 않습니다. 편집자는 행동 전략에 중점을 둡니다.
+인텔리전트 등급은 **동작 신호** 및 해당되는 경우 AI를 사용하여 제품을 주문합니다. **검색 규칙**, **기본 검색 규칙** 및 **범주 규칙**(범주 페이지)에 적용됩니다. 쇼핑객 **검색**&#x200B;의 경우 순위도 쿼리에 대한 **텍스트 관련성**&#x200B;을 가중합니다. **카테고리 페이지**&#x200B;에서는 쿼리 텍스트를 동일한 방식으로 사용하지 않습니다. 편집자는 행동 전략에 중점을 둡니다.
 
 점주들은 다음과 같은 전략을 세울 수 있다. 정확한 레이블 및 시간 창은 규칙 편집기와 일치하며 규칙 유형에 따라 약간 다릅니다.
 
@@ -271,7 +271,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->이 기능은 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
+>이 기능은 [베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
 
 **특성 순위**&#x200B;은(는) 개별 SKU를 선택하지 않아도 하나 이상의 특성 조건에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 동작을 자동으로 적용합니다. 속성 등급은 규칙 편집기에 [인텔리전트 등급](#intelligent-ranking) 및 [수동 등급](#manual-ranking)과 함께 표시되며 **모든 제품 규칙**, **검색 규칙** 및 **범주 규칙**&#x200B;에 사용할 수 있습니다. 예를 들어 특정 브랜드의 모든 제품을 부스팅하거나 모든 제품을 단종된 색상으로 매립하는 등 대규모 카탈로그에 머천다이징을 확장할 수 있습니다.
 
@@ -401,7 +401,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 | --- | --- |
 | 이름 | 규칙의 이름입니다. 규칙 이름은 고유해야 합니다. |
-| 규칙 유형 | **규칙이**&#x200B;에 적용됨에 따라 **기본**(모든 제품 목록), **쿼리**(특정 검색 조건) 또는 **범주**(범주 페이지). |
+| 규칙 유형 | **규칙이**&#x200B;에 적용됨에 따라 **기본 검색 규칙**, **쿼리**(특정 검색 조건) 또는 **범주**(범주 페이지). |
 | 시작 일자 | 규칙 시작 일자(예약된 경우). |
 | 종료 일자 | 규칙의 종료 날짜(예약된 경우). |
 | 설명 | 규칙에 대한 간단한 설명. |
