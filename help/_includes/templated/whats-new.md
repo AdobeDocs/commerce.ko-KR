@@ -1,7 +1,7 @@
 ---
-source-git-commit: b12fd59e97279b78017bee0403a7e7672adb1957
+source-git-commit: f43710c77d063d923d136b9fda2d9283ede97788
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1250'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,80 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 10월 16일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/overview">머천다이징 규칙 개요</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add">규칙 만들기 및 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/release-notes">릴리스 정보</a>에서 모든 제품 목록 규칙 유형의 이름을 기본 검색 규칙으로 바꾸도록 머천다이징 규칙 설명서를 업데이트했습니다. 이는 관리 규칙 유형 메뉴에서 이름이 바뀐 옵션과 일치합니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b5c9b1b4ead9f355cd7438d3a8f1b90ac08b12d1">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 14일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking-boost">머천다이징 규칙 만들기 및 관리</a>에서 [!UICONTROL Intelligent Ranking Boost]에 대해 문서화된 기본 및 범위 값을 수정했습니다. 기본값은 <code>50</code>(이전에는 <code>5</code>)이고 최대 범위는 <code>1000</code>(이전에는 <code>100</code>)입니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/07fb011b0303ebca11dd3e0948d264c72bd2422e">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 12일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>권장 사항에서 품절 제품을 제외하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/filters">필터</a>의 권장 사항 단위에 대한 새로운 품절 제외 필터에 대한 설명서를 추가했습니다.</p>
+</td>
+      <td>
+        피드백, 주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/abba2327d9c678e374a94c5bc5ed091f401c8aff">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/83acf0b6474920141c0bcc354f7c49ea7d10d29c">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 10월 8일
 
@@ -388,36 +462,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b6613edbf84681a860b9c71a07f43a7df40e8784">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 12일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 프로덕션 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ed13ed011180fbb9d535f5a228a5f932ebf00689">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>판매자는 이제 Commerce 관리자로부터 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프서비스할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/configure/connect-website-account">웹 사이트의 다른 PayPal 계정 연결</a>을 참조하십시오.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e18c82a81c49de8175a8a8d77e9a191fe2af4b46">커밋</a></td>
     </tr>
   </tbody>
 </table>

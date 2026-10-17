@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 92e2b81e91e5d78b08d551aa9531b18ebf50d853
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 0%
@@ -47,7 +47,7 @@ _2026년 9월 3일_
 
 ### 속성 등급(베타)
 
-[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 이제 **모든 제품 목록**, **범주 규칙** 및 **검색 규칙**&#x200B;에 대해 [**특성 순위**](./merchandising/rules/add.md#attribute-ranking)&#x200B;를 지원합니다. 개별 SKU를 선택하지 않고 하나 이상의 특성 조건(예: 브랜드 또는 카테고리)에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 작업을 자동으로 적용합니다. 속성 등급은 Beta 버전입니다. [자세히 알아보기](./merchandising/rules/add.md#attribute-ranking)
+[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 이제 **기본 검색 규칙**, **범주 규칙** 및 **검색 규칙**&#x200B;에 대해 [**특성 순위**](./merchandising/rules/add.md#attribute-ranking)&#x200B;를 지원합니다. 개별 SKU를 선택하지 않고 하나 이상의 특성 조건(예: 브랜드 또는 카테고리)에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 작업을 자동으로 적용합니다. 속성 등급은 Beta 버전입니다. [자세히 알아보기](./merchandising/rules/add.md#attribute-ranking)
 
 {{aco-release}}
 
