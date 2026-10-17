@@ -2,6 +2,7 @@
 solution: Commerce
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: "Commerce"
 usetq: true
 solution-title: Commerce
 landing-page-name: commerce
@@ -16,11 +17,9 @@ role: User
 feature-set: Commerce
 source-git-commit: 47f297aa71ddb2b1781c36661ccd0b1f5cf9b3ba
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # 내부 사용을 위한 메타데이터
 
