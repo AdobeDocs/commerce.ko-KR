@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce Optimizer Connector]개 피드에 대한 필드 매
 description: '[!DNL Adobe Commerce] 카탈로그 데이터에서 모든 피드의 [!DNL Adobe Commerce Optimizer] 수집 API 형식으로의 [!DNL Adobe Commerce Optimizer Connector] 필드 매핑에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T15:49:03.934Z'
 TQID: 'https://experienceleague.adobe.com/SOWOnguudhqzX-r66nGUqc-WKet5qq6GRV11ADx0Me4'
 product_v2:
@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Personalization
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
     internal-label: Data modeling
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: b62a0a272684daa2494017d290a711da8e1746b9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1065'
 ht-degree: 2%
 ---
 
@@ -152,7 +152,10 @@ ht-degree: 2%
 
 `categories` 피드가 [Categories 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Categories){target="_blank"}에 [!DNL Adobe Commerce] 데이터를 보냅니다.
 
-빈 `urlPath`(논리 루트 범주)이 있는 항목은 건너뛰고 제출되지 않습니다.
+커넥터는 URL 경로 및 스토어 보기 코드별로 카테고리 피드 레코드를 식별합니다.
+- 
+  - 범주가 범주 트리의 다른 상위로 이동하면 동기화는 해당 범주와 하위 항목에 대한 새 경로를 보내고 [!DNL Adobe Commerce Optimizer]에서 이전 경로를 제거합니다.
+- 빈 `urlPath`(논리 루트 범주)이 있는 항목은 건너뛰고 제출되지 않습니다.
 
 | [!DNL Adobe Commerce] 필드 | [!DNL Commerce Optimizer] API 필드 | 매핑 세부 정보 |
 | --------------- | -------------- | ------- |
