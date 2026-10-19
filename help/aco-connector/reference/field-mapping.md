@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce Optimizer Connector]개 피드에 대한 필드 매
 description: '[!DNL Adobe Commerce] 카탈로그 데이터에서 모든 피드의 [!DNL Adobe Commerce Optimizer] 수집 API 형식으로의 [!DNL Adobe Commerce Optimizer Connector] 필드 매핑에 대해 알아봅니다.'
 role: Admin, Developer
 feature: Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T15:49:03.934Z'
 TQID: 'https://experienceleague.adobe.com/SOWOnguudhqzX-r66nGUqc-WKet5qq6GRV11ADx0Me4'
 product_v2:
