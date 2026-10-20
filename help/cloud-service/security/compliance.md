@@ -63,7 +63,7 @@ Adobe은 [!DNL Adobe Commerce as a Cloud Service]을(를) 지원하는 인프라
 
 - **GDPR 및 CCPA**: Adobe은 고객이 데이터 개인 정보 보호 규정에 따른 의무를 준수하는 데 도움이 되는 도구와 문서를 제공합니다.
 
-Adobe 인증 및 규정 준수 설명서의 전체 목록을 보려면 [Adobe Trust Center](https://www.adobe.com/trust/compliance/compliance-list.html){target="_blank"}를 방문하십시오.
+Adobe 인증 및 규정 준수 설명서의 전체 목록을 보려면 [Adobe Trust Center](https://www.adobe.com/kr/trust/compliance/compliance-list.html){target="_blank"}를 방문하십시오.
 
 ## 실무자 인증
 

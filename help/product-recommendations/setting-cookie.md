@@ -97,7 +97,7 @@ $.mage.cookies.clear(DNT_COOKIE);
 
 ## 개인정보 규정 준수
 
-제품 권장 사항 데이터 수집에는 PII(개인 식별 정보)가 포함되지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)을 참조하세요.
+제품 권장 사항 데이터 수집에는 PII(개인 식별 정보)가 포함되지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html)을 참조하세요.
 
 >[!TIP]
 >

@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 데이터 처리 및 개인 정보 보호
 
-[!DNL Product Recommendations]에 대한 데이터 수집에 PII(개인 식별 정보)가 포함되어 있지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)을 참조하세요.
+[!DNL Product Recommendations]에 대한 데이터 수집에 PII(개인 식별 정보)가 포함되어 있지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html)을 참조하세요.
 
 데이터 동기화에 대한 자세한 내용은 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)를 참조하세요.
 
