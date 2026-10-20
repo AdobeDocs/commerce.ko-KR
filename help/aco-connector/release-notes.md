@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1051405a754ac98534b8a27472dccbfb2fff19c7
+source-git-commit: 4f45ba5b177dfb826c49ae3ddc41cb453c6bb93b
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '647'
 ht-degree: 0%
 ---
 # Adobe Commerce Optimizer Connector 릴리스 노트
@@ -52,6 +52,12 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg)알려진 문제
 
 ## 2026 릴리스
+
+### 1.2.1 릴리스
+
+_2026년 10월 19일_
+
+![수정](../assets/fix.svg) **보존된 범주 동기화 동작**-Adobe Commerce Optimizer 커넥터는 URL 경로를 유지하고 보기 코드를 범주 피드 식별자로 저장하여 올바른 동기화를 유지합니다. 범주가 범주 트리 내에서 이동하면 새 경로가 동기화되고 이전 경로가 제거됩니다.<!--MDEE-1473-->
 
 ### 1.2.0 릴리스
 

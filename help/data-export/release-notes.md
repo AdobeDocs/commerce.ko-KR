@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9ea19181108118892e238ba2ffce4bb7b451ee94
+source-git-commit: 9a378b5e553afb5d96ce79738dab1d32404f4f22
 workflow-type: tm+mt
-source-wordcount: '3608'
+source-wordcount: '3719'
 ht-degree: 0%
 ---
 # [!DNL SaaS Data Export Extension] 릴리스 정보
@@ -60,6 +60,16 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.5.2 릴리스
+
+_2026년 10월 19일_
+
+![수정](../assets/fix.svg) **일관된 범주 식별**—Adobe Commerce as a Cloud Service, Adobe Commerce on Cloud 및 온프레미스에서 지원되는 [Storefront Services용 카탈로그 서비스 GraphQL API](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/){page="_blank"}에서 범주 ID 및 스토어 보기 코드를 사용하여 범주 피드 식별을 복원했습니다. 이 업데이트로 인해 범주 이동이 범주를 삭제된 것으로 잘못 표시하지 않도록 합니다. <!--MDEE-1473-->
+
+![수정](../assets/fix.svg) **PHP 8.5**&#x200B;에서 신뢰할 수 있는 특성 옵션 처리—옵션 레이블이 누락된 저장소를 참조할 때 제품 피드 내보내기 오류를 방지하기 위해 특성 옵션 값 처리를 수정했습니다. <!--MDEE-1472-->
+
+![수정](../assets/fix.svg) **PHP 8.5**&#x200B;에서 신뢰할 수 있는 구성 가능한 제품 동기화—null 자식 특성 값으로 인해 구성 가능한 제품이 올바르게 동기화되지 않는 문제가 해결되었습니다. <!--MDEE-1474-->
 
 ### 103.5.1 릴리스
 

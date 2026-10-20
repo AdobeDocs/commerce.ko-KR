@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Personalization
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
     internal-label: Data modeling
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: b62a0a272684daa2494017d290a711da8e1746b9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1065'
 ht-degree: 2%
 ---
 
@@ -152,7 +152,10 @@ ht-degree: 2%
 
 `categories` 피드가 [Categories 끝점](https://developer.adobe.com/commerce/services/reference/rest/#tag/Categories){target="_blank"}에 [!DNL Adobe Commerce] 데이터를 보냅니다.
 
-빈 `urlPath`(논리 루트 범주)이 있는 항목은 건너뛰고 제출되지 않습니다.
+커넥터는 URL 경로 및 스토어 보기 코드별로 카테고리 피드 레코드를 식별합니다.
+- &#x200B;
+  - 범주가 범주 트리의 다른 상위로 이동하면 동기화는 해당 범주와 하위 항목에 대한 새 경로를 보내고 [!DNL Adobe Commerce Optimizer]에서 이전 경로를 제거합니다.
+- 빈 `urlPath`(논리 루트 범주)이 있는 항목은 건너뛰고 제출되지 않습니다.
 
 | [!DNL Adobe Commerce] 필드 | [!DNL Commerce Optimizer] API 필드 | 매핑 세부 정보 |
 | --------------- | -------------- | ------- |
