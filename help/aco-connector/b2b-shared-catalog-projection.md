@@ -1,6 +1,6 @@
 ---
 title: B2B 공유 카탈로그 프로젝션
-description: B2B 커넥터가 Adobe Commerce B2B 공유 카탈로그를 보호된 Commerce Optimizer 카탈로그 보기로 프로젝션하는 방법과 상점이 구매자 액세스를 해결하고 권한을 부여하는 방법에 대해 알아봅니다.
+description: B2B 커넥터가 Adobe Commerce 공유 카탈로그를 보호된 Commerce Optimizer 카탈로그 보기에 동기화하는 방법과 상점이 구매자 액세스를 승인하는 방법에 대해 알아봅니다.
 feature: Integration, Configuration
 role: Admin, Developer
 level: Intermediate
@@ -45,9 +45,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: fe5fc895d1f1cab3bcf081ec699f59192cb215a3
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # B2B 공유 카탈로그 프로젝션
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 B2B 프로젝션은 동기화된 카탈로그 콘텐츠 및 가격을 공유 카탈로그 분류 및 회사 할당 컨텍스트와 결합합니다.
 
-![다이어그램 매핑 [!DNL Adobe Commerce] 저장소 보기, 가격 책정, 공유 카탈로그 및 회사 할당과 [!DNL Adobe Commerce Optimizer]](./assets/b2b-catalog-projection-mapping.svg){width="800"}의 예상 개인 카탈로그 보기
+![다이어그램 매핑 [!DNL Adobe Commerce] 저장소 보기, 가격 책정, 공유 카탈로그 및 회사 할당과 [!DNL Adobe Commerce Optimizer]](./assets/b2b-catalog-projection-mapping-alternate.svg){width="100%" zoomable="yes"}의 예상 개인 카탈로그 보기
 
 | [!DNL Adobe Commerce] 데이터 | [!DNL Adobe Commerce Optimizer]개 결과 | 목적 |
 | --- | --- | --- |

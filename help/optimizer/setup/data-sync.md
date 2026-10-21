@@ -1,9 +1,9 @@
 ---
 title: 데이터 동기화
-description: Commerce 데이터 원본에서 [!DNL Adobe Commerce Optimizer] (으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
+description: Commerce 데이터 원본에서 [!DNL Adobe Commerce Optimizer](으)로 동기화 중인 카탈로그 데이터를 검토하십시오.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
 TQID: https://experienceleague.adobe.com/ZTMFkch-YNS-CUgCdadmg1kemA8ORXQ7KGCEkI7d-Yw
 product_v2:
@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
+source-git-commit: 014ae9bbe0a9bb48e6a5d574af4fc47158ad33dc
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 JSON 형식의 동기화된 제품에 대한 세부 정보를 보려면 동기화된 제품 테이블에서 제품 행의 코드 아이콘 ![코드 링크](../assets/data-sync-details.png)를 클릭하십시오.
 
-![제품 세부 정보 동기화](../assets/synced-products.png)
+![동기화된 제품 세부 정보](../assets/synced-products.png)
 
 ## 카탈로그 데이터 재동기화
 
