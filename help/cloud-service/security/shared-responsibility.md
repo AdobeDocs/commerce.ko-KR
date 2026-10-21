@@ -5,7 +5,7 @@ feature: Cloud, Security
 role: Admin, Developer, Leader
 level: Intermediate
 exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:19:21.186Z'
 TQID: 'https://experienceleague.adobe.com/ZjR9eFTVz8RIrYIN1CxyEgegGoZljXJKrtWZStx-ln0'
 product_v2:
@@ -40,18 +40,28 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 8b3db59ed02539646dd53a2e9c7a0925b7c3a804
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # 공동 책임 보안 및 운영 모델
 
 [!DNL Adobe Commerce as a Cloud Service]은(는) 공유 권한 보안 및 운영 모델을 사용하는 온디맨드 서비스입니다. Adobe과 고객은 이러한 책임을 공유하며 각 당사자는 Adobe Commerce 애플리케이션의 보안 및 운영에 대해 뚜렷한 책임을 지고 있습니다.
 
+[!DNL Adobe Commerce as a Cloud Service with Managed Operations]은(는) 표준 공유 책임 모델 외에 CSE(Customer Success Engineer) 및 연중무휴 24시간 운영되는 P1 지원 팀이 추가된 프리미엄 서비스입니다. Adobe은 플랫폼, 인프라, 보안 및 핵심 애플리케이션을 계속 소유하며 사용자 정의 및 통합을 계속 소유하지만 관리 작업을 사용하면 Adobe Managed Services에서 다음 사항에 대해 컨설팅합니다.
+
+- 통합
+- App Builder 앱
+- Edge Delivery 상점 첫 화면
+- 이벤트 관리
+- 플랫폼 업데이트
+
+Adobe Managed Services도 재해 복구 테스트, 디버깅 및 문제 격리에 대한 책임을 공유합니다. CSE는 Go-Live 및 그 이상을 통해 온보딩으로부터 사용자를 안내하므로, 사용자가 직접 조작하는 대신 모든 단계에서 Adobe 전문가가 사용자와 함께합니다.
+
 >[!BEGINSHADEBOX]
 
-다음 요약 테이블은 RACI 모델을 사용하여 Adobe과 고객 간에 공유된 보안 책임을 보여 줍니다.
+다음 요약 테이블은 RACI 모델을 사용하여 Adobe, Adobe Managed Operations 및 고객 간에 공유된 보안 권한을 표시합니다.
 
 **R** — 담당
 **A** — 승인 가능
@@ -60,39 +70,39 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-| 작업 | Adobe | 고객 |
-| --- | --- | --- |
-| 백엔드 원본 WAF 규칙 정의 | RA | |
-| 백엔드 CDN WAF 규칙 정의 | RA | |
-| [!DNL Adobe Developer App Builder] 응용 프로그램 배포 및 유지 관리 | | RA |
-| 백엔드 플랫폼 WAF 규칙 배포 | RA | |
-| 백엔드 CDN WAF 규칙 배포 | RA | |
-| [!DNL Adobe Commerce as a Cloud Service]의 핵심 버그 수정 | RA | I |
-| [!DNL Adobe Commerce as a Cloud Service] 인프라 패치 릴리스 중 | RA | |
-| 확장(인프라) | RA | |
-| 크기 조절(핵심 애플리케이션) | RA | |
-| 외부 애플리케이션 통합 | | RA |
-| App Builder 앱 설치 | | RA |
-| 모든 App Builder 앱의 성능 테스트 | | RA |
-| 사용자 지정 App Builder 앱의 테마 설정 및 디자인 | | RA |
-| 백엔드 DNS 구성 | RA | I |
-| 온보딩 백엔드 CDN | RA | I |
-| 백엔드 CDN 지원 | RA | I |
-| 백엔드 DNS 공급자 가져오기 | RA | |
-| 프로덕션 및 샌드박스 환경 프로비저닝 | A | R |
-| 클라우드 인프라에서 Adobe Commerce용 Dynamics 액세스 | R | C |
-| 백엔드 고객 보안 문제 해결 | RA | I |
-| 백엔드 CDN 보안 문제 해결 | RA | |
-| Adobe의 보안 조사 지원(스캔/감사) | RA | |
-| PCI ASV 스캔 수행 | RA | I |
-| Adobe Commerce 인프라 PCI 스캔 수정 | R | |
-| OS 및 플랫폼 비밀 관리 | RA | |
-| 백엔드 보안 로그 모니터링 | RA | |
-| 고객 지원 및 액세스 제어 | A | R |
-| Adobe DR 계획 및 백업 및 복원의 연간 테스트 및 문서화 | RA | |
-| 연간 재해 복구 계획 테스트 및 문서화 | RA | |
-| 디버깅 및 문제 격리 | R | R |
-| 디버깅 및 문제 격리 프로세스를 적시에 지원 | R | R |
-| Adobe Commerce 코어에 업데이트 및 패치 게시 | RA | I |
-| Adobe Commerce 코어에 업데이트 및 패치 설치 | RA | I |
-| 핵심 Adobe Commerce 애플리케이션 품질 | RA | |
+| 작업 | Adobe | Adobe 관리 작업 | 고객 |
+| --- | --- | --- | --- |
+| 백엔드 원본 WAF 규칙 정의 | RA | | |
+| 백엔드 CDN WAF 규칙 정의 | RA | | |
+| [!DNL Adobe Developer App Builder] 응용 프로그램 배포 및 유지 관리 | | | RA |
+| 백엔드 플랫폼 WAF 규칙 배포 | RA | | |
+| 백엔드 CDN WAF 규칙 배포 | RA | | |
+| [!DNL Adobe Commerce as a Cloud Service]의 핵심 버그 수정 | RA | | I |
+| [!DNL Adobe Commerce as a Cloud Service] 인프라 패치 릴리스 중 | RA | | |
+| 확장(인프라) | RA | | |
+| 크기 조절(핵심 애플리케이션) | RA | | |
+| 외부 애플리케이션 통합 | | C | RA |
+| App Builder 앱 설치 | | C | RA |
+| 모든 App Builder 앱의 성능 테스트 | | C | RA |
+| 사용자 지정 App Builder 앱의 테마 설정 및 디자인 | | C | RA |
+| 백엔드 DNS 구성 | RA | | I |
+| 온보딩 백엔드 CDN | RA | | I |
+| 백엔드 CDN 지원 | RA | | I |
+| 백엔드 DNS 공급자 가져오기 | RA | | |
+| 프로덕션 및 샌드박스 환경 프로비저닝 | A | | R |
+| 클라우드 인프라에서 Adobe Commerce용 Dynamics 액세스 | R | | C |
+| 백엔드 고객 보안 문제 해결 | RA | | I |
+| 백엔드 CDN 보안 문제 해결 | RA | | |
+| Adobe의 보안 조사 지원(스캔/감사) | RA | | |
+| PCI ASV 스캔 수행 | RA | | I |
+| Adobe Commerce 인프라 PCI 스캔 수정 | R | | |
+| OS 및 플랫폼 비밀 관리 | RA | | |
+| 백엔드 보안 로그 모니터링 | RA | | |
+| 고객 지원 및 액세스 제어 | A | C | R |
+| Adobe DR 계획 및 백업 및 복원의 연간 테스트 및 문서화 | RA | C | |
+| 연간 재해 복구 계획 테스트 및 문서화 | RA | RA | |
+| 디버깅 및 문제 격리 | R | R | R |
+| 디버깅 및 문제 격리 프로세스를 적시에 지원 | R | R | R |
+| Adobe Commerce 코어에 업데이트 및 패치 게시 | RA | C | I |
+| Adobe Commerce 코어에 업데이트 및 패치 설치 | RA | C | I |
+| 핵심 Adobe Commerce 애플리케이션 품질 | RA | C | |
