@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 02108257eed58231854947feafc8c48e0a75a8bb
+source-git-commit: ca71a86bb37c1ddd90118b0babd0a9c530b71be9
 workflow-type: tm+mt
-source-wordcount: '8820'
+source-wordcount: '8909'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 ## 2026년 10월 - 릴리스 #2 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목은 2026년 10월 20일에 프로덕션 환경에서 사용할 수 있습니다.
+다음 항목은 2026년 10월 20일에 프로덕션 환경에 릴리스되었습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ### 사용자 정의 국가 지역 관리
 
-새로운 REST API 엔드포인트를 사용하면 통합에서 기본 지역 데이터가 포함되지 않은 국가에 대해 주 또는 도와 같은 사용자 지정 지역을 관리할 수 있습니다.
+새 [REST API 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-regions)을 사용하면 통합에서 기본 지역 데이터가 포함되지 않은 국가의 주 또는 도와 같은 사용자 지정 지역을 관리할 수 있습니다.
 
 기본(시스템) 영역은 변경하거나 제거할 수 없습니다. 이러한 끝점에는 [!UICONTROL Manage Country Regions] 권한이 필요합니다. <!-- ACCS-1937 -->
 
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 이제 사전 서명된 업로드 URL을 요청할 때 선택적 SHA-256 체크섬을 제공할 수 있습니다. 파일을 업로드할 때 `x-amz-checksum-sha256` 헤더에 동일한 값을 보냅니다. <!-- ACCS-1464 -->
 
-* GraphQL - `checksum_sha256` 필드를 `initiateUpload` 돌연변이에 대한 입력으로 지정합니다.
-* REST - `checksumSha256` 필드에 새 `POST /V1/media/initiate-upload-with-checksum` 끝점을 사용합니다.
+* GraphQL - `checksum_sha256` 필드를 [`initiateUpload` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload#checksum-validation)에 대한 입력으로 지정합니다.
+* REST - `checksumSha256` 필드에 새 [`POST /V1/media/initiate-upload-with-checksum`](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/s3-uploads#initiate-the-upload-with-a-checksum) 끝점을 사용합니다.
 
 ### 주문 편집 체인에서 주문 합계 보기
 
@@ -121,13 +121,26 @@ ht-degree: 0%
 
 ### 재고 수준 가용성 확인
 
-새로운 `stockAvailability(skus: [String!]!)` GraphQL 쿼리는 최대 100SKU에 대한 스톡 수준 가용성을 반환합니다. <!-- ACCS-2079 -->
+새 [`stockAvailability(skus: [String!]!)`](https://developer.adobe.com/commerce/webapi/graphql/schema/inventory-sources/queries/stock-availability) GraphQL 쿼리는 최대 100개의 SKU에 대한 스톡 수준 가용성을 반환합니다. <!-- ACCS-2079 -->
+
+>[!IMPORTANT]
+>
+>이 릴리스에는 [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/inventory-sources/queries/source-availability) GraphQL 쿼리에 대한 변경 내용이 포함됩니다.
+>
+>* `is_saleable` 및 `backorder_message` 필드가 `sourceAvailability`에서 제거됩니다. 대신 `stockAvailability` 쿼리에서 요청하십시오.
+
+### 제품 피드 재고 및 수량
+
+이제 제품 피드는 `ac_inventory` 사용자 지정 제품 특성을 통해 재고 및 장바구니 수량 설정을 내보내고 `ac_tax_class` 및 `ac_attribute_set` 사용자 지정 제품 특성을 통해 설정된 세금 클래스 및 특성을 내보냅니다. <!-- ACCS-1981, MDEE-1129 -->
+
+<!-- needs link pending COMDOX-1862 -->
+
+이러한 외부 끝점이 변경되었으므로 [데이터 피드를 수동으로 다시 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#manage-failed-exports)해야 합니다.
+
 
 ### 개선 사항 및 버그 수정
 
 이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
-
-* 이제 제품 피드는 `ac_inventory` 사용자 지정 제품 특성을 통해 재고 및 장바구니 수량 설정을 내보내고 `ac_tax_class` 및 `ac_attribute_set` 사용자 지정 제품 특성을 통해 설정된 세금 클래스 및 특성을 내보냅니다. <!-- ACCS-1981, MDEE-1129 -->
 
 * [!DNL AEM Assets]이(가) 시각화 소유자일 때 GraphQL에서 카테고리 이미지가 반환되지 않던 문제를 해결했습니다. <!-- ACCS-1943 -->
 

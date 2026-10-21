@@ -13,9 +13,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 663a9e8e61850f3d34712971eb28f18893d56ad2
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1483'
 ht-degree: 0%
 ---
 # 제한 및 경계
@@ -118,7 +118,6 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | 카탈로그 보기별 정책 | 허용되는 데이터 필터 수 | 10 | 아니요 |
 | 정책의 속성 값 | 필터링을 구성할 수 있는 제품 특성 수입니다 | 100 | 아니요 |
 | [제한된 액세스 키 할당](setup/private-catalog-view.md) | 단일 카탈로그 보기에 할당할 수 있는 제한된 액세스 키 수 | 3 | 아니요 |
-| [제한된 액세스 키](setup/restricted-access-keys.md) | 환경당 키 수 | 최대 100개 | 아니요 |
 | RSA 키 크기(제한된 액세스 키) | 제한된 액세스 키에 허용되는 최소 및 최대 키 강도 | 최소 2048비트, 최대 8192비트 | 아니요 |
 | 제한된 액세스 키 | 키 해지 전파 지연 | 캐싱으로 인해 최대 5분. 지연 시간이 경과하면 제거된 키로 서명된 토큰이 거부됩니다. | 적용할 수 없음 |
 
