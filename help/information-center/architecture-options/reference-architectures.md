@@ -51,9 +51,9 @@ ht-degree: 0%
 다음 설명서는 다양한 배포 모델 및 사용 사례에서 Adobe Commerce 플랫폼 및 서비스에 대한 참조 아키텍처 패턴을 제공합니다.
 
 - [Adobe Commerce as a Cloud Service 아키텍처](/help/cloud-service/overview.md#architecture)
-- [Adobe Commerce 엔터프라이즈 참조 아키텍처](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/architecture/enterprise-blueprint){target="_blank"}
+- [Adobe Commerce 엔터프라이즈 참조 아키텍처](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/architecture/enterprise-blueprint){target="_blank"}
 - [Adobe Commerce storefront 아키텍처](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/architecture/){target="_blank"}
-- [클라우드 인프라 아키텍처의 Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/cloud-architecture){target="_blank"}
+- [클라우드 인프라 아키텍처의 Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/architecture/cloud-architecture){target="_blank"}
 
 ## Edge Delivery Services 기반 Storefront
 

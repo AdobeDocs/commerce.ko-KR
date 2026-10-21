@@ -49,7 +49,7 @@ ht-degree: 0%
 
 - **[!DNL Adobe Commerce as a Cloud Service]** - Commerce Cloud Manager 셀프서비스 프로비전 포털을 사용하여 샌드박스 및 프로덕션 인스턴스를 시작합니다. [Adobe Commerce as a Cloud Service 시작하기](/help/cloud-service/getting-started.md)를 참조하세요.
 
-- **Adobe Commerce on Cloud(파트너)** - Adobe 지원을 통해 샌드박스 요청을 제출합니다. [클라우드 인프라 샌드박스 요청에 대한 파트너 Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/partner-magento-commerce-cloud-sandbox-requests)을(를) 참조하십시오.
+- **Adobe Commerce on Cloud(파트너)** - Adobe 지원을 통해 샌드박스 요청을 제출합니다. [클라우드 인프라 샌드박스 요청에 대한 파트너 Adobe Commerce](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/partner-magento-commerce-cloud-sandbox-requests)을(를) 참조하십시오.
 
 - **Commerce 서비스** - 프로덕션 인스턴스에 연결하기 전에 [Commerce 서비스 커넥터](/help/landing/saas.md)와 함께 샌드박스 API 키를 사용하여 서비스 통합을 테스트합니다.
 

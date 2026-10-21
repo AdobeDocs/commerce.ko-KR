@@ -51,7 +51,7 @@ Commerce 정보 센터는 Adobe Commerce 설명서 생태계의 제품 간 진�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>학습 및 리소스</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://experienceleague.adobe.com/en/playlists?solution=Commerce" target="_blank">비디오 재생 목록</a> - <a href="https://helpx.adobe.com/legal/product-descriptions.html" target="_blank">제품 설명</a> - <a href="https://certification.adobe.com/certifications#filters=Adobe%20Commerce" target="_blank">인증</a>
+<a href="https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://experienceleague.adobe.com/ko/playlists?solution=Commerce" target="_blank">비디오 재생 목록</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions.html" target="_blank">제품 설명</a> - <a href="https://certification.adobe.com/certifications#filters=Adobe%20Commerce" target="_blank">인증</a>
 
 </td>
 <td><strong>개발자 리소스</strong><br/>

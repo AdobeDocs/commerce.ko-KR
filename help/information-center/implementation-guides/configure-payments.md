@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 시작
 
-1. [결제 서비스 호환성](https://experienceleague.adobe.com/en/docs/commerce/payment-services/compatibility)에서 제품 버전 및 국가 가용성을 확인하세요.
+1. [결제 서비스 호환성](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/compatibility)에서 제품 버전 및 국가 가용성을 확인하세요.
 
 1. [온보딩 결제 서비스 흐름](/help/payment-services/onboard.md)을 따르십시오.
 

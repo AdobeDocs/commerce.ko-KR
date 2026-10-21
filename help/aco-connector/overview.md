@@ -2,7 +2,7 @@
 title: Adobe Commerce Optimizer 커넥터
 description: '[!DNL Adobe Commerce Optimizer Connector]이(가) 검색 및 Storefront 전달을 위해 Commerce의 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]에 동기화하는 방법에 대해 알아봅니다.'
 feature: Integration, Storefront, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T19:00:00.000Z'
 nudge: true
 TQID: 'https://experienceleague.adobe.com/v769V06jl-9YfovpL3HOB-FxovIMZyHxOlHXHvkQmbc'

@@ -100,7 +100,7 @@ Optimizer에서 검색 및 머천다이징을 제공하는 동안 [!DNL Adobe Co
 
 API Mesh를 사용하여 Adobe Commerce API를 개인 또는 서드파티 API로 오케스트레이션합니다. Adobe Developer App Builder을 사용하여 사용자 정의 애플리케이션 및 통합을 빌드합니다. 관련된 Commerce 확장성 지침을 보려면 [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/) 및 [Adobe Commerce 확장성](https://developer.adobe.com/commerce/extensibility/)을 참조하십시오.
 
-특히 이벤트 기반 통합에 대해서는 [Adobe Commerce용 Adobe I/O Events](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/io-events/getting-started-io-events)을 참조하십시오.
+특히 이벤트 기반 통합에 대해서는 [Adobe Commerce용 Adobe I/O Events](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/io-events/getting-started-io-events)을 참조하십시오.
 
 
 ### 장바구니 및 체크아웃 전달
