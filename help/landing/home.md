@@ -1,8 +1,6 @@
 ---
 title: 서비스 안내서 홈
-description: Commerce SaaS 서비스에 대한 Adobe Commerce 제품 설명서 찾아보기
-seo-title: Services for Adobe Commerce
-seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
+description: 제품 검색, 결제, 데이터 동기화 및 통합에 대한 Adobe Commerce 서비스 설명서를 찾습니다. 가용성 및 설정 지침을 검토합니다.
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
 TQID: https://experienceleague.adobe.com/zKL5fNTECsNOKZfEl7OUSYHTo-wrh81z3-C7wB1SoWM
@@ -50,23 +48,28 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 last-update: 2026-10-09
-source-git-commit: ad2a6b3d25c2597442ded206ea264bd363a66733
+source-git-commit: 4c3c267873a68560a885c6376cd1137a7503710a
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1522'
 ht-degree: 0%
 ---
 # Adobe Commerce 서비스 안내서
 
-Adobe Commerce 서비스는 상점 확장, 통합 간소화 및 데이터 관리 최적화를 지원하는 강력한 기능을 제공합니다.
+Adobe Commerce 서비스는 상점 경험을 확장하고 Adobe 및 타사 솔루션을 연결하며 상거래 데이터를 관리하는 데 도움이 되는 구성 가능한 기능을 제공합니다.
+
+
+>[!NOTE]
+>
+>Adobe Commerce 서비스 가용성, 설정 및 확장 옵션은 Commerce 배포 모델 및 서비스에 따라 다릅니다. 항상 서비스별 안내서에서 가장 정확한 정보를 확인하십시오.
 
 ## Commerce은 서비스에 어떻게 연결합니까?
 
-모든 Commerce 서비스는 [Commerce 서비스 커넥터](saas.md)를 통해 Commerce 인스턴스에 연결합니다.
+필요한 서비스의 경우 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)에서 API 키 및 SaaS 데이터 공간을 사용하여 Commerce 인스턴스를 지원되는 서비스에 연결합니다. 연결 및 데이터 동기화 단계는 배포 모델 및 서비스에 따라 다릅니다.
 
 Commerce 서비스 커넥터가 구성되면 다음 기능에 액세스할 수 있습니다.
 
-- **상점 서비스** - 제품 검색, 추천 및 결제를 위한 AI 기반 기능
-- **통합 서비스** - Adobe Experience Platform, AEM Assets 및 기타 Adobe 솔루션에 대한 연결
+* **상점 서비스** - 제품 검색, 추천 및 결제를 위한 AI 기반 기능
+* **통합 서비스** - Adobe Experience Platform, AEM Assets 및 기타 Adobe 솔루션에 대한 연결
 
 이러한 서비스를 통해 전환을 늘리고, 개인화된 경험을 제공하고, Adobe 에코시스템 전반에서 상거래 데이터를 더 잘 사용할 수 있습니다.
 
@@ -76,9 +79,9 @@ Commerce 서비스 커넥터가 구성되면 다음 기능에 액세스할 수 �
 >
 >Adobe에서는 모든 Commerce 서비스의 지원되는 최신 버전으로 업그레이드할 것을 권장합니다. [릴리스 정보](release-notes-all.md)를 참조하세요.
 
-이러한 기능 외에도 Commerce 인스턴스에서 SaaS 플랫폼으로 이동하는 데이터 흐름을 모니터링할 수 있는 도구가 있습니다. 이러한 데이터 도구는 데이터를 자동으로 동기화하고 성능을 최적화하는 데 도움이 됩니다.
-
 ## 사용 가능한 서비스
+
+다음 목록은 기능을 기준으로 서비스를 그룹화합니다. 가용성, 라이센싱 및 설정은 PaaS와 SaaS 간에 다를 수 있으며 서비스 버전에 따라 변경될 수 있습니다. 연결된 각 안내서의 배포 모델 레이블 및 사전 요구 사항을 따르십시오.
 
 >[!BEGINTABS]
 
@@ -143,6 +146,13 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
 </tr>
 </table>
 
+>[!NOTE]
+>
+>
+>Adobe Commerce Optimizer은 별도의 라이브 검색, 카탈로그 서비스 및 제품 추천 서비스를 사용하는 대신 기본적으로 카탈로그 및 머천다이징 기능을 제공합니다. [Adobe Commerce Optimizer이란?](../optimizer/overview.md)을 참조하세요.
+>
+>Optimizer와 통합된 Adobe Commerce 배포의 경우 Adobe Commerce Optimizer 커넥터는 해당 동기화를 위해 Commerce 서비스 커넥터를 사용할 필요 없이 카탈로그 및 가격 동기화를 처리합니다. [결제 서비스](../payment-services/compatibility.md) 및 [데이터 연결](../data-connection/connect-data.md#configure-the-commerce-services-connector)과 같은 다른 통합에는 여전히 Commerce 서비스 커넥터가 필요합니다. [Adobe Commerce용 커넥터 설정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started/get-started)을 참조하세요.
+
 >[!TAB 통합 서비스]
 
 통합 서비스는 Commerce 인스턴스를 Adobe 내의 다른 제품 또는 서비스에 연결하는 기능을 말합니다.
@@ -193,7 +203,7 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
 
 >[!TAB 데이터 도구]
 
-데이터 도구를 사용하면 Commerce 인스턴스와 연결된 서비스 간의 정보 흐름을 관리하고 최적화할 수 있습니다. 이러한 툴은 효율적인 데이터 동기화를 보장하고 동기화 작업을 모니터링하며 리소스 집약적인 프로세스를 오프로드하여 성능을 향상시킵니다.
+데이터 도구를 사용하면 Commerce 인스턴스와 연결된 서비스 간의 정보 흐름을 관리하고 최적화할 수 있습니다. 이러한 툴은 효율적인 데이터 동기화를 보장하고 동기화 작업을 모니터링하며 리소스 집약적인 프로세스를 오프로드하여 성능을 향상시킵니다. 서비스 및 배포 모델에 따라 가용성과 동작이 달라집니다. 설정 지침, 동기화, 동기화 작업 모니터링 및 성능 세부 정보는 각 안내서를 참조하십시오.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -224,11 +234,11 @@ Storefront 서비스는 제품 검색을 최적화하고, 고객 상호 작용�
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
       <img alt="데이터 동기화 모니터링" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
          <strong>데이터 관리 대시보드</strong>
          </a>
       </div>
@@ -254,27 +264,27 @@ Adobe Commerce 서비스는 비즈니스 규모 확장, 고객 경험 개선 또
 | 옴니채널 개인화된 경험 만들기 | 상거래 데이터가 격리되어 채널 간에 개인화된 경험을 제공할 수 없습니다. | [데이터 연결](../data-connection/overview.md)을 사용하여 동작, 트랜잭션 및 프로필 데이터를 Adobe Experience Platform으로 보냅니다. 정교한 고객 세그먼트를 작성하고, 포기한 장바구니 캠페인을 만들고, 유사 고객을 타깃팅하고, 전체 고객 여정에서 시즌 트렌드를 분석합니다. |
 | 디지털 자산 관리 간소화 | 여러 시스템에서 제품 이미지와 리치 미디어를 관리하는 데는 많은 시간이 소요되고 오류가 발생하기 쉽습니다. | [AEM Assets 통합](../aem-assets-integration/overview.md)은(는) Adobe Commerce을 Adobe Experience Manager Assets 프로젝트에 연결하고, 워크플로를 단순화하고, 모든 접점에서 일관된 브랜드 경험을 보장하여 중앙 집중식 자산 관리를 제공합니다. |
 | 결제 처리 최적화 | 제한된 결제 옵션과 열악한 결제 경험이 고객 만족과 전환에 타격을 주고 있다. | [결제 서비스](../payment-services/guide-overview.md)에서는 결제, 주문 및 송장을 관리하기 위한 통합 대시보드를 사용하여 무이자 할부를 비롯한 여러 결제 방법을 제공합니다. |
-| 규모에 맞게 데이터 동기화 관리 | 리소스를 많이 사용하는 인덱싱으로 인해 사이트의 속도가 느려지고 데이터 동기화 문제를 쉽게 추적할 수 없습니다. | [SaaS 데이터 내보내기](../data-export/overview.md), [SaaS 가격 인덱서](../price-index/price-indexing.md) 및 [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 카탈로그, 주문 및 인벤토리 데이터를 자동으로 동기화하고 가격 계산을 Adobe의 클라우드 인프라로 오프로드하며 동기화 상태를 실시간으로 볼 수 있도록 합니다. |
+| 규모에 맞게 데이터 동기화 관리 | 리소스를 많이 사용하는 인덱싱으로 인해 사이트의 속도가 느려지고 데이터 동기화 문제를 쉽게 추적할 수 없습니다. | [SaaS 데이터 내보내기](../data-export/overview.md), [SaaS 가격 인덱서](../price-index/price-indexing.md) 및 [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)는 카탈로그, 주문 및 인벤토리 데이터를 자동으로 동기화하고 가격 계산을 Adobe의 클라우드 인프라로 오프로드하며 동기화 상태를 실시간으로 볼 수 있도록 합니다. |
 | 잃어버린 고객을 되찾고 반품을 줄입니다. | 높은 고객 이탈률과 제품 수익률은 수익성에 영향을 미치고 있습니다. | [데이터 연결](../data-connection/overview.md)을(를) Adobe Journey Optimizer 및 Real-Time CDP과 결합하여 반환 패턴을 식별하고, 윈백 캠페인을 만들고, 행동으로 고객을 분류하고, 이메일 및 SMS를 통해 개인화된 재참여 캠페인을 보냅니다. |
 | 데이터 기반 머천다이징 의사 결정 | 프로모션할 제품 또는 프로모션을 실행할 시기를 알 수 없습니다. | [실시간 검색](../live-search/overview.md)은(는) 검색 성능 인사이트와 머천다이징 도구를 제공하여 주요 지표에 액세스하고, 검색어를 분석하고, 지능형 머천다이징 규칙을 사용하여 실제 고객 행동 및 비즈니스 목표에 따라 제품을 올리거나 매립합니다. |
 | 중요한 데이터에 대한 규정 준수 유지 | HIPAA 규정 준수를 유지하면서 중요한 고객 데이터를 처리해야 합니다. | [데이터 연결](../data-connection/overview.md)은(는) HIPAA를 사용할 수 있으므로 규정을 준수하고 개인정보 보호 요청을 체계적으로 처리하면서 Experience Platform과 백오피스 데이터를 공유할 수 있습니다. |
 
 ## Commerce Services의 결합 방식
 
-Adobe Commerce 서비스는 통합 플랫폼을 기반으로 구축됩니다. 여러 서비스를 사용하는 경우 다음과 같은 이점을 얻을 수 있습니다.
+Adobe Commerce 서비스는 통합 플랫폼을 기반으로 구축되었으며 이를 결합하여 연결된 상점, 머천다이징, 결제, 에셋 및 고객 데이터 워크플로우를 지원할 수 있습니다. 여러 서비스를 사용하는 경우 다음과 같은 이점을 얻을 수 있습니다.
 
-- **통합 데이터 파이프라인** - 제품, 가격 및 인벤토리 데이터가 모든 서비스에서 자동으로 동기화되므로 중복 데이터 입력 또는 사용자 정의 통합이 필요하지 않습니다.
-- **실시간 개인화** - 검색, 탐색 및 구매에서 비롯된 고객 행동은 인텔리전트 권장 사항과 전체 상점 순위를 강화합니다.
-- **일관된 Storefront 통합** - Edge Delivery Services, PWA Studio 또는 Headless 구현을 통해 제공되는 Commerce Storefront를 사용하든 상관없이 모든 플랫폼에서 동일한 드롭인 및 API가 원활하게 작동합니다.
-- **다중 스토어 및 다국어 지원** - 추가 설정 없이 모든 서비스가 스토어 보기, 고객 세그먼트 및 B2B 카탈로그 구성을 자동으로 준수합니다.
-- **다양한 제품 시각적 요소** - AEM Assets과 통합하면 최적화된 제품 이미지가 검색 결과, 제품 페이지 및 권장 사항에 일관되게 표시됩니다.
-- **연결된 고객 데이터** - 데이터 연결을 사용하여 Adobe Experience Platform, Real-Time CDP 및 Journey Optimizer과 쇼핑 동작을 공유하여 크로스 채널 개인화 및 캠페인 최적화를 활성화합니다.
+* **통합 데이터 파이프라인** - 제품, 가격 및 인벤토리 데이터가 모든 서비스에서 자동으로 동기화되므로 중복 데이터 입력 또는 사용자 정의 통합이 필요하지 않습니다.
+* **실시간 개인화** - 검색, 탐색 및 구매에서 비롯된 고객 행동은 인텔리전트 권장 사항과 전체 상점 순위를 강화합니다.
+* **일관된 상점 통합** - Edge Delivery Services, PWA Studio 또는 Headless 구현에서 제공하는 Commerce 상점 통합을 사용하든 상관없이 모든 플랫폼에서 지속적으로 상거래 경험을 제공하기 위해 드롭인 및 API에 액세스할 수 있습니다.
+* **다중 스토어 및 다국어 지원** - 추가 설정 없이 모든 서비스가 스토어 보기, 고객 세그먼트 및 B2B 카탈로그 구성을 자동으로 준수합니다.
+* **다양한 제품 시각적 요소** - AEM Assets과 통합하면 최적화된 제품 이미지가 검색 결과, 제품 페이지 및 권장 사항에 일관되게 표시됩니다.
+* **연결된 고객 데이터** - 데이터 연결을 사용하여 Adobe Experience Platform, Real-Time CDP 및 Journey Optimizer과 쇼핑 동작을 공유하여 크로스 채널 개인화 및 캠페인 최적화를 활성화합니다.
 
 예를 들어, 쇼핑객이 라이브 검색을 사용하여 제품을 검색하고, 제품 추천을 본 후 장바구니에 추가하고, 결제 서비스로 구매를 완료하면, 이 모든 활동은 통합 데이터 파이프라인을 통해 원활하게 흐릅니다. 그런 다음 이 행동 데이터를 통해 향후 구매자를 위한 더 나은 검색 결과와 더 관련성 있는 권장 사항을 제공할 수 있습니다.
 
 >[!NOTE]
 >
->서비스 간에 동작 데이터 공유를 사용하려면 이벤트 데이터 수집을 구성해야 합니다. 설치 지침은 [Commerce 서비스 구성](saas.md#saas-configuration)을 참조하십시오.
+>Adobe Experience Platform과 동작 데이터 공유를 활성화하려면 데이터 연결에서 이벤트 데이터 수집을 구성합니다. 설치 지침은 [데이터 연결 데이터 수집](../data-connection/connect-data.md#data-collection)을 참조하세요.
 
 각 서비스를 독립적으로 이용할 수 있지만 이를 결합하면 보다 지능적이고 개인화된 쇼핑 경험이 창출된다.
 
