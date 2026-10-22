@@ -1,7 +1,7 @@
 ---
-source-git-commit: f43710c77d063d923d136b9fda2d9283ede97788
+source-git-commit: bda4dae0a31e869ced20968bc9a9785f6b730c97
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1254'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -360,7 +360,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/insights/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
+      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/en/docs/commerce/information-center/insights-and-guidance/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
 </td>
       <td>
         새 주제

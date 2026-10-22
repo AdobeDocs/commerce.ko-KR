@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Optimizer 커넥터
-description: '[!DNL Adobe Commerce]과(와) [!DNL Adobe Commerce Optimizer] 사이의 카탈로그 동기화, 검색 및 Storefront 배달을 위한 [!DNL Adobe Commerce Optimizer Connector]에 대해 알아봅니다.'
+description: '[!DNL Adobe Commerce Optimizer Connector]이(가) 검색 및 Storefront 전달을 위해 Commerce의 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]에 동기화하는 방법에 대해 알아봅니다.'
 feature: Integration, Storefront, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-09T19:00:00.000Z'
@@ -89,9 +89,9 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a3ade1a31d3c2905b601f71bda118de89c43cf59
+source-git-commit: bda4dae0a31e869ced20968bc9a9785f6b730c97
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # [!DNL Adobe Commerce Optimizer Connector]
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 ### B2B 커넥터 동작 {#b2b-shared-catalog-projection-specification}
 
-[!DNL Adobe Commerce Optimizer Connector for B2B]은(는) B2B 공유 카탈로그 및 회사 할당 구성의 단방향 프로젝션으로 기본 커넥터를 보호된 카탈로그 경험으로 확장합니다. [!DNL Adobe Commerce]은(는) 카탈로그 및 가격 책정 데이터의 소스로 유지됩니다. B2B 커넥터는 기본 카탈로그 및 가격 동기화를 기반으로 빌드되고 커넥터가 생성한 프로젝션을 관리합니다.
+[!DNL Adobe Commerce Optimizer Connector for B2B]은(는) B2B 공유 카탈로그 및 회사 할당 구성의 단방향 프로젝션으로 기본 커넥터를 보호된 카탈로그 경험으로 확장합니다. [!DNL Adobe Commerce]은(는) 카탈로그 및 가격 책정 데이터의 기록 시스템으로 유지됩니다. B2B 커넥터는 기본 카탈로그 및 가격 동기화를 기반으로 하며 커넥터에서 생성한 프로젝션을 관리합니다.
 
 프로젝션 매핑, 런타임 인증 흐름 및 보호 경계에 대해서는 [B2B 공유 카탈로그 프로젝션](b2b-shared-catalog-projection.md)을 참조하십시오. 설치 지침은 [B2B 커넥터 시작](/help/aco-connector/get-started-b2b-shared-catalogs.md)을 참조하세요.
 

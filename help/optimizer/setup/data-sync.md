@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2dbf2b973af0cb7b831a17ca1a868a81b11bc9ee
+source-git-commit: 014ae9bbe0a9bb48e6a5d574af4fc47158ad33dc
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 JSON 형식의 동기화된 제품에 대한 세부 정보를 보려면 동기화된 제품 테이블에서 제품 행의 코드 아이콘 ![코드 링크](../assets/data-sync-details.png)를 클릭하십시오.
 
-![제품 세부 정보 동기화](../assets/synced-products.png)
+![동기화된 제품 세부 정보](../assets/synced-products.png)
 
 ## 카탈로그 데이터 재동기화
 
