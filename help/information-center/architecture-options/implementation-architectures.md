@@ -75,7 +75,7 @@ Adobe Commerce 구현 아키텍처는 상거래 백엔드([!DNL Adobe Commerce] 
 | 옵션 | 기록 시스템 | 트랜잭션 경로 | 최적 |
 | --- | --- | --- | --- |
 | Commerce Foundation이 있는 **[!DNL Adobe Commerce as a Cloud Service]** | Adobe 관리 Commerce Foundation | 관리 Commerce Foundation 및 연결된 Commerce 서비스 | 인프라 소유권이 감소된 Adobe 관리 SaaS(Software as a Service) Commerce을 원하는 고객 |
-| [!DNL Adobe Commerce Optimizer Connector]**을(를) 사용하여 클라우드 또는 온프레미스에서**[!DNL Adobe Commerce] | 기존 Commerce Foundation, Commerce 데이터 및 트랜잭션 | 기존 Commerce Foundation API 및 연결된 트랜잭션 서비스 | 기존 [!DNL Adobe Commerce] 배포에 Optimizer 검색 및 머천다이징 기능을 추가하려는 고객 |
+| [!DNL Adobe Commerce Optimizer Connector]&#x200B;**을(를) 사용하여 클라우드 또는 온프레미스에서**&#x200B;[!DNL Adobe Commerce] | 기존 Commerce Foundation, Commerce 데이터 및 트랜잭션 | 기존 Commerce Foundation API 및 연결된 트랜잭션 서비스 | 기존 [!DNL Adobe Commerce] 배포에 Optimizer 검색 및 머천다이징 기능을 추가하려는 고객 |
 | 외부 상거래 백엔드가 있는 **독립 실행형 [!DNL Adobe Commerce Optimizer]** | 기존 또는 타사 상거래 플랫폼. 카탈로그 및 가격 데이터가 외부 소스에서 Optimizer에 추가됩니다. | API Mesh, App Builder 또는 직접 통합은 상점 전면을 서드파티 장바구니, 체크아웃, 고객, 주문, 결제, 세금, 배송 및 주문 처리 서비스에 연결합니다 | 기존 또는 서드파티 트랜잭션 상거래 플랫폼을 유지하면서 Optimizer 기능을 원하는 고객 |
 | **[!DNL Adobe Commerce]클라우드 또는 Commerce Foundation을 사용하는 온-프레미스** | Commerce 재단 | Commerce Foundation API 및 구성된 결제, 세금, 배송, 재고 및 이행 통합 | 클라우드 또는 온-프레미스 인프라에 대한 배포 제어와 함께 전체 [!DNL Adobe Commerce] 플랫폼이 필요한 고객 |
 
@@ -86,7 +86,7 @@ Storefront는 Commerce Foundation API, Storefront 서비스([!DNL Catalog Servic
 | 옵션 | Storefront 경험 | Storefront 데이터 경로 |
 | --- | --- | --- |
 | Commerce Foundation이 있는 **[!DNL Adobe Commerce as a Cloud Service]** | Edge Delivery Services 또는 기타 지원되는 Headless 환경에서 제공하는 Commerce Storefront | Storefront Services 및 핵심 플랫폼 데이터용 Commerce Foundation API |
-| [!DNL Adobe Commerce Optimizer Connector]**을(를) 사용하여 클라우드 또는 온프레미스에서**[!DNL Adobe Commerce] | Optimizer 경험을 사용한 Edge Delivery Services 또는 사용자 지정 헤드리스 상점 | Optimizer 관리 카탈로그 및 머천다이징 데이터를 위한 Commerce Optimizer 머천다이징 서비스 GraphQL API |
+| [!DNL Adobe Commerce Optimizer Connector]&#x200B;**을(를) 사용하여 클라우드 또는 온프레미스에서**&#x200B;[!DNL Adobe Commerce] | Optimizer 경험을 사용한 Edge Delivery Services 또는 사용자 지정 헤드리스 상점 | Optimizer 관리 카탈로그 및 머천다이징 데이터를 위한 Commerce Optimizer 머천다이징 서비스 GraphQL API |
 | 외부 상거래 백엔드가 있는 **독립 실행형 [!DNL Adobe Commerce Optimizer]** | Edge Delivery Services 또는 사용자 지정 헤드리스 상점 기반의 Commerce 상점 | 카탈로그 및 머천다이징 데이터용 Commerce Optimizer 머천다이징 서비스 GraphQL API |
 | **[!DNL Adobe Commerce]클라우드 또는 Commerce Foundation을 사용하는 온-프레미스** | Edge Delivery Services, Luma, PWA 또는 사용자 지정 헤드리스 상점 | Commerce Foundation API 및 구성 시 Storefront 서비스 |
 

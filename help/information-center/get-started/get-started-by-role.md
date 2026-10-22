@@ -70,7 +70,7 @@ Adobe Commerce에는 두 개의 머천다이징 경로가 있습니다. 사용�
 - [제품 추천이란 무엇입니까?](/help/product-recommendations/overview.md)
 - [Adobe Commerce용 카탈로그 서비스](/help/catalog-service/overview.md).
 
-- [!DNL Adobe Commerce Optimizer]**의**&#x200B;기본 머천다이징 - Cloud 또는 온-프레미스에서 Adobe Commerce이 [!DNL Adobe Commerce Optimizer Connector]을(를) 사용하여 [!DNL Adobe Commerce Optimizer]에 연결할 때 사용됩니다. [머천다이징 개요](/help/optimizer/merchandising/overview.md)를 참조하세요.
+- [!DNL Adobe Commerce Optimizer]&#x200B;**의**&#x200B;기본 머천다이징 - Cloud 또는 온-프레미스에서 Adobe Commerce이 [!DNL Adobe Commerce Optimizer Connector]을(를) 사용하여 [!DNL Adobe Commerce Optimizer]에 연결할 때 사용됩니다. [머천다이징 개요](/help/optimizer/merchandising/overview.md)를 참조하세요.
 
 ## 관리자용
 
