@@ -136,4 +136,4 @@ Ecommerce는 더 이상 상점 및 검색 결과에 제한되지 않습니다. L
 * [정책](/help/optimizer/setup/policies.md)
 * [Adobe Commerce App Builder용 AI 코딩 개발자 도구](/help/cloud-service/migration/coding-tools.md)
 * [COMMERCE API](../../apis/commerce-apis.md)
-* [Commerce 개발자 에이전트 재생 목록](https://experienceleague.adobe.com/en/playlists/commerce-developer-agent) - Commerce 개발자 에이전트 설정 및 사용에 대한 기술 비디오를 시청합니다.
+* [Commerce 개발자 에이전트 재생 목록](https://experienceleague.adobe.com/ko/playlists/commerce-developer-agent) - Commerce 개발자 에이전트 설정 및 사용에 대한 기술 비디오를 시청합니다.

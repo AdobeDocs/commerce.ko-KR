@@ -90,15 +90,15 @@ ht-degree: 0%
 
 ### B2C 및 B2B 상거래
 
-Adobe Commerce은 단일 Commerce 인스턴스의 두 모델을 모두 포함하여 B2C 및 B2B 비즈니스 모델을 모두 지원합니다. [Adobe Commerce B2B 소개](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/introduction)
+Adobe Commerce은 단일 Commerce 인스턴스의 두 모델을 모두 포함하여 B2C 및 B2B 비즈니스 모델을 모두 지원합니다. [Adobe Commerce B2B 소개](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/introduction)
 
-B2B 기능은 제공에 따라 다릅니다. Adobe Commerce 온 클라우드 인프라 및 온프레미스의 경우 Adobe Commerce B2B는 별도의 라이선스와 설치가 필요한 확장 프로그램입니다. Adobe Commerce as a Cloud Service에는 기본적으로 회사 관리 및 견적 처리와 같은 핵심 B2B 기능이 포함되어 있습니다. [Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/start/resources/extensions)을(를) 참조하십시오.
+B2B 기능은 제공에 따라 다릅니다. Adobe Commerce 온 클라우드 인프라 및 온프레미스의 경우 Adobe Commerce B2B는 별도의 라이선스와 설치가 필요한 확장 프로그램입니다. Adobe Commerce as a Cloud Service에는 기본적으로 회사 관리 및 견적 처리와 같은 핵심 B2B 기능이 포함되어 있습니다. [Adobe Commerce B2B](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/resources/extensions)을(를) 참조하십시오.
 
 ### Adobe Commerce as a Cloud Service
 
 Adobe Commerce as a Cloud Service은 완전히 관리되는 클라우드 기반의 SaaS(Software as a Service) 서비스입니다. Adobe은 핵심 Commerce 애플리케이션, 인프라 및 업데이트를 관리합니다. 구성 요소에는 Commerce Foundation, Edge Delivery Services에서 제공하는 Commerce Storefront, 머천다이징 서비스, 제품 시각화 및 개발자 도구가 포함됩니다.
 
-[Adobe Commerce as a Cloud Service 개요](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)를 참조하세요.
+[Adobe Commerce as a Cloud Service 개요](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview)를 참조하세요.
 
 ### Adobe Commerce Optimizer
 
@@ -106,7 +106,7 @@ Adobe Commerce Optimizer은 상점, 카탈로그, 제품 검색 및 머천다이
 
 Adobe Commerce Optimizer은 서드파티 소스에서 카탈로그 데이터를 수집할 수 있습니다. 서드파티 시스템과의 장바구니 및 체크아웃 통합은 API Mesh 및 App Builder과 같은 통합 도구를 사용합니다.
 
-[Adobe Commerce Optimizer이란?](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview)을(를) 참조하십시오.
+[Adobe Commerce Optimizer이란?](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/overview)을(를) 참조하십시오.
 
 >[!NOTE]
 >
@@ -116,13 +116,13 @@ Adobe Commerce Optimizer은 서드파티 소스에서 카탈로그 데이터를 
 
 Adobe Commerce 온프레미스는 판매자 또는 호스팅 공급자가 호스팅합니다. 판매자 또는 제공자는 호스팅 환경, 인프라 및 플랫폼 서비스를 관리한다.
 
-[온-프레미스 설치 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)를 참조하세요.
+[온-프레미스 설치 개요](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview)를 참조하세요.
 
 ### 클라우드 인프라의 Adobe Commerce
 
 클라우드 인프라의 Adobe Commerce은 PaaS(Platform as a Service) 배포입니다. Adobe은 호스팅된 플랫폼을 관리하는 반면, 판매자는 애플리케이션 수준 유지 관리, 사용자 지정 코드, 구성 및 기타 공유 책임 작업에 대한 책임을 유지합니다.
 
-[클라우드 인프라의 Commerce](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) 및 [Adobe Commerce as a Cloud Service으로 마이그레이션](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/overview)을 참조하십시오.
+[클라우드 인프라의 Commerce](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview) 및 [Adobe Commerce as a Cloud Service으로 마이그레이션](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview)을 참조하십시오.
 
 ## Commerce을 확장하는 서비스
 
@@ -142,7 +142,7 @@ storefront 및 제품 경험을 위한 Adobe Commerce 서비스는 다음과 같
 
 **결제 서비스**&#x200B;에서는 결제 방법 및 결제 처리, 주문 및 송장에 대한 보기를 제공합니다. 사용 가능 여부는 Commerce 제품 및 배포에 따라 다릅니다.
 
-[결제 서비스](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)를 참조하세요.
+[결제 서비스](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)를 참조하세요.
 
 ### 데이터 및 통합 서비스
 
@@ -162,7 +162,7 @@ Commerce에는 플랫폼 연결 및 데이터 동기화를 위한 서비스 및 
 
 ### 서비스 가용성
 
-이 비교를 사용하여 Commerce 제품에 대한 서비스 경로를 식별합니다. 지원되는 버전, 라이선스 및 설정 요구 사항에 대해서는 [Adobe Commerce 기능 비교](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/feature-comparison) 및 각 서비스 안내서를 검토하십시오.
+이 비교를 사용하여 Commerce 제품에 대한 서비스 경로를 식별합니다. 지원되는 버전, 라이선스 및 설정 요구 사항에 대해서는 [Adobe Commerce 기능 비교](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/feature-comparison) 및 각 서비스 안내서를 검토하십시오.
 
 | 서비스 또는 기능 | 가용성 |
 | --- | --- |

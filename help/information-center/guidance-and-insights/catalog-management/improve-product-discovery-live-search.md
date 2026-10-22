@@ -47,7 +47,7 @@ Adobe Commerce 라이브 검색은 검색 문제를 발견하고 경험을 구�
 
 ## 검색 성능에서 신호 찾기
 
-라이브 검색 성능 작업 영역에서 고유 검색, 결과가 없는 검색, 인기 있는 결과, 클릭스루 비율, 전환율 및 평균 클릭 위치와 같은 지표를 검토합니다. 트렌드를 식별하고 주의가 필요한 쿼리 또는 제품을 결정합니다. [성능](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/performance)
+라이브 검색 성능 작업 영역에서 고유 검색, 결과가 없는 검색, 인기 있는 결과, 클릭스루 비율, 전환율 및 평균 클릭 위치와 같은 지표를 검토합니다. 트렌드를 식별하고 주의가 필요한 쿼리 또는 제품을 결정합니다. [성능](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/performance)
 
 ![고유 검색, 평균 클릭 위치, 클릭스루 비율, 전환율 및 결과 0을 표시하는 실시간 검색 성능 작업 영역(고유 검색, 결과 0개 및 인기 있는 결과 탭 포함)](../../assets/guidance-and-insights/live-search-performance-dashboard.png){width="800" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Adobe Commerce 라이브 검색은 검색 문제를 발견하고 경험을 구�
 
 쇼핑객들이 항상 카탈로그의 용어를 사용하여 제품을 설명하는 것은 아닙니다. 예를 들어, &quot;하루 종일 서 있기 편한 신발&quot;을 찾는 사람은 &quot;쿠션이 있는 보행 스니커즈&quot;로 묘사된 제품에 관심이 있을 수 있습니다.
 
-시맨틱 검색은 키워드 일치와 함께 의미와 컨텍스트를 사용하므로 쿼리가 카탈로그 문구와 정확히 일치하지 않더라도 자연어 쿼리를 관련 제품에 연결할 수 있습니다. 라이브 검색은 키워드 및 의미 일치를 하나의 검색 경험에 결합합니다. [의미 체계 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/semantic-search)
+시맨틱 검색은 키워드 일치와 함께 의미와 컨텍스트를 사용하므로 쿼리가 카탈로그 문구와 정확히 일치하지 않더라도 자연어 쿼리를 관련 제품에 연결할 수 있습니다. 라이브 검색은 키워드 및 의미 일치를 하나의 검색 경험에 결합합니다. [의미 체계 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search)
 
 의미 일치는 탐색적 검색에 도움이 될 수 있지만 관련성은 여전히 카탈로그에서 사용 가능한 제품 및 정보에 따라 다릅니다. 정확한 모델, 사양 또는 호환성 요구 사항이 포함된 검색의 경우 결과가 정확하게 유지되는지 확인합니다.
 
@@ -73,9 +73,9 @@ Adobe Commerce 라이브 검색은 검색 문제를 발견하고 경험을 구�
 
 설정은 사용하는 Adobe Commerce 제품에 따라 다릅니다.
 
-- **Adobe Commerce on cloud infrastructure 또는 온-프레미스:** Adobe Commerce 2.4.4 이상에서 실시간 검색 의미 체계 검색을 사용할 수 있습니다. 관리자에서 마케팅 > SEO 및 검색 > 라이브 검색으로 이동하여 설정 을 열고 의미 체계 검색을 활성화하고 저장합니다. 영어 카탈로그를 지원합니다. [설정—의미 체계 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/settings)
-- **Adobe Commerce as a Cloud Service:** 시스템에서 기본적으로 의미 체계 검색을 사용할 수 있습니다. 영어 카탈로그를 지원합니다. [의미 체계 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/semantic-search)
-- **Adobe Commerce Optimizer:** 시스템에서 기본적으로 의미 체계 검색을 사용할 수 있습니다. 시맨틱 부스트 및 유사성 임계값과 같은 컨트롤을 선택적으로 조정할 수 있습니다. 설정에는 유사 항목 검색 옵션도 포함됩니다. [의미 체계 검색](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/semantic-search) · [설정—선택적 조정](https://experienceleague.adobe.com/en/docs/commerce/optimizer/settings)
+- **Adobe Commerce on cloud infrastructure 또는 온-프레미스:** Adobe Commerce 2.4.4 이상에서 실시간 검색 의미 체계 검색을 사용할 수 있습니다. 관리자에서 마케팅 > SEO 및 검색 > 라이브 검색으로 이동하여 설정 을 열고 의미 체계 검색을 활성화하고 저장합니다. 영어 카탈로그를 지원합니다. [설정—의미 체계 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/settings)
+- **Adobe Commerce as a Cloud Service:** 시스템에서 기본적으로 의미 체계 검색을 사용할 수 있습니다. 영어 카탈로그를 지원합니다. [의미 체계 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/semantic-search)
+- **Adobe Commerce Optimizer:** 시스템에서 기본적으로 의미 체계 검색을 사용할 수 있습니다. 시맨틱 부스트 및 유사성 임계값과 같은 컨트롤을 선택적으로 조정할 수 있습니다. 설정에는 유사 항목 검색 옵션도 포함됩니다. [의미 체계 검색](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/semantic-search) · [설정—선택적 조정](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/settings)
 
 ## 검색 인사이트를 작업으로 전환
 
@@ -83,8 +83,8 @@ Adobe Commerce 라이브 검색은 검색 문제를 발견하고 경험을 구�
 
 1. **조사할 쿼리를 찾으십시오.** 결과 없는 검색, 자주 찾는 쿼리 및 참여도가 낮은 검색을 검토하십시오.
 2. **쇼핑객이 무엇을 요구하는지 확인하세요.** 쿼리가 누락된 제품, 단어 불일치 또는 명확하지 않은 제품 데이터를 가리킬지 여부를 결정합니다.
-3. **제품 정보 개선** 제품 속성 및 설명을 쇼핑객이 사용하는 용어에 정확하고 유용하게 사용하십시오. 라이브 검색의 경우 Adobe에서는 적절한 검색 가능한 속성 및 가중치를 설정하고 속성 데이터가 적절한지 확인할 것을 권장합니다. [실시간 검색 모범 사례](https://experienceleague.adobe.com/en/docs/commerce/live-search/best-practice)
-4. **검색 환경을 개선합니다.** 적절한 경우 검색 규칙, 동의어 및 패싯을 사용하여 쇼핑객이 관련 결과를 찾고 좁힐 수 있도록 하십시오. [실시간 검색 모범 사례](https://experienceleague.adobe.com/en/docs/commerce/live-search/best-practice)
+3. **제품 정보 개선** 제품 속성 및 설명을 쇼핑객이 사용하는 용어에 정확하고 유용하게 사용하십시오. 라이브 검색의 경우 Adobe에서는 적절한 검색 가능한 속성 및 가중치를 설정하고 속성 데이터가 적절한지 확인할 것을 권장합니다. [실시간 검색 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice)
+4. **검색 환경을 개선합니다.** 적절한 경우 검색 규칙, 동의어 및 패싯을 사용하여 쇼핑객이 관련 결과를 찾고 좁힐 수 있도록 하십시오. [실시간 검색 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce/live-search/best-practice)
 5. **결과를 검토하고 반복합니다.** 변경 후 동일한 쿼리 및 성능 신호를 모니터링한 다음 쇼핑객이 수행하는 작업에 따라 조정합니다.
 
 ## 모든 검색 카운트 만들기

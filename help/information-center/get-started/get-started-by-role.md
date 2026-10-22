@@ -57,7 +57,7 @@ Adobe Commerce이 무엇이며, 관리자와 Storefront가 어떻게 함께 작�
 
 - [[!DNL Adobe Commerce Optimizer role-based workflows]](/help/optimizer/get-started.md#role-based-workflows)
 
-- [Adobe Commerce 시작 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)
+- [Adobe Commerce 시작 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/guide-overview)
 
 
 ## 머천다이저용
@@ -90,8 +90,8 @@ Adobe Commerce에는 두 개의 머천다이징 경로가 있습니다. 사용�
 
 - Adobe Commerce on Cloud 또는 온프레미스에 대한 플랫폼 관리에 대해서는 다음을 참조하십시오.
 
-- [Commerce on Cloud Infrastructure 안내서](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview)
-- 온-프레미스에 대한 [Adobe Commerce 운영 가이드](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home).
+- [Commerce on Cloud Infrastructure 안내서](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview)
+- 온-프레미스에 대한 [Adobe Commerce 운영 가이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/operational-guides/home).
 
 ## 개발자용
 

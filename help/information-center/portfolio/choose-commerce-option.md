@@ -91,7 +91,7 @@ ht-degree: 0%
 | 요구 사항 | 권장 시작 지점 | 거래를 소유하는 시스템 | 머천다이징 및 검색 |
 | --- | --- | --- | --- |
 | Adobe은 Commerce 플랫폼을 SaaS로 관리합니다. | [Adobe Commerce as a Cloud Service](/help/cloud-service/overview.md) | Adobe Commerce as a Cloud Service 기반 | Adobe Commerce as a Cloud Service에 대해 프로비저닝된 Commerce 서비스를 사용합니다. Adobe Commerce Optimizer 통합 가용성은 이 표 아래의 참고 사항을 참조하십시오. |
-| Adobe Commerce이 필요하며 클라우드 또는 온프레미스 인프라에 대한 제어를 유지하고자 합니다. | [클라우드 또는 온프레미스의 Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) | Adobe Commerce 재단 | 필요에 따라 지원되는 Commerce 서비스를 사용하십시오. |
+| Adobe Commerce이 필요하며 클라우드 또는 온프레미스 인프라에 대한 제어를 유지하고자 합니다. | [클라우드 또는 온프레미스의 Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/guide-overview) | Adobe Commerce 재단 | 필요에 따라 지원되는 Commerce 서비스를 사용하십시오. |
 | Adobe Commerce 온 클라우드 또는 온프레미스에서 검색 및 머천다이징을 위해 Adobe Commerce Optimizer을 채택하려고 합니다. | [Adobe Commerce Optimizer 커넥터](/help/aco-connector/overview.md)가 있는 Adobe Commerce | Adobe Commerce은 거래에 대한 기록 시스템으로 남아 있습니다. | 커넥터는 검색 및 머천다이징 경험을 제공하는 Adobe Commerce Optimizer에 카탈로그 및 가격 데이터를 동기화합니다. |
 | 서드파티 상거래 백엔드가 있으며 해당 백엔드를 교체하지 않고 Adobe Commerce Optimizer 검색 및 머천다이징을 원합니다. | 독립 실행형 [Adobe Commerce Optimizer](/help/optimizer/overview.md) | 타사 상거래 백엔드 | 카탈로그 및 가격 데이터를 Adobe Commerce Optimizer으로 보냅니다. API Mesh, App Builder 또는 직접 통합을 통해 장바구니, 체크아웃 및 기타 트랜잭션 작업을 백엔드와 통합합니다. |
 
