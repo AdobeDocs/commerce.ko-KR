@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여 [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
 TQID: https://experienceleague.adobe.com/-pmVrAgEsSkn66K00-eaoQ4TF-7Xyxuwlniip1cR4HM
 product_v2:
@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 092ffabea06cf72af39a663c14b448f9e7633f60
+source-git-commit: b5ef5e736e116d4321444cbaaeae90a08facf047
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2407'
 ht-degree: 0%
 ---
 # 제품 필터링
@@ -225,6 +225,14 @@ PaaS의 [!DNL Product Recommendations]과(와) 일치합니다. 관리자의 레
 #### 속성 필터 설정
 
 다음 단계를 사용하여 속성 포함 또는 제외 규칙을 추천 단위에 추가합니다.
+
+>[!TIP]
+>
+>필터링할 수 있게 하려는 특성의 경우 [메타데이터 API](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)를 사용하여 `filterable` 매개 변수를 설정하십시오.
+>
+>{&quot;filterable&quot;: true}
+>
+>다음에 카탈로그를 [!DNL Adobe Commerce Optimizer]과(와) 동기화할 때 **특성** 메뉴에서 특성을 사용할 수 있게 됩니다.
 
 1. [추천 단위를 만들거나 편집](create.md)하는 동안 **[!UICONTROL Filter products]**(으)로 이동하십시오.
 1. **[!UICONTROL Inclusions]** 또는 **[!UICONTROL Exclusions]** 탭을 선택합니다. 각 탭의 배지는 활성화된 해당 유형의 필터 수를 보여줍니다.
