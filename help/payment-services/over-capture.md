@@ -34,8 +34,8 @@ PayPal은 각 판매자 계정에 대한 초과 캡처 한도를 결정합니다
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 1. 스토어 범위 선택기를 사용하여 구성할 웹 사이트를 선택합니다.
-1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_섹션을 확장합니다.
-1. _[!UICONTROL Payment Services]_섹션에서_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
+1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL General Configuration]_ 섹션을 확장합니다.
 1. **[!UICONTROL Over Capture Enabled]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL System]** > **[!UICONTROL Cache Management]**(으)로 이동한 다음 **[!UICONTROL Flush Cache]**&#x200B;을(를) 클릭하여 모든 잘못된 캐시를 새로 고칩니다.
