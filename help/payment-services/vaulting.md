@@ -22,9 +22,9 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '578'
 ht-degree: 0%
 ---
 # 신용 카드 보관
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 저장된 결제 방법을 모두 보려면 왼쪽 탐색에서 **[!UICONTROL Stored Payment Methods]**(으)로 이동합니다.
 
-   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
+   자세한 내용은 [저장된 결제 방법](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/stored-payment-methods)을 참조하세요.
 
 1. 고객이 **[!UICONTROL Add New Card]**&#x200B;을(를) 클릭하여 새 카드를 저장합니다.
 
@@ -90,13 +90,15 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 
 저장된 신용 카드를 사용하는 고객을 위해 관리자에서 주문을 생성하려면:
 
-1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
-1. _[!UICONTROL Payment & Shipping Information]_&#x200B;에서&#x200B;**[!UICONTROL Stored Cards]**&#x200B;을(를) 결제 방법으로 선택합니다.
+1. [주문을 만들고 제품을 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)합니다.
+1. _[!UICONTROL Payment & Shipping Information]_에서&#x200B;**[!UICONTROL Stored Cards]**을(를) 결제 방법으로 선택합니다.
 1. 원하는 저장된 신용 카드 결제 방법을 선택합니다.
-1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
+1. 주문에 필요한 다른 단계를 완료한 후 [제출하세요](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order?lang=en#step-3%3A-submit-the-order).
 
    ![고객을 위해 관리자의 저장된 신용 카드 사용](assets/admin-vaultedcard.png){width="600" zoomable="yes"}
 
 ## 보안
 
 최소 신용 카드 정보는 쇼핑객과 공유됩니다. 쇼핑객은 저장한 신용 카드의 마지막 네 자리, 만료일 및 브랜드만 볼 수 있습니다. 신용 카드 정보는 [PCI](security.md#pci-compliance) 준수 표준을 충족하도록 결제 공급자와 함께 저장됩니다.
+
+[!DNL Payment Services] 2.17.0 이상에서는 저장된 신용 카드로 결제하는 쇼핑객이 카드 발급자가 요구하는 [3D 보안(3DS) 인증 챌린지](security.md#3ds)를 완료하도록 요청할 수 있습니다. 카드를 저장해도 발급자가 요구하는 인증이 우회되지는 않습니다.
