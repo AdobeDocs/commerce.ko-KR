@@ -22,9 +22,9 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '578'
 ht-degree: 0%
 ---
 # 신용 카드 보관
@@ -100,3 +100,5 @@ Commerce은 고객이 저장된 신용 카드 정보를 가져와서 향후 체�
 ## 보안
 
 최소 신용 카드 정보는 쇼핑객과 공유됩니다. 쇼핑객은 저장한 신용 카드의 마지막 네 자리, 만료일 및 브랜드만 볼 수 있습니다. 신용 카드 정보는 [PCI](security.md#pci-compliance) 준수 표준을 충족하도록 결제 공급자와 함께 저장됩니다.
+
+[!DNL Payment Services] 2.17.0 이상에서는 저장된 신용 카드로 결제하는 쇼핑객이 카드 발급자가 요구하는 [3D 보안(3DS) 인증 챌린지](security.md#3ds)를 완료하도록 요청할 수 있습니다. 카드를 저장해도 발급자가 요구하는 인증이 우회되지는 않습니다.

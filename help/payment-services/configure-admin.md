@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '3767'
+source-wordcount: '3911'
 ht-degree: 0%
 ---
 # [!DNL Payment Services] 구성
@@ -59,6 +59,7 @@ ht-degree: 0%
 
 1. [!DNL Payment Services] 대시보드를 처음 방문하면 PayPal에서 **[!UICONTROL PayPal Merchant ID]** 및 **[!UICONTROL PayPal Merchant Status]** 값을 자동으로 제공합니다.
 1. **소프트 설명자**(스토어/브랜드/카탈로그를 구분할 고객 거래 은행 거래 명세서에 표시되는 사용자 지정 값)의 경우 텍스트 필드에 사용자 지정 텍스트(최대 22자)를 추가하여 `Soft descriptor` 또는 기존 값을 바꿉니다.
+1. [!DNL Payment Services] 2.17.0 이상을 사용하는 적격 판매자의 경우 **[!UICONTROL Over Capture Enabled]**&#x200B;을(를) `Yes`(으)로 설정하여 [overcapture](over-capture.md)을(를) 사용하도록 설정하십시오. PayPal 오버캡처 계약이 필요하며 결제 방법의 **[!UICONTROL Payment Action]**&#x200B;을(를) `Authorize`(으)로 설정해야 합니다.
 1. 변경 내용을 저장하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL System]** > **[!UICONTROL Cache Management]**(으)로 이동한 다음 **[!UICONTROL Flush Cache]**&#x200B;을(를) 클릭하여 모든 잘못된 캐시를 새로 고칩니다.
 
@@ -67,6 +68,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |---|---|---|
 | [!UICONTROL Enable] | 웹 사이트 | 웹 사이트에 대해 [!DNL Payment Services]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
+| [!UICONTROL Over Capture Enabled] | 웹 사이트 | PayPal 오버캡처 계약을 통해 적격 가맹점에 대해 [오버캡처](over-capture.md)를 사용하거나 사용하지 않도록 설정하십시오. [!DNL Payment Services] 2.17.0 이상 및 `Authorize`의 결제 작업이 필요합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]`. 기본값: `[!UICONTROL No]`. |
 | [!UICONTROL Method] | 스토어 뷰 | 스토어에 대한 메서드 또는 환경을 설정합니다. 옵션: [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Payment Services Sandbox ID] | 스토어 뷰 | 샌드박스 온보딩 중 자동으로 생성되는 샌드박스 판매자 ID입니다. |
 | [!UICONTROL Payment Services Production ID] | 스토어 뷰 | 프로덕션(라이브) 온보딩 중에 자동으로 생성되는 프로덕션 판매자 ID입니다. |
@@ -304,12 +306,15 @@ ht-degree: 0%
 
 관리자 내에서 PayPal 결제 버튼 결제 옵션을 활성화하고 구성할 수 있습니다.
 
+[!DNL Payment Services] 2.17.0 이상에서 **[!UICONTROL Skip Review]**&#x200B;은(는) 쇼핑객이 PayPal 결제 양식을 떠난 후 PayPal Express 체크아웃에 판매자 리뷰 페이지가 포함되는지 여부를 제어합니다. 이 검토 페이지는 PayPal 결제 양식과 별개입니다. 자세한 내용은 [PayPal Express 검토 페이지](payments-options.md#paypal-express-review-page)를 참조하십시오.
+
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 1. _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;섹션을 확장합니다.
 1. _[!UICONTROL Payment Services]_&#x200B;섹션에서&#x200B;_[!UICONTROL PayPal payment buttons]_ 섹션을 확장합니다.
 1. 결제 방법 이름을 변경하려면 _[!UICONTROL Title]_&#x200B;필드를 편집합니다.
 1. [결제 작업을 설정](production.md#set-payment-services-as-payment-method)하려면 **[!UICONTROL Authorize]** 또는 **[!UICONTROL Authorize and Capture]**&#x200B;을(를) 선택하십시오.
+1. PayPal Express 체크아웃의 경우 구매자가 주문하기 전에 가맹점 리뷰 페이지를 표시하려면 **[!UICONTROL Skip Review]**&#x200B;을(를) `No`(으)로 설정하고, 건너뛰려면 `Yes`을(를) 설정합니다.
 1. 체크아웃 페이지에서 결제 방법의 우선 순위를 지정하려면 **[!UICONTROL Sort order]** 필드에 `Numeric Only` 값을 입력하십시오.
 1. [나중에 결제 메시지](payments-options.md#pay-later-button)를 활성화/비활성화하려면 **[!UICONTROL Display Pay Later Message]**&#x200B;에 대해 `Yes`/`No`을(를) 선택하십시오.
 
@@ -334,6 +339,7 @@ ht-degree: 0%
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. 옵션: 텍스트 필드 |
 | [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Skip Review] | 스토어 뷰 | [!DNL Payment Services] 2.17.0 이상에서는 PayPal Express 체크아웃에 대한 판매자 리뷰 페이지를 제어하십시오. PayPal 결제 양식 뒤에 페이지를 표시하려면 `[!UICONTROL No]`(으)로 설정하고 건너뛰려면 `[!UICONTROL Yes]`(으)로 설정합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]`. 기본값: `[!UICONTROL Yes]`. |
 | [!UICONTROL Display Pay Later Message] | 웹 사이트 | 장바구니, 제품 페이지, 미니 장바구니에서, 그리고 체크아웃 흐름 동안 PayPal 나중에 결제 메시지를 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |
 | [!UICONTROL Configure Messaging] | 스토어 뷰 | PayPal Pay Later 메시징 스타일을 수정합니다. 옵션: `[!UICONTROL Product page]` / `[!UICONTROL Cart]` |
 | [!UICONTROL Show buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal payment buttons]을(를) 활성화하거나 비활성화합니다. 옵션: `[!UICONTROL Yes]` / `[!UICONTROL No]` |

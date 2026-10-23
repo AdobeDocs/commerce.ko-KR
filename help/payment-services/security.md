@@ -21,9 +21,9 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '729'
 ht-degree: 0%
 ---
 # 보안 및 규정 준수
@@ -57,6 +57,8 @@ PCI 3D Secure(3DS)는 온라인 신용 카드 구매 시 신용 카드 발급자
 EU 또는 영국 내에서 3DS 준수가 필요한 판매자인 경우 [구성 관리자](configure-admin.md#credit-card-fields)에서 수동으로 3DS(기본적으로 `Off`임)를 켜야 합니다.
 
 **[신용 카드 필드](configure-admin.md#credit-card-fields)**&#x200B;과(와) **[[!DNL Google Pay]](configure-admin.md#google-pay)** 모두에 대해 3DS가 지원됩니다. 각 결제 방법에는 Admin에 자체 3D 보안 인증 설정이 있으며, `Always`, `When required` 또는 `Off`(으)로 설정할 수 있습니다.
+
+[!DNL Payment Services] 2.17.0 이상에서는 [저장된 신용 카드](vaulting.md)로 결제하는 쇼핑객이 발급자가 요구하는 3DS 인증 문제를 완료할 수도 있습니다. 저장된 카드는 카드 발급자가 요구하는 인증에서 결제를 면제하지 않습니다.
 
 >[!IMPORTANT]
 >

@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2458'
 ht-degree: 0%
 ---
 # 결제 옵션
@@ -167,6 +167,17 @@ PayPal의 [결제 방법 설명서](https://developer.paypal.com/docs/checkout/p
 
 제품 페이지, 미니 장바구니, 장바구니 및 체크아웃 보기에서 [!DNL PayPal] 단추를 볼 수 있습니다.
 
+#### PayPal Express 검토 페이지
+
+[!DNL Payment Services] 2.17.0 이상에서는 가맹점이 PayPal Express 체크아웃을 위한 선택적 가맹점 리뷰 페이지를 구성할 수 있습니다. 이 페이지는 PayPal 결제 모달과 별개이며 고객이 주문을 하기 전에 최종 주문 총액과 해당 약관을 검토할 수 있습니다.
+
+[PayPal 결제 단추 구성](configure-admin.md#paypal-payment-buttons)에서 **[!UICONTROL Skip Review]**&#x200B;을(를) 사용하여 이 단계를 제어하십시오.
+
+* `No` - 구매자가 PayPal 결제 양식을 완료한 후 가맹점 리뷰 페이지로 돌아가서 주문을 확인하기 전에 주문을 확인합니다.
+* `Yes`—판매자 검토 페이지를 건너뛰었습니다.
+
+리뷰-페이지 설정은 적용 가능한 규제 요구 사항을 충족시키기 위한 판매자의 책임을 대체하지 않는다. 기존 [Google 결제 검토 페이지 설정](configure-admin.md#google-pay)이 별도로 구성되어 있습니다.
+
 #### [!DNL Venmo] 단추
 
 고객은 [Venmo](https://venmo.com/) 버튼을 사용하여 체크아웃할 수 있습니다.
@@ -201,7 +212,7 @@ PayPal 개발자 설명서에서 [나중에 결제 오퍼](https://developer.pay
 
 PayPal, Pay Later 및 Venmo 결제 방법에서는 PayPal이 Commerce 인스턴스와 직접 통신하여 배송 옵션을 검색하고 합계를 실시간으로 계산할 수 있는 [서버측 배송 콜백](https://developer.paypal.com/docs/multiparty/checkout/standard/customize/shipping-module/)을 사용합니다.
 
-이 서버측 접근 방식을 사용하면 [!DNL Payment Services]에서 주문 확인 팝업을 건너뛸 수 있으므로 더 빠르고 간소화된 구매 환경을 제공할 수 있습니다. 배송비 및 세금은 콜백을 통해 동적으로 계산되므로 구매자는 PayPal 또는 Venmo 검토 페이지에서 직접 정확한 합계를 볼 수 있습니다.
+배송비와 세금은 콜백을 통해 동적으로 계산되기 때문에 구매자는 업데이트된 배송 옵션과 합계를 PayPal 또는 Venmo 결제 모달에서 직접 볼 수 있습니다. PayPal Express 체크아웃의 경우 선택적 [가맹점 리뷰 페이지](#paypal-express-review-page)는 **[!UICONTROL Skip Review]**&#x200B;에서 제어하는 PayPal 결제 양식 뒤에 별도의 단계입니다.
 
 >[!NOTE]
 >
@@ -283,7 +294,7 @@ Adobe Commerce 및 Magento Open Source [!DNL Payment Services]을(를) 사용하
 
 ### 주문 다시 계산
 
-고객이 미니 장바구니, 장바구니 또는 제품 페이지에서 체크아웃 플로우를 입력하면 PayPal 팝업 창에서 선택한 배송 주소를 볼 수 있는 주문 검토 페이지로 이동합니다. 고객이 배송 방법을 선택한 후 주문 금액이 적절하게 재계산되어 배송비와 세금을 볼 수 있습니다.
+고객이 미니 장바구니, 장바구니 또는 제품 페이지에서 PayPal 체크아웃 플로우를 입력하면 PayPal 결제 모달에서 선택한 배송 주소를 검토할 수 있습니다. 고객이 배송 방법을 선택한 후 주문 금액이 다시 계산되고 고객은 배송 비용과 세금을 볼 수 있습니다. PayPal Express 체크아웃의 경우, 선택 사항인 [가맹점 리뷰 페이지](#paypal-express-review-page)를 통해 고객은 주문을 하기 전에 최종 총계 및 적용 가능한 약관을 검토할 수 있습니다.
 
 고객이 체크아웃 페이지에서 체크아웃 플로우를 입력하면 시스템에서 배송 주소와 최종 계산된 금액을 이미 알고 있으며 합계가 적절히 표시됩니다.
 

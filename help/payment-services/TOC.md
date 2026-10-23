@@ -1,19 +1,17 @@
 ---
 user-guide-title: '[!DNL Payment Services] 안내서'
 breadcrumb-title: '[!DNL Payment Services]'
-user-guide-description: 이 안내서에서는  [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 스토어의  [!DNL Payment Services] 설치 및 구성에 대한 자세한 정보를 제공합니다.
+user-guide-description: 이 안내서에서는 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 스토어의 [!DNL Payment Services] 설치 및 구성에 대한 자세한 정보를 제공합니다.
 index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
 nudge: true
-source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 2%
-
 ---
-
 
 # Commerce용 [!DNL Payment Services] {#payment-services}
 
@@ -39,6 +37,7 @@ ht-degree: 2%
   - [&#x200B; [!DNL Payment Services]에서 체크아웃](checkout.md)
   - 결제 관리 {#manage}
     - [&#x200B; [!DNL Payment Services]에 대한 라인 항목](line-items.md)
+    - [오버캡처](over-capture.md)
     - [환불](refunds.md)
     - [빈 공간](voids.md)
   - [관리자에서 주문 만들기](create-order.md)

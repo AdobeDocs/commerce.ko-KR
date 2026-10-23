@@ -26,9 +26,9 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1110'
 ht-degree: 0%
 ---
 # 프로덕션에 [!DNL Payment Services] 사용
@@ -61,6 +61,8 @@ ht-degree: 0%
    >[!IMPORTANT]
    >
    >[!DNL Payment Services]은(는) 부분 캡처를 지원합니다. 판매자는 주문의 일부를 부분적으로 수집(송장)할 수 있습니다. 예를 들어 각 항목을 개별적으로 캡처하거나 지금 항목 하나와 나중에 항목 하나를 캡처할 수 있습니다.
+
+   PayPal 오버캡처 계약을 사용하는 적격 가맹점은 [!DNL Payment Services] 2.17.0 이상에서 [오버캡처](over-capture.md)를 사용하도록 설정할 수도 있습니다. 오버캡처를 사용하려면 **[!UICONTROL Payment Action]**&#x200B;을(를) `Authorize`(으)로 설정해야 합니다. 나중에 인보이스 발행 중에 캡처가 수행됩니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. [!DNL Payment Services] 홈으로 돌아가려면 **[!UICONTROL Go to Payment Services]**&#x200B;을(를) 클릭하십시오.

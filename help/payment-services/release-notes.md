@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
 workflow-type: tm+mt
-source-wordcount: '5479'
+source-wordcount: '5663'
 ht-degree: 0%
 ---
 
@@ -132,9 +132,29 @@ _2021년 6월 28일_
 > 릴리스는 필요에 따라 새로운 기능 및 수정 사항을 제공하기 위해 자주 발생합니다. 릴리스 일정은 고정되어 있지 않습니다.
 
 
+## v2.17.0
+
+_2026년 10월 22일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상
+
+![새로운 기능](../assets/new.svg)<!-- PAY-6722 --> 이제 판매자는 PayPal Express 체크아웃을 위한 선택적 검토 페이지를 구성할 수 있으므로 고객이 주문을 하기 전에 최종 총 수량 및 적용 가능한 약관을 검토할 수 있습니다. 자세한 내용은 [PayPal Express 검토 페이지](payments-options.md#paypal-express-review-page)를 참조하십시오.
+
+![신규](../assets/new.svg)<!-- PAY-6668 --> PayPal 오버캡처 계약을 보유한 적격 가맹점은 이제 PayPal의 승인 한도 내에서 주문 송장 발행 시 원래 승인된 금액 이상을 캡처할 수 있습니다. 요구 사항 및 구성은 [Overcapture](over-capture.md)을(를) 참조하십시오.
+
+![문제 해결](../assets/fix.svg)<!-- PAY-7062 --> 체크아웃 페이지에 Google 결제 단추를 표시할 때 [!DNL Google Pay] **[!UICONTROL Button Type]** 설정에서 단추 레이블을 변경하지 않는 문제를 해결했습니다.
+
+![문제 해결](../assets/fix.svg)<!-- PAY-7063 --> 결제 창을 닫았다가 다시 연 후 쇼핑객이 PayPal, Pay Later 또는 Venmo Express 체크아웃을 완료하지 못하는 문제를 해결했습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-6952 --> 쇼핑객이 유료 배송 옵션을 선택할 때 PayPal 빠른 체크아웃이 완료되지 않는 배송세 금액 불일치를 해결했습니다.
+
+![해결된 문제](../assets/fix.svg)<!-- PAY-6939 --> 쇼핑객이 저장된 신용 카드로 결제할 때 [3D 보안 인증 문제](security.md#3ds)에 대한 지원이 추가되었습니다.
+
 ## v2.16.1
 
 _2026년 8월 10일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상
 
 ![문제 해결](../assets/fix.svg)<!-- PAY-6769 --> PayPal 스마트 단추를 사용하고 체크아웃 페이지에서 일부 결제 방법을 사용할 수 없는 EDS 상점 앞면의 간헐적인 문제를 해결했습니다.
 
@@ -142,13 +162,15 @@ _2026년 8월 10일_
 
 _2026년 7월 27일_
 
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상
+
 ![새로운 문제](../assets/new.svg)<!-- Issue PAY-6510 --> 이제 판매자는 [!DNL Commerce Admin]에서 직접 웹 사이트 범위에서 다른 PayPal 계정의 온보딩을 셀프 서비스할 수 있습니다. [!DNL Payment Services] 이제 홈에는 결제 방법에 대한 관리자 구성 페이지로 리디렉션하는 **[!UICONTROL Connect a different PayPal account for a website]** 단추가 포함되어 있습니다. 자세한 내용은 [웹 사이트의 다른 PayPal 계정 연결](connect-website-account.md)을 참조하십시오.
 
 ## v2.15.0
 
 _2026년 6월 15일_
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상
 
 ![새로 만들기](../assets/new.svg)<!-- PAY-6564 --> 이제 [!DNL Google Pay] 빠른 체크아웃에서 클라이언트측 배송 콜백을 사용하여 Google Pay Sheet에 배송 방법을 표시할 수 있으므로 구매자는 결제를 확인하기 전에 배송을 선택합니다. 가맹점은 [Google 페이 구성](configure-admin.md#google-pay)에서 **[!UICONTROL Skip Review]**&#x200B;을(를) 사용하여 별도의 Google 페이 검토 단계를 표시하거나 숨길 수 있습니다. 검토 단계를 생략하면 전자 지갑 주소 또는 운송 방법이 변경될 때 운송 옵션이 시트에 남아 있습니다.
 
@@ -744,4 +766,3 @@ _2021년 11월 29일_
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2474 --> [!DNL Payment Services]개의 보고서 [을(를) 즉시 동기화할 수 없습니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26837).
 
 ![알려진 문제](../assets/bug.svg)<!-- Issue PAY-2475 --> 온보딩 중에 해당 계정을 만든 경우 [!DNL Payment Services]에 대한 [PayPal 샌드박스 계정](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26836)을(를) 확인할 수 없습니다.
-
