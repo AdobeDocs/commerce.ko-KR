@@ -17,7 +17,7 @@ PayPal은 각 판매자 계정에 대한 초과 캡처 한도를 결정합니다
 
 >[!NOTE]
 >
->이 항목에서는 [!DNL Payment Services] 확장의 오버캡처를 설명합니다. [!DNL Adobe Commerce as a Cloud Service]의 경우 [사용자 지정 캡처 양](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)을 참조하여 별도의 사용 가능 여부 및 사용 요구 사항을 확인하십시오.
+>이 항목에서는 [!DNL Payment Services] 확장의 오버캡처를 설명합니다. [!DNL Adobe Commerce as a Cloud Service]의 경우 [사용자 지정 캡처 양](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)을 참조하여 별도의 사용 가능 여부 및 사용 요구 사항을 확인하십시오.
 
 ## 사전 요구 사항
 
@@ -42,7 +42,7 @@ PayPal은 각 판매자 계정에 대한 초과 캡처 한도를 결정합니다
 
 ## 승인된 결제 캡처
 
-초과 캡처는 관리자에서 송장을 발행하는 동안 발생합니다. 요청된 캡처 금액은 PayPal에서 판매자 계정에 대해 승인한 한도 내에 있어야 합니다. 표준 송장 발행 워크플로우에 대해서는 [송장 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)를 참조하십시오.
+초과 캡처는 관리자에서 송장을 발행하는 동안 발생합니다. 요청된 캡처 금액은 PayPal에서 판매자 계정에 대해 승인한 한도 내에 있어야 합니다. 표준 송장 발행 워크플로우에 대해서는 [송장 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)를 참조하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 1. 아직 캡처되지 않은 승인된 지급으로 주문을 엽니다.
