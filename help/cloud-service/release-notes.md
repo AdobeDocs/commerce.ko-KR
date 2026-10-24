@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ca71a86bb37c1ddd90118b0babd0a9c530b71be9
+source-git-commit: f7a84928b817f21a05ecc9e822ace49e103a8dfd
 workflow-type: tm+mt
-source-wordcount: '8909'
+source-wordcount: '9292'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -74,7 +74,66 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
-## 2026년 10월 - 릴리스 #2 {#latest}
+## 2026년 10월 - 릴리스 #3 {#latest}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+다음 항목은 2026년 10월 29일에 프로덕션 환경에서 사용할 수 있습니다.
+
+>[!BEGINSHADEBOX]
+
+### 주석 이메일 순서를 지정하는 사용자 정의 변수 추가
+
+이제 `observer.email_order_comment_set_template_vars_before` [webhook](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용할 수 있습니다. 이메일이 렌더링되기 전에 주문 주석 이메일에 템플릿 변수를 추가하거나 변경할 수 있습니다. <!-- ACCS-2087 -->
+
+### 제품 등급 내보내기
+
+제품 검토를 사용하도록 설정하면 각 제품의 승인된 검토 수 및 평균 등급이 [!DNL Catalog Service]에 `ac_review_count` 및 `ac_rating_summary` 시스템 제품 특성으로 내보내집니다. Storefront는 이러한 속성을 사용하여 제품 등급을 표시할 수 있습니다. 검토 요약 내용이 변경되면 제품 피드가 업데이트됩니다. 제품 리뷰는 기본적으로 비활성화되어 있습니다. <!-- ACCS-2196 -->
+
+### 저장소 신용 환불
+
+이제 `POST /V1/creditmemo/refund` REST 끝점이 고객의 스토어 크레딧으로 대변 메모의 전부 또는 일부를 환불하는 선택적 `extension_attributes.refund_to_store_credit_amount` 필드를 수락합니다.<!-- ACCS-2068 -->
+
+저장소 크레딧에 대한 액세스 권한을 제어하는 두 개의 새 관리자 역할 권한: <!-- ACCS-1961 -->
+
+* [!UICONTROL Customers] > [!UICONTROL All Customers] > [!UICONTROL Manage Store Credit Balances]
+* [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Orders] > [!UICONTROL Actions] > [!UICONTROL Create] > [!UICONTROL Can Spend Store Credit]
+
+### 트랜잭션 이메일 보내기
+
+이제 [!DNL Adobe I/O Events]에서 다음 이벤트를 구독하고 [!DNL App Builder]을(를) 사용하여 서드파티 이메일 플랫폼에서 트랜잭션 이메일을 보낼 수 있습니다. <!-- ACCS-1929 -->
+
+* `observer.company_customer_assign_email_send_after` - 고객에게 회사 할당 전자 메일이 전송됩니다. 페이로드에는 회사 및 고객 세부 사항이 포함됩니다.
+* `plugin.inventory_in_store_pickup_sales_api.api.notify_orders_are_ready_for_pickup.execute` - 주문이 매장 내 픽업에 대한 준비됨으로 표시됩니다.
+* `plugin.purchase_order.api.purchase_order_management.reject_purchase_order` - 구매 주문이 거부되었습니다.
+
+<!-- Not including AGENTCOM-2023 (epic incomplete)  -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* 새 주문, 송장 및 배송이 [!DNL Commerce Admin] 판매 그리드에 표시되는 데 더 오래 걸릴 수 있는 문제가 수정되었습니다. <!-- ACCS-2122 -->
+
+* 제품을 저장하면 관련 제품의 판매 가능 수량이 0으로 설정될 수 있는 문제를 해결했습니다. <!-- ACCS-2139 -->
+
+* 범주 할당이 없는 제품을 적절한 범주 권한 없이 GraphQL을 통해 장바구니에 추가할 수 있는 문제를 해결했습니다. <!-- CCSAAS-5560 -->
+
+* 범주를 이동하면 중복 범주가 생성될 수 있는 문제를 해결했습니다. <!-- MDEE-1473 -->
+
+* `/V1/products/external-media` REST 끝점이 실패하는 문제가 해결되었습니다. <!-- ACCS-1776 -->
+
+* `credit_comment` 필드가 비어 있지 않을 때 `PUT /V1/companyCredits/:id` REST 끝점이 400 오류를 반환하는 문제를 해결했습니다. 이제 주석이 저장됩니다. <!-- ACCS-2141 -->
+
+* PHP 사용 중단, 알림 및 경고로 인해 더 이상 요청이 실패하지 않습니다. 이러한 메시지가 기록되고 요청이 완료됩니다. <!-- CCSAAS-5602 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 10월 - 릴리스 #2
 
 <!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
