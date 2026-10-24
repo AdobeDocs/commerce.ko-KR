@@ -360,7 +360,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/en/docs/commerce/information-center/insights-and-guidance/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
+      <td><p>Adobe Commerce 제품 관리 및 엔지니어링의 전략적 구현 및 보안 지침을 위한 새로운 홈인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/information-center/insights-and-guidance/overview">Commerce Insights</a> 가이드를 추가했습니다.</p>
 </td>
       <td>
         새 주제
