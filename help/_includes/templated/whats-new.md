@@ -1,7 +1,7 @@
 ---
-source-git-commit: bda4dae0a31e869ced20968bc9a9785f6b730c97
+source-git-commit: ecad33a6883ee25d21ed358736a2f1e3529c6edf
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1279'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,80 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 10월 26일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/fd4ea4603999043844c786da3ab1e84fb8d4d4aa">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 23일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><br />결제 서비스 2.17.0 설명서에는 구성, 자격 요건 및 송장 발행 워크플로우 등 선택적 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options#paypal-express-review-page">PayPal Express 검토 페이지</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/manage/over-capture">Overcapture</a>에 대한 지침이 추가됩니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/d2bcc58f34af50f26d4a4f082e5b3fc30089ab58">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 21일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>고객과 파트너가 Commerce 오퍼링을 탐색하고, 구현 아키텍처를 비교하고, 마이그레이션 및 통합을 계획할 수 있는 새로운 시작점인 <a href="https://experienceleague.adobe.com/ko/docs/commerce/information-center/overview">Adobe Commerce 정보 센터</a>를 추가했습니다. 상점, 결제, Commerce 서비스, AEM Assets, Adobe Commerce Optimizer, 샌드박스 환경 및 Adobe Experience Platform에 대한 역할 기반 탐색 및 구현 안내서와 자세한 제품 설명서에 대한 링크가 포함되어 있습니다.</p>
+</td>
+      <td>
+        주요 업데이트, 새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/fcb3c575a9af82ee75408fba4b4fe7cee5dbffa4">커밋</a></td>
+    </tr>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에 Adobe Managed Services을 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/security/shared-responsibility">공유 권한</a> 표를 업데이트했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/56bb1f5c9723842386af60afe5611c85213f4aeb">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 10월 16일
 
@@ -388,80 +462,6 @@ ht-degree: 1%
         피드백
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/01028c8645f0d8ef868aacbaf14e34595bc5ccc1">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 26일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e91727732882ce6a990068bf2bd3c4dc9fc69370">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 25일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 샌드박스 <a href="https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/452a47d6769d90449ece9fe171a01a36df45324d">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 18일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>최신 <a href="https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md">소스 log-codes.md</a>에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/troubleshooting/log-codes-reference">데이터 내보내기 로그 코드 참조</a>을(를) 업데이트했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1291cadbeca63d454eabab31c415b2d037d280ba">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>이제 Adobe Commerce Optimizer에서 비공개 카탈로그 보기를 단일 가격대로 제한합니다. <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view#price-book-restriction-on-private-catalog-views">비공개 카탈로그 보기</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view">카탈로그 보기</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/pricebooks">가격 책자</a>에서 자세히 알아보세요.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/b6613edbf84681a860b9c71a07f43a7df40e8784">커밋</a></td>
     </tr>
   </tbody>
 </table>

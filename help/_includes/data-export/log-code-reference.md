@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0fd11bdeb9e628571df516bf394251265c091da9
+source-git-commit: 12108447a29bb96f0d41d30176d8ef17b559b7a2
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '507'
 ht-degree: 0%
 ---
 # MDEE 로그 코드 참조
@@ -43,6 +43,8 @@ ht-degree: 0%
 | CDE01-21 | 오류 | `CDE01-21 Unable to resolve url_path for category {id} with path "{path}", url_key "{urk_key}", store "{store}"` |
 | CDE01-22 | 오류 | `CDE01-22 Unable to resolve url_path for category{id} with path "{path}" for store view "{store}"` |
 | CDE01-23 | 오류 | `CDE01-23 Unable to assemble "ac_customizable_options" attribute. Error: {exception_message}` |
+| CDE01-24 | 오류 | `CDE01-24 Unable to add review summary data to feed` |
+| CDE01-26 | 경고 | `CDE01-26 Review summary attributes are not registered. Values are not exported. Check that no attribute with the same code was created by a merchant` |
 
 ## 그룹 02 - SaaS 단계로 데이터 전송
 
@@ -102,6 +104,7 @@ ht-degree: 0%
 | CDE03-26 | 오류 | `CDE03-26 InvalidateProductFeedOnCategoryUrlKeyChange: unable to expand staged url_key category reindex scope: {error_message}` |
 | CDE03-27 | 오류 | `CDE03-27 Failed to invalidate indexers after config "{config_section}" change. Error: {error_message}` |
 | CDE03-28 | 경고 | `CDE03-28 StagedCategoryUrlKeyChangeDetector: catalog category staging schema is not present; skipping staged url_key change detection.` |
+| CDE03-29 | 경고 | `CDE03-29 Product sync scheduling error on review summary change` |
 
 ## 그룹 04 - 인덱스 또는 구성과 관련된 일반 오류
 
