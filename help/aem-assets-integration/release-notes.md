@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: f3516568bc7e1c14f9eb1a529b28c4775baa6956
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '2009'
 ht-degree: 0%
 ---
 # AEM Assets 통합 릴리스 노트
@@ -48,6 +48,20 @@ _2025년 2월 11일_
 ![새 문제](../assets/new.svg) 이제 판매자는 제품 및 범주에 대한 이미지를 동기화할 수 있습니다.
 
 +++
+
+## v1.4.12
+
+_2026년 10월 28일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상 릴리스.
+
+![해결된 문제](../assets/fix.svg)<!-- Issue ACAP-1335 --> Adobe Commerce과 AEM Assets 간에 시각화 소유권을 전환할 때 범주 이미지 처리가 수정되었습니다. 이제 AEM 에셋 선택 항목이 전용 `asset_role_image` 특성에 저장되므로 소유권이 변경될 때 보존됩니다. 카테고리 이미지 읽기 및 내보내기는 AEM이 내보내기 중 스토어 보기 관련 값을 포함하여 시각화를 소유할 때 AEM Assets 에셋 역할 값을 사용합니다. 범주 `image` 특성에 있는 기존 HTTP/HTTPS AEM 자산 배달 URL은 기존 자산 역할 값을 덮어쓰지 않고 새 특성으로 마이그레이션됩니다.
+
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-2180 --> Adobe Commerce에서 시각화를 소유하는 경우 `null`을(를) 반환하도록 범주 GraphQL `asset_role_image` 필드를 수정하고 AEM Assets에서 시각화를 소유하는 경우 범주 에셋-역할 값을 수정했습니다.
+
+![문제 해결](../assets/fix.svg)<!-- Issue ACAP-2180 --> 제품 피드에서 AEM 에셋 역할을 올바르게 내보내지 못하는 문제를 해결했습니다. 이제 AEM 에셋 역할이 올바르게 내보내집니다.
+
+![문제가 해결되었습니다](../assets/fix.svg)<!-- Issue ACAP-1338 --> Adobe IMS, Commerce 이벤트 및 서비스 ID 패키지에 대한 명시적 요구 사항 복원과 명시적 `magento/framework` 요구 사항 제거를 포함하여 패키지 종속성을 업데이트했습니다.
 
 ## v1.4.9
 
