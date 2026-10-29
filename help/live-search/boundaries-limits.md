@@ -1,6 +1,6 @@
 ---
 title: 경계 및 제한
-description: 비즈니스 요구 사항을 충족하도록  [!DNL Live Search] 의 경계 및 제한에 대해 알아봅니다.
+description: '[!DNL Live Search]이(가) 비즈니스 요구 사항을 충족하는지 확인하기 위한 범위 및 제한에 대해 알아봅니다.'
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
 TQID: https://experienceleague.adobe.com/QIKvaTUGLWd6yw6cEAyDkP9tCgEcJHLdiwpZDtx1-p4
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 3688d6544c4f3e13947db6e7e5f078483e4cf146
+source-git-commit: 82da0a6749a2c3e6496992a6450c9ea0e7070b17
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1448'
 ht-degree: 0%
-
 ---
-
 # 경계 및 제한
 
 사이트 검색과 관련하여 Adobe Commerce은 옵션을 제공합니다. [!DNL Live Search]과(와) [!DNL Catalog Service]이(가) 비즈니스 요구 사항을 충족하는지 확인하려면 다음 경계 및 제한을 검토하십시오. 콘텐츠 검색, BYOA(bring-your-own-algorithm) 또는 속성 기반 머천다이징과 같은 고급 검색 기능이 필요한 경우 서드파티 검색 솔루션을 고려하십시오.
@@ -68,7 +66,7 @@ ht-degree: 0%
 
 ## 패싯
 
-- 정의된 필터링 가능한 속성 집합에서 최대 100개의 속성을 패싯으로 구성할 수 있습니다.
+- 기본적으로 최대 100개의 필터링 가능한 속성을 패싯으로 구성할 수 있습니다. 자격 있는 판매자는 [Adobe 지원](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide){target="_blank"}을 통해 최대 500패싯까지 증액을 요청할 수 있습니다. 승인은 자격 및 성과 평가의 대상입니다.
 - Facet 내에서 최대 100개의 버킷이 반환될 수 있습니다. 100개가 넘는 버킷을 반환해야 하는 경우 [지원 티켓을 만드십시오](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). 그러면 Adobe에서 성능에 대한 영향을 분석하고 환경에 대한 이 제한을 늘릴 수 있는지 확인할 수 있습니다.
 - 동적 패싯은 큰 인덱스와 순서가 높은 인덱스에서 성능 문제를 일으킬 수 있습니다. 동적 패싯을 만들어 성능 저하 또는 페이지가 시간 초과 오류와 함께 로드되지 않은 것을 발견한 경우 패싯을 고정으로 변경하여 성능 문제가 해결되는지 확인하십시오.
 - 재고 상태(`quantity_and_stock_status`)는 패싯으로 지원되지 않습니다. 관리에서 [!UICONTROL Display Out of Stock Products] = [!UICONTROL No]을(를) 설정하여 재고 제품을 필터링할 수 있습니다. 이 기능은 기본적으로 `[PLP Widget](plp-styling.md)` 모듈에서 지원됩니다. 자세한 내용은 [재고 부족 제품 관리](manage-out-of-stock-products.md)를 참조하세요.
