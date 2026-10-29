@@ -1,6 +1,6 @@
 ---
 title: 패싯 추가
-description: 필터링 가능한 제품 특성을  [!DNL Live Search] 패싯으로 추가하는 방법에 대해 알아봅니다.
+description: 필터링 가능한 제품 특성을 [!DNL Live Search] 패싯으로 추가하는 방법에 대해 알아봅니다.
 exl-id: 80559107-2b2d-411f-8c32-99ff024e7a09
 TQID: https://experienceleague.adobe.com/6mX3QWuZRFuDb1eDnUlPj1yvXZ2qGIdQ4oScxfHjNWY
 product_v2:
@@ -15,13 +15,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: a652b6d5659dd6d5aede27d771736222b72b9c5e
 workflow-type: tm+mt
-source-wordcount: 600
-ht-degree: 0%
-
+source-wordcount: '622'
+ht-degree: 3%
 ---
-
 # 패싯 추가
 
 재고 상태(`quantity_and_stock_status`)를 제외한 모든 필터링 가능한 제품 특성을 패싯으로 사용할 수 있습니다. *[!UICONTROL Add facets]* 패널에서는 현재 패싯을 나열하므로 추가 제품 특성을 패싯으로 쉽게 할당할 수 있습니다. 이 3단계 프로세스 동안 속성을 Facet으로 사용하도록 선택하고, 필요한 경우 속성을 편집하며, 변경 사항을 Storefront에 게시합니다.
@@ -42,7 +40,7 @@ ht-degree: 0%
    * 특정 제품 특성을 찾으려면 *검색* 상자에 특성 이름의 처음 몇 문자를 입력하십시오. **추가**&#x200B;를 클릭합니다.
 
      가격 인상 간격 및 그룹화를 구성하려면 [설정](settings.md)을 참조하세요. 자세한 내용을 보려면 [Facet Types](facets-type.md)(으)로 이동하십시오.
-패싯이 *동적 패싯* 목록의 맨 아래에 추가되고 *변경 사항 게시* 단추를 사용할 수 있습니다.
+     패싯이 *동적 패싯* 목록에 오름차순으로 추가되고 *변경 사항 게시* 단추를 사용할 수 있습니다.
 
 1. 추가하려는 패싯을 찾을 수 없는 경우 **스토어** > 특성 > **제품**(으)로 이동하여 특성에 패싯으로 사용할 [필수 속성](facets.md)이 있는지 확인하십시오. 필요한 경우 속성에 대해 다음 Storefront 속성을 업데이트합니다.
 
