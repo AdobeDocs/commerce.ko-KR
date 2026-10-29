@@ -92,7 +92,7 @@ ht-degree: 0%
 - 제품에 가장 관련성이 높은 특성을 결정하고 [동적 패싯](facets-type.md)(으)로 설정하십시오. 
 - 카탈로그에서 일관되고 제품에 관련성이 높은 제품 속성을 설정하고 정렬하여 쇼핑객의 관련성과 필터링 기능을 개선합니다.
 - 패싯 레이블을 이해하기 쉽고 사이트 간에 일관되게 지정해야 합니다. 예를 들어 &quot;비용&quot; 대신 &quot;가격 범위&quot;를 사용합니다.
-- 패싯의 수를 가장 중요한 패싯으로 제한하여 구매자의 과몰을 방지하십시오. 옵션이 너무 많으면 의사 결정 피로가 발생할 수 있습니다. 기본적으로 [!DNL Live Search]은(는) 패싯으로 구성된 최대 100개의 특성과 각 패싯 내에서 반환되는 30개의 버킷으로 제한됩니다. 자격 있는 판매자는 [Adobe 지원](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide){target="_blank"}을 통해 최대 500패싯까지 증액을 요청할 수 있습니다. 승인은 자격 및 성과 평가의 대상입니다. [패싯 제한](boundaries-limits.md#facets)에 대해 자세히 알아보세요.
+- 패싯의 수를 가장 중요한 패싯으로 제한하여 구매자의 과몰을 방지하십시오. 옵션이 너무 많으면 의사 결정 피로가 발생할 수 있습니다. 기본적으로 [!DNL Live Search]은(는) 패싯으로 구성된 최대 100개의 특성과 각 패싯 내에서 반환되는 30개의 버킷으로 제한됩니다. 자격 있는 판매자는 [Adobe 지원](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide){target="_blank"}을 통해 최대 500패싯까지 증액을 요청할 수 있습니다. 승인은 자격 및 성과 평가의 대상입니다. [패싯 제한](boundaries-limits.md#facets)에 대해 자세히 알아보세요.
 - 구매자가 여러 필터 기준을 동시에 선택하여 결과를 구체화할 수 있습니다. 예를 들어 쇼핑객에게 &quot;빨간색&quot;과 &quot;파란색&quot; 색상을 모두 선택하도록 합니다.
 - 구매자가 예상할 수 있는 검색 결과를 파악할 수 있도록 각 패싯 옵션 옆에 사용 가능한 제품 수를 표시합니다.
 - 특히 모바일 장치에서 인터페이스를 깔끔하고 관리 가능하도록 유지하려면 접을 수 있는 패싯 섹션을 구현하십시오.
@@ -230,7 +230,7 @@ Facet에 대해 자세히 알아보기:
 검색할 제품 속성에 대해 자세히 알아보십시오.
 
 - [속성을 검색 가능한 것으로 설정](workspace.md#set-attributes-as-searchable)
-- [속성에 가중치 지정](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
+- [속성에 가중치 지정](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search)
 
 ## 검색 결과 모니터링
 
