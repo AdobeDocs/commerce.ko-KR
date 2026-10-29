@@ -5,10 +5,13 @@ exl-id: 07a63df8-b981-4913-841a-7e81ec634281
 TQID: https://experienceleague.adobe.com/COyaQi4zdeb4Uyf7XV1iYJa-bbDkEP-Os59bmfdLV0w
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: c09c161ca293b14918bd1ea3248978c12190584c
 workflow-type: tm+mt
 source-wordcount: 673

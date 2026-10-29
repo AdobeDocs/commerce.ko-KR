@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a378b5e553afb5d96ce79738dab1d32404f4f22
+source-git-commit: 4f804d488a8c8690ed965c022d673f52c91b3d15
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3763'
 ht-degree: 0%
 ---
 # [!DNL SaaS Data Export Extension] 릴리스 정보
@@ -60,6 +60,12 @@ ht-degree: 0%
 >[!DNL SaaS data export] 확장은 [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Catalog Service]과(와) 함께 자동으로 설치된 모듈의 컬렉션입니다. [!DNL Composer]을(를) 사용하여 시스템에 설치된 버전을 확인할 수 있습니다. 경우에 따라 Commerce 서비스 버전을 업데이트하지 않고 시스템에서 데이터 내보내기 확장 기능을 업그레이드하여 수정 사항이나 새 기능을 선택할 수 있습니다.
 
 ## 2026 릴리스 {#release-notes-2026}
+
+### 103.6.0 릴리스
+
+_2026년 10월 21일_
+
+![새로 만들기](../assets/new.svg) **제품 리뷰 요약 특성** 추가된 시스템 관리 제품 특성으로 승인된 리뷰 수(`ac_review_count`) 및 평균 등급(`ac_rating_summary`)이 추가되었습니다. 검토 요약 동기화가 활성화되면 이러한 값이 카탈로그 서비스로 내보내지므로 상점 앞에 검토 수 및 별점 등급을 표시할 수 있습니다. <!--MDEE-1414-->
 
 ### 103.5.2 릴리스
 

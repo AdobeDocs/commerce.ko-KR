@@ -6,8 +6,10 @@ exl-id: 001e8e1d-3590-4b44-b5f8-dd8b9b61f370
 TQID: https://experienceleague.adobe.com/APLw7ZIBIcts0RtPNHWYElEa-QDsQzSxg0fPsuZ2CVc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
 workflow-type: tm+mt
 source-wordcount: 259

@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: f7a84928b817f21a05ecc9e822ace49e103a8dfd
+source-git-commit: d84e54994e01c702c9d3634fbe42409bc4b0ce51
 workflow-type: tm+mt
-source-wordcount: '9292'
+source-wordcount: '9439'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -74,13 +74,21 @@ ht-degree: 0%
 >
 >Adobe Commerce 온-프레미스 또는 Adobe Commerce 온-클라우드 인프라를 사용하는 경우 [Adobe Commerce 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/overview)를 참조하십시오.
 
+## 관리자 UI 변경 사항
+
+이제 [!DNL Adobe Commerce as a Cloud Service] 관리자는 동일한 위쪽 탐색, 제품 전환기 및 조직 전환기를 사용하여 이미 사용 중인 다른 Adobe 제품과 동일하게 작동합니다. Commerce Cloud Manager 및 각 인스턴스에 대한 별도의 로그인 없이 제품과 Commerce 인스턴스 간에 원활하게 이동하려면 한 번 로그인하십시오. 인스턴스 전환기와 검색 가능한 Commerce 탐색을 통해 더 빨리 이동해야 하는 위치를 찾을 수 있습니다.
+
+각 관리자 경험에는 자체 URL이 있습니다. Commerce Cloud Manager의 인스턴스 링크는 기본적으로 **[!UICONTROL Admin URL (Unified Shell UI)]**&#x200B;을(를) 사용하여 새 Commerce 관리 환경을 엽니다. 클래식 UI는 계속 지원되므로 새로운 환경에 적응하는 동안 익숙한 워크플로를 계속 사용할 수 있습니다. 클래식 UI를 사용하려면 인스턴스 세부 정보 패널을 열고 **[!UICONTROL Admin URL (Classic UI)]**&#x200B;을(를) 선택합니다. 기존 관리자 URL 및 책갈피는 클래식 UI를 계속 엽니다.
+
+자세한 내용은 Adobe 통합 환경의 [Commerce 관리자](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience)를 참조하세요.
+
 ## 2026년 10월 - 릴리스 #3 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목은 2026년 10월 29일에 프로덕션 환경에서 사용할 수 있습니다.
+다음 항목은 2026년 10월 28일에 프로덕션 환경에 릴리스되었습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -94,9 +102,9 @@ ht-degree: 0%
 
 ### 저장소 신용 환불
 
-이제 `POST /V1/creditmemo/refund` REST 끝점이 고객의 스토어 크레딧으로 대변 메모의 전부 또는 일부를 환불하는 선택적 `extension_attributes.refund_to_store_credit_amount` 필드를 수락합니다.<!-- ACCS-2068 -->
+[`POST /V1/creditmemo/refund` REST 끝점](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit)은(는) 이제 고객의 스토어 크레딧으로 대변 메모의 전부 또는 일부를 환불하는 선택적 `extension_attributes.refund_to_store_credit_amount` 필드를 수락합니다.<!-- ACCS-2068 -->
 
-저장소 크레딧에 대한 액세스 권한을 제어하는 두 개의 새 관리자 역할 권한: <!-- ACCS-1961 -->
+두 개의 [새 관리자 역할 권한](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources) 저장소 크레딧에 대한 액세스 제어: <!-- ACCS-1961 -->
 
 * [!UICONTROL Customers] > [!UICONTROL All Customers] > [!UICONTROL Manage Store Credit Balances]
 * [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Orders] > [!UICONTROL Actions] > [!UICONTROL Create] > [!UICONTROL Can Spend Store Credit]
