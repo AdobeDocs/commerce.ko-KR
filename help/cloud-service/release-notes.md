@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d84e54994e01c702c9d3634fbe42409bc4b0ce51
+source-git-commit: 43c00a414f95900a30103e56820d06077d530e0f
 workflow-type: tm+mt
-source-wordcount: '9439'
+source-wordcount: '9823'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -82,7 +82,59 @@ ht-degree: 0%
 
 자세한 내용은 Adobe 통합 환경의 [Commerce 관리자](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience)를 참조하세요.
 
-## 2026년 10월 - 릴리스 #3 {#latest}
+## 2026년 11월 - 릴리스 #1 {#latest}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+다음 항목은 2026년 11월 10일에 프로덕션 환경에 릴리스됩니다.
+
+>[!BEGINSHADEBOX]
+
+<!-- ACCS-1980 not included: storefront-router-service#410 (router schema sync) is still open -->
+
+### 반환 항목 속성 변경
+
+새 `observer.rma_save_before` [webhook](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용하면 반환이 저장되기 전에 반환 및 해당 항목을 읽은 다음 특성 값을 수정할 수 있습니다. <!-- ACCS-2062 -->
+
+* 페이로드에는 [!DNL Commerce Admin], REST 또는 `requestReturn` GraphQL 돌연변이를 통해 반환이 만들어지는 경우와 같이 저장에서 항목을 만들거나 편집할 때 반환 항목이 포함됩니다.
+* 웹후크는 반환 저장의 일부로 실행됩니다. 필요한 웹후크가 실패하면 반환이 저장되지 않습니다.
+
+### 배송 주소 포함
+
+`POST /V1/orders` 및 `PUT /V1/orders/create` REST 끝점을 통해 만들어진 새 비가상 주문에는 배송 주소가 필요합니다. 배송 주소가 없는 요청은 HTTP 400 오류를 반환합니다. 이 변경 사항은 배송 정보가 없는 주문이 주문 이메일 실패를 유발하는 것을 방지합니다. <!-- CCSAAS-5351 -->
+
+운송 주소 없이 주문을 생성하려면
+
+* 주문에 디지털 제품만 포함된 경우 `is_virtual`을(를) `1`(으)로 설정합니다.
+* `PUT /V1/carts/:cartId/order` 끝점을 사용하여 장바구니에서 주문을 합니다.
+
+### [!DNL AEM Assets]개 범주 이미지 검색
+
+이제 `CategoryInterface` 및 `CategoryTree` GraphQL 형식에 [!DNL AEM Assets]에서 할당된 범주 이미지를 반환하는 `asset_role_image` 필드가 포함됩니다. <!-- ACCS-2180 -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* GraphQL 제품 쿼리에서 이미지 역할 없이 [!DNL AEM Assets] 제품 이미지가 반환되던 문제를 해결했습니다. 이 수정 전에 내보낸 제품에 대한 이미지 역할을 복원하려면 [제품 데이터 피드를 다시 동기화](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status#manage-failed-exports)하십시오. <!-- ACCS-2180 -->
+
+* 주문 항목에 사용자 지정 옵션이 있을 때 GraphQL 주문 응답의 `selected_options`에서 색상 또는 크기와 같이 구성 가능한 제품 옵션이 누락되는 문제를 해결했습니다. <!-- CCSAAS-5722 -->
+
+* 회사가 비활성화된 웹 사이트에서 회사 사용자에게 회사 주소록 규칙이 적용되는 문제를 해결했습니다. <!-- ACCS-2138 -->
+
+* 배송 주소가 수정된 주문을 편집했을 때 `POST /V1/orders/:orderId/edit/start` REST 끝점에서 404 오류가 반환되던 문제를 해결했습니다. <!-- ACCS-2220 -->
+
+* 선택적 반환 항목 사용자 지정 특성을 빈 값으로 보냈을 때 `requestReturn` GraphQL 돌연변이가 실패하는 문제를 해결했습니다. <!-- CCSAAS-5628 -->
+
+* [!UICONTROL Update attributes] 대량 작업 후 제품이 삭제되면 재고 처리를 중지할 수 있는 문제를 해결했습니다. <!-- CCSAAS-5713 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 10월 - 릴리스 #3
 
 <!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
