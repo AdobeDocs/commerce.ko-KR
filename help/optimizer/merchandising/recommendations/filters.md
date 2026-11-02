@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여 [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f6100538-23c0-4e90-9834-a895d4707282
 TQID: https://experienceleague.adobe.com/-pmVrAgEsSkn66K00-eaoQ4TF-7Xyxuwlniip1cR4HM
 product_v2:
@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b5ef5e736e116d4321444cbaaeae90a08facf047
+source-git-commit: 8e3471bb89e2dd77c390ee1b8199c835a4f1e6bc
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2452'
 ht-degree: 0%
 ---
 # 제품 필터링
@@ -247,6 +247,8 @@ PaaS의 [!DNL Product Recommendations]과(와) 일치합니다. 관리자의 레
 >[!NOTE]
 >
 >메타데이터가 `number`을(를) `true`(으)로 설정하는 특성(예: **Size**)을 선택하면 **Value** 필드에 단일 텍스트 값 대신 범위 입력이 표시됩니다.
+
+특성 목록은 선택한 **카탈로그 보기**&#x200B;에 따라 다릅니다. **모든 보기**&#x200B;를 선택하는 경우, 목록은 첫 번째 카탈로그 보기와 연결된 카탈로그 원본을 기반으로 합니다. 특정 카탈로그 뷰를 선택하는 경우 목록은 해당 뷰의 카탈로그 소스를 기반으로 합니다.
 
 #### 포함 및 제외 조건 사용
 
