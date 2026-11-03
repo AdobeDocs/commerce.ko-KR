@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: a00b9e1654a572e1773b5b7e321683332882d86f
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '516'
 ht-degree: 0%
 ---
 # [!DNL App Management] 설치 및 액세스
@@ -36,7 +36,7 @@ ht-degree: 0%
 앱을 연결하기 전에 다음을 확인하십시오.
 
 | 요구 사항 | 설명 |
-|-------------|-------------|
+| --- | --- |
 | **관리자 액세스** | [!DNL App Management] 권한이 있는 Commerce 관리자 |
 | **배포된 앱** | 조직에 배포되고 연결할 준비가 된 App Builder 애플리케이션 |
 | **조직 액세스** | 앱이 배포된 Adobe 조직에 대한 액세스 |
@@ -76,19 +76,19 @@ ht-degree: 0%
 
 1. **[!UICONTROL Apps]** > **[!UICONTROL App Management]**(으)로 이동합니다.
 
-[!DNL App Management] 보기가 표시됩니다. 여기에서 App Builder 애플리케이션을 연결, 구성 및 관리할 수 있습니다. 해당 화면에서 검색, 필터 및 **[!UICONTROL Acquire App]** 작업을 보려면 [앱 관리](manage-app.md)에서 [관리에서 응용 프로그램 찾기](manage-app.md#find-an-application-in-the-admin)를 참조하십시오.
+[!DNL App Management] 보기가 표시됩니다. 여기에서 App Builder 애플리케이션을 연결, 설치, 구성, 업그레이드 및 관리할 수 있습니다. 해당 화면에서 검색, 필터 및 **[!UICONTROL Acquire App]** 작업을 보려면 [앱 관리](manage-app.md)에서 [관리에서 응용 프로그램 찾기](manage-app.md#find-an-application-in-the-admin)를 참조하십시오.
 
 ## App Builder 앱 설치
 
-Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
+Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
 
-앱을 설치하고 배포한 후 [!DNL App Management]을(를) 사용하여 [Commerce 인스턴스와 연결](manage-app.md#associate-an-app)하고 설정을 구성하십시오.
+App Builder 앱을 가져와 배포하면 조직에서 사용할 수 있습니다. Commerce 인스턴스에서 사용하려면 [앱을 연결](manage-app.md#associate-an-app)하고, 해당되는 경우 [구성 요소를 설치](manage-app.md#install-an-app)하고, [!DNL App Management]에서 [설정을 구성](manage-app.md#configure-settings)하세요.
 
 ## Commerce 웹후크 및 앱
 
 일부 App Builder 애플리케이션은 [Adobe Commerce webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용하므로 특정 이벤트가 발생할 때(예: 제품이 저장된 후) Commerce에서 HTTP를 통해 앱을 호출할 수 있습니다. 응용 프로그램을 빌드하고 배포할 때 **앱 개발자**&#x200B;에 의해 웹후크 끝점 및 구독 논리가 정의됩니다. 저장소 관리자는 앱 관리에서 웹후크를 별도로 구성하지 않습니다.
 
-[앱을 Commerce 인스턴스와 연결](https://experienceleague.adobe.com/ko/docs/commerce/app-management/manage-app/manage-app)하고 앱의 설정 지침을 완료하면 웹후크 동작이 앱의 구현을 따릅니다.
+[앱을 Commerce 인스턴스와 연결](manage-app.md#associate-an-app)하고 [해당 구성 요소를 설치](manage-app.md#install-an-app)한 다음 앱에서 설치 지침을 완료하면 웹후크 동작이 앱의 구현을 따릅니다. 앱 설치 및 업그레이드는 개발자가 선언한 웹후크 구독을 적용합니다. 이러한 구독을 별도로 만들 필요가 없습니다.
 
 [!DNL App Management]이(가) 앱의 유효성 검사 끝점을 트리거할 수 없는 경우(예: URL에 연결할 수 없거나 응답이 요구 사항을 충족하지 않는 경우) [!DNL App Management] 대시보드에 다음과 유사한 오류가 표시될 수 있습니다.
 
