@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## App Builder 앱 설치
 
-Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
+Adobe Exchange에서 App Builder 앱(예: 미리 빌드된 통합 또는 마켓플레이스 앱)을 설치해야 하는 경우 [Adobe Exchange에서 App Builder 앱 설치](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/install-app-builder-app){target="_blank"}를 참조하여 단계별 지침을 확인하십시오.
 
 App Builder 앱을 가져와 배포하면 조직에서 사용할 수 있습니다. Commerce 인스턴스에서 사용하려면 [앱을 연결](manage-app.md#associate-an-app)하고, 해당되는 경우 [구성 요소를 설치](manage-app.md#install-an-app)하고, [!DNL App Management]에서 [설정을 구성](manage-app.md#configure-settings)하세요.
 
