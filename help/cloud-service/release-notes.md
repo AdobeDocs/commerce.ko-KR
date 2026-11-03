@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 43c00a414f95900a30103e56820d06077d530e0f
+source-git-commit: 9aba7b8541b7b067aa5eb751bf601542e8b3c43c
 workflow-type: tm+mt
-source-wordcount: '9823'
+source-wordcount: '9775'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -147,10 +147,6 @@ ht-degree: 0%
 ### 주석 이메일 순서를 지정하는 사용자 정의 변수 추가
 
 이제 `observer.email_order_comment_set_template_vars_before` [webhook](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용할 수 있습니다. 이메일이 렌더링되기 전에 주문 주석 이메일에 템플릿 변수를 추가하거나 변경할 수 있습니다. <!-- ACCS-2087 -->
-
-### 제품 등급 내보내기
-
-제품 검토를 사용하도록 설정하면 각 제품의 승인된 검토 수 및 평균 등급이 [!DNL Catalog Service]에 `ac_review_count` 및 `ac_rating_summary` 시스템 제품 특성으로 내보내집니다. Storefront는 이러한 속성을 사용하여 제품 등급을 표시할 수 있습니다. 검토 요약 내용이 변경되면 제품 피드가 업데이트됩니다. 제품 리뷰는 기본적으로 비활성화되어 있습니다. <!-- ACCS-2196 -->
 
 ### 저장소 신용 환불
 
