@@ -2,7 +2,7 @@
 title: Adobe Commerce Optimizer 제한 및 경계
 description: Adobe Commerce Optimizer 라이선스 제한 및 시스템 경계에 대해 알아봅니다. 용량을 계획하고, 사용량을 추적하고, 제한 초과 시 지연 및 제한을 방지합니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 nudge: true
 product_v2:
@@ -13,9 +13,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 663a9e8e61850f3d34712971eb28f18893d56ad2
+source-git-commit: 0b52c20df4c64d3dd7e43f023e7b0f4517e8fcf7
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1486'
 ht-degree: 0%
 ---
 # 제한 및 경계
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [라이선스 제한 및 시스템 경계](#license-limits-and-system-boundaries) 섹션에서 설명한 라이선스 패키지를 구입하거나 고유한 사용 사례에 대해 사용자 지정 라이선스를 협상하여 라이선스 제한을 늘릴 수 있습니다. 요구 사항에 대해 논의하려면 Adobe 계정 담당자에게 문의하십시오.
 
-시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko#support)에 문의하십시오.
+시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en#support)에 문의하십시오.
 
 ## 성능 문제 방지
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | --- | --- | --- | --- |
 | 제품 비주얼의 고급 사용자 | AI 도구, [!DNL Adobe Express]/[!DNL Firefly] 통합, Content Hub 공유, 핵심 DAM 작업 처리 및 최적의 효율성을 위한 고급 클라우드 기반 기능을 포함한 전체 디지털 에셋 관리 기능을 갖춘 사용이 허가된 사용자입니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | 제품 시각화 공동 작업자 사용자 | AEM Commerce 통합을 통해 에셋에 액세스하고 작업하며 [!DNL Adobe Express] 및 [!DNL Firefly]을(를) 사용하여 콘텐츠를 만들고 편집하고, 활성화된 경우 Content Hub 포털을 통해 승인된 에셋을 활용합니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
-| 제품 비주얼 스토리지 | 에셋에 할당된 스토리지 공간 | 1TB 스토리지 | 아니요 |
+| 제품 비주얼 스토리지 | 에셋에 할당된 스토리지 공간 | 1TB 스토리지 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | Dynamic Media 사용 | 다음을 포함하는 Dynamic Media 처리 작업을 허용합니다.<ul><li>이미지 게재</li><li>스마트 이미징</li><li>비디오 게재</li></ul><p>자세한 내용은 아래의 *Dynamic Media 사용량 계산*&#x200B;을 참조하십시오. | GMV(총 상품 가치) 기준<p>최소 할당: 5M 작업/월</p> | 예<ul><li>추가 작업을 위한 라이선스 구매</li><li>[!DNL AEM Assets] 라이선스로 업그레이드</li></ul> |
 | 비디오 게재 | 비디오 게재 또는 다운로드 허용 | 300개 비디오, 비디오당 1분 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | 자산 생성 | 이미지 작성을 위한 [!DNL Adobe Express] 및 [!DNL Adobe Firefly] 생성 AI에 액세스 | 없음 | Generative AI 크레딧을 별도로 구매하십시오 |
@@ -171,7 +171,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** | **메모** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 
