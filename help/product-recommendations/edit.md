@@ -15,18 +15,17 @@ role_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 33cd0e217447351b690646ec8d230f76060a74da
+source-git-commit: 97fda73b4f68154aa6fe66eee61ef2d68be979ca
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: '443'
 ht-degree: 0%
-
 ---
-
 # 권장 사항 편집
 
 권장 사항 편집 페이지에서는 권장 사항을 구성하는 개별 설정을 조정할 수 있습니다. 페이지 유형 및 권장 사항 유형을 제외한 모든 설정을 편집할 수 있습니다. 다음 설정을 편집할 수 있습니다.
 
 - [권장 사항 이름](#name)
+- [참조 키](#reference-key)
 - [Storefront 레이블](#label)
 - [제품 수](#number)
 - [배치 및 위치](#placement)
@@ -51,6 +50,10 @@ ht-degree: 0%
 권장 사항의 목적을 나타내는 수사적 이름을 선택합니다. 이 이름은 내부 참조를 위한 것이며 상점 앞에는 나타나지 않습니다.
 
 ![이름 편집](assets/edit-name.png)
+
+### 참조 키 {#reference-key}
+
+상점 구성에서 추천 단위를 식별하는 데 사용되는 키입니다.
 
 ### Storefront 레이블 {#label}
 

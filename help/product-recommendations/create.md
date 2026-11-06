@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Behavioral data
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: b8dd0e31a1deac03b03bfeb90a09761b637e0a40
+source-git-commit: 1effb98aaefee32d6479ffdc0737367edc8d1a3a
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1665'
 ht-degree: 0%
 ---
 # 새 권장 사항 만들기
@@ -39,28 +39,30 @@ _추천 단위_
 
 1. _관리자_ 사이드바에서 **마케팅** > _프로모션_ > **제품 추천**(으)로 이동하여 _제품 추천_ 작업 영역을 표시합니다.
 
-1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
+1. 권장 사항을 표시할 [스토어 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)를 지정하십시오.
 
    >[!NOTE]
    >
-   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
+   > Page Builder 권장 사항 단위는 기본 스토어 보기에서 만들어야 하지만 어디에서나 사용할 수 있습니다. Page Builder를 사용하여 제품 권장 사항을 만드는 방법에 대한 자세한 내용은 [콘텐츠 추가 - 제품 권장 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)을 참조하세요.
 
 1. **추천 만들기**&#x200B;를 클릭합니다.
 
 1. _권장 사항 이름 지정_ 섹션에서 내부 참조를 설명하는 이름을 입력하십시오(예: `Home page most popular`).
 
+1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **Storefront 참조** 섹션에서 이 권장 구성 단위를 식별하는 참조 키를 입력하십시오. 권장 사항을 만든 후 **권장 사항 단위 세부 정보**&#x200B;에서 [값을 복사](#get-the-storefront-reference-key)하고 권장 사항 블록에서 `referenceKey`(으)로 사용할 수 있습니다. 참조 키는 상점 첫 화면 구성을 위한 것이며, 상점 첫 화면 표시 레이블은 구매자가 볼 수 있는 텍스트입니다.
+
 1. _페이지 유형 선택_ 섹션에서 다음 옵션 중 권장 사항을 표시할 페이지를 선택합니다.
 
    >[!NOTE]
    >
-   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
+   > 장바구니에 제품을 추가한 후 [장바구니 페이지를 바로 표시](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration)하도록 스토어를 구성하면 장바구니 페이지에서 제품 권장 사항이 지원되지 않습니다.
 
    * 홈 페이지
    * 카테고리
    * 제품 세부 사항
    * 장바구니
    * 확인
-   * [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/add-content/recommendations)
+   * [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)
 
    각 페이지 유형에 대해 최대 50개의 활성 권장 사항 단위를 만들 수 있습니다. 제한에 도달하면 페이지 유형이 회색으로 표시됩니다.
 
@@ -101,6 +103,20 @@ _추천 단위_
 >[!IMPORTANT]
 >
 >일부 브라우저는 제품 권장 사항이 예상대로 작동하지 않도록 하는 중요한 스크립트를 차단할 수 있습니다.
+
+## 상점 참조 키 가져오기
+
+[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} 권장 사항을 만든 후 해당 참조 키를 사용하여 상점에서 권장 사항 단위를 구성하십시오.
+
+1. 제품 추천에 대한 세부 정보를 엽니다.
+
+   ![권장 사항 ID 가져오기](./assets/get-ref-id.png)
+
+1. **참조 키** 섹션에서 값을 복사합니다.
+
+   이전 권장 사항에는 **[!UICONTROL Reference Key]** 대신 **[!UICONTROL Unit ID]**&#x200B;이(가) 표시될 수 있습니다. 상점에서 **[!UICONTROL Unit ID]**&#x200B;을(를) 계속 사용할 수 있지만 [!DNL Adobe Commerce]에서는 **[!UICONTROL Reference Key]**&#x200B;을(를) 사용하도록 기존 권장 사항을 업데이트하는 것이 좋습니다.
+
+1. 상점 첫 화면 `product-recommendations` 블록에서 이 참조 키를 사용하여 Edge Delivery Services 상점 첫 화면의 [권장 사항 드롭인](https://experienceleague.adobe.com/en/tools/commerce-storefront/merchants/blocks/product-recommendations/)을 구성하십시오.
 
 ## 준비 지표
 
