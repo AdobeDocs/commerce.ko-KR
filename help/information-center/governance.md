@@ -1,9 +1,9 @@
 ---
 title: Commerce 정보 센터 거버넌스
 description: Commerce 정보 센터의 내부 거버넌스 모델에 대해 알아봅니다. Experience League에 게시되지 않았습니다.
-source-git-commit: a91925091da28cd0745923894a3faab0374f0a0c
+source-git-commit: bd6b2a10f02498b94c8837a27490e943b630c5fc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '578'
 ht-degree: 0%
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ## 소유권
 
-Adobe Commerce 설명서 팀은 정보 센터를 소유합니다. `metadata.md`에 `git-repo`(으)로 나열된 리포지토리인 `Adobe-Enterprise-Docs/commerce.en`에서 작성되었습니다.
+Adobe Commerce 설명서 팀은 `Adobe-Enterprise-Docs/commerce.en` GitHub 저장소에서 가져온 정보 센터 콘텐츠의 접수 프로세스, 편집 검토 및 게시를 관리합니다.
 
-교차 제품이기 때문에 단일 제품 팀이 소유하지 않습니다. 여기에서 수정하는 대신 소유 제품 팀의 문서 연락처에 대한 제품별 수정 사항을 에스컬레이션하십시오.
+교차 제품이기 때문에 단일 제품 팀이 소유하지 않습니다. 제품 및 엔지니어링 소유자는 ExL PR을 제출하기 전에 콘텐츠를 승인해야 합니다. 여기에서 수정하는 대신 소유 제품 팀의 문서 연락처에 대한 제품별 수정 사항을 에스컬레이션하십시오.
 
 ## 인포메이션 센터에 있는 것
 
@@ -28,6 +28,8 @@ Adobe Commerce 설명서 팀은 정보 센터를 소유합니다. `metadata.md`�
 - 정보 센터는 제품 설명서를 통합하거나 마이그레이션하지 않으며 개별 제품 기능을 문서화하지 않습니다. 새로운 내용을 작성하기 전에 기존의 신뢰할 수 있는 콘텐츠에 연결합니다.
 
 ## 새 콘텐츠 추가
+
+[COMDOX-1864](https://jira.corp.adobe.com/browse/COMDOX-1864) 서사에 설명된 프로세스에 따라 COMDOX 프로젝트에서 JIRA 티켓을 만들어 문서 제안을 제출합니다. 티켓 설명을 AI와 함께 사용하여 티켓을 생성하고 서사시에 연결합니다.
 
 ### 기존 섹션의 문서
 
