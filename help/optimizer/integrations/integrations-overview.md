@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 972d2a1118daca17dc17a29e20ada593656960e1
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '564'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,6 @@ ht-degree: 0%
 제품 비주얼을 사용하면 Adobe Experience Manager(AEM) Assets을 통해 제품 이미지를 관리할 수 있습니다. Commerce Optimizer용 AEM Assets을 구성하여 제품 비주얼을 활성화합니다. 구성을 마친 후에는 AEM Assets 카탈로그와 이미지를 계속 동기화할 수 있는 자동화된 자산 검토 및 관리 워크플로우를 통해 Commerce Optimizer을 제품 이미지에 대한 중앙 집중식 디지털 자산 관리 솔루션으로 사용합니다. 이 통합은 자산을 SKU별 제품에 일치시킵니다. 업데이트는 Adobe의 통합 서비스를 통해 진행되므로 상점이 수동으로 다시 업로드하지 않고도 최신 미디어를 반영합니다.
 
 - [AEM Assets을 사용한 제품 시각화](../setup/product-visuals.md)
-- [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md){target="_blank"}
 
 ## Adobe Experience Manager Sites Optimizer {#aem-sites-optimizer}
 

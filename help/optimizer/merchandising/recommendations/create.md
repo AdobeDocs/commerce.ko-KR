@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: f316b57d365b8952223d4d250ac14f113cf48601
+source-git-commit: 0be21c4e838dabb8871eecbfc6c36c34af2d3ff0
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1612'
 ht-degree: 0%
 ---
 # 권장 사항 만들기 및 관리
@@ -48,6 +48,8 @@ _추천 단위_
 
 1. _권장 사항 이름 지정_ 섹션에서 내부 참조를 설명하는 이름을 입력하십시오(예: `Home page most popular`).
 
+1. **Storefront 참조** 섹션에서 이 권장 구성 단위를 식별하는 참조 키를 입력하십시오. 권장 사항을 만든 후 **권장 사항 단위 세부 정보**&#x200B;에서 [값을 복사](#get-the-storefront-reference-key)하고 권장 사항 블록에서 `referenceKey`(으)로 사용할 수 있습니다. 참조 키는 상점 첫 화면 구성을 위한 것이며, 상점 첫 화면 표시 레이블은 구매자가 볼 수 있는 텍스트입니다.
+
 1. _권장 사항 유형 선택_ 섹션에서 전략에 따라 원하는 [권장 사항 유형](types.md)을(를) 지정합니다.
 
 1. _상점 첫 화면 표시 레이블_ 섹션에서 &quot;Top sellers&quot;와 같은 쇼핑객이 볼 수 있는 [레이블](best-practice.md#recommendation-labels)을(를) 입력하십시오.
@@ -66,7 +68,7 @@ _추천 단위_
 
    - 상점 첫 화면에서 추천 단위를 사용하려면 **활성화**&#x200B;하세요.
 
-   권장 사항이 권장 사항 작업 영역에 표시됩니다. 상점 첫 화면에서 권장 사항을 사용하려면 [권장 사항 ID](#get-recommendation-id)를 찾아야 합니다.
+   권장 사항이 권장 사항 작업 영역에 표시됩니다. 상점 첫 화면에서 권장 사항을 사용하려면 [권장 사항 ID 또는 참조 키](#get-the-recommendation-id-or-reference-key)가 필요합니다.
 
 >[!NOTE]
 >
@@ -98,21 +100,17 @@ _권장 제품 미리 보기_ 패널은 항상 권장 구성 단위가 상점 �
 
 다중 상점, 다국어 또는 다중 브랜드 설정의 경우 각 권장 사항이 모든 카탈로그 보기(전역)에 적용되는지 아니면 단일 [카탈로그 보기](../../setup/catalog-view.md)에 적용되는지 여부를 구성할 수 있습니다. 권장 사항을 사용할 때 [카탈로그 보기를 설정](../../manage-results/recommendation-performance.md#select-catalog-view)하는 방법에 대해 자세히 알아보세요.
 
-## 권장 사항 ID 가져오기
+## 상점 참조 키 가져오기
 
-권장 사항을 만든 후 상점 첫 화면에서 권장 사항 단위를 구현하려면 해당 ID를 검색해야 합니다.
+권장 사항을 만든 후 해당 참조 키를 사용하여 상점 첫 화면에서 권장 사항 단위를 구성합니다.
 
-1. **권장 사항** 페이지에서 권장 사항을 선택합니다.
+1. **권장 사항** 페이지에서 권장 사항 이름 옆의 정보 아이콘(![정보 아이콘](../../assets/info-icon.png))을 클릭하여 **권장 사항 단위 세부 정보** 페이지를 엽니다.
 
-1. 권장 사항 이름 옆에 있는 정보 아이콘(![정보 아이콘](../../assets/info-icon.png))을 클릭합니다.
+   ![권장 사항 ID 가져오기](../../assets/get-ref-id.png)
 
-   **추천 단위 세부 정보** 페이지가 표시됩니다.
+1. **Storefront 참조 키** 섹션에서 값을 복사합니다.
 
-   ![권장 사항 ID 가져오기](../../assets/get-rec-id.png)
-
-1. **권장 사항 ID** 섹션에서 ID를 복사합니다.
-
-1. 이 ID를 사용하여 Edge Delivery Services 상점 첫 화면에서 [권장 사항 드롭인](https://experienceleague.adobe.com/en/tools/commerce-storefront/merchants/blocks/product-recommendations/)을 구성하세요.
+1. 상점 첫 화면 `product-recommendations` 블록에서 이 참조 키를 사용하여 Edge Delivery Services 상점 첫 화면의 [권장 사항 드롭인](https://experienceleague.adobe.com/en/tools/commerce-storefront/merchants/blocks/product-recommendations/)을 구성하십시오.
 
 ## 기존 권장 사항 관리
 
@@ -127,6 +125,7 @@ _권장 제품 미리 보기_ 패널은 항상 권장 구성 단위가 상점 �
 1. 메뉴에서 권장 사항을 **비활성화**, **삭제** 또는 **편집**&#x200B;할 수 있습니다. **편집**&#x200B;을 선택하면 필요에 따라 다음 설정을 조정할 수 있습니다.
 
    - 권장 사항 이름
+   - 참조 키
    - Storefront 레이블
    - 제품 수
    - 제품 필터링

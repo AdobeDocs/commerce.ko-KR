@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1109'
 ht-degree: 1%
 ---
 # Commerce용 AEM Assets 통합
@@ -161,22 +161,6 @@ AEM Assets 통합을 설치하고 구성하는 프로세스는 Adobe Commerce �
 1. [Commerce 관리자에서 통합을 구성](get-started/setup-synchronization.md).
 
 1. 선택 사항입니다. [제품 이미지 표시를 사용하도록 설정](get-started/configure-storefront.md#enable-product-images)하여 Edge Delivery Services에서 제공하는 상점이 AEM 관리 제품 이미지를 렌더링하도록 합니다.
-
->[!TAB Adobe Commerce Optimizer]
-
-[!BADGE SaaS만]{type=Positive tooltip="Adobe Commerce Optimizer 프로젝트에만 적용됩니다."}
-
-[!DNL Adobe Commerce Optimizer] 관리자 구성 UI가 없습니다. Adobe 지원은 온보딩 티켓에서 통합을 구성하므로 먼저 AEM Assets을 준비하십시오.
-
-1. Commerce 메타데이터를 지원하려면 [AEM Assets 프로젝트를 구성](get-started/configure-aem.md)하십시오. AEM 릴리스 `2026.5.26309` 이상에서는 [셀프 서비스 온보딩](get-started/configure-aem.md#enable-aem-commerce-self-service)을(를) 사용합니다. 이전 릴리스에서는 `assets-commerce` 패키지를 수동으로 설치하십시오.
-
-1. 테넌트 ID, AEM 프로그램 ID, AEM 환경 ID, 일치하는 규칙, 레이어 및 로케일을 사용하여 [온보딩 지원 티켓을 제출합니다](get-started/configure-aco.md#onboarding).
-
-1. 티켓에 등록한 동일한 로케일과 레이어로 [카탈로그 보기를 구성](get-started/configure-aco.md#onboarding)합니다.
-
-1. 선택 사항입니다. [제품 이미지 표시를 사용하도록 설정](get-started/configure-storefront.md#enable-product-images)하여 Edge Delivery Services에서 제공하는 상점이 AEM 관리 제품 이미지를 렌더링하도록 합니다.
-
-   전체 절차, 제한 사항 및 레이어 지침을 보려면 [Commerce Optimizer용 AEM Assets 구성](get-started/configure-aco.md)을 참조하십시오.
 
 >[!ENDTABS]
 

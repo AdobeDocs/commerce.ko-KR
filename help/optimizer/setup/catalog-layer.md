@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 38fa0734562a631fdcdd7510580571c5d37cb598
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
-source-wordcount: 1533
+source-wordcount: '1493'
 ht-degree: 0%
-
 ---
-
 # 카탈로그 레이어
 
 카탈로그 레이어를 사용하면 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정할 수 있습니다. 레이어는 기본 카탈로그 위에 레이어를 만들어 이름, 설명, 이미지, 링크 및 메타데이터와 같은 제품 속성을 수정합니다. 원본 제품 데이터는 그대로 유지되므로 언제든지 제품을 안전하게 사용자 정의하고 변경 사항을 되돌릴 수 있습니다.
@@ -67,8 +65,6 @@ ht-degree: 0%
 * **제품 시각화** - 기본 카탈로그 위에 레이어로 AEM Assets의 제품 이미지를 적용합니다.
 
 ## AEM-Assets 레이어
-
-[제품 시각화](product-visuals.md)를 사용하도록 설정하면 AEM Assets 통합에서 AEM Assets 콘텐츠 전용 카탈로그 레이어를 자동으로 만들고 관리합니다. 기본 레이어 이름은 `AEM-Assets`이지만 [AEM Assets 통합에서 온보딩](../../aem-assets-integration/get-started/configure-aco.md) 중에 사용자 지정 이름을 지정할 수 있습니다.
 
 이 레이어에는 AEM Assets에서 동기화된 제품 이미지가 포함되어 있습니다. 다른 카탈로그 계층과 마찬가지로 [제품 계층 API](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}를 통해 채워집니다. Assets 통합 서비스는 AEM 에셋 메타데이터와 게재 URL을 API 형식으로 변환하고 AEM Assets에서 에셋이 승인되면 데이터를 자동으로 전송합니다.
 

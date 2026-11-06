@@ -1,6 +1,7 @@
 ---
 title: Commerce Optimizer용 AEM Assets 구성
 description: '[!DNL Adobe Commerce Optimizer]에 대한 AEM Assets 통합을 구성하는 방법을 알아봅니다.'
+hide: true
 feature: CMS, Media, Configuration, Integration
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -17,7 +18,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
