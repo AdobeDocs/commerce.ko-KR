@@ -5,11 +5,13 @@ solution: Commerce
 feature: Integration, Catalog Management
 role: Developer, Admin
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="[!DNL Adobe Commerce Optimizer]개 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="[!DNL Adobe Commerce Optimizer]개 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 8f3a2c1b-9d4e-5f6a-bc7d-1e2f3a4b5c6d
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+  - id: ef0c45ae-6bee-4821-a65e-e1e118e8a01c
+    internal-label: Commerce Optimizer
 feature_v2:
   - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
     internal-label: Integration
@@ -23,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 972d2a1118daca17dc17a29e20ada593656960e1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 
@@ -34,13 +36,6 @@ ht-degree: 0%
 [!DNL Adobe Commerce Optimizer]에는 Adobe Commerce on cloud 또는 온-프레미스에서 데이터를 동기화하고, 자산을 관리하고, 상점 경험을 개선하고, 외부 시스템을 연결할 수 있는 통합이 포함되어 있습니다. 아래 섹션에서는 각 통합이 [!DNL Adobe Commerce Optimizer]에서 작동하는 방식을 설명합니다. 설정, 구성 및 일상적인 사용을 위해 링크를 따르십시오.
 
 {{aco-integration-environment-alignment}}
-
-## Adobe Commerce Optimizer 커넥터 {#aco-connector}
-
-Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프레미스)와 [!DNL Adobe Commerce Optimizer] 간의 카탈로그 및 가격 데이터를 동기화하는 브리지입니다. 커넥터를 사용하도록 설정하면 Commerce은 제품 데이터 기록 시스템으로 남고, [!DNL Adobe Commerce Optimizer]은(는) 제품 검색, 권장 사항, 머천다이징 규칙, 분석 및 Headless Storefront 경험을 강화합니다. 동기화된 카탈로그 보기를 쿼리할 수 있는 사용자를 제한하려면 [개인 카탈로그 보기](../setup/private-catalog-view.md)를 참조하세요.
-
-- [Adobe Commerce Optimizer 커넥터 개요](../../aco-connector/overview.md){target="_blank"}
-- [커넥터 시작](../../aco-connector/get-started.md){target="_blank"}
 
 ## AEM Assets을 사용한 제품 시각화 {#product-visuals}
 
@@ -58,6 +53,20 @@ Adobe Experience Manager Sites Optimizer은 Commerce 웹 사이트를 분석하�
 >이 기능을 사용하려면 **Ultima** Adobe Sites Optimizer 라이선스가 필요합니다. Adobe Customer Technical Advisor를 통해 라이선스를 요청할 수 있습니다. 계정이 프로비저닝되면 [!DNL Adobe Commerce Optimizer] 인터페이스에서 영업 기회 기능을 사용할 수 있으며, AI 기반 인사이트를 사용하여 상점 및 머천다이징 전략을 최적화할 수 있습니다.
 
 - [영업 기회](../manage-results/opportunities.md)
+
+## Adobe Commerce Optimizer 커넥터 {#aco-connector}
+
+Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프레미스)와 [!DNL Adobe Commerce Optimizer] 간의 카탈로그 및 가격 데이터를 동기화하는 브리지입니다. 커넥터를 사용하도록 설정하면 Commerce은 제품 데이터 기록 시스템으로 남고, [!DNL Adobe Commerce Optimizer]은(는) 제품 검색, 권장 사항, 머천다이징 규칙, 분석 및 Headless Storefront 경험을 강화합니다. 동기화된 카탈로그 보기를 쿼리할 수 있는 사용자를 제한하려면 [개인 카탈로그 보기](../setup/private-catalog-view.md)를 참조하세요.
+
+- [Adobe Commerce Optimizer 커넥터 개요](../../aco-connector/overview.md){target="_blank"}
+- [커넥터 시작](../../aco-connector/get-started.md){target="_blank"}
+
+## 타사 장바구니 및 체크아웃 통합
+
+Adobe Commerce Optimizer은 거래에 별도의 상거래 플랫폼을 사용하는 상점 용 제품 검색 및 머천다이징 기능을 제공할 수 있습니다. 상점은 제품 데이터, 검색, 권장 사항 및 머천다이징에 Commerce Optimizer 머천다이징 서비스 API를 사용합니다. 호스트 상거래 플랫폼은 구매자 계정, 장바구니, 체크아웃 및 주문 처리를 계속 담당합니다. 호스트 플랫폼과의 통합은 API Mesh, App Builder, 직접 API 또는 이러한 도구의 조합을 사용하는 사용자 지정 구현입니다.
+
+SFCC(Salesforce Commerce Cloud)의 경우 [Adobe Commerce Optimizer SFCC Checkout Starter Kit](https://github.com/adobe-commerce/aco-sfcc-checkout-starter-kit)은 SFCC 쇼핑객, 장바구니 및 체크아웃 기능에 Adobe Commerce Optimizer 매장을 연결하는 예제 Edge Delivery Services 블록 및 스크립트를 제공합니다. 일반적인 기본 커넥터가 아니므로 참조 구현으로 사용하여 상점에 맞게 조정합니다. Next.js](https://github.com/adobe-commerce/aco-sfcc-storefront-next){target="_blank"}에 대한 [headless 상점 첫 번째 예제도 사용할 수 있습니다.
+
 
 ## Commerce Salesforce 커넥터 {#commerce-salesforce-connector}
 
