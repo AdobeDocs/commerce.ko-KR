@@ -1,48 +1,41 @@
----
-source-git-commit: 65c2720f8e21089e45948a2a5fe3828ca28f0dbd
-workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 0%
+%%{ init: { "flowchart": { "curve": "linear" } } }%%
 
----
-%%{ init: { &quot;flowchart&quot;: { &quot;curve&quot;: &quot;linear&quot; } }%
+graph BT
+    subgraph commerce["Adobe Commerce"]
+        event_mod["Eventing \n Module"]
+        webhook_mod["Webhook \n Module"]
+        admin_sdk["Admin UI \n SDK"]
+    end
 
-그래프 BT
-subgraph commerce[&quot;Adobe Commerce&quot;]
-event_mod[&quot;이벤트 \n 모듈&quot;]
-webhook_mod[&quot;Webhook \n 모듈&quot;]
-admin_sdk[&quot;관리자 UI \n SDK&quot;]
-종료
+    subgraph appbuilder["App Builder"]
+        int_sk["Integration \n Starter Kit"]
+        checkout_sk["Checkout \n Starter Kit"]
+        generic_app["Generic \n Application"]
+    end
 
-    subgraph appbuilder[&quot;App Builder&quot;]
-    int_sk[&quot;통합 \n 스타터 키트&quot;]
-    checkout_sk[&quot;Checkout \n 스타터 키트&quot;]
-    generic_app[&quot;일반 \n 애플리케이션&quot;]
+    subgraph apimesh["API Mesh"]
+        api_mesh_log["API Mesh \n Logging"]
     end
-    
-    subgraph apimesh[&quot;API Mesh&quot;]
-    api_mesh_log[&quot;API Mesh \n 로깅&quot;]
+
+    subgraph storefront["Storefront"]
+        cdn_rum["CDN / Real User \n Monitoring"]
+        op_tel["Operational \n Telemetry"]
     end
-    
-    subgraph storefront[&quot;Storefront&quot;]
-    cdn_rum[&quot;CDN / Real User \n Monitoring&quot;]
-    op_tel[&quot;Operational \n Telemetry&quot;]
-    end
-    
-    commerce —> mod[&quot;Observability \n Module]{13 —> aio_tel[&quot;AIO lib \n Telemetry&quot;]
-    
-    obs_mod —> OTel[&quot;OpenTelemetry&quot;]
-    aio_tel —> OTel
-    
-    OTel —> 백 엔드[&quot;타사 가시성 \n(예: Grafana, New Relic, Splunk)&quot;]
-    api_mesh_log —> 백 엔드
-    cdn_rum —> 백 엔드
-    op_tel —> 백 엔드
-    
-    스타일 채우기:#cc0000,color:#fff,stroke:#cc0000
-    스타일 appfill:#cc0000,color:#fff,stroke:#cc0000
-    스타일 apimesh 채우기:#cc0000,color:#fff,stroke:#cc0000
-    스타일 상점 채우기:#cc0000 #fff #cc0000 #f0f0f0 #333 #999 #fff #333 #333,color:,stroke:
-    스타일 채우기:,color:,stroke:
-    스타일 OTel 채우기:,color:,stroke:
-    
+
+    commerce --> obs_mod["Observability \n Module"]
+    appbuilder --> aio_tel["AIO lib \n Telemetry"]
+
+    obs_mod --> OTel["OpenTelemetry"]
+    aio_tel --> OTel
+
+    OTel --> backends["Third-party Observability \n (For example: Grafana, New Relic, Splunk)"]
+    api_mesh_log --> backends
+    cdn_rum --> backends
+    op_tel --> backends
+
+    style commerce fill:#cc0000,color:#fff,stroke:#cc0000
+    style appbuilder fill:#cc0000,color:#fff,stroke:#cc0000
+    style apimesh fill:#cc0000,color:#fff,stroke:#cc0000
+    style storefront fill:#cc0000,color:#fff,stroke:#cc0000
+    style backends fill:#f0f0f0,color:#333,stroke:#999
+    style OTel fill:#fff,color:#333,stroke:#333
