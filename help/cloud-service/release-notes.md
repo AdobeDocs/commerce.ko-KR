@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 9aba7b8541b7b067aa5eb751bf601542e8b3c43c
+source-git-commit: ab9c4d33ab0254c0c4ba990cd91ed01226d3abb9
 workflow-type: tm+mt
-source-wordcount: '9775'
+source-wordcount: '9964'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -92,7 +92,9 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-<!-- ACCS-1980 not included: storefront-router-service#410 (router schema sync) is still open -->
+### 장바구니에 제품을 추가할 때 사용자 지정 특성 적용
+
+이제 `CartItemInput.custom_attributes` 필드에 키/값 쌍의 배열을 지정하여 [`addProductsToCart` 돌연변이](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/add-products)이(가) 있는 장바구니 항목에 사용자 지정 특성을 적용할 수 있습니다. <!-- ACCS-1980 -->
 
 ### 반환 항목 속성 변경
 
@@ -100,6 +102,10 @@ ht-degree: 0%
 
 * 페이로드에는 [!DNL Commerce Admin], REST 또는 `requestReturn` GraphQL 돌연변이를 통해 반환이 만들어지는 경우와 같이 저장에서 항목을 만들거나 편집할 때 반환 항목이 포함됩니다.
 * 웹후크는 반환 저장의 일부로 실행됩니다. 필요한 웹후크가 실패하면 반환이 저장되지 않습니다.
+
+### 발송에서 품목 제외
+
+새 `plugin.magento.out_of_process_shipping_methods.api.shipment_item_filter.filter` [webhook](https://developer.adobe.com/commerce/extensibility/webhooks/)을(를) 사용하면 타사에서 이행하는 항목과 같은 주문 항목을 새 배송에서 제외할 수 있습니다. <!-- ACCS-2088 -->
 
 ### 배송 주소 포함
 
@@ -113,6 +119,14 @@ ht-degree: 0%
 ### [!DNL AEM Assets]개 범주 이미지 검색
 
 이제 `CategoryInterface` 및 `CategoryTree` GraphQL 형식에 [!DNL AEM Assets]에서 할당된 범주 이미지를 반환하는 `asset_role_image` 필드가 포함됩니다. <!-- ACCS-2180 -->
+
+### 고객 스토어 신용 잔액 검색
+
+새 `GET /V1/customers/:customerId/balance` REST 끝점이 고객의 스토어 크레딧 잔액을 반환합니다. 이 끝점에는 [!UICONTROL Manage Store Credit Balances] 권한이 필요합니다. <!-- CCSAAS-5274 -->
+
+### 송장 항목 행 합계 검색
+
+이제 `InvoiceItemInterface` GraphQL 형식에 송장 항목에 대해 저장된 행 소계를 반환하는 `row_total` 필드가 포함됩니다. <!-- USF-4460 -->
 
 ### 개선 사항 및 버그 수정
 
@@ -129,6 +143,16 @@ ht-degree: 0%
 * 선택적 반환 항목 사용자 지정 특성을 빈 값으로 보냈을 때 `requestReturn` GraphQL 돌연변이가 실패하는 문제를 해결했습니다. <!-- CCSAAS-5628 -->
 
 * [!UICONTROL Update attributes] 대량 작업 후 제품이 삭제되면 재고 처리를 중지할 수 있는 문제를 해결했습니다. <!-- CCSAAS-5713 -->
+
+* 포기한 장바구니 미리 알림 이메일이 추가 미리 알림 이메일을 보낼 수 있는 문제를 해결했습니다. <!-- CCSAAS-5707 -->
+
+* 가격 및 재입고 경고 이메일이 전송되지 않은 문제가 해결되었습니다. <!-- ACCS-2268 -->
+
+* `plugin.magento.out_of_process_tax_management.api.oop_tax_collection.collect_taxes` 웹후크에서 `custom_attributes`을(를) 생략할 수 있는 문제가 해결되었습니다. <!-- CEXT-6870, CEXT-6959 -->
+
+* 프로세스 외부 합계 수집기를 사용할 때 `addProductsToCart` GraphQL 돌연변이가 오류를 반환할 수 있는 문제를 해결했습니다. <!-- ACCS-2263, CEXT-6986 -->
+
+* 구성 가능한 제품이 장바구니에서 삭제된 후 GraphQL 장바구니 쿼리 및 돌연변이가 오류를 반환할 수 있는 문제를 해결했습니다.<!-- CCSAAS-5721 -->
 
 {{accs-release}}
 
