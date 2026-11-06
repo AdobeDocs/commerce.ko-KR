@@ -64,7 +64,7 @@ Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프
 
 Adobe Commerce Optimizer은 거래에 별도의 상거래 플랫폼을 사용하는 상점 용 제품 검색 및 머천다이징 기능을 제공할 수 있습니다. 상점은 제품 데이터, 검색, 권장 사항 및 머천다이징에 Commerce Optimizer 머천다이징 서비스 API를 사용합니다. 호스트 상거래 플랫폼은 구매자 계정, 장바구니, 체크아웃 및 주문 처리를 계속 담당합니다. 호스트 플랫폼과의 통합은 API Mesh, App Builder, 직접 API 또는 이러한 도구의 조합을 사용하는 사용자 지정 구현입니다.
 
-SFCC(Salesforce Commerce Cloud)의 경우 [Adobe Commerce Optimizer SFCC Checkout Starter Kit](https://github.com/adobe-commerce/aco-sfcc-checkout-starter-kit)은 SFCC 쇼핑객, 장바구니 및 체크아웃 기능에 Adobe Commerce Optimizer 매장을 연결하는 예제 Edge Delivery Services 블록 및 스크립트를 제공합니다. 일반적인 기본 커넥터가 아니므로 참조 구현으로 사용하여 상점에 맞게 조정합니다. Next.js](https://github.com/adobe-commerce/aco-sfcc-storefront-next){target="_blank"}에 대한 [headless 상점 첫 번째 예제도 사용할 수 있습니다.
+SFCC(Salesforce Commerce Cloud)의 경우 [Adobe Commerce Optimizer SFCC Checkout Starter Kit](https://github.com/adobe-commerce/aco-sfcc-checkout-starter-kit)은 SFCC 쇼핑객, 장바구니 및 체크아웃 기능에 Adobe Commerce Optimizer 매장을 연결하는 예제 Edge Delivery Services 블록 및 스크립트를 제공합니다. 일반적인 기본 커넥터가 아니므로 참조 구현으로 사용하여 상점에 맞게 조정합니다. Next.js[&#128279;](https://github.com/adobe-commerce/aco-sfcc-storefront-next){target="_blank"}에 대한 headless 상점 첫 번째 예제도 사용할 수 있습니다.
 
 
 ## Commerce Salesforce 커넥터 {#commerce-salesforce-connector}
