@@ -5,7 +5,7 @@ solution: Commerce
 feature: Integration, Catalog Management
 role: Developer, Admin
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="[!DNL Adobe Commerce Optimizer]개 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="[!DNL Adobe Commerce Optimizer]개 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 8f3a2c1b-9d4e-5f6a-bc7d-1e2f3a4b5c6d
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 972d2a1118daca17dc17a29e20ada593656960e1
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '564'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,6 @@ ht-degree: 0%
 제품 비주얼을 사용하면 Adobe Experience Manager(AEM) Assets을 통해 제품 이미지를 관리할 수 있습니다. Commerce Optimizer용 AEM Assets을 구성하여 제품 비주얼을 활성화합니다. 구성을 마친 후에는 AEM Assets 카탈로그와 이미지를 계속 동기화할 수 있는 자동화된 자산 검토 및 관리 워크플로우를 통해 Commerce Optimizer을 제품 이미지에 대한 중앙 집중식 디지털 자산 관리 솔루션으로 사용합니다. 이 통합은 자산을 SKU별 제품에 일치시킵니다. 업데이트는 Adobe의 통합 서비스를 통해 진행되므로 상점이 수동으로 다시 업로드하지 않고도 최신 미디어를 반영합니다.
 
 - [AEM Assets을 사용한 제품 시각화](../setup/product-visuals.md)
-- [Commerce Optimizer용 AEM Assets 구성](../../aem-assets-integration/get-started/configure-aco.md){target="_blank"}
 
 ## Adobe Experience Manager Sites Optimizer {#aem-sites-optimizer}
 
@@ -65,7 +64,7 @@ Adobe Commerce Optimizer 커넥터는 Adobe Commerce(클라우드 또는 온-프
 
 Adobe Commerce Optimizer은 거래에 별도의 상거래 플랫폼을 사용하는 상점 용 제품 검색 및 머천다이징 기능을 제공할 수 있습니다. 상점은 제품 데이터, 검색, 권장 사항 및 머천다이징에 Commerce Optimizer 머천다이징 서비스 API를 사용합니다. 호스트 상거래 플랫폼은 구매자 계정, 장바구니, 체크아웃 및 주문 처리를 계속 담당합니다. 호스트 플랫폼과의 통합은 API Mesh, App Builder, 직접 API 또는 이러한 도구의 조합을 사용하는 사용자 지정 구현입니다.
 
-SFCC(Salesforce Commerce Cloud)의 경우 [Adobe Commerce Optimizer SFCC Checkout Starter Kit](https://github.com/adobe-commerce/aco-sfcc-checkout-starter-kit)은 SFCC 쇼핑객, 장바구니 및 체크아웃 기능에 Adobe Commerce Optimizer 매장을 연결하는 예제 Edge Delivery Services 블록 및 스크립트를 제공합니다. 일반적인 기본 커넥터가 아니므로 참조 구현으로 사용하여 상점에 맞게 조정합니다. Next.js[&#128279;](https://github.com/adobe-commerce/aco-sfcc-storefront-next){target="_blank"}에 대한 headless 상점 첫 번째 예제도 사용할 수 있습니다.
+SFCC(Salesforce Commerce Cloud)의 경우 [Adobe Commerce Optimizer SFCC Checkout Starter Kit](https://github.com/adobe-commerce/aco-sfcc-checkout-starter-kit)은 SFCC 쇼핑객, 장바구니 및 체크아웃 기능에 Adobe Commerce Optimizer 매장을 연결하는 예제 Edge Delivery Services 블록 및 스크립트를 제공합니다. 일반적인 기본 커넥터가 아니므로 참조 구현으로 사용하여 상점에 맞게 조정합니다. Next.js](https://github.com/adobe-commerce/aco-sfcc-storefront-next){target="_blank"}에 대한 [headless 상점 첫 번째 예제도 사용할 수 있습니다.
 
 
 ## Commerce Salesforce 커넥터 {#commerce-salesforce-connector}

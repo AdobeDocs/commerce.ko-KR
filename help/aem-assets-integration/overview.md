@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1109'
 ht-degree: 1%
 ---
 # Commerce용 AEM Assets 통합
@@ -68,27 +68,27 @@ AEM Assets 통합은 자산 관리 워크플로우를 자동화하여 이 문제
 
 ## 통합 사용 요구 사항
 
-이 통합을 [제품 시각화 또는 AEM Assets](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview#product-visuals-powered-by-aem-assets)와 활용하려면 기업은 다음 요구 사항을 충족해야 합니다.
+이 통합을 [제품 시각화 또는 AEM Assets](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview#product-visuals-powered-by-aem-assets)와 활용하려면 기업은 다음 요구 사항을 충족해야 합니다.
 
 >[!BEGINTABS]
 
 >[!TAB 제품 시각화]
 
-Adobe Commerce, AEM Assets에서 제공하는 제품 비주얼 및 [AEM Dynamic Media](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}활성 라이선스([!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]에서 바로 사용 가능).
+Adobe Commerce, AEM Assets에서 제공하는 제품 비주얼 및 [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}활성 라이선스([!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]에서 바로 사용 가능).
 
 >[!TAB AEM Assets]
 
-Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}활성 라이선스
+Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}활성 라이선스
 
 [!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} Adobe Commerce 2.4.5+
 
-* Adobe Commerce 2.4.5+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements){target="_blank"}을 참조하세요.
+* Adobe Commerce 2.4.5+. 자세한 내용은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements){target="_blank"}을 참조하세요.
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Adobe Experience Manager이 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)와(과) 함께 프로비저닝되었습니다.
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} Adobe Experience Manager이 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)와(과) 함께 프로비저닝되었습니다.
 
 >[!ENDTABS]
 
-통합을 구성하는 Adobe Commerce 사용자는 AEM Assets 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)에 액세스할 수 있어야 합니다.
+통합을 구성하는 Adobe Commerce 사용자는 AEM Assets 프로젝트가 프로비저닝된 [IMS 조직](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)에 액세스할 수 있어야 합니다.
 
 >[!BEGINSHADEBOX]
 
@@ -114,7 +114,7 @@ Adobe Commerce과 AEM Assets 통합을 설정하고 사용하는 방법에 대�
 
 Adobe Commerce과 AEM Assets이 협력하여 콘텐츠 워크플로를 간소화하는 방법에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447891?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
 
 >[!TAB Adobe Commerce as a Cloud Service 자습서]
 
@@ -162,24 +162,8 @@ AEM Assets 통합을 설치하고 구성하는 프로세스는 Adobe Commerce �
 
 1. 선택 사항입니다. [제품 이미지 표시를 사용하도록 설정](get-started/configure-storefront.md#enable-product-images)하여 Edge Delivery Services에서 제공하는 상점이 AEM 관리 제품 이미지를 렌더링하도록 합니다.
 
->[!TAB Adobe Commerce Optimizer]
-
-[!BADGE SaaS만]{type=Positive tooltip="Adobe Commerce Optimizer 프로젝트에만 적용됩니다."}
-
-[!DNL Adobe Commerce Optimizer] 관리자 구성 UI가 없습니다. Adobe 지원은 온보딩 티켓에서 통합을 구성하므로 먼저 AEM Assets을 준비하십시오.
-
-1. Commerce 메타데이터를 지원하려면 [AEM Assets 프로젝트를 구성](get-started/configure-aem.md)하십시오. AEM 릴리스 `2026.5.26309` 이상에서는 [셀프 서비스 온보딩](get-started/configure-aem.md#enable-aem-commerce-self-service)을(를) 사용합니다. 이전 릴리스에서는 `assets-commerce` 패키지를 수동으로 설치하십시오.
-
-1. 테넌트 ID, AEM 프로그램 ID, AEM 환경 ID, 일치하는 규칙, 레이어 및 로케일을 사용하여 [온보딩 지원 티켓을 제출합니다](get-started/configure-aco.md#onboarding).
-
-1. 티켓에 등록한 동일한 로케일과 레이어로 [카탈로그 보기를 구성](get-started/configure-aco.md#onboarding)합니다.
-
-1. 선택 사항입니다. [제품 이미지 표시를 사용하도록 설정](get-started/configure-storefront.md#enable-product-images)하여 Edge Delivery Services에서 제공하는 상점이 AEM 관리 제품 이미지를 렌더링하도록 합니다.
-
-   전체 절차, 제한 사항 및 레이어 지침을 보려면 [Commerce Optimizer용 AEM Assets 구성](get-started/configure-aco.md)을 참조하십시오.
-
 >[!ENDTABS]
 
 ## 지원
 
-정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 만들어 추가 도움을 받으십시오.
+정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)을 만들어 추가 도움을 받으십시오.
