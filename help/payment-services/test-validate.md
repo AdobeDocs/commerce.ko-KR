@@ -22,7 +22,7 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: b3ce7cadce74310cef2b7253b965eccb4a17107d
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 테스트가 완료되면 원래 기본 URL 구성을 복원합니다.
 
-끝점의 응답 시간이 5초 미만인 경우 PayPal은 팝업에 오류 메시지를 표시합니다.
+끝점의 응답 시간이 5초 이상이면 PayPal은 팝업에 오류 메시지를 표시합니다.
 
 #### Apple Pay 로컬 개발
 
