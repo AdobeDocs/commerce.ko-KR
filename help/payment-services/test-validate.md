@@ -22,7 +22,7 @@ role_v2:
     internal-label: Leader
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: b3ce7cadce74310cef2b7253b965eccb4a17107d
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 샌드박스 환경에서 [!DNL Payment Services]을(를) 테스트하는 것은 중요한 유효성 검사 단계입니다. 실제 은행과 판매자가 아니라 PayPal 샌드박스에만 연결된 시뮬레이션된 환경입니다.
 
 1. [신용 카드 필드](payments-options.md#credit-card-fields) 또는 [PayPal 결제 단추](payments-options.md#paypal-payment-buttons)를 사용하여 스토어에서 성공적으로 체크아웃하세요. 테스트를 위해 가짜 신용 카드를 사용하는 방법에 대한 자세한 내용은 [자격 증명 테스트](#testing-credentials)를 참조하십시오.
-1. 결제 액션이 [을(를) `Authorize and Capture`](production.md#set-payment-services-as-payment-method)(으)로 설정한 경우, [환불](refunds.md) 또는 [무효](voids.md)를 방금 완료된 주문을 캡처합니다. 결제 작업이 `Authorize and Capture` 대신 `Authorize`(으)로 설정된 경우 주문에 대해 [송장을 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"}할 수도 있습니다.
+1. 결제 액션이 [을(를) `Authorize and Capture`](production.md#set-payment-services-as-payment-method)(으)로 설정한 경우, [환불](refunds.md) 또는 [무효](voids.md)를 방금 완료된 주문을 캡처합니다. 결제 작업이 `Authorize and Capture` 대신 `Authorize`(으)로 설정된 경우 주문에 대해 [송장을 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"}할 수도 있습니다.
 1. 24~48시간 내에 [지급 보고서](payouts.md)에서 거래 및 기타 정보를 봅니다.
 1. [주문 결제 상태 보고서](order-payment-status.md)에서 주문 세부 사항을 확인하세요.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 테스트가 완료되면 원래 기본 URL 구성을 복원합니다.
 
-끝점의 응답 시간이 5초 미만인 경우 PayPal은 팝업에 오류 메시지를 표시합니다.
+끝점의 응답 시간이 5초 이상이면 PayPal은 팝업에 오류 메시지를 표시합니다.
 
 #### Apple Pay 로컬 개발
 
