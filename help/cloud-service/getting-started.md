@@ -48,9 +48,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 19c1c7d4cfaa6192169e8005e6bb323a0940d875
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1348'
 ht-degree: 0%
 ---
 # 시작
@@ -125,7 +125,7 @@ Adobe Commerce as a Cloud Service과의 통합을 만들기 위한 ![개발자 �
 | 플랫폼 이해 | Adobe Commerce as a Cloud Service 아키텍처 및 이점에 대해 알아보기 | [개요](overview.md) |
 | 기능 비교 | Cloud Service과 기타 Adobe Commerce 서비스의 차이점 이해 | [기능 비교](feature-comparison.md) |
 | 인스턴스 만들기 | 샌드박스 및 프로덕션 환경 프로비저닝 | [인스턴스 만들기](#create-an-instance) |
-| 사용자 관리 설정 | 사용자 추가, 역할 할당 및 권한 관리 | [사용자 관리](user-management.md) |
+| 사용자 관리 설정 | Adobe Admin Console을 통해 사용자를 추가하고 액세스 권한을 관리하며 Commerce 관리에서 역할 및 권한을 구성합니다. | [사용자 관리](user-management.md) |
 | [!DNL AEM Assets] 및 [!DNL Product Visuals] 설정(선택 사항) | 사용자 추가, 역할 할당 및 권한 관리 | [사용자 관리](user-management.md#add-a-user-to-aem-assets-or-product-visuals) |
 
 >[!TAB 판매자]

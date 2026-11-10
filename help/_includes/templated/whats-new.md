@@ -1,17 +1,25 @@
 ---
-source-git-commit: b1efdefbf40a258d3a426284ebff18bdc6b7ee5f
+source-git-commit: 1ae5d65ee5d00924657c36059250d38642777c34
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1447'
 ht-degree: 0%
 ---
 # 새로운 기능 템플릿
 
 ## 새로운 기능
 
-이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+이 페이지에는 지난 60일 동안의 변경 사항이 포함되어 있습니다. 복사 편집과 같은 부분 업데이트는 이 목록에서 제외됩니다.
 
 | 설명 | 유형 | 날짜/소스 |
 | --- | --- | --- |
+| 권장 사항 ID 대신 사용하여 상점 `product-recommendations` 블록을 구성할 수 있는 제품 권장 사항에 대한 새 참조 키 필드를 문서화했습니다.<br/>- 참조 키 만들기, 검색 및 관리 단계로 [권장 사항 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/create)를 업데이트했습니다.<br/>- 참조 키 만들기 및 검색 단계로 [새 권장 사항 만들기](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/create)를 업데이트했습니다.<br/>- 편집 가능한 참조 키 설정으로 [권장 사항 편집](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/edit)을 업데이트했습니다. | 주요 업데이트 | [2026년 11월 6일](https://github.com/AdobeDocs/commerce.en/commit/a69eec87f2386d06741f6cd865de0f37567b0b3b) |
+| Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 11월 5일](https://github.com/AdobeDocs/commerce.en/commit/8da72aa99416dc0925c1a033859bc70cb30a2aa4) |
+| 지정된 고객 성공 엔지니어와 연중무휴 모니터링을 추가하는 Adobe Commerce as a Cloud Service의 새로운 프리미엄 서비스를 설명하는 [관리 작업](https://experienceleague.adobe.com/ko/docs/commerce/information-center/explore-platforms-and-services/managed-operations)이 추가되었습니다. | 새 주제 | [2026년 11월 5일](https://github.com/AdobeDocs/commerce.en/commit/489e7d71d58d1ad8d2a804bddddabdfebb746935) |
+| Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 10월 29일](https://github.com/AdobeDocs/commerce.en/commit/88e85aa9c9456a52c9efb18505389fb99ef113c5) |
+| Adobe 지원을 통해 지원되는 [!DNL Live Search] 패싯 제한을 100개에서 500개까지 [요청](https://experienceleague.adobe.com/ko/docs/commerce/live-search/boundaries-limits)하는 방법에 대한 정보를 추가했습니다. | 피드백, 기술 | [2026년 10월 29일](https://github.com/AdobeDocs/commerce.en/commit/bcb4f6eefcd1a2d11e01a3bef92b1a0fb878f091) |
+| [SaaS 데이터 내보내기 확장 103.6.0](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/release-notes)에 대한 릴리스 노트를 추가했습니다. 이 릴리스 노트는 검토 수(ac_review_count)와 평균 등급(ac_rating_summary)에 대한 내보내기 지원을 추가하여 Commerce 프론트엔드에 검토 수와 별 등급을 표시합니다. | 릴리스 정보 | [2026년 10월 28일](https://github.com/AdobeDocs/commerce.en/commit/ce6eb687b61b03ae15856575a83a83a866eb090c) |
+| 통합 셸의 새 Commerce 관리 UI를 설명하는 [릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes) 섹션이 추가되었습니다. | 주요 업데이트 | [2026년 10월 28일](https://github.com/AdobeDocs/commerce.en/commit/deeb39e389025bc472e7a8e1502ad846b8844fa0) |
+| Adobe Commerce as a Cloud Service에 대한 프로덕션 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 10월 28일](https://github.com/AdobeDocs/commerce.en/commit/602e3adbbe2e238c46b249ec9dd057a46e2b6456) |
 | 최신 [소스 log-codes.md](https://github.com/magento/commerce-data-export/blob/main/dev/tests/log-codes.md)에서 [데이터 내보내기 로그 코드 참조](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/log-codes-reference)을(를) 업데이트했습니다. | 기술 | [2026년 10월 26일](https://github.com/AdobeDocs/commerce.en/commit/fd4ea4603999043844c786da3ab1e84fb8d4d4aa) |
 | <br/>결제 서비스 2.17.0 설명서에 구성, 자격 요건 및 송장 발행 워크플로 등 선택적 [PayPal Express 검토 페이지](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/payments-options#paypal-express-review-page) 및 [Overcapture](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/payments-checkout/manage/over-capture)에 대한 지침이 추가되었습니다. | 주요 업데이트 | [2026년 10월 23일](https://github.com/AdobeDocs/commerce.en/commit/d2bcc58f34af50f26d4a4f082e5b3fc30089ab58) |
 | 고객과 파트너가 Commerce 오퍼링을 탐색하고, 구현 아키텍처를 비교하고, 마이그레이션 및 통합을 계획할 수 있는 새로운 시작점인 [Adobe Commerce 정보 센터](https://experienceleague.adobe.com/ko/docs/commerce/information-center/overview)를 추가했습니다. 상점, 결제, Commerce 서비스, AEM Assets, Adobe Commerce Optimizer, 샌드박스 환경 및 Adobe Experience Platform에 대한 역할 기반 탐색 및 구현 안내서와 자세한 제품 설명서에 대한 링크가 포함되어 있습니다. | 주요 업데이트, 새 주제 | [2026년 10월 21일](https://github.com/AdobeDocs/commerce.en/commit/fcb3c575a9af82ee75408fba4b4fe7cee5dbffa4) |
@@ -31,4 +39,3 @@ ht-degree: 0%
 | Commerce 개발자 에이전트가 마이그레이션 프로세스를 지원하는 방법을 설명하기 위해 [마이그레이션 개요](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview)를 업데이트했습니다. | 주요 업데이트 | [2026년 9월 24일](https://github.com/AdobeDocs/commerce.en/commit/739eabe6f43412610862ab00516687ad5aeeac53) |
 | Adobe Commerce as a Cloud Service에 대한 프로덕션 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 주요 업데이트 | [2026년 9월 23일](https://github.com/AdobeDocs/commerce.en/commit/d879d372a199c24d266abdfb79d1ff0af164d75b) |
 | Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 주요 업데이트 | [2026년 9월 17일](https://github.com/AdobeDocs/commerce.en/commit/7f70bbf40218de2cec3482e1bc4d135d1a9022ae) |
-| Adobe Commerce as a Cloud Service에 대한 프로덕션 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 주요 업데이트 | [2026년 9월 8일](https://github.com/AdobeDocs/commerce.en/commit/bd99dda50f68395eb23c62a1e8061a7198678a65) |

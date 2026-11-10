@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 8ed4d2fa87f7a91c3c9c21817391003488c55046
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1961'
 ht-degree: 0%
 ---
 # 사용자 및 Identity Management
@@ -54,6 +54,8 @@ ht-degree: 0%
 ## 역할 이해
 
 [!DNL Adobe Commerce as a Cloud Service]에 사용할 수 있는 역할은 다음과 같습니다. 이러한 역할을 보거나 편집하려면 Commerce 관리에서 [!UICONTROL **시스템**] > [!UICONTROL **권한**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동합니다.
+
+Commerce 관리에서 사용자 정의 역할을 만들어 사용자에게 표준 Adobe Admin Console 역할보다 더 세분화된 권한을 제공할 수 있습니다. 사용자가 나중에 Adobe IMS를 통해 로그인할 때 사용자 지정 Commerce 역할 및 할당은 유지됩니다. 사용자는 여전히 Adobe Admin Console을 통해 Adobe Commerce as a Cloud Service 인스턴스에 액세스할 수 있어야 합니다. 사용자 지정 역할을 만들려면 [Commerce 관리자에서 역할을 정의](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#define-a-role)하십시오.
 
 * **사용자** - 사용자는 Commerce 관리자에 대한 관리자 액세스 권한이 있지만 Admin Console에서 제품 수준 액세스를 관리할 수 없습니다. [!DNL Commerce Cloud Manager]에서 [인스턴스 만들기](./getting-started.md#create-an-instance)에 크레딧을 사용할 수도 있습니다.
 
@@ -134,6 +136,8 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 ## 사용자 추가
 
 다음 지침은 [!DNL Commerce Cloud Manager] 및 Commerce 관리자에 사용자를 추가하는 방법에 대한 정보를 제공합니다. [!DNL Commerce Cloud Manager] 인터페이스를 사용하면 Commerce 인스턴스를 만들고 관리할 수 있습니다. 이 프로세스는 개발자 및 관리자를 포함한 모든 사용자에게 필요합니다.
+
+사용자 지정 역할을 만들려면 Adobe Admin Console에 정의된 더 광범위한 역할을 사용하는 대신 [Commerce 관리자에서 역할을 정의](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#define-a-role)할 수 있습니다.
 
 >[!NOTE]
 >
