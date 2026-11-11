@@ -51,18 +51,18 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 92240ffdb1444d600679ad8392902f543b0d84e3
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1111'
 ht-degree: 0%
 ---
 # 기능 비교
 
 Adobe Commerce은 세 가지 배포 모델을 제공합니다.
 
-- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [Adobe Commerce as a Cloud Service](overview.md)(SaaS)
-- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [클라우드의 Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/overview)&#x200B;(PaaS)
-- [Adobe Commerce](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview)&#x200B;(온-프레미스)
+- [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [Adobe Commerce as a Cloud Service](overview.md)(SaaS)
+- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [클라우드의 Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview)&#x200B;(PaaS)
+- [Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)&#x200B;(온-프레미스)
 
 이 비교에서는 SaaS(Software-as-a-Service) 모델과 PaaS(Platform-as-a-Service) 모델의 차이점에 중점을 둡니다. 이러한 모델은 Commerce 구현에 대해 다양한 수준의 맞춤화, 확장성 및 제어를 제공합니다.
 
@@ -72,7 +72,7 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
 
 ## 스토어 관리 기능
 
-[Commerce 관리 UI](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/guide-overview)는 백엔드 저장소 작업, 인벤토리, 가격, 프로모션 및 고객 상호 작용을 관리하는 기능에 액세스하기 위한 기본 인터페이스입니다. 그러나 [!DNL Adobe Commerce as a Cloud Service]은(는) [!DNL Adobe Commerce on Cloud] 및 온-프레미스 프로젝트에서 사용할 수 있는 잘 알려진 기능 중 일부를 대체하는 고유한 솔루션을 제공합니다.
+[Commerce 관리 UI](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview)는 백엔드 저장소 작업, 인벤토리, 가격, 프로모션 및 고객 상호 작용을 관리하는 기능에 액세스하기 위한 기본 인터페이스입니다. 그러나 [!DNL Adobe Commerce as a Cloud Service]은(는) [!DNL Adobe Commerce on Cloud] 및 온-프레미스 프로젝트에서 사용할 수 있는 잘 알려진 기능 중 일부를 대체하는 고유한 솔루션을 제공합니다.
 
 다음 표에서는 [!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 있는 기능 및 대체 솔루션을 설명합니다.
 
@@ -80,29 +80,32 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
     <thead>
         <tr>
             <th>기능</th>
-            <th>PaaS 모델 [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}</th>
-            <th>SaaS 모델 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}</th>
+            <th>PaaS 모델 [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}</th>
+            <th>SaaS 모델 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>디지털 자산 관리</td>
-            <td><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">미디어 갤러리</a></td>
+            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">미디어 갤러리</a></td>
             <td><a href="../aem-assets-integration/overview.md">제품 시각화</a></td>
         </tr>
         <tr>
             <td>콘텐츠 관리</td>
-            <td><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/guide-overview">콘텐츠 관리 시스템(CMS)</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/guide-overview">페이지 빌더</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL 다시 쓰기</a></td>
+            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview">콘텐츠 관리 시스템(CMS)</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview">페이지 빌더</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL 다시 쓰기</a></td>
             <td><a href="https://experienceleague.adobe.com/en/tools/commerce-storefront/merchants/get-started/">Storefront Builder</a></td>
         </tr>
         <tr>
             <td>카탈로그 머천다이징</td>
-            <td><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/staging/content-staging">콘텐츠 스테이징</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser">시각적 머천다이저</a></td>
-            <td><a href="../catalog-service/overview.md">카탈로그 서비스</a></td>
+            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging">콘텐츠 스테이징</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser">시각적 머천다이저</a></td>
+            <td>
+                <p><strong>CCDM(Composable Catalog Data Model):</strong> <a href="../optimizer/setup/catalog-view.md">머천다이징 서비스</a>에서는 카탈로그 보기, 정책, 카탈로그 소스 및 가격 책자를 사용하여 상점 카탈로그 컨텍스트를 정의합니다.</p>
+                <p><strong>원래 카탈로그 서비스 모델:</strong> <a href="../catalog-service/guide-overview.md">카탈로그 서비스</a>에서 실시간 검색 및 제품 추천과 함께 카탈로그 데이터를 제공합니다.</p>
+            </td>
         </tr>
         <tr>
             <td>결제</td>
-            <td><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/payments">결제 솔루션</a></td>
+            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments">결제 솔루션</a></td>
             <td><a href="../payment-services/guide-overview.md">결제 서비스</a></td>
         </tr>
         <tr>
@@ -119,7 +122,7 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
     <tfoot>
         <tr>
             <td colspan="3">
-                회사 관리 및 견적 처리와 같은 <sup>1</sup> 핵심 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/guide-overview">B2B 기능</a>은(는) SaaS에서 즉시 사용할 수 있습니다. 그러나 업계별 사용자 지정 사항에 대해서는 추가적인 구현 고려 사항이 필요할 수 있습니다.
+                회사 관리 및 견적 처리와 같은 <sup>1</sup> 핵심 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview">B2B 기능</a>은(는) SaaS에서 즉시 사용할 수 있습니다. 그러나 업계별 사용자 지정 사항에 대해서는 추가적인 구현 고려 사항이 필요할 수 있습니다.
             </td>
         </tr>
     </tfoot>
@@ -133,8 +136,8 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
     <thead>
         <tr>
             <th>기능</th>
-            <th>PaaS 모델 [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}</th>
-            <th>SaaS 모델 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}</th>
+            <th>PaaS 모델 [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}</th>
+            <th>SaaS 모델 [!BADGE SaaS 전용]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}</th>
         </tr>
     </thead>
     <tbody>
@@ -214,8 +217,8 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
         </tr>
         <tr>
             <td>앱 마켓플레이스</td>
-            <td>[!DNL App Builder] 앱용 [Magento Marketplace](https://marketplace.magento.com/)(PHP 확장 기능) 및 [Exchange Marketplace](https://commercemarketplace.adobe.com)(권장)</td>
-            <td>[!DNL App Builder] [[!DNL Exchange Marketplace]]의 앱(https://commercemarketplace.adobe.com)</td>
+            <td>[!DNL App Builder]개 앱용 <a href="https://marketplace.magento.com/">Magento Marketplace</a>(PHP 확장) 및 <a href="https://commercemarketplace.adobe.com">Exchange Marketplace</a>(권장)</td>
+            <td>[!DNL App Builder] 앱 출처: <a href="https://commercemarketplace.adobe.com">[!DNL Exchange Marketplace]</a></td>
         </tr>
         <tr>
             <td colspan="3" style="background:lightgray;"><strong>데이터 및 스토리지</strong></td>
@@ -256,4 +259,3 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
 >- API 기능을 확장하려면 [!DNL API Mesh]을(를) 고려하십시오.
 >- Adobe의 지속적인 플랫폼 발전 및 새로운 기능 릴리스를 모니터링합니다.
 >- 사용 가능한 확장성 옵션과 비교하여 업종별 데이터 모델 요구 사항을 평가합니다.
-
