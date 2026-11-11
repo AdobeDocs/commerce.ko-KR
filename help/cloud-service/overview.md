@@ -5,7 +5,7 @@ feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:02:31.185Z'
 TQID: 'https://experienceleague.adobe.com/D1Aq9qlw2HprQUy-g5KcIH2Ky2XUDawZIrAbe2Jz6ZI'
 product_v2:
@@ -64,9 +64,9 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 7b6ed19c7ca30a72bda94c8af60ba27324bcb2ea
+source-git-commit: 213fcf83118eb60b0e80db224192963592945d8d
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1416'
 ht-degree: 0%
 ---
 # [!DNL Adobe Commerce as a Cloud Service] 개요
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service] 아키텍처에 대한 간략한 소개는 다음 비디오를 참조하십시오. 아키텍처를 설명하는 다이어그램은 비디오 아래에 제공됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443274?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 이 다이어그램은 [!DNL Adobe Commerce as a Cloud Service]과(와) 모든 Adobe Experience Cloud 솔루션 간의 데이터 흐름을 보여 줍니다.
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 머천다이징 서비스는 [!DNL Adobe Commerce as a Cloud Service]에서 두 개의 카탈로그 데이터 모델을 지원합니다.
 
 - **카탈로그 서비스 모델** - [!DNL Live Search] 및 [!DNL Product Recommendations]과(와) 함께 [!DNL Catalog Service]을(를) 사용하여 카탈로그 데이터, 검색 및 권장 사항을 상점 앞에 제공합니다.
-- [**CCDM(Composable Catalog Data Model)**(merchandising-services.md)] - 카탈로그 보기, 정책, 카탈로그 소스 및 가격 책을 사용하여 상점 앞에서 사용할 수 있는 제품 및 가격을 정의합니다. CCDM은 [!DNL Adobe Commerce Optimizer]의 카탈로그 기반이기도 합니다.
+- [**CCDM(Composable Catalog Data Model)**](merchandising-services.md) - 카탈로그 보기, 정책, 카탈로그 소스 및 가격 장부를 사용하여 상점에서 사용할 수 있는 제품 및 가격을 정의합니다. CCDM은 [!DNL Adobe Commerce Optimizer]의 카탈로그 기반이기도 합니다.
 
 [결제 서비스](../payment-services/guide-overview.md)는 결제 방법을 지원하며 결제 처리, 주문 및 청구서 보기를 제공합니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
 
@@ -254,7 +254,7 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 <!-- 
 ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. 
 -->
