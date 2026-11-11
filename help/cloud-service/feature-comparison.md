@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 92240ffdb1444d600679ad8392902f543b0d84e3
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1111'
 ht-degree: 0%
 ---
 # 기능 비교
@@ -98,7 +98,10 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
         <tr>
             <td>카탈로그 머천다이징</td>
             <td><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/staging/content-staging">콘텐츠 스테이징</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser">시각적 머천다이저</a></td>
-            <td><a href="../catalog-service/overview.md">카탈로그 서비스</a></td>
+            <td>
+                <p><strong>CCDM(Composable Catalog Data Model):</strong> <a href="../optimizer/setup/catalog-view.md">머천다이징 서비스</a>에서는 카탈로그 보기, 정책, 카탈로그 소스 및 가격 책자를 사용하여 상점 카탈로그 컨텍스트를 정의합니다.</p>
+                <p><strong>원래 카탈로그 서비스 모델:</strong> <a href="../catalog-service/guide-overview.md">카탈로그 서비스</a>에서 실시간 검색 및 제품 추천과 함께 카탈로그 데이터를 제공합니다.</p>
+            </td>
         </tr>
         <tr>
             <td>결제</td>
@@ -214,8 +217,8 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
         </tr>
         <tr>
             <td>앱 마켓플레이스</td>
-            <td>[!DNL App Builder] 앱용 [Magento Marketplace](https://marketplace.magento.com/)(PHP 확장 기능) 및 [Exchange Marketplace](https://commercemarketplace.adobe.com)(권장)</td>
-            <td>[!DNL App Builder] [[!DNL Exchange Marketplace]]의 앱(https://commercemarketplace.adobe.com)</td>
+            <td>[!DNL App Builder]개 앱용 <a href="https://marketplace.magento.com/">Magento Marketplace</a>(PHP 확장) 및 <a href="https://commercemarketplace.adobe.com">Exchange Marketplace</a>(권장)</td>
+            <td>[!DNL App Builder] 앱 출처: <a href="https://commercemarketplace.adobe.com">[!DNL Exchange Marketplace]</a></td>
         </tr>
         <tr>
             <td colspan="3" style="background:lightgray;"><strong>데이터 및 스토리지</strong></td>
@@ -256,4 +259,3 @@ Adobe Commerce은 세 가지 배포 모델을 제공합니다.
 >- API 기능을 확장하려면 [!DNL API Mesh]을(를) 고려하십시오.
 >- Adobe의 지속적인 플랫폼 발전 및 새로운 기능 릴리스를 모니터링합니다.
 >- 사용 가능한 확장성 옵션과 비교하여 업종별 데이터 모델 요구 사항을 평가합니다.
-

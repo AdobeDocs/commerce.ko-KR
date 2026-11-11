@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Experimentation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: b2859807f154770698ad4bcc8fd1acbc81c0114f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1467'
 ht-degree: 0%
 ---
 # 사용 사례
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### 결제 서비스 활성화
 
-1. Commerce 관리에서 [!UICONTROL **스토어**] > [!UICONTROL Settings] > [!UICONTROL **구성**] > [!UICONTROL **결제 방법**]&#x200B;으로 이동합니다.
+1. Commerce 관리자에서 [!UICONTROL **스토어**] > [!UICONTROL **결제 방법**]&#x200B;으로 이동합니다.
 
 1. [!UICONTROL **일반 구성**] 섹션에서 `Payment Services Sandbox ID` 및 `Payment Services Sandbox Key`을(를) 입력하십시오. [샌드박스 온보딩](../payment-services/sandbox.md#sandbox-onboarding){target="_blank"}에 설명된 단계를 따라 이러한 ID를 가져올 수 있습니다
 

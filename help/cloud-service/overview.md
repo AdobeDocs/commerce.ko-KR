@@ -64,9 +64,9 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 7b6ed19c7ca30a72bda94c8af60ba27324bcb2ea
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1418'
 ht-degree: 0%
 ---
 # [!DNL Adobe Commerce as a Cloud Service] 개요
@@ -89,7 +89,7 @@ ht-degree: 0%
       <img src="../assets/icon-checkmark-circle-outline.svg" alt="확인 표시" align="center"> <strong>머천다이징 서비스</strong>
     </td>
     <td align="left">
-      제품 카탈로그, 가격 및 재고를 관리하는 백엔드 서비스
+      제품 카탈로그 및 가격을 관리하는 백엔드 서비스 기본적으로 새 조직은 CCDM(Composable Catalog Data Model)을 사용합니다.
     </td>
   </tr>
   <tr>
@@ -124,25 +124,20 @@ ht-degree: 0%
 
 [!DNL Storefront Builder]을(를) 사용하여 간단한 문서 기반 작성 또는 시각적 편집으로 몇 분 안에 풍부한 경험을 만들려면 [!DNL Edge Delivery Services]에서 제공하는 Adobe의 [[!DNL Commerce Storefront]](https://experienceleague.adobe.com/en/tools/commerce-storefront/)을(를) 사용하십시오.
 
-[!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 모든 Adobe Merchandising 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
+[!DNL Commerce Storefront]은(는) GraphQL API 계층을 통해 머천다이징 서비스 및 데이터를 제공하는 분리된 아키텍처를 통해 완전히 headless입니다. 이 아키텍처를 통해 팀은 Commerce Foundation과 독립적으로 전면을 개발할 수 있으므로 새로운 기술을 통해 새로운 접점을 구축하고 테스트할 수 있는 민첩성을 제공합니다.
 
 >[!NOTE]
 >
 >[!DNL Adobe Commerce as a Cloud Service]은(는) Luma 상점 전면을 지원하지 않습니다. [!DNL Adobe Commerce on Cloud] 또는 온-프레미스에서 마이그레이션하는 경우 [기존 상점](https://experienceleague.adobe.com/en/tools/commerce-storefront/discovery/#existing-storefronts)에서 전환 지침을 참조하십시오.
 
-## Adobe Merchandising 서비스 및 결제 서비스
+## 머천다이징 및 결제 서비스
 
-Adobe은 주요 비즈니스 목표를 지원하는 데 도움이 되는 지능적이고 구성 가능한 머천다이징 서비스 세트를 제공합니다. 또한 이러한 서비스는 규모에 맞게 성능을 최적화하는 데 중요한 API를 제공합니다.
+머천다이징 서비스는 [!DNL Adobe Commerce as a Cloud Service]에서 두 개의 카탈로그 데이터 모델을 지원합니다.
 
-- [[!DNL Live Search]](../live-search/overview.md) - 이 AI 기반 검색 도구를 사용하여 쇼핑객을 위해 보다 스마트하고 빠르며 적절한 결과를 제공합니다. 설치 지침은 [설정 [!DNL Live Search]](../live-search/workspace.md)을 참조하십시오.
-- [[!DNL Product Recommendations]](../product-recommendations/overview.md) - 구매자 동작, 인기 트렌드, 제품 유사성 등을 기반으로 AI 기반 권장 사항을 추가합니다. 구성 지침은 [[!DNL Product Recommendations] Workspace](../product-recommendations/workspace.md)을 참조하세요.
-- [카탈로그 서비스](../catalog-service/guide-overview.md) - 성능을 향상시키고, 확장성을 개선하고, 전환을 늘리는 동시에 고객에게 최적화된 제품 경험을 제공합니다.
+- **카탈로그 서비스 모델** - [!DNL Live Search] 및 [!DNL Product Recommendations]과(와) 함께 [!DNL Catalog Service]을(를) 사용하여 카탈로그 데이터, 검색 및 권장 사항을 상점 앞에 제공합니다.
+- [**CCDM(Composable Catalog Data Model)**(merchandising-services.md)] - 카탈로그 보기, 정책, 카탈로그 소스 및 가격 책을 사용하여 상점 앞에서 사용할 수 있는 제품 및 가격을 정의합니다. CCDM은 [!DNL Adobe Commerce Optimizer]의 카탈로그 기반이기도 합니다.
 
-  >[!NOTE]
-  >
-  >카탈로그 서비스는 [!DNL Live Search] 및 [!DNL Product Recommendations]에 자동으로 포함됩니다.
-
-- [결제 서비스](../payment-services/guide-overview.md) - 무이자 할부, 처리, 주문 및 청구서에 대한 단일 보기를 포함한 다양한 결제 방법을 제공하여 고객 만족을 높입니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
+[결제 서비스](../payment-services/guide-overview.md)는 결제 방법을 지원하며 결제 처리, 주문 및 청구서 보기를 제공합니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
 
 ## [!DNL Product Visuals powered by AEM Assets]
 
@@ -238,7 +233,7 @@ Adobe은 통합 및 사용자 지정을 빌드하기 위한 다음 개발자 도
 
 ### 간소화된 온보딩
 
-[!UICONTROL Commerce Cloud Manager] 셀프 서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작합니다. 머천다이징 서비스, Headless Commerce 인스턴스 및 [!DNL App Builder]을(를) 포함하여 필요한 모든 항목이 자동으로 구성되어 인스턴스와 통합됩니다.
+[!UICONTROL Commerce Cloud Manager] 셀프 서비스 프로비저닝 포털을 사용하여 몇 분 안에 샌드박스 및 프로덕션 인스턴스를 시작합니다. 머천다이징 서비스, Headless Commerce 인스턴스 및 [!DNL App Builder]을(를) 포함하여 필요한 인프라가 자동으로 구성되어 인스턴스와 통합됩니다.
 
 Commerce 인스턴스를 만들고 관리하는 방법은 [시작하기](getting-started.md)를 참조하세요.
 

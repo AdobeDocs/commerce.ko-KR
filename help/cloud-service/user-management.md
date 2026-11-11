@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 8ed4d2fa87f7a91c3c9c21817391003488c55046
+source-git-commit: 560ae770ae76d28e3358fb4f195aa1f2a03362c8
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1959'
 ht-degree: 0%
 ---
 # 사용자 및 Identity Management
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 역할 이해
 
-[!DNL Adobe Commerce as a Cloud Service]에 사용할 수 있는 역할은 다음과 같습니다. 이러한 역할을 보거나 편집하려면 Commerce 관리에서 [!UICONTROL **시스템**] > [!UICONTROL **권한**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동합니다.
+[!DNL Adobe Commerce as a Cloud Service]에 사용할 수 있는 역할은 다음과 같습니다. 이러한 역할을 보거나 편집하려면 Commerce 관리에서 [!UICONTROL **시스템**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동합니다.
 
 Commerce 관리에서 사용자 정의 역할을 만들어 사용자에게 표준 Adobe Admin Console 역할보다 더 세분화된 권한을 제공할 수 있습니다. 사용자가 나중에 Adobe IMS를 통해 로그인할 때 사용자 지정 Commerce 역할 및 할당은 유지됩니다. 사용자는 여전히 Adobe Admin Console을 통해 Adobe Commerce as a Cloud Service 인스턴스에 액세스할 수 있어야 합니다. 사용자 지정 역할을 만들려면 [Commerce 관리자에서 역할을 정의](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#define-a-role)하십시오.
 
@@ -203,7 +203,7 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 
 ## 역할 리소스
 
-다음 목록은 기본 역할이 [!DNL Adobe Commerce] 관리자 내에서 액세스할 수 있는 권한을 가진 리소스를 설명합니다. 각 역할에 대한 기본 권한을 편집하려면 Commerce 관리자의 [!UICONTROL **시스템**] > [!UICONTROL **권한**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동합니다.
+다음 목록은 기본 역할이 [!DNL Adobe Commerce] 관리자 내에서 액세스할 수 있는 권한을 가진 리소스를 설명합니다. 각 역할에 대한 기본 권한을 편집하려면 Commerce 관리자의 [!UICONTROL **시스템**] > [!UICONTROL **사용자 역할**]&#x200B;(으)로 이동하십시오.
 
 **사용자**
 

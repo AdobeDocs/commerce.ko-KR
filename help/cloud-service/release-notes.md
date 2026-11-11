@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ab9c4d33ab0254c0c4ba990cd91ed01226d3abb9
+source-git-commit: 2123503aaa8088baab9b9a5e3ce9c3036518061e
 workflow-type: tm+mt
-source-wordcount: '9964'
+source-wordcount: '10011'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 ## 2026년 11월 - 릴리스 #1 {#latest}
 
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+<!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
-<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+[!BADGE 프로덕션]{type=Neutral tooltip="나열된 항목은 현재 프로덕션 환경에서 사용할 수 있습니다."}
 
-다음 항목은 2026년 11월 10일에 프로덕션 환경에 릴리스됩니다.
+다음 항목은 2026년 11월 10일에 프로덕션 환경에 릴리스되었습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### 배송 주소 포함
 
-`POST /V1/orders` 및 `PUT /V1/orders/create` REST 끝점을 통해 만들어진 새 비가상 주문에는 배송 주소가 필요합니다. 배송 주소가 없는 요청은 HTTP 400 오류를 반환합니다. 이 변경 사항은 배송 정보가 없는 주문이 주문 이메일 실패를 유발하는 것을 방지합니다. <!-- CCSAAS-5351 -->
+`POST /V1/orders` 및 `PUT /V1/orders/create` REST 끝점을 통해 만들어진 새 비가상 주문에는 이제 [배송 주소](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/order-management#shipping-address-requirement-for-new-orders)가 필요합니다. 배송 주소가 없는 요청은 HTTP 400 오류를 반환합니다. 이 변경 사항은 배송 정보가 없는 주문이 주문 이메일 실패를 유발하는 것을 방지합니다. <!-- CCSAAS-5351 -->
 
 운송 주소 없이 주문을 생성하려면
 
@@ -118,15 +118,15 @@ ht-degree: 0%
 
 ### [!DNL AEM Assets]개 범주 이미지 검색
 
-이제 `CategoryInterface` 및 `CategoryTree` GraphQL 형식에 [!DNL AEM Assets]에서 할당된 범주 이미지를 반환하는 `asset_role_image` 필드가 포함됩니다. <!-- ACCS-2180 -->
+이제 `CategoryInterface` 및 `CategoryTree` GraphQL 형식에 [!DNL AEM Assets]에서 할당된 범주 이미지를 반환하는 [`asset_role_image`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/category#aem-assets-category-images) 필드가 포함됩니다. <!-- ACCS-2180 -->
 
 ### 고객 스토어 신용 잔액 검색
 
-새 `GET /V1/customers/:customerId/balance` REST 끝점이 고객의 스토어 크레딧 잔액을 반환합니다. 이 끝점에는 [!UICONTROL Manage Store Credit Balances] 권한이 필요합니다. <!-- CCSAAS-5274 -->
+새 [`GET /V1/customers/:customerId/balance`](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit#retrieve-a-customers-store-credit-balance) REST 끝점이 고객의 스토어 크레딧 잔액을 반환합니다. 이 끝점에는 [!UICONTROL Manage Store Credit Balances] 권한이 필요합니다. <!-- CCSAAS-5274 -->
 
 ### 송장 항목 행 합계 검색
 
-이제 `InvoiceItemInterface` GraphQL 형식에 송장 항목에 대해 저장된 행 소계를 반환하는 `row_total` 필드가 포함됩니다. <!-- USF-4460 -->
+이제 [`InvoiceItemInterface`](https://developer.adobe.com/commerce/webapi/graphql/schema/orders/interfaces/invoice-item#invoice-item-row-totals) GraphQL 형식에 송장 항목에 대해 저장된 행 소계를 반환하는 `row_total` 필드가 포함됩니다. <!-- USF-4460 -->
 
 ### 개선 사항 및 버그 수정
 
@@ -153,6 +153,8 @@ ht-degree: 0%
 * 프로세스 외부 합계 수집기를 사용할 때 `addProductsToCart` GraphQL 돌연변이가 오류를 반환할 수 있는 문제를 해결했습니다. <!-- ACCS-2263, CEXT-6986 -->
 
 * 구성 가능한 제품이 장바구니에서 삭제된 후 GraphQL 장바구니 쿼리 및 돌연변이가 오류를 반환할 수 있는 문제를 해결했습니다.<!-- CCSAAS-5721 -->
+
+* 저장된 주소가 많은 고객을 저장하거나 검색하는 데 시간이 걸릴 수 있는 문제를 해결했습니다. <!-- CCSAAS-5599 -->
 
 {{accs-release}}
 
