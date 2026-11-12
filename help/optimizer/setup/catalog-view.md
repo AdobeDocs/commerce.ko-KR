@@ -4,7 +4,7 @@ description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 �
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
 TQID: https://experienceleague.adobe.com/Jmze0Pq3kSNMIXqkkML-hmmlZnv-XKgeEgRB8Q8NZ6s
 product_v2:
@@ -30,35 +30,25 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 nudge: true
-source-git-commit: 42c252f70f6ed1d7a5c1fd2832324308294da264
+source-git-commit: d081e975b03805a0f46d5194f8c3cd46e3c86839
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 # 머천다이징 서비스에 대한 카탈로그 보기
 
-카탈로그 보기는 클라이언트가 검색할 수 있는 제품 및 가격을 정의합니다. 카탈로그 소스, 카탈로그 계층, 정책 및 가격 장부를 결합하여 다양한 브랜드, 지역, 비즈니스 단위 또는 채널을 지원합니다.
+{{$include /help/_includes/ccdm-shared/setup/catalog-view.md}}
 
-## 카탈로그 보기란 무엇입니까?
+## 카탈로그 보기 관리
 
-카탈로그 보기는 제품 카탈로그를 구성하고 표시하는 방법을 정의합니다. 이는 다음을 결정하는 필터 역할을 합니다.
+다음 지침에 따라 카탈로그 보기를 관리합니다.
 
-- **표시되는 제품** 비즈니스 구조(브랜드, 지역, 대리점)에 따라
-- **연결된 가격 장부를 통해 표시되는 가격**
-- 정책(브랜드, 모델, 범주 등의 특성)을 사용하여 **제품을 필터링하는 방법**
-- **로케일과 같은 특성을 기반으로 [카탈로그 원본](catalog-sources.md)을(를) 사용하는 항목**
-- **보기의 데이터에 액세스할 수 있는 사용자**&#x200B;[카탈로그 보호](private-catalog-view.md) 및 [제한된 액세스 키](restricted-access-keys.md)
+- [카탈로그 보기 만들기](#create-a-catalog-view) - 이름, 카탈로그 원본, 정책 및 가격표를 설정합니다. [권장 사항 및 제품 검색 규칙에 대한 카탈로그 보기를 지정](#specify-catalog-views-for-recommendations-and-product-discovery-rules), 제품 특성을 재정의하는 [카탈로그 계층](#catalog-layers)을 검토 또는 [카탈로그 보기를 비공개로 설정](#make-a-catalog-view-private)합니다.
+- [카탈로그 보기 편집](#edit-a-catalog-view)—소스, 정책, 가격 장부 및 보호 설정을 업데이트합니다.
+- [카탈로그 보기 삭제](#delete-a-catalog-view)—더 이상 필요하지 않은 카탈로그 보기를 제거합니다.
+- [카탈로그 보기 세부 정보 보기](#view-catalog-view-details) - 카탈로그 보기 테이블에서 카탈로그 보기의 구성을 검토합니다.
 
-예를 들어 다음에 대해 별도의 카탈로그 보기를 만들 수 있습니다.
-
-- 브랜드 또는 비즈니스 단위
-- 지리적 지역
-- 딜러 또는 파트너 채널
-- 특정 가격을 제공하는 고객 세그먼트
-
-## 카탈로그 보기 만들기
+### 카탈로그 보기 만들기
 
 카탈로그 보기를 만들기 전에 필요에 따라 다음 항목을 준비합니다.
 
@@ -68,7 +58,7 @@ ht-degree: 0%
 - 보기에 표시된 가격 책정에 대한 [가격 책자](pricebooks.md)
 - 비공개 카탈로그 보기를 만들려면 [제한된 액세스 키](restricted-access-keys.md)
 
-### 구성
+#### 구성
 
 이 섹션에서 카탈로그 보기를 만들고 [정책](policies.md) 및 [가격 장부](pricebooks.md)를 선택합니다.
 
@@ -102,25 +92,21 @@ ht-degree: 0%
 
 이러한 단계를 완료하면 이제 선택한 소스 및 정책을 기반으로 제품 및 가격을 표시하도록 카탈로그 보기가 구성됩니다.
 
-### 권장 사항 및 제품 검색 규칙에 대한 카탈로그 보기 지정
+#### 권장 사항 및 제품 검색 규칙에 대한 카탈로그 보기 지정
 
 [추천 단위를 만들기](../merchandising/recommendations/create.md) 또는 [머천다이징 규칙](../merchandising/rules/add.md)할 때 카탈로그 보기를 지정할 수 있습니다.
 
-## 카탈로그 레이어
+#### 카탈로그 레이어
 
 카탈로그 계층을 사용하면 소스 카탈로그 데이터를 변경하지 않고 선택한 제품 속성을 재정의할 수 있습니다. 레이어를 사용하여 카탈로그 뷰의 이름, 설명, 이미지, 링크 또는 메타데이터를 사용자 지정합니다.
 
 [카탈로그 계층](catalog-layer.md)을 참조하세요.
 
-## 카탈로그 보기를 비공개로 만들기
+#### 카탈로그 보기를 비공개로 만들기
 
 기본적으로 카탈로그 보기는 GraphQL 머천다이징 API에 액세스할 수 있는 클라이언트 애플리케이션에 공개됩니다. 액세스를 제한하려면 **[!UICONTROL Catalog Protection]**&#x200B;을(를) 활성화하여 비공개 카탈로그 보기를 구성하십시오.
 
 카탈로그 보기를 보호하고 액세스가 적용되었는지 확인하는 방법은 [개인 카탈로그 보기](private-catalog-view.md)를 참조하세요.
-
-## 카탈로그 보기 관리
-
-기존 카탈로그 보기의 속성을 업데이트하거나 보려면 다음 지침을 따르십시오.
 
 ### 카탈로그 보기 편집
 
@@ -143,7 +129,7 @@ ht-degree: 0%
 
 이 옵션을 사용하면 **[!UICONTROL Catalog views]** 테이블에 있는 동안 모든 카탈로그 보기 매개 변수를 빠르게 볼 수 있습니다.
 
-**[!UICONTROL Catalog views]** 작업 영역에서 카탈로그 보기에 대한 ![정보 아이콘](../assets/info-icon.png)을(를) 선택하여 구성 세부 정보를 봅니다.
+**[!UICONTROL Catalog views]** 작업 영역에서 카탈로그 보기에 대한 ![정보 아이콘](/help/assets/ccdm-shared/recommendations/info-icon.png)을(를) 선택하여 구성 세부 정보를 봅니다.
 
 ![카탈로그 보기 세부 정보](../assets/catalog-view-details.png)
 
@@ -157,82 +143,3 @@ ht-degree: 0%
 - 데이터 수정됨
 
 Storefront를 설정하거나 데이터 수집 API를 사용할 때 이러한 구성 설정 중 일부가 필요합니다.
-
-## 아키텍처 개요
-
-카탈로그 보기는 Adobe Commerce 기본 설정에서 사용되는 웹 사이트, 스토어, 스토어뷰 프레임워크를 보다 유연한 모델로 대체하는 머천다이징 서비스 프레임워크의 일부입니다.
-
-![[!DNL Merchandising Services] 아키텍처](../assets/merchandising-svcs-architecture.png)
-
-### 작동 방식
-
-**1. 데이터 수집**
-PIM, ERP 및 기타 시스템의 카탈로그 데이터는 머천다이징 서비스 프레임워크에 수집됩니다. 각 SKU에는 카탈로그 보기, 정책 및 로케일에 매핑되는 로케일 정보와 제품 특성이 포함되어 있습니다. 데이터 수집에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
-
-**2. 통합 기본 카탈로그**
-수집된 데이터는 카탈로그 서비스 데이터 파이프라인에 통합 기본 카탈로그를 만듭니다. 이 단일 소스는 여러 사업부에서 데이터 중복을 제거합니다.
-
-**3. 카탈로그 보기**
-여러 카탈로그 보기는 서로 다른 비즈니스 단위를 나타냅니다(예: &quot;Texas Retail&quot;, &quot;Texas Retail Seasonal&quot;). 카탈로그 보기에서 로케일, 정책 및 가격 책자를 공유하여 유연성을 높일 수 있습니다.
-
-**4. 다중 채널 게재**
-필터링된 카탈로그 데이터는 Edge Delivery Services, 마켓플레이스, 광고 플랫폼 및 사용자 지정 마이크로 스토어와 같은 대상에 제공됩니다. 카탈로그 데이터 배달에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
-
-카탈로그 보기에서 **[!UICONTROL Catalog Protection]**&#x200B;을(를) 사용하도록 설정한 경우 해당 대상으로 배달하려면 할당된 [제한된 액세스 키](restricted-access-keys.md)에서 서명된 올바른 토큰이 필요합니다. 카탈로그 데이터를 받는 대신 승인되지 않은 요청이 거부됩니다.
-
-### 주요 구성 요소
-
-| 구성 요소 | 목적 | 예 |
-|---|---|---|
-| **카탈로그 보기** | 사업부 또는 배포 채널 | 딜러 네트워크, 지역 스토어 |
-| **정책** | 속성을 기반으로 한 제품 필터 | 브랜드, 모델, 카테고리 |
-| **로케일** | 언어/지역 설정 | en-US, fr-CA, es-MX |
-| **가격표** | 가격 구조 | 소매, 도매, 직원 |
-| **제한된 액세스 키** | 보호된 카탈로그 보기에 대한 액세스를 여는 서명된 토큰 자격 증명 | 파트너 포털 키, B2B 가격 키 |
-
-### 데이터 흐름
-
-1. **수집** - PIM/ERP 시스템의 제품 데이터
-2. **프로세스** - 카탈로그 보기, 정책 및 가격 적용
-3. **배달** - 필터링된 카탈로그를 상점, 장터 등에 제공할 수 있습니다.
-
-## 주요 기능
-
-| 기능 | 이익 |
-|---|---|
-| **단일 기본 카탈로그** | 여러 사업부에서 데이터 중복 제거 |
-| **유연한 가격** | 다양한 고객 세그먼트에 대한 SKU당 여러 가격 장부 |
-| **확장 가능** | 2억 개 이상의 SKU를 효율적으로 관리 |
-| **다중 채널** | 상점, 시장 및 광고 플랫폼에 카탈로그 제공 |
-| **실시간 업데이트** | 프로모션 및 캠페인에 대한 카탈로그 데이터를 빠르게 업데이트 |
-| **비공개 카탈로그 보기** | 서명된 토큰 유효성 검사를 사용하여 승인된 클라이언트로 카탈로그 보기 제한 |
-
-## 사용 사례
-
-### 멀티브랜드 복합 기업
-
-**과제**: 여러 브랜드, 국가 및 언어 관리<br>
-**솔루션**: 각 브랜드/지역 조합에 대한 카탈로그 보기가 있는 단일 카탈로그
-
-### 자동차 부품 딜러
-
-**과제**: 같은 제품이지만 가격이 다른 3,000개의 딜러<br>
-**솔루션**: 판매자별 카탈로그 보기 및 가격 책자가 있는 카탈로그 1개
-
-### 다중 위치 retailer
-
-**과제**: 위치별로 다른 가격 및 인벤토리<br>
-**솔루션**: 지역별 정책이 있는 위치 기반 카탈로그 보기
-
->[!NOTE]
->
->카탈로그 데이터 수집 및 배달에 대한 자세한 내용은 [개발자 설명서](https://developer.adobe.com/commerce/services/optimizer/)를 참조하세요.
-
-## 다음과 같음
-
-- [카탈로그 원본](catalog-sources.md) - 검색, 필터링 및 정렬 동작을 위한 신뢰할 수 있는 제품, 특성 및 범주 범위를 정의합니다.
-- [카탈로그 레이어](catalog-layer.md) - 원본 원본을 변경하지 않고 제품 데이터를 수정하는 방법에 대해 알아봅니다.
-- [비공개 카탈로그 보기](private-catalog-view.md)—인증된 클라이언트에 대한 액세스를 제한하기 위해 비공개 카탈로그 보기를 만듭니다.
-- [제한된 액세스 키](restricted-access-keys.md)—카탈로그 보호를 위해 토큰을 서명하는 데 사용되는 키를 만들고, 할당하고, 회전합니다.
-- [정책](policies.md) - 카탈로그 보기에서 제품을 필터링하는 정책을 만듭니다.
-- [가격 장부](pricebooks.md)—다양한 고객 세그먼트에 대한 가격 구조를 관리합니다.
