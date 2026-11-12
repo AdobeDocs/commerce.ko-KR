@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c67e36c5a607fa1112a3a34b71c89de1b0162b10
+source-git-commit: 0bda134570bb3bf2f43da545917dedc95394df5e
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '947'
 ht-degree: 0%
 ---
 
@@ -77,7 +77,7 @@ Adobe Commerce as a Cloud Service은 이제 머천다이징 서비스를 통해 
 
 원래 카탈로그 모델은 Catalog Service 를 사용하여 제품 데이터를 상점 앞으로 전달하고 라이브 검색 및 제품 권장 사항은 검색, 머천다이징 및 권장 사항 기능을 제공합니다. 이 모델에서 Commerce은 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 사용하여 동기화합니다.
 
-CCDM을 사용하면 이러한 기능이 Adobe Commerce Optimizer을 지원하는 것과 동일한 카탈로그 기반에서 작동합니다. [카탈로그 보기](../optimizer/setup/catalog-view.md) 및 [정책](../optimizer/setup/policies.md)은(는) 상점 앞에서 사용할 수 있는 카탈로그 컨텍스트를 정의합니다. 정책은 제품 분류를 결정하고, 머천다이징 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정될 수 있습니다.
+CCDM을 사용하면 이러한 기능이 Adobe Commerce Optimizer을 지원하는 것과 동일한 카탈로그 기반에서 작동합니다. [카탈로그 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) 및 [정책](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/policies)은(는) 상점 앞에서 사용할 수 있는 카탈로그 컨텍스트를 정의합니다. 정책은 제품 분류를 결정하고, 머천다이징 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정될 수 있습니다.
 
 이렇게 하면 카탈로그의 구성, 액세스 및 머천다이징 방법이 변경됩니다. CCDM은 카탈로그 보기 수준에서 제어를 도입하는 동안 원래 Commerce 카탈로그의 검색, 권장 사항 및 머천다이징 기능을 빌드합니다. 추가 관리 및 보고 기능은 아래에 설명되어 있습니다.
 
@@ -99,9 +99,9 @@ Storefront는 CCDM 지원 머천다이징 서비스를 사용하여 찾아보기
 
 ## 상인들을 위한 새로운 것은 무엇인가?
 
-새 모델을 사용하면 기존 머천다이징 규칙의 범위를 모든 카탈로그 보기 또는 특정 보기로 지정할 수 있습니다. 이렇게 하면 각 상점 대상 그룹에 머천다이징을 적용할 수 있습니다. 카탈로그 보기에 머천다이징 규칙을 [범위 지정](../optimizer/merchandising/rules/add.md#create-a-rule)하는 방법에 대해 알아봅니다.
+새 모델을 사용하면 기존 머천다이징 규칙의 범위를 모든 카탈로그 보기 또는 특정 보기로 지정할 수 있습니다. 이렇게 하면 각 상점 대상 그룹에 머천다이징을 적용할 수 있습니다. 카탈로그 보기에 머천다이징 규칙을 [범위 지정](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/add)하는 방법에 대해 알아봅니다.
 
-관리에서 [!UICONTROL Catalog Views] 및 [!UICONTROL Policies]&#x200B;(으)로 카탈로그 컨텍스트를 구성할 수 있습니다. [!UICONTROL Success Metrics]을(를) 사용하여 매출, 전환, 참여, 획득 및 바운스 비율을 검토할 수도 있습니다. 자세한 내용은 [성공 지표](../optimizer/manage-results/success-metrics.md)를 참조하십시오.
+관리에서 [!UICONTROL Catalog Views] 및 [!UICONTROL Policies]&#x200B;(으)로 카탈로그 컨텍스트를 구성할 수 있습니다. [!UICONTROL Success Metrics]을(를) 사용하여 매출, 전환, 참여, 획득 및 바운스 비율을 검토할 수도 있습니다. 자세한 내용은 [성공 지표](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/manage-results/success-metrics)를 참조하십시오.
 
 ## 채택 전 고려 사항
 

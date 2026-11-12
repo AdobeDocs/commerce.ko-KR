@@ -64,9 +64,9 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 7b6ed19c7ca30a72bda94c8af60ba27324bcb2ea
+source-git-commit: 213fcf83118eb60b0e80db224192963592945d8d
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1416'
 ht-degree: 0%
 ---
 # [!DNL Adobe Commerce as a Cloud Service] 개요
@@ -135,7 +135,7 @@ ht-degree: 0%
 머천다이징 서비스는 [!DNL Adobe Commerce as a Cloud Service]에서 두 개의 카탈로그 데이터 모델을 지원합니다.
 
 - **카탈로그 서비스 모델** - [!DNL Live Search] 및 [!DNL Product Recommendations]과(와) 함께 [!DNL Catalog Service]을(를) 사용하여 카탈로그 데이터, 검색 및 권장 사항을 상점 앞에 제공합니다.
-- [**CCDM(Composable Catalog Data Model)**(merchandising-services.md)] - 카탈로그 보기, 정책, 카탈로그 소스 및 가격 책을 사용하여 상점 앞에서 사용할 수 있는 제품 및 가격을 정의합니다. CCDM은 [!DNL Adobe Commerce Optimizer]의 카탈로그 기반이기도 합니다.
+- [**CCDM(Composable Catalog Data Model)**](merchandising-services.md) - 카탈로그 보기, 정책, 카탈로그 소스 및 가격 장부를 사용하여 상점에서 사용할 수 있는 제품 및 가격을 정의합니다. CCDM은 [!DNL Adobe Commerce Optimizer]의 카탈로그 기반이기도 합니다.
 
 [결제 서비스](../payment-services/guide-overview.md)는 결제 방법을 지원하며 결제 처리, 주문 및 청구서 보기를 제공합니다. 구성 지침은 [결제 서비스 홈](../payment-services/payments-home.md)을 참조하세요.
 
