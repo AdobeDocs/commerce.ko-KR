@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 672e67ef99d52c942013a880ecfec0da31e76756
 workflow-type: tm+mt
 source-wordcount: '3191'
 ht-degree: 0%
@@ -352,7 +352,7 @@ query {
 
 주요 릴리스: 헤드리스 상점, 헤더 관리 및 제품 데이터 처리를 위한 [구성 가능한 카탈로그 데이터 모델](https://developer.adobe.com/commerce/services/optimizer/).
 
-![새로 만들기](../assets/new.svg) **CCDM(Composable Catalog Data Model)** - 헤드리스 상점 앞면에 대해 composable 카탈로그를 사용하는 고객을 지원합니다. 새 끝점은 카탈로그 보기 및 정책 ID(이전 버전과 호환)를 수락합니다. 기본 제공 페이지 매김으로 제품 세부 사항 및 가격을 구성할 수 있습니다.<!--DATA-6018, DATA-6288-->
+![새로 만들기](../assets/new.svg) **CCDM(Composable Catalog Data Model)** - 헤드리스 상점 앞에 대해 composable 카탈로그를 사용하는 고객을 지원합니다. 새 끝점은 카탈로그 보기 및 정책 ID(이전 버전과 호환)를 수락합니다. 기본 제공 페이지 매김으로 제품 세부 사항 및 가격을 구성할 수 있습니다.<!--DATA-6018, DATA-6288-->
 
 구성 가능한 카탈로그 API 작업을 위해 ![새](../assets/new.svg) **헤더 관리**-`AC-Locale` 이름이 `AC-Scope-Locale`(으)로 바뀌었습니다. 헤더 매핑 및 기본값이 지정되었습니다.<!--DATA-6303, DATA-6078-->
 

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL SaaS Data Export Guide]'
-description: Adobe Commerce과 연결된 Adobe Commerce 서비스 간에 데이터를 동기화하는 Commerce SaaS 서비스용  [!DNL data export] 확장 사용에 대해 알아봅니다.
+description: Adobe Commerce 및 연결된 Commerce 서비스 간에 데이터를 동기화하는 Adobe Commerce SaaS 서비스용 [!DNL data export] 확장 기능을 사용하는 방법에 대해 알아봅니다.
 autotag-review: '2026-06-17T15:08:59.000Z'
 role: Admin, Developer
 exl-id: 8a0067ba-90a4-48a6-8276-208d09abe6fc
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 182aa9ce819807d1ede85c4fa459714e7dfe0478
+source-git-commit: 672e67ef99d52c942013a880ecfec0da31e76756
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 0%
-
+source-wordcount: '403'
+ht-degree: 5%
 ---
-
 # [!DNL SaaS Data Export] 안내서
 
 [!DNL SaaS data export]은(는) Adobe Commerce 인스턴스와 연결된 Commerce 서비스 간에 데이터를 동기화합니다. Live Search, 제품 추천, 카탈로그 서비스 또는 [!DNL Adobe Commerce Optimizer Connector]을(를) Adobe Commerce 설치에 추가하면 [!DNL Data Export] 확장이 자동으로 설치됩니다.

@@ -18,7 +18,7 @@ feature_v2:
   - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
     internal-label: Commerce ecosystem
 nudge: true
-source-git-commit: bce3bdd8831e24398a04dd5be0088f421d0253e8
+source-git-commit: 21b4214971866f0e801d8992ac736950324ce524
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 3%
