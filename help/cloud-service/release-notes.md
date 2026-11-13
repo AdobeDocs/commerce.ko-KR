@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 2123503aaa8088baab9b9a5e3ce9c3036518061e
+source-git-commit: c77ccb87ac61a4dae8adc3079bb8aac7a4a9bf58
 workflow-type: tm+mt
-source-wordcount: '10011'
+source-wordcount: '10458'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -82,7 +82,74 @@ ht-degree: 0%
 
 자세한 내용은 Adobe 통합 환경의 [Commerce 관리자](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience)를 참조하세요.
 
-## 2026년 11월 - 릴리스 #1 {#latest}
+## 2026년 11월 - 릴리스 #2 {#latest}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+다음 항목은 2026년 11월 18일에 샌드박스 환경으로 릴리스되었습니다.
+
+>[!BEGINSHADEBOX]
+
+### 제품 리뷰
+
+이제 [!DNL Adobe Commerce as a Cloud Service]에 대해 [제품 리뷰](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews)을 사용할 수 있습니다. <!-- ACCS-2277, ACCS-432 -->
+
+제품 리뷰는 기본적으로 비활성화되어 있습니다. 검토를 사용하려면 [!UICONTROL Stores] > [!UICONTROL Configuration] > [!UICONTROL Catalog] > [!UICONTROL Catalog] > [!UICONTROL Product Reviews]&#x200B;(으)로 이동하고 [!UICONTROL Use System Value] 확인란의 선택을 취소한 다음 [!UICONTROL Enabled]을(를) **예**(으)로 설정하십시오.
+
+[`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL 쿼리를 사용하여 리뷰를 검색하고 [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) 돌연변이를 사용하여 리뷰를 만드십시오.
+
+### 사용자 지정 속성
+
+이 릴리스에서는 사용자 지정 특성을 처리하기 위한 몇 가지 새로운 REST 및 GraphQL 기능이 도입되었습니다.
+
+* **신용 메모**
+  * 이제 `GET /V1/creditmemos` REST 끝점이 사용자 지정 특성 값으로 크레딧 메모를 필터링할 수 있습니다. 검색 조건에 `custom_attributes.<code>` 필드 이름을 사용하십시오(예: `searchCriteria[filter_groups][0][filters][0][field]=custom_attributes.is_appeasement`). <!-- ACCS-2158, ACCS-1915, ACCS-2159, ACCS-2221 -->
+
+  >[!IMPORTANT]
+  >
+  >이 기능은 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오.
+
+* **주문**
+  * 새 `POST /V1/orders/:orderId/customAttributes` REST 끝점은 기존 주문에서 사용자 지정 특성을 추가하거나 업데이트합니다. <!-- ACCS-2137 -->
+* **반환**
+  * 반품 상품 승인(RMA)은 이제 반품 품목 외에 반품 자체에 대한 사용자 정의 속성을 지원합니다. <!-- CEXT-6925 -->
+    * `/V1/returns` REST 끝점은 저장하고 반환 시 `custom_attributes`을(를) 반환합니다.
+    * GraphQL `Return` 형식에 `custom_attributes` 필드가 포함되어 있습니다.
+  * 반환에 `return_address` 사용자 지정 특성이 있는 경우 Commerce은 구성된 반환 주소 대신 해당 주소를 사용합니다. `/V1/returns` REST 끝점 또는 `observer.rma_save_before` 웹후크를 통해 이 특성을 설정할 수 있습니다. <!-- ACCS-2184 -->
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* `PUT /V1/system/config` REST 끝점을 통해 [!DNL AEM Assets] 통합 설정을 저장해도 제품 이미지가 동기화되지 않는 문제를 해결했습니다. <!-- ACCS-2282 -->
+
+* 여러 인벤토리 소스가 활성화된 경우 무료 선물 카트 가격 규칙의 선물 SKU 선택기가 열리지 않는 문제를 해결했습니다. <!-- ACCS-2208 -->
+
+* B2B 구매자가 회사의 공유 카탈로그에서 제품을 제거할 때 상점에서 배송된 제품을 반품할 수 없는 문제를 해결했습니다. <!-- ACCS-2283, AC-19727 -->
+
+* 고객이 추가 &quot;회사에 연결되었습니다&quot; 이메일을 수신하는 문제가 수정되었습니다. <!-- ACCS-2292, ACCS-856 -->
+
+* 이제 협상 가능한 견적 및 견적 템플릿에 판매자 이름과 구매자 이름이 포함된 `created_by` GraphQL 필드가 포함됩니다. <!-- USF-4511 -->
+
+* `POST /V1/customers` REST 끝점이 400 오류를 반환하는 문제를 해결했습니다. <!-- CCSAAS-5786 -->
+
+* 고객을 저장하면 변경되지 않은 주소가 더 이상 다시 저장되지 않습니다. <!-- CCSAAS-5599 -->
+
+* [!UICONTROL Manage Stock]이(가) 꺼진 동일한 제품에 대한 동시 주문이 실패할 수 있는 문제를 해결했습니다. <!-- CCSAAS-5778, ACP2E-5457 -->
+
+* 인보이스 발행 수량 전체를 환불했을 때 `POST /V1/invoice/:invoiceId/refund` REST 끝점에서 오류가 반환되던 문제를 수정했습니다. <!-- CCSAAS-5794, AC-16056 -->
+
+* `GET /V1/products` REST 끝점의 성능이 향상되었습니다. <!-- CCSAAS-4664 -->
+
+* 제품 CSV 가져오기는 이제 파일 이름 확장명으로 끝나지 않는 이미지 URL을 지원합니다. <!-- CCSAAS-5605 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 11월 - 릴리스 #1
 
 <!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
