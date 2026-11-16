@@ -2,7 +2,7 @@
 title: Adobe Commerce Optimizer 제한 및 경계
 description: Adobe Commerce Optimizer 라이선스 제한 및 시스템 경계에 대해 알아봅니다. 용량을 계획하고, 사용량을 추적하고, 제한 초과 시 지연 및 제한을 방지합니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 nudge: true
 product_v2:
@@ -13,9 +13,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 0b52c20df4c64d3dd7e43f023e7b0f4517e8fcf7
+source-git-commit: 57a905703b11ef8fc4ca4527a5fc136dc81615cc
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1491'
 ht-degree: 0%
 ---
 # 제한 및 경계
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [라이선스 제한 및 시스템 경계](#license-limits-and-system-boundaries) 섹션에서 설명한 라이선스 패키지를 구입하거나 고유한 사용 사례에 대해 사용자 지정 라이선스를 협상하여 라이선스 제한을 늘릴 수 있습니다. 요구 사항에 대해 논의하려면 Adobe 계정 담당자에게 문의하십시오.
 
-시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko#support)에 문의하십시오.
+시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en#support)에 문의하십시오.
 
 ## 성능 문제 방지
 
@@ -151,7 +151,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | 검색 가능한 속성 | 카탈로그 검색을 위해 색인화할 수 있는 제품 특성 수 | 200 | 아니요 |
 | 정렬 가능한 속성 | 검색 및 카테고리 페이지에서 정렬 옵션으로 사용할 수 있는 제품 특성의 수입니다. | 50 | 아니요 |
 | 검색 페이지 매김 깊이 | 검색 페이지 매김을 통해 도달할 수 있는 최대 제품(예: 페이지 100 × 100개 제품/페이지) | 10K | 아니요 |
-| 패싯 | 쇼핑객이 검색 결과를 구체화하고 범주를 탐색하는 데 도움이 되도록 구성할 수 있는 필터링 가능한 제품 특성(예: 브랜드, 색상, 크기, 가격)의 수 | 100<p>필터링 가능한 속성이어야 합니다.</p> | 아니요 |
+| 패싯 | 쇼핑객이 검색 결과를 구체화하고 범주를 탐색하는 데 도움이 되도록 구성할 수 있는 필터링 가능한 제품 특성(예: 브랜드, 색상, 크기, 가격)의 수 | 100<p>필터링 가능한 속성이어야 합니다.</p> | 예<p>지원 요청을 통해 증가 가능</p> |
 | 패싯당 옵션 | 구매자가 Facet에서 선택할 수 있는 필터링 가능한 제품 속성 값의 수(예: Color의 경우 &quot;빨간색&quot;, &quot;파란색&quot;, Size의 경우 &quot;작게&quot;, &quot;Medium&quot;) | 100 | 예<p>지원 요청을 통해 증가 가능</p> |
 
 {style="table-layout:auto"}
@@ -171,7 +171,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** | **메모** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | 클라우드 기반 확장 및 통합 구축 용량 | GMV 계층 기반<p>최소 할당: 1팩/년</p> | 예<p>추가 팩 추가</p> | 팩당 정의된 제한에 대해서는 다음을 참조하십시오.<ul><li>팩당 정의된 제한에 대한 [App Builder 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html).</li><li>*App Builder 런타임 가이드*&#x200B;의 [시스템 설정 및 제한](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings).</li><li>[App Builder 저장소 요구 사항](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 
