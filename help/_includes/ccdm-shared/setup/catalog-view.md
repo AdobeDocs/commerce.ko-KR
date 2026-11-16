@@ -18,7 +18,7 @@ ht-degree: 0%
 - **연결된 가격 장부를 통해 표시되는 가격**
 - 정책(브랜드, 모델, 범주 등의 특성)을 사용하여 **제품을 필터링하는 방법**
 - **로케일과 같은 특성을 기반으로 [카탈로그 원본](/help/optimizer/setup/catalog-sources.md)을(를) 사용하는 항목**
-- **보기의 데이터에 액세스할 수 있는 사용자**[카탈로그 보호](private-catalog-view.md) 및 [제한된 액세스 키](restricted-access-keys.md)
+- **보기의 데이터에 액세스할 수 있는 사용자**&#x200B;[카탈로그 보호](private-catalog-view.md) 및 [제한된 액세스 키](restricted-access-keys.md)
 
 예를 들어 다음에 대해 별도의 카탈로그 보기를 만들 수 있습니다.
 
