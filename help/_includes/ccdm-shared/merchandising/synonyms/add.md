@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '583'
 ht-degree: 0%
 ---
+# 동의어 만들기
+
 직접 선별된 동의어 목록을 추가하여 고객 참여도를 높이십시오. 카탈로그 소스당 최대 200개의 동의어를 추가할 수 있습니다.
 
 ![동의어 Workspace](/help/assets/ccdm-shared/synonyms/synonym-workspace.png)
@@ -56,13 +58,13 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 |--- |--- |
-| [유형](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/synonyms/type) | 동의어가 키워드와 동일한 의미를 갖는지 또는 키워드의 하위 집합인지 여부를 결정합니다. 옵션:<br />양방향(기본값) - 키워드와 의미가 같고 동일한 검색 결과를 반환하는 용어<br />단방향 - 키워드의 하위 집합인 용어. 단방향 동의어는 특정 제품의 더 좁은 목록을 반환합니다. |
+| [유형](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/type) | 동의어가 키워드와 동일한 의미를 갖는지 또는 키워드의 하위 집합인지 여부를 결정합니다. 옵션:<br />양방향(기본값) - 키워드와 의미가 같고 동일한 검색 결과를 반환하는 용어<br />단방향 - 키워드의 하위 집합인 용어. 단방향 동의어는 특정 제품의 더 좁은 목록을 반환합니다. |
 | 키워드 | 카탈로그의 제품 선택과 일반적으로 관련된 단어입니다. |
 | 확장 | 키워드와 동일하거나 유사한 의미를 갖는 추가 용어입니다. |
 
 ## 동의어 관리
 
-기존 [동의어](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/synonyms/overview)를 관리하려면 다음 지침을 따르십시오.
+기존 [동의어](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/overview)를 관리하려면 다음 지침을 따르십시오.
 
 ## 동의어 찾기
 
@@ -80,7 +82,7 @@ ht-degree: 0%
 
 1. 편집할 동의어를 찾은 다음 **자세히**(...)을 클릭합니다. 옵션.
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**을 클릭합니다.
 키워드는 목록의 첫 번째 용어이며 각 용어는 쉼표로 구분됩니다. 키워드 및 확장 용어는 업데이트할 수 있지만 동의어의 유형은 변경할 수 없습니다.
 1. 편집할 항목을 클릭합니다. 그런 다음 필요에 따라 텍스트를 업데이트합니다.
 

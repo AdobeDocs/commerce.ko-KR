@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1599'
 ht-degree: 0%
 ---
+# 권장 사항 유형
+
 [!DNL Product Recommendations]은(는) 사이트의 다양한 페이지에 배포할 수 있는 다양한 권장 사항 집합을 제공합니다. 모든 권장 사항 유형은 데이터 기반입니다. 행동 데이터, 제품 속성 데이터 및 지표를 기반으로 합니다. 쉽게 참조할 수 있도록 추천 유형은 다음과 같이 그룹화됩니다.
 
 - [개인화됨](#personalized)

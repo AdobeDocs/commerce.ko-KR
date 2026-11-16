@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 ---
+# Adobe Merchandising
+
 제품 검색 및 추천을 통해 쇼핑객을 위한 개인화된 경험을 만드는 방법을 알아봅니다.
 
 이러한 Adobe Merchandising 서비스는 *제품 컨텍스트*&#x200B;에서 *제품 데이터*&#x200B;를 분리하는 구성 가능한 카탈로그 데이터 모델(CCDM)을 기반으로 구축됩니다. 제품 데이터에는 SKU, 속성, 메타데이터, 에셋 및 가격이 포함됩니다. 제품 컨텍스트는 [카탈로그 보기](/help/optimizer/setup/catalog-view.md), [데이터 액세스 정책](/help/optimizer/setup/policies.md), [카탈로그 원본](/help/optimizer/setup/catalog-sources.md)(로케일)을 포함하여 데이터가 전달되는 방식을 정의합니다. 카탈로그 보기 및 정책은 상점 데이터를 제어하기 때문에 B2B, B2C 및 D2C 모델에 대한 사용자 지정 카탈로그를 구성하고 기본 데이터를 복제하지 않고 쇼핑 경험을 조정할 수 있습니다.

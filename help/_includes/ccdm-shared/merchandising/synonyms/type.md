@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 0%
 ---
+# 동의어 유형
+
 단방향 및 양방향 동의어는 키워드의 정의를 확장합니다. 일부는 키워드와 교환되는 반면, 일부는 키워드의 하위 집합을 나타냅니다.
 
 ## 양방향
@@ -28,4 +30,4 @@ ht-degree: 0%
 
 동의어를 만든 후 검색 동작이 정확히 일치하는 구 **kitchen table**&#x200B;을(를) 찾도록 변경됩니다. 이렇게 하면 구문이 정확한 제품만 표시되므로 결과 수가 줄어들 수 있습니다.
 
-이전과 같이 용어를 개별적으로 검색하려는 경우 [지원 티켓을 만들 수 있습니다](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+이전과 같이 용어를 개별적으로 검색하려는 경우 [지원 티켓을 만들 수 있습니다](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).

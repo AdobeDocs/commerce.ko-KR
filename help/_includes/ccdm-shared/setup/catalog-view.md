@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '740'
 ht-degree: 0%
 ---
+# Adobe Merchandising 서비스에 대한 카탈로그 보기 개요
+
 <!--This shared include file contains the conceptual and architecture overview of catalog views for Adobe Merchandising Services-->
 
 카탈로그 보기는 클라이언트가 검색할 수 있는 제품 및 가격을 정의합니다. 카탈로그 소스, 카탈로그 계층, 정책 및 가격 장부를 결합하여 다양한 브랜드, 지역, 비즈니스 단위 또는 채널을 지원합니다.
@@ -16,7 +18,7 @@ ht-degree: 0%
 - **연결된 가격 장부를 통해 표시되는 가격**
 - 정책(브랜드, 모델, 범주 등의 특성)을 사용하여 **제품을 필터링하는 방법**
 - **로케일과 같은 특성을 기반으로 [카탈로그 원본](/help/optimizer/setup/catalog-sources.md)을(를) 사용하는 항목**
-- **보기의 데이터에 액세스할 수 있는 사용자**&#x200B;[카탈로그 보호](private-catalog-view.md) 및 [제한된 액세스 키](restricted-access-keys.md)
+- **보기의 데이터에 액세스할 수 있는 사용자**[카탈로그 보호](private-catalog-view.md) 및 [제한된 액세스 키](restricted-access-keys.md)
 
 예를 들어 다음에 대해 별도의 카탈로그 보기를 만들 수 있습니다.
 
@@ -38,7 +40,7 @@ Adobe Commerce 백엔드 또는 다른 타사 백엔드(예: PIM 또는 ERP) 및
 
 - **Adobe Commerce 백엔드** - 시스템이 Commerce 카탈로그 피드를 내보내고 데이터 수집 REST API에 필요한 형식으로 매핑하며 피드 데이터를 Adobe Merchandising 서비스 데이터 레이어에 동기화합니다. 이 모델에서 Adobe Commerce은 초기 동기화 및 후속 업데이트를 관리합니다. 피드에는 제품, 카테고리, 제품 속성, 가격 및 가격 장부가 포함됩니다.
 
-- **타사 백엔드 또는 소스 시스템**—커넥터 또는 통합 서비스는 API, 이벤트 또는 내보내기 피드를 통해 소스에서 카탈로그 데이터를 검색한 다음 구성 가능한 카탈로그 데이터 모델(CCDM) 스키마에 대해 매핑하고 유효성을 검사한 다음 데이터 수집 REST API를 사용하여 Adobe Merchandising 서비스 레이어에 데이터를 동기화합니다. 통합은 초기 로드 및 이후 변경 사항 전송을 담당합니다. Adobe의 [Salesforce Commerce 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/developer/salesforce-connector)와 같은 플랫폼별 커넥터가 시작점을 제공할 수 있습니다.
+- **타사 백엔드 또는 소스 시스템**—커넥터 또는 통합 서비스는 API, 이벤트 또는 내보내기 피드를 통해 소스에서 카탈로그 데이터를 검색한 다음 구성 가능한 카탈로그 데이터 모델(CCDM) 스키마에 대해 매핑하고 유효성을 검사한 다음 데이터 수집 REST API를 사용하여 Adobe Merchandising 서비스 레이어에 데이터를 동기화합니다. 통합은 초기 로드 및 이후 변경 사항 전송을 담당합니다. Adobe의 [Salesforce Commerce 커넥터](https://experienceleague.adobe.com/en/docs/commerce/optimizer/developer/salesforce-connector)와 같은 플랫폼별 커넥터가 시작점을 제공할 수 있습니다.
 
 **2. 통합 기본 카탈로그**
 수집된 데이터는 카탈로그 서비스 데이터 파이프라인에 통합 기본 카탈로그를 만듭니다. 이 단일 소스는 여러 사업부에서 데이터 중복을 제거합니다.

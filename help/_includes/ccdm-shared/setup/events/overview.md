@@ -1,16 +1,18 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1606'
 ht-degree: 10%
 ---
+# 이벤트
+
 이벤트는 실시간 데이터 인사이트를 활용하여 쇼핑 경험을 강화하고 전환을 유도하는 중요한 도구입니다.
 
 CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스는 상점 이벤트를 사이트에 자동으로 배포합니다. 이러한 이벤트는 사이트의 쇼핑객 상호 작용에서 데이터를 캡처합니다. 익명으로 처리된 이 데이터는 [권장 사항](../../manage-results/recommendation-performance.md), [제품 검색](../../manage-results/search-performance.md) 및 [성공 지표](../../manage-results/success-metrics.md)를 지원합니다.
 
 >[!NOTE]
 >
->데이터 수집에는 PII(개인 식별 정보)가 포함되지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. [자세히 알아보기](https://www.adobe.com/kr/privacy/experience-cloud.html)
+>데이터 수집에는 PII(개인 식별 정보)가 포함되지 않습니다. 쿠키 ID 및 IP 주소와 같은 모든 사용자 식별자는 엄격히 익명으로 처리됩니다. [자세히 알아보기](https://www.adobe.com/privacy/experience-cloud.html)
 
 **이벤트** 페이지를 사용하여 수집 중인 상점 이벤트 데이터를 확인할 수 있습니다. 이벤트 데이터 수집을 조회하면 판매자는 상점 이벤트가 올바로 구현되었는지, 이벤트가 성공적으로 캡처되고 있는지 확인할 수 있습니다. 판매자는 이 페이지를 사용하여 잠재적인 문제를 식별하고 이벤트 문제를 해결하기 위한 단계를 수행할 수 있습니다.
 
@@ -172,4 +174,4 @@ _콜드 스타트_ 문제는 모델이 교육하고 효과를 얻는 데 걸리�
 
 ## 지원
 
-데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
+데이터 불일치가 발견되거나 권장 사항 및 검색 결과가 예상대로 작동하지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.

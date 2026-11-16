@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 0%
 ---
+# 카탈로그 동기화
+
 **데이터 동기화** 페이지에는 데이터 소스(기존 Commerce 카탈로그, 제품 정보 관리(PIM) 시스템, ERP(Enterprise Resource Planning) 시스템 등)에서 머천다이징 서비스 데이터 레이어로 전송된 제품 데이터의 동기화 상태에 대한 개요가 표시됩니다.
 
 **데이터 동기화** 페이지에서는 상점 데이터를 사용할 수 있는 지에 대한 중요한 통찰력을 제공하여 쇼핑객에게 즉시 표시되도록 합니다.
@@ -49,4 +51,4 @@ JSON 형식의 동기화된 제품에 대한 세부 정보를 보려면 동기�
 
 ## 데이터 동기화가 작동하는지 확인
 
-Adobe Commerce을 업스트림 데이터 소스로 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 참조하세요.
+Adobe Commerce을 업스트림 데이터 소스로 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 참조하세요.

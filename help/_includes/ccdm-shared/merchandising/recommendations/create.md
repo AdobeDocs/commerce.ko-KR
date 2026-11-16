@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1559'
 ht-degree: 0%
 ---
+# 권장 사항 만들기 및 관리
+
 권장 사항을 만들 때 권장 제품 _항목_&#x200B;이 포함된 _권장 사항 단위_ 또는 위젯을 만듭니다.
 
 ![추천 단위](/help/assets/ccdm-shared/recommendations/unit.png)

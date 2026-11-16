@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+# 권장 사항 성능
+
 권장 사항 성과 페이지에는 구성된 권장 사항 목록과 함께 주요 지표가 표시되어 효과를 평가할 수 있습니다. 지난 일, 주 또는 월에 대한 지표를 표시하도록 보기를 구성할 수 있습니다. 이러한 통찰력은 각 권장 사항 단위를 보거나 클릭하는 빈도를 보여주므로 성능을 평가하고 최적화할 기회를 식별하는 데 도움이 됩니다.
 
 >[!INFO]

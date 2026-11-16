@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '853'
 ht-degree: 0%
 ---
+# 비공개 카탈로그 보기
+
 기본적으로 [카탈로그 보기](catalog-view.md)는 공개 보기입니다. 유효한 서명 토큰이 있는 요청만 해당 데이터를 검색할 수 있도록 카탈로그 보기에 대한 액세스를 제한합니다.
 
 카탈로그 보기는 다음 두 가지 방법 중 하나로 비공개가 됩니다.
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 ## B2B 공유 카탈로그에 대한 자동 비공개 카탈로그 보기
 
-[!BADGE Private Beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."}
+[!BADGE Private beta]{type=Caution tooltip="현재 비공개 베타에 있는 Adobe Commerce Optimizer 커넥터 B2B 확장이 필요합니다."}
 
 CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우, 시스템은 [!DNL Adobe Commerce]의 공유 카탈로그 구성을 기반으로 개인 카탈로그 보기를 자동으로 만들고 구성합니다. 이 구성에는 카탈로그 보기, 정책, 초기 제한 액세스 키 및 가격 장부 참조가 포함됩니다. 이 구성을 통해 Commerce 관리 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 제한된 액세스 키를 관리합니다.
 
@@ -96,7 +98,7 @@ B2B 공유 카탈로그를 사용하지 않는 경우(예: 파트너 포털 또�
 
 >[!NOTE]
 >
->CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
+>CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
 
 ## 다음과 같음
 

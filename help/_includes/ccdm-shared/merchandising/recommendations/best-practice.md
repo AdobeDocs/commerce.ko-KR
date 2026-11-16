@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 0%
 ---
+# 권장 사항 모범 사례
+
 Adobe은 권장 사항 사용 시 다음 지침을 권장합니다.
 
 - 추천 유형을 다양화합니다. 고객이 동일한 제품을 반복해서 제안하면 권장 사항을 무시하기 시작합니다.

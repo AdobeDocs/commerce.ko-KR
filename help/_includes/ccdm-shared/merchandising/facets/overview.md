@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 ---
+# 패싯
+
 패싯은 속성 값의 여러 차원을 검색 기준으로 사용하는 고성능 필터링 방법입니다.
 
 ![필터링된 검색 결과](/help/assets/ccdm-shared/facets/storefront-search-results-run.png)
@@ -31,7 +33,7 @@ Facet 집계는 다음과 같이 수행됩니다. 상점 앞에 세 패싯(카�
 
 제품 특성 및 해당 속성에 대해 자세히 알아보십시오.
 
-- Adobe Commerce 백엔드에 연결된 배포의 경우 [제품 특성 개요](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/product-attributes)를 참조하세요.
+- Adobe Commerce 백엔드에 연결된 배포의 경우 [제품 특성 개요](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes)를 참조하세요.
 - 타사 Commerce 백엔드를 사용한 배포의 경우 [데이터 수집 메타데이터 API](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata)를 참조하십시오.
 
 ## 계층화된 검색 및 검색 유형 확장
