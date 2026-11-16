@@ -168,7 +168,7 @@ Adobe의 agentic commerce 방향에는 AI 기반 제품 검색, 쇼퍼 MCP를 �
 
 **AI 기반 상거래를 위한 비즈니스를 준비할 준비가 되셨습니까?**
 
-[Adobe Commerce as a Cloud Service을 살펴보고](https://business.adobe.com/products/commerce.html) Adobe을 통해 보다 연결된 지능형 쇼핑 경험을 구축하는 방법에 대해 알아봅니다.
+[Adobe Commerce as a Cloud Service을 살펴보고](https://business.adobe.com/kr/products/commerce.html) Adobe을 통해 보다 연결된 지능형 쇼핑 경험을 구축하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
