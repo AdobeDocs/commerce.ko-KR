@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '740'
 ht-degree: 0%
 ---
+# Adobe Merchandising 서비스에 대한 카탈로그 보기 개요
+
 <!--This shared include file contains the conceptual and architecture overview of catalog views for Adobe Merchandising Services-->
 
 카탈로그 보기는 클라이언트가 검색할 수 있는 제품 및 가격을 정의합니다. 카탈로그 소스, 카탈로그 계층, 정책 및 가격 장부를 결합하여 다양한 브랜드, 지역, 비즈니스 단위 또는 채널을 지원합니다.

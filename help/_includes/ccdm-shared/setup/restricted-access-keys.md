@@ -1,7 +1,7 @@
 ---
-source-git-commit: b6b737220a6dadf55b03da54e8d74226ed578cd0
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # 제한된 액세스 키
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 CCDM과 함께 Adobe Commerce as a Cloud Service 또는 커넥터를 통해 Adobe Commerce에 연결된 Adobe Commerce Optimizer을 사용하는 고객은 Commerce 관리자로부터 RSA 키 쌍을 생성할 수 있습니다. [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
 
->[!TAB Adobe Commerce Optimizer Studio - 수동 키 관리]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Adobe Commerce Optimizer Studio를 사용하는 고객은 자체 RSA 키 쌍을 생성 및 관리한 다음 공개 키를 시스템에 추가해야 합니다. 타사 백엔드가 있는 Adobe Commerce Optimizer에 필요한 워크플로우입니다. 커넥터를 사용하는 고객은 Commerce 관리자 대신 이 워크플로우를 사용할 수도 있습니다.
 
@@ -136,7 +136,7 @@ openssl rsa -in private-key.pem -pubout -out public-key.pem
 
 [키 선택 및 순환](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation)을 참조하세요. 이는 CCDM이 포함된 Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 커넥터를 통해 Adobe Commerce Optimizer과 통합된 Adobe Commerce 프로젝트에 적용됩니다.
 
->[!TAB Adobe Commerce Optimizer Studio(수동 키 관리)]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 이 절차는 서드파티 백엔드가 있는 Adobe Commerce Optimizer에 필요합니다. 커넥터를 사용하는 고객은 Commerce 관리자 대신 커넥터를 사용할 수도 있습니다.
 
@@ -154,3 +154,4 @@ openssl rsa -in private-key.pem -pubout -out public-key.pem
 ## 다음과 같음
 
 - [비공개 카탈로그 보기](private-catalog-view.md)—제한된 액세스 키로 카탈로그 보기를 보호하는 방법에 대해 알아봅니다.
+

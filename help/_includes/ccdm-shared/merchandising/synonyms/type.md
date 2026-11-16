@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 0%
 ---
+# 동의어 유형
+
 단방향 및 양방향 동의어는 키워드의 정의를 확장합니다. 일부는 키워드와 교환되는 반면, 일부는 키워드의 하위 집합을 나타냅니다.
 
 ## 양방향

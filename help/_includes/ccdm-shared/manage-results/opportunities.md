@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1453'
 ht-degree: 0%
 ---
+# 영업 기회
+
 **기회** 페이지에서는 Adobe Sites Optimizer과의 통합을 통해 사이트 트래픽, 사용자 참여 및 전환율을 개선하기 위한 최적화를 식별하고 구현할 수 있습니다.
 
 ![기회](/help/assets/ccdm-shared/opportunities/opportunities.png)

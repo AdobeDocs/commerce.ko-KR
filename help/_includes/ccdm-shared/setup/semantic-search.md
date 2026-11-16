@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '567'
 ht-degree: 0%
 ---
+# 의미 체계 검색
+
 시맨틱 검색은 AI를 활용해 쇼핑객이 정확하게 입력하는 단어뿐만 아니라 어떤 의미를 갖는지 파악한다. &quot;해변 결혼식 드레스&quot; 또는 &quot;하루 종일 서 있기 편한 신발&quot;과 같은 쿼리는 카탈로그에서 정확한 문구를 사용하지 않는 경우에도 관련 제품을 반환할 수 있습니다.
 
 상품 검색 시스템은 하나의 검색 경험에 키워드 매칭과 의미 매칭을 결합한 것이다. 상점 첫 화면에서 별도의 키워드 및 의미 체계 모드를 관리하지 않습니다.

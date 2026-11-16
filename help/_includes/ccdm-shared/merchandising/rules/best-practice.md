@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 ---
+# 머천다이징 규칙 모범 사례
+
 전환 및 매출을 최적화하려면 효과적인 **검색 규칙**, 강력한 **기본 목록** 규칙 및 **[범주 규칙](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#rule-types)**&#x200B;을 구현하십시오. 판매 데이터, 재고, 프로모션 및 [지능적인 순위](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking)를 사용하여 순위를 조정합니다.
 
 **기본 규칙**&#x200B;을(를) 올바르게 설정하는 것이 중요합니다. [기본 규칙](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/overview#default-rule)은(는) 더 이상 특정 검색 규칙이 적용되지 않을 때 검색 결과를 처음에 정렬하는 방법을 결정하므로 검색과 구매 가능성이 향상됩니다. 쇼핑객 요구 사항 및 캠페인과 보조를 맞추도록 정기적으로 검토하십시오.

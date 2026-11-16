@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '583'
 ht-degree: 0%
 ---
+# 동의어 만들기
+
 직접 선별된 동의어 목록을 추가하여 고객 참여도를 높이십시오. 카탈로그 소스당 최대 200개의 동의어를 추가할 수 있습니다.
 
 ![동의어 Workspace](/help/assets/ccdm-shared/synonyms/synonym-workspace.png)

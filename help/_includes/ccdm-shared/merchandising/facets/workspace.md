@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 1%
 ---
+# 패싯 Workspace
+
 *패싯* 작업 영역에 현재 사용 가능한 패싯이 모두 나열되며 패싯을 설정하고 관리하는 데 필요한 도구에 액세스할 수 있습니다. 고정된 패싯이 기존 패싯 목록에 먼저 나타나고 그 뒤에 동적 패싯이 나타납니다. 패싯 목록을 검색할 수 있습니다.
 
 ![패싯 Workspace](/help/assets/ccdm-shared/facets/facet-workspace.png)

@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4098'
 ht-degree: 0%
 ---
+# 규칙 만들기 및 관리
+
 규칙을 작성하려면 규칙이 적용되는 카탈로그 보기를 선택하고, 규칙 설명, 유형을 구성하고, 조건 및 등급을 정의하고, 결과를 테스트하고, 규칙을 게시해야 합니다.
 
 ## 규칙 만들기 {#create-a-rule}

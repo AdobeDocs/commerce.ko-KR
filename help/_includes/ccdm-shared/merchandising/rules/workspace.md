@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '962'
 ht-degree: 1%
 ---
+# 머천다이징 규칙 Workspace
+
 *머천다이징 규칙* 작업 영역에서는 현재 선택한 규칙과 해당 상태를 나열하고 규칙을 만들고 관리하는 데 필요한 도구에 액세스할 수 있습니다. 모든 [카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view)&#x200B;(전역) 또는 단일 카탈로그 보기로 규칙의 범위를 지정할 수 있습니다. 카탈로그 보기별로 필터링하고 카탈로그 보기별로 규칙을 만드는 방법은 [카탈로그 보기 선택](#select-catalog-view)을 참조하세요. 작업 영역에서 다음 작업을 수행할 수 있습니다.
 
 - 규칙 검색

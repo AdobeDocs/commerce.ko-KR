@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 ---
+# 패싯
+
 패싯은 속성 값의 여러 차원을 검색 기준으로 사용하는 고성능 필터링 방법입니다.
 
 ![필터링된 검색 결과](/help/assets/ccdm-shared/facets/storefront-search-results-run.png)

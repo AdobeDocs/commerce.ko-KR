@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+# 일치 및 순위 검색
+
 >[!IMPORTANT]
 >
 >다음 기능은 [개인 베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta)에 있습니다.

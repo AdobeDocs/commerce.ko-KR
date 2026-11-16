@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '2382'
+source-wordcount: '2384'
 ht-degree: 0%
 ---
+# 제품 필터링
+
 [!DNL Product Recommendations]은(는) 구성 불가능한 기본 필터를 권장 사항 단위에 자동으로 적용합니다. 페이지에 여러 개의 추천 단위가 배포되어 있는 경우 [!DNL Product Recommendations]은(는) 해당 단위로 반복되는 모든 제품을 필터링합니다. 다른 제품을 추천할 수 있는 공간을 만들기 위해 반복 제품에 대한 첫 번째 참조만 사용됩니다. [!DNL Product Recommendations]은(는) 이전에 구매한 제품과 장바구니에 있는 제품도 필터링합니다.
 
 권장 사항 단위를 [만들기](create.md)할 때 권장 사항에 표시할 수 있는 제품을 제어하는 필터를 정의할 수 있습니다. 이러한 필터는 사용자가 정의하는 포함 또는 제외 조건 집합을 기반으로 합니다. 모든 포함 조건과 일치하는 제품만 권장 사항에 표시됩니다. 제외 조건과 일치하는 제품은 권장하지 않습니다.

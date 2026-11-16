@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '2821'
+source-wordcount: '2823'
 ht-degree: 0%
 ---
+# 성공 지표
+
 이 페이지에서는 스토어의 주요 성능 지표에 대한 개요를 제공합니다. 목표는 CCDM(Composable Catalog Data Model)을 사용하여 머천다이징 서비스를 구현한 결과를 파악하여 성장 기회 및 최적화를 위한 영역을 식별하는 것입니다.
 
 ![성공 지표 보고서](/help/assets/ccdm-shared/manage-results/success-metrics.png)

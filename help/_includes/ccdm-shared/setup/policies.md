@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '993'
 ht-degree: 0%
 ---
+# 정책
+
 정책은 카탈로그 보기의 제품에 적용되는 필터를 정의합니다. 그들은 상점이나 채널로 되돌아오는 제품 구색을 맞춤화하는 데 도움을 줍니다. 이렇게 하면 올바른 콘텐츠가 올바른 대상에 전달됩니다. 예를 들어, 실제 상점, 마켓플레이스 및 Google, Facebook 및 Instagram과 같은 광고 채널이 있습니다.
 
 정책은 브랜드, 모델 또는 부품 범주와 같은 제품 속성을 사용하여 비즈니스 요구 사항에 맞게 카탈로그 데이터를 맞춤화합니다. &#x200B;

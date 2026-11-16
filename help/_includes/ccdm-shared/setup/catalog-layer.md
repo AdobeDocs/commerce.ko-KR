@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1470'
 ht-degree: 0%
 ---
+# 카탈로그 레이어
+
 카탈로그 레이어를 사용하면 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정할 수 있습니다. 레이어는 기본 카탈로그 위에 레이어를 만들어 이름, 설명, 이미지, 링크 및 메타데이터와 같은 제품 속성을 수정합니다. 원본 제품 데이터는 그대로 유지되므로 언제든지 제품을 안전하게 사용자 정의하고 변경 사항을 되돌릴 수 있습니다.
 
 ![카탈로그 레이어](/help/assets/ccdm-shared/setup/catalog-layers.png)

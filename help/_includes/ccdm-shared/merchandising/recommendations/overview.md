@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '157'
 ht-degree: 0%
 ---
+# Recommendations 소개
+
 권장 사항은 전환을 늘리고, 매출을 증대하며, 쇼핑객 참여를 촉진하는 데 사용할 수 있는 강력한 마케팅 도구입니다. 권장 사항은 인공 지능과 머신 러닝 알고리즘을 사용하여 집계된 방문자 데이터를 심층 분석하는 [Adobe AI](https://business.adobe.com/kr/ai.html)에서 제공됩니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 
 권장 사항은 &quot;이 제품을 본 고객이 본 항목&quot;과 같이 레이블이 있는 단위로 상점 전면에 표시됩니다. 권장 사항 작업 영역에서 바로 스토어 보기 간에 권장 사항을 만들고, 관리하고, 배포할 수 있습니다.

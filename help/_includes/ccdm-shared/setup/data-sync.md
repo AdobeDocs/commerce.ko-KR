@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 0%
 ---
+# 카탈로그 동기화
+
 **데이터 동기화** 페이지에는 데이터 소스(기존 Commerce 카탈로그, 제품 정보 관리(PIM) 시스템, ERP(Enterprise Resource Planning) 시스템 등)에서 머천다이징 서비스 데이터 레이어로 전송된 제품 데이터의 동기화 상태에 대한 개요가 표시됩니다.
 
 **데이터 동기화** 페이지에서는 상점 데이터를 사용할 수 있는 지에 대한 중요한 통찰력을 제공하여 쇼핑객에게 즉시 표시되도록 합니다.

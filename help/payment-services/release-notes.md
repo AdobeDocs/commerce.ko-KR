@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d2bcc58f34af50f26d4a4f082e5b3fc30089ab58
+source-git-commit: d112f591ea46e4f3bdc081566a9a036df4ccfe5a
 workflow-type: tm+mt
-source-wordcount: '5663'
+source-wordcount: '5695'
 ht-degree: 0%
 ---
 
@@ -131,6 +131,13 @@ _2021년 6월 28일_
 >
 > 릴리스는 필요에 따라 새로운 기능 및 수정 사항을 제공하기 위해 자주 발생합니다. 릴리스 일정은 고정되어 있지 않습니다.
 
+## v2.17.1
+
+_2026년 11월 16일_
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.6 이상
+
+![문제 해결](../assets/fix.svg)<!-- PAY-7254 --> PayPal 결제 승인 후 사용 약관 확인란이 지워져 쇼핑객이 체크아웃을 완료할 수 없는 문제를 해결했습니다.
 
 ## v2.17.0
 
@@ -543,7 +550,7 @@ _2023년 9월 27일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.4 이상
 
-![문제 해결](../assets/fix.svg)<!-- Issue PAY-4870 --> 확장 버전을 최신 릴리스로 보낼 때 Storefront에서 새 헤더 특성을 올바르게 잘못 입력한 문제가 수정되었습니다. 이전에는 Commerce 서비스 커넥터의 `1.3.0` 릴리스에서 [!DNL Payment Services] 확장에서 `User-Agent header`을(를) 확장할 수 없었습니다.
+<!-- Issue PAY-4870 --> 확장 버전을 최신 릴리스로 보낼 때 Storefront에서 새 헤더 속성을 올바르게 잘못 입력하던 문제를 수정했습니다. 이전에는 Commerce 서비스 커넥터의 `1.3.0` 릴리스에서 [!DNL Payment Services] 확장에서 `User-Agent header`을(를) 확장할 수 없었습니다.
 
 ## v2.2.0
 

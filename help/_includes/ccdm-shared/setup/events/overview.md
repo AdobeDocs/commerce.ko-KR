@@ -1,9 +1,11 @@
 ---
-source-git-commit: 18c4528fade63545415135808d2d40ac2b95e86d
+source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1606'
 ht-degree: 10%
 ---
+# 이벤트
+
 이벤트는 실시간 데이터 인사이트를 활용하여 쇼핑 경험을 강화하고 전환을 유도하는 중요한 도구입니다.
 
 CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스는 상점 이벤트를 사이트에 자동으로 배포합니다. 이러한 이벤트는 사이트의 쇼핑객 상호 작용에서 데이터를 캡처합니다. 익명으로 처리된 이 데이터는 [권장 사항](../../manage-results/recommendation-performance.md), [제품 검색](../../manage-results/search-performance.md) 및 [성공 지표](../../manage-results/success-metrics.md)를 지원합니다.

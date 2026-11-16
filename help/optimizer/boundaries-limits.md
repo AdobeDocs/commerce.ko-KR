@@ -13,9 +13,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 0b52c20df4c64d3dd7e43f023e7b0f4517e8fcf7
+source-git-commit: 57a905703b11ef8fc4ca4527a5fc136dc81615cc
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1491'
 ht-degree: 0%
 ---
 # 제한 및 경계
@@ -151,7 +151,7 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 | 검색 가능한 속성 | 카탈로그 검색을 위해 색인화할 수 있는 제품 특성 수 | 200 | 아니요 |
 | 정렬 가능한 속성 | 검색 및 카테고리 페이지에서 정렬 옵션으로 사용할 수 있는 제품 특성의 수입니다. | 50 | 아니요 |
 | 검색 페이지 매김 깊이 | 검색 페이지 매김을 통해 도달할 수 있는 최대 제품(예: 페이지 100 × 100개 제품/페이지) | 10K | 아니요 |
-| 패싯 | 쇼핑객이 검색 결과를 구체화하고 범주를 탐색하는 데 도움이 되도록 구성할 수 있는 필터링 가능한 제품 특성(예: 브랜드, 색상, 크기, 가격)의 수 | 100<p>필터링 가능한 속성이어야 합니다.</p> | 아니요 |
+| 패싯 | 쇼핑객이 검색 결과를 구체화하고 범주를 탐색하는 데 도움이 되도록 구성할 수 있는 필터링 가능한 제품 특성(예: 브랜드, 색상, 크기, 가격)의 수 | 100<p>필터링 가능한 속성이어야 합니다.</p> | 예<p>지원 요청을 통해 증가 가능</p> |
 | 패싯당 옵션 | 구매자가 Facet에서 선택할 수 있는 필터링 가능한 제품 속성 값의 수(예: Color의 경우 &quot;빨간색&quot;, &quot;파란색&quot;, Size의 경우 &quot;작게&quot;, &quot;Medium&quot;) | 100 | 예<p>지원 요청을 통해 증가 가능</p> |
 
 {style="table-layout:auto"}
