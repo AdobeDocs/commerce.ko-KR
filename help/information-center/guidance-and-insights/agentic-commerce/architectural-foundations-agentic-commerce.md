@@ -49,23 +49,21 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f54c816fd23786ec519d5c890bc2664c3dcf8c6f
+source-git-commit: 885ac15bc30ac9d9fe9ab416db7fdbfcad0ff026
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1323'
 ht-degree: 0%
 ---
 
 # 쇼핑객 및 AI 에이전트를 위한 상거래 플랫폼 설계
+
+![인간과 AI 에이전트가 단일 진실 소스와 상호 작용하는 아젠틱 상거래 플랫폼의 영웅 일러스트레이션](../../assets/guidance-and-insights/agentic-commerce-hero.png "아젠틱 상거래 플랫폼의 아키텍처 기반"){width="800"}
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
    <td valign="middle" style="vertical-align: middle;"><img alt="수리아 라멕의 초상화" src="../../assets/guidance-and-insights/agentic-commerce-author-avatar-slamech.png" width="96"><br><strong>Surya Lamech</strong><br><em>기본 제품 마케팅 관리자</em></td>
 </tr>
 </table>
-
-![인간과 AI 에이전트가 단일 진실 소스와 상호 작용하는 아젠틱 상거래 플랫폼의 영웅 일러스트레이션](../../assets/guidance-and-insights/agentic-commerce-hero.png "아젠틱 상거래 플랫폼의 아키텍처 기반")
-
-*인간과 AI 에이전트가 하나의 진실 소스와 상호 작용하는 상거래 플랫폼 디자인*
 
 Commerce은 구조적인 변화를 겪고 있다. 고객은 더 이상 검색 엔진이나 상점 앞을 탐색하는 것에만 의존하지 않습니다. 대신 LLM 기반 인터페이스, 채팅 기반 도우미 및 아젠틱 쇼핑 도구를 사용하여 질문을 하고, 소매업체 간 제품을 비교하고, 초기 단계 의사 결정을 가속화합니다.
 
@@ -136,4 +134,4 @@ Ecommerce는 더 이상 상점 및 검색 결과에 제한되지 않습니다. L
 * [정책](/help/optimizer/setup/policies.md)
 * [Adobe Commerce App Builder용 AI 코딩 개발자 도구](/help/cloud-service/migration/coding-tools.md)
 * [COMMERCE API](../../apis/commerce-apis.md)
-* [Commerce 개발자 에이전트 재생 목록](https://experienceleague.adobe.com/ko/playlists/commerce-developer-agent) - Commerce 개발자 에이전트 설정 및 사용에 대한 기술 비디오를 시청합니다.
+* [Commerce 개발자 에이전트 재생 목록](https://experienceleague.adobe.com/en/playlists/commerce-developer-agent) - Commerce 개발자 에이전트 설정 및 사용에 대한 기술 비디오를 시청합니다.

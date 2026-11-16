@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: bda4dae0a31e869ced20968bc9a9785f6b730c97
+source-git-commit: 885ac15bc30ac9d9fe9ab416db7fdbfcad0ff026
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 
@@ -58,6 +58,7 @@ Adobe Commerce 제품 관리 및 엔지니어링은 동료에게 제공할 지�
 ## 탐색 시작
 
 - [쇼핑객 및 AI 에이전트를 위한 상거래 플랫폼 디자인](agentic-commerce/architectural-foundations-agentic-commerce.md)—신뢰할 수 있는 단일 소스에서 사람과 AI 에이전트를 제공하는 방법을 알아봅니다. 이 문서에서는 기계 추론을 위해 구축된 카탈로그, 모델 컨텍스트 프로토콜(MCP) 및 개방형 에이전트 상거래 프로토콜, 에이전트가 브랜드를 나타내는 방법을 보여 주는 원격 분석에 대해 다룹니다.
+- [2027년 Agentic commerce: 상거래 리더를 위한 5가지 우선 순위](agentic-commerce/five-priorities-commerce-leaders-2027.md) - 제품 데이터, 검색 가능성, 인프라, 측정 및 실험에 대한 우선 순위를 사용하여 AI 지원 쇼핑을 준비합니다.
 - [Adobe Commerce Live Search를 사용하여 제품 검색 개선](catalog-management/improve-product-discovery-live-search.md)—검색 성능 인사이트 및 의미 체계 검색을 사용하여 구매자가 관련 제품을 찾는 방법에 대해 알아봅니다.
 
 문서가 게시되면 이 섹션에 추가됩니다. 전문가의 관점, 구현 전략 및 즉시 사용할 수 있는 권장 사항을 확인하십시오.

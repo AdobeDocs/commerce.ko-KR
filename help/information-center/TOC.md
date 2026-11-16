@@ -18,9 +18,9 @@ feature_v2:
   - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
     internal-label: Commerce ecosystem
 nudge: true
-source-git-commit: 21b4214971866f0e801d8992ac736950324ce524
+source-git-commit: 885ac15bc30ac9d9fe9ab416db7fdbfcad0ff026
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 3%
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 3%
 - 통찰력 및 지침 {#insights-and-guidance}
   - [개요](guidance-and-insights/overview.md)
   - [쇼핑객 및 AI 에이전트를 위한 상거래 플랫폼 설계](guidance-and-insights/agentic-commerce/architectural-foundations-agentic-commerce.md)
+  - [2027년 Agentic commerce: 상거래 리더를 위한 5가지 우선 순위](guidance-and-insights/agentic-commerce/five-priorities-commerce-leaders-2027.md)
   - [Adobe Commerce Live Search를 통해 제품 검색 개선](guidance-and-insights/catalog-management/improve-product-discovery-live-search.md)
 - 아키텍처 {#architecture}
   - [개요](architecture-options/overview.md)
