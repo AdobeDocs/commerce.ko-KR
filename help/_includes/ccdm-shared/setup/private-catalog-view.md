@@ -98,7 +98,7 @@ B2B 공유 카탈로그를 사용하지 않는 경우(예: 파트너 포털 또�
 
 >[!NOTE]
 >
->CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
+>CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
 
 ## 다음과 같음
 

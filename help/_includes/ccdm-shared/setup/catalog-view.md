@@ -40,7 +40,7 @@ Adobe Commerce 백엔드 또는 다른 타사 백엔드(예: PIM 또는 ERP) 및
 
 - **Adobe Commerce 백엔드** - 시스템이 Commerce 카탈로그 피드를 내보내고 데이터 수집 REST API에 필요한 형식으로 매핑하며 피드 데이터를 Adobe Merchandising 서비스 데이터 레이어에 동기화합니다. 이 모델에서 Adobe Commerce은 초기 동기화 및 후속 업데이트를 관리합니다. 피드에는 제품, 카테고리, 제품 속성, 가격 및 가격 장부가 포함됩니다.
 
-- **타사 백엔드 또는 소스 시스템**—커넥터 또는 통합 서비스는 API, 이벤트 또는 내보내기 피드를 통해 소스에서 카탈로그 데이터를 검색한 다음 구성 가능한 카탈로그 데이터 모델(CCDM) 스키마에 대해 매핑하고 유효성을 검사한 다음 데이터 수집 REST API를 사용하여 Adobe Merchandising 서비스 레이어에 데이터를 동기화합니다. 통합은 초기 로드 및 이후 변경 사항 전송을 담당합니다. Adobe의 [Salesforce Commerce 커넥터](https://experienceleague.adobe.com/en/docs/commerce/optimizer/developer/salesforce-connector)와 같은 플랫폼별 커넥터가 시작점을 제공할 수 있습니다.
+- **타사 백엔드 또는 소스 시스템**—커넥터 또는 통합 서비스는 API, 이벤트 또는 내보내기 피드를 통해 소스에서 카탈로그 데이터를 검색한 다음 구성 가능한 카탈로그 데이터 모델(CCDM) 스키마에 대해 매핑하고 유효성을 검사한 다음 데이터 수집 REST API를 사용하여 Adobe Merchandising 서비스 레이어에 데이터를 동기화합니다. 통합은 초기 로드 및 이후 변경 사항 전송을 담당합니다. Adobe의 [Salesforce Commerce 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/developer/salesforce-connector)와 같은 플랫폼별 커넥터가 시작점을 제공할 수 있습니다.
 
 **2. 통합 기본 카탈로그**
 수집된 데이터는 카탈로그 서비스 데이터 파이프라인에 통합 기본 카탈로그를 만듭니다. 이 단일 소스는 여러 사업부에서 데이터 중복을 제거합니다.

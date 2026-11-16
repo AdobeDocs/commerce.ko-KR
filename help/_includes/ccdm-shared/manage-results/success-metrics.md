@@ -68,7 +68,7 @@ C2PA 메타데이터는 [C2PA 개방형 표준](https://c2pa.org/)을 기반으�
 
 ![샘플 검사](/help/assets/ccdm-shared/manage-results/inspect-sample.png)
 
-[생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)에 대해 자세히 알아보세요.
+[생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)에 대해 자세히 알아보세요.
 
 ## 성공 지표와 Sites Optimizer 함께 사용
 

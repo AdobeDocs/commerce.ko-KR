@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 영업 기회란 무엇입니까?
 
-[기회](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview){target="_blank"}는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home){target="_blank"}에서 제공합니다.
+[기회](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview){target="_blank"}는 머천다이저가 상거래 사이트 성능에 영향을 주는 문제를 식별하고 해결하는 데 도움이 되는 AI 기반의 권장 사항입니다. 이러한 권장 사항은 웹 사이트 성능을 분석하고 개선하는 클라우드 기반 서비스인 [Adobe Experience Manager Sites Optimizer](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home){target="_blank"}에서 제공합니다.
 
 ## 주요 기능
 
@@ -176,12 +176,12 @@ Adobe Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 자동 �
 
 ## Sites Optimizer에 대해 자세히 알아보기
 
-Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
+Sites Optimizer 기능에 대한 자세한 내용은 [Adobe Experience Manager Sites Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/home)를 참조하세요.
 
 추가 리소스:
 
-- [영업 기회 유형](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) - 사용 가능한 최적화 기회에 대해 알아봅니다.
-- [Sites Optimizer 기능](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/basics) - Sites Optimizer에서 수행할 수 있는 작업을 살펴봅니다.
+- [영업 기회 유형](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) - 사용 가능한 최적화 기회에 대해 알아봅니다.
+- [Sites Optimizer 기능](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/documentation/basics) - Sites Optimizer에서 수행할 수 있는 작업을 살펴봅니다.
 
 ## 다음과 같음
 

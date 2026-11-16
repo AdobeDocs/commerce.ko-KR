@@ -51,4 +51,4 @@ JSON 형식의 동기화된 제품에 대한 세부 정보를 보려면 동기�
 
 ## 데이터 동기화가 작동하는지 확인
 
-Adobe Commerce을 업스트림 데이터 소스로 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 참조하세요.
+Adobe Commerce을 업스트림 데이터 소스로 사용하는 프로젝트의 경우 데이터 내보내기 프로세스를 모니터링하고 데이터 피드 동기화 상태 페이지에서 다시 동기화 작업을 시작할 수 있습니다. 자세한 내용은 [데이터 피드 동기화 상태 모니터링](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)을 참조하세요.

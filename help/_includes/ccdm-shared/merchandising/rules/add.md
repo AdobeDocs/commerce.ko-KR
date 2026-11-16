@@ -210,7 +210,7 @@ ht-degree: 0%
 
 검색 가중치 설정에 대한 자세한 내용은 다음을 참조하십시오.
 
-- 모든 Adobe Commerce 배포에 대해서는 _카탈로그 관리 안내서_&#x200B;에서 [검색 결과](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)를 참조하십시오.
+- 모든 Adobe Commerce 배포에 대해서는 _카탈로그 관리 안내서_&#x200B;에서 [검색 결과](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)를 참조하십시오.
 - 독립형 Adobe Commerce Optimizer 배포의 경우 _머천다이징 서비스 개발자 안내서_&#x200B;의 [메타데이터 REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)를 참조하십시오.
 
 ### 수동 순위 {#manual-ranking}
@@ -246,7 +246,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->이 기능은 [베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
+>이 기능은 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
 
 **특성 순위**&#x200B;은(는) 개별 SKU를 선택하지 않아도 하나 이상의 특성 조건에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 동작을 자동으로 적용합니다. 속성 등급은 규칙 편집기에 [인텔리전트 등급](#intelligent-ranking) 및 [수동 등급](#manual-ranking)과 함께 표시되며 **모든 제품 규칙**, **검색 규칙** 및 **범주 규칙**&#x200B;에 사용할 수 있습니다. 예를 들어 특정 브랜드의 모든 제품을 부스팅하거나 모든 제품을 단종된 색상으로 매립하는 등 대규모 카탈로그에 머천다이징을 확장할 수 있습니다.
 
@@ -297,7 +297,7 @@ ht-degree: 0%
 
 ## 규칙 편집, 보기 및 삭제 {#edit-view-and-delete-rules}
 
-기존 규칙의 속성을 업데이트하려면 다음 지침을 따르십시오. 규칙을 만든 후에는 규칙의 카탈로그 보기(범위)를 변경할 수 없습니다. 범위는 규칙을 만들 때 설정됩니다. [카탈로그 보기 선택](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/workspace#select-catalog-view)을 참조하세요.
+기존 규칙의 속성을 업데이트하려면 다음 지침을 따르십시오. 규칙을 만든 후에는 규칙의 카탈로그 보기(범위)를 변경할 수 없습니다. 범위는 규칙을 만들 때 설정됩니다. [카탈로그 보기 선택](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/workspace#select-catalog-view)을 참조하세요.
 
 ### 규칙 편집
 

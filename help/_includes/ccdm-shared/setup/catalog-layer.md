@@ -199,6 +199,6 @@ Sites Optimizer 레이어가 카탈로그 보기에 없는 경우 Sites Optimize
 ## 다음과 같음
 
 * [카탈로그 보기](catalog-view.md) - 다른 상점 여정에 대한 카탈로그 보기 구성
-* [제품 시각화](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/product-visuals) - 제품 이미지에 AEM Assets 사용
+* [제품 시각화](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/product-visuals) - 제품 이미지에 AEM Assets 사용
 * [기회](../manage-results/opportunities.md) - 카탈로그 레이어를 사용한 AI 기반 최적화에 대해 알아봅니다.
 * [제한된 액세스 키](restricted-access-keys.md)—서명 토큰 인증을 사용하여 카탈로그 보기를 보호합니다.
