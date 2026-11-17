@@ -1,7 +1,7 @@
 ---
 title: Facet 유형
 description: '[!DNL Adobe Commerce Optimizer]의 다양한 패싯에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f4ab1f27-b393-45e0-94bf-c77d46e3f994
 TQID: https://experienceleague.adobe.com/xuyEZ-CuFXUfhUi24ERf32uVNgENFTTdR5l-K22W4-M
 product_v2:
