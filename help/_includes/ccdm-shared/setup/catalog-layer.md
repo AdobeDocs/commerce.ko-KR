@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/setup/catalog-layer.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 카탈로그 레이어
 
 카탈로그 레이어를 사용하면 원본 소스 데이터를 변경하지 않고 제품 데이터를 수정할 수 있습니다. 레이어는 기본 카탈로그 위에 레이어를 만들어 이름, 설명, 이미지, 링크 및 메타데이터와 같은 제품 속성을 수정합니다. 원본 제품 데이터는 그대로 유지되므로 언제든지 제품을 안전하게 사용자 정의하고 변경 사항을 되돌릴 수 있습니다.

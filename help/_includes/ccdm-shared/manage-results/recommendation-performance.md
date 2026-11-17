@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 권장 사항 성능
 
 권장 사항 성과 페이지에는 구성된 권장 사항 목록과 함께 주요 지표가 표시되어 효과를 평가할 수 있습니다. 지난 일, 주 또는 월에 대한 지표를 표시하도록 보기를 구성할 수 있습니다. 이러한 통찰력은 각 권장 사항 단위를 보거나 클릭하는 빈도를 보여주므로 성능을 평가하고 최적화할 기회를 식별하는 데 도움이 됩니다.

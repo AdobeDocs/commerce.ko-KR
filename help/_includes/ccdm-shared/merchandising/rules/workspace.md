@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 1%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 머천다이징 규칙 Workspace
 
 *머천다이징 규칙* 작업 영역에서는 현재 선택한 규칙과 해당 상태를 나열하고 규칙을 만들고 관리하는 데 필요한 도구에 액세스할 수 있습니다. 모든 [카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/catalog-view)&#x200B;(전역) 또는 단일 카탈로그 보기로 규칙의 범위를 지정할 수 있습니다. 카탈로그 보기별로 필터링하고 카탈로그 보기별로 규칙을 만드는 방법은 [카탈로그 보기 선택](#select-catalog-view)을 참조하세요. 작업 영역에서 다음 작업을 수행할 수 있습니다.

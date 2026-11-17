@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/merchandising/rules/best-practice.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 머천다이징 규칙 모범 사례
 
 전환 및 매출을 최적화하려면 효과적인 **검색 규칙**, 강력한 **기본 목록** 규칙 및 **[범주 규칙](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#rule-types)**&#x200B;을 구현하십시오. 판매 데이터, 재고, 프로모션 및 [지능적인 순위](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#intelligent-ranking)를 사용하여 순위를 조정합니다.

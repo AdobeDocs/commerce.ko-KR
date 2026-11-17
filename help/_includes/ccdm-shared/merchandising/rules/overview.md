@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/merchandising/rules/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 머천다이징 규칙
 
 머천다이징 규칙은 논리와 작업을 결합하여 **검색 결과**, **기본 제품 목록** - **기본 검색 규칙**, **범주 페이지**&#x200B;에서 제품이 표시되는 방식을 결정합니다. 제품을 증폭, 매몰, 고정 또는 숨길 수 있으며 **인텔리전트 등급**&#x200B;을 적용하여 비즈니스 목표를 반영할 수 있습니다.
