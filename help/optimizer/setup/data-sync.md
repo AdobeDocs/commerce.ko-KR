@@ -19,8 +19,8 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-last-update: 2026-11-12
-source-git-commit: 44918d5b636f0577c75010def79737acee1ffe0b
+last-update: 2026-11-16
+source-git-commit: e0c7b4c2eba10c12f0ce728decad6f9be8bae14f
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
