@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 672e67ef99d52c942013a880ecfec0da31e76756
+source-git-commit: a473907b3ccb585c862f395021501b5215b7be8d
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '391'
 ht-degree: 5%
 ---
 # [!DNL SaaS Data Export] 안내서
@@ -47,7 +47,6 @@ SaaS 데이터 내보내기는 특정 유형의 정보를 집계하는 _피드_&
 - **카탈로그 엔터티 피드** 집계 제품 데이터입니다. 데이터에는 제품, 제품 속성, 제품 가격, 제품 변형, 카테고리, 카테고리 권한 및 제품 권한이 포함됩니다.
 - **범위 피드**&#x200B;는 고객 그룹, 웹 사이트, 스토어 및 스토어 보기에 대한 데이터를 집계합니다.
 - **판매 주문 피드**&#x200B;는 송장, 배송, 대변 메모 등과 같은 관련 엔터티를 포함하는 주문 데이터를 집계합니다.
-- **다중 Source 인벤토리 피드**&#x200B;는 인벤토리 재고 상태 항목에 대한 데이터를 집계합니다.
 
 SaaS 데이터 내보내기는 자동화된 동기화와 수동 동기화를 모두 지원하는 PHP 확장으로 제공됩니다.
 

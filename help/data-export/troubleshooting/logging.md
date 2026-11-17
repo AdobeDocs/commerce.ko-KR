@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: a473907b3ccb585c862f395021501b5215b7be8d
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1007'
 ht-degree: 0%
 ---
 # 로그 검토 및 문제 해결
@@ -181,7 +181,7 @@ EXPORTER_EXTENDED_LOG=1 bin/magento saas:resync --feed=products
 
 ### 피드 인덱스 테이블의 페이로드 유지
 
-Commerce SaaS 데이터 내보내기 확장(`magento/module-data-exporter`) 103.3.0 이상의 경우 즉시 내보내기 피드는 인덱스 테이블에서 필요한 최소 데이터만 유지합니다. 피드에는 모든 카탈로그 및 재고 상태 피드가 포함됩니다.
+Commerce SaaS 데이터 내보내기 확장(`magento/module-data-exporter`) 103.3.0 이상의 경우 즉시 내보내기 피드는 인덱스 테이블에서 필요한 최소 데이터만 유지합니다. 피드는 모든 카탈로그 피드를 포함합니다.
 
 프로덕션 환경에서는 인덱스 테이블의 페이로드 데이터를 보존하지 않는 것이 좋지만 개발자 환경에서는 유용할 수 있습니다. 피드를 다시 동기화할 때 `PERSIST_EXPORTED_FEED=1` 환경 변수를 추가하여 인덱스에 피드 페이로드를 포함하십시오.
 

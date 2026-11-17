@@ -26,14 +26,14 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: a473907b3ccb585c862f395021501b5215b7be8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '754'
 ht-degree: 0%
 ---
 # Commerce CLI를 사용하여 피드 동기화
 
-`magento/saas-export` 패키지의 `saas:resync` 명령을 사용하면 [!DNL Adobe Commerce] SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
+`saas:resync` CLI 명령을 사용하면 [!DNL Adobe Commerce] SaaS 서비스에 대한 데이터 동기화를 관리할 수 있습니다.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ bin/magento saas:resync --feed products
 
 ## `--by-ids`
 
-특정 엔티티를 해당 ID별로 부분적으로 다시 동기화합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions` 피드를 지원합니다.
+특정 엔티티를 해당 ID별로 부분적으로 다시 동기화합니다. `products`, `productAttributes`, `productOverrides`, `prices`, `variants` 및 `categoryPermissions` 피드를 지원합니다.
 
 기본적으로 `--by-ids` 옵션을 사용하는 경우 제품 SKU 값을 사용하여 값을 지정합니다. 대신 제품 ID를 사용하려면 `--id-type=productId` 옵션을 추가하십시오.
 
@@ -134,7 +134,7 @@ bin/magento saas:resync --feed products --by-ids='1,2,3' --id-type='productId'
 
 ## `--cleanup-feed`
 
-데이터를 리인덱싱하여 SaaS로 보내기 전에 피드 인덱서 테이블을 정리합니다. `products`, `productAttributes`, `productOverrides`, `inventoryStockStatus`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
+데이터를 리인덱싱하여 SaaS로 보내기 전에 피드 인덱서 테이블을 정리합니다. `products`, `productAttributes`, `productOverrides`, `prices`, `variants` 및 `categoryPermissions`에 대해서만 지원됩니다.
 
 `--dry-run` 옵션과 함께 사용하는 경우 작업은 모든 항목에 대해 시험 실행 다시 동기화 작업을 수행합니다.
 
