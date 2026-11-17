@@ -6,7 +6,7 @@ ht-degree: 0%
 ---
 <!--
 SOURCE OF TRUTH: Edit this file in the commerce.en repo:
-https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/add.md
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/add.md
 
 This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
 Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
@@ -68,13 +68,13 @@ This includes related images in help/assets/ccdm-shared/.
 
 | 필드 | 설명 |
 |--- |--- |
-| [유형](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/type) | 동의어가 키워드와 동일한 의미를 갖는지 또는 키워드의 하위 집합인지 여부를 결정합니다. 옵션:<br />양방향(기본값) - 키워드와 의미가 같고 동일한 검색 결과를 반환하는 용어<br />단방향 - 키워드의 하위 집합인 용어. 단방향 동의어는 특정 제품의 더 좁은 목록을 반환합니다. |
+| [유형](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/synonyms/type) | 동의어가 키워드와 동일한 의미를 갖는지 또는 키워드의 하위 집합인지 여부를 결정합니다. 옵션:<br />양방향(기본값) - 키워드와 의미가 같고 동일한 검색 결과를 반환하는 용어<br />단방향 - 키워드의 하위 집합인 용어. 단방향 동의어는 특정 제품의 더 좁은 목록을 반환합니다. |
 | 키워드 | 카탈로그의 제품 선택과 일반적으로 관련된 단어입니다. |
 | 확장 | 키워드와 동일하거나 유사한 의미를 갖는 추가 용어입니다. |
 
 ## 동의어 관리
 
-기존 [동의어](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/overview)를 관리하려면 다음 지침을 따르십시오.
+기존 [동의어](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/synonyms/overview)를 관리하려면 다음 지침을 따르십시오.
 
 ## 동의어 찾기
 

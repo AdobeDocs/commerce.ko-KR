@@ -6,7 +6,7 @@ ht-degree: 0%
 ---
 <!--
 SOURCE OF TRUTH: Edit this file in the commerce.en repo:
-https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/best-practice.md
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/best-practice.md
 
 This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
 Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
@@ -18,7 +18,7 @@ This includes related images in help/assets/ccdm-shared/.
 
 다음은 동의어를 생성할 때 모범 사례 목록을 제공합니다.
 
-- 시스템은 기본적으로 철자 오류를 관리합니다. 쇼핑객이 사용할 수 있는 단어를 포함하려면 동의어를 설정하십시오. 이 단어는 카탈로그에 지정된 단어와 다릅니다. 제품이 &quot;소파&quot;로 나열되는 동안 다른 사람이 &quot;소파&quot;를 찾고 있으므로 판매에서 지고 싶지 않습니다. 고객이 제품을 찾을 때 사용할 수 있는 모든 단어를 입력하여 광범위한 검색어를 캡처합니다. 결과를 향상시키려면 [동의어를 단방향 또는 양방향](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/add#step-2-define-the-synonym-by-type)으로 설정하십시오.
+- 시스템은 기본적으로 철자 오류를 관리합니다. 쇼핑객이 사용할 수 있는 단어를 포함하려면 동의어를 설정하십시오. 이 단어는 카탈로그에 지정된 단어와 다릅니다. 제품이 &quot;소파&quot;로 나열되는 동안 다른 사람이 &quot;소파&quot;를 찾고 있으므로 판매에서 지고 싶지 않습니다. 고객이 제품을 찾을 때 사용할 수 있는 모든 단어를 입력하여 광범위한 검색어를 캡처합니다. 결과를 향상시키려면 [동의어를 단방향 또는 양방향](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/synonyms/add#step-2-define-the-synonym-by-type)으로 설정하십시오.
 
 - 브랜드 이름과 약어를 전체 이름에 매핑 (예: &quot;HP&quot;에서 &quot;Hewlett-Packard&quot;로, 일반적인 제품 별명 (예: &quot;iPhone&quot;에서 &quot;Apple iPhone&quot;로).
 

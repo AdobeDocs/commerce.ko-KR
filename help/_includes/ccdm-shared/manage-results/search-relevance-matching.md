@@ -6,7 +6,7 @@ ht-degree: 0%
 ---
 <!--
 SOURCE OF TRUTH: Edit this file in the commerce.en repo:
-https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
 
 This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
 Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
@@ -18,7 +18,7 @@ This includes related images in help/assets/ccdm-shared/.
 
 >[!IMPORTANT]
 >
->다음 기능은 [개인 베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta)에 있습니다.
+>다음 기능은 [개인 베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta)에 있습니다.
 
 CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스는 결과에 등급을 매겨 쇼핑객이 가장 관련성이 높은 제품을 먼저 보도록 합니다. 이 서비스는 카탈로그 텍스트가 쇼핑객 쿼리와 **밀접하게** 일치하는 제품을 늘린 다음 용어가 함께 표시되는 항목을 선호하고 마지막으로 더 광범위한 일치 항목을 포함합니다.
 
@@ -69,7 +69,7 @@ CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스는 �
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
 - 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소(예: 이름 또는 설명 길이에서 용어가 발생하는 빈도)에 대한 **[검색 가중치](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 이름 또는 설명 길이에서 용어가 발생하는 빈도)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
 - 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](../merchandising/rules/overview.md)**
 
 신호가 상호 작용하므로 **검색 가중치** 또는 용어 빈도가 더 약한 구문 일치보다 높을 때 광범위한 일치가 더 엄격한 구문 일치보다 높은 순위를 갖기도 합니다.

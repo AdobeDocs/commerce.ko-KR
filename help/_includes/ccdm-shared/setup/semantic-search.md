@@ -6,7 +6,7 @@ ht-degree: 0%
 ---
 <!--
 SOURCE OF TRUTH: Edit this file in the commerce.en repo:
-https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/semantic-search.md
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/setup/semantic-search.md
 
 This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
 Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
