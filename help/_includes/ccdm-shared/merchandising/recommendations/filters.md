@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/recommendations/filters.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 제품 필터링
 
 [!DNL Product Recommendations]은(는) 구성 불가능한 기본 필터를 권장 사항 단위에 자동으로 적용합니다. 페이지에 여러 개의 추천 단위가 배포되어 있는 경우 [!DNL Product Recommendations]은(는) 해당 단위로 반복되는 모든 제품을 필터링합니다. 다른 제품을 추천할 수 있는 공간을 만들기 위해 반복 제품에 대한 첫 번째 참조만 사용됩니다. [!DNL Product Recommendations]은(는) 이전에 구매한 제품과 장바구니에 있는 제품도 필터링합니다.

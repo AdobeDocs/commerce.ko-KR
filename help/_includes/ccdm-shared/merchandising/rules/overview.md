@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/rules/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 머천다이징 규칙
 
 머천다이징 규칙은 논리와 작업을 결합하여 **검색 결과**, **기본 제품 목록** - **기본 검색 규칙**, **범주 페이지**&#x200B;에서 제품이 표시되는 방식을 결정합니다. 제품을 증폭, 매몰, 고정 또는 숨길 수 있으며 **인텔리전트 등급**&#x200B;을 적용하여 비즈니스 목표를 반영할 수 있습니다.
@@ -14,13 +24,13 @@ ht-degree: 0%
 - **이벤트** - 조건이 충족될 때 수행되는 작업(수동 순위 및 관련 이벤트).
 - **세부 정보** - 규칙 이름, 선택적 기간 및 설명.
 
-**범주 규칙**&#x200B;은(는) 검색 쿼리 조건 대신 **범주 선택**&#x200B;을 사용합니다. 지능형 순위 및 수동 순위는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)에서 호출된 차이점을 사용하여 검색과 동일한 방식으로 작동합니다.
+**범주 규칙**&#x200B;은(는) 검색 쿼리 조건 대신 **범주 선택**&#x200B;을 사용합니다. 지능형 순위 및 수동 순위는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)에서 호출된 차이점을 사용하여 검색과 동일한 방식으로 작동합니다.
 
 검색 규칙에 대한 여러 조건과 작업을 결합하고 특정 기간 동안 모든 규칙이 활성화되도록 예약할 수 있습니다. 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 적용되는 **기본 검색 규칙**&#x200B;을 설정할 수도 있습니다.
 
 ## 범주 규칙 {#category-rules}
 
-**범주 규칙**&#x200B;은(는) **범주 페이지**&#x200B;에서 제품 순서를 제어합니다. 하나 이상의 카테고리를 선택한 다음 지능형 순위(예: 가장 많이 본 항목, 트렌드)와 고정, 증폭 및 묻기와 같은 수동 작업을 적용합니다. 검색 쿼리 조건은 사용하지 않습니다. 설정 단계, 규칙 유형 및 등급이 범주 대 검색에 적용되는 방법에 대해서는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
+**범주 규칙**&#x200B;은(는) **범주 페이지**&#x200B;에서 제품 순서를 제어합니다. 하나 이상의 카테고리를 선택한 다음 지능형 순위(예: 가장 많이 본 항목, 트렌드)와 고정, 증폭 및 묻기와 같은 수동 작업을 적용합니다. 검색 쿼리 조건은 사용하지 않습니다. 설정 단계, 규칙 유형 및 등급이 범주 대 검색에 적용되는 방법에 대해서는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
 
 ## 요구 사항
 
@@ -55,7 +65,7 @@ ht-degree: 0%
 
 ## 여러 규칙이 있는 우선 순위
 
-다음은 **검색 규칙** 및 지정된 검색에 대해 상호 작용하는 방식에 적용됩니다. **카테고리 규칙**&#x200B;은(는) 카테고리별로 적용됩니다. 검색 및 기본 규칙과 함께 적용되는 방법은 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
+다음은 **검색 규칙** 및 지정된 검색에 대해 상호 작용하는 방식에 적용됩니다. **카테고리 규칙**&#x200B;은(는) 카테고리별로 적용됩니다. 검색 및 기본 규칙과 함께 적용되는 방법은 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
 
 한 번에 하나의 검색 규칙만 검색어에 적용됩니다.
 검색 구문에 적용할 수 있는 규칙이 여러 개 있는 경우 이러한 모든 규칙이 적용됩니다. sku1을 늘리는 `rule 1`과(와) 같은 SKU를 숨기는 `rule 2` 사이의 충돌이 있는 경우 가장 최근에 적용된 규칙(`rule 2`)이 우선합니다.

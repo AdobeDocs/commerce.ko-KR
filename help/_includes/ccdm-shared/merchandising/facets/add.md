@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/facets/add.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 패싯 만들기 및 관리
 
 필터링 가능한 모든 제품 속성을 패싯으로 사용할 수 있습니다. 패싯을 사용하면 고객이 스토어에서 제품을 더 쉽게 필터링하고 찾을 수 있습니다. 이 문서에서는 상점 전면에서 패싯을 추가, 관리 및 구성하는 방법에 대해 설명합니다.
@@ -60,7 +70,7 @@ ht-degree: 0%
 
 1. 목록에서 패싯을 찾고 (![추가 선택기](/help/assets/ccdm-shared/recommendations/btn-more.png)) 추가 선택기를 클릭합니다.
 1. **삭제**&#x200B;를 클릭합니다.
-1. 확인 메시지가 표시되면 **패싯 삭제**&#x200B;를 클릭합니다.
+1. 확인 메시지가 표시되면 **패싯 삭제**를 클릭합니다.
 Facet은 변경 사항이 게시된 후 상점 첫 화면에서 제거됩니다.
 
 ## 변경 사항 게시

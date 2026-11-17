@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '4098'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/rules/add.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 규칙 만들기 및 관리
 
 규칙을 작성하려면 규칙이 적용되는 카탈로그 보기를 선택하고, 규칙 설명, 유형을 구성하고, 조건 및 등급을 정의하고, 결과를 테스트하고, 규칙을 게시해야 합니다.
@@ -56,14 +66,14 @@ ht-degree: 0%
 
    *규칙 테스트* 창에 우선 순위별로 번호가 매겨진 결과가 즉시 표시됩니다. 오른쪽 상단의 *행당 결과* 슬라이더를 사용하여 각 행의 제품 수를 변경할 수 있습니다.
 
-1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**&#x200B;을 누르십시오.
+1. 다른 쿼리를 테스트하려면 *규칙 테스트* 검색 상자에서 쿼리 텍스트를 변경하고 **반환**을 누르십시오.
 처음에 테스트 창은 조건 검색 상자에서 쿼리를 렌더링합니다. 하지만 이제 테스트 쿼리 상자의 쿼리를 렌더링하고 있습니다. 테스트 창은 한 번에 하나의 쿼리만 렌더링합니다.
 1. 결과가 마음에 들면 *조건* 검색 상자의 텍스트를 업데이트하세요. 그런 다음 페이지의 아무 곳이나 클릭하여 테스트 창의 결과를 업데이트합니다.
 1. 필요한 경우 다음 섹션에 설명된 대로 [지능형 순위](#intelligent-ranking), [수동 순위](#manual-ranking) 또는 [특성 순위](#attribute-ranking)를 설정하십시오. 호출된 차이점이 있는 카테고리 페이지에도 동일한 컨트롤이 적용됩니다.
 
 **여러 조건**
 
-1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**&#x200B;를 클릭하십시오.
+1. 여러 조건을 사용하여 규칙을 작성하려면 **조건 추가**를 클릭하십시오.
 규칙에는 최대 10개의 조건이 있을 수 있습니다. 두 조건을 결합하는 논리 연산자는 현재 *일치* 설정을 기반으로 합니다. 기본적으로 *일치*&#x200B;은(는) `All`이고 논리 연산자는 `AND`입니다.
 
 1. 두 번째 조건을 선택하고 필요한 쿼리 텍스트를 입력합니다.
@@ -210,7 +220,7 @@ ht-degree: 0%
 
 검색 가중치 설정에 대한 자세한 내용은 다음을 참조하십시오.
 
-- 모든 Adobe Commerce 배포에 대해서는 _카탈로그 관리 안내서_&#x200B;에서 [검색 결과](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)를 참조하십시오.
+- 모든 Adobe Commerce 배포에 대해서는 _카탈로그 관리 안내서_&#x200B;에서 [검색 결과](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)를 참조하십시오.
 - 독립형 Adobe Commerce Optimizer 배포의 경우 _머천다이징 서비스 개발자 안내서_&#x200B;의 [메타데이터 REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)를 참조하십시오.
 
 ### 수동 순위 {#manual-ranking}
@@ -246,7 +256,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->이 기능은 [베타](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
+>이 기능은 [베타](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#attribute-ranking-public-beta)에 있습니다.
 
 **특성 순위**&#x200B;은(는) 개별 SKU를 선택하지 않아도 하나 이상의 특성 조건에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 동작을 자동으로 적용합니다. 속성 등급은 규칙 편집기에 [인텔리전트 등급](#intelligent-ranking) 및 [수동 등급](#manual-ranking)과 함께 표시되며 **모든 제품 규칙**, **검색 규칙** 및 **범주 규칙**&#x200B;에 사용할 수 있습니다. 예를 들어 특정 브랜드의 모든 제품을 부스팅하거나 모든 제품을 단종된 색상으로 매립하는 등 대규모 카탈로그에 머천다이징을 확장할 수 있습니다.
 
@@ -297,7 +307,7 @@ ht-degree: 0%
 
 ## 규칙 편집, 보기 및 삭제 {#edit-view-and-delete-rules}
 
-기존 규칙의 속성을 업데이트하려면 다음 지침을 따르십시오. 규칙을 만든 후에는 규칙의 카탈로그 보기(범위)를 변경할 수 없습니다. 범위는 규칙을 만들 때 설정됩니다. [카탈로그 보기 선택](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/workspace#select-catalog-view)을 참조하세요.
+기존 규칙의 속성을 업데이트하려면 다음 지침을 따르십시오. 규칙을 만든 후에는 규칙의 카탈로그 보기(범위)를 변경할 수 없습니다. 범위는 규칙을 만들 때 설정됩니다. [카탈로그 보기 선택](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/workspace#select-catalog-view)을 참조하세요.
 
 ### 규칙 편집
 

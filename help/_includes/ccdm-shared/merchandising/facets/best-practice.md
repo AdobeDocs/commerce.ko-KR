@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/facets/best-practice.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Facet 모범 사례
 
 필터 및 패싯 기능은 Commerce 경험의 중요한 구성 요소이며, 쇼핑객이 검색 결과 범위를 좁히고 보다 효율적으로 제품을 찾을 수 있도록 하여 쇼핑객 경험을 향상시키도록 설계되었습니다. 이 기능은 쇼핑객들이 특정 기준을 적용하여 방대한 상품 카탈로그를 분류할 수 있도록 도와주며, 쇼핑 프로세스를 더 빠르고, 더 쉽고, 더 만족스럽게 만듭니다. 효과적이고 구매자 친화적인 필터 및 패싯을 구현하여 고객이 필요한 것을 빠르고 효율적으로 정확하게 찾을 수 있도록 지원함으로써 만족도와 전환율을 높일 수 있습니다.

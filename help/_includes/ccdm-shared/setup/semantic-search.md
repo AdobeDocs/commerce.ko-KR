@@ -1,9 +1,19 @@
 ---
-source-git-commit: bc3ebc0514874b9678e8b632cc2c48102959d439
+source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/semantic-search.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 의미 체계 검색
 
 시맨틱 검색은 AI를 활용해 쇼핑객이 정확하게 입력하는 단어뿐만 아니라 어떤 의미를 갖는지 파악한다. &quot;해변 결혼식 드레스&quot; 또는 &quot;하루 종일 서 있기 편한 신발&quot;과 같은 쿼리는 카탈로그에서 정확한 문구를 사용하지 않는 경우에도 관련 제품을 반환할 수 있습니다.
