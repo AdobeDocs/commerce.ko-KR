@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1ae5d65ee5d00924657c36059250d38642777c34
+source-git-commit: 02a5f5be4f64c4f8c2f45eabcb69315e94665b49
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1795'
 ht-degree: 0%
 ---
 # 새로운 기능 템플릿
@@ -12,6 +12,12 @@ ht-degree: 0%
 
 | 설명 | 유형 | 날짜/소스 |
 | --- | --- | --- |
+| 지원 요청을 통해 구성된 최대 패싯을 늘릴 수 있음을 반영하도록 [패싯 제한 및 경계](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/boundaries-limits)를 업데이트했습니다. | 기술 | [2026년 11월 16일](https://github.com/AdobeDocs/commerce.en/commit/d21c7401d0111c3e6b8dd1d65b26d4b480008011) |
+| [2027년 Agentic commerce: 상거래 리더에 대한 5가지 우선 순위](https://experienceleague.adobe.com/ko/docs/commerce/information-center/insights-and-guidance/five-priorities-commerce-leaders-2027) 문서를 추가하여 상거래 리더가 제품 데이터 준비, 검색 가능성, 에이전트 준비 상거래 인프라, 측정 및 실험에 초점을 맞추어 AI 지원 쇼핑을 준비할 수 있도록 지원합니다. | 새 주제 | [2026년 11월 16일](https://github.com/AdobeDocs/commerce.en/commit/b16b6868cabf8bfe6682c4e512c192713a408cfa) |
+| Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 11월 13일](https://github.com/AdobeDocs/commerce.en/commit/c109643e7791468bfae958025144c968e8595f95) |
+| Commerce 관리 및 Optimizer Studio에서 각 작업 영역을 여는 지침을 포함하여 CCDM(합성 가능 카탈로그 데이터 모델)을 포함하도록 Adobe Commerce as a Cloud Service 설명서를 업데이트했습니다.<br/>- 두 제품에 대한 탐색으로 [설정](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/settings)을 업데이트했습니다.<br/>- 두 제품에 대한 탐색으로 [데이터 동기화](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 업데이트했습니다.<br/>- 두 제품에 대한 탐색으로 [정책](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/policies)을 업데이트했습니다.<br/>- 두 제품에 대한 탐색 및 단계로 [제한된 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys)를 업데이트했습니다.<br/>- 두 제품에 대한 탐색으로 [이벤트 개요](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/events/overview)를 업데이트했습니다.<br/>- 두 제품에 대한 탐색으로 [성공 지표](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/success-metrics)을 업데이트했습니다.<br/>- 업데이트했습니다. [두 제품에 대한 탐색 기능이 있는 검색 성능](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/search-performance).<br/>- 두 제품에 대한 탐색 기능이 있는 [기회](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/manage-results/opportunities)를 업데이트했습니다. | 주요 업데이트 | [2026년 11월 12일](https://github.com/AdobeDocs/commerce.en/commit/4d359fed500408f4207581bcb2a9dfbc558f1c06) |
+| Adobe Commerce as a Cloud Service에 대한 프로덕션 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 11월 11일](https://github.com/AdobeDocs/commerce.en/commit/03d9f91906fd99c90437560a3f076feafc717eae) |
+| CCDM에 대한 안내서이자 카탈로그 관리, 상점 및 마이그레이션에 미치는 영향인 [머천다이징 서비스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/merchandising-services)를 추가했습니다. | 새 주제 | [2026년 11월 11일](https://github.com/AdobeDocs/commerce.en/commit/342e938a7f18e06a25f574a73edbe747822a8a14) |
 | 권장 사항 ID 대신 사용하여 상점 `product-recommendations` 블록을 구성할 수 있는 제품 권장 사항에 대한 새 참조 키 필드를 문서화했습니다.<br/>- 참조 키 만들기, 검색 및 관리 단계로 [권장 사항 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/create)를 업데이트했습니다.<br/>- 참조 키 만들기 및 검색 단계로 [새 권장 사항 만들기](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/create)를 업데이트했습니다.<br/>- 편집 가능한 참조 키 설정으로 [권장 사항 편집](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/edit)을 업데이트했습니다. | 주요 업데이트 | [2026년 11월 6일](https://github.com/AdobeDocs/commerce.en/commit/a69eec87f2386d06741f6cd865de0f37567b0b3b) |
 | Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 릴리스 정보 | [2026년 11월 5일](https://github.com/AdobeDocs/commerce.en/commit/8da72aa99416dc0925c1a033859bc70cb30a2aa4) |
 | 지정된 고객 성공 엔지니어와 연중무휴 모니터링을 추가하는 Adobe Commerce as a Cloud Service의 새로운 프리미엄 서비스를 설명하는 [관리 작업](https://experienceleague.adobe.com/ko/docs/commerce/information-center/explore-platforms-and-services/managed-operations)이 추가되었습니다. | 새 주제 | [2026년 11월 5일](https://github.com/AdobeDocs/commerce.en/commit/489e7d71d58d1ad8d2a804bddddabdfebb746935) |
@@ -38,4 +44,3 @@ ht-degree: 0%
 | 번들형 및 그룹화된 제품이 지원되지 않는다고 잘못 언급된 [PaaS](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/boundaries-limits) 및 [Commerce Optimizer](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/recommendations/create) 모두에 대한 제품 권장 사항 설명서를 수정했습니다. | 피드백 | [2026년 9월 25일](https://github.com/AdobeDocs/commerce.en/commit/55b17947196acfa459934e4ee373469b84e16ea1) |
 | Commerce 개발자 에이전트가 마이그레이션 프로세스를 지원하는 방법을 설명하기 위해 [마이그레이션 개요](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/migration/overview)를 업데이트했습니다. | 주요 업데이트 | [2026년 9월 24일](https://github.com/AdobeDocs/commerce.en/commit/739eabe6f43412610862ab00516687ad5aeeac53) |
 | Adobe Commerce as a Cloud Service에 대한 프로덕션 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 주요 업데이트 | [2026년 9월 23일](https://github.com/AdobeDocs/commerce.en/commit/d879d372a199c24d266abdfb79d1ff0af164d75b) |
-| Adobe Commerce as a Cloud Service에 대한 샌드박스 [릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)를 추가했습니다. | 주요 업데이트 | [2026년 9월 17일](https://github.com/AdobeDocs/commerce.en/commit/7f70bbf40218de2cec3482e1bc4d135d1a9022ae) |

@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 560ae770ae76d28e3358fb4f195aa1f2a03362c8
+source-git-commit: 80794cd843b054e043bae4129e1092e31b6e5730
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '2045'
 ht-degree: 0%
 ---
 # 사용자 및 Identity Management
@@ -200,6 +200,14 @@ Adobe Commerce 내의 각 역할에 부여된 권한에 대한 자세한 내용�
 >개발자를 개발자로 추가하기 전에 개발자에게 사용자 역할을 할당하십시오. 기본 Commerce 권한에 사용자 역할이 필요합니다.
 
 ![Admin Console의 개발자 및 관리자 탭 옵션](./assets/tab-select.png){width="600" zoomable="yes"}
+
+### 역할 문제 해결
+
+Adobe Commerce 관리자에 로그인하고 [!UICONTROL **카탈로그**] 섹션만 표시되는 경우 **사용자** 역할이 할당되었을 수 있습니다. 관리자의 다른 영역에 액세스하려면 Admin Console에서 자신을 [개발자&#x200B;**](#add-developers-and-product-profile-admins)(으)로 추가해야 합니다.**
+
+Admin Console에 대한 액세스 권한이 없는 경우 조직의 제품 프로필 관리자 또는 시스템 관리자에게 연락하여 적절한 권한을 제공하도록 요청하십시오.
+
+각 역할에 부여된 권한에 대한 자세한 내용은 [역할 리소스](#role-resources)을(를) 검토하십시오.
 
 ## 역할 리소스
 
