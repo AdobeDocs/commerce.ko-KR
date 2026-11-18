@@ -12,7 +12,7 @@ ht-degree: 0%
 - **이벤트** - 조건이 충족될 때 수행되는 작업(수동 순위 및 관련 이벤트).
 - **세부 정보** - 규칙 이름, 선택적 기간 및 설명.
 
-**범주 규칙**&#x200B;은(는) 검색 쿼리 조건 대신 **범주 선택**&#x200B;을 사용합니다. 지능형 순위 및 수동 순위는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)에서 호출된 차이점을 사용하여 검색과 동일한 방식으로 작동합니다.
+**범주 규칙**&#x200B;은(는) 검색 쿼리 조건 대신 **범주 선택**&#x200B;을 사용합니다. 지능형 순위 및 수동 순위는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)에서 호출된 차이점을 사용하여 검색과 동일한 방식으로 작동합니다.
 
 검색 규칙에 대한 여러 조건 및 작업을 결합하고 일정 기간 동안 규칙을 활성화할 수 있습니다. 검색 제외 규칙은 쿼리 조건을 사용하여 제품 등급을 매기기 보다는 결과를 차단합니다. 더 이상 특정 검색 또는 범주 규칙이 적용되지 않을 때 적용되는 **기본 검색 규칙**&#x200B;을 설정할 수도 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 검색 비표시 규칙은 일치하는 구매자 쿼리에 대한 결과를 차단하는 머천다이징 규칙 유형입니다. 이러한 검색은 상점 앞에 어떤 제품도 반환하지 않습니다. 규칙이 활성화되면 Storefront의 실제 결과 없음 프레젠테이션을 확인합니다.
 
-규제 검색 제한 사항, 브랜딩 제한 사항 또는 결과를 반환해서는 안 되는 특정 용어에 대해 검색 비표시 을 사용하십시오. 조건이 **쿼리**, **쿼리 포함**, **쿼리 시작** 및 **쿼리 종료**&#x200B;를 지원합니다. 구성 및 관리 단계는 [검색 비표시 규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules)를 참조하십시오. 예를 들어 [모범 사례](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/best-practice#search-suppression-best-practices)를 참조하십시오.
+규제 검색 제한 사항, 브랜딩 제한 사항 또는 결과를 반환해서는 안 되는 특정 용어에 대해 검색 비표시 을 사용하십시오. 조건이 **쿼리**, **쿼리 포함**, **쿼리 시작** 및 **쿼리 종료**&#x200B;를 지원합니다. 구성 및 관리 단계는 [검색 비표시 규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules)를 참조하십시오. 예를 들어 [모범 사례](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/best-practice#search-suppression-best-practices)를 참조하십시오.
 
 검색 제외는 검색 경험에만 영향을 줍니다. 카테고리 탐색, 머천다이징 페이지, 권장 사항 또는 직접 제품 URL을 통해 제품 가시성을 변경하지 않습니다. 카탈로그 전체의 제품 표시 또는 액세스 제어를 대체하지 않습니다.
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 | 규칙 검색 | 활성 검색 제외 규칙으로 일치하는 쿼리의 경우, 상점 첫 화면에 제품이 0인 검색 결과 페이지가 표시됩니다. 검색 규칙의 순위 작업은 제외를 무시하지 않습니다. 차단되지 않은 쿼리는 적용 가능한 머천다이징 규칙을 계속 사용합니다. |
 | 범주 규칙 | 카테고리 탐색 및 카테고리 머천다이징은 검색 억제의 영향을 받지 않습니다. 제품은 검색 쿼리가 차단된 경우에도 카테고리에 계속 표시될 수 있습니다. |
 | 기본 검색 규칙 | 검색 제외는 일치하는 쿼리를 차단하지만 기본 검색 규칙은 기본 순위 및 제품 제외를 정의합니다. 기본 등급은 차단된 쿼리의 결과를 복원하지 않습니다. |
-| 속성 기반 머천다이징 이벤트 | 이러한 이벤트는 [특성 순위](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#attribute-ranking)에 설명된 대로 특성 조건과 일치하는 제품에 작업을 적용합니다. 검색 억제는 대신 일치하는 제품에 관계없이 일치하는 쿼리의 결과를 차단합니다. |
+| 속성 기반 머천다이징 이벤트 | 이러한 이벤트는 [특성 순위](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#attribute-ranking)에 설명된 대로 특성 조건과 일치하는 제품에 작업을 적용합니다. 검색 억제는 대신 일치하는 제품에 관계없이 일치하는 쿼리의 결과를 차단합니다. |
 
 수동 제외 또는 **숨기기** 작업을 통한 **특성 기반 머천다이징 이벤트**&#x200B;를 통해 **기본 검색 규칙**&#x200B;에 의해 제외된 제품도 **검색 제안 및 자동 완성**&#x200B;에서 제외됩니다. 이렇게 하면 검색 경험에서 제품 제외가 일관되게 유지되며 검색 비표시 규칙으로 쿼리를 차단하는 것과는 별개입니다.
 
 ## 범주 규칙 {#category-rules}
 
-**범주 규칙**&#x200B;은(는) **범주 페이지**&#x200B;에서 제품 순서를 제어합니다. 하나 이상의 카테고리를 선택한 다음 지능형 순위(예: 가장 많이 본 항목, 트렌드)와 고정, 증폭 및 묻기와 같은 수동 작업을 적용합니다. 검색 쿼리 조건은 사용하지 않습니다. 설정 단계, 규칙 유형 및 등급이 범주 대 검색에 적용되는 방법에 대해서는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
+**범주 규칙**&#x200B;은(는) **범주 페이지**&#x200B;에서 제품 순서를 제어합니다. 하나 이상의 카테고리를 선택한 다음 지능형 순위(예: 가장 많이 본 항목, 트렌드)와 고정, 증폭 및 묻기와 같은 수동 작업을 적용합니다. 검색 쿼리 조건은 사용하지 않습니다. 설정 단계, 규칙 유형 및 등급이 범주 대 검색에 적용되는 방법에 대해서는 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
 
 ## 요구 사항
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 여러 규칙이 있는 우선 순위
 
-이 섹션에서는 구매자 쿼리에 등급 검색 규칙이 어떻게 적용되며 서로 상호 작용하는지 설명합니다. 검색 규칙 등급이 검색 제외를 재정의하지 않습니다. 활성 제외 규칙이 쿼리와 일치하면, 상점 첫 화면에서 해당 검색에 대한 제품을 반환하지 않습니다. 범주 규칙은 선택한 범주에 적용됩니다. 검색, 범주 및 기본 검색 규칙에 대한 자세한 내용은 [규칙 만들기 및 관리](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
+이 섹션에서는 구매자 쿼리에 등급 검색 규칙이 어떻게 적용되며 서로 상호 작용하는지 설명합니다. 검색 규칙 등급이 검색 제외를 재정의하지 않습니다. 활성 제외 규칙이 쿼리와 일치하면, 상점 첫 화면에서 해당 검색에 대한 제품을 반환하지 않습니다. 범주 규칙은 선택한 범주에 적용됩니다. 검색, 범주 및 기본 검색 규칙에 대한 자세한 내용은 [규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add)를 참조하십시오.
 
 한 번에 하나의 검색 규칙만 검색어에 적용됩니다.
 검색 구문에 적용할 수 있는 규칙이 여러 개 있는 경우 이러한 모든 규칙이 적용됩니다. sku1을 늘리는 `rule 1`과(와) 같은 SKU를 숨기는 `rule 2` 사이의 충돌이 있는 경우 가장 최근에 적용된 규칙(`rule 2`)이 우선합니다.
