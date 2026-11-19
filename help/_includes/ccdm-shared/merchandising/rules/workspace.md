@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4032a0871d0a9b129ad870c93f62a2a7596ea8b7
+source-git-commit: e3be9274ca8db80d3559b24a5c8be36f5d61b2ba
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '1154'
+ht-degree: 0%
 ---
 <!--
 SOURCE OF TRUTH: Edit this file in the commerce.en repo:
@@ -23,6 +23,8 @@ This includes related images in help/assets/ccdm-shared/.
 - 규칙 활성화/비활성화
 - 규칙 삭제
 - 규칙 편집기 액세스
+
+작업 공간에는 **[검색 비표시 규칙](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**&#x200B;도 포함됩니다. 동일한 규칙 관리 컨트롤을 사용하여 이러한 규칙을 편집, 예약, 활성화 또는 비활성화합니다. 쿼리 조건을 구성하고 변경 내용을 게시하려면 [검색 비표시 규칙 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules)를 참조하십시오. 검색 비표시 규칙에 대한 미리보기가 표시되지 않습니다.
 
 ![머천다이징 규칙 Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -60,6 +62,14 @@ This includes related images in help/assets/ccdm-shared/.
    - 규칙 편집
    - 규칙 삭제
    - 규칙 활성화/비활성화
+
+## 규칙 활성화 또는 비활성화 {#enable-disable-rule}
+
+1. *머천다이징 규칙* 작업 영역에서 규칙을 찾습니다.
+1. **자세히** 열기(...) 메뉴에서 **규칙 사용** 또는 **규칙 사용 안 함**&#x200B;을 선택합니다. 세부 정보 패널에서 **사용** 컨트롤을 사용할 수도 있습니다.
+1. 업데이트된 상태를 확인합니다. 향후 시작 일자가 있는 활성화된 규칙은 해당 일자까지 일정이 유지됩니다.
+
+**검색 비표시 규칙**&#x200B;의 경우, 규칙을 비활성화하면 해당 규칙이 조건을 삭제하지 않고 일치하는 쿼리를 차단하지 못합니다. 다른 활성 제외 규칙은 여전히 이러한 쿼리를 차단할 수 있습니다. 규칙의 조건 또는 날짜를 변경하려면 **편집**&#x200B;을 선택하고 변경 내용을 검토한 다음 **저장 및 게시**&#x200B;를 클릭하십시오.
 
 ## 열 설명
 
@@ -124,6 +134,6 @@ This includes related images in help/assets/ccdm-shared/.
    만든 규칙의 범위가 선택한 카탈로그 보기로 지정됩니다.
 1. [규칙 편집기](add.md)에서 규칙을 빌드합니다.
 
-   편집기에서 조건, 이벤트 및 세부 사항을 정의합니다. 규칙은 해당 카탈로그 보기의 검색 결과에만 적용됩니다.
+   편집기에서 규칙 유형에 적용되는 조건, 이벤트 및 세부 사항을 정의합니다. 검색 제외 규칙은 쿼리 조건을 사용하여 선택한 카탈로그 보기의 결과만 차단합니다. 카테고리 탐색, 머천다이징 페이지, 권장 사항 또는 직접 제품 URL을 통해 제품 가시성을 변경하지 않습니다.
 
 규칙을 만든 후에는 규칙의 카탈로그 보기(범위)를 변경할 수 없습니다. 다른 카탈로그 보기에 유사한 논리를 적용하려면 새 규칙을 만들고 만들기 전에 해당 카탈로그 보기를 선택합니다.

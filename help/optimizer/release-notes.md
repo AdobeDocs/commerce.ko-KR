@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 92e2b81e91e5d78b08d551aa9531b18ebf50d853
+source-git-commit: 3968a572a628342334fe760526e81ab089b86904
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1960'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -39,6 +39,64 @@ ht-degree: 0%
 
   {{aco-api-updates-and-dropins}}
 
+## 2026년 11월
+
+>[!BEGINSHADEBOX]
+
+_2026년 11월 2일_
+
+![수정](../assets/fix.svg) **권장 사항 필터 로케일** - **[!UICONTROL All Views]**&#x200B;을(를) 선택할 때 특성 목록에서 첫 번째 카탈로그 보기와 연결된 카탈로그 원본을 사용하는지 확인했습니다. [추천 필터](./merchandising/recommendations/filters.md)를 참조하세요.
+
+_2026년 11월 6일_
+
+![새로 만들기](../assets/new.svg) **타사 장바구니 및 체크아웃 통합**—타사 장바구니 및 체크아웃 서비스를 [!DNL Adobe Commerce Optimizer]과(와) 통합하는 방법에 대한 지침을 추가했습니다. [통합](./integrations/integrations-overview.md#third-party-cart-and-checkout-integration)을 참조하세요.
+
+![수정](../assets/fix.svg) **제품 시각적 개체 저장소** - [!DNL AEM Assets] 라이선스를 업그레이드하여 [!DNL Product Visuals]의 저장소 용량을 확장할 수 있음을 명확히 했습니다. [제한 및 경계](./boundaries-limits.md#product-visuals-limits)를 참조하십시오.
+
+![수정](../assets/fix.svg) **AEM Assets 설치 지침**—[!DNL AEM Assets]에 대한 독립 실행형 [!DNL Adobe Commerce Optimizer] 설치 흐름을 제거하고 일반적인 [!DNL AEM Assets] 구성 설명서에 설치 지침을 지정했습니다. [통합](./integrations/integrations-overview.md#product-visuals), [카탈로그 레이어](./setup/catalog-layer.md) 및 [제품 비주얼](./setup/product-visuals.md)을 참조하세요.
+
+![새로 만들기](../assets/new.svg) **권장 사항 참조 키**—Storefront 권장 사항 블록을 구성할 때 권장 사항 ID 대신 **[!UICONTROL Reference Key]**&#x200B;을(를) 문서화했습니다. [권장 사항 만들기 및 관리](./merchandising/recommendations/create.md#get-the-storefront-reference-key)를 참조하세요.
+
+_2026년 11월 16일_
+
+![새](../assets/new.svg) **Facet 용량**—고객 지원 요청을 통해 Facet 한도를 늘릴 수 있다고 설명되어 있습니다. [제한 및 경계](./boundaries-limits.md#catalog-views-and-policies)를 참조하십시오.
+
+{{aco-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 10월
+
+>[!BEGINSHADEBOX]
+
+_2026년 10월 1일_
+
+![새로 만들기](../assets/new.svg) **B2B 공유 카탈로그 보기** - 다른 사용 사례에 대한 수동 설정 옵션과 함께 B2B 공유 카탈로그를 개인 카탈로그 보기로 자동으로 프로비저닝할 수 있는 방법을 문서화했습니다. 또한 제한된 액세스 키 순환이 자동화되지 않음을 명확히 설명했습니다. [비공개 카탈로그 보기](./setup/private-catalog-view.md), [제한된 액세스 키](./setup/restricted-access-keys.md), [데이터 동기화](./setup/data-sync.md) 및 [시작 검사 목록](./launch/launch-checklist.md)을 참조하세요.
+
+_2026년 10월 12일_
+
+![새로 만들기](../assets/new.svg) **품절 권장 사항 필터** - 품절 제품이 권장 사항 단위에 표시되지 않도록 하는 품절 제외 필터를 추가했습니다. [추천 필터](./merchandising/recommendations/filters.md#out-of-stock)를 참조하세요.
+
+_2026년 10월 14일_
+
+![수정](../assets/fix.svg) **지능형 순위 증폭 값**—문서화된 기본값을 `50`(으)로 수정하고 최대값을 `1000`(으)로 수정했습니다. [머천다이징 규칙 만들기 및 관리](./merchandising/rules/add.md#intelligent-ranking-boost)를 참조하십시오.
+
+_2026년 10월 16일_
+
+![수정](../assets/fix.svg) **기본 검색 규칙 이름**—관리 인터페이스와 일치하도록 머천다이징 규칙 이름을 [!UICONTROL All product listings]에서 [!UICONTROL Default search rule]&#x200B;(으)로 업데이트했습니다. [머천다이징 규칙 개요](./merchandising/rules/overview.md) 및 [머천다이징 규칙 만들기 및 관리](./merchandising/rules/add.md)를 참조하십시오.
+
+_2026년 10월 21일_
+
+![수정](../assets/fix.svg) **제한된 액세스 키 제한**—문서화된 제한에서 환경당 제한된 액세스 키 수를 제거했습니다. [제한 및 경계](./boundaries-limits.md#catalog-views-and-policies)를 참조하십시오.
+
+_2026년 10월 22일_
+
+![새로 만들기](../assets/new.svg) **권장 특성 필터**—메타데이터 API를 통해 특성 필터를 사용하도록 설정하는 지침이 추가되었습니다. [추천 필터](./merchandising/recommendations/filters.md#attributes)를 참조하세요.
+
+{{aco-release}}
+
+>[!ENDSHADEBOX]
+
 ## 2026년 9월
 
 >[!BEGINSHADEBOX]
@@ -49,6 +107,11 @@ _2026년 9월 3일_
 
 [!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 이제 **기본 검색 규칙**, **범주 규칙** 및 **검색 규칙**&#x200B;에 대해 [**특성 순위**](./merchandising/rules/add.md#attribute-ranking)&#x200B;를 지원합니다. 개별 SKU를 선택하지 않고 하나 이상의 특성 조건(예: 브랜드 또는 카테고리)에 일치하는 모든 제품에 **[!UICONTROL Boost]**, **[!UICONTROL Bury]** 또는 **[!UICONTROL Hide]** 작업을 자동으로 적용합니다. 속성 등급은 Beta 버전입니다. [자세히 알아보기](./merchandising/rules/add.md#attribute-ranking)
 
+_2026년 9월 9일_
+
+![새로 만들기](../assets/new.svg) **다중 값 HTTP 헤더 트리거 정책**—이제 `HTTP_HEADER` 전송 형식을 사용하는 트리거 정책은 단일 헤더에서 쉼표로 구분된 여러 값을 받을 수 있습니다(예: `AC-Policy-Vehicle: UNIVERSAL,veh-bolt-mammoth-limited-2025`). `IN`을(를) 사용하는 정책 필터는 `OR` 의미 체계를 사용하여 값을 평가합니다. 헤더에 여러 값이 포함된 경우 `EQUALS`, `GREATER_THAN_EQUAL` 또는 `LESS_THAN_EQUAL`을(를) 사용하는 필터가 유효성 검사 오류로 요청을 거부합니다. 이 동작은 `HTTP_HEADER` 전송을 사용하는 트리거 정책에만 적용됩니다. [자세히 알아보기](./setup/policies.md#multi-value-http-header-triggers)
+<!--COMOPT-2439-->
+
 {{aco-release}}
 
 >[!ENDSHADEBOX]
@@ -56,11 +119,6 @@ _2026년 9월 3일_
 ## 2026년 8월
 
 >[!BEGINSHADEBOX]
-
-_2026년 9월 9일_
-
-![새로 만들기](../assets/new.svg) **다중 값 HTTP 헤더 트리거 정책**—이제 `HTTP_HEADER` 전송 형식을 사용하는 트리거 정책은 단일 헤더에서 쉼표로 구분된 여러 값을 받을 수 있습니다(예: `AC-Policy-Vehicle: UNIVERSAL,veh-bolt-mammoth-limited-2025`). `IN`을(를) 사용하는 정책 필터는 `OR` 의미 체계를 사용하여 값을 평가합니다. 헤더에 여러 값이 포함된 경우 `EQUALS`, `GREATER_THAN_EQUAL` 또는 `LESS_THAN_EQUAL`을(를) 사용하는 필터가 유효성 검사 오류로 요청을 거부합니다. 이 동작은 `HTTP_HEADER` 전송을 사용하는 트리거 정책에만 적용됩니다. [자세히 알아보기](./setup/policies.md#multi-value-http-header-triggers)
-<!--COMOPT-2439-->
 
 _2026년 8월 7일_
 
@@ -371,4 +429,3 @@ IMS 조직에서 EU 프로덕션 지역(**eu1**)을 사용할 수 있습니다. 
 {{aco-release}}
 
 >[!ENDSHADEBOX]
-
