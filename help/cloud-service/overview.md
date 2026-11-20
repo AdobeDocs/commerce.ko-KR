@@ -5,7 +5,7 @@ feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 autotag-review: '2026-06-18T16:02:31.185Z'
 TQID: 'https://experienceleague.adobe.com/D1Aq9qlw2HprQUy-g5KcIH2Ky2XUDawZIrAbe2Jz6ZI'
 product_v2:
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 이러한 통합을 통해 제품 이미지 또는 마케팅 컨텐츠와 같은 디지털 에셋이 SKU 또는 기타 주요 속성을 기반으로 Adobe Commerce의 제품 및 카테고리를 비롯한 적절한 머천다이징 엔티티에 동적으로 연결할 수 있습니다.
 
-[!DNL Product Visuals]이(가) [!DNL Adobe Commerce as a Cloud Service]에 포함되어 있습니다. 자산 전달을 위해 OpenAPI 기능이 포함된 Dynamic Media와 함께 경량 DAM인 [AEM Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime)을(를) 번들로 제공합니다.
+[!DNL Product Visuals]이(가) [!DNL Adobe Commerce as a Cloud Service]에 포함되어 있습니다. 자산 전달을 위해 OpenAPI 기능이 포함된 Dynamic Media와 함께 경량 DAM인 [AEM Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime)을(를) 번들로 제공합니다.
 
 또는 [!DNL Adobe Commerce as a Cloud Service] 내의 기본 기능은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ### [!DNL Product Visuals] 또는 [!DNL AEM Assets Ultimate]
 
-다음 비교는 supply chain에 필요한 콘텐츠에 가장 적합한 옵션을 선택하는 데 도움이 됩니다. 제품 비주얼은 Commerce 중심의 자산 관리를 지원합니다. [AEM Assets Ultimate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)은(는) UI 확장성, API 기반 자동화 및 사용자 지정 코드 배포를 포함하여 광범위한 엔터프라이즈 DAM과 복잡한 콘텐츠 공급망을 지원합니다.
+다음 비교는 supply chain에 필요한 콘텐츠에 가장 적합한 옵션을 선택하는 데 도움이 됩니다. 제품 비주얼은 Commerce 중심의 자산 관리를 지원합니다. [AEM Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)은(는) UI 확장성, API 기반 자동화 및 사용자 지정 코드 배포를 포함하여 광범위한 엔터프라이즈 DAM과 복잡한 콘텐츠 공급망을 지원합니다.
 
 >[!IMPORTANT]
 >
@@ -268,7 +268,7 @@ Adobe Commerce on Cloud의 일반적인 업그레이드 프로세스에는 백�
 <!-- 
 ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. 
 -->
