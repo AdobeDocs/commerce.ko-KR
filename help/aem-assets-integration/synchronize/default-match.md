@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '372'
 ht-degree: 0%
 ---
 # 기본 자동 일치
@@ -33,13 +33,13 @@ Commerce용 AEM Assets 통합은 **AEM Assets** 메타데이터 구성을 기반
 
 ## 자동 일치 메커니즘 구성
 
-1. Commerce 관리자에서 **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
+1. Commerce 관리자에서 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
-1. **[!UICONTROL Match by SKU]**&#x200B;을(를) 일치 규칙으로 지정합니다.
+1. **[!UICONTROL Match by product SKU]**&#x200B;을(를) 일치 규칙으로 지정합니다.
 
-   ![기본 자동 일치 규칙](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
+   ![제품 SKU 규칙별 일치 및 메타데이터 속성 이름](../assets/ootb-matching-rule.png){width="700" zoomable="yes"}
 
-1. AEM Assets에서 에셋 식별에 사용되는 메타데이터 필드 이름을 입력합니다.
+1. **[!UICONTROL Match by product SKU attribute name]**&#x200B;에서 실제 SKU 값이 아닌 AEM Assets에 제품 SKU를 저장하는 [메타데이터 속성 이름](../metadata.md)을 입력합니다.
 
    >[!NOTE]
    >
@@ -65,8 +65,10 @@ Commerce용 AEM Assets 통합은 **AEM Assets** 메타데이터 구성을 기반
    >
    > 자산이 여러 제품에 사용되는 경우 연결된 각 SKU에 대한 메타데이터를 구성합니다.
 
-1. `Basic` 탭에서 _[!UICONTROL Review Status]_&#x200B;필드의 기본값을 `approved`(으)로 설정합니다.
+1. `Basic` 탭에서 _[!UICONTROL Review Status]_필드의 기본값을 `approved`(으)로 설정합니다.
 
    ![예제 메타데이터](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 
-이 접근 방식을 사용하면 디지털 에셋이 Adobe Commerce에 제대로 연결되고 표시됩니다. 또한 머천다이저와 마케터가 AEM Assets 내에서 직접 역할 및 에셋 위치를 관리할 수 있도록 하여 모든 참여 채널에서 일관되고 중앙 집중식 이미지 선택 및 순서 지정 메커니즘을 제공합니다.
+에셋을 승인한 후 [제품 연결, 동기화 결과 및 상점 표시를 확인합니다](../get-started/setup-synchronization.md#verify-the-integration). 에셋이 나타나지 않으면 [동기화 상태](../get-started/sync-status.md)를 검토하십시오. Adobe Commerce Optimizer의 경우 대신 [Optimizer 확인 워크플로](../get-started/configure-aco.md#match-by-sku-workflow-example)를 사용하십시오. 동기화 상태는 사용할 수 없습니다.
+
+[!BADGE PaaS만 해당]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} 추가 동기화 문제 해결은 [통합 로그](../get-started/logs.md)를 검토하세요.

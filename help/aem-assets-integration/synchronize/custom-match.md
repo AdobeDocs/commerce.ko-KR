@@ -22,18 +22,22 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1015'
 ht-degree: 0%
 ---
 # 사용자 지정 자동 일치
 
-기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
+
+>[!NOTE]
+>
+>사용자 지정 선택기 또는 Adobe Developer App Builder 통합에서 프로그래밍 방식으로 에셋 또는 메타데이터를 관리하기 위해 AEM Assets API가 필요한 경우 AEM Assets Ultimate 권한이 필요합니다. 이 요구 사항은 App Builder 사용에만 좌우되는 것이 아니라 애플리케이션에서 사용하는 API에 따라 다릅니다. [제품 시각적 개체 제한](../../optimizer/boundaries-limits.md#product-visuals-limits)을 참조하세요.
 
 ## 사용자 지정 자동 일치 구성
 
-1. Commerce 관리자에서 **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
+1. Commerce 관리자에서 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
 1. **[!UICONTROL Custom Matcher]**&#x200B;을(를) 일치 규칙으로 선택합니다.
 
@@ -129,11 +133,15 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
+구성이 적용되면 승인된 에셋 및 사용자 지정 일치 프로그램이 연결된 제품과 함께 [통합을 확인](../get-started/setup-synchronization.md#verify-the-integration)합니다.
+
+[!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} 동기화가 실패하면 [통합 로그](../get-started/logs.md)를 검토하세요.
+
 ## 비동기 구성 저장
 
-Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save) 옵션이 활성화된 경우 동일한 요청에 즉시 저장되지 않고 비동기 소비자가 구성 변경 사항을 큐에 적용하고 적용합니다. 이 모드에서 사용자 지정 자동 일치를 위해 `workspace.json` 파일을 업로드하려면 다음 단계를 순서대로 완료하십시오.
+Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save) 옵션이 활성화된 경우 동일한 요청에 즉시 저장되지 않고 비동기 소비자가 구성 변경 사항을 큐에 적용하고 적용합니다. 이 모드에서 사용자 지정 자동 일치를 위해 `workspace.json` 파일을 업로드하려면 다음 단계를 순서대로 완료하십시오.
 
-1. Commerce 비동기 구성 저장이 [활성화됨](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save)인지 확인하십시오.
+1. Commerce 비동기 구성 저장이 [활성화됨](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#asynchronous-configuration-save)인지 확인하십시오.
 
 1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
@@ -167,7 +175,7 @@ Commerce 인스턴스에 [비동기 구성 저장](https://experienceleague.adob
 
 ## 사용자 지정 선택기 API 엔드포인트
 
-[App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
+[App Builder](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder){target=_blank}을(를) 사용하여 사용자 지정 선택기 응용 프로그램을 빌드할 때 응용 프로그램은 다음 끝점을 노출해야 합니다.
 
 * 제품 URL에 대한 **App Builder 자산** 끝점
 * 자산 URL에 대한 **App Builder 제품** 끝점
@@ -336,7 +344,7 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | 속성 | 데이터 유형 | 설명 |
 | --- | --- | --- |
 | `asset_id` | 문자열 | 에셋 ID입니다. |
-| `asset_roles` | 배열 | 자산 역할. `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다. AEM Assets 통합 확장 1.4.6 이상에서는 사용자 지정 이미지 역할(예: `hero` 또는 `custom_role_1`)도 허용됩니다. |
+| `asset_roles` | 배열 | 자산 역할. `thumbnail`, `image`, `small_image` 및 `swatch_image`과(와) 같이 지원되는 [Commerce 자산 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles)을(를) 사용합니다. AEM Assets 통합 확장 1.4.6 이상에서는 사용자 지정 이미지 역할(예: `hero` 또는 `custom_role_1`)도 허용됩니다. |
 | `asset_format` | 문자열 | 에셋 포맷. 가능한 값은 `image` 및 `video`입니다. |
 | `asset_position` | 숫자 | 제품 갤러리에서 에셋의 위치입니다. |
 
