@@ -13,9 +13,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 57a905703b11ef8fc4ca4527a5fc136dc81615cc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1708'
 ht-degree: 0%
 ---
 # 제한 및 경계
@@ -77,9 +77,11 @@ ht-degree: 0%
 
 ### [!DNL Product Visuals] 제한
 
+제품 비주얼은 제품 에셋, Commerce 메타데이터 및 에셋 제공 관리를 포함하여 Commerce 중심의 에셋 관리 사용 사례를 지원합니다. 지원되는 일괄 업로드 및 일괄 메타데이터 작업 자체에는 AEM Assets Ultimate이 필요하지 않습니다. AEM Assets API를 필요로 하는 프로그래밍 방식의 에셋 및 메타데이터 관리에는 별도의 권한 요구 사항이 있습니다.
+
 | **기능** | **설명** | **기본 할당** | **확장 가능 여부** |
 | --- | --- | --- | --- |
-| 제품 비주얼의 고급 사용자 | AI 도구, [!DNL Adobe Express]/[!DNL Firefly] 통합, Content Hub 공유, 핵심 DAM 작업 처리 및 최적의 효율성을 위한 고급 클라우드 기반 기능을 포함한 전체 디지털 에셋 관리 기능을 갖춘 사용이 허가된 사용자입니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
+| 제품 비주얼의 고급 사용자 | AI 도구, [!DNL Adobe Express]/[!DNL Firefly] 통합 및 Content Hub 공유를 포함하여 제품 비주얼에 포함된 에셋 관리 기능을 가진 사용이 허가된 사용자입니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | 제품 시각화 공동 작업자 사용자 | AEM Commerce 통합을 통해 에셋에 액세스하고 작업하며 [!DNL Adobe Express] 및 [!DNL Firefly]을(를) 사용하여 콘텐츠를 만들고 편집하고, 활성화된 경우 Content Hub 포털을 통해 승인된 에셋을 활용합니다. | 2 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | 제품 비주얼 스토리지 | 에셋에 할당된 스토리지 공간 | 1TB 스토리지 | 예<p>[!DNL AEM Assets] 라이선스로 업그레이드</p> |
 | Dynamic Media 사용 | 다음을 포함하는 Dynamic Media 처리 작업을 허용합니다.<ul><li>이미지 게재</li><li>스마트 이미징</li><li>비디오 게재</li></ul><p>자세한 내용은 아래의 *Dynamic Media 사용량 계산*&#x200B;을 참조하십시오. | GMV(총 상품 가치) 기준<p>최소 할당: 5M 작업/월</p> | 예<ul><li>추가 작업을 위한 라이선스 구매</li><li>[!DNL AEM Assets] 라이선스로 업그레이드</li></ul> |
@@ -108,7 +110,25 @@ Dynamic Media 사용은 [!DNL Adobe Commerce Optimizer] 내의 제품 시각적 
 
 >[!NOTE]
 >
->위의 제한은 용량 및 사용 할당에 적용됩니다. 제품 시각적 개체 기능 개요 및 기능 제한에 대해서는 [AEM Assets을 사용한 제품 시각적 개체](setup/product-visuals.md)를 참조하십시오.
+>이 섹션에서는 용량, 사용량 할당 및 권한 경계를 다룹니다. 제품 시각적 개체 기능 개요는 [AEM Assets을 사용한 제품 시각적 개체](setup/product-visuals.md)를 참조하십시오.
+
+#### AEM Assets Ultimate은 언제 필요합니까?
+
+>[!IMPORTANT]
+>
+>제품 비주얼에는 AEM Assets 작성자 API에 대한 액세스 권한이 포함되어 있지 않습니다. 통합 또는 사용자 지정 애플리케이션에서 자산이나 메타데이터를 프로그래밍 방식으로 관리하기 위해 작성자 API 액세스 권한이 필요한 경우 AEM Assets Ultimate 추가 기능 SKU를 구매하십시오. Ultimate은 제품 비주얼에 포함되어 있지 않습니다. 라이선스 및 프로비저닝은 Adobe 계정 담당자에게 문의하십시오.
+
+AEM Assets Ultimate은 다음 경우에 필요합니다.
+
+- AEM Assets 작성자 API 액세스 권한.
+- 메타데이터 인그레스 및 이그레스를 포함한 API 기반 메타데이터 통합.
+- 프로그래밍 방식으로 에셋 또는 메타데이터를 관리하려면 AEM Assets API가 필요한 사용자 지정 통합 및 자동화입니다.
+- 이러한 AEM Assets API에 종속된 Adobe Developer App Builder 통합.
+- AEM Assets 단계 및 개발 환경.
+
+이러한 요구 사항에서는 자산 전달을 위한 제품 비주얼에 포함된 OpenAPI 기능이 있는 Dynamic Media를 제외하지 않습니다. App Builder 사용만으로는 AEM Assets Ultimate이 필요하지 않습니다. 요구 사항은 애플리케이션이 사용하는 AEM Assets API에 따라 다릅니다.
+
+제품 비주얼을 뛰어넘는 광범위한 엔터프라이즈 DAM, API, 확장성 및 콘텐츠 공급망 요구 사항은 [AEM Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)을(를) 참조하십시오.
 
 ### 카탈로그 보기 및 정책
 

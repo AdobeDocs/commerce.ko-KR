@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1188'
 ht-degree: 1%
 ---
 # Commerce용 AEM Assets 통합
@@ -65,6 +65,8 @@ AEM Assets 통합은 자산 관리 워크플로우를 자동화하여 이 문제
 * **확장 업데이트 알림** - AEM Assets Integration 확장 버전 1.4.6 이상을 사용하여 Commerce에서 새 확장 버전을 확인하고 관리자의 관리자에게 알립니다. [확장 업데이트 확인](get-started/check-for-updates.md)을 참조하세요.
 
 대체 텍스트 현지화는 제품 이미지 할당 또는 갤러리 매핑을 변경하지 않습니다. 저장소 보기 자산 가용성은 별도의 기능이며 대체 텍스트 워크플로에서 다루지 않습니다.
+
+AEM Assets에서 제공하는 제품 비주얼은 Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer에서 Commerce 중심의 에셋 관리 사용 사례를 지원합니다. 지원되는 기능, 용량 제한 및 AEM Assets Ultimate이 필요한 기능에 대해서는 [제품 시각적 개체 제한](../optimizer/boundaries-limits.md#product-visuals-limits)을 참조하세요.
 
 ## 통합 사용 요구 사항
 
@@ -142,7 +144,7 @@ AEM Assets 통합을 설치하고 구성하는 프로세스는 Adobe Commerce �
 
 1. Commerce 메타데이터를 지원하려면 [AEM Assets 프로젝트를 구성](get-started/configure-aem.md)하십시오. AEM 릴리스 `2026.5.26309` 이상에서는 [셀프 서비스 온보딩](get-started/configure-aem.md#enable-aem-commerce-self-service)을(를) 사용합니다. 이전 릴리스에서는 `assets-commerce` 패키지를 수동으로 설치하십시오.
 
-1. 자산 선택기와 자동으로 채워진 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]** 필드를 사용할 수 있도록 [IMS 사용자 권한을 구성](get-started/permissions.md)합니다.
+1. 자산 선택기와 AEM 환경 및 도메인 선택에 대해 [IMS 사용자 권한을 구성](get-started/permissions.md)합니다.
 
 1. [Commerce 관리자에서 통합을 구성](get-started/setup-synchronization.md).
 
@@ -156,13 +158,17 @@ AEM Assets 통합을 설치하고 구성하는 프로세스는 Adobe Commerce �
 
 1. 확장을 추가하고 필요한 자격 증명과 연결을 생성하려면 [Adobe Commerce 패키지를 설치](get-started/configure-commerce.md)하십시오.
 
-1. 자산 선택기와 자동으로 채워진 **[!UICONTROL Program ID]** 및 **[!UICONTROL Environment ID]** 필드를 사용할 수 있도록 [IMS 사용자 권한을 구성](get-started/permissions.md)합니다.
+1. 자산 선택기와 AEM 환경 및 도메인 선택에 대해 [IMS 사용자 권한을 구성](get-started/permissions.md)합니다.
 
 1. [Commerce 관리자에서 통합을 구성](get-started/setup-synchronization.md).
 
 1. 선택 사항입니다. [제품 이미지 표시를 사용하도록 설정](get-started/configure-storefront.md#enable-product-images)하여 Edge Delivery Services에서 제공하는 상점이 AEM 관리 제품 이미지를 렌더링하도록 합니다.
 
 >[!ENDTABS]
+
+설정을 완료한 후 제품 연결 및 상점 표시에 대한 동기화를 통해 적격한 승인된 자산에서 [통합을 확인](get-started/setup-synchronization.md#verify-the-integration)합니다. Adobe Commerce Optimizer의 경우 [Optimizer 확인 워크플로](get-started/configure-aco.md#match-by-sku-workflow-example)를 따르십시오. 동기화 상태는 사용할 수 없습니다.
+
+범주 이미지 할당 및 확인에 대해서는 [범주 이미지 관리](manage-assets.md#category-images)를 참조하십시오.
 
 ## 지원
 

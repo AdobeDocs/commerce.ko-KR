@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '664'
 ht-degree: 0%
 ---
 # Storefront 구성
@@ -52,6 +52,8 @@ Edge Delivery Services에서 제공하는 Commerce storefront에서 통합을 �
 Commerce 드롭인에서 `commerce-assets-enabled` 구성을 자동으로 감지하고 그에 따라 이미지 처리를 조정합니다.
 
 Edge Delivery Services에서 제공하는 Commerce Storefront와 함께 AEM Assets을 사용하는 방법에 대한 자세한 내용은 *AEM Assets Storefront* 설명서의 [Adobe Commerce 통합](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/aem-assets-configuration/) 항목을 참조하십시오.
+
+Storefront 구성을 저장한 후 제품과 연결된 승인된 자산으로 [통합을 확인](setup-synchronization.md#verify-the-integration)합니다. 예상 이미지가 상점 앞에 표시되는지 확인합니다. 그렇지 않은 경우 상점 이미지 제공 문제를 해결하기 전에 제품 연결, 시각화 소유자 및 동기화 결과를 확인하십시오. Adobe Commerce Optimizer의 경우 [Optimizer 확인 워크플로](configure-aco.md#match-by-sku-workflow-example)를 따르십시오.
 
 >[!TIP]
 >

@@ -21,9 +21,9 @@ role_v2:
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 9b3448a40c2e829e09de5e394b0972c527ee0e9b
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '567'
 ht-degree: 0%
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 >
 >**제품 시각적 개체**&#x200B;은(는) [!DNL Adobe Commerce as a Cloud Service] 및 [!DNL Adobe Commerce Optimizer]과(와) 함께 제공된 번들의 이름입니다. [Dynamic Media를 OpenAPI 기능과 결합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) 및 [AEM Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime).
 >
->다른 AEM Assets 라이선스(예: **AEM Assets Ultimate**)를 가진 고객은 동일한 통합을 사용할 수 있습니다. AEM 릴리스만 온보딩 단계에 영향을 주고 라이선스 유형은 영향을 주지 않습니다.
+>[AEM Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)과 같이 다른 AEM Assets 라이선스를 가진 고객은 동일한 통합을 사용할 수 있습니다. Ultimate은 제품 비주얼에 포함되어 있지 않으며 AEM Assets Ultimate 추가 기능 SKU가 필요합니다. 라이선스 및 프로비저닝은 Adobe 계정 담당자에게 문의하십시오. AEM 릴리스는 온보딩 방법을 결정합니다. 사용 가능한 기능 및 환경은 권한에 따라 다릅니다. [제품 시각적 개체 제한](../boundaries-limits.md#product-visuals-limits)을 참조하세요.
 
 ## 주요 이점
 
-* **중앙 집중식 자산 관리**: 엔터프라이즈급 디지털 자산 관리 솔루션인 AEM Assets에서 모든 제품 이미지를 관리합니다.
+* **중앙 집중식 자산 관리**: Commerce 중심의 자산 관리 사용 사례를 위해 AEM Assets에서 제품 이미지를 관리합니다.
 * **자동 동기화**: AEM Assets에서 에셋을 승인하거나 업데이트할 때 제품 이미지가 자동으로 동기화됩니다.
 * **Dynamic Media 게재**: 최적화된 이미지 게재를 위해 OpenAPI 기능이 있는 Dynamic Media를 활용하십시오.
 * **카탈로그 레이어**: 제품 이미지가 카탈로그 레이어로 적용되어 기본 카탈로그에 AEM Assets 이미지를 오버레이할 수 있습니다.
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 제한 사항
 
-용량 및 사용량 할당(자산 저장소, Dynamic Media 작업, 사용자 라이선스)에 대해서는 _경계 및 제한 안내서_&#x200B;의 [제품 시각적 개체 제한](../boundaries-limits.md#product-visuals-limits)을 참조하십시오.
+기능 권한, 용량 및 사용 할당(자산 저장소, Dynamic Media 작업, 사용자 라이선스)에 대해서는 _경계 및 제한 안내서_&#x200B;의 [제품 시각적 개체 제한](../boundaries-limits.md#product-visuals-limits)을 참조하세요.
 
 ## 제품 시각화 사용
 

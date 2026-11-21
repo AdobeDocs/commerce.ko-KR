@@ -64,9 +64,9 @@ topic_v2:
     internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 213fcf83118eb60b0e80db224192963592945d8d
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1641'
 ht-degree: 0%
 ---
 # [!DNL Adobe Commerce as a Cloud Service] 개요
@@ -141,31 +141,36 @@ ht-degree: 0%
 
 ## [!DNL Product Visuals powered by AEM Assets]
 
-제품 비주얼은 리치 미디어 콘텐츠를 관리하기 위해 Adobe Experience Manager과 통합된 DAM(디지털 에셋 관리) 시스템을 사용하여 에셋 관리를 간소화하는 데 도움이 됩니다.
+제품 비주얼은 Commerce에서 제공하는 제품 에셋, Commerce 메타데이터 및 에셋 제공 관리를 포함하여 Adobe Experience Manager Assets 중심의 DAM(디지털 에셋 관리)을 지원합니다.
 
 이러한 통합을 통해 제품 이미지 또는 마케팅 컨텐츠와 같은 디지털 에셋이 SKU 또는 기타 주요 속성을 기반으로 Adobe Commerce의 제품 및 카테고리를 비롯한 적절한 머천다이징 엔티티에 동적으로 연결할 수 있습니다.
 
-[!DNL Product Visuals]은(는) 기본적으로 [!DNL Adobe Commerce as a Cloud Service]에서 사용할 수 있으며, [!DNL AEM Assets]에서 일부 기능을 제공합니다.
+[!DNL Product Visuals]이(가) [!DNL Adobe Commerce as a Cloud Service]에 포함되어 있습니다. 자산 전달을 위해 OpenAPI 기능이 포함된 Dynamic Media와 함께 경량 DAM인 [AEM Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime)을(를) 번들로 제공합니다.
 
 또는 [!DNL Adobe Commerce as a Cloud Service] 내의 기본 기능은 디지털 에셋을 저장하고 관리하기 위한 기본 에셋 관리 도구를 제공합니다.
 
 [!DNL Product Visuals powered by AEM Assets]을(를) [!DNL Adobe Commerce as a Cloud Service]과(와) 통합하는 방법에 대한 자세한 내용은 [AEM Assets 통합](../aem-assets-integration/overview.md) 안내서를 참조하세요.
 
-### [!DNL Product Visuals] 또는 [!DNL AEM Assets]
+### [!DNL Product Visuals] 또는 [!DNL AEM Assets Ultimate]
 
-다음 비교는 supply chain에 필요한 콘텐츠에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
+다음 비교는 supply chain에 필요한 콘텐츠에 가장 적합한 옵션을 선택하는 데 도움이 됩니다. 제품 비주얼은 Commerce 중심의 자산 관리를 지원합니다. [AEM Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)은(는) UI 확장성, API 기반 자동화 및 사용자 지정 코드 배포를 포함하여 광범위한 엔터프라이즈 DAM과 복잡한 콘텐츠 공급망을 지원합니다.
+
+>[!IMPORTANT]
+>
+>AEM Assets Ultimate은 제품 비주얼에 포함되어 있지 않습니다. Ultimate을 사용하려면 AEM Assets Ultimate 추가 기능 SKU를 구매하십시오. 라이선스 및 프로비저닝에 대해서는 Adobe 계정 담당자에게 문의하십시오.
 
 <table>
   <tr>
     <td align="left">
       <strong>[!DNL Product Visuals powered by AEM Assets]</strong>
       <ul>
+        <li>Adobe Commerce as a Cloud Service에 포함</li>
         <li>자동화된 통합 제품 이미지 및 비디오 DAM(Digital Asset Manager)</li>
         <li>이미지 크기 조정, 자르기 및 변환</li>
         <li>고속 이미지 및 비디오 전송</li>
         <li>클라이언트 브라우저 기능을 기반으로 이미지 형식, 크기 및 품질 최적화</li>
         <li>Adobe Express 및 Adobe Firefly 액세스</li>
-        <li>이미지/비디오 게재 용량 및 사용자 액세스에 대한 사용 제한</li>
+        <li>에셋 스토리지, 이미지/비디오 제공 용량 및 사용자 액세스에 대한 사용 제한</li>
         <li>통합 에셋 선택기</li>
       </ul>
     </td>
@@ -174,13 +179,18 @@ ht-degree: 0%
       <img src="../assets/icon-double-chevron-right.svg" alt="펼침" width="100">
     </td>
     <td align="left">
-      <strong>AEM Assets</strong>
+      <strong>[!DNL AEM Assets Ultimate]</strong>
       <ul>
+        <li>AEM Assets Ultimate 추가 기능 SKU 필요</li>
         <li>제품 비주얼의 모든 기능</li>
         <li>전체 마케팅 디지털 자산 관리자(DAM)</li>
-        <li>사용자 무제한(사용자당 지불)</li>
-        <li>무제한 이미지 및 비디오 전송</li>
-        <li>고급 에셋 관리 기능:</li>
+        <li>구매한 라이선스 기반 사용자 액세스</li>
+        <li>라이선스가 부여된 Dynamic Media 용량을 기반으로 이미지 및 비디오 제공</li>
+        <li>AEM Assets API를 사용하여 프로그래밍 방식으로 에셋 또는 메타데이터를 관리하는 AEM Assets Author API 액세스 및 통합</li>
+        <li>메타데이터 인그레스 및 이그레스를 포함한 API 기반 메타데이터 통합</li>
+        <li>UI 확장성, API 기반 자동화 및 맞춤형 코드 배포</li>
+        <li>AEM Assets 단계 및 개발 환경</li>
+        <li>Dynamic Media 기능을 사용하는 고급 에셋 관리 기능은 해당 추가 기능 라이선스에 따릅니다.</li>
         <ul>
           <li>360도 회전 집합 및 대화형 뷰어</li>
           <li>3D 모델 지원 및 몰입형 콘텐츠</li>
@@ -199,6 +209,10 @@ ht-degree: 0%
     </td>
   </tr>
 </table>
+
+>[!NOTE]
+>
+>지원되는 일괄 업로드 및 일괄 메타데이터 작업 자체에는 AEM Assets Ultimate이 필요하지 않습니다. App Builder 사용만으로는 Ultimate이 필요하지 않습니다. 요구 사항은 애플리케이션이 사용하는 AEM Assets API에 따라 다릅니다. 제품 시각화에는 자산 전달을 위한 OpenAPI 기능이 있는 Dynamic Media가 포함되어 있습니다. 기능 권한, 용량 및 사용 할당에 대해서는 [제품 시각적 개체 제한](../optimizer/boundaries-limits.md#product-visuals-limits)을 참조하세요.
 
 ## 개발자 플랫폼
 

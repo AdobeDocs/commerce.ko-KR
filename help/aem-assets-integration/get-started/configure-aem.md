@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1900'
 ht-degree: 1%
 ---
 # AEM Assets 프로젝트 구성
@@ -65,6 +65,10 @@ AEM Assets 프로젝트를 구성하는 두 가지 옵션이 있습니다.
 
   Commerce 인스턴스와 AEM Assets 작성 환경은 모두 동일한 IMS 조직에 있어야 합니다.
 
+>[!NOTE]
+>
+>AEM Assets 단계 및 개발 환경에는 AEM Assets Ultimate이 필요합니다. 이러한 환경을 계획하기 전에 [제품 시각적 개체 제한](../../optimizer/boundaries-limits.md#product-visuals-limits)을 검토하십시오. 이 요구 사항은 Commerce 샌드박스 환경이 아닌 AEM Assets 환경에 적용됩니다.
+
 ### 1단계: 프로그램 및 환경 만들기
 
 Cloud Manager에서 프로그램을 만드는 것은 여러 단계의 프로세스입니다. 프로그램과 프로그램 환경은 여러 단계에 걸쳐 구성되며 함께 저장됩니다.
@@ -77,7 +81,7 @@ Cloud Manager에서 프로그램을 만드는 것은 여러 단계의 프로세�
 
    ![Cloud Manager 솔루션 및 추가 기능 단계(Dynamic Media 선택)](../assets/aem-cloud-manager-program-addons.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Add Environment]** 단계에서 **프로덕션** 및 **스테이징** 환경의 이름을 입력한 다음 지역을 선택하십시오.
+1. **[!UICONTROL Add Environment]** 단계에서 **프로덕션** 환경 이름을 입력한 다음 지역을 선택합니다. 권한 부여에 스테이징 환경이 포함된 경우 **스테이징** 환경 이름도 입력하십시오.
 
    >[!IMPORTANT]
    >

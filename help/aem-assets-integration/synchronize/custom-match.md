@@ -22,18 +22,22 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1015'
 ht-degree: 0%
 ---
 # 사용자 지정 자동 일치
 
 기본 자동 일치 전략(**OOTB 자동 일치**)이 특정 비즈니스 요구 사항과 일치하지 않는 경우 사용자 지정 일치 옵션을 선택하십시오. 이 옵션은 [Adobe Developer App Builder](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/extensibility/adobe-developer-app-builder/introduction-to-app-builder)을(를) 사용하여 복잡한 일치 논리를 처리하는 사용자 지정 일치 응용 프로그램 또는 메타데이터를 AEM Assets에 채울 수 없는 서드파티 시스템에서 오는 에셋을 개발할 수 있도록 지원합니다.
 
+>[!NOTE]
+>
+>사용자 지정 선택기 또는 Adobe Developer App Builder 통합에서 프로그래밍 방식으로 에셋 또는 메타데이터를 관리하기 위해 AEM Assets API가 필요한 경우 AEM Assets Ultimate 권한이 필요합니다. 이 요구 사항은 App Builder 사용에만 좌우되는 것이 아니라 애플리케이션에서 사용하는 API에 따라 다릅니다. [제품 시각적 개체 제한](../../optimizer/boundaries-limits.md#product-visuals-limits)을 참조하세요.
+
 ## 사용자 지정 자동 일치 구성
 
-1. Commerce 관리자에서 **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
+1. Commerce 관리자에서 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
 
 1. **[!UICONTROL Custom Matcher]**&#x200B;을(를) 일치 규칙으로 선택합니다.
 
@@ -128,6 +132,10 @@ ht-degree: 0%
 1. 드롭다운 메뉴에서 각 플로우에 대한 적절한 런타임 작업을 선택합니다.
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
+
+구성이 적용되면 승인된 에셋 및 사용자 지정 일치 프로그램이 연결된 제품과 함께 [통합을 확인](../get-started/setup-synchronization.md#verify-the-integration)합니다.
+
+[!BADGE PaaS만]{type=Informative tooltip="Adobe Commerce on Cloud 프로젝트에만 적용됩니다(Adobe 관리 PaaS 인프라)."} 동기화가 실패하면 [통합 로그](../get-started/logs.md)를 검토하세요.
 
 ## 비동기 구성 저장
 

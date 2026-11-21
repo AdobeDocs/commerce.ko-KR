@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-source-git-commit: 76e77db86adecdbd3be76040970c0d0899c34cdc
+source-git-commit: 5e9c42e5c93ac81604aa38bf3e55c5df729650a0
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1055'
 ht-degree: 0%
 ---
 # 미디어 파일을 AEM Assets DAM으로 마이그레이션
@@ -42,6 +42,10 @@ Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets
 | **클라우드 저장소 계정** | <ul><li>AWS S3 또는 Azure Blob 저장소 계정</li><li>비공개 컨테이너/버킷 구성</li><li>인증 자격 증명</li></ul> |
 | **Source 컨텐츠** | <ul><li>마이그레이션할 준비가 된 미디어 파일 구성</li><li>AEM Assets에서 지원하는 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">형식의 이미지 및 비디오 파일</a>.</li><li>정리되고 중복된 에셋</li></li> |
 | **메타데이터 준비** | <ul><li><a href="configure-aem.md">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
+
+>[!IMPORTANT]
+>
+>지원되는 일괄 업로드 및 일괄 메타데이터 작업 자체에는 AEM Assets Ultimate이 필요하지 않습니다. API 기반 메타데이터 인그레스 및 이그레스를 포함하여 AEM Assets API가 필요한 프로그래밍 방식의 마이그레이션 또는 메타데이터 워크플로에는 AEM Assets Ultimate이 필요합니다. 마이그레이션 방법을 선택하기 전에 [제품 시각적 개체 제한](../../optimizer/boundaries-limits.md#product-visuals-limits)을 검토하십시오.
 
 ## 마이그레이션 모범 사례
 
@@ -159,4 +163,4 @@ assetPath,commerce:positions{{Number: multi}},commerce:isCommerce{{String}},comm
 >
 > [일괄 가져오기 도구 비디오 데모](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 > [팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
-> [API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집
+> [API를 사용하여 에셋을 업로드하거나 수집하십시오](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload) - API 기반 마이그레이션을 구현하기 전에 [제품 시각적 개체 제한](../../optimizer/boundaries-limits.md#product-visuals-limits)을(를) 검토하십시오.
