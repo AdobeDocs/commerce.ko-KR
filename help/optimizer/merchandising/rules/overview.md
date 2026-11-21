@@ -1,7 +1,7 @@
 ---
 title: 머천다이징 규칙
 description: '[!DNL Adobe Commerce Optimizer] 머천다이징 규칙은 검색 결과를 셰이핑하고, 검색 쿼리를 표시하지 않으며, 기본 제품 목록 및 범주 페이지를 제어합니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 [!DNL Adobe Commerce Optimizer] 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: f2a9b5e8-d23d-4855-b424-ca6b40e057df
 TQID: https://experienceleague.adobe.com/1lpaqHx0SaVYLXcTSOToxvbpKzhPJKmhfxjlCvNQLkU
 product_v2:
