@@ -20,8 +20,8 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-last-update: 2026-11-16
-source-git-commit: 0633a6bf0c347ca0448a76fb45391643ac582d5d
+last-update: 2026-11-18
+source-git-commit: c56c73864a05604cbbca8126ba1eaed231875647
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

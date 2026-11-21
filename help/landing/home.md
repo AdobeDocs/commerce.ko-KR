@@ -47,8 +47,8 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-last-update: 2026-11-09
-source-git-commit: 44918d5b636f0577c75010def79737acee1ffe0b
+last-update: 2026-11-17
+source-git-commit: c56c73864a05604cbbca8126ba1eaed231875647
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 0%
