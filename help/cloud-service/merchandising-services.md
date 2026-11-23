@@ -75,9 +75,9 @@ Adobe Commerce as a Cloud Service은 이제 머천다이징 서비스를 통해 
 
 ## CCDM에는 어떤 변경 사항이 도입됩니까?
 
-원본 카탈로그 모델은 [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/overview)를 사용하여 제품 데이터를 상점 앞으로 전달하고, 검색, 머천다이징 및 추천 기능을 제공하는 라이브 검색 및 제품 추천 기능을 제공합니다. 이 모델에서 Commerce은 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)를 사용하여 데이터를 서비스 레이어에 동기화합니다.
+원본 카탈로그 모델은 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/overview)를 사용하여 제품 데이터를 상점 앞으로 전달하고, 검색, 머천다이징 및 추천 기능을 제공하는 라이브 검색 및 제품 추천 기능을 제공합니다. 이 모델에서 Commerce은 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 사용하여 데이터를 서비스 레이어에 동기화합니다.
 
-CCDM을 사용하면 이러한 기능이 Adobe Commerce Optimizer을 지원하는 것과 동일한 카탈로그 기반에서 작동합니다. [카탈로그 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) 및 [정책](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/policies)은(는) 상점 앞에서 사용할 수 있는 카탈로그 컨텍스트를 정의합니다. 정책은 제품 분류를 결정하고, 머천다이징 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정될 수 있습니다.
+CCDM을 사용하면 이러한 기능이 Adobe Commerce Optimizer을 지원하는 것과 동일한 카탈로그 기반에서 작동합니다. [카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) 및 [정책](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/policies)은(는) 상점 앞에서 사용할 수 있는 카탈로그 컨텍스트를 정의합니다. 정책은 제품 분류를 결정하고, 머천다이징 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정될 수 있습니다.
 
 이렇게 하면 카탈로그의 구성, 액세스 및 머천다이징 방법이 변경됩니다. CCDM은 카탈로그 보기 수준에서 제어를 도입하는 동안 원래 Commerce 카탈로그의 검색, 권장 사항 및 머천다이징 기능을 빌드합니다. 추가 관리 및 보고 기능은 아래에 설명되어 있습니다.
 
@@ -99,9 +99,9 @@ Storefront는 CCDM 지원 머천다이징 서비스를 사용하여 찾아보기
 
 ## 상인들을 위한 새로운 것은 무엇인가?
 
-새 모델을 사용하면 기존 머천다이징 규칙의 범위를 모든 카탈로그 보기 또는 특정 보기로 지정할 수 있습니다. 이렇게 하면 각 상점 대상 그룹에 머천다이징을 적용할 수 있습니다. 카탈로그 보기에 머천다이징 규칙을 [범위 지정](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/add)하는 방법에 대해 알아봅니다.
+새 모델을 사용하면 기존 머천다이징 규칙의 범위를 모든 카탈로그 보기 또는 특정 보기로 지정할 수 있습니다. 이렇게 하면 각 상점 대상 그룹에 머천다이징을 적용할 수 있습니다. 카탈로그 보기에 머천다이징 규칙을 [범위 지정](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/add)하는 방법에 대해 알아봅니다.
 
-관리에서 [!UICONTROL Catalog Views] 및 [!UICONTROL Policies]&#x200B;(으)로 카탈로그 컨텍스트를 구성할 수 있습니다. [!UICONTROL Success Metrics]을(를) 사용하여 매출, 전환, 참여, 획득 및 바운스 비율을 검토할 수도 있습니다. 자세한 내용은 [성공 지표](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/manage-results/success-metrics)를 참조하십시오.
+관리에서 [!UICONTROL Catalog Views] 및 [!UICONTROL Policies]&#x200B;(으)로 카탈로그 컨텍스트를 구성할 수 있습니다. [!UICONTROL Success Metrics]을(를) 사용하여 매출, 전환, 참여, 획득 및 바운스 비율을 검토할 수도 있습니다. 자세한 내용은 [성공 지표](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/manage-results/success-metrics)를 참조하십시오.
 
 ## 채택 전 고려 사항
 
@@ -126,7 +126,7 @@ CCDM 기반 모델에 대한 카탈로그 쿼리 및 요청 헤더를 검토합�
 
 ### 관리자 경험
 
-CCDM이 포함된 Adobe Commerce as a Cloud Service은 [[!DNL Adobe Unified Experience]](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin-unified-experience)&#x200B;(통합 쉘)을 사용합니다. Adobe은 통합 쉘을 CCDM과 별도로 출시했습니다. 원본 카탈로그 서비스 모델의 기존 인스턴스는 Classic 및 Unified Shell에 대한 액세스 권한을 유지합니다.
+CCDM이 포함된 Adobe Commerce as a Cloud Service은 [[!DNL Adobe Unified Experience]](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience)&#x200B;(통합 쉘)을 사용합니다. Adobe은 통합 쉘을 CCDM과 별도로 출시했습니다. 원본 카탈로그 서비스 모델의 기존 인스턴스는 Classic 및 Unified Shell에 대한 액세스 권한을 유지합니다.
 
 ### 제한
 
@@ -142,4 +142,4 @@ CCDM 모델은 Adobe Commerce as a Cloud Service 제한을 변경하지 않습�
 
 >[!MORELIKETHIS]
 >
->* [CCDM Commerce 관리 가이드를 사용한 머천다이징 서비스](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/overview)
+>* [CCDM Commerce 관리 가이드를 사용한 머천다이징 서비스](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/overview)
