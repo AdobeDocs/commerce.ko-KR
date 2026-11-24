@@ -1,6 +1,6 @@
 ---
-title: 구성 가능한 카탈로그 데이터 모델 및 머천다이징 서비스
-description: 구성 가능한 카탈로그 데이터 모델이 [!DNL Adobe Commerce as a Cloud Service]에서 카탈로그 전달을 변경하는 방법과 판매자 및 상점 팀이 알아야 할 사항에 대해 알아봅니다.
+title: 구성 가능한 카탈로그 데이터 모델을 사용한 머천다이징 서비스
+description: 구성 가능한 카탈로그 데이터 모델을 사용하는 머천다이징 서비스가 [!DNL Adobe Commerce as a Cloud Service]에서 카탈로그 전달을 변경하는 방법과 판매자 및 상점 팀이 알아야 할 사항에 대해 알아봅니다.
 feature: Catalog Management, Personalization, Saas
 role: Leader
 level: Beginner
@@ -61,13 +61,13 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0bda134570bb3bf2f43da545917dedc95394df5e
+source-git-commit: 71700f3fc10957ec2b1cccb7df12acd9840c35a1
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '998'
 ht-degree: 0%
 ---
 
-# 머천다이징 서비스
+# 구성 가능한 카탈로그 데이터 모델을 사용한 머천다이징 서비스
 
 Adobe Commerce as a Cloud Service은 이제 머천다이징 서비스를 통해 CCDM(Composable Catalog Data Model)을 지원합니다. Adobe Commerce Optimizer은 이 데이터 모델을 도입했으며 CCDM은 두 제품 모두에 상점 카탈로그 탐색 및 머천다이징 기능을 제공하는 공통 기반을 제공하는 한편 Commerce Foundation은 제품, 가격 및 트랜잭션을 계속 관리합니다.
 
@@ -75,7 +75,7 @@ Adobe Commerce as a Cloud Service은 이제 머천다이징 서비스를 통해 
 
 ## CCDM에는 어떤 변경 사항이 도입됩니까?
 
-원래 카탈로그 모델은 Catalog Service 를 사용하여 제품 데이터를 상점 앞으로 전달하고 라이브 검색 및 제품 권장 사항은 검색, 머천다이징 및 권장 사항 기능을 제공합니다. 이 모델에서 Commerce은 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 사용하여 동기화합니다.
+원본 카탈로그 모델은 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/overview)를 사용하여 제품 데이터를 상점 앞으로 전달하고, 검색, 머천다이징 및 추천 기능을 제공하는 라이브 검색 및 제품 추천 기능을 제공합니다. 이 모델에서 Commerce은 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 사용하여 데이터를 서비스 레이어에 동기화합니다.
 
 CCDM을 사용하면 이러한 기능이 Adobe Commerce Optimizer을 지원하는 것과 동일한 카탈로그 기반에서 작동합니다. [카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) 및 [정책](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/policies)은(는) 상점 앞에서 사용할 수 있는 카탈로그 컨텍스트를 정의합니다. 정책은 제품 분류를 결정하고, 머천다이징 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정될 수 있습니다.
 
@@ -85,7 +85,7 @@ Commerce 재단은 제품과 가격의 표준 소스로 남아 있습니다. 제
 
 ## 라이센스 및 프로비저닝
 
-머천다이징 서비스는 기존 Adobe Commerce as a Cloud Service SKU에 포함되어 있습니다. 두 번째 제품 또는 구독이 아니며 별도의 Adobe Commerce Optimizer 구매, 권한 또는 테넌트가 필요하지 않습니다.
+CCDM이 포함된 머천다이징 서비스는 기존 Adobe Commerce as a Cloud Service SKU에 포함됩니다. 두 번째 제품 또는 구독이 아니며 별도의 Adobe Commerce Optimizer 구매, 권한 또는 테넌트가 필요하지 않습니다.
 
 ## 아키텍처 개요
 
@@ -93,7 +93,7 @@ Commerce 재단은 제품과 가격의 표준 소스로 남아 있습니다. 제
 
 Storefront는 CCDM 지원 머천다이징 서비스를 사용하여 찾아보기, 검색, 권장 사항 및 머천다이징을 위한 카탈로그 데이터와 컨텍스트를 검색합니다. 요청은 카탈로그 컨텍스트를 사용하여 의도한 대상에 대한 제품 및 가격을 검색합니다. [!DNL Commerce]에서 웹 사이트, 스토어 및 스토어 보기 구성을 계속 관리합니다.
 
-다음 다이어그램은 광범위한 Adobe Commerce as a Cloud Service 아키텍처에서 머천다이징 서비스의 위치를 보여 줍니다.
+다음 다이어그램은 더 광범위한 Adobe Commerce as a Cloud Service 아키텍처에서 CCDM을 사용하는 머천다이징 서비스의 위치를 보여 줍니다.
 
 ![머천다이징 서비스로의 카탈로그 데이터 흐름을 보여 주는 Commerce 아키텍처](./assets/data-flow-ccdm.png){zoomable="yes"}
 
@@ -105,7 +105,7 @@ Storefront는 CCDM 지원 머천다이징 서비스를 사용하여 찾아보기
 
 ## 채택 전 고려 사항
 
-머천다이징 서비스를 채택하기 전에 CCDM 모델이 라이선스, 카탈로그 통합, 상점 및 관리 워크플로우에 미치는 영향을 검토하십시오.
+CCDM을 사용한 머천다이징 서비스를 채택하기 전에 CCDM 모델이 라이선스, 카탈로그 통합, 상점 및 관리 워크플로우에 미치는 영향을 검토하십시오.
 
 ### 카탈로그 관리 및 통합
 
@@ -134,8 +134,12 @@ CCDM 모델은 Adobe Commerce as a Cloud Service 제한을 변경하지 않습�
 
 ## 가용성 및 마이그레이션
 
-이 릴리스 이후 Adobe Commerce as a Cloud Service으로 시작하는 조직은 기본적으로 머천다이징 서비스를 받습니다. 조직에서 원본 카탈로그 데이터 모델을 필요로 하는 경우, Adobe 계정 팀에 문의하여 예외를 사용할 수 있는지 여부를 논의하십시오.
+2026년 11월 18일 릴리스 이후 Adobe Commerce as a Cloud Service으로 시작하는 조직에는 기본적으로 CCDM이 포함된 머천다이징 서비스가 포함됩니다. 조직에서 원본 카탈로그 데이터 모델을 필요로 하는 경우, Adobe 계정 팀에 문의하여 예외를 사용할 수 있는지 여부를 논의하십시오.
 
 이 릴리스 이전에 Adobe Commerce as a Cloud Service이 있었던 조직은 [새 인스턴스를 프로비전할 때](./getting-started.md#create-an-instance) 카탈로그 모델을 선택할 수 있습니다. 기본적으로 [!UICONTROL Enable CCDM] 전환기는 비활성화되어 있습니다. CCDM이 활성화되면 비활성화할 수 없습니다.
 
 기존 인스턴스는 자동으로 변경되지 않습니다. GA(일반 배포)에서는 기존의 원래 카탈로그 서비스 인스턴스를 머천다이징 서비스로 마이그레이션할 수 없습니다.
+
+>[!MORELIKETHIS]
+>
+>* [CCDM Commerce 관리 가이드를 사용한 머천다이징 서비스](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/overview)

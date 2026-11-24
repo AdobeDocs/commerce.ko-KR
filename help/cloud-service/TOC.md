@@ -9,16 +9,16 @@ product_v2:
     internal-label: Commerce
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
     internal-label: Commerce as a Cloud Service
-source-git-commit: af9c81b93d4ad1ff75a0380ec3fd4e3e5f374e3a
+source-git-commit: 5f2f7adbf9b7f87f719fe8010168521ee3981dd5
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 ---
 
 # [!DNL Adobe Commerce as a Cloud Service] {#cloud-service}
 
 - [Adobe Commerce as a Cloud Service](overview.md)
-- [머천다이징 서비스](merchandising-services.md)
+- [CCDM을 통한 머천다이징 서비스](merchandising-services.md)
 - [기능 비교](feature-comparison.md)
 - [시작](getting-started.md)
 - [제한 및 경계](boundaries-limits.md)

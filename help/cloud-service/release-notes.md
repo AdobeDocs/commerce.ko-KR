@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: eebf534ca77d223db63f2062dd889d8f3ceb1866
+source-git-commit: c1bd52e33427ed9222ef72aadf791d424fff20bb
 workflow-type: tm+mt
-source-wordcount: '10433'
+source-wordcount: '10913'
 ht-degree: 0%
 ---
 # 릴리스 정보
@@ -82,7 +82,90 @@ ht-degree: 0%
 
 자세한 내용은 Adobe 통합 환경의 [Commerce 관리자](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience)를 참조하세요.
 
-## 2026년 11월 - 릴리스 #2 {#latest}
+## 2026년 12월 - 릴리스 #1 {#latest}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+<!-- [!BADGE Production]{type=Neutral tooltip="The items listed are currently available in Production environments."} -->
+
+다음 항목은 2026년 12월 2일에 프로덕션 환경에 릴리스됩니다.
+
+>[!BEGINSHADEBOX]
+
+### 사용자 정의 이메일 사본 보내기
+
+이제 [`POST /V1/custom-email/send`](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/) REST 끝점이 선택적 `ccEmails` 및 `bccEmails` 배열을 수락하여 추가 수신자에게 전자 메일의 복사본을 보냅니다. <!-- ACCS-2225 -->
+
+### REST를 통해 재고 출처 지정
+
+다음 새 관리 REST 끝점은 소스 지정 및 가용성 기능을 제공합니다. <!-- ACCS-1884 -->
+
+* `GET /V1/carts/:cartId/nominated-sources` 및 `PUT /V1/carts/:cartId/nominated-sources`이(가) 각 장바구니 항목에 대해 지정된 인벤토리 원본을 읽고 설정합니다.
+* `GET /V1/inventory/source-availability`이(가) 저장소에 대한 소스당 가용성을 반환합니다.
+* `GET /V1/inventory/stock-availability`이(가) 스토어에 대한 재고 수준의 판매 가능 수량을 반환합니다.
+
+### 사용자 지정 장바구니 항목 가격 재설정
+
+이제 항목을 삭제하고 다시 추가하지 않고 장바구니 항목에서 [사용자 지정 가격](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/cart-custom-price)을 제거할 수 있습니다. `PUT /V1/carts/:cartId/items/:itemId` 요청에서 `reset_custom_price` 확장 특성을 `true`(으)로 설정합니다. <!-- ACCS-2189 -->
+
+```json
+{
+  "cartItem": {
+    "item_id": 8,
+    "quote_id": "17",
+    "sku": "hat",
+    "qty": 1,
+    "extension_attributes": { "reset_custom_price": true }
+  }
+}
+```
+
+### 할인에서 장바구니 항목 제외
+
+이제 `POST /V1/carts/:quoteId/items` 및 `PUT /V1/carts/:cartId/items/:itemId` 요청에서 `apply_discounts` 확장 특성을 `false`(으)로 설정하여 장바구니 가격 규칙 할인에서 개별 장바구니 항목을 제외할 수 있습니다. <!-- ACCS-2190 -->
+
+### 고객 위시리스트 가져오기
+
+다음 새 REST 끝점을 사용하면 고객 희망 목록을 검색할 수 있습니다. <!-- ACCS-2330 -->
+
+* `GET /V1/customers/:customerId/wishlists`이(가) 고객의 위시리스트를 반환합니다.
+* `GET /V1/customers/:customerId/wishlists/:wishlistId/items`이(가) 저장된 제품 옵션과 함께 위시리스트에 있는 항목을 반환합니다.
+
+### 세금 사용자 정의 수수료
+
+`plugin.magento.out_of_process_totals_collector.api.get_total_modifications.custom_fees` 웹후크에서 반환된 사용자 지정 수수료는 이제 과세 목적으로 `plugin.magento.out_of_process_tax_management.api.oop_tax_collection.collect_taxes` 웹후크에 코드가 `oope_custom_fee_<fee code>`인 항목으로 전송됩니다. <!-- ACCS-2274 -->
+
+### 관리자에서 이벤트 및 웹후크 검색
+
+[!DNL Commerce Admin]의 **[!UICONTROL Events List]**([!UICONTROL System] > [!UICONTROL Events] > [!UICONTROL Events List]) 및 **[!UICONTROL Webhooks List]**([!UICONTROL System] > [!UICONTROL Webhooks] > [!UICONTROL Webhooks List]) 페이지에 다시 디자인되고 검색 가능한 레이아웃이 있습니다. 모듈, 이벤트 또는 웹후크 이름으로 검색하고 목록 옆에 있는 창에서 페이로드 스키마(필드 이름 및 유형)를 볼 항목을 선택하고 해당 스키마를 JSON으로 복사할 수 있습니다. <!-- CEXT-6999 -->
+
+### 상점 등록 중 회사 설정 적용
+
+`createCompany` GraphQL 돌연변이는 이제 회사를 만들 때 회사 주소록 설정(`address_book_enabled` 및 `custom_shipping_address_enabled`)을 적용하는 선택적 `config` 입력을 허용합니다. <!-- USF-4527 -->
+
+이 옵션은 기본적으로 비활성화되어 있습니다. 활성화하려면 [!UICONTROL Stores] > [!UICONTROL Settings] > [!UICONTROL Configuration] > [!UICONTROL Customers] > [!UICONTROL Company Configuration] > [!UICONTROL General]&#x200B;(으)로 이동하고 **[!UICONTROL Allow Company Configuration on Storefront Registration]**&#x200B;을(를) **예**(으)로 설정합니다. 이 필드는 **[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;이(가) **예**(으)로 설정된 경우에만 나타납니다.
+
+### 개선 사항 및 버그 수정
+
+이 릴리스에는 다음과 같은 개선 사항, 최적화 및 버그 수정이 포함되어 있습니다.
+
+* 선택적 설정을 사용하여 `collect_taxes` 웹후크에 대한 반복된 호출을 줄일 수 있습니다. Adobe Commerce 고객 성공 관리자에게 문의하여 활성화하십시오.
+
+* 이제 `collect_taxes` Webhook 페이로드에는 각 항목에 대한 `is_virtual`과(와) 동적 가격 번들의 하위 항목에 대한 `parent_code`이(가) 포함됩니다. <!-- CEXT-7035, CEXT-7049 -->
+
+* `addProductsToCart` GraphQL 돌연변이가 웹후크에서 반환된 항목 가격 대신 새 항목의 원래 가격을 반환할 수 있는 문제를 해결했습니다. <!-- CEXT-7019 -->
+
+* `plugin.magento.out_of_process_shipping_methods.api.shipping_rate_repository.get_rates` 웹후크에서 처리 중이 아닌 배송 운송업체에서 제공한 요금을 제거하지 않는 문제가 해결되었습니다. <!-- ACCS-2251 -->
+
+* 사용자 지정 특성을 사용할 때 `observer.rma_save_before` 웹후크의 변경 내용이 REST를 통해 저장되지 않는 문제를 해결했습니다. <!-- CCSAAS-5728 -->
+
+* 관리자가 협상 가능한 견적을 만든 후 404 오류를 반환하는 문제가 해결되었습니다. <!-- CCSAAS-5864 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
+
+## 2026년 11월 - 릴리스 #2
 
 <!-- [!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time to test upcoming changes before the release is available on Production environments."} -->
 
