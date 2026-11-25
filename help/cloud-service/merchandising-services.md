@@ -61,9 +61,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 71700f3fc10957ec2b1cccb7df12acd9840c35a1
+source-git-commit: ca2330c059ede860c464134878a83babd12eb148
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
 
@@ -118,11 +118,18 @@ Storefront에서 카탈로그 데이터를 검색하는 방법은 구현에 따�
 - **[!DNL Adobe Commerce Storefront]** 드롭인 - 드롭인이 전환을 처리합니다. 코드를 변경할 필요가 없습니다. [상점 설치 설명서](https://experienceleague.adobe.com/en/tools/commerce-storefront/)를 참조하세요.
 - **사용자 지정 또는 기타 상점**—[헤더 구성 참조](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/#headers)에 설명된 대로 카탈로그 요청 헤더를 업데이트합니다.
 
-CCDM 기반 모델에 대한 카탈로그 쿼리 및 요청 헤더를 검토합니다. 기존 쿼리나 헤더가 변경되지 않았다고 가정하지 마십시오. 머천다이징 GraphQL 쿼리는 원래 카탈로그 서비스 모델에 사용된 쿼리와 다릅니다. 추가 쿼리는 CCDM을 지원합니다. [머천다이징 GraphQL API 참조](https://developer.adobe.com/commerce/services/reference/graphql/)를 사용하고 [storefront 헤더 참조](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/#headers)에 대해 필요한 카탈로그 컨텍스트를 확인하십시오.
-
 ### 타사 앱 및 확장
 
 카탈로그 데이터를 읽거나 공급자와 함께 카탈로그 이벤트를 사용하는 타사 앱 및 확장을 검토하십시오. 호환성은 각 앱 또는 확장에서 이러한 인터페이스를 사용하는 방법에 따라 다릅니다.
+
+### 머천다이징 API
+
+머천다이징 서비스는 백엔드 카탈로그 데이터 관리 및 상점 카탈로그 검색을 위한 API를 제공합니다. REST API를 사용하여 카탈로그 데이터를 관리하고 GraphQL API를 사용하여 상점 경험을 위한 데이터를 검색합니다.
+
+- **REST API:** [데이터 수집 API 시작](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api)에 따라 백 엔드 애플리케이션에서 제품 및 카탈로그 데이터를 만들고 관리합니다.
+- **GraphQL API:** [머천다이징 API 시작](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api)에 따라 상점 경험을 위한 카탈로그 데이터를 검색합니다. [storefront 헤더 참조](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/#headers)에 설명된 대로 storefront에 필요한 헤더로 요청을 구성합니다.
+
+CCDM 기반 모델에 대한 카탈로그 쿼리 및 요청 헤더를 검토합니다. 기존 쿼리나 헤더가 변경되지 않았다고 가정하지 마십시오. 머천다이징 GraphQL 쿼리는 원래 카탈로그 서비스 모델에 사용된 쿼리와 다릅니다. 추가 쿼리는 CCDM을 지원합니다. [머천다이징 GraphQL API 참조](https://developer.adobe.com/commerce/services/reference/graphql/)를 사용하고 [통합 헤더 참조](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#headers)에 대해 필요한 카탈로그 컨텍스트를 확인하십시오.
 
 ### 관리자 경험
 
